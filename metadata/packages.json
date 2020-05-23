@@ -380,7 +380,7 @@
         "download": [
             {
                 "name": "fs2open",
-                "url":  "https://d10sfan.gitlab.io/luxtorpeda-fs2open/",
+                "url":  "https://luxtorpeda-dev.github.io/assets/fs2open/",
                 "file": "fs2open-273620.tar.xz"
             }
         ],
