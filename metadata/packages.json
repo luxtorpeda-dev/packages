@@ -315,7 +315,7 @@
         "download": [
             {
                 "name": "OpenMW",
-                "url":  "https://luxtorpeda.gitlab.io/packages/openmw/",
+                "url":  "https://luxtorpeda-dev.github.io/assets/openmw/",
                 "file": "openmw-22320.tar.xz"
             }
         ],
