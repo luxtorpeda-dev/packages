@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# CLONE PHASE
+git clone --recursive https://github.com/dreamer/avp-forever source
+pushd source
+git checkout 5673c166
+popd
+git clone --recursive https://github.com/MrAlert/sdlcl sdlcl
+pushd sdlcl
+git checkout 85ca5537
+popd
+
+readonly pfx="$PWD/local"
+mkdir -p "$pfx"
+
+# BUILD PHASE
+pushd "source"
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    ..
+make -j "$(nproc)"
+popd
+
+pushd "sdlcl"
+make
+popd
+
+# COPY PHASE
+cp -rfv "source/build/avp" "$diststart/3730/dist/avp"
+cp -rfv "assets/run-avp.sh" "$diststart/3730/dist/"
+cp -rfv "sdlcl/libSDL-1.2.so.0" "$diststart/3730/dist/"

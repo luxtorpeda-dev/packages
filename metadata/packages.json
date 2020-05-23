@@ -419,8 +419,8 @@
         "game_name": "Aliens versus Predator Classic",
         "download": [
             {
-                "name": "AVP",
-                "url":  "https://luxtorpeda-dev.gitlab.io/packages/avp/",
+                "name": "avp",
+                "url":  "https://luxtorpeda-dev.github.io/assets/avp/",
                 "file": "avp-3730.tar.xz"
             }
         ],
@@ -429,7 +429,7 @@
             "store_link": "https://store.steampowered.com/app/3730/Aliens_versus_Predator_Classic_2000/",
             "engine_name": "avp-forever",
             "engine_link": "https://github.com/dreamer/avp-forever",
-            "version": "",
+            "version": "other/icculus-releases-rebased-1",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan"
