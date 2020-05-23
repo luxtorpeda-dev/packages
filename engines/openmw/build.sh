@@ -79,12 +79,10 @@ cp -rfv "local/"{lib,lib64}/*.so* "$diststart/22320/dist/lib/"
 cp -rfv "local/lib64/"osgPlugins-* "$diststart/22320/dist/lib/"
 cp -rfv "$tmp/usr/local/"{bin,etc,share} "$diststart/22320/dist/"
 
-cp "openmw.sh" "$diststart/22320/dist/"
+cp "assets/openmw.sh" "$diststart/22320/dist/"
 
 generate_openmw_cfg "$tmp/usr/local/etc/openmw/openmw.cfg" > "$diststart/22320/dist/openmw.cfg"
 cp "$tmp/usr/local/etc/openmw/settings-default.cfg" "$diststart/22320/dist/"
 
 # TODO: compile launcher, forcing Qt 5.x if possible
-cp openmw-launcher-wrapper "$diststart/22320/dist/"
-
-
+cp assets/openmw-launcher-wrapper "$diststart/22320/dist/"
