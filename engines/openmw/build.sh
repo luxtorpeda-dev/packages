@@ -72,7 +72,6 @@ make -j "$(nproc)"
 DESTDIR="$tmp" make install
 popd
 
-
 # COPY PHASE
 mkdir -p "$diststart/22320/dist/lib/"
 cp -rfv "local/"{lib,lib64}/*.so* "$diststart/22320/dist/lib/"
