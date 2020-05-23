@@ -5,7 +5,7 @@ git clone --recursive https://github.com/scp-fs2open/fs2open.github.com source
 pushd source
 git checkout d52bddf0
 popd
-git clone --recursive git://source.ffmpeg.org/ffmpeg.git ffmpeg
+git clone --recursive https://github.com/FFmpeg/FFmpeg.git ffmpeg
 pushd ffmpeg
 git checkout 523da8ea
 popd
