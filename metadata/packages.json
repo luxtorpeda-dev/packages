@@ -399,9 +399,9 @@
         "game_name": "Doom 3: BFG Edition",
         "download": [
             {
-                "name": "doom3bfg",
-                "url":  "https://d10sfan.gitlab.io/luxtorpeda-doom3bfg/",
-                "file": "doom3bfg-208200.tar.xz"
+                "name": "rbdoom-3-bfg",
+                "url":  "https://luxtorpeda-dev.github.io/assets/rbdoom-3-bfg/",
+                "file": "rbdoom-3-bfg-208200.tar.xz"
             }
         ],
         "command": "./RBDoom3BFG",
