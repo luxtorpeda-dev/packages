@@ -1,0 +1,55 @@
+name: Build Engine
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'engines/**'
+
+jobs:
+  findengine:
+    runs-on: ubuntu-latest
+    outputs:
+      engine: ${{ steps.findname.outputs.engine }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Find Engine Name
+      id: findname
+      uses: luxtorpeda-dev/action-build-get-engine-name@v1
+      with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+  build:
+    runs-on: ubuntu-latest
+    needs: findengine
+    container:
+      image: luxtorpeda/steam-runtime-amd64-beta:lux-190812-1
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Build
+      run: ./common/start_build.sh ${{needs.findengine.outputs.engine}}
+    - name: Package
+      run: ./common/package.sh ${{needs.findengine.outputs.engine}}
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v1
+      with:
+        name: dist
+        path: ./dist
+  deploy:
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Artifacts
+        uses: actions/download-artifact@v1
+        with:
+          name: dist
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY_ASSETS }}
+          publish_dir: ./dist
+          keep_files: true
+          external_repository: luxtorpeda-dev/assets
+          publish_branch: master
