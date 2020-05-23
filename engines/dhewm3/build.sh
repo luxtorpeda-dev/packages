@@ -7,13 +7,13 @@ git checkout 3a763fc6
 popd
 
 # BUILD PHASE
-pushd source/neo || exit 1
+pushd source/neo
 mkdir build
-cd build || exit 1
+cd build
 cmake -DCMAKE_INSTALL_PREFIX=../../../tmp ..
 make -j "$(nproc)"
 make install
-popd || exit 1
+popd
 
 # COPY PHASE
 cp -rfv tmp/bin/* "$diststart/9050/dist/"
