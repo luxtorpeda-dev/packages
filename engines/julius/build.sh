@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# CLONE PHASE
+git clone --recursive https://github.com/bvschaik/julius.git source
+pushd source
+git checkout eb435bc6
+popd
+
+# BUILD PHASE
+pushd "source"
+mkdir -p build
+cd build
+cmake ..
+make -j "$(nproc)"
+popd
+
+# COPY PHASE
+cp -rfv "source/build/julius" "$diststart/517790/dist/"
