@@ -6,7 +6,8 @@ pushd source
 git checkout 47f2a21
 popd
 curl -fsSL -o glslang-master-linux-Release.zip https://github.com/KhronosGroup/glslang/releases/download/master-tot/glslang-master-linux-Release.zip
-unzip glslang-master-linux-Release.zip
+mkdir glslang
+unzip glslang-master-linux-Release.zip -d glslang
 
 # BUILD PHASE
 readonly pstart="$PWD"
