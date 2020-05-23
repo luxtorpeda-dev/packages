@@ -31,7 +31,7 @@ DESTDIR="$tmp" make install
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/3730/dist/lib/"
-cp -rfv "local/"lib/*.so* "$diststart/3730/dist/lib/"
-cp -rfv "source/build/bin/fs2_open_20_1_0_x64" "$diststart/3730/dist/fs2_open_x64"
-cp -rfv "assets/run-freespace2.sh" "$diststart/3730/dist/run-freespace2.sh"
+mkdir -p "$diststart/273620/dist/lib/"
+cp -rfv "local/"lib/*.so* "$diststart/273620/dist/lib/"
+cp -rfv "source/build/bin/fs2_open_20_1_0_x64" "$diststart/273620/dist/fs2_open_x64"
+cp -rfv "assets/run-freespace2.sh" "$diststart/273620/dist/run-freespace2.sh"
