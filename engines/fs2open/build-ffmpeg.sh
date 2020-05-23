@@ -1,5 +1,7 @@
 #!/bin/bash
 
+readonly pfx="$PWD/local"
+
 # build ffmpeg
 # Steam Runtime is missing: libswresample, libavresample
 pushd "ffmpeg"
