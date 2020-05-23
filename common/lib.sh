@@ -15,10 +15,10 @@ prepare_manifest_files () {
 }
 
 list_dist () {
-	{
-		find dist -type f
-		find dist -type l
-	} | sed 's/\ /\\ /g' | sort
+    {
+        find dist -type f
+        find dist -type l
+    } | sort
 }
 
 create_archives () {
@@ -33,7 +33,7 @@ create_archives () {
             --group=0 \
             --mtime='@1560859200' \
             -cf "$filename".tar \
-            $(list_dist) || exit 1
+            --files-from=$(list_dist)
         xz "$filename".tar
         sha1sum "$filename".tar.xz
         popd || exit 1
