@@ -14,13 +14,6 @@ prepare_manifest_files () {
 	mkdir -p "$diststart/$ENGINE_NAME"
 }
 
-list_dist () {
-    {
-        find dist -type f
-        find dist -type l
-    } | sort
-}
-
 create_archives () {
     for app_id in $STEAM_APP_ID_LIST ; do
         filename="$ENGINE_NAME-$app_id"
@@ -33,12 +26,12 @@ create_archives () {
             --group=0 \
             --mtime='@1560859200' \
             -cf "$filename".tar \
-            --files-from=$(list_dist)
+            dist
         xz "$filename".tar
         sha1sum "$filename".tar.xz
         popd || exit 1
         mv "$app_id/$filename".tar.xz "$diststart/$ENGINE_NAME/$filename".tar.xz
-	rm -rf "$app_id"
+    rm -rf "$app_id"
     done
 }
 
