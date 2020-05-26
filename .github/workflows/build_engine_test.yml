@@ -15,9 +15,7 @@ jobs:
     - name: Find Engine Name
       id: findname
       run: echo "::set-output name=engine::test123"
-    - name: Test
-      run: echo ${{ steps.findname.outputs.engine }}
-    - name: Create Package
+    - name: Create Package on Bintray
       uses: benjefferies/create-bintray-package@c74a218
       with:
         bintray-user: ${{ secrets.BINTRAY_USER }}
@@ -59,10 +57,23 @@ jobs:
         with:
           name: dist
   deploy:
-    needs: finddeploy
+    needs: [finddeploy, findengine]
     runs-on: ubuntu-latest
     strategy:
       matrix: ${{fromJson(needs.finddeploy.outputs.matrix)}}
     steps:
-    - name: test
-      run: echo "${{ matrix.name }} ${{ matrix.fileName }}"
+    - name: Download Artifacts
+      uses: actions/download-artifact@v1
+      with:
+        name: dist
+    - name: Upload Package to Bintray
+      uses: bpicode/github-action-upload-bintray@master
+      with:
+        file: ${{ matrix.fileName }}
+        api_user: ${{ secrets.BINTRAY_USER }}
+        api_key: ${{ secrets.BINTRAY_API_KEY }}
+        repository_user: ${{ secrets.BINTRAY_OWNER }}
+        repository: ${{ secrets.BINTRAY_REPO }}
+        package: ${{ steps.findname.outputs.engine }}
+        version: ${{ github.sha }}
+        publish: 1
