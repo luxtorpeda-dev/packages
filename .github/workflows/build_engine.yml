@@ -66,7 +66,7 @@ jobs:
           name: dist
       - name: Generate Matrix
         id: matrix
-        uses: luxtorpeda-dev/action-build-generate-file-matrix@master
+        uses: luxtorpeda-dev/action-build-generate-file-matrix@v1
         with:
           name: dist/${{needs.findengine.outputs.engine}}
   deploy:
@@ -80,7 +80,7 @@ jobs:
       with:
         name: dist
     - name: Upload Package to Bintray
-      uses: luxtorpeda-dev/github-action-upload-bintray@master
+      uses: luxtorpeda-dev/github-action-upload-bintray@v1
       with:
         file: ${{ matrix.fileName }}
         file_name: "${{ matrix.name }}-${{ needs.findengine.outputs.build_number }}${{ matrix.extension }}"
@@ -93,3 +93,8 @@ jobs:
         version: ${{ needs.findengine.outputs.build_number }}
         publish: 1
         calculate_metadata: false
+  update_packages:
+    needs: deploy
+    runs-on: ubuntu-latest
+    
+    
