@@ -2,7 +2,7 @@ name: Build Engine
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, test ]
     paths:
       - 'engines/**'
 
@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       engine: ${{ steps.findname.outputs.engine }}
+      build_number: ${{ steps.buildnumber.outputs.build_number }}
     steps:
     - name: Checkout
       uses: actions/checkout@v1
@@ -19,6 +20,23 @@ jobs:
       uses: luxtorpeda-dev/action-build-get-engine-name@v1
       with:
           token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Create Package on Bintray
+      uses: benjefferies/create-bintray-package@c74a218
+      with:
+        bintray-user: ${{ secrets.BINTRAY_USER }}
+        bintray-token: ${{ secrets.BINTRAY_API_KEY }}
+        owner: ${{ secrets.BINTRAY_OWNER }}
+        repo: ${{ secrets.BINTRAY_REPO }}
+        package-name: ${{ steps.findname.outputs.engine }}
+        package-description: Package for ${{ steps.findname.outputs.engine }}
+        package-url: NONE
+        package-license: GPL-2.0
+    - name: Generate build number
+      id: buildnumber
+      uses: einaregilsson/build-number@v2 
+      with:
+        token: ${{ secrets.github_token }}
+        prefix: ${{ steps.findname.outputs.engine }}
   build:
     runs-on: ubuntu-latest
     needs: findengine
@@ -36,20 +54,42 @@ jobs:
       with:
         name: dist
         path: ./dist
-  deploy:
+  finddeploy:
     needs: [build]
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
     steps:
       - name: Download Artifacts
         uses: actions/download-artifact@v1
         with:
           name: dist
-      - name: Publish
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Generate Matrix
+        id: matrix
+        uses: luxtorpeda-dev/action-build-generate-file-matrix@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY_ASSETS }}
-          publish_dir: ./dist
-          keep_files: true
-          external_repository: luxtorpeda-dev/assets
-          publish_branch: master
+          name: dist
+  deploy:
+    needs: [finddeploy, findengine]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: ${{fromJson(needs.finddeploy.outputs.matrix)}}
+    steps:
+    - name: Download Artifacts
+      uses: actions/download-artifact@v1
+      with:
+        name: dist
+    - name: Upload Package to Bintray
+      uses: luxtorpeda-dev/github-action-upload-bintray@master
+      with:
+        file: ${{ matrix.fileName }}
+        file_name: "${{ matrix.name }}-${{ needs.findengine.outputs.build_number }}.${{ matrix.extension }}"
+        upload_path: '/'
+        api_user: ${{ secrets.BINTRAY_USER }}
+        api_key: ${{ secrets.BINTRAY_API_KEY }}
+        repository_user: ${{ secrets.BINTRAY_OWNER }}
+        repository: ${{ secrets.BINTRAY_REPO }}
+        package: ${{ needs.findengine.outputs.engine }}
+        version: ${{ needs.findengine.outputs.build_number }}
+        publish: 1
+        calculate_metadata: false
