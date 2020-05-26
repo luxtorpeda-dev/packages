@@ -292,8 +292,8 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url": "https://luxtorpeda-dev.github.io/assets/dhewm3/",
-                "file": "dhewm3-9050.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "dhewm3-9050-11.tar.xz"
             }
         ],
         "command": "./dhewm3",
@@ -312,8 +312,8 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url": "https://luxtorpeda-dev.github.io/assets/dhewm3/",
-                "file": "dhewm3-9070.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "dhewm3-9070-11.tar.xz"
             }
         ],
         "command": "./dhewm3",
