@@ -26,7 +26,7 @@ jobs:
         repo: ${{ secrets.BINTRAY_REPO }}
         package-name: ${{ steps.findname.outputs.engine }}
         package-description: Package for ${{ steps.findname.outputs.engine }}
-        package-url: https://github.com/luxtorpeda-dev/packages/engines/${{ steps.findname.outputs.engine }}
+        package-url: NONE
         package-license: GPL-2.0
   build:
     runs-on: ubuntu-latest
