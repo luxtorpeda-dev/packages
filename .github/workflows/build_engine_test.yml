@@ -55,7 +55,7 @@ jobs:
         uses: luxtorpeda-dev/action-build-generate-file-matrix@master
         with:
             name: dist
-   deploy:
+  deploy:
     needs: finddeploy
     runs-on: ubuntu-latest
     strategy:
