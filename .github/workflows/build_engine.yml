@@ -68,7 +68,7 @@ jobs:
         id: matrix
         uses: luxtorpeda-dev/action-build-generate-file-matrix@master
         with:
-          name: dist
+          name: dist/${{needs.findengine.outputs.engine}}
   deploy:
     needs: [finddeploy, findengine]
     runs-on: ubuntu-latest
