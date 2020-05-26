@@ -94,7 +94,14 @@ jobs:
         publish: 1
         calculate_metadata: false
   update_packages:
-    needs: deploy
+    needs: [deploy, finddeploy]
     runs-on: ubuntu-latest
+    steps:
+      - name: Update packages.json
+        uses: luxtorpeda-dev/action-build-update-packages@master
+        with:
+          matrix: ${{ needs.finddeploy.outputs.matrix }}
+          version: ${{ needs.findengine.outputs.build_number }}
+    
     
     
