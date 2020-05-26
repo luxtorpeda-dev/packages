@@ -77,3 +77,4 @@ jobs:
         package: ${{ needs.findengine.outputs.engine }}
         version: ${{ github.sha }}
         publish: 1
+        calculate_metadata: false
