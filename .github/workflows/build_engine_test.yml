@@ -15,6 +15,8 @@ jobs:
     - name: Find Engine Name
       id: findname
       run: echo "::set-output name=engine::test123"
+    - name: Test
+      run: echo "${{ steps.findengine.outputs.engine }}"
     - name: Create Package
       uses: benjefferies/create-bintray-package@c74a218
       with:
@@ -22,9 +24,9 @@ jobs:
         bintray-token: ${{ secrets.BINTRAY_API_KEY }}
         owner: ${{ secrets.BINTRAY_OWNER }}
         repo: ${{ secrets.BINTRAY_REPO }}
-        package-name: ${{steps.findengine.outputs.engine}}
-        package-description: Package for ${{steps.findengine.outputs.engine}}
-        package-url: https://github.com/luxtorpeda-dev/packages/engines/${{steps.findengine.outputs.engine}}
+        package-name: ${{ steps.findengine.outputs.engine }}
+        package-description: Package for ${{ steps.findengine.outputs.engine }}
+        package-url: https://github.com/luxtorpeda-dev/packages/engines/${{ steps.findengine.outputs.engine }}
         package-license: GPL-2.0
   build:
     runs-on: ubuntu-latest
