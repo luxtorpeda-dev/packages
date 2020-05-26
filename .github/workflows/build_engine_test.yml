@@ -75,7 +75,7 @@ jobs:
       uses: masofcon/upload-to-bintray-github-action@97e1081
       with:
         source_path: ${{ matrix.fileName }}
-        api_user: ${{ secrets.BINTRAY_USER }}
+        api_user: ${{ secrets.BINTRAY_OWNER }}
         api_key: ${{ secrets.BINTRAY_API_KEY }}
         repository: ${{ secrets.BINTRAY_REPO }}
         package: ${{ needs.findengine.outputs.engine }}
