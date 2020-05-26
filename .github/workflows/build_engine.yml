@@ -94,7 +94,7 @@ jobs:
         publish: 1
         calculate_metadata: false
   update_packages:
-    needs: [deploy, finddeploy]
+    needs: [deploy, finddeploy, findengine]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
