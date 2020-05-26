@@ -31,7 +31,7 @@ jobs:
         name: dist
         path: ./dist
   finddeploy:
-    needs: [build, findengine]
+    needs: [build]
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.findname.outputs.matrix }}
