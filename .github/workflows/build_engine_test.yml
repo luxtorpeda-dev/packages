@@ -84,6 +84,6 @@ jobs:
         repository_user: ${{ secrets.BINTRAY_OWNER }}
         repository: ${{ secrets.BINTRAY_REPO }}
         package: ${{ needs.findengine.outputs.engine }}
-        version: ${{ steps.buildnumber.outputs.build_number }}
+        version: ${{ needs.findengine.outputs.build_number }}
         publish: 1
         calculate_metadata: false
