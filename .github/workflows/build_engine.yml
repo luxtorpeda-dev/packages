@@ -83,7 +83,7 @@ jobs:
       uses: luxtorpeda-dev/github-action-upload-bintray@master
       with:
         file: ${{ matrix.fileName }}
-        file_name: "${{ matrix.name }}-${{ needs.findengine.outputs.build_number }}.${{ matrix.extension }}"
+        file_name: "${{ matrix.name }}-${{ needs.findengine.outputs.build_number }}${{ matrix.extension }}"
         upload_path: '/'
         api_user: ${{ secrets.BINTRAY_USER }}
         api_key: ${{ secrets.BINTRAY_API_KEY }}
