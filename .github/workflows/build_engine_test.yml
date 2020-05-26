@@ -10,8 +10,6 @@ jobs:
     outputs:
       engine: ${{ steps.findname.outputs.engine }}
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
     - name: Find Engine Name
       id: findname
       run: echo "::set-output name=engine::test123"
@@ -62,20 +60,26 @@ jobs:
     strategy:
       matrix: ${{fromJson(needs.finddeploy.outputs.matrix)}}
     steps:
+    - uses: actions/checkout@v1
     - name: Download Artifacts
       uses: actions/download-artifact@v1
       with:
         name: dist
-    - name: Upload Package to Bintray
-      uses: bpicode/github-action-upload-bintray@master
+    - name: Generate build number
+      id: buildnumber
+      uses: einaregilsson/build-number@v2 
       with:
-        file: ${{ matrix.fileName }}
+        token: ${{ secrets.github_token }}
+        prefix: ${{ needs.findengine.outputs.engine }}
+    - name: Upload Package to Bintray
+      uses: masofcon/upload-to-bintray-github-action@97e1081
+      with:
+        source_path: ${{ matrix.fileName }}
         api_user: ${{ secrets.BINTRAY_USER }}
         api_key: ${{ secrets.BINTRAY_API_KEY }}
-        repository_user: ${{ secrets.BINTRAY_OWNER }}
         repository: ${{ secrets.BINTRAY_REPO }}
         package: ${{ needs.findengine.outputs.engine }}
-        version: ${{ github.sha }}
-        upload_path: '/'
+        version: ${{ steps.buildnumber.outputs.build_number }}
+        upload_path: "${{ matrix.fileName }}-${{ steps.buildnumber.outputs.build_number }}.${{ matrix.extension }}"
         publish: 1
-        calculate_metadata: false
+        explode: 0
