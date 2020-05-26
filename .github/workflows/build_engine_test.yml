@@ -72,14 +72,16 @@ jobs:
         token: ${{ secrets.github_token }}
         prefix: ${{ needs.findengine.outputs.engine }}
     - name: Upload Package to Bintray
-      uses: masofcon/upload-to-bintray-github-action@97e1081
+      uses: luxtorpeda-dev/github-action-upload-bintray@master
       with:
-        source_path: ${{ matrix.fileName }}
-        api_user: ${{ secrets.BINTRAY_OWNER }}
+        file: ${{ matrix.fileName }}
+        file_name: "${{ matrix.fileName }}-${{ steps.buildnumber.outputs.build_number }}.${{ matrix.extension }}"
+        upload_path: '/'
+        api_user: ${{ secrets.BINTRAY_USER }}
         api_key: ${{ secrets.BINTRAY_API_KEY }}
+        repository_user: ${{ secrets.BINTRAY_OWNER }}
         repository: ${{ secrets.BINTRAY_REPO }}
         package: ${{ needs.findengine.outputs.engine }}
         version: ${{ steps.buildnumber.outputs.build_number }}
-        upload_path: "${{ matrix.fileName }}-${{ steps.buildnumber.outputs.build_number }}.${{ matrix.extension }}"
         publish: 1
-        explode: 0
+        calculate_metadata: false
