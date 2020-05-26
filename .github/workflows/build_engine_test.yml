@@ -23,7 +23,8 @@ jobs:
         owner: ${{ secrets.BINTRAY_OWNER }}
         repo: ${{ secrets.BINTRAY_REPO }}
         package-name: ${{steps.findengine.outputs.engine}}
-        package-url: https://github.com/luxtorpeda-dev/packages/engines/${{needs.findengine.outputs.engine}}
+        package-description: Package for ${{steps.findengine.outputs.engine}}
+        package-url: https://github.com/luxtorpeda-dev/packages/engines/${{steps.findengine.outputs.engine}}
         package-license: GPL-2.0
   build:
     runs-on: ubuntu-latest
