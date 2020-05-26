@@ -76,5 +76,6 @@ jobs:
         repository: ${{ secrets.BINTRAY_REPO }}
         package: ${{ needs.findengine.outputs.engine }}
         version: ${{ github.sha }}
+        upload_path: '/'
         publish: 1
         calculate_metadata: false
