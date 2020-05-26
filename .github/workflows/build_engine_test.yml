@@ -40,16 +40,6 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: dist
-      - name: Create Package
-        uses: benjefferies/create-bintray-package@c74a218
-        with:
-          bintray-user: ${{ secrets.BINTRAY_USER }}
-          bintray-token: ${{ secrets.BINTRAY_API_KEY }}
-          owner: ${{ secrets.BINTRAY_OWNER }}
-          repo: ${{ secrets.BINTRAY_REPO }}
-          package-name: ${{needs.findengine.outputs.engine}}
-          package-url: https://github.com/luxtorpeda-dev/packages/engines/${{needs.findengine.outputs.engine}}
-          package-license: GPL-2.0
       - name: Find Engine Name
         id: findname
         uses: luxtorpeda-dev/action-build-generate-file-matrix@master
