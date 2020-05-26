@@ -72,7 +72,7 @@ jobs:
     - name: Download Artifacts
       uses: actions/download-artifact@v1
       with:
-        name: dist
+        name: dist/${{ steps.findname.outputs.engine }}
     - name: Upload Package to Bintray
       uses: luxtorpeda-dev/github-action-upload-bintray@master
       with:
