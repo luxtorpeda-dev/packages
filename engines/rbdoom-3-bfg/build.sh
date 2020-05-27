@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone --recursive https://github.com/RobertBeckebans/RBDOOM-3-BFG.git source
+git clone https://github.com/RobertBeckebans/RBDOOM-3-BFG.git source
 pushd source
 git checkout 7eddea53
 popd
