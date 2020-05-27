@@ -1,13 +1,15 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone --recursive https://github.com/scp-fs2open/fs2open.github.com source
+git clone https://github.com/scp-fs2open/fs2open.github.com source
 pushd source
-git checkout d52bddf0
+git checkout -f d52bddf0
+git submodule update --init --recursive
 popd
-git clone --recursive https://github.com/FFmpeg/FFmpeg.git ffmpeg
+git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg
 pushd ffmpeg
-git checkout 523da8ea
+git checkout -f 523da8ea
+git submodule update --init --recursive
 popd
 
 readonly pfx="$PWD/local"
