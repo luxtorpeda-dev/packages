@@ -367,8 +367,8 @@
         "download": [
             {
                 "name": "opengothic",
-                "url": "https://luxtorpeda-dev.github.io/assets/opengothic/",
-                "file": "opengothic-39510.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "opengothic-39510-1.tar.xz"
             }
         ],
         "command": "./run-gothic2.sh",
