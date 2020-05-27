@@ -2,7 +2,7 @@ name: Build Engine
 
 on:
   push:
-    branches: [ master, test ]
+    branches: [ master ]
     paths:
       - 'engines/**'
 
@@ -100,7 +100,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
         with:
-          ref: test
+          ref: master
       - name: Update packages.json
         uses: luxtorpeda-dev/action-build-update-packages@v3
         with:
