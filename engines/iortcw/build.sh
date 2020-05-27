@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone --recursive https://github.com/iortcw/iortcw.git source
+git clone https://github.com/iortcw/iortcw.git source
 pushd source
 git checkout c42648b0
 popd

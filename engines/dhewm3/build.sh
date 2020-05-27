@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone --recursive https://github.com/dhewm/dhewm3.git source
+git clone https://github.com/dhewm/dhewm3.git source
 pushd source
 git checkout 3a763fc6
 popd

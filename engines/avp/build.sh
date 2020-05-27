@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone --recursive https://github.com/dreamer/avp-forever source
+git clone https://github.com/dreamer/avp-forever source
 pushd source
 git checkout 5673c166
 popd
-git clone --recursive https://github.com/MrAlert/sdlcl sdlcl
+git clone https://github.com/MrAlert/sdlcl sdlcl
 pushd sdlcl
 git checkout 85ca5537
 popd
