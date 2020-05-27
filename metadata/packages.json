@@ -255,8 +255,8 @@
         "download": [
             {
                 "name": "iortcw",
-                "url": "https://luxtorpeda-dev.github.io/assets/iortcw/",
-                "file": "iortcw-9010.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "iortcw-9010-1.tar.xz"
             }
         ],
         "commands": {
