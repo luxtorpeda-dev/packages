@@ -6,6 +6,7 @@ pushd source
 git checkout -f d52bddf0
 git submodule update --init --recursive
 popd
+
 git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg
 pushd ffmpeg
 git checkout -f 523da8ea
