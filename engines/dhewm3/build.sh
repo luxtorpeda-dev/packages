@@ -21,4 +21,3 @@ cp -rfv tmp/lib/dhewm3/* "$diststart/9050/dist/"
 
 cp -rfv tmp/bin/* "$diststart/9070/dist/"
 cp -rfv tmp/lib/dhewm3/* "$diststart/9070/dist/"
-
