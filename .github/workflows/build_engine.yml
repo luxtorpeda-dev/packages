@@ -100,7 +100,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Update packages.json
-        uses: luxtorpeda-dev/action-build-update-packages@v1
+        uses: luxtorpeda-dev/action-build-update-packages@v2
         with:
           matrix: ${{ needs.finddeploy.outputs.matrix }}
           version: ${{ needs.findengine.outputs.build_number }}
