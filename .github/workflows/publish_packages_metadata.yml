@@ -2,7 +2,7 @@ name: Publish Packages Metadata
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, test ]
     paths:
       - 'metadata/*'
 
