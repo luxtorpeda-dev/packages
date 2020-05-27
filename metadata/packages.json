@@ -3,9 +3,9 @@
         "game_name": "Arx Fatalis",
         "download": [
             {
-                "name": "Arx Libertatis",
-                "url":  "https://luxtorpeda-dev.github.io/assets/arxlibertatis/",
-                "file": "arxlibertatis-1700.tar.xz"
+                "name": "arxlibertatis",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "arxlibertatis-1700-7.tar.xz"
             }
         ],
         "command": "./arx",
@@ -23,9 +23,9 @@
         "game_name": "Arx Fatalis (Demo)",
         "download": [
             {
-                "name": "Arx Libertatis",
-                "url":  "https://luxtorpeda-dev.github.io/assets/arxlibertatis/",
-                "file": "arxlibertatis-1700.tar.xz"
+                "name": "arxlibertatis",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "arxlibertatis-1710-7.tar.xz"
             }
         ],
         "command": "./arx",
@@ -44,83 +44,8 @@
         "download": [
             {
                 "name": "ioquake3",
-                "url":  "https://luxtorpeda.gitlab.io/packages/ioq3/",
+                "url": "https://luxtorpeda.gitlab.io/packages/ioq3/",
                 "file": "ioq3-2200.tar.xz"
-            }
-        ]
-    },
-    "2310": {
-        "game_name": "Quake",
-        "download": [
-            {
-                "name": "vkQuake",
-                "url":  "https://luxtorpeda.gitlab.io/packages/vkquake/",
-                "file": "vkquake-2310.tar.xz"
-            },
-            {
-                "name": "Quake Soundtrack",
-                "url":  "https://luxtorpeda.gitlab.io/files/idstuff/quake/",
-                "file": "quake-campaign-soundtrack.tar.xz"
-            }
-        ]
-    },
-    "2320": {
-        "game_name": "Quake II",
-        "download": [
-            {
-                "name": "Yamagi Quake II",
-                "url":  "https://luxtorpeda.gitlab.io/packages/yquake2/",
-                "file": "yquake2-2320.tar.xz"
-            },
-            {
-                "name": "Quake II Soundtrack",
-                "url":  "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
-                "file": "quake2-music.tar.xz"
-            }
-        ]
-    },
-    "2330": {
-        "game_name": "Quake II: The Reckoning",
-        "download": [
-            {
-                "name": "Yamagi Quake II",
-                "url":  "https://luxtorpeda.gitlab.io/packages/yquake2/",
-                "file": "yquake2-2320.tar.xz"
-            },
-            {
-                "name": "The Reckoning Soundtrack",
-                "url":  "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
-                "file": "quake2-xatrix-music.tar.xz"
-            }
-        ]
-    },
-    "2340": {
-        "game_name": "Quake II: Ground Zero",
-        "download": [
-            {
-                "name": "Yamagi Quake II",
-                "url":  "https://luxtorpeda.gitlab.io/packages/yquake2/",
-                "file": "yquake2-2320.tar.xz"
-            },
-            {
-                "name": "Ground Zero Soundtrack",
-                "url":  "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
-                "file": "quake2-rogue-music.tar.xz"
-            }
-        ]
-    },
-    "2350": {
-        "game_name": "Quake III: Team Arena",
-        "download": [
-            {
-                "name": "ioquake3",
-                "url":  "https://luxtorpeda.gitlab.io/packages/ioq3/",
-                "file": "ioq3-2350.tar.xz"
-            },
-            {
-                "name": "Patch Data",
-                "url":  "https://luxtorpeda.gitlab.io/files/idstuff/quake3/",
-                "file": "quake3ta-latest-pk3s.tar.xz"
             }
         ]
     },
@@ -129,7 +54,7 @@
         "download": [
             {
                 "name": "GZDoom",
-                "url":  "https://luxtorpeda.gitlab.io/packages/gzdoom/",
+                "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
                 "file": "gzdoom-2280.tar.xz"
             }
         ]
@@ -139,7 +64,7 @@
         "download": [
             {
                 "name": "GZDoom",
-                "url":  "https://luxtorpeda.gitlab.io/packages/gzdoom/",
+                "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
                 "file": "gzdoom-2290.tar.xz"
             }
         ]
@@ -149,8 +74,83 @@
         "download": [
             {
                 "name": "GZDoom",
-                "url":  "https://luxtorpeda.gitlab.io/packages/gzdoom/",
+                "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
                 "file": "gzdoom-2300.tar.xz"
+            }
+        ]
+    },
+    "2310": {
+        "game_name": "Quake",
+        "download": [
+            {
+                "name": "vkQuake",
+                "url": "https://luxtorpeda.gitlab.io/packages/vkquake/",
+                "file": "vkquake-2310.tar.xz"
+            },
+            {
+                "name": "Quake Soundtrack",
+                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake/",
+                "file": "quake-campaign-soundtrack.tar.xz"
+            }
+        ]
+    },
+    "2320": {
+        "game_name": "Quake II",
+        "download": [
+            {
+                "name": "Yamagi Quake II",
+                "url": "https://luxtorpeda.gitlab.io/packages/yquake2/",
+                "file": "yquake2-2320.tar.xz"
+            },
+            {
+                "name": "Quake II Soundtrack",
+                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
+                "file": "quake2-music.tar.xz"
+            }
+        ]
+    },
+    "2330": {
+        "game_name": "Quake II: The Reckoning",
+        "download": [
+            {
+                "name": "Yamagi Quake II",
+                "url": "https://luxtorpeda.gitlab.io/packages/yquake2/",
+                "file": "yquake2-2320.tar.xz"
+            },
+            {
+                "name": "The Reckoning Soundtrack",
+                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
+                "file": "quake2-xatrix-music.tar.xz"
+            }
+        ]
+    },
+    "2340": {
+        "game_name": "Quake II: Ground Zero",
+        "download": [
+            {
+                "name": "Yamagi Quake II",
+                "url": "https://luxtorpeda.gitlab.io/packages/yquake2/",
+                "file": "yquake2-2320.tar.xz"
+            },
+            {
+                "name": "Ground Zero Soundtrack",
+                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
+                "file": "quake2-rogue-music.tar.xz"
+            }
+        ]
+    },
+    "2350": {
+        "game_name": "Quake III: Team Arena",
+        "download": [
+            {
+                "name": "ioquake3",
+                "url": "https://luxtorpeda.gitlab.io/packages/ioq3/",
+                "file": "ioq3-2350.tar.xz"
+            },
+            {
+                "name": "Patch Data",
+                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake3/",
+                "file": "quake3ta-latest-pk3s.tar.xz"
             }
         ]
     },
@@ -159,7 +159,7 @@
         "download": [
             {
                 "name": "GZDoom",
-                "url":  "https://luxtorpeda.gitlab.io/packages/gzdoom/",
+                "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
                 "file": "gzdoom-2360.tar.xz"
             }
         ]
@@ -169,22 +169,42 @@
         "download": [
             {
                 "name": "GZDoom",
-                "url":  "https://luxtorpeda.gitlab.io/packages/gzdoom/",
+                "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
                 "file": "gzdoom-2390.tar.xz"
             }
         ]
+    },
+    "3730": {
+        "game_name": "Aliens versus Predator Classic",
+        "download": [
+            {
+                "name": "avp",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "avp-3730-1.tar.xz"
+            }
+        ],
+        "command": "./run-avp.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/3730/Aliens_versus_Predator_Classic_2000/",
+            "engine_name": "avp-forever",
+            "engine_link": "https://github.com/dreamer/avp-forever",
+            "version": "other/icculus-releases-rebased-1",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan"
+        }
     },
     "6020": {
         "game_name": "STAR WARS™ Jedi Knight: Jedi Academy™",
         "download": [
             {
                 "name": "OpenJK",
-                "url":  "https://luxtorpeda.gitlab.io/packages/openjk/",
+                "url": "https://luxtorpeda.gitlab.io/packages/openjk/",
                 "file": "openjk-6020.tar.xz"
             },
             {
                 "name": "EternalJK",
-                "url":  "https://luxtorpeda.gitlab.io/packages/eternaljk/",
+                "url": "https://luxtorpeda.gitlab.io/packages/eternaljk/",
                 "file": "eternaljk-6020.tar.xz"
             }
         ],
@@ -202,7 +222,7 @@
         "download": [
             {
                 "name": "OpenJK",
-                "url":  "https://luxtorpeda.gitlab.io/packages/openjk/",
+                "url": "https://luxtorpeda.gitlab.io/packages/openjk/",
                 "file": "openjk-6030.tar.xz"
             }
         ],
@@ -213,7 +233,7 @@
         "download": [
             {
                 "name": "OpenXcom",
-                "url":  "https://luxtorpeda.gitlab.io/packages/openxcom/",
+                "url": "https://luxtorpeda.gitlab.io/packages/openxcom/",
                 "file": "openxcom-7650.tar.xz"
             }
         ],
@@ -224,7 +244,7 @@
         "download": [
             {
                 "name": "OpenXcom",
-                "url":  "https://luxtorpeda.gitlab.io/packages/openxcom/",
+                "url": "https://luxtorpeda.gitlab.io/packages/openxcom/",
                 "file": "openxcom-7760.tar.xz"
             }
         ],
@@ -235,18 +255,26 @@
         "download": [
             {
                 "name": "iortcw",
-                "url":  "https://luxtorpeda-dev.github.io/assets/iortcw/",
-                "file": "iortcw-9010.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "iortcw-9010-1.tar.xz"
             }
         ],
         "commands": {
             ".*WolfSP.exe": {
                 "cmd": "./iowolfsp.x86_64",
-                "args": ["+set", "com_basegame", "Main"]
+                "args": [
+                    "+set",
+                    "com_basegame",
+                    "Main"
+                ]
             },
             ".*WolfMP.exe": {
                 "cmd": "./iowolfmp.x86_64",
-                "args": ["+set", "com_basegame", "Main"]
+                "args": [
+                    "+set",
+                    "com_basegame",
+                    "Main"
+                ]
             }
         },
         "information": {
@@ -264,8 +292,8 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url":  "https://luxtorpeda-dev.github.io/assets/dhewm3/",
-                "file": "dhewm3-9050.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "dhewm3-9050-12.tar.xz"
             }
         ],
         "command": "./dhewm3",
@@ -284,12 +312,16 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url":  "https://luxtorpeda-dev.github.io/assets/dhewm3/",
-                "file": "dhewm3-9070.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "dhewm3-9070-12.tar.xz"
             }
         ],
         "command": "./dhewm3",
-        "command_args": ["+set", "fs_game", "d3xp"],
+        "command_args": [
+            "+set",
+            "fs_game",
+            "d3xp"
+        ],
         "information": {
             "store_link": "https://store.steampowered.com/app/9070/",
             "engine_name": "dhewm3",
@@ -305,7 +337,7 @@
         "download": [
             {
                 "name": "Yamagi Quake II",
-                "url":  "https://luxtorpeda.gitlab.io/packages/yquake2/",
+                "url": "https://luxtorpeda.gitlab.io/packages/yquake2/",
                 "file": "yquake2-2320.tar.xz"
             }
         ]
@@ -314,9 +346,9 @@
         "game_name": "The Elder Scrolls III: Morrowind",
         "download": [
             {
-                "name": "OpenMW",
-                "url":  "https://luxtorpeda-dev.github.io/assets/openmw/",
-                "file": "openmw-22320.tar.xz"
+                "name": "openmw",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "openmw-22320-1.tar.xz"
             }
         ],
         "command": "./openmw.sh",
@@ -330,38 +362,13 @@
             "author_link": "https://github.com/d10sfan"
         }
     },
-    "698780": {
-        "game_name": "Doki Doki Literature Club",
-        "command": "./DDLC.sh"
-    },
-    "517790": {
-        "game_name": "Caesar 3",
-        "download": [
-            {
-                "name": "julius",
-                "url":  "https://luxtorpeda-dev.github.io/assets/julius/",
-                "file": "julius-517790.tar.xz"
-            }
-        ],
-        "command": "./julius",
-        "command_args": ["./C3"],
-        "information": {
-            "store_link": "https://store.steampowered.com/app/517790/",
-            "engine_name": "julius",
-            "engine_link": "https://github.com/bvschaik/julius",
-            "version": "eb435bc6 (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
-        }
-    },
     "39510": {
         "game_name": "Gothic 2: Gold Edition",
         "download": [
             {
                 "name": "opengothic",
-                "url":  "https://luxtorpeda-dev.github.io/assets/opengothic/",
-                "file": "opengothic-39510.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "opengothic-39510-2.tar.xz"
             }
         ],
         "command": "./run-gothic2.sh",
@@ -375,33 +382,13 @@
             "author_link": "https://github.com/d10sfan"
         }
     },
-    "273620": {
-        "game_name": "Freespace 2",
-        "download": [
-            {
-                "name": "fs2open",
-                "url":  "https://luxtorpeda-dev.github.io/assets/fs2open/",
-                "file": "fs2open-273620.tar.xz"
-            }
-        ],
-        "command": "./run-freespace2.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/273620/Freespace_2/",
-            "engine_name": "scp-fs2open",
-            "engine_link": "https://github.com/scp-fs2open/fs2open.github.com",
-            "version": "d52bddf (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
-        }
-    },
     "208200": {
         "game_name": "Doom 3: BFG Edition",
         "download": [
             {
                 "name": "rbdoom-3-bfg",
-                "url":  "https://luxtorpeda-dev.github.io/assets/rbdoom-3-bfg/",
-                "file": "rbdoom-3-bfg-208200.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "rbdoom-3-bfg-208200-4.tar.xz"
             }
         ],
         "command": "./RBDoom3BFG",
@@ -415,24 +402,51 @@
             "author_link": "https://github.com/d10sfan"
         }
     },
-    "3730": {
-        "game_name": "Aliens versus Predator Classic",
+    "273620": {
+        "game_name": "Freespace 2",
         "download": [
             {
-                "name": "avp",
-                "url":  "https://luxtorpeda-dev.github.io/assets/avp/",
-                "file": "avp-3730.tar.xz"
+                "name": "fs2open",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "fs2open-273620-8.tar.xz"
             }
         ],
-        "command": "./run-avp.sh",
+        "command": "./run-freespace2.sh",
         "information": {
-            "store_link": "https://store.steampowered.com/app/3730/Aliens_versus_Predator_Classic_2000/",
-            "engine_name": "avp-forever",
-            "engine_link": "https://github.com/dreamer/avp-forever",
-            "version": "other/icculus-releases-rebased-1",
+            "store_link": "https://store.steampowered.com/app/273620/Freespace_2/",
+            "engine_name": "scp-fs2open",
+            "engine_link": "https://github.com/scp-fs2open/fs2open.github.com",
+            "version": "d52bddf (from master)",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan"
         }
+    },
+    "517790": {
+        "game_name": "Caesar 3",
+        "download": [
+            {
+                "name": "julius",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "julius-517790-1.tar.xz"
+            }
+        ],
+        "command": "./julius",
+        "command_args": [
+            "./C3"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/517790/",
+            "engine_name": "julius",
+            "engine_link": "https://github.com/bvschaik/julius",
+            "version": "eb435bc6 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan"
+        }
+    },
+    "698780": {
+        "game_name": "Doki Doki Literature Club",
+        "command": "./DDLC.sh"
     }
 }

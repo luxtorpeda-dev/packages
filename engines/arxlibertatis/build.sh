@@ -1,24 +1,26 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone --recursive https://github.com/arx/ArxLibertatis source
+git clone https://github.com/arx/ArxLibertatis source
 pushd source
 git checkout 2bfb7d58
 popd
 
-git clone --recursive https://github.com/boostorg/boost boost
+git clone https://github.com/boostorg/boost boost
 pushd boost
-git checkout 68a24986
+git checkout -f 68a24986
+git submodule update --init --recursive
 popd
 
-git clone --recursive https://github.com/g-truc/glm glm
+git clone https://github.com/g-truc/glm glm
 pushd glm
-git checkout 947527d3
+git checkout -f 947527d3
+git submodule update --init --recursive
 popd
 
-git clone --recursive https://github.com/arx/ArxLibertatisData.git data
+git clone https://github.com/arx/ArxLibertatisData.git data
 pushd data
-git checkout d92cc85
+git checkout -f d92cc85
 popd
 
 # BUILD PHASE
@@ -52,3 +54,8 @@ cp -rfv tmp/share/games/arx/* "$diststart/1700/dist/"
 mv "$diststart/1700/dist/arx" "$diststart/1700/dist/arx-bin"
 cp -rfv assets/arx-launcher.sh "$diststart/1700/dist/arx"
 
+cp -rfv tmp/bin/* "$diststart/1710/dist/"
+cp -rfv tmp/lib/* "$diststart/1710/dist/"
+cp -rfv tmp/share/games/arx/* "$diststart/1710/dist/"
+mv "$diststart/1710/dist/arx" "$diststart/1710/dist/arx-bin"
+cp -rfv assets/arx-launcher.sh "$diststart/1710/dist/arx"

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone --recursive https://github.com/bvschaik/julius.git source
+git clone https://github.com/bvschaik/julius.git source
 pushd source
 git checkout eb435bc6
 popd

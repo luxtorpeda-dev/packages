@@ -1,13 +1,15 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone --recursive https://github.com/scp-fs2open/fs2open.github.com source
+git clone https://github.com/scp-fs2open/fs2open.github.com source
 pushd source
-git checkout d52bddf0
+git checkout -f d52bddf0
+git submodule update --init --recursive
 popd
-git clone --recursive https://github.com/FFmpeg/FFmpeg.git ffmpeg
+git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg
 pushd ffmpeg
-git checkout 523da8ea
+git checkout -f 523da8ea
+git submodule update --init --recursive
 popd
 
 readonly pfx="$PWD/local"
@@ -22,6 +24,8 @@ pushd "source"
 mkdir -p build
 cd build
 export PKG_CONFIG_PATH="$pfx/lib/pkgconfig"
+export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
+export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \

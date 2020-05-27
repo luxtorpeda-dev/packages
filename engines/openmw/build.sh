@@ -1,34 +1,40 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone --recursive https://github.com/OpenMW/openmw source
+git clone https://github.com/OpenMW/openmw source
 pushd source
-git checkout e29e3248
+git checkout -f e29e3248
+git submodule update --init --recursive
 popd
 
-git clone --recursive https://github.com/boostorg/boost boost
+git clone https://github.com/boostorg/boost boost
 pushd boost
-git checkout afb333b7
+git checkout -f afb333b7
+git submodule update --init --recursive
 popd
 
-git clone --recursive https://github.com/bulletphysics/bullet3 bullet3
+git clone https://github.com/bulletphysics/bullet3 bullet3
 pushd bullet3
-git checkout 6e4707df
+git checkout -f 6e4707df
+git submodule update --init --recursive
 popd
 
-git clone --recursive https://github.com/FFmpeg/FFmpeg ffmpeg
+git clone https://github.com/FFmpeg/FFmpeg ffmpeg
 pushd ffmpeg
-git checkout 523da8ea
+git checkout -f 523da8ea
+git submodule update --init --recursive
 popd
 
-git clone --recursive https://github.com/MyGUI/mygui mygui
+git clone https://github.com/MyGUI/mygui mygui
 pushd mygui
-git checkout 8a05127d
+git checkout -f 8a05127d
+git submodule update --init --recursive
 popd
 
 git clone --recursive https://github.com/OpenMW/osg osg
 pushd osg
-git checkout d69f2a81
+git checkout -f d69f2a81
+git submodule update --init --recursive
 popd
 
 # BUILD PHASE
