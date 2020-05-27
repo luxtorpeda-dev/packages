@@ -9,5 +9,5 @@ source env.sh
 log_environment
 prepare_manifest_files "$STEAM_APP_ID_LIST"
 
-./build.sh
+source ./build.sh
 popd
