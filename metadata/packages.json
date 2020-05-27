@@ -179,8 +179,8 @@
         "download": [
             {
                 "name": "avp",
-                "url": "https://luxtorpeda-dev.github.io/assets/avp/",
-                "file": "avp-3730.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "avp-3730-1.tar.xz"
             }
         ],
         "command": "./run-avp.sh",
