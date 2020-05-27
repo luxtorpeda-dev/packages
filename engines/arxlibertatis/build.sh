@@ -9,13 +9,13 @@ popd
 git clone https://github.com/boostorg/boost boost
 pushd boost
 git checkout -f 68a24986
-git submodule update --recursive
+git submodule update --init --recursive
 popd
 
 git clone https://github.com/g-truc/glm glm
 pushd glm
 git checkout -f 947527d3
-git submodule update --recursive
+git submodule update --init --recursive
 popd
 
 git clone https://github.com/arx/ArxLibertatisData.git data
