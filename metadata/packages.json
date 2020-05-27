@@ -3,9 +3,9 @@
         "game_name": "Arx Fatalis",
         "download": [
             {
-                "name": "Arx Libertatis",
-                "url": "https://luxtorpeda-dev.github.io/assets/arxlibertatis/",
-                "file": "arxlibertatis-1700.tar.xz"
+                "name": "arxlibertatis",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "arxlibertatis-1700-1.tar.xz"
             }
         ],
         "command": "./arx",
