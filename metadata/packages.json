@@ -444,5 +444,18 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan"
         }
+    },
+     "698780": {
+        "game_name": "Doki Doki Literature Club!",
+        "command": "./DDLC.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/517790/",
+            "engine_name": "Ren'Py",
+            "engine_link": "https://www.renpy.org/",
+            "version": "",
+            "comments": "Using Linux version bundled with Windows version",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer"
+        }
     }
 }
