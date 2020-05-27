@@ -116,7 +116,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: test
+          branch: master
       - name: Publish To Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
