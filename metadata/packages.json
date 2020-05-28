@@ -368,7 +368,7 @@
             {
                 "name": "opengothic",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "opengothic-39510-2.tar.xz"
+                "file": "opengothic-39510-3.tar.xz"
             }
         ],
         "command": "./run-gothic2.sh",
@@ -445,7 +445,7 @@
             "author_link": "https://github.com/d10sfan"
         }
     },
-     "698780": {
+    "698780": {
         "game_name": "Doki Doki Literature Club!",
         "command": "./DDLC.sh",
         "information": {
