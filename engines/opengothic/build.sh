@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Try/OpenGothic source
 pushd source
-git checkout -f a680de2
+git checkout -f b6a1260
 git submodule update --init --recursive
 popd
 curl -fsSL -o glslang-master-linux-Release.zip https://github.com/KhronosGroup/glslang/releases/download/master-tot/glslang-master-linux-Release.zip
