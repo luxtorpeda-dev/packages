@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v1
     - name: Find Engine Name
       id: findname
-      uses: luxtorpeda-dev/action-build-get-engine-name@v1
+      uses: luxtorpeda-dev/action-build-get-engine-name@v2
       with:
           token: ${{ secrets.GITHUB_TOKEN }}
     - name: Create Package on Bintray
@@ -66,7 +66,7 @@ jobs:
           name: dist
       - name: Generate Matrix
         id: matrix
-        uses: luxtorpeda-dev/action-build-generate-file-matrix@v1
+        uses: luxtorpeda-dev/action-build-generate-file-matrix@v2
         with:
           name: dist/${{needs.findengine.outputs.engine}}
   deploy:
@@ -102,7 +102,7 @@ jobs:
         with:
           ref: master
       - name: Update packages.json
-        uses: luxtorpeda-dev/action-build-update-packages@v3
+        uses: luxtorpeda-dev/action-build-update-packages@v4
         with:
           matrix: ${{ needs.finddeploy.outputs.matrix }}
           version: ${{ needs.findengine.outputs.build_number }}
