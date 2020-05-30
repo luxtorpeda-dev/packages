@@ -2,6 +2,8 @@
 
 Package scripts to build the engines for Luxtorpeda.
 
+[Documentation](docs/README.md)
+
 ## Supported titles
 
 To see a list of supported titles, go to https://luxtorpeda-dev.github.io/packages.html
