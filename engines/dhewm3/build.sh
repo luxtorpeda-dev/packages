@@ -15,8 +15,6 @@ make -j "$(nproc)"
 make install
 popd
 
-asdasd
-
 # COPY PHASE
 cp -rfv tmp/bin/* "$diststart/9050/dist/"
 cp -rfv tmp/lib/dhewm3/* "$diststart/9050/dist/"
