@@ -388,7 +388,7 @@
             {
                 "name": "rbdoom-3-bfg",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "rbdoom-3-bfg-208200-4.tar.xz"
+                "file": "rbdoom-3-bfg-208200-5.tar.xz"
             }
         ],
         "command": "./RBDoom3BFG",
