@@ -16,7 +16,9 @@
             "version": "2bfb7d58",
             "comments": "",
             "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/arx/ArxLibertatis/blob/master/LICENSE"
         }
     },
     "1710": {
@@ -36,7 +38,9 @@
             "version": "2bfb7d58",
             "comments": "",
             "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/arx/ArxLibertatis/blob/master/LICENSE"
         }
     },
     "2200": {
@@ -191,7 +195,9 @@
             "version": "other/icculus-releases-rebased-1",
             "comments": "",
             "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
+            "author_link": "https://github.com/d10sfan",
+            "license": "Rebellion; non-commercial",
+            "license_link": "https://github.com/dreamer/avp-forever/blob/other/icculus-releases-rebased-1/LICENSE"
         }
     },
     "6020": {
@@ -284,7 +290,9 @@
             "version": "1.51c",
             "comments": "Both SP and MP",
             "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPL",
+            "license_link": "https://github.com/iortcw/iortcw/blob/master/SP/COPYING.txt"
         }
     },
     "9050": {
@@ -304,7 +312,9 @@
             "version": "1.5.1-PRE1",
             "comments": "",
             "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
         }
     },
     "9070": {
@@ -329,7 +339,9 @@
             "version": "1.5.1-PRE1",
             "comments": "",
             "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
         }
     },
     "9130": {
@@ -359,7 +371,9 @@
             "version": "0.45.0",
             "comments": "Missing GUI mod launcher for now",
             "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE"
         }
     },
     "39510": {
@@ -379,7 +393,9 @@
             "version": "latest master",
             "comments": "Steam Overlay does not work. Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE"
         }
     },
     "208200": {
@@ -399,7 +415,9 @@
             "version": "7eddea5 (from master)",
             "comments": "HDR can be a bit broken (mainly with the flashlight). Running this command (RobertBeckebans/RBDOOM-3-BFG#290 (comment)) while inside the game will fix it (and it'll save afterwards): toggle r_usehdr; reloadshaders",
             "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md"
         }
     },
     "273620": {
@@ -419,7 +437,9 @@
             "version": "d52bddf (from master)",
             "comments": "",
             "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
+            "author_link": "https://github.com/d10sfan",
+            "license": "Volition",
+            "license_link": "https://github.com/scp-fs2open/fs2open.github.com/blob/master/COPYING"
         }
     },
     "517790": {
@@ -442,7 +462,9 @@
             "version": "eb435bc6 (from master)",
             "comments": "",
             "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan"
+            "author_link": "https://github.com/d10sfan",
+            "license": "AGPL-3.0",
+            "license_link": "https://github.com/bvschaik/julius/blob/master/LICENSE.txt"
         }
     },
     "698780": {
