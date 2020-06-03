@@ -5,7 +5,7 @@
             {
                 "name": "arxlibertatis",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "arxlibertatis-1700-7.tar.xz"
+                "file": "arxlibertatis-1700-8.tar.xz"
             }
         ],
         "command": "./arx",
@@ -25,7 +25,7 @@
             {
                 "name": "arxlibertatis",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "arxlibertatis-1710-7.tar.xz"
+                "file": "arxlibertatis-1710-8.tar.xz"
             }
         ],
         "command": "./arx",
