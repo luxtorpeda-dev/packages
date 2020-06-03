@@ -30,7 +30,7 @@ jobs:
         package-name: ${{ steps.findname.outputs.engine }}
         package-description: Package for ${{ steps.findname.outputs.engine }}
         package-url: NONE
-        package-license: GPL-2.0
+        package-license: ZLIB
     - name: Generate build number
       id: buildnumber
       uses: einaregilsson/build-number@v2 
