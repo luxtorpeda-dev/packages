@@ -408,7 +408,7 @@
             {
                 "name": "fs2open",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "fs2open-273620-8.tar.xz"
+                "file": "fs2open-273620-9.tar.xz"
             }
         ],
         "command": "./run-freespace2.sh",
