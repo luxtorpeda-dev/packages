@@ -21,6 +21,8 @@ copy_license_file () {
             mkdir -p "$diststart/$app_id/dist/license/"
             cp -rfv "$LICENSE_PATH" "$diststart/$app_id/dist/license/LICENSE.$ENGINE_NAME"
             if [ -z "${ADDITIONAL_LICENSES}" ]; then
+                echo "No additional licenses. Moving on"
+            else
                 LICENSES_ARR=(`echo ${ADDITIONAL_LICENSES}`);
                 for add_license_path in $LICENSES_ARR; do
                     dir="$(dirname $add_license_path)" 
