@@ -180,7 +180,7 @@
             {
                 "name": "avp",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "avp-3730-1.tar.xz"
+                "file": "avp-3730-3.tar.xz"
             }
         ],
         "command": "./run-avp.sh",
