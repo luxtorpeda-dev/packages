@@ -2,7 +2,7 @@ name: Build Engine
 
 on:
   push:
-    branches: [ master, test2 ]
+    branches: [ master ]
     paths:
       - 'engines/**'
 
@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v1
     - name: Find Engine Name
       id: findname
-      uses: luxtorpeda-dev/action-build-get-engine-name@pr-fixes
+      uses: luxtorpeda-dev/action-build-get-engine-name@v3
       with:
           token: ${{ secrets.GITHUB_TOKEN }}
     - name: Create Package on Bintray
