@@ -14,12 +14,12 @@ setup_dist_dirs () {
 }
 
 copy_license_file () {
-    if [ -z "${LICENSE_FILE}" ]; then
+    if [ -z "${LICENSE_PATH}" ]; then
         echo "Warning: license file path is not set."
     else
         for app_id in $1 ; do
             mkdir -p "$diststart/$app_id/dist/license/"
-            cp -rfv "$LICENSE_FILE" "$diststart/$app_id/dist/LICENSE.$ENGINE_NAME"
+            cp -rfv "$LICENSE_PATH" "$diststart/$app_id/dist/LICENSE.$ENGINE_NAME"
         done
     fi
 }
