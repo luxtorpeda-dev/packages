@@ -64,7 +64,7 @@
             function createEngineLicenseCell(title, row) {
                 const engineCell = row.insertCell(2);
                 if (title.information && title.information.license) {
-                    engineCell.appendChild(createLink(title.information.license, title.information.license_link));
+                    engineCell.appendChild(createLink(title.information.license_link, title.information.license));
                 }
             }
 
