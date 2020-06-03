@@ -348,7 +348,7 @@
             {
                 "name": "openmw",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "openmw-22320-1.tar.xz"
+                "file": "openmw-22320-3.tar.xz"
             }
         ],
         "command": "./openmw.sh",
