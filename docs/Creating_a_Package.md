@@ -69,6 +69,7 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
 
         export STEAM_APP_ID_LIST="9050 9070"
         export LICENSE_PATH="./source/COPYING.txt"
+        export ADDITIONAL_LICENSES="./source/LICENSE.DejaVu ./boost/LICENSE_1_0.txt ./glm/copying.txt ./data/LICENSE"
         
 4. Create build.sh, using the following template. 
 
