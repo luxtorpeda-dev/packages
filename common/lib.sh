@@ -19,7 +19,7 @@ copy_license_file () {
     else
         for app_id in $1 ; do
             mkdir -p "$diststart/$app_id/dist/license/"
-            cp -rfv "$LICENSE_PATH" "$diststart/$app_id/dist/LICENSE.$ENGINE_NAME"
+            cp -rfv "$LICENSE_PATH" "$diststart/$app_id/dist/license/LICENSE.$ENGINE_NAME"
         done
     fi
 }
