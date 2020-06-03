@@ -2,7 +2,7 @@ name: Build Engine
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, test2 ]
     paths:
       - 'engines/**'
 
