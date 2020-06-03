@@ -428,7 +428,7 @@
             {
                 "name": "julius",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "julius-517790-1.tar.xz"
+                "file": "julius-517790-2.tar.xz"
             }
         ],
         "command": "./julius",
