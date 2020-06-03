@@ -6,19 +6,28 @@ log_environment () {
 	gcc --version
 }
 
-prepare_manifest_files () {
+setup_dist_dirs () {
 	for app_id in $1 ; do
         mkdir -p "$diststart/$app_id/dist/"
-		touch "$diststart/$app_id/manifest"
 	done
 	mkdir -p "$diststart/$ENGINE_NAME"
+}
+
+copy_license_file () {
+    if [ -z "${LICENSE_PATH}" ]; then
+        echo "Warning: license file path is not set."
+    else
+        for app_id in $1 ; do
+            mkdir -p "$diststart/$app_id/dist/license/"
+            cp -rfv "$LICENSE_PATH" "$diststart/$app_id/dist/license/LICENSE.$ENGINE_NAME"
+        done
+    fi
 }
 
 create_archives () {
     for app_id in $STEAM_APP_ID_LIST ; do
         filename="$ENGINE_NAME-$app_id"
         pushd "$app_id" || exit 1
-        # shellcheck disable=SC2046
         tar \
             --format=v7 \
             --mode='a+rwX,o-w' \

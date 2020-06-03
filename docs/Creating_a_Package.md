@@ -6,7 +6,7 @@ Each package has a folder with the build scripts and any static assets, such as 
 
 The structure of an engine folder is as follows:
 
-* `env.sh` - Contains the steam app id list for the games that this engine applies to. If there are multiple app ids, then each one should be separated by a space.
+* `env.sh` - Contains the steam app id list for the games that this engine applies to, as well as the path to the license file from the engine repository, if exists. If there are multiple app ids, then each one should be separated by a space.
 * `build.sh` - Script that will pull down the source repository, run any necessary configuration, and then build the engine.
 * `assets/*` - If needed, an assets folder can be created for any static assets needed for the engine. 
 
@@ -68,6 +68,7 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
         #!/bin/bash
 
         export STEAM_APP_ID_LIST="9050 9070"
+        export LICENSE_PATH="./source/COPYING.txt"
         
 4. Create build.sh, using the following template. 
 
