@@ -293,7 +293,7 @@
             {
                 "name": "dhewm3",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "dhewm3-9050-14.tar.xz"
+                "file": "dhewm3-9050-17.tar.xz"
             }
         ],
         "command": "./dhewm3",
@@ -313,7 +313,7 @@
             {
                 "name": "dhewm3",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "dhewm3-9070-14.tar.xz"
+                "file": "dhewm3-9070-17.tar.xz"
             }
         ],
         "command": "./dhewm3",
