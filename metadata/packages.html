@@ -60,23 +60,30 @@
                     engineCell.appendChild(createLink(title.information.engine_link, title.information.engine_name));
                 }
             }
+            
+            function createEngineLicenseCell(title, row) {
+                const engineCell = row.insertCell(2);
+                if (title.information && title.information.license) {
+                    engineCell.appendChild(createLink(title.information.license, title.information.license_link));
+                }
+            }
 
             function createEngineVersionCell(title, row) {
-                const engineVersionCell = row.insertCell(2);
+                const engineVersionCell = row.insertCell(3);
                 if (title.information) {
                     engineVersionCell.innerHTML = title.information.version;
                 }
             }
 
             function createCommentsCell(title, row) {
-                const engineVersionCell = row.insertCell(3);
+                const engineVersionCell = row.insertCell(4);
                 if (title.information) {
                     engineVersionCell.innerHTML = title.information.comments;
                 }
             }
 
             function createAuthorCell(title, row) {
-                const authorCell = row.insertCell(4);
+                const authorCell = row.insertCell(5);
                 if (title.information) {
                     authorCell.appendChild(createLink(title.information.author_link, title.information.author));
                 }
@@ -89,6 +96,7 @@
                     const row = table.insertRow(idx);
                     createGameCell(title, row);
                     createEngineCell(title, row);
+                    createEngineLicenseCell(title, row);
                     createEngineVersionCell(title, row);
                     createCommentsCell(title, row);
                     createAuthorCell(title, row);
@@ -106,6 +114,7 @@
                     <tr>
                         <th>Game</th>
                         <th>Engine</th>
+                        <th>Engine License</th>
                         <th>Engine Version</th>
                         <th>Comments</th>
                         <th>Contributor</th>
