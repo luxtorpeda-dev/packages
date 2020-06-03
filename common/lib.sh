@@ -24,7 +24,7 @@ copy_license_file () {
                 echo "No additional licenses. Moving on"
             else
                 LICENSES_ARR=($ADDITIONAL_LICENSES)
-                for add_license_path in "${LICENSES_ARR[@]}; do
+                for add_license_path in "${LICENSES_ARR[@]}"; do
                     dir="$(dirname $add_license_path)" 
                     dir="$(basename $dir)"
                     baseFile="$(basename $add_license_path)"
