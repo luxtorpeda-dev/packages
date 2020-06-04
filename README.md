@@ -14,6 +14,8 @@ Check [issues](https://github.com/luxtorpeda-dev/packages/issues) to see if we a
 
 You can also make a package request by creating a [new issue](https://github.com/luxtorpeda-dev/packages/issues/new/choose)
 
+You can also [create a package yourself](docs/Creating_a_Package.md)
+
 ## Contributors
 
 [d10sfan](https://github.com/d10sfan)
