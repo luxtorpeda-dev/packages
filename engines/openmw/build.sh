@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenMW/openmw source
 pushd source
-git checkout -f e29e3248
+git checkout -f 0abcb54
 git submodule update --init --recursive
 popd
 
@@ -21,7 +21,7 @@ popd
 
 git clone https://github.com/FFmpeg/FFmpeg ffmpeg
 pushd ffmpeg
-git checkout -f 523da8ea
+git checkout -f ba11e40
 git submodule update --init --recursive
 popd
 
@@ -33,7 +33,7 @@ popd
 
 git clone --recursive https://github.com/OpenMW/osg osg
 pushd osg
-git checkout -f d69f2a81
+git checkout -f 8b07809fa674ecffe77338aaea2e223b3aadff0e
 git submodule update --init --recursive
 popd
 
@@ -82,7 +82,8 @@ popd
 mkdir -p "$diststart/22320/dist/lib/"
 cp -rfv "local/"{lib,lib64}/*.so* "$diststart/22320/dist/lib/"
 cp -rfv "local/lib64/"osgPlugins-* "$diststart/22320/dist/lib/"
-cp -rfv "$tmp/usr/local/"{bin,etc,share} "$diststart/22320/dist/"
+cp -rfv "$tmp/usr/local/"{etc,share} "$diststart/22320/dist/"
+cp -rfv "$tmp/usr/local/bin/"* "$diststart/22320/dist/"
 
 cp "assets/openmw.sh" "$diststart/22320/dist/"
 
