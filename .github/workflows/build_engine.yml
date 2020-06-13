@@ -102,7 +102,7 @@ jobs:
         with:
           ref: master
       - name: Update packages.json
-        uses: luxtorpeda-dev/action-build-update-packages@v4
+        uses: luxtorpeda-dev/action-build-update-packages@v5
         with:
           matrix: ${{ needs.finddeploy.outputs.matrix }}
           version: ${{ needs.findengine.outputs.build_number }}
