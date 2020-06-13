@@ -51,7 +51,21 @@
                 "url": "https://luxtorpeda.gitlab.io/packages/ioq3/",
                 "file": "ioq3-2200.tar.xz"
             }
-        ]
+        ],
+        "command": "./ioquake3.x86_64",
+        "command_args": [
+           "+r_mode",
+           "-2"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2200/",
+            "engine_name": "ioquake3",
+            "engine_link": "https://ioquake3.org/",
+            "version": "f2c61c1",
+            "comments": "",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer"
+        }
     },
     "2280": {
         "game_name": "The Ultimate DOOM",
@@ -156,7 +170,21 @@
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake3/",
                 "file": "quake3ta-latest-pk3s.tar.xz"
             }
-        ]
+        ],
+        "command": "./ioquake3.x86_64",
+        "command_args": [
+           "+r_mode",
+           "-2"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2350/",
+            "engine_name": "ioquake3",
+            "engine_link": "https://ioquake3.org/",
+            "version": "f2c61c1",
+            "comments": "",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer"
+        }
     },
     "2360": {
         "game_name": "HeXen: Beyond Heretic",
