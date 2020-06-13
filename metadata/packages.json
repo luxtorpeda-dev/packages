@@ -65,7 +65,7 @@
             "comments": "",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
-            "license": "GPL-2.0",
+            "license": "GPLv2",
             "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
         }
     },
@@ -208,7 +208,7 @@
             "comments": "Fixed default config, fixed music",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
-            "license": "GPL",
+            "license": "GPLv2",
             "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
         }
     },
@@ -235,7 +235,7 @@
             "comments": "Fixed default config, fixed music",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
-            "license": "GPL",
+            "license": "GPLv2",
             "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
         }
     },
@@ -533,7 +533,7 @@
             "comments": "Fixed default config",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
-            "license": "GPL",
+            "license": "GPLv2",
             "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
         }
     },
