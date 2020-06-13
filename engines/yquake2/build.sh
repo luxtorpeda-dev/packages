@@ -18,7 +18,7 @@ popd
 for app_id in $STEAM_APP_ID_LIST ; do
     mkdir -p "$diststart/$app_id/dist/baseq2"
     cp -v assets/quake2.sh "$diststart/$app_id/dist/"
-    cp -v assets/default.lux.cfg "$diststart/$app_id/dist/"
+    cp -v assets/default.lux.cfg "$diststart/$app_id/dist/baseq2/yq2.cfg"
     cp -v source/stuff/icon/Quake2.svg "$diststart/$app_id/dist/"
     cp -rfv "source/release/"* "$diststart/$app_id/dist/"
 done
