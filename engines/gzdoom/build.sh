@@ -9,7 +9,7 @@ git checkout 5001f36
 popd
 
 git clone https://github.com/coelckers/ZMusic.git zmusic
-pushd source
+pushd zmusic
 git checkout c1bf2f8
 popd
 
