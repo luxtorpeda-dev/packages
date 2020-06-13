@@ -74,8 +74,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
-                "file": "gzdoom-2280.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "gzdoom-2280-1.tar.xz"
             }
         ],
         "command": "./gzdoom",
@@ -100,8 +100,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
-                "file": "gzdoom-2290.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "gzdoom-2290-1.tar.xz"
             }
         ],
         "commands": {
@@ -137,8 +137,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
-                "file": "gzdoom-2300.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "gzdoom-2300-1.tar.xz"
             }
         ],
         "command": "./gzdoom",
@@ -290,8 +290,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
-                "file": "gzdoom-2360.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "gzdoom-2360-1.tar.xz"
             }
         ],
         "command": "./gzdoom",
@@ -316,8 +316,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
-                "file": "gzdoom-2390.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "gzdoom-2390-1.tar.xz"
             }
         ],
         "command": "./gzdoom",
