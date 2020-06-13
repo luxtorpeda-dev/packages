@@ -23,6 +23,7 @@ cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=tmp \
     ..
+make install
 popd
 
 pushd "source"
