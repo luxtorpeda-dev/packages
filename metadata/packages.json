@@ -162,7 +162,7 @@
         "game_name": "Quake",
         "download": [
             {
-                "name": "vkQuake",
+                "name": "vkquake",
                 "url": "https://luxtorpeda.gitlab.io/packages/vkquake/",
                 "file": "vkquake-2310.tar.xz"
             },
@@ -171,7 +171,19 @@
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake/",
                 "file": "quake-campaign-soundtrack.tar.xz"
             }
-        ]
+        ],
+        "command": "./vkquake.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2310/",
+            "engine_name": "vkQuake",
+            "engine_link": "https://github.com/Novum/vkQuake",
+            "version": "1.02.1",
+            "comments": "Single-player only for now, fixed music",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv2",
+            "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
+        }
     },
     "2320": {
         "game_name": "Quake II",
@@ -281,7 +293,7 @@
             "comments": "",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
-            "license": "GPL-2.0",
+            "license": "GPLv2",
             "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
         }
     },
