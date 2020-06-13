@@ -64,7 +64,9 @@
             "version": "f2c61c1",
             "comments": "",
             "author": "dreamer",
-            "author_link": "https://github.com/dreamer"
+            "author_link": "https://github.com/dreamer",
+            "license": "GPL-2.0",
+            "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
         }
     },
     "2280": {
@@ -116,7 +118,7 @@
         "game_name": "Quake II",
         "download": [
             {
-                "name": "Yamagi Quake II",
+                "name": "yquake2",
                 "url": "https://luxtorpeda.gitlab.io/packages/yquake2/",
                 "file": "yquake2-2320.tar.xz"
             },
@@ -125,13 +127,25 @@
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-music.tar.xz"
             }
-        ]
+        ],
+        "command": "./quake2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2320/",
+            "engine_name": "Yamagi Quake II",
+            "engine_link": "https://www.yamagi.org/quake2/",
+            "version": "7.43",
+            "comments": "Fixed default config, fixed music",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPL",
+            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+        }
     },
     "2330": {
         "game_name": "Quake II: The Reckoning",
         "download": [
             {
-                "name": "Yamagi Quake II",
+                "name": "yquake2",
                 "url": "https://luxtorpeda.gitlab.io/packages/yquake2/",
                 "file": "yquake2-2320.tar.xz"
             },
@@ -140,13 +154,25 @@
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-xatrix-music.tar.xz"
             }
-        ]
+        ],
+        "command": "./quake2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2330/",
+            "engine_name": "Yamagi Quake II",
+            "engine_link": "https://www.yamagi.org/quake2/",
+            "version": "7.43",
+            "comments": "Fixed default config, fixed music",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPL",
+            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+        }
     },
     "2340": {
         "game_name": "Quake II: Ground Zero",
         "download": [
             {
-                "name": "Yamagi Quake II",
+                "name": "yquake2",
                 "url": "https://luxtorpeda.gitlab.io/packages/yquake2/",
                 "file": "yquake2-2320.tar.xz"
             },
@@ -155,7 +181,19 @@
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-rogue-music.tar.xz"
             }
-        ]
+        ],
+        "command": "./quake2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2340/",
+            "engine_name": "Yamagi Quake II",
+            "engine_link": "https://www.yamagi.org/quake2/",
+            "version": "7.43",
+            "comments": "Fixed default config, fixed music",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPL",
+            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+        }
     },
     "2350": {
         "game_name": "Quake III: Team Arena",
@@ -183,7 +221,9 @@
             "version": "f2c61c1",
             "comments": "",
             "author": "dreamer",
-            "author_link": "https://github.com/dreamer"
+            "author_link": "https://github.com/dreamer",
+            "license": "GPL-2.0",
+            "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
         }
     },
     "2360": {
@@ -376,11 +416,23 @@
         "game_name": "Quake II Demo",
         "download": [
             {
-                "name": "Yamagi Quake II",
+                "name": "yquake2",
                 "url": "https://luxtorpeda.gitlab.io/packages/yquake2/",
                 "file": "yquake2-2320.tar.xz"
             }
-        ]
+        ],
+        "command": "./quake2.sh",
+        "information": {
+            "store_link": "https://steamdb.info/app/9130/",
+            "engine_name": "Yamagi Quake II",
+            "engine_link": "https://www.yamagi.org/quake2/",
+            "version": "7.43",
+            "comments": "Fixed default config",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPL",
+            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+        }
     },
     "22320": {
         "game_name": "The Elder Scrolls III: Morrowind",
