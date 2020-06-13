@@ -73,31 +73,90 @@
         "game_name": "The Ultimate DOOM",
         "download": [
             {
-                "name": "GZDoom",
+                "name": "gzdoom",
                 "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
                 "file": "gzdoom-2280.tar.xz"
             }
-        ]
+        ],
+        "command": "./gzdoom",
+        "command_args": [
+            "-iwad",
+            "base/DOOM.WAD"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2280/",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.2.1",
+            "comments": "Vulkan renderer crashes on exit",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
     },
     "2290": {
         "game_name": "Final DOOM",
         "download": [
             {
-                "name": "GZDoom",
+                "name": "gzdoom",
                 "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
                 "file": "gzdoom-2290.tar.xz"
             }
-        ]
+        ],
+        "commands": {
+            ".*plutoniam?.conf": {
+                "cmd": "./gzdoom",
+                "args": [
+                    "-iwad",
+                    "base/PLUTONIA.WAD"
+                ]
+            },
+            ".*tntm?.conf": {
+                "cmd": "./gzdoom",
+                "args": [
+                    "-iwad",
+                    "base/TNT.WAD"
+                ]
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2290/",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.2.1",
+            "comments": "Vulkan renderer crashes on exit",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
     },
     "2300": {
         "game_name": "DOOM II: Hell on Earth",
         "download": [
             {
-                "name": "GZDoom",
+                "name": "gzdoom",
                 "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
                 "file": "gzdoom-2300.tar.xz"
             }
-        ]
+        ],
+        "command": "./gzdoom",
+        "command_args": [
+            "-iwad",
+            "base/DOOM2.WAD"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2300/",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.2.1",
+            "comments": "Vulkan renderer crashes on exit",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
     },
     "2310": {
         "game_name": "Quake",
@@ -230,21 +289,53 @@
         "game_name": "HeXen: Beyond Heretic",
         "download": [
             {
-                "name": "GZDoom",
+                "name": "gzdoom",
                 "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
                 "file": "gzdoom-2360.tar.xz"
             }
-        ]
+        ],
+        "command": "./gzdoom",
+        "command_args": [
+            "-iwad",
+            "base/HEXEN.WAD"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2360/",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.2.1",
+            "comments": "Vulkan renderer crashes on exit",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
     },
     "2390": {
         "game_name": "Heretic: Shadow of the Serpent Riders",
         "download": [
             {
-                "name": "GZDoom",
+                "name": "gzdoom",
                 "url": "https://luxtorpeda.gitlab.io/packages/gzdoom/",
                 "file": "gzdoom-2390.tar.xz"
             }
-        ]
+        ],
+        "command": "./gzdoom",
+        "command_args": [
+            "-iwad",
+            "base/HERETIC.WAD"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2390/",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.2.1",
+            "comments": "",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
     },
     "3730": {
         "game_name": "Aliens versus Predator Classic",
