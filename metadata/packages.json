@@ -262,7 +262,7 @@
             "comments": "Fixed default config, fixed music",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
-            "license": "GPL",
+            "license": "GPLv2",
             "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
         }
     },
@@ -462,7 +462,7 @@
             "comments": "Both SP and MP",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
-            "license": "GPL",
+            "license": "GPLv3",
             "license_link": "https://github.com/iortcw/iortcw/blob/master/SP/COPYING.txt"
         }
     },
