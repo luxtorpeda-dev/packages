@@ -3,7 +3,7 @@
 # From https://gitlab.com/luxtorpeda/packages/vkquake - See LICENSE file for more information
 
 # CLONE PHASE
-git clone https://github.com/Novum/vkQuake vkquake
+git clone https://github.com/Novum/vkQuake source
 pushd source
 git checkout 2fdff8b2
 popd
