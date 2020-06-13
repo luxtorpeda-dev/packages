@@ -7,7 +7,6 @@ git clone https://github.com/ioquake/ioq3.git source
 pushd source
 git checkout f2c61c1
 popd
-popd
 
 # BUILD PHASE
 pushd "source"
