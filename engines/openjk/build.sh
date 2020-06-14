@@ -15,7 +15,7 @@ cmake \
     -DBuildJK2SPEngine=ON \
     -DBuildJK2SPGame=ON \
     -DBuildJK2SPRdVanilla=ON \
-    -DDCMAKE_INSTALL_PREFIX=../../tmp \
+    -DCMAKE_INSTALL_PREFIX=../../tmp \
     ..
 make -j "$(nproc)"
 make install
