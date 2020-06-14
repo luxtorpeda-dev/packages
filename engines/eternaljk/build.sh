@@ -13,6 +13,7 @@ mkdir build
 cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX=../../tmp \
+    -DBuildMPDed=OFF \
     ..
 make -j "$(nproc)"
 make install
