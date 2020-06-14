@@ -427,28 +427,6 @@
             "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
         }
     },
-    "7650": {
-        "game_name": "X-COM: Terror from the Deep",
-        "download": [
-            {
-                "name": "OpenXcom",
-                "url": "https://luxtorpeda.gitlab.io/packages/openxcom/",
-                "file": "openxcom-7650.tar.xz"
-            }
-        ],
-        "command": "./openxcom.sh"
-    },
-    "7760": {
-        "game_name": "X-COM: UFO Defense",
-        "download": [
-            {
-                "name": "OpenXcom",
-                "url": "https://luxtorpeda.gitlab.io/packages/openxcom/",
-                "file": "openxcom-7760.tar.xz"
-            }
-        ],
-        "command": "./openxcom.sh"
-    },
     "9010": {
         "game_name": "Return to Castle Wolfenstein",
         "download": [
