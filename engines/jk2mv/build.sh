@@ -14,6 +14,7 @@ mkdir building
 cd building
 cmake \
     -DCMAKE_INSTALL_PREFIX=../../tmp \
+    -DUseInternalMiniZip=ON \
     ..
 make -j "$(nproc)"
 make install
