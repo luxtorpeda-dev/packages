@@ -381,8 +381,8 @@
             },
             {
                 "name": "eternaljk",
-                "url": "https://luxtorpeda.gitlab.io/packages/eternaljk/",
-                "file": "eternaljk-6020.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "eternaljk-6020-1.tar.xz"
             }
         ],
         "commands": {
