@@ -375,7 +375,7 @@
         "game_name": "STAR WARS™ Jedi Knight: Jedi Academy™",
         "download": [
             {
-                "name": "OpenJK",
+                "name": "openjk",
                 "url": "https://luxtorpeda.gitlab.io/packages/openjk/",
                 "file": "openjk-6020.tar.xz"
             },
@@ -392,18 +392,40 @@
             ".*jamp.exe": {
                 "cmd": "./eternaljk.x86_64"
             }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/6020/",
+            "engine_name": "OpenJK (SP); EternalJK (MP)",
+            "engine_link": "https://github.com/JACoders/OpenJK",
+            "version": "24c5b27 (OpenJK)",
+            "comments": "",
+            "author": "d10sfan/dreamer",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
         }
     },
     "6030": {
         "game_name": "STAR WARS™ Jedi Knight II: Jedi Outcast™",
         "download": [
             {
-                "name": "OpenJK",
+                "name": "openjk",
                 "url": "https://luxtorpeda.gitlab.io/packages/openjk/",
                 "file": "openjk-6030.tar.xz"
             }
         ],
-        "command": "./openjo_sp.x86_64"
+        "command": "./openjo_sp.x86_64",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/6030/",
+            "engine_name": "OpenJK (SP)",
+            "engine_link": "https://github.com/JACoders/OpenJK",
+            "version": "24c5b27 (OpenJK)",
+            "comments": "",
+            "author": "d10sfan/dreamer",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
+        }
     },
     "7650": {
         "game_name": "X-COM: Terror from the Deep",
