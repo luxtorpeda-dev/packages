@@ -9,8 +9,8 @@ popd
 # BUILD PHASE
 mkdir -p tmp
 pushd source
-mkdir build
-cd build
+mkdir building
+cd building
 cmake \
     -DCMAKE_INSTALL_PREFIX=../../tmp \
     ..
