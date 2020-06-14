@@ -380,7 +380,7 @@
                 "file": "openjk-6020-1.tar.xz"
             },
             {
-                "name": "EternalJK",
+                "name": "eternaljk",
                 "url": "https://luxtorpeda.gitlab.io/packages/eternaljk/",
                 "file": "eternaljk-6020.tar.xz"
             }
@@ -397,7 +397,7 @@
             "store_link": "https://store.steampowered.com/app/6020/",
             "engine_name": "OpenJK (SP); EternalJK (MP)",
             "engine_link": "https://github.com/JACoders/OpenJK",
-            "version": "24c5b27 (OpenJK)",
+            "version": "24c5b27 (OpenJK) 1.5.7 (EternalJK)",
             "comments": "",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
