@@ -376,8 +376,8 @@
         "download": [
             {
                 "name": "openjk",
-                "url": "https://luxtorpeda.gitlab.io/packages/openjk/",
-                "file": "openjk-6020.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "openjk-6020-1.tar.xz"
             },
             {
                 "name": "EternalJK",
@@ -410,8 +410,8 @@
         "download": [
             {
                 "name": "openjk",
-                "url": "https://luxtorpeda.gitlab.io/packages/openjk/",
-                "file": "openjk-6030.tar.xz"
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "openjk-6030-1.tar.xz"
             }
         ],
         "command": "./openjo_sp.x86_64",
