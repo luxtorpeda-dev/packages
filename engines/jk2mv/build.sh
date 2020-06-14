@@ -21,4 +21,4 @@ make install
 popd
 
 # COPY PHASE
-cp -rfv tmp/* "$diststart/6020/dist/"
+cp -rfv tmp/* "$diststart/6030/dist/"
