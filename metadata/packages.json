@@ -414,12 +414,19 @@
                 "file": "openjk-6030-1.tar.xz"
             }
         ],
-        "command": "./openjo_sp.x86_64",
+        "commands": {
+            ".*jk2sp.exe": {
+                "cmd": "./openjo_sp.x86_64"
+            },
+            ".*jk2mp.exe": {
+                "cmd": "./jk2mvmp"
+            }
+        },
         "information": {
             "store_link": "https://store.steampowered.com/app/6030/",
-            "engine_name": "OpenJK (SP)",
+            "engine_name": "OpenJK (SP) jk2mv (MP)",
             "engine_link": "https://github.com/JACoders/OpenJK",
-            "version": "24c5b27 (OpenJK)",
+            "version": "24c5b27 (OpenJK) 11a108e (jk2mv)",
             "comments": "",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
