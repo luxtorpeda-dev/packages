@@ -4,6 +4,7 @@
 git clone https://github.com/mvdevs/jk2mv.git source
 pushd source
 git checkout 11a108e
+git submodule update --init --recursive
 popd
 
 # BUILD PHASE
