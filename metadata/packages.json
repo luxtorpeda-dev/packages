@@ -412,6 +412,11 @@
                 "name": "openjk",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
                 "file": "openjk-6030-1.tar.xz"
+            },
+            {
+                "name": "jk2mv",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "jk2mv-6030-2.tar.xz"
             }
         ],
         "commands": {
