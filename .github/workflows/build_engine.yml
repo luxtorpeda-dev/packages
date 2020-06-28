@@ -2,7 +2,7 @@ name: Build Engine
 
 on:
   push:
-    branches: [ master, hash ]
+    branches: [ master ]
     paths:
       - 'engines/**'
 
@@ -100,7 +100,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
         with:
-          ref: hash
+          ref: master
       - name: Update packages.json
         uses: luxtorpeda-dev/action-build-update-packages@v5
         with:
@@ -116,10 +116,10 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: hash
+          branch: master
       - name: Generate Packages Hash
         id: generatehash
-        uses: luxtorpeda-dev/action-build-generate-sha1-hash@master
+        uses: luxtorpeda-dev/action-build-generate-sha1-hash@v1
         with:
             file: metadata/packages.json
       - name: Write Packages Hash
