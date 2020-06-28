@@ -123,7 +123,7 @@ jobs:
         with:
             file: metadata/packages.json
       - name: Write Packages Hash
-        uses: DamianReeves/write-file-action
+        uses: DamianReeves/write-file-action@e19fd875ed54f16fc583a3486e62547ce4a5dde8
         with:
             path: metadata/packages.hash
             contents: ${{ steps.generatehash.outputs.hash }}
