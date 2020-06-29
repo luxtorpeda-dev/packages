@@ -368,7 +368,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Rebellion; non-commercial",
-            "license_link": "https://github.com/dreamer/avp-forever/blob/other/icculus-releases-rebased-1/LICENSE"
+            "license_link": "https://github.com/dreamer/avp-forever/blob/other/icculus-releases-rebased-1/LICENSE",
+            "non_free": true
         }
     },
     "6020": {
@@ -634,7 +635,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Volition",
-            "license_link": "https://github.com/scp-fs2open/fs2open.github.com/blob/master/COPYING"
+            "license_link": "https://github.com/scp-fs2open/fs2open.github.com/blob/master/COPYING",
+            "non_free": true
         }
     },
     "517790": {
