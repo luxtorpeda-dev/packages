@@ -1,0 +1,25 @@
+From 7ca5fb92a559a906d738fad860bead8a5ee07652 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Wed, 1 Jul 2020 23:53:32 -0500
+Subject: [PATCH] Use borderless full screen
+
+---
+ src/window/SDL2Window.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/window/SDL2Window.cpp b/src/window/SDL2Window.cpp
+index 13b63377d..e7ef089e8 100644
+--- a/src/window/SDL2Window.cpp
++++ b/src/window/SDL2Window.cpp
+@@ -240,7 +240,7 @@ static Uint32 getSDLFlagsForMode(const Vec2i & size, bool fullscreen) {
+ 		if(size == Vec2i(0)) {
+ 			flags |= SDL_WINDOW_FULLSCREEN_DESKTOP;
+ 		} else {
+-			flags |= SDL_WINDOW_FULLSCREEN;
++			flags |= SDL_WINDOW_FULLSCREEN_DESKTOP;
+ 		}
+ 	}
+ 	
+-- 
+2.27.0
+
