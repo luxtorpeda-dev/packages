@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/arx/ArxLibertatis source
 pushd source
-git checkout 2bfb7d58
+git checkout 3522075bf1b31c1d13239f0954500a40cf4d0dd5
 git am < ../patches/0001-Make-windowed-the-default-for-first-launch.patch
 popd
 
