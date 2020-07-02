@@ -1,0 +1,25 @@
+From dfafd44a5b566ce09ede5270474ee1cf1d22b824 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Wed, 1 Jul 2020 22:45:52 -0500
+Subject: [PATCH] Make windowed the default for first launch
+
+---
+ src/core/Config.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/core/Config.cpp b/src/core/Config.cpp
+index b1448908a..9102dfe83 100644
+--- a/src/core/Config.cpp
++++ b/src/core/Config.cpp
+@@ -81,7 +81,7 @@ const int
+ 	quickLevelTransition = JumpToChangeLevel;
+ 
+ const bool
+-	fullscreen = true,
++	fullscreen = false,
+ 	showCrosshair = true,
+ 	antialiasing = true,
+ 	colorkeyAntialiasing = true,
+-- 
+2.27.0
+

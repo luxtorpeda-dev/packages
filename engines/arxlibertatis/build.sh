@@ -4,6 +4,7 @@
 git clone https://github.com/arx/ArxLibertatis source
 pushd source
 git checkout 2bfb7d58
+git am < ../patches/0001-Make-windowed-the-default-for-first-launch.patch
 popd
 
 git clone https://github.com/boostorg/boost boost
