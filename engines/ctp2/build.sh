@@ -6,7 +6,7 @@ pushd source
 git checkout 2584d003041a44123994348957b74ee3b11305fc
 popd
 
-apt-get install byacc
+apt-get install -y byacc
 
 # BUILD PHASE
 pushd source
