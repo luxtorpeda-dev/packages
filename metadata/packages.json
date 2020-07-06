@@ -664,6 +664,23 @@
             "license_link": "https://github.com/bvschaik/julius/blob/master/LICENSE.txt"
         }
     },
+    "572050": {
+        "game_name": "Call to Power II",
+        "download": [],
+        "command": "./run-ctp2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/572050/Call_to_Power_II/",
+            "engine_name": "ctp2",
+            "engine_link": "https://github.com/ptitSeb/ctp2",
+            "version": "2584d00 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Activision",
+            "license_link": "https://github.com/ptitSeb/ctp2/blob/master/EULA%20-%20Source%20Code%20for%20CTP2.rtf",
+            "non_free": true
+        }
+    },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
         "command": "./DDLC.sh",
