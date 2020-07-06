@@ -679,7 +679,7 @@
             "engine_name": "ctp2",
             "engine_link": "https://github.com/ptitSeb/ctp2",
             "version": "2584d00 (from master)",
-            "comments": "",
+            "comments": "Steam overlay does not work",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Activision",
