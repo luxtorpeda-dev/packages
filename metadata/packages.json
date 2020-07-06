@@ -666,7 +666,13 @@
     },
     "572050": {
         "game_name": "Call to Power II",
-        "download": [],
+        "download": [
+            {
+                "name": "ctp2",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "ctp2-572050-1.tar.xz"
+            }
+        ],
         "command": "./run-ctp2.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/572050/Call_to_Power_II/",
