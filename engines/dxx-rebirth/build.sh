@@ -23,7 +23,7 @@ make install
 popd
 
 pushd source
-scons
+scons sdl2=1
 popd
 
 # COPY PHASE
