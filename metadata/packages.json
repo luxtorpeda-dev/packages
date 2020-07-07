@@ -620,12 +620,6 @@
         "game_name": "Descent",
         "download": [
             {
-                "name": "music",
-                "url": "https://www.dxx-rebirth.com/download/dxx/res/",
-                "file": "d1xr-sc55-music.dxa",
-                "copy_only": true
-            },
-            {
                 "name": "dxx-rebirth",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
                 "file": "dxx-rebirth-273570-2.tar.xz"
@@ -636,8 +630,8 @@
             "store_link": "https://store.steampowered.com/app/273570",
             "engine_name": "dxx-rebirth",
             "engine_link": "https://github.com/dxx-rebirth/dxx-rebirth",
-            "version": "v0.60 Beta 2",
-            "comments": "Downloads music from https://www.dxx-rebirth.com/addons",
+            "version": "d197ba4 (from master)",
+            "comments": ",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3 with Original Code in Parallax License",
@@ -649,12 +643,6 @@
         "game_name": "Descent 2",
         "download": [
             {
-                "name": "music",
-                "url": "https://www.dxx-rebirth.com/download/dxx/res/",
-                "file": "d2xr-sc55-music.dxa",
-                "copy_only": true
-            },
-            {
                 "name": "dxx-rebirth",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
                 "file": "dxx-rebirth-273580-2.tar.xz"
@@ -665,8 +653,8 @@
             "store_link": "https://store.steampowered.com/app/273580",
             "engine_name": "dxx-rebirth",
             "engine_link": "https://github.com/dxx-rebirth/dxx-rebirth",
-            "version": "v0.60 Beta 2",
-            "comments": "Downloads music from https://www.dxx-rebirth.com/addons",
+            "version": "d197ba4 (from master)",
+            "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3 with Original Code in Parallax License",
