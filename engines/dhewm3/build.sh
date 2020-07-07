@@ -18,5 +18,3 @@ popd
 # COPY PHASE
 cp -rfv tmp/bin/* "$diststart/common/dist/"
 cp -rfv tmp/lib/dhewm3/* "$diststart/common/dist/"
-
-
