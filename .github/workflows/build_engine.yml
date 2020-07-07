@@ -2,7 +2,7 @@ name: Build Engine
 
 on:
   push:
-    branches: [ master, shared-packages ]
+    branches: [ master ]
     paths:
       - 'engines/**'
 
@@ -71,8 +71,32 @@ jobs:
         uses: luxtorpeda-dev/action-build-generate-file-matrix@v2
         with:
           name: dist/${{needs.findengine.outputs.engine}}
+  deploy:
+    needs: [finddeploy, findengine]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: ${{fromJson(needs.finddeploy.outputs.matrix)}}
+    steps:
+    - name: Download Artifacts
+      uses: actions/download-artifact@v1
+      with:
+        name: dist
+    - name: Upload Package to Bintray
+      uses: luxtorpeda-dev/github-action-upload-bintray@v1
+      with:
+        file: ${{ matrix.fileName }}
+        file_name: "${{ matrix.name }}-${{ needs.findengine.outputs.build_number }}${{ matrix.extension }}"
+        upload_path: '/'
+        api_user: ${{ secrets.BINTRAY_USER }}
+        api_key: ${{ secrets.BINTRAY_API_KEY }}
+        repository_user: ${{ secrets.BINTRAY_OWNER }}
+        repository: ${{ secrets.BINTRAY_REPO }}
+        package: ${{ needs.findengine.outputs.engine }}
+        version: ${{ needs.findengine.outputs.build_number }}
+        publish: 1
+        calculate_metadata: false
   update_packages:
-    needs: [finddeploy, findengine, build]
+    needs: [deploy, finddeploy, findengine, build]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -80,8 +104,39 @@ jobs:
         with:
           ref: master
       - name: Update packages.json
-        uses: luxtorpeda-dev/action-build-update-packages@shared-packages
+        uses: luxtorpeda-dev/action-build-update-packages@v6
         with:
           matrix: ${{ needs.finddeploy.outputs.matrix }}
           version: ${{ needs.findengine.outputs.build_number }}
           app_ids: ${{ needs.build.outputs.app_ids }}
+      - name: Commit package.json
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add metadata/packages.json
+          git commit -m "Update packages.json for ${{ needs.findengine.outputs.engine }} version ${{ needs.findengine.outputs.build_number }}"
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+      - name: Generate Packages Hash
+        id: generatehash
+        uses: luxtorpeda-dev/action-build-generate-sha1-hash@v1
+        with:
+            file: metadata/packages.json
+      - name: Write Packages Hash
+        uses: DamianReeves/write-file-action@e19fd875ed54f16fc583a3486e62547ce4a5dde8
+        with:
+            path: metadata/packages.hash
+            contents: ${{ steps.generatehash.outputs.hash }}
+            write-mode: overwrite
+      - name: Publish To Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./metadata
+          keep_files: true
+          external_repository: luxtorpeda-dev/luxtorpeda-dev.github.io
+          publish_branch: master
