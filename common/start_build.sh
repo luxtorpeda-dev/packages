@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ENGINE_NAME="$1"
+export ENGINE_NAME="$1"
 source common/lib.sh
 
 pushd "engines/$ENGINE_NAME"
