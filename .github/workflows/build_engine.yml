@@ -40,6 +40,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     needs: findengine
+    outputs:
+      app_ids: ${{env.APP_IDS }}
     container:
       image: luxtorpedadev/runtime:7
     steps:
@@ -94,7 +96,7 @@ jobs:
         publish: 1
         calculate_metadata: false
   update_packages:
-    needs: [deploy, finddeploy, findengine]
+    needs: [deploy, finddeploy, findengine, build]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -102,10 +104,11 @@ jobs:
         with:
           ref: master
       - name: Update packages.json
-        uses: luxtorpeda-dev/action-build-update-packages@v5
+        uses: luxtorpeda-dev/action-build-update-packages@v6
         with:
           matrix: ${{ needs.finddeploy.outputs.matrix }}
           version: ${{ needs.findengine.outputs.build_number }}
+          app_ids: ${{ needs.build.outputs.app_ids }}
       - name: Commit package.json
         run: |
           git config --local user.email "action@github.com"

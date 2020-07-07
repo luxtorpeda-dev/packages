@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ENGINE_NAME="$1"
+export ENGINE_NAME="$1"
 export pstart="$PWD"
 source common/lib.sh
 
