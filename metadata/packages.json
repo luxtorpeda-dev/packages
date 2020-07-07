@@ -485,7 +485,8 @@
             {
                 "name": "dhewm3",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "dhewm3-9050-19.tar.xz"
+                "file": "dhewm3-common-24.tar.xz",
+                "cache_by_name": true
             }
         ],
         "command": "./dhewm3",
@@ -507,7 +508,8 @@
             {
                 "name": "dhewm3",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "dhewm3-9070-19.tar.xz"
+                "file": "dhewm3-common-24.tar.xz",
+                "cache_by_name": true
             }
         ],
         "command": "./dhewm3",
