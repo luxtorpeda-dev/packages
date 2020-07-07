@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/dhewm/dhewm3.git source
 pushd source
-git checkout 3a763fc6
+git checkout 3a763fc6857d70b4c32af4c478c79fd4bab9e933
 popd
 
 # BUILD PHASE
