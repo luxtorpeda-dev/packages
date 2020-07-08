@@ -6,6 +6,7 @@
 git clone https://github.com/coelckers/gzdoom.git source
 pushd source
 git checkout 04e53b8
+git am < ../patches/0001-Workaround-for-missing-PRId64.patch
 popd
 
 git clone https://github.com/coelckers/ZMusic.git zmusic
@@ -22,8 +23,6 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_C_COMPILER=/usr/bin/gcc-9 \
-    -DCMAKE_CXX_COMPILER=/usr/bin/g++-9 \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)" install
@@ -34,8 +33,6 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_C_COMPILER=/usr/bin/gcc-9 \
-    -DCMAKE_CXX_COMPILER=/usr/bin/g++-9 \
     -DCMAKE_PREFIX_PATH="$pfx" \
     ..
 make -j "$(nproc)"
