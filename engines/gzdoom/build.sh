@@ -39,6 +39,7 @@ cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DDYN_FLUIDSYNTH=OFF \
     ..
 make -j "$(nproc)" install
 popd
@@ -57,4 +58,5 @@ popd
 mkdir -p "$diststart/common/dist/lib"
 cp -rfv "source/build"/{gzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
 cp -rfv "$pfx/lib/libzmusic.so" "$diststart/common/dist/lib"
+cp -rfv "$pfx/lib64"/libfluidsynth.so* "$diststart/common/dist/lib"
 cp -rfv "assets/run-gzdoom.sh" "$diststart/common/dist/"
