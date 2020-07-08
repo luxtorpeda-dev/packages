@@ -14,6 +14,4 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-for app_id in $STEAM_APP_ID_LIST ; do
-    COPYDIR="$diststart/$app_id/dist/" make --directory="source" copyfiles
-done
+COPYDIR="$diststart/common/dist/" make --directory="source" copyfiles
