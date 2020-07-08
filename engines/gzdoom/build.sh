@@ -22,6 +22,8 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_C_COMPILER=/usr/bin/gcc-9 \
+    -DCMAKE_CXX_COMPILER=/usr/bin/g++-9 \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)" install
@@ -32,6 +34,8 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_C_COMPILER=/usr/bin/gcc-9 \
+    -DCMAKE_CXX_COMPILER=/usr/bin/g++-9 \
     -DCMAKE_PREFIX_PATH="$pfx" \
     ..
 make -j "$(nproc)"
