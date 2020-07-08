@@ -57,6 +57,7 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/common/dist/lib"
+
 cp -rfv "source/build"/{gzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
 cp -rfv "$pfx/lib/libzmusic.so" "$diststart/common/dist/lib"
 cp -rfv "$pfx/lib64"/libfluidsynth.so* "$diststart/common/dist/lib"
