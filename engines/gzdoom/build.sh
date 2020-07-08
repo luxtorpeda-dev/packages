@@ -20,6 +20,4 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-for app_id in $STEAM_APP_ID_LIST ; do
-    cp -rfv "source/build"/{gzdoom,soundfonts,*.pk3} "$diststart/$app_id/dist/"
-done
+cp -rfv "source/build"/{gzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
