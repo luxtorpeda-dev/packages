@@ -14,15 +14,30 @@ pushd zmusic
 git checkout -f 9097591
 popd
 
+git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
+pushd fluidsynth
+git checkout -f 19a20eb
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
 # BUILD PHASE
+pushd "fluidsynth"
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)" install
+popd
+
 pushd "zmusic"
 mkdir -p build
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)" install
