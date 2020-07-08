@@ -593,7 +593,7 @@
             {
                 "name": "opengothic",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "opengothic-39510-6.tar.xz"
+                "file": "opengothic-39510-7.tar.xz"
             }
         ],
         "command": "./run-gothic2.sh",
