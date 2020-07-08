@@ -5,7 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/dxx-rebirth/dxx-rebirth.git source
 pushd source
-git checkout -f d197ba42c32048a986bfd9e16635528b10bf39e2
+git checkout -f a205511
 popd
 
 hg clone https://hg.icculus.org/icculus/physfs
