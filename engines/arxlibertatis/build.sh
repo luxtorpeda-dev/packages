@@ -49,14 +49,8 @@ popd
 
 
 # COPY PHASE
-cp -rfv tmp/bin/* "$diststart/1700/dist/"
-cp -rfv tmp/lib/* "$diststart/1700/dist/"
-cp -rfv tmp/share/games/arx/* "$diststart/1700/dist/"
-mv "$diststart/1700/dist/arx" "$diststart/1700/dist/arx-bin"
-cp -rfv assets/arx-launcher.sh "$diststart/1700/dist/arx"
-
-cp -rfv tmp/bin/* "$diststart/1710/dist/"
-cp -rfv tmp/lib/* "$diststart/1710/dist/"
-cp -rfv tmp/share/games/arx/* "$diststart/1710/dist/"
-mv "$diststart/1710/dist/arx" "$diststart/1710/dist/arx-bin"
-cp -rfv assets/arx-launcher.sh "$diststart/1710/dist/arx"
+cp -rfv tmp/bin/* "$diststart/common/dist/"
+cp -rfv tmp/lib/* "$diststart/common/dist/"
+cp -rfv tmp/share/games/arx/* "$diststart/common/dist/"
+mv "$diststart/common/dist/arx" "$diststart/common/dist/arx-bin"
+cp -rfv assets/arx-launcher.sh "$diststart/common/dist/arx"
