@@ -51,7 +51,8 @@
             {
                 "name": "ioquake3",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "ioquake3-2200-2.tar.xz"
+                "file": "ioquake3-common-3.tar.xz",
+                "cache_by_name": true
             }
         ],
         "command": "./ioquake3.x86_64",
@@ -274,7 +275,8 @@
             {
                 "name": "ioquake3",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "ioquake3-2350-2.tar.xz"
+                "file": "ioquake3-common-3.tar.xz",
+                "cache_by_name": true
             },
             {
                 "name": "Patch Data",
