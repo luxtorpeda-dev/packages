@@ -78,7 +78,8 @@
             {
                 "name": "gzdoom",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "gzdoom-2280-1.tar.xz"
+                "file": "gzdoom-common-2.tar.xz",
+                "cache_by_name": true
             }
         ],
         "command": "./gzdoom",
@@ -104,7 +105,8 @@
             {
                 "name": "gzdoom",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "gzdoom-2290-1.tar.xz"
+                "file": "gzdoom-common-2.tar.xz",
+                "cache_by_name": true
             }
         ],
         "commands": {
@@ -141,7 +143,8 @@
             {
                 "name": "gzdoom",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "gzdoom-2300-1.tar.xz"
+                "file": "gzdoom-common-2.tar.xz",
+                "cache_by_name": true
             }
         ],
         "command": "./gzdoom",
@@ -310,7 +313,8 @@
             {
                 "name": "gzdoom",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "gzdoom-2360-1.tar.xz"
+                "file": "gzdoom-common-2.tar.xz",
+                "cache_by_name": true
             }
         ],
         "command": "./gzdoom",
@@ -336,7 +340,8 @@
             {
                 "name": "gzdoom",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "gzdoom-2390-1.tar.xz"
+                "file": "gzdoom-common-2.tar.xz",
+                "cache_by_name": true
             }
         ],
         "command": "./gzdoom",
