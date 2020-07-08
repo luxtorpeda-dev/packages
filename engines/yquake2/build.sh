@@ -15,10 +15,8 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-for app_id in $STEAM_APP_ID_LIST ; do
-    mkdir -p "$diststart/$app_id/dist/baseq2"
-    cp -v assets/quake2.sh "$diststart/$app_id/dist/"
-    cp -v assets/default.lux.cfg "$diststart/$app_id/dist/baseq2/yq2.cfg"
-    cp -v source/stuff/icon/Quake2.svg "$diststart/$app_id/dist/"
-    cp -rfv "source/release/"* "$diststart/$app_id/dist/"
-done
+mkdir -p "$diststart/common/dist/baseq2"
+cp -v assets/quake2.sh "$diststart/common/dist/"
+cp -v assets/default.lux.cfg "$diststart/common/dist/baseq2/yq2.cfg"
+cp -v source/stuff/icon/Quake2.svg "$diststart/common/dist/"
+cp -rfv "source/release/"* "$diststart/commond/dist/"
