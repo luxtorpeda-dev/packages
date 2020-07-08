@@ -94,7 +94,7 @@ create_archives () {
     fi
 }
 
-install_gcc_8 () {
+install_gcc_9 () {
     echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/gcc.list
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
     sudo apt-get update
