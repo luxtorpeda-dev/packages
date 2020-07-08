@@ -39,5 +39,7 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/common/dist/lib"
 cp -rfv "source/build"/{gzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
-cp -rfv "$pfx/lib/libzmusiclite.so" "$diststart/common/dist/"
+cp -rfv "$pfx/lib/libzmusic.so" "$diststart/common/dist/lib"
+cp -rfv "assets/run-gzdoom.sh" "$diststart/common/dist/"
