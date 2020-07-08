@@ -194,7 +194,8 @@
             {
                 "name": "yquake2",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "yquake2-2320-2.tar.xz"
+                "file": "yquake2-common-3.tar.xz",
+                "cache_by_name": true
             },
             {
                 "name": "Quake II Soundtrack",
@@ -221,7 +222,8 @@
             {
                 "name": "yquake2",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "yquake2-2330-2.tar.xz"
+                "file": "yquake2-common-3.tar.xz",
+                "cache_by_name": true
             },
             {
                 "name": "The Reckoning Soundtrack",
@@ -248,7 +250,8 @@
             {
                 "name": "yquake2",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "yquake2-2340-2.tar.xz"
+                "file": "yquake2-common-3.tar.xz",
+                "cache_by_name": true
             },
             {
                 "name": "Ground Zero Soundtrack",
@@ -540,7 +543,8 @@
             {
                 "name": "yquake2",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "yquake2-9130-2.tar.xz"
+                "file": "yquake2-common-3.tar.xz",
+                "cache_by_name": true
             }
         ],
         "command": "./quake2.sh",
