@@ -82,7 +82,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./gzdoom",
+        "command": "./run-gzdoom.sh",
         "command_args": [
             "-iwad",
             "base/DOOM.WAD"
@@ -91,9 +91,9 @@
             "store_link": "https://store.steampowered.com/app/2280/",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.2.1",
-            "comments": "Vulkan renderer crashes on exit",
-            "author": "dreamer",
+            "version": "4.4.2",
+            "comments": "",
+            "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
@@ -111,14 +111,14 @@
         ],
         "commands": {
             ".*plutoniam?.conf": {
-                "cmd": "./gzdoom",
+                "cmd": "./run-gzdoom.sh",
                 "args": [
                     "-iwad",
                     "base/PLUTONIA.WAD"
                 ]
             },
             ".*tntm?.conf": {
-                "cmd": "./gzdoom",
+                "cmd": "./run-gzdoom.sh",
                 "args": [
                     "-iwad",
                     "base/TNT.WAD"
@@ -129,9 +129,9 @@
             "store_link": "https://store.steampowered.com/app/2290/",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.2.1",
-            "comments": "Vulkan renderer crashes on exit",
-            "author": "dreamer",
+            "version": "4.4.2",
+            "comments": "",
+            "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
@@ -147,7 +147,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./gzdoom",
+        "command": "./run-gzdoom.sh",
         "command_args": [
             "-iwad",
             "base/DOOM2.WAD"
@@ -156,9 +156,9 @@
             "store_link": "https://store.steampowered.com/app/2300/",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.2.1",
-            "comments": "Vulkan renderer crashes on exit",
-            "author": "dreamer",
+            "version": "4.4.2",
+            "comments": "",
+            "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
@@ -317,7 +317,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./gzdoom",
+        "command": "./run-gzdoom.sh",
         "command_args": [
             "-iwad",
             "base/HEXEN.WAD"
@@ -326,9 +326,9 @@
             "store_link": "https://store.steampowered.com/app/2360/",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.2.1",
-            "comments": "Vulkan renderer crashes on exit",
-            "author": "dreamer",
+            "version": "4.4.2",
+            "comments": "",
+            "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
@@ -344,7 +344,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./gzdoom",
+        "command": "./run-gzdoom.sh",
         "command_args": [
             "-iwad",
             "base/HERETIC.WAD"
@@ -353,9 +353,9 @@
             "store_link": "https://store.steampowered.com/app/2390/",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.2.1",
+            "version": "4.4.2",
             "comments": "",
-            "author": "dreamer",
+            "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
