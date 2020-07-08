@@ -6,8 +6,7 @@ echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu precise main" 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
 sudo apt-get update
 sudo apt-get install gcc-8 g++-8 -y
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 800 --slave /usr/bin/g++ g++ /usr/bin/g++-8
 gcc -v
 
 # CLONE PHASE
