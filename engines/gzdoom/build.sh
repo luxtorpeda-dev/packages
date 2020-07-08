@@ -39,9 +39,8 @@ cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -DDYN_FLUIDSYNTH=OFF \
     -DFLUIDSYNTH_INCLUDE_DIR="$pfx/include" \
-    -DFLUIDSYNTH_LIBRARIES="$pfx/lib64/libfluidsynth.so.2.3.3" \
+    -DFLUIDSYNTH_LIBRARIES="$pfx/lib64" \
     ..
 make -j "$(nproc)" install
 popd
