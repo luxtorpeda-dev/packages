@@ -643,7 +643,7 @@
             {
                 "name": "dxx-rebirth",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "dxx-rebirth-273570-3.tar.xz"
+                "file": "dxx-rebirth-273570-4.tar.xz"
             }
         ],
         "command": "./run-d1x.sh",
@@ -672,7 +672,7 @@
             {
                 "name": "dxx-rebirth",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "dxx-rebirth-273580-3.tar.xz"
+                "file": "dxx-rebirth-273580-4.tar.xz"
             }
         ],
         "command": "./run-d2x.sh",
