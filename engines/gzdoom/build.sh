@@ -40,3 +40,4 @@ popd
 
 # COPY PHASE
 cp -rfv "source/build"/{gzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
+cp -rfv "$pfx/lib/libzmusiclite.so" "$diststart/common/dist/"
