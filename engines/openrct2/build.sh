@@ -56,6 +56,7 @@ mkdir build
 cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_CXX_FLAGS="-Wno-sign-compare" \
     ..
 make -j "$(nproc)"
 popd
