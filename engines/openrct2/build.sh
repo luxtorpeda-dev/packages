@@ -46,7 +46,7 @@ make install
 popd
 
 pushd icu/icu4c/source
-./configure --prefix="$pfx"
+./runConfigureICU Linux --prefix="$pfx"
 make -j "$(nproc)"
 make install
 popd
