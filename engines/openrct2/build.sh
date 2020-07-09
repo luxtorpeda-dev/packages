@@ -18,7 +18,7 @@ popd
 
 git clone https://github.com/unicode-org/icu.git icu
 pushd icu
-git checkout -f 125e29d
+git checkout -f c8bc56e
 popd
 
 readonly pfx="$PWD/local"
