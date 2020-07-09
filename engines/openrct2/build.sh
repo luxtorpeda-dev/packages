@@ -6,11 +6,27 @@ pushd source
 git checkout -f 6c3c857
 popd
 
+git clone https://github.com/akheron/jansson.git jansson
+pushd jansson
+git checkout -f e9ebfa7
+popd
+
+readonly pfx="$PWD/local"
+mkdir -p "$pfx"
+
 # BUILD PHASE
+pushd jansson
+./configure --prefix="$pfx"
+make -j "$(nproc)"
+make install
+popd
+
 pushd source
 mkdir build
 cd build
-cmake ..
+cmake
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    ..
 make -j "$(nproc)"
 popd
 
