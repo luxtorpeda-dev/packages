@@ -16,7 +16,11 @@ mkdir -p "$pfx"
 
 # BUILD PHASE
 pushd jansson
-./configure --prefix="$pfx"
+mkdir build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
 make -j "$(nproc)"
 make install
 popd
