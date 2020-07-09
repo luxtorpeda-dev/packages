@@ -99,7 +99,7 @@ make install
 popd
 
 # build glew
-pushd glew
+pushd glew/glew-2.1.0
 GLEW_DEST="$pfx" make -j "$(nproc)"
 GLEW_DEST="$pfx" make install
 popd
@@ -119,7 +119,7 @@ cmake \
         -DTBB_LIBRARY_DIRS="$pfx/lib" \
         -DFREEIMAGE_INCLUDE_PATH="$pfx/include" \
         -DGLEW_INCLUDE_DIRS="$pfx/include" \
-        -DGLEW_LIBRARIES="$pstart/glew-2.1.0/lib" \
+        -DGLEW_LIBRARIES="$pstart/glew/glew-2.1.0/lib" \
         -DGLEW_USE_STATIC_LIBS=ON \
         ..
 make -j "$(nproc)"
