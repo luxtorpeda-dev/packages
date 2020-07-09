@@ -28,7 +28,7 @@ popd
 pushd source
 mkdir build
 cd build
-cmake
+cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     ..
 make -j "$(nproc)"
