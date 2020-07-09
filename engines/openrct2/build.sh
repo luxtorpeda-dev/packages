@@ -80,6 +80,8 @@ cmake \
     -DJANSSON_INCLUDE_DIRS="$pfx/include" \
     -DLIBZIP_LIBRARIES="$pfx/lib/libzip.so" \
     -DLIBZIP_INCLUDE_DIRS="$pfx/include" \
+    -DPNG_LIBRARIES="$pfx/lib/libpng16.so" \
+    -DPNG_INCLUDE_DIRS="$pfx/include" \
     ..
 make -j "$(nproc)"
 cp -rfv ../data .
