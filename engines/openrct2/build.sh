@@ -96,6 +96,7 @@ cp -rfv "source/build/openrct2" "$diststart/285330/dist/"
 cp -rfv "source/build/openrct2-cli" "$diststart/285330/dist/"
 cp -rfv "source/build/data/"* "$diststart/285330/dist/data"
 cp -rfv "source/build/g2.dat" "$diststart/285330/dist/data"
+cp -rfv "assets/run-openrct2.sh" "$diststart/285330/dist"
 
 unzip objects.zip -d "$diststart/285330/dist/data/object"
 unzip title-sequences.zip -d "$diststart/285330/dist/data/title"
