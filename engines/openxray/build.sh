@@ -4,32 +4,38 @@
 git clone https://github.com/OpenXRay/xray-16 source
 pushd source
 git checkout -f 3d62bd5
+git submodule update --init --recursive
 git am < ../patches/0001-Changes-to-make-Linux-compile.patch
 popd
 
 git clone https://github.com/WinMerge/freeimage freeimage
 pushd freeimage
 git checkout -f fbc617c1
+git submodule update --init --recursive
 popd
 
 git clone https://github.com/miquels/liblockfile liblockfile
 pushd liblockfile
 git checkout -f a3bb92f6
+git submodule update --init --recursive
 popd
 
 git clone https://git.savannah.gnu.org/git/readline.git readline
 pushd readline
 git checkout -f d49a9082
+git submodule update --init --recursive
 popd
 
 git clone https://github.com/wjakob/tbb tbb
 pushd tbb
 git checkout -f 20357d83
+git submodule update --init --recursive
 popd
 
 git clone https://github.com/nigels-com/glew.git glew
 pushd glew
 git checkout -f 3a8eff7
+git submodule update --init --recursive
 popd
 
 readonly pstart="$PWD"
