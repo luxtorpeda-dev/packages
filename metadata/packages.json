@@ -712,6 +712,28 @@
             "non_free": true
         }
     },
+    "285330": {
+        "game_name": "RollerCoaster Tycoon 2: Triple Thrill Pack",
+        "download": [
+            {
+                "name": "openrct2",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "openrct2-285330-2.tar.xz"
+            }
+        ],
+        "command": "./run-openrct2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/285330",
+            "engine_name": "openrct2",
+            "engine_link": "https://openrct2.io/",
+            "version": "v0.2.6",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
+        }
+    },
     "517790": {
         "game_name": "Caesar 3",
         "download": [
@@ -758,22 +780,6 @@
             "license": "Activision",
             "license_link": "https://github.com/ptitSeb/ctp2/blob/master/EULA%20-%20Source%20Code%20for%20CTP2.rtf",
             "non_free": true
-        }
-    },
-    "285330": {
-        "game_name": "RollerCoaster Tycoon 2: Triple Thrill Pack",
-        "download": [],
-        "command": "./run-openrct2.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/285330",
-            "engine_name": "openrct2",
-            "engine_link": "https://openrct2.io/",
-            "version": "v0.2.6",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
         }
     },
     "698780": {
