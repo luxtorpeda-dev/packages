@@ -11,11 +11,26 @@ pushd jansson
 git checkout -f e9ebfa7
 popd
 
+git clone https://github.com/nih-at/libzip.git libzip
+pushd libzip
+git checkout -f dcd9a0b
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
 # BUILD PHASE
 pushd jansson
+mkdir build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd libzip
 mkdir build
 cd build
 cmake \
