@@ -68,6 +68,6 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/285330/dist/lib"
-cp -rfv "$pfx/lib".*.so* "$diststart/285330/dist/lib"
+cp -rfv "$pfx/lib/".*.so* "$diststart/285330/dist/lib"
 cp -rfv "source/build/openrct2" "$diststart/285330/dist/"
 cp -rfv "source/build/openrct2-cli" "$diststart/285330/dist/"
