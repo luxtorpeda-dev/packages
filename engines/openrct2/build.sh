@@ -57,6 +57,10 @@ cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_CXX_FLAGS="-Wno-sign-compare" \
+    -DJANSSON_LIBRARIES="$pfx/lib" \
+    -DJANSSON_INCLUDE_DIRS="$pfx/include" \
+    -DLIBZIP_LIBRARIES="$pfx/lib" \
+    -DLIBZIP_INCLUDE_DIRS="$pfx/include" \
     ..
 make -j "$(nproc)"
 popd
