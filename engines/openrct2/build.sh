@@ -16,6 +16,11 @@ pushd libzip
 git checkout -f dcd9a0b
 popd
 
+git clone https://github.com/unicode-org/icu.git icu
+pushd icu
+git checkout -f 125e29d
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
@@ -31,6 +36,16 @@ make install
 popd
 
 pushd libzip
+mkdir build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd icu
 mkdir build
 cd build
 cmake \
