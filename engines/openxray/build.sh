@@ -32,11 +32,8 @@ git checkout -f 20357d83
 git submodule update --init --recursive
 popd
 
-git clone https://github.com/nigels-com/glew.git glew
-pushd glew
-git checkout -f 3a8eff7
-git submodule update --init --recursive
-popd
+wget https://github.com/nigels-com/glew/releases/download/glew-2.1.0/glew-2.1.0.zip
+unzip glew-2.1.0.zip -d glew
 
 readonly pstart="$PWD"
 readonly pfx="$PWD/local"
