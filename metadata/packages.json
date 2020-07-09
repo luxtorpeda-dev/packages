@@ -718,7 +718,7 @@
             {
                 "name": "openrct2",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "openrct2-285330-2.tar.xz"
+                "file": "openrct2-285330-3.tar.xz"
             }
         ],
         "command": "./run-openrct2.sh",
