@@ -45,12 +45,8 @@ make -j "$(nproc)"
 make install
 popd
 
-pushd icu
-mkdir build
-cd build
-cmake \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    ..
+pushd icu/icu4c/source
+./configure --prefix="$pfx"
 make -j "$(nproc)"
 make install
 popd
