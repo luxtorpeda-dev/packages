@@ -105,6 +105,13 @@ install_gcc_9 () {
     sudo update-alternatives --set g++ "/usr/bin/g++-9"
 }
 
+install_latest_git () {
+    echo "deb http://ppa.launchpad.net/git-core/ppa/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/git.list
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys a1715d88e1df1f24
+    sudo apt-get update
+    sudo apt-get install -y git
+}
+
 set -x
 set -e
 

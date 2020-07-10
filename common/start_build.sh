@@ -18,6 +18,13 @@ else
     install_gcc_9
 fi
 
+if [ -z "${LATEST_GIT}" ]; then
+    echo "Using default git"
+else
+    echo "Installing latest git"
+    install_latest_git
+fi
+
 source ./build.sh
 
 copy_license_file "$STEAM_APP_ID_LIST"
