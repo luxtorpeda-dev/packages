@@ -105,6 +105,7 @@ GLEW_DEST="$pfx" make install
 popd
 
 # build openxray
+export SystemDrive="$pfx"
 pushd "source"
 mkdir -p bin
 cd bin
@@ -114,16 +115,36 @@ cmake \
         -DFREEIMAGEPLUS_LIBRARY="$pfx/lib/libfreeimageplus-3.18.0.so" \
         -DLZO_ROOT_DIR="$pfx" \
         -DCMAKE_PREFIX_PATH="$pfx" \
+        -DCMAKE_INSTALL_PREFIX="$pfx" \
+        -DCMAKE_INSTALL_LIBDIR="$pfx/lib" \
         -DTBB_INSTALL_DIR="$pfx" \
         -DTBB_INCLUDE_DIRS="$pfx/include" \
         -DTBB_LIBRARY_DIRS="$pfx/lib" \
         -DFREEIMAGE_INCLUDE_PATH="$pfx/include" \
         -DGLEW_INCLUDE_DIRS="$pfx/include" \
-        -DGLEW_LIBRARIES="$pstart/glew/glew-2.1.0/lib" \
+        -DGLEW_LIBRARIES="$pstart/glew/glew-2.1.0/lib/libGLEW.so" \
         -DGLEW_USE_STATIC_LIBS=ON \
+        -DLOCKFILE_LIBRARIES="$pfx/LockFile/lib/liblockfile.so" \
+        -DLOCKFILE_INCLUDE_DIR="$pfx/LockFile/include" \
+        -DCRYPTO++_LIBRARIES="$pfx/Crypto++/lib/libcryptopp.so" \
+        -DCRYPTO++_INCLUDE_DIR="$pfx/Crypto++/include" \
         ..
 make -j "$(nproc)"
 make install
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/41700/dist/lib"
+mkdir -p "$diststart/41700/dist/bin"
+
+cp -rfv "/$pfx/share/openxray"/* "$diststart/41700/dist/"
+cp -rfv "$pfx/local/bin/xr_3da" "$diststart/41700/dist/bin"
+cp -rfv "$pfx/lib"/*.so* "$diststart/41700/dist/lib"
+cp -rfv "$pfx/Crypto++/lib"/*.so* "$diststart/41700/dist/lib"
+cp -rfv "$pstart/tbb/build"/libtbb*.so* "$diststart/41700/dist/lib"
+cp -rfv "$pstart/liblockfile/liblockfile.so""$diststart/41700/dist/lib"
+pushd "$diststart/41700/dist/lib"
+ln -s "liblockfile.so" "liblockfile.so.1"
+popd
+cp -rfv glew-2.1.0/lib/*.so* "$diststart/41700/dist/lib"
+cp assets/run-openxray.sh "$diststart/41700/dist"
