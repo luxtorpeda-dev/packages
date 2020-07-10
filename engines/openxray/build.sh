@@ -117,8 +117,6 @@ pushd "source"
 mkdir -p bin
 cd bin
 
-# get gamedata folder
-
 export TARGET_CPU=x64
 CFLAGS="-w" CXXFLAGS="-w" cmake \
         -DCMAKE_BUILD_TYPE=Release \
@@ -146,8 +144,8 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/41700/dist/lib"
+mkdir -p "$diststart/41700/dist/gamedata"
 
-cp -rfv "$pfx/share/openxray"/* "$diststart/41700/dist/"
 cp -rfv "$pfx/bin/xr_3da" "$diststart/41700/dist"
 cp -rfv "$pfx/lib"/*.so* "$diststart/41700/dist/lib"
 cp -rfv "$pfx/Crypto++/lib"/*.so* "$diststart/41700/dist/lib"
@@ -156,6 +154,7 @@ cp -rfv "$pstart/liblockfile/liblockfile.so" "$diststart/41700/dist/lib"
 cp -rfv glew/glew-2.1.0/lib/*.so* "$diststart/41700/dist/lib"
 cp assets/run-openxray.sh "$diststart/41700/dist"
 cp -rfv plus/res/gamedata/* "$diststart/41700/dist/gamedata"
+cp -rfv "$pfx/share/openxray"/* "$diststart/41700/dist/"
 pushd "$diststart/41700/dist/lib"
 ln -s "libGLEW.so" "libGLEW.so.1.10"
 ln -s "liblockfile.so" "liblockfile.so.1"
