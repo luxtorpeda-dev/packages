@@ -110,6 +110,8 @@ install_latest_git () {
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys a1715d88e1df1f24
     sudo apt-get update
     sudo apt-get install -y git
+    git config --global user.email "actions@github.com"
+    git config --global user.name "GitHub Action"
 }
 
 set -x
