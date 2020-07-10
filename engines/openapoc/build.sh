@@ -4,6 +4,7 @@
 git clone https://github.com/OpenApoc/OpenApoc.git source
 pushd source
 git checkout -f 9183a08
+git submodule update --init --recursive
 popd
 
 git clone https://github.com/boostorg/boost boost
