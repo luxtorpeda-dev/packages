@@ -46,6 +46,7 @@ pushd libunwind
 make
 make install
 popd
+cp -rfv /usr/local/lib/libunwind*.so* "$pfx/lib"
 
 export LD_LIBRARY_PATH="$pfx/lib:$LD_LIBRARY_PATH"
 
