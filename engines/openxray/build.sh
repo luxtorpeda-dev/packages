@@ -6,6 +6,12 @@ pushd source
 git checkout -f 3d62bd5
 git submodule update --init --recursive
 git am < ../patches/0001-Changes-to-make-Linux-compile.patch
+git am < ../patches/0002-Fix-crash-on-exit-of-game.patch
+popd
+
+git clone https://github.com/OpenXRay/Plus.git plus
+pushd plus
+git checkout -f deaa827
 popd
 
 git clone https://github.com/WinMerge/freeimage freeimage
@@ -102,6 +108,7 @@ popd
 pushd glew/glew-2.1.0
 GLEW_DEST="$pfx" make -j "$(nproc)"
 GLEW_DEST="$pfx" make install
+make install
 popd
 
 # build openxray
@@ -110,7 +117,11 @@ pushd "source"
 mkdir -p bin
 cd bin
 
-cmake \
+# get gamedata folder
+
+export TARGET_CPU=x64
+CFLAGS="-w" CXXFLAGS="-w" cmake \
+        -DCMAKE_BUILD_TYPE=Release \
         -DFREEIMAGE_LIBRARY="$pfx/lib/libfreeimage-3.18.0.so" \
         -DFREEIMAGEPLUS_LIBRARY="$pfx/lib/libfreeimageplus-3.18.0.so" \
         -DLZO_ROOT_DIR="$pfx" \
@@ -135,16 +146,17 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/41700/dist/lib"
-mkdir -p "$diststart/41700/dist/bin"
 
-cp -rfv "/$pfx/share/openxray"/* "$diststart/41700/dist/"
-cp -rfv "$pfx/bin/xr_3da" "$diststart/41700/dist/bin"
+cp -rfv "$pfx/share/openxray"/* "$diststart/41700/dist/"
+cp -rfv "$pfx/bin/xr_3da" "$diststart/41700/dist"
 cp -rfv "$pfx/lib"/*.so* "$diststart/41700/dist/lib"
 cp -rfv "$pfx/Crypto++/lib"/*.so* "$diststart/41700/dist/lib"
 cp -rfv "$pstart/tbb/build"/libtbb*.so* "$diststart/41700/dist/lib"
 cp -rfv "$pstart/liblockfile/liblockfile.so" "$diststart/41700/dist/lib"
-pushd "$diststart/41700/dist/lib"
-ln -s "liblockfile.so" "liblockfile.so.1"
-popd
 cp -rfv glew/glew-2.1.0/lib/*.so* "$diststart/41700/dist/lib"
 cp assets/run-openxray.sh "$diststart/41700/dist"
+cp -rfv plus/res/gamedata/* "$diststart/41700/dist/gamedata"
+pushd "$diststart/41700/dist/lib"
+ln -s "libGLEW.so" "libGLEW.so.1.10"
+ln -s "liblockfile.so" "liblockfile.so.1"
+popd
