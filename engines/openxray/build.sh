@@ -138,7 +138,7 @@ mkdir -p "$diststart/41700/dist/lib"
 mkdir -p "$diststart/41700/dist/bin"
 
 cp -rfv "/$pfx/share/openxray"/* "$diststart/41700/dist/"
-cp -rfv "$pfx/local/bin/xr_3da" "$diststart/41700/dist/bin"
+cp -rfv "$pfx/bin/xr_3da" "$diststart/41700/dist/bin"
 cp -rfv "$pfx/lib"/*.so* "$diststart/41700/dist/lib"
 cp -rfv "$pfx/Crypto++/lib"/*.so* "$diststart/41700/dist/lib"
 cp -rfv "$pstart/tbb/build"/libtbb*.so* "$diststart/41700/dist/lib"
