@@ -4,6 +4,7 @@
 git clone https://github.com/OpenApoc/OpenApoc.git source
 pushd source
 git checkout -f 9183a08
+git am < ../patches/0001-Workaround-for-missing-PRId64.patch
 git submodule update --init --recursive
 popd
 
@@ -18,6 +19,11 @@ pushd cmake
 git checkout -f 39c6ac5
 popd
 
+git clone https://github.com/libunwind/libunwind.git libunwind
+pushd libunwind
+git checkout -f 1847559
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
@@ -28,9 +34,17 @@ make
 sudo make install
 popd
 
-cmake --version
+export CMAKE_ROOT=/usr/local/share/cmake-3.16/
+/usr/local/bin/cmake --version
 
 ./build-boost.sh
+
+pushd libunwind
+./autogen.sh
+./configure
+make
+make install
+popd
 
 pushd source
 echo "Fetching minimal cd.iso for build"
@@ -39,7 +53,7 @@ xz -d data/cd.iso.xz
 
 mkdir build
 cd build
-cmake \
+/usr/local/bin/cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DBUILD_LAUNCHER=OFF \
     ..
