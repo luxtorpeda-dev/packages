@@ -612,7 +612,13 @@
     },
     "13230": {
         "game_name": "Unreal Tournament 2004: Editor's Choice Edition",
-        "download": [],
+        "download": [
+            {
+                "name": "ut2004",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "ut2004-13230-1.tar.xz"
+            }
+        ],
         "command": "./run-ut2004.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/13230",
