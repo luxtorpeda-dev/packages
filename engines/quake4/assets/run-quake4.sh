@@ -8,7 +8,7 @@ create_relative_symlink () {
 }
 
 if [ ! -f ready ]; then
-    iconv -c -t UTF-8 < EULA.txt > EULA-utf8.txts
+    iconv -c -t UTF-8 < EULA.txt > EULA-utf8.txt
     zenity --text-info --title="EULA" --filename="EULA-utf8.txt" --checkbox="I have read and agree to these terms."
     if [ "$?" != 0 ]
     then
