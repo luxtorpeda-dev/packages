@@ -610,6 +610,23 @@
             "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
         }
     },
+    "13230": {
+        "game_name": "Unreal Tournament 2004: Editor's Choice Edition",
+        "download": [],
+        "command": "./run-ut2004.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/13230",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "http://treefort.icculus.org/ut2004/",
+            "version": "3369",
+            "comments": "On first start, license key will be requested, which can be found in Steam by getting the CD Key.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://store.steampowered.com/eula/eula_epic",
+            "closed_source": true
+        }
+    },
     "22320": {
         "game_name": "The Elder Scrolls III: Morrowind",
         "download": [
