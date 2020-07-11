@@ -620,6 +620,7 @@
             }
         ],
         "command": "./run-ut2004.sh",
+        "use_original_command_directory": true,
         "information": {
             "store_link": "https://store.steampowered.com/app/13230",
             "engine_name": "Proprietary Engine",
