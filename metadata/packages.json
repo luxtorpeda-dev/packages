@@ -626,7 +626,7 @@
             "engine_name": "Proprietary Engine",
             "engine_link": "http://treefort.icculus.org/ut2004/",
             "version": "3369",
-            "comments": "On first start, license key will be requested, which can be found in Steam by getting the CD Key.",
+            "comments": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. Mods should go in the linuxdata directory.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
