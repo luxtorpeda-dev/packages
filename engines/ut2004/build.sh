@@ -12,6 +12,5 @@ make
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/13230/dist/system"
-cp -rfv "assets/run-ut2004.sh" "$diststart/13230/dist/system"
+cp -rfv "assets/run-ut2004.sh" "$diststart/13230/dist/"
 cp -rfv "sdlcl/libSDL-1.2.so.0" "$diststart/13230/dist/"
