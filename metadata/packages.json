@@ -74,7 +74,13 @@
     },
     "2210": {
         "game_name": "Quake IV",
-        "download": [],
+        "download": [
+            {
+                "name": "quake4",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "quake4-2210-1.tar.xz"
+            }
+        ],
         "command": "./run-quake4.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/2210",
