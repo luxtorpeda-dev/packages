@@ -454,7 +454,13 @@
     },
     "7660": {
         "game_name": "X-COM: Apocalypse",
-        "download": [],
+        "download": [
+            {
+                "name": "openapoc",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "openapoc-7660-1.tar.xz"
+            }
+        ],
         "command": "./run-openapoc.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/7660",
