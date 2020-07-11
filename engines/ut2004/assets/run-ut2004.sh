@@ -51,7 +51,6 @@ if [ ! -f ready ]; then
     tar xjf ut2004-lnxpatch3369-2.tar.bz2 -C linuxdata --strip-components=1
 
     ln -s /usr/lib/libopenal.so linuxdata/System/openal.so
-    ln -rsf libSDL-1.2.so.0 linuxdata/System/libSDL-1.2.so.0
     
     echo "$CDKEY" > linuxdata/System/cdkey
 
