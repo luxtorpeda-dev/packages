@@ -452,6 +452,22 @@
             "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
         }
     },
+    "7660": {
+        "game_name": "X-COM: Apocalypse",
+        "download": [],
+        "command": "./run-openapoc.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/7660",
+            "engine_name": "OpenApoc",
+            "engine_link": "https://github.com/OpenApoc/OpenApoc",
+            "version": "9183a08 (from master)",
+            "comments": "No GUI launcher, due to qt5 dependency. Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenApoc/OpenApoc/blob/master/LICENSE",
+        }
+    },
     "9010": {
         "game_name": "Return to Castle Wolfenstein",
         "download": [
