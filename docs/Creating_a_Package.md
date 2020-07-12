@@ -71,6 +71,12 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
         export LICENSE_PATH="./source/COPYING.txt"
         export ADDITIONAL_LICENSES="./source/LICENSE.DejaVu ./boost/LICENSE_1_0.txt ./glm/copying.txt ./data/LICENSE"
         
+   The env file can also have the following optional parameters:
+   
+        export GCC_9="1"
+        export LATEST_GIT="1"
+        
+        
 4. Create build.sh, using the following template. 
 
         #!/bin/bash
@@ -117,7 +123,11 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
                 "version": "1.5.1-PRE1",
                 "comments": "",
                 "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan"
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt",
+                "non_free": false,
+                "closed_source": false
             }
         }
         
