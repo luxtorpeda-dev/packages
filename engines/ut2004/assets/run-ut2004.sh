@@ -9,16 +9,6 @@ create_relative_symlink () {
     ln -rsf "$target" "$symlink"
 }
 
-if [ ! -f "/usr/lib/libopenal.so" ]; then
-    "$STEAM_ZENITY" --error --text "OpenAL Not Found. Exiting"
-    exit 0
-fi
-
-if [ ! -f "/usr/lib/libstdc++.so.5" ]; then
-    "$STEAM_ZENITY" --error --text "libstdc++.so.5 Not Found. Exiting"
-    exit 0
-fi
-
 if [ ! -f ready ]; then
     iconv -c -t UTF-8 < ./System/License.int > ./System/License.txt
     "$STEAM_ZENITY" --text-info --title="License" --filename="./System/License.txt" --checkbox="I have read and agree to these terms."
@@ -49,8 +39,6 @@ if [ ! -f ready ]; then
     ln -rsf "ut2004 content 2" linuxdata/"ut2004 content 2"
 
     tar xjf ut2004-lnxpatch3369-2.tar.bz2 -C linuxdata --strip-components=1
-
-    ln -s /usr/lib/libopenal.so linuxdata/System/openal.so
     
     echo "$CDKEY" > linuxdata/System/cdkey
 
