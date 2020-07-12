@@ -6,7 +6,7 @@ pushd sdlcl
 git checkout -f 2d3cc735
 popd
 
-git https://github.com/kcat/openal-soft.git openal
+git clone https://github.com/kcat/openal-soft.git openal
 pushd openal
 git checkout -f f5e0eef
 popd
