@@ -3,7 +3,8 @@
 # CLONE PHASE
 git clone https://github.com/tim241/sdlcl sdlcl
 pushd sdlcl
-git checkout -f 2d3cc735
+git checkout -f 85ca5537
+git am < ../patches/0001-Force-32-bit.patch
 popd
 
 # BUILD PHASE
