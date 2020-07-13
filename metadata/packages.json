@@ -446,7 +446,19 @@
             "uninstall_command": "./uninstall-prey.sh",
             "license_path": "./linuxofficial/data/prey_license.txt"
         },
-        "command": "./run-prey.sh"
+        "command": "./run-prey.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/3970",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "http://icculus.org/prey//",
+            "version": "02192009",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "http://icculus.org/prey/",
+            "closed_source": true
+        }
     },
     "6020": {
         "game_name": "STAR WARS™ Jedi Knight: Jedi Academy™",
