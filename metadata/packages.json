@@ -79,8 +79,25 @@
                 "name": "quake4",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
                 "file": "quake4-2210-1.tar.xz"
+            },
+            {
+                "name": "binaries",
+                "url": "https://www.quaddicted.com/files/idgames2/idstuff/quake4/linux/",
+                "file": "quake4-linux-1.4.2.x86.run"
             }
         ],
+        "download_config": {
+            "binaries": {
+                "setup": true,
+                "copy_only": true
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-quake4.sh",
+            "uninstall_command": "./uninstall-quake4.sh",
+            "license_path": "./EULA.txt"
+        },
         "command": "./run-quake4.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/2210",
