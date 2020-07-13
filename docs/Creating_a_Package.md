@@ -151,7 +151,8 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
                 "binaries": {
                     "extract_location": "../linuxdata",
                     "strip_prefix": "UT2004-Patch/",
-                    "setup": true
+                    "setup": true,
+                    "copy_only": false
                 }
             },
             "setup": {
