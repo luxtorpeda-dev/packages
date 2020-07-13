@@ -93,7 +93,7 @@
             }
         },
         "setup": {
-            "complete_path": "../ready",
+            "complete_path": "./ready",
             "command": "./setup-quake4.sh",
             "uninstall_command": "./uninstall-quake4.sh",
             "license_path": "./EULA.txt"
