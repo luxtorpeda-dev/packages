@@ -617,8 +617,26 @@
                 "name": "ut2004",
                 "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
                 "file": "ut2004-13230-3.tar.xz"
+            },
+            {
+                "name": "binaries",
+                "url": "https://treefort.icculus.org/ut2004/",
+                "file": "ut2004-lnxpatch3369-2.tar.bz2"
             }
         ],
+        "download_config": {
+            "binaries": {
+                "extract_location": "../linuxdata",
+                "strip_prefix": "UT2004-Patch/",
+                "setup": true
+            }
+        },
+        "setup": {
+            "complete_path": "../ready",
+            "command": "./setup-ut2004.sh",
+            "uninstall_command": "./uninstall-ut2004.sh",
+            "license_path": "../System/License.int"
+        },
         "command": "./run-ut2004.sh",
         "use_original_command_directory": true,
         "information": {
