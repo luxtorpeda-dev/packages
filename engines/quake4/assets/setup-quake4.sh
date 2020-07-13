@@ -28,3 +28,5 @@ if [ ! -f ~/.quake4/q4base/quake4key ]; then
     mkdir -p ~/.quake4/q4base
     ln -s "$PWD/linuxdata/q4base/quake4key" ~/.quake4/q4base/quake4key
 fi
+
+rm quake4-linux-1.4.2.x86.run
