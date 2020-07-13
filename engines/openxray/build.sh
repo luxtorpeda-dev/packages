@@ -3,10 +3,9 @@
 # CLONE PHASE
 git clone https://github.com/OpenXRay/xray-16 source
 pushd source
-git checkout -f 3d62bd5
+git checkout -f 32cb37a
 git submodule update --init --recursive
 git am < ../patches/0001-Changes-to-make-Linux-compile.patch
-git am < ../patches/0002-Fix-crash-on-exit-of-game.patch
 popd
 
 git clone https://github.com/OpenXRay/Plus.git plus
