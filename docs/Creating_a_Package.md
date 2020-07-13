@@ -131,4 +131,49 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
             }
         }
         
+    Engines that need further setup can use the following template:
+
+        "13230": {
+            "game_name": "Unreal Tournament 2004: Editor's Choice Edition",
+            "download": [
+                {
+                    "name": "ut2004",
+                    "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                    "file": "ut2004-13230-3.tar.xz"
+                },
+                {
+                    "name": "binaries",
+                    "url": "https://treefort.icculus.org/ut2004/",
+                    "file": "ut2004-lnxpatch3369-2.tar.bz2"
+                }
+            ],
+            "download_config": {
+                "binaries": {
+                    "extract_location": "../linuxdata",
+                    "strip_prefix": "UT2004-Patch/",
+                    "setup": true
+                }
+            },
+            "setup": {
+                "complete_path": "../ready",
+                "command": "./setup-ut2004.sh",
+                "uninstall_command": "./uninstall-ut2004.sh",
+                "license_path": "../System/License.int"
+            },
+            "command": "./run-ut2004.sh",
+            "use_original_command_directory": true,
+            "information": {
+                "store_link": "https://store.steampowered.com/app/13230",
+                "engine_name": "Proprietary Engine",
+                "engine_link": "http://treefort.icculus.org/ut2004/",
+                "version": "3369",
+                "comments": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. Mods should go in the linuxdata directory.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Proprietary/Closed Source",
+                "license_link": "https://store.steampowered.com/eula/eula_epic",
+                "closed_source": true
+            }
+        }
+        
 8. Once done with the new package, create a new pull request. Each pull request should only have one engine.
