@@ -429,8 +429,13 @@
         "download": [
             {
                 "name": "binaries",
-                "url":  "http://icculus.org/prey/downloads/",
+                "url": "http://icculus.org/prey/downloads/",
                 "file": "prey-installer-02192009.bin"
+            },
+            {
+                "name": "prey2006",
+                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "file": "prey2006-3970-1.tar.xz"
             }
         ],
         "download_config": {
