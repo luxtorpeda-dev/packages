@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/tim241/sdlcl sdlcl
+git clone https://github.com/MrAlert/sdlcl.git sdlcl
 pushd sdlcl
-git checkout -f 2d3cc735
+git checkout -f f7530d6
 popd
 
 git clone https://github.com/kcat/openal-soft.git openal
