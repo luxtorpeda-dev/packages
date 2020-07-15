@@ -110,7 +110,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add metadata/packages.json
-          git commit -m "Update packages.json for ${{ needs.findengine.outputs.engine }} version ${{ needs.findengine.outputs.build_number }}"
+          git commit -m "Update packages.json for ${{ needs.findengine.outputs.engine }} version ${{ needs.finddeploy.outputs.build_number }}"
       - name: Push Changes
         uses: ad-m/github-push-action@master
         with:
