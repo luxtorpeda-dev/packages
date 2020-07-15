@@ -26,5 +26,3 @@ cp -rfv tmp/JediAcademy/* "$diststart/6020/dist/"
 cp -rfv tmp/JediOutcast/* "$diststart/6030/dist/"
 cp -v tmp/JediAcademy/OpenJK/cgamex86_64.so "$diststart/6030/dist/OpenJK/"
 cp -v tmp/JediAcademy/OpenJK/uix86_64.so "$diststart/6030/dist/OpenJK/"
-
-
