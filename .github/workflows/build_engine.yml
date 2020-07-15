@@ -2,7 +2,7 @@ name: Build Engine
 
 on:
   push:
-    branches: [ github-releases ]
+    branches: [github-releases]
     paths:
       - 'engines/**'
 
