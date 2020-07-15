@@ -76,8 +76,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-          tag_name: ${{ needs.findengine.outputs.engine }}-${{ needs.setup.outputs.build_number }}
-          release_name: ${{ needs.findengine.outputs.engine }} Version ${{ needs.setup.outputs.build_number }}
+          tag_name: ${{ needs.findengine.outputs.engine }}-${{ needs.findengine.outputs.build_number }}
+          release_name: ${{ needs.findengine.outputs.engine }} Version ${{ needs.findengine.outputs.build_number }}
           draft: false
           prerelease: false
     - name: Upload Release Asset
