@@ -77,8 +77,8 @@
         "download": [
             {
                 "name": "quake4",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "quake4-2210-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake4-4/",
+                "file": "quake4-2210-4.tar.xz"
             },
             {
                 "name": "binaries",
