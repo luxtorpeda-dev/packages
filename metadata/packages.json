@@ -884,8 +884,8 @@
         "download": [
             {
                 "name": "julius",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "julius-517790-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/julius-4/",
+                "file": "julius-517790-4.tar.xz"
             }
         ],
         "command": "./julius",
