@@ -2,7 +2,7 @@ name: Build Engine
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, github-releases ]
     paths:
       - 'engines/**'
 
@@ -20,17 +20,6 @@ jobs:
       uses: luxtorpeda-dev/action-build-get-engine-name@v3
       with:
           token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Create Package on Bintray
-      uses: benjefferies/create-bintray-package@c74a218
-      with:
-        bintray-user: ${{ secrets.BINTRAY_USER }}
-        bintray-token: ${{ secrets.BINTRAY_API_KEY }}
-        owner: ${{ secrets.BINTRAY_OWNER }}
-        repo: ${{ secrets.BINTRAY_REPO }}
-        package-name: ${{ steps.findname.outputs.engine }}
-        package-description: Package for ${{ steps.findname.outputs.engine }}
-        package-url: NONE
-        package-license: ZLIB
     - name: Generate build number
       id: buildnumber
       uses: einaregilsson/build-number@v2 
@@ -81,62 +70,23 @@ jobs:
       uses: actions/download-artifact@v1
       with:
         name: dist
-    - name: Upload Package to Bintray
-      uses: luxtorpeda-dev/github-action-upload-bintray@v1
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        file: ${{ matrix.fileName }}
-        file_name: "${{ matrix.name }}-${{ needs.findengine.outputs.build_number }}${{ matrix.extension }}"
-        upload_path: '/'
-        api_user: ${{ secrets.BINTRAY_USER }}
-        api_key: ${{ secrets.BINTRAY_API_KEY }}
-        repository_user: ${{ secrets.BINTRAY_OWNER }}
-        repository: ${{ secrets.BINTRAY_REPO }}
-        package: ${{ needs.findengine.outputs.engine }}
-        version: ${{ needs.findengine.outputs.build_number }}
-        publish: 1
-        calculate_metadata: false
-  update_packages:
-    needs: [deploy, finddeploy, findengine, build]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-        with:
-          ref: master
-      - name: Update packages.json
-        uses: luxtorpeda-dev/action-build-update-packages@v6
-        with:
-          matrix: ${{ needs.finddeploy.outputs.matrix }}
-          version: ${{ needs.findengine.outputs.build_number }}
-          app_ids: ${{ needs.build.outputs.app_ids }}
-      - name: Commit package.json
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add metadata/packages.json
-          git commit -m "Update packages.json for ${{ needs.findengine.outputs.engine }} version ${{ needs.findengine.outputs.build_number }}"
-      - name: Push Changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
-      - name: Generate Packages Hash
-        id: generatehash
-        uses: luxtorpeda-dev/action-build-generate-sha1-hash@v1
-        with:
-            file: metadata/packages.json
-      - name: Write Packages Hash
-        uses: DamianReeves/write-file-action@e19fd875ed54f16fc583a3486e62547ce4a5dde8
-        with:
-            path: metadata/packages.hash
-            contents: ${{ steps.generatehash.outputs.hash }}
-            write-mode: overwrite
-      - name: Publish To Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./metadata
-          keep_files: true
-          external_repository: luxtorpeda-dev/luxtorpeda-dev.github.io
-          publish_branch: master
+          tag_name: ${{ needs.findengine.outputs.engine }}-${{ needs.setup.outputs.build_number }}
+          release_name: ${{ needs.findengine.outputs.engine }} Version ${{ needs.setup.outputs.build_number }}
+          draft: false
+          prerelease: false
+    - name: Upload Release Asset
+      id: upload-release-asset 
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: "${{ matrix.name }}-${{ needs.findengine.outputs.build_number }}${{ matrix.extension }}"
+        asset_name: "${{ matrix.name }}-${{ needs.findengine.outputs.build_number }}${{ matrix.extension }}"
+        asset_content_type: application/x-xz
