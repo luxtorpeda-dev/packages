@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/scp-fs2open/fs2open.github.com source
 pushd source
-git checkout -f d52bddf0
+git checkout -f 401193f
 git submodule update --init --recursive
 popd
 git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg
