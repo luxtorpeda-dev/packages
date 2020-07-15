@@ -538,8 +538,8 @@
         "download": [
             {
                 "name": "openapoc",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "openapoc-7660-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-2/",
+                "file": "openapoc-7660-2.tar.xz"
             }
         ],
         "command": "./run-openapoc.sh",
