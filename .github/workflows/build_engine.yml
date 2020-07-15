@@ -91,3 +91,17 @@ jobs:
         asset_path: "dist/${{needs.findengine.outputs.engine}}/${{ matrix.name }}${{ matrix.extension }}"
         asset_name: "${{ matrix.name }}-${{ needs.finddeploy.outputs.build_number }}${{ matrix.extension }}"
         asset_content_type: application/x-xz
+  update_packages:
+    needs: [deploy, finddeploy, findengine, build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+        with:
+          ref: master
+      - name: Update packages.json
+        uses: luxtorpeda-dev/action-build-update-packages@github-releases
+        with:
+          matrix: ${{ needs.finddeploy.outputs.matrix }}
+          version: ${{ needs.finddeploy.outputs.build_number }}
+          app_ids: ${{ needs.build.outputs.app_ids }}
