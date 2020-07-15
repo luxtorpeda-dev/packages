@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenApoc/OpenApoc.git source
 pushd source
-git checkout -f 9183a08
+git checkout -f 9183a08d34c90d2b9e91c1c941aa8459f3f5393f
 git am < ../patches/0001-Workaround-for-missing-PRId64.patch
 git am < ../patches/0002-Workaround-for-missing-PRIu64.patch
 git submodule update --init --recursive
