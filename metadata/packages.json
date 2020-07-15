@@ -787,8 +787,8 @@
             },
             {
                 "name": "dxx-rebirth",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "dxx-rebirth-273570-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-5/",
+                "file": "dxx-rebirth-273570-5.tar.xz"
             }
         ],
         "command": "./run-d1x.sh",
@@ -816,8 +816,8 @@
             },
             {
                 "name": "dxx-rebirth",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "dxx-rebirth-273580-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-5/",
+                "file": "dxx-rebirth-273580-5.tar.xz"
             }
         ],
         "command": "./run-d2x.sh",
