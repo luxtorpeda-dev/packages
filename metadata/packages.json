@@ -209,8 +209,8 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "vkquake-2310-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-2/",
+                "file": "vkquake-2310-2.tar.xz"
             },
             {
                 "name": "Quake Soundtrack",
