@@ -50,8 +50,8 @@
         "download": [
             {
                 "name": "ioquake3",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "ioquake3-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-4/",
+                "file": "ioquake3-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -320,8 +320,8 @@
         "download": [
             {
                 "name": "ioquake3",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "ioquake3-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-4/",
+                "file": "ioquake3-common-4.tar.xz",
                 "cache_by_name": true
             },
             {
