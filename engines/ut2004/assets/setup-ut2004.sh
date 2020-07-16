@@ -9,7 +9,7 @@ create_relative_symlink () {
 
 cd ../ # game tries to start in system directory, so have to get out and back to the normal directory
 
-CDKEY=$("$STEAM_ZENITY" --entry --title="CD Key" --text="Enter your CD Key (Can Be Found in Steam)")
+#CDKEY=$("$STEAM_ZENITY" --entry --title="CD Key" --text="Enter your CD Key (Can Be Found in Steam)")
 
 find {Web} -type f  | while read -r file_name ; do
     create_relative_symlink "$file_name"
@@ -42,3 +42,7 @@ ln -rsf StaticMeshes linuxdata/StaticMeshes
 ln -rsf "ut2004 content 2" linuxdata/"ut2004 content 2"
     
 echo "$CDKEY" > linuxdata/System/cdkey
+
+rm linuxdata/System/User.ini
+cp System/User.ini linuxdata/System/User.ini
+sed -i "s/InputClass=Class'Engine.PlayerInput'/InputClass=Class'foxWSFix.foxPlayerInput'/" linuxdata/System/User.ini
