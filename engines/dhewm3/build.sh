@@ -16,7 +16,6 @@ pushd "openal"
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
-    -DCMAKE_INSTALL_PREFIX=../../../tmp \
     ..
 make -j "$(nproc)"
 make install
@@ -24,8 +23,7 @@ popd
 
 pushd source/neo
 mkdir build
-cd build
-OPENALDIR="../../../tmp" cmake \
+cd buildcmake \
     -DCMAKE_INSTALL_PREFIX=../../../tmp \
     -DCMAKE_PREFIX_PATH=../../../tmp \
     ..
