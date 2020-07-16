@@ -23,7 +23,8 @@ popd
 
 pushd source/neo
 mkdir build
-cd buildcmake \
+cd build
+cmake \
     -DCMAKE_INSTALL_PREFIX=../../../tmp \
     -DCMAKE_PREFIX_PATH=../../../tmp \
     ..
