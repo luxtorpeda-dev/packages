@@ -9,7 +9,6 @@ create_relative_symlink () {
         ln -rsf "$target" "$symlink"
 }
 
-
 find base -type f  | while read -r file_name ; do
     create_relative_symlink "$file_name"
 done

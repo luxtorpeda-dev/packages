@@ -16,7 +16,6 @@ find {q4base,q4mp} -type f  | while read -r file_name ; do
 done
     
 cp -r linuxofficial/* linuxdata # Copying instead of symlink, because the engine can't find the original data (it changes the path to linuxofficial incorrectly)
-    
 rm ./linuxdata/bin/Linux/x86_64/libgcc_s.so.1
 rm ./linuxdata/bin/Linux/x86_64/libstdc++.so.6
 chmod +x ./linuxdata/bin/Linux/x86_64/quake4smp.x86

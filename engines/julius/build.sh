@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/bvschaik/julius.git source
 pushd source
-git checkout eb435bc6
+git checkout c926f72
 popd
 
 # BUILD PHASE

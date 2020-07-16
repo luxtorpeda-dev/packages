@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/MrAlert/sdlcl.git sdlcl
 pushd sdlcl
-git checkout -f f7530d6
+git checkout -f f7530d684bc7867e05e2e71385a452f26ba29555
 popd
 
 git clone https://github.com/kcat/openal-soft.git openal

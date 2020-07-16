@@ -16,6 +16,7 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/common/dist/baseq2"
+
 cp -v assets/quake2.sh "$diststart/common/dist/"
 cp -v assets/default.lux.cfg "$diststart/common/dist/baseq2/yq2.cfg"
 cp -v source/stuff/icon/Quake2.svg "$diststart/common/dist/"
