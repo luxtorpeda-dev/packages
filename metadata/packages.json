@@ -759,7 +759,7 @@
         "download": [
             {
                 "name": "rbdoom-3-bfg",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rbdoom-3-bfg-5/",
                 "file": "rbdoom-3-bfg-208200-5.tar.xz"
             }
         ],
