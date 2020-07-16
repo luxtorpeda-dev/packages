@@ -6,11 +6,29 @@ pushd source
 git checkout 3960b88
 popd
 
+git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg
+pushd ffmpeg
+git checkout -f 523da8ea
+git submodule update --init --recursive
+popd
+
+readonly pfx="$PWD/local"
+readonly tmp="$PWD/tmp"
+mkdir -p "$pfx"
+mkdir -p "$tmp"
+
 # BUILD PHASE
+./build-ffmpeg.sh
+
 pushd "source"
-cd neo
-./cmake-eclipse-linux-profile.sh
-cd ../build
+mkdir build
+cd build
+cmake \
+    -G "Eclipse CDT4 - Unix Makefiles" \
+    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+    -DSDL2=ON \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    ../neo
 make -j "$(nproc)"
 popd
 
