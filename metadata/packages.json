@@ -923,7 +923,7 @@
             "engine_name": "openrct2",
             "engine_link": "https://openrct2.io/",
             "version": "v0.2.6",
-            "comments": "Steam overlay must be disabled for the game to work properly.",
+            "comments": "Steam overlay will be disabled, since the engine crashes with it on.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
