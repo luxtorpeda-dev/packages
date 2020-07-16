@@ -35,5 +35,5 @@ popd
 # COPY PHASE
 cp -rfv tmp/bin/* "$diststart/common/dist/"
 cp -rfv tmp/lib/dhewm3/* "$diststart/common/dist/"
-cp -rfv "/usr/local/lib/libopenal.so.1.20.1" "$diststart/13230/dist/openal.so"
-cp -rfv "assets/run-dhewm3.sh" "$diststart/13230/dist/"
+cp -rfv "/usr/local/lib/libopenal.so.1.20.1" "$diststart/common/dist/openal.so"
+cp -rfv "assets/run-dhewm3.sh" "$diststart/common/dist/"
