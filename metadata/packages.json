@@ -763,7 +763,7 @@
                 "file": "rbdoom-3-bfg-208200-5.tar.xz"
             }
         ],
-        "command": "./RBDoom3BFG",
+        "command": "./run-rbdoom-3-bfg.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
             "engine_name": "RBDOOM-3-BFG",
