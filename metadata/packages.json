@@ -604,12 +604,12 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./dhewm3",
+        "command": "./run-dhewm3.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/9050/",
             "engine_name": "dhewm3",
             "engine_link": "https://dhewm3.org/",
-            "version": "1.5.1-PRE1",
+            "version": "1.5.1_RC1",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -627,7 +627,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./dhewm3",
+        "command": "./run-dhewm3.sh",
         "command_args": [
             "+set",
             "fs_game",
@@ -637,7 +637,7 @@
             "store_link": "https://store.steampowered.com/app/9070/",
             "engine_name": "dhewm3",
             "engine_link": "https://dhewm3.org/",
-            "version": "1.5.1-PRE1",
+            "version": "1.5.1_RC1",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
