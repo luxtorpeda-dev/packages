@@ -693,7 +693,7 @@
                 "strip_prefix": "UT2004-Patch/",
                 "setup": true
             },
-            "extras": {
+            "foxWSFix": {
                 "extract_location": "../linuxdata",
                 "setup": true
             }
