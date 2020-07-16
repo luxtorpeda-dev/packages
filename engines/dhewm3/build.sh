@@ -28,6 +28,7 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX=../../../tmp \
     -DCMAKE_PREFIX_PATH=../../../tmp \
+    -DOPENAL_INCLUDE_DIR=../../../tmp/include \
     ..
 make -j "$(nproc)"
 make install
@@ -37,3 +38,4 @@ popd
 cp -rfv tmp/bin/* "$diststart/common/dist/"
 cp -rfv tmp/lib/dhewm3/* "$diststart/common/dist/"
 cp -rfv "openal/build/libopenal.so.1.20.1" "$diststart/13230/dist/openal.so"
+cp -rfv "assets/run-dhewm3.sh" "$diststart/13230/dist/"

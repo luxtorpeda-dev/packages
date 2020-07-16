@@ -604,7 +604,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./dhewm3",
+        "command": "./run-dhewm3.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/9050/",
             "engine_name": "dhewm3",
@@ -627,7 +627,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./dhewm3",
+        "command": "./run-dhewm3.sh",
         "command_args": [
             "+set",
             "fs_game",
