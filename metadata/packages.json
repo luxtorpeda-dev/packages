@@ -819,8 +819,8 @@
         "download": [
             {
                 "name": "rbdoom-3-bfg",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rbdoom-3-bfg-5/",
-                "file": "rbdoom-3-bfg-208200-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rbdoom-3-bfg-6/",
+                "file": "rbdoom-3-bfg-208200-6.tar.xz"
             }
         ],
         "command": "./run-rbdoom-3-bfg.sh",
