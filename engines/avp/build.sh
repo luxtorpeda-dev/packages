@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/dreamer/avp-forever source
 pushd source
-git checkout 5673c166
+git checkout 5673c1665a2c6d7fdaf1a20d554bb135a20c7bc8
 popd
 git clone https://github.com/MrAlert/sdlcl sdlcl
 pushd sdlcl

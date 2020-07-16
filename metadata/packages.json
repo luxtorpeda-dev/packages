@@ -209,8 +209,8 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "vkquake-2310-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-2/",
+                "file": "vkquake-2310-2.tar.xz"
             },
             {
                 "name": "Quake Soundtrack",
@@ -236,8 +236,8 @@
         "download": [
             {
                 "name": "yquake2",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "yquake2-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-4/",
+                "file": "yquake2-common-4.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -264,8 +264,8 @@
         "download": [
             {
                 "name": "yquake2",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "yquake2-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-4/",
+                "file": "yquake2-common-4.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -292,8 +292,8 @@
         "download": [
             {
                 "name": "yquake2",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "yquake2-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-4/",
+                "file": "yquake2-common-4.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -406,8 +406,8 @@
         "download": [
             {
                 "name": "avp",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "avp-3730-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/avp-4/",
+                "file": "avp-3730-4.tar.xz"
             }
         ],
         "command": "./run-avp.sh",
@@ -475,8 +475,8 @@
             },
             {
                 "name": "eternaljk",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "eternaljk-6020-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eternaljk-2/",
+                "file": "eternaljk-6020-2.tar.xz"
             }
         ],
         "commands": {
@@ -509,8 +509,8 @@
             },
             {
                 "name": "jk2mv",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "jk2mv-6030-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/jk2mv-3/",
+                "file": "jk2mv-6030-3.tar.xz"
             }
         ],
         "commands": {
@@ -538,8 +538,8 @@
         "download": [
             {
                 "name": "openapoc",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "openapoc-7660-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-2/",
+                "file": "openapoc-7660-2.tar.xz"
             }
         ],
         "command": "./run-openapoc.sh",
@@ -560,8 +560,8 @@
         "download": [
             {
                 "name": "iortcw",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "iortcw-9010-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-4/",
+                "file": "iortcw-9010-4.tar.xz"
             }
         ],
         "commands": {
@@ -650,8 +650,8 @@
         "download": [
             {
                 "name": "yquake2",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "yquake2-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-4/",
+                "file": "yquake2-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -761,7 +761,7 @@
         "download": [
             {
                 "name": "openmw",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-6/",
                 "file": "openmw-22320-6.tar.xz"
             }
         ],
@@ -805,7 +805,7 @@
         "download": [
             {
                 "name": "rbdoom-3-bfg",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rbdoom-3-bfg-5/",
                 "file": "rbdoom-3-bfg-208200-5.tar.xz"
             }
         ],
@@ -885,8 +885,8 @@
         "download": [
             {
                 "name": "fs2open",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                "file": "fs2open-273620-9.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-10/",
+                "file": "fs2open-273620-10.tar.xz"
             }
         ],
         "command": "./run-freespace2.sh",
@@ -894,7 +894,7 @@
             "store_link": "https://store.steampowered.com/app/273620/Freespace_2/",
             "engine_name": "scp-fs2open",
             "engine_link": "https://github.com/scp-fs2open/fs2open.github.com",
-            "version": "d52bddf (from master)",
+            "version": "e4f7bc8 (from master)",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",

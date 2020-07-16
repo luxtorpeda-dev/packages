@@ -19,7 +19,6 @@ cd MP
 ARCH=x86_64 BUILD_CLIENT=1 BUILD_SERVER=0 BASEGAME=Main make
 popd || exit 1
 
-
 # COPY PHASE
 mkdir tmp || exit 1
 mkdir tmp/Main || exit 1
