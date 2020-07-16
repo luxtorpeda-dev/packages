@@ -7,8 +7,9 @@ git checkout 0396e4a
 git am < ../patches/0001-Revert-use-of-7za-from-commit-c2dfd02ebd73b06ba2326c.patch
 popd
 
-# BUILD PHASE
 mkdir -p tmp
+
+# BUILD PHASE
 pushd source
 mkdir build
 cd build
