@@ -913,8 +913,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-4/",
-                "file": "openrct2-285330-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-5/",
+                "file": "openrct2-285330-5.tar.xz"
             }
         ],
         "command": "./run-openrct2.sh",
