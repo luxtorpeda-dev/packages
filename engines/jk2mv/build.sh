@@ -7,8 +7,9 @@ git checkout 11a108e
 git submodule update --init --recursive
 popd
 
-# BUILD PHASE
 mkdir -p tmp
+
+# BUILD PHASE
 pushd source
 mkdir building
 cd building
