@@ -710,6 +710,52 @@
             "closed_source": true
         }
     },
+    "13240": {
+        "game_name": "Unreal Tournament: Game of the Year Edition",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "http://www.flibitijibibo.com/fedora/installers/",
+                "file": "flibitUT436.tar.gz"
+            },
+            {
+                "name": "extras",
+                "url": "https://luxtorpeda-dev.github.io/closed-assets/",
+                "file": "ut99-extras.tar.xz"
+            }
+        ],
+        "download_config": {
+            "binaries": {
+                "extract_location": "../linuxdata",
+                "strip_prefix": "Install/",
+                "setup": true
+            },
+            "extras": {
+                "extract_location": "../linuxextras",
+                "setup": true
+            }
+        },
+        "setup": {
+            "complete_path": "../ready",
+            "command": "./setup-ut99.sh",
+            "uninstall_command": "./uninstall-ut99.sh",
+            "license_path": "../linuxdata/legal.txt"
+        },
+        "command": "./run-ut99.sh",
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/13240",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "http://www.flibitijibibo.com/fedora/installers/",
+            "version": "436",
+            "comments": "Uses padsp for audio. Uses pack from Mr Doomguy for improvements.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://store.steampowered.com/eula/eula_epic",
+            "closed_source": true
+        }
+    },
     "22320": {
         "game_name": "The Elder Scrolls III: Morrowind",
         "download": [
