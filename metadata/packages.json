@@ -677,6 +677,11 @@
                 "file": "ut2004-13230-6.tar.xz"
             },
             {
+                "name": "foxWSFix",
+                "url": "https://luxtorpeda-dev.github.io/closed-assets/",
+                "file": "ut2004-foxWSFix.tar.xz"
+            },
+            {
                 "name": "binaries",
                 "url": "https://treefort.icculus.org/ut2004/",
                 "file": "ut2004-lnxpatch3369-2.tar.bz2"
@@ -686,6 +691,10 @@
             "binaries": {
                 "extract_location": "../linuxdata",
                 "strip_prefix": "UT2004-Patch/",
+                "setup": true
+            },
+            "foxWSFix": {
+                "extract_location": "../linuxdata",
                 "setup": true
             }
         },
@@ -702,7 +711,7 @@
             "engine_name": "Proprietary Engine",
             "engine_link": "http://treefort.icculus.org/ut2004/",
             "version": "3369",
-            "comments": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. Mods should go in the linuxdata directory.",
+            "comments": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. Mods should go in the linuxdata directory. Adds foxWSFix by default.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
