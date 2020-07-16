@@ -25,10 +25,9 @@ popd
 pushd source/neo
 mkdir build
 cd build
-cmake \
+OPENALDIR="../../../tmp" cmake \
     -DCMAKE_INSTALL_PREFIX=../../../tmp \
     -DCMAKE_PREFIX_PATH=../../../tmp \
-    -DOPENAL_INCLUDE_DIR=../../../tmp/include \
     ..
 make -j "$(nproc)"
 make install
