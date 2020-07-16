@@ -722,6 +722,11 @@
                 "name": "extras",
                 "url": "https://luxtorpeda-dev.github.io/closed-assets/",
                 "file": "ut99-extras.tar.xz"
+            },
+            {
+                "name": "ut99",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-1/",
+                "file": "ut99-13240-1.tar.xz"
             }
         ],
         "download_config": {
