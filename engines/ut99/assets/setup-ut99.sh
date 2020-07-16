@@ -25,3 +25,4 @@ ln -rsf Music linuxdata/Music
 ln -rsf Sounds linuxdata/Sounds
 
 cp -r linuxextras/* linuxdata
+cp System/UnrealTournament-override.ini linuxdata/System/UnrealTournament.ini
