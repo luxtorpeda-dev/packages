@@ -715,7 +715,7 @@
         "download": [
             {
                 "name": "openmw",
-                "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-6/",
                 "file": "openmw-22320-6.tar.xz"
             }
         ],
