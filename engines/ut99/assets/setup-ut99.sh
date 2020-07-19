@@ -26,3 +26,9 @@ ln -rsf Sounds linuxdata/Sounds
 
 cp -r linuxextras/* linuxdata
 cp System/UnrealTournament-override.ini linuxdata/System/UnrealTournament.ini
+
+if [[ -z $(lspci | grep NVIDIA) ]]; then
+    sed -i "s/GameRenderDevice=OpenGLDrv.OpenGLRenderDevice/GameRenderDevice=SDLSoftDrv.SDLSoftwareRenderDevice/" linuxdata/System/UnrealTournament.ini
+    sed -i "s/WindowedRenderDevice=OpenGLDrv.OpenGLRenderDevice/WindowedRenderDevice=SDLSoftDrv.SDLSoftwareRenderDevice/" linuxdata/System/UnrealTournament.ini
+    sed -i "s/RenderDevice=OpenGLDrv.OpenGLRenderDevice/RenderDevice=SDLSoftDrv.SDLSoftwareRenderDevice/" linuxdata/System/UnrealTournament.ini
+fi
