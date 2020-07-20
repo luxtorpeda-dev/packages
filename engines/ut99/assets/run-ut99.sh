@@ -11,7 +11,7 @@ if [[ -f "/usr/lib/i386-linux-gnu/pulseaudio/libpulsedsp.so" ]]; then
 elif [[ -f "/usr/lib32/pulseaudio/libpulsedsp.so" ]]; then
     pulseaudiolib="/usr/lib32/pulseaudio/libpulsedsp.so"
 elif [[ -n $(cat /etc/os-release | grep NixOS) ]]; then
-    pulseaudiolib="$(nix-store --query -R $(which steam-run) | grep steam-run-fhs)/lib32/pulseaudio/libpulsedsp.so"
+    pulseaudiolib="$(nix-store --query -R $(which steam-run) | grep steam-run-fhs | tail -n1)/lib32/pulseaudio/libpulsedsp.so"
 fi
 
 if [ -z "$pulseaudiolib" ]; then
