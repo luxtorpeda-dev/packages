@@ -1157,7 +1157,7 @@
         "download": [],
         "setup": {
             "complete_path": "./ready",
-            "command": "./setup-rct2.sh"
+            "command": "./setup-rct1.sh"
         },
         "command": "./run-openrct2.sh",
         "information": {
