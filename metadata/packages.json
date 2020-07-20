@@ -1154,7 +1154,14 @@
     },
     "285310": {
         "game_name": "RollerCoaster Tycoon: Deluxe",
-        "download": [],
+        "download": [
+            {
+                "name": "openrct2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-6/",
+                "file": "openrct2-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "setup": {
             "complete_path": "./ready",
             "command": "./setup-rct1.sh"
@@ -1177,8 +1184,9 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-5/",
-                "file": "openrct2-285330-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-6/",
+                "file": "openrct2-common-6.tar.xz",
+                "cache_by_name": true
             }
         ],
         "setup": {
