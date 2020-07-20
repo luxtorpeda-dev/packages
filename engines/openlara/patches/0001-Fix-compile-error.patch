@@ -1,0 +1,25 @@
+From 2819267ccc4250adee17f82ce7639fe8bd7b7122 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Sun, 19 Jul 2020 21:35:33 -0500
+Subject: [PATCH] Fix compile error
+
+---
+ src/gapi/gl.h | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/gapi/gl.h b/src/gapi/gl.h
+index 360d316..a1d17bb 100644
+--- a/src/gapi/gl.h
++++ b/src/gapi/gl.h
+@@ -230,6 +230,8 @@
+     #include <GL/gl.h>
+     #include <GL/glext.h>
+     #include <GL/glx.h>
++    
++    #define GL_RGB565                   GL_RGBA
+ #elif __APPLE__
+     #ifdef _OS_IOS
+         #include <OpenGLES/ES2/gl.h>
+-- 
+2.27.0
+
