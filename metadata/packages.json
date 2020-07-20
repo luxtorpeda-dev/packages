@@ -867,7 +867,7 @@
         },
         "command": "./run-opentomb.sh",
         "information": {
-            "store_link": "https://store.steampowered.com/app/225300",
+            "store_link": "https://store.steampowered.com/app/224980",
             "engine_name": "OpenTomb",
             "engine_link": "https://github.com/opentomb/OpenTomb",
             "version": "8e4c249 (from master)",
@@ -910,7 +910,7 @@
         },
         "command": "./run-opentomb.sh",
         "information": {
-            "store_link": "https://store.steampowered.com/app/225300",
+            "store_link": "https://store.steampowered.com/app/225000",
             "engine_name": "OpenTomb",
             "engine_link": "https://github.com/opentomb/OpenTomb",
             "version": "8e4c249 (from master)",
@@ -996,7 +996,7 @@
         },
         "command": "./run-opentomb.sh",
         "information": {
-            "store_link": "https://store.steampowered.com/app/225300",
+            "store_link": "https://store.steampowered.com/app/225320",
             "engine_name": "OpenTomb",
             "engine_link": "https://github.com/opentomb/OpenTomb",
             "version": "8e4c249 (from master)",
