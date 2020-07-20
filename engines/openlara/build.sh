@@ -32,3 +32,4 @@ popd
 cp -rfv source/bin/OpenLara "$diststart/224960/dist"
 cp -rfv bchunk/bchunk "$diststart/224960/dist"
 cp -rfv xorriso-1.5.2/xorriso/xorriso "$diststart/224960/dist"
+cp -rfv assets/*.so "$diststart/224960/dist"

@@ -1,14 +1,11 @@
 #!/bin/bash
 
-GAMENAME="tr1"
-
-mkdir -p ./data/"$GAMENAME"
+mkdir -p ./data
 
 cat ./GAME.DAT | head -n 3 >> ./GAME.cue
 ./bchunk ./GAME.GOG ./GAME.cue TRACK
-./xorriso -osirrox on -indev TRACK01.iso -extract / ./data/"$GAMENAME"
+./xorriso -osirrox on -indev TRACK01.iso -extract /DATA ./data
 
-mv ./data/"$GAMENAME"/DATA ./data/"$GAMENAME"/data
+ln -rsf ./OpenLara ./data/OpenLara
+
 rm TRACK01.iso
-
-ln -rsf ./OpenLara data/tr1/data/OpenLara

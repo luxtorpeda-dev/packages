@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd data/tr1/data
+cd data
 ./OpenLara
