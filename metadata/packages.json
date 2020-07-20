@@ -792,6 +792,178 @@
             "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE"
         }
     },
+    "224980": {
+        "game_name": "Tomb Raider IV: The Last Revelation",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr4.zip"
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr4.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/224980",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
+    },
+    "225000": {
+        "game_name": "Tomb Raider V: Chronicles",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr5.zip"
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr5.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/225000",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
+    },
+    "225300": {
+        "game_name": "Tomb Raider II",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr2.zip"
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr2.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/225300",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
+    },
+    "225320": {
+        "game_name": "Tomb Raider III: Adventures of Lara Croft",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr3.zip"
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr3.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/225320",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
+    },
     "39510": {
         "game_name": "Gothic 2: Gold Edition",
         "download": [
