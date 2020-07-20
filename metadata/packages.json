@@ -792,6 +792,40 @@
             "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE"
         }
     },
+    "224960": {
+        "game_name": "Tomb Raider I",
+        "download": [
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr1.zip"
+            }
+        ],
+         "download_config": {
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data",
+                "strip_prefix": "tr1/"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr1.sh"
+        },
+        "command": "./run-openlara.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/224960",
+            "engine_name": "OpenLara",
+            "engine_link": "https://github.com/XProger/OpenLara",
+            "version": "b7d6ce5 (from master)",
+            "comments": "Includes music from OpenTomb project downloads. Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD 2-Clause",
+            "license_link": "https://github.com/XProger/OpenLara/blob/master/LICENSE"
+        }
+    },
     "39510": {
         "game_name": "Gothic 2: Gold Edition",
         "download": [
