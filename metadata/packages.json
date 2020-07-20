@@ -792,6 +792,50 @@
             "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE"
         }
     },
+    "39510": {
+        "game_name": "Gothic 2: Gold Edition",
+        "download": [
+            {
+                "name": "opengothic",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-8/",
+                "file": "opengothic-39510-8.tar.xz"
+            }
+        ],
+        "command": "./run-gothic2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/39510/Gothic_II_Gold_Edition/",
+            "engine_name": "OpenGothic",
+            "engine_link": "https://github.com/Try/OpenGothic",
+            "version": "5917863 (from master)",
+            "comments": "Steam Overlay does not work. Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE"
+        }
+    },
+    "208200": {
+        "game_name": "Doom 3: BFG Edition",
+        "download": [
+            {
+                "name": "rbdoom-3-bfg",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rbdoom-3-bfg-6/",
+                "file": "rbdoom-3-bfg-208200-6.tar.xz"
+            }
+        ],
+        "command": "./run-rbdoom-3-bfg.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
+            "engine_name": "RBDOOM-3-BFG",
+            "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
+            "version": "3960b88 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md"
+        }
+    },
     "224980": {
         "game_name": "Tomb Raider IV: The Last Revelation",
         "download": [
@@ -805,6 +849,12 @@
                 "name": "music",
                 "url": "https://opentomb.earvillage.net/",
                 "file": "tr4.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-1/",
+                "file": "opentomb-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -848,6 +898,12 @@
                 "name": "music",
                 "url": "https://opentomb.earvillage.net/",
                 "file": "tr5.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-1/",
+                "file": "opentomb-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -891,6 +947,12 @@
                 "name": "music",
                 "url": "https://opentomb.earvillage.net/",
                 "file": "tr2.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-1/",
+                "file": "opentomb-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -934,6 +996,12 @@
                 "name": "music",
                 "url": "https://opentomb.earvillage.net/",
                 "file": "tr3.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-1/",
+                "file": "opentomb-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -962,50 +1030,6 @@
             "author_link": "https://github.com/d10sfan",
             "license": "LGPLv3",
             "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
-        }
-    },
-    "39510": {
-        "game_name": "Gothic 2: Gold Edition",
-        "download": [
-            {
-                "name": "opengothic",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-8/",
-                "file": "opengothic-39510-8.tar.xz"
-            }
-        ],
-        "command": "./run-gothic2.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/39510/Gothic_II_Gold_Edition/",
-            "engine_name": "OpenGothic",
-            "engine_link": "https://github.com/Try/OpenGothic",
-            "version": "5917863 (from master)",
-            "comments": "Steam Overlay does not work. Engine is still in progress so not all features may be implemented.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "MIT",
-            "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE"
-        }
-    },
-    "208200": {
-        "game_name": "Doom 3: BFG Edition",
-        "download": [
-            {
-                "name": "rbdoom-3-bfg",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rbdoom-3-bfg-6/",
-                "file": "rbdoom-3-bfg-208200-6.tar.xz"
-            }
-        ],
-        "command": "./run-rbdoom-3-bfg.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
-            "engine_name": "RBDOOM-3-BFG",
-            "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
-            "version": "3960b88 (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md"
         }
     },
     "273570": {
