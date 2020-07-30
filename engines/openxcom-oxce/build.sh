@@ -41,7 +41,7 @@ mkdir build
 cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -DCMAKE_BUILD_TYPE=Release
+    -DCMAKE_BUILD_TYPE=Release \
     -DDEV_BUILD=OFF \
     -DBUILD_PACKAGE=OFF \
     ..

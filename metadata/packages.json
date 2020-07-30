@@ -572,12 +572,19 @@
         "download_config": {
             "openxcom": {
                 "extract_location": "./openxcom"
+            },
+            "openxcom-oxce": {
+                "extract_location": "./openxcom-oxce"
             }
         },
         "choices": [
             {
                 "name": "openxcom",
                 "command": "./openxcom/run-tftd.sh"
+            },
+            {
+                "name": "openxcom-oxce",
+                "command": "./openxcom-oxce/run-tftd.sh"
             }
         ],
         "information": [
@@ -591,6 +598,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv3",
                 "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/7650",
+                "engine_name": "OpenXcom OXCE Plus",
+                "engine_link": "https://github.com/MeridianOXC/OpenXcom",
+                "version": "e7c624c (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/MeridianOXC/OpenXcom/blob/oxce-plus/LICENSE.txt"
             }
         ]
     },
@@ -629,12 +647,19 @@
         "download_config": {
             "openxcom": {
                 "extract_location": "./openxcom"
+            },
+            "openxcom-oxce": {
+                "extract_location": "./openxcom-oxce"
             }
         },
         "choices": [
             {
                 "name": "openxcom",
-                "command": "./openxcom/run-ufo.sh"
+                "command": "./openxcom/run-tftd.sh"
+            },
+            {
+                "name": "openxcom-oxce",
+                "command": "./openxcom-oxce/run-tftd.sh"
             }
         ],
         "information": [
@@ -648,6 +673,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv3",
                 "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/7760",
+                "engine_name": "OpenXcom OXCE Plus",
+                "engine_link": "https://github.com/MeridianOXC/OpenXcom",
+                "version": "e7c624c (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/MeridianOXC/OpenXcom/blob/oxce-plus/LICENSE.txt"
             }
         ]
     },
