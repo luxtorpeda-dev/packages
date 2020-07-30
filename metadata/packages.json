@@ -586,11 +586,13 @@
         "choices": [
             {
                 "name": "openxcom",
-                "command": "./openxcom/run-tftd.sh"
+                "command": "./openxcom/run-tftd.sh",
+                "download": ["openxcom"]
             },
             {
                 "name": "openxcom-oxce",
-                "command": "./openxcom-oxce/run-tftd.sh"
+                "command": "./openxcom-oxce/run-tftd.sh",
+                "download": ["openxcom-oxce"]
             }
         ],
         "information": [
