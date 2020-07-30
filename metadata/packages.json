@@ -667,11 +667,11 @@
         "choices": [
             {
                 "name": "openxcom",
-                "command": "./openxcom/run-tftd.sh"
+                "command": "./openxcom/run-ufo.sh"
             },
             {
                 "name": "openxcom-oxce",
-                "command": "./openxcom-oxce/run-tftd.sh"
+                "command": "./openxcom-oxce/run-ufo.sh"
             }
         ],
         "information": [
