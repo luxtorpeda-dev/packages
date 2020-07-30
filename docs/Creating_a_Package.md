@@ -177,4 +177,42 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
             }
         }
         
+   Engines that need choices can look like the following:
+   
+        "7650": {
+            "game_name": "X-COM: Terror from the Deep",
+            "download": [
+                {
+                    "name": "openxcom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-1/",
+                    "file": "openxcom-common-1.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": {
+                "openxcom": {
+                    "extract_location": "./openxcom"
+                }
+            },
+            "choices": [
+                {
+                    "name": "openxcom",
+                    "command": "./openxcom/run-tftd.sh"
+                }
+            ],
+            "information": [
+                {
+                    "store_link": "https://store.steampowered.com/app/7650",
+                    "engine_name": "OpenXcom",
+                    "engine_link": "https://github.com/OpenXcom/OpenXcom",
+                    "version": "bd342df (from master)",
+                    "comments": "",
+                    "author": "d10sfan/dreamer",
+                    "author_link": "https://github.com/d10sfan",
+                    "license": "GPLv3",
+                    "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+                }
+            ]
+        }
+        
 8. Once done with the new package, create a new pull request. Each pull request should only have one engine.
