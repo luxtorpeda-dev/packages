@@ -564,7 +564,7 @@
         "download": [],
         "download_config": {
             "openxcom": {
-                "extract_location": "./openxcom",
+                "extract_location": "./openxcom"
             }
         },
         "choices": [
@@ -592,7 +592,7 @@
         "download": [],
         "download_config": {
             "openxcom": {
-                "extract_location": "./openxcom",
+                "extract_location": "./openxcom"
             }
         },
         "choices": [
