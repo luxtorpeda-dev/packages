@@ -42,6 +42,7 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_PREFIX_PATH="$pfx" \
     -DDEV_BUILD=OFF \
     -DBUILD_PACKAGE=OFF \
     ..
