@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/MeridianOXC/OpenXcom.git source
 pushd source
-git checkout bd342df
+git checkout e7c624c
 popd
 
 git clone https://github.com/ferzkopp/SDL_gfx.git sdl_gfx
