@@ -192,12 +192,21 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
             "download_config": {
                 "openxcom": {
                     "extract_location": "./openxcom"
+                },
+                "openxcom-oxce": {
+                    "extract_location": "./openxcom-oxce"
                 }
             },
             "choices": [
                 {
                     "name": "openxcom",
-                    "command": "./openxcom/run-tftd.sh"
+                    "command": "./openxcom/run-tftd.sh",
+                    "download": ["openxcom"]
+                },
+                {
+                    "name": "openxcom-oxce",
+                    "command": "./openxcom-oxce/run-tftd.sh",
+                    "download": ["openxcom-oxce"]
                 }
             ],
             "information": [
