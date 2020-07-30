@@ -561,7 +561,14 @@
     },
     "7650": {
         "game_name": "X-COM: Terror from the Deep",
-        "download": [],
+        "download": [
+            {
+                "name": "openxcom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-1/",
+                "file": "openxcom-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "download_config": {
             "openxcom": {
                 "extract_location": "./openxcom"
@@ -576,34 +583,6 @@
         "information": [
             {
                 "store_link": "https://store.steampowered.com/app/7650",
-                "engine_name": "OpenXcom",
-                "engine_link": "https://github.com/OpenXcom/OpenXcom",
-                "version": "bd342df (from master)",
-                "comments": "",
-                "author": "d10sfan/dreamer",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv3",
-                "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
-            }
-        ]
-    },
-    "7760": {
-        "game_name": "X-COM: UFO Defense",
-        "download": [],
-        "download_config": {
-            "openxcom": {
-                "extract_location": "./openxcom"
-            }
-        },
-        "choices": [
-            {
-                "name": "openxcom",
-                "command": "./openxcom/run-tftd.sh"
-            }
-        ],
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/7760",
                 "engine_name": "OpenXcom",
                 "engine_link": "https://github.com/OpenXcom/OpenXcom",
                 "version": "bd342df (from master)",
@@ -636,6 +615,41 @@
             "license": "GPLv3",
             "license_link": "https://github.com/OpenApoc/OpenApoc/blob/master/LICENSE"
         }
+    },
+    "7760": {
+        "game_name": "X-COM: UFO Defense",
+        "download": [
+            {
+                "name": "openxcom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-1/",
+                "file": "openxcom-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "openxcom": {
+                "extract_location": "./openxcom"
+            }
+        },
+        "choices": [
+            {
+                "name": "openxcom",
+                "command": "./openxcom/run-tftd.sh"
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/7760",
+                "engine_name": "OpenXcom",
+                "engine_link": "https://github.com/OpenXcom/OpenXcom",
+                "version": "bd342df (from master)",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+            }
+        ]
     },
     "9010": {
         "game_name": "Return to Castle Wolfenstein",
