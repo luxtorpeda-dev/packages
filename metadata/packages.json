@@ -667,11 +667,13 @@
         "choices": [
             {
                 "name": "openxcom",
-                "command": "./openxcom/run-ufo.sh"
+                "command": "./openxcom/run-ufo.sh",
+                "download": ["openxcom"]
             },
             {
                 "name": "openxcom-oxce",
-                "command": "./openxcom-oxce/run-ufo.sh"
+                "command": "./openxcom-oxce/run-ufo.sh",
+                "download": ["openxcom-oxce"]
             }
         ],
         "information": [
