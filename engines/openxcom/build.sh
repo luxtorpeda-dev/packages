@@ -49,7 +49,9 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/common/dist/lib"
+
 cp -rfv "$pfx/lib/"*.so* "$diststart/common/dist/lib"
 cp -rfv "$pfx/share/" "$diststart/common/dist"
 cp -rfv "$pfx/bin/openxcom" "$diststart/common/dist"
+
 cp -rfv ./assets/*.sh "$diststart/common/dist"
