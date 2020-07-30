@@ -570,7 +570,7 @@
         "choices": [
             {
                 "name": "openxcom",
-                "command": "./run-ufo.sh"
+                "command": "./openxcom/run-ufo.sh"
             }
         ],
         "information": [
@@ -598,7 +598,7 @@
         "choices": [
             {
                 "name": "openxcom",
-                "command": "./run-tftd.sh"
+                "command": "./openxcom/run-tftd.sh"
             }
         ],
         "information": [
