@@ -487,17 +487,30 @@
                 "cmd": "./eternaljk.x86_64"
             }
         },
-        "information": {
-            "store_link": "https://store.steampowered.com/app/6020/",
-            "engine_name": "OpenJK (SP); EternalJK (MP)",
-            "engine_link": "https://github.com/JACoders/OpenJK",
-            "version": "24c5b27 (OpenJK) 1.5.7 (EternalJK)",
-            "comments": "",
-            "author": "d10sfan/dreamer",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
-        }
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/6020/",
+                "engine_name": "OpenJK (SP)",
+                "engine_link": "https://github.com/JACoders/OpenJK",
+                "version": "24c5b27",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/6020/",
+                "engine_name": "EternalJK (MP)",
+                "engine_link": "https://github.com/eternalcodes/EternalJK",
+                "version": "1.5.7",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/eternalcodes/EternalJK/blob/master/LICENSE.txt"
+            }
+        ]
     },
     "6030": {
         "game_name": "STAR WARS™ Jedi Knight II: Jedi Outcast™",
@@ -521,17 +534,86 @@
                 "cmd": "./jk2mvmp"
             }
         },
-        "information": {
-            "store_link": "https://store.steampowered.com/app/6030/",
-            "engine_name": "OpenJK (SP) jk2mv (MP)",
-            "engine_link": "https://github.com/JACoders/OpenJK",
-            "version": "24c5b27 (OpenJK) 11a108e (jk2mv)",
-            "comments": "",
-            "author": "d10sfan/dreamer",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
-        }
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/6030/",
+                "engine_name": "OpenJK (SP)",
+                "engine_link": "https://github.com/JACoders/OpenJK",
+                "version": "24c5b27",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/6030/",
+                "engine_name": "jk2mv (MP)",
+                "engine_link": "https://github.com/mvdevs/jk2mv",
+                "version": "11a108e",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/mvdevs/jk2mv/blob/master/LICENSE"
+            }
+        ]
+    },
+    "7650": {
+        "game_name": "X-COM: Terror from the Deep",
+        "download": [],
+        "download_config": {
+            "openxcom": {
+                "extract_location": "./openxcom",
+            }
+        },
+        "choices": [
+            {
+                "name": "openxcom",
+                "command": "./openxcom/run-ufo.sh"
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/7650",
+                "engine_name": "OpenXcom",
+                "engine_link": "https://github.com/OpenXcom/OpenXcom",
+                "version": "bd342df (from master)",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+            }
+        ]
+    },
+    "7760": {
+        "game_name": "X-COM: UFO Defense",
+        "download": [],
+        "download_config": {
+            "openxcom": {
+                "extract_location": "./openxcom",
+            }
+        },
+        "choices": [
+            {
+                "name": "openxcom",
+                "command": "./openxcom/run-tftd.sh"
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/7760",
+                "engine_name": "OpenXcom",
+                "engine_link": "https://github.com/OpenXcom/OpenXcom",
+                "version": "bd342df (from master)",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+            }
+        ]
     },
     "7660": {
         "game_name": "X-COM: Apocalypse",

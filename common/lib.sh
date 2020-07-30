@@ -94,6 +94,42 @@ create_archives () {
     fi
 }
 
+create_archives_without_v7 () {
+    if [ -z "${COMMON_PACKAGE}" ]; then
+        for app_id in $STEAM_APP_ID_LIST ; do
+            filename="$ENGINE_NAME-$app_id"
+            pushd "$app_id" || exit 1
+            tar \
+                --mode='a+rwX,o-w' \
+                --owner=0 \
+                --group=0 \
+                --mtime='@1560859200' \
+                -cf "$filename".tar \
+                dist
+            xz "$filename".tar
+            sha1sum "$filename".tar.xz
+            popd || exit 1
+            mv "$app_id/$filename".tar.xz "$diststart/$ENGINE_NAME/$filename".tar.xz
+            rm -rf "$app_id"
+        done
+    else
+        filename="$ENGINE_NAME-common"
+        pushd "common" || exit 1
+        tar \
+            --mode='a+rwX,o-w' \
+            --owner=0 \
+            --group=0 \
+            --mtime='@1560859200' \
+            -cf "$filename".tar \
+            dist
+        xz "$filename".tar
+        sha1sum "$filename".tar.xz
+        popd || exit 1
+        mv "common/$filename".tar.xz "$diststart/$ENGINE_NAME/$filename".tar.xz
+        rm -rf "common"
+    fi
+}
+
 install_gcc_9 () {
     echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/gcc.list
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
