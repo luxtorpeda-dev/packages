@@ -562,9 +562,20 @@
     "7650": {
         "game_name": "X-COM: Terror from the Deep",
         "download": [],
+        "download_config": {
+            "openxcom": {
+                "extract_location": "./openxcom",
+            }
+        },
+        "choices": [
+            {
+                "name": "openxcom",
+                "command": "./run-ufo.sh"
+            }
+        ],
         "information": [
             {
-                "store_link": "https://store.steampowered.com/app/7760",
+                "store_link": "https://store.steampowered.com/app/7650",
                 "engine_name": "OpenXcom",
                 "engine_link": "https://github.com/OpenXcom/OpenXcom",
                 "version": "bd342df (from master)",
@@ -578,7 +589,31 @@
     },
     "7760": {
         "game_name": "X-COM: UFO Defense",
-        "download": []
+        "download": [],
+        "download_config": {
+            "openxcom": {
+                "extract_location": "./openxcom",
+            }
+        },
+        "choices": [
+            {
+                "name": "openxcom",
+                "command": "./run-tftd.sh"
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/7760",
+                "engine_name": "OpenXcom",
+                "engine_link": "https://github.com/OpenXcom/OpenXcom",
+                "version": "bd342df (from master)",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+            }
+        ]
     },
     "7660": {
         "game_name": "X-COM: Apocalypse",
