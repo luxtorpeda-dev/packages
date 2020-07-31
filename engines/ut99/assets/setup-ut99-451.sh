@@ -24,7 +24,7 @@ ln -rsf Maps linuxdata-451/Maps
 ln -rsf Music linuxdata-451/Music
 ln -rsf Sounds linuxdata-451/Sounds
 
-cp System/UnrealTournament-override.ini linuxdata/System/UnrealTournament.ini
+cp System/UnrealTournament-override.ini linuxdata-451/System/UnrealTournament.ini
 
 if [[ -z $(lspci | grep NVIDIA) ]]; then
     sed -i "s/GameRenderDevice=OpenGLDrv.OpenGLRenderDevice/GameRenderDevice=SDLSoftDrv.SDLSoftwareRenderDevice/" linuxdata-451/System/UnrealTournament.ini
