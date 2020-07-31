@@ -879,9 +879,14 @@
         "game_name": "Unreal Tournament: Game of the Year Edition",
         "download": [
             {
-                "name": "binaries",
+                "name": "binaries-436",
                 "url": "http://www.flibitijibibo.com/fedora/installers/",
                 "file": "flibitUT436.tar.gz"
+            },
+            {
+                "name": "binaries-451",
+                "url": "https://luxtorpeda-dev.github.io/closed-assets/",
+                "file": "ut99-451.tar.xz"
             },
             {
                 "name": "extras",
@@ -895,9 +900,13 @@
             }
         ],
         "download_config": {
-            "binaries": {
-                "extract_location": "../linuxdata",
+            "binaries-436": {
+                "extract_location": "../linuxdata-436",
                 "strip_prefix": "Install/",
+                "setup": true
+            },
+            "binaries-451": {
+                "extract_location": "../linuxdata-451",
                 "setup": true
             },
             "extras": {
@@ -905,26 +914,65 @@
                 "setup": true
             }
         },
-        "setup": {
-            "complete_path": "../ready",
-            "command": "./setup-ut99.sh",
-            "uninstall_command": "./uninstall-ut99.sh",
-            "license_path": "../linuxdata/legal.txt"
-        },
-        "command": "./run-ut99.sh",
+        "choices": [
+            {
+                "name": "436",
+                "command": "./run-ut99-436.sh",
+                "download": [
+                    "binaries-436",
+                    "extras",
+                    "ut99"
+                ],
+                "setup": {
+                    "complete_path": "../ready-436",
+                    "command": "./setup-ut99-436.sh",
+                    "uninstall_command": "./uninstall-ut99-436.sh",
+                    "license_path": "../linuxdata-436/legal.txt"
+                }
+            },
+            {
+                "name": "451",
+                "command": "./run-ut99-451.sh",
+                "download": [
+                    "binaries-451",
+                    "extras",
+                    "ut99"
+                ],
+                "setup": {
+                    "complete_path": "../ready-451",
+                    "command": "./setup-ut99-451.sh",
+                    "uninstall_command": "./uninstall-ut99-451.sh",
+                    "license_path": "../linuxdata-451/legal.txt"
+                }
+            }
+        ],
         "use_original_command_directory": true,
-        "information": {
-            "store_link": "https://store.steampowered.com/app/13240",
-            "engine_name": "Proprietary Engine",
-            "engine_link": "http://www.flibitijibibo.com/fedora/installers/",
-            "version": "436",
-            "comments": "Uses padsp for audio. Uses pack from Mr Doomguy for improvements.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "https://store.steampowered.com/eula/eula_epic",
-            "closed_source": true
-        }
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/13240",
+                "engine_name": "Proprietary Engine",
+                "engine_link": "http://www.flibitijibibo.com/fedora/installers/",
+                "version": "436",
+                "comments": "Uses padsp for audio. Uses pack from Mr Doomguy for improvements.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Proprietary/Closed Source",
+                "license_link": "https://store.steampowered.com/eula/eula_epic",
+                "closed_source": true
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/13240",
+                "engine_name": "Proprietary Engine",
+                "engine_link": "https://community.pcgamingwiki.com/files/file/971-ut-native-linux-451-patched/",
+                "version": "451",
+                "comments": "Uses padsp for audio. Uses pack from Mr Doomguy for improvements and 451 patch.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Proprietary/Closed Source",
+                "license_link": "https://store.steampowered.com/eula/eula_epic",
+                "closed_source": true
+            }
+        ]
     },
     "22320": {
         "game_name": "The Elder Scrolls III: Morrowind",

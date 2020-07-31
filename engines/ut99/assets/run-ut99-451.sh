@@ -2,7 +2,7 @@
 
 cd ../ # game tries to start in system directory, so have to get out and back to the normal directory
 
-cd linuxdata
+cd linuxdata-451
 
 pulseaudiolib=""
 
@@ -15,7 +15,7 @@ elif [[ -n $(cat /etc/os-release | grep NixOS) ]]; then
 fi
 
 if [ -z "$pulseaudiolib" ]; then
-    zenity --error --text="Could not find libpulsedsp.so"
+    "$STEAM_ZENITY" --error --text="Could not find libpulsedsp.so"
     exit 0
 fi
 
