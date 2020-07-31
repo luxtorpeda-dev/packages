@@ -15,7 +15,7 @@ elif [[ -n $(cat /etc/os-release | grep NixOS) ]]; then
 fi
 
 if [ -z "$pulseaudiolib" ]; then
-    zenity --error --text="Could not find libpulsedsp.so"
+    "$STEAM_ZENITY" --error --text="Could not find libpulsedsp.so"
     exit 0
 fi
 
