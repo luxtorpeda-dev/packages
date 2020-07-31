@@ -14,7 +14,7 @@ find {Web} -type f  | while read -r file_name ; do
 done
 
 mkdir -p linuxdata-451/System
-ln -rsf System/* linuxdata-451/System
+ln -rs System/* linuxdata-451/System
 
 mkdir -p linuxdata-451/Textures
 ln -rsf Textures/* linuxdata-451/Textures
@@ -24,6 +24,7 @@ ln -rsf Maps linuxdata-451/Maps
 ln -rsf Music linuxdata-451/Music
 ln -rsf Sounds linuxdata-451/Sounds
 
+cp -r linuxextras/* linuxdata-451
 cp System/UnrealTournament-override.ini linuxdata-451/System/UnrealTournament.ini
 
 if [[ -z $(lspci | grep NVIDIA) ]]; then

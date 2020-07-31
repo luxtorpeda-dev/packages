@@ -885,8 +885,8 @@
             },
             {
                 "name": "binaries-451",
-                "url": "https://luxtorpeda-dev.github.io/closed-assets/",
-                "file": "ut99-451.tar.xz"
+                "url": "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal%20Tournament/Patches/",
+                "file": "UTPGPatch451.tar.bz2"
             },
             {
                 "name": "extras",
@@ -899,21 +899,6 @@
                 "file": "ut99-13240-6.tar.xz"
             }
         ],
-        "download_config": {
-            "binaries-436": {
-                "extract_location": "../linuxdata-436",
-                "strip_prefix": "Install/",
-                "setup": true
-            },
-            "binaries-451": {
-                "extract_location": "../linuxdata-451",
-                "setup": true
-            },
-            "extras": {
-                "extract_location": "../linuxextras",
-                "setup": true
-            }
-        },
         "choices": [
             {
                 "name": "436",
@@ -923,6 +908,17 @@
                     "extras",
                     "ut99"
                 ],
+                "download_config": {
+                    "binaries-436": {
+                        "extract_location": "../linuxdata-436",
+                        "strip_prefix": "Install/",
+                        "setup": true
+                    },
+                    "extras": {
+                        "extract_location": "../linuxextras",
+                        "setup": true
+                    }
+                },
                 "setup": {
                     "complete_path": "../ready-436",
                     "command": "./setup-ut99-436.sh",
@@ -934,10 +930,27 @@
                 "name": "451",
                 "command": "./run-ut99-451.sh",
                 "download": [
+                    "binaries-436",
                     "binaries-451",
                     "extras",
                     "ut99"
                 ],
+                "download_config": {
+                    "binaries-436": {
+                        "extract_location": "../linuxdata-451",
+                        "strip_prefix": "Install/",
+                        "setup": true
+                    },
+                    "binaries-451": {
+                        "extract_location": "../linuxdata-451",
+                        "strip_prefix": "",
+                        "setup": true
+                    },
+                    "extras": {
+                        "extract_location": "../linuxextras",
+                        "setup": true
+                    }
+                },
                 "setup": {
                     "complete_path": "../ready-451",
                     "command": "./setup-ut99-451.sh",
@@ -963,7 +976,7 @@
             {
                 "store_link": "https://store.steampowered.com/app/13240",
                 "engine_name": "Proprietary Engine",
-                "engine_link": "https://community.pcgamingwiki.com/files/file/971-ut-native-linux-451-patched/",
+                "engine_link": "https://unrealarchive.org/patches-updates/unreal-tournament/patches/utpg-patch-451b/index.html",
                 "version": "451",
                 "comments": "Uses padsp for audio. Uses pack from Mr Doomguy for improvements and 451 patch.",
                 "author": "d10sfan",
