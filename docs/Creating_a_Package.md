@@ -8,7 +8,7 @@ The structure of an engine folder is as follows:
 
 * `env.sh` - Contains the steam app id list for the games that this engine applies to, as well as the path to the license file from the engine repository, if exists. If there are multiple app ids, then each one should be separated by a space.
 * `build.sh` - Script that will pull down the source repository, run any necessary configuration, and then build the engine.
-* `assets/*` - If needed, an assets folder can be created for any static assets needed for the engine. 
+* `assets/*` - If needed, an assets folder can be created for any static assets needed for the engine. If any scripts need to be run as part of setup or run, ensure that zenity is used with "$STEAM_ZENITY".
 
 ## Build Script Explanation
 
