@@ -587,12 +587,16 @@
             {
                 "name": "openxcom",
                 "command": "./openxcom/run-tftd.sh",
-                "download": ["openxcom"]
+                "download": [
+                    "openxcom"
+                ]
             },
             {
                 "name": "openxcom-oxce",
                 "command": "./openxcom-oxce/run-tftd.sh",
-                "download": ["openxcom-oxce"]
+                "download": [
+                    "openxcom-oxce"
+                ]
             }
         ],
         "information": [
@@ -670,12 +674,16 @@
             {
                 "name": "openxcom",
                 "command": "./openxcom/run-ufo.sh",
-                "download": ["openxcom"]
+                "download": [
+                    "openxcom"
+                ]
             },
             {
                 "name": "openxcom-oxce",
                 "command": "./openxcom-oxce/run-ufo.sh",
-                "download": ["openxcom-oxce"]
+                "download": [
+                    "openxcom-oxce"
+                ]
             }
         ],
         "information": [
@@ -1305,8 +1313,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-7/",
-                "file": "openrct2-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-8/",
+                "file": "openrct2-common-8.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1332,8 +1340,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-7/",
-                "file": "openrct2-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-8/",
+                "file": "openrct2-common-8.tar.xz",
                 "cache_by_name": true
             }
         ],
