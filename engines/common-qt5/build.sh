@@ -22,5 +22,5 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/common/dist/lib"
-cp -rfv "$pfx/lib"*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/lib/"*.so* "$diststart/common/dist/lib"
 cp -rfv "$pfx/include" "$diststart/common/dist"
