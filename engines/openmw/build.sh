@@ -68,6 +68,7 @@ cd build
 export OSG_DIR="$pfx/lib64"
 cmake \
     -DBUILD_LAUNCHER=ON \
+    -DDESIRED_QT_VERSION=5 \
     -DBUILD_OPENCS=OFF \
     -DBUILD_WIZARD=OFF \
     -DBUILD_MYGUI_PLUGIN=OFF \
