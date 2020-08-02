@@ -56,8 +56,8 @@ xz -d data/cd.iso.xz
 mkdir build
 cd build
 /usr/local/bin/cmake \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DBUILD_LAUNCHER=OFF \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
+    -DBUILD_LAUNCHER=ON \
     -DBoost_LIBRARY_DIRS="$pfx/lib" \
     ..
 make -j "$(nproc)"
@@ -68,6 +68,7 @@ rm -rf "source/data/cd.iso"
 mkdir -p "$diststart/7660/dist/lib/"
 mkdir -p "$diststart/7660/dist/bin/"
 cp -rfv "source/build/bin/OpenApoc" "$diststart/7660/dist/bin/"
+cp -rfv "source/build/bin/OpenApoc_Launcher" "$diststart/7660/dist/bin/"
 cp -rfv "$pfx/lib/"*.so* "$diststart/7660/dist/lib/"
 cp -rfv "source/data" "$diststart/7660/dist/"
-cp -rfv "assets/run-openapoc.sh" "$diststart/7660/dist/"
+cp -rfv "assets/"* "$diststart/7660/dist/"

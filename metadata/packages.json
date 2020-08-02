@@ -631,15 +631,42 @@
                 "name": "openapoc",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-2/",
                 "file": "openapoc-7660-2.tar.xz"
+            },
+            {
+                "name": "common-qt5",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
+                "file": "common-qt5-common.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./run-openapoc.sh",
+        "download_config": {
+            "common-qt5": {
+                "extract_location": "./qt5"
+            }
+        },
+        "choices": [
+            {
+                "name": "openapoc",
+                "command": "./run-openapoc.sh",
+                "download": [
+                    "openapoc"
+                ]
+            },
+            {
+                "name": "openapoc-launcher",
+                "command": "./run-openapoc-launcher.sh",
+                "download": [
+                    "openapoc",
+                    "common-qt5"
+                ]
+            }
+        ],
         "information": {
             "store_link": "https://store.steampowered.com/app/7660",
             "engine_name": "OpenApoc",
             "engine_link": "https://github.com/OpenApoc/OpenApoc",
             "version": "9183a08 (from master)",
-            "comments": "No GUI launcher, due to qt5 dependency. Engine is still in progress so not all features may be implemented.",
+            "comments": "Launcher will not launch the game, but will save the configuration. Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -998,7 +1025,8 @@
             {
                 "name": "common-qt5",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
-                "file": "common-qt5-common.tar.xz"
+                "file": "common-qt5-common.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
