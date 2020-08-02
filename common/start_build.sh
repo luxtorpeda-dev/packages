@@ -25,7 +25,7 @@ else
     install_latest_git
 fi
 
-if ![ -z "${COMMON_QT5}" ]; then
+if [ ! -z "${COMMON_QT5}" ]; then
    use_common_qt5
 fi
 
