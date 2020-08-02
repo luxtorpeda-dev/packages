@@ -67,7 +67,7 @@ mkdir -p build
 cd build
 export OSG_DIR="$pfx/lib64"
 cmake \
-    -DBUILD_LAUNCHER=OFF \
+    -DBUILD_LAUNCHER=ON \
     -DBUILD_OPENCS=OFF \
     -DBUILD_WIZARD=OFF \
     -DBUILD_MYGUI_PLUGIN=OFF \
@@ -89,6 +89,3 @@ cp "assets/openmw.sh" "$diststart/22320/dist/"
 
 generate_openmw_cfg "$tmp/usr/local/etc/openmw/openmw.cfg" > "$diststart/22320/dist/openmw.cfg"
 cp "$tmp/usr/local/etc/openmw/settings-default.cfg" "$diststart/22320/dist/"
-
-# TODO: compile launcher, forcing Qt 5.x if possible
-cp assets/openmw-launcher-wrapper "$diststart/22320/dist/"
