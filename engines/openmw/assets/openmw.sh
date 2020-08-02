@@ -10,5 +10,4 @@ set -e
 ./openmw-iniimporter Morrowind.ini openmw.cfg
 
 # run OpenMW
-#
 ./openmw --data-local "Data Files" "$@" 
