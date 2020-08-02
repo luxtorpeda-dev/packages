@@ -56,8 +56,8 @@ xz -d data/cd.iso.xz
 mkdir build
 cd build
 /usr/local/bin/cmake \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DBUILD_LAUNCHER=OFF \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
+    -DBUILD_LAUNCHER=ON \
     -DBoost_LIBRARY_DIRS="$pfx/lib" \
     ..
 make -j "$(nproc)"
