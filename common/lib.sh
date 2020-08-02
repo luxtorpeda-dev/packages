@@ -151,11 +151,12 @@ install_latest_git () {
 }
 
 use_common_qt5 () {
-    readonly pfx="$PWD/local"
+    pfx="$PWD/local"
     mkdir -p "$pfx"
     pushd "$pfx"
-    wget ""
-    tar xvf "filename.tar.xz" --strip-components=1 -C ./qt5
+    wget -O qt5.tar.xz "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/common-qt5-common.tar.xz"
+    mkdir -p qt5
+    tar xvf "qt5.tar.xz" --strip-components=1 -C ./qt5
     popd
 }
 
