@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenXRay/xray-16 source
 pushd source
-git checkout -f 32cb37a
+git checkout -f f2b3189
 git submodule update --init --recursive
 git am < ../patches/0001-Changes-to-make-Linux-compile.patch
 popd
@@ -39,6 +39,9 @@ popd
 
 wget https://github.com/nigels-com/glew/releases/download/glew-2.1.0/glew-2.1.0.zip
 unzip glew-2.1.0.zip -d glew
+
+export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -w"
+export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -w"
 
 readonly pstart="$PWD"
 readonly pfx="$PWD/local"
@@ -116,8 +119,7 @@ pushd "source"
 mkdir -p bin
 cd bin
 
-export TARGET_CPU=x64
-CFLAGS="-w" CXXFLAGS="-w" cmake \
+cmake \
         -DCMAKE_BUILD_TYPE=Release \
         -DFREEIMAGE_LIBRARY="$pfx/lib/libfreeimage-3.18.0.so" \
         -DFREEIMAGEPLUS_LIBRARY="$pfx/lib/libfreeimageplus-3.18.0.so" \
