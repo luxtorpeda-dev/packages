@@ -150,6 +150,15 @@ install_latest_git () {
     git config --global user.name "GitHub Action"
 }
 
+use_common_qt5 () {
+    readonly pfx="$PWD/local"
+    mkdir -p "$pfx"
+    pushd "$pfx"
+    wget ""
+    tar xvf "filename.tar.xz" --strip-components=1 -C ./qt5
+    popd
+}
+
 set -x
 set -e
 

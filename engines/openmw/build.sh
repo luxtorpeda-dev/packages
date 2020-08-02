@@ -72,7 +72,7 @@ cmake \
     -DBUILD_OPENCS=OFF \
     -DBUILD_WIZARD=OFF \
     -DBUILD_MYGUI_PLUGIN=OFF \
-    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     ..
 make -j "$(nproc)"
