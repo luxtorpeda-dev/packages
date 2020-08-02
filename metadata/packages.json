@@ -994,15 +994,41 @@
                 "name": "openmw",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-6/",
                 "file": "openmw-22320-6.tar.xz"
+            },
+            {
+                "name": "common-qt5",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
+                "file": "common-qt5-common.tar.xz"
             }
         ],
-        "command": "./openmw.sh",
+        "download_config": {
+            "common-qt5": {
+                "extract_location": "./qt5"
+            }
+        },
+        "choices": [
+            {
+                "name": "openmw",
+                "command": "./openmw.sh",
+                "download": [
+                    "openmw"
+                ]
+            },
+            {
+                "name": "openmw-launcher",
+                "command": "./openmw-launcher.sh",
+                "download": [
+                    "openmw",
+                    "common-qt5"
+                ]
+            }
+        ],
         "information": {
             "store_link": "https://store.steampowered.com/app/22320/",
             "engine_name": "OpenMW",
             "engine_link": "https://openmw.org/",
             "version": "0.46.0",
-            "comments": "Missing GUI mod launcher for now",
+            "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",

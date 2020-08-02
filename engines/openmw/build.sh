@@ -67,11 +67,12 @@ mkdir -p build
 cd build
 export OSG_DIR="$pfx/lib64"
 cmake \
-    -DBUILD_LAUNCHER=OFF \
+    -DBUILD_LAUNCHER=ON \
+    -DDESIRED_QT_VERSION=5 \
     -DBUILD_OPENCS=OFF \
     -DBUILD_WIZARD=OFF \
     -DBUILD_MYGUI_PLUGIN=OFF \
-    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     ..
 make -j "$(nproc)"
@@ -86,9 +87,7 @@ cp -rfv "$tmp/usr/local/"{etc,share} "$diststart/22320/dist/"
 cp -rfv "$tmp/usr/local/bin/"* "$diststart/22320/dist/"
 
 cp "assets/openmw.sh" "$diststart/22320/dist/"
+cp "assets/openmw-launcher.sh" "$diststart/22320/dist/"
 
-generate_openmw_cfg "$tmp/usr/local/etc/openmw/openmw.cfg" > "$diststart/22320/dist/openmw.cfg"
+generate_openmw_cfg "$tmp/usr/local/etc/openmw/openmw.cfg" > "$diststart/22320/dist/openmw-template.cfg"
 cp "$tmp/usr/local/etc/openmw/settings-default.cfg" "$diststart/22320/dist/"
-
-# TODO: compile launcher, forcing Qt 5.x if possible
-cp assets/openmw-launcher-wrapper "$diststart/22320/dist/"

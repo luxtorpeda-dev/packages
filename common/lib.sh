@@ -150,6 +150,16 @@ install_latest_git () {
     git config --global user.name "GitHub Action"
 }
 
+use_common_qt5 () {
+    pfx="$PWD/local"
+    mkdir -p "$pfx"
+    pushd "$pfx"
+    wget -O qt5.tar.xz "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/common-qt5-common.tar.xz"
+    mkdir -p qt5
+    tar xvf "qt5.tar.xz" --strip-components=1 -C ./qt5
+    popd
+}
+
 set -x
 set -e
 

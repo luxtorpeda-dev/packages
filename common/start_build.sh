@@ -25,6 +25,10 @@ else
     install_latest_git
 fi
 
+if [ ! -z "${COMMON_QT5}" ]; then
+   use_common_qt5
+fi
+
 source ./build.sh
 
 copy_license_file "$STEAM_APP_ID_LIST"
