@@ -37,6 +37,11 @@ git checkout -f 8b07809fa674ecffe77338aaea2e223b3aadff0e
 git submodule update --init --recursive
 popd
 
+git clone https://github.com/twogood/unshield.git
+pushd unshield
+git checkout -f c5d3560
+popd
+
 # BUILD PHASE
 
 # build deps
@@ -61,6 +66,16 @@ readonly pfx="$PWD/local"
 readonly tmp="$PWD/tmp"
 mkdir -p "$pfx"
 mkdir -p "$tmp"
+
+pushd unshield
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
 
 pushd "source"
 mkdir -p build
