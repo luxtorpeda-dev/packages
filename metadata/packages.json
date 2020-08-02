@@ -635,7 +635,8 @@
             {
                 "name": "common-qt5",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
-                "file": "common-qt5-common.tar.xz"
+                "file": "common-qt5-common.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -1024,7 +1025,8 @@
             {
                 "name": "common-qt5",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
-                "file": "common-qt5-common.tar.xz"
+                "file": "common-qt5-common.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
