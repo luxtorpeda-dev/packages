@@ -2,14 +2,16 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-export LD_LIBRARY_PATH="$DIR/lib":$LD_LIBRARY_PATH
+cd "$DIR"
+
+export LD_LIBRARY_PATH="lib":$LD_LIBRARY_PATH
 
 set -e
 
-if [ ! -f "$DIR/openmw.cfg" ]; then
-    cp "$DIR/openmw-template.cfg" "$DIR/openmw.cfg"
+if [ ! -f "openmw.cfg" ]; then
+    cp openmw-template.cfg openmw.cfg
 fi
 
-"$DIR/openmw-iniimporter" Morrowind.ini "$DIR/openmw.cfg"
+./openmw-iniimporter ../Morrowind.ini openmw.cfg
 
-LD_LIBRARY_PATH=./qt5/lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./qt5/plugins "$DIR"/openmw-launcher "$@" 
+LD_LIBRARY_PATH=../qt5/lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=../qt5/plugins ./openmw-launcher "$@" 

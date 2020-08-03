@@ -3,9 +3,14 @@
 # CLONE PHASE
 git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
-git checkout -f 0acf6f0
+git checkout -f 2925364
 git submodule update --init --recursive
 patch -p1 < ../patches/tes3mp.patch #https://github.com/gnidorah/nixpkgs/blob/6e0c5dbcdc2bb2d6aee3303344071ff8bf0e6cb4/pkgs/games/openmw/tes3mp.patch
+popd
+
+git clone https://github.com/TES3MP/CoreScripts server
+pushd server
+git checkout -f 24aae91
 popd
 
 git clone https://github.com/boostorg/boost boost
@@ -143,3 +148,4 @@ generate_openmw_cfg "$tmp/usr/local/etc/openmw/openmw.cfg" > "$diststart/22320/d
 cp "$tmp/usr/local/etc/openmw/settings-default.cfg" "$diststart/22320/dist/"
 cp "$tmp/usr/local/etc/openmw/tes3mp-client-default.cfg" "$diststart/22320/dist"
 cp "$tmp/usr/local/etc/openmw/tes3mp-server-default.cfg" "$diststart/22320/dist"
+cp -rfv server "$diststart/22320/dist"
