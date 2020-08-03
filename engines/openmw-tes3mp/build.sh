@@ -5,7 +5,6 @@ git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
 git checkout -f 2925364
 git submodule update --init --recursive
-git am < ../patches/0001-tes3mp-patch.patch #https://github.com/gnidorah/nixpkgs/blob/6e0c5dbcdc2bb2d6aee3303344071ff8bf0e6cb4/pkgs/games/openmw/tes3mp.patch
 popd
 
 git clone https://github.com/TES3MP/CoreScripts server
