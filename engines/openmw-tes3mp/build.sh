@@ -57,6 +57,11 @@ pushd luajit
 git checkout -f 570e758
 popd
 
+git clone https://github.com/Koncord/CallFF.git callff
+pushd callff
+git checkout -f da94b59
+popd
+
 # BUILD PHASE
 
 # build deps
@@ -100,6 +105,16 @@ cmake \
     -DCRABNET_ENABLE_DLL=OFF \
     -DCRABNET_ENABLE_SAMPLES=OFF \
     -DCMAKE_BUILD_TYPE=Release \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd callff
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)"
 make install
