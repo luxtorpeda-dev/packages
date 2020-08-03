@@ -24,6 +24,11 @@ pushd harfbuzz
 git checkout -f a01c7a3
 popd
 
+git clone https://github.com/aseprite/freetype2.git freetype2
+pushd freetype2
+git checkout -f fbbcf50
+popd
+
 # BUILD PHASE
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
@@ -38,6 +43,17 @@ pushd physfs
 mkdir build
 cd build
 cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd freetype2
+mkdir build
+cd build
+cmake \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)"
@@ -60,10 +76,11 @@ pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5;$pfx/usr/local;/usr/include/freetype2" \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5;$pfx/usr/local" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -GNinja \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+    -DWZ_ENABLE_WARNINGS_AS_ERRORS=OFF \
+    -DENABLE_DOCS=OFF \
     ..
 cmake --build . --target install
 popd
