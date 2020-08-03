@@ -17,6 +17,7 @@ readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
 pushd "libsodium"
+./configure
 make -j "$(nproc)"
 DESTDIR="$pfx" make install
 popd
