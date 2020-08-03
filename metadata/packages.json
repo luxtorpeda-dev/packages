@@ -1537,5 +1537,36 @@
             "author": "dreamer",
             "author_link": "https://github.com/dreamer"
         }
+    },
+    "1241950": {
+        "game_name": "Warzone 2100",
+        "download": [
+            {
+                "name": "common-qt5",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
+                "file": "common-qt5-common.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "warzone2100": {
+                "extract_location": "./linuxdata"
+            },
+            "common-qt5": {
+                "extract_location": "./linuxdata/qt5"
+            }
+        },
+        "command": "./linuxdata/run-warzone2100.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1241950/Warzone_2100/",
+            "engine_name": "warzone2100",
+            "engine_link": "https://github.com/Warzone2100/warzone2100",
+            "version": "3.4.1",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/Warzone2100/warzone2100/blob/3.4.1/COPYING"
+        }
     }
 }
