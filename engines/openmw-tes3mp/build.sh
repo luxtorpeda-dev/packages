@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/OpenMW/openmw source
+git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
-git checkout -f 0abcb54
+git checkout -f 0acf6f0
 git submodule update --init --recursive
 popd
 
