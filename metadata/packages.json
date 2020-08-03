@@ -1546,6 +1546,11 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
                 "file": "common-qt5-common.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "warzone2100",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-1/",
+                "file": "warzone2100-1241950-1.tar.xz"
             }
         ],
         "download_config": {
