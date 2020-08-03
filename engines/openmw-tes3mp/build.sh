@@ -5,6 +5,7 @@ git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
 git checkout -f 0acf6f0
 git submodule update --init --recursive
+patch -p1 < ../patches/tes3mp.patch #https://github.com/gnidorah/nixpkgs/blob/6e0c5dbcdc2bb2d6aee3303344071ff8bf0e6cb4/pkgs/games/openmw/tes3mp.patch
 popd
 
 git clone https://github.com/boostorg/boost boost
@@ -42,6 +43,16 @@ pushd unshield
 git checkout -f c5d3560
 popd
 
+git clone https://github.com/TES3MP/CrabNet.git crabnet
+pushd crabnet
+git checkout -f 19e6619
+popd
+
+git clone https://github.com/LuaJIT/LuaJIT.git luajit
+pushd luajit
+git checkout -f 570e758
+popd
+
 # BUILD PHASE
 
 # build deps
@@ -77,6 +88,27 @@ make -j "$(nproc)"
 make install
 popd
 
+pushd crabnet
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DCRABNET_ENABLE_DLL=OFF \
+    -DCRABNET_ENABLE_SAMPLES=OFF \
+    -DCMAKE_BUILD_TYPE=Release \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd luajit
+make -j "$(nproc)"
+DESTDIR="$pfx" make install
+popd
+
+export CXXFLAGS="-fpermissive"
+export CFLAGS="-fpermissive"
+
 pushd "source"
 mkdir -p build
 cd build
@@ -89,6 +121,10 @@ cmake \
     -DBUILD_MYGUI_PLUGIN=OFF \
     -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DRakNet_LIBRARY_DEBUG="$pfx/lib/libRakNetLibStatic.a" \
+    -DLuaJit_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
+    -DLuaJit_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.a" \
+    -DCMAKE_CXX_FLAGS="-fpermissive" \
     ..
 make -j "$(nproc)"
 DESTDIR="$tmp" make install
@@ -101,8 +137,7 @@ cp -rfv "local/lib64/"osgPlugins-* "$diststart/22320/dist/lib/"
 cp -rfv "$tmp/usr/local/"{etc,share} "$diststart/22320/dist/"
 cp -rfv "$tmp/usr/local/bin/"* "$diststart/22320/dist/"
 
-cp "assets/openmw.sh" "$diststart/22320/dist/"
-cp "assets/openmw-launcher.sh" "$diststart/22320/dist/"
+cp "assets/tes3mp-launcher.sh" "$diststart/22320/dist/"
 
 generate_openmw_cfg "$tmp/usr/local/etc/openmw/openmw.cfg" > "$diststart/22320/dist/openmw-template.cfg"
 cp "$tmp/usr/local/etc/openmw/settings-default.cfg" "$diststart/22320/dist/"
