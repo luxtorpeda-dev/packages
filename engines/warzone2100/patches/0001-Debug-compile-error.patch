@@ -1,0 +1,34 @@
+From d8fa99f907f205b1db1ac9f2e31b8aadc73d68ae Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Mon, 3 Aug 2020 11:42:06 -0500
+Subject: [PATCH 1/1] Debug compile error
+
+---
+ lib/ivis_opengl/screen.cpp | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/lib/ivis_opengl/screen.cpp b/lib/ivis_opengl/screen.cpp
+index b80f1a058..6347d906c 100644
+--- a/lib/ivis_opengl/screen.cpp
++++ b/lib/ivis_opengl/screen.cpp
+@@ -333,7 +333,7 @@ bool screenInitialise()
+ 
+ 	if (khr_debug)
+ 	{
+-		glDebugMessageCallback(khr_callback, nullptr);
++		//glDebugMessageCallback(khr_callback, nullptr);
+ 		glEnable(GL_DEBUG_OUTPUT);
+ 		// Do not want to output notifications. Some drivers spam them too much.
+ 		glDebugMessageControl(GL_DONT_CARE, GL_DONT_CARE, GL_DEBUG_SEVERITY_NOTIFICATION, 0, nullptr, GL_FALSE);
+@@ -724,7 +724,7 @@ static int saveScreenshotThreadFunc(void * saveRequest)
+ {
+ 	assert(saveRequest != nullptr);
+ 	ScreenshotSaveRequest * pSaveRequest = static_cast<ScreenshotSaveRequest *>(saveRequest);
+-	
++
+ 	IMGSaveError pngerror = iV_saveImage_PNG(pSaveRequest->fileName.c_str(), &(pSaveRequest->image));
+ 
+ //	//iV_saveImage_JPEG is *NOT* thread-safe, and cannot be safely called from another thread
+-- 
+2.27.0
+
