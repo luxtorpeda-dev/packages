@@ -1,3 +1,12 @@
+From ad20b084d7a68aa451998fba9dc1a0255ca51d8a Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Mon, 3 Aug 2020 13:37:35 -0500
+Subject: [PATCH 1/1] tes3mp patch
+
+---
+ apps/openmw-mp/Script/Types.hpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 diff --git a/apps/openmw-mp/Script/Types.hpp b/apps/openmw-mp/Script/Types.hpp
 index be365cfb8..204dcdc7b 100644
 --- a/apps/openmw-mp/Script/Types.hpp
@@ -11,3 +20,6 @@ index be365cfb8..204dcdc7b 100644
  #else
      template<typename R, typename... Types>
      constexpr ScriptFunctionPointer(Function<R, Types...> addr) : ScriptIdentity(addr), addr(addr) {}
+-- 
+2.27.0
+
