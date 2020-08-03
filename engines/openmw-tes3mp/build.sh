@@ -62,6 +62,9 @@ pushd callff
 git checkout -f da94b59
 popd
 
+wget https://github.com/zdevito/terra/releases/download/release-2016-03-25/terra-Linux-x86_64-332a506.zip
+unzip terra-Linux-x86_64-332a506.zip
+
 # BUILD PHASE
 
 # build deps
@@ -86,6 +89,7 @@ readonly pfx="$PWD/local"
 readonly tmp="$PWD/tmp"
 mkdir -p "$pfx"
 mkdir -p "$tmp"
+pstart="$PWD"
 
 pushd unshield
 mkdir -p build
@@ -117,7 +121,6 @@ cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)"
-make install
 popd
 
 pushd luajit
@@ -127,6 +130,7 @@ popd
 
 export CXXFLAGS="-fpermissive"
 export CFLAGS="-fpermissive"
+export Terra_ROOT="$pstart/terra-Linux-x86_64-332a506"
 
 pushd "source"
 mkdir -p build
@@ -144,6 +148,8 @@ cmake \
     -DLuaJit_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
     -DLuaJit_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.a" \
     -DCMAKE_CXX_FLAGS="-fpermissive" \
+    -DCallFF_INCLUDES="$pstart/callff/include" \
+    -DCallFF_LIBRARY="$pstart/callff/build/src/libcallff.a"
     ..
 make -j "$(nproc)"
 DESTDIR="$tmp" make install
