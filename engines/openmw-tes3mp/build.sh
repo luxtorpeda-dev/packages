@@ -131,6 +131,7 @@ popd
 export CXXFLAGS="-fpermissive"
 export CFLAGS="-fpermissive"
 export Terra_ROOT="$pstart/terra-Linux-x86_64-332a506"
+export RAKNET_ROOT="$pfx"
 
 pushd "source"
 mkdir -p build
@@ -149,7 +150,7 @@ cmake \
     -DLuaJit_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.a" \
     -DCMAKE_CXX_FLAGS="-fpermissive" \
     -DCallFF_INCLUDES="$pstart/callff/include" \
-    -DCallFF_LIBRARY="$pstart/callff/build/src/libcallff.a"
+    -DCallFF_LIBRARY="$pstart/callff/build/src/libcallff.a" \
     ..
 make -j "$(nproc)"
 DESTDIR="$tmp" make install
