@@ -1027,6 +1027,11 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
                 "file": "common-qt5-common.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "openmw-tes3mp",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-1/",
+                "file": "openmw-tes3mp-22320-1.tar.xz"
             }
         ],
         "download_config": {
