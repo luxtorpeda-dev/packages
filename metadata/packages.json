@@ -1032,6 +1032,9 @@
         "download_config": {
             "common-qt5": {
                 "extract_location": "./qt5"
+            },
+            "openmw-tes3mp": {
+                "extract_location": "./openmw-tes3mp"
             }
         },
         "choices": [
@@ -1049,19 +1052,40 @@
                     "openmw",
                     "common-qt5"
                 ]
+            },
+            {
+                "name": "openmw-tes3mp",
+                "command": "./openmw-tes3mp/tes3mp-launcher.sh",
+                "download": [
+                    "openmw-tes3mp",
+                    "common-qt5"
+                ]
             }
         ],
-        "information": {
-            "store_link": "https://store.steampowered.com/app/22320/",
-            "engine_name": "OpenMW",
-            "engine_link": "https://openmw.org/",
-            "version": "0.46.0",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE"
-        }
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/22320/",
+                "engine_name": "OpenMW",
+                "engine_link": "https://openmw.org/",
+                "version": "0.46.0",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/22320/",
+                "engine_name": "openmw-tes3mp",
+                "engine_link": "https://github.com/TES3MP/openmw-tes3mp",
+                "version": "0.7-alpha",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/TES3MP/openmw-tes3mp/blob/292536439eeda58becdb7e441fe2e61ebb74529e/LICENSE"
+            }
+        ]
     },
     "39510": {
         "game_name": "Gothic 2: Gold Edition",
