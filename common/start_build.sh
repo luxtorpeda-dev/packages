@@ -18,6 +18,11 @@ else
     install_gcc_9
 fi
 
+if [ ! -z "${GCC_6}" ]; then
+    echo "Installing gcc 6"
+    install_gcc_6
+fi
+
 if [ -z "${LATEST_GIT}" ]; then
     echo "Using default git"
 else
