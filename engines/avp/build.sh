@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/dreamer/avp-forever source
+git clone https://github.com/neuromancer/avp.git source
 pushd source
-git checkout 5673c1665a2c6d7fdaf1a20d554bb135a20c7bc8
+git checkout 2d57747
 popd
 git clone https://github.com/MrAlert/sdlcl sdlcl
 pushd sdlcl
