@@ -9,7 +9,7 @@ popd
 
 git clone https://github.com/TES3MP/CoreScripts server
 pushd server
-git checkout -f 24aae91
+git checkout -f 46698c1
 popd
 
 git clone https://github.com/boostorg/boost boost
@@ -169,3 +169,4 @@ cp "$tmp/usr/local/etc/openmw/settings-default.cfg" "$diststart/22320/dist/"
 cp "$tmp/usr/local/etc/openmw/tes3mp-client-default.cfg" "$diststart/22320/dist"
 cp "$tmp/usr/local/etc/openmw/tes3mp-server-default.cfg" "$diststart/22320/dist"
 cp -rfv server "$diststart/22320/dist"
+cp -rfv source/tes3mp-credits.md "$diststart/22320/dist"
