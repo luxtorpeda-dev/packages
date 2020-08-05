@@ -413,14 +413,14 @@
         "command": "./run-avp.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/3730/Aliens_versus_Predator_Classic_2000/",
-            "engine_name": "avp-forever",
-            "engine_link": "https://github.com/dreamer/avp-forever",
-            "version": "other/icculus-releases-rebased-1",
+            "engine_name": "avp",
+            "engine_link": "https://github.com/neuromancer/avp",
+            "version": "2d57747 (from master)",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Rebellion; non-commercial",
-            "license_link": "https://github.com/dreamer/avp-forever/blob/other/icculus-releases-rebased-1/LICENSE",
+            "license_link": "https://github.com/neuromancer/avp/blob/master/LICENSE",
             "non_free": true
         }
     },
