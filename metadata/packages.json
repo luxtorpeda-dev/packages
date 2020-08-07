@@ -1639,6 +1639,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-1/",
                 "file": "scummvm-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "residualvm",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/residualvm-1/",
+                "file": "residualvm-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
