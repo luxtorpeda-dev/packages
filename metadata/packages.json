@@ -561,7 +561,14 @@
     },
     "6310": {
         "game_name": "The Longest Journey",
-        "download": [],
+        "download": [
+            {
+                "name": "residualvm",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/residualvm-2/",
+                "file": "residualvm-common-2.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "download_config": {
             "residualvm": {
                 "extract_location": "./residual"
