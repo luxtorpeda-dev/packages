@@ -47,7 +47,7 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/common/dist/lib"
-cp -rfv "$pfx/usr/local/bin/" "$diststart/common/dist/"
+cp -rfv "$pfx/bin/" "$diststart/common/dist/"
 cp -rfv "$pfx/usr/local/share" "$diststart/common/dist/"
 cp -rfv "$pfx/lib64/"*.so* "$diststart/common/dist/lib"
 cp -rfv "$pfx/lib/"*.so* "$diststart/common/dist/lib"
