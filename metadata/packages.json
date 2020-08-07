@@ -1602,5 +1602,56 @@
             "license": "GPLv2",
             "license_link": "https://github.com/Warzone2100/warzone2100/blob/3.4.1/COPYING"
         }
+    },
+    "1368340": {
+        "game_name": "Beneath a Steel Sky",
+        "download": [],
+        "download_config": {
+            "scummvm": {
+                "extract_location": "./scum"
+            }
+        },
+        "command": "./scum/run-scummvm.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1368340/Beneath_a_Steel_Sky/",
+            "engine_name": "scummvm",
+            "engine_link": "https://github.com/scummvm/scummvm",
+            "version": "2.1.2",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
+        }
+    },
+    "default": {
+        "game_name": "Default",
+        "download": [],
+        "download_config": {
+            "scummvm": {
+                "extract_location": "./scum"
+            }
+        },
+        "choices": [
+            {
+                "name": "scummvm",
+                "command": "./scum/run-scummvm.sh",
+                "download": [
+                    "scummvm"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "engine_name": "scummvm",
+                "engine_link": "https://github.com/scummvm/scummvm",
+                "version": "2.1.2",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
+            }
+        ]
     }
 }
