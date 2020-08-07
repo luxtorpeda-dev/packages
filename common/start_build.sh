@@ -11,6 +11,10 @@ setup_dist_dirs "$STEAM_APP_ID_LIST"
 
 echo "::set-env name=APP_IDS::$STEAM_APP_ID_LIST"
 
+if [ ! -z "${UBUNTU}" ]; then
+   setup_ubuntu
+fi
+
 if [ -z "${GCC_9}" ]; then
     echo "Using default gcc"
 else

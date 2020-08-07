@@ -171,6 +171,16 @@ use_common_qt5 () {
     popd
 }
 
+setup_ubuntu() {
+    apt-get update
+    apt-get -y install build-essential cmake git g++-8 gcc-8 sudo
+
+    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
+    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
+    sudo update-alternatives --set gcc "/usr/bin/gcc-8"
+    sudo update-alternatives --set g++ "/usr/bin/g++-8"
+}
+
 set -x
 set -e
 
