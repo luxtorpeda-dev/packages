@@ -2,7 +2,7 @@
 
 # CLONE PHASE
 git clone https://github.com/scummvm/scummvm.git source
-pushd scummvm
+pushd source
 git checkout -f 1478914
 popd
 
