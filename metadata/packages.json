@@ -1663,8 +1663,8 @@
             },
             {
                 "name": "residualvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/residualvm-1/",
-                "file": "residualvm-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/residualvm-2/",
+                "file": "residualvm-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1684,7 +1684,7 @@
                     "scummvm"
                 ]
             },
-             {
+            {
                 "name": "residualvm",
                 "command": "./residual/run-residualvm.sh",
                 "download": [
