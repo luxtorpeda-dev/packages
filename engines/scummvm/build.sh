@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/scummvm/scummvm.git scummvm
+git clone https://github.com/scummvm/scummvm.git source
 pushd scummvm
 git checkout -f 1478914
 popd
@@ -41,7 +41,8 @@ popd
 
 pushd "source"
 ./configure --prefix="$pfx"
-make -j "$(nproc)" install
+make -j "$(nproc)"
+make install
 popd
 
 # COPY PHASE
