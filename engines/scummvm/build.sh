@@ -17,6 +17,7 @@ git checkout -f c2f96fa
 # from http://www.linuxfromscratch.org/blfs/view/svn/multimedia/libmad.html
 patch -Np1 -i ../patches/libmad-0.15.1b-fixes-1.patch
 sed "s@AM_CONFIG_HEADER@AC_CONFIG_HEADERS@g" -i configure.ac
+touch NEWS AUTHORS ChangeLog
 autoreconf -fi
 popd
 
@@ -47,5 +48,6 @@ popd
 mkdir -p "$diststart/common/dist/lib"
 cp -rfv "$pfx/usr/local/bin/" "$diststart/common/dist/"
 cp -rfv "$pfx/usr/local/share" "$diststart/common/dist/"
-cp -rfv "$pfx/lib64"/libfluidsynth.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/lib64/"*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/lib/"*.so* "$diststart/common/dist/lib"
 cp -rfv "assets/run-scummvm.sh" "$diststart/common/dist/"
