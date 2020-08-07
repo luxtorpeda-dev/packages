@@ -8,7 +8,7 @@ The structure of an engine folder is as follows:
 
 * `env.sh` - Contains the steam app id list for the games that this engine applies to, as well as the path to the license file from the engine repository, if exists. If there are multiple app ids, then each one should be separated by a space.
 * `build.sh` - Script that will pull down the source repository, run any necessary configuration, and then build the engine.
-* `assets/*` - If needed, an assets folder can be created for any static assets needed for the engine. 
+* `assets/*` - If needed, an assets folder can be created for any static assets needed for the engine. If any scripts need to be run as part of setup or run, ensure that zenity is used with "$STEAM_ZENITY".
 
 ## Build Script Explanation
 
@@ -71,6 +71,12 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
         export LICENSE_PATH="./source/COPYING.txt"
         export ADDITIONAL_LICENSES="./source/LICENSE.DejaVu ./boost/LICENSE_1_0.txt ./glm/copying.txt ./data/LICENSE"
         
+   The env file can also have the following optional parameters:
+   
+        export GCC_9="1"
+        export LATEST_GIT="1"
+        
+        
 4. Create build.sh, using the following template. 
 
         #!/bin/bash
@@ -117,8 +123,105 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
                 "version": "1.5.1-PRE1",
                 "comments": "",
                 "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan"
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt",
+                "non_free": false,
+                "closed_source": false
             }
+        }
+        
+    Engines that need further setup can use the following template:
+
+        "13230": {
+            "game_name": "Unreal Tournament 2004: Editor's Choice Edition",
+            "download": [
+                {
+                    "name": "ut2004",
+                    "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
+                    "file": "ut2004-13230-3.tar.xz"
+                },
+                {
+                    "name": "binaries",
+                    "url": "https://treefort.icculus.org/ut2004/",
+                    "file": "ut2004-lnxpatch3369-2.tar.bz2"
+                }
+            ],
+            "download_config": {
+                "binaries": {
+                    "extract_location": "../linuxdata",
+                    "strip_prefix": "UT2004-Patch/",
+                    "setup": true,
+                    "copy_only": false
+                }
+            },
+            "setup": {
+                "complete_path": "../ready",
+                "command": "./setup-ut2004.sh",
+                "uninstall_command": "./uninstall-ut2004.sh",
+                "license_path": "../System/License.int"
+            },
+            "command": "./run-ut2004.sh",
+            "use_original_command_directory": true,
+            "information": {
+                "store_link": "https://store.steampowered.com/app/13230",
+                "engine_name": "Proprietary Engine",
+                "engine_link": "http://treefort.icculus.org/ut2004/",
+                "version": "3369",
+                "comments": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. Mods should go in the linuxdata directory.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Proprietary/Closed Source",
+                "license_link": "https://store.steampowered.com/eula/eula_epic",
+                "closed_source": true
+            }
+        }
+        
+   Engines that need choices can look like the following:
+   
+        "7650": {
+            "game_name": "X-COM: Terror from the Deep",
+            "download": [
+                {
+                    "name": "openxcom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-1/",
+                    "file": "openxcom-common-1.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": {
+                "openxcom": {
+                    "extract_location": "./openxcom"
+                },
+                "openxcom-oxce": {
+                    "extract_location": "./openxcom-oxce"
+                }
+            },
+            "choices": [
+                {
+                    "name": "openxcom",
+                    "command": "./openxcom/run-tftd.sh",
+                    "download": ["openxcom"]
+                },
+                {
+                    "name": "openxcom-oxce",
+                    "command": "./openxcom-oxce/run-tftd.sh",
+                    "download": ["openxcom-oxce"]
+                }
+            ],
+            "information": [
+                {
+                    "store_link": "https://store.steampowered.com/app/7650",
+                    "engine_name": "OpenXcom",
+                    "engine_link": "https://github.com/OpenXcom/OpenXcom",
+                    "version": "bd342df (from master)",
+                    "comments": "",
+                    "author": "d10sfan/dreamer",
+                    "author_link": "https://github.com/d10sfan",
+                    "license": "GPLv3",
+                    "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+                }
+            ]
         }
         
 8. Once done with the new package, create a new pull request. Each pull request should only have one engine.

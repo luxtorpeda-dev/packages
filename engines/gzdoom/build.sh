@@ -9,14 +9,14 @@ git checkout 04e53b8
 git am < ../patches/0001-Workaround-for-missing-PRId64.patch
 popd
 
-git clone https://github.com/coelckers/ZMusic.git zmusic
-pushd zmusic
-git checkout -f 9097591
-popd
-
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
 pushd fluidsynth
 git checkout -f 19a20eb
+popd
+
+git clone https://github.com/coelckers/ZMusic.git zmusic
+pushd zmusic
+git checkout -f 9097591
 popd
 
 readonly pfx="$PWD/local"

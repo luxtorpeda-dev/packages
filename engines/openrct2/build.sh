@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenRCT2/OpenRCT2.git source
 pushd source
-git checkout -f 6c3c857
+git checkout -f 6c3c857dfa5cd0d267b89a9d70930fbacdfbaea4
 popd
 
 git clone https://github.com/akheron/jansson.git jansson
@@ -89,14 +89,18 @@ make g2
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/285330/dist/lib"
-mkdir -p "$diststart/285330/dist/data/object"
-cp -rfv "$pfx/lib/"*.so* "$diststart/285330/dist/lib"
-cp -rfv "source/build/openrct2" "$diststart/285330/dist/"
-cp -rfv "source/build/openrct2-cli" "$diststart/285330/dist/"
-cp -rfv "source/build/data/"* "$diststart/285330/dist/data"
-cp -rfv "source/build/g2.dat" "$diststart/285330/dist/data"
-cp -rfv "assets/run-openrct2.sh" "$diststart/285330/dist"
+mkdir -p "$diststart/common/dist/lib"
+mkdir -p "$diststart/common/dist/data/object"
+cp -rfv "$pfx/lib/"*.so* "$diststart/common/dist/lib"
 
-unzip objects.zip -d "$diststart/285330/dist/data/object"
-unzip title-sequences.zip -d "$diststart/285330/dist/data/title"
+cp -rfv "source/build/openrct2" "$diststart/common/dist/"
+cp -rfv "source/build/openrct2-cli" "$diststart/common/dist/"
+cp -rfv "source/build/data/"* "$diststart/common/dist/data"
+cp -rfv "source/build/g2.dat" "$diststart/common/dist/data"
+
+cp -rfv "assets/run-openrct2.sh" "$diststart/common/dist"
+cp -rfv "assets/setup-rct1.sh" "$diststart/common/dist"
+cp -rfv "assets/setup-rct2.sh" "$diststart/common/dist"
+
+unzip objects.zip -d "$diststart/common/dist/data/object"
+unzip title-sequences.zip -d "$diststart/common/dist/data/title"

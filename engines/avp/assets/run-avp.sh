@@ -25,4 +25,4 @@ if [ ! -f ready ]; then
 	touch ready
 fi
 
-AVP_DATA=dataconv LD_LIBRARY_PATH=. ./avp --fullscreen 
+AVP_DATA=dataconv LD_LIBRARY_PATH=./lib ./avp --fullscreen 

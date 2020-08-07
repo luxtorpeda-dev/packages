@@ -29,7 +29,17 @@
             function sortTitles(titles) {
                 const finalTitles = [];
                 for (const titleId in titles) {
-                    finalTitles.push(titles[titleId]);
+                    if(titles[titleId].information && Array.isArray(titles[titleId].information)) {
+                        const tmpInformationArray = titles[titleId].information;
+                        for(const informationItem of tmpInformationArray) {
+                            const tmpTitle = JSON.parse(JSON.stringify(titles[titleId]));
+                            tmpTitle.information = informationItem;
+                            finalTitles.push(tmpTitle);
+                        }
+                    }
+                    else {
+                        finalTitles.push(titles[titleId]);
+                    }
                 }
 
                 finalTitles.sort(function (a, b) {
