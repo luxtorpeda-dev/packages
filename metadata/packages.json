@@ -559,6 +559,27 @@
             }
         ]
     },
+    "6310": {
+        "game_name": "The Longest Journey",
+        "download": [],
+        "download_config": {
+            "residualvm": {
+                "extract_location": "./residual"
+            }
+        },
+        "command": "./residual/run-residualvm.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/6310/",
+            "engine_name": "residualvm",
+            "engine_link": "https://github.com/residualvm/residualvm",
+            "version": "3d68703 (from master)",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/residualvm/residualvm/blob/master/COPYING"
+        }
+    },
     "7650": {
         "game_name": "X-COM: Terror from the Deep",
         "download": [
@@ -1650,6 +1671,9 @@
         "download_config": {
             "scummvm": {
                 "extract_location": "./scum"
+            },
+            "residualvm": {
+                "extract_location": "./residual"
             }
         },
         "choices": [
@@ -1659,10 +1683,18 @@
                 "download": [
                     "scummvm"
                 ]
+            },
+             {
+                "name": "residualvm",
+                "command": "./residual/run-residualvm.sh",
+                "download": [
+                    "residualvm"
+                ]
             }
         ],
         "information": [
             {
+                "store_link": "https://store.steampowered.com/curator/35667778/",
                 "engine_name": "scummvm",
                 "engine_link": "https://github.com/scummvm/scummvm",
                 "version": "2.1.2",
@@ -1671,6 +1703,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
+            },
+            {
+                "store_link": "https://store.steampowered.com/curator/35667778/",
+                "engine_name": "residualvm",
+                "engine_link": "https://github.com/residualvm/residualvm",
+                "version": "3d68703 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/residualvm/residualvm/blob/master/COPYING"
             }
         ]
     }
