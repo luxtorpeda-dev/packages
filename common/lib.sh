@@ -173,7 +173,9 @@ use_common_qt5 () {
 
 setup_ubuntu() {
     apt-get update
-    apt-get -y install build-essential cmake git g++-8 gcc-8 sudo
+    apt-get -y install build-essential cmake git g++-8 gcc-8 sudo wget unzip
+    git config --global user.email "actions@github.com"
+    git config --global user.name "GitHub Action"
 
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
     sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8

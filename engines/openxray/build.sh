@@ -47,9 +47,6 @@ readonly pstart="$PWD"
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
-apt-get install -y binutils-2.30
-PATH="/usr/lib/binutils-2.30/bin:$PATH"
-
 # BUILD PHASE
 # build freeimage
 pushd "freeimage"
