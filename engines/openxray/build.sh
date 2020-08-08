@@ -62,7 +62,7 @@ popd
 
 hg clone https://hg.libsdl.org/SDL
 pushd SDL
-hg checkout release-2.0.12
+hg checkout release-2.0.8
 popd
 
 git clone https://github.com/libjpeg-turbo/libjpeg-turbo.git libjpeg-turbo
@@ -281,15 +281,15 @@ make install
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/41700/dist/lib"
-mkdir -p "$diststart/41700/dist/gamedata"
+mkdir -p "$diststart/common/dist/lib"
+mkdir -p "$diststart/common/dist/gamedata"
 
-cp -rfv "$pfx/bin/xr_3da" "$diststart/41700/dist"
-cp -rfv "$pfx/lib"/*.so* "$diststart/41700/dist/lib"
-cp -rfv "$pfx/Crypto++/lib"/*.so* "$diststart/41700/dist/lib"
-cp -rfv "$pstart/tbb/build"/libtbb*.so* "$diststart/41700/dist/lib"
-cp -rfv "$pfx/LockFile/lib/"*.so* "$diststart/41700/dist/lib"
-cp -rfv glew/glew-2.1.0/lib/*.so* "$diststart/41700/dist/lib"
-cp assets/run-openxray.sh "$diststart/41700/dist"
-cp -rfv plus/res/gamedata/* "$diststart/41700/dist/gamedata"
-cp -rfv "$pfx/share/openxray"/* "$diststart/41700/dist/"
+cp -rfv "$pfx/bin/xr_3da" "$diststart/common/dist"
+cp -rfv "$pfx/lib"/*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/Crypto++/lib"/*.so* "$diststart/common/dist/lib"
+cp -rfv "$pstart/tbb/build"/libtbb*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/LockFile/lib/"*.so* "$diststart/common/dist/lib"
+cp -rfv glew/glew-2.1.0/lib/*.so* "$diststart/common/dist/lib"
+cp assets/*.sh "$diststart/common/dist"
+cp -rfv plus/res/gamedata/* "$diststart/common/dist/gamedata"
+cp -rfv "$pfx/share/openxray"/* "$diststart/common/dist/"

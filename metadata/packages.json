@@ -1042,6 +1042,23 @@
             }
         ]
     },
+    "20510": {
+        "game_name": "S.T.A.L.K.E.R.: Clear Sky",
+        "download": [],
+        "command": "./run-openxray-clearsky.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/20510/",
+            "engine_name": "openxray",
+            "engine_link": "https://github.com/OpenXRay/xray-16",
+            "version": "1579d1f (from master)",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD with commercial source code",
+            "license_link": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt",
+            "non_free": true
+        }
+    },
     "22320": {
         "game_name": "The Elder Scrolls III: Morrowind",
         "download": [
@@ -1140,6 +1157,23 @@
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
             "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE"
+        }
+    },
+    "41700": {
+        "game_name": "S.T.A.L.K.E.R.: Call of Pripyat",
+        "download": [],
+        "command": "./run-openxray.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/41700/",
+            "engine_name": "openxray",
+            "engine_link": "https://github.com/OpenXRay/xray-16",
+            "version": "1579d1f (from master)",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD with commercial source code",
+            "license_link": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt",
+            "non_free": true
         }
     },
     "208200": {
