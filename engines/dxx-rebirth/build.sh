@@ -29,6 +29,7 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/273570/dist/lib"
 mkdir -p "$diststart/273580/dist/lib"
+
 cp -rfv physfs/build/libphysfs.so* "$diststart/273570/dist/lib"
 cp -rfv physfs/build/libphysfs.so* "$diststart/273580/dist/lib"
 cp -rfv source/d1x-rebirth/d1x-rebirth "$diststart/273570/dist/"
