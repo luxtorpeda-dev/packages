@@ -171,7 +171,7 @@ use_common_qt5 () {
 }
 
 setup_custom_container() {
-    if [ $CUSTOM_CONTAINER = "ubuntu1804" ]; then
+    if [ $CUSTOM_CONTAINER = "ubuntu:18.04" ]; then
         apt-get update
         apt-get -y install build-essential cmake git g++-8 gcc-8 sudo wget unzip libx11-dev libgl1-mesa-dev automake libtool ncurses-dev pkg-config libpulse-dev freeglut3-dev
         git config --global user.email "actions@github.com"
