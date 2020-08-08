@@ -1,56 +1,44 @@
-From a8b0d2455f8effc49e1dc0d895f841315341c366 Mon Sep 17 00:00:00 2001
+From 5eacb388e7eb3b20f03c776f9dc19accb3df03e9 Mon Sep 17 00:00:00 2001
 From: d10sfan <d10sfan@gmail.com>
-Date: Sat, 8 Aug 2020 09:23:20 -0500
-Subject: [PATCH 1/1] Use borderless full screen
+Date: Sat, 8 Aug 2020 10:47:21 -0500
+Subject: [PATCH 1/1] borderless full screen
 
 ---
- src/xrEngine/Device_create.cpp | 21 +--------------------
- 1 file changed, 1 insertion(+), 20 deletions(-)
+ src/xrEngine/Device_create.cpp | 19 ++-----------------
+ 1 file changed, 2 insertions(+), 17 deletions(-)
 
 diff --git a/src/xrEngine/Device_create.cpp b/src/xrEngine/Device_create.cpp
-index 3bbf172fa..b53a0ac48 100644
+index 3bbf172fa..ffe778329 100644
 --- a/src/xrEngine/Device_create.cpp
 +++ b/src/xrEngine/Device_create.cpp
-@@ -128,13 +128,12 @@ void CRenderDevice::UpdateWindowProps(const bool windowed)
- 
+@@ -117,25 +117,10 @@ void CRenderDevice::UpdateWindowProps(const bool windowed)
+     }
+     else
+     {
+-        // Changing monitor, unset fullscreen for the previous monitor
+-        if (SDL_GetWindowDisplayIndex(m_sdlWnd) != Vid_SelectedMonitor)
+-            SDL_SetWindowFullscreen(m_sdlWnd, SDL_DISABLE);
+-
+-        SDL_Rect rect;
+-        SDL_GetDisplayBounds(Vid_SelectedMonitor, &rect);
+-        SDL_SetWindowSize(m_sdlWnd, psCurrentVidMode[0], psCurrentVidMode[1]);
+-        SDL_SetWindowPosition(m_sdlWnd, rect.x, rect.y);
+-
          if (b_is_Ready)
          {
 -            SDL_SetWindowFullscreen(m_sdlWnd, SDL_WINDOW_FULLSCREEN);
-+            SDL_SetWindowFullscreen(m_sdlWnd, SDL_WINDOW_FULLSCREEN_DESKTOP);
- 
-             SDL_DisplayMode mode;
-             SDL_GetWindowDisplayMode(m_sdlWnd, &mode);
-             mode.w = psCurrentVidMode[0];
-             mode.h = psCurrentVidMode[1];
+-
+-            SDL_DisplayMode mode;
+-            SDL_GetWindowDisplayMode(m_sdlWnd, &mode);
+-            mode.w = psCurrentVidMode[0];
+-            mode.h = psCurrentVidMode[1];
 -            mode.refresh_rate = Vid_SelectedRefreshRate;
-             SDL_SetWindowDisplayMode(m_sdlWnd, &mode);
+-            SDL_SetWindowDisplayMode(m_sdlWnd, &mode);
++            SDL_SetWindowPosition(m_sdlWnd, 0, 0);
++            SDL_SetWindowFullscreen(m_sdlWnd, SDL_WINDOW_FULLSCREEN_DESKTOP);
          }
      }
-@@ -206,24 +205,6 @@ void CRenderDevice::SelectResolution(const bool windowed)
-             Console->Execute(buff);
-         }
  
--        if (!g_monitors.SelectedRefreshRateIsSafe())
--        {
--            SDL_DisplayMode current;
--            SDL_GetCurrentDisplayMode(Vid_SelectedMonitor, &current);
--            current.refresh_rate = Vid_SelectedRefreshRate;
--
--            SDL_DisplayMode closest; // try closest mode
--            if (SDL_GetClosestDisplayMode(Vid_SelectedMonitor, &current, &closest))
--                xr_sprintf(buff, sizeof(buff), "vid_refresh %d", closest.refresh_rate);
--            else // or just use maximal
--            {
--                const u32 rate = g_monitors.GetMaximalRefreshRate();
--                xr_sprintf(buff, sizeof(buff), "vid_refresh %d", rate);
--            }
--
--            Console->Execute(buff);
--        }
--
-         dwWidth = psCurrentVidMode[0];
-         dwHeight = psCurrentVidMode[1];
-     }
 -- 
 2.27.0
 
