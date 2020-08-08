@@ -1,0 +1,56 @@
+From a8b0d2455f8effc49e1dc0d895f841315341c366 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Sat, 8 Aug 2020 09:23:20 -0500
+Subject: [PATCH 1/1] Use borderless full screen
+
+---
+ src/xrEngine/Device_create.cpp | 21 +--------------------
+ 1 file changed, 1 insertion(+), 20 deletions(-)
+
+diff --git a/src/xrEngine/Device_create.cpp b/src/xrEngine/Device_create.cpp
+index 3bbf172fa..b53a0ac48 100644
+--- a/src/xrEngine/Device_create.cpp
++++ b/src/xrEngine/Device_create.cpp
+@@ -128,13 +128,12 @@ void CRenderDevice::UpdateWindowProps(const bool windowed)
+ 
+         if (b_is_Ready)
+         {
+-            SDL_SetWindowFullscreen(m_sdlWnd, SDL_WINDOW_FULLSCREEN);
++            SDL_SetWindowFullscreen(m_sdlWnd, SDL_WINDOW_FULLSCREEN_DESKTOP);
+ 
+             SDL_DisplayMode mode;
+             SDL_GetWindowDisplayMode(m_sdlWnd, &mode);
+             mode.w = psCurrentVidMode[0];
+             mode.h = psCurrentVidMode[1];
+-            mode.refresh_rate = Vid_SelectedRefreshRate;
+             SDL_SetWindowDisplayMode(m_sdlWnd, &mode);
+         }
+     }
+@@ -206,24 +205,6 @@ void CRenderDevice::SelectResolution(const bool windowed)
+             Console->Execute(buff);
+         }
+ 
+-        if (!g_monitors.SelectedRefreshRateIsSafe())
+-        {
+-            SDL_DisplayMode current;
+-            SDL_GetCurrentDisplayMode(Vid_SelectedMonitor, &current);
+-            current.refresh_rate = Vid_SelectedRefreshRate;
+-
+-            SDL_DisplayMode closest; // try closest mode
+-            if (SDL_GetClosestDisplayMode(Vid_SelectedMonitor, &current, &closest))
+-                xr_sprintf(buff, sizeof(buff), "vid_refresh %d", closest.refresh_rate);
+-            else // or just use maximal
+-            {
+-                const u32 rate = g_monitors.GetMaximalRefreshRate();
+-                xr_sprintf(buff, sizeof(buff), "vid_refresh %d", rate);
+-            }
+-
+-            Console->Execute(buff);
+-        }
+-
+         dwWidth = psCurrentVidMode[0];
+         dwHeight = psCurrentVidMode[1];
+     }
+-- 
+2.27.0
+
