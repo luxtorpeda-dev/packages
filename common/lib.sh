@@ -3,7 +3,6 @@
 log_environment () {
 	pwd
 	nproc
-	gcc --version
 }
 
 setup_dist_dirs () {
@@ -169,6 +168,20 @@ use_common_qt5 () {
     mkdir -p qt5
     tar xvf "qt5.tar.xz" --strip-components=1 -C ./qt5
     popd
+}
+
+setup_custom_container() {
+    if [ $CUSTOM_CONTAINER = "ubuntu:18.04" ]; then
+        apt-get update
+        apt-get -y install build-essential cmake git g++-8 gcc-8 sudo wget unzip libx11-dev libgl1-mesa-dev automake libtool ncurses-dev pkg-config libpulse-dev freeglut3-dev
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Action"
+
+        sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
+        sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
+        sudo update-alternatives --set gcc "/usr/bin/gcc-8"
+        sudo update-alternatives --set g++ "/usr/bin/g++-8"
+    fi
 }
 
 set -x

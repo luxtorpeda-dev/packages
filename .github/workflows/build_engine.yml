@@ -11,12 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       engine: ${{ steps.findname.outputs.engine }}
+      container: ${{ steps.findname.outputs.container }}
     steps:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Find Engine Name
       id: findname
-      uses: luxtorpeda-dev/action-build-get-engine-name@v3
+      uses: luxtorpeda-dev/action-build-get-engine-name@v5
       with:
           token: ${{ secrets.GITHUB_TOKEN }}  
   build:
@@ -24,8 +25,7 @@ jobs:
     needs: findengine
     outputs:
       app_ids: ${{env.APP_IDS }}
-    container:
-      image: luxtorpedadev/runtime:7
+    container: ${{ needs.findengine.outputs.container }}
     steps:
     - name: Checkout
       uses: actions/checkout@v1

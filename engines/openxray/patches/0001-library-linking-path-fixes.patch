@@ -1,0 +1,66 @@
+From ee6400a81cdeb3cc03bc6a39e4ce10230dda0a5d Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Fri, 7 Aug 2020 22:03:05 -0500
+Subject: [PATCH 1/1] library linking path fixes
+
+---
+ Externals/cximage/CMakeLists.txt        | 2 +-
+ src/Layers/xrRenderPC_GL/CMakeLists.txt | 2 +-
+ src/xrEngine/CMakeLists.txt             | 2 +-
+ src/xrSound/CMakeLists.txt              | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/Externals/cximage/CMakeLists.txt b/Externals/cximage/CMakeLists.txt
+index d29d1039c..86019d14e 100644
+--- a/Externals/cximage/CMakeLists.txt
++++ b/Externals/cximage/CMakeLists.txt
+@@ -41,6 +41,6 @@ include_directories(
+ add_library(cximage STATIC ${SOURCES} ${HEADERS})
+ 
+ set_target_properties(cximage PROPERTIES PREFIX "")
+-target_link_libraries(cximage jpeg)
++target_link_libraries(cximage ${JPEG_LIBRARIES})
+ set_property(TARGET ${PROJECT_NAME} PROPERTY POSITION_INDEPENDENT_CODE ON)
+ 
+diff --git a/src/Layers/xrRenderPC_GL/CMakeLists.txt b/src/Layers/xrRenderPC_GL/CMakeLists.txt
+index cdf483837..30ad1dcd7 100644
+--- a/src/Layers/xrRenderPC_GL/CMakeLists.txt
++++ b/src/Layers/xrRenderPC_GL/CMakeLists.txt
+@@ -61,7 +61,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES COTIRE_CXX_PREFIX_HEADER_INIT "
+ cotire(${PROJECT_NAME})
+ 
+ set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
+-target_link_libraries(${PROJECT_NAME} xrCore xrCDB xrEngine xrParticles xrScriptEngine xrAPI GL GLEW xrLuabind ${LUA_LIBRARIES})
++target_link_libraries(${PROJECT_NAME} xrCore xrCDB xrEngine xrParticles xrScriptEngine xrAPI GL ${GLEW_LIBRARIES} xrLuabind ${LUA_LIBRARIES})
+ 
+ install(TARGETS ${PROJECT_NAME} LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR} PERMISSIONS OWNER_READ OWNER_WRITE 
+     GROUP_READ 
+diff --git a/src/xrEngine/CMakeLists.txt b/src/xrEngine/CMakeLists.txt
+index a85badb7f..24c30c82c 100644
+--- a/src/xrEngine/CMakeLists.txt
++++ b/src/xrEngine/CMakeLists.txt
+@@ -34,7 +34,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES COTIRE_CXX_PREFIX_HEADER_INIT "
+ cotire(${PROJECT_NAME})
+ 
+ set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
+-target_link_libraries(${PROJECT_NAME} xrCore xrMiscMath xrLuabind xrAPI xrSound xrScriptEngine xrNetServer ${LUA_LIBRARIES} ${THEORA_LIBRARY} ${OGG_LIBRARIES} xrCDB xrPhysics ${FREEIMAGE_LIBRARIES} openal ${LOCKFILE_LIBRARIES} ${SDL_LIBRARIES})
++target_link_libraries(${PROJECT_NAME} xrCore xrMiscMath xrLuabind xrAPI xrSound xrScriptEngine xrNetServer ${LUA_LIBRARIES} ${THEORA_LIBRARY} ${OGG_LIBRARIES} xrCDB xrPhysics ${FREEIMAGE_LIBRARIES} ${OPENAL_LIBRARY} ${LOCKFILE_LIBRARIES} ${SDL_LIBRARIES})
+ 
+ install(TARGETS ${PROJECT_NAME} LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR} PERMISSIONS OWNER_READ OWNER_WRITE 
+     GROUP_READ 
+diff --git a/src/xrSound/CMakeLists.txt b/src/xrSound/CMakeLists.txt
+index 0f899d914..613bc5925 100644
+--- a/src/xrSound/CMakeLists.txt
++++ b/src/xrSound/CMakeLists.txt
+@@ -30,7 +30,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES COTIRE_CXX_PREFIX_HEADER_INIT "
+ cotire(${PROJECT_NAME})
+ 
+ set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
+-target_link_libraries(${PROJECT_NAME} xrCore xrMiscMath xrAPI xrCDB ${OGG_LIBRARIES} openal vorbis vorbisfile)
++target_link_libraries(${PROJECT_NAME} xrCore xrMiscMath xrAPI xrCDB ${OGG_LIBRARIES} ${OPENAL_LIBRARY} ${THEORA_VORBIS_LIBRARIES} ${THEORA_OGG_LIBRARIES} ${THEORA_LIB_LIBRARIES} "/__w/packages/packages/engines/openxray/local/lib/libvorbisfile.so.3.3.8")
+ 
+ install(TARGETS ${PROJECT_NAME} LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR} PERMISSIONS OWNER_READ OWNER_WRITE 
+     GROUP_READ 
+-- 
+2.27.0
+

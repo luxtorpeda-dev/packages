@@ -1,0 +1,50 @@
+From 4af29e7b3172d6431201213cd1c9fcfc8393ef8d Mon Sep 17 00:00:00 2001
+From: root <root@87ff622db9dc.(none)>
+Date: Sat, 18 Apr 2020 03:06:48 +0000
+Subject: [PATCH] Changes to make Linux compile
+
+---
+ src/Layers/xrRenderPC_GL/CMakeLists.txt |    1 +
+ src/xrCore/CMakeLists.txt               |    2 ++
+ src/xrCore/xrDebug.cpp                  |    1 +
+ 3 files changed, 4 insertions(+)
+
+diff --git a/src/Layers/xrRenderPC_GL/CMakeLists.txt b/src/Layers/xrRenderPC_GL/CMakeLists.txt
+index 7883942..07e1bc1 100644
+--- a/src/Layers/xrRenderPC_GL/CMakeLists.txt
++++ b/src/Layers/xrRenderPC_GL/CMakeLists.txt
+@@ -21,6 +21,7 @@ include_directories(
+     ${CMAKE_CURRENT_SOURCE_DIR}/../../../Externals/gli
+     ${CMAKE_CURRENT_SOURCE_DIR}/../../../Externals/gli/external/glm
+     ${SDL_INCLUDE_DIRS}
++    ${FREEIMAGE_INCLUDE_PATH}
+     )
+ 
+ list(REMOVE_ITEM ${PROJECT_NAME}__SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/../xrRender/HW.cpp")
+diff --git a/src/xrCore/CMakeLists.txt b/src/xrCore/CMakeLists.txt
+index 3883e79..61517f6 100644
+--- a/src/xrCore/CMakeLists.txt
++++ b/src/xrCore/CMakeLists.txt
+@@ -23,6 +23,8 @@ include_directories(
+     ${CMAKE_CURRENT_SOURCE_DIR}/../../Externals/mimalloc/include
+     ${SDL_INCLUDE_DIRS}
+     ${TBB_INCLUDE_DIRS}
++    ${LZO_INCLUDE_DIR}
++    ${CRYPTO++_INCLUDE_DIR}
+ )
+ 
+ list(REMOVE_ITEM ${PROJECT_NAME}__SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/Memory/xrMemory_align.cpp")
+diff --git a/src/xrCore/xrDebug.cpp b/src/xrCore/xrDebug.cpp
+index 05b5dff..e0f55ae 100644
+--- a/src/xrCore/xrDebug.cpp
++++ b/src/xrCore/xrDebug.cpp
+@@ -52,6 +52,7 @@ static BOOL bException = FALSE;
+ #include <cxxabi.h>
+ #include <dlfcn.h>
+ #include <execinfo.h>
++#include <signal.h>
+ #endif
+ #pragma comment(lib, "FaultRep.lib")
+ 
+-- 
+1.7.9.5 
