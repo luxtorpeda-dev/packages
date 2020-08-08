@@ -3,7 +3,6 @@
 log_environment () {
 	pwd
 	nproc
-	gcc --version
 }
 
 setup_dist_dirs () {

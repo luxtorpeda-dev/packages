@@ -34,6 +34,8 @@ if [ ! -z "${COMMON_QT5}" ]; then
    use_common_qt5
 fi
 
+gcc --version
+
 source ./build.sh
 
 copy_license_file "$STEAM_APP_ID_LIST"
