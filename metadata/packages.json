@@ -1729,6 +1729,9 @@
             },
             "residualvm": {
                 "extract_location": "./residual"
+            },
+            "dosbox-staging": {
+                "extract_location": "../dosbox-staging"
             }
         },
         "choices": [
@@ -1744,6 +1747,14 @@
                 "command": "./residual/run-residualvm.sh",
                 "download": [
                     "residualvm"
+                ]
+            },
+            {
+                "name": "dosbox-staging",
+                "command": "../dosbox-staging/run-dosbox-staging.sh",
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
                 ]
             }
         ],
@@ -1769,6 +1780,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/residualvm/residualvm/blob/master/COPYING"
+            },
+            {
+                "store_link": "https://store.steampowered.com/curator/35328265/",
+                "engine_name": "dosbox-staging",
+                "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
+                "version": "0.75",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
             }
         ]
     }
