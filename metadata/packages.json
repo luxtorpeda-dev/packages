@@ -1721,6 +1721,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/residualvm-2/",
                 "file": "residualvm-common-2.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-1/",
+                "file": "dosbox-staging-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
