@@ -1,11 +1,14 @@
 #!/bin/bash
 
+apt-get -y install mercurial
+
 # CLONE PHASE
 git clone https://github.com/OpenXRay/xray-16 source
 pushd source
-git checkout -f f2b3189
+git checkout -f 1579d1f
 git submodule update --init --recursive
 git am < ../patches/0001-Changes-to-make-Linux-compile.patch
+git am < ../patches/0001-library-linking-path-fixes.patch
 popd
 
 git clone https://github.com/OpenXRay/Plus.git plus
@@ -35,6 +38,41 @@ git clone https://github.com/wjakob/tbb tbb
 pushd tbb
 git checkout -f 20357d83
 git submodule update --init --recursive
+popd
+
+git clone https://github.com/kcat/openal-soft.git openal
+pushd openal
+git checkout -f f5e0eef
+popd
+
+git clone https://github.com/xiph/theora.git theora
+pushd theora
+git checkout -f 7ffd8b2
+popd
+
+git clone https://github.com/xiph/ogg.git ogg
+pushd ogg
+git checkout -f bada457
+popd
+
+git clone https://github.com/xiph/vorbis.git vorbis
+pushd vorbis
+git checkout -f 0657aee
+popd
+
+hg clone https://hg.libsdl.org/SDL
+pushd SDL
+hg checkout release-2.0.12
+popd
+
+git clone https://github.com/libjpeg-turbo/libjpeg-turbo.git libjpeg-turbo
+pushd libjpeg-turbo
+git checkout -f ae87a95
+popd
+
+git clone https://github.com/luvit/pcre.git pcre
+pushd pcre
+git checkout -f e2a236a
 popd
 
 wget https://github.com/nigels-com/glew/releases/download/glew-2.1.0/glew-2.1.0.zip
@@ -110,12 +148,113 @@ GLEW_DEST="$pfx" make install
 make install
 popd
 
+pushd "openal"
+rm -rf build
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DBUILD_SHARED_LIBS=ON \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd "openal"
+rm -rf build
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DBUILD_SHARED_LIBS=ON \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd "ogg"
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_CXX_FLAGS="-fPIC" \
+    -DCMAKE_C_FLAGS="-fPIC" \
+    -DBUILD_SHARED_LIBS=ON \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd "vorbis"
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_CXX_FLAGS="-fPIC" \
+    -DCMAKE_C_FLAGS="-fPIC" \
+    -DBUILD_SHARED_LIBS=ON \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd "SDL"
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd "libjpeg-turbo"
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd "pcre"
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DPCRE_BUILD_TESTS=OFF \
+    -DCMAKE_CXX_FLAGS="-fPIC" \
+    -DCMAKE_C_FLAGS="-fPIC" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd "theora"
+./autogen.sh
+./configure --enable-shared --prefix="$pfx"
+make -j "$(nproc)"
+make install
+popd
+
+cp -rfv /usr/local/lib/*ogg.so* "$pfx/lib"
+cp -rfv /usr/local/lib/*openal.so* "$pfx/lib"
+cp -rfv /usr/local/lib/*vorbis*.so* "$pfx/lib"
+
 # build openxray
 export SystemDrive="$pfx"
 pushd "source"
 mkdir -p bin
 cd bin
-
 cmake \
         -DCMAKE_BUILD_TYPE=Release \
         -DFREEIMAGE_LIBRARY="$pfx/lib/libfreeimage-3.18.0.so" \
@@ -126,15 +265,16 @@ cmake \
         -DCMAKE_INSTALL_LIBDIR="$pfx/lib" \
         -DTBB_INSTALL_DIR="$pfx" \
         -DTBB_INCLUDE_DIRS="$pfx/include" \
-        -DTBB_LIBRARY_DIRS="$pfx/lib" \
         -DFREEIMAGE_INCLUDE_PATH="$pfx/include" \
         -DGLEW_INCLUDE_DIRS="$pfx/include" \
         -DGLEW_LIBRARIES="$pstart/glew/glew-2.1.0/lib/libGLEW.so" \
-        -DGLEW_USE_STATIC_LIBS=ON \
         -DLOCKFILE_LIBRARIES="$pfx/LockFile/lib/liblockfile.so" \
         -DLOCKFILE_INCLUDE_DIR="$pfx/LockFile/include" \
         -DCRYPTO++_LIBRARIES="$pfx/Crypto++/lib/libcryptopp.so" \
         -DCRYPTO++_INCLUDE_DIR="$pfx/Crypto++/include" \
+        -DPCRE_INCLUDE_DIR="$pfx/include" \
+        -DPCRE_LIBRARY="$pfx/lib/libpcre.a" \
+        -DOPENAL_LIBRARY="$pfx/lib/libopenal.so.1.20.1" \
         ..
 make -j "$(nproc)"
 make install
@@ -154,6 +294,5 @@ cp assets/run-openxray.sh "$diststart/41700/dist"
 cp -rfv plus/res/gamedata/* "$diststart/41700/dist/gamedata"
 cp -rfv "$pfx/share/openxray"/* "$diststart/41700/dist/"
 pushd "$diststart/41700/dist/lib"
-ln -s "libGLEW.so" "libGLEW.so.1.10"
 ln -s "liblockfile.so" "liblockfile.so.1"
 popd
