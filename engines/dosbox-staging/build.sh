@@ -19,4 +19,4 @@ popd
 
 # COPY PHASE
 cp -rfv "$pfx/bin/dosbox" "$diststart/common/dist/"
-cp -rfv "$pfx/assets/*.sh" "$diststart/common/dist/"
+cp -rfv "$pfx/assets/"*.sh "$diststart/common/dist/"
