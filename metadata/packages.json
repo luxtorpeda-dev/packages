@@ -1044,7 +1044,14 @@
     },
     "20510": {
         "game_name": "S.T.A.L.K.E.R.: Clear Sky",
-        "download": [],
+        "download": [
+            {
+                "name": "openxray",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-1/",
+                "file": "openxray-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-openxray-clearsky.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/20510/",
@@ -1161,7 +1168,14 @@
     },
     "41700": {
         "game_name": "S.T.A.L.K.E.R.: Call of Pripyat",
-        "download": [],
+        "download": [
+            {
+                "name": "openxray",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-1/",
+                "file": "openxray-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-openxray.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/41700/",
