@@ -57,7 +57,7 @@ index 0f899d914..613bc5925 100644
  
  set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
 -target_link_libraries(${PROJECT_NAME} xrCore xrMiscMath xrAPI xrCDB ${OGG_LIBRARIES} openal vorbis vorbisfile)
-+target_link_libraries(${PROJECT_NAME} xrCore xrMiscMath xrAPI xrCDB ${OGG_LIBRARIES} ${OPENAL_LIBRARY} ${THEORA_VORBIS_LIBRARIES} ${THEORA_OGG_LIBRARIES} ${THEORA_LIB_LIBRARIES} "/root/packages/engines/openxray/local/lib/libvorbisfile.so.3.3.8")
++target_link_libraries(${PROJECT_NAME} xrCore xrMiscMath xrAPI xrCDB ${OGG_LIBRARIES} ${OPENAL_LIBRARY} ${THEORA_VORBIS_LIBRARIES} ${THEORA_OGG_LIBRARIES} ${THEORA_LIB_LIBRARIES} "/__w/packages/packages/engines/openxray/local/lib/libvorbisfile.so.3.3.8")
  
  install(TARGETS ${PROJECT_NAME} LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR} PERMISSIONS OWNER_READ OWNER_WRITE 
      GROUP_READ 
