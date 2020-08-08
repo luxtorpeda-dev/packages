@@ -290,6 +290,7 @@ cp -rfv "$pfx/Crypto++/lib"/*.so* "$diststart/common/dist/lib"
 cp -rfv "$pstart/tbb/build"/libtbb*.so* "$diststart/common/dist/lib"
 cp -rfv "$pfx/LockFile/lib/"*.so* "$diststart/common/dist/lib"
 cp -rfv glew/glew-2.1.0/lib/*.so* "$diststart/common/dist/lib"
+
 cp assets/*.sh "$diststart/common/dist"
 cp -rfv plus/res/gamedata/* "$diststart/common/dist/gamedata"
 cp -rfv "$pfx/share/openxray"/* "$diststart/common/dist/"
