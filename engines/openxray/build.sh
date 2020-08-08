@@ -293,6 +293,7 @@ cp -rfv glew/glew-2.1.0/lib/*.so* "$diststart/41700/dist/lib"
 cp assets/run-openxray.sh "$diststart/41700/dist"
 cp -rfv plus/res/gamedata/* "$diststart/41700/dist/gamedata"
 cp -rfv "$pfx/share/openxray"/* "$diststart/41700/dist/"
+
 pushd "$diststart/41700/dist/lib"
 ln -s "liblockfile.so" "liblockfile.so.1"
 popd
