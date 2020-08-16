@@ -26,7 +26,7 @@ pushd libpng
 git checkout -f c17d164
 popd
 
-wget https://github.com/OpenRCT2/objects/releases/download/v1.0.15/objects.zip
+wget https://github.com/OpenRCT2/objects/releases/download/v1.0.16/objects.zip
 wget https://github.com/OpenRCT2/title-sequences/releases/download/v0.1.2c/title-sequences.zip
 
 readonly pfx="$PWD/local"
