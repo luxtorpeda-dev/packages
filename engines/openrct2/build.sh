@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenRCT2/OpenRCT2.git source
 pushd source
-git checkout -f 6c3c857dfa5cd0d267b89a9d70930fbacdfbaea4
+git checkout -f 135cc10
 popd
 
 git clone https://github.com/akheron/jansson.git jansson
