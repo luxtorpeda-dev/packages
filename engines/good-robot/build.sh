@@ -69,5 +69,5 @@ popd
 mkdir -p "$diststart/358830/dist/lib"
 cp -rfv "$pfx/lib/"*.so* "$diststart/358830/dist/lib"
 cp -rfv source/build/good_robot "$diststart/358830/dist/"
-cp -rfv assets/run-good.robot.sh "$diststart/358830/dist/"
+cp -rfv assets/run-good-robot.sh "$diststart/358830/dist/"
 cp -rfv boost/stage/lib/*.so* "$diststart/358830/dist/lib"
