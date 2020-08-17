@@ -30,7 +30,8 @@ mkdir -p "$pfx"
 readonly boostlocation="$PWD/boost"
 pushd "boost"
 ./bootstrap.sh
-./b2 headers --with-program_options --with-filesystem --with-system
+./b2 headers
+./b2  --with-program_options --with-filesystem --with-system
 popd
 
 pushd "devil/DevIL"
@@ -62,7 +63,11 @@ cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)"
-make install
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/358830/dist/lib"
+cp -rfv "$pfx/lib/"*.so* "$diststart/358830/dist/lib"
+cp -rfv source/build/good_robot "$diststart/358830/dist/"
+cp -rfv assets/run-good.robot.sh "$diststart/358830/dist/"
+cp -rfv boost/stage/lib/*.so* "$diststart/358830/dist/lib"
