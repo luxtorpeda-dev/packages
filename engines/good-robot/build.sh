@@ -8,7 +8,7 @@ popd
 
 git clone https://github.com/boostorg/boost boost
 pushd boost
-git checkout -f 68a24986
+git checkout -f a7090e8
 git submodule update --init --recursive
 popd
 
@@ -71,3 +71,4 @@ cp -rfv "$pfx/lib/"*.so* "$diststart/358830/dist/lib"
 cp -rfv source/build/good_robot "$diststart/358830/dist/"
 cp -rfv assets/run-good-robot.sh "$diststart/358830/dist/"
 cp -rfv boost/stage/lib/*.so* "$diststart/358830/dist/lib"
+cp -rfv steamworks/redistributable_bin/linux64/libsteam_api.so "$diststart/358830/dist/lib"
