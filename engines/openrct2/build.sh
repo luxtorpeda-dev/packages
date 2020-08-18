@@ -95,7 +95,7 @@ popd
 pushd source
 mkdir build
 cd build
-cmake \
+PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig" cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_CXX_FLAGS="-Wno-sign-compare" \
     -DJANSSON_LIBRARIES="$pfx/lib/libjansson.so" \
