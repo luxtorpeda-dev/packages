@@ -4,6 +4,7 @@
 git clone https://github.com/OpenRCT2/OpenRCT2.git source
 pushd source
 git checkout -f 135cc10
+git am < ../patches/0001-Disable-Werror.patch
 popd
 
 git clone https://github.com/akheron/jansson.git jansson
@@ -36,6 +37,8 @@ wget https://github.com/OpenRCT2/title-sequences/releases/download/v0.1.2c/title
 
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
+
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
 pushd jansson
@@ -95,17 +98,12 @@ popd
 pushd source
 mkdir build
 cd build
-PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig" cmake \
+cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_CXX_FLAGS="-Wno-sign-compare" \
-    -DJANSSON_LIBRARIES="$pfx/lib/libjansson.so" \
-    -DJANSSON_INCLUDE_DIRS="$pfx/include" \
-    -DLIBZIP_LIBRARIES="$pfx/lib/libzip.so" \
-    -DLIBZIP_INCLUDE_DIRS="$pfx/include" \
-    -DPNG_LIBRARIES="$pfx/lib/libpng16.so" \
-    -DPNG_INCLUDE_DIRS="$pfx/include" \
+    -DCMAKE_CXX_FLAGS="-Wno-sign-compare -fpermissive" \
     -DDUKTAPE_LIBRARY="$pfx/lib/libduktape.so" \
     -DDUKTAPE_INCLUDE_DIR="$pfx/include" \
+    -DICU_ROOT="$pfx" \
     ..
 make -j "$(nproc)"
 cp -rfv ../data .
