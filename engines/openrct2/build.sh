@@ -128,4 +128,4 @@ cp -rfv "assets/setup-rct1.sh" "$diststart/common/dist"
 cp -rfv "assets/setup-rct2.sh" "$diststart/common/dist"
 
 unzip objects.zip -d "$diststart/common/dist/data/object"
-unzip title-sequences.zip -d "$diststart/common/dist/data/title"
+unzip title-sequences.zip -d "$diststart/common/dist/data/sequence"
