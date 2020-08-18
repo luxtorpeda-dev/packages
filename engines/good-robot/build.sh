@@ -10,7 +10,7 @@ popd
 
 git clone https://github.com/boostorg/boost boost
 pushd boost
-git checkout -f a7090e8
+git checkout -f afb333b7
 git submodule update --init --recursive
 popd
 
@@ -53,7 +53,11 @@ readonly boostlocation="$PWD/boost"
 pushd "boost"
 ./bootstrap.sh
 ./b2 headers
-./b2  --with-program_options --with-filesystem --with-system
+./b2 \
+	--with-program_options \
+	--with-filesystem \
+	--with-system \
+	--with-iostreams \
 ./b2 install --prefix="$pfx"
 popd
 
