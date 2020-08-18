@@ -137,7 +137,7 @@ cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DSDL2_LIBRARIES="$pfx/lib/libSDL2-2.0.so.0.12.0" \
     ..
-make -j "$(nproc)"
+make
 popd
 
 # COPY PHASE
