@@ -42,9 +42,6 @@ popd
 wget https://github.com/nigels-com/glew/releases/download/glew-2.1.0/glew-2.1.0.zip
 unzip glew-2.1.0.zip -d glew
 
-export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -w"
-export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -w"
-
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
@@ -137,25 +134,7 @@ cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DSDL2_LIBRARIES="$pfx/lib/libSDL2-2.0.so.0.12.0" \
     ..
-if make
-then
-    echo "Make finished"
-else
-    echo "First make failed"
-fi
-popd
-
-rm -rf source/build
-pushd "source"
-mkdir build
-cd build || exit 1
-cmake \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DBOOST_ROOT="$boostlocation" \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -DSDL2_LIBRARIES="$pfx/lib/libSDL2-2.0.so.0.12.0" \
-    ..
-make
+make -j "$(nproc)"
 popd
 
 # COPY PHASE
