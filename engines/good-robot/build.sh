@@ -48,6 +48,8 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
+
 # BUILD PHASE
 
 readonly boostlocation="$PWD/boost"
@@ -67,23 +69,6 @@ make -j "$(nproc)"
 make install
 popd
 
-pushd "freealut"
-mkdir build
-cd build || exit 1
-cmake \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    ..
-make -j "$(nproc)"
-make install
-popd
-
-# build glew
-pushd glew/glew-2.1.0
-GLEW_DEST="$pfx" make -j "$(nproc)"
-GLEW_DEST="$pfx" make install
-make install
-popd
-
 pushd "openal"
 rm -rf build
 mkdir -p build
@@ -95,6 +80,25 @@ cmake \
     -DBUILD_SHARED_LIBS=ON \
     ..
 make -j "$(nproc)"
+make install
+popd
+
+pushd "freealut"
+mkdir build
+cd build || exit 1
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DOPENAL_INCLUDE_DIR="$pfx/include/" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+# build glew
+pushd glew/glew-2.1.0
+GLEW_DEST="$pfx" make -j "$(nproc)"
+GLEW_DEST="$pfx" make install
 make install
 popd
 
