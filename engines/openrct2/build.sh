@@ -3,7 +3,8 @@
 # CLONE PHASE
 git clone https://github.com/OpenRCT2/OpenRCT2.git source
 pushd source
-git checkout -f 6c3c857dfa5cd0d267b89a9d70930fbacdfbaea4
+git checkout -f 135cc10
+git am < ../patches/0001-Disable-Werror.patch
 popd
 
 git clone https://github.com/akheron/jansson.git jansson
@@ -26,11 +27,18 @@ pushd libpng
 git checkout -f c17d164
 popd
 
-wget https://github.com/OpenRCT2/objects/releases/download/v1.0.15/objects.zip
+git clone https://github.com/svaarala/duktape.git duktape
+pushd duktape
+git checkout -f 6001888
+popd
+
+wget https://github.com/OpenRCT2/objects/releases/download/v1.0.16/objects.zip
 wget https://github.com/OpenRCT2/title-sequences/releases/download/v0.1.2c/title-sequences.zip
 
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
+
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
 pushd jansson
@@ -70,18 +78,35 @@ make -j "$(nproc)"
 make install
 popd
 
+sudo apt-get install -y python-yaml bc
+curl -s https://setconf.roboticoverlords.org/setconf-0.7.7.tar.xz | tar JxC /tmp
+sudo install -Dm755 /tmp/setconf-0.7.7/setconf.py /usr/bin/setconf
+sudo install -Dm644 /tmp/setconf-0.7.7/setconf.1.gz /usr/share/man/man1/setconf.1.gz
+
+pushd "duktape"
+make dist -j "$(nproc)"
+popd
+
+pushd "duktape/dist"
+mv Makefile.sharedlibrary Makefile
+sed 's/-Wall -Wextra/$(CFLAGS)/g' -i Makefile
+CFLAGS="$CFLAGS -D DUK_USE_FASTINT -w" make -j "$(nproc)"
+setconf Makefile INSTALL_PREFIX="$pfx"
+make install
+popd
+
 pushd source
 mkdir build
 cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_CXX_FLAGS="-Wno-sign-compare" \
+    -DCMAKE_CXX_FLAGS="-Wno-sign-compare -fpermissive" \
+    -DDUKTAPE_LIBRARY="$pfx/lib/libduktape.so" \
+    -DDUKTAPE_INCLUDE_DIR="$pfx/include" \
+    -DICU_ROOT="$pfx" \
     -DJANSSON_LIBRARIES="$pfx/lib/libjansson.so" \
-    -DJANSSON_INCLUDE_DIRS="$pfx/include" \
     -DLIBZIP_LIBRARIES="$pfx/lib/libzip.so" \
-    -DLIBZIP_INCLUDE_DIRS="$pfx/include" \
     -DPNG_LIBRARIES="$pfx/lib/libpng16.so" \
-    -DPNG_INCLUDE_DIRS="$pfx/include" \
     ..
 make -j "$(nproc)"
 cp -rfv ../data .
@@ -103,4 +128,4 @@ cp -rfv "assets/setup-rct1.sh" "$diststart/common/dist"
 cp -rfv "assets/setup-rct2.sh" "$diststart/common/dist"
 
 unzip objects.zip -d "$diststart/common/dist/data/object"
-unzip title-sequences.zip -d "$diststart/common/dist/data/title"
+unzip title-sequences.zip -d "$diststart/common/dist/data/sequence"
