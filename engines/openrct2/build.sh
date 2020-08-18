@@ -104,6 +104,9 @@ cmake \
     -DDUKTAPE_LIBRARY="$pfx/lib/libduktape.so" \
     -DDUKTAPE_INCLUDE_DIR="$pfx/include" \
     -DICU_ROOT="$pfx" \
+    -DJANSSON_LIBRARIES="$pfx/lib/libjansson.so" \
+    -DLIBZIP_LIBRARIES="$pfx/lib/libzip.so" \
+    -DPNG_LIBRARIES="$pfx/lib/libpng16.so" \
     ..
 make -j "$(nproc)"
 cp -rfv ../data .
