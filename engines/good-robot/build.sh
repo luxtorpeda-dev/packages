@@ -54,6 +54,7 @@ pushd "boost"
 ./bootstrap.sh
 ./b2 headers
 ./b2  --with-program_options --with-filesystem --with-system
+./b2 install --prefix="$pfx"
 popd
 
 pushd "devil/DevIL"
