@@ -1582,6 +1582,22 @@
             "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
         }
     },
+    "358830": {
+        "game_name": "Good Robot",
+        "download": [],
+        "command": "./run-good-robot.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/358830",
+            "engine_name": "Good-Robot",
+            "engine_link": "https://github.com/arvindrajayadav/Good-Robot",
+            "version": "c9a0a5f (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/arvindrajayadav/Good-Robot/blob/master/LICENSE.txt"
+        }
+    },
     "517790": {
         "game_name": "Caesar 3",
         "download": [
