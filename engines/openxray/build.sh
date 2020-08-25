@@ -7,6 +7,8 @@ git clone https://github.com/OpenXRay/xray-16 source
 pushd source
 git checkout -f 1579d1f
 git submodule update --init --recursive
+git am < ../patches/0001-Changes-to-make-Linux-compile.patch
+git am < ../patches/0001-library-linking-path-fixes.patch
 popd
 
 git clone https://github.com/OpenXRay/Plus.git plus
