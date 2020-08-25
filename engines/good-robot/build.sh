@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get -y install mercurial
+apt-get -y install mercurial libxrandr-dev and libxinerama-dev
 
 # CLONE PHASE
 git clone https://github.com/arvindrajayadav/Good-Robot.git source
