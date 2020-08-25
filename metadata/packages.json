@@ -1584,7 +1584,13 @@
     },
     "358830": {
         "game_name": "Good Robot",
-        "download": [],
+        "download": [
+            {
+                "name": "good-robot",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/good-robot-1/",
+                "file": "good-robot-358830-1.tar.xz"
+            }
+        ],
         "command": "./run-good-robot.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/358830",
