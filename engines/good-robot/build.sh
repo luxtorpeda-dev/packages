@@ -66,6 +66,16 @@ pushd "boost"
 ./b2 install --prefix="$pfx"
 popd
 
+pushd libpng
+mkdir build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
 pushd "devil/DevIL"
 mkdir build
 cd build || exit 1
@@ -109,16 +119,6 @@ GLEW_DEST="$pfx" make install
 make install
 popd
 
-pushd libpng
-mkdir build
-cd build
-cmake \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    ..
-make -j "$(nproc)"
-make install
-popd
-
 pushd "SDL"
 mkdir -p build
 cd build
@@ -140,6 +140,7 @@ cmake \
     -DCMAKE_CXX_FLAGS="-fPIC" \
     -DCMAKE_C_FLAGS="-fPIC" \
     -DBUILD_SHARED_LIBS=ON \
+    -DPNG_LIBRARIES="$pfx/lib/libpng16.so" \
     ..
 make -j "$(nproc)"
 make install
