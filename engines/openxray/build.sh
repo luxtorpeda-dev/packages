@@ -288,6 +288,7 @@ mkdir -p "$diststart/common/dist/gamedata"
 
 cp -rfv "$pfx/bin/xr_3da" "$diststart/common/dist"
 cp -rfv "$pfx/lib"/*.so* "$diststart/common/dist/lib"
+
 cp -rfv "$pfx/Crypto++/lib"/*.so* "$diststart/common/dist/lib"
 cp -rfv "$pstart/tbb/build"/libtbb*.so* "$diststart/common/dist/lib"
 cp -rfv "$pfx/LockFile/lib/"*.so* "$diststart/common/dist/lib"
