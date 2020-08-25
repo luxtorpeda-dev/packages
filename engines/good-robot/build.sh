@@ -42,6 +42,11 @@ popd
 wget https://github.com/nigels-com/glew/releases/download/glew-2.1.0/glew-2.1.0.zip
 unzip glew-2.1.0.zip -d glew
 
+git clone https://github.com/glennrp/libpng.git libpng
+pushd libpng
+git checkout -f c17d164
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
@@ -104,6 +109,16 @@ GLEW_DEST="$pfx" make install
 make install
 popd
 
+pushd libpng
+mkdir build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
 pushd "SDL"
 mkdir -p build
 cd build
@@ -138,6 +153,7 @@ cmake \
     -DBOOST_ROOT="$boostlocation" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DSDL2_LIBRARIES="$pfx/lib/libSDL2-2.0.so.0.12.0" \
+    -DPNG_LIBRARIES="$pfx/lib/libpng16.so" \
     ..
 make -j "$(nproc)"
 popd
