@@ -62,7 +62,7 @@ popd
 
 hg clone https://hg.libsdl.org/SDL
 pushd SDL
-hg checkout release-2.0.8
+hg checkout release-2.0.12
 popd
 
 git clone https://github.com/libjpeg-turbo/libjpeg-turbo.git libjpeg-turbo
@@ -84,6 +84,8 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 readonly pstart="$PWD"
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
+
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
 # build freeimage
