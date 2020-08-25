@@ -62,7 +62,7 @@ popd
 
 hg clone https://hg.libsdl.org/SDL
 pushd SDL
-hg checkout release-2.0.8
+hg checkout release-2.0.12
 popd
 
 git clone https://github.com/libjpeg-turbo/libjpeg-turbo.git libjpeg-turbo
