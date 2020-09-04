@@ -1197,6 +1197,11 @@
                 "name": "rbdoom-3-bfg",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rbdoom-3-bfg-6/",
                 "file": "rbdoom-3-bfg-208200-6.tar.xz"
+            },
+            {
+                "name": "classic-rbdoom-3-bfg",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-1/",
+                "file": "classic-rbdoom-3-bfg-208200-1.tar.xz"
             }
         ],
         "choices": [
