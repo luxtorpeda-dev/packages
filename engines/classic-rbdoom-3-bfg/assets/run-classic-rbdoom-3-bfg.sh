@@ -1,3 +1,3 @@
 #!/bin/bash
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./RBDoom3BFG
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./DoomBFA

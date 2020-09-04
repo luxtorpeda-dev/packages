@@ -36,4 +36,4 @@ popd
 cp "source/build/DoomBFA" "$diststart/208200/dist/DoomBFA"
 mkdir -p "$diststart/208200/dist/lib"
 cp -rfv "$pfx/"lib/*.so* "$diststart/208200/dist/lib/"
-cp -rfv ./assets/run-rbdoom-3-bfg.sh "$diststart/208200/dist/"
+cp -rfv ./assets/run-classic-rbdoom-3-bfg.sh "$diststart/208200/dist/"
