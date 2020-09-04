@@ -1199,18 +1199,56 @@
                 "file": "rbdoom-3-bfg-208200-6.tar.xz"
             }
         ],
-        "command": "./run-rbdoom-3-bfg.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
-            "engine_name": "RBDOOM-3-BFG",
-            "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
-            "version": "3960b88 (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md"
-        }
+        "choices": [
+            {
+                "name": "rbdoom-3-bfg",
+                "command": "./run-rbdoom-3-bfg.sh",
+                "download": [
+                    "rbdoom-3-bfg"
+                ]
+            },
+            {
+                "name": "classic-rbdoom-3-bfg",
+                "command": "./classic/run-classic-rbdoom-3-bfg.sh",
+                "download": [
+                    "classic-rbdoom-3-bfg"
+                ],
+                "setup": {
+                    "complete_path": "ready-classic",
+                    "command": "./classic/setup-classic-rbdoom-3-bfg.sh"
+                },
+                "download_config": {
+                    "classic-rbdoom-3-bfg": {
+                        "extract_location": "./classic",
+                        "setup": true
+                    }
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
+                "engine_name": "RBDOOM-3-BFG",
+                "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
+                "version": "3960b88 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
+                "engine_name": "Classic-RBDOOM-3-BFG",
+                "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
+                "version": "1.2.6-BFA",
+                "comments": "Doom 1 & 2 currently do not work. Ticket is up on upstream repository.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG/blob/master/COPYING.txt"
+            }
+        ]
     },
     "224960": {
         "game_name": "Tomb Raider I",
