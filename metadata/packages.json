@@ -1247,7 +1247,7 @@
                 "engine_name": "Classic-RBDOOM-3-BFG",
                 "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
                 "version": "1.2.6-BFA",
-                "comments": "Doom 1 & 2 currently do not work. Ticket is up on upstream repository.",
+                "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv3",
