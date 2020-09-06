@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get -y install mercurial
+apt-get -y install mercurial yasm nasm
 
 # CLONE PHASE
 git clone https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git source
