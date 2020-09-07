@@ -23,7 +23,13 @@ cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
     ..
-make -j "$(nproc)" install
+make -j "$(nproc)"
+DESTDIR="$pfx" make install
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/common/dist/lib"
+cp -rfv "$pfx/usr/bin/"* "$diststart/common/dist/"
+cp -rfv "$pfx/usr/lib/lib/x86_64-linux-gnu/"*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/usr/lib/lib/x86_64-linux-gnu/doomsday/"*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/usr/share/doomsday/"* "$diststart/common/dist/"
