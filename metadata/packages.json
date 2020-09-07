@@ -120,24 +120,73 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-4/",
                 "file": "gzdoom-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "common-qt5",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
+                "file": "common-qt5-common.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./run-gzdoom.sh",
-        "command_args": [
-            "-iwad",
-            "base/DOOM.WAD"
+        "choices": [
+            {
+                "name": "gzdoom",
+                "command": "./run-gzdoom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM.WAD"
+                ],
+                "download": [
+                    "gzdoom"
+                ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday",
+                    "common-qt5"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "doom1-ultimate"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    },
+                    "common-qt5": {
+                        "extract_location": "./doomsday/common-qt5"
+                    }
+                }
+            }
         ],
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2280/",
-            "engine_name": "gzdoom",
-            "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.4.2",
-            "comments": "",
-            "author": "dreamer/d10sfan",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv3",
-            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
-        }
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.4.2",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "v2.2.2",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            }
+        ]
     },
     "2290": {
         "game_name": "Final DOOM",
@@ -147,35 +196,98 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-4/",
                 "file": "gzdoom-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "common-qt5",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
+                "file": "common-qt5-common.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "commands": {
-            ".*plutoniam?.conf": {
-                "cmd": "./run-gzdoom.sh",
-                "args": [
-                    "-iwad",
-                    "base/PLUTONIA.WAD"
+        "choices": [
+            {
+                "name": "gzdoom",
+                "command": "./run-gzdoom.sh",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./run-gzdoom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./run-gzdoom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "gzdoom"
                 ]
             },
-            ".*tntm?.conf": {
-                "cmd": "./run-gzdoom.sh",
-                "args": [
-                    "-iwad",
-                    "base/TNT.WAD"
-                ]
+            {
+                "name": "doomsday",
+                 "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./run-doomsday.sh",
+                        "args": [
+                            "-iwad",
+                            "base",
+                            "-game",
+                            "doom2-plut"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./run-doomsday.sh",
+                        "args": [
+                            "-iwad",
+                            "base",
+                            "-game",
+                            "doom2-tnt"
+                        ]
+                    }
+                },
+                "download": [
+                    "doomsday",
+                    "common-qt5"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    },
+                    "common-qt5": {
+                        "extract_location": "./doomsday/common-qt5"
+                    }
+                }
             }
-        },
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2290/",
-            "engine_name": "gzdoom",
-            "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.4.2",
-            "comments": "",
-            "author": "dreamer/d10sfan",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv3",
-            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
-        }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2290/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.4.2",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2290/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "v2.2.2",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            }
+        ]
     },
     "2300": {
         "game_name": "DOOM II: Hell on Earth",
@@ -185,24 +297,73 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-4/",
                 "file": "gzdoom-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "common-qt5",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
+                "file": "common-qt5-common.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./run-gzdoom.sh",
-        "command_args": [
-            "-iwad",
-            "base/DOOM2.WAD"
+        "choices": [
+            {
+                "name": "gzdoom",
+                "command": "./run-gzdoom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM2.WAD"
+                ],
+                "download": [
+                    "gzdoom"
+                ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday",
+                    "common-qt5"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "doom2"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    },
+                    "common-qt5": {
+                        "extract_location": "./doomsday/common-qt5"
+                    }
+                }
+            }
         ],
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2300/",
-            "engine_name": "gzdoom",
-            "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.4.2",
-            "comments": "",
-            "author": "dreamer/d10sfan",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv3",
-            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
-        }
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2300/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.4.2",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2300/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "v2.2.2",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            }
+        ]
     },
     "2310": {
         "game_name": "Quake",
@@ -355,24 +516,73 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-4/",
                 "file": "gzdoom-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "common-qt5",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
+                "file": "common-qt5-common.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./run-gzdoom.sh",
-        "command_args": [
-            "-iwad",
-            "base/HEXEN.WAD"
+        "choices": [
+            {
+                "name": "gzdoom",
+                "command": "./run-gzdoom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HEXEN.WAD"
+                ],
+                "download": [
+                    "gzdoom"
+                ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday",
+                    "common-qt5"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "hexen"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    },
+                    "common-qt5": {
+                        "extract_location": "./doomsday/common-qt5"
+                    }
+                }
+            }
         ],
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2360/",
-            "engine_name": "gzdoom",
-            "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.4.2",
-            "comments": "",
-            "author": "dreamer/d10sfan",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv3",
-            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
-        }
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2360/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.4.2",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2360/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "v2.2.2",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            }
+        ]
     },
     "2390": {
         "game_name": "Heretic: Shadow of the Serpent Riders",
@@ -382,24 +592,73 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-4/",
                 "file": "gzdoom-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "common-qt5",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
+                "file": "common-qt5-common.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./run-gzdoom.sh",
-        "command_args": [
-            "-iwad",
-            "base/HERETIC.WAD"
+        "choices": [
+            {
+                "name": "gzdoom",
+                "command": "./run-gzdoom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HERETIC.WAD"
+                ],
+                "download": [
+                    "gzdoom"
+                ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday",
+                    "common-qt5"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "heretic-ext"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    },
+                    "common-qt5": {
+                        "extract_location": "./doomsday/common-qt5"
+                    }
+                }
+            }
         ],
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2390/",
-            "engine_name": "gzdoom",
-            "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.4.2",
-            "comments": "",
-            "author": "dreamer/d10sfan",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv3",
-            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
-        }
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2390/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.4.2",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2390/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "v2.2.2",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            }
+        ]
     },
     "3730": {
         "game_name": "Aliens versus Predator Classic",
