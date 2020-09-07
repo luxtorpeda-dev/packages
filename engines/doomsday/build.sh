@@ -30,6 +30,8 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/common/dist/lib"
 cp -rfv "$pfx/usr/bin/"* "$diststart/common/dist/"
+
 cp -rfv "$pfx/usr/lib/lib/x86_64-linux-gnu/"*.so* "$diststart/common/dist/lib"
 cp -rfv "$pfx/usr/lib/lib/x86_64-linux-gnu/doomsday/"*.so* "$diststart/common/dist/lib"
+
 cp -rfv "$pfx/usr/share/doomsday/"* "$diststart/common/dist/"
