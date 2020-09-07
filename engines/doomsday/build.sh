@@ -13,6 +13,7 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 # BUILD PHASE
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
+export PATH="$pfx/qt5/bin:$PATH"
 
 pushd "source"
 mkdir -p build
