@@ -2216,6 +2216,23 @@
             "author_link": "https://github.com/dreamer"
         }
     },
+    "961620": {
+        "game_name": "Flashback",
+        "download": [],
+        "command": "./run-flashback.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/961620/",
+            "engine_name": "REminiscence",
+            "engine_link": "http://cyxdown.free.fr/reminiscence/",
+            "version": "0.4.6",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Unknown",
+            "license_link": "http://cyxdown.free.fr/reminiscence/",
+            "non_free": true
+        }
+    },
     "1241950": {
         "game_name": "Warzone 2100",
         "download": [
