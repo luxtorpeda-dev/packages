@@ -39,3 +39,6 @@ popd
 
 # COPY PHASE
 cp -rfv REminiscence-0.4.6/rs "$diststart/961620/dist/rs"
+mkdir -p "$diststart/961620/dist/lib"
+cp -rfv /usr/local/lib/libvorbisidec.so.* "$diststart/961620/dist/lib"
+cp -rfv assets/* "$diststart/961620/dist/"
