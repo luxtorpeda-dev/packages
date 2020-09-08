@@ -132,6 +132,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-1/",
                 "file": "doomsday-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
+                "file": "chocolate-doom-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -240,6 +246,12 @@
                 "name": "doomsday",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-1/",
                 "file": "doomsday-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
+                "file": "chocolate-doom-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -385,6 +397,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-1/",
                 "file": "doomsday-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
+                "file": "chocolate-doom-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -421,7 +439,7 @@
                     }
                 }
             },
-             {
+            {
                 "name": "chocolate-doom",
                 "command": "./chocolate-doom/run-chocolate-doom.sh",
                 "command_args": [
@@ -637,6 +655,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-1/",
                 "file": "doomsday-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
+                "file": "chocolate-doom-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -745,6 +769,12 @@
                 "name": "doomsday",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-1/",
                 "file": "doomsday-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
+                "file": "chocolate-doom-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
