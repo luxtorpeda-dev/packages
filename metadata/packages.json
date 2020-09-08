@@ -1630,6 +1630,38 @@
             "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE"
         }
     },
+    "41050": {
+        "game_name": "Serious Sam Classic: The First Encounter",
+        "download": [],
+        "command": "./Bin/ssam-tfe",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/41050",
+            "engine_name": "Serious-Engine",
+            "engine_link": "https://github.com/ptitSeb/Serious-Engine",
+            "version": "253d2b9 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE"
+        }
+    },
+    "41060": {
+        "game_name": "Serious Sam Classic: The Second Encounter",
+        "download": [],
+        "command": "./Bin/ssam",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/41050",
+            "engine_name": "Serious-Engine",
+            "engine_link": "https://github.com/ptitSeb/Serious-Engine",
+            "version": "253d2b9 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE"
+        }
+    },
     "41700": {
         "game_name": "S.T.A.L.K.E.R.: Call of Pripyat",
         "download": [
