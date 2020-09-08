@@ -167,6 +167,22 @@
                         "extract_location": "./doomsday/common-qt5"
                     }
                 }
+            },
+            {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-doom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
             }
         ],
         "information": [
@@ -191,6 +207,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv3/LGPLv3",
                 "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "f700744 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
     },
@@ -219,7 +246,6 @@
         "choices": [
             {
                 "name": "gzdoom",
-                "command": "./run-gzdoom.sh",
                 "commands": {
                     ".*plutoniam?.conf": {
                         "cmd": "./run-gzdoom.sh",
@@ -274,6 +300,33 @@
                         "extract_location": "./doomsday/common-qt5"
                     }
                 }
+            },
+            {
+                "name": "chocolate-doom",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
             }
         ],
         "information": [
@@ -298,6 +351,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv3/LGPLv3",
                 "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "f700744 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
     },
@@ -356,6 +420,22 @@
                         "extract_location": "./doomsday/common-qt5"
                     }
                 }
+            },
+             {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-doom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM2.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
             }
         ],
         "information": [
@@ -380,6 +460,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv3/LGPLv3",
                 "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "f700744 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
     },
@@ -581,6 +672,22 @@
                         "extract_location": "./doomsday/common-qt5"
                     }
                 }
+            },
+            {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-hexen.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HEXEN.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
             }
         ],
         "information": [
@@ -605,6 +712,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv3/LGPLv3",
                 "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "f700744 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
     },
@@ -663,6 +781,22 @@
                         "extract_location": "./doomsday/common-qt5"
                     }
                 }
+            },
+            {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-heretic.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HERETIC.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
             }
         ],
         "information": [
@@ -687,6 +821,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv3/LGPLv3",
                 "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "f700744 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
     },
