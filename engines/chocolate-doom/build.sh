@@ -25,13 +25,13 @@ make -j "$(nproc)" install
 popd
 
 pushd "source"
-mkdir -p build
-cd build
-cmake \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    ..
+./autogen.sh
 make -j "$(nproc)"
+DESTDIR="$pfx" make install
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/common/dist/lib"
+cp -rfv "$pfx/lib64"/libfluidsynth.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/usr/local/bin/"* "$diststart/common/dist/"
+cp -rfv assets/* "$diststart/common/dist/"
