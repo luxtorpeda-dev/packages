@@ -38,4 +38,4 @@ make
 popd
 
 # COPY PHASE
-cp -rfv REminiscence-0.4.6/rs "$diststart/961620/rs"
+cp -rfv REminiscence-0.4.6/rs "$diststart/961620/dist/rs"
