@@ -1,26 +1,41 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/libretro/REminiscence source
-pushd source
-git checkout 6888c01
+wget http://cyxdown.free.fr/reminiscence/REminiscence-0.4.6.tar.bz2
+tar xvf REminiscence-0.4.6.tar.bz2
+
+git clone https://github.com/Konstanty/libmodplug.git
+pushd libmodplug
+git checkout -f d7ba5ef
+popd
+
+git clone https://gitlab.xiph.org/xiph/tremor.git
+pushd tremor
+git checkout -f 7c30a66346199f3f09017a09567c6c8a3a0eedc8
 popd
 
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
 # BUILD PHASE
-pushd source
-mkdir build
+pushd "libmodplug"
+mkdir -p build
 cd build
 cmake \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DBUILD_CORE=OFF \
-    -DUSE_MODPLUG=OFF \
     ..
-make -j "$(nproc)"
+make -j "$(nproc)" install
+popd
+
+pushd "tremor"
+./autogen.sh
+make
 make install
 popd
 
+# BUILD PHASE
+pushd REminiscence-0.4.6
+make
+popd
+
 # COPY PHASE
+cp -rfv REminiscence-0.4.6/rs "$diststart/961620/rs"
