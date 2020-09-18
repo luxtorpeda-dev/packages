@@ -93,6 +93,17 @@ make -j "$(nproc)"
 make install
 popd
 
+pushd allegro4
+mkdir -p build
+cd build
+/usr/local/bin/cmake .. \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DWANT_DOCS=OFF
+make -j "$(nproc)"
+make install
+popd
+
 ./build-boost.sh
 
 pushd luajit
@@ -111,6 +122,7 @@ autoreconf --install
 ./configure --prefix="$pfx" --enable-static=no
 make
 make install DESTDIR="$pfx"
+make install
 popd
 
 pushd "ogg"
@@ -139,6 +151,7 @@ popd
 pushd lz4
 make -j "$(nproc)"
 DESTDIR="$pfx" make install
+make install
 popd
 
 pushd "SDL"
@@ -174,3 +187,5 @@ mkdir -p "$diststart/209670/dist/lib"
 cp -rfv "$pfx/"lib/*.so* "$diststart/209670/dist/lib/"
 cp -rfv "$pfx/"usr/local/lib/*.so* "$diststart/209670/dist/lib/"
 cp -rfv data/* "$diststart/209670/dist/"
+cp source/build/CCCP.x86_64 "$diststart/209670"
+cp -rfv source/external/lib/linux/x86_64/libfmod.so.11 "$diststart/209670/dist/lib/"
