@@ -82,13 +82,12 @@ popd
 export CMAKE_ROOT=/usr/local/share/cmake-3.16/
 /usr/local/bin/cmake --version
 
-pushd allegro4
-mkdir -p build
+pushd libpng
+mkdir build
 cd build
-/usr/local/bin/cmake .. \
-    -DCMAKE_BUILD_TYPE=Release \
+/usr/local/bin/cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -DWANT_DOCS=OFF
+    ..
 make -j "$(nproc)"
 make install
 popd
@@ -98,6 +97,8 @@ mkdir -p build
 cd build
 /usr/local/bin/cmake .. \
     -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DCMAKE_PREFIX_PATH="$pfx" \
     -DWANT_DOCS=OFF
 make -j "$(nproc)"
 make install
@@ -159,16 +160,6 @@ cd build
 /usr/local/bin/cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    ..
-make -j "$(nproc)"
-make install
-popd
-
-pushd libpng
-mkdir build
-cd build
-/usr/local/bin/cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)"
