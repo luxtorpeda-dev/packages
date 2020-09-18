@@ -16,5 +16,12 @@ pushd "boost"
 	--with-filesystem \
 	--with-system \
 	--with-iostreams \
-./b2 install --prefix="$pfx"
+    variant=release \
+    debug-symbols=off \
+    runtime-link=shared \
+    link=shared,static \
+    cflags="${CPPFLAGS} ${CFLAGS} -fPIC -O3" \
+    cxxflags="${CPPFLAGS} ${CXXFLAGS} -std=c++14 -fPIC -O3" \
+    --prefix="$pfx" \
+    install
 popd
