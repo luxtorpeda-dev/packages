@@ -98,7 +98,6 @@ mkdir -p build
 cd build
 /usr/local/bin/cmake .. \
     -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DWANT_DOCS=OFF
 make -j "$(nproc)"
 make install
