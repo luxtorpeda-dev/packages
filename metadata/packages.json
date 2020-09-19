@@ -1763,6 +1763,27 @@
             }
         ]
     },
+    "209670": {
+        "game_name": "Cortex Command",
+        "download": [],
+        "download_config": {
+            "cortex-command": {
+                "extract_location": "./linuxdata"
+            }
+        },
+        "command": "./linuxdata/run-cortex-command.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/209670",
+            "engine_name": "Cortex Command Community Project Source",
+            "engine_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source",
+            "version": "5280ac5 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "AGPLv3",
+            "license_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source/blob/development/LICENSE"
+        }
+    },
     "224960": {
         "game_name": "Tomb Raider I",
         "download": [
