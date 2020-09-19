@@ -1765,7 +1765,13 @@
     },
     "209670": {
         "game_name": "Cortex Command",
-        "download": [],
+        "download": [
+            {
+                "name": "cortex-command",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cortex-command-1/",
+                "file": "cortex-command-209670-1.tar.xz"
+            }
+        ],
         "download_config": {
             "cortex-command": {
                 "extract_location": "./linuxdata"
