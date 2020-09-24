@@ -24,10 +24,4 @@ ln -rsf Maps linuxdata-469a/Maps
 ln -rsf Music linuxdata-469a/Music
 ln -rsf Sounds linuxdata-469a/Sounds
 
-cp System/UnrealTournament-override.ini linuxdata-469a/System/UnrealTournament.ini
-
-if [[ -z $(lspci | grep NVIDIA) ]]; then
-    sed -i "s/GameRenderDevice=OpenGLDrv.OpenGLRenderDevice/GameRenderDevice=SDLSoftDrv.SDLSoftwareRenderDevice/" linuxdata-469a/System/UnrealTournament.ini
-    sed -i "s/WindowedRenderDevice=OpenGLDrv.OpenGLRenderDevice/WindowedRenderDevice=SDLSoftDrv.SDLSoftwareRenderDevice/" linuxdata-469a/System/UnrealTournament.ini
-    sed -i "s/RenderDevice=OpenGLDrv.OpenGLRenderDevice/RenderDevice=SDLSoftDrv.SDLSoftwareRenderDevice/" linuxdata-469a/System/UnrealTournament.ini
-fi
+cp System/UnrealTournament-override-469.ini linuxdata-469a/System/UnrealTournament.ini
