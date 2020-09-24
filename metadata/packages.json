@@ -1408,6 +1408,11 @@
                 "file": "UTPGPatch451.tar.bz2"
             },
             {
+                "name": "binaries-469a",
+                "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469a/",
+                "file": "OldUnreal-UTPatch469a-Linux.tar.bz2"
+            },
+            {
                 "name": "extras",
                 "url": "https://luxtorpeda-dev.github.io/closed-assets/",
                 "file": "ut99-extras.tar.xz"
@@ -1475,6 +1480,33 @@
                     "command": "./setup-ut99-451.sh",
                     "uninstall_command": "./uninstall-ut99-451.sh",
                     "license_path": "../linuxdata-451/legal.txt"
+                }
+            },
+            {
+                "name": "469a",
+                "command": "./run-ut99-469a.sh",
+                "download": [
+                    "binaries-436",
+                    "binaries-469a",
+                    "ut99"
+                ],
+                "download_config": {
+                    "binaries-436": {
+                        "extract_location": "../linuxdata-469a",
+                        "strip_prefix": "Install/",
+                        "setup": true
+                    },
+                    "binaries-469a": {
+                        "extract_location": "../linuxdata-469a",
+                        "strip_prefix": "",
+                        "setup": true
+                    }
+                },
+                "setup": {
+                    "complete_path": "../ready-469a",
+                    "command": "./setup-ut99-469a.sh",
+                    "uninstall_command": "./uninstall-ut99-469a.sh",
+                    "license_path": "../linuxdata-469a/legal.txt"
                 }
             }
         ],
