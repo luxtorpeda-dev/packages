@@ -17,10 +17,13 @@ git checkout -f afb333b7
 git submodule update --init --recursive
 popd
 
+git clone https://github.com/kobolabs/liblzma.git liblzma
+pushd liblzma
+git checkout -f 87b7682
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
-
-
 
 # BUILD PHASE
 pushd source || exit 1
@@ -29,10 +32,16 @@ popd || exit 1
 
 ./build-boost.sh
 
+pushd liblzma
+./configure --disable-shared --prefix="$pfx"
+make -j "$(nproc)"
+make install
+popd
+
 pushd innoextract
 mkdir -p build
 cd build
-cmake \
+BOOST_DIR="$pfx" cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_PREFIX_PATH="$pfx" \
     ..
