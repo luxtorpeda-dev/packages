@@ -1305,8 +1305,8 @@
                     }
                 },
                 "setup": {
-                    "complete_path": "../ready-realrtcw",
-                    "command": "./setup-realrtcw.sh"
+                    "complete_path": "./ready-realrtcw",
+                    "command": "./realrtcw/setup-realrtcw.sh"
                 }
             }
         ],
