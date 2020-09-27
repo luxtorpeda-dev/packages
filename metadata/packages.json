@@ -1328,7 +1328,7 @@
                 "engine_name": "realrtcw",
                 "engine_link": "https://github.com/wolfetplayer/RealRTCW",
                 "version": "3.0",
-                "comments": "SP Only",
+                "comments": "SP Only. Will download 5 GB of assets for realrtcw, so first launch can take a while.",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv3",
