@@ -39,6 +39,7 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DUSE_EXTERNAL_GLM=ON \
     ..
 make -j "$(nproc)"
 make install
