@@ -38,7 +38,7 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_BUILD_TYPE=Release \
     -DUSE_EXTERNAL_GLM=ON \
     ..
 make -j "$(nproc)"
