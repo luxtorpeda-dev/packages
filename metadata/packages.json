@@ -1242,6 +1242,11 @@
                 "name": "realrtcw-assets",
                 "url": "https://www.moddb.com/downloads/mirror/183773/124/0e9e624165374d2a2f71c54847f0f75d/?referer=https%3A%2F%2Fwww.google.com%2F",
                 "file": "RealRTCW_3.0_-_Complete_Edition.zip"
+            },
+            {
+                "name": "realrtcw",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-1/",
+                "file": "realrtcw-9010-1.tar.xz"
             }
         ],
         "download_config": {
@@ -1310,7 +1315,6 @@
                 }
             }
         ],
-        
         "information": [
             {
                 "store_link": "https://store.steampowered.com/app/9010/",
