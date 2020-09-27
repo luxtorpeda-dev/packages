@@ -42,10 +42,10 @@ cmake \
     -DUSE_EXTERNAL_GLM=ON \
     ..
 make -j "$(nproc)"
-make install
 popd
 
 # COPY PHASE
 mkdir -p "$diststart/32370/dist/lib/"
-cp -rfv "local/"{lib,lib64}/*.so* "$diststart/32370/dist/lib/"
-cp -rfv "local/bin/"* "$diststart/32370/dist/"
+cp -rfv "local/lib"/*.so* "$diststart/32370/dist/lib/"
+cp -rfv source/build/reone* "$diststart/32370/dist/"
+cp -rfv assets/* "$diststart/32370/dist/"
