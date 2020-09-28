@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/scummvm/scummvm.git source
 pushd source
-git checkout -f 1478914
+git checkout -f 51bb930
 popd
 
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
