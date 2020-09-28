@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenRCT2/OpenRCT2.git source
 pushd source
-git checkout -f 135cc10
+git checkout -f d01dcea
 git am < ../patches/0001-Disable-Werror.patch
 popd
 
@@ -30,6 +30,11 @@ popd
 git clone https://github.com/svaarala/duktape.git duktape
 pushd duktape
 git checkout -f 6001888
+popd
+
+git clone https://github.com/nlohmann/json.git json
+pushd json
+git checkout -f db78ac1
 popd
 
 wget https://github.com/OpenRCT2/objects/releases/download/v1.0.16/objects.zip
@@ -63,6 +68,16 @@ make install
 popd
 
 pushd libzip
+mkdir build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd json
 mkdir build
 cd build
 cmake \
