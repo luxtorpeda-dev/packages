@@ -6,6 +6,7 @@ apt-get -y install mercurial
 git clone https://github.com/seedhartha/reone.git source
 pushd source
 git checkout -f 641e981
+git am < ../patches/0001-SDL2-include-errors.patch
 popd
 
 git clone https://github.com/boostorg/boost boost
@@ -98,8 +99,10 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
     -DUSE_EXTERNAL_GLM=ON \
+    -DSDL2_LIBRARIES="$pfx/lib/libSDL2-2.0.so.0.12.0" \
     ..
 make -j "$(nproc)"
 popd
