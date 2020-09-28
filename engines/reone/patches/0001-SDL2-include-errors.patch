@@ -1,0 +1,39 @@
+From 35525b296d05b0cff36e502dcda28ef7823a7a73 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Sun, 27 Sep 2020 21:50:00 -0500
+Subject: [PATCH 1/1] SDL2 include errors
+
+---
+ src/game/console.h       | 2 +-
+ src/render/mesh/cube.cpp | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/game/console.h b/src/game/console.h
+index 12dc2e9..0c2f472 100644
+--- a/src/game/console.h
++++ b/src/game/console.h
+@@ -21,7 +21,7 @@
+ #include <memory>
+ #include <string>
+ 
+-#include "SDL_events.h"
++#include "SDL2/SDL_events.h"
+ 
+ #include "../render/font.h"
+ #include "../render/types.h"
+diff --git a/src/render/mesh/cube.cpp b/src/render/mesh/cube.cpp
+index f815d62..2084df1 100644
+--- a/src/render/mesh/cube.cpp
++++ b/src/render/mesh/cube.cpp
+@@ -17,7 +17,7 @@
+ 
+ #include "cube.h"
+ 
+-#include "SDL_opengl.h"
++#include "SDL2/SDL_opengl.h"
+ 
+ #include "../shaders.h"
+ 
+-- 
+2.28.0
+

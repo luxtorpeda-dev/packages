@@ -1711,6 +1711,22 @@
             }
         ]
     },
+    "32370": {
+        "game_name": "STAR WARS™ - Knights of the Old Republic™",
+        "download": [],
+        "command": "./run-kotor1.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/32370",
+            "engine_name": "reone",
+            "engine_link": "https://github.com/seedhartha/reone",
+            "version": "159d490 (from master)",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/seedhartha/reone/blob/master/COPYING"
+        }
+    },
     "39510": {
         "game_name": "Gothic 2: Gold Edition",
         "download": [
