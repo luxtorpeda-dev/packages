@@ -86,5 +86,6 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/12100/dist/lib/"
 cp -rfv /usr/local/lib/*.so* "$diststart/12100/dist/lib/"
+cp -rfv glew/glew-2.1.0/lib/*.so* "$diststart/12100/dist/lib"
 cp -rfv source/bin/linux-amd64-librw_gl3_glfw-oal/Release/re3 "$diststart/12100/dist/re3"
 cp -rfv assets/* "$diststart/12100/dist/"

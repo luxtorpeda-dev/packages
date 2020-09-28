@@ -1414,6 +1414,23 @@
             "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
         }
     },
+    "12100": {
+        "game_name": "Grand Theft Auto III",
+        "download": [],
+        "command": "./run-re3.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/12100",
+            "engine_name": "re3",
+            "engine_link": "https://github.com/GTAmodding/re3",
+            "version": "70aac0f (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Unknown",
+            "license_link": "https://github.com/GTAmodding/re3/blob/master/README.md",
+            "non_free": true
+        }
+    },
     "13230": {
         "game_name": "Unreal Tournament 2004: Editor's Choice Edition",
         "download": [
