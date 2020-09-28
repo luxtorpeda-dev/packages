@@ -32,6 +32,11 @@ pushd duktape
 git checkout -f 6001888
 popd
 
+git clone https://github.com/nlohmann/json.git json
+pushd json
+git checkout -f db78ac1
+popd
+
 wget https://github.com/OpenRCT2/objects/releases/download/v1.0.16/objects.zip
 wget https://github.com/OpenRCT2/title-sequences/releases/download/v0.1.2c/title-sequences.zip
 
@@ -63,6 +68,16 @@ make install
 popd
 
 pushd libzip
+mkdir build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd json
 mkdir build
 cd build
 cmake \
