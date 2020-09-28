@@ -1,9 +1,12 @@
 #!/bin/bash
 
+sudo apt-get -y install libxcursor-dev libxi-dev
+
 # CLONE PHASE
 git clone https://github.com/GTAmodding/re3.git source
 pushd source
 git checkout -f 70aac0f
+git submodule update --init --recursive
 popd
 
 git clone https://github.com/kcat/openal-soft.git openal
@@ -21,7 +24,7 @@ unzip glew-2.1.0.zip -d glew
 
 git clone https://github.com/erikd/libsndfile.git libsndfile
 pushd libsndfile
-git checkout -f 1.0.30
+git checkout -f 68958f9
 popd
 
 git clone https://github.com/gypified/libmpg123.git libmpg123
@@ -35,8 +38,7 @@ export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
 pushd glew/glew-2.1.0
-GLEW_DEST="$pfx" make -j "$(nproc)"
-GLEW_DEST="$pfx" make install
+make -j "$(nproc)"
 make install
 popd
 
@@ -45,8 +47,6 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DBUILD_SHARED_LIBS=ON \
     ..
 make -j "$(nproc)"
@@ -57,8 +57,7 @@ pushd "glfw"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DBUILD_SHARED_LIBS=ON \
     ..
 make -j "$(nproc)"
 make install
@@ -68,22 +67,24 @@ pushd "libsndfile"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)"
 make install
 popd
 
 pushd "libmpg123"
-./configure --prefix="$pfx"
+./configure
 make -j "$(nproc)" install
 popd
 
 pushd "source"
 ./premake5Linux --with-librw gmake2
 cd build
-make config=release_linux-x86_64-librw_gl3_glfw-oal
+make config=release_linux-amd64-librw_gl3_glfw-oal
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/12100/dist/lib/"
+cp -rfv /usr/local/lib/*.so* "$diststart/12100/dist/lib/"
+cp -rfv source/bin/linux-amd64-librw_gl3_glfw-oal/Release/re3 "$diststart/12100/dist/re3"
+cp -rfv assets/* "$diststart/12100/dist/"
