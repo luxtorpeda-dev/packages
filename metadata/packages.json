@@ -1713,7 +1713,13 @@
     },
     "32370": {
         "game_name": "STAR WARS™ - Knights of the Old Republic™",
-        "download": [],
+        "download": [
+            {
+                "name": "reone",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-1/",
+                "file": "reone-32370-1.tar.xz"
+            }
+        ],
         "command": "./run-kotor1.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/32370",
