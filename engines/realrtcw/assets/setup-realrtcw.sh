@@ -1,9 +1,10 @@
 #!/bin/bash
 
-ln -rsf ./Main/*.pk3 ./realrtcw/Main
+RTCW_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Return to Castle Wolfenstein installation" --directory)
 
-cd realrtcw
+if [ -z "$RTCW_PATH" ]; then
+    "$STEAM_ZENITY" --error --title="RealRTCW Setup Error" --text="Path to RTCW not given"
+    exit 1
+fi
 
-LD_LIBRARY_PATH=./lib ./innoextract realrtcwcompletesetup.exe
-cp -r ./app/* ./
-rm -rf ./app
+ln -rsf "$RTCW_PATH/Main"/*.pk3 ./Main
