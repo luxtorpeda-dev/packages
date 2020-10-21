@@ -1237,108 +1237,37 @@
                 "name": "iortcw",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-4/",
                 "file": "iortcw-9010-4.tar.xz"
-            },
-            {
-                "name": "realrtcw-assets",
-                "url": "https://www.moddb.com/downloads/mirror/183773/124/0e9e624165374d2a2f71c54847f0f75d/?referer=https%3A%2F%2Fwww.google.com%2F",
-                "file": "RealRTCW_3.0_-_Complete_Edition.zip"
-            },
-            {
-                "name": "realrtcw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-1/",
-                "file": "realrtcw-9010-1.tar.xz"
             }
         ],
-        "download_config": {
-            "realrtcw": {
-                "extract_location": "./realrtcw"
+        "commands": {
+            ".*WolfSP.exe": {
+                "cmd": "./iowolfsp.x86_64",
+                "args": [
+                    "+set",
+                    "com_basegame",
+                    "Main"
+                ]
             },
-            "realrtcw-assets": {
-                "setup": true,
-                "decode_as_zip": true,
-                "extract_location": "./realrtcw",
-                "strip_prefix": ""
+            ".*WolfMP.exe": {
+                "cmd": "./iowolfmp.x86_64",
+                "args": [
+                    "+set",
+                    "com_basegame",
+                    "Main"
+                ]
             }
         },
-        "choices": [
-            {
-                "name": "iortcw",
-                "download": [
-                    "iortcw"
-                ],
-                "commands": {
-                    ".*WolfSP.exe": {
-                        "cmd": "./iowolfsp.x86_64",
-                        "args": [
-                            "+set",
-                            "com_basegame",
-                            "Main"
-                        ]
-                    },
-                    ".*WolfMP.exe": {
-                        "cmd": "./iowolfmp.x86_64",
-                        "args": [
-                            "+set",
-                            "com_basegame",
-                            "Main"
-                        ]
-                    }
-                }
-            },
-            {
-                "name": "realrtcw",
-                "download": [
-                    "realrtcw",
-                    "realrtcw-assets"
-                ],
-                "commands": {
-                    ".*WolfSP.exe": {
-                        "cmd": "./realrtcw/RealRTCW.x86_64",
-                        "args": [
-                            "+set",
-                            "com_basegame",
-                            "Main"
-                        ]
-                    },
-                    ".*WolfMP.exe": {
-                        "cmd": "./realrtcw/RealRTCW.x86_64",
-                        "args": [
-                            "+set",
-                            "com_basegame",
-                            "Main"
-                        ]
-                    }
-                },
-                "setup": {
-                    "complete_path": "./ready-realrtcw",
-                    "command": "./realrtcw/setup-realrtcw.sh"
-                }
-            }
-        ],
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/9010/",
-                "engine_name": "iortcw",
-                "engine_link": "https://github.com/iortcw/iortcw",
-                "version": "1.51c",
-                "comments": "Both SP and MP",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv3",
-                "license_link": "https://github.com/iortcw/iortcw/blob/master/SP/COPYING.txt"
-            },
-            {
-                "store_link": "https://store.steampowered.com/app/9010/",
-                "engine_name": "realrtcw",
-                "engine_link": "https://github.com/wolfetplayer/RealRTCW",
-                "version": "3.0",
-                "comments": "SP Only. Will download 5 GB of assets for realrtcw, so first launch can take a while.",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv3",
-                "license_link": "https://github.com/wolfetplayer/RealRTCW/blob/7e6dc5df09237b5d6b520c8bff9041aef61db943/COPYING.txt"
-            }
-        ]
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9010/",
+            "engine_name": "iortcw",
+            "engine_link": "https://github.com/iortcw/iortcw",
+            "version": "1.51c",
+            "comments": "Both SP and MP",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/iortcw/iortcw/blob/master/SP/COPYING.txt"
+        }
     },
     "9050": {
         "game_name": "DOOM 3",
@@ -2476,6 +2405,35 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
+        }
+    },
+    "1379630": {
+        "game_name": "RealRTCW",
+        "download": [],
+        "commands": {
+            ".*RealRTCW.x64.exe": {
+                "cmd": "./RealRTCW.x86_64",
+                "args": [
+                    "+set",
+                    "com_basegame",
+                    "Main"
+                ]
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-realrtcw.sh"
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1379630/",
+            "engine_name": "realrtcw",
+            "engine_link": "https://github.com/wolfetplayer/RealRTCW",
+            "version": "3.1",
+            "comments": "Requires installation of RTCW. Will ask for directory path on first launch.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/wolfetplayer/RealRTCW/blob/7e6dc5df09237b5d6b520c8bff9041aef61db943/COPYING.txt"
         }
     },
     "default": {
