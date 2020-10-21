@@ -2409,7 +2409,13 @@
     },
     "1379630": {
         "game_name": "RealRTCW",
-        "download": [],
+        "download": [
+            {
+                "name": "realrtcw",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-2/",
+                "file": "realrtcw-1379630-2.tar.xz"
+            }
+        ],
         "commands": {
             ".*RealRTCW.x64.exe": {
                 "cmd": "./RealRTCW.x86_64",
