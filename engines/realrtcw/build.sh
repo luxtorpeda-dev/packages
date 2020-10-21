@@ -22,7 +22,6 @@ mkdir tmp/lib
 cp -rfv source/build/release-linux-x86_64/*.so tmp/
 cp -rfv source/build/release-linux-x86_64/RealRTCW.x86_64 tmp/
 cp -rfv source/build/release-linux-x86_64/main/*.so tmp/Main/
-cp -rfv "$pfx/lib/"*.so* tmp/lib
 
-cp -rfv tmp/* "$diststart/9010/dist/"
-cp -rfv assets/* "$diststart/9010/dist/"
+cp -rfv tmp/* "$diststart/1379630/dist/"
+cp -rfv assets/* "$diststart/1379630/dist/"
