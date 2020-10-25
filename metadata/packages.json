@@ -2412,8 +2412,8 @@
         "download": [
             {
                 "name": "realrtcw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-2/",
-                "file": "realrtcw-1379630-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-3/",
+                "file": "realrtcw-1379630-3.tar.xz"
             }
         ],
         "commands": {
