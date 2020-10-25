@@ -9,7 +9,7 @@ source env.sh
 log_environment
 setup_dist_dirs "$STEAM_APP_ID_LIST"
 
-echo "::set-env name=APP_IDS::$STEAM_APP_ID_LIST"
+echo "APP_IDS=$STEAM_APP_ID_LIST" >> $GITHUB_ENV
 
 if [ ! -z "${CUSTOM_CONTAINER}" ]; then
    setup_custom_container
