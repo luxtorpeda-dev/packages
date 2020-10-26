@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/dosbox-staging/dosbox-staging.git source
 pushd source
-git checkout -f b5c80e3
+git checkout -f 8dfca45
 popd
 
 readonly pfx="$PWD/local"
