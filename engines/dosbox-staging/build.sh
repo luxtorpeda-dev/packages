@@ -12,7 +12,7 @@ mkdir -p "$pfx"
 # BUILD PHASE
 pushd "source"
 ./autogen.sh
-./configure --prefix="$pfx"
+./configure CPPFLAGS="-DNDEBUG" CFLAGS="-O3" CXXFLAGS="-O3" --prefix="$pfx"
 make -j "$(nproc)"
 make install
 popd
