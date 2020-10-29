@@ -2264,8 +2264,8 @@
         "download": [
             {
                 "name": "julius",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/julius-5/",
-                "file": "julius-517790-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/julius-6/",
+                "file": "julius-517790-6.tar.xz"
             }
         ],
         "command": "./julius",
