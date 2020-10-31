@@ -6,7 +6,6 @@ apt-get -y install mercurial
 git clone https://github.com/seedhartha/reone.git source
 pushd source
 git checkout -f bfe467d
-git am < ../patches/0001-SDL2-include-errors.patch
 popd
 
 git clone https://github.com/boostorg/boost boost
