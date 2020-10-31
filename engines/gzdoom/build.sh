@@ -5,7 +5,7 @@
 # CLONE PHASE
 git clone https://github.com/coelckers/gzdoom.git source
 pushd source
-git checkout 04e53b8
+git checkout 3037c08
 git am < ../patches/0001-Workaround-for-missing-PRId64.patch
 popd
 
