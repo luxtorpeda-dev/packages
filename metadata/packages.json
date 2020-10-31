@@ -117,8 +117,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-4/",
-                "file": "gzdoom-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -232,8 +232,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-4/",
-                "file": "gzdoom-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -382,8 +382,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-4/",
-                "file": "gzdoom-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -640,8 +640,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-4/",
-                "file": "gzdoom-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -755,8 +755,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-4/",
-                "file": "gzdoom-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
