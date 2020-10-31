@@ -110,5 +110,5 @@ popd
 mkdir -p "$diststart/32370/dist/lib/"
 cp -rfv "local/lib"/*.so* "$diststart/32370/dist/lib/"
 cp -rfv glew/glew-2.1.0/lib/*.so* "$diststart/32370/dist/lib"
-cp -rfv source/build/reone* "$diststart/32370/dist/"
+cp -rfv source/build/bin/reone* "$diststart/32370/dist/"
 cp -rfv assets/* "$diststart/32370/dist/"
