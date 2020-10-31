@@ -5,8 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/seedhartha/reone.git source
 pushd source
-git checkout -f 641e981
-git am < ../patches/0001-SDL2-include-errors.patch
+git checkout -f bfe467d
 popd
 
 git clone https://github.com/boostorg/boost boost
@@ -111,5 +110,5 @@ popd
 mkdir -p "$diststart/32370/dist/lib/"
 cp -rfv "local/lib"/*.so* "$diststart/32370/dist/lib/"
 cp -rfv glew/glew-2.1.0/lib/*.so* "$diststart/32370/dist/lib"
-cp -rfv source/build/reone* "$diststart/32370/dist/"
+cp -rfv source/build/bin/reone* "$diststart/32370/dist/"
 cp -rfv assets/* "$diststart/32370/dist/"
