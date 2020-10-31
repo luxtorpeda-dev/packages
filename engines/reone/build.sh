@@ -5,7 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/seedhartha/reone.git source
 pushd source
-git checkout -f 641e981
+git checkout -f bfe467d
 git am < ../patches/0001-SDL2-include-errors.patch
 popd
 
