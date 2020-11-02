@@ -82,6 +82,7 @@ mkdir build
 cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DJSON_MultipleHeaders=ON \
     ..
 make -j "$(nproc)"
 make install
