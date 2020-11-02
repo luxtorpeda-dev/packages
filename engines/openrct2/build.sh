@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenRCT2/OpenRCT2.git source
 pushd source
-git checkout -f d01dcea
+git checkout -f cea5fab
 git am < ../patches/0001-Disable-Werror.patch
 popd
 
