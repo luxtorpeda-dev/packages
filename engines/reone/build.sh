@@ -5,7 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/seedhartha/reone.git source
 pushd source
-git checkout -f bfe467d
+git checkout -f 62f8520
 popd
 
 git clone https://github.com/boostorg/boost boost
