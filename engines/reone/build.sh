@@ -5,7 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/seedhartha/reone.git source
 pushd source
-git checkout -f 62f8520
+git checkout -f 6c1b8b2
 popd
 
 git clone https://github.com/boostorg/boost boost
@@ -37,12 +37,19 @@ popd
 wget https://github.com/nigels-com/glew/releases/download/glew-2.1.0/glew-2.1.0.zip
 unzip glew-2.1.0.zip -d glew
 
+git clone https://github.com/FFmpeg/FFmpeg ffmpeg
+pushd ffmpeg
+git checkout -f ba11e40
+git submodule update --init --recursive
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
 ./build-boost.sh
+./build-ffmpeg.sh
 
 pushd "mad"
 ./configure --prefix="$pfx" --disable-static
