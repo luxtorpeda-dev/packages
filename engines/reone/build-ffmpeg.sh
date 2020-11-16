@@ -14,4 +14,7 @@ pushd "ffmpeg"
 ./configure --prefix="$pfx" --enable-static --enable-shared
 make -j "$(nproc)"
 make install
+./configure --enable-static --enable-shared
+make -j "$(nproc)"
+make install
 popd
