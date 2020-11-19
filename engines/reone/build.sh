@@ -39,7 +39,7 @@ unzip glew-2.1.0.zip -d glew
 
 git clone https://github.com/FFmpeg/FFmpeg ffmpeg
 pushd ffmpeg
-git checkout -f ba11e40
+git checkout -f 6b6b9e5
 git submodule update --init --recursive
 popd
 
