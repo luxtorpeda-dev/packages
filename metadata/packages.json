@@ -2280,7 +2280,7 @@
                 ]
             },
             {
-                "name": "doomsday",
+                "name": "augustus",
                 "command": "./doomsday/run-doomsday.sh",
                 "download": [
                     "augustus"
