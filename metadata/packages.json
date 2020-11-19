@@ -1668,8 +1668,8 @@
         "download": [
             {
                 "name": "reone",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-3/",
-                "file": "reone-32370-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-4/",
+                "file": "reone-32370-4.tar.xz"
             }
         ],
         "command": "./run-kotor1.sh",
