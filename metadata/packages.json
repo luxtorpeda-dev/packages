@@ -2266,6 +2266,11 @@
                 "name": "julius",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/julius-6/",
                 "file": "julius-517790-6.tar.xz"
+            },
+            {
+                "name": "augustus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/augustus-1/",
+                "file": "augustus-517790-1.tar.xz"
             }
         ],
         "choices": [
@@ -2286,31 +2291,34 @@
                     "augustus"
                 ],
                 "command_args": [
-                   "./C3"
+                    "./C3"
                 ]
             }
         ],
-        "information": [{
-            "store_link": "https://store.steampowered.com/app/517790/",
-            "engine_name": "julius",
-            "engine_link": "https://github.com/bvschaik/julius",
-            "version": "1.5.1",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "AGPL-3.0",
-            "license_link": "https://github.com/bvschaik/julius/blob/master/LICENSE.txt"
-        }, {
-            "store_link": "https://store.steampowered.com/app/517790/",
-            "engine_name": "augustus",
-            "engine_link": "hhttps://github.com/Keriew/augustus",
-            "version": "2.0.1",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "AGPL-3.0",
-            "license_link": "https://github.com/Keriew/augustus/blob/master/LICENSE.txt"
-        }]
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/517790/",
+                "engine_name": "julius",
+                "engine_link": "https://github.com/bvschaik/julius",
+                "version": "1.5.1",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "AGPL-3.0",
+                "license_link": "https://github.com/bvschaik/julius/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/517790/",
+                "engine_name": "augustus",
+                "engine_link": "hhttps://github.com/Keriew/augustus",
+                "version": "2.0.1",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "AGPL-3.0",
+                "license_link": "https://github.com/Keriew/augustus/blob/master/LICENSE.txt"
+            }
+        ]
     },
     "572050": {
         "game_name": "Call to Power II",
