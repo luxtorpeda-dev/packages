@@ -2286,12 +2286,9 @@
             },
             {
                 "name": "augustus",
-                "command": "./augustus",
+                "command": "./run-augustus.sh",
                 "download": [
                     "augustus"
-                ],
-                "command_args": [
-                    "./C3"
                 ]
             }
         ],
