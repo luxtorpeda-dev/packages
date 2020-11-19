@@ -18,4 +18,5 @@ popd
 cp -rfv "source/build/augustus" "$diststart/517790/dist/"
 cp -rfv "source/mods" "$diststart/517790/dist/"
 cp -rfv "source/res/maps" "$diststart/517790/dist/"
+
 cp -rfv assets/* "$diststart/517790/dist/"
