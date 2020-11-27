@@ -84,9 +84,9 @@ make config=release_linux-amd64-librw_gl3_glfw-oal
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/12100/dist/lib/"
-cp -rfv /usr/local/lib/*.so* "$diststart/12100/dist/lib/"
-cp -rfv glew/glew-2.1.0/lib/*.so* "$diststart/12100/dist/lib"
-cp -rfv source/bin/linux-amd64-librw_gl3_glfw-oal/Release/reVC "$diststart/12100/dist/reVC"
-cp -rfv assets/* "$diststart/12100/dist/"
-cp -rfv source/gamefiles/* "$diststart/12100/dist/"
+mkdir -p "$diststart/12110/dist/lib/"
+cp -rfv /usr/local/lib/*.so* "$diststart/12110/dist/lib/"
+cp -rfv glew/glew-2.1.0/lib/*.so* "$diststart/12110/dist/lib"
+cp -rfv source/bin/linux-amd64-librw_gl3_glfw-oal/Release/reVC "$diststart/12110/dist/reVC"
+cp -rfv assets/* "$diststart/12110/dist/"
+cp -rfv source/gamefiles/* "$diststart/12110/dist/"
