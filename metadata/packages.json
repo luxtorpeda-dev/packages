@@ -1366,6 +1366,23 @@
             "non_free": true
         }
     },
+    "12110": {
+        "game_name": "Grand Theft Auto: Vice City",
+        "download": [],
+        "command": "./run-reVC.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/12110",
+            "engine_name": "reVC",
+            "engine_link": "https://github.com/GTAmodding/re3",
+            "version": "b7783b19d2d075ba507f4300e44704710301fbb5 (from miami branch)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Unknown",
+            "license_link": "https://github.com/GTAmodding/re3/blob/master/README.md",
+            "non_free": true
+        }
+    },
     "13230": {
         "game_name": "Unreal Tournament 2004: Editor's Choice Edition",
         "download": [
