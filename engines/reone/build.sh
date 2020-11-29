@@ -5,7 +5,7 @@ apt-get -y install mercurial yasm nasm
 # CLONE PHASE
 git clone https://github.com/seedhartha/reone.git source
 pushd source
-git checkout -f a6aa70e
+git checkout -f 1651d72
 popd
 
 git clone https://github.com/boostorg/boost boost
