@@ -55,12 +55,31 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./ioquake3.x86_64",
-        "command_args": [
-            "+r_mode",
-            "-2"
+        "choices": [
+            {
+                "name": "ioquake3",
+                "command": "./ioquake3.x86_64",
+                "command_args": [
+                    "+r_mode",
+                    "-2"
+                ],
+                "download": [
+                    "ioquake3"
+                ]
+            },
+            {
+                "name": "quake3e",
+                "command": "./quake3e.x64",
+                "command_args": [
+                    "+r_mode",
+                    "-2"
+                ],
+                "download": [
+                    "quake3e"
+                ]
+            }
         ],
-        "information": {
+        "information": [{
             "store_link": "https://store.steampowered.com/app/2200/",
             "engine_name": "ioquake3",
             "engine_link": "https://ioquake3.org/",
@@ -70,7 +89,17 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
             "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
-        }
+        }, {
+            "store_link": "https://store.steampowered.com/app/2200/",
+            "engine_name": "quake3e",
+            "engine_link": "https://github.com/ec-/Quake3e",
+            "version": "2020-10-31",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
+        }]
     },
     "2210": {
         "game_name": "Quake IV",
@@ -618,12 +647,33 @@
                 "file": "quake3ta-latest-pk3s.tar.xz"
             }
         ],
-        "command": "./ioquake3.x86_64",
-        "command_args": [
-            "+r_mode",
-            "-2"
+        "choices": [
+            {
+                "name": "ioquake3",
+                "command": "./ioquake3.x86_64",
+                "command_args": [
+                    "+r_mode",
+                    "-2"
+                ],
+                "download": [
+                    "ioquake3",
+                    "Patch Data"
+                ]
+            },
+            {
+                "name": "quake3e",
+                "command": "./quake3e.x64",
+                "command_args": [
+                    "+r_mode",
+                    "-2"
+                ],
+                "download": [
+                    "quake3e",
+                    "Patch Data"
+                ]
+            }
         ],
-        "information": {
+        "information": [{
             "store_link": "https://store.steampowered.com/app/2350/",
             "engine_name": "ioquake3",
             "engine_link": "https://ioquake3.org/",
@@ -633,7 +683,17 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
             "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
-        }
+        }, {
+            "store_link": "https://store.steampowered.com/app/2350/",
+            "engine_name": "quake3e",
+            "engine_link": "https://github.com/ec-/Quake3e",
+            "version": "2020-10-31",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
+        }]
     },
     "2360": {
         "game_name": "HeXen: Beyond Heretic",
