@@ -53,6 +53,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-4/",
                 "file": "ioquake3-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "quake3e",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-1/",
+                "file": "quake3e-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -79,27 +85,30 @@
                 ]
             }
         ],
-        "information": [{
-            "store_link": "https://store.steampowered.com/app/2200/",
-            "engine_name": "ioquake3",
-            "engine_link": "https://ioquake3.org/",
-            "version": "2b42f0b (from master)",
-            "comments": "",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
-        }, {
-            "store_link": "https://store.steampowered.com/app/2200/",
-            "engine_name": "quake3e",
-            "engine_link": "https://github.com/ec-/Quake3e",
-            "version": "2020-10-31",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
-        }]
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2200/",
+                "engine_name": "ioquake3",
+                "engine_link": "https://ioquake3.org/",
+                "version": "2b42f0b (from master)",
+                "comments": "",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2200/",
+                "engine_name": "quake3e",
+                "engine_link": "https://github.com/ec-/Quake3e",
+                "version": "2020-10-31",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
+            }
+        ]
     },
     "2210": {
         "game_name": "Quake IV",
@@ -645,6 +654,12 @@
                 "name": "Patch Data",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake3/",
                 "file": "quake3ta-latest-pk3s.tar.xz"
+            },
+            {
+                "name": "quake3e",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-1/",
+                "file": "quake3e-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -673,27 +688,30 @@
                 ]
             }
         ],
-        "information": [{
-            "store_link": "https://store.steampowered.com/app/2350/",
-            "engine_name": "ioquake3",
-            "engine_link": "https://ioquake3.org/",
-            "version": "2b42f0b (from master)",
-            "comments": "",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
-        }, {
-            "store_link": "https://store.steampowered.com/app/2350/",
-            "engine_name": "quake3e",
-            "engine_link": "https://github.com/ec-/Quake3e",
-            "version": "2020-10-31",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
-        }]
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2350/",
+                "engine_name": "ioquake3",
+                "engine_link": "https://ioquake3.org/",
+                "version": "2b42f0b (from master)",
+                "comments": "",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2350/",
+                "engine_name": "quake3e",
+                "engine_link": "https://github.com/ec-/Quake3e",
+                "version": "2020-10-31",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
+            }
+        ]
     },
     "2360": {
         "game_name": "HeXen: Beyond Heretic",
