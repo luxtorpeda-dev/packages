@@ -10,8 +10,6 @@ popd
 
 # BUILD PHASE
 pushd "source"
-make -j "$(nproc)"
+make ARCH=x64_64 -j "$(nproc)"
+make install DESTDIR="$diststart/common/dist/"
 popd
-
-# COPY PHASE
-COPYDIR="$diststart/common/dist/" make --directory="source" copyfiles
