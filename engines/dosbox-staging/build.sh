@@ -24,7 +24,7 @@ cmake \
 make -j "$(nproc)" install
 popd
 
-export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib64/pkgconfig"
 
 pushd "source"
 ./autogen.sh
@@ -36,5 +36,5 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/common/dist/lib"
 cp -rfv "$pfx/bin/dosbox" "$diststart/common/dist/"
-cp -rfv "$pfx/lib/"*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/lib64/"*.so* "$diststart/common/dist/lib"
 cp -rfv assets/*.sh "$diststart/common/dist/"
