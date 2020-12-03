@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/dosbox-staging/dosbox-staging.git source
 pushd source
-git checkout -f 5ea152ad8da9257043826ef0ce622a436f859c89
+git checkout -f 0995b00
 popd
 
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
