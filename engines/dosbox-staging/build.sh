@@ -8,7 +8,7 @@ popd
 
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
 pushd fluidsynth
-git checkout -f 6776569
+git checkout -f 19a20eb
 popd
 
 readonly pfx="$PWD/local"
