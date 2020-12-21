@@ -5,7 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/OpenXRay/xray-16 source
 pushd source
-git checkout -f 690dba9
+git checkout -f edbaac6
 git submodule update --init --recursive
 git am < ../patches/0001-Changes-to-make-Linux-compile.patch
 git am < ../patches/0001-library-linking-path-fixes.patch
