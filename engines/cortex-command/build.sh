@@ -12,12 +12,12 @@ sudo update-alternatives --set g++ "/usr/bin/g++-9"
 # CLONE PHASE
 git clone https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source.git source
 pushd source
-git checkout -f 5280ac5
+git checkout -f a5a0930
 popd
 
 git clone https://github.com/cortex-command-community/Cortex-Command-Community-Project-Data.git data
 pushd data
-git checkout -f 4f46182
+git checkout -f 21a8ad1
 popd
 
 git clone https://github.com/liballeg/allegro5.git allegro4
