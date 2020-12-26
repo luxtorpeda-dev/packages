@@ -13,6 +13,10 @@ sudo update-alternatives --set g++ "/usr/bin/g++-9"
 git clone https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source.git source
 pushd source
 git checkout -f a5a0930
+pushd external/lib/linux/x86_64
+rm libfmod.so
+ln -rsf libfmod.so.12 libfmod.so
+popd
 popd
 
 git clone https://github.com/cortex-command-community/Cortex-Command-Community-Project-Data.git data
@@ -178,5 +182,5 @@ cp -rfv "$pfx/"lib/*.so* "$diststart/209670/dist/lib/"
 cp -rfv "$pfx/"usr/local/lib/*.so* "$diststart/209670/dist/lib/"
 cp -rfv data/* "$diststart/209670/dist/"
 cp source/build/CCCP.x86_64 "$diststart/209670/dist"
-cp -rfv source/external/lib/linux/x86_64/libfmod.so.11 "$diststart/209670/dist/lib/"
+cp -rfv source/external/lib/linux/x86_64/libfmod.so.12 "$diststart/209670/dist/lib/"
 cp -rfv assets/* "$diststart/209670/dist"
