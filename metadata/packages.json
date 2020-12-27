@@ -1968,6 +1968,42 @@
             "license_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source/blob/development/LICENSE"
         }
     },
+    "210950": {
+        "game_name": "Rune Classic",
+        "download": [
+            {
+                "name": "data",
+                "url": "https://archive.org/download/Rune_Halls_of_Valhalla_Linux/",
+                "file": "rune%2Bhon.7z"
+            }
+        ],
+        "command": "./run-rune.sh",
+        "download_config": {
+            "data": {
+                "setup": true,
+                "copy_only": true
+            }
+        },
+        "setup": {
+            "complete_path": "../ready",
+            "command": "./setup-rune.sh",
+            "uninstall_command": "./uninstall-rune.sh",
+            "license_path": "./license.int"
+        },
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/210950",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://archive.org/details/Rune_Halls_of_Valhalla_Linux",
+            "version": "1.0.8",
+            "comments": "Uses padsp for audio. Uses pack from rea987.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://archive.org/details/Rune_Halls_of_Valhalla_Linux",
+            "closed_source": true
+        }
+    },
     "224960": {
         "game_name": "Tomb Raider I",
         "download": [
