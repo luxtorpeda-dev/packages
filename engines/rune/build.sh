@@ -28,5 +28,5 @@ popd
 mkdir -p "$diststart/210950/dist/7z/"
 cp -rfv assets/* "$diststart/210950/dist/"
 cp -rfv "$pfx/usr/local/bin/"* "$diststart/210950/dist/7z/"
-cp -rfv "$pfx/usr/local/lib/"* "$diststart/210950/dist/7z/"
-cp -rfv "sdlcl/libSDL-1.2.so.0" "$diststart/3970/dist/"
+cp -rfv "$pfx/usr/local/lib/p7zip/"* "$diststart/210950/dist/7z/"
+cp -rfv "sdlcl/libSDL-1.2.so.0" "$diststart/210950/dist/"
