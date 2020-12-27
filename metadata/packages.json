@@ -1988,7 +1988,7 @@
             "complete_path": "../ready",
             "command": "./setup-rune.sh",
             "uninstall_command": "./uninstall-rune.sh",
-            "license_path": "../linuxdata/License.txt"
+            "license_path": "./license.int"
         },
         "use_original_command_directory": true,
         "information": {
