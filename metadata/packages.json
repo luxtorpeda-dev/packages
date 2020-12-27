@@ -1975,6 +1975,11 @@
                 "name": "data",
                 "url": "https://archive.org/download/Rune_Halls_of_Valhalla_Linux/",
                 "file": "rune%2Bhon.7z"
+            },
+            {
+                "name": "rune",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rune-1/",
+                "file": "rune-210950-1.tar.xz"
             }
         ],
         "command": "./run-rune.sh",
