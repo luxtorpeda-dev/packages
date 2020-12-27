@@ -1996,7 +1996,7 @@
             "engine_name": "Proprietary Engine",
             "engine_link": "https://archive.org/details/Rune_Halls_of_Valhalla_Linux",
             "version": "1.0.8",
-            "comments": "Uses padsp for audio. Uses pack from rea987.",
+            "comments": "Uses padsp for audio. Uses pack from rea987. Pack is original gold with expansion, will not contain classic changes.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
