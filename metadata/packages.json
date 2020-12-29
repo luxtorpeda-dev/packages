@@ -1449,8 +1449,8 @@
         "download": [
             {
                 "name": "reVC",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reVC-1/",
-                "file": "reVC-12110-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reVC-2/",
+                "file": "reVC-12110-2.tar.xz"
             }
         ],
         "command": "./run-reVC.sh",
