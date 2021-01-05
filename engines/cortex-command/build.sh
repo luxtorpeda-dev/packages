@@ -12,11 +12,7 @@ sudo update-alternatives --set g++ "/usr/bin/g++-9"
 # CLONE PHASE
 git clone https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source.git source
 pushd source
-git checkout -f a5a0930
-pushd external/lib/linux/x86_64
-rm libfmod.so
-ln -rsf libfmod.so.12 libfmod.so
-popd
+git checkout -f b873499
 popd
 
 git clone https://github.com/cortex-command-community/Cortex-Command-Community-Project-Data.git data
