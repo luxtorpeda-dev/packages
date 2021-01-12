@@ -1978,8 +1978,8 @@
             },
             {
                 "name": "rune",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rune-2/",
-                "file": "rune-210950-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rune-3/",
+                "file": "rune-210950-3.tar.xz"
             }
         ],
         "command": "./run-rune.sh",
