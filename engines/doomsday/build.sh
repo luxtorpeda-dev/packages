@@ -12,7 +12,7 @@ pushd fluidsynth
 git checkout -f 19a20eb
 popd
 
-git clone git clone https://github.com/assimp/assimp.git assimp
+git clone https://github.com/assimp/assimp.git assimp
 pushd assimp
 git checkout -f 8f0c6b0
 popd
