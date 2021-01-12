@@ -12,6 +12,11 @@ pushd fluidsynth
 git checkout -f 19a20eb
 popd
 
+git clone git clone https://github.com/assimp/assimp.git assimp
+pushd assimp
+git checkout -f 8f0c6b0
+popd
+
 export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
 export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
 
@@ -31,6 +36,24 @@ make -j "$(nproc)" install
 popd
 
 pushd "fluidsynth"
+rm -rf build
+mkdir -p build
+cd build
+cmake \
+    ..
+make -j "$(nproc)" install
+popd
+
+pushd "assimp"
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)" install
+popd
+
+pushd "assimp"
 rm -rf build
 mkdir -p build
 cd build
