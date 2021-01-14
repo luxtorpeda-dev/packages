@@ -2520,7 +2520,13 @@
     },
     "1000410": {
         "game_name": "WRATH: Aeon of Ruin",
-        "download": [],
+        "download": [
+            {
+                "name": "wrath-darkplaces",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wrath-darkplaces-1/",
+                "file": "wrath-darkplaces-1000410-1.tar.xz"
+            }
+        ],
         "command": "./darkplaces-sdl",
         "information": {
             "store_link": "https://store.steampowered.com/app/1000410/",
