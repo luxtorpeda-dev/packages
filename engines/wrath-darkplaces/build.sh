@@ -16,4 +16,4 @@ make sdl2-release -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp -rfv "source/darkplaces-sdl" "$diststart/1000410/dist/"
+cp -rfv "source/darkplaces-sdl" "$diststart/1000410/dist/wrath"
