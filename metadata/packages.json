@@ -2518,6 +2518,22 @@
             "non_free": true
         }
     },
+    "1000410": {
+        "game_name": "WRATH: Aeon of Ruin",
+        "download": [],
+        "command": "./darkplaces-sdl",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1000410/",
+            "engine_name": "wrath-darkplaces",
+            "engine_link": "https://github.com/KillPixelGames/wrath-darkplaces",
+            "version": "Content Update #3",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/KillPixelGames/wrath-darkplaces/blob/master/COPYING"
+        }
+    },
     "1241950": {
         "game_name": "Warzone 2100",
         "download": [
