@@ -2527,7 +2527,7 @@
                 "file": "wrath-darkplaces-1000410-1.tar.xz"
             }
         ],
-        "command": "./darkplaces-sdl",
+        "command": "./wrath",
         "information": {
             "store_link": "https://store.steampowered.com/app/1000410/",
             "engine_name": "wrath-darkplaces",
