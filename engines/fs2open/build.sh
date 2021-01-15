@@ -37,5 +37,5 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/273620/dist/lib/"
 cp -rfv "local/"lib/*.so* "$diststart/273620/dist/lib/"
-cp -rfv "source/build/bin/fs2_open_21_0_0_RC3_x64" "$diststart/273620/dist/fs2_open_x64"
+cp -rfv "source/build/bin/fs2_open_21_0_0_RC4_x64" "$diststart/273620/dist/fs2_open_x64"
 cp -rfv "assets/run-freespace2.sh" "$diststart/273620/dist/run-freespace2.sh"
