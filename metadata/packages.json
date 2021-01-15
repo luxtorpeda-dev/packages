@@ -2244,6 +2244,70 @@
             "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
         }
     },
+    "242980": {
+        "game_name": "Daikatana",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "https://bitbucket.org/daikatana13/daikatana/downloads/",
+                "file": "Daikatana-Linux-2020-07-17-x64.tar.bz2"
+            },
+            {
+                "name": "pak6",
+                "url": "https://bitbucket.org/daikatana13/daikatana/downloads/",
+                "file": "pak6-2018-12-23.zip"
+            },
+            {
+                "name": "pak5",
+                "url": "http://dk.toastednet.org/DK13/",
+                "file": "pak5.zip"
+            },
+            {
+                "name": "soundtrack",
+                "url": "http://dk.toastednet.org/Music/",
+                "file": "Daikatana_OGG_music.zip"
+            }
+        ],
+        "command": "./run-daikatana.sh",
+        "download_config": {
+            "binaries": {
+                "extract_location": "./",
+                "strip_prefix": "Daikatana-Linux-2020-07-18-x64/",
+                "setup": true
+            },
+            "pak6": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "pak5": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "soundtrack": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data/music"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-daikatana.sh",
+            "license_path": "./LICENSES.txt"
+        },
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/242980/",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
+            "version": "1.3",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
+            "closed_source": true
+        }
+    },
     "273570": {
         "game_name": "Descent",
         "download": [
