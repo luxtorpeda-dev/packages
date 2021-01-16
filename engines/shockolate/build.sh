@@ -13,6 +13,7 @@ popd
 
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
 pushd "fluidsynth"
