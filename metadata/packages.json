@@ -1876,7 +1876,7 @@
             "non_free": true
         }
     },
-     "204340": {
+    "204340": {
         "game_name": "Serious Sam 2",
         "download": [
             {
@@ -1888,6 +1888,11 @@
                 "name": "linuxlibs",
                 "url": "https://media-cdn.ubuntu-de.org/wiki/attachments/30/23/",
                 "file": "SeriousSam2libs.zip"
+            },
+            {
+                "name": "serioussam2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serioussam2-1/",
+                "file": "serioussam2-204340-1.tar.xz"
             }
         ],
         "command": "./run-serioussam2.sh",
