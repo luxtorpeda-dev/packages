@@ -27,7 +27,7 @@ popd
 pushd source
 mkdir build
 cd build
-cmake
+cmake \
     -DENABLE_SDL2=ON \
     -DENABLE_FLUIDSYNTH=ON \
     -DCMAKE_BUILD_TYPE=Release \
