@@ -1659,6 +1659,18 @@
                 "license": "Proprietary/Closed Source",
                 "license_link": "https://store.steampowered.com/eula/eula_epic",
                 "closed_source": true
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/13240",
+                "engine_name": "Proprietary Engine",
+                "engine_link": "https://unrealarchive.org/patches-updates/unreal-tournament/patches/utpg-patch-451b/index.html",
+                "version": "469a",
+                "comments": "Uses padsp for audio. Uses pack from Mr Doomguy for improvements and 469a patch.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Proprietary/Closed Source",
+                "license_link": "https://store.steampowered.com/eula/eula_epic",
+                "closed_source": true
             }
         ]
     },
