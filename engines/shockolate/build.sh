@@ -13,7 +13,7 @@ popd
 
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
-export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig:$pfx/lib64/pkgconfig"
 
 # BUILD PHASE
 pushd "fluidsynth"
@@ -33,6 +33,8 @@ cmake \
     -DENABLE_FLUIDSYNTH=ON \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DFLUIDSYNTH_INCLUDE_DIR="$pfx/include" \
+    -DFLUIDSYNTH_LIBRARIES="$pfx/lib64" \
     ..
 make -j "$(nproc)" systemshock
 popd
