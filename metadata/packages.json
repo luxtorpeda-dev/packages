@@ -1876,6 +1876,51 @@
             "non_free": true
         }
     },
+     "204340": {
+        "game_name": "Serious Sam 2",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "https://ftp.jeuxlinux.fr/files/",
+                "file": "ss_linuxbeta_rc_2_1_public.tar.gz"
+            },
+            {
+                "name": "linuxlibs",
+                "url": "https://media-cdn.ubuntu-de.org/wiki/attachments/30/23/",
+                "file": "SeriousSam2libs.zip"
+            }
+        ],
+        "command": "./run-serioussam2.sh",
+        "download_config": {
+            "binaries": {
+                "extract_location": "./",
+                "setup": true
+            },
+            "linuxlibs": {
+                "setup": true,
+                "extract_location": "./Bin/Linux-Dynamic-Release/",
+                "strip_prefix": "SS2/",
+                "decode_as_zip": true
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-serioussam2.sh",
+            "license_path": "./README"
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/204340/",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://github.com/luxtorpeda-dev/packages/issues/172",
+            "version": "rc2.1 public beta",
+            "comments": "Original public beta. Not up to date with Windows version. Need to edit Sam2.ini to change resolution. Uses padsp for audio.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://github.com/luxtorpeda-dev/packages/issues/172",
+            "closed_source": true
+        }
+    },
     "208200": {
         "game_name": "Doom 3: BFG Edition",
         "download": [
