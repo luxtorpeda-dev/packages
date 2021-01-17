@@ -1674,6 +1674,23 @@
             }
         ]
     },
+    "200940": {
+        "game_name": "Sonic CD",
+        "download": [],
+        "command": "./soniccd",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/200940",
+            "engine_name": "Sonic-CD-11-Decompilation",
+            "engine_link": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation",
+            "version": "41c1397 (from master branch)",
+            "comments": "In-game options menu will not work, will need to edit settings.ini file inside the game folder.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Unknown",
+            "license_link": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation",
+            "non_free": true
+        }
+    },
     "20510": {
         "game_name": "S.T.A.L.K.E.R.: Clear Sky",
         "download": [
