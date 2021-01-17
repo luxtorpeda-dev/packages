@@ -1687,7 +1687,7 @@
         "command": "./run-openxray-clearsky.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/20510/",
-            "engine_name": "openxray",
+            "engine_name": "OpenXRay",
             "engine_link": "https://github.com/OpenXRay/xray-16",
             "version": "December 2020 Preview",
             "comments": "Engine is still in progress so not all features may be implemented.",
@@ -1877,7 +1877,7 @@
         "command": "./run-openxray.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/41700/",
-            "engine_name": "openxray",
+            "engine_name": "OpenXRay",
             "engine_link": "https://github.com/OpenXRay/xray-16",
             "version": "December 2020 Preview",
             "comments": "Engine is still in progress so not all features may be implemented.",
