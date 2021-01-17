@@ -5,6 +5,7 @@ git clone https://github.com/skyjake/Doomsday-Engine.git source
 pushd source
 git checkout -f e7383f8
 git submodule update --init --recursive
+git am < ../patches/0001-fix-error-on-regex-match.patch
 popd
 
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
@@ -24,7 +25,7 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 export PATH="$pfx/qt5/bin:$PATH"
-export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib64/pkgconfig"
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib64/pkgconfig:$pfx/lib/pkgconfig"
 
 pushd "fluidsynth"
 mkdir -p build
@@ -68,7 +69,7 @@ cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5;$pfx/usr/local" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     ..
 make -j "$(nproc)"
 DESTDIR="$pfx" make install
