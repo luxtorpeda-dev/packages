@@ -41,5 +41,6 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/410700/dist/lib"
-cp -rfv build/systemshock "$diststart/410700/dist/"
+cp -rfv "source/build/systemshock" "$diststart/410700/dist/"
 cp -rfv "$pfx/lib64"/libfluidsynth.so* "$diststart/410700/dist/lib"
+cp -rfv "source/shaders" "$diststart/410700/dist"
