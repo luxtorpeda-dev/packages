@@ -3,6 +3,7 @@
 echo "deb http://ppa.launchpad.net/fkrull/deadsnakes/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/deadsnakes.list
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 5bb92c09db82666c
 sudo apt-get update
+sudo apt-get -y install python3.3
 
 # CLONE PHASE
 git clone https://github.com/skyjake/Doomsday-Engine.git source
