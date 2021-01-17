@@ -29,12 +29,11 @@ pushd source
 mkdir build
 cd build
 cmake \
-    -DENABLE_SDL2=ON \
     -DENABLE_FLUIDSYNTH=ON \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DFLUIDSYNTH_INCLUDE_DIR="$pfx/include" \
-    -DFLUIDSYNTH_LIBRARIES="$pfx/lib64" \
+    -DFLUIDSYNTH_LIBRARIES="$pfx/lib64/libfluidsynth.so.2.3.3" \
     ..
 make -j "$(nproc)" systemshock
 popd
