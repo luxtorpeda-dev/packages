@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install -y libxxf86dga-dev libxxf86vm-dev libasound2-dev libx11-dev libxcb1-dev
+sudo apt-get install -y libxxf86dga-dev libxxf86vm-dev libasound2-dev libx11-dev libxcb1-dev curl
 
 curl -L -v -o vulkansdk-linux-x86_64-1.2.148.1.tar.gz -O https://sdk.lunarg.com/sdk/download/1.2.148.1/linux/vulkan_sdk.tar.gz?Human=true
 tar zxf vulkansdk-linux-x86_64-1.2.148.1.tar.gz
