@@ -8,6 +8,7 @@ pushd source
 git checkout -f e5df5a1  
 git submodule update --init --recursive
 popd
+
 curl -fsSL -o glslang-master-linux-Release.zip https://github.com/KhronosGroup/glslang/releases/download/master-tot/glslang-master-linux-Release.zip
 mkdir glslang
 unzip glslang-master-linux-Release.zip -d glslang
