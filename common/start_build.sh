@@ -28,6 +28,11 @@ else
         echo "Installing latest git"
         install_latest_git
     fi
+    
+    if [ ! -z "${GCC_10}" ]; then
+        echo "Installing gcc 10"
+        install_gcc_10_ubuntu_1804
+    fi
 fi
 
 if [ ! -z "${COMMON_QT5}" ]; then
