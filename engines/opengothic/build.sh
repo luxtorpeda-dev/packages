@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get -y install curl
+sudo apt-get -y install curl libssl1.0-dev
 
 # CLONE PHASE
 git clone https://github.com/Try/OpenGothic source
