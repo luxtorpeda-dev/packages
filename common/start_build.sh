@@ -13,6 +13,11 @@ echo "APP_IDS=$STEAM_APP_ID_LIST" >> $GITHUB_ENV
 
 if [ ! -z "${CUSTOM_CONTAINER}" ]; then
    setup_custom_container
+   
+    if [ ! -z "${GCC_10}" ]; then
+        echo "Installing gcc 10"
+        install_gcc_10_ubuntu_1804
+    fi
 else
     if [ ! -z "${GCC_9}" ]; then
         echo "Installing gcc 9"
@@ -27,11 +32,6 @@ else
     if [ ! -z "${LATEST_GIT}" ]; then
         echo "Installing latest git"
         install_latest_git
-    fi
-    
-    if [ ! -z "${GCC_10}" ]; then
-        echo "Installing gcc 10"
-        install_gcc_10_ubuntu_1804
     fi
 fi
 

@@ -141,7 +141,7 @@ install_gcc_9 () {
 }
 
 install_gcc_10_ubuntu_1804 () {
-    echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/gcc.list
+    echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/gcc.list
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
     sudo apt-get update
     sudo apt-get install gcc-10 g++-10 -y
