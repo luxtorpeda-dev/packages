@@ -13,9 +13,23 @@ curl -fsSL -o glslang-master-linux-Release.zip https://github.com/KhronosGroup/g
 mkdir glslang
 unzip glslang-master-linux-Release.zip -d glslang
 
+git clone https://github.com/Kitware/CMake.git cmake
+pushd cmake
+git checkout -f 39c6ac5
+popd
+
 # BUILD PHASE
 readonly pstart="$PWD"
 export PATH="$PATH:$pstart/glslang/bin"
+
+pushd cmake
+./bootstrap
+make 
+sudo make install
+popd
+
+export CMAKE_ROOT=/usr/local/share/cmake-3.16/
+/usr/local/bin/cmake --version
 
 pushd "source"
 cmake -H. -Bbuild -DBUILD_EXTRAS:BOOL=OFF -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo -DBUILD_SHARED_MOLTEN_TEMPEST:BOOL=ON
