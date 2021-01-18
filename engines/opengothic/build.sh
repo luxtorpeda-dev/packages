@@ -5,7 +5,6 @@ git clone https://github.com/Try/OpenGothic source
 pushd source
 git checkout -f e5df5a1  
 git submodule update --init --recursive
-git am < ../patches/0001-Revert-gcc-10-build.patch
 popd
 curl -fsSL -o glslang-master-linux-Release.zip https://github.com/KhronosGroup/glslang/releases/download/master-tot/glslang-master-linux-Release.zip
 mkdir glslang
