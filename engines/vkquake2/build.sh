@@ -11,7 +11,7 @@ pushd source
 git checkout 3b8fbff
 popd
 
-export VULKAN_SDK=./1.2.148.1/x86_64
+export VULKAN_SDK="$PWD/1.2.148.1/x86_64"
 # BUILD PHASE
 pushd "source"
 cd linux
