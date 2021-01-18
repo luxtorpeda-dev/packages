@@ -24,6 +24,7 @@ git checkout -f 39c6ac5
 popd
 
 # BUILD PHASE
+
 readonly pstart="$PWD"
 export PATH="$PATH:$pstart/glslang/bin"
 
