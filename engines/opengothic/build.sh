@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt-get -y install curl
+
 # CLONE PHASE
 git clone https://github.com/Try/OpenGothic source
 pushd source
