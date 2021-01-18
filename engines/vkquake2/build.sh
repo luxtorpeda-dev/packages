@@ -5,6 +5,9 @@ sudo apt-get install -y libxxf86dga-dev libxxf86vm-dev libasound2-dev libx11-dev
 curl -L -v -o vulkansdk-linux-x86_64-1.2.148.1.tar.gz -O https://sdk.lunarg.com/sdk/download/1.2.148.1/linux/vulkan_sdk.tar.gz?Human=true
 tar zxf vulkansdk-linux-x86_64-1.2.148.1.tar.gz
 
+export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
+export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
+
 # CLONE PHASE
 git clone https://github.com/kondrak/vkQuake2.git source
 pushd source
