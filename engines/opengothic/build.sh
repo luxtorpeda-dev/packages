@@ -2,6 +2,11 @@
 
 sudo apt-get -y install curl libssl1.0-dev libasound2-dev
 
+wget -qO - https://packages.lunarg.com/lunarg-signing-key-pub.asc | sudo apt-key add -
+sudo wget -qO /etc/apt/sources.list.d/lunarg-vulkan-1.2.162-bionic.list https://packages.lunarg.com/vulkan/1.2.162/lunarg-vulkan-1.2.162-bionic.list
+sudo apt update
+sudo apt install vulkan-sdk
+
 # CLONE PHASE
 git clone https://github.com/Try/OpenGothic source
 pushd source
