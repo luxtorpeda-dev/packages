@@ -1812,7 +1812,7 @@
             "store_link": "https://store.steampowered.com/app/39510/Gothic_II_Gold_Edition/",
             "engine_name": "OpenGothic",
             "engine_link": "https://github.com/Try/OpenGothic",
-            "version": "v0.32",
+            "version": "v0.35",
             "comments": "Steam Overlay does not work. Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
