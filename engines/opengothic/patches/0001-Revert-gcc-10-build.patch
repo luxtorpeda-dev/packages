@@ -1,0 +1,29 @@
+From b89f07d0620bc348cdbde662cf0483ab51419f23 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Sun, 17 Jan 2021 21:04:52 -0600
+Subject: [PATCH] Revert "gcc 10 build"
+
+This reverts commit 7645b3c0fa7828cdea05a39f82f90f714735b6e8.
+---
+ Game/resources.cpp | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+diff --git a/Game/resources.cpp b/Game/resources.cpp
+index 9f57f57..7a71ae2 100644
+--- a/Game/resources.cpp
++++ b/Game/resources.cpp
+@@ -566,9 +566,8 @@ std::vector<const Texture2d*> Resources::loadTextureAnim(const std::string& name
+       }
+    auto t = loadTexture(buf);
+     if(t==nullptr) {
+-      char buf2[128]={};
+-      std::snprintf(buf2,sizeof(buf),"%s.TGA",buf);
+-      t = loadTexture(buf2);
++      strncat(buf,".TGA",sizeof(buf));
++      t = loadTexture(buf);
+       if(t==nullptr)
+         return ret;
+       }
+-- 
+2.29.2
+
