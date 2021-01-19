@@ -11,8 +11,7 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 # CLONE PHASE
 git clone https://github.com/kondrak/vkQuake2.git source
 pushd source
-git checkout 3b8fbff
-git am < ../patches/0001-remove-ffast-math.patch
+git checkout 058b41e
 popd
 
 export VULKAN_SDK="$PWD/1.2.148.1/x86_64"
