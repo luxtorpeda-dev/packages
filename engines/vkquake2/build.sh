@@ -23,7 +23,7 @@ popd
 
 # COPY PHASE
 cp -rfv "source/linux/releasex64/quake2" "$diststart/common/dist/"
-cp -rfv "source/linux/releasex64"/ref_* "$diststart/common/dist/"
+cp -rfv "source/linux/releasex64"/ref_*.so* "$diststart/common/dist/"
 cp -rfv "source/linux/releasex64/q2ded" "$diststart/common/dist/"
 
 cp -rfv "source/linux/releasex64/baseq2" "$diststart/common/dist/"
