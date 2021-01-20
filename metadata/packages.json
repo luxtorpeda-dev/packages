@@ -65,10 +65,6 @@
             {
                 "name": "ioquake3",
                 "command": "./ioquake3.x86_64",
-                "command_args": [
-                    "+r_mode",
-                    "-2"
-                ],
                 "download": [
                     "ioquake3"
                 ]
@@ -76,10 +72,6 @@
             {
                 "name": "quake3e",
                 "command": "./quake3e.x64",
-                "command_args": [
-                    "+r_mode",
-                    "-2"
-                ],
                 "download": [
                     "quake3e"
                 ]
