@@ -570,6 +570,12 @@
                 "name": "Quake II Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-music.tar.xz"
+            },
+            {
+                "name": "vkquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-1/",
+                "file": "vkquake2-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -637,6 +643,12 @@
                 "name": "The Reckoning Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-xatrix-music.tar.xz"
+            },
+            {
+                "name": "vkquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-1/",
+                "file": "vkquake2-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -704,6 +716,12 @@
                 "name": "Ground Zero Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-rogue-music.tar.xz"
+            },
+            {
+                "name": "vkquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-1/",
+                "file": "vkquake2-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -1522,6 +1540,12 @@
                 "name": "yquake2",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-4/",
                 "file": "yquake2-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "vkquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-1/",
+                "file": "vkquake2-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
