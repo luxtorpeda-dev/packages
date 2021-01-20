@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd vkquake2
+cd vkQuake2
 
 ./quake2 "$@"

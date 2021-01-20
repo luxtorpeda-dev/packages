@@ -4,14 +4,14 @@ currentDir="$PWD"
 
 create_relative_symlink () {
         local -r target=$1
-        local -r symlink="../vkquake2/$2/$target"
+        local -r symlink="../vkQuake2/$2/$target"
         mkdir -p "$(dirname "$symlink")"
         ln -rsf "$target" "$symlink"
 }
 
 create_relative_symlink_music () {
         local -r target=$1
-        local -r symlink="../vkquake2/$2/$(dirname "$target")/track$(basename "$target")"
+        local -r symlink="../vkQuake2/$2/$(dirname "$target")/track$(basename "$target")"
         mkdir -p "$(dirname "$symlink")"
         ln -rsf "$target" "$symlink"
 }
