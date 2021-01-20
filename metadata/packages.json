@@ -572,18 +572,57 @@
                 "file": "quake2-music.tar.xz"
             }
         ],
-        "command": "./quake2.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2320/",
-            "engine_name": "Yamagi Quake II",
-            "engine_link": "https://www.yamagi.org/quake2/",
-            "version": "7.43",
-            "comments": "Fixed default config, fixed music",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
-        }
+        "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "Quake II Soundtrack"
+                ]
+            },
+            {
+                "name": "vkQuake2",
+                "command": "./vkQuake2/vkQuake2.sh",
+                "download": [
+                    "vkquake2",
+                    "Quake II Soundtrack"
+                ],
+                "download_config": {
+                    "vkquake2": {
+                        "extract_location": "./vkQuake2"
+                    }
+                },
+                "setup": {
+                    "complete_path": "./ready-vkquake2",
+                    "command": "./vkQuake2/setup-vkquake2.sh"
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2320/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "7.43",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2320/",
+                "engine_name": "vkQuake2",
+                "engine_link": "https://github.com/kondrak/vkQuake2",
+                "version": "058b41e0a84f3f33f01ea43cf5eccaf84a4bbbf0 (from master)",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            }
+        ]
     },
     "2330": {
         "game_name": "Quake II: The Reckoning",
@@ -600,18 +639,57 @@
                 "file": "quake2-xatrix-music.tar.xz"
             }
         ],
-        "command": "./quake2.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2330/",
-            "engine_name": "Yamagi Quake II",
-            "engine_link": "https://www.yamagi.org/quake2/",
-            "version": "7.43",
-            "comments": "Fixed default config, fixed music",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
-        }
+        "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "The Reckoning Soundtrack"
+                ]
+            },
+            {
+                "name": "vkQuake2",
+                "command": "./vkQuake2/vkQuake2.sh",
+                "download": [
+                    "vkquake2",
+                    "The Reckoning Soundtrack"
+                ],
+                "download_config": {
+                    "vkquake2": {
+                        "extract_location": "./vkQuake2"
+                    }
+                },
+                "setup": {
+                    "complete_path": "./ready-vkquake2",
+                    "command": "./vkQuake2/setup-vkquake2.sh"
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2330/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "7.43",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2330/",
+                "engine_name": "vkQuake2",
+                "engine_link": "https://github.com/kondrak/vkQuake2",
+                "version": "058b41e0a84f3f33f01ea43cf5eccaf84a4bbbf0 (from master)",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            }
+        ]
     },
     "2340": {
         "game_name": "Quake II: Ground Zero",
@@ -628,18 +706,57 @@
                 "file": "quake2-rogue-music.tar.xz"
             }
         ],
-        "command": "./quake2.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2340/",
-            "engine_name": "Yamagi Quake II",
-            "engine_link": "https://www.yamagi.org/quake2/",
-            "version": "7.43",
-            "comments": "Fixed default config, fixed music",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
-        }
+        "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "Ground Zero Soundtrack"
+                ]
+            },
+            {
+                "name": "vkQuake2",
+                "command": "./vkQuake2/vkQuake2.sh",
+                "download": [
+                    "vkquake2",
+                    "Ground Zero Soundtrack"
+                ],
+                "download_config": {
+                    "vkquake2": {
+                        "extract_location": "./vkQuake2"
+                    }
+                },
+                "setup": {
+                    "complete_path": "./ready-vkquake2",
+                    "command": "./vkQuake2/setup-vkquake2.sh"
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2340/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "7.43",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2340/",
+                "engine_name": "vkQuake2",
+                "engine_link": "https://github.com/kondrak/vkQuake2",
+                "version": "058b41e0a84f3f33f01ea43cf5eccaf84a4bbbf0 (from master)",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            }
+        ]
     },
     "2350": {
         "game_name": "Quake III: Team Arena",
@@ -1408,18 +1525,55 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./quake2.sh",
-        "information": {
-            "store_link": "https://steamdb.info/app/9130/",
-            "engine_name": "Yamagi Quake II",
-            "engine_link": "https://www.yamagi.org/quake2/",
-            "version": "7.43",
-            "comments": "Fixed default config",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
-        }
+        "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2"
+                ]
+            },
+            {
+                "name": "vkQuake2",
+                "command": "./vkQuake2/vkQuake2.sh",
+                "download": [
+                    "vkquake2"
+                ],
+                "download_config": {
+                    "vkquake2": {
+                        "extract_location": "./vkQuake2"
+                    }
+                },
+                "setup": {
+                    "complete_path": "./ready-vkquake2",
+                    "command": "./vkQuake2/setup-vkquake2.sh"
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamdb.info/app/9130/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "7.43",
+                "comments": "Fixed default config",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://steamdb.info/app/9130/",
+                "engine_name": "vkQuake2",
+                "engine_link": "https://github.com/kondrak/vkQuake2",
+                "version": "058b41e0a84f3f33f01ea43cf5eccaf84a4bbbf0 (from master)",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            }
+        ]
     },
     "12100": {
         "game_name": "Grand Theft Auto III",
