@@ -66,9 +66,8 @@
                 "name": "ioquake3",
                 "command": "./ioquake3.x86_64",
                 "command_args": [
-                    "+set r_mode",
-                    "-2",
-                    "+set r_modeFullscreen",
+                    "+set",
+                    "r_mode",
                     "-2"
                 ],
                 "download": [
@@ -79,9 +78,11 @@
                 "name": "quake3e",
                 "command": "./quake3e.x64",
                 "command_args": [
-                    "+set r_mode",
+                    "+set",
+                    "r_mode",
                     "-2",
-                    "+set r_modeFullscreen",
+                    "+set",
+                    "r_modeFullscreen",
                     "-2"
                 ],
                 "download": [
@@ -806,9 +807,8 @@
                 "name": "ioquake3",
                 "command": "./ioquake3.x86_64",
                 "command_args": [
-                    "+set r_mode",
-                    "-2",
-                    "+set r_modeFullscreen",
+                    "+set",
+                    "r_mode",
                     "-2"
                 ],
                 "download": [
@@ -820,9 +820,11 @@
                 "name": "quake3e",
                 "command": "./quake3e.x64",
                 "command_args": [
-                    "+set r_mode",
+                    "+set",
+                    "r_mode",
                     "-2",
-                    "+set r_modeFullscreen",
+                    "+set",
+                    "r_modeFullscreen",
                     "-2"
                 ],
                 "download": [
