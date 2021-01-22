@@ -20,8 +20,6 @@ cmake \
     -DENABLE_FLUIDSYNTH=OFF \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DFLUIDSYNTH_INCLUDE_DIR="$pfx/include" \
-    -DFLUIDSYNTH_LIBRARIES="$pfx/lib64/libfluidsynth.so.2.3.3" \
     ..
 make -j "$(nproc)" systemshock
 popd
