@@ -1864,7 +1864,14 @@
     },
     "15700": {
         "game_name": "Oddworld: Abe's Oddysee",
-        "download": [],
+        "download": [
+            {
+                "name": "alive_reversing",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alive_reversing-1/",
+                "file": "alive_reversing-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./AliveExeAO",
         "information": {
             "store_link": "https://store.steampowered.com/app/15700",
@@ -1881,7 +1888,14 @@
     },
     "15710": {
         "game_name": "Oddworld: Abe's Exoddus",
-        "download": [],
+        "download": [
+            {
+                "name": "alive_reversing",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alive_reversing-1/",
+                "file": "alive_reversing-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./AliveExeAE",
         "information": {
             "store_link": "https://store.steampowered.com/app/15710",
