@@ -540,8 +540,8 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-4/",
-                "file": "vkquake-2310-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-5/",
+                "file": "vkquake-2310-5.tar.xz"
             },
             {
                 "name": "Quake Soundtrack",
