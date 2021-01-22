@@ -1862,6 +1862,40 @@
             }
         ]
     },
+    "15700": {
+        "game_name": "Oddworld: Abe's Oddysee",
+        "download": [],
+        "command": "./AliveExeAO",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/15700",
+            "engine_name": "alive_reversing",
+            "engine_link": "https://github.com/AliveTeam/alive_reversing",
+            "version": "400a2af (from master)",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Unknown",
+            "license_link": "https://github.com/AliveTeam/alive_reversing/blob/master/README.md",
+            "non_free": true
+        }
+    },
+    "15710": {
+        "game_name": "Oddworld: Abe's Exoddus",
+        "download": [],
+        "command": "./AliveExeAE",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/15710",
+            "engine_name": "alive_reversing",
+            "engine_link": "https://github.com/AliveTeam/alive_reversing",
+            "version": "400a2af (from master)",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Unknown",
+            "license_link": "https://github.com/AliveTeam/alive_reversing/blob/master/README.md",
+            "non_free": true
+        }
+    },
     "20510": {
         "game_name": "S.T.A.L.K.E.R.: Clear Sky",
         "download": [
