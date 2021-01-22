@@ -11,8 +11,6 @@ create_relative_symlink () {
 	ln -rsf "$target" "$symlink"
 }
 
-# http://wiki.arx-libertatis.org/Required_data_files_and_checksums
-
 find DATA -type f  | while read -r file_name ; do
 	create_relative_symlink "$file_name"
 done
