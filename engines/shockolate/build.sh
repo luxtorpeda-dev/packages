@@ -15,6 +15,7 @@ pushd source
 mkdir build
 cd build
 cmake \
+    -DENABLE_SDL2=ON \
     -DENABLE_FLUIDSYNTH=OFF \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
