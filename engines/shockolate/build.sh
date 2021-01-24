@@ -3,12 +3,11 @@
 # CLONE PHASE
 git clone https://github.com/Interrupt/systemshock.git source
 pushd source
-git checkout 7da4d1b
+git checkout 9de43cc
 popd
 
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
-export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig:$pfx/lib64/pkgconfig"
 
 # BUILD PHASE
 
