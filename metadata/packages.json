@@ -152,7 +152,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
             "license_link": "http://zerowing.idsoftware.com/linux/quake4/Quake4FrontPage/",
-            "closed_source": true
+            "closed_source": true,
+            "32-bit": true
         }
     },
     "2280": {
@@ -1149,7 +1150,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
             "license_link": "http://icculus.org/prey/",
-            "closed_source": true
+            "closed_source": true,
+            "32-bit": true
         }
     },
     "6020": {
@@ -1834,7 +1836,8 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "Proprietary/Closed Source",
                 "license_link": "https://store.steampowered.com/eula/eula_epic",
-                "closed_source": true
+                "closed_source": true,
+                "32-bit": true
             },
             {
                 "store_link": "https://store.steampowered.com/app/13240",
@@ -1846,7 +1849,8 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "Proprietary/Closed Source",
                 "license_link": "https://store.steampowered.com/eula/eula_epic",
-                "closed_source": true
+                "closed_source": true,
+                "32-bit": true
             },
             {
                 "store_link": "https://store.steampowered.com/app/13240",
@@ -1858,7 +1862,8 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "Proprietary/Closed Source",
                 "license_link": "https://store.steampowered.com/eula/eula_epic",
-                "closed_source": true
+                "closed_source": true,
+                "32-bit": true
             }
         ]
     },
@@ -2194,7 +2199,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
             "license_link": "https://github.com/luxtorpeda-dev/packages/issues/172",
-            "closed_source": true
+            "closed_source": true,
+            "32-bit": true
         }
     },
     "208200": {
@@ -2327,7 +2333,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
             "license_link": "https://archive.org/details/Rune_Halls_of_Valhalla_Linux",
-            "closed_source": true
+            "closed_source": true,
+            "32-bit": true
         }
     },
     "224960": {
