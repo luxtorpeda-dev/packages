@@ -2811,7 +2811,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
-            "license_link": "https://github.com/OpenLoco/OpenLoco/blob/master/LICENSE"
+            "license_link": "https://github.com/OpenLoco/OpenLoco/blob/master/LICENSE",
+            "32-bit": true
         }
     },
     "517790": {
