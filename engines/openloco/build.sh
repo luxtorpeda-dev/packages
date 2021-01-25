@@ -34,7 +34,6 @@ mkdir -p "$pfx"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
-
 pushd "SDL"
 mkdir -p build
 cd build
