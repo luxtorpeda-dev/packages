@@ -55,7 +55,6 @@ cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)"
-make install
 popd
 
 pushd libpng
