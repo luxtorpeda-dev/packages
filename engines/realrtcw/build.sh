@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/wolfetplayer/RealRTCW.git source
 pushd source
-git checkout -f 85ad6e5
+git checkout -f 7b6fd86
 popd
 
 readonly pfx="$PWD/local"

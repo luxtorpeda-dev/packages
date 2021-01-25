@@ -3056,7 +3056,7 @@
             "store_link": "https://store.steampowered.com/app/1379630/",
             "engine_name": "realrtcw",
             "engine_link": "https://github.com/wolfetplayer/RealRTCW",
-            "version": "3.1 (85ad6e5)",
+            "version": "1/24/21 (7b6fd86)",
             "comments": "Requires installation of RTCW. Will ask for directory path on first launch. No steam version.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
