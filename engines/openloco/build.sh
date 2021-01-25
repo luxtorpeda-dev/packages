@@ -81,7 +81,6 @@ cmake \
     ..
 make -j "$(nproc)"
 cp -rfv ../data .
-make g2
 popd
 
 # COPY PHASE
