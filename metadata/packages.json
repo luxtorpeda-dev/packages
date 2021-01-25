@@ -2776,6 +2776,29 @@
             "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
         }
     },
+    "356430": {
+        "game_name": "Chris Sawyer's Locomotion™",
+        "download": [
+            {
+                "name": "openloco",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-1/",
+                "file": "openloco-356430-1.tar.xz"
+            }
+        ],
+        "command": "./run-openloco.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/356430",
+            "engine_name": "OpenLoco",
+            "engine_link": "https://github.com/OpenLoco/OpenLoco",
+            "version": "v20.10",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/OpenLoco/OpenLoco/blob/master/LICENSE",
+            "32-bit": true
+        }
+    },
     "358830": {
         "game_name": "Good Robot",
         "download": [
@@ -2796,23 +2819,6 @@
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
             "license_link": "https://github.com/arvindrajayadav/Good-Robot/blob/master/LICENSE.txt"
-        }
-    },
-    "356430": {
-        "game_name": "Chris Sawyer's Locomotion™",
-        "download": [],
-        "command": "./run-openloco.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/356430",
-            "engine_name": "OpenLoco",
-            "engine_link": "https://github.com/OpenLoco/OpenLoco",
-            "version": "v20.10",
-            "comments": "Engine is still in progress so not all features may be implemented.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "MIT",
-            "license_link": "https://github.com/OpenLoco/OpenLoco/blob/master/LICENSE",
-            "32-bit": true
         }
     },
     "410700": {
