@@ -2807,7 +2807,7 @@
             "engine_name": "OpenLoco",
             "engine_link": "https://github.com/OpenLoco/OpenLoco",
             "version": "v20.10",
-            "comments": "Game will crash on first launch. Launches after that work fine. Engine is still in progress so not all features may be implemented.",
+            "comments": "Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
