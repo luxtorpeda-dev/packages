@@ -3,8 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/arx/ArxLibertatis source
 pushd source
-git checkout 7c9760c
-git am < ../patches/0001-Use-borderless-full-screen.patch
+git checkout 20e8f2a
 popd
 
 git clone https://github.com/boostorg/boost boost

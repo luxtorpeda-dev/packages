@@ -4,8 +4,8 @@
         "download": [
             {
                 "name": "arxlibertatis",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-11/",
-                "file": "arxlibertatis-common-11.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-12/",
+                "file": "arxlibertatis-common-12.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -14,8 +14,8 @@
             "store_link": "https://store.steampowered.com/app/1700/",
             "engine_name": "Arx Libertatis",
             "engine_link": "https://arx-libertatis.org/",
-            "version": "7c9760c (from master)",
-            "comments": "Engine has been patched  to support borderless fullscreen",
+            "version": "20e8f2a (from master)",
+            "comments": "Select Desktop in resolution settings for borderless fullscreen",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -27,8 +27,8 @@
         "download": [
             {
                 "name": "arxlibertatis",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-11/",
-                "file": "arxlibertatis-common-11.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-12/",
+                "file": "arxlibertatis-common-12.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -53,24 +53,67 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-4/",
                 "file": "ioquake3-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "quake3e",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-2/",
+                "file": "quake3e-common-2.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./ioquake3.x86_64",
-        "command_args": [
-            "+r_mode",
-            "-2"
+        "choices": [
+            {
+                "name": "ioquake3",
+                "command": "./ioquake3.x86_64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2"
+                ],
+                "download": [
+                    "ioquake3"
+                ]
+            },
+            {
+                "name": "quake3e",
+                "command": "./quake3e.x64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "quake3e"
+                ]
+            }
         ],
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2200/",
-            "engine_name": "ioquake3",
-            "engine_link": "https://ioquake3.org/",
-            "version": "2b42f0b (from master)",
-            "comments": "",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
-        }
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2200/",
+                "engine_name": "ioquake3",
+                "engine_link": "https://ioquake3.org/",
+                "version": "2b42f0b (from master)",
+                "comments": "",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2200/",
+                "engine_name": "quake3e",
+                "engine_link": "https://github.com/ec-/Quake3e",
+                "version": "2021-01-16",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
+            }
+        ]
     },
     "2210": {
         "game_name": "Quake IV",
@@ -109,7 +152,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
             "license_link": "http://zerowing.idsoftware.com/linux/quake4/Quake4FrontPage/",
-            "closed_source": true
+            "closed_source": true,
+            "32-bit": true
         }
     },
     "2280": {
@@ -129,8 +173,8 @@
             },
             {
                 "name": "doomsday",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-1/",
-                "file": "doomsday-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -207,7 +251,7 @@
                 "store_link": "https://store.steampowered.com/app/2280/",
                 "engine_name": "doomsday",
                 "engine_link": "https://github.com/skyjake/Doomsday-Engine",
-                "version": "v2.2.2",
+                "version": "v2.3.0",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -244,8 +288,8 @@
             },
             {
                 "name": "doomsday",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-1/",
-                "file": "doomsday-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -357,7 +401,7 @@
                 "store_link": "https://store.steampowered.com/app/2290/",
                 "engine_name": "doomsday",
                 "engine_link": "https://github.com/skyjake/Doomsday-Engine",
-                "version": "v2.2.2",
+                "version": "v2.3.0",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -394,8 +438,8 @@
             },
             {
                 "name": "doomsday",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-1/",
-                "file": "doomsday-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -472,7 +516,7 @@
                 "store_link": "https://store.steampowered.com/app/2300/",
                 "engine_name": "doomsday",
                 "engine_link": "https://github.com/skyjake/Doomsday-Engine",
-                "version": "v2.2.2",
+                "version": "v2.3.0",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -497,8 +541,8 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-2/",
-                "file": "vkquake-2310-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-5/",
+                "file": "vkquake-2310-5.tar.xz"
             },
             {
                 "name": "Quake Soundtrack",
@@ -511,7 +555,7 @@
             "store_link": "https://store.steampowered.com/app/2310/",
             "engine_name": "vkQuake",
             "engine_link": "https://github.com/Novum/vkQuake",
-            "version": "1.04.1",
+            "version": "1.05.2",
             "comments": "Single-player only for now, fixed music",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
@@ -532,20 +576,65 @@
                 "name": "Quake II Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-music.tar.xz"
+            },
+            {
+                "name": "vkquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-1/",
+                "file": "vkquake2-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./quake2.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2320/",
-            "engine_name": "Yamagi Quake II",
-            "engine_link": "https://www.yamagi.org/quake2/",
-            "version": "7.43",
-            "comments": "Fixed default config, fixed music",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
-        }
+        "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "Quake II Soundtrack"
+                ]
+            },
+            {
+                "name": "vkQuake2",
+                "command": "./vkQuake2/vkQuake2.sh",
+                "download": [
+                    "vkquake2",
+                    "Quake II Soundtrack"
+                ],
+                "download_config": {
+                    "vkquake2": {
+                        "extract_location": "./vkQuake2"
+                    }
+                },
+                "setup": {
+                    "complete_path": "./ready-vkquake2",
+                    "command": "./vkQuake2/setup-vkquake2.sh"
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2320/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "7.43",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2320/",
+                "engine_name": "vkQuake2",
+                "engine_link": "https://github.com/kondrak/vkQuake2",
+                "version": "058b41e0a84f3f33f01ea43cf5eccaf84a4bbbf0 (from master)",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            }
+        ]
     },
     "2330": {
         "game_name": "Quake II: The Reckoning",
@@ -560,20 +649,65 @@
                 "name": "The Reckoning Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-xatrix-music.tar.xz"
+            },
+            {
+                "name": "vkquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-1/",
+                "file": "vkquake2-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./quake2.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2330/",
-            "engine_name": "Yamagi Quake II",
-            "engine_link": "https://www.yamagi.org/quake2/",
-            "version": "7.43",
-            "comments": "Fixed default config, fixed music",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
-        }
+        "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "The Reckoning Soundtrack"
+                ]
+            },
+            {
+                "name": "vkQuake2",
+                "command": "./vkQuake2/vkQuake2.sh",
+                "download": [
+                    "vkquake2",
+                    "The Reckoning Soundtrack"
+                ],
+                "download_config": {
+                    "vkquake2": {
+                        "extract_location": "./vkQuake2"
+                    }
+                },
+                "setup": {
+                    "complete_path": "./ready-vkquake2",
+                    "command": "./vkQuake2/setup-vkquake2.sh"
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2330/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "7.43",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2330/",
+                "engine_name": "vkQuake2",
+                "engine_link": "https://github.com/kondrak/vkQuake2",
+                "version": "058b41e0a84f3f33f01ea43cf5eccaf84a4bbbf0 (from master)",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            }
+        ]
     },
     "2340": {
         "game_name": "Quake II: Ground Zero",
@@ -588,20 +722,65 @@
                 "name": "Ground Zero Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-rogue-music.tar.xz"
+            },
+            {
+                "name": "vkquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-1/",
+                "file": "vkquake2-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./quake2.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2340/",
-            "engine_name": "Yamagi Quake II",
-            "engine_link": "https://www.yamagi.org/quake2/",
-            "version": "7.43",
-            "comments": "Fixed default config, fixed music",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
-        }
+        "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "Ground Zero Soundtrack"
+                ]
+            },
+            {
+                "name": "vkQuake2",
+                "command": "./vkQuake2/vkQuake2.sh",
+                "download": [
+                    "vkquake2",
+                    "Ground Zero Soundtrack"
+                ],
+                "download_config": {
+                    "vkquake2": {
+                        "extract_location": "./vkQuake2"
+                    }
+                },
+                "setup": {
+                    "complete_path": "./ready-vkquake2",
+                    "command": "./vkQuake2/setup-vkquake2.sh"
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2340/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "7.43",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2340/",
+                "engine_name": "vkQuake2",
+                "engine_link": "https://github.com/kondrak/vkQuake2",
+                "version": "058b41e0a84f3f33f01ea43cf5eccaf84a4bbbf0 (from master)",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            }
+        ]
     },
     "2350": {
         "game_name": "Quake III: Team Arena",
@@ -616,24 +795,69 @@
                 "name": "Patch Data",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake3/",
                 "file": "quake3ta-latest-pk3s.tar.xz"
+            },
+            {
+                "name": "quake3e",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-2/",
+                "file": "quake3e-common-2.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./ioquake3.x86_64",
-        "command_args": [
-            "+r_mode",
-            "-2"
+        "choices": [
+            {
+                "name": "ioquake3",
+                "command": "./ioquake3.x86_64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2"
+                ],
+                "download": [
+                    "ioquake3",
+                    "Patch Data"
+                ]
+            },
+            {
+                "name": "quake3e",
+                "command": "./quake3e.x64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "quake3e",
+                    "Patch Data"
+                ]
+            }
         ],
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2350/",
-            "engine_name": "ioquake3",
-            "engine_link": "https://ioquake3.org/",
-            "version": "2b42f0b (from master)",
-            "comments": "",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
-        }
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2350/",
+                "engine_name": "ioquake3",
+                "engine_link": "https://ioquake3.org/",
+                "version": "2b42f0b (from master)",
+                "comments": "",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2350/",
+                "engine_name": "quake3e",
+                "engine_link": "https://github.com/ec-/Quake3e",
+                "version": "2021-01-16",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
+            }
+        ]
     },
     "2360": {
         "game_name": "HeXen: Beyond Heretic",
@@ -652,8 +876,8 @@
             },
             {
                 "name": "doomsday",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-1/",
-                "file": "doomsday-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -730,7 +954,7 @@
                 "store_link": "https://store.steampowered.com/app/2360/",
                 "engine_name": "doomsday",
                 "engine_link": "https://github.com/skyjake/Doomsday-Engine",
-                "version": "v2.2.2",
+                "version": "v2.3.0",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -767,8 +991,8 @@
             },
             {
                 "name": "doomsday",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-1/",
-                "file": "doomsday-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -845,7 +1069,7 @@
                 "store_link": "https://store.steampowered.com/app/2390/",
                 "engine_name": "doomsday",
                 "engine_link": "https://github.com/skyjake/Doomsday-Engine",
-                "version": "v2.2.2",
+                "version": "v2.3.0",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -926,7 +1150,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
             "license_link": "http://icculus.org/prey/",
-            "closed_source": true
+            "closed_source": true,
+            "32-bit": true
         }
     },
     "6020": {
@@ -1328,28 +1553,71 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-4/",
                 "file": "yquake2-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "vkquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-1/",
+                "file": "vkquake2-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./quake2.sh",
-        "information": {
-            "store_link": "https://steamdb.info/app/9130/",
-            "engine_name": "Yamagi Quake II",
-            "engine_link": "https://www.yamagi.org/quake2/",
-            "version": "7.43",
-            "comments": "Fixed default config",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
-        }
+        "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2"
+                ]
+            },
+            {
+                "name": "vkQuake2",
+                "command": "./vkQuake2/vkQuake2.sh",
+                "download": [
+                    "vkquake2"
+                ],
+                "download_config": {
+                    "vkquake2": {
+                        "extract_location": "./vkQuake2"
+                    }
+                },
+                "setup": {
+                    "complete_path": "./ready-vkquake2",
+                    "command": "./vkQuake2/setup-vkquake2.sh"
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamdb.info/app/9130/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "7.43",
+                "comments": "Fixed default config",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://steamdb.info/app/9130/",
+                "engine_name": "vkQuake2",
+                "engine_link": "https://github.com/kondrak/vkQuake2",
+                "version": "058b41e0a84f3f33f01ea43cf5eccaf84a4bbbf0 (from master)",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            }
+        ]
     },
     "12100": {
         "game_name": "Grand Theft Auto III",
         "download": [
             {
                 "name": "re3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/re3-6/",
-                "file": "re3-12100-6.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/re3-7/",
+                "file": "re3-12100-7.tar.xz"
             }
         ],
         "command": "./run-re3.sh",
@@ -1357,7 +1625,30 @@
             "store_link": "https://store.steampowered.com/app/12100",
             "engine_name": "re3",
             "engine_link": "https://github.com/GTAmodding/re3",
-            "version": "4cfb3b0984c1de2820691b4b5f1c63cd19c498fb (from master)",
+            "version": "14f7dba (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Unknown",
+            "license_link": "https://github.com/GTAmodding/re3/blob/master/README.md",
+            "non_free": true
+        }
+    },
+    "12110": {
+        "game_name": "Grand Theft Auto: Vice City",
+        "download": [
+            {
+                "name": "reVC",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reVC-2/",
+                "file": "reVC-12110-2.tar.xz"
+            }
+        ],
+        "command": "./run-reVC.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/12110",
+            "engine_name": "reVC",
+            "engine_link": "https://github.com/GTAmodding/re3",
+            "version": "c93fb5e443f9afe082abf708918fcd3db807596d (from miami branch)",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -1377,7 +1668,7 @@
             {
                 "name": "foxWSFix",
                 "url": "https://luxtorpeda-dev.github.io/closed-assets/",
-                "file": "ut2004-foxWSFix.tar.xz"
+                "file": "ut2004-foxWSFix-2.1.0.tar.xz"
             },
             {
                 "name": "binaries",
@@ -1545,7 +1836,8 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "Proprietary/Closed Source",
                 "license_link": "https://store.steampowered.com/eula/eula_epic",
-                "closed_source": true
+                "closed_source": true,
+                "32-bit": true
             },
             {
                 "store_link": "https://store.steampowered.com/app/13240",
@@ -1557,26 +1849,88 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "Proprietary/Closed Source",
                 "license_link": "https://store.steampowered.com/eula/eula_epic",
-                "closed_source": true
+                "closed_source": true,
+                "32-bit": true
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/13240",
+                "engine_name": "Proprietary Engine",
+                "engine_link": "https://unrealarchive.org/patches-updates/unreal-tournament/patches/utpg-patch-451b/index.html",
+                "version": "469a",
+                "comments": "Uses padsp for audio. Uses pack from Mr Doomguy for improvements and 469a patch.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Proprietary/Closed Source",
+                "license_link": "https://store.steampowered.com/eula/eula_epic",
+                "closed_source": true,
+                "32-bit": true
             }
         ]
+    },
+    "15700": {
+        "game_name": "Oddworld: Abe's Oddysee",
+        "download": [
+            {
+                "name": "alive_reversing",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alive_reversing-1/",
+                "file": "alive_reversing-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./AliveExeAO",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/15700",
+            "engine_name": "alive_reversing",
+            "engine_link": "https://github.com/AliveTeam/alive_reversing",
+            "version": "400a2af (from master)",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Unknown",
+            "license_link": "https://github.com/AliveTeam/alive_reversing/blob/master/README.md",
+            "non_free": true
+        }
+    },
+    "15710": {
+        "game_name": "Oddworld: Abe's Exoddus",
+        "download": [
+            {
+                "name": "alive_reversing",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alive_reversing-1/",
+                "file": "alive_reversing-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./AliveExeAE",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/15710",
+            "engine_name": "alive_reversing",
+            "engine_link": "https://github.com/AliveTeam/alive_reversing",
+            "version": "400a2af (from master)",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Unknown",
+            "license_link": "https://github.com/AliveTeam/alive_reversing/blob/master/README.md",
+            "non_free": true
+        }
     },
     "20510": {
         "game_name": "S.T.A.L.K.E.R.: Clear Sky",
         "download": [
             {
                 "name": "openxray",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-3/",
-                "file": "openxray-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-5/",
+                "file": "openxray-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
         "command": "./run-openxray-clearsky.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/20510/",
-            "engine_name": "openxray",
+            "engine_name": "OpenXRay",
             "engine_link": "https://github.com/OpenXRay/xray-16",
-            "version": "October 2020 Preview",
+            "version": "December 2020 Preview",
             "comments": "Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -1668,8 +2022,8 @@
         "download": [
             {
                 "name": "reone",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-5/",
-                "file": "reone-32370-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-9/",
+                "file": "reone-32370-9.tar.xz"
             }
         ],
         "command": "./run-kotor1.sh",
@@ -1677,7 +2031,7 @@
             "store_link": "https://store.steampowered.com/app/32370",
             "engine_name": "reone",
             "engine_link": "https://github.com/seedhartha/reone",
-            "version": "0.11.0",
+            "version": "0.14.0",
             "comments": "Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -1690,8 +2044,8 @@
         "download": [
             {
                 "name": "opengothic",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-13/",
-                "file": "opengothic-39510-13.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-14/",
+                "file": "opengothic-39510-14.tar.xz"
             }
         ],
         "command": "./run-gothic2.sh",
@@ -1699,7 +2053,7 @@
             "store_link": "https://store.steampowered.com/app/39510/Gothic_II_Gold_Edition/",
             "engine_name": "OpenGothic",
             "engine_link": "https://github.com/Try/OpenGothic",
-            "version": "v0.32",
+            "version": "v0.35",
             "comments": "Steam Overlay does not work. Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -1756,23 +2110,97 @@
         "download": [
             {
                 "name": "openxray",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-3/",
-                "file": "openxray-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-5/",
+                "file": "openxray-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
         "command": "./run-openxray.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/41700/",
-            "engine_name": "openxray",
+            "engine_name": "OpenXRay",
             "engine_link": "https://github.com/OpenXRay/xray-16",
-            "version": "October 2020 Preview",
+            "version": "December 2020 Preview",
             "comments": "Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD with commercial source code",
             "license_link": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt",
             "non_free": true
+        }
+    },
+    "200940": {
+        "game_name": "Sonic CD",
+        "download": [
+            {
+                "name": "sonic-cd-11-decomp",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/sonic-cd-11-decomp-1/",
+                "file": "sonic-cd-11-decomp-200940-1.tar.xz"
+            }
+        ],
+        "command": "./soniccd",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/200940",
+            "engine_name": "Sonic-CD-11-Decompilation",
+            "engine_link": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation",
+            "version": "41c1397 (from master branch)",
+            "comments": "In-game options menu will not work, will need to edit settings.ini file inside the game folder.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Unknown",
+            "license_link": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation",
+            "non_free": true
+        }
+    },
+    "204340": {
+        "game_name": "Serious Sam 2",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "https://ftp.jeuxlinux.fr/files/",
+                "file": "ss_linuxbeta_rc_2_1_public.tar.gz"
+            },
+            {
+                "name": "linuxlibs",
+                "url": "https://media-cdn.ubuntu-de.org/wiki/attachments/30/23/",
+                "file": "SeriousSam2libs.zip"
+            },
+            {
+                "name": "serioussam2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serioussam2-1/",
+                "file": "serioussam2-204340-1.tar.xz"
+            }
+        ],
+        "command": "./run-serioussam2.sh",
+        "download_config": {
+            "binaries": {
+                "extract_location": "./",
+                "setup": true
+            },
+            "linuxlibs": {
+                "setup": true,
+                "extract_location": "./Bin/Linux-Dynamic-Release/",
+                "strip_prefix": "SS2/",
+                "decode_as_zip": true
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-serioussam2.sh",
+            "license_path": "./README"
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/204340/",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://github.com/luxtorpeda-dev/packages/issues/172",
+            "version": "rc2.1 public beta",
+            "comments": "Original public beta. Not up to date with Windows version. Need to edit Sam2.ini to change resolution. Uses padsp for audio.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://github.com/luxtorpeda-dev/packages/issues/172",
+            "closed_source": true,
+            "32-bit": true
         }
     },
     "208200": {
@@ -1785,8 +2213,8 @@
             },
             {
                 "name": "classic-rbdoom-3-bfg",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-2/",
-                "file": "classic-rbdoom-3-bfg-208200-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-3/",
+                "file": "classic-rbdoom-3-bfg-208200-3.tar.xz"
             }
         ],
         "choices": [
@@ -1831,7 +2259,7 @@
                 "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
                 "engine_name": "Classic-RBDOOM-3-BFG",
                 "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
-                "version": "1.2.6-BFA",
+                "version": "DOOM BFA Version 1.2.7",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -1845,8 +2273,8 @@
         "download": [
             {
                 "name": "cortex-command",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cortex-command-1/",
-                "file": "cortex-command-209670-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cortex-command-3/",
+                "file": "cortex-command-209670-3.tar.xz"
             }
         ],
         "download_config": {
@@ -1859,12 +2287,54 @@
             "store_link": "https://store.steampowered.com/app/209670",
             "engine_name": "Cortex Command Community Project Source",
             "engine_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source",
-            "version": "5280ac5 (from master)",
+            "version": "Pre-Release 3.0",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "AGPLv3",
             "license_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source/blob/development/LICENSE"
+        }
+    },
+    "210950": {
+        "game_name": "Rune Classic",
+        "download": [
+            {
+                "name": "data",
+                "url": "https://archive.org/download/Rune_Halls_of_Valhalla_Linux/",
+                "file": "rune%2Bhon.7z"
+            },
+            {
+                "name": "rune",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rune-3/",
+                "file": "rune-210950-3.tar.xz"
+            }
+        ],
+        "command": "./run-rune.sh",
+        "download_config": {
+            "data": {
+                "setup": true,
+                "copy_only": true
+            }
+        },
+        "setup": {
+            "complete_path": "../ready",
+            "command": "./setup-rune.sh",
+            "uninstall_command": "./uninstall-rune.sh",
+            "license_path": "./license.int"
+        },
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/210950",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://archive.org/details/Rune_Halls_of_Valhalla_Linux",
+            "version": "1.0.8",
+            "comments": "Uses padsp for audio. Uses pack from rea987. Pack is original gold with expansion, will not contain classic changes.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://archive.org/details/Rune_Halls_of_Valhalla_Linux",
+            "closed_source": true,
+            "32-bit": true
         }
     },
     "224960": {
@@ -2102,6 +2572,75 @@
             "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
         }
     },
+    "242980": {
+        "game_name": "Daikatana",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "https://bitbucket.org/daikatana13/daikatana/downloads/",
+                "file": "Daikatana-Linux-2020-07-17-x64.tar.bz2"
+            },
+            {
+                "name": "pak6",
+                "url": "https://bitbucket.org/daikatana13/daikatana/downloads/",
+                "file": "pak6-2018-12-23.zip"
+            },
+            {
+                "name": "pak5",
+                "url": "http://dk.toastednet.org/DK13/",
+                "file": "pak5.zip"
+            },
+            {
+                "name": "soundtrack",
+                "url": "http://dk.toastednet.org/Music/",
+                "file": "Daikatana_OGG_music.zip"
+            },
+            {
+                "name": "daikatana",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daikatana-1/",
+                "file": "daikatana-242980-1.tar.xz"
+            }
+        ],
+        "command": "./run-daikatana.sh",
+        "download_config": {
+            "binaries": {
+                "extract_location": "./",
+                "strip_prefix": "Daikatana-Linux-2020-07-18-x64/",
+                "setup": true
+            },
+            "pak6": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "pak5": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "soundtrack": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data/music"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-daikatana.sh",
+            "license_path": "./LICENSES.txt"
+        },
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/242980/",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
+            "version": "1.3",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
+            "closed_source": true
+        }
+    },
     "273570": {
         "game_name": "Descent",
         "download": [
@@ -2165,8 +2704,8 @@
         "download": [
             {
                 "name": "fs2open",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-11/",
-                "file": "fs2open-273620-11.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-15/",
+                "file": "fs2open-273620-15.tar.xz"
             }
         ],
         "command": "./run-freespace2.sh",
@@ -2174,7 +2713,7 @@
             "store_link": "https://store.steampowered.com/app/273620/Freespace_2/",
             "engine_name": "scp-fs2open",
             "engine_link": "https://github.com/scp-fs2open/fs2open.github.com",
-            "version": "45417a0 (from master)",
+            "version": "Release 21.0 RC4",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -2280,8 +2819,8 @@
         "download": [
             {
                 "name": "julius",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/julius-6/",
-                "file": "julius-517790-6.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/julius-7/",
+                "file": "julius-517790-7.tar.xz"
             },
             {
                 "name": "augustus",
@@ -2313,7 +2852,7 @@
                 "store_link": "https://store.steampowered.com/app/517790/",
                 "engine_name": "julius",
                 "engine_link": "https://github.com/bvschaik/julius",
-                "version": "1.5.1",
+                "version": "1.6.0",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -2392,6 +2931,28 @@
             "non_free": true
         }
     },
+    "1000410": {
+        "game_name": "WRATH: Aeon of Ruin",
+        "download": [
+            {
+                "name": "wrath-darkplaces",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wrath-darkplaces-1/",
+                "file": "wrath-darkplaces-1000410-1.tar.xz"
+            }
+        ],
+        "command": "./wrath",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1000410/",
+            "engine_name": "wrath-darkplaces",
+            "engine_link": "https://github.com/KillPixelGames/wrath-darkplaces",
+            "version": "Content Update #3",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/KillPixelGames/wrath-darkplaces/blob/master/COPYING"
+        }
+    },
     "1241950": {
         "game_name": "Warzone 2100",
         "download": [
@@ -2461,8 +3022,8 @@
         "download": [
             {
                 "name": "realrtcw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-4/",
-                "file": "realrtcw-1379630-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-5/",
+                "file": "realrtcw-1379630-5.tar.xz"
             }
         ],
         "commands": {
@@ -2483,7 +3044,7 @@
             "store_link": "https://store.steampowered.com/app/1379630/",
             "engine_name": "realrtcw",
             "engine_link": "https://github.com/wolfetplayer/RealRTCW",
-            "version": "3.1 (a1344ab)",
+            "version": "3.1 (85ad6e5)",
             "comments": "Requires installation of RTCW. Will ask for directory path on first launch. No steam version.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -2508,8 +3069,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-3/",
-                "file": "dosbox-staging-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-4/",
+                "file": "dosbox-staging-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2575,7 +3136,7 @@
                 "store_link": "https://store.steampowered.com/curator/35328265/",
                 "engine_name": "dosbox-staging",
                 "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
-                "version": "0.75.2",
+                "version": "0.76.0",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
