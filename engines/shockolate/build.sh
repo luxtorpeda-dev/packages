@@ -15,6 +15,7 @@ sudo apt-get -y remove libsdl2-2.0-0 libsdl2-dev
 
 pushd source
 sudo ./osx-linux/install_32bit_sdl.sh
+
 mkdir build
 cd build
 cmake \
