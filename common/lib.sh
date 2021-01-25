@@ -193,6 +193,18 @@ setup_custom_container() {
         sudo update-alternatives --set gcc "/usr/bin/gcc-8"
         sudo update-alternatives --set g++ "/usr/bin/g++-8"
     fi
+    
+    if [ $CUSTOM_CONTAINER = "ubuntu@sha256:cba704e6616274262b2be5116bbcb5df171ec6bac0956b895b16b277c612edf1" ]; then
+        apt-get update
+        apt-get -y install build-essential cmake git g++-8 gcc-8 sudo wget unzip libx11-dev libgl1-mesa-dev automake libtool ncurses-dev pkg-config libpulse-dev freeglut3-dev libxrandr-dev libxinerama-dev
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Action"
+
+        sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
+        sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
+        sudo update-alternatives --set gcc "/usr/bin/gcc-8"
+        sudo update-alternatives --set g++ "/usr/bin/g++-8"
+    fi
 }
 
 set -x
