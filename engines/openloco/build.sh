@@ -78,6 +78,7 @@ cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DPNG_LIBRARIES="$pfx/lib/libpng16.so" \
+    -DCMAKE_BUILD_TYPE=Release \
     ..
 make -j "$(nproc)"
 cp -rfv ../data .
