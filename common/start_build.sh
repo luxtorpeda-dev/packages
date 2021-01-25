@@ -18,11 +18,6 @@ if [ ! -z "${CUSTOM_CONTAINER}" ]; then
         echo "Installing gcc 10"
         install_gcc_10_ubuntu_1804
     fi
-    
-    if [ ! -z "${GCC_9}" ]; then
-        echo "Installing gcc 9"
-        install_gcc_9
-    fi
 else
     if [ ! -z "${GCC_9}" ]; then
         echo "Installing gcc 9"

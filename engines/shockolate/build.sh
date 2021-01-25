@@ -11,6 +11,8 @@ mkdir -p "$pfx"
 
 # BUILD PHASE
 
+sudo apt-get -y remove libsdl2-2.0-0 libsdl2-dev
+
 pushd source
 sudo ./osx-linux/install_32bit_sdl.sh
 mkdir build
@@ -23,6 +25,9 @@ make -j "$(nproc)" systemshock
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/410700/dist/lib"
 cp -rfv "source/build/systemshock" "$diststart/410700/dist/"
 cp -rfv "source/shaders" "$diststart/410700/dist"
 cp -rfv assets/* "$diststart/410700/dist/"
+cp -rfv "source/build_ext/built_sdl/lib/"libSDL2*.so* "$diststart/410700/dist/lib"
+cp -rfv "source/build_ext/built_sdl_mixer/lib/"libSDL2*.so* "$diststart/410700/dist/lib"
