@@ -2798,6 +2798,28 @@
             "license_link": "https://github.com/arvindrajayadav/Good-Robot/blob/master/LICENSE.txt"
         }
     },
+    "410700": {
+        "game_name": "System Shock: Classic",
+        "download": [],
+        "download_config": {
+            "shockolate": {
+                "extract_location": "../SSHOCK"
+            }
+        },
+        "command": "../SSHOCK/run-shockolate.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/410700",
+            "engine_name": "shockolate",
+            "engine_link": "https://github.com/Interrupt/systemshock",
+            "version": "0.7.7",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Interrupt/systemshock/blob/master/COPYING.txt",
+            "32-bit": true
+        }
+    },
     "517790": {
         "game_name": "Caesar 3",
         "download": [
