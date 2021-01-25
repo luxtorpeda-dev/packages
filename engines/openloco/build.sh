@@ -25,7 +25,7 @@ popd
 
 git clone https://github.com/SDL-mirror/SDL_mixer.git SDL_mixer
 pushd SDL_mixer
-git checkout -f ffa335c
+git checkout -f release-2.0.4
 popd
 
 readonly pfx="$PWD/local"
@@ -47,14 +47,9 @@ make install
 popd
 
 pushd "SDL_mixer"
-mkdir -p build
-cd build
-cmake \
-    -DCMAKE_BUILD_TYPE=MinSizeRel \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    ..
+./configure --prefix="$pfx"
 make -j "$(nproc)"
+make install
 popd
 
 pushd libpng
