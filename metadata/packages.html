@@ -71,29 +71,38 @@
                 }
             }
             
+            function createEngineTypeCell(title, row) {
+                const gameCell = row.insertCell(2);
+                if (title.information && title.information['32-bit']) {
+                    gameCell.innerHTML = "NO";
+                } else {
+                    gameCell.innerHTML = "YES";
+                }
+            }
+            
             function createEngineLicenseCell(title, row) {
-                const engineCell = row.insertCell(2);
+                const engineCell = row.insertCell(3);
                 if (title.information && title.information.license) {
                     engineCell.appendChild(createLink(title.information.license_link, title.information.license));
                 }
             }
 
             function createEngineVersionCell(title, row) {
-                const engineVersionCell = row.insertCell(3);
+                const engineVersionCell = row.insertCell(4);
                 if (title.information) {
                     engineVersionCell.innerHTML = title.information.version;
                 }
             }
 
             function createCommentsCell(title, row) {
-                const engineVersionCell = row.insertCell(4);
+                const engineVersionCell = row.insertCell(5);
                 if (title.information) {
                     engineVersionCell.innerHTML = title.information.comments;
                 }
             }
 
             function createAuthorCell(title, row) {
-                const authorCell = row.insertCell(5);
+                const authorCell = row.insertCell(6);
                 if (title.information) {
                     authorCell.appendChild(createLink(title.information.author_link, title.information.author));
                 }
@@ -106,6 +115,7 @@
                     const row = table.insertRow(idx);
                     createGameCell(title, row);
                     createEngineCell(title, row);
+                    createEngineTypeCell(title, row);
                     createEngineLicenseCell(title, row);
                     createEngineVersionCell(title, row);
                     createCommentsCell(title, row);
@@ -124,6 +134,7 @@
                     <tr>
                         <th>Game</th>
                         <th>Engine</th>
+                        <th>Engine 64-bit</th>
                         <th>Engine License</th>
                         <th>Engine Version</th>
                         <th>Comments</th>
