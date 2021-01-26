@@ -1876,11 +1876,6 @@
                 "file": "unreal_libs_i386.tar.bz2"
             }
         ],
-        "download_config": {
-            "binaries": {
-                "copy_only": true
-            }
-        },
         "command": "./run-unreal.sh",
         "use_original_command_directory": true,
         "information": {
