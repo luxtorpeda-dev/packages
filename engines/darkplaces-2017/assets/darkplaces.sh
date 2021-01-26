@@ -5,4 +5,4 @@ if [ ! -f darkplaces/share/quake/id1/config.cfg ] ; then
 	sed -i "s|%USER%|$USER|" darkplaces/share/quake/id1/config.cfg
 fi
 
-./darkplaces-sdl -basedir darkplaces/share/quake "$@"
+./darkplaces/darkplaces-sdl -basedir darkplaces/share/quake "$@"
