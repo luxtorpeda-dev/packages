@@ -1867,6 +1867,30 @@
             }
         ]
     },
+    "13250": {
+        "game_name": "Unreal Gold",
+        "download": [
+            {
+                "name": "unreal_libs",
+                "url": "https://luxtorpeda-dev.github.io/closed-assets/",
+                "file": "unreal_libs_i386.tar.bz2"
+            }
+        ],
+        "command": "./run-unreal.sh",
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/13250",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://www.oldunreal.com/downloads/unreal/oldunreal-patches/",
+            "version": "227i",
+            "comments": "Requires Oldunreal installer, which requires a manual download and Wine to be installed. System/README.txt should be referred to. Uses library pack from legluondunet. Steam overlay is disabled.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://store.steampowered.com/eula/eula_epic",
+            "closed_source": true
+        }
+    },
     "15700": {
         "game_name": "Oddworld: Abe's Oddysee",
         "download": [
