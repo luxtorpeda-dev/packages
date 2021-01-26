@@ -1893,7 +1893,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
             "license_link": "https://store.steampowered.com/eula/eula_epic",
-            "closed_source": true
+            "closed_source": true,
+            "32-bit": true
         }
     },
     "15700": {
