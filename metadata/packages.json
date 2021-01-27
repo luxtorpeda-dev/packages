@@ -2180,8 +2180,8 @@
             },
             {
                 "name": "unreal-gold",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/unreal-gold-1/",
-                "file": "unreal-gold-13250-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/unreal-gold-2/",
+                "file": "unreal-gold-13250-2.tar.xz"
             }
         ],
         "command": "./run-unreal.sh",
