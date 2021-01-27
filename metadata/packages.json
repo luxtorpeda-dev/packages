@@ -541,8 +541,9 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-5/",
-                "file": "vkquake-2310-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-6/",
+                "file": "vkquake-common-6.tar.xz",
+                "cache_by_name": true
             },
             {
                 "name": "Quake Soundtrack",
@@ -1501,6 +1502,12 @@
                 "name": "Mission Pack 2 Soundtrack",
                 "url": "https://www.quaddicted.com/files/music/",
                 "file": "quake_mp2_soundtrack.zip"
+            },
+            {
+                "name": "vkquake",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-6/",
+                "file": "vkquake-common-6.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -1530,6 +1537,12 @@
                 "name": "Mission Pack 1 Soundtrack",
                 "url": "https://www.quaddicted.com/files/music/",
                 "file": "quake_mp1_soundtrack.zip"
+            },
+            {
+                "name": "vkquake",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-6/",
+                "file": "vkquake-common-6.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
