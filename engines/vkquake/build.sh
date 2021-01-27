@@ -16,6 +16,7 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/common/dist/share/quake/id1"
 mkdir -p "$diststart/common/dist/share/quake/rogue"
+mkdir -p "$diststart/common/dist/share/quake/hipnotic"
 cp -v source/Quake/vkquake "$diststart/common/dist/"
 cp -v assets/vkquake.sh "$diststart/common/dist/"
 cp -v assets/vkquake-rogue.sh "$diststart/common/dist/"
