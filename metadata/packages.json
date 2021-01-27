@@ -549,6 +549,12 @@
                 "name": "Quake Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake/",
                 "file": "quake-campaign-soundtrack.tar.xz"
+            },
+            {
+                "name": "darkplaces-2017",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-1/",
+                "file": "darkplaces-2017-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -1538,6 +1544,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-6/",
                 "file": "vkquake-common-6.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "darkplaces-2017",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-1/",
+                "file": "darkplaces-2017-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -1609,6 +1621,12 @@
                 "name": "vkquake",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-6/",
                 "file": "vkquake-common-6.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "darkplaces-2017",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-1/",
+                "file": "darkplaces-2017-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
