@@ -551,18 +551,48 @@
                 "file": "quake-campaign-soundtrack.tar.xz"
             }
         ],
-        "command": "./vkquake.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/2310/",
-            "engine_name": "vkQuake",
-            "engine_link": "https://github.com/Novum/vkQuake",
-            "version": "1.05.2",
-            "comments": "Single-player only for now, fixed music",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
-        }
+        "choices": [
+            {
+                "name": "vkquake",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake",
+                    "Quake Soundtrack"
+                ]
+            },
+            {
+                "name": "darkplaces-2017",
+                "command": "./darkplaces-2017/darkplaces.sh",
+                "download": [
+                    "darkplaces-2017",
+                    "Quake Soundtrack"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2310/",
+                "engine_name": "vkQuake",
+                "engine_link": "https://github.com/Novum/vkQuake",
+                "version": "1.05.2",
+                "comments": "Single-player only for now, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2310/",
+                "engine_name": "darkplaces-2017",
+                "engine_link": "http://icculus.org/twilight/darkplaces/",
+                "version": "20170829beta1",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details"
+            }
+        ]
     },
     "2320": {
         "game_name": "Quake II",
@@ -1510,25 +1540,62 @@
                 "cache_by_name": true
             }
         ],
-        "download_config": {
-            "Mission Pack 2 Soundtrack": {
-                "extract_location": "./share/quake/",
-                "strip_prefix": "quake_mp2_soundtrack/",
-                "decode_as_zip": true
+        "choices": [
+            {
+                "name": "vkquake",
+                "command": "./vkquake-rogue.sh",
+                "download": [
+                    "vkquake",
+                    "Mission Pack 2 Soundtrack"
+                ],
+                "download_config": {
+                    "Mission Pack 2 Soundtrack": {
+                        "extract_location": "./share/quake/",
+                        "strip_prefix": "quake_mp2_soundtrack/",
+                        "decode_as_zip": true
+                    }
+                }
+            },
+            {
+                "name": "darkplaces-2017",
+                "command": "./darkplaces-2017/darkplaces-rogue.sh",
+                "download": [
+                    "darkplaces-2017",
+                    "Mission Pack 2 Soundtrack"
+                ],
+                "download_config": {
+                    "Mission Pack 2 Soundtrack": {
+                        "extract_location": "./darkplaces-2017/share/quake/",
+                        "strip_prefix": "quake_mp2_soundtrack/",
+                        "decode_as_zip": true
+                    }
+                }
             }
-        },
-        "command": "./vkquake-rogue.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/9030/",
-            "engine_name": "vkQuake",
-            "engine_link": "https://github.com/Novum/vkQuake",
-            "version": "1.05.2",
-            "comments": "Single-player only for now, fixed music",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
-        }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/9030/",
+                "engine_name": "vkQuake",
+                "engine_link": "https://github.com/Novum/vkQuake",
+                "version": "1.05.2",
+                "comments": "Single-player only for now, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/9030/",
+                "engine_name": "darkplaces-2017",
+                "engine_link": "http://icculus.org/twilight/darkplaces/",
+                "version": "20170829beta1",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details"
+            }
+        ]
     },
     "9040": {
         "game_name": "QUAKE Mission Pack 1: Scourge of Armagon",
@@ -1545,25 +1612,62 @@
                 "cache_by_name": true
             }
         ],
-        "download_config": {
-            "Mission Pack 1 Soundtrack": {
-                "extract_location": "./share/quake/",
-                "strip_prefix": "quake_mp1_soundtrack/",
-                "decode_as_zip": true
+        "choices": [
+            {
+                "name": "vkquake",
+                "command": "./vkquake-hipnotic.sh",
+                "download": [
+                    "vkquake",
+                    "Mission Pack 1 Soundtrack"
+                ],
+                "download_config": {
+                    "Mission Pack 1 Soundtrack": {
+                        "extract_location": "./share/quake/",
+                        "strip_prefix": "quake_mp1_soundtrack/",
+                        "decode_as_zip": true
+                    }
+                }
+            },
+            {
+                "name": "darkplaces-2017",
+                "command": "./darkplaces-2017/darkplaces-hipnotic.sh",
+                "download": [
+                    "darkplaces-2017",
+                    "Mission Pack 1 Soundtrack"
+                ],
+                "download_config": {
+                    "Mission Pack 1 Soundtrack": {
+                        "extract_location": "./darkplaces-2017/share/quake/",
+                        "strip_prefix": "quake_mp1_soundtrack/",
+                        "decode_as_zip": true
+                    }
+                }
             }
-        },
-        "command": "./vkquake-hipnotic.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/9040/",
-            "engine_name": "vkQuake",
-            "engine_link": "https://github.com/Novum/vkQuake",
-            "version": "1.05.2",
-            "comments": "Single-player only for now, fixed music",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv2",
-            "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
-        }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/9040/",
+                "engine_name": "vkQuake",
+                "engine_link": "https://github.com/Novum/vkQuake",
+                "version": "1.05.2",
+                "comments": "Single-player only for now, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/9040/",
+                "engine_name": "darkplaces-2017",
+                "engine_link": "http://icculus.org/twilight/darkplaces/",
+                "version": "20170829beta1",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details"
+            }
+        ]
     },
     "9050": {
         "game_name": "DOOM 3",
