@@ -233,6 +233,22 @@
                         "extract_location": "./chocolate-doom"
                     }
                 }
+            },
+            {
+                "name": "prboom-plus",
+                "command": "./prboom-plus/run-prboom-plus.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM.WAD"
+                ],
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
+                    }
+                }
             }
         ],
         "information": [
@@ -268,6 +284,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "prboom-plus",
+                "engine_link": "https://github.com/coelckers/prboom-plus",
+                "version": "9b8a632 (from master)",
+                "comments": "Pick FluidSynth in in-game options to hear music.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING"
             }
         ]
     },
@@ -383,6 +410,33 @@
                         "extract_location": "./chocolate-doom"
                     }
                 }
+            },
+            {
+                "name": "prboom-plus",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./prboom-plus/run-prboom-plus.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./prboom-plus/run-prboom-plus.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
+                    }
+                }
             }
         ],
         "information": [
@@ -409,7 +463,7 @@
                 "license_link": "https://github.com/skyjake/Doomsday-Engine"
             },
             {
-                "store_link": "https://store.steampowered.com/app/2280/",
+                "store_link": "https://store.steampowered.com/app/2290/",
                 "engine_name": "Chocolate Doom",
                 "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
                 "version": "f700744 (from master)",
@@ -418,6 +472,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2290/",
+                "engine_name": "prboom-plus",
+                "engine_link": "https://github.com/coelckers/prboom-plus",
+                "version": "9b8a632 (from master)",
+                "comments": "Pick FluidSynth in in-game options to hear music.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING"
             }
         ]
     },
@@ -498,6 +563,22 @@
                         "extract_location": "./chocolate-doom"
                     }
                 }
+            },
+            {
+                "name": "prboom-plus",
+                "command": "./prboom-plus/run-prboom-plus.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM2.WAD"
+                ],
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
+                    }
+                }
             }
         ],
         "information": [
@@ -524,7 +605,7 @@
                 "license_link": "https://github.com/skyjake/Doomsday-Engine"
             },
             {
-                "store_link": "https://store.steampowered.com/app/2280/",
+                "store_link": "https://store.steampowered.com/app/2300/",
                 "engine_name": "Chocolate Doom",
                 "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
                 "version": "f700744 (from master)",
@@ -533,6 +614,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2300/",
+                "engine_name": "prboom-plus",
+                "engine_link": "https://github.com/coelckers/prboom-plus",
+                "version": "9b8a632 (from master)",
+                "comments": "Pick FluidSynth in in-game options to hear music.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING"
             }
         ]
     },
