@@ -14,9 +14,15 @@ make -j "$(nproc)" USE_CODEC_MP3=0
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/2310/dist/share/quake/id1"
-cp -v source/Quake/vkquake "$diststart/$app_id/dist/"
-cp -v assets/vkquake.sh "$diststart/$app_id/dist/"
-cp -v assets/default.lux.cfg "$diststart/$app_id/dist/share/quake"
-ln -s "../../../Id1/PAK0.PAK" "$diststart/2310/dist/share/quake/id1/pak0.pak"
-ln -s "../../../Id1/PAK1.PAK" "$diststart/2310/dist/share/quake/id1/pak1.pak"
+mkdir -p "$diststart/common/dist/share/quake/id1"
+mkdir -p "$diststart/common/dist/share/quake/rogue"
+mkdir -p "$diststart/common/dist/share/quake/hipnotic"
+cp -v source/Quake/vkquake "$diststart/common/dist/"
+cp -v assets/vkquake.sh "$diststart/common/dist/"
+cp -v assets/vkquake-rogue.sh "$diststart/common/dist/"
+cp -v assets/vkquake-hipnotic.sh "$diststart/common/dist/"
+cp -v assets/default.lux.cfg "$diststart/common/dist/share/quake"
+ln -s "../../../Id1/PAK0.PAK" "$diststart/common/dist/share/quake/id1/pak0.pak"
+ln -s "../../../Id1/PAK1.PAK" "$diststart/common/dist/share/quake/id1/pak1.pak"
+ln -s "../../../rogue/pak0.pak" "$diststart/common/dist/share/quake/rogue/pak0.pak"
+ln -s "../../../hipnotic/pak0.pak" "$diststart/common/dist/share/quake/hipnotic/pak0.pak"
