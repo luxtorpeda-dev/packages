@@ -14,9 +14,15 @@ make -j "$(nproc)" sdl-release
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/2310/dist/darkplaces/share/quake/id1"
-cp -v source/darkplaces/darkplaces-sdl "$diststart/2310/dist/darkplaces/"
-cp -v assets/darkplaces.sh "$diststart/2310/dist/darkplaces/"
-cp -v assets/default.lux.cfg "$diststart/2310/dist/darkplaces/share/quake"
-ln -s "../../../../Id1/PAK0.PAK" "$diststart/2310/dist/darkplaces/share/quake/id1/pak0.pak"
-ln -s "../../../../Id1/PAK1.PAK" "$diststart/2310/dist/darkplaces/share/quake/id1/pak1.pak"
+mkdir -p "$diststart/common/dist/darkplaces-2017/share/quake/id1"
+mkdir -p "$diststart/common/dist/darkplaces-2017/share/quake/rogue"
+mkdir -p "$diststart/common/dist/darkplaces-2017/share/quake/hipnotic"
+cp -v source/darkplaces/darkplaces-sdl "$diststart/common/dist/darkplaces-2017/"
+cp -v assets/darkplaces.sh "$diststart/common/dist/darkplaces-2017/"
+cp -v assets/darkplaces-rogue.sh "$diststart/common/dist/darkplaces-2017/"
+cp -v assets/darkplaces-hipnotic.sh "$diststart/common/dist/darkplaces-2017/"
+cp -v assets/default.lux.cfg "$diststart/common/dist/darkplaces-2017/share/quake"
+ln -s "../../../../Id1/PAK0.PAK" "$diststart/common/dist/darkplaces-2017/share/quake/id1/pak0.pak"
+ln -s "../../../../Id1/PAK1.PAK" "$diststart/common/dist/darkplaces-2017/share/quake/id1/pak1.pak"
+ln -s "../../../../rogue/pak0.pak" "$diststart/common/dist/darkplaces-2017/share/quake/rogue/pak0.pak"
+ln -s "../../../../hipnotic/pak0.pak" "$diststart/common/dist/darkplaces-2017/share/quake/hipnotic/pak0.pak"

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ ! -f darkplaces/share/quake/id1/config.cfg ] ; then
-	cp -f darkplaces/share/quake/default.lux.cfg darkplaces/share/quake/id1/config.cfg
-	sed -i "s|%USER%|$USER|" darkplaces/share/quake/id1/config.cfg
+if [ ! -f darkplaces-2017/share/quake/id1/config.cfg ] ; then
+	cp -f darkplaces-2017/share/quake/default.lux.cfg darkplaces-2017/share/quake/id1/config.cfg
+	sed -i "s|%USER%|$USER|" darkplaces-2017/share/quake/id1/config.cfg
 fi
 
-./darkplaces/darkplaces-sdl -basedir darkplaces/share/quake "$@"
+./darkplaces-2017/darkplaces-sdl -basedir darkplaces-2017/share/quake "$@"
