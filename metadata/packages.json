@@ -182,6 +182,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
                 "file": "chocolate-doom-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-1/",
+                "file": "prboom-plus-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -511,6 +517,12 @@
                 "name": "chocolate-doom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
                 "file": "chocolate-doom-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-1/",
+                "file": "prboom-plus-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1128,6 +1140,12 @@
                 "name": "chocolate-doom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
                 "file": "chocolate-doom-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-1/",
+                "file": "prboom-plus-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
