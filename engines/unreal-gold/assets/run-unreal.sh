@@ -17,4 +17,5 @@ then
 fi
 
 chmod +x ./UnrealLinux.bin
+cp -rfv libSDL-1.2.so.0 ./libs
 LD_LIBRARY_PATH="./libs" LD_PRELOAD="" ./UnrealLinux.bin -log
