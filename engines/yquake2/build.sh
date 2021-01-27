@@ -8,16 +8,61 @@ pushd source
 git checkout d08cf04
 popd
 
+git clone https://github.com/yquake2/ctf.git source-ctf
+pushd source-ctf
+git checkout 16198d7
+popd
+
+git clone https://github.com/yquake2/xatrix.git source-xatrix
+pushd source-xatrix
+git checkout 7819c12
+popd
+
+git clone https://github.com/yquake2/rogue.git source-rogue
+pushd source-rogue
+git checkout 6fb2d6e
+popd
+
 # BUILD PHASE
 pushd "source"
 echo 'release/q2ded : LDFLAGS += -l:librt.a' > config.mk
 make -j "$(nproc)"
 popd
 
+pushd "source-ctf"
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j "$(nproc)"
+popd
+
+pushd "source-xatrix"
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j "$(nproc)"
+popd
+
+pushd "source-rogue"
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j "$(nproc)"
+popd
+
 # COPY PHASE
 mkdir -p "$diststart/common/dist/baseq2"
+mkdir -p "$diststart/common/dist/ctf"
+mkdir -p "$diststart/common/dist/rogue"
+mkdir -p "$diststart/common/dist/xatrix"
 
 cp -v assets/quake2.sh "$diststart/common/dist/"
 cp -v assets/default.lux.cfg "$diststart/common/dist/baseq2/yq2.cfg"
+cp -v assets/default.lux.cfg "$diststart/common/dist/ctf/yq2.cfg"
+cp -v assets/default.lux.cfg "$diststart/common/dist/rogue/yq2.cfg"
+cp -v assets/default.lux.cfg "$diststart/common/dist/xatrix/yq2.cfg"
 cp -v source/stuff/icon/Quake2.svg "$diststart/common/dist/"
 cp -rfv "source/release/"* "$diststart/common/dist/"
+cp -rfv "source-ctf/build/Release/game.so" "$diststart/common/dist/ctf"
+cp -rfv "source-rogue/build/Release/game.so" "$diststart/common/dist/rogue"
+cp -rfv "source-xatrix/build/Release/game.so" "$diststart/common/dist/xatrix"
