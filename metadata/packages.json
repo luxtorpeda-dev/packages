@@ -1494,6 +1494,64 @@
             "license_link": "https://github.com/iortcw/iortcw/blob/master/SP/COPYING.txt"
         }
     },
+    "9030": {
+        "game_name": "QUAKE Mission Pack 2: Dissolution of Eternity",
+        "download": [
+            {
+                "name": "Mission Pack 2 Soundtrack",
+                "url": "https://www.quaddicted.com/files/music/",
+                "file": "quake_mp2_soundtrack.zip"
+            }
+        ],
+        "download_config": {
+            "Mission Pack 2 Soundtrack": {
+                "extract_location": "./share/quake/",
+                "strip_prefix": "quake_mp2_soundtrack/",
+                "decode_as_zip": true
+            }
+        },
+        "command": "./vkquake-rogue.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9030/",
+            "engine_name": "vkQuake",
+            "engine_link": "https://github.com/Novum/vkQuake",
+            "version": "1.05.2",
+            "comments": "Single-player only for now, fixed music",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv2",
+            "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
+        }
+    },
+    "9040": {
+        "game_name": "QUAKE Mission Pack 1: Scourge of Armagon",
+        "download": [
+            {
+                "name": "Mission Pack 1 Soundtrack",
+                "url": "https://www.quaddicted.com/files/music/",
+                "file": "quake_mp1_soundtrack.zip"
+            }
+        ],
+        "download_config": {
+            "Mission Pack 1 Soundtrack": {
+                "extract_location": "./share/quake/",
+                "strip_prefix": "quake_mp1_soundtrack/",
+                "decode_as_zip": true
+            }
+        },
+        "command": "./vkquake-hipnotic.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9040/",
+            "engine_name": "vkQuake",
+            "engine_link": "https://github.com/Novum/vkQuake",
+            "version": "1.05.2",
+            "comments": "Single-player only for now, fixed music",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv2",
+            "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
+        }
+    },
     "9050": {
         "game_name": "DOOM 3",
         "download": [
