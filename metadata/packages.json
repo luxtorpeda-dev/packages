@@ -664,6 +664,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-2/",
                 "file": "darkplaces-2017-common-2.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "quakespasm-spiked",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-1/",
+                "file": "quakespasm-spiked-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -1698,6 +1704,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-2/",
                 "file": "darkplaces-2017-common-2.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "quakespasm-spiked",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-1/",
+                "file": "quakespasm-spiked-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -1801,6 +1813,12 @@
                 "name": "darkplaces-2017",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-2/",
                 "file": "darkplaces-2017-common-2.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "quakespasm-spiked",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-1/",
+                "file": "quakespasm-spiked-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
