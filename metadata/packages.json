@@ -698,7 +698,7 @@
             },
             {
                 "name": "quakespasm-spiked",
-                "command": "./quakespasm/darkplaces.sh",
+                "command": "./quakespasm/quakespasm.sh",
                 "download": [
                     "quakespasm-spiked",
                     "Quake Soundtrack Quaddicted"
