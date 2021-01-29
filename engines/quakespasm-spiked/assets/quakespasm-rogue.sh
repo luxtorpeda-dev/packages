@@ -5,4 +5,4 @@ if [ ! -f quakespasm/share/quake/rogue/config.cfg ] ; then
 	sed -i "s|%USER%|$USER|" quakespasm/share/quake/rogue/config.cfg
 fi
 
-./quakespasm/quakespasm -basedir quakespasm/share/quake -game rogue "$@"
+LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./quakespasm/lib" ./quakespasm/quakespasm -fitz -basedir quakespasm/share/quake -game rogue "$@"

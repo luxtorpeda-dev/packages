@@ -5,4 +5,4 @@ if [ ! -f quakespasm/share/quake/hipnotic/config.cfg ] ; then
 	sed -i "s|%USER%|$USER|" quakespasm/share/quake/hipnotic/config.cfg
 fi
 
-./quakespasm/quakespasm -basedir quakespasm/share/quake -game hipnotic "$@"
+LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./quakespasm/lib" ./quakespasm/quakespasm -fitz -basedir quakespasm/share/quake -game hipnotic "$@"

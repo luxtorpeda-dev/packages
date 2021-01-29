@@ -655,6 +655,11 @@
                 "file": "quake-campaign-soundtrack.tar.xz"
             },
             {
+                "name": "Quake Soundtrack Quaddicted",
+                "url": "https://www.quaddicted.com/files/music/",
+                "file": "quake_campaign_soundtrack.zip"
+            },
+            {
                 "name": "darkplaces-2017",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-2/",
                 "file": "darkplaces-2017-common-2.tar.xz",
@@ -675,8 +680,30 @@
                 "command": "./darkplaces-2017/darkplaces.sh",
                 "download": [
                     "darkplaces-2017",
-                    "Quake Soundtrack"
-                ]
+                    "Quake Soundtrack Quaddicted"
+                ],
+                "download_config": {
+                    "Quake Soundtrack Quaddicted": {
+                        "extract_location": "./darkplaces-2017/share/quake/",
+                        "strip_prefix": "quake_campaign_soundtrack/",
+                        "decode_as_zip": true
+                    }
+                }
+            },
+            {
+                "name": "quakespasm-spiked",
+                "command": "./quakespasm/darkplaces.sh",
+                "download": [
+                    "quakespasm-spiked",
+                    "Quake Soundtrack Quaddicted"
+                ],
+                "download_config": {
+                    "Quake Soundtrack Quaddicted": {
+                        "extract_location": "./quakespasm/share/quake/",
+                        "strip_prefix": "quake_campaign_soundtrack/",
+                        "decode_as_zip": true
+                    }
+                }
             }
         ],
         "information": [
@@ -701,6 +728,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2310/",
+                "engine_name": "quakespasm-spiked",
+                "engine_link": "https://github.com/Shpoike/Quakespasm",
+                "version": "9ffca1d (from master)",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt"
             }
         ]
     },
@@ -1692,6 +1730,21 @@
                         "decode_as_zip": true
                     }
                 }
+            },
+            {
+                "name": "quakespasm-spiked",
+                "command": "./quakespasm/quakespasm-rogue.sh",
+                "download": [
+                    "quakespasm-spiked",
+                    "Mission Pack 2 Soundtrack"
+                ],
+                "download_config": {
+                    "Mission Pack 2 Soundtrack": {
+                        "extract_location": "./quakespasm/share/quake/",
+                        "strip_prefix": "quake_mp2_soundtrack/",
+                        "decode_as_zip": true
+                    }
+                }
             }
         ],
         "information": [
@@ -1716,6 +1769,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/9030/",
+                "engine_name": "quakespasm-spiked",
+                "engine_link": "https://github.com/Shpoike/Quakespasm",
+                "version": "9ffca1d (from master)",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt"
             }
         ]
     },
@@ -1770,6 +1834,21 @@
                         "decode_as_zip": true
                     }
                 }
+            },
+            {
+                "name": "quakespasm-spiked",
+                "command": "./quakespasm/quakespasm-hipnotic.sh",
+                "download": [
+                    "quakespasm-spiked",
+                    "Mission Pack 1 Soundtrack"
+                ],
+                "download_config": {
+                    "Mission Pack 1 Soundtrack": {
+                        "extract_location": "./quakespasm/share/quake/",
+                        "strip_prefix": "quake_mp1_soundtrack/",
+                        "decode_as_zip": true
+                    }
+                }
             }
         ],
         "information": [
@@ -1794,6 +1873,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/9040/",
+                "engine_name": "quakespasm-spiked",
+                "engine_link": "https://github.com/Shpoike/Quakespasm",
+                "version": "9ffca1d (from master)",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt"
             }
         ]
     },
