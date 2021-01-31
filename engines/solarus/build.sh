@@ -23,6 +23,12 @@ pushd luajit
 git checkout -f 570e758
 popd
 
+git clone https://github.com/g-truc/glm glm
+pushd glm
+git checkout -f 947527d3
+git submodule update --init --recursive
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
@@ -57,6 +63,7 @@ cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DSOLARUS_GUI=OFF \
+    -DGLM_INCLUDE_DIR=../../glm \
     -DLuaJit_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
     -DLuaJit_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.a" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
