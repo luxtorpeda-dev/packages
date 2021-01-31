@@ -65,7 +65,7 @@ cmake \
     -DSOLARUS_GUI=OFF \
     -DGLM_INCLUDE_DIR=../../glm \
     -DLUA_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
-    -DLUA_LIBRARIES="$pfx/usr/local/lib/libluajit-5.1.so.2.1.0" \
+    -DLUA_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.so.2.1.0" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     ..
 make -j "$(nproc)"
