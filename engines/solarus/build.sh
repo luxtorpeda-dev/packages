@@ -64,8 +64,8 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DSOLARUS_GUI=OFF \
     -DGLM_INCLUDE_DIR=../../glm \
-    -DLuaJit_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
-    -DLuaJit_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.a" \
+    -DLUA_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
+    -DLUA_LIBRARIES="$pfx/usr/local/lib/libluajit-5.1.so.2.1.0" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     ..
 make -j "$(nproc)"
@@ -77,3 +77,4 @@ cp -rfv "assets/run-ocean-heart.sh" "$diststart/1393750/dist/"
 cp -rfv "source/build/solarus-run" "$diststart/1393750/dist/"
 cp -rfv "source/build/solarus" "$diststart/1393750/dist/lib"
 cp -rfv "$pfx/lib/"*.so* "$diststart/1393750/dist/lib/"
+cp -rfv "$pfx/usr/local/lib/"*.so* "$diststart/1393750/dist/lib/"
