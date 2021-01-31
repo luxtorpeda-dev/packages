@@ -40,6 +40,7 @@ popd
 export PKG_CONFIG_PATH="$pfx/lib/pkgconfig"
 
 pushd "libmodplug"
+autoreconf --install
 ./configure --prefix="$pfx"
 make -j "$(nproc)"
 make install
