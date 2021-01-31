@@ -3384,6 +3384,40 @@
             "author_link": "https://github.com/dreamer"
         }
     },
+    "812440": {
+        "game_name": "Half-Life: Absolute Zero",
+        "download": [
+            {
+                "name": "xash3d-fwgs",
+                "url": "https://github.com/FWGS/xash3d/releases/download/v0.19.2/",
+                "file": "xash3d_fwgs_linux_0.19.2.tar.xz"
+            }
+        ],
+         "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-absolute-zero.sh"
+        },
+        "download_config": {
+            "xash3d-fwgs": {
+                "strip_prefix": "xash3d_fwgs_linux_0.19.2/",
+                "extract_location": "./"
+            }
+        },
+        "command": "./run-absolute-zero.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/812440",
+            "engine_name": "xash3d-fwgs",
+            "engine_link": "https://github.com/FWGS/xash3d",
+            "version": "v0.19.2",
+            "comments": "Uses already compiled binaries from upstream project. Requires Half-Life to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3 with hl headers",
+            "license_link": "https://github.com/FWGS/xash3d/blob/master/COPYING",
+            "non_free": true,
+            "32-bit": true
+        }
+    },
     "961620": {
         "game_name": "Flashback",
         "download": [
