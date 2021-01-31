@@ -2,7 +2,7 @@
 
 # CLONE PHASE
 git clone https://github.com/FWGS/xash3d.git source
-pushd xash3d
+pushd source
 git checkout -f 33f9fe8
 popd
 
