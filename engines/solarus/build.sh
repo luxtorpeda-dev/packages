@@ -27,9 +27,11 @@ git clone https://github.com/g-truc/glm glm
 pushd glm
 git checkout -f 947527d3
 git submodule update --init --recursive
+sudo cp -rfv ./glm /usr/include
 popd
 
 readonly pfx="$PWD/local"
+enginepath="$PWD"
 mkdir -p "$pfx"
 
 # BUILD PHASE
@@ -60,20 +62,23 @@ popd
 pushd "source"
 mkdir -p build
 cd build
-GLM_DIR=../../glm cmake \
+cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DSOLARUS_TESTS=OFF \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DSOLARUS_GUI=OFF \
     -DLUA_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
     -DLUA_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.so.2.1.0" \
-    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_BUILD_TYPE=Release \
     ..
 make -j "$(nproc)"
+make install
 popd
 
 # COPY PHASE
 mkdir -p "$diststart/1393750/dist/lib"
 cp -rfv "assets/run-ocean-heart.sh" "$diststart/1393750/dist/"
-cp -rfv "source/build/solarus-run" "$diststart/1393750/dist/"
-cp -rfv "source/build/solarus" "$diststart/1393750/dist/lib"
+cp -rfv "$pfx/bin/solarus-run" "$diststart/1393750/dist/"
 cp -rfv "$pfx/lib/"*.so* "$diststart/1393750/dist/lib/"
+cp -rfv "$pfx/lib/x86_64-linux-gnu/"*.so* "$diststart/1393750/dist/lib/"
 cp -rfv "$pfx/usr/local/lib/"*.so* "$diststart/1393750/dist/lib/"
