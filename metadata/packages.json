@@ -2041,7 +2041,7 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Unknown",
-            "license_link": "https://github.com/GTAmodding/re3/blob/master/README.md",
+            "license_link": "https://github.com/GTAmodding/re3/issues/794",
             "non_free": true
         }
     },
@@ -2064,7 +2064,7 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Unknown",
-            "license_link": "https://github.com/GTAmodding/re3/blob/master/README.md",
+            "license_link": "https://github.com/GTAmodding/re3/issues/794",
             "non_free": true
         }
     },
@@ -2328,7 +2328,7 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Unknown",
-            "license_link": "https://github.com/AliveTeam/alive_reversing/blob/master/README.md",
+            "license_link": "https://github.com/AliveTeam/alive_reversing/issues/1083",
             "non_free": true
         }
     },
@@ -2352,7 +2352,7 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Unknown",
-            "license_link": "https://github.com/AliveTeam/alive_reversing/blob/master/README.md",
+            "license_link": "https://github.com/AliveTeam/alive_reversing/issues/1083",
             "non_free": true
         }
     },
@@ -2589,7 +2589,7 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Unknown",
-            "license_link": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation",
+            "license_link": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation/issues/77",
             "non_free": true
         }
     },
@@ -3381,7 +3381,9 @@
             "version": "",
             "comments": "Using Linux version bundled with Windows version",
             "author": "dreamer",
-            "author_link": "https://github.com/dreamer"
+            "author_link": "https://github.com/dreamer",
+            "license": "MIT, LGPLv2.1 and other free/libre/open source licenses",
+            "license_link": "https://www.renpy.org/doc/html/license.html"
         }
     },
     "812440": {
