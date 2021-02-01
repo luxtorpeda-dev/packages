@@ -60,10 +60,9 @@ popd
 pushd "source"
 mkdir -p build
 cd build
-cmake \
+GLM_DIR=../../glm cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DSOLARUS_GUI=OFF \
-    -DGLM_DIR=../../glm \
     -DLUA_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
     -DLUA_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.so.2.1.0" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
