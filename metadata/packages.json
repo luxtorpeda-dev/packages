@@ -1935,6 +1935,11 @@
                 "name": "HeXen II Soundtrack",
                 "url": "https://archive.org/download/HexenIISoundtrackOgg/",
                 "file": "Hexen%20II%20soundtrack%20ogg.zip"
+            },
+            {
+                "name": "hammerofthyrion",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hammerofthyrion-1/",
+                "file": "hammerofthyrion-9060-1.tar.xz"
             }
         ],
         "download_config": {
