@@ -1954,7 +1954,7 @@
             "engine_name": "Hammer of Thyrion",
             "engine_link": "https://github.com/sezero/uhexen2",
             "version": "fdf6f72 (from master)",
-            "comments": "Fixed music, sourced from archive.org",
+            "comments": "Fixed music, sourced from archive.org. Set Music Mode in in-game options to All Codecs",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
