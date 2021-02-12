@@ -1928,6 +1928,34 @@
             "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
         }
     },
+    "9060": {
+        "game_name": "HeXen II",
+        "download": [
+            {
+                "name": "HeXen II Soundtrack",
+                "url": "https://archive.org/download/HexenIISoundtrackOgg/",
+                "file": "Hexen%20II%20soundtrack%20ogg.zip"
+            }
+        ],
+        "download_config": {
+            "HeXen II Soundtrack": {
+                "extract_location": "./data1/music/",
+                "decode_as_zip": true
+            }
+        },
+        "command": "./hammerofthyrion.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9060/",
+            "engine_name": "Hammer of Thyrion",
+            "engine_link": "https://github.com/sezero/uhexen2",
+            "version": "fdf6f72 (from master)",
+            "comments": "Fixed music, sourced from archive.org",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/sezero/uhexen2/blob/master/docs/COPYING"
+        }
+    },
     "9070": {
         "game_name": "DOOM 3: Resurrection of Evil",
         "download": [

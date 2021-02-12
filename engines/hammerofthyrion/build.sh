@@ -38,3 +38,4 @@ popd
 mkdir -p "$diststart/9060/dist/lib"
 cp -rfv "$pfx/lib/"*.so* "$diststart/9060/dist/lib"
 cp -rfv "./source/engine/hexen2/glhexen2" "$diststart/9060/dist"
+cp -rfv assets/* "$diststart/9060/dist"
