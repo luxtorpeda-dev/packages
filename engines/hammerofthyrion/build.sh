@@ -31,7 +31,10 @@ make -j "$(nproc)" install
 popd
 
 pushd "source/engine/hexen2"
-make -j "$(nproc)" h2
+make -j "$(nproc)" glh2
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/9060/dist/lib"
+cp -rfv "$pfx/lib/"*.so* "$diststart/9060/dist/lib"
+cp -rfv "./source/engine/hexen2/glhexen2" "$diststart/9060/dist"
