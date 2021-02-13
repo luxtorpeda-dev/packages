@@ -16,6 +16,7 @@ cmake \
     -DBuildJK2SPGame=ON \
     -DBuildJK2SPRdVanilla=ON \
     -DCMAKE_INSTALL_PREFIX=../../tmp \
+    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     ..
 make -j "$(nproc)"
 make install
