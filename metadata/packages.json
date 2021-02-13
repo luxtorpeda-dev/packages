@@ -2821,8 +2821,8 @@
             },
             {
                 "name": "openlara",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openlara-1/",
-                "file": "openlara-224960-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openlara-2/",
+                "file": "openlara-224960-2.tar.xz"
             }
         ],
         "download_config": {
