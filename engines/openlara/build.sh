@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/XProger/OpenLara.git source
 pushd source
-git checkout b7d6ce5
+git checkout 9c70e5ba0f46d36e96a89d1bcc57c3e8097a8a50
 git am < ../patches/0001-Fix-compile-error.patch
 popd
 
