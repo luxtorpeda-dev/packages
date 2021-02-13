@@ -5,7 +5,7 @@ sudo apt-get -y install libxcursor-dev libxi-dev
 # CLONE PHASE
 git clone https://github.com/GTAmodding/re3.git source
 pushd source
-git checkout -f 14f7dba
+git checkout -f 8d27dba4cdec4d3b39bf87ce5baef5962e58312c
 git submodule update --init --recursive
 popd
 
