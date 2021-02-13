@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/JACoders/OpenJK.git source
 pushd source
-git checkout 24c5b27
+git checkout d2ed03a016f54917bc1dcf06bcc59d3f674fb533
 popd
 
 # BUILD PHASE
@@ -16,6 +16,7 @@ cmake \
     -DBuildJK2SPGame=ON \
     -DBuildJK2SPRdVanilla=ON \
     -DCMAKE_INSTALL_PREFIX=../../tmp \
+    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     ..
 make -j "$(nproc)"
 make install
