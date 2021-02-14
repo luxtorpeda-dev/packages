@@ -13,4 +13,5 @@ popd
 
 # COPY PHASE
 cp -rfv "source/nblood" "$diststart/common/dist/"
+cp -rfv "source/nblood.pk3" "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
