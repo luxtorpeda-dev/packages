@@ -2948,6 +2948,22 @@
             "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
         }
     },
+    "225160": {
+        "game_name": "Shadow Warrior Classic Redux",
+        "download": [],
+        "command": "./run-voidsw.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/225160",
+            "engine_name": "eduke32 VoidSW",
+            "engine_link": "https://voidpoint.io/terminx/eduke32",
+            "version": "b7d4ae3a (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/sw/gpl-2.0.txt"
+        }
+    },
     "225300": {
         "game_name": "Tomb Raider II",
         "download": [
