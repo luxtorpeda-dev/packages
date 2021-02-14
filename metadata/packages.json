@@ -2951,7 +2951,7 @@
     "225160": {
         "game_name": "Shadow Warrior Classic Redux",
         "download": [],
-        "command": "./voidsw",
+        "command": "./run-voidsw.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/225160",
             "engine_name": "eduke32 VoidSW",
