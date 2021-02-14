@@ -3273,6 +3273,22 @@
             "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
         }
     },
+    "299030": {
+        "game_name": "Blood: One Unit Whole Blood",
+        "download": [],
+        "command": "./run-nblood.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/299030",
+            "engine_name": "NBlood",
+            "engine_link": "https://github.com/nukeykt/NBlood",
+            "version": "60f9e42 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
+        }
+    },
     "356430": {
         "game_name": "Chris Sawyer's Locomotion™",
         "download": [
@@ -3524,6 +3540,22 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/KillPixelGames/wrath-darkplaces/blob/master/COPYING"
+        }
+    },
+    "1010750": {
+        "game_name": "Blood: Fresh Supply",
+        "download": [],
+        "command": "./run-nblood.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1010750",
+            "engine_name": "NBlood",
+            "engine_link": "https://github.com/nukeykt/NBlood",
+            "version": "60f9e42 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
         }
     },
     "1241950": {
