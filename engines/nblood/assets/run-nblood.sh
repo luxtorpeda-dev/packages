@@ -2,9 +2,6 @@
 
 gamearg="$1"
 
-echo "ASDASD"
-echo "$PWD"
-
 if [ -z $1 ]; then
     ./nblood -usecwd -nosetup
 elif [ "$gamearg" = "-addon" ]; then
