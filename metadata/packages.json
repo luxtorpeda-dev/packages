@@ -3275,7 +3275,14 @@
     },
     "299030": {
         "game_name": "Blood: One Unit Whole Blood",
-        "download": [],
+        "download": [
+            {
+                "name": "nblood",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-1/",
+                "file": "nblood-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-nblood.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/299030",
@@ -3544,7 +3551,14 @@
     },
     "1010750": {
         "game_name": "Blood: Fresh Supply",
-        "download": [],
+        "download": [
+            {
+                "name": "nblood",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-1/",
+                "file": "nblood-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-nblood.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/1010750",
