@@ -12,3 +12,4 @@ make voidsw
 popd
 
 # COPY PHASE
+cp -rfv "source/voidsw" "$diststart/common/dist/"
