@@ -12,5 +12,5 @@ make blood
 popd
 
 # COPY PHASE
-cp -rfv "source/blood" "$diststart/common/dist/"
+cp -rfv "source/nblood" "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
