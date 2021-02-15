@@ -2060,33 +2060,33 @@
         "download": [],
         "commands": {
             ".*keen1?.conf": {
-                "cmd": "./CGeniusExe",
+                "cmd": "./run-commander.sh",
                 "args": [
-                    "dir=base1"
+                    "dir=."
                 ]
             },
             ".*keen2?.conf": {
-                "cmd": "./CGeniusExe",
+                "cmd": "./run-commander.sh",
                 "args": [
-                    "dir=base2"
+                    "dir=games/keen2"
                 ]
             },
             ".*keen3?.conf": {
-                "cmd": "./CGeniusExe",
+                "cmd": "./run-commander.sh",
                 "args": [
-                    "dir=base3"
+                    "dir=games/keen3"
                 ]
             },
             ".*keen4?.conf": {
-                "cmd": "./CGeniusExe",
+                "cmd": "./run-commander.sh",
                 "args": [
-                    "dir=base4"
+                    "dir=games/keen4"
                 ]
             },
             ".*keen5?.conf": {
-                "cmd": "./CGeniusExe",
+                "cmd": "./run-commander.sh",
                 "args": [
-                    "dir=base5"
+                    "dir=games/keen5"
                 ]
             }
         },
