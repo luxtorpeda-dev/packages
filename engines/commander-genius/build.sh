@@ -10,7 +10,7 @@ popd
 pushd source
 mkdir -p build
 cd build
-cmake ..
+cmake -DUSE_BOOST=0 ..
 make -j "$(nproc)"
 popd
 
