@@ -15,4 +15,4 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp -rfv "source/build/CGeniusExe" "$diststart/9180/dist/"
+cp -rfv "source/build/src/CGeniusExe" "$diststart/9180/dist/"
