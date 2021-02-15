@@ -2060,8 +2060,8 @@
         "download": [
             {
                 "name": "re3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/re3-8/",
-                "file": "re3-12100-8.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/re3-9/",
+                "file": "re3-12100-9.tar.xz"
             }
         ],
         "command": "./run-re3.sh",
@@ -2083,8 +2083,8 @@
         "download": [
             {
                 "name": "reVC",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reVC-3/",
-                "file": "reVC-12110-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reVC-4/",
+                "file": "reVC-12110-4.tar.xz"
             }
         ],
         "command": "./run-reVC.sh",
@@ -3491,6 +3491,22 @@
             "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
         }
     },
+    "565550": {
+        "game_name": "Redneck Rampage",
+        "download": [],
+        "command": "./run-rr.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/565550",
+            "engine_name": "NBlood Rednukem",
+            "engine_link": "https://github.com/nukeykt/NBlood",
+            "version": "60f9e42 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt"
+        }
+    },
     "572050": {
         "game_name": "Call to Power II",
         "download": [
@@ -3512,6 +3528,22 @@
             "license": "Activision",
             "license_link": "https://github.com/ptitSeb/ctp2/blob/master/EULA%20-%20Source%20Code%20for%20CTP2.rtf",
             "non_free": true
+        }
+    },
+    "580940": {
+        "game_name": "Redneck Rampage Rides Again",
+        "download": [],
+        "command": "./run-rr-again.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/580940",
+            "engine_name": "NBlood Rednukem",
+            "engine_link": "https://github.com/nukeykt/NBlood",
+            "version": "60f9e42 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt"
         }
     },
     "698780": {
