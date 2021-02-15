@@ -2057,7 +2057,13 @@
     },
     "9180": {
         "game_name": "Commander Keen Complete Pack",
-        "download": [],
+        "download": [
+            {
+                "name": "commander-genius",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/commander-genius-1/",
+                "file": "commander-genius-9180-1.tar.xz"
+            }
+        ],
         "commands": {
             ".*keen1?.conf": {
                 "cmd": "./run-commander.sh",
@@ -2100,7 +2106,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://gitlab.com/Dringgstein/Commander-Genius/-/blob/master/COPYRIGHT"
-            }
+        }
     },
     "12100": {
         "game_name": "Grand Theft Auto III",
