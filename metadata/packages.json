@@ -3493,7 +3493,14 @@
     },
     "565550": {
         "game_name": "Redneck Rampage",
-        "download": [],
+        "download": [
+            {
+                "name": "rednukem",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-1/",
+                "file": "rednukem-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-rr.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/565550",
@@ -3532,7 +3539,14 @@
     },
     "580940": {
         "game_name": "Redneck Rampage Rides Again",
-        "download": [],
+        "download": [
+            {
+                "name": "rednukem",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-1/",
+                "file": "rednukem-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-rr-again.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/580940",
