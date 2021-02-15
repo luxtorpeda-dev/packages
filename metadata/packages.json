@@ -2948,6 +2948,22 @@
             "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
         }
     },
+    "225140": {
+        "game_name": "Duke Nukem 3D: Megaton Edition",
+        "download": [],
+        "command": "./run-eduke32.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/225140",
+            "engine_name": "eduke32",
+            "engine_link": "https://voidpoint.io/terminx/eduke32",
+            "version": "b7d4ae3a (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+        }
+    },
     "225160": {
         "game_name": "Shadow Warrior Classic Redux",
         "download": [
@@ -3296,6 +3312,22 @@
             "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
         }
     },
+    "329650": {
+        "game_name": "NAM",
+        "download": [],
+        "command": "./run-nam.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/329650",
+            "engine_name": "eduke32",
+            "engine_link": "https://voidpoint.io/terminx/eduke32",
+            "version": "b7d4ae3a (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+        }
+    },
     "356430": {
         "game_name": "Chris Sawyer's Locomotion™",
         "download": [
@@ -3339,6 +3371,22 @@
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
             "license_link": "https://github.com/arvindrajayadav/Good-Robot/blob/master/LICENSE.txt"
+        }
+    },
+    "376750": {
+        "game_name": "World War II GI",
+        "download": [],
+        "command": "./run-ww2gi.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/376750",
+            "engine_name": "eduke32",
+            "engine_link": "https://voidpoint.io/terminx/eduke32",
+            "version": "b7d4ae3a (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
         }
     },
     "410700": {
@@ -3426,6 +3474,22 @@
                 "license_link": "https://github.com/Keriew/augustus/blob/master/LICENSE.txt"
             }
         ]
+    },
+    "562860": {
+        "game_name": "Ion Fury",
+        "download": [],
+        "command": "./run-eduke32.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/562860",
+            "engine_name": "eduke32",
+            "engine_link": "https://voidpoint.io/terminx/eduke32",
+            "version": "b7d4ae3a (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+        }
     },
     "565550": {
         "game_name": "Redneck Rampage",
