@@ -3469,7 +3469,7 @@
     "580940": {
         "game_name": "Redneck Rampage Rides Again",
         "download": [],
-        "command": "./run-rr.sh",
+        "command": "./run-rr-again.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/580940",
             "engine_name": "NBlood Rednukem",

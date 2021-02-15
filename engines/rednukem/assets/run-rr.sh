@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./rednukem -usecwd -nosetup
+./rednukem -j Redneck -usecwd -nosetup
