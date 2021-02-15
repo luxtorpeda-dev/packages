@@ -2060,8 +2060,8 @@
         "download": [
             {
                 "name": "re3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/re3-8/",
-                "file": "re3-12100-8.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/re3-9/",
+                "file": "re3-12100-9.tar.xz"
             }
         ],
         "command": "./run-re3.sh",
