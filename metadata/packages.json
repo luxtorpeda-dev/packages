@@ -2950,7 +2950,14 @@
     },
     "225140": {
         "game_name": "Duke Nukem 3D: Megaton Edition",
-        "download": [],
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-1/",
+                "file": "eduke32-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-eduke32.sh",
         "information": {
             "store_link": "https://steamcommunity.com/app/225140",
@@ -3314,7 +3321,14 @@
     },
     "329650": {
         "game_name": "NAM",
-        "download": [],
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-1/",
+                "file": "eduke32-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-nam.sh",
         "information": {
             "store_link": "https://steamcommunity.com/app/329650",
@@ -3375,7 +3389,14 @@
     },
     "376750": {
         "game_name": "World War II GI",
-        "download": [],
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-1/",
+                "file": "eduke32-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-ww2gi.sh",
         "information": {
             "store_link": "https://steamcommunity.com/app/376750",
@@ -3477,7 +3498,14 @@
     },
     "562860": {
         "game_name": "Ion Fury",
-        "download": [],
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-1/",
+                "file": "eduke32-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-eduke32.sh",
         "information": {
             "store_link": "https://steamcommunity.com/app/562860",
