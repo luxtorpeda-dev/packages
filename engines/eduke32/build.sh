@@ -12,5 +12,5 @@ make duke3d
 popd
 
 # COPY PHASE
-cp -rfv "source/duke3d" "$diststart/common/dist/"
+cp -rfv "source/eduke32" "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
