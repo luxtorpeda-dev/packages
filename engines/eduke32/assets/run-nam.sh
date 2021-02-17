@@ -1,3 +1,4 @@
 #!/bin/bash
 
-./eduke32 -j NAM -nam -usecwd -nosetup
+cd ../
+./dosbox_windows/eduke32 -j NAM -nam -usecwd -nosetup
