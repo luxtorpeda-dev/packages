@@ -2110,49 +2110,13 @@
     },
     "12100": {
         "game_name": "Grand Theft Auto III",
-        "download": [
-            {
-                "name": "re3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/re3-9/",
-                "file": "re3-12100-9.tar.xz"
-            }
-        ],
-        "command": "./run-re3.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/12100",
-            "engine_name": "re3",
-            "engine_link": "https://github.com/GTAmodding/re3",
-            "version": "v1.0",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Unknown",
-            "license_link": "https://github.com/GTAmodding/re3/issues/794",
-            "non_free": true
-        }
+        "download": [],
+        "command": "./run-re3.sh"
     },
     "12110": {
         "game_name": "Grand Theft Auto: Vice City",
-        "download": [
-            {
-                "name": "reVC",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reVC-4/",
-                "file": "reVC-12110-4.tar.xz"
-            }
-        ],
-        "command": "./run-reVC.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/12110",
-            "engine_name": "reVC",
-            "engine_link": "https://github.com/GTAmodding/re3",
-            "version": "v1.0",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Unknown",
-            "license_link": "https://github.com/GTAmodding/re3/issues/794",
-            "non_free": true
-        }
+        "download": [],
+        "command": "./run-reVC.sh"
     },
     "13230": {
         "game_name": "Unreal Tournament 2004: Editor's Choice Edition",
