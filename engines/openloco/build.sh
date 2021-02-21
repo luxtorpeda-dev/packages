@@ -5,7 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/OpenLoco/OpenLoco.git source
 pushd source
-git checkout -f ee516cf
+git checkout -f 3605a28
 popd
 
 git clone https://github.com/jbeder/yaml-cpp.git yaml-cpp
