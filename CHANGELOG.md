@@ -1,3 +1,8 @@
+### 24.1 (2021-02-26)
+
+* openmw - Workaround for morrowind.ini steam cloud save case
+* Added source-sdk-2013, with scripts to launch Entropy Zero and Minerva source mods
+
 ### 23.17 (2021-02-14)
 
 * reVC - Update to v1.0
