@@ -2435,8 +2435,8 @@
         "download": [
             {
                 "name": "openmw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-8/",
-                "file": "openmw-22320-8.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-9/",
+                "file": "openmw-22320-9.tar.xz"
             },
             {
                 "name": "common-qt5",
@@ -2446,8 +2446,8 @@
             },
             {
                 "name": "openmw-tes3mp",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-1/",
-                "file": "openmw-tes3mp-22320-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-2/",
+                "file": "openmw-tes3mp-22320-2.tar.xz"
             }
         ],
         "download_config": {
