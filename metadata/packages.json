@@ -3111,7 +3111,13 @@
     },
     "235780": {
         "game_name": "MINERVA",
-        "download": [],
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-1/",
+                "file": "source-sdk-2013-235780-1.tar.xz"
+            }
+        ],
         "command": "./run-metastasis.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/235780",
@@ -3644,6 +3650,11 @@
                 "name": "ez1",
                 "url": "https://github.com/z33ky/source-sdk-2013/releases/download/ez1-v4.linux3/",
                 "file": "ez1-v4.linux3.tar.xz"
+            },
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-1/",
+                "file": "source-sdk-2013-714070-1.tar.xz"
             }
         ],
         "download_config": {
