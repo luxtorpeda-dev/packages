@@ -8,4 +8,5 @@ popd
 
 # COPY PHASE
 cp -rfv assets/entropy-zero/* "$diststart/714070/dist/"
+
 cp -rfv assets/metastasis/* "$diststart/235780/dist/"
