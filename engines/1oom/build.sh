@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://gitlab.com/KilgoreTroutMaskReplicant/1oom.git source
+git clone https://gitlab.com/Tapani_/1oom.git source
 pushd source
-git checkout -f dedf0bbd57fe004e5d49c2b63c98a219cc1b906e
+git checkout -f 8926f6470cb1dce19049392b7d0fbd5e598ebbe6
 popd
 
 # BUILD PHASE
