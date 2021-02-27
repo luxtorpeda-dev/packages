@@ -3211,7 +3211,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Source SDK Copyright(c) Valve Corp.",
             "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
-            "non_free": true
+            "non_free": true,
+            "32-bit": true
         }
     },
     "242980": {
@@ -3820,7 +3821,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Source SDK Copyright(c) Valve Corp.",
             "license_link": "https://github.com/z33ky/source-sdk-2013/blob/master/LICENSE",
-            "non_free": true
+            "non_free": true,
+            "32-bit": true
         }
     },
     "747250": {
@@ -3836,7 +3838,7 @@
         "information": {
             "store_link": "https://store.steampowered.com/app/747250",
             "engine_name": "Source SDK 2013",
-            "engine_link": "https://github.com/z33ky/source-sdk-2013",
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
             "version": "Steam release",
             "comments": "Requires Source SDK 2013 Singleplayer to be installed.",
             "author": "d10sfan",
