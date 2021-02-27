@@ -3843,7 +3843,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Source SDK Copyright(c) Valve Corp.",
             "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
-            "non_free": true
+            "non_free": true,
+            "32-bit": true
         }
     },
     "812440": {
