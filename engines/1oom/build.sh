@@ -11,7 +11,7 @@ pushd source
 autoreconf -fi
 mkdir build
 cd build
-../configure
+../configure --disable-hwsdl1
 make -j "$(nproc)"
 popd
 
