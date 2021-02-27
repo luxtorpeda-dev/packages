@@ -2,6 +2,8 @@
 
 * openmw - Workaround for morrowind.ini steam cloud save case
 * Added source-sdk-2013, with scripts to launch Entropy Zero and Minerva source mods
+* dhewm3 - Update to 1.5.1 RC3
+* Added support for Hexen Deathkings
 
 ### 23.17 (2021-02-14)
 
