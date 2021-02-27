@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/coelckers/Raze.git source
 pushd source
-git checkout e470c59
+git checkout ac07cc2
 popd
 
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
