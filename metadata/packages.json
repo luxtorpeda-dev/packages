@@ -3196,8 +3196,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-1/",
-                "file": "source-sdk-2013-235780-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-2/",
+                "file": "source-sdk-2013-235780-2.tar.xz"
             }
         ],
         "command": "./run-metastasis.sh",
@@ -3800,8 +3800,8 @@
             },
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-1/",
-                "file": "source-sdk-2013-714070-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-2/",
+                "file": "source-sdk-2013-714070-2.tar.xz"
             }
         ],
         "download_config": {
@@ -3825,7 +3825,13 @@
     },
     "747250": {
         "game_name": "Half-Life 2: Year Long Alarm",
-        "download": [],
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-2/",
+                "file": "source-sdk-2013-747250-2.tar.xz"
+            }
+        ],
         "command": "./run-year-long-alarm.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/747250",
