@@ -3519,7 +3519,7 @@
                 "engine_name": "1oom",
                 "engine_link": "https://gitlab.com/Tapani_/1oom",
                 "version": "8926f6470cb1dce19049392b7d0fbd5e598ebbe6 (from master)",
-                "comments": "",
+                "comments": "Soundfont required to be installed on system.",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
