@@ -3568,6 +3568,11 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-4/",
                 "file": "dosbox-staging-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "1oom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/1oom-1/",
+                "file": "1oom-410970-1.tar.xz"
             }
         ],
         "download_config": {
