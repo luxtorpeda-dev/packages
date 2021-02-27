@@ -5,6 +5,7 @@
 * dhewm3 - Update to 1.5.1 RC3
 * Added support for Hexen Deathkings
 * metadata - Improvements to table look 
+* source-sdk-2013 - Add support for year-long-alarm
 
 ### 23.17 (2021-02-14)
 
