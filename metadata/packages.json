@@ -3823,6 +3823,23 @@
             "non_free": true
         }
     },
+    "747250": {
+        "game_name": "Half-Life 2: Year Long Alarm",
+        "download": [],
+        "command": "./run-year-long-alarm.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/747250",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/z33ky/source-sdk-2013",
+            "version": "ez1-v4.linux3",
+            "comments": "Requires Source SDK 2013 Singleplayer to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true
+        }
+    },
     "812440": {
         "game_name": "Half-Life: Absolute Zero",
         "download": [
