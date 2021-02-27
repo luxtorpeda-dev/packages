@@ -1159,6 +1159,88 @@
             }
         ]
     },
+    "2370": {
+        "game_name": "HeXen: Deathkings of the Dark Citadel",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "common-qt5",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/",
+                "file": "common-qt5-common.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "gzdoom",
+                "command": "./run-gzdoom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HEXDD.WAD"
+                ],
+                "download": [
+                    "gzdoom"
+                ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday",
+                    "common-qt5"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "hexen-dk"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    },
+                    "common-qt5": {
+                        "extract_location": "./doomsday/common-qt5"
+                    }
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2360/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.5.0",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2360/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "v2.3.0",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            }
+        ]
+    },
     "2390": {
         "game_name": "Heretic: Shadow of the Serpent Riders",
         "download": [
