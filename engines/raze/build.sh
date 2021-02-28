@@ -49,6 +49,7 @@ pushd "fluidsynth"
 mkdir -p build
 cd build
 cmake \
+    -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)" install
