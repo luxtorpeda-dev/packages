@@ -3958,6 +3958,24 @@
             "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
         }
     },
+    "1054600": {
+        "game_name": "Resistance Element",
+        "download": [],
+        "command": "./run-resistance-element.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1054600",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+            "version": "Steam release",
+            "comments": "Requires Source SDK 2013 Singleplayer to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
+        }
+    },
     "1241950": {
         "game_name": "Warzone 2100",
         "download": [
