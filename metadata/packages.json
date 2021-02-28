@@ -3198,8 +3198,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-2/",
-                "file": "source-sdk-2013-235780-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-3/",
+                "file": "source-sdk-2013-235780-3.tar.xz"
             }
         ],
         "command": "./run-metastasis.sh",
@@ -3803,8 +3803,8 @@
             },
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-2/",
-                "file": "source-sdk-2013-714070-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-3/",
+                "file": "source-sdk-2013-714070-3.tar.xz"
             }
         ],
         "download_config": {
@@ -3832,8 +3832,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-2/",
-                "file": "source-sdk-2013-747250-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-3/",
+                "file": "source-sdk-2013-747250-3.tar.xz"
             }
         ],
         "command": "./run-year-long-alarm.sh",
@@ -3960,7 +3960,13 @@
     },
     "1054600": {
         "game_name": "Resistance Element",
-        "download": [],
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-3/",
+                "file": "source-sdk-2013-1054600-3.tar.xz"
+            }
+        ],
         "command": "./run-resistance-element.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/1054600",
