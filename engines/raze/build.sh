@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt-get -y install mercurial
+
 # CLONE PHASE
 git clone https://github.com/coelckers/Raze.git source
 pushd source
@@ -16,10 +18,28 @@ pushd zmusic
 git checkout -f 9097591
 popd
 
+hg clone https://hg.libsdl.org/SDL
+pushd SDL
+hg checkout release-2.0.12
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
+pushd "SDL"
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
 pushd "fluidsynth"
 mkdir -p build
 cd build
@@ -58,4 +78,5 @@ mkdir -p "$diststart/common/dist/lib"
 cp -rfv "source/build"/{raze,soundfonts,*.pk3} "$diststart/common/dist/"
 cp -rfv "$pfx/lib/libzmusic.so" "$diststart/common/dist/lib"
 cp -rfv "$pfx/lib64"/libfluidsynth.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/lib"/* "$diststart/common/dist/lib"
 cp -rfv "assets/run-raze.sh" "$diststart/common/dist/"
