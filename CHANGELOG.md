@@ -6,6 +6,7 @@
 * Added support for Hexen Deathkings
 * metadata - Improvements to table look 
 * source-sdk-2013 - Add support for year-long-alarm
+* source-sdk-2013 - Add support for resistance-element
 
 ### 23.17 (2021-02-14)
 
