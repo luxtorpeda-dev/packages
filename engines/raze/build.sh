@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get -y install mercurial
+apt-get -y install mercurial yasm
 
 # CLONE PHASE
 git clone https://github.com/coelckers/Raze.git source
@@ -16,6 +16,11 @@ popd
 git clone https://github.com/coelckers/ZMusic.git zmusic
 pushd zmusic
 git checkout -f 9097591
+popd
+
+git clone https://github.com/webmproject/libvpx.git libvpx
+pushd libvpx
+git checkout -f 6516e97
 popd
 
 hg clone https://hg.libsdl.org/SDL
@@ -60,6 +65,12 @@ cmake \
     -DFLUIDSYNTH_LIBRARIES="$pfx/lib64" \
     ..
 make -j "$(nproc)" install
+popd
+
+pushd "libvpx"
+./configure --prefix="$pfx"
+make -j "$(nproc)"
+make install
 popd
 
 pushd "source"
