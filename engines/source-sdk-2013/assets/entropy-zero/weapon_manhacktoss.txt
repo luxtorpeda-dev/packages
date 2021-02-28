@@ -12,11 +12,12 @@ WeaponData
 	"bucket_360"			"3"
 	"bucket_position_360"	"3"
 
-	"clip_size"			"1"
+	"clip_size"			"-1"
 	"default_clip"		"1"
 	"clip2_size"			"-1"
 	"primary_ammo"		"Manhack"
 	"secondary_ammo"	"None"
+
 
 	"weight"		"2"
 	"rumble"		"1"
