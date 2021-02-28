@@ -1187,7 +1187,9 @@
                 "command": "./run-gzdoom.sh",
                 "command_args": [
                     "-iwad",
-                    "base/HEXDD.WAD"
+                    "base/HEXDD.WAD",
+                    "-iwad",
+                    "base/HEXEN.WAD"
                 ],
                 "download": [
                     "gzdoom"
