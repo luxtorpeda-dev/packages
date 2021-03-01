@@ -5,7 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/Warzone2100/warzone2100.git source
 pushd source
-git checkout -f c74244a
+git checkout -f bc54cac
 git submodule update --init --recursive
 git am < ../patches/0001-Debug-compile-error.patch
 popd
@@ -120,7 +120,7 @@ pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5;$pfx/usr/local" \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DWZ_ENABLE_WARNINGS_AS_ERRORS=OFF \
