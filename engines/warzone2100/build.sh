@@ -7,7 +7,6 @@ git clone https://github.com/Warzone2100/warzone2100.git source
 pushd source
 git checkout -f bc54cac
 git submodule update --init --recursive
-git am < ../patches/0001-Debug-compile-error.patch
 popd
 
 git clone https://github.com/jedisct1/libsodium.git libsodium
