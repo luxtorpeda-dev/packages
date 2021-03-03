@@ -30,6 +30,11 @@ pushd freetype2
 git checkout -f fbbcf50
 popd
 
+git clone https://github.com/openssl/openssl.git openssl
+pushd openssl
+git checkout -f 52c587d
+popd
+
 git clone https://github.com/curl/curl.git curl
 pushd curl
 git checkout -f 5a1fc8d
@@ -173,6 +178,12 @@ cmake \
     -DCMAKE_C_FLAGS="-fPIC" \
     -DBUILD_SHARED_LIBS=ON \
     ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd "openssl"
+./Configure --prefix="$pfx"
 make -j "$(nproc)"
 make install
 popd
