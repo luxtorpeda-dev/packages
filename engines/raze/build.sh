@@ -5,7 +5,7 @@ apt-get -y install mercurial yasm
 # CLONE PHASE
 git clone https://github.com/coelckers/Raze.git source
 pushd source
-git checkout ac07cc2
+git checkout 88d8e64
 popd
 
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
@@ -23,6 +23,11 @@ pushd libvpx
 git checkout -f 6516e97
 popd
 
+git clone https://github.com/kcat/openal-soft.git openal
+pushd openal
+git checkout -f f5e0eef
+popd
+
 hg clone https://hg.libsdl.org/SDL
 pushd SDL
 hg checkout release-2.0.12
@@ -33,6 +38,32 @@ mkdir -p "$pfx"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
+pushd "openal"
+rm -rf build
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DBUILD_SHARED_LIBS=ON \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd "openal"
+rm -rf build
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DBUILD_SHARED_LIBS=ON \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
 pushd "SDL"
 mkdir -p build
 cd build
@@ -73,6 +104,8 @@ pushd "libvpx"
 make -j "$(nproc)"
 make install
 popd
+
+cp -rfv /usr/local/lib/*openal.so* "$pfx/lib"
 
 pushd "source"
 mkdir -p build
