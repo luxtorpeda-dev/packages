@@ -184,7 +184,7 @@ make install
 popd
 
 pushd "openssl"
-./Configure --prefix="$pfx"
+./Configure --prefix="$pfx" --openssldir="$pfx" 
 make -j "$(nproc)"
 make install
 popd
