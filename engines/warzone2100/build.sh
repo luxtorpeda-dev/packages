@@ -1,6 +1,7 @@
 #!/bin/bash
 
 apt-get -y install mercurial
+apt-get -y remove sqlite3
 
 # CLONE PHASE
 git clone https://github.com/Warzone2100/warzone2100.git source
@@ -45,6 +46,7 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 # BUILD PHASE
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 pushd "libsodium"
 ./configure
