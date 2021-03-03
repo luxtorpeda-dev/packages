@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
-DEBIAN_FRONTEND=noninteractive apt-get -y install mercurial curl tcl
+DEBIAN_FRONTEND=noninteractive apt-get -y install mercurial curl tcl gettext
 
 # CLONE PHASE
 git clone https://github.com/Warzone2100/warzone2100.git source
@@ -77,11 +77,6 @@ hg checkout release-2.0.12
 popd
 
 git clone https://github.com/cysin/info-zip.git info-zip
-
-git clone https://github.com/autotools-mirror/gettext.git gettext
-pushd gettext
-git checkout -f eb83efc
-popd
 
 curl -L -v -o vulkansdk-linux-x86_64-1.2.148.1.tar.gz -O https://sdk.lunarg.com/sdk/download/1.2.148.1/linux/vulkan_sdk.tar.gz?Human=true
 tar zxf vulkansdk-linux-x86_64-1.2.148.1.tar.gz
@@ -288,12 +283,6 @@ popd
 cp -rfv /usr/local/lib/*ogg.so* "$pfx/lib"
 cp -rfv /usr/local/lib/*openal.so* "$pfx/lib"
 cp -rfv /usr/local/lib/*vorbis*.so* "$pfx/lib"
-
-pushd "gettext"
-./configure
-make -j "$(nproc)"
-make install
-popd
 
 pushd "source"
 mkdir -p build
