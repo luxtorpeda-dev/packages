@@ -38,7 +38,7 @@ popd
 
 git clone https://github.com/curl/curl.git curl
 pushd curl
-git checkout -f 5a1fc8d
+git checkout -f  cfea4f2
 popd
 
 git clone https://github.com/WardF/libbzip2.git libbzip2
