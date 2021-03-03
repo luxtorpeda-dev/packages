@@ -33,6 +33,7 @@ popd
 git clone https://github.com/openssl/openssl.git openssl
 pushd openssl
 git checkout -f 52c587d
+git submodule update --init --recursive
 popd
 
 git clone https://github.com/curl/curl.git curl
