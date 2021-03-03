@@ -76,10 +76,7 @@ pushd SDL
 hg checkout release-2.0.12
 popd
 
-git clone https://github.com/nih-at/libzip.git libzip
-pushd libzip
-git checkout -f dcd9a0b
-popd
+git clone https://github.com/cysin/info-zip.git info-zip
 
 curl -L -v -o vulkansdk-linux-x86_64-1.2.148.1.tar.gz -O https://sdk.lunarg.com/sdk/download/1.2.148.1/linux/vulkan_sdk.tar.gz?Human=true
 tar zxf vulkansdk-linux-x86_64-1.2.148.1.tar.gz
@@ -134,6 +131,11 @@ pushd "sqlite"
 ./configure --prefix="$pfx" --disable-static
 make -j "$(nproc)"
 make install
+popd
+
+pushd info-zip
+make -f unix/Makefile generic_gcc
+make -f unix/Makefile install
 popd
 
 pushd physfs
@@ -281,16 +283,6 @@ popd
 cp -rfv /usr/local/lib/*ogg.so* "$pfx/lib"
 cp -rfv /usr/local/lib/*openal.so* "$pfx/lib"
 cp -rfv /usr/local/lib/*vorbis*.so* "$pfx/lib"
-
-pushd libzip
-mkdir build
-cd build
-cmake \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    ..
-make -j "$(nproc)"
-make install
-popd
 
 pushd "source"
 mkdir -p build
