@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get -y install mercurial tcl
+apt-get -y install mercurial
 
 # CLONE PHASE
 git clone https://github.com/Warzone2100/warzone2100.git source
