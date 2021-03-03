@@ -40,6 +40,11 @@ pushd libbzip2
 git checkout -f 85d4059
 popd
 
+git clone https://github.com/sqlite/sqlite.git sqlite
+pushd sqlite
+git checkout -f 60405cd
+popd
+
 export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
 export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
 
@@ -52,6 +57,12 @@ pushd "libsodium"
 ./configure
 make -j "$(nproc)"
 DESTDIR="$pfx" make install
+popd
+
+pushd "sqlite"
+./configure --prefix="$pfx" --disable-static
+make -j "$(nproc)"
+make install
 popd
 
 pushd physfs
