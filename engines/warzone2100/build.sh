@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get -y install mercurial
-apt-get -y remove sqlite3
+apt-get -y remove libsqlite3-dev
 
 # CLONE PHASE
 git clone https://github.com/Warzone2100/warzone2100.git source
