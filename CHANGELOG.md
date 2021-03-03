@@ -1,3 +1,7 @@
+### 24.2 (2021-03-03)
+
+* warzone-2100 - Update to 4.0.0-beta1
+
 ### 24.1 (2021-02-26)
 
 * openmw - Workaround for morrowind.ini steam cloud save case
