@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get -y install mercurial
+apt-get -y install mercurial tcl
 apt-get -y remove libsqlite3-dev
 
 # CLONE PHASE
