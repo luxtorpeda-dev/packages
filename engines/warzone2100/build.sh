@@ -1,6 +1,7 @@
 #!/bin/bash
 
-apt-get -y install mercurial curl
+DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
+DEBIAN_FRONTEND=noninteractive apt-get -y install mercurial curl tcl
 
 # CLONE PHASE
 git clone https://github.com/Warzone2100/warzone2100.git source
