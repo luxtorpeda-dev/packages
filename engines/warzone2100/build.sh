@@ -132,11 +132,6 @@ make install
 popd
 
 export VULKAN_SDK="$PWD/1.2.148.1/x86_64"
-# BUILD PHASE
-pushd "source"
-cd linux
-make -j "$(nproc)" release
-popd
 
 pushd "source"
 mkdir -p build
