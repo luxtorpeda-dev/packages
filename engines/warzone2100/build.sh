@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get -y install mercurial
+apt-get -y install mercurial curl
 
 # CLONE PHASE
 git clone https://github.com/Warzone2100/warzone2100.git source
