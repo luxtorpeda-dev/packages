@@ -268,7 +268,7 @@ popd
 
 pushd "theora"
 ./autogen.sh
-./configure --enable-shared --prefix="$pfx"
+./configure --enable-shared --prefix="$pfx" --disable-examples
 make -j "$(nproc)"
 make install
 popd
