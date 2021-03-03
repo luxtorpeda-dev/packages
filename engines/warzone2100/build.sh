@@ -45,6 +45,9 @@ pushd sqlite
 git checkout -f 60405cd
 popd
 
+curl -L -v -o vulkansdk-linux-x86_64-1.2.148.1.tar.gz -O https://sdk.lunarg.com/sdk/download/1.2.148.1/linux/vulkan_sdk.tar.gz?Human=true
+tar zxf vulkansdk-linux-x86_64-1.2.148.1.tar.gz
+
 export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
 export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
 
@@ -126,6 +129,13 @@ cmake \
     ..
 make -j "$(nproc)"
 make install
+popd
+
+export VULKAN_SDK="$PWD/1.2.148.1/x86_64"
+# BUILD PHASE
+pushd "source"
+cd linux
+make -j "$(nproc)" release
 popd
 
 pushd "source"
