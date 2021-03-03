@@ -78,6 +78,11 @@ popd
 
 git clone https://github.com/cysin/info-zip.git info-zip
 
+git clone https://github.com/autotools-mirror/gettext.git gettext
+pushd gettext
+git checkout -f eb83efc
+popd
+
 curl -L -v -o vulkansdk-linux-x86_64-1.2.148.1.tar.gz -O https://sdk.lunarg.com/sdk/download/1.2.148.1/linux/vulkan_sdk.tar.gz?Human=true
 tar zxf vulkansdk-linux-x86_64-1.2.148.1.tar.gz
 
@@ -283,6 +288,12 @@ popd
 cp -rfv /usr/local/lib/*ogg.so* "$pfx/lib"
 cp -rfv /usr/local/lib/*openal.so* "$pfx/lib"
 cp -rfv /usr/local/lib/*vorbis*.so* "$pfx/lib"
+
+pushd "gettext"
+./configure
+make -j "$(nproc)"
+make install
+popd
 
 pushd "source"
 mkdir -p build
