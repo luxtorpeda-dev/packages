@@ -1,6 +1,7 @@
 ### 24.2 (2021-03-03)
 
 * warzone-2100 - Update to 4.0.0-beta1
+* openloco - Update to 21.03
 
 ### 24.1 (2021-02-26)
 
