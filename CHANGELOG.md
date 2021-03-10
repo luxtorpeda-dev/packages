@@ -2,6 +2,7 @@
 
 * warzone-2100 - Update to 4.0.0-beta1
 * openloco - Update to 21.03
+* reone - Update to 0.16.0
 
 ### 24.1 (2021-02-26)
 
