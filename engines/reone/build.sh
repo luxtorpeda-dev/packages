@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get -y install mercurial yasm nasm
+apt-get -y install mercurial yasm nasm libgtk-3-dev
 
 # CLONE PHASE
 git clone https://github.com/seedhartha/reone.git source
