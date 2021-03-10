@@ -43,11 +43,23 @@ git checkout -f 6b6b9e5
 git submodule update --init --recursive
 popd
 
+git clone https://github.com/wxWidgets/wxWidgets.git wxWidgets
+pushd wxWidgets
+git checkout -f 6cdaedd
+git submodule update --init --recursive
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
+pushd wxWidgets
+./configure --prefix="$pfx"
+make -j "$(nproc)"
+make install
+popd
+
 ./build-boost.sh
 ./build-ffmpeg.sh
 
