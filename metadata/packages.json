@@ -2272,6 +2272,11 @@
                 "file": "OldUnreal-UTPatch469a-Linux.tar.bz2"
             },
             {
+                "name": "binaries-469b",
+                "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469b/",
+                "file": "OldUnreal-UTPatch469b-Linux.tar.bz2"
+            },
+            {
                 "name": "extras",
                 "url": "https://luxtorpeda-dev.github.io/closed-assets/",
                 "file": "ut99-extras.tar.xz"
@@ -2367,6 +2372,33 @@
                     "uninstall_command": "./uninstall-ut99-469a.sh",
                     "license_path": "../linuxdata-469a/legal.txt"
                 }
+            },
+            {
+                "name": "469b",
+                "command": "./run-ut99-469b.sh",
+                "download": [
+                    "binaries-436",
+                    "binaries-469b",
+                    "ut99"
+                ],
+                "download_config": {
+                    "binaries-436": {
+                        "extract_location": "../linuxdata-469b",
+                        "strip_prefix": "Install/",
+                        "setup": true
+                    },
+                    "binaries-469a": {
+                        "extract_location": "../linuxdata-469b",
+                        "strip_prefix": "",
+                        "setup": true
+                    }
+                },
+                "setup": {
+                    "complete_path": "../ready-469b",
+                    "command": "./setup-ut99-469b.sh",
+                    "uninstall_command": "./uninstall-ut99-469b.sh",
+                    "license_path": "../linuxdata-469b/legal.txt"
+                }
             }
         ],
         "use_original_command_directory": true,
@@ -2403,6 +2435,19 @@
                 "engine_link": "https://unrealarchive.org/patches-updates/unreal-tournament/patches/utpg-patch-451b/index.html",
                 "version": "469a",
                 "comments": "Uses padsp for audio. Uses pack from Mr Doomguy for improvements and 469a patch.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Proprietary/Closed Source",
+                "license_link": "https://store.steampowered.com/eula/eula_epic",
+                "closed_source": true,
+                "32-bit": true
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/13240",
+                "engine_name": "Proprietary Engine",
+                "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469b-release-notes",
+                "version": "469b",
+                "comments": "Uses padsp for audio. Uses pack from Mr Doomguy for improvements and 469b patch.",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "Proprietary/Closed Source",
