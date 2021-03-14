@@ -2637,6 +2637,32 @@
             }
         ]
     },
+    "238050": {
+        "game_name": "The Apogee Throwback Pack",
+        "download": [],
+        "choices": [
+            {
+                "name": "Rise of the Triad",
+                "command": "./Rise of the Triad/run-rott.sh",
+                "download": [
+                    "rott"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/238050",
+                "engine_name": "rottexpr",
+                "engine_link": "https://github.com/LTCHIPS/rottexpr",
+                "version": "v0.01",
+                "comments": "Rise of the Triad",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
+            }
+        ]
+    },
     "32370": {
         "game_name": "STAR WARS™ - Knights of the Old Republic™",
         "download": [
