@@ -1,7 +1,19 @@
+### 24.2 (2021-03-03)
+
+* warzone-2100 - Update to 4.0.0-beta1
+* openloco - Update to 21.03
+* reone - Update to 0.16.0
+* ut99 - Support 469b
+
 ### 24.1 (2021-02-26)
 
 * openmw - Workaround for morrowind.ini steam cloud save case
 * Added source-sdk-2013, with scripts to launch Entropy Zero and Minerva source mods
+* dhewm3 - Update to 1.5.1 RC3
+* Added support for Hexen Deathkings
+* metadata - Improvements to table look 
+* source-sdk-2013 - Add support for year-long-alarm
+* source-sdk-2013 - Add support for resistance-element
 
 ### 23.17 (2021-02-14)
 

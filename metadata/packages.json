@@ -1187,6 +1187,8 @@
                 "command": "./run-gzdoom.sh",
                 "command_args": [
                     "-iwad",
+                    "base/HEXEN.WAD",
+                    "-file",
                     "base/HEXDD.WAD"
                 ],
                 "download": [
@@ -2270,14 +2272,19 @@
                 "file": "OldUnreal-UTPatch469a-Linux.tar.bz2"
             },
             {
+                "name": "binaries-469b",
+                "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469b/",
+                "file": "OldUnreal-UTPatch469b-Linux.tar.bz2"
+            },
+            {
                 "name": "extras",
                 "url": "https://luxtorpeda-dev.github.io/closed-assets/",
                 "file": "ut99-extras.tar.xz"
             },
             {
                 "name": "ut99",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-9/",
-                "file": "ut99-13240-9.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-11/",
+                "file": "ut99-13240-11.tar.xz"
             }
         ],
         "choices": [
@@ -2365,6 +2372,33 @@
                     "uninstall_command": "./uninstall-ut99-469a.sh",
                     "license_path": "../linuxdata-469a/legal.txt"
                 }
+            },
+            {
+                "name": "469b",
+                "command": "./run-ut99-469b.sh",
+                "download": [
+                    "binaries-436",
+                    "binaries-469b",
+                    "ut99"
+                ],
+                "download_config": {
+                    "binaries-436": {
+                        "extract_location": "../linuxdata-469b",
+                        "strip_prefix": "Install/",
+                        "setup": true
+                    },
+                    "binaries-469b": {
+                        "extract_location": "../linuxdata-469b",
+                        "strip_prefix": "",
+                        "setup": true
+                    }
+                },
+                "setup": {
+                    "complete_path": "../ready-469b",
+                    "command": "./setup-ut99-469b.sh",
+                    "uninstall_command": "./uninstall-ut99-469b.sh",
+                    "license_path": "../linuxdata-469b/legal.txt"
+                }
             }
         ],
         "use_original_command_directory": true,
@@ -2401,6 +2435,19 @@
                 "engine_link": "https://unrealarchive.org/patches-updates/unreal-tournament/patches/utpg-patch-451b/index.html",
                 "version": "469a",
                 "comments": "Uses padsp for audio. Uses pack from Mr Doomguy for improvements and 469a patch.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Proprietary/Closed Source",
+                "license_link": "https://store.steampowered.com/eula/eula_epic",
+                "closed_source": true,
+                "32-bit": true
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/13240",
+                "engine_name": "Proprietary Engine",
+                "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469b-release-notes",
+                "version": "469b",
+                "comments": "Uses padsp for audio. Uses pack from Mr Doomguy for improvements and 469b patch.",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "Proprietary/Closed Source",
@@ -2595,8 +2642,8 @@
         "download": [
             {
                 "name": "reone",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-10/",
-                "file": "reone-32370-10.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-11/",
+                "file": "reone-32370-11.tar.xz"
             }
         ],
         "command": "./run-kotor1.sh",
@@ -2604,7 +2651,7 @@
             "store_link": "https://store.steampowered.com/app/32370",
             "engine_name": "reone",
             "engine_link": "https://github.com/seedhartha/reone",
-            "version": "0.15.0",
+            "version": "0.16.0",
             "comments": "Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -3196,8 +3243,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-1/",
-                "file": "source-sdk-2013-235780-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-5/",
+                "file": "source-sdk-2013-235780-5.tar.xz"
             }
         ],
         "command": "./run-metastasis.sh",
@@ -3211,7 +3258,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Source SDK Copyright(c) Valve Corp.",
             "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
-            "non_free": true
+            "non_free": true,
+            "32-bit": true
         }
     },
     "242980": {
@@ -3469,8 +3517,8 @@
         "download": [
             {
                 "name": "openloco",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-2/",
-                "file": "openloco-356430-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-3/",
+                "file": "openloco-356430-3.tar.xz"
             }
         ],
         "command": "./run-openloco.sh",
@@ -3478,7 +3526,7 @@
             "store_link": "https://store.steampowered.com/app/356430",
             "engine_name": "OpenLoco",
             "engine_link": "https://github.com/OpenLoco/OpenLoco",
-            "version": "v21.02",
+            "version": "v21.03",
             "comments": "Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -3559,6 +3607,71 @@
             "license_link": "https://github.com/Interrupt/systemshock/blob/master/COPYING.txt",
             "32-bit": true
         }
+    },
+    "410970": {
+        "game_name": "Master of Orion 1",
+        "download": [
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-4/",
+                "file": "dosbox-staging-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "1oom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/1oom-1/",
+                "file": "1oom-410970-1.tar.xz"
+            }
+        ],
+        "download_config": {
+            "dosbox-staging": {
+                "extract_location": "../dosbox-staging"
+            },
+            "1oom": {
+                "extract_location": "../"
+            }
+        },
+        "choices": [
+            {
+                "name": "1oom",
+                "command": "../run-1oom.sh",
+                "download": [
+                    "1oom"
+                ]
+            },
+            {
+                "name": "dosbox-staging",
+                "command": "../dosbox-staging/run-dosbox-staging.sh",
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/410970",
+                "engine_name": "1oom",
+                "engine_link": "https://gitlab.com/Tapani_/1oom",
+                "version": "8926f6470cb1dce19049392b7d0fbd5e598ebbe6 (from master)",
+                "comments": "Soundfont required to be installed on system.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://gitlab.com/Tapani_/1oom/-/blob/master/COPYING"
+            },
+            {
+                "store_link": "https://store.steampowered.com/curator/35328265/",
+                "engine_name": "dosbox-staging",
+                "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
+                "version": "0.76.0",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
+            }
+        ]
     },
     "517790": {
         "game_name": "Caesar 3",
@@ -3735,8 +3848,8 @@
             },
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-1/",
-                "file": "source-sdk-2013-714070-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-5/",
+                "file": "source-sdk-2013-714070-5.tar.xz"
             }
         ],
         "download_config": {
@@ -3755,7 +3868,32 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Source SDK Copyright(c) Valve Corp.",
             "license_link": "https://github.com/z33ky/source-sdk-2013/blob/master/LICENSE",
-            "non_free": true
+            "non_free": true,
+            "32-bit": true
+        }
+    },
+    "747250": {
+        "game_name": "Half-Life 2: Year Long Alarm",
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-5/",
+                "file": "source-sdk-2013-747250-5.tar.xz"
+            }
+        ],
+        "command": "./run-year-long-alarm.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/747250",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+            "version": "Steam release",
+            "comments": "Requires Source SDK 2013 Singleplayer to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
         }
     },
     "812440": {
@@ -3865,6 +4003,30 @@
             "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
         }
     },
+    "1054600": {
+        "game_name": "Resistance Element",
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-5/",
+                "file": "source-sdk-2013-1054600-5.tar.xz"
+            }
+        ],
+        "command": "./run-resistance-element.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1054600",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+            "version": "Steam release",
+            "comments": "Requires Source SDK 2013 Singleplayer to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
+        }
+    },
     "1241950": {
         "game_name": "Warzone 2100",
         "download": [
@@ -3876,8 +4038,8 @@
             },
             {
                 "name": "warzone2100",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-1/",
-                "file": "warzone2100-1241950-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-2/",
+                "file": "warzone2100-1241950-2.tar.xz"
             }
         ],
         "download_config": {
@@ -3893,12 +4055,12 @@
             "store_link": "https://store.steampowered.com/app/1241950/Warzone_2100/",
             "engine_name": "warzone2100",
             "engine_link": "https://github.com/Warzone2100/warzone2100",
-            "version": "3.4.1",
+            "version": "4.0-beta1",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/Warzone2100/warzone2100/blob/3.4.1/COPYING"
+            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.0.0-beta1/COPYING"
         }
     },
     "1368340": {

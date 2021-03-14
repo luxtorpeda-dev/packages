@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <title>Luxtorpeda: Packages</title>
 
         <script>
@@ -109,10 +110,10 @@
             }
 
             function processTitles(titles) {
-                const table = document.getElementById("table");
+                const table = document.getElementById("table").getElementsByTagName('tbody')[0];
                 let idx = 1;
                 for (const title of titles) {
-                    const row = table.insertRow(idx);
+                    const row = table.insertRow(-1);
                     createGameCell(title, row);
                     createEngineCell(title, row);
                     createEngineTypeCell(title, row);
@@ -129,21 +130,26 @@
     <body>
         <header></header>
         <main>
-            <table id="table">
-                <thead>
-                    <tr>
-                        <th>Game</th>
-                        <th>Engine</th>
-                        <th>Engine 64-bit</th>
-                        <th>Engine License</th>
-                        <th>Engine Version</th>
-                        <th>Comments</th>
-                        <th>Contributor</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
+            <div>
+                <table id="table" class="table table-striped">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">Game</th>
+                            <th scope="col">Engine</th>
+                            <th scope="col">64-bit</th>
+                            <th scope="col">License</th>
+                            <th scope="col">Version</th>
+                            <th scope="col">Comments</th>
+                            <th scope="col">Contributor</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </main>
         <footer></footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>

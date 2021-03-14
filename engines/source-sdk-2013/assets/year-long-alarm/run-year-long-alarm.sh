@@ -5,7 +5,7 @@ if [ ! -f "sdkpath.txt" ]; then
     HL_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Source SDK Base 2013 Singleplayer Installation" --directory)
 
     if [ -z "$HL_PATH" ]; then
-        "$STEAM_ZENITY" --error --title="Setup Error" --text="Path to Half Life not given"
+        "$STEAM_ZENITY" --error --title="Setup Error" --text="Path to Source SDK 2013 not given"
         exit 1
     fi
 
@@ -16,18 +16,15 @@ if [ ! -f "sdkpath.txt" ]; then
     
     echo "$HL_PATH" >> sdkpath.txt
     
-    pushd "Entropy Zero/EntropyZero"
-    # from z33ky script
-    for d in sound materials resource; do
-		find "${d}/" -exec sh -eux -c "echo {} | grep -q '[A-Z]' && ln -vs \"\$(basename {})\" \"\$(echo {}|tr '[A-Z]' '[a-z]')\"" \;
-	done
+    pushd "yearlongalarm"
+        find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
     popd
 fi
 
 sdkpath=`cat sdkpath.txt`
 
-pushd "Entropy Zero/EntropyZero"
-    cp -rfv ../../weapon_manhacktoss.txt scripts/
+pushd "yearlongalarm"
+    cp -rfv ../gameinfo.txt gameinfo.txt
 popd
 
-"$sdkpath"/hl2.sh -game "$PWD/Entropy Zero/EntropyZero" -steam
+"$sdkpath"/hl2.sh -game "$PWD/yearlongalarm" -steam
