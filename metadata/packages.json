@@ -3161,8 +3161,23 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./run-voidsw.sh",
-        "information": {
+        "choices": [
+            {
+                "name": "voidsw",
+                "command": "./run-eduke32.sh",
+                "download": [
+                    "voidsw"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-sw.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [{
             "store_link": "https://store.steampowered.com/app/225160",
             "engine_name": "eduke32 VoidSW",
             "engine_link": "https://voidpoint.io/terminx/eduke32",
@@ -3172,7 +3187,17 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/sw/gpl-2.0.txt"
-        }
+        }, {
+            "store_link": "https://steamcommunity.com/app/225160",
+            "engine_name": "raze",
+            "engine_link": "https://github.com/coelckers/Raze",
+            "version": "0.9.0 beta",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Various Licenses",
+            "license_link": "https://github.com/coelckers/Raze"
+        }]
     },
     "225300": {
         "game_name": "Tomb Raider II",
