@@ -21,4 +21,4 @@ make install
 popd
 
 # COPY PHASE
-cp -rfv "$pfx/bin/"* "$diststart/common/dist/"
+cp -rfv "source/src/build/bstone" "$diststart/common/dist/"
