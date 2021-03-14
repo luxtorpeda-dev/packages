@@ -11,6 +11,7 @@ mkdir -p "$pfx"
 
 # BUILD PHASE
 pushd source/src
+mkdir build
 cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
