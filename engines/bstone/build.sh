@@ -10,7 +10,7 @@ readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
 # BUILD PHASE
-pushd source
+pushd source/src
 cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
