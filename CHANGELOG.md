@@ -4,6 +4,7 @@
 * openloco - Update to 21.03
 * reone - Update to 0.16.0
 * ut99 - Support 469b
+* openrct2 - Update to 0.3.3
 
 ### 24.1 (2021-02-26)
 
