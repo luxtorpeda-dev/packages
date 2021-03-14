@@ -3102,6 +3102,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-4/",
                 "file": "eduke32-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-1/",
+                "file": "raze-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -3120,27 +3126,30 @@
                 ]
             }
         ],
-        "information": [{
-            "store_link": "https://steamcommunity.com/app/225140",
-            "engine_name": "eduke32",
-            "engine_link": "https://voidpoint.io/terminx/eduke32",
-            "version": "b7d4ae3a (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
-        }, {
-            "store_link": "https://steamcommunity.com/app/225140",
-            "engine_name": "raze",
-            "engine_link": "https://github.com/coelckers/Raze",
-            "version": "0.9.0 beta",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Various Licenses",
-            "license_link": "https://github.com/coelckers/Raze"
-        }]
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/225140",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "b7d4ae3a (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/225140",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "0.9.0 beta",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "225160": {
         "game_name": "Shadow Warrior Classic Redux",
@@ -3499,6 +3508,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-1/",
                 "file": "nblood-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-1/",
+                "file": "raze-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -3517,27 +3532,30 @@
                 ]
             }
         ],
-        "information": [{
-            "store_link": "https://store.steampowered.com/app/299030",
-            "engine_name": "NBlood",
-            "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "60f9e42 (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
-        }, {
-            "store_link": "https://store.steampowered.com/app/299030",
-            "engine_name": "raze",
-            "engine_link": "https://github.com/coelckers/Raze",
-            "version": "0.9.0 beta",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Various Licenses",
-            "license_link": "https://github.com/coelckers/Raze"
-        }]
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/299030",
+                "engine_name": "NBlood",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "60f9e42 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/299030",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "0.9.0 beta",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "329650": {
         "game_name": "NAM",
@@ -3546,6 +3564,12 @@
                 "name": "eduke32",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-4/",
                 "file": "eduke32-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-1/",
+                "file": "raze-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3565,27 +3589,30 @@
                 ]
             }
         ],
-        "information": [{
-            "store_link": "https://steamcommunity.com/app/329650",
-            "engine_name": "eduke32",
-            "engine_link": "https://voidpoint.io/terminx/eduke32",
-            "version": "b7d4ae3a (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
-        }, {
-            "store_link": "https://steamcommunity.com/app/329650",
-            "engine_name": "raze",
-            "engine_link": "https://github.com/coelckers/Raze",
-            "version": "0.9.0 beta",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Various Licenses",
-            "license_link": "https://github.com/coelckers/Raze"
-        }]
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/329650",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "b7d4ae3a (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/329650",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "0.9.0 beta",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "356430": {
         "game_name": "Chris Sawyer's Locomotion™",
@@ -3640,6 +3667,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-4/",
                 "file": "eduke32-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-1/",
+                "file": "raze-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -3658,27 +3691,30 @@
                 ]
             }
         ],
-        "information": [{
-            "store_link": "https://steamcommunity.com/app/376750",
-            "engine_name": "eduke32",
-            "engine_link": "https://voidpoint.io/terminx/eduke32",
-            "version": "b7d4ae3a (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
-        }, {
-            "store_link": "https://steamcommunity.com/app/376750",
-            "engine_name": "raze",
-            "engine_link": "https://github.com/coelckers/Raze",
-            "version": "0.9.0 beta",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Various Licenses",
-            "license_link": "https://github.com/coelckers/Raze"
-        }]
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/376750",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "b7d4ae3a (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/376750",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "0.9.0 beta",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "410700": {
         "game_name": "System Shock: Classic",
@@ -3862,6 +3898,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-1/",
                 "file": "rednukem-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-1/",
+                "file": "raze-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -3880,27 +3922,30 @@
                 ]
             }
         ],
-        "information": [{
-            "store_link": "https://store.steampowered.com/app/565550",
-            "engine_name": "NBlood Rednukem",
-            "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "60f9e42 (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt"
-        }, {
-            "store_link": "https://store.steampowered.com/app/565550",
-            "engine_name": "raze",
-            "engine_link": "https://github.com/coelckers/Raze",
-            "version": "0.9.0 beta",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Various Licenses",
-            "license_link": "https://github.com/coelckers/Raze"
-        }]
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/565550",
+                "engine_name": "NBlood Rednukem",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "60f9e42 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/565550",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "0.9.0 beta",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "572050": {
         "game_name": "Call to Power II",
@@ -3933,6 +3978,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-1/",
                 "file": "rednukem-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-1/",
+                "file": "raze-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -3951,27 +4002,30 @@
                 ]
             }
         ],
-        "information": [{
-            "store_link": "https://store.steampowered.com/app/580940",
-            "engine_name": "NBlood Rednukem",
-            "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "60f9e42 (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt"
-        }, {
-            "store_link": "https://store.steampowered.com/app/580940",
-            "engine_name": "raze",
-            "engine_link": "https://github.com/coelckers/Raze",
-            "version": "0.9.0 beta",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Various Licenses",
-            "license_link": "https://github.com/coelckers/Raze"
-        }]
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/580940",
+                "engine_name": "NBlood Rednukem",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "60f9e42 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/580940",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "0.9.0 beta",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
@@ -4138,6 +4192,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-1/",
                 "file": "nblood-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-1/",
+                "file": "raze-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -4156,27 +4216,30 @@
                 ]
             }
         ],
-        "information": [{
-            "store_link": "https://store.steampowered.com/app/1010750",
-            "engine_name": "NBlood",
-            "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "60f9e42 (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
-        }, {
-            "store_link": "https://store.steampowered.com/app/1010750",
-            "engine_name": "raze",
-            "engine_link": "https://github.com/coelckers/Raze",
-            "version": "0.9.0 beta",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Various Licenses",
-            "license_link": "https://github.com/coelckers/Raze"
-        }]
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/1010750",
+                "engine_name": "NBlood",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "60f9e42 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/1010750",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "0.9.0 beta",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "1054600": {
         "game_name": "Resistance Element",
