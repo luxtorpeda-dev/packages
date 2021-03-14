@@ -124,4 +124,5 @@ cp -rfv "source/build"/{raze,soundfonts,*.pk3} "$diststart/common/dist/"
 cp -rfv "$pfx/lib/libzmusic.so" "$diststart/common/dist/lib"
 cp -rfv "$pfx/lib64"/libfluidsynth.so* "$diststart/common/dist/lib"
 cp -rfv "$pfx/lib"/* "$diststart/common/dist/lib"
-cp -rfv "assets/run-raze.sh" "$diststart/common/dist/"
+
+cp -rfv "assets/"* "$diststart/common/dist/"
