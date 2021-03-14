@@ -2643,7 +2643,7 @@
         "choices": [
             {
                 "name": "Rise of the Triad",
-                "command": "./Rise of the Triad/rott",
+                "command": "./Rise of the Triad/run-rott.sh",
                 "download": [
                     "rott"
                 ]

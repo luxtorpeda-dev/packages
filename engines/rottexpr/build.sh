@@ -66,3 +66,4 @@ popd
 mkdir -p "$diststart/238050/dist/lib"
 cp -rfv "$pfx/lib/"*.so* "$diststart/238050/dist/lib"
 cp -rfv source/src/rott "$diststart/238050/dist/"
+cp -rfv assets/* "$diststart/238050/dist/"
