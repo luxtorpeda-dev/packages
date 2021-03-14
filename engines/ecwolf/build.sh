@@ -18,3 +18,5 @@ popd
 
 # COPY PHASE
 cp -rfv source/build/ecwolf "$diststart/common/dist/"
+cp -rfv source/build/ecwolf.pk3 "$diststart/common/dist/"
+cp -rfv assets/* "$diststart/common/dist/"
