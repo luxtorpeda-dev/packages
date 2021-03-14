@@ -3394,7 +3394,7 @@
             "engine_name": "xash3d-fwgs",
             "engine_link": "https://github.com/FWGS/xash3d",
             "version": "v0.19.2",
-            "comments": "Uses already compiled binaries from upstream project, along with sohl download. Requires Half-Life to be installed.",
+            "comments": "Uses already compiled binaries from upstream project, along with sohl download. Requires Half-Life to be installed, expected game to be installed in same directory. May need to create hl.exe file inside installed directory for Steam to launch game.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3 with hl headers",
