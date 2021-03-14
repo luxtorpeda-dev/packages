@@ -34,6 +34,7 @@ mkdir build
 cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_BUILD_TYPE=Release \
     -DBSTONE_USE_PCH=OFF \
     ..
 make -j "$(nproc)"
