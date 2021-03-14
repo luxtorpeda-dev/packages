@@ -1994,8 +1994,8 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-37/",
-                "file": "dhewm3-common-37.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-38/",
+                "file": "dhewm3-common-38.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2050,8 +2050,8 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-37/",
-                "file": "dhewm3-common-37.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-38/",
+                "file": "dhewm3-common-38.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2634,32 +2634,6 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv3",
                 "license_link": "https://github.com/TES3MP/openmw-tes3mp/blob/292536439eeda58becdb7e441fe2e61ebb74529e/LICENSE"
-            }
-        ]
-    },
-    "238050": {
-        "game_name": "The Apogee Throwback Pack",
-        "download": [],
-        "choices": [
-            {
-                "name": "Rise of the Triad",
-                "command": "./Rise of the Triad/run-rott.sh",
-                "download": [
-                    "rott"
-                ]
-            }
-        ],
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/238050",
-                "engine_name": "rottexpr",
-                "engine_link": "https://github.com/LTCHIPS/rottexpr",
-                "version": "v0.01",
-                "comments": "Rise of the Triad",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv2",
-                "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
             }
         ]
     },
@@ -3355,6 +3329,32 @@
             "non_free": true,
             "32-bit": true
         }
+    },
+    "238050": {
+        "game_name": "The Apogee Throwback Pack",
+        "download": [],
+        "choices": [
+            {
+                "name": "Rise of the Triad",
+                "command": "./Rise of the Triad/run-rott.sh",
+                "download": [
+                    "rott"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/238050",
+                "engine_name": "rottexpr",
+                "engine_link": "https://github.com/LTCHIPS/rottexpr",
+                "version": "v0.01",
+                "comments": "Rise of the Triad",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
+            }
+        ]
     },
     "242980": {
         "game_name": "Daikatana",
