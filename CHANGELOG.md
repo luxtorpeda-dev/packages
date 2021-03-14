@@ -6,6 +6,7 @@
 * dhewm3 - Update to 1.5.1
 * Added rottexpr
 * Added ecwolf
+* Added bstone
 
 ### 24.2 (2021-03-03)
 
