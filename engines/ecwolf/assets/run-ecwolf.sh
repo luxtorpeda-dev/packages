@@ -4,8 +4,8 @@ if [ -d "base" ]; then
     cp -rfv ./ecwolf ./base
     cp -rfv ./ecwolf.pk3 ./base
     cd base
-    ./ecwolf
+    ./ecwolf --config ecwolf.cfg
 else
-    ./ecwolf
+    ./ecwolf --config ecwolf.cfg
 fi
 
