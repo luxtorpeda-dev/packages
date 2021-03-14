@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenRCT2/OpenRCT2.git source
 pushd source
-git checkout -f cea5fab
+git checkout -f 3f65f28
 git am < ../patches/0001-Disable-Werror.patch
 popd
 
@@ -136,6 +136,7 @@ cp -rfv "$pfx/lib/"*.so* "$diststart/common/dist/lib"
 
 cp -rfv "source/build/openrct2" "$diststart/common/dist/"
 cp -rfv "source/build/openrct2-cli" "$diststart/common/dist/"
+
 cp -rfv "source/build/data/"* "$diststart/common/dist/data"
 cp -rfv "source/build/g2.dat" "$diststart/common/dist/data"
 

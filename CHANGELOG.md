@@ -5,6 +5,7 @@
 * reone - Update to 0.16.0
 * ut99 - Support 469b
 * Added raze
+* openrct2 - Update to 0.3.3
 
 ### 24.1 (2021-02-26)
 
