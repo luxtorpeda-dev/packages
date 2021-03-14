@@ -156,6 +156,22 @@
             "32-bit": true
         }
     },
+    "2270": {
+        "game_name": "Wolfenstein 3D",
+        "download": [],
+        "command": "./run-ecwolf.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2270",
+            "engine_name": "ecwolf",
+            "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
+            "version": "3ce6e4d (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPL-2+ or EULA; BSD-3-clause",
+            "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
+        }
+    },
     "2280": {
         "game_name": "The Ultimate DOOM",
         "download": [
@@ -1729,6 +1745,22 @@
                 "license_link": "https://github.com/MeridianOXC/OpenXcom/blob/oxce-plus/LICENSE.txt"
             }
         ]
+    },
+    "9000": {
+        "game_name": "Wolfenstein 3D: Spear of Destiny",
+        "download": [],
+        "command": "./run-ecwolf.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9000",
+            "engine_name": "ecwolf",
+            "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
+            "version": "3ce6e4d (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPL-2+ or EULA; BSD-3-clause",
+            "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
+        }
     },
     "9010": {
         "game_name": "Return to Castle Wolfenstein",
@@ -3787,6 +3819,22 @@
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
             "license_link": "https://github.com/arvindrajayadav/Good-Robot/blob/master/LICENSE.txt"
+        }
+    },
+    "371180": {
+        "game_name": "Super 3-D Noah's Ark",
+        "download": [],
+        "command": "./run-ecwolf.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/371180",
+            "engine_name": "ecwolf",
+            "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
+            "version": "3ce6e4d (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPL-2+ or EULA; BSD-3-clause",
+            "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
         }
     },
     "376750": {
