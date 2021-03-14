@@ -7,6 +7,8 @@
 * Added raze
 * openrct2 - Update to 0.3.3
 * Added half-life-before
+* dhewm3 - Update to 1.5.1
+* Added rottexpr
 
 ### 24.1 (2021-02-26)
 
