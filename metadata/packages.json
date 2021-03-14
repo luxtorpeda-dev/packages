@@ -3393,6 +3393,53 @@
             "closed_source": true
         }
     },
+    "261980": {
+        "game_name": "Half-Life: Before",
+        "download": [
+            {
+                "name": "xash3d-fwgs",
+                "url": "https://github.com/FWGS/xash3d/releases/download/v0.19.2/",
+                "file": "xash3d_fwgs_linux_0.19.2.tar.xz"
+            },
+            {
+                "name": "xash3d-fwgs-19",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/xash3d-fwgs-19-3/",
+                "file": "xash3d-fwgs-19-812440-3.tar.xz"
+            },
+            {
+                "name": "sohl",
+                "url": "https://archive.org/download/SoHL1.2/",
+                "file": "Spirit.1.zip"
+            }
+        ],
+        "setup": {
+            "complete_path": "./ready-before",
+            "command": "./setup-before.sh"
+        },
+        "download_config": {
+            "xash3d-fwgs": {
+                "strip_prefix": "xash3d_fwgs_linux_0.19.2/",
+                "extract_location": "./"
+            },
+            "sohl": {
+                "decode_as_zip": true
+            }
+        },
+        "command": "./run-before.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/261980",
+            "engine_name": "xash3d-fwgs",
+            "engine_link": "https://github.com/FWGS/xash3d",
+            "version": "v0.19.2",
+            "comments": "Uses already compiled binaries from upstream project, along with sohl download. Requires Half-Life to be installed, expected game to be installed in same directory. May need to create hl.exe file inside installed directory for Steam to launch game.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3 with hl headers",
+            "license_link": "https://github.com/FWGS/xash3d/blob/master/COPYING",
+            "non_free": true,
+            "32-bit": true
+        }
+    },
     "273570": {
         "game_name": "Descent",
         "download": [
