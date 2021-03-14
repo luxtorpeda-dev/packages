@@ -3332,7 +3332,13 @@
     },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
-        "download": [],
+        "download": [
+            {
+                "name": "rottexpr",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-1/",
+                "file": "rottexpr-238050-1.tar.xz"
+            }
+        ],
         "choices": [
             {
                 "name": "Rise of the Triad",
