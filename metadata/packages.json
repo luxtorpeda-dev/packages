@@ -3409,6 +3409,30 @@
                         "extract_location": "./Extreme Rise of the Triad"
                     }
                 }
+            },
+            {
+                "name": "Blake Stone Aliens of Gold",
+                "command": "./Blake Stone/run-bstone.sh",
+                "download": [
+                    "bstone"
+                ],
+                "download_config": {
+                    "bstone": {
+                        "extract_location": "./Blake Stone"
+                    }
+                }
+            },
+            {
+                "name": "Blake Stone Planet Strike",
+                "command": "./Planet Strike/run-bstone.sh",
+                "download": [
+                    "bstone"
+                ],
+                "download_config": {
+                    "bstone": {
+                        "extract_location": "./Planet Strike"
+                    }
+                }
             }
         ],
         "information": [
@@ -3417,11 +3441,22 @@
                 "engine_name": "rottexpr",
                 "engine_link": "https://github.com/LTCHIPS/rottexpr",
                 "version": "v0.01",
-                "comments": "Rise of the Triad",
+                "comments": "Rise of the Triad & Extreme Rise of the Triad",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/238050",
+                "engine_name": "bstone",
+                "engine_link": "https://github.com/bibendovsky/bstone",
+                "version": "v1.2.10",
+                "comments": "Blake Stone & Planet Strike",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
             }
         ]
     },
@@ -3811,6 +3846,48 @@
             "license": "MIT",
             "license_link": "https://github.com/OpenLoco/OpenLoco/blob/master/LICENSE",
             "32-bit": true
+        }
+    },
+    "358190": {
+        "game_name": "Blake Stone: Aliens of Gold",
+        "download": [],
+        "command": "./Blake Stone - Aliens of Gold/run-bstone.sh",
+        "download_config": {
+            "bstone": {
+                "extract_location": "./Blake Stone - Aliens of Gold"
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/358190",
+            "engine_name": "bstone",
+            "engine_link": "https://github.com/bibendovsky/bstone",
+            "version": "v1.2.10",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
+        }
+    },
+    "358310": {
+        "game_name": "Blake Stone: Planet Strike",
+        "download": [],
+        "command": "./Blake Stone - Planet Strike/run-bstone.sh",
+        "download_config": {
+            "bstone": {
+                "extract_location": "./Blake Stone - Planet Strike"
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/358310",
+            "engine_name": "bstone",
+            "engine_link": "https://github.com/bibendovsky/bstone",
+            "version": "v1.2.10",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
         }
     },
     "358830": {
