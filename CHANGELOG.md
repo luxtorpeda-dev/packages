@@ -1,14 +1,18 @@
+### 24.3 (2021-03-13)
+
+* Added raze
+* openrct2 - Update to 0.3.3
+* Added half-life-before
+* dhewm3 - Update to 1.5.1
+* Added rottexpr
+* Added ecwolf
+
 ### 24.2 (2021-03-03)
 
 * warzone-2100 - Update to 4.0.0-beta1
 * openloco - Update to 21.03
 * reone - Update to 0.16.0
 * ut99 - Support 469b
-* Added raze
-* openrct2 - Update to 0.3.3
-* Added half-life-before
-* dhewm3 - Update to 1.5.1
-* Added rottexpr
 
 ### 24.1 (2021-02-26)
 
