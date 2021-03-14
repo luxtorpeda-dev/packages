@@ -3338,8 +3338,25 @@
                 "name": "Rise of the Triad",
                 "command": "./Rise of the Triad/run-rott.sh",
                 "download": [
-                    "rott"
-                ]
+                    "rottexpr"
+                ],
+                "download_config": {
+                    "rottexpr": {
+                        "extract_location": "./Rise of the Triad"
+                    }
+                }
+            },
+            {
+                "name": "Extreme Rise of the Triad",
+                "command": "./Extreme Rise of the Triad/run-rott.sh",
+                "download": [
+                    "rottexpr"
+                ],
+                "download_config": {
+                    "rottexpr": {
+                        "extract_location": "./Extreme Rise of the Triad"
+                    }
+                }
             }
         ],
         "information": [
