@@ -3383,6 +3383,12 @@
                 "name": "rottexpr",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-1/",
                 "file": "rottexpr-238050-1.tar.xz"
+            },
+            {
+                "name": "bstone",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-1/",
+                "file": "bstone-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -3850,7 +3856,14 @@
     },
     "358190": {
         "game_name": "Blake Stone: Aliens of Gold",
-        "download": [],
+        "download": [
+            {
+                "name": "bstone",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-1/",
+                "file": "bstone-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./Blake Stone - Aliens of Gold/run-bstone.sh",
         "download_config": {
             "bstone": {
@@ -3871,7 +3884,14 @@
     },
     "358310": {
         "game_name": "Blake Stone: Planet Strike",
-        "download": [],
+        "download": [
+            {
+                "name": "bstone",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-1/",
+                "file": "bstone-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./Blake Stone - Planet Strike/run-bstone.sh",
         "download_config": {
             "bstone": {
