@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/dhewm/dhewm3.git source
 pushd source
-git checkout d54ccee
+git checkout 441c26e
 popd
 
 git clone https://github.com/kcat/openal-soft.git openal
