@@ -158,7 +158,14 @@
     },
     "2270": {
         "game_name": "Wolfenstein 3D",
-        "download": [],
+        "download": [
+            {
+                "name": "ecwolf",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-1/",
+                "file": "ecwolf-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-ecwolf.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/2270",
@@ -1748,7 +1755,14 @@
     },
     "9000": {
         "game_name": "Wolfenstein 3D: Spear of Destiny",
-        "download": [],
+        "download": [
+            {
+                "name": "ecwolf",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-1/",
+                "file": "ecwolf-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-ecwolf.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/9000",
@@ -3823,7 +3837,14 @@
     },
     "371180": {
         "game_name": "Super 3-D Noah's Ark",
-        "download": [],
+        "download": [
+            {
+                "name": "ecwolf",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-1/",
+                "file": "ecwolf-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-ecwolf.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/371180",
