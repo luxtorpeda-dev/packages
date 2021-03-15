@@ -49,11 +49,25 @@ git checkout -f 6cdaedd
 git submodule update --init --recursive
 popd
 
+git clone https://github.com/Kitware/CMake.git cmake
+pushd cmake
+git checkout -f 39c6ac5
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
+pushd cmake
+./bootstrap
+make 
+sudo make install
+popd
+
+export CMAKE_ROOT=/usr/local/share/cmake-3.16/
+/usr/local/bin/cmake --version
+
 pushd wxWidgets
 ./configure --prefix="$pfx"
 make -j "$(nproc)"
