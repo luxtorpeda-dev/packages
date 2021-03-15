@@ -28,7 +28,7 @@ cd build
 cmake \
     -DBoost_DEBUG=1 \
     -DBOOST_ROOT="$boostlocation" \
-    -DCMAKE_BUILD_TYPE=Release
+    -DCMAKE_BUILD_TYPE=Release \
     ..
 make -j "$(nproc)"
 make install
