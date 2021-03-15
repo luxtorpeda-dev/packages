@@ -4604,14 +4604,36 @@
                 "name": "runelite",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/runelite-1/",
                 "file": "runelite-1343370-1.tar.xz"
+            },
+            {
+                "name": "runelite-binaries",
+                "url": "https://github.com/runelite/launcher/releases/download/2.1.5/",
+                "file": "RuneLite.AppImage"
+            }
+        ],
+        "choices": [
+            {
+                "name": "RuneLite AppImage",
+                "command": "./run-runelite.sh",
+                "download": [
+                    "runelite",
+                    "runelite-binaries"
+                ]
+            },
+            {
+                "name": "RuneLite Extracted",
+                "command": "./run-runelite-extract.sh",
+                "download": [
+                    "runelite",
+                    "runelite-binaries"
+                ]
             }
         ],
         "download_config": {
-            "runelite": {
+            "runelite-binaries": {
                 "copy_only": true
             }
         },
-        "command": "./run-runelite.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/1343370",
             "engine_name": "runelite",
