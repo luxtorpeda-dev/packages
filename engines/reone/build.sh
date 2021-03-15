@@ -60,7 +60,7 @@ export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
 pushd cmake
-./bootstrap
+./bootstrap -- -DCMAKE_USE_OPENSSL=OFF
 make 
 sudo make install
 popd
