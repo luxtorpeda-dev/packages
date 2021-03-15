@@ -4602,8 +4602,8 @@
         "download": [
             {
                 "name": "runelite",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/runelite-1/",
-                "file": "runelite-1343370-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/runelite-2/",
+                "file": "runelite-1343370-2.tar.xz"
             },
             {
                 "name": "runelite-binaries",
