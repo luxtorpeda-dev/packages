@@ -4597,6 +4597,33 @@
             "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.0.0-beta1/COPYING"
         }
     },
+    "1343370": {
+        "game_name": "Old School RuneScape",
+        "download": [
+            {
+                "name": "runelite",
+                "url": "https://github.com/runelite/launcher/releases/download/2.1.5/",
+                "file": "RuneLite.AppImage"
+            }
+        ],
+        "download_config": {
+            "runelite": {
+                "copy_only": true
+            }
+        },
+        "command": "./run-runelite.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1343370",
+            "engine_name": "runelite",
+            "engine_link": "https://github.com/runelite/runelite",
+            "version": "2.1.5",
+            "comments": "Uses AppImage from upstream project. Steam Overlay will not work.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD 2-Clause License",
+            "license_link": "https://github.com/runelite/runelite/blob/master/LICENSE"
+        }
+    },
     "1368340": {
         "game_name": "Beneath a Steel Sky",
         "download": [
