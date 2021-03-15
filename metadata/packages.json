@@ -4602,8 +4602,8 @@
         "download": [
             {
                 "name": "runelite",
-                "url": "https://github.com/runelite/launcher/releases/download/2.1.5/",
-                "file": "RuneLite.AppImage"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/runelite-1/",
+                "file": "runelite-1343370-1.tar.xz"
             }
         ],
         "download_config": {
