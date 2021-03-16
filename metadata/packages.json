@@ -4653,6 +4653,11 @@
                 "name": "runescape-binaries",
                 "url": "https://content.runescape.com/downloads/ubuntu/pool/non-free/r/runescape-launcher/",
                 "file": "runescape-launcher_2.2.9_amd64.deb"
+            },
+            {
+                "name": "runescape",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/runescape-1/",
+                "file": "runescape-1343400-1.tar.xz"
             }
         ],
         "command": "./run-runescape.sh",
