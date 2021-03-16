@@ -4639,11 +4639,39 @@
             "engine_name": "runelite",
             "engine_link": "https://github.com/runelite/runelite",
             "version": "2.1.5",
-            "comments": "Uses AppImage from upstream project. Steam Overlay will not work.",
+            "comments": "Uses AppImage from upstream project.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD 2-Clause License",
             "license_link": "https://github.com/runelite/runelite/blob/master/LICENSE"
+        }
+    },
+    "1343400": {
+        "game_name": "RuneScape",
+        "download": [
+            {
+                "name": "runescape-binaries",
+                "url": "https://content.runescape.com/downloads/ubuntu/pool/non-free/r/runescape-launcher/",
+                "file": "runescape-launcher_2.2.9_amd64.deb"
+            }
+        ],
+        "command": "./run-runescape.sh",
+        "download_config": {
+            "runescape-binaries": {
+                "copy_only": true
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1343400",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://www.runescape.com/community",
+            "version": "2.2.9",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://www.jagex.com/en-GB/legal/eula-runescape-oldschool",
+            "closed_source": true
         }
     },
     "1368340": {
