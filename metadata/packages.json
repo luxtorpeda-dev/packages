@@ -3468,7 +3468,13 @@
     },
     "240180": {
         "game_name": "Duke Nukem II",
-        "download": [],
+        "download": [
+            {
+                "name": "rigelengine",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-1/",
+                "file": "rigelengine-240180-1.tar.xz"
+            }
+        ],
         "command": "./run-rigelengine.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/240180/",
