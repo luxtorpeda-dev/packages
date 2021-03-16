@@ -35,7 +35,7 @@ mkdir -p "$pfx"
 
 # BUILD PHASE
 pushd cmake
-./bootstrap
+./bootstrap -- -DCMAKE_USE_OPENSSL=OFF
 make 
 sudo make install
 popd
