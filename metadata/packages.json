@@ -161,8 +161,8 @@
         "download": [
             {
                 "name": "ecwolf",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-2/",
-                "file": "ecwolf-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-3/",
+                "file": "ecwolf-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1758,8 +1758,8 @@
         "download": [
             {
                 "name": "ecwolf",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-2/",
-                "file": "ecwolf-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-3/",
+                "file": "ecwolf-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2688,8 +2688,8 @@
         "download": [
             {
                 "name": "reone",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-11/",
-                "file": "reone-32370-11.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-12/",
+                "file": "reone-32370-12.tar.xz"
             }
         ],
         "command": "./run-kotor1.sh",
@@ -3937,8 +3937,8 @@
         "download": [
             {
                 "name": "ecwolf",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-2/",
-                "file": "ecwolf-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-3/",
+                "file": "ecwolf-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4602,16 +4602,38 @@
         "download": [
             {
                 "name": "runelite",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/runelite-2/",
+                "file": "runelite-1343370-2.tar.xz"
+            },
+            {
+                "name": "runelite-binaries",
                 "url": "https://github.com/runelite/launcher/releases/download/2.1.5/",
                 "file": "RuneLite.AppImage"
             }
         ],
+        "choices": [
+            {
+                "name": "RuneLite AppImage",
+                "command": "./run-runelite.sh",
+                "download": [
+                    "runelite",
+                    "runelite-binaries"
+                ]
+            },
+            {
+                "name": "RuneLite Extracted",
+                "command": "./run-runelite-extract.sh",
+                "download": [
+                    "runelite",
+                    "runelite-binaries"
+                ]
+            }
+        ],
         "download_config": {
-            "runelite": {
+            "runelite-binaries": {
                 "copy_only": true
             }
         },
-        "command": "./run-runelite.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/1343370",
             "engine_name": "runelite",
