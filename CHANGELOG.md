@@ -10,6 +10,8 @@
 * reone - Update to 0.16.1
 * raze - Update to 0.9.1 beta
 * Added runelite
+* Added runescape
+* Added RigelEngine
 
 ### 24.2 (2021-03-03)
 
