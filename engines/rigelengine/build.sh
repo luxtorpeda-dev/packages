@@ -25,10 +25,24 @@ pushd SDL_mixer
 git checkout -f release-2.0.4
 popd
 
+git clone https://github.com/Kitware/CMake.git cmake
+pushd cmake
+git checkout -f 39c6ac5
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
 # BUILD PHASE
+pushd cmake
+./bootstrap
+make 
+sudo make install
+popd
+
+export CMAKE_ROOT=/usr/local/share/cmake-3.16/
+/usr/local/bin/cmake --version
+
 pushd "SDL"
 mkdir -p build
 cd build
