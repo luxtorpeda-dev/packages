@@ -90,4 +90,4 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/240180/dist/lib"
 cp -rfv "$pfx/lib/"*.so* "$diststart/240180/dist/lib"
-cp -rfv source/build/RigelEngine "$diststart/240180/dist/"
+cp -rfv source/build/src/RigelEngine "$diststart/240180/dist/"
