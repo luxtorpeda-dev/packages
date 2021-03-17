@@ -29,10 +29,15 @@ export CMAKE_ROOT=/usr/local/share/cmake-3.16/
 /usr/local/bin/cmake --version
 
 pushd "source"
-./build.sh
+mkdir -p build
+cd build
+cmake \
+    -DGLM_INCLUDE_DIR=../../glm \
+    -DCMAKE_BUILD_TYPE=RELEASE \
+    ..
+make -j "$(nproc)"
 popd
 
-
 # COPY PHASE
-cp -rfv source/_RELEASE/SSVOpenHexagon "$diststart/1358090/dist/"
-cp -rfv source/_RELEASE/HWorkshopUploader "$diststart/1358090/dist/"
+cp -rfv source/build/SSVOpenHexagon "$diststart/1358090/dist/"
+cp -rfv source/build/HWorkshopUploader "$diststart/1358090/dist/"
