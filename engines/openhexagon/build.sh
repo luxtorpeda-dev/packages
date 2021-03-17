@@ -101,6 +101,9 @@ cmake .. \
     -DCMAKE_CXX_FLAGS="-fPIC" \
     -DCMAKE_C_FLAGS="-fPIC" \
     -DBUILD_SHARED_LIBS=ON \
+    -DBUILD_EXAMPLES=OFF \
+    -DBUILD_DOCS=OFF \
+    -DBUILD_PROGRAMS=OFF \
     -DCMAKE_INSTALL_PREFIX="$pfx"
 make -j "$(nproc)"
 make install
