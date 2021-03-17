@@ -20,7 +20,7 @@ popd
 
 # BUILD PHASE
 pushd cmake
-./bootstrap -- -DCMAKE_USE_OPENSSL=OFF
+./bootstrap
 make 
 sudo make install
 popd
