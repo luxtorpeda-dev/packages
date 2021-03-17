@@ -39,6 +39,11 @@ pushd flac
 git checkout -f f764434
 popd
 
+git clone https://github.com/aseprite/freetype2.git freetype2
+pushd freetype2
+git checkout -f fbbcf50
+popd
+
 hg clone https://hg.libsdl.org/SDL
 pushd SDL
 hg checkout release-2.0.12
@@ -120,6 +125,20 @@ cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd freetype2
+mkdir build
+cd build
+cmake \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DCMAKE_CXX_FLAGS="-fPIC" \
+    -DCMAKE_C_FLAGS="-fPIC" \
+    -DBUILD_SHARED_LIBS=ON \
     ..
 make -j "$(nproc)"
 make install
