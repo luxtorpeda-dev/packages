@@ -72,17 +72,6 @@ make -j "$(nproc)"
 make install
 popd
 
-pushd flac
-mkdir -p build
-cd build
-cmake .. \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_INSTALL_PREFIX="$pfx"
-make -j "$(nproc)"
-make install
-popd
-
 pushd "ogg"
 mkdir -p build
 cd build
@@ -94,6 +83,17 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd flac
+mkdir -p build
+cd build
+cmake .. \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_INSTALL_PREFIX="$pfx"
 make -j "$(nproc)"
 make install
 popd
@@ -129,7 +129,6 @@ pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DGLM_INCLUDE_DIR=../../glm \
     -DCMAKE_BUILD_TYPE=RELEASE \
     ..
 make -j "$(nproc)"
