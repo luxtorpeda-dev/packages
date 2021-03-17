@@ -13,7 +13,20 @@ git checkout -f 947527d3
 git submodule update --init --recursive
 popd
 
+git clone https://github.com/Kitware/CMake.git cmake
+pushd cmake
+git checkout -f 39c6ac5
+popd
+
 # BUILD PHASE
+pushd cmake
+./bootstrap -- -DCMAKE_USE_OPENSSL=OFF
+make 
+sudo make install
+popd
+
+export CMAKE_ROOT=/usr/local/share/cmake-3.16/
+/usr/local/bin/cmake --version
 
 pushd "source"
 ./build.sh
