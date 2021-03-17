@@ -98,6 +98,9 @@ cd build
 cmake .. \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_CXX_FLAGS="-fPIC" \
+    -DCMAKE_C_FLAGS="-fPIC" \
+    -DBUILD_SHARED_LIBS=ON \
     -DCMAKE_INSTALL_PREFIX="$pfx"
 make -j "$(nproc)"
 make install
