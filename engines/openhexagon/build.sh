@@ -105,8 +105,8 @@ cmake .. \
     -DBUILD_DOCS=OFF \
     -DBUILD_PROGRAMS=OFF \
     -DCMAKE_INSTALL_PREFIX="$pfx"
-make -j "$(nproc)"
-make install
+make -j "$(nproc)" FLAC
+make install FLAC
 popd
 
 pushd "vorbis"
