@@ -149,6 +149,8 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=RELEASE \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)"
 popd
