@@ -163,4 +163,7 @@ popd
 
 # COPY PHASE
 cp -rfv source/build/SSVOpenHexagon "$diststart/1358090/dist/"
-cp -rfv source/build/HWorkshopUploader "$diststart/1358090/dist/"
+cp -rfv source/build/OHWorkshopUploader "$diststart/1358090/dist/"
+mkdir -p "$diststart/1358090/dist/lib"
+cp -rfv "$pfx/lib"/*.so* "$diststart/1358090/dist/lib"
+cp -rfv assets/* "$diststart/1358090/dist/"
