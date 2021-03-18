@@ -4701,6 +4701,22 @@
             "closed_source": true
         }
     },
+    "1358090": {
+        "game_name": "Open Hexagon",
+        "download": [],
+        "command": "./run-openhexagon.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1358090",
+            "engine_name": "SSVOpenHexagon",
+            "engine_link": "https://github.com/SuperV1234/SSVOpenHexagon",
+            "version": "4285d30de43f380199cee03fc446eb5910c3ec0c (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "AFL-3.0",
+            "license_link": "https://github.com/SuperV1234/SSVOpenHexagon/blob/master/LICENSE"
+        }
+    },
     "1368340": {
         "game_name": "Beneath a Steel Sky",
         "download": [
