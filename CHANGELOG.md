@@ -12,6 +12,7 @@
 * Added runelite
 * Added runescape
 * Added RigelEngine
+* Added OpenHexagon
 
 ### 24.2 (2021-03-03)
 
