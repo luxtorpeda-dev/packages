@@ -4703,7 +4703,13 @@
     },
     "1358090": {
         "game_name": "Open Hexagon",
-        "download": [],
+        "download": [
+            {
+                "name": "openhexagon",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openhexagon-1/",
+                "file": "openhexagon-1358090-1.tar.xz"
+            }
+        ],
         "command": "./run-openhexagon.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/1358090",
