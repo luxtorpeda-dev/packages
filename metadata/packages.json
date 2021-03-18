@@ -4702,7 +4702,7 @@
         }
     },
     "1358090": {
-        "game_name": "1358090",
+        "game_name": "Open Hexagon",
         "download": [],
         "command": "./run-openhexagon.sh",
         "information": {
