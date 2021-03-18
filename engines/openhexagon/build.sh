@@ -36,7 +36,7 @@ popd
 
 git clone https://github.com/xiph/flac.git flac
 pushd flac
-git checkout -f f764434
+git checkout -f 27c6157
 popd
 
 git clone https://github.com/aseprite/freetype2.git freetype2
