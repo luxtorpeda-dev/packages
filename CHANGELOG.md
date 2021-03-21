@@ -13,6 +13,7 @@
 * Added runescape
 * Added RigelEngine
 * Added OpenHexagon
+* warzone 2100 - Update to 4.0.0-beta2
 
 ### 24.2 (2021-03-03)
 
