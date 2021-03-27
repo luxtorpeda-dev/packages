@@ -30,7 +30,6 @@ make install
 popd
 
 pushd source
-mkdir build
 cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
