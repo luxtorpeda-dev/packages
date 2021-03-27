@@ -1680,7 +1680,7 @@
             "store_link": "https://store.steampowered.com/app/7660",
             "engine_name": "OpenApoc",
             "engine_link": "https://github.com/OpenApoc/OpenApoc",
-            "version": "9183a08 (from master)",
+            "version": "Alpha build v0.386",
             "comments": "Launcher will not launch the game, but will save the configuration. Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
