@@ -5,7 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/bibendovsky/bstone.git source
 pushd source
-git checkout 2a0db92
+git checkout d329e75
 popd
 
 hg clone https://hg.libsdl.org/SDL
@@ -29,7 +29,7 @@ make -j "$(nproc)"
 make install
 popd
 
-pushd source/src
+pushd source
 mkdir build
 cd build
 cmake \
@@ -42,7 +42,7 @@ make install
 popd
 
 # COPY PHASE
-cp -rfv "source/src/build/bstone" "$diststart/common/dist/"
+cp -rfv "source/build/bstone" "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
 mkdir -p "$diststart/common/dist/lib"
 cp -rfv "$pfx/lib/"*.so* "$diststart/common/dist/lib"
