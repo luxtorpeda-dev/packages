@@ -1644,8 +1644,8 @@
         "download": [
             {
                 "name": "openapoc",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-3/",
-                "file": "openapoc-7660-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-4/",
+                "file": "openapoc-7660-4.tar.xz"
             },
             {
                 "name": "common-qt5",
