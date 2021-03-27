@@ -1,3 +1,8 @@
+### 25.1 (2021-03-26)
+
+* openapoc - Update to Alpha build v0.386
+* bstone - Update to v1.2.11
+
 ### 24.3 (2021-03-13)
 
 * Added raze
