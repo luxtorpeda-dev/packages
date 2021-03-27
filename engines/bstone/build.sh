@@ -41,7 +41,7 @@ make install
 popd
 
 # COPY PHASE
-cp -rfv "source/build/bstone" "$diststart/common/dist/"
+cp -rfv "source/build/src/bstone" "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
 mkdir -p "$diststart/common/dist/lib"
 cp -rfv "$pfx/lib/"*.so* "$diststart/common/dist/lib"
