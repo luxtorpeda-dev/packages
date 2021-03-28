@@ -3,6 +3,7 @@
 * openapoc - Update to Alpha build v0.386
 * bstone - Update to v1.2.11
 * warzone2100 - Update to 4.0.0-beta3
+* quake3e - Update to 2021-03-28
 
 ### 24.3 (2021-03-13)
 
