@@ -6,7 +6,7 @@ mkdir -p "$pfx"
 # CLONE PHASE
 git clone https://github.com/boostorg/boost boost
 pushd boost
-git checkout -f 68a24986
+git checkout -f b7b1371
 git submodule update --init --recursive
 popd
 
