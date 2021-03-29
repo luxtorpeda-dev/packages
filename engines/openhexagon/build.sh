@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get -y install mercurial libssl1.0-dev libgl1-mesa-glx libudev-dev
+apt-get -y install mercurial libssl1.0-dev libgl1-mesa-glx libudev-dev libxcursor-dev libxi-dev libxinerama-dev
 
 # CLONE PHASE
 git clone https://github.com/SuperV1234/SSVOpenHexagon.git source
