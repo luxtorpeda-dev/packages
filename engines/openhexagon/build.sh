@@ -5,7 +5,7 @@ apt-get -y install mercurial libssl1.0-dev libgl1-mesa-glx libudev-dev
 # CLONE PHASE
 git clone https://github.com/SuperV1234/SSVOpenHexagon.git source
 pushd source
-git checkout 4285d30de43f380199cee03fc446eb5910c3ec0c
+git checkout 7f47e31
 git submodule update --init --recursive
 popd
 
@@ -169,4 +169,5 @@ cp -rfv "$pfx/lib"/*.so* "$diststart/1358090/dist/lib"
 cp -rfv assets/* "$diststart/1358090/dist/"
 cp -rfv source/build/_deps/sfml-build/lib/*.so* "$diststart/1358090/dist/lib"
 cp -rfv source/build/_deps/zlib-build/*.so* "$diststart/1358090/dist/lib"
+cp -rfv source/build/_deps/luajit-build/*.so* "$diststart/1358090/dist/lib"
 cp -rfv source/_RELEASE/*.so* "$diststart/1358090/dist/lib"
