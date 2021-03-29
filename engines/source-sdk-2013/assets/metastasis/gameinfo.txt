@@ -30,8 +30,7 @@
                         // in folders where they don't exist.  (Searching a VPK is much faster than making an operating
                         // system call.)
                         game_lv                         hl2/hl2_lv.vpk
-                        game+mod                        ep2/ep2_english.vpk
-                        game+mod                        ep2/ep2_pak.vpk
+                        
                         game                            |all_source_engine_paths|episodic/ep1_english.vpk
                         game                            |all_source_engine_paths|episodic/ep1_pak.vpk
                         game                            |all_source_engine_paths|hl2/hl2_english.vpk
@@ -41,6 +40,8 @@
                         game                            |all_source_engine_paths|hl2/hl2_sound_misc.vpk
                         game                            |all_source_engine_paths|hl2/hl2_misc.vpk
                         platform                        |all_source_engine_paths|platform/platform_misc.vpk
+                        game+mod                        ep2/ep2_english.vpk
+                        game+mod                        ep2/ep2_pak.vpk
  
                         // Now search loose files.  We'll set the directory containing the gameinfo.txt file
                         // as the first "mod" search path (after any user customizations).  This is also the one
