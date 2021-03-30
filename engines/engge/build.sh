@@ -33,6 +33,11 @@ pushd cmake
 git checkout -f 39c6ac5
 popd
 
+git clone https://github.com/aseprite/freetype2.git freetype2
+pushd freetype2
+git checkout -f fbbcf50
+popd
+
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
@@ -68,6 +73,20 @@ popd
 pushd glew/glew-2.1.0
 GLEW_DEST="$pfx" make -j "$(nproc)"
 GLEW_DEST="$pfx" make install
+popd
+
+pushd freetype2
+mkdir build
+cd build
+cmake \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DCMAKE_CXX_FLAGS="-fPIC" \
+    -DCMAKE_C_FLAGS="-fPIC" \
+    -DBUILD_SHARED_LIBS=ON \
+    ..
+make -j "$(nproc)"
+make install
 popd
 
 pushd "source"
