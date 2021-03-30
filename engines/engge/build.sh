@@ -5,7 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/scemino/engge.git source
 pushd source
-git checkout 1c2f965
+git checkout e8beab7
 git submodule update --init --recursive
 popd
 
