@@ -167,6 +167,9 @@ cp -rfv source/build/OHWorkshopUploader "$diststart/1358090/dist/"
 mkdir -p "$diststart/1358090/dist/lib"
 cp -rfv "$pfx/lib"/*.so* "$diststart/1358090/dist/lib"
 cp -rfv assets/* "$diststart/1358090/dist/"
+ls -l source/build/_deps/luajit-build/
+ls -l source/build/_deps/imgui-build
+ls -l source/build/_deps/imgui-sfml-build
 cp -rfv source/build/_deps/sfml-build/lib/*.so* "$diststart/1358090/dist/lib"
 cp -rfv source/build/_deps/zlib-build/*.so* "$diststart/1358090/dist/lib"
 cp -rfv source/build/_deps/luajit-build/*.so* "$diststart/1358090/dist/lib"
