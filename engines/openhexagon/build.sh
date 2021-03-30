@@ -169,5 +169,7 @@ cp -rfv "$pfx/lib"/*.so* "$diststart/1358090/dist/lib"
 cp -rfv assets/* "$diststart/1358090/dist/"
 cp -rfv source/build/_deps/sfml-build/lib/*.so* "$diststart/1358090/dist/lib"
 cp -rfv source/build/_deps/zlib-build/*.so* "$diststart/1358090/dist/lib"
-ls -l source/build/_deps
+cp -rfv source/build/_deps/luajit-build/*.so* "$diststart/1358090/dist/lib"
+cp -rfv source/build/_deps/imgui-build/*.so* "$diststart/1358090/dist/lib"
+cp -rfv source/build/_deps/imgui-sfml-build/*.so* "$diststart/1358090/dist/lib"
 cp -rfv source/_RELEASE/*.so* "$diststart/1358090/dist/lib"
