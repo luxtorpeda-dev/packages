@@ -3567,8 +3567,8 @@
             },
             {
                 "name": "xash3d-fwgs-19",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/xash3d-fwgs-19-4/",
-                "file": "xash3d-fwgs-19-261980-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/xash3d-fwgs-19-5/",
+                "file": "xash3d-fwgs-19-261980-5.tar.xz"
             },
             {
                 "name": "sohl",
@@ -4428,8 +4428,8 @@
             },
             {
                 "name": "xash3d-fwgs-19",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/xash3d-fwgs-19-4/",
-                "file": "xash3d-fwgs-19-812440-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/xash3d-fwgs-19-5/",
+                "file": "xash3d-fwgs-19-812440-5.tar.xz"
             }
         ],
         "setup": {
