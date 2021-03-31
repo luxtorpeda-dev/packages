@@ -5,6 +5,7 @@
 * warzone2100 - Update to 4.0.0-beta3
 * quake3e - Update to 2021-03-28
 * fs2open - Update to 21.2.0 RC1
+* vkquake2 - Update to 1.5.7
 
 ### 24.3 (2021-03-13)
 
