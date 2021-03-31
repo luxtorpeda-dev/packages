@@ -104,5 +104,5 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/569860/dist/lib"
 cp -rfv "$pfx/lib/"*.so* "$diststart/569860/dist/lib"
-cp -rfv source/build/engge "$diststart/569860/dist/"
+cp -rfv source/build/src/engge "$diststart/569860/dist/"
 cp -rfv assets/* "$diststart/569860/dist/"
