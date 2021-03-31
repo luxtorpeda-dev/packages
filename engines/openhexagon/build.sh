@@ -5,7 +5,7 @@ apt-get -y install mercurial libssl1.0-dev libgl1-mesa-glx libudev-dev libxcurso
 # CLONE PHASE
 git clone https://github.com/SuperV1234/SSVOpenHexagon.git source
 pushd source
-git checkout 7f47e31
+git checkout 54dd476e93869d563c1b040ace269b549d3224c8
 git submodule update --init --recursive
 popd
 
@@ -167,12 +167,8 @@ cp -rfv source/build/OHWorkshopUploader "$diststart/1358090/dist/"
 mkdir -p "$diststart/1358090/dist/lib"
 cp -rfv "$pfx/lib"/*.so* "$diststart/1358090/dist/lib"
 cp -rfv assets/* "$diststart/1358090/dist/"
-ls -l source/build/_deps/luajit-build/
-ls -l source/build/_deps/imgui-build
-ls -l source/build/_deps/imgui-sfml-build
 cp -rfv source/build/_deps/sfml-build/lib/*.so* "$diststart/1358090/dist/lib"
 cp -rfv source/build/_deps/zlib-build/*.so* "$diststart/1358090/dist/lib"
-cp -rfv source/build/_deps/luajit-build/*.so* "$diststart/1358090/dist/lib"
-cp -rfv source/build/_deps/imgui-build/*.so* "$diststart/1358090/dist/lib"
+cp -rfv source/build/_deps/luajit-build/src/*.so* "$diststart/1358090/dist/lib"
 cp -rfv source/build/_deps/imgui-sfml-build/*.so* "$diststart/1358090/dist/lib"
 cp -rfv source/_RELEASE/*.so* "$diststart/1358090/dist/lib"
