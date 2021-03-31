@@ -4265,6 +4265,28 @@
             }
         ]
     },
+    "569860": {
+        "game_name": "Thimbleweed Park™",
+        "download": [
+            {
+                "name": "engge",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/engge-1/",
+                "file": "engge-569860-1.tar.xz"
+            }
+        ],
+        "command": "./run-engge.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/569860",
+            "engine_name": "engge",
+            "engine_link": "https://github.com/scemino/engge",
+            "version": "e8beab7 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/scemino/engge/blob/master/LICENSE"
+        }
+    },
     "572050": {
         "game_name": "Call to Power II",
         "download": [
@@ -4344,22 +4366,6 @@
                 "license_link": "https://github.com/coelckers/Raze"
             }
         ]
-    },
-    "569860": {
-        "game_name": "Thimbleweed Park™",
-        "download": [],
-        "command": "./run-engge.sh",
-        "information": {
-            "store_link": "https://steamcommunity.com/app/569860",
-            "engine_name": "engge",
-            "engine_link": "https://github.com/scemino/engge",
-            "version": "e8beab7 (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "MIT",
-            "license_link": "https://github.com/scemino/engge/blob/master/LICENSE"
-        }
     },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
