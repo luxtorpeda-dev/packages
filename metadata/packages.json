@@ -4345,6 +4345,22 @@
             }
         ]
     },
+    "569860": {
+        "game_name": "Thimbleweed Park™",
+        "download": [],
+        "command": "./run-engge.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/569860",
+            "engine_name": "engge",
+            "engine_link": "https://github.com/scemino/engge",
+            "version": "e8beab7 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/scemino/engge/blob/master/LICENSE"
+        }
+    },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
         "command": "./DDLC.sh",
