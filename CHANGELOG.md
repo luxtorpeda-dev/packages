@@ -7,6 +7,7 @@
 * fs2open - Update to 21.2.0 RC1
 * vkquake2 - Update to 1.5.7
 * Added engge
+* openhexagon - Update to 7f47e31
 
 ### 24.3 (2021-03-13)
 
