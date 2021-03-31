@@ -11,7 +11,7 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 # CLONE PHASE
 git clone https://github.com/kondrak/vkQuake2.git source
 pushd source
-git checkout 3accd0e
+git checkout 42f551f
 popd
 
 export VULKAN_SDK="$PWD/1.2.148.1/x86_64"
