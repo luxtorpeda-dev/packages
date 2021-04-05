@@ -8,6 +8,7 @@
 * vkquake2 - Update to 1.5.7
 * Added engge
 * openhexagon - Update to 7f47e31
+* warzone2100 - Update to 4.0
 
 ### 24.3 (2021-03-13)
 
