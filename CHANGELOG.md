@@ -1,3 +1,8 @@
+### 25.2 (2021-04-08)
+
+* engge - Update to v0.8.0-beta
+* raze - Update to 1.0.0
+
 ### 25.1 (2021-03-26)
 
 * openapoc - Update to Alpha build v0.386
