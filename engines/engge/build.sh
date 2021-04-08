@@ -5,7 +5,7 @@ apt-get -y install mercurial libssl1.0-dev
 # CLONE PHASE
 git clone https://github.com/scemino/engge.git source
 pushd source
-git checkout e8beab7
+git checkout 09465ea
 git submodule update --init --recursive
 popd
 
