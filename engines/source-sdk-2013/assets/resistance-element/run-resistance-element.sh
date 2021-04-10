@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 if [ ! -f "sdkpath.txt" ]; then
     HL_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Source SDK Base 2013 Singleplayer Installation" --directory)
 
