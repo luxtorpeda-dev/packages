@@ -5,7 +5,7 @@ apt-get -y install mercurial yasm
 # CLONE PHASE
 git clone https://github.com/coelckers/Raze.git source
 pushd source
-git checkout 7e5e954
+git checkout 8e9a6e8
 popd
 
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
