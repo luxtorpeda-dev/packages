@@ -3,6 +3,8 @@
 * engge - Update to v0.8.0-beta
 * raze - Update to 1.0.1
 * fs2open - Update to Release 21.2.0 RC2
+* reone - Update to 0.17.0
+* openxcom-oxce - Update to 119283d
 
 ### 25.1 (2021-03-26)
 
