@@ -15,10 +15,19 @@ if [ ! -f "sdkpath.txt" ]; then
     
     echo "$HL_PATH" >> sdkpath.txt
     
-    pushd "ResistanceElement"
-        # from https://steamcommunity.com/sharedfiles/filedetails/?id=754991349&insideModal=0
-        find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
-    popd
+    if [ -d "ResistanceElement" ]; then
+        pushd "ResistanceElement"
+            # from https://steamcommunity.com/sharedfiles/filedetails/?id=754991349&insideModal=0
+            find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
+        popd
+    fi
+    
+     if [ -d "resistanceelement" ]; then
+        pushd "resistanceelement"
+            # from https://steamcommunity.com/sharedfiles/filedetails/?id=754991349&insideModal=0
+            find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
+        popd
+    fi
 fi
 
 if [ ! -f "hlpath.txt" ]; then
@@ -36,13 +45,29 @@ if [ ! -f "hlpath.txt" ]; then
     
     echo "$EPISODE_PATH" >> hlpath.txt
     
-    pushd "ResistanceElement"
-        mkdir bin
-        ln -rsf "$EPISODE_PATH/episodic/bin/client.so" bin/client.so
-        ln -rsf "$EPISODE_PATH/episodic/bin/server.so" bin/server.so
-    popd
+    if [ -d "ResistanceElement" ]; then
+        pushd "ResistanceElement"
+            mkdir bin
+            ln -rsf "$EPISODE_PATH/episodic/bin/client.so" bin/client.so
+            ln -rsf "$EPISODE_PATH/episodic/bin/server.so" bin/server.so
+        popd
+    fi
+    
+    if [ -d "resistanceelement" ]; then
+        pushd "resistanceelement"
+            mkdir bin
+            ln -rsf "$EPISODE_PATH/episodic/bin/client.so" bin/client.so
+            ln -rsf "$EPISODE_PATH/episodic/bin/server.so" bin/server.so
+        popd
+    fi
 fi
 
 sdkpath=`cat sdkpath.txt`
 
-"$sdkpath"/hl2.sh -game "$PWD/ResistanceElement" -steam
+if [ -d "ResistanceElement" ]; then
+    "$sdkpath"/hl2.sh -game "$PWD/ResistanceElement" -steam
+fi
+
+if [ -d "resistanceelement" ]; then
+    "$sdkpath"/hl2.sh -game "$PWD/resistanceelement" -steam
+fi
