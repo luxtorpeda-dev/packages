@@ -4127,6 +4127,29 @@
             }
         ]
     },
+    "434050": {
+        "game_name": "Duke Nukem 3D: 20th Anniversary World Tour",
+        "download": [
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-5/",
+                "file": "raze-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-raze.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/434050",
+            "engine_name": "raze",
+            "engine_link": "https://github.com/coelckers/Raze",
+            "version": "1.0.1",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Various Licenses",
+            "license_link": "https://github.com/coelckers/Raze"
+        }
+    },
     "517790": {
         "game_name": "Caesar 3",
         "download": [
