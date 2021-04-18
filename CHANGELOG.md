@@ -6,6 +6,7 @@
 * reone - Update to 0.17.0
 * openxcom-oxce - Update to 119283d
 * openloco - Update to 21.04
+* raze - Update to 1.0.2
 
 ### 25.1 (2021-03-26)
 
