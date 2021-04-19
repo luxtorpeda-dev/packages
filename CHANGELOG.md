@@ -1,3 +1,9 @@
+### 25.2 (2021-04-18)
+
+* raze - Update to 1.0.2
+* opengothic - Update to v1.0.1035
+* warzone2100 - Update to 4.0.1
+
 ### 25.2 (2021-04-08)
 
 * engge - Update to v0.8.0-beta
@@ -6,7 +12,6 @@
 * reone - Update to 0.17.0
 * openxcom-oxce - Update to 119283d
 * openloco - Update to 21.04
-* raze - Update to 1.0.2
 
 ### 25.1 (2021-03-26)
 
