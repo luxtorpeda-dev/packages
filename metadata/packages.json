@@ -2710,8 +2710,8 @@
         "download": [
             {
                 "name": "opengothic",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-14/",
-                "file": "opengothic-39510-14.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-15/",
+                "file": "opengothic-39510-15.tar.xz"
             }
         ],
         "command": "./run-gothic2.sh",
