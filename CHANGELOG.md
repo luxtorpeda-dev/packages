@@ -3,6 +3,7 @@
 * raze - Update to 1.0.2
 * opengothic - Update to v1.0.1035
 * warzone2100 - Update to 4.0.1
+* rbdoom-3-bfg - Update to latest master (09c9f25)
 
 ### 25.2 (2021-04-08)
 
