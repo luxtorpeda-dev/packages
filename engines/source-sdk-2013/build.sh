@@ -14,3 +14,5 @@ cp -rfv assets/metastasis/* "$diststart/235780/dist/"
 cp -rfv assets/year-long-alarm/* "$diststart/747250/dist/"
 
 cp -rfv assets/resistance-element/* "$diststart/1054600/dist/"
+
+cp -rfv assets/portal-reloaded/* "$diststart/1255980/dist/"
