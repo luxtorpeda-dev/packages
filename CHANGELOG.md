@@ -6,6 +6,7 @@
 * rbdoom-3-bfg - Update to latest master (09c9f25)
 * raze - Update to 1.0.3
 * fs2open - Update to 21.2.0 RC3
+* Add portal reloaded
 
 ### 25.2 (2021-04-08)
 
