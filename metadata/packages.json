@@ -3003,7 +3003,7 @@
             "32-bit": true
         }
     },
-     "215930": {
+    "215930": {
         "game_name": "Jagged Alliance 2 - Wildfire",
         "download": [
             {
@@ -3015,6 +3015,11 @@
                 "name": "ja2-wildfire",
                 "url": "https://github.com/ja2-stracciatella/mod-wildfire-maps/releases/download/0.3.0/",
                 "file": "mod-wildfire-maps-0.3.0-linux-x64.zip"
+            },
+            {
+                "name": "ja2-stracciatella",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-1/",
+                "file": "ja2-stracciatella-215930-1.tar.xz"
             }
         ],
         "command": "./run-ja2.sh",
