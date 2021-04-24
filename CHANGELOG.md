@@ -7,6 +7,7 @@
 * raze - Update to 1.0.3
 * fs2open - Update to 21.2.0 RC3
 * Add portal reloaded
+* Add ja2-stracciatella
 
 ### 25.2 (2021-04-08)
 
