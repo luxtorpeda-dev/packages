@@ -5,7 +5,7 @@ apt-get -y install mercurial libssl1.0-dev libgl1-mesa-glx libudev-dev libxcurso
 # CLONE PHASE
 git clone https://github.com/SuperV1234/SSVOpenHexagon.git source
 pushd source
-git checkout 54dd476e93869d563c1b040ace269b549d3224c8
+git checkout 103aa2d
 git submodule update --init --recursive
 popd
 
