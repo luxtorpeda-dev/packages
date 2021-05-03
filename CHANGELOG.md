@@ -1,3 +1,8 @@
+### 25.3 (2021-05-03)
+
+* openhexagon - Update to 2.0.5
+* fs2open - Update to 21.2.0
+
 ### 25.2 (2021-04-18)
 
 * raze - Update to 1.0.2
