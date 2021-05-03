@@ -4696,30 +4696,6 @@
             "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.0.1/COPYING"
         }
     },
-    "1255980": {
-        "game_name": "Portal Reloaded",
-        "download": [
-            {
-                "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-9/",
-                "file": "source-sdk-2013-1255980-9.tar.xz"
-            }
-        ],
-        "command": "./run-portal-reloaded.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/1255980",
-            "engine_name": "Portal 2",
-            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
-            "version": "Steam release",
-            "comments": "Requires Portal 2 to be installed. Thanks to https://steamcommunity.com/sharedfiles/filedetails/?id=2463220837",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Source SDK Copyright(c) Valve Corp.",
-            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
-            "non_free": true,
-            "32-bit": true
-        }
-    },
     "1343370": {
         "game_name": "Old School RuneScape",
         "download": [
