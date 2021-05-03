@@ -2833,8 +2833,8 @@
             },
             {
                 "name": "serioussam2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serioussam2-3/",
-                "file": "serioussam2-204340-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serioussam2-4/",
+                "file": "serioussam2-204340-4.tar.xz"
             }
         ],
         "command": "./run-serioussam2.sh",
