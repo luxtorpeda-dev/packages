@@ -2,6 +2,8 @@
 
 * openhexagon - Update to 2.0.5
 * fs2open - Update to 21.2.0
+* realrtcw - Update to 3.2
+* reone - Update to 0.18.0
 
 ### 25.2 (2021-04-18)
 
