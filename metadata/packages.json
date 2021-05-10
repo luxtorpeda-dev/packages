@@ -2800,8 +2800,8 @@
         "download": [
             {
                 "name": "sonic-cd-11-decomp",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/sonic-cd-11-decomp-2/",
-                "file": "sonic-cd-11-decomp-200940-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/sonic-cd-11-decomp-3/",
+                "file": "sonic-cd-11-decomp-200940-3.tar.xz"
             }
         ],
         "command": "./soniccd",
