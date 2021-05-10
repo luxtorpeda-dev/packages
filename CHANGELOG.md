@@ -1,3 +1,8 @@
+### 25.4 (2021-05-10)
+
+* sonic-cd-11-decomp - Update to v1.1.2
+* raze - Update to 1.1.0
+
 ### 25.3 (2021-05-03)
 
 * openhexagon - Update to 2.0.5
