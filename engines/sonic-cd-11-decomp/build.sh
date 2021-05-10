@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation.git source
 pushd source
-git checkout -f 222caf6
+git checkout -f e0011d7
 popd
 
 # BUILD PHASE
