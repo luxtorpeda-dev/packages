@@ -13,4 +13,4 @@ make
 popd
 
 # COPY PHASE
-cp -rfv "source/soniccd" "$diststart/200940/dist/"
+cp -rfv "source/bin/soniccd" "$diststart/200940/dist/"
