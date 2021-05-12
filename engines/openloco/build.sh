@@ -5,7 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/OpenLoco/OpenLoco.git source
 pushd source
-git checkout -f 8409067
+git checkout -f cacb426
 popd
 
 git clone https://github.com/jbeder/yaml-cpp.git yaml-cpp
@@ -90,5 +90,4 @@ cp -rfv "$pfx/lib/"*.so* "$diststart/356430/dist/lib"
 
 cp -rfv "source/build/openloco" "$diststart/356430/dist/"
 cp -rfv "source/build/data/"* "$diststart/356430/dist/data"
-
 cp -rfv "assets/run-openloco.sh" "$diststart/356430/dist"
