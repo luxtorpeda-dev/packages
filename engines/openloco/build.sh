@@ -90,5 +90,4 @@ cp -rfv "$pfx/lib/"*.so* "$diststart/356430/dist/lib"
 
 cp -rfv "source/build/openloco" "$diststart/356430/dist/"
 cp -rfv "source/build/data/"* "$diststart/356430/dist/data"
-
 cp -rfv "assets/run-openloco.sh" "$diststart/356430/dist"
