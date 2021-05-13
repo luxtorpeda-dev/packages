@@ -2,6 +2,7 @@
 
 
 if [ ! -f "sdkpath.txt" ]; then
+    "$STEAM_ZENITY" --info --text="Browse to Source SDK Base 2013 Singleplayer Installation" --title="Information"
     HL_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Source SDK Base 2013 Singleplayer Installation" --directory)
 
     if [ -z "$HL_PATH" ]; then
@@ -23,6 +24,7 @@ if [ ! -f "sdkpath.txt" ]; then
 fi
 
 if [ ! -f "hlpath.txt" ]; then
+    "$STEAM_ZENITY" --info --text="Browse to Half Life 2 Installation" --title="Information"
     EPISODE_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Half Life 2 Installation" --directory)
 
     if [ -z "EPISODE_PATH" ]; then

@@ -2,6 +2,7 @@
 
 
 if [ ! -f "sdkpath.txt" ]; then
+    "$STEAM_ZENITY" --info --text="Browse to Source SDK Base 2013 Singleplayer Installation" --title="Information"
     HL_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Source SDK Base 2013 Singleplayer Installation" --directory)
 
     if [ -z "$HL_PATH" ]; then
