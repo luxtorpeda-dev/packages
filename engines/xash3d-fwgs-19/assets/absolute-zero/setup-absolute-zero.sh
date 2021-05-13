@@ -1,5 +1,6 @@
 #!/bin/bash
 
+"$STEAM_ZENITY" --info --text="Browse to Half Life installation" --title="Information"
 HL_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Half Life installation" --directory)
 
 if [ -z "$HL_PATH" ]; then
