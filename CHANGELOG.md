@@ -6,6 +6,7 @@
 * source-sdk-2013 - Add zenity info prompts
 * xash3d-fwgs-19 - Add zenity info prompts
 * realrtcw - Add zenity info prompts
+* raze - Update to 1.1.1
 
 ### 25.3 (2021-05-03)
 
