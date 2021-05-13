@@ -3,6 +3,9 @@
 * sonic-cd-11-decomp - Update to v1.1.2
 * raze - Update to 1.1.0
 * openloco - Update to 21.05
+* source-sdk-2013 - Add zenity info prompts
+* xash3d-fwgs-19 - Add zenity info prompts
+* realrtcw - Add zenity info prompts
 
 ### 25.3 (2021-05-03)
 
