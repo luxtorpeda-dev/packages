@@ -1,5 +1,6 @@
 #!/bin/bash
 
+"$STEAM_ZENITY" --info --text="Browse to Return to Castle Wolfenstein installation" --title="Information"
 RTCW_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Return to Castle Wolfenstein installation" --directory)
 
 if [ -z "$RTCW_PATH" ]; then
