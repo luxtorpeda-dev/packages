@@ -4550,6 +4550,35 @@
             "32-bit": true
         }
     },
+    "817220": {
+        "game_name": "The Forestale",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "TheForestale.ipk3",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/817220",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.5.0",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
     "961620": {
         "game_name": "Flashback",
         "download": [
@@ -4676,6 +4705,64 @@
             "32-bit": true
         }
     },
+    "1072150": {
+        "game_name": "Hedon",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "hgzdoom.pk3",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1072150",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.5.0",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+    "1118550": {
+        "game_name": "Fury's Sky",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "FURYSKY.iwad",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1118550",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.5.0",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
     "1241950": {
         "game_name": "Warzone 2100",
         "download": [
@@ -4701,6 +4788,35 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.0.1/COPYING"
+        }
+    },
+    "1271050": {
+        "game_name": "Shrine",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "shrine.ipk3",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1271050",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.5.0",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
     "1343370": {
@@ -4890,6 +5006,64 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://gitlab.com/solarus-games/solarus/-/blob/dev/license_gpl.txt"
+        }
+    },
+    "1417010": {
+        "game_name": "Shrine II",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "shrine2/ShrineII.ipk3",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1417010",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.5.0",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+    "1546440": {
+        "game_name": "Lycanthorn II - Rain of Beasts",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-5/",
+                "file": "gzdoom-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "Lycanthorn II/Lycanthorn2.ipk3",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1546440",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.5.0",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
     "default": {
