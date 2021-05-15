@@ -3840,6 +3840,13 @@
                 ]
             },
             {
+                "name": "nblood Cryptic Passage",
+                "command": "./run-nblood-cryptic-one-unit.sh",
+                "download": [
+                    "nblood"
+                ]
+            },
+            {
                 "name": "raze",
                 "command": "./run-raze-nblood.sh",
                 "download": [
