@@ -9,6 +9,7 @@
 * raze - Update to 1.1.1
 * raze - Update to 1.1.2 and support blood better
 * Added etqw, user provided binaries
+* gzdoom - Add doom 2 master levels 
 
 ### 25.3 (2021-05-03)
 
