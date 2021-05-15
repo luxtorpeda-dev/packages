@@ -7,6 +7,7 @@
 * xash3d-fwgs-19 - Add zenity info prompts
 * realrtcw - Add zenity info prompts
 * raze - Update to 1.1.1
+* raze - Update to 1.1.2 and support blood better
 
 ### 25.3 (2021-05-03)
 
