@@ -8,6 +8,7 @@
 * realrtcw - Add zenity info prompts
 * raze - Update to 1.1.1
 * raze - Update to 1.1.2 and support blood better
+* Added etqw, user provided binaries
 
 ### 25.3 (2021-05-03)
 
