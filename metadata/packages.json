@@ -2185,6 +2185,41 @@
             }
         ]
     },
+    "9160": {
+        "game_name": "Master Levels for DOOM II",
+        "download": [
+            {
+                "name": "wadsmoosh",
+                "url": "https://heptapod.host/jp-lebreton/wadsmoosh/-/archive/branch/default/",
+                "file": "wadsmoosh-branch-default.tar.gz"
+            },
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-6/",
+                "file": "gzdoom-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "name": "gzdoom",
+        "command": "./run-gzdoom-2-master-levels.sh",
+        "command_args": [
+            "-iwad",
+            "doom_complete.pk3"
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/9160/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.5.0",
+                "comments": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh/-/tree/branch/default/)",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            }
+        ]
+    },
     "9180": {
         "game_name": "Commander Keen Complete Pack",
         "download": [
