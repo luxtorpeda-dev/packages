@@ -2238,6 +2238,35 @@
             "license_link": "https://gitlab.com/Dringgstein/Commander-Genius/-/blob/master/COPYRIGHT"
         }
     },
+    "10010": {
+        "game_name": "Enemy Territory: Quake Wars Demo",
+        "download": [],
+        "choices": [
+            {
+                "name": "ETQW Demo",
+                "command": "./run-demo.sh"
+            },
+            {
+                "name": "ETQW Provided Retail",
+                "command": "./run-retail.sh"
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamdb.info/app/10010/",
+                "engine_name": "Proprietary Engine",
+                "engine_link": "https://steamcommunity.com/app/10000/discussions/0/143388511227759615/",
+                "version": "ETQW-demo2-client-full.r1.x86",
+                "comments": "For Provided Retail option, put retail version in full directory, so that full/etqw-rthread exists inside the steam installed demo directory. For Demo, download the demo, run and follow the steps, then copy the files to demo/ inside the steam installed demo directory",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Proprietary/Closed Source",
+                "license_link": "https://zerowing.idsoftware.com/linux/etqw/ETQWFrontPage/index.html",
+                "closed_source": true,
+                "32-bit": true
+            }
+        ]
+    },
     "12100": {
         "game_name": "Grand Theft Auto III",
         "download": [],
