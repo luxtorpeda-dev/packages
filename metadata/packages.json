@@ -2240,7 +2240,13 @@
     },
     "10010": {
         "game_name": "Enemy Territory: Quake Wars Demo",
-        "download": [],
+        "download": [
+            {
+                "name": "etqw",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-1/",
+                "file": "etqw-10010-1.tar.xz"
+            }
+        ],
         "choices": [
             {
                 "name": "ETQW Demo",
