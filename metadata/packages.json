@@ -4792,7 +4792,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./run-gzdoom.sh",
+        "command": "./run-gzdoom-hedon.sh",
         "command_args": [
             "-iwad",
             "Hedon.ipk3",
