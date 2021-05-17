@@ -2273,15 +2273,9 @@
             "license_link": "https://gitlab.com/Dringgstein/Commander-Genius/-/blob/master/COPYRIGHT"
         }
     },
-    "10010": {
+    "10050": {
         "game_name": "Enemy Territory: Quake Wars Demo",
-        "download": [
-            {
-                "name": "etqw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-1/",
-                "file": "etqw-10010-1.tar.xz"
-            }
-        ],
+        "download": [],
         "choices": [
             {
                 "name": "ETQW Demo",
@@ -2294,11 +2288,11 @@
         ],
         "information": [
             {
-                "store_link": "https://steamdb.info/app/10010/",
+                "store_link": "https://steamdb.info/app/10050/",
                 "engine_name": "Proprietary Engine",
                 "engine_link": "https://steamcommunity.com/app/10000/discussions/0/143388511227759615/",
                 "version": "ETQW-demo2-client-full.r1.x86",
-                "comments": "For Provided Retail option, put retail version in full directory, so that full/etqw-rthread exists inside the steam installed demo directory. For Demo, download the demo, run and follow the steps, then copy the files to demo/ inside the steam installed demo directory",
+                "comments": "For Provided Retail option, put retail version in full directory, so that full/etqw-rthread exists inside the steam installed demo directory. For Demo, download the demo, run and follow the steps, then copy the files to demo/ inside the steam installed demo directory. Uses sdlcl, Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game.",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "Proprietary/Closed Source",
