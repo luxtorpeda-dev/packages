@@ -3883,7 +3883,7 @@
             },
             {
                 "name": "raze",
-                "command": "./run-raze-nblood.sh",
+                "command": "./run-raze-nblood-one-unit.sh",
                 "download": [
                     "raze"
                 ]
