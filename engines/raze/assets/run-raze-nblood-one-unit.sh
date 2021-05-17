@@ -2,4 +2,4 @@
 
 mkdir ./ini
 cp -rfv ./BLOOD.INI ./ini/BLOOD.INI
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./raze
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./raze -gamegrp BLOOD.RFF
