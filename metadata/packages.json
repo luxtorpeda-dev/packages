@@ -4795,7 +4795,7 @@
         "command": "./run-gzdoom.sh",
         "command_args": [
             "-iwad",
-            "hgzdoom/Hedon.ipk3",
+            "Hedon.ipk3",
             "-savedir",
             "./saves"
         ],
