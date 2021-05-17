@@ -3,7 +3,8 @@
 # CLONE PHASE
 git clone https://github.com/MrAlert/sdlcl.git sdlcl
 pushd sdlcl
-git checkout -f f7530d684bc7867e05e2e71385a452f26ba29555
+git checkout -f 85ca5537ac2a067d4c0e2fd67dd17ab6bde4359e
+git am < ../patches/0001-Force-32-bit.patch
 popd
 
 # BUILD PHASE
