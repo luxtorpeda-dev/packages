@@ -4797,7 +4797,9 @@
             "-iwad",
             "Hedon.ipk3",
             "-savedir",
-            "./saves"
+            "./saves",
+            "-config",
+            "gzdoom.ini"
         ],
         "information": {
             "store_link": "https://store.steampowered.com/app/1072150",
