@@ -11,6 +11,7 @@
 * Added etqw, user provided binaries
 * gzdoom - Add doom 2 master levels 
 * augustus - Update to 3.0
+* gzdoom - Update to 4.6.0
 
 ### 25.3 (2021-05-03)
 
