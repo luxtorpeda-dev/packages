@@ -5039,11 +5039,16 @@
                 "name": "realrtcw",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-8/",
                 "file": "realrtcw-1379630-8.tar.xz"
+            },
+            {
+                "name": "realrtcw-content",
+                "url": "https://www.moddb.com/downloads/mirror/201571/121/",
+                "file": "c71b0a188ba1067986b921c1c6af0808"
             }
         ],
         "commands": {
             ".*RealRTCW.x64.exe": {
-                "cmd": "./RealRTCW.x86_64",
+                "cmd": "./nosteam/RealRTCW.x86_64",
                 "args": [
                     "+set",
                     "com_basegame",
@@ -5051,16 +5056,25 @@
                 ]
             }
         },
+        "download_config": {
+            "realrtcw-content": {
+                "extract_location": "./nosteam/",
+                "decode_as_zip": true
+            },
+            "realrtcw": {
+                "extract_location": "./nosteam/"
+            }
+        },
         "setup": {
-            "complete_path": "./ready",
-            "command": "./setup-realrtcw.sh"
+            "complete_path": "./nosteam/ready-nosteam",
+            "command": "./nosteam/setup-realrtcw.sh"
         },
         "information": {
             "store_link": "https://store.steampowered.com/app/1379630/",
             "engine_name": "realrtcw",
             "engine_link": "https://github.com/wolfetplayer/RealRTCW",
             "version": "3.2 (nosteam)",
-            "comments": "Requires installation of RTCW. Will ask for directory path on first launch. No steam version.",
+            "comments": "Requires installation of RTCW. Will ask for directory path on first launch. No steam version from moddb.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",

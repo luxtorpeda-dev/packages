@@ -8,4 +8,5 @@ if [ -z "$RTCW_PATH" ]; then
     exit 1
 fi
 
-ln -rsf "$RTCW_PATH/Main"/*.pk3 ./Main
+mv ./nosteam/"!copy the content of this folder into rtcw root directory"/Main ./nosteam/Main
+ln -rsf "$RTCW_PATH/Main"/*.pk3 ./nosteam/Main
