@@ -56,8 +56,8 @@
             },
             {
                 "name": "quake3e",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-3/",
-                "file": "quake3e-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-4/",
+                "file": "quake3e-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1006,8 +1006,8 @@
             },
             {
                 "name": "quake3e",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-3/",
-                "file": "quake3e-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-4/",
+                "file": "quake3e-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
