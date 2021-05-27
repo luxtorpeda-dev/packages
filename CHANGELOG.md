@@ -1,3 +1,8 @@
+### 25.5 (2021-05-27)
+
+* realrtcw - Fix launch to use non-steam version
+* quake3e - Update to 2021-05-27
+
 ### 25.4 (2021-05-10)
 
 * sonic-cd-11-decomp - Update to v1.1.2
@@ -12,7 +17,6 @@
 * gzdoom - Add doom 2 master levels 
 * augustus - Update to 3.0
 * gzdoom - Update to 4.6.0
-* realrtcw - Fix launch to use non-steam version
 
 ### 25.3 (2021-05-03)
 
