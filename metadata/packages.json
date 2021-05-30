@@ -5039,11 +5039,6 @@
                 "name": "realrtcw",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-9/",
                 "file": "realrtcw-1379630-9.tar.xz"
-            },
-            {
-                "name": "realrtcw-content",
-                "url": "https://www.moddb.com/downloads/mirror/201571/121/",
-                "file": "c71b0a188ba1067986b921c1c6af0808"
             }
         ],
         "commands": {
@@ -5057,16 +5052,12 @@
             }
         },
         "download_config": {
-            "realrtcw-content": {
-                "extract_location": "./nosteam/",
-                "decode_as_zip": true
-            },
             "realrtcw": {
                 "extract_location": "./nosteam/"
             }
         },
         "setup": {
-            "complete_path": "./nosteam/ready-nosteam",
+            "complete_path": "./nosteam/ready-nosteam-moddb",
             "command": "./nosteam/setup-realrtcw.sh"
         },
         "information": {
@@ -5074,7 +5065,7 @@
             "engine_name": "realrtcw",
             "engine_link": "https://github.com/wolfetplayer/RealRTCW",
             "version": "3.2 (nosteam)",
-            "comments": "Requires installation of RTCW. Will ask for directory path on first launch. No steam version from moddb.",
+            "comments": "Requires installation of RTCW. Will ask for directory path on first launch. No steam version from moddb, required to be extracted into nosteam directory, so that nosteam has .",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",

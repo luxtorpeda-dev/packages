@@ -8,5 +8,10 @@ if [ -z "$RTCW_PATH" ]; then
     exit 1
 fi
 
+if [ ! -d ./nosteam/"!copy the content of this folder into rtcw root directory" ]; then
+    "$STEAM_ZENITY" --error --title="RealRTCW Setup Error" --text="Game content not downloaded from ModDB and extracted to nosteam directory."
+    exit 1
+fi
+
 mv ./nosteam/"!copy the content of this folder into rtcw root directory"/Main ./nosteam/Main
 ln -rsf "$RTCW_PATH/Main"/*.pk3 ./nosteam/Main
