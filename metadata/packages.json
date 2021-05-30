@@ -5065,7 +5065,7 @@
             "engine_name": "realrtcw",
             "engine_link": "https://github.com/wolfetplayer/RealRTCW",
             "version": "3.2 (nosteam)",
-            "comments": "Requires installation of RTCW. Will ask for directory path on first launch. No steam version from moddb, required to be extracted into nosteam directory, so that nosteam has .",
+            "comments": "Requires installation of RTCW. Will ask for directory path on first launch. No steam version from moddb, required to be extracted into nosteam directory.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
