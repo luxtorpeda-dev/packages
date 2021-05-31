@@ -13,5 +13,5 @@ if [ ! -d ./nosteam/"!copy the content of this folder into rtcw root directory" 
     exit 1
 fi
 
-mv ./nosteam/"!copy the content of this folder into rtcw root directory"/Main ./nosteam/Main
+mv ./nosteam/"!copy the content of this folder into rtcw root directory"/Main/* ./nosteam/Main
 ln -rsf "$RTCW_PATH/Main"/*.pk3 ./nosteam/Main
