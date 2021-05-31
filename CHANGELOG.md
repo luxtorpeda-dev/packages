@@ -2,6 +2,7 @@
 
 * realrtcw - Fix launch to use non-steam version
 * quake3e - Update to 2021-05-27
+* vkquake - Update to 1.05.3
 
 ### 25.4 (2021-05-10)
 
