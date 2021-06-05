@@ -5,7 +5,7 @@ apt-get -y install mercurial yasm nasm libgtk-3-dev
 # CLONE PHASE
 git clone https://github.com/seedhartha/reone.git source
 pushd source
-git checkout -f edabf40
+git checkout -f 582b87b
 popd
 
 git clone https://github.com/boostorg/boost boost
