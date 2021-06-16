@@ -1,3 +1,7 @@
+### 25.6 (2021-06-15)
+
+* yquake2 - Update to 8.00
+
 ### 25.5 (2021-05-27)
 
 * realrtcw - Fix launch to use non-steam version
