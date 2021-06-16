@@ -5,22 +5,22 @@
 # CLONE PHASE
 git clone https://github.com/yquake2/yquake2.git source
 pushd source
-git checkout d08cf04
+git checkout f648378
 popd
 
 git clone https://github.com/yquake2/ctf.git source-ctf
 pushd source-ctf
-git checkout 16198d7
+git checkout 72b78e3
 popd
 
 git clone https://github.com/yquake2/xatrix.git source-xatrix
 pushd source-xatrix
-git checkout 7819c12
+git checkout 2e2fac5
 popd
 
 git clone https://github.com/yquake2/rogue.git source-rogue
 pushd source-rogue
-git checkout 6fb2d6e
+git checkout 397fdd7
 popd
 
 # BUILD PHASE
