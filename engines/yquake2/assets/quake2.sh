@@ -27,4 +27,10 @@ rm_default_config b69548e2817943cb007f1dd147574900 baseq2/config.cfg
 rm_default_config 11bf27caf2595b540c5b2700e73dc545 rogue/config.cfg
 rm_default_config b5cdf60549ac832497899f739dc89182 xatrix/config.cfg
 
-./quake2 -portable "$@"
+ARGS=()
+
+for var in "$@"; do
+    [ "$var" != 'D:\data\max' ] && ARGS+=("$var")
+done
+
+./quake2 -portable "${ARGS[@]}"
