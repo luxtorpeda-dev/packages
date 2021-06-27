@@ -2315,7 +2315,13 @@
     },
     "12110": {
         "game_name": "Grand Theft Auto: Vice City",
-        "download": [],
+        "download": [
+            {
+                "name": "reVC",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reVC-1/",
+                "file": "reVC-12110-1.tar.xz"
+            }
+        ],
         "command": "./run-reVC.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/12110",
