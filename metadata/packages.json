@@ -2311,7 +2311,19 @@
     "12100": {
         "game_name": "Grand Theft Auto III",
         "download": [],
-        "command": "./run-re3.sh"
+        "command": "./run-re3.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/12100",
+            "engine_name": "re3",
+            "engine_link": "https://github.com/GTAmodding/re3",
+            "version": "a923728 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Unknown",
+            "license_link": "https://github.com/GTAmodding/re3/blob/master/README.md",
+            "non_free": true
+        }
     },
     "12110": {
         "game_name": "Grand Theft Auto: Vice City",
