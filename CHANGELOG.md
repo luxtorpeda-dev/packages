@@ -1,3 +1,8 @@
+### 25.7 (2021-06-26)
+
+* Re-add re3
+* Re-add reVC
+
 ### 25.6 (2021-06-15)
 
 * yquake2 - Update to 8.00
