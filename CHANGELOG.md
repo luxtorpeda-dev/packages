@@ -2,6 +2,7 @@
 
 * Re-add re3
 * Re-add reVC
+* opengothic - Update to v1.0.1123
 
 ### 25.6 (2021-06-15)
 
