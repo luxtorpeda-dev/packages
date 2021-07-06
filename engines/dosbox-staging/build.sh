@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get -y install python3 python3-pip
+sudo apt-get -y install python3 python3-pip libssl-dev
 sudo pip3 install meson
 
 # CLONE PHASE
