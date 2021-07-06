@@ -132,6 +132,7 @@ create_archives_without_v7 () {
 install_gcc_9 () {
     echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/gcc.list
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
+    echo "" > /etc/apt/sources.list
     sudo apt-get update
     sudo apt-get install gcc-9 g++-9 -y
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
@@ -165,6 +166,7 @@ install_gcc_9_ubuntu_1804 () {
 install_gcc_6 () {
     echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/gcc.list
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
+    echo "" > /etc/apt/sources.list
     sudo apt-get update
     sudo apt-get install gcc-6 g++-6 -y
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 6
@@ -176,6 +178,7 @@ install_gcc_6 () {
 install_latest_git () {
     echo "deb http://ppa.launchpad.net/git-core/ppa/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/git.list
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys a1715d88e1df1f24
+    echo "" > /etc/apt/sources.list
     sudo apt-get update
     sudo apt-get install -y git
     git config --global user.email "actions@github.com"
