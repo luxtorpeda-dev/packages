@@ -165,7 +165,6 @@ install_gcc_9_ubuntu_1804 () {
 install_gcc_6 () {
     echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/gcc.list
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
-    echo "" > /etc/apt/sources.list
     sudo apt-get update
     sudo apt-get install gcc-6 g++-6 -y
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 6
