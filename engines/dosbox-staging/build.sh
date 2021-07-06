@@ -27,16 +27,6 @@ meson setup -Dbuildtype=release \
     build
 popd
 
-pushd "source"
-meson setup -Dbuildtype=release \
--Dc_args=-Ofast \
--Dcpp_args=-Ofast \
--Db_asneeded=true -Dstrip=true \
--Ddefault_library=static \
--Dfluidsynth:enable-floats=true \
--Dfluidsynth:try-static-deps=true build
-popd
-
 # COPY PHASE
 mkdir -p "$diststart/common/dist/lib"
 cp -rfv "$pfx/bin/dosbox" "$diststart/common/dist/"
