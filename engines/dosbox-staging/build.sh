@@ -3,13 +3,15 @@
 # CLONE PHASE
 git clone https://github.com/dosbox-staging/dosbox-staging.git source
 pushd source
-git checkout -f cf72ec3
+git checkout -f 15a57e2
 popd
 
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
 pushd fluidsynth
 git checkout -f 19a20eb
 popd
+
+sudo pip3 install meson
 
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
@@ -27,11 +29,7 @@ popd
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib64/pkgconfig"
 
 pushd "source"
-./autogen.sh
-./configure CPPFLAGS="-DNDEBUG" CFLAGS="-O3" CXXFLAGS="-O3" --prefix="$pfx"
-make -j "$(nproc)"
-make install
-popd
+meson setup -Dbuildtype=release -Ddefault_library=static build
 
 # COPY PHASE
 mkdir -p "$diststart/common/dist/lib"
