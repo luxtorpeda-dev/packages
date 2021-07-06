@@ -29,7 +29,13 @@ popd
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib64/pkgconfig"
 
 pushd "source"
-meson setup -Dbuildtype=release -Ddefault_library=static build
+meson setup -Dbuildtype=release \
+-Dc_args=-Ofast \
+-Dcpp_args=-Ofast \
+-Db_asneeded=true -Dstrip=true \
+-Ddefault_library=static \
+-Dfluidsynth:enable-floats=true \
+-Dfluidsynth:try-static-deps=true build
 
 # COPY PHASE
 mkdir -p "$diststart/common/dist/lib"
