@@ -7,6 +7,7 @@ eval "$(pyenv init --path)"
 
 pyenv install 3.6.0
 pyenv local 3.6.0
+pip3 install --upgrade pip
 pip3 install meson
 
 # CLONE PHASE
@@ -25,6 +26,7 @@ meson setup -Dbuildtype=release \
     -Dfluidsynth:enable-floats=true \
     -Dfluidsynth:try-static-deps=true \
     build
+ninja -C build
 popd
 
 # COPY PHASE
