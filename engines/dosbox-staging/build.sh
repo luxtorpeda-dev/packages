@@ -14,6 +14,7 @@ pip3 install meson
 git clone https://github.com/dosbox-staging/dosbox-staging.git source
 pushd source
 git checkout -f 15a57e2
+git cherry-pick 34b58ebf9f63da42e04f6cadb9920fb243a9cb26
 popd
 
 # BUILD PHASE
