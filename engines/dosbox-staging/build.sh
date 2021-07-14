@@ -31,5 +31,5 @@ ninja -C build
 popd
 
 # COPY PHASE
-cp -rfv "$pfx/source/build/dosbox" "$diststart/common/dist/"
+cp -rfv "source/build/dosbox" "$diststart/common/dist/"
 cp -rfv assets/*.sh "$diststart/common/dist/"
