@@ -1,40 +1,35 @@
 #!/bin/bash
 
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+
+pyenv install 3.6.0
+pyenv local 3.6.0
+pip3 install --upgrade pip
+pip3 install meson
+
 # CLONE PHASE
 git clone https://github.com/dosbox-staging/dosbox-staging.git source
 pushd source
-git checkout -f cf72ec3
+git checkout -f 15a57e2
+git cherry-pick 34b58ebf9f63da42e04f6cadb9920fb243a9cb26
 popd
-
-git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
-pushd fluidsynth
-git checkout -f 19a20eb
-popd
-
-readonly pfx="$PWD/local"
-mkdir -p "$pfx"
 
 # BUILD PHASE
-pushd "fluidsynth"
-mkdir -p build
-cd build
-cmake \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    ..
-make -j "$(nproc)" install
-popd
-
-export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib64/pkgconfig"
-
 pushd "source"
-./autogen.sh
-./configure CPPFLAGS="-DNDEBUG" CFLAGS="-O3" CXXFLAGS="-O3" --prefix="$pfx"
-make -j "$(nproc)"
-make install
+meson setup -Dbuildtype=release \
+    -Dc_args=-Ofast \
+    -Dcpp_args=-Ofast \
+    -Db_asneeded=true -Dstrip=true \
+    -Ddefault_library=static \
+    -Dfluidsynth:enable-floats=true \
+    -Dfluidsynth:try-static-deps=true \
+    build
+ninja -C build
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/common/dist/lib"
-cp -rfv "$pfx/bin/dosbox" "$diststart/common/dist/"
-cp -rfv "$pfx/lib64/"*.so* "$diststart/common/dist/lib"
+cp -rfv "source/build/dosbox" "$diststart/common/dist/"
 cp -rfv assets/*.sh "$diststart/common/dist/"

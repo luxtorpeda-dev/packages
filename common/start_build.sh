@@ -24,6 +24,8 @@ if [ ! -z "${CUSTOM_CONTAINER}" ]; then
         install_gcc_9_ubuntu_1804
     fi
 else
+    cp -rfv ../../common/ubuntu12sources.list /etc/apt/sources.list
+
     if [ ! -z "${GCC_9}" ]; then
         echo "Installing gcc 9"
         install_gcc_9
