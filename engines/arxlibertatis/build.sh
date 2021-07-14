@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/arx/ArxLibertatis source
 pushd source
-git checkout 20e8f2a
+git checkout eb5ae43
 popd
 
 git clone https://github.com/boostorg/boost boost
