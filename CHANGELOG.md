@@ -2,6 +2,8 @@
 
 * warzone2100 - Update to 4.1.0
 * vkquake2 - Update to 1.5.8
+* arxlibertatis - Update to 1.2
+* dosbox-staging - Update to 0.77.0
 
 ### 25.7 (2021-06-26)
 
