@@ -14,4 +14,4 @@ done
 
 new_args+=("-fullscreen")
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" "${new_args[@]}"
+"${new_args[@]}"

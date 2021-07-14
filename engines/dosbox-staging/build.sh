@@ -31,7 +31,5 @@ ninja -C build
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/common/dist/lib"
-cp -rfv "$pfx/bin/dosbox" "$diststart/common/dist/"
-cp -rfv "$pfx/lib64/"*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/source/build/dosbox" "$diststart/common/dist/"
 cp -rfv assets/*.sh "$diststart/common/dist/"
