@@ -5,6 +5,7 @@
 * arxlibertatis - Update to 1.2
 * dosbox-staging - Update to 0.77.0
 * raze - Update to 1.1.3
+* openloco - Update to 21.07
 
 ### 25.7 (2021-06-26)
 
