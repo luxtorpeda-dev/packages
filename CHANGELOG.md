@@ -6,7 +6,8 @@
 * dosbox-staging - Update to 0.77.0
 * raze - Update to 1.1.3
 * openloco - Update to 21.07
-* OpenRCT2 - Update to 0.3.4 
+* OpenRCT2 - Update to 0.3.4
+* quake3e - Update to 2021-07-20
 
 ### 25.7 (2021-06-26)
 
