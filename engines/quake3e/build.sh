@@ -5,7 +5,7 @@ sudo apt-get -y install libxxf86dga-dev libxrandr-dev libxxf86vm-dev libasound-d
 # CLONE PHASE
 git clone https://github.com/ec-/Quake3e.git source
 pushd source
-git checkout 8f423a0
+git checkout b8ec17b
 popd
 
 # BUILD PHASE
