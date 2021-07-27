@@ -1,3 +1,8 @@
+### 25.9 (2021-07-27)
+
+* openrct2 - Update to v0.3.4.1
+* warzone2100 - Update to 4.1.1
+
 ### 25.8 (2021-07-06)
 
 * warzone2100 - Update to 4.1.0
