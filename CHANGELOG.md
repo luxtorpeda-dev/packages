@@ -1,3 +1,8 @@
+### 26.1 (2021-08-03)
+
+* opengothic - Update to v1.0.1177
+* warzone2100 - Update to 4.1.2
+
 ### 25.9 (2021-07-27)
 
 * openrct2 - Update to v0.3.4.1
