@@ -10,7 +10,7 @@ sudo apt install -y vulkan-sdk
 # CLONE PHASE
 git clone https://github.com/Try/OpenGothic source
 pushd source
-git checkout -f 461e9ca
+git checkout -f f4cf3ee
 git submodule update --init --recursive
 popd
 
