@@ -1,3 +1,9 @@
+### 30.1 (2021-08-07)
+
+* arxlibertatis - Fix for too many file descriptors
+* source-sdk-2013 - Fix for too many file descriptors
+* gzdoom - Update to 4.6.1
+
 ### 26.1 (2021-08-03)
 
 * opengothic - Update to v1.0.1177
