@@ -18,14 +18,14 @@ if [ ! -f "sdkpath.txt" ]; then
     echo "$HL_PATH" >> sdkpath.txt
     
     pushd "yearlongalarm"
-        find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
+        LD_PRELOAD="" find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
     popd
 fi
 
 sdkpath=`cat sdkpath.txt`
 
 pushd "yearlongalarm"
-    cp -rfv ../gameinfo.txt gameinfo.txt
+    LD_PRELOAD="" cp -rfv ../gameinfo.txt gameinfo.txt
 popd
 
 "$sdkpath"/hl2.sh -game "$PWD/yearlongalarm" -steam

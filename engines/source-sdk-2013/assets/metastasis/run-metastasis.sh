@@ -19,7 +19,7 @@ if [ ! -f "sdkpath.txt" ]; then
     
     pushd "metastasis"
         # from https://steamcommunity.com/sharedfiles/filedetails/?id=754991349&insideModal=0
-        find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
+        LD_PRELOAD="" find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
     popd
 fi
 
@@ -40,15 +40,15 @@ if [ ! -f "hlpath.txt" ]; then
     echo "$EPISODE_PATH" >> hlpath.txt
     
     pushd "metastasis"
-        mkdir bin
-        ln -rsf "$EPISODE_PATH/episodic/bin/client.so" bin/client.so
-        ln -rsf "$EPISODE_PATH/episodic/bin/server.so" bin/server.so
+        LD_PRELOAD="" mkdir bin
+        LD_PRELOAD="" ln -rsf "$EPISODE_PATH/episodic/bin/client.so" bin/client.so
+        LD_PRELOAD="" ln -rsf "$EPISODE_PATH/episodic/bin/server.so" bin/server.so
     popd
 fi
 
 pushd "metastasis"
-    cp -rfv ../shorewave003a.vmt materials/test/shorewave003a.vmt
-    cp -rfv ../gameinfo.txt gameinfo.txt
+    LD_PRELOAD="" cp -rfv ../shorewave003a.vmt materials/test/shorewave003a.vmt
+    LD_PRELOAD="" cp -rfv ../gameinfo.txt gameinfo.txt
 popd
 
 sdkpath=`cat sdkpath.txt`

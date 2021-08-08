@@ -19,14 +19,14 @@ if [ ! -f "sdkpath.txt" ]; then
     if [ -d "ResistanceElement" ]; then
         pushd "ResistanceElement"
             # from https://steamcommunity.com/sharedfiles/filedetails/?id=754991349&insideModal=0
-            find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
+            LD_PRELOAD="" find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
         popd
     fi
     
      if [ -d "resistanceelement" ]; then
         pushd "resistanceelement"
             # from https://steamcommunity.com/sharedfiles/filedetails/?id=754991349&insideModal=0
-            find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
+            LD_PRELOAD="" find ./ | sort -r | sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' |sh
         popd
     fi
 fi
@@ -49,17 +49,17 @@ if [ ! -f "hlpath.txt" ]; then
     
     if [ -d "ResistanceElement" ]; then
         pushd "ResistanceElement"
-            mkdir bin
-            ln -rsf "$EPISODE_PATH/episodic/bin/client.so" bin/client.so
-            ln -rsf "$EPISODE_PATH/episodic/bin/server.so" bin/server.so
+            LD_PRELOAD="" mkdir bin
+            LD_PRELOAD="" ln -rsf "$EPISODE_PATH/episodic/bin/client.so" bin/client.so
+            LD_PRELOAD="" ln -rsf "$EPISODE_PATH/episodic/bin/server.so" bin/server.so
         popd
     fi
     
     if [ -d "resistanceelement" ]; then
         pushd "resistanceelement"
-            mkdir bin
-            ln -rsf "$EPISODE_PATH/episodic/bin/client.so" bin/client.so
-            ln -rsf "$EPISODE_PATH/episodic/bin/server.so" bin/server.so
+            LD_PRELOAD="" mkdir bin
+            LD_PRELOAD="" ln -rsf "$EPISODE_PATH/episodic/bin/client.so" bin/client.so
+            LD_PRELOAD="" ln -rsf "$EPISODE_PATH/episodic/bin/server.so" bin/server.so
         popd
     fi
 fi

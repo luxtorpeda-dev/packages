@@ -20,7 +20,7 @@ if [ ! -f "sdkpath.txt" ]; then
     pushd "Entropy Zero/EntropyZero"
     # from z33ky script
     for d in sound materials resource; do
-		find "${d}/" -exec sh -eux -c "echo {} | grep -q '[A-Z]' && ln -vs \"\$(basename {})\" \"\$(echo {}|tr '[A-Z]' '[a-z]')\"" \;
+		LD_PRELOAD="" find "${d}/" -exec sh -eux -c "echo {} | grep -q '[A-Z]' && ln -vs \"\$(basename {})\" \"\$(echo {}|tr '[A-Z]' '[a-z]')\"" \;
 	done
     popd
 fi
@@ -28,7 +28,7 @@ fi
 sdkpath=`cat sdkpath.txt`
 
 pushd "Entropy Zero/EntropyZero"
-    cp -rfv ../../weapon_manhacktoss.txt scripts/
+    LD_PRELOAD="" cp -rfv ../../weapon_manhacktoss.txt scripts/
 popd
 
 "$sdkpath"/hl2.sh -game "$PWD/Entropy Zero/EntropyZero" -steam
