@@ -3504,8 +3504,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-12/",
-                "file": "source-sdk-2013-235780-12.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-13/",
+                "file": "source-sdk-2013-235780-13.tar.xz"
             }
         ],
         "command": "./run-metastasis.sh",
@@ -4576,8 +4576,8 @@
             },
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-12/",
-                "file": "source-sdk-2013-714070-12.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-13/",
+                "file": "source-sdk-2013-714070-13.tar.xz"
             }
         ],
         "download_config": {
@@ -4605,8 +4605,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-12/",
-                "file": "source-sdk-2013-747250-12.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-13/",
+                "file": "source-sdk-2013-747250-13.tar.xz"
             }
         ],
         "command": "./run-year-long-alarm.sh",
@@ -4799,8 +4799,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-12/",
-                "file": "source-sdk-2013-1054600-12.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-13/",
+                "file": "source-sdk-2013-1054600-13.tar.xz"
             }
         ],
         "command": "./run-resistance-element.sh",
