@@ -4897,12 +4897,12 @@
             "store_link": "https://store.steampowered.com/app/1241950/Warzone_2100/",
             "engine_name": "warzone2100",
             "engine_link": "https://github.com/Warzone2100/warzone2100",
-            "version": "4.1.2",
+            "version": "4.1.3",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.1.2/COPYING"
+            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.1.3/COPYING"
         }
     },
     "1271050": {

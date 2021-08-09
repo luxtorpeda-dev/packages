@@ -6,7 +6,7 @@ DEBIAN_FRONTEND=noninteractive apt-get -y install mercurial curl tcl gettext
 # CLONE PHASE
 git clone https://github.com/Warzone2100/warzone2100.git source
 pushd source
-git checkout -f c510413
+git checkout -f 5d02c7f
 git submodule update --init --recursive
 popd
 
