@@ -5161,6 +5161,27 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "1518810": {
+        "game_name": "Koi Farm",
+        "download": [],
+        "download_config": {
+            "koi-farm": {
+                "extract_location": "./linuxdata"
+            }
+        },
+        "command": "./linuxdata/run-koi-farm.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1518810",
+            "engine_name": "Koi",
+            "engine_link": "https://github.com/jobtalle/Koi",
+            "version": "742b6bc",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Apache 2 with Commons Clause",
+            "license_link": "https://github.com/jobtalle/Koi/blob/master/LICENSE.md"
+        }
+    },
     "1546440": {
         "game_name": "Lycanthorn II - Rain of Beasts",
         "download": [
