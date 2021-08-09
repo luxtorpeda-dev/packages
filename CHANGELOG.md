@@ -5,6 +5,7 @@
 * gzdoom - Update to 4.6.1
 * Added koi-farm
 * Added easyrpg-player
+* warzone2100 - Update to 4.1.3
 
 ### 26.1 (2021-08-03)
 
