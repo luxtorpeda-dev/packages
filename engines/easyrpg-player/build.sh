@@ -44,7 +44,7 @@ pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local;$pfx/root/packages/engines/easyrpg-player/local/" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
     ..
