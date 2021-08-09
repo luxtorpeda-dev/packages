@@ -17,6 +17,16 @@ pushd icu
 git checkout -f c8bc56e
 popd
 
+git clone https://github.com/Mindwerks/wildmidi.git wildmidi
+pushd wildmidi
+git checkout -f 99dc051
+popd
+
+git clone https://github.com/libxmp/libxmp.git libxmp
+pushd libxmp
+git checkout -f a9701bd
+popd
+
 # BUILD PHASE
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
@@ -37,19 +47,43 @@ cmake \
     -DCMAKE_BUILD_TYPE=Release \
     ..
 make -j "$(nproc)"
-DESTDIR="$pfx" make install
+make install
+popd
+
+pushd wildmidi
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DCMAKE_BUILD_TYPE=Release \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+pushd libxmp
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DCMAKE_BUILD_TYPE=Release \
+    ..
+make -j "$(nproc)"
+make install
 popd
 
 pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local;$pfx/root/packages/engines/easyrpg-player/local/" \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
     ..
 make -j "$(nproc)"
-DESTDIR="$pfx" make install
+make install
 popd
 
 # COPY PHASE
