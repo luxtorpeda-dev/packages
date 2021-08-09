@@ -5283,7 +5283,7 @@
             },
             {
                 "name": "easyrpg-player",
-                "command": "./easyrpg-player",
+                "command": "./run-easyrpg-player.sh",
                 "download": [
                     "easyrpg-player"
                 ]
