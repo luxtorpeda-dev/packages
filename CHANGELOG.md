@@ -3,6 +3,7 @@
 * arxlibertatis - Fix for too many file descriptors
 * source-sdk-2013 - Fix for too many file descriptors
 * gzdoom - Update to 4.6.1
+* Added koi-farm
 
 ### 26.1 (2021-08-03)
 
