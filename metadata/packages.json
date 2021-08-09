@@ -5169,7 +5169,7 @@
                 "extract_location": "./linuxdata"
             }
         },
-        "command": "./linuxdata/KoiFarm",
+        "command": "./linuxdata/run-koi-farm.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/1518810",
             "engine_name": "Koi",

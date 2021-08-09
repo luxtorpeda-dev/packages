@@ -20,3 +20,4 @@ popd
 
 # COPY PHASE
 cp -rfv ./source/KoiFarm-linux-x64/* "$diststart/1518810/dist"
+cp -rfv ./assets/* "$diststart/1518810/dist"
