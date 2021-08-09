@@ -24,7 +24,7 @@ popd
 
 git clone https://github.com/libxmp/libxmp.git libxmp
 pushd libxmp
-git checkout -f a9701bd
+git checkout -f a04bb8f
 popd
 
 # BUILD PHASE
@@ -81,6 +81,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
+    -DPLAYER_ENABLE_TESTS=OFF \
     ..
 make -j "$(nproc)"
 make install
