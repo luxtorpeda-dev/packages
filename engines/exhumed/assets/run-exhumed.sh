@@ -1,3 +1,4 @@
 #!/bin/bash
 
-./pcexhumed -usecwd -nosetup
+cd PWRSLAVE
+../pcexhumed -usecwd -nosetup
