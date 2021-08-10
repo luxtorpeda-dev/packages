@@ -12,5 +12,5 @@ make exhumed
 popd
 
 # COPY PHASE
-cp -rfv "source/exhumed" "$diststart/common/dist/"
+cp -rfv "source/pcexhumed" "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"

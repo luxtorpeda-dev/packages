@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./exhumed -usecwd -nosetup
+./pcexhumed -usecwd -nosetup
