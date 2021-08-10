@@ -4905,6 +4905,32 @@
             "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.1.3/COPYING"
         }
     },
+    "1260020": {
+        "game_name": "PowerSlave (DOS Classic Edition)",
+        "download": [],
+        "choices": [
+            {
+                "name": "raze",
+                "command": "./run-raze-powerslave.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/1260020",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "1271050": {
         "game_name": "Shrine",
         "download": [
