@@ -4917,6 +4917,13 @@
         ],
         "choices": [
             {
+                "name": "exhumed",
+                "command": "./run-exhumed.sh",
+                "download": [
+                    "exhumed"
+                ]
+            },
+            {
                 "name": "raze",
                 "command": "./run-raze-powerslave.sh",
                 "download": [
@@ -4925,6 +4932,17 @@
             }
         ],
         "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/1260020",
+                "engine_name": "NBlood Exhumed",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "60f9e42 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/exhumed/gpl-2.0.txt"
+            },
             {
                 "store_link": "https://store.steampowered.com/app/1260020",
                 "engine_name": "raze",
