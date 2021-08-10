@@ -4913,6 +4913,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-17/",
                 "file": "raze-common-17.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "exhumed",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-1/",
+                "file": "exhumed-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
