@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get -y install mercurial libvulkan-dev lld glslang-tools meson
+apt-get -y install mercurial libvulkan-dev lld meson
 
 # CLONE PHASE
 git clone https://github.com/KranX/Perimeter source
@@ -40,6 +40,12 @@ git checkout -f 68a24986
 git submodule update --init --recursive
 popd
 
+git clone https://github.com/KhronosGroup/glslang.git
+pushd glslang
+git checkout -f aa2d4bd
+git submodule update --init --recursive
+popd
+
 export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -w"
 export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -w"
 
@@ -50,6 +56,12 @@ mkdir -p "$pfx"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
+pushd glslang
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+popd
+
 pushd "openal"
 rm -rf build
 mkdir -p build
