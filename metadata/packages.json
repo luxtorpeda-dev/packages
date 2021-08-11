@@ -3888,7 +3888,14 @@
     },
     "289440": {
         "game_name": "Perimeter",
-        "download": [],
+        "download": [
+            {
+                "name": "perimeter",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-1/",
+                "file": "perimeter-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-perimeter.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/289440",
