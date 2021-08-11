@@ -1,6 +1,7 @@
 #!/bin/bash
 
-apt-get -y install mercurial libvulkan-dev lld meson
+apt-get -y install mercurial libvulkan-dev lld meson python3-pip
+sudo pip3 install meson
 
 # CLONE PHASE
 git clone https://github.com/KranX/Perimeter source
@@ -46,6 +47,11 @@ git checkout -f aa2d4bd
 git submodule update --init --recursive
 popd
 
+git clone https://github.com/Kitware/CMake.git cmake
+pushd cmake
+git checkout -f 39c6ac5
+popd
+
 export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -w"
 export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -w"
 
@@ -56,17 +62,28 @@ mkdir -p "$pfx"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
+pushd cmake
+./bootstrap -- -DCMAKE_USE_OPENSSL=OFF
+make
+sudo make install
+popd
+
+export CMAKE_ROOT=/usr/local/share/cmake-3.16/
+/usr/local/bin/cmake --version
+
 pushd glslang
 mkdir build
 cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j "$(nproc)"
+make install
 popd
 
 pushd "openal"
 rm -rf build
 mkdir -p build
 cd build
-cmake \
+/usr/local/bin/cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
@@ -79,7 +96,7 @@ popd
 pushd "ogg"
 mkdir -p build
 cd build
-cmake \
+/usr/local/bin/cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DCMAKE_CXX_FLAGS="-fPIC" \
     -DCMAKE_C_FLAGS="-fPIC" \
@@ -92,7 +109,7 @@ popd
 pushd "vorbis"
 mkdir -p build
 cd build
-cmake \
+/usr/local/bin/cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DCMAKE_CXX_FLAGS="-fPIC" \
     -DCMAKE_C_FLAGS="-fPIC" \
@@ -105,7 +122,7 @@ popd
 pushd "SDL"
 mkdir -p build
 cd build
-cmake \
+/usr/local/bin/cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
@@ -113,6 +130,18 @@ cmake \
 make -j "$(nproc)"
 make install
 popd
+
+pushd "SDL"
+rm -rf build
+mkdir -p build
+cd build
+/usr/local/bin/cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
 
 pushd "theora"
 ./autogen.sh
@@ -131,7 +160,13 @@ popd
 pushd "source"
 mkdir build
 cd build
-cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Release
+/usr/local/bin/cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Release -DBOOST_ROOT="$boostlocation" -DCMAKE_PREFIX_PATH="$pfx" -DCMAKE_INSTALL_PREFIX="$pfx"
+ninja dependencies
+ninja
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/common/dist/lib"
+cp -rfv "$pfx/lib"/*.so* "$diststart/common/dist/lib"
+
+cp -rfv source/build/Source/perimeter "$diststart/common/dist/"
