@@ -1,4 +1,3 @@
 #!/bin/bash
 
-cd PWRSLAVE
-../pcexhumed -usecwd -nosetup
+./pcexhumed -nosetup
