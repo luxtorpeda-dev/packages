@@ -7,6 +7,7 @@
 * Added easyrpg-player
 * warzone2100 - Update to 4.1.3
 * Added pcexumed support and added powerslave support from raze
+* Added perimeter
 
 ### 26.1 (2021-08-03)
 
