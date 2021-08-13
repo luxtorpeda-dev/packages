@@ -4042,8 +4042,8 @@
         "download": [
             {
                 "name": "openloco",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-6/",
-                "file": "openloco-356430-6.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-7/",
+                "file": "openloco-356430-7.tar.xz"
             }
         ],
         "command": "./run-openloco.sh",
