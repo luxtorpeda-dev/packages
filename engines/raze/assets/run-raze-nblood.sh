@@ -2,10 +2,6 @@
 
 gamearg="$1"
 
-if [ ! -f raze-template.ini ]; then
-    LD_PRELOAD="" cp -rfv ./raze-template.ini ./raze.ini
-fi
-
 if [ -z $1 ]; then
     LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./raze -gamegrp blood.rff
 elif [ "$gamearg" = "-addon" ]; then
