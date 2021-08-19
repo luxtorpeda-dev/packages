@@ -16,4 +16,4 @@ if [ ! -f share/quake/mg1/config.cfg ] ; then
 	sed -i "s|%USER%|$USER|" share/quake/mg1/config.cfg
 fi
 
-./vkquake -fitz -basedir share/quake
+./vkquake -fitz -basedir share/quake "$@"
