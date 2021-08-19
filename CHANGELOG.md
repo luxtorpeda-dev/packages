@@ -1,3 +1,7 @@
+### 30.2 (2021-08-19)
+
+* Update Quake to support new updates
+
 ### 30.1 (2021-08-07)
 
 * arxlibertatis - Fix for too many file descriptors
