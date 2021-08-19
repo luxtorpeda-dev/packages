@@ -706,6 +706,66 @@
                 "download": [
                     "quakespasm-spiked"
                 ]
+            },
+            {
+                "name": "vkquake Dimension of the Past",
+                "command": "./vkquake-game.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "command_args": [
+                    "-dopa"
+                ]
+            },
+            {
+                "name": "darkplaces-2017 Dimension of the Past",
+                "command": "./darkplaces-2017/darkplaces-game.sh",
+                "download": [
+                    "darkplaces-2017"
+                ],
+                "command_args": [
+                    "-dopa"
+                ]
+            },
+            {
+                "name": "quakespasm-spiked Dimension of the Past",
+                "command": "./quakespasm/quakespasm-game.sh",
+                "download": [
+                    "quakespasm-spiked"
+                ],
+                "command_args": [
+                    "-dopa"
+                ]
+            },
+            {
+                "name": "vkquake Dimension of the Machine",
+                "command": "./vkquake-game.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "command_args": [
+                    "-mg1"
+                ]
+            },
+            {
+                "name": "darkplaces-2017 Dimension of the Machine",
+                "command": "./darkplaces-2017/darkplaces-game.sh",
+                "download": [
+                    "darkplaces-2017"
+                ],
+                "command_args": [
+                    "-mg1"
+                ]
+            },
+            {
+                "name": "quakespasm-spiked Dimension of the Machine",
+                "command": "./quakespasm/quakespasm-game.sh",
+                "download": [
+                    "quakespasm-spiked"
+                ],
+                "command_args": [
+                    "-mg1"
+                ]
             }
         ],
         "information": [
