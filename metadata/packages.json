@@ -714,7 +714,8 @@
                     "vkquake"
                 ],
                 "command_args": [
-                    "-dopa"
+                    "-game",
+                    "dopa"
                 ]
             },
             {
@@ -724,7 +725,8 @@
                     "darkplaces-2017"
                 ],
                 "command_args": [
-                    "-dopa"
+                    "-game",
+                    "dopa"
                 ]
             },
             {
@@ -734,7 +736,8 @@
                     "quakespasm-spiked"
                 ],
                 "command_args": [
-                    "-dopa"
+                    "-game",
+                    "dopa"
                 ]
             },
             {
@@ -744,7 +747,8 @@
                     "vkquake"
                 ],
                 "command_args": [
-                    "-mg1"
+                    "-game",
+                    "mg1"
                 ]
             },
             {
@@ -754,7 +758,8 @@
                     "darkplaces-2017"
                 ],
                 "command_args": [
-                    "-mg1"
+                    "-game",
+                    "mg1"
                 ]
             },
             {
@@ -764,7 +769,8 @@
                     "quakespasm-spiked"
                 ],
                 "command_args": [
-                    "-mg1"
+                    "-game",
+                    "mg1"
                 ]
             }
         ],
