@@ -33,4 +33,14 @@ if [ ! -f share/quake/hipnotic/music ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/hipnotic/music ./share/quake/hipnotic/music
 fi
 
+if [ ! -f share/quake/dopa/config.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/dopa/config.cfg
+	sed -i "s|%USER%|$USER|" share/quake/dopa/config.cfg
+fi
+
+if [ ! -f share/quake/mg1/config.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/mg1/config.cfg
+	sed -i "s|%USER%|$USER|" share/quake/mg1/config.cfg
+fi
+
 ./vkquake -fitz -basedir share/quake "$@"
