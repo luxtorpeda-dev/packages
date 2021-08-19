@@ -673,16 +673,6 @@
                 "cache_by_name": true
             },
             {
-                "name": "Quake Soundtrack",
-                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake/",
-                "file": "quake-campaign-soundtrack.tar.xz"
-            },
-            {
-                "name": "Quake Soundtrack Quaddicted",
-                "url": "https://www.quaddicted.com/files/music/",
-                "file": "quake_campaign_soundtrack.zip"
-            },
-            {
                 "name": "darkplaces-2017",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-2/",
                 "file": "darkplaces-2017-common-2.tar.xz",
@@ -700,39 +690,22 @@
                 "name": "vkquake",
                 "command": "./vkquake.sh",
                 "download": [
-                    "vkquake",
-                    "Quake Soundtrack"
+                    "vkquake"
                 ]
             },
             {
                 "name": "darkplaces-2017",
                 "command": "./darkplaces-2017/darkplaces.sh",
                 "download": [
-                    "darkplaces-2017",
-                    "Quake Soundtrack Quaddicted"
-                ],
-                "download_config": {
-                    "Quake Soundtrack Quaddicted": {
-                        "extract_location": "./darkplaces-2017/share/quake/",
-                        "strip_prefix": "quake_campaign_soundtrack/",
-                        "decode_as_zip": true
-                    }
-                }
+                    "darkplaces-2017"
+                ]
             },
             {
                 "name": "quakespasm-spiked",
                 "command": "./quakespasm/quakespasm.sh",
                 "download": [
-                    "quakespasm-spiked",
-                    "Quake Soundtrack Quaddicted"
-                ],
-                "download_config": {
-                    "Quake Soundtrack Quaddicted": {
-                        "extract_location": "./quakespasm/share/quake/",
-                        "strip_prefix": "quake_campaign_soundtrack/",
-                        "decode_as_zip": true
-                    }
-                }
+                    "quakespasm-spiked"
+                ]
             }
         ],
         "information": [
@@ -741,7 +714,7 @@
                 "engine_name": "vkQuake",
                 "engine_link": "https://github.com/Novum/vkQuake",
                 "version": "1.05.3",
-                "comments": "Single-player only for now, fixed music",
+                "comments": "",
                 "author": "dreamer",
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv2",
@@ -752,7 +725,7 @@
                 "engine_name": "darkplaces-2017",
                 "engine_link": "http://icculus.org/twilight/darkplaces/",
                 "version": "20170829beta1",
-                "comments": "fixed music",
+                "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
@@ -763,7 +736,7 @@
                 "engine_name": "quakespasm-spiked",
                 "engine_link": "https://github.com/Shpoike/Quakespasm",
                 "version": "9ffca1d (from master)",
-                "comments": "fixed music",
+                "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
@@ -1814,226 +1787,6 @@
             "license": "GPLv3",
             "license_link": "https://github.com/iortcw/iortcw/blob/master/SP/COPYING.txt"
         }
-    },
-    "9030": {
-        "game_name": "QUAKE Mission Pack 2: Dissolution of Eternity",
-        "download": [
-            {
-                "name": "Mission Pack 2 Soundtrack",
-                "url": "https://www.quaddicted.com/files/music/",
-                "file": "quake_mp2_soundtrack.zip"
-            },
-            {
-                "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-7/",
-                "file": "vkquake-common-7.tar.xz",
-                "cache_by_name": true
-            },
-            {
-                "name": "darkplaces-2017",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-2/",
-                "file": "darkplaces-2017-common-2.tar.xz",
-                "cache_by_name": true
-            },
-            {
-                "name": "quakespasm-spiked",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-2/",
-                "file": "quakespasm-spiked-common-2.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "choices": [
-            {
-                "name": "vkquake",
-                "command": "./vkquake-rogue.sh",
-                "download": [
-                    "vkquake",
-                    "Mission Pack 2 Soundtrack"
-                ],
-                "download_config": {
-                    "Mission Pack 2 Soundtrack": {
-                        "extract_location": "./share/quake/",
-                        "strip_prefix": "quake_mp2_soundtrack/",
-                        "decode_as_zip": true
-                    }
-                }
-            },
-            {
-                "name": "darkplaces-2017",
-                "command": "./darkplaces-2017/darkplaces-rogue.sh",
-                "download": [
-                    "darkplaces-2017",
-                    "Mission Pack 2 Soundtrack"
-                ],
-                "download_config": {
-                    "Mission Pack 2 Soundtrack": {
-                        "extract_location": "./darkplaces-2017/share/quake/",
-                        "strip_prefix": "quake_mp2_soundtrack/",
-                        "decode_as_zip": true
-                    }
-                }
-            },
-            {
-                "name": "quakespasm-spiked",
-                "command": "./quakespasm/quakespasm-rogue.sh",
-                "download": [
-                    "quakespasm-spiked",
-                    "Mission Pack 2 Soundtrack"
-                ],
-                "download_config": {
-                    "Mission Pack 2 Soundtrack": {
-                        "extract_location": "./quakespasm/share/quake/",
-                        "strip_prefix": "quake_mp2_soundtrack/",
-                        "decode_as_zip": true
-                    }
-                }
-            }
-        ],
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/9030/",
-                "engine_name": "vkQuake",
-                "engine_link": "https://github.com/Novum/vkQuake",
-                "version": "1.05.3",
-                "comments": "Single-player only for now, fixed music",
-                "author": "dreamer",
-                "author_link": "https://github.com/dreamer",
-                "license": "GPLv2",
-                "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
-            },
-            {
-                "store_link": "https://store.steampowered.com/app/9030/",
-                "engine_name": "darkplaces-2017",
-                "engine_link": "http://icculus.org/twilight/darkplaces/",
-                "version": "20170829beta1",
-                "comments": "fixed music",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv2",
-                "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details"
-            },
-            {
-                "store_link": "https://store.steampowered.com/app/9030/",
-                "engine_name": "quakespasm-spiked",
-                "engine_link": "https://github.com/Shpoike/Quakespasm",
-                "version": "9ffca1d (from master)",
-                "comments": "fixed music",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv2",
-                "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt"
-            }
-        ]
-    },
-    "9040": {
-        "game_name": "QUAKE Mission Pack 1: Scourge of Armagon",
-        "download": [
-            {
-                "name": "Mission Pack 1 Soundtrack",
-                "url": "https://www.quaddicted.com/files/music/",
-                "file": "quake_mp1_soundtrack.zip"
-            },
-            {
-                "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-7/",
-                "file": "vkquake-common-7.tar.xz",
-                "cache_by_name": true
-            },
-            {
-                "name": "darkplaces-2017",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-2/",
-                "file": "darkplaces-2017-common-2.tar.xz",
-                "cache_by_name": true
-            },
-            {
-                "name": "quakespasm-spiked",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-2/",
-                "file": "quakespasm-spiked-common-2.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "choices": [
-            {
-                "name": "vkquake",
-                "command": "./vkquake-hipnotic.sh",
-                "download": [
-                    "vkquake",
-                    "Mission Pack 1 Soundtrack"
-                ],
-                "download_config": {
-                    "Mission Pack 1 Soundtrack": {
-                        "extract_location": "./share/quake/",
-                        "strip_prefix": "quake_mp1_soundtrack/",
-                        "decode_as_zip": true
-                    }
-                }
-            },
-            {
-                "name": "darkplaces-2017",
-                "command": "./darkplaces-2017/darkplaces-hipnotic.sh",
-                "download": [
-                    "darkplaces-2017",
-                    "Mission Pack 1 Soundtrack"
-                ],
-                "download_config": {
-                    "Mission Pack 1 Soundtrack": {
-                        "extract_location": "./darkplaces-2017/share/quake/",
-                        "strip_prefix": "quake_mp1_soundtrack/",
-                        "decode_as_zip": true
-                    }
-                }
-            },
-            {
-                "name": "quakespasm-spiked",
-                "command": "./quakespasm/quakespasm-hipnotic.sh",
-                "download": [
-                    "quakespasm-spiked",
-                    "Mission Pack 1 Soundtrack"
-                ],
-                "download_config": {
-                    "Mission Pack 1 Soundtrack": {
-                        "extract_location": "./quakespasm/share/quake/",
-                        "strip_prefix": "quake_mp1_soundtrack/",
-                        "decode_as_zip": true
-                    }
-                }
-            }
-        ],
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/9040/",
-                "engine_name": "vkQuake",
-                "engine_link": "https://github.com/Novum/vkQuake",
-                "version": "1.05.3",
-                "comments": "Single-player only for now, fixed music",
-                "author": "dreamer",
-                "author_link": "https://github.com/dreamer",
-                "license": "GPLv2",
-                "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
-            },
-            {
-                "store_link": "https://store.steampowered.com/app/9040/",
-                "engine_name": "darkplaces-2017",
-                "engine_link": "http://icculus.org/twilight/darkplaces/",
-                "version": "20170829beta1",
-                "comments": "fixed music",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv2",
-                "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details"
-            },
-            {
-                "store_link": "https://store.steampowered.com/app/9040/",
-                "engine_name": "quakespasm-spiked",
-                "engine_link": "https://github.com/Shpoike/Quakespasm",
-                "version": "9ffca1d (from master)",
-                "comments": "fixed music",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv2",
-                "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt"
-            }
-        ]
     },
     "9050": {
         "game_name": "DOOM 3",
