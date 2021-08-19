@@ -11,4 +11,8 @@ if [ ! -f share/quake/hipnotic/config.cfg ] ; then
 	sed -i "s|%USER%|$USER|" share/quake/hipnotic/config.cfg
 fi
 
+if [ ! -f share/quake/hipnotic/music ] ; then
+    LD_PRELOAD="" cp -rfv ./rerelease/hipnotic/music ./share/quake/hipnotic/music
+fi
+
 ./vkquake -fitz -basedir share/quake -game hipnotic "$@"

@@ -11,4 +11,8 @@ if [ ! -f share/quake/rogue/config.cfg ] ; then
 	sed -i "s|%USER%|$USER|" share/quake/rogue/config.cfg
 fi
 
+if [ ! -f share/quake/rogue/music ] ; then
+    LD_PRELOAD="" cp -rfv ./rerelease/rogue/music ./share/quake/rogue/music
+fi
+
 ./vkquake -fitz -basedir share/quake -game rogue "$@"
