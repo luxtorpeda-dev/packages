@@ -752,17 +752,6 @@
                 ]
             },
             {
-                "name": "darkplaces-2017 Dimension of the Machine",
-                "command": "./darkplaces-2017/darkplaces.sh",
-                "download": [
-                    "darkplaces-2017"
-                ],
-                "command_args": [
-                    "-game",
-                    "mg1"
-                ]
-            },
-            {
                 "name": "quakespasm-spiked Dimension of the Machine",
                 "command": "./quakespasm/quakespasm.sh",
                 "download": [
