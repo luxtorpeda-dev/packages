@@ -837,6 +837,28 @@
                 }
             },
             {
+                "name": "FTE QuakeWorld Dimension of the Past",
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ],
+                "command": "./ftequakeworld-quake1.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw",
+                    "dopa pak"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    },
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./dopa/"
+                    }
+                }
+            },
+            {
                 "name": "vkquake Dimension of the Machine",
                 "command": "./vkquake.sh",
                 "download": [
@@ -857,6 +879,23 @@
                     "-game",
                     "mg1"
                 ]
+            },
+            {
+                "name": "FTE QuakeWorld Dimension of the Machine",
+                "command_args": [
+                    "-game",
+                    "mg1"
+                ],
+                "command": "./ftequakeworld-quake1-mg1.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
             }
         ],
         "information": [
