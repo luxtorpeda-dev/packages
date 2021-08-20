@@ -771,7 +771,7 @@
             },
             {
                 "name": "FTE QuakeWorld",
-                "command": "./ftequakeworld.sh",
+                "command": "./ftequakeworld-quake1.sh",
                 "download": [
                     "ftequakeworld",
                     "fteqw"
