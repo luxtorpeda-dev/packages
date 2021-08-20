@@ -67,8 +67,8 @@
             },
             {
                 "name": "ftequakeworld",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-1/",
-                "file": "ftequakeworld-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-2/",
+                "file": "ftequakeworld-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -732,8 +732,8 @@
             },
             {
                 "name": "ftequakeworld",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-1/",
-                "file": "ftequakeworld-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-2/",
+                "file": "ftequakeworld-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -933,8 +933,8 @@
             },
             {
                 "name": "ftequakeworld",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-1/",
-                "file": "ftequakeworld-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-2/",
+                "file": "ftequakeworld-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
