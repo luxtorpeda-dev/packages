@@ -709,7 +709,7 @@
             },
             {
                 "name": "vkquake Dimension of the Past",
-                "command": "./vkquake-game.sh",
+                "command": "./vkquake.sh",
                 "download": [
                     "vkquake"
                 ],
@@ -720,7 +720,7 @@
             },
             {
                 "name": "darkplaces-2017 Dimension of the Past",
-                "command": "./darkplaces-2017/darkplaces-game.sh",
+                "command": "./darkplaces-2017/darkplaces.sh",
                 "download": [
                     "darkplaces-2017"
                 ],
@@ -731,7 +731,7 @@
             },
             {
                 "name": "quakespasm-spiked Dimension of the Past",
-                "command": "./quakespasm/quakespasm-game.sh",
+                "command": "./quakespasm/quakespasm.sh",
                 "download": [
                     "quakespasm-spiked"
                 ],
@@ -742,7 +742,7 @@
             },
             {
                 "name": "vkquake Dimension of the Machine",
-                "command": "./vkquake-game.sh",
+                "command": "./vkquake.sh",
                 "download": [
                     "vkquake"
                 ],
@@ -753,7 +753,7 @@
             },
             {
                 "name": "darkplaces-2017 Dimension of the Machine",
-                "command": "./darkplaces-2017/darkplaces-game.sh",
+                "command": "./darkplaces-2017/darkplaces.sh",
                 "download": [
                     "darkplaces-2017"
                 ],
@@ -764,7 +764,7 @@
             },
             {
                 "name": "quakespasm-spiked Dimension of the Machine",
-                "command": "./quakespasm/quakespasm-game.sh",
+                "command": "./quakespasm/quakespasm.sh",
                 "download": [
                     "quakespasm-spiked"
                 ],
