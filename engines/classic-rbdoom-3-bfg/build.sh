@@ -19,9 +19,14 @@ pushd openal
 git checkout -f f5e0eef
 popd
 
-hg clone https://hg.libsdl.org/SDL
+git clone https://github.com/libsdl-org/SDL
 pushd SDL
-hg checkout release-2.0.12
+git checkout 25f9ed8
+popd
+
+git clone https://github.com/Kitware/CMake.git cmake
+pushd cmake
+git checkout -f 39c6ac5
 popd
 
 readonly pfx="$PWD/local"
@@ -31,13 +36,22 @@ mkdir -p "$tmp"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
+pushd cmake
+./bootstrap -- -DCMAKE_USE_OPENSSL=OFF
+make
+sudo make install
+popd
+
+export CMAKE_ROOT=/usr/local/share/cmake-3.16/
+/usr/local/bin/cmake --version
+
 ./build-ffmpeg.sh
 
 pushd "openal"
 rm -rf build
 mkdir -p build
 cd build
-cmake \
+/usr/local/bin/cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
@@ -49,7 +63,7 @@ popd
 pushd "SDL"
 mkdir -p build
 cd build
-cmake \
+/usr/local/bin/cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
@@ -61,7 +75,7 @@ popd
 pushd "source"
 mkdir build
 cd build
-cmake \
+/usr/local/bin/cmake \
     -G "Eclipse CDT4 - Unix Makefiles" \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DSDL2=ON \
