@@ -9,6 +9,7 @@ git checkout 4ec6e58d377275c9d65ee6acec45859778d5b174
 git revert 4ec6e58d377275c9d65ee6acec45859778d5b174
 git revert 8d430396c93fd50eb25037f2f1e8fd1e70803bee
 git revert 4aa356af18370e459aaa71d5d5220a3612ea3cd5
+git revert 044dab1fdd191048ec30f7c9ae6458b68e00482f
 popd
 
 git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg
