@@ -70,4 +70,20 @@ if [ ! -f share/quake/mg1/config.cfg ] ; then
 	sed -i "s|%USER%|$USER|" share/quake/mg1/config.cfg
 fi
 
-./vkquake -fitz -basedir share/quake "$@"
+if [[ "$*" == *rerelease* ]]
+then
+    gamearg="$2"
+    echo "Running re-release $2"
+    if [ -z "$2" ]
+    then
+        echo "Running id1re"
+        ./vkquake -fitz -basedir share/quake -game id1re "$@"
+    else
+        expansionname="${gamearg//-}"
+        echo "Running mission pack $expansionname"
+        ./vkquake -fitz -basedir share/quake -game "${expansionname}re" "$@"
+    fi
+else
+    echo "Running non re-release"
+    ./vkquake -fitz -basedir share/quake "$@"
+fi
