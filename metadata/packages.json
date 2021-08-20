@@ -706,6 +706,72 @@
                 "download": [
                     "quakespasm-spiked"
                 ]
+            },
+            {
+                "name": "vkquake Dimension of the Past",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ]
+            },
+            {
+                "name": "darkplaces-2017 Dimension of the Past",
+                "command": "./darkplaces-2017/darkplaces.sh",
+                "download": [
+                    "darkplaces-2017"
+                ],
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ]
+            },
+            {
+                "name": "quakespasm-spiked Dimension of the Past",
+                "command": "./quakespasm/quakespasm.sh",
+                "download": [
+                    "quakespasm-spiked"
+                ],
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ]
+            },
+            {
+                "name": "vkquake Dimension of the Machine",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "command_args": [
+                    "-game",
+                    "mg1"
+                ]
+            },
+            {
+                "name": "darkplaces-2017 Dimension of the Machine",
+                "command": "./darkplaces-2017/darkplaces.sh",
+                "download": [
+                    "darkplaces-2017"
+                ],
+                "command_args": [
+                    "-game",
+                    "mg1"
+                ]
+            },
+            {
+                "name": "quakespasm-spiked Dimension of the Machine",
+                "command": "./quakespasm/quakespasm.sh",
+                "download": [
+                    "quakespasm-spiked"
+                ],
+                "command_args": [
+                    "-game",
+                    "mg1"
+                ]
             }
         ],
         "information": [
