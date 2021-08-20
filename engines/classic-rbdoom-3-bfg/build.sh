@@ -5,7 +5,10 @@ apt-get -y install mercurial yasm nasm
 # CLONE PHASE
 git clone https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git source
 pushd source
-git checkout 5a3a0a36537a331cc81f7b1e3a6c49e23e803086
+git checkout 4ec6e58d377275c9d65ee6acec45859778d5b174
+git revert 4ec6e58d377275c9d65ee6acec45859778d5b174
+git revert 8d430396c93fd50eb25037f2f1e8fd1e70803bee
+git revert 4aa356af18370e459aaa71d5d5220a3612ea3cd5
 popd
 
 git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg
