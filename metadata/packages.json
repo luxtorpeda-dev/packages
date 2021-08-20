@@ -64,6 +64,12 @@
                 "name": "fteqw",
                 "url": "https://fte.triptohell.info/moodles/linux_amd64/",
                 "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-1/",
+                "file": "ftequakeworld-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -723,6 +729,12 @@
                 "name": "fteqw",
                 "url": "https://fte.triptohell.info/moodles/linux_amd64/",
                 "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-1/",
+                "file": "ftequakeworld-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -918,6 +930,12 @@
                 "name": "fteqw",
                 "url": "https://fte.triptohell.info/moodles/linux_amd64/",
                 "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-1/",
+                "file": "ftequakeworld-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
