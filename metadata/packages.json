@@ -746,16 +746,6 @@
                 ]
             },
             {
-                "name": "vkquake rerelease",
-                "command": "./vkquake.sh",
-                "download": [
-                    "vkquake"
-                ],
-                "command_args": [
-                    "rerelease"
-                ]
-            },
-            {
                 "name": "darkplaces-2017",
                 "command": "./darkplaces-2017/darkplaces.sh",
                 "download": [
@@ -775,6 +765,22 @@
                 "download": [
                     "ftequakeworld",
                     "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
+            },
+            {
+                "name": "FTE QuakeWorld Re-release",
+                "command": "./ftequakeworld-quake1-re.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "command_args": [
+                    "rerelease"
                 ],
                 "download_config": {
                     "fteqw": {
@@ -859,26 +865,21 @@
                 }
             },
             {
-                "name": "vkquake Dimension of the Machine",
-                "command": "./vkquake.sh",
-                "download": [
-                    "vkquake"
-                ],
+                "name": "FTE QuakeWorld Dimension of the Past Re-release",
                 "command_args": [
                     "-game",
-                    "mg1"
-                ]
-            },
-            {
-                "name": "quakespasm-spiked Dimension of the Machine",
-                "command": "./quakespasm/quakespasm.sh",
-                "download": [
-                    "quakespasm-spiked"
+                    "dopare"
                 ],
-                "command_args": [
-                    "-game",
-                    "mg1"
-                ]
+                "command": "./ftequakeworld-quake1-dopare.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
             },
             {
                 "name": "FTE QuakeWorld Dimension of the Machine",
