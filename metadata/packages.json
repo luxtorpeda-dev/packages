@@ -683,6 +683,11 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-5/",
                 "file": "quakespasm-spiked-common-5.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "dopa pak",
+                "url": "https://www.quaddicted.com/filebase/",
+                "file": "dopa.zip"
             }
         ],
         "choices": [
@@ -711,34 +716,55 @@
                 "name": "vkquake Dimension of the Past",
                 "command": "./vkquake.sh",
                 "download": [
-                    "vkquake"
+                    "vkquake",
+                    "dopa pak"
                 ],
                 "command_args": [
                     "-game",
                     "dopa"
-                ]
+                ],
+                "download_config": {
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./share/quake/dopa/"
+                    }
+                }
             },
             {
                 "name": "darkplaces-2017 Dimension of the Past",
                 "command": "./darkplaces-2017/darkplaces.sh",
                 "download": [
-                    "darkplaces-2017"
+                    "darkplaces-2017",
+                    "dopa pak"
                 ],
                 "command_args": [
                     "-game",
                     "dopa"
-                ]
+                ],
+                "download_config": {
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./darkplaces-2017/share/quake/dopa/"
+                    }
+                }
             },
             {
                 "name": "quakespasm-spiked Dimension of the Past",
                 "command": "./quakespasm/quakespasm.sh",
                 "download": [
-                    "quakespasm-spiked"
+                    "quakespasm-spiked",
+                    "dopa pak"
                 ],
                 "command_args": [
                     "-game",
                     "dopa"
-                ]
+                ],
+                "download_config": {
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./quakespasm/share/quake/dopa/"
+                    }
+                }
             },
             {
                 "name": "vkquake Dimension of the Machine",
