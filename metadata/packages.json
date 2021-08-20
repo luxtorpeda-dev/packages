@@ -699,6 +699,16 @@
                 ]
             },
             {
+                "name": "vkquake rerelease",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "command_args": [
+                    "rerelease"
+                ]
+            },
+            {
                 "name": "darkplaces-2017",
                 "command": "./darkplaces-2017/darkplaces.sh",
                 "download": [
