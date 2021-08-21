@@ -1009,6 +1009,7 @@
                 "command": "./ftequakeworld.sh",
                 "download": [
                     "yquake2",
+                    "Quake II Soundtrack",
                     "ftequakeworld",
                     "fteqw"
                 ],
@@ -1074,6 +1075,11 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-4/",
                 "file": "vkquake2-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
             }
         ],
         "choices": [
@@ -1100,6 +1106,21 @@
                 "setup": {
                     "complete_path": "./ready-vkquake2",
                     "command": "./vkQuake2/setup-vkquake2.sh"
+                }
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld.sh",
+                "download": [
+                    "yquake2",
+                    "The Reckoning Soundtrack",
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
                 }
             }
         ],
@@ -1125,6 +1146,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2330/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6028",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
             }
         ]
     },
@@ -1147,6 +1179,11 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-4/",
                 "file": "vkquake2-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
             }
         ],
         "choices": [
@@ -1174,6 +1211,21 @@
                     "complete_path": "./ready-vkquake2",
                     "command": "./vkQuake2/setup-vkquake2.sh"
                 }
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld.sh",
+                "download": [
+                    "yquake2",
+                    "Ground Zero Soundtrack",
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
             }
         ],
         "information": [
@@ -1198,6 +1250,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2340/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6028",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
             }
         ]
     },
@@ -2061,26 +2124,72 @@
                 "name": "hammerofthyrion",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hammerofthyrion-1/",
                 "file": "hammerofthyrion-9060-1.tar.xz"
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
             }
         ],
-        "download_config": {
-            "HeXen II Soundtrack": {
-                "extract_location": "./data1/music/",
-                "decode_as_zip": true
+        "choices": [
+            {
+                "name": "hammerofthyrion",
+                "download": [
+                    "hammerofthyrion",
+                    "HeXen II Soundtrack"
+                ],
+                "download_config": {
+                    "HeXen II Soundtrack": {
+                        "extract_location": "./data1/music/",
+                        "decode_as_zip": true
+                    }
+                },
+                "command": "./hammerofthyrion.sh"
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld.sh",
+                "download": [
+                    "fteqw",
+                    "ftequakeworld",
+                    "HeXen II Soundtrack"
+                ],
+                "download_config": {
+                    "HeXen II Soundtrack": {
+                        "extract_location": "./data1/music/",
+                        "decode_as_zip": true
+                    },
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                },
+                "command": "./ftequakeworld.sh"
             }
-        },
-        "command": "./hammerofthyrion.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/9060/",
-            "engine_name": "Hammer of Thyrion",
-            "engine_link": "https://github.com/sezero/uhexen2",
-            "version": "fdf6f72 (from master)",
-            "comments": "Fixed music, sourced from archive.org. Set Music Mode in in-game options to All Codecs",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/sezero/uhexen2/blob/master/docs/COPYING"
-        }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/9060/",
+                "engine_name": "Hammer of Thyrion",
+                "engine_link": "https://github.com/sezero/uhexen2",
+                "version": "fdf6f72 (from master)",
+                "comments": "Fixed music, sourced from archive.org. Set Music Mode in in-game options to All Codecs",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/sezero/uhexen2/blob/master/docs/COPYING"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/9060/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6028",
+                "comments": "Fixed music, sourced from archive.org.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
+            }
+        ]
     },
     "9070": {
         "game_name": "DOOM 3: Resurrection of Evil",
