@@ -2994,14 +2994,9 @@
                 "download": [
                     "classic-rbdoom-3-bfg"
                 ],
-                "setup": {
-                    "complete_path": "ready-classic",
-                    "command": "./classic/setup-classic-rbdoom-3-bfg.sh"
-                },
                 "download_config": {
                     "classic-rbdoom-3-bfg": {
-                        "extract_location": "./classic",
-                        "setup": true
+                        "extract_location": "./classic"
                     }
                 }
             }
