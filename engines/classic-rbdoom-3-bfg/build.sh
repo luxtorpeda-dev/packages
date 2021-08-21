@@ -5,11 +5,7 @@ apt-get -y install mercurial yasm nasm
 # CLONE PHASE
 git clone https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git source
 pushd source
-git checkout 4ec6e58d377275c9d65ee6acec45859778d5b174
-git revert 4ec6e58d377275c9d65ee6acec45859778d5b174
-git revert 8d430396c93fd50eb25037f2f1e8fd1e70803bee
-git revert 4aa356af18370e459aaa71d5d5220a3612ea3cd5
-git revert 044dab1fdd191048ec30f7c9ae6458b68e00482f
+git checkout 675d99d
 popd
 
 git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg
@@ -23,14 +19,9 @@ pushd openal
 git checkout -f f5e0eef
 popd
 
-git clone https://github.com/libsdl-org/SDL
+hg clone https://hg.libsdl.org/SDL
 pushd SDL
-git checkout 25f9ed8
-popd
-
-git clone https://github.com/Kitware/CMake.git cmake
-pushd cmake
-git checkout -f 39c6ac5
+hg checkout release-2.0.12
 popd
 
 readonly pfx="$PWD/local"
@@ -40,22 +31,13 @@ mkdir -p "$tmp"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
-pushd cmake
-./bootstrap -- -DCMAKE_USE_OPENSSL=OFF
-make
-sudo make install
-popd
-
-export CMAKE_ROOT=/usr/local/share/cmake-3.16/
-/usr/local/bin/cmake --version
-
 ./build-ffmpeg.sh
 
 pushd "openal"
 rm -rf build
 mkdir -p build
 cd build
-/usr/local/bin/cmake \
+cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
@@ -67,7 +49,7 @@ popd
 pushd "SDL"
 mkdir -p build
 cd build
-/usr/local/bin/cmake \
+cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
@@ -79,7 +61,7 @@ popd
 pushd "source"
 mkdir build
 cd build
-/usr/local/bin/cmake \
+cmake \
     -G "Eclipse CDT4 - Unix Makefiles" \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DSDL2=ON \
