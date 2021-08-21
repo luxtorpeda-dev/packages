@@ -4,6 +4,7 @@
 * Added the mission packs for Quake (Dimension of the Past and Machine). Past uses the original dopa download, as the re-release one causes crashes in certain areas. Machine looks good other than some localization issues from.
 * vkquake - Add rerelease option
 * Added FTE QuakeWorld for Quake, Quake 2, and Quake 3
+* ftequakeworld - Add quake 2 expansions and hexen 2 
 
 ### 30.1 (2021-08-07)
 
