@@ -3,7 +3,8 @@
 * Update Quake to support new updates. Steam will ask you to pick the game you want to play (such as quake and the mission packs). Picking that will determine what you play with the engine you pick in luxtorpeda. Picking any engine other than the fte quakeworld re-release will use the original game pak version. Picking that one will use the pak from the re-release with that engine and what game you picked in the Steam prompt. Then there's also an option for the brand new mission pack, using ftequakeworld.
 * Added the mission packs for Quake (Dimension of the Past and Machine). Past uses the original dopa download, as the re-release one causes crashes in certain areas. Machine looks good other than some localization issues from.
 * Added FTE QuakeWorld for Quake, Quake 2, and Quake 3. Quake has option for re-release with FTE QuakeWorld
-* ftequakeworld - Add quake 2 expansions and hexen 2 
+* ftequakeworld - Add quake 2 expansions and hexen 2
+* rigelengine - Update to 0.8.0
 
 ### 30.1 (2021-08-07)
 
