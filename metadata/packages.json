@@ -704,8 +704,8 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-11/",
-                "file": "vkquake-common-11.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-12/",
+                "file": "vkquake-common-12.tar.xz",
                 "cache_by_name": true
             },
             {
