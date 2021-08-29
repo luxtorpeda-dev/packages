@@ -5,6 +5,7 @@
 * Added FTE QuakeWorld for Quake, Quake 2, and Quake 3. Quake has option for re-release with FTE QuakeWorld
 * ftequakeworld - Add quake 2 expansions and hexen 2
 * rigelengine - Update to 0.8.0
+* dosbox-staging - Update to 0.77.1
 
 ### 30.1 (2021-08-07)
 
