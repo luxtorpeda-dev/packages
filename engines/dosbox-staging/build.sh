@@ -5,8 +5,8 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 
-pyenv install 3.6.0
-pyenv local 3.6.0
+pyenv install 3.6.2
+pyenv local 3.6.2
 pip3 install --upgrade pip
 pip3 install meson
 
