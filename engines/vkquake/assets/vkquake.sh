@@ -86,7 +86,12 @@ fi
 
 if [[ "$*" == *rerelease* ]]
 then
-    gamearg="$2"
+    if [ ! -d share/quake/rerelease/kpf ] ; then
+        echo "Extracting Quake kpf"
+        ln -rsf ./rerelease/QuakeEX.kpf share/QuakeEX.zip
+        LD_LIBRARY_PATH=.7z ./7z/7z x -o"./share/kpf" -y share/QuakeEX.zip
+        ln -rsf ./share/kpf/localization ./share/quake/rerelease/localization
+    fi
     echo "Running re-release $2"
     ./vkquake -fitz -basedir share/quake/rerelease "$@"
 else

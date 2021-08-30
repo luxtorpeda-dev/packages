@@ -877,11 +877,11 @@
             {
                 "name": "vkquake Dimension of the Past Re-release",
                 "command_args": [
+                    "rerelease",
                     "-game",
-                    "dopa",
-                    "rerelease"
+                    "dopa"
                 ],
-                "command": "./vkquake",
+                "command": "./vkquake.sh",
                 "download": [
                     "vkquake"
                 ]
@@ -906,11 +906,11 @@
             {
                 "name": "vkquake Dimension of the Machine",
                 "command_args": [
+                    "rerelease",
                     "-game",
-                    "mg1",
-                    "rerelease"
+                    "mg1"
                 ],
-                "command": "./vkquake",
+                "command": "./vkquake.sh",
                 "download": [
                     "vkquake"
                 ]
@@ -938,7 +938,7 @@
                 "store_link": "https://store.steampowered.com/app/2310/",
                 "engine_name": "vkQuake",
                 "engine_link": "https://github.com/Novum/vkQuake",
-                "version": "1.05.3",
+                "version": "aa13c83",
                 "comments": "",
                 "author": "dreamer",
                 "author_link": "https://github.com/dreamer",
