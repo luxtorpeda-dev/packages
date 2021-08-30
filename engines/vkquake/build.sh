@@ -5,7 +5,7 @@
 # CLONE PHASE
 git clone https://github.com/Novum/vkQuake source
 pushd source
-git checkout a6ab10f
+git checkout aa13c83
 popd
 
 # BUILD PHASE
@@ -18,10 +18,11 @@ mkdir -p "$diststart/common/dist/share/quake/id1"
 mkdir -p "$diststart/common/dist/share/quake/rogue"
 mkdir -p "$diststart/common/dist/share/quake/hipnotic"
 mkdir -p "$diststart/common/dist/share/quake/dopa"
-mkdir -p "$diststart/common/dist/share/quake/mg1"
-mkdir -p "$diststart/common/dist/share/quake/id1re"
-mkdir -p "$diststart/common/dist/share/quake/roguere"
-mkdir -p "$diststart/common/dist/share/quake/hipnoticre"
+mkdir -p "$diststart/common/dist/share/quake/rerelease/mg1"
+mkdir -p "$diststart/common/dist/share/quake/rerelease/dopa"
+mkdir -p "$diststart/common/dist/share/quake/rerelease/id1"
+mkdir -p "$diststart/common/dist/share/quake/rerelease/rogue"
+mkdir -p "$diststart/common/dist/share/quake/rerelease/hipnotic"
 cp -v source/Quake/vkquake "$diststart/common/dist/"
 cp -v assets/vkquake.sh "$diststart/common/dist/"
 cp -v assets/default.lux.cfg "$diststart/common/dist/share/quake"
@@ -29,7 +30,8 @@ ln -s "../../../id1/PAK0.PAK" "$diststart/common/dist/share/quake/id1/pak0.pak"
 ln -s "../../../id1/PAK1.PAK" "$diststart/common/dist/share/quake/id1/pak1.pak"
 ln -s "../../../rogue/pak0.pak" "$diststart/common/dist/share/quake/rogue/pak0.pak"
 ln -s "../../../hipnotic/pak0.pak" "$diststart/common/dist/share/quake/hipnotic/pak0.pak"
-ln -s "../../../rerelease/mg1/pak0.pak" "$diststart/common/dist/share/quake/mg1/pak0.pak"
-ln -s "../../../rerelease/id1/pak0.pak" "$diststart/common/dist/share/quake/id1re/pak0.pak"
-ln -s "../../../rerelease/rogue/pak0.pak" "$diststart/common/dist/share/quake/roguere/pak0.pak"
-ln -s "../../../rerelease/hipnotic/pak0.pak" "$diststart/common/dist/share/quake/hipnoticre/pak0.pak"
+ln -s "../../../../rerelease/mg1/pak0.pak" "$diststart/common/dist/share/quake/rerelease/mg1/pak0.pak"
+ln -s "../../../../rerelease/id1/pak0.pak" "$diststart/common/dist/share/quake/rerelease/id1/pak0.pak"
+ln -s "../../../../rerelease/rogue/pak0.pak" "$diststart/common/dist/share/quake/rerelease/rogue/pak0.pak"
+ln -s "../../../../rerelease/hipnotic/pak0.pak" "$diststart/common/dist/share/quake/rerelease/hipnotic/pak0.pak"
+ln -s "../../../../rerelease/dopa/pak0.pak" "$diststart/common/dist/share/quake/rerelease/dopa/pak0.pak"

@@ -24,13 +24,13 @@ if [ ! -e share/quake/id1/pak0.pak ] ; then
     fi
 fi
 
-if [ ! -f share/quake/id1re/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/id1re/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/id1re/config.cfg
+if [ ! -f share/quake/rerelease/id1/config.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/rerelease/id1/config.cfg
+	sed -i "s|%USER%|$USER|" share/quake/rerelease/id1/config.cfg
 fi
 
-if [ ! -d share/quake/id1re/music ] ; then
-    LD_PRELOAD="" ln -rsf ./rerelease/id1/music ./share/quake/id1re/music
+if [ ! -d share/quake/rerelease/id1/music ] ; then
+    LD_PRELOAD="" ln -rsf ./rerelease/id1/music ./share/quake/rerelease/id1/music
 fi
 
 if [ ! -f share/quake/rogue/config.cfg ] ; then
@@ -42,13 +42,13 @@ if [ ! -d share/quake/rogue/music ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/rogue/music ./share/quake/rogue/music
 fi
 
-if [ ! -f share/quake/roguere/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/roguere/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/roguere/config.cfg
+if [ ! -f share/quake/rerelease/rogue/config.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/rerelease/rogue/config.cfg
+	sed -i "s|%USER%|$USER|" share/quake/rerelease/rogue/config.cfg
 fi
 
-if [ ! -d share/quake/roguere/music ] ; then
-    LD_PRELOAD="" ln -rsf ./rerelease/rogue/music ./share/quake/roguere/music
+if [ ! -d share/quake/rerelease/rogue/music ] ; then
+    LD_PRELOAD="" ln -rsf ./rerelease/rogue/music ./share/quake/rerelease/rogue/music
 fi
 
 if [ ! -f share/quake/hipnotic/config.cfg ] ; then
@@ -60,13 +60,13 @@ if [ ! -d share/quake/hipnotic/music ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/hipnotic/music ./share/quake/hipnotic/music
 fi
 
-if [ ! -f share/quake/hipnoticre/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/hipnoticre/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/hipnoticre/config.cfg
+if [ ! -f share/quake/rerelease/hipnotic/config.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/rerelease/hipnotic/config.cfg
+	sed -i "s|%USER%|$USER|" share/quake/rerelease/hipnotic/config.cfg
 fi
 
-if [ ! -d share/quake/hipnoticre/music ] ; then
-    LD_PRELOAD="" ln -rsf ./rerelease/hipnotic/music ./share/quake/hipnoticre/music
+if [ ! -d share/quake/rerelease/hipnotic/music ] ; then
+    LD_PRELOAD="" ln -rsf ./rerelease/hipnotic/music ./share/quake/rerelease/hipnotic/music
 fi
 
 if [ ! -f share/quake/dopa/config.cfg ] ; then
@@ -74,24 +74,21 @@ if [ ! -f share/quake/dopa/config.cfg ] ; then
 	sed -i "s|%USER%|$USER|" share/quake/dopa/config.cfg
 fi
 
-if [ ! -f share/quake/mg1/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/mg1/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/mg1/config.cfg
+if [ ! -f share/quake/rerelease/dopa/config.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/rerelease/dopa/config.cfg
+	sed -i "s|%USER%|$USER|" share/quake/rerelease/dopa/config.cfg
+fi
+
+if [ ! -f share/quake/rerelease/mg1/config.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/rerelease/mg1/config.cfg
+	sed -i "s|%USER%|$USER|" share/quake/rerelease/mg1/config.cfg
 fi
 
 if [[ "$*" == *rerelease* ]]
 then
     gamearg="$2"
     echo "Running re-release $2"
-    if [ -z "$2" ]
-    then
-        echo "Running id1re"
-        ./vkquake -fitz -basedir share/quake -game id1re "$@"
-    else
-        expansionname="${gamearg//-}"
-        echo "Running mission pack $expansionname"
-        ./vkquake -fitz -basedir share/quake -game "${expansionname}re" "$@"
-    fi
+    ./vkquake -fitz -basedir share/quake/rerelease "$@"
 else
     echo "Running non re-release"
     ./vkquake -fitz -basedir share/quake "$@"

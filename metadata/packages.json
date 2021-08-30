@@ -746,6 +746,16 @@
                 ]
             },
             {
+                "name": "vkquake Re-release",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "command_args": [
+                    "rerelease"
+                ]
+            },
+            {
                 "name": "darkplaces-2017",
                 "command": "./darkplaces-2017/darkplaces.sh",
                 "download": [
@@ -865,6 +875,18 @@
                 }
             },
             {
+                "name": "vkquake Dimension of the Past Re-release",
+                "command_args": [
+                    "-game",
+                    "dopa",
+                    "rerelease"
+                ],
+                "command": "./vkquake",
+                "download": [
+                    "vkquake"
+                ]
+            },
+            {
                 "name": "FTE QuakeWorld Dimension of the Past Re-release",
                 "command_args": [
                     "-game",
@@ -880,6 +902,18 @@
                         "copy_only": true
                     }
                 }
+            },
+            {
+                "name": "vkquake Dimension of the Machine",
+                "command_args": [
+                    "-game",
+                    "mg1",
+                    "rerelease"
+                ],
+                "command": "./vkquake",
+                "download": [
+                    "vkquake"
+                ]
             },
             {
                 "name": "FTE QuakeWorld Dimension of the Machine",
