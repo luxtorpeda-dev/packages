@@ -746,6 +746,16 @@
                 ]
             },
             {
+                "name": "vkquake Re-release",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "command_args": [
+                    "rerelease"
+                ]
+            },
+            {
                 "name": "darkplaces-2017",
                 "command": "./darkplaces-2017/darkplaces.sh",
                 "download": [
@@ -865,6 +875,18 @@
                 }
             },
             {
+                "name": "vkquake Dimension of the Past Re-release",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "dopa"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ]
+            },
+            {
                 "name": "FTE QuakeWorld Dimension of the Past Re-release",
                 "command_args": [
                     "-game",
@@ -880,6 +902,18 @@
                         "copy_only": true
                     }
                 }
+            },
+            {
+                "name": "vkquake Dimension of the Machine",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "mg1"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ]
             },
             {
                 "name": "FTE QuakeWorld Dimension of the Machine",
@@ -904,7 +938,7 @@
                 "store_link": "https://store.steampowered.com/app/2310/",
                 "engine_name": "vkQuake",
                 "engine_link": "https://github.com/Novum/vkQuake",
-                "version": "1.05.3",
+                "version": "aa13c83",
                 "comments": "",
                 "author": "dreamer",
                 "author_link": "https://github.com/dreamer",
