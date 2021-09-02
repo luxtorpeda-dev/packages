@@ -86,11 +86,9 @@ fi
 
 if [[ "$*" == *rerelease* ]]
 then
-    if [ ! -d share/kpf ] ; then
-        echo "Extracting Quake kpf"
-        ln -rsf ./rerelease/QuakeEX.kpf share/QuakeEX.zip
-        LD_LIBRARY_PATH=.7z ./7z/7z x -o"./share/kpf" -y share/QuakeEX.zip
-        ln -rsf ./share/kpf/localization ./share/quake/rerelease/localization
+    if [ ! -d share/quake/rerelease/QuakeEX.kpf ] ; then
+        echo "Linking Quake kpf"
+        ln -rsf ./rerelease/QuakeEX.kpf share/quake/rerelease/QuakeEX.kpf
     fi
     echo "Running re-release $2"
     ./vkquake -fitz -basedir share/quake/rerelease "$@"
