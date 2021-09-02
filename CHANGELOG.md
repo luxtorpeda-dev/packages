@@ -7,6 +7,7 @@
 * rigelengine - Update to 0.8.0
 * dosbox-staging - Update to 0.77.1
 * vkquake - Update to latest, added re-release asset support and localization extraction steps
+* vkquake - Update to 1.11
 
 ### 30.1 (2021-08-07)
 
