@@ -52,7 +52,7 @@ pushd cmake
 git checkout -f 39c6ac5
 popd
 
-git clone git@github.com:libsdl-org/SDL_image.git sdlimage
+git clone https://github.com/libsdl-org/SDL_image.git sdlimage
 pushd sdlimage
 git checkout -f ab2a9c6
 popd
