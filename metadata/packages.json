@@ -2744,54 +2744,6 @@
             "32-bit": true
         }
     },
-    "15700": {
-        "game_name": "Oddworld: Abe's Oddysee",
-        "download": [
-            {
-                "name": "alive_reversing",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alive_reversing-1/",
-                "file": "alive_reversing-common-1.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "command": "./AliveExeAO",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/15700",
-            "engine_name": "alive_reversing",
-            "engine_link": "https://github.com/AliveTeam/alive_reversing",
-            "version": "400a2af (from master)",
-            "comments": "Engine is still in progress so not all features may be implemented.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Unknown",
-            "license_link": "https://github.com/AliveTeam/alive_reversing/issues/1083",
-            "non_free": true
-        }
-    },
-    "15710": {
-        "game_name": "Oddworld: Abe's Exoddus",
-        "download": [
-            {
-                "name": "alive_reversing",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alive_reversing-1/",
-                "file": "alive_reversing-common-1.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "command": "./AliveExeAE",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/15710",
-            "engine_name": "alive_reversing",
-            "engine_link": "https://github.com/AliveTeam/alive_reversing",
-            "version": "400a2af (from master)",
-            "comments": "Engine is still in progress so not all features may be implemented.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Unknown",
-            "license_link": "https://github.com/AliveTeam/alive_reversing/issues/1083",
-            "non_free": true
-        }
-    },
     "20510": {
         "game_name": "S.T.A.L.K.E.R.: Clear Sky",
         "download": [
@@ -3006,29 +2958,6 @@
             "non_free": true
         }
     },
-    "200940": {
-        "game_name": "Sonic CD",
-        "download": [
-            {
-                "name": "sonic-cd-11-decomp",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/sonic-cd-11-decomp-3/",
-                "file": "sonic-cd-11-decomp-200940-3.tar.xz"
-            }
-        ],
-        "command": "./soniccd",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/200940",
-            "engine_name": "Sonic-CD-11-Decompilation",
-            "engine_link": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation",
-            "version": "v1.1.2",
-            "comments": "In-game options menu will not work, will need to edit settings.ini file inside the game folder.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Unknown",
-            "license_link": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation/issues/77",
-            "non_free": true
-        }
-    },
     "204340": {
         "game_name": "Serious Sam 2",
         "download": [
@@ -3165,48 +3094,6 @@
             "author_link": "https://github.com/d10sfan",
             "license": "AGPLv3",
             "license_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source/blob/development/LICENSE"
-        }
-    },
-    "210950": {
-        "game_name": "Rune Classic",
-        "download": [
-            {
-                "name": "data",
-                "url": "https://archive.org/download/Rune_Halls_of_Valhalla_Linux/",
-                "file": "rune%2Bhon.7z"
-            },
-            {
-                "name": "rune",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rune-3/",
-                "file": "rune-210950-3.tar.xz"
-            }
-        ],
-        "command": "./run-rune.sh",
-        "download_config": {
-            "data": {
-                "setup": true,
-                "copy_only": true
-            }
-        },
-        "setup": {
-            "complete_path": "../ready",
-            "command": "./setup-rune.sh",
-            "uninstall_command": "./uninstall-rune.sh",
-            "license_path": "./license.int"
-        },
-        "use_original_command_directory": true,
-        "information": {
-            "store_link": "https://store.steampowered.com/app/210950",
-            "engine_name": "Proprietary Engine",
-            "engine_link": "https://archive.org/details/Rune_Halls_of_Valhalla_Linux",
-            "version": "1.0.8",
-            "comments": "Uses padsp for audio. Uses pack from rea987. Pack is original gold with expansion, will not contain classic changes.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "https://archive.org/details/Rune_Halls_of_Valhalla_Linux",
-            "closed_source": true,
-            "32-bit": true
         }
     },
     "215930": {
