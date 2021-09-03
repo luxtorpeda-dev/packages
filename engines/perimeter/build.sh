@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get -y install mercurial libvulkan-dev lld meson python3-pip
+apt-get -y install mercurial libvulkan-dev lld meson python3-pip yasm nasm
 sudo pip3 install meson
 
 # CLONE PHASE
