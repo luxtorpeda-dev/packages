@@ -1,3 +1,7 @@
+### 30.3 (2021-09-03)
+
+* rigelengine - Update to 0.8.1. Thanks to lethal-guitar
+
 ### 30.2 (2021-08-19)
 
 * Update Quake to support new updates. Steam will ask you to pick the game you want to play (such as quake and the mission packs). Picking that will determine what you play with the engine you pick in luxtorpeda. Picking any engine other than the fte quakeworld re-release will use the original game pak version. Picking that one will use the pak from the re-release with that engine and what game you picked in the Steam prompt. Then there's also an option for the brand new mission pack, using ftequakeworld.
