@@ -6,7 +6,7 @@ sudo pip3 install meson
 # CLONE PHASE
 git clone https://github.com/KranX/Perimeter source
 pushd source
-git checkout -f 4eb0872
+git checkout -f 0b355d5
 git submodule update --init --recursive
 popd
 
@@ -52,6 +52,17 @@ pushd cmake
 git checkout -f 39c6ac5
 popd
 
+git clone git@github.com:libsdl-org/SDL_image.git sdlimage
+pushd sdlimage
+git checkout -f ab2a9c6
+popd
+
+git clone https://github.com/FFmpeg/FFmpeg ffmpeg
+pushd ffmpeg
+git checkout -f ba11e40
+git submodule update --init --recursive
+popd
+
 export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -w"
 export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -w"
 
@@ -70,6 +81,8 @@ popd
 
 export CMAKE_ROOT=/usr/local/share/cmake-3.16/
 /usr/local/bin/cmake --version
+
+./build-ffmpeg.sh
 
 pushd glslang
 mkdir build
@@ -155,6 +168,18 @@ readonly boostlocation="$PWD/boost"
 pushd "boost"
 ./bootstrap.sh
 ./b2 headers
+popd
+
+pushd "sdlimage"
+mkdir -p build
+cd build
+/usr/local/bin/cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)"
+make install
 popd
 
 pushd "source"
