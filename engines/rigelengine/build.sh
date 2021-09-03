@@ -5,7 +5,7 @@ apt-get -y install mercurial
 # CLONE PHASE
 git clone https://github.com/lethal-guitar/RigelEngine.git source
 pushd source
-git checkout d315e76
+git checkout c6a66d1
 git submodule update --init --recursive
 popd
 
