@@ -177,6 +177,8 @@ cd build
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DCMAKE_CXX_FLAGS="-fPIC" \
+    -DCMAKE_C_FLAGS="-fPIC" \
     ..
 make -j "$(nproc)"
 make install
