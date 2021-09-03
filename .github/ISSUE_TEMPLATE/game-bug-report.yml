@@ -34,6 +34,8 @@ body:
       attributes:
         label: Luxtorpeda Version
         description: The version of luxtorpeda-dev being used.
+      validations:
+        required: true
     - type: textarea
       id: description
       attributes:
