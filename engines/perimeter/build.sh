@@ -54,7 +54,7 @@ popd
 
 git clone https://github.com/libsdl-org/SDL_image.git sdlimage
 pushd sdlimage
-git checkout -f ab2a9c6
+git checkout -f fdaeea1
 popd
 
 git clone https://github.com/FFmpeg/FFmpeg ffmpeg
