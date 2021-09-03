@@ -1,0 +1,4 @@
+contact_links:
+  - name: Luxtorpeda Client
+    url: https://github.com/luxtorpeda-dev/luxtorpeda/issues/new/choose
+    about: Any issues with the luxtorpeda-dev client should be created here.

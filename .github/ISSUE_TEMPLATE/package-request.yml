@@ -1,0 +1,39 @@
+name: Package request
+description: Request packaging a game or game engine
+labels: package request
+
+body:
+    - type: markdown
+      attributes:
+        value: |
+          ## Please fill out the form below with as much information as possible.
+    - type: input
+      id: projectlink
+      attributes:
+        label: Project Link
+        description: URL of the project, preferably the source code repository.
+      validations:
+        required: true
+    - type: input
+      id: projectlicense
+      attributes:
+        label: Project License
+        description: Description of the project license.
+      validations:
+        required: true
+    - type: textarea
+      id: steamids
+      attributes:
+        label: Steam App Ids
+        description: The set of steam app ids that this engine/project supports.
+        placeholder: |
+            - https://steamdb.info/app/1/
+            - https://steamdb.info/app/2/
+            - etc…
+      validations:
+        required: true
+    - type: textarea
+      id: additional
+      attributes:
+        label: Additional Context
+        description: Provide any additional details that do not fit in the other questions.
