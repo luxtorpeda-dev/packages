@@ -1,8 +1,6 @@
 name: Game bug report
-about: Create a report to help us improve a game package
-title: ''
+description: Create a report to help us improve a game package
 labels: engine bug
-assignees: ''
 
 body:
     - type: markdown
