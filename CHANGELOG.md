@@ -1,6 +1,7 @@
 ### 30.3 (2021-09-03)
 
 * rigelengine - Update to 0.8.1. Thanks to lethal-guitar
+* perimeter - Update to 0b355d5
 
 ### 30.2 (2021-08-19)
 
