@@ -171,28 +171,8 @@ pushd "boost"
 popd
 
 pushd "sdlimage"
-mkdir -p build
-cd build
-/usr/local/bin/cmake \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -DCMAKE_CXX_FLAGS="-fPIC" \
-    -DCMAKE_C_FLAGS="-fPIC" \
-    ..
-make -j "$(nproc)"
-make install
-popd
-
-pushd "sdlimage"
-rm -rf build
-mkdir -p build
-cd build
-/usr/local/bin/cmake \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_CXX_FLAGS="-fPIC" \
-    -DCMAKE_C_FLAGS="-fPIC" \
-    ..
+autoreconf -f -i
+./configure --disable-static --prefix="$pfx"
 make -j "$(nproc)"
 make install
 popd
