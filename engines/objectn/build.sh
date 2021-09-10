@@ -5,7 +5,7 @@ git clone https://github.com/KleskBY/ObjectN-DarkPlaces-engine.git source
 
 # BUILD PHASE
 pushd "source"
-make -j "$(nproc)"
+make -j "$(nproc)" sdl-release
 popd
 
 # COPY PHASE
