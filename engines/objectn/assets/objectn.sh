@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./objectn-lux "$@"
+./darkplaces-sdl -base-dir . -game data "$@"
