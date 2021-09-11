@@ -3,13 +3,11 @@
 # CLONE PHASE
 git clone https://github.com/KleskBY/ObjectN-DarkPlaces-engine.git source
 pushd source
-rm -rf SDL
-rm -rf curl
 popd
 
 # BUILD PHASE
 pushd "source"
-make -j "$(nproc)" sdl-release
+make -j "$(nproc)" release
 popd
 
 # COPY PHASE
