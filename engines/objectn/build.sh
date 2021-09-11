@@ -2,8 +2,6 @@
 
 # CLONE PHASE
 git clone https://github.com/KleskBY/ObjectN-DarkPlaces-engine.git source
-pushd source
-popd
 
 # BUILD PHASE
 pushd "source"
