@@ -3,6 +3,7 @@
 * rigelengine - Update to 0.8.1. Thanks to lethal-guitar
 * perimeter - Update to 0b355d5
 * Added Object N
+* openloco - Update to 21.09
 
 ### 30.2 (2021-08-19)
 
