@@ -5230,7 +5230,13 @@
     },
     "1508030": {
         "game_name": "Object N",
-        "download": [],
+        "download": [
+            {
+                "name": "objectn",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/objectn-1/",
+                "file": "objectn-1508030-1.tar.xz"
+            }
+        ],
         "command": "./objectn.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/1508030",
