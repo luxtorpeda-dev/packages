@@ -5310,7 +5310,14 @@
     },
     "1679920": {
         "game_name": "Project Absentia Demo",
-        "download": [],
+        "download": [
+            {
+                "name": "wigzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wigzdoom-1/",
+                "file": "wigzdoom-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-wigzdoom.sh",
         "command_args": [
             "-iwad",
