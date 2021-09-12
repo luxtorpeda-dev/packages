@@ -3967,6 +3967,37 @@
             }
         ]
     },
+    "317040": {
+        "game_name": "Strife: Veteran Edition",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-11/",
+                "file": "gzdoom-common-11.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "SVE.wad",
+            "-config",
+            "gzdoom.ini",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/317040/",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.6.1",
+            "comments": "",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
     "329650": {
         "game_name": "NAM",
         "download": [
