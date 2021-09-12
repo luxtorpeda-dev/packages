@@ -5,6 +5,7 @@
 * Added Object N
 * openloco - Update to 21.09
 * gzdoom - Add Relentless Frontier Demo
+* Added wigzdoom for Project Absentia
 
 ### 30.2 (2021-08-19)
 
