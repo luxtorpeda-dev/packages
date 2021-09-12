@@ -3991,7 +3991,7 @@
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
             "version": "4.6.1",
-            "comments": "",
+            "comments": "Supports Veteran Edition option. Saves will be stored in game directory.",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
