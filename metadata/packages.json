@@ -2270,6 +2270,52 @@
             "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
         }
     },
+    "9080": {
+        "game_name": "Quake III Arena Demo",
+        "download": [
+            {
+                "name": "ioquake3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-4/",
+                "file": "ioquake3-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "patch-data",
+                "url": "https://files.ioquake3.org/",
+                "file": "quake3-latest-pk3s.zip"
+            }
+        ],
+        "download_config": {
+            "patch-data": {
+                "extract_location": "./",
+                "strip_prefix": "quake3-latest-pk3s/",
+                "setup": true,
+                "decode_as_zip": true
+            }
+        },
+        "setup": {
+            "complete_path": "./demo-ready",
+            "command": "./setup-demo.sh",
+            "license_path": "./demo-patch-eula.txt"
+        },
+        "command": "./ioquake3.x86_64",
+        "command_args": [
+            "+set",
+            "r_mode",
+            "-2"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2200/",
+            "engine_name": "ioquake3",
+            "engine_link": "https://ioquake3.org/",
+            "version": "2b42f0b (from master)",
+            "comments": "",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv2",
+            "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+        }
+    },
     "9100": {
         "game_name": "DOOM 3 Demo",
         "download": [
