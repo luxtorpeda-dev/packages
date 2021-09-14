@@ -2270,6 +2270,29 @@
             "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
         }
     },
+    "9100": {
+        "game_name": "DOOM 3 Demo",
+        "download": [
+            {
+                "name": "dhewm3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-38/",
+                "file": "dhewm3-common-38.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-dhewm3.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9050/",
+            "engine_name": "dhewm3",
+            "engine_link": "https://dhewm3.org/",
+            "version": "1.5.1",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
+        }
+    },
     "9130": {
         "game_name": "Quake II Demo",
         "download": [
