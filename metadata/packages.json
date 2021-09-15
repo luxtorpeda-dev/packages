@@ -5410,9 +5410,17 @@
     },
     "1566570": {
         "game_name": "Retroninjacyberassassin",
-        "download": [],
-        "command": "./run-zandronum.sh",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "https://zandronum.com/downloads/",
+                "file": "zandronum3.0-linux-x86_64.tar.bz2"
+            }
+        ],
+        "command": "./zandronum",
         "command_args": [
+            "-iwad",
+            "Retroninjacyberassassin.wad",
             "-config",
             "zand.ini",
             "-savedir",
@@ -5422,8 +5430,8 @@
             "store_link": "https://store.steampowered.com/app/1566570/",
             "engine_name": "Zandronum",
             "engine_link": "https://github.com/TorrSamaho/zandronum",
-            "version": "99a19d7",
-            "comments": "",
+            "version": "3.0",
+            "comments": "Uses upstream provided download.",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "Sleepycat License with FMOD NON-COMMERCIAL LICENSE",
