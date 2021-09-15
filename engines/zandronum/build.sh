@@ -15,6 +15,7 @@ popd
 
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib64/pkgconfig:$pfx/lib/pkgconfig"
 
 # BUILD PHASE
 pushd "fluidsynth"
@@ -23,14 +24,6 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
-make -j "$(nproc)" install
-popd
-
-pushd "fluidsynth"
-rm -rf build
-mkdir -p build
-cd build
-cmake ..
 make -j "$(nproc)" install
 popd
 
