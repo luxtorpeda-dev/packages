@@ -5415,6 +5415,12 @@
                 "name": "binaries",
                 "url": "https://zandronum.com/downloads/",
                 "file": "zandronum3.0-linux-x86_64.tar.bz2"
+            },
+            {
+                "name": "zandronum",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/zandronum-1/",
+                "file": "zandronum-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "command": "./zandronum",
