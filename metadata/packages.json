@@ -5408,6 +5408,37 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "1566570": {
+        "game_name": "Retroninjacyberassassin",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "https://zandronum.com/downloads/",
+                "file": "zandronum3.0-linux-x86_64.tar.bz2"
+            }
+        ],
+        "command": "./zandronum",
+        "command_args": [
+            "-iwad",
+            "Retroninjacyberassassin.wad",
+            "-config",
+            "zand.ini",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1566570/",
+            "engine_name": "Zandronum",
+            "engine_link": "https://github.com/TorrSamaho/zandronum",
+            "version": "3.0",
+            "comments": "Uses upstream provided download.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "Sleepycat License with NON-COMMERCIAL LICENSE",
+            "license_link": "https://github.com/TorrSamaho/zandronum/blob/master/LICENSE.txt",
+            "non_free": true
+        }
+    },
     "1679920": {
         "game_name": "Project Absentia Demo",
         "download": [
