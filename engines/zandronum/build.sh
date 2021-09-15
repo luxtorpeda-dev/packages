@@ -6,7 +6,6 @@
 git clone https://github.com/TorrSamaho/zandronum.git source
 pushd source
 git checkout 99a19d7
-git am < ../patches/0001-Workaround-for-missing-PRId64.patch
 popd
 
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
