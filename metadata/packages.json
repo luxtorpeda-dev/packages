@@ -5426,8 +5426,9 @@
             "comments": "",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
-            "license": "Sleepycat License",
-            "license_link": "https://github.com/TorrSamaho/zandronum/blob/master/LICENSE.txt"
+            "license": "Sleepycat License with FMOD NON-COMMERCIAL LICENSE",
+            "license_link": "https://github.com/TorrSamaho/zandronum/blob/master/LICENSE.txt",
+            "non_free": true
         }
     },
     "1679920": {
