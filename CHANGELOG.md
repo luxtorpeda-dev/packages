@@ -1,3 +1,10 @@
+### 30.4 (2021-09-14)
+
+* dhewm3 - Add demo support
+* ioquake3 - Add support for Quake 3 Arena Demo
+* Add zandronum, using upstream provided download
+* openloco - Update to 21.09.1
+
 ### 30.3 (2021-09-03)
 
 * rigelengine - Update to 0.8.1. Thanks to lethal-guitar
