@@ -505,6 +505,59 @@
             }
         ]
     },
+    "9180": {
+        "game_name": "Commander Keen Complete Pack",
+        "download": [
+            {
+                "name": "commander-genius",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/commander-genius-1/",
+                "file": "commander-genius-9180-1.tar.xz"
+            }
+        ],
+        "commands": {
+            ".*keen1?.conf": {
+                "cmd": "./run-commander.sh",
+                "args": [
+                    "dir=."
+                ]
+            },
+            ".*keen2?.conf": {
+                "cmd": "./run-commander.sh",
+                "args": [
+                    "dir=games/keen2"
+                ]
+            },
+            ".*keen3?.conf": {
+                "cmd": "./run-commander.sh",
+                "args": [
+                    "dir=games/keen3"
+                ]
+            },
+            ".*keen4?.conf": {
+                "cmd": "./run-commander.sh",
+                "args": [
+                    "dir=games/keen4"
+                ]
+            },
+            ".*keen5?.conf": {
+                "cmd": "./run-commander.sh",
+                "args": [
+                    "dir=games/keen5"
+                ]
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9180/",
+            "engine_name": "Commander Genius",
+            "engine_link": "https://gitlab.com/Dringgstein/Commander-Genius",
+            "version": "v2.7.7",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://gitlab.com/Dringgstein/Commander-Genius/-/blob/master/COPYRIGHT"
+        }
+    },
     "39510": {
         "game_name": "Gothic 2: Gold Edition",
         "download": [
