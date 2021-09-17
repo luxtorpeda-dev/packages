@@ -939,8 +939,8 @@
             },
             {
                 "name": "zandronum",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/zandronum-1/",
-                "file": "zandronum-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/zandronum-2/",
+                "file": "zandronum-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
