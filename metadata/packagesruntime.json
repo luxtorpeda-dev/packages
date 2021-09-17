@@ -1,4 +1,305 @@
 {
+    "2280": {
+        "game_name": "The Ultimate DOOM",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "gzdoom",
+                "command": "./run-gzdoom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM.WAD"
+                ],
+                "download": [
+                    "gzdoom"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.6.1",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            }
+        ]
+    },
+    "2290": {
+        "game_name": "Final DOOM",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "gzdoom",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./run-gzdoom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./run-gzdoom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "gzdoom"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2290/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.6.1",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            }
+        ]
+    },
+    "2300": {
+        "game_name": "DOOM II: Hell on Earth",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "gzdoom",
+                "command": "./run-gzdoom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM2.WAD"
+                ],
+                "download": [
+                    "gzdoom"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2300/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.6.1",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            }
+        ]
+    },
+    "2360": {
+        "game_name": "HeXen: Beyond Heretic",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "gzdoom",
+                "command": "./run-gzdoom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HEXEN.WAD"
+                ],
+                "download": [
+                    "gzdoom"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2360/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.6.1",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            }
+        ]
+    },
+    "2370": {
+        "game_name": "HeXen: Deathkings of the Dark Citadel",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "gzdoom",
+                "command": "./run-gzdoom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HEXEN.WAD",
+                    "-file",
+                    "base/HEXDD.WAD"
+                ],
+                "download": [
+                    "gzdoom"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2360/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.6.1",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            }
+        ]
+    },
+    "2390": {
+        "game_name": "Heretic: Shadow of the Serpent Riders",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "gzdoom",
+                "command": "./run-gzdoom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HERETIC.WAD"
+                ],
+                "download": [
+                    "gzdoom"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2390/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.6.1",
+                "comments": "",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            }
+        ]
+    },
+     "9160": {
+        "game_name": "Master Levels for DOOM II",
+        "download": [
+            {
+                "name": "wadsmoosh",
+                "url": "https://heptapod.host/jp-lebreton/wadsmoosh/-/archive/branch/default/",
+                "file": "wadsmoosh-branch-default.tar.gz"
+            },
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "name": "gzdoom",
+        "command": "./run-gzdoom-2-master-levels.sh",
+        "command_args": [
+            "-iwad",
+            "doom_complete.pk3"
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/9160/",
+                "engine_name": "gzdoom",
+                "engine_link": "https://github.com/coelckers/gzdoom",
+                "version": "4.6.1",
+                "comments": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh/-/tree/branch/default/)",
+                "author": "dreamer/d10sfan",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv3",
+                "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            }
+        ]
+    },
+    "317040": {
+        "game_name": "Strife: Veteran Edition",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "SVE.wad",
+            "-config",
+            "gzdoom.ini",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/317040/",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.6.1",
+            "comments": "Supports Veteran Edition option. Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
     "410970": {
         "game_name": "Master of Orion 1",
         "download": [
@@ -37,6 +338,250 @@
                 "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
             }
         ]
+    },
+    "817220": {
+        "game_name": "The Forestale",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "TheForestale.ipk3",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/817220",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.6.1",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+    "1072150": {
+        "game_name": "Hedon",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom-hedon.sh",
+        "command_args": [
+            "-iwad",
+            "Hedon.ipk3",
+            "-savedir",
+            "./saves",
+            "-config",
+            "gzdoom.ini"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1072150",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.6.1",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+    "1118550": {
+        "game_name": "Fury's Sky",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "FURYSKY.iwad",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1118550",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.6.1",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+    "1271050": {
+        "game_name": "Shrine",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "shrine.ipk3",
+            "-savedir",
+            "./saves",
+            "-config",
+            "gzdoom.ini"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1271050",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.6.1",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+    "1417010": {
+        "game_name": "Shrine II",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "shrine2/ShrineII.ipk3",
+            "-savedir",
+            "./saves",
+            "-config",
+            "gzdoom.ini"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1417010",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.6.1",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+     "1546440": {
+        "game_name": "Lycanthorn II - Rain of Beasts",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "Lycanthorn II/Lycanthorn2.ipk3",
+            "-savedir",
+            "./saves",
+            "-config",
+            "gzdoom.ini"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1546440",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.6.1",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+    "1679920": {
+        "game_name": "Project Absentia Demo",
+        "download": [
+            {
+                "name": "wigzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wigzdoom-1/",
+                "file": "wigzdoom-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-wigzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "absentia.ipk3",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1679920/",
+            "engine_name": "WIGZDoom",
+            "engine_link": "https://github.com/SanyaWaffles/WIGZDoom",
+            "version": "28a3156",
+            "comments": "",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+    "1731320": {
+        "game_name": "Relentless Frontier Demo",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-13/",
+                "file": "gzdoom-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "Engine/RF.ipk3",
+            "-file",
+            "Engine/PK3/RF_Data.pk3",
+            "-config",
+            "Engine/gzdoom.ini",
+            "-savedir",
+            "./Engine/Save"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1731320/",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.6.1",
+            "comments": "",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
     },
     "default": {
         "game_name": "Default",
