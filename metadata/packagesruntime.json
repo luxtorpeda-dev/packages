@@ -464,6 +464,28 @@
             }
         ]
     },
+    "39510": {
+        "game_name": "Gothic 2: Gold Edition",
+        "download": [
+            {
+                "name": "opengothic",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-17/",
+                "file": "opengothic-39510-17.tar.xz"
+            }
+        ],
+        "command": "./run-gothic2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/39510/Gothic_II_Gold_Edition/",
+            "engine_name": "OpenGothic",
+            "engine_link": "https://github.com/Try/OpenGothic",
+            "version": "v1.0.1177",
+            "comments": "Steam Overlay does not work. Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE"
+        }
+    },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
         "download": [
