@@ -14,5 +14,4 @@ popd
 
 # COPY PHASE
 cp -rfv assets/* "$diststart/10050/dist/"
-
 cp -rfv "sdlcl/libSDL-1.2.so.0" "$diststart/10050/dist/"
