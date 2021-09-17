@@ -6,8 +6,6 @@
 git clone https://github.com/coelckers/gzdoom.git source
 pushd source
 git checkout 347324e
-git revert e63f3e394c9dd4e38d693b25d7b972dd8f517a7c
-git am < ../patches/0001-Workaround-for-missing-PRId64.patch
 popd
 
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
