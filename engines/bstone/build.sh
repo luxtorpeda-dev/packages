@@ -14,7 +14,6 @@ cmake \
     -DBSTONE_USE_PCH=OFF \
     ..
 make -j "$(nproc)"
-make install
 popd
 
 # COPY PHASE
