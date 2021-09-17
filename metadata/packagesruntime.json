@@ -807,6 +807,64 @@
             }
         ]
     },
+    "517790": {
+        "game_name": "Caesar 3",
+        "download": [
+            {
+                "name": "julius",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/julius-7/",
+                "file": "julius-517790-7.tar.xz"
+            },
+            {
+                "name": "augustus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/augustus-6/",
+                "file": "augustus-517790-6.tar.xz"
+            }
+        ],
+        "choices": [
+            {
+                "name": "julius",
+                "command": "./julius",
+                "command_args": [
+                    "./C3"
+                ],
+                "download": [
+                    "julius"
+                ]
+            },
+            {
+                "name": "augustus",
+                "command": "./run-augustus.sh",
+                "download": [
+                    "augustus"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/517790/",
+                "engine_name": "julius",
+                "engine_link": "https://github.com/bvschaik/julius",
+                "version": "1.6.0",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "AGPL-3.0",
+                "license_link": "https://github.com/bvschaik/julius/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/517790/",
+                "engine_name": "augustus",
+                "engine_link": "https://github.com/Keriew/augustus",
+                "version": "3.0.1",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "AGPL-3.0",
+                "license_link": "https://github.com/Keriew/augustus/blob/master/LICENSE.txt"
+            }
+        ]
+    },
     "569860": {
         "game_name": "Thimbleweed Park™",
         "download": [
