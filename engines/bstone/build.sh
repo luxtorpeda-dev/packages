@@ -7,7 +7,6 @@ git checkout d329e75
 popd
 
 # BUILD PHASE
-
 pushd source
 cd build
 cmake \
