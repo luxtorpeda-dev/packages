@@ -15,4 +15,4 @@ LD_PRELOAD="" cp -rfv classic/updatedbase/* classic/base
 
 cd classic
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./DoomBFA "$@"
+./DoomBFA "$@"
