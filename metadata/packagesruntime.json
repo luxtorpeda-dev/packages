@@ -781,9 +781,19 @@
         "download_config": {
             "dosbox-staging": {
                 "extract_location": "../dosbox-staging"
+            },
+            "1oom": {
+                "extract_location": "../"
             }
         },
         "choices": [
+            {
+                "name": "1oom",
+                "command": "../run-1oom.sh",
+                "download": [
+                    "1oom"
+                ]
+            },
             {
                 "name": "dosbox-staging",
                 "command": "../dosbox-staging/run-dosbox-staging.sh",
@@ -794,6 +804,17 @@
             }
         ],
         "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/410970",
+                "engine_name": "1oom",
+                "engine_link": "https://gitlab.com/Tapani_/1oom",
+                "version": "cc2b61c04c9bd11e17b06dc7b8d7c84760159842 (from master)",
+                "comments": "Soundfont required to be installed on system.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://gitlab.com/Tapani_/1oom/-/blob/master/COPYING"
+            },
             {
                 "store_link": "https://store.steampowered.com/app/410970",
                 "engine_name": "dosbox-staging",
