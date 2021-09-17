@@ -471,6 +471,12 @@
                 "name": "rottexpr",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-2/",
                 "file": "rottexpr-238050-2.tar.xz"
+            },
+            {
+                "name": "bstone",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-2/",
+                "file": "bstone-common-2.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -497,6 +503,30 @@
                         "extract_location": "./Extreme Rise of the Triad"
                     }
                 }
+            },
+            {
+                "name": "Blake Stone Aliens of Gold",
+                "command": "./Blake Stone/run-bstone.sh",
+                "download": [
+                    "bstone"
+                ],
+                "download_config": {
+                    "bstone": {
+                        "extract_location": "./Blake Stone"
+                    }
+                }
+            },
+            {
+                "name": "Blake Stone Planet Strike",
+                "command": "./Planet Strike/run-bstone.sh",
+                "download": [
+                    "bstone"
+                ],
+                "download_config": {
+                    "bstone": {
+                        "extract_location": "./Planet Strike"
+                    }
+                }
             }
         ],
         "information": [
@@ -510,6 +540,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/238050",
+                "engine_name": "bstone",
+                "engine_link": "https://github.com/bibendovsky/bstone",
+                "version": "v1.2.11",
+                "comments": "Blake Stone & Planet Strike",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
             }
         ]
     },
