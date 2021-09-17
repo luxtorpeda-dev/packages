@@ -24,22 +24,7 @@ if [ ! -z "${CUSTOM_CONTAINER}" ]; then
         install_gcc_9_ubuntu_1804
     fi
 else
-    cp -rfv ../../common/ubuntu12sources.list /etc/apt/sources.list
-
-    if [ ! -z "${GCC_9}" ]; then
-        echo "Installing gcc 9"
-        install_gcc_9
-    fi
-
-    if [ ! -z "${GCC_6}" ]; then
-        echo "Installing gcc 6"
-        install_gcc_6
-    fi
-
-    if [ ! -z "${LATEST_GIT}" ]; then
-        echo "Installing latest git"
-        install_latest_git
-    fi
+    install_latest_cmake
 fi
 
 if [ ! -z "${COMMON_QT5}" ]; then

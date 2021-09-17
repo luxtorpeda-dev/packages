@@ -218,6 +218,16 @@ setup_custom_container() {
     fi
 }
 
+# steam runtime functions
+
+install_latest_cmake() {
+    wget https://github.com/Kitware/CMake/releases/download/v3.21.2/cmake-3.21.2-linux-x86_64.sh
+    chmod +x cmake-3.21.2-linux-x86_64.sh
+    ./cmake-3.21.2-linux-x86_64.sh --skip-license --prefix=/usr
+}
+
+# end steam runtime functions
+
 set -x
 set -e
 
