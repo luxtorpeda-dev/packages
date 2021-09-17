@@ -8,6 +8,7 @@
 * engge - Build for steam runtime
 * vkquake2 - Build for steamrt
 * bstone - Build for steamrt
+* opengothic - Build for steamrt
 
 ### 30.4 (2021-09-14)
 
