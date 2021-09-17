@@ -14,6 +14,7 @@
 * 1oom - Build for steamrt
 * augustus - Build for steamrt
 * julius - Build for steamrt
+* commander-genius - Build for steamrt
 
 ### 30.4 (2021-09-14)
 
