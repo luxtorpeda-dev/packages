@@ -24,6 +24,9 @@ if [ ! -z "${CUSTOM_CONTAINER}" ]; then
         install_gcc_9_ubuntu_1804
     fi
 else
+    git config --global user.email "actions@github.com"
+    git config --global user.name "GitHub Action"
+
     install_latest_cmake
 fi
 
