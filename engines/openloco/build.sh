@@ -11,10 +11,6 @@ pushd yaml-cpp
 git checkout -f 0579ae3
 popd
 
-readonly pfx="$PWD/local"
-mkdir -p "$pfx"
-export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
-
 # BUILD PHASE
 pushd yaml-cpp
 mkdir build
@@ -38,9 +34,7 @@ cp -rfv ../data .
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/356430/dist/lib"
 mkdir -p "$diststart/356430/dist/data"
-cp -rfv "$pfx/lib/"*.so* "$diststart/356430/dist/lib"
 
 cp -rfv "source/build/openloco" "$diststart/356430/dist/"
 cp -rfv "source/build/data/"* "$diststart/356430/dist/data"
