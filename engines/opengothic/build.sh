@@ -16,6 +16,7 @@ popd
 # COPY PHASE
 mkdir "$diststart/39510/dist/lib/"
 mkdir "$diststart/39510/dist/bin/"
+
 cp -rfv "source/build/opengothic/Gothic2Notr" "$diststart/39510/dist/bin/Gothic2Notr"
 cp -rfv "source/build/opengothic/Gothic2Notr.sh" "$diststart/39510/dist/Gothic2Notr.sh"
 cp -rfv source/build/opengothic/*.so* "$diststart/39510/dist/lib/"
