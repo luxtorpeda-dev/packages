@@ -129,17 +129,6 @@ create_archives_without_v7 () {
     fi
 }
 
-install_gcc_9 () {
-    echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/gcc.list
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
-    sudo apt-get update
-    sudo apt-get install gcc-9 g++-9 -y
-    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
-    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
-    sudo update-alternatives --set gcc "/usr/bin/gcc-9"
-    sudo update-alternatives --set g++ "/usr/bin/g++-9"
-}
-
 install_gcc_10_ubuntu_1804 () {
     echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/gcc.list
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
@@ -160,26 +149,6 @@ install_gcc_9_ubuntu_1804 () {
     sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
     sudo update-alternatives --set gcc "/usr/bin/gcc-9"
     sudo update-alternatives --set g++ "/usr/bin/g++-9"
-}
-
-install_gcc_6 () {
-    echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/gcc.list
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
-    sudo apt-get update
-    sudo apt-get install gcc-6 g++-6 -y
-    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 6
-    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 6
-    sudo update-alternatives --set gcc "/usr/bin/gcc-6"
-    sudo update-alternatives --set g++ "/usr/bin/g++-6"
-}
-
-install_latest_git () {
-    echo "deb http://ppa.launchpad.net/git-core/ppa/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/git.list
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys a1715d88e1df1f24
-    sudo apt-get update
-    sudo apt-get install -y git
-    git config --global user.email "actions@github.com"
-    git config --global user.name "GitHub Action"
 }
 
 use_common_qt5 () {
@@ -217,6 +186,16 @@ setup_custom_container() {
         sudo update-alternatives --set g++ "/usr/bin/g++-8"
     fi
 }
+
+# steam runtime functions
+
+install_latest_cmake() {
+    wget https://github.com/Kitware/CMake/releases/download/v3.21.2/cmake-3.21.2-linux-x86_64.sh
+    chmod +x cmake-3.21.2-linux-x86_64.sh
+    ./cmake-3.21.2-linux-x86_64.sh --skip-license --prefix=/usr
+}
+
+# end steam runtime functions
 
 set -x
 set -e
