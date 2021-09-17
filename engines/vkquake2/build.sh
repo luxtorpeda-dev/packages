@@ -9,7 +9,16 @@ pushd source
 git checkout 429f23b
 popd
 
+curl -L -v -o libXxf86dga-1.1.5.tar.bz2 http://www.x.org/releases/individual/lib/libXxf86dga-1.1.5.tar.bz2
+tar xvf libXxf86dga-1.1.5.tar.bz2
+
 # BUILD PHASE
+pushd "libXxf86dga-1.1.5"
+./configure
+make
+make install
+popd
+
 pushd "source"
 cd linux
 make -j "$(nproc)" release
@@ -33,5 +42,9 @@ cp -rfv "source/linux/releasex64/xatrix/gamex64.so" "$diststart/common/dist/xatr
 
 mkdir -p "$diststart/common/dist/zaero"
 cp -rfv "source/linux/releasex64/zaero/gamex64.so" "$diststart/common/dist/zaero"
+
+cp -rfv /usr/local/lib/libXxf86dga.so.1.0.0 "$diststart/common/dist"
+cp -rfv /usr/local/lib/libXxf86dga.so "$diststart/common/dist"
+cp -rfv /usr/local/lib/libXxf86dga.so.1 "$diststart/common/dist"
 
 cp -rfv assets/* "$diststart/common/dist/"

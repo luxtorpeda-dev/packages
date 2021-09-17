@@ -2,4 +2,4 @@
 
 cd vkQuake2
 
-./quake2 "$@"
+LD_LIBRARY_PATH="./:$LD_LIBRARY_PATH" ./quake2 "$@"
