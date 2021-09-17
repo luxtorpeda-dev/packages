@@ -1,4 +1,45 @@
 {
+    "2210": {
+        "game_name": "Quake IV",
+        "download": [
+            {
+                "name": "quake4",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake4-4/",
+                "file": "quake4-2210-4.tar.xz"
+            },
+            {
+                "name": "binaries",
+                "url": "https://www.quaddicted.com/files/idgames2/idstuff/quake4/linux/",
+                "file": "quake4-linux-1.4.2.x86.run"
+            }
+        ],
+        "download_config": {
+            "binaries": {
+                "setup": true,
+                "copy_only": true
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-quake4.sh",
+            "uninstall_command": "./uninstall-quake4.sh",
+            "license_path": "./EULA.txt"
+        },
+        "command": "./run-quake4.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2210",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://www.quaddicted.com/files/idgames2/idstuff/quake4/linux/",
+            "version": "1.4.2",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "http://zerowing.idsoftware.com/linux/quake4/Quake4FrontPage/",
+            "closed_source": true,
+            "32-bit": true
+        }
+    },
     "2280": {
         "game_name": "The Ultimate DOOM",
         "download": [
@@ -906,6 +947,38 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+    "1343370": {
+        "game_name": "Old School RuneScape",
+        "download": [
+            {
+                "name": "runelite",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/runelite-2/",
+                "file": "runelite-1343370-2.tar.xz"
+            },
+            {
+                "name": "runelite-binaries",
+                "url": "https://github.com/runelite/launcher/releases/download/2.1.5/",
+                "file": "RuneLite.AppImage"
+            }
+        ],
+        "command": "./run-runelite-extract.sh",
+        "download_config": {
+            "runelite-binaries": {
+                "copy_only": true
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1343370",
+            "engine_name": "runelite",
+            "engine_link": "https://github.com/runelite/runelite",
+            "version": "2.1.5",
+            "comments": "Uses AppImage from upstream project.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD 2-Clause License",
+            "license_link": "https://github.com/runelite/runelite/blob/master/LICENSE"
         }
     },
     "1417010": {
