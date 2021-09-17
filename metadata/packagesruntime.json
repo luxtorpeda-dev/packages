@@ -486,6 +486,47 @@
             "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE"
         }
     },
+    "215930": {
+        "game_name": "Jagged Alliance 2 - Wildfire",
+        "download": [
+            {
+                "name": "ja2-binaries",
+                "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.18.0/",
+                "file": "ja2-stracciatella_0.18.0-git+ebc73ce_x86-64.AppImage"
+            },
+            {
+                "name": "ja2-wildfire",
+                "url": "https://github.com/ja2-stracciatella/mod-wildfire-maps/releases/download/0.3.0/",
+                "file": "mod-wildfire-maps-0.3.0-linux-x64.zip"
+            },
+            {
+                "name": "ja2-stracciatella",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-1/",
+                "file": "ja2-stracciatella-215930-1.tar.xz"
+            }
+        ],
+        "command": "./run-ja2.sh",
+        "download_config": {
+            "ja2-binaries": {
+                "copy_only": true
+            },
+            "ja2-wildfire": {
+                "decode_as_zip": true
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1343370",
+            "engine_name": "Jagged Alliance 2 Stracciatella",
+            "engine_link": "https://ja2-stracciatella.github.io",
+            "version": "0.18.0",
+            "comments": "Uses AppImage from upstream project. Requires both Wildfire and Classic DLC",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Original in SFI-SCLA with Additions in Public Domain",
+            "license_link": "https://github.com/ja2-stracciatella/ja2-stracciatella/blob/master/README.md",
+            "non_free": true
+        }
+    },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
         "download": [
