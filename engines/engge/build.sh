@@ -3,13 +3,13 @@
 # CLONE PHASE
 git clone https://github.com/scemino/engge.git source
 pushd source
-git checkout 09465ea
+git checkout 5e607bc
 git submodule update --init --recursive
 popd
 
 git clone https://github.com/g-truc/glm glm
 pushd glm
-git checkout -f 947527d3
+git checkout -f bf71a83
 git submodule update --init --recursive
 popd
 
