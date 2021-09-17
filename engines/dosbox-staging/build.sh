@@ -1,14 +1,8 @@
 #!/bin/bash
 
-git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-
-pyenv install 3.6.2
-pyenv local 3.6.2
-pip3 install --upgrade pip
-pip3 install meson
+wget https://bootstrap.pypa.io/get-pip.py
+python3 get-pip.py
+pip3 install meson --upgrade
 
 # CLONE PHASE
 git clone https://github.com/dosbox-staging/dosbox-staging.git source

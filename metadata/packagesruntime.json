@@ -1,0 +1,80 @@
+{
+    "410970": {
+        "game_name": "Master of Orion 1",
+        "download": [
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-6/",
+                "file": "dosbox-staging-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "dosbox-staging": {
+                "extract_location": "../dosbox-staging"
+            }
+        },
+        "choices": [
+            {
+                "name": "dosbox-staging",
+                "command": "../dosbox-staging/run-dosbox-staging.sh",
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/410970",
+                "engine_name": "dosbox-staging",
+                "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
+                "version": "0.77.1",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
+            }
+        ]
+    },
+    "default": {
+        "game_name": "Default",
+        "download": [
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-6/",
+                "file": "dosbox-staging-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "dosbox-staging": {
+                "extract_location": "../dosbox-staging"
+            }
+        },
+        "choices": [
+            {
+                "name": "dosbox-staging",
+                "command": "../dosbox-staging/run-dosbox-staging.sh",
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/curator/35328265/",
+                "engine_name": "dosbox-staging",
+                "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
+                "version": "0.77.1",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
+            }
+        ]
+    }
+}
