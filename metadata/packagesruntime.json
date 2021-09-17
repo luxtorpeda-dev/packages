@@ -234,7 +234,58 @@
             }
         ]
     },
-     "9160": {
+    "9050": {
+        "game_name": "DOOM 3",
+        "download": [
+            {
+                "name": "dhewm3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-39/",
+                "file": "dhewm3-common-39.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./dhewm3",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9050/",
+            "engine_name": "dhewm3",
+            "engine_link": "https://dhewm3.org/",
+            "version": "1.5.1",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
+        }
+    },
+    "9070": {
+        "game_name": "DOOM 3: Resurrection of Evil",
+        "download": [
+            {
+                "name": "dhewm3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-39/",
+                "file": "dhewm3-common-39.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./dhewm3",
+        "command_args": [
+            "+set",
+            "fs_game",
+            "d3xp"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9070/",
+            "engine_name": "dhewm3",
+            "engine_link": "https://dhewm3.org/",
+            "version": "1.5.1",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
+        }
+    },
+    "9160": {
         "game_name": "Master Levels for DOOM II",
         "download": [
             {
