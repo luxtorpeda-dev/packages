@@ -10,6 +10,7 @@
 * bstone - Build for steamrt
 * opengothic - Build for steamrt
 * openloco - Build for steamrt
+* zandronum - Build for steamrt
 
 ### 30.4 (2021-09-14)
 
