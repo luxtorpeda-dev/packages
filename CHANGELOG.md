@@ -1,20 +1,6 @@
 ### 32.0 (2021-09-16)
 
 * Add support for building against steam runtime
-* dosbox-staging - Build for steam runtime
-* gzdoom - Build for steamrt
-* dhewm3 - Build for steamrt
-* rottexpr - Build for steamrt
-* engge - Build for steam runtime
-* vkquake2 - Build for steamrt
-* bstone - Build for steamrt
-* opengothic - Build for steamrt
-* openloco - Build for steamrt
-* zandronum - Build for steamrt
-* 1oom - Build for steamrt
-* augustus - Build for steamrt
-* julius - Build for steamrt
-* commander-genius - Build for steamrt
 
 ### 30.4 (2021-09-14)
 
