@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/ptitSeb/ctp2.git source
 pushd source
-git checkout 2584d00
+git checkout ac46e601b94fad8162677b964ff87a2e07923c9e
 popd
 
 apt-get install -y byacc flex
