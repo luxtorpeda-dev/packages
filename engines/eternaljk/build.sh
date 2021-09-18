@@ -8,7 +8,6 @@ git am < ../patches/0001-Revert-use-of-7za-from-commit-c2dfd02ebd73b06ba2326c.pa
 popd
 
 mkdir -p tmp
-
 # BUILD PHASE
 pushd source
 mkdir build
