@@ -12,6 +12,7 @@ mkdir -p tmp
 # BUILD PHASE
 pushd source
 mkdir build
+
 cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX=../../tmp \
