@@ -40,6 +40,29 @@
             "32-bit": true
         }
     },
+    "2270": {
+        "game_name": "Wolfenstein 3D",
+        "download": [
+            {
+                "name": "ecwolf",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-3/",
+                "file": "ecwolf-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-ecwolf.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2270",
+            "engine_name": "ecwolf",
+            "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
+            "version": "ac4a229 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPL-2+ or EULA; BSD-3-clause",
+            "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
+        }
+    },
     "2280": {
         "game_name": "The Ultimate DOOM",
         "download": [
@@ -418,6 +441,29 @@
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
             }
         ]
+    },
+    "9000": {
+        "game_name": "Wolfenstein 3D: Spear of Destiny",
+        "download": [
+            {
+                "name": "ecwolf",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-3/",
+                "file": "ecwolf-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-ecwolf.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9000",
+            "engine_name": "ecwolf",
+            "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
+            "version": "ac4a229 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPL-2+ or EULA; BSD-3-clause",
+            "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
+        }
     },
     "9050": {
         "game_name": "DOOM 3",
@@ -888,6 +934,29 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
+        }
+    },
+    "371180": {
+        "game_name": "Super 3-D Noah's Ark",
+        "download": [
+            {
+                "name": "ecwolf",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-3/",
+                "file": "ecwolf-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-ecwolf.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/371180",
+            "engine_name": "ecwolf",
+            "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
+            "version": "ac4a229 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPL-2+ or EULA; BSD-3-clause",
+            "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
         }
     },
     "410970": {
