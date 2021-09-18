@@ -16,6 +16,7 @@ mkdir build
 cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX=../../tmp \
+    -DBuildDiscordRichPresence=OFF \
     ..
 make -j "$(nproc)"
 make install
