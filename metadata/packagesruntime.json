@@ -442,6 +442,100 @@
             }
         ]
     },
+    "6020": {
+        "game_name": "STAR WARS™ Jedi Knight: Jedi Academy™",
+        "download": [
+            {
+                "name": "openjk",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-4/",
+                "file": "openjk-6020-4.tar.xz"
+            },
+            {
+                "name": "eternaljk",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eternaljk-2/",
+                "file": "eternaljk-6020-2.tar.xz"
+            }
+        ],
+        "commands": {
+            ".*jasp.exe": {
+                "cmd": "./openjk_sp.x86_64"
+            },
+            ".*jamp.exe": {
+                "cmd": "./eternaljk.x86_64"
+            }
+        },
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/6020/",
+                "engine_name": "OpenJK (SP)",
+                "engine_link": "https://github.com/JACoders/OpenJK",
+                "version": "d2ed03a016f54917bc1dcf06bcc59d3f674fb533",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/6020/",
+                "engine_name": "EternalJK (MP)",
+                "engine_link": "https://github.com/eternalcodes/EternalJK",
+                "version": "a40e793",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/eternalcodes/EternalJK/blob/master/LICENSE.txt"
+            }
+        ]
+    },
+    "6030": {
+        "game_name": "STAR WARS™ Jedi Knight II: Jedi Outcast™",
+        "download": [
+            {
+                "name": "openjk",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-4/",
+                "file": "openjk-6030-4.tar.xz"
+            },
+            {
+                "name": "jk2mv",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/jk2mv-3/",
+                "file": "jk2mv-6030-3.tar.xz"
+            }
+        ],
+        "commands": {
+            ".*jk2sp.exe": {
+                "cmd": "./openjo_sp.x86_64"
+            },
+            ".*jk2mp.exe": {
+                "cmd": "./jk2mvmp"
+            }
+        },
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/6030/",
+                "engine_name": "OpenJK (SP)",
+                "engine_link": "https://github.com/JACoders/OpenJK",
+                "version": "d2ed03a016f54917bc1dcf06bcc59d3f674fb533",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/6030/",
+                "engine_name": "jk2mv (MP)",
+                "engine_link": "https://github.com/mvdevs/jk2mv",
+                "version": "11a108e",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/mvdevs/jk2mv/blob/master/LICENSE"
+            }
+        ]
+    },
     "9000": {
         "game_name": "Wolfenstein 3D: Spear of Destiny",
         "download": [
