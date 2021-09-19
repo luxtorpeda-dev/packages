@@ -232,8 +232,8 @@
             },
             {
                 "name": "prboom-plus",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-4/",
-                "file": "prboom-plus-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-5/",
+                "file": "prboom-plus-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -335,8 +335,8 @@
             },
             {
                 "name": "prboom-plus",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-4/",
-                "file": "prboom-plus-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-5/",
+                "file": "prboom-plus-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -471,8 +471,8 @@
             },
             {
                 "name": "prboom-plus",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-4/",
-                "file": "prboom-plus-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-5/",
+                "file": "prboom-plus-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1371,8 +1371,8 @@
             },
             {
                 "name": "prboom-plus",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-4/",
-                "file": "prboom-plus-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-5/",
+                "file": "prboom-plus-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1963,8 +1963,8 @@
             },
             {
                 "name": "classic-rbdoom-3-bfg",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-5/",
-                "file": "classic-rbdoom-3-bfg-208200-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-6/",
+                "file": "classic-rbdoom-3-bfg-208200-6.tar.xz"
             }
         ],
         "choices": [
