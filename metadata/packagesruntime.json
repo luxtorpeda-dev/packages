@@ -1713,6 +1713,63 @@
             "non_free": true
         }
     },
+    "225140": {
+        "game_name": "Duke Nukem 3D: Megaton Edition",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-4/",
+                "file": "eduke32-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "eduke32",
+                "command": "./run-eduke32.sh",
+                "download": [
+                    "eduke32"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/225140",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "71c5ce09 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/225140",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
         "download": [
@@ -1903,6 +1960,63 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "329650": {
+        "game_name": "NAM",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-4/",
+                "file": "eduke32-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "eduke32",
+                "command": "./run-nam.sh",
+                "download": [
+                    "eduke32"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-nam.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/329650",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "71c5ce09 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/329650",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "356430": {
         "game_name": "Chris Sawyer's Locomotion™",
         "download": [
@@ -2004,6 +2118,63 @@
             "license": "GPL-2+ or EULA; BSD-3-clause",
             "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
         }
+    },
+    "376750": {
+        "game_name": "World War II GI",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-4/",
+                "file": "eduke32-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "eduke32",
+                "command": "./run-ww2gi.sh",
+                "download": [
+                    "eduke32"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-ww2gi.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/376750",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "71c5ce09 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/376750",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "410970": {
         "game_name": "Master of Orion 1",
@@ -2127,6 +2298,29 @@
                 "license_link": "https://github.com/Keriew/augustus/blob/master/LICENSE.txt"
             }
         ]
+    },
+    "562860": {
+        "game_name": "Ion Fury",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-4/",
+                "file": "eduke32-common-4.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-eduke32.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/562860",
+            "engine_name": "eduke32",
+            "engine_link": "https://voidpoint.io/terminx/eduke32",
+            "version": "71c5ce09 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+        }
     },
     "569860": {
         "game_name": "Thimbleweed Park™",
