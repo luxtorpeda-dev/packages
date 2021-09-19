@@ -6,9 +6,6 @@ pushd source
 git checkout 2d57747
 popd
 
-readonly pfx="$PWD/local"
-mkdir -p "$pfx"
-
 # BUILD PHASE
 pushd "source"
 mkdir -p build
