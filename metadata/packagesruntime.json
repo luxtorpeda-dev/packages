@@ -1770,6 +1770,63 @@
             }
         ]
     },
+    "225160": {
+        "game_name": "Shadow Warrior Classic Redux",
+        "download": [
+            {
+                "name": "voidsw",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/voidsw-1/",
+                "file": "voidsw-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "voidsw",
+                "command": "./run-eduke32.sh",
+                "download": [
+                    "voidsw"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-sw.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/225160",
+                "engine_name": "eduke32 VoidSW",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "b7d4ae3a (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/sw/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/225160",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
         "download": [
@@ -2241,6 +2298,29 @@
             }
         ]
     },
+    "434050": {
+        "game_name": "Duke Nukem 3D: 20th Anniversary World Tour",
+        "download": [
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-raze.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/434050",
+            "engine_name": "raze",
+            "engine_link": "https://github.com/coelckers/Raze",
+            "version": "1.1.3",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Various Licenses",
+            "license_link": "https://github.com/coelckers/Raze"
+        }
+    },
     "517790": {
         "game_name": "Caesar 3",
         "download": [
@@ -2322,6 +2402,63 @@
             "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
         }
     },
+    "565550": {
+        "game_name": "Redneck Rampage",
+        "download": [
+            {
+                "name": "rednukem",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-1/",
+                "file": "rednukem-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "rednukem",
+                "command": "./run-rr.sh",
+                "download": [
+                    "rednukem"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-rr.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/565550",
+                "engine_name": "NBlood Rednukem",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "60f9e42 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/565550",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "569860": {
         "game_name": "Thimbleweed Park™",
         "download": [
@@ -2343,6 +2480,63 @@
             "license": "MIT",
             "license_link": "https://github.com/scemino/engge/blob/master/LICENSE"
         }
+    },
+    "580940": {
+        "game_name": "Redneck Rampage Rides Again",
+        "download": [
+            {
+                "name": "rednukem",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-1/",
+                "file": "rednukem-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "rednukem",
+                "command": "./run-rr-again.sh",
+                "download": [
+                    "rednukem"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "run-raze-rr-again.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/580940",
+                "engine_name": "NBlood Rednukem",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "60f9e42 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/580940",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "817220": {
         "game_name": "The Forestale",
@@ -2394,6 +2588,63 @@
             "license": "GPLv2",
             "license_link": "https://github.com/KillPixelGames/wrath-darkplaces/blob/master/COPYING"
         }
+    },
+    "1010750": {
+        "game_name": "Blood: Fresh Supply",
+        "download": [
+            {
+                "name": "nblood",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-3/",
+                "file": "nblood-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "nblood",
+                "command": "./run-nblood.sh",
+                "download": [
+                    "nblood"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-nblood.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/1010750",
+                "engine_name": "NBlood",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "60f9e42 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/1010750",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "1072150": {
         "game_name": "Hedon",
@@ -2454,6 +2705,63 @@
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
+    },
+    "1260020": {
+        "game_name": "PowerSlave (DOS Classic Edition)",
+        "download": [
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "exhumed",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-2/",
+                "file": "exhumed-common-2.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "exhumed",
+                "command": "./run-exhumed.sh",
+                "download": [
+                    "exhumed"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-powerslave.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/1260020",
+                "engine_name": "NBlood Exhumed",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "60f9e42 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/exhumed/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/1260020",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "1271050": {
         "game_name": "Shrine",
