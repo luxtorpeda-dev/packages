@@ -20,6 +20,5 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/common/dist/lib"
 cp -rfv "source/build"/{wigzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
