@@ -1,11 +1,6 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/MrAlert/sdlcl.git sdlcl
-pushd sdlcl
-git checkout -f f7530d684bc7867e05e2e71385a452f26ba29555
-popd
-
 git clone https://github.com/kcat/openal-soft.git openal
 pushd openal
 git checkout -f f5e0eef
@@ -21,10 +16,6 @@ readonly pfx="$PWD/local"
 mkdir -p "$pfx/lib"
 
 # BUILD PHASE
-pushd "sdlcl"
-make -j "$(nproc)"
-popd
-
 pushd "openal"
 cd build
 cmake \
@@ -79,6 +70,5 @@ popd
 cp -rfv "assets/run-ut2004.sh" "$diststart/13230/dist/"
 cp -rfv "assets/setup-ut2004.sh" "$diststart/13230/dist/"
 cp -rfv "assets/uninstall-ut2004.sh" "$diststart/13230/dist/"
-cp -rfv "sdlcl/libSDL-1.2.so.0" "$diststart/13230/dist/"
 cp -rfv "openal/build/libopenal.so.1.20.1" "$diststart/13230/dist/openal.so"
 cp -rfv "gcc-build/x86_64-unknown-linux-gnu/libstdc++-v3/src/.libs/libstdc++.so.5.0.7" "$diststart/13230/dist/libstdc++.so.5"
