@@ -21,6 +21,5 @@ popd
 
 # COPY PHASE
 cp "source/build/DoomBFA" "$diststart/208200/dist/DoomBFA"
-
 cp -rfv ./assets/* "$diststart/208200/dist/"
 cp -rfv ./source/base "$diststart/208200/dist/updatedbase"
