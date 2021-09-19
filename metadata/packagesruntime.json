@@ -96,7 +96,7 @@
                 "store_link": "https://store.steampowered.com/app/2200/",
                 "engine_name": "FTE QuakeWorld",
                 "engine_link": "https://fte.triptohell.info/about",
-                "version": "6028",
+                "version": "6060",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -295,6 +295,12 @@
         "game_name": "Quake II",
         "download": [
             {
+                "name": "yquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-7/",
+                "file": "yquake2-common-7.tar.xz",
+                "cache_by_name": true
+            },
+            {
                 "name": "Quake II Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-music.tar.xz"
@@ -304,9 +310,28 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-7/",
                 "file": "vkquake2-common-7.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
+                "file": "ftequakeworld-common-6.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "Quake II Soundtrack"
+                ]
+            },
             {
                 "name": "vkQuake2",
                 "command": "./vkQuake2/vkQuake2.sh",
@@ -323,9 +348,35 @@
                     "complete_path": "./ready-vkquake2",
                     "command": "./vkQuake2/setup-vkquake2.sh"
                 }
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld.sh",
+                "download": [
+                    "yquake2",
+                    "Quake II Soundtrack",
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
             }
         ],
         "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2320/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "8.00",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
             {
                 "store_link": "https://store.steampowered.com/app/2320/",
                 "engine_name": "vkQuake2",
@@ -336,12 +387,29 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2320/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6060",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
             }
         ]
     },
     "2330": {
         "game_name": "Quake II: The Reckoning",
         "download": [
+            {
+                "name": "yquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-7/",
+                "file": "yquake2-common-7.tar.xz",
+                "cache_by_name": true
+            },
             {
                 "name": "The Reckoning Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
@@ -352,9 +420,28 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-7/",
                 "file": "vkquake2-common-7.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
+                "file": "ftequakeworld-common-6.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "The Reckoning Soundtrack"
+                ]
+            },
             {
                 "name": "vkQuake2",
                 "command": "./vkQuake2/vkQuake2.sh",
@@ -371,9 +458,35 @@
                     "complete_path": "./ready-vkquake2",
                     "command": "./vkQuake2/setup-vkquake2.sh"
                 }
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld.sh",
+                "download": [
+                    "yquake2",
+                    "The Reckoning Soundtrack",
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
             }
         ],
         "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2330/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "8.00 - 2.0.9",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
             {
                 "store_link": "https://store.steampowered.com/app/2330/",
                 "engine_name": "vkQuake2",
@@ -384,12 +497,29 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2330/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6060",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
             }
         ]
     },
     "2340": {
         "game_name": "Quake II: Ground Zero",
         "download": [
+            {
+                "name": "yquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-7/",
+                "file": "yquake2-common-7.tar.xz",
+                "cache_by_name": true
+            },
             {
                 "name": "Ground Zero Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
@@ -400,9 +530,28 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-7/",
                 "file": "vkquake2-common-7.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
+                "file": "ftequakeworld-common-6.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "Ground Zero Soundtrack"
+                ]
+            },
             {
                 "name": "vkQuake2",
                 "command": "./vkQuake2/vkQuake2.sh",
@@ -419,9 +568,35 @@
                     "complete_path": "./ready-vkquake2",
                     "command": "./vkQuake2/setup-vkquake2.sh"
                 }
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld.sh",
+                "download": [
+                    "yquake2",
+                    "Ground Zero Soundtrack",
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
             }
         ],
         "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2340/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "8.99 - 2.0.8",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
             {
                 "store_link": "https://store.steampowered.com/app/2340/",
                 "engine_name": "vkQuake2",
@@ -432,6 +607,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2340/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6060",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
             }
         ]
     },
