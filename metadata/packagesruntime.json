@@ -1672,6 +1672,28 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "1508030": {
+        "game_name": "Object N",
+        "download": [
+            {
+                "name": "objectn",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/objectn-1/",
+                "file": "objectn-1508030-1.tar.xz"
+            }
+        ],
+        "command": "./objectn.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1508030",
+            "engine_name": "ObjectN-DarkPlaces-engine",
+            "engine_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine",
+            "version": "de3b618",
+            "comments": "Removed nuklear-based menu",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine/blob/main/LICENSE"
+        }
+    },
     "1546440": {
         "game_name": "Lycanthorn II - Rain of Beasts",
         "download": [
