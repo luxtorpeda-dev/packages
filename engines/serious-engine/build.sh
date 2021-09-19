@@ -1,11 +1,9 @@
 #!/bin/bash
 
-apt-get -y install bison flex
-
 # CLONE PHASE
 git clone https://github.com/ptitSeb/Serious-Engine.git source
 pushd source
-git checkout 253d2b9
+git checkout 8f1a273
 popd
 
 # PRE-COPY PHASE

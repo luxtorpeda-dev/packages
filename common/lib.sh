@@ -129,93 +129,10 @@ create_archives_without_v7 () {
     fi
 }
 
-install_gcc_9 () {
-    echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/gcc.list
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
-    sudo apt-get update
-    sudo apt-get install gcc-9 g++-9 -y
-    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
-    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
-    sudo update-alternatives --set gcc "/usr/bin/gcc-9"
-    sudo update-alternatives --set g++ "/usr/bin/g++-9"
-}
-
-install_gcc_10_ubuntu_1804 () {
-    echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/gcc.list
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
-    sudo apt-get update
-    sudo apt-get install gcc-10 g++-10 -y
-    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-10 10
-    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-10 10
-    sudo update-alternatives --set gcc "/usr/bin/gcc-10"
-    sudo update-alternatives --set g++ "/usr/bin/g++-10"
-}
-
-install_gcc_9_ubuntu_1804 () {
-    echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/gcc.list
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
-    sudo apt-get update
-    sudo apt-get install gcc-9 g++-9 -y
-    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
-    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
-    sudo update-alternatives --set gcc "/usr/bin/gcc-9"
-    sudo update-alternatives --set g++ "/usr/bin/g++-9"
-}
-
-install_gcc_6 () {
-    echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/gcc.list
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
-    sudo apt-get update
-    sudo apt-get install gcc-6 g++-6 -y
-    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 6
-    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 6
-    sudo update-alternatives --set gcc "/usr/bin/gcc-6"
-    sudo update-alternatives --set g++ "/usr/bin/g++-6"
-}
-
-install_latest_git () {
-    echo "deb http://ppa.launchpad.net/git-core/ppa/ubuntu precise main" | sudo tee /etc/apt/sources.list.d/git.list
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys a1715d88e1df1f24
-    sudo apt-get update
-    sudo apt-get install -y git
-    git config --global user.email "actions@github.com"
-    git config --global user.name "GitHub Action"
-}
-
-use_common_qt5 () {
-    pfx="$PWD/local"
-    mkdir -p "$pfx"
-    pushd "$pfx"
-    wget -O qt5.tar.xz "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/common-qt5-common.tar.xz"
-    mkdir -p qt5
-    tar xvf "qt5.tar.xz" --strip-components=1 -C ./qt5
-    popd
-}
-
-setup_custom_container() {
-    if [ $CUSTOM_CONTAINER = "ubuntu:18.04" ]; then
-        apt-get update
-        apt-get -y install build-essential cmake git g++-8 gcc-8 sudo wget unzip libx11-dev libgl1-mesa-dev automake libtool ncurses-dev pkg-config libpulse-dev freeglut3-dev libxrandr-dev libxinerama-dev
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Action"
-
-        sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
-        sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
-        sudo update-alternatives --set gcc "/usr/bin/gcc-8"
-        sudo update-alternatives --set g++ "/usr/bin/g++-8"
-    fi
-    
-    if [ $CUSTOM_CONTAINER = "ubuntu@sha256:cba704e6616274262b2be5116bbcb5df171ec6bac0956b895b16b277c612edf1" ]; then
-        apt-get update
-        apt-get -y install build-essential cmake git g++-8 gcc-8 sudo wget unzip libx11-dev libgl1-mesa-dev automake libtool ncurses-dev pkg-config libpulse-dev freeglut3-dev libxrandr-dev libxinerama-dev
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Action"
-
-        sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
-        sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
-        sudo update-alternatives --set gcc "/usr/bin/gcc-8"
-        sudo update-alternatives --set g++ "/usr/bin/g++-8"
-    fi
+install_latest_cmake() {
+    wget https://github.com/Kitware/CMake/releases/download/v3.21.2/cmake-3.21.2-linux-x86_64.sh
+    chmod +x cmake-3.21.2-linux-x86_64.sh
+    ./cmake-3.21.2-linux-x86_64.sh --skip-license --prefix=/usr
 }
 
 set -x

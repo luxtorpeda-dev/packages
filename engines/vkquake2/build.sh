@@ -1,13 +1,5 @@
 #!/bin/bash
 
-sudo apt-get install -y libxxf86vm-dev libasound2-dev libx11-dev libxcb1-dev curl
-
-curl -L -v -o vulkansdk-linux-x86_64-1.2.148.1.tar.gz -O https://sdk.lunarg.com/sdk/download/1.2.148.1/linux/vulkan_sdk.tar.gz?Human=true
-tar zxf vulkansdk-linux-x86_64-1.2.148.1.tar.gz
-
-curl -L -v -o libXxf86dga-1.1.5.tar.bz2 http://www.x.org/releases/individual/lib/libXxf86dga-1.1.5.tar.bz2
-tar xvf libXxf86dga-1.1.5.tar.bz2
-
 export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
 export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
 
@@ -17,14 +9,16 @@ pushd source
 git checkout 429f23b
 popd
 
+curl -L -v -o libXxf86dga-1.1.5.tar.bz2 http://www.x.org/releases/individual/lib/libXxf86dga-1.1.5.tar.bz2
+tar xvf libXxf86dga-1.1.5.tar.bz2
+
+# BUILD PHASE
 pushd "libXxf86dga-1.1.5"
 ./configure
 make
 make install
 popd
 
-export VULKAN_SDK="$PWD/1.2.148.1/x86_64"
-# BUILD PHASE
 pushd "source"
 cd linux
 make -j "$(nproc)" release
