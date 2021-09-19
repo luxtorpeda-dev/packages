@@ -13,4 +13,5 @@ popd
 
 # COPY PHASE
 cp -rfv "source/voidsw" "$diststart/common/dist/"
+
 cp -rfv assets/* "$diststart/common/dist/"
