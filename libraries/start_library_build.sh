@@ -1,6 +1,6 @@
 #!/bin/bash
 
-copy_license_file () {
+copy_license_file_library () {
     if [ -z "${LIBRARY_LICENSES}" ]; then
         echo "Warning: library license file path is not set."
     else
@@ -82,7 +82,7 @@ start_library_build () {
         source env.sh
         source ./build.sh
 
-        copy_license_file "$STEAM_APP_ID_LIST"
+        copy_license_file_library "$STEAM_APP_ID_LIST"
         copy_library_build "$STEAM_APP_ID_LIST"
 
         unset LIBRARY_LICENSES

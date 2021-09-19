@@ -562,20 +562,20 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-15/",
-                "file": "vkquake-common-15.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-16/",
+                "file": "vkquake-common-16.tar.xz",
                 "cache_by_name": true
             },
             {
                 "name": "darkplaces-2017",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-6/",
-                "file": "darkplaces-2017-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-7/",
+                "file": "darkplaces-2017-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
                 "name": "quakespasm-spiked",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-7/",
-                "file": "quakespasm-spiked-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-9/",
+                "file": "quakespasm-spiked-common-9.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1953,6 +1953,66 @@
             "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE"
         }
     },
+    "208200": {
+        "game_name": "Doom 3: BFG Edition",
+        "download": [
+            {
+                "name": "rbdoom-3-bfg",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rbdoom-3-bfg-7/",
+                "file": "rbdoom-3-bfg-208200-7.tar.xz"
+            },
+            {
+                "name": "classic-rbdoom-3-bfg",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-5/",
+                "file": "classic-rbdoom-3-bfg-208200-5.tar.xz"
+            }
+        ],
+        "choices": [
+            {
+                "name": "rbdoom-3-bfg",
+                "command": "./run-rbdoom-3-bfg.sh",
+                "download": [
+                    "rbdoom-3-bfg"
+                ]
+            },
+            {
+                "name": "classic-rbdoom-3-bfg",
+                "command": "./classic/run-classic-rbdoom-3-bfg.sh",
+                "download": [
+                    "classic-rbdoom-3-bfg"
+                ],
+                "download_config": {
+                    "classic-rbdoom-3-bfg": {
+                        "extract_location": "./classic"
+                    }
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
+                "engine_name": "RBDOOM-3-BFG",
+                "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
+                "version": "09c9f25 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
+                "engine_name": "Classic-RBDOOM-3-BFG",
+                "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
+                "version": "DOOM BFA Version 1.2.7",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG/blob/master/COPYING.txt"
+            }
+        ]
+    },
     "215930": {
         "game_name": "Jagged Alliance 2 - Wildfire",
         "download": [
@@ -2005,8 +2065,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-1/",
-                "file": "raze-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-20/",
+                "file": "raze-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2062,15 +2122,15 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
-                "file": "raze-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-20/",
+                "file": "raze-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
         "choices": [
             {
                 "name": "voidsw",
-                "command": "./run-eduke32.sh",
+                "command": "./run-voidsw.sh",
                 "download": [
                     "voidsw"
                 ]
@@ -2278,8 +2338,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
-                "file": "raze-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-20/",
+                "file": "raze-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2380,8 +2440,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
-                "file": "raze-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-20/",
+                "file": "raze-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2539,8 +2599,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-10/",
-                "file": "raze-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-20/",
+                "file": "raze-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2655,8 +2715,8 @@
         "download": [
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
-                "file": "raze-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-20/",
+                "file": "raze-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2765,8 +2825,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
-                "file": "raze-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-20/",
+                "file": "raze-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2844,8 +2904,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
-                "file": "raze-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-20/",
+                "file": "raze-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2952,8 +3012,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
-                "file": "raze-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-20/",
+                "file": "raze-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3063,8 +3123,8 @@
         "download": [
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
-                "file": "raze-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-20/",
+                "file": "raze-common-20.tar.xz",
                 "cache_by_name": true
             },
             {

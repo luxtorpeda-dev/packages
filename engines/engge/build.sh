@@ -20,4 +20,5 @@ popd
 
 # COPY PHASE
 cp -rfv source/build/src/engge "$diststart/569860/dist/"
+
 cp -rfv assets/* "$diststart/569860/dist/"
