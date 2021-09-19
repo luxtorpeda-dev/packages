@@ -26,11 +26,9 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/common/dist/dlib"
 mkdir -p "$diststart/common/dist/lib/doomsday"
-
 cp -rfv "$pfx/usr/bin/" "$diststart/common/dist/bin"
 cp -rfv "$pfx/usr/lib/x86_64-linux-gnu/"*.so* "$diststart/common/dist/dlib"
 cp -rfv "$pfx/lib64/"*.so* "$diststart/common/dist/dlib"
 cp -rfv "$pfx/usr/lib/x86_64-linux-gnu/doomsday/"*.so* "$diststart/common/dist/lib/doomsday"
 cp -rfv "$pfx/usr/share/doomsday/"* "$diststart/common/dist/lib/doomsday"
-
 cp -rfv "assets"/* "$diststart/common/dist"

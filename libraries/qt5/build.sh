@@ -14,3 +14,5 @@ pushd qt5-build
 make -j $(nproc)
 make install
 popd
+
+export PATH="$pfx/qt5/bin:$PATH"

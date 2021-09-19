@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export LIBRARY_LICENSES="./qt5/LICENSE.LGPLv3 ./qt5/LICENSE.GPLv3 ./qt5/LICENSE.FDL"
+export LIBRARY_LICENSES="./source/LICENSE.LGPLv3 ./source/LICENSE.GPLv3 ./source/LICENSE.FDL"
 export LIBRARY_COPY_TO_DIST="$pfx/qt5/*"
 export ARCHIVE_WITHOUT_V7="1"
