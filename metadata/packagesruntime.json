@@ -2070,7 +2070,7 @@
         "choices": [
             {
                 "name": "voidsw",
-                "command": "./run-eduke32.sh",
+                "command": "./run-voidsw.sh",
                 "download": [
                     "voidsw"
                 ]
