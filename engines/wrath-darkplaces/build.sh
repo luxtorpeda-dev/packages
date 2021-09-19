@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/KillPixelGames/wrath-darkplaces.git source
 pushd source
-git checkout -f 2e4c399
+git checkout -f e077028
 git submodule update --init --recursive
 popd
 
