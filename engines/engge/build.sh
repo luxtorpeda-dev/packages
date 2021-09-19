@@ -7,18 +7,12 @@ git checkout 5e607bc
 git submodule update --init --recursive
 popd
 
-git clone https://github.com/g-truc/glm glm
-pushd glm
-git checkout -f bf71a83
-git submodule update --init --recursive
-popd
-
 # BUILD PHASE
 pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DGLM_INCLUDE_DIR=../../glm \
+    -DGLM_INCLUDE_DIR="$glmlocation" \
     -DCMAKE_BUILD_TYPE=Release \
     ..
 cmake --build . --config Release
