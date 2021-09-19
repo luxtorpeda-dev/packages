@@ -9,7 +9,7 @@ popd
 
 # BUILD PHASE
 pushd source
-prefix="$pfx" make duke3d
+make duke3d
 popd
 
 # COPY PHASE
