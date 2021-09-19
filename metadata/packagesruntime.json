@@ -177,6 +177,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
                 "file": "gzdoom-common-14.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
+                "file": "chocolate-doom-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -190,6 +196,22 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-doom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
             }
         ],
         "information": [
@@ -203,6 +225,17 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "64c5bcb (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
     },
@@ -213,6 +246,12 @@
                 "name": "gzdoom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
                 "file": "gzdoom-common-14.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
+                "file": "chocolate-doom-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -238,6 +277,33 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "chocolate-doom",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
             }
         ],
         "information": [
@@ -251,6 +317,17 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2290/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "64c5bcb (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
     },
@@ -261,6 +338,12 @@
                 "name": "gzdoom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
                 "file": "gzdoom-common-14.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
+                "file": "chocolate-doom-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -275,6 +358,22 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-doom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM2.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
             }
         ],
         "information": [
@@ -288,6 +387,17 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2300/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "64c5bcb (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
     },
@@ -706,6 +816,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
                 "file": "gzdoom-common-14.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
+                "file": "chocolate-doom-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -719,6 +835,22 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-hexen.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HEXEN.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
             }
         ],
         "information": [
@@ -732,6 +864,17 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "64c5bcb (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
     },
@@ -782,6 +925,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
                 "file": "gzdoom-common-14.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-1/",
+                "file": "chocolate-doom-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -795,6 +944,22 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-heretic.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HERETIC.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
             }
         ],
         "information": [
@@ -808,6 +973,17 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "64c5bcb (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
     },
