@@ -2327,6 +2327,77 @@
             "closed_source": true
         }
     },
+    "299030": {
+        "game_name": "Blood: One Unit Whole Blood",
+        "download": [
+            {
+                "name": "nblood",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-3/",
+                "file": "nblood-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-20/",
+                "file": "raze-common-20.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "nblood",
+                "command": "./run-nblood.sh",
+                "download": [
+                    "nblood"
+                ]
+            },
+            {
+                "name": "nblood Cryptic Passage",
+                "command": "./run-nblood-cryptic-one-unit.sh",
+                "download": [
+                    "nblood"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-nblood-one-unit.sh",
+                "download": [
+                    "raze"
+                ]
+            },
+            {
+                "name": "raze Cryptic Passage",
+                "command": "./run-raze-nblood-cryptic-one-unit.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/299030",
+                "engine_name": "NBlood",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "5b9fe37 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/299030",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "317040": {
         "game_name": "Strife: Veteran Edition",
         "download": [
@@ -2967,7 +3038,7 @@
                 "store_link": "https://store.steampowered.com/app/1010750",
                 "engine_name": "NBlood",
                 "engine_link": "https://github.com/nukeykt/NBlood",
-                "version": "60f9e42 (from master)",
+                "version": "5b9fe37 (from master)",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
