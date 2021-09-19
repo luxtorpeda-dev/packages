@@ -562,8 +562,8 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-15/",
-                "file": "vkquake-common-15.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-16/",
+                "file": "vkquake-common-16.tar.xz",
                 "cache_by_name": true
             },
             {
