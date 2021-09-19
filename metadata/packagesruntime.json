@@ -1,4 +1,50 @@
 {
+    "1700": {
+        "game_name": "Arx Fatalis",
+        "download": [
+            {
+                "name": "arxlibertatis",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-17/",
+                "file": "arxlibertatis-common-17.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./arx",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1700/",
+            "engine_name": "Arx Libertatis",
+            "engine_link": "https://arx-libertatis.org/",
+            "version": "1.2",
+            "comments": "Select Desktop in resolution settings for borderless fullscreen",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/arx/ArxLibertatis/blob/master/LICENSE"
+        }
+    },
+    "1710": {
+        "game_name": "Arx Fatalis (Demo)",
+        "download": [
+            {
+                "name": "arxlibertatis",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-17/",
+                "file": "arxlibertatis-common-17.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./arx",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1700/",
+            "engine_name": "Arx Libertatis",
+            "engine_link": "https://arx-libertatis.org/",
+            "version": "1.2",
+            "comments": "Select Desktop in resolution settings for borderless fullscreen",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/arx/ArxLibertatis/blob/master/LICENSE"
+        }
+    },
     "2200": {
         "game_name": "Quake III Arena",
         "download": [
@@ -183,6 +229,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-2/",
                 "file": "chocolate-doom-common-2.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-3/",
+                "file": "prboom-plus-common-3.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -212,6 +264,22 @@
                         "extract_location": "./chocolate-doom"
                     }
                 }
+            },
+            {
+                "name": "prboom-plus",
+                "command": "./prboom-plus/run-prboom-plus.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM.WAD"
+                ],
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
+                    }
+                }
             }
         ],
         "information": [
@@ -236,6 +304,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "prboom-plus",
+                "engine_link": "https://github.com/coelckers/prboom-plus",
+                "version": "2.6.1um",
+                "comments": "Pick FluidSynth in in-game options to hear music.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING"
             }
         ]
     },
@@ -253,6 +332,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-2/",
                 "file": "chocolate-doom-common-2.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-3/",
+                "file": "prboom-plus-common-3.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -304,6 +389,33 @@
                         "extract_location": "./chocolate-doom"
                     }
                 }
+            },
+            {
+                "name": "prboom-plus",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./prboom-plus/run-prboom-plus.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./prboom-plus/run-prboom-plus.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
+                    }
+                }
             }
         ],
         "information": [
@@ -328,6 +440,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2290/",
+                "engine_name": "prboom-plus",
+                "engine_link": "https://github.com/coelckers/prboom-plus",
+                "version": "2.6.1um",
+                "comments": "Pick FluidSynth in in-game options to hear music.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING"
             }
         ]
     },
@@ -344,6 +467,12 @@
                 "name": "chocolate-doom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-2/",
                 "file": "chocolate-doom-common-2.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-3/",
+                "file": "prboom-plus-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -374,6 +503,22 @@
                         "extract_location": "./chocolate-doom"
                     }
                 }
+            },
+            {
+                "name": "prboom-plus",
+                "command": "./prboom-plus/run-prboom-plus.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM2.WAD"
+                ],
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
+                    }
+                }
             }
         ],
         "information": [
@@ -398,6 +543,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2300/",
+                "engine_name": "prboom-plus",
+                "engine_link": "https://github.com/coelckers/prboom-plus",
+                "version": "2.6.1um",
+                "comments": "Pick FluidSynth in in-game options to hear music.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING"
             }
         ]
     },
@@ -931,6 +1087,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-2/",
                 "file": "chocolate-doom-common-2.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-3/",
+                "file": "prboom-plus-common-3.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -950,7 +1112,7 @@
                 "command": "./chocolate-doom/run-chocolate-heretic.sh",
                 "command_args": [
                     "-iwad",
-                    "base/HERETIC.WAD"
+                    "../base/HERETIC.WAD"
                 ],
                 "download": [
                     "chocolate-doom"
@@ -958,6 +1120,22 @@
                 "download_config": {
                     "chocolate-doom": {
                         "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
+                "name": "prboom-plus",
+                "command": "./prboom-plus/run-prboom-plus.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HERETIC.WAD"
+                ],
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
                     }
                 }
             }
@@ -1535,6 +1713,63 @@
             "non_free": true
         }
     },
+    "225140": {
+        "game_name": "Duke Nukem 3D: Megaton Edition",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-4/",
+                "file": "eduke32-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "eduke32",
+                "command": "./run-eduke32.sh",
+                "download": [
+                    "eduke32"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/225140",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "71c5ce09 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/225140",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
         "download": [
@@ -1725,6 +1960,63 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "329650": {
+        "game_name": "NAM",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-4/",
+                "file": "eduke32-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "eduke32",
+                "command": "./run-nam.sh",
+                "download": [
+                    "eduke32"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-nam.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/329650",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "71c5ce09 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/329650",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "356430": {
         "game_name": "Chris Sawyer's Locomotion™",
         "download": [
@@ -1826,6 +2118,63 @@
             "license": "GPL-2+ or EULA; BSD-3-clause",
             "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
         }
+    },
+    "376750": {
+        "game_name": "World War II GI",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-4/",
+                "file": "eduke32-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
+                "file": "raze-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "eduke32",
+                "command": "./run-ww2gi.sh",
+                "download": [
+                    "eduke32"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-ww2gi.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/376750",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "71c5ce09 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/376750",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
     },
     "410970": {
         "game_name": "Master of Orion 1",
@@ -1950,13 +2299,36 @@
             }
         ]
     },
+    "562860": {
+        "game_name": "Ion Fury",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-4/",
+                "file": "eduke32-common-4.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-eduke32.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/562860",
+            "engine_name": "eduke32",
+            "engine_link": "https://voidpoint.io/terminx/eduke32",
+            "version": "71c5ce09 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+        }
+    },
     "569860": {
         "game_name": "Thimbleweed Park™",
         "download": [
             {
                 "name": "engge",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/engge-3/",
-                "file": "engge-569860-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/engge-4/",
+                "file": "engge-569860-4.tar.xz"
             }
         ],
         "command": "./run-engge.sh",
@@ -2272,8 +2644,8 @@
         "download": [
             {
                 "name": "wigzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wigzdoom-1/",
-                "file": "wigzdoom-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wigzdoom-2/",
+                "file": "wigzdoom-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2288,7 +2660,7 @@
             "store_link": "https://store.steampowered.com/app/1679920/",
             "engine_name": "WIGZDoom",
             "engine_link": "https://github.com/SanyaWaffles/WIGZDoom",
-            "version": "28a3156",
+            "version": "ff8961e",
             "comments": "",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
