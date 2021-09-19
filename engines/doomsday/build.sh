@@ -11,11 +11,13 @@ export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknow
 export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
 
 # BUILD PHASE
+cp -rfv "$pfx/include/"* "/usr/include"
+
 pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5;$pfx/usr/local" \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     ..
