@@ -811,6 +811,48 @@
             }
         ]
     },
+    "3970": {
+        "game_name": "Prey (2006)",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "http://icculus.org/prey/downloads/",
+                "file": "prey-installer-02192009.bin"
+            },
+            {
+                "name": "prey2006",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prey2006-3/",
+                "file": "prey2006-3970-3.tar.xz"
+            }
+        ],
+        "download_config": {
+            "binaries": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./linuxofficial"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-prey.sh",
+            "uninstall_command": "./uninstall-prey.sh",
+            "license_path": "./linuxofficial/data/prey_license.txt"
+        },
+        "command": "./run-prey.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/3970",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "http://icculus.org/prey//",
+            "version": "02192009",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "http://icculus.org/prey/",
+            "closed_source": true,
+            "32-bit": true
+        }
+    },
     "6020": {
         "game_name": "STAR WARS™ Jedi Knight: Jedi Academy™",
         "download": [
