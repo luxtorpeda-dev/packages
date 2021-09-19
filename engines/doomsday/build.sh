@@ -12,6 +12,7 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 
 # BUILD PHASE
 cp -rfv "$pfx/include/"* "/usr/include"
+cp -rfv "$pfx/lib64/"* "/usr/lib"
 
 pushd "source"
 mkdir -p build
