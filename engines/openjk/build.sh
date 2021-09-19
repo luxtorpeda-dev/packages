@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/JACoders/OpenJK.git source
 pushd source
-git checkout d2ed03a016f54917bc1dcf06bcc59d3f674fb533
+git checkout 43e9a3d
 popd
 
 # BUILD PHASE

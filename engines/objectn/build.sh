@@ -14,4 +14,5 @@ popd
 
 # COPY PHASE
 cp -v source/darkplaces-sdl "$diststart/1508030/dist/"
+
 cp -v assets/objectn.sh "$diststart/1508030/dist/"
