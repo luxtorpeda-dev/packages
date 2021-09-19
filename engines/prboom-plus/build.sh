@@ -18,7 +18,6 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-mkdir -p "$diststart/common/dist/lib"
 cp -rfv "source/prboom2/build/prboom-plus" "$diststart/common/dist/"
 cp -rfv "source/prboom2/build/prboom-plus.wad" "$diststart/common/dist/"
 cp -rfv "source/prboom2/build/prboom-plus-game-server" "$diststart/common/dist/"
