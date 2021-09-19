@@ -1446,6 +1446,29 @@
             }
         ]
     },
+    "3730": {
+        "game_name": "Aliens versus Predator Classic",
+        "download": [
+            {
+                "name": "avp",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/avp-5/",
+                "file": "avp-3730-5.tar.xz"
+            }
+        ],
+        "command": "./run-avp.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/3730/Aliens_versus_Predator_Classic_2000/",
+            "engine_name": "avp",
+            "engine_link": "https://github.com/neuromancer/avp",
+            "version": "2d57747 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Rebellion; non-commercial",
+            "license_link": "https://github.com/neuromancer/avp/blob/master/LICENSE",
+            "non_free": true
+        }
+    },
     "3970": {
         "game_name": "Prey (2006)",
         "download": [
