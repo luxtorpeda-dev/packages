@@ -18,6 +18,14 @@ install_latest_cmake
 
 gcc --version
 
+if [ ! -z "${LIBRARIES}" ]; then
+    echo "Found libraries to build: $LIBRARIES"
+    pushd ../../libraries
+    source start_library_build.sh
+    start_library_build "$LIBRARIES"
+    popd
+fi
+
 source ./build.sh
 
 copy_license_file "$STEAM_APP_ID_LIST"
