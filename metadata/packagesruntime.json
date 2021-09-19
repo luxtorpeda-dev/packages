@@ -2005,8 +2005,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
-                "file": "raze-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-1/",
+                "file": "raze-common-19.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2062,8 +2062,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
-                "file": "raze-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
+                "file": "raze-common-19.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2278,8 +2278,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
-                "file": "raze-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
+                "file": "raze-common-19.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2380,8 +2380,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
-                "file": "raze-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
+                "file": "raze-common-19.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2539,8 +2539,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
-                "file": "raze-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-10/",
+                "file": "raze-common-19.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2655,8 +2655,8 @@
         "download": [
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
-                "file": "raze-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
+                "file": "raze-common-19.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2765,8 +2765,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
-                "file": "raze-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
+                "file": "raze-common-19.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2844,8 +2844,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
-                "file": "raze-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
+                "file": "raze-common-19.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3063,8 +3063,8 @@
         "download": [
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-18/",
-                "file": "raze-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-19/",
+                "file": "raze-common-19.tar.xz",
                 "cache_by_name": true
             },
             {
