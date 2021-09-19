@@ -3364,8 +3364,8 @@
         "download": [
             {
                 "name": "wigzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wigzdoom-3/",
-                "file": "wigzdoom-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wigzdoom-4/",
+                "file": "wigzdoom-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
