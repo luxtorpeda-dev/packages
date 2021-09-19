@@ -11,9 +11,6 @@ export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknow
 export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
 
 # BUILD PHASE
-cp -rfv "$pfx/include/"* "/usr/include"
-cp -rfv "$pfx/lib64/"* "/usr/lib"
-
 pushd "source"
 mkdir -p build
 cd build
