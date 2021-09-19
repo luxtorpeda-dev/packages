@@ -17,9 +17,11 @@ mkdir -p "$diststart/common/dist/quakespasm/share/quake/rogue"
 mkdir -p "$diststart/common/dist/quakespasm/share/quake/hipnotic"
 mkdir -p "$diststart/common/dist/quakespasm/share/quake/dopa"
 mkdir -p "$diststart/common/dist/quakespasm/share/quake/mg1"
+
 cp -v source/quakespasm/Quake/quakespasm "$diststart/common/dist/quakespasm/"
 cp -v assets/quakespasm.sh "$diststart/common/dist/quakespasm/"
 cp -v assets/default.lux.cfg "$diststart/common/dist/quakespasm/share/quake"
+
 ln -s "../../../../id1/PAK0.PAK" "$diststart/common/dist/quakespasm/share/quake/id1/pak0.pak"
 ln -s "../../../../id1/PAK1.PAK" "$diststart/common/dist/quakespasm/share/quake/id1/pak1.pak"
 ln -s "../../../../rogue/pak0.pak" "$diststart/common/dist/quakespasm/share/quake/rogue/pak0.pak"
