@@ -296,8 +296,8 @@
         "download": [
             {
                 "name": "yquake2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-7/",
-                "file": "yquake2-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-8/",
+                "file": "yquake2-common-8.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -406,8 +406,8 @@
         "download": [
             {
                 "name": "yquake2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-7/",
-                "file": "yquake2-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-8/",
+                "file": "yquake2-common-8.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -516,8 +516,8 @@
         "download": [
             {
                 "name": "yquake2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-7/",
-                "file": "yquake2-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-8/",
+                "file": "yquake2-common-8.tar.xz",
                 "cache_by_name": true
             },
             {
