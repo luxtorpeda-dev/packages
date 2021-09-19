@@ -7,6 +7,8 @@ git checkout 2d57747
 popd
 
 # BUILD PHASE
+cp -rfv "$pfx/include/"* /usr/include/
+
 pushd "source"
 mkdir -p build
 cd build
