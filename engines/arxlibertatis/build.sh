@@ -31,5 +31,6 @@ popd
 cp -rfv tmp/bin/* "$diststart/common/dist/"
 cp -rfv tmp/lib/* "$diststart/common/dist/"
 cp -rfv tmp/share/games/arx/* "$diststart/common/dist/"
+
 mv "$diststart/common/dist/arx" "$diststart/common/dist/arx-bin"
 cp -rfv assets/arx-launcher.sh "$diststart/common/dist/arx"
