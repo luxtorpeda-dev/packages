@@ -557,6 +557,287 @@
             }
         ]
     },
+    "2310": {
+        "game_name": "Quake",
+        "download": [
+            {
+                "name": "vkquake",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-15/",
+                "file": "vkquake-common-15.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "darkplaces-2017",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-6/",
+                "file": "darkplaces-2017-common-6.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "quakespasm-spiked",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-7/",
+                "file": "quakespasm-spiked-common-7.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "dopa pak",
+                "url": "https://www.quaddicted.com/filebase/",
+                "file": "dopa.zip"
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
+                "file": "ftequakeworld-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "vkquake",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ]
+            },
+            {
+                "name": "vkquake Re-release",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "command_args": [
+                    "rerelease"
+                ]
+            },
+            {
+                "name": "darkplaces-2017",
+                "command": "./darkplaces-2017/darkplaces.sh",
+                "download": [
+                    "darkplaces-2017"
+                ]
+            },
+            {
+                "name": "quakespasm-spiked",
+                "command": "./quakespasm/quakespasm.sh",
+                "download": [
+                    "quakespasm-spiked"
+                ]
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld-quake1.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
+            },
+            {
+                "name": "FTE QuakeWorld Re-release",
+                "command": "./ftequakeworld-quake1-re.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "command_args": [
+                    "rerelease"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
+            },
+            {
+                "name": "vkquake Dimension of the Past",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake",
+                    "dopa pak"
+                ],
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ],
+                "download_config": {
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./share/quake/dopa/"
+                    }
+                }
+            },
+            {
+                "name": "darkplaces-2017 Dimension of the Past",
+                "command": "./darkplaces-2017/darkplaces.sh",
+                "download": [
+                    "darkplaces-2017",
+                    "dopa pak"
+                ],
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ],
+                "download_config": {
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./darkplaces-2017/share/quake/dopa/"
+                    }
+                }
+            },
+            {
+                "name": "quakespasm-spiked Dimension of the Past",
+                "command": "./quakespasm/quakespasm.sh",
+                "download": [
+                    "quakespasm-spiked",
+                    "dopa pak"
+                ],
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ],
+                "download_config": {
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./quakespasm/share/quake/dopa/"
+                    }
+                }
+            },
+            {
+                "name": "FTE QuakeWorld Dimension of the Past",
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ],
+                "command": "./ftequakeworld-quake1.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw",
+                    "dopa pak"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    },
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./dopa/"
+                    }
+                }
+            },
+            {
+                "name": "vkquake Dimension of the Past Re-release",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "dopa"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ]
+            },
+            {
+                "name": "FTE QuakeWorld Dimension of the Past Re-release",
+                "command_args": [
+                    "-game",
+                    "dopare"
+                ],
+                "command": "./ftequakeworld-quake1-dopare.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
+            },
+            {
+                "name": "vkquake Dimension of the Machine",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "mg1"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ]
+            },
+            {
+                "name": "FTE QuakeWorld Dimension of the Machine",
+                "command_args": [
+                    "-game",
+                    "mg1"
+                ],
+                "command": "./ftequakeworld-quake1-mg1.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2310/",
+                "engine_name": "vkQuake",
+                "engine_link": "https://github.com/Novum/vkQuake",
+                "version": "1.11.0",
+                "comments": "",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2310/",
+                "engine_name": "darkplaces-2017",
+                "engine_link": "http://icculus.org/twilight/darkplaces/",
+                "version": "20170829beta1",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2310/",
+                "engine_name": "quakespasm-spiked",
+                "engine_link": "https://github.com/Shpoike/Quakespasm",
+                "version": "9ffca1d (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2310/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6028",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
+            }
+        ]
+    },
     "2320": {
         "game_name": "Quake II",
         "download": [
