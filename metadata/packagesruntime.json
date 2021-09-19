@@ -2133,8 +2133,8 @@
         "download": [
             {
                 "name": "engge",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/engge-3/",
-                "file": "engge-569860-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/engge-4/",
+                "file": "engge-569860-4.tar.xz"
             }
         ],
         "command": "./run-engge.sh",
