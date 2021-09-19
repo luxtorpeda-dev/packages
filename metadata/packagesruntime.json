@@ -742,6 +742,45 @@
             "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
         }
     },
+    "9010": {
+        "game_name": "Return to Castle Wolfenstein",
+        "download": [
+            {
+                "name": "iortcw",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-4/",
+                "file": "iortcw-9010-4.tar.xz"
+            }
+        ],
+        "commands": {
+            ".*WolfSP.exe": {
+                "cmd": "./iowolfsp.x86_64",
+                "args": [
+                    "+set",
+                    "com_basegame",
+                    "Main"
+                ]
+            },
+            ".*WolfMP.exe": {
+                "cmd": "./iowolfmp.x86_64",
+                "args": [
+                    "+set",
+                    "com_basegame",
+                    "Main"
+                ]
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9010/",
+            "engine_name": "iortcw",
+            "engine_link": "https://github.com/iortcw/iortcw",
+            "version": "7a33e45",
+            "comments": "Both SP and MP",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/iortcw/iortcw/blob/master/SP/COPYING.txt"
+        }
+    },
     "9050": {
         "game_name": "DOOM 3",
         "download": [
