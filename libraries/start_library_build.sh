@@ -50,12 +50,30 @@ copy_library_build () {
             done
         fi
     fi
+
+    if [ ! -z "$LIBRARY_COPY_TO_LIB" ]; then
+        if [ -z "${COMMON_PACKAGE}" ]; then
+            mkdir -p "$diststart/$app_id/dist/lib/"
+            for app_id in $1 ; do
+                LIBRARIES_ARR=($LIBRARY_COPY_TO_LIB)
+                for add_library_path in "${LIBRARIES_ARR[@]}"; do
+                    cp -rfv "$add_library_path" "$diststart/$app_id/dist/lib"
+                done
+            done
+        else
+            mkdir -p "$diststart/common/dist/lib/"
+            LIBRARIES_ARR=($LIBRARY_COPY_TO_LIB)
+            for add_library_path in "${LIBRARIES_ARR[@]}"; do
+                cp -rfv "$add_library_path" "$diststart/common/dist/lib"
+            done
+        fi
+    fi
 }
 
 start_library_build () {
     export pfx="$PWD/local"
     mkdir -p "$pfx"
-    export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig"
+    export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$pfx/lib/pkgconfig:$pfx/lib64/pkgconfig"
 
     for library_name in $1 ; do
         echo "Building $library_name"
