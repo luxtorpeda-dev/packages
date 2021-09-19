@@ -1,4 +1,50 @@
 {
+    "1700": {
+        "game_name": "Arx Fatalis",
+        "download": [
+            {
+                "name": "arxlibertatis",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-16/",
+                "file": "arxlibertatis-common-16.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./arx",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1700/",
+            "engine_name": "Arx Libertatis",
+            "engine_link": "https://arx-libertatis.org/",
+            "version": "1.2",
+            "comments": "Select Desktop in resolution settings for borderless fullscreen",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/arx/ArxLibertatis/blob/master/LICENSE"
+        }
+    },
+    "1710": {
+        "game_name": "Arx Fatalis (Demo)",
+        "download": [
+            {
+                "name": "arxlibertatis",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-16/",
+                "file": "arxlibertatis-common-16.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./arx",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1700/",
+            "engine_name": "Arx Libertatis",
+            "engine_link": "https://arx-libertatis.org/",
+            "version": "1.2",
+            "comments": "Select Desktop in resolution settings for borderless fullscreen",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/arx/ArxLibertatis/blob/master/LICENSE"
+        }
+    },
     "2200": {
         "game_name": "Quake III Arena",
         "download": [
