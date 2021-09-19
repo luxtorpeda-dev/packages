@@ -4,6 +4,7 @@
 git clone https://github.com/neuromancer/avp.git source
 pushd source
 git checkout 2d57747
+git am < ../0001-2560x1080.patch
 popd
 
 # BUILD PHASE
