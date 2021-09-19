@@ -8,5 +8,6 @@ popd
 
 # BUILD PHASE
 pushd "byacc"
+./configure
 make -j "$(nproc)" install
 popd
