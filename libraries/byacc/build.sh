@@ -1,13 +1,12 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/grandseiken/byacc.git byacc
-pushd byacc
-git checkout -f 4265cbd
-popd
+wget https://invisible-island.net/datafiles/release/byacc.tar.gz
+tar xvf byacc.tar.gz
 
 # BUILD PHASE
-pushd "byacc"
-./configure
-make -j "$(nproc)" install
+pushd "byacc-20210808"
+./configure --enable-btyacc --program-transform=s,^,b,
+make -j "$(nproc)"
+make install
 popd
