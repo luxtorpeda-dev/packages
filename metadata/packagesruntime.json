@@ -1,4 +1,110 @@
 {
+     "2200": {
+        "game_name": "Quake III Arena",
+        "download": [
+            {
+                "name": "ioquake3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-5/",
+                "file": "ioquake3-common-5.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "quake3e",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-5/",
+                "file": "quake3e-common-5.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
+                "file": "ftequakeworld-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "ioquake3",
+                "command": "./ioquake3.x86_64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2"
+                ],
+                "download": [
+                    "ioquake3"
+                ]
+            },
+            {
+                "name": "quake3e",
+                "command": "./quake3e.x64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "quake3e"
+                ]
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld.sh",
+                "download": [
+                    "ioquake3",
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2200/",
+                "engine_name": "ioquake3",
+                "engine_link": "https://ioquake3.org/",
+                "version": "77d6cde (from master)",
+                "comments": "",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2200/",
+                "engine_name": "quake3e",
+                "engine_link": "https://github.com/ec-/Quake3e",
+                "version": "2021-07-20",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2200/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6028",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
+            }
+        ]
+    },
     "2210": {
         "game_name": "Quake IV",
         "download": [
@@ -329,6 +435,83 @@
             }
         ]
     },
+    "2350": {
+        "game_name": "Quake III: Team Arena",
+        "download": [
+            {
+                "name": "ioquake3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-5/",
+                "file": "ioquake3-common-5.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "Patch Data",
+                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake3/",
+                "file": "quake3ta-latest-pk3s.tar.xz"
+            },
+            {
+                "name": "quake3e",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-5/",
+                "file": "quake3e-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "ioquake3",
+                "command": "./ioquake3.x86_64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2"
+                ],
+                "download": [
+                    "ioquake3",
+                    "Patch Data"
+                ]
+            },
+            {
+                "name": "quake3e",
+                "command": "./quake3e.x64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "quake3e",
+                    "Patch Data"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2350/",
+                "engine_name": "ioquake3",
+                "engine_link": "https://ioquake3.org/",
+                "version": "77d6cde (from master)",
+                "comments": "",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2350/",
+                "engine_name": "quake3e",
+                "engine_link": "https://github.com/ec-/Quake3e",
+                "version": "2021-07-20",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
+            }
+        ]
+    },
     "2360": {
         "game_name": "HeXen: Beyond Heretic",
         "download": [
@@ -600,6 +783,75 @@
         ],
         "information": {
             "store_link": "https://store.steampowered.com/app/9070/",
+            "engine_name": "dhewm3",
+            "engine_link": "https://dhewm3.org/",
+            "version": "1.5.1",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
+        }
+    },
+    "9080": {
+        "game_name": "Quake III Arena Demo",
+        "download": [
+            {
+                "name": "ioquake3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-5/",
+                "file": "ioquake3-common-5.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "patch-data",
+                "url": "https://files.ioquake3.org/",
+                "file": "quake3-latest-pk3s.zip"
+            }
+        ],
+        "download_config": {
+            "patch-data": {
+                "extract_location": "./",
+                "strip_prefix": "quake3-latest-pk3s/",
+                "setup": true,
+                "decode_as_zip": true
+            }
+        },
+        "setup": {
+            "complete_path": "./demo-ready",
+            "command": "./setup-demo.sh",
+            "license_path": "./demo-patch-eula.txt"
+        },
+        "command": "./ioquake3.x86_64",
+        "command_args": [
+            "+set",
+            "r_mode",
+            "-2"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2200/",
+            "engine_name": "ioquake3",
+            "engine_link": "https://ioquake3.org/",
+            "version": "77d6cde (from master)",
+            "comments": "",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv2",
+            "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+        }
+    },
+    "9100": {
+        "game_name": "DOOM 3 Demo",
+        "download": [
+            {
+                "name": "dhewm3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-39/",
+                "file": "dhewm3-common-40.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-dhewm3.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9050/",
             "engine_name": "dhewm3",
             "engine_link": "https://dhewm3.org/",
             "version": "1.5.1",
