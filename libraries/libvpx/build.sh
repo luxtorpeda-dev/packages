@@ -8,7 +8,7 @@ popd
 
 # BUILD PHASE
 pushd "libvpx"
-./configure --prefix="$pfx"
+./configure
 make -j "$(nproc)"
 make install
 popd
