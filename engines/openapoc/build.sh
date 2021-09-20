@@ -11,7 +11,6 @@ pushd source
 wget http://s2.jonnyh.net/pub/cd_minimal.iso.xz -O data/cd.iso.xz
 xz -d data/cd.iso.xz
 
-
 # BUILD PHASE
 mkdir build
 cd build
@@ -19,6 +18,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
     -DBUILD_LAUNCHER=ON \
     -DBoost_LIBRARY_DIRS="$pfx/lib" \
+    -DENABLE_TESTS=OFF \
     ..
 make -j "$(nproc)"
 popd

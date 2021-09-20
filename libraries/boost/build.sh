@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/boostorg/boost boost
 pushd boost
-git checkout -f 9d3f9bc
+git checkout -f ccb2ab3
 git submodule update --init --recursive
 popd
 
@@ -20,3 +20,5 @@ pushd "boost"
 	--with-locale \
 ./b2 install --prefix="$pfx"
 popd
+
+cp -rfv "$pfx/lib/"* /usr/lib
