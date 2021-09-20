@@ -68,6 +68,22 @@ copy_library_build () {
             done
         fi
     fi
+
+    if [ ! -z "$LIBRARY_COPY_TO_DIST" ]; then
+        if [ -z "${COMMON_PACKAGE}" ]; then
+            for app_id in $1 ; do
+                LIBRARIES_ARR=($LIBRARY_COPY_TO_DIST)
+                for add_library_path in "${LIBRARIES_ARR[@]}"; do
+                    cp -rfv "$add_library_path" "$diststart/$app_id/dist/"
+                done
+            done
+        else
+            LIBRARIES_ARR=($LIBRARY_COPY_TO_DIST)
+            for add_library_path in "${LIBRARIES_ARR[@]}"; do
+                cp -rfv "$add_library_path" "$diststart/common/dist/"
+            done
+        fi
+    fi
 }
 
 start_library_build () {

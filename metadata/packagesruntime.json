@@ -225,6 +225,12 @@
                 "cache_by_name": true
             },
             {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
+                "cache_by_name": true
+            },
+            {
                 "name": "chocolate-doom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-4/",
                 "file": "chocolate-doom-common-4.tar.xz",
@@ -248,6 +254,24 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "doom1-ultimate"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
             },
             {
                 "name": "chocolate-doom",
@@ -296,6 +320,17 @@
             },
             {
                 "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
                 "engine_name": "Chocolate Doom",
                 "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
                 "version": "64c5bcb (from master)",
@@ -325,6 +360,12 @@
                 "name": "gzdoom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
                 "file": "gzdoom-common-17.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -362,6 +403,37 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./run-doomsday.sh",
+                        "args": [
+                            "-iwad",
+                            "base",
+                            "-game",
+                            "doom2-plut"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./run-doomsday.sh",
+                        "args": [
+                            "-iwad",
+                            "base",
+                            "-game",
+                            "doom2-tnt"
+                        ]
+                    }
+                },
+                "download": [
+                    "doomsday"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
             },
             {
                 "name": "chocolate-doom",
@@ -432,6 +504,17 @@
             },
             {
                 "store_link": "https://store.steampowered.com/app/2290/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2290/",
                 "engine_name": "Chocolate Doom",
                 "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
                 "version": "64c5bcb (from master)",
@@ -464,6 +547,12 @@
                 "cache_by_name": true
             },
             {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
+                "cache_by_name": true
+            },
+            {
                 "name": "chocolate-doom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-4/",
                 "file": "chocolate-doom-common-4.tar.xz",
@@ -487,6 +576,24 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "doom2"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
             },
             {
                 "name": "chocolate-doom",
@@ -532,6 +639,17 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2300/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
             },
             {
                 "store_link": "https://store.steampowered.com/app/2300/",
@@ -1255,6 +1373,12 @@
                 "cache_by_name": true
             },
             {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
+                "cache_by_name": true
+            },
+            {
                 "name": "chocolate-doom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-4/",
                 "file": "chocolate-doom-common-4.tar.xz",
@@ -1272,6 +1396,24 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "hexen"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
             },
             {
                 "name": "chocolate-doom",
@@ -1303,6 +1445,17 @@
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
             },
             {
+                "store_link": "https://store.steampowered.com/app/2360/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
                 "store_link": "https://store.steampowered.com/app/2280/",
                 "engine_name": "Chocolate Doom",
                 "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
@@ -1323,6 +1476,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
                 "file": "gzdoom-common-17.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -1338,6 +1497,24 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "hexen-dk"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
             }
         ],
         "information": [
@@ -1351,6 +1528,17 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2360/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
             }
         ]
     },
@@ -1361,6 +1549,12 @@
                 "name": "gzdoom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
                 "file": "gzdoom-common-17.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-2/",
+                "file": "doomsday-common-2.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1387,6 +1581,24 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "heretic-ext"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
             },
             {
                 "name": "chocolate-doom",
@@ -1432,6 +1644,17 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2390/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
             },
             {
                 "store_link": "https://store.steampowered.com/app/2280/",
