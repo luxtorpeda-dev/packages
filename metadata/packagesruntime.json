@@ -3604,6 +3604,33 @@
             "license_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine/blob/main/LICENSE"
         }
     },
+    "1518810": {
+        "game_name": "Koi Farm",
+        "download": [
+            {
+                "name": "koi-farm",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/koi-farm-1/",
+                "file": "koi-farm-1518810-1.tar.xz"
+            }
+        ],
+        "download_config": {
+            "koi-farm": {
+                "extract_location": "./linuxdata"
+            }
+        },
+        "command": "./linuxdata/run-koi-farm.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1518810",
+            "engine_name": "Koi",
+            "engine_link": "https://github.com/jobtalle/Koi",
+            "version": "742b6bc",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Apache 2 with Commons Clause",
+            "license_link": "https://github.com/jobtalle/Koi/blob/master/LICENSE.md"
+        }
+    },
     "1546440": {
         "game_name": "Lycanthorn II - Rain of Beasts",
         "download": [
