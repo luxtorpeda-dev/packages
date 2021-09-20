@@ -7,11 +7,11 @@ git checkout -f 43a36ac
 git submodule update --init --recursive
 popd
 
+# BUILD PHASE
 pushd source
 wget http://s2.jonnyh.net/pub/cd_minimal.iso.xz -O data/cd.iso.xz
 xz -d data/cd.iso.xz
 
-# BUILD PHASE
 mkdir build
 cd build
 cmake \
