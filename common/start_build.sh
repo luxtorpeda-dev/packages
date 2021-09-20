@@ -16,6 +16,11 @@ git config --global user.name "GitHub Action"
 
 install_latest_cmake
 
+if [ ! -z "${GCC_9}" ]; then
+    echo "Using gcc 9"
+    use_gcc_9
+fi
+
 gcc --version
 
 if [ ! -z "${LIBRARIES}" ]; then

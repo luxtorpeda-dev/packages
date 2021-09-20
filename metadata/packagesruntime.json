@@ -1828,6 +1828,28 @@
             }
         ]
     },
+    "7660": {
+        "game_name": "X-COM: Apocalypse",
+        "download": [
+            {
+                "name": "openapoc",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-4/",
+                "file": "openapoc-7660-4.tar.xz"
+            }
+        ],
+        "command": "./run-openapoc-launcher.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/7660",
+            "engine_name": "OpenApoc",
+            "engine_link": "https://github.com/OpenApoc/OpenApoc",
+            "version": "Alpha build v0.386",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenApoc/OpenApoc/blob/master/LICENSE"
+        }
+    },
     "9000": {
         "game_name": "Wolfenstein 3D: Spear of Destiny",
         "download": [
