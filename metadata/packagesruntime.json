@@ -1837,28 +1837,13 @@
                 "file": "openapoc-7660-4.tar.xz"
             }
         ],
-        "choices": [
-            {
-                "name": "openapoc",
-                "command": "./run-openapoc.sh",
-                "download": [
-                    "openapoc"
-                ]
-            },
-            {
-                "name": "openapoc-launcher",
-                "command": "./run-openapoc-launcher.sh",
-                "download": [
-                    "openapoc"
-                ]
-            }
-        ],
+        "command": "./run-openapoc-launcher.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/7660",
             "engine_name": "OpenApoc",
             "engine_link": "https://github.com/OpenApoc/OpenApoc",
             "version": "Alpha build v0.386",
-            "comments": "Launcher will not launch the game, but will save the configuration. Engine is still in progress so not all features may be implemented.",
+            "comments": "Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
