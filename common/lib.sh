@@ -142,6 +142,7 @@ use_gcc_9 () {
     sudo update-alternatives --set g++ "/usr/bin/g++-9"
     export CXX='g++-9'
     export CC='gcc-9'
+    cp -rfv /usr/lib/gcc/x86_64-linux-gnu/8/libgcc*.so* /usr/lib/gcc-9/lib/
 }
 
 set -x
