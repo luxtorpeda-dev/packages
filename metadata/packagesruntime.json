@@ -1,11 +1,245 @@
 {
+    "1700": {
+        "game_name": "Arx Fatalis",
+        "download": [
+            {
+                "name": "arxlibertatis",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-18/",
+                "file": "arxlibertatis-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./arx",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1700/",
+            "engine_name": "Arx Libertatis",
+            "engine_link": "https://arx-libertatis.org/",
+            "version": "1.2",
+            "comments": "Select Desktop in resolution settings for borderless fullscreen",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/arx/ArxLibertatis/blob/master/LICENSE"
+        }
+    },
+    "1710": {
+        "game_name": "Arx Fatalis (Demo)",
+        "download": [
+            {
+                "name": "arxlibertatis",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-18/",
+                "file": "arxlibertatis-common-18.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./arx",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1700/",
+            "engine_name": "Arx Libertatis",
+            "engine_link": "https://arx-libertatis.org/",
+            "version": "1.2",
+            "comments": "Select Desktop in resolution settings for borderless fullscreen",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/arx/ArxLibertatis/blob/master/LICENSE"
+        }
+    },
+    "2200": {
+        "game_name": "Quake III Arena",
+        "download": [
+            {
+                "name": "ioquake3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-6/",
+                "file": "ioquake3-common-6.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "quake3e",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-6/",
+                "file": "quake3e-common-6.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
+                "file": "ftequakeworld-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "ioquake3",
+                "command": "./ioquake3.x86_64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2"
+                ],
+                "download": [
+                    "ioquake3"
+                ]
+            },
+            {
+                "name": "quake3e",
+                "command": "./quake3e.x64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "quake3e"
+                ]
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld.sh",
+                "download": [
+                    "ioquake3",
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2200/",
+                "engine_name": "ioquake3",
+                "engine_link": "https://ioquake3.org/",
+                "version": "77d6cde (from master)",
+                "comments": "",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2200/",
+                "engine_name": "quake3e",
+                "engine_link": "https://github.com/ec-/Quake3e",
+                "version": "2021-07-20",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2200/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6060",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
+            }
+        ]
+    },
+    "2210": {
+        "game_name": "Quake IV",
+        "download": [
+            {
+                "name": "quake4",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake4-4/",
+                "file": "quake4-2210-4.tar.xz"
+            },
+            {
+                "name": "binaries",
+                "url": "https://www.quaddicted.com/files/idgames2/idstuff/quake4/linux/",
+                "file": "quake4-linux-1.4.2.x86.run"
+            }
+        ],
+        "download_config": {
+            "binaries": {
+                "setup": true,
+                "copy_only": true
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-quake4.sh",
+            "uninstall_command": "./uninstall-quake4.sh",
+            "license_path": "./EULA.txt"
+        },
+        "command": "./run-quake4.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2210",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://www.quaddicted.com/files/idgames2/idstuff/quake4/linux/",
+            "version": "1.4.2",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "http://zerowing.idsoftware.com/linux/quake4/Quake4FrontPage/",
+            "closed_source": true,
+            "32-bit": true
+        }
+    },
+    "2270": {
+        "game_name": "Wolfenstein 3D",
+        "download": [
+            {
+                "name": "ecwolf",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-4/",
+                "file": "ecwolf-common-4.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-ecwolf.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2270",
+            "engine_name": "ecwolf",
+            "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
+            "version": "ac4a229 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPL-2+ or EULA; BSD-3-clause",
+            "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
+        }
+    },
     "2280": {
         "game_name": "The Ultimate DOOM",
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-3/",
+                "file": "doomsday-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-4/",
+                "file": "chocolate-doom-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-6/",
+                "file": "prboom-plus-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -20,6 +254,56 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "doom1-ultimate"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
+            },
+            {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-doom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
+                "name": "prboom-plus",
+                "command": "./prboom-plus/run-prboom-plus.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM.WAD"
+                ],
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
+                    }
+                }
             }
         ],
         "information": [
@@ -33,6 +317,39 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "64c5bcb (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "prboom-plus",
+                "engine_link": "https://github.com/coelckers/prboom-plus",
+                "version": "2.6.1um",
+                "comments": "Pick FluidSynth in in-game options to hear music.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING"
             }
         ]
     },
@@ -41,8 +358,26 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-3/",
+                "file": "doomsday-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-4/",
+                "file": "chocolate-doom-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-6/",
+                "file": "prboom-plus-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -68,6 +403,91 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./run-doomsday.sh",
+                        "args": [
+                            "-iwad",
+                            "base",
+                            "-game",
+                            "doom2-plut"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./run-doomsday.sh",
+                        "args": [
+                            "-iwad",
+                            "base",
+                            "-game",
+                            "doom2-tnt"
+                        ]
+                    }
+                },
+                "download": [
+                    "doomsday"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
+            },
+            {
+                "name": "chocolate-doom",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
+                "name": "prboom-plus",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./prboom-plus/run-prboom-plus.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./prboom-plus/run-prboom-plus.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
+                    }
+                }
             }
         ],
         "information": [
@@ -81,6 +501,39 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2290/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2290/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "64c5bcb (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2290/",
+                "engine_name": "prboom-plus",
+                "engine_link": "https://github.com/coelckers/prboom-plus",
+                "version": "2.6.1um",
+                "comments": "Pick FluidSynth in in-game options to hear music.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING"
             }
         ]
     },
@@ -89,8 +542,26 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-3/",
+                "file": "doomsday-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-4/",
+                "file": "chocolate-doom-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-6/",
+                "file": "prboom-plus-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -105,6 +576,56 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "doom2"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
+            },
+            {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-doom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM2.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
+                "name": "prboom-plus",
+                "command": "./prboom-plus/run-prboom-plus.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM2.WAD"
+                ],
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
+                    }
+                }
             }
         ],
         "information": [
@@ -118,6 +639,320 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2300/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2300/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "64c5bcb (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2300/",
+                "engine_name": "prboom-plus",
+                "engine_link": "https://github.com/coelckers/prboom-plus",
+                "version": "2.6.1um",
+                "comments": "Pick FluidSynth in in-game options to hear music.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING"
+            }
+        ]
+    },
+    "2310": {
+        "game_name": "Quake",
+        "download": [
+            {
+                "name": "vkquake",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-16/",
+                "file": "vkquake-common-16.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "darkplaces-2017",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-7/",
+                "file": "darkplaces-2017-common-7.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "quakespasm-spiked",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-9/",
+                "file": "quakespasm-spiked-common-9.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "dopa pak",
+                "url": "https://www.quaddicted.com/filebase/",
+                "file": "dopa.zip"
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
+                "file": "ftequakeworld-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "vkquake",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ]
+            },
+            {
+                "name": "vkquake Re-release",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "command_args": [
+                    "rerelease"
+                ]
+            },
+            {
+                "name": "darkplaces-2017",
+                "command": "./darkplaces-2017/darkplaces.sh",
+                "download": [
+                    "darkplaces-2017"
+                ]
+            },
+            {
+                "name": "quakespasm-spiked",
+                "command": "./quakespasm/quakespasm.sh",
+                "download": [
+                    "quakespasm-spiked"
+                ]
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld-quake1.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
+            },
+            {
+                "name": "FTE QuakeWorld Re-release",
+                "command": "./ftequakeworld-quake1-re.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "command_args": [
+                    "rerelease"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
+            },
+            {
+                "name": "vkquake Dimension of the Past",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake",
+                    "dopa pak"
+                ],
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ],
+                "download_config": {
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./share/quake/dopa/"
+                    }
+                }
+            },
+            {
+                "name": "darkplaces-2017 Dimension of the Past",
+                "command": "./darkplaces-2017/darkplaces.sh",
+                "download": [
+                    "darkplaces-2017",
+                    "dopa pak"
+                ],
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ],
+                "download_config": {
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./darkplaces-2017/share/quake/dopa/"
+                    }
+                }
+            },
+            {
+                "name": "quakespasm-spiked Dimension of the Past",
+                "command": "./quakespasm/quakespasm.sh",
+                "download": [
+                    "quakespasm-spiked",
+                    "dopa pak"
+                ],
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ],
+                "download_config": {
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./quakespasm/share/quake/dopa/"
+                    }
+                }
+            },
+            {
+                "name": "FTE QuakeWorld Dimension of the Past",
+                "command_args": [
+                    "-game",
+                    "dopa"
+                ],
+                "command": "./ftequakeworld-quake1.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw",
+                    "dopa pak"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    },
+                    "dopa pak": {
+                        "decode_as_zip": true,
+                        "extract_location": "./dopa/"
+                    }
+                }
+            },
+            {
+                "name": "vkquake Dimension of the Past Re-release",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "dopa"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ]
+            },
+            {
+                "name": "FTE QuakeWorld Dimension of the Past Re-release",
+                "command_args": [
+                    "-game",
+                    "dopare"
+                ],
+                "command": "./ftequakeworld-quake1-dopare.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
+            },
+            {
+                "name": "vkquake Dimension of the Machine",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "mg1"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ]
+            },
+            {
+                "name": "FTE QuakeWorld Dimension of the Machine",
+                "command_args": [
+                    "-game",
+                    "mg1"
+                ],
+                "command": "./ftequakeworld-quake1-mg1.sh",
+                "download": [
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2310/",
+                "engine_name": "vkQuake",
+                "engine_link": "https://github.com/Novum/vkQuake",
+                "version": "1.11.0",
+                "comments": "",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2310/",
+                "engine_name": "darkplaces-2017",
+                "engine_link": "http://icculus.org/twilight/darkplaces/",
+                "version": "20170829beta1",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2310/",
+                "engine_name": "quakespasm-spiked",
+                "engine_link": "https://github.com/Shpoike/Quakespasm",
+                "version": "9ffca1d (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2310/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6028",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
             }
         ]
     },
@@ -125,18 +960,43 @@
         "game_name": "Quake II",
         "download": [
             {
+                "name": "yquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-8/",
+                "file": "yquake2-common-8.tar.xz",
+                "cache_by_name": true
+            },
+            {
                 "name": "Quake II Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-music.tar.xz"
             },
             {
                 "name": "vkquake2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-5/",
-                "file": "vkquake2-common-5.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-7/",
+                "file": "vkquake2-common-7.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
+                "file": "ftequakeworld-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
         "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "Quake II Soundtrack"
+                ]
+            },
             {
                 "name": "vkQuake2",
                 "command": "./vkQuake2/vkQuake2.sh",
@@ -153,9 +1013,35 @@
                     "complete_path": "./ready-vkquake2",
                     "command": "./vkQuake2/setup-vkquake2.sh"
                 }
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld.sh",
+                "download": [
+                    "yquake2",
+                    "Quake II Soundtrack",
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
             }
         ],
         "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2320/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "8.00",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
             {
                 "store_link": "https://store.steampowered.com/app/2320/",
                 "engine_name": "vkQuake2",
@@ -166,6 +1052,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2320/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6060",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
             }
         ]
     },
@@ -173,18 +1070,43 @@
         "game_name": "Quake II: The Reckoning",
         "download": [
             {
+                "name": "yquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-8/",
+                "file": "yquake2-common-8.tar.xz",
+                "cache_by_name": true
+            },
+            {
                 "name": "The Reckoning Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-xatrix-music.tar.xz"
             },
             {
                 "name": "vkquake2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-5/",
-                "file": "vkquake2-common-5.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-7/",
+                "file": "vkquake2-common-7.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
+                "file": "ftequakeworld-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
         "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "The Reckoning Soundtrack"
+                ]
+            },
             {
                 "name": "vkQuake2",
                 "command": "./vkQuake2/vkQuake2.sh",
@@ -201,9 +1123,35 @@
                     "complete_path": "./ready-vkquake2",
                     "command": "./vkQuake2/setup-vkquake2.sh"
                 }
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld.sh",
+                "download": [
+                    "yquake2",
+                    "The Reckoning Soundtrack",
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
             }
         ],
         "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2330/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "8.00 - 2.0.9",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
             {
                 "store_link": "https://store.steampowered.com/app/2330/",
                 "engine_name": "vkQuake2",
@@ -214,6 +1162,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2330/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6060",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
             }
         ]
     },
@@ -221,18 +1180,43 @@
         "game_name": "Quake II: Ground Zero",
         "download": [
             {
+                "name": "yquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-8/",
+                "file": "yquake2-common-8.tar.xz",
+                "cache_by_name": true
+            },
+            {
                 "name": "Ground Zero Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-rogue-music.tar.xz"
             },
             {
                 "name": "vkquake2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-5/",
-                "file": "vkquake2-common-5.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-7/",
+                "file": "vkquake2-common-7.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "fteqw",
+                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
+                "file": "fteqw64"
+            },
+            {
+                "name": "ftequakeworld",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
+                "file": "ftequakeworld-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
         "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2",
+                    "Ground Zero Soundtrack"
+                ]
+            },
             {
                 "name": "vkQuake2",
                 "command": "./vkQuake2/vkQuake2.sh",
@@ -249,9 +1233,35 @@
                     "complete_path": "./ready-vkquake2",
                     "command": "./vkQuake2/setup-vkquake2.sh"
                 }
+            },
+            {
+                "name": "FTE QuakeWorld",
+                "command": "./ftequakeworld.sh",
+                "download": [
+                    "yquake2",
+                    "Ground Zero Soundtrack",
+                    "ftequakeworld",
+                    "fteqw"
+                ],
+                "download_config": {
+                    "fteqw": {
+                        "copy_only": true
+                    }
+                }
             }
         ],
         "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2340/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "8.99 - 2.0.8",
+                "comments": "Fixed default config, fixed music",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
             {
                 "store_link": "https://store.steampowered.com/app/2340/",
                 "engine_name": "vkQuake2",
@@ -262,6 +1272,94 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2340/",
+                "engine_name": "FTE QuakeWorld",
+                "engine_link": "https://fte.triptohell.info/about",
+                "version": "6060",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
+            }
+        ]
+    },
+    "2350": {
+        "game_name": "Quake III: Team Arena",
+        "download": [
+            {
+                "name": "ioquake3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-6/",
+                "file": "ioquake3-common-6.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "Patch Data",
+                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake3/",
+                "file": "quake3ta-latest-pk3s.tar.xz"
+            },
+            {
+                "name": "quake3e",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-6/",
+                "file": "quake3e-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "ioquake3",
+                "command": "./ioquake3.x86_64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2"
+                ],
+                "download": [
+                    "ioquake3",
+                    "Patch Data"
+                ]
+            },
+            {
+                "name": "quake3e",
+                "command": "./quake3e.x64",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "quake3e",
+                    "Patch Data"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/2350/",
+                "engine_name": "ioquake3",
+                "engine_link": "https://ioquake3.org/",
+                "version": "77d6cde (from master)",
+                "comments": "",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2350/",
+                "engine_name": "quake3e",
+                "engine_link": "https://github.com/ec-/Quake3e",
+                "version": "2021-07-20",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
             }
         ]
     },
@@ -270,8 +1368,20 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-3/",
+                "file": "doomsday-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-4/",
+                "file": "chocolate-doom-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -286,6 +1396,40 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "hexen"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
+            },
+            {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-hexen.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HEXEN.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
             }
         ],
         "information": [
@@ -299,6 +1443,28 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2360/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "64c5bcb (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
     },
@@ -307,8 +1473,14 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-3/",
+                "file": "doomsday-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -325,6 +1497,24 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "hexen-dk"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
             }
         ],
         "information": [
@@ -338,6 +1528,17 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2360/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
             }
         ]
     },
@@ -346,8 +1547,26 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-3/",
+                "file": "doomsday-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-4/",
+                "file": "chocolate-doom-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-6/",
+                "file": "prboom-plus-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -362,6 +1581,56 @@
                 "download": [
                     "gzdoom"
                 ]
+            },
+            {
+                "name": "doomsday",
+                "command": "./doomsday/run-doomsday.sh",
+                "download": [
+                    "doomsday"
+                ],
+                "command_args": [
+                    "-iwad",
+                    "base",
+                    "-game",
+                    "heretic-ext"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
+            },
+            {
+                "name": "chocolate-doom",
+                "command": "./chocolate-doom/run-chocolate-heretic.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HERETIC.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
+                "name": "prboom-plus",
+                "command": "./prboom-plus/run-prboom-plus.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HERETIC.WAD"
+                ],
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
+                    }
+                }
             }
         ],
         "information": [
@@ -375,8 +1644,273 @@
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
                 "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2390/",
+                "engine_name": "doomsday",
+                "engine_link": "https://github.com/skyjake/Doomsday-Engine",
+                "version": "8807376",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3/LGPLv3",
+                "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/2280/",
+                "engine_name": "Chocolate Doom",
+                "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
+                "version": "64c5bcb (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
             }
         ]
+    },
+    "3730": {
+        "game_name": "Aliens versus Predator Classic",
+        "download": [
+            {
+                "name": "avp",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/avp-6/",
+                "file": "avp-3730-6.tar.xz"
+            }
+        ],
+        "command": "./run-avp.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/3730/Aliens_versus_Predator_Classic_2000/",
+            "engine_name": "avp",
+            "engine_link": "https://github.com/neuromancer/avp",
+            "version": "2d57747 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Rebellion; non-commercial",
+            "license_link": "https://github.com/neuromancer/avp/blob/master/LICENSE",
+            "non_free": true
+        }
+    },
+    "3970": {
+        "game_name": "Prey (2006)",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "http://icculus.org/prey/downloads/",
+                "file": "prey-installer-02192009.bin"
+            },
+            {
+                "name": "prey2006",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prey2006-4/",
+                "file": "prey2006-3970-4.tar.xz"
+            }
+        ],
+        "download_config": {
+            "binaries": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./linuxofficial"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-prey.sh",
+            "uninstall_command": "./uninstall-prey.sh",
+            "license_path": "./linuxofficial/data/prey_license.txt"
+        },
+        "command": "./run-prey.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/3970",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "http://icculus.org/prey//",
+            "version": "02192009",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "http://icculus.org/prey/",
+            "closed_source": true,
+            "32-bit": true
+        }
+    },
+    "6020": {
+        "game_name": "STAR WARS™ Jedi Knight: Jedi Academy™",
+        "download": [
+            {
+                "name": "openjk",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-5/",
+                "file": "openjk-6020-5.tar.xz"
+            },
+            {
+                "name": "eternaljk",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eternaljk-3/",
+                "file": "eternaljk-6020-3.tar.xz"
+            }
+        ],
+        "commands": {
+            ".*jasp.exe": {
+                "cmd": "./openjk_sp.x86_64"
+            },
+            ".*jamp.exe": {
+                "cmd": "./eternaljk.x86_64"
+            }
+        },
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/6020/",
+                "engine_name": "OpenJK (SP)",
+                "engine_link": "https://github.com/JACoders/OpenJK",
+                "version": "43e9a3d",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/6020/",
+                "engine_name": "EternalJK (MP)",
+                "engine_link": "https://github.com/eternalcodes/EternalJK",
+                "version": "a40e793",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/eternalcodes/EternalJK/blob/master/LICENSE.txt"
+            }
+        ]
+    },
+    "6030": {
+        "game_name": "STAR WARS™ Jedi Knight II: Jedi Outcast™",
+        "download": [
+            {
+                "name": "openjk",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-5/",
+                "file": "openjk-6030-5.tar.xz"
+            },
+            {
+                "name": "jk2mv",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/jk2mv-4/",
+                "file": "jk2mv-6030-4.tar.xz"
+            }
+        ],
+        "commands": {
+            ".*jk2sp.exe": {
+                "cmd": "./openjo_sp.x86_64"
+            },
+            ".*jk2mp.exe": {
+                "cmd": "./jk2mvmp"
+            }
+        },
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/6030/",
+                "engine_name": "OpenJK (SP)",
+                "engine_link": "https://github.com/JACoders/OpenJK",
+                "version": "43e9a3d",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/6030/",
+                "engine_name": "jk2mv (MP)",
+                "engine_link": "https://github.com/mvdevs/jk2mv",
+                "version": "fc18d90",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/mvdevs/jk2mv/blob/master/LICENSE"
+            }
+        ]
+    },
+    "7660": {
+        "game_name": "X-COM: Apocalypse",
+        "download": [
+            {
+                "name": "openapoc",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-4/",
+                "file": "openapoc-7660-4.tar.xz"
+            }
+        ],
+        "command": "./run-openapoc-launcher.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/7660",
+            "engine_name": "OpenApoc",
+            "engine_link": "https://github.com/OpenApoc/OpenApoc",
+            "version": "Alpha build v0.386",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenApoc/OpenApoc/blob/master/LICENSE"
+        }
+    },
+    "9000": {
+        "game_name": "Wolfenstein 3D: Spear of Destiny",
+        "download": [
+            {
+                "name": "ecwolf",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-4/",
+                "file": "ecwolf-common-4.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-ecwolf.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9000",
+            "engine_name": "ecwolf",
+            "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
+            "version": "ac4a229 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPL-2+ or EULA; BSD-3-clause",
+            "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
+        }
+    },
+    "9010": {
+        "game_name": "Return to Castle Wolfenstein",
+        "download": [
+            {
+                "name": "iortcw",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-5/",
+                "file": "iortcw-9010-5.tar.xz"
+            }
+        ],
+        "commands": {
+            ".*WolfSP.exe": {
+                "cmd": "./iowolfsp.x86_64",
+                "args": [
+                    "+set",
+                    "com_basegame",
+                    "Main"
+                ]
+            },
+            ".*WolfMP.exe": {
+                "cmd": "./iowolfmp.x86_64",
+                "args": [
+                    "+set",
+                    "com_basegame",
+                    "Main"
+                ]
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9010/",
+            "engine_name": "iortcw",
+            "engine_link": "https://github.com/iortcw/iortcw",
+            "version": "7a33e45",
+            "comments": "Both SP and MP",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/iortcw/iortcw/blob/master/SP/COPYING.txt"
+        }
     },
     "9050": {
         "game_name": "DOOM 3",
@@ -429,6 +1963,75 @@
             "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
         }
     },
+    "9080": {
+        "game_name": "Quake III Arena Demo",
+        "download": [
+            {
+                "name": "ioquake3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-6/",
+                "file": "ioquake3-common-6.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "patch-data",
+                "url": "https://files.ioquake3.org/",
+                "file": "quake3-latest-pk3s.zip"
+            }
+        ],
+        "download_config": {
+            "patch-data": {
+                "extract_location": "./",
+                "strip_prefix": "quake3-latest-pk3s/",
+                "setup": true,
+                "decode_as_zip": true
+            }
+        },
+        "setup": {
+            "complete_path": "./demo-ready",
+            "command": "./setup-demo.sh",
+            "license_path": "./demo-patch-eula.txt"
+        },
+        "command": "./ioquake3.x86_64",
+        "command_args": [
+            "+set",
+            "r_mode",
+            "-2"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/2200/",
+            "engine_name": "ioquake3",
+            "engine_link": "https://ioquake3.org/",
+            "version": "77d6cde (from master)",
+            "comments": "",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv2",
+            "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+        }
+    },
+    "9100": {
+        "game_name": "DOOM 3 Demo",
+        "download": [
+            {
+                "name": "dhewm3",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-39/",
+                "file": "dhewm3-common-40.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-dhewm3.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9050/",
+            "engine_name": "dhewm3",
+            "engine_link": "https://dhewm3.org/",
+            "version": "1.5.1",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
+        }
+    },
     "9160": {
         "game_name": "Master Levels for DOOM II",
         "download": [
@@ -439,8 +2042,8 @@
             },
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -464,13 +2067,101 @@
             }
         ]
     },
+    "9180": {
+        "game_name": "Commander Keen Complete Pack",
+        "download": [
+            {
+                "name": "commander-genius",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/commander-genius-2/",
+                "file": "commander-genius-9180-2.tar.xz"
+            }
+        ],
+        "commands": {
+            ".*keen1?.conf": {
+                "cmd": "./run-commander.sh",
+                "args": [
+                    "dir=."
+                ]
+            },
+            ".*keen2?.conf": {
+                "cmd": "./run-commander.sh",
+                "args": [
+                    "dir=games/keen2"
+                ]
+            },
+            ".*keen3?.conf": {
+                "cmd": "./run-commander.sh",
+                "args": [
+                    "dir=games/keen3"
+                ]
+            },
+            ".*keen4?.conf": {
+                "cmd": "./run-commander.sh",
+                "args": [
+                    "dir=games/keen4"
+                ]
+            },
+            ".*keen5?.conf": {
+                "cmd": "./run-commander.sh",
+                "args": [
+                    "dir=games/keen5"
+                ]
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/9180/",
+            "engine_name": "Commander Genius",
+            "engine_link": "https://gitlab.com/Dringgstein/Commander-Genius",
+            "version": "v2.7.7",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://gitlab.com/Dringgstein/Commander-Genius/-/blob/master/COPYRIGHT"
+        }
+    },
+    "10050": {
+        "game_name": "Enemy Territory: Quake Wars Demo",
+        "download": [
+            {
+                "name": "etqw",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-4/",
+                "file": "etqw-10050-4.tar.xz"
+            }
+        ],
+        "choices": [
+            {
+                "name": "ETQW Demo",
+                "command": "./run-demo.sh"
+            },
+            {
+                "name": "ETQW Provided Retail",
+                "command": "./run-retail.sh"
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamdb.info/app/10050/",
+                "engine_name": "Proprietary Engine",
+                "engine_link": "https://steamcommunity.com/app/10000/discussions/0/143388511227759615/",
+                "version": "ETQW-demo2-client-full.r1.x86",
+                "comments": "For Provided Retail option, put retail version in full directory, so that full/etqw-rthread exists inside the steam installed demo directory. For Demo, download the demo, run and follow the steps, then copy the files to demo/ inside the steam installed demo directory. Uses sdlcl, Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Proprietary/Closed Source",
+                "license_link": "https://zerowing.idsoftware.com/linux/etqw/ETQWFrontPage/index.html",
+                "closed_source": true,
+                "32-bit": true
+            }
+        ]
+    },
     "39510": {
         "game_name": "Gothic 2: Gold Edition",
         "download": [
             {
                 "name": "opengothic",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-17/",
-                "file": "opengothic-39510-17.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-18/",
+                "file": "opengothic-39510-18.tar.xz"
             }
         ],
         "command": "./run-gothic2.sh",
@@ -486,6 +2177,265 @@
             "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE"
         }
     },
+    "41050": {
+        "game_name": "Serious Sam Classic: The First Encounter",
+        "download": [
+            {
+                "name": "serious-engine",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-2/",
+                "file": "serious-engine-41050-2.tar.xz"
+            }
+        ],
+        "command": "./Bin/ssam-tfe",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/41050",
+            "engine_name": "Serious-Engine",
+            "engine_link": "https://github.com/ptitSeb/Serious-Engine",
+            "version": "8f1a273 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE"
+        }
+    },
+    "41060": {
+        "game_name": "Serious Sam Classic: The Second Encounter",
+        "download": [
+            {
+                "name": "serious-engine",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-2/",
+                "file": "serious-engine-41060-2.tar.xz"
+            }
+        ],
+        "command": "./Bin/ssam",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/41050",
+            "engine_name": "Serious-Engine",
+            "engine_link": "https://github.com/ptitSeb/Serious-Engine",
+            "version": "8f1a273 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE"
+        }
+    },
+    "208200": {
+        "game_name": "Doom 3: BFG Edition",
+        "download": [
+            {
+                "name": "rbdoom-3-bfg",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rbdoom-3-bfg-8/",
+                "file": "rbdoom-3-bfg-208200-8.tar.xz"
+            },
+            {
+                "name": "classic-rbdoom-3-bfg",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-6/",
+                "file": "classic-rbdoom-3-bfg-208200-6.tar.xz"
+            }
+        ],
+        "choices": [
+            {
+                "name": "rbdoom-3-bfg",
+                "command": "./run-rbdoom-3-bfg.sh",
+                "download": [
+                    "rbdoom-3-bfg"
+                ]
+            },
+            {
+                "name": "classic-rbdoom-3-bfg",
+                "command": "./classic/run-classic-rbdoom-3-bfg.sh",
+                "download": [
+                    "classic-rbdoom-3-bfg"
+                ],
+                "download_config": {
+                    "classic-rbdoom-3-bfg": {
+                        "extract_location": "./classic"
+                    }
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
+                "engine_name": "RBDOOM-3-BFG",
+                "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
+                "version": "09c9f25 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
+                "engine_name": "Classic-RBDOOM-3-BFG",
+                "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
+                "version": "DOOM BFA Version 1.2.7",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG/blob/master/COPYING.txt"
+            }
+        ]
+    },
+    "215930": {
+        "game_name": "Jagged Alliance 2 - Wildfire",
+        "download": [
+            {
+                "name": "ja2-binaries",
+                "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.18.0/",
+                "file": "ja2-stracciatella_0.18.0-git+ebc73ce_x86-64.AppImage"
+            },
+            {
+                "name": "ja2-wildfire",
+                "url": "https://github.com/ja2-stracciatella/mod-wildfire-maps/releases/download/0.3.0/",
+                "file": "mod-wildfire-maps-0.3.0-linux-x64.zip"
+            },
+            {
+                "name": "ja2-stracciatella",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-1/",
+                "file": "ja2-stracciatella-215930-1.tar.xz"
+            }
+        ],
+        "command": "./run-ja2.sh",
+        "download_config": {
+            "ja2-binaries": {
+                "copy_only": true
+            },
+            "ja2-wildfire": {
+                "decode_as_zip": true
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1343370",
+            "engine_name": "Jagged Alliance 2 Stracciatella",
+            "engine_link": "https://ja2-stracciatella.github.io",
+            "version": "0.18.0",
+            "comments": "Uses AppImage from upstream project. Requires both Wildfire and Classic DLC",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Original in SFI-SCLA with Additions in Public Domain",
+            "license_link": "https://github.com/ja2-stracciatella/ja2-stracciatella/blob/master/README.md",
+            "non_free": true
+        }
+    },
+    "225140": {
+        "game_name": "Duke Nukem 3D: Megaton Edition",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-6/",
+                "file": "eduke32-common-6.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
+                "file": "raze-common-22.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "eduke32",
+                "command": "./run-eduke32.sh",
+                "download": [
+                    "eduke32"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/225140",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "71c5ce09 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/225140",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
+    "225160": {
+        "game_name": "Shadow Warrior Classic Redux",
+        "download": [
+            {
+                "name": "voidsw",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/voidsw-3/",
+                "file": "voidsw-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
+                "file": "raze-common-22.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "voidsw",
+                "command": "./run-voidsw.sh",
+                "download": [
+                    "voidsw"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-sw.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/225160",
+                "engine_name": "eduke32 VoidSW",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "71c5ce09 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/sw/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/225160",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
         "download": [
@@ -496,8 +2446,8 @@
             },
             {
                 "name": "bstone",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-3/",
-                "file": "bstone-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-4/",
+                "file": "bstone-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -576,13 +2526,176 @@
             }
         ]
     },
+    "242980": {
+        "game_name": "Daikatana",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "https://bitbucket.org/daikatana13/daikatana/downloads/",
+                "file": "Daikatana-Linux-2020-07-17-x64.tar.bz2"
+            },
+            {
+                "name": "pak6",
+                "url": "https://bitbucket.org/daikatana13/daikatana/downloads/",
+                "file": "pak6-2018-12-23.zip"
+            },
+            {
+                "name": "pak5",
+                "url": "http://dk.toastednet.org/DK13/",
+                "file": "pak5.zip"
+            },
+            {
+                "name": "soundtrack",
+                "url": "http://dk.toastednet.org/Music/",
+                "file": "Daikatana_OGG_music.zip"
+            },
+            {
+                "name": "daikatana",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daikatana-1/",
+                "file": "daikatana-242980-1.tar.xz"
+            }
+        ],
+        "command": "./run-daikatana.sh",
+        "download_config": {
+            "binaries": {
+                "extract_location": "./",
+                "strip_prefix": "Daikatana-Linux-2020-07-18-x64/",
+                "setup": true
+            },
+            "pak6": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "pak5": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "soundtrack": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data/music"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-daikatana.sh",
+            "license_path": "./LICENSES.txt"
+        },
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/242980/",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
+            "version": "1.3",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
+            "closed_source": true
+        }
+    },
+    "273620": {
+        "game_name": "Freespace 2",
+        "download": [
+            {
+                "name": "fs2open",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-22/",
+                "file": "fs2open-273620-22.tar.xz"
+            }
+        ],
+        "command": "./run-freespace2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/273620/Freespace_2/",
+            "engine_name": "scp-fs2open",
+            "engine_link": "https://github.com/scp-fs2open/fs2open.github.com",
+            "version": "Release 21.2.0",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Volition",
+            "license_link": "https://github.com/scp-fs2open/fs2open.github.com/blob/master/COPYING",
+            "non_free": true
+        }
+    },
+    "299030": {
+        "game_name": "Blood: One Unit Whole Blood",
+        "download": [
+            {
+                "name": "nblood",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-4/",
+                "file": "nblood-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
+                "file": "raze-common-22.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "nblood",
+                "command": "./run-nblood.sh",
+                "download": [
+                    "nblood"
+                ]
+            },
+            {
+                "name": "nblood Cryptic Passage",
+                "command": "./run-nblood-cryptic-one-unit.sh",
+                "download": [
+                    "nblood"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-nblood-one-unit.sh",
+                "download": [
+                    "raze"
+                ]
+            },
+            {
+                "name": "raze Cryptic Passage",
+                "command": "./run-raze-nblood-cryptic-one-unit.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/299030",
+                "engine_name": "NBlood",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "5b9fe37 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/299030",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "317040": {
         "game_name": "Strife: Veteran Edition",
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -607,6 +2720,222 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "329650": {
+        "game_name": "NAM",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-6/",
+                "file": "eduke32-common-6.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
+                "file": "raze-common-22.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "eduke32",
+                "command": "./run-nam.sh",
+                "download": [
+                    "eduke32"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-nam.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/329650",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "71c5ce09 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/329650",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
+    "356430": {
+        "game_name": "Chris Sawyer's Locomotion™",
+        "download": [
+            {
+                "name": "openloco",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-11/",
+                "file": "openloco-356430-11.tar.xz"
+            }
+        ],
+        "command": "./run-openloco.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/356430",
+            "engine_name": "OpenLoco",
+            "engine_link": "https://github.com/OpenLoco/OpenLoco",
+            "version": "v21.09.1",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/OpenLoco/OpenLoco/blob/master/LICENSE",
+            "32-bit": true
+        }
+    },
+    "358190": {
+        "game_name": "Blake Stone: Aliens of Gold",
+        "download": [
+            {
+                "name": "bstone",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-4/",
+                "file": "bstone-common-4.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./Blake Stone - Aliens of Gold/run-bstone.sh",
+        "download_config": {
+            "bstone": {
+                "extract_location": "./Blake Stone - Aliens of Gold"
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/358190",
+            "engine_name": "bstone",
+            "engine_link": "https://github.com/bibendovsky/bstone",
+            "version": "v1.2.11",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
+        }
+    },
+    "358310": {
+        "game_name": "Blake Stone: Planet Strike",
+        "download": [
+            {
+                "name": "bstone",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-4/",
+                "file": "bstone-common-4.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./Blake Stone - Planet Strike/run-bstone.sh",
+        "download_config": {
+            "bstone": {
+                "extract_location": "./Blake Stone - Planet Strike"
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/358310",
+            "engine_name": "bstone",
+            "engine_link": "https://github.com/bibendovsky/bstone",
+            "version": "v1.2.11",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
+        }
+    },
+    "371180": {
+        "game_name": "Super 3-D Noah's Ark",
+        "download": [
+            {
+                "name": "ecwolf",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-4/",
+                "file": "ecwolf-common-4.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-ecwolf.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/371180",
+            "engine_name": "ecwolf",
+            "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
+            "version": "ac4a229 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPL-2+ or EULA; BSD-3-clause",
+            "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
+        }
+    },
+    "376750": {
+        "game_name": "World War II GI",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-6/",
+                "file": "eduke32-common-6.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
+                "file": "raze-common-22.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "eduke32",
+                "command": "./run-ww2gi.sh",
+                "download": [
+                    "eduke32"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-ww2gi.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamcommunity.com/app/376750",
+                "engine_name": "eduke32",
+                "engine_link": "https://voidpoint.io/terminx/eduke32",
+                "version": "71c5ce09 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://steamcommunity.com/app/376750",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "410970": {
         "game_name": "Master of Orion 1",
         "download": [
@@ -615,14 +2944,29 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-7/",
                 "file": "dosbox-staging-common-7.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "1oom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/1oom-2/",
+                "file": "1oom-410970-2.tar.xz"
             }
         ],
         "download_config": {
             "dosbox-staging": {
                 "extract_location": "../dosbox-staging"
+            },
+            "1oom": {
+                "extract_location": "../"
             }
         },
         "choices": [
+            {
+                "name": "1oom",
+                "command": "../run-1oom.sh",
+                "download": [
+                    "1oom"
+                ]
+            },
             {
                 "name": "dosbox-staging",
                 "command": "../dosbox-staging/run-dosbox-staging.sh",
@@ -633,6 +2977,17 @@
             }
         ],
         "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/410970",
+                "engine_name": "1oom",
+                "engine_link": "https://gitlab.com/Tapani_/1oom",
+                "version": "cc2b61c04c9bd11e17b06dc7b8d7c84760159842 (from master)",
+                "comments": "Soundfont required to be installed on system.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://gitlab.com/Tapani_/1oom/-/blob/master/COPYING"
+            },
             {
                 "store_link": "https://store.steampowered.com/app/410970",
                 "engine_name": "dosbox-staging",
@@ -646,13 +3001,174 @@
             }
         ]
     },
+    "434050": {
+        "game_name": "Duke Nukem 3D: 20th Anniversary World Tour",
+        "download": [
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
+                "file": "raze-common-22.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-raze.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/434050",
+            "engine_name": "raze",
+            "engine_link": "https://github.com/coelckers/Raze",
+            "version": "1.1.3",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Various Licenses",
+            "license_link": "https://github.com/coelckers/Raze"
+        }
+    },
+    "517790": {
+        "game_name": "Caesar 3",
+        "download": [
+            {
+                "name": "julius",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/julius-8/",
+                "file": "julius-517790-8.tar.xz"
+            },
+            {
+                "name": "augustus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/augustus-7/",
+                "file": "augustus-517790-7.tar.xz"
+            }
+        ],
+        "choices": [
+            {
+                "name": "julius",
+                "command": "./julius",
+                "command_args": [
+                    "./C3"
+                ],
+                "download": [
+                    "julius"
+                ]
+            },
+            {
+                "name": "augustus",
+                "command": "./run-augustus.sh",
+                "download": [
+                    "augustus"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/517790/",
+                "engine_name": "julius",
+                "engine_link": "https://github.com/bvschaik/julius",
+                "version": "1.6.0",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "AGPL-3.0",
+                "license_link": "https://github.com/bvschaik/julius/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/517790/",
+                "engine_name": "augustus",
+                "engine_link": "https://github.com/Keriew/augustus",
+                "version": "3.0.1",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "AGPL-3.0",
+                "license_link": "https://github.com/Keriew/augustus/blob/master/LICENSE.txt"
+            }
+        ]
+    },
+    "562860": {
+        "game_name": "Ion Fury",
+        "download": [
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-6/",
+                "file": "eduke32-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-eduke32.sh",
+        "information": {
+            "store_link": "https://steamcommunity.com/app/562860",
+            "engine_name": "eduke32",
+            "engine_link": "https://voidpoint.io/terminx/eduke32",
+            "version": "71c5ce09 (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+        }
+    },
+    "565550": {
+        "game_name": "Redneck Rampage",
+        "download": [
+            {
+                "name": "rednukem",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-2/",
+                "file": "rednukem-common-2.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
+                "file": "raze-common-22.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "rednukem",
+                "command": "./run-rr.sh",
+                "download": [
+                    "rednukem"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-rr.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/565550",
+                "engine_name": "NBlood Rednukem",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "5b9fe37 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/565550",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "569860": {
         "game_name": "Thimbleweed Park™",
         "download": [
             {
                 "name": "engge",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/engge-3/",
-                "file": "engge-569860-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/engge-5/",
+                "file": "engge-569860-5.tar.xz"
             }
         ],
         "command": "./run-engge.sh",
@@ -668,13 +3184,70 @@
             "license_link": "https://github.com/scemino/engge/blob/master/LICENSE"
         }
     },
+    "580940": {
+        "game_name": "Redneck Rampage Rides Again",
+        "download": [
+            {
+                "name": "rednukem",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-2/",
+                "file": "rednukem-common-2.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
+                "file": "raze-common-22.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "rednukem",
+                "command": "./run-rr-again.sh",
+                "download": [
+                    "rednukem"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "run-raze-rr-again.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/580940",
+                "engine_name": "NBlood Rednukem",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "5b9fe37 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/580940",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "817220": {
         "game_name": "The Forestale",
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -697,13 +3270,92 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "1000410": {
+        "game_name": "WRATH: Aeon of Ruin",
+        "download": [
+            {
+                "name": "wrath-darkplaces",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wrath-darkplaces-2/",
+                "file": "wrath-darkplaces-1000410-2.tar.xz"
+            }
+        ],
+        "command": "./wrath",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1000410/",
+            "engine_name": "wrath-darkplaces",
+            "engine_link": "https://github.com/KillPixelGames/wrath-darkplaces",
+            "version": "Content Update #3",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/KillPixelGames/wrath-darkplaces/blob/master/COPYING"
+        }
+    },
+    "1010750": {
+        "game_name": "Blood: Fresh Supply",
+        "download": [
+            {
+                "name": "nblood",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-4/",
+                "file": "nblood-common-4.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
+                "file": "raze-common-22.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "nblood",
+                "command": "./run-nblood.sh",
+                "download": [
+                    "nblood"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-nblood.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/1010750",
+                "engine_name": "NBlood",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "5b9fe37 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/1010750",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "1072150": {
         "game_name": "Hedon",
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -733,8 +3385,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -757,13 +3409,70 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "1260020": {
+        "game_name": "PowerSlave (DOS Classic Edition)",
+        "download": [
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
+                "file": "raze-common-22.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "exhumed",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-3/",
+                "file": "exhumed-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "exhumed",
+                "command": "./run-exhumed.sh",
+                "download": [
+                    "exhumed"
+                ]
+            },
+            {
+                "name": "raze",
+                "command": "./run-raze-powerslave.sh",
+                "download": [
+                    "raze"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/1260020",
+                "engine_name": "NBlood Exhumed",
+                "engine_link": "https://github.com/nukeykt/NBlood",
+                "version": "5b9fe37 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/exhumed/gpl-2.0.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/1260020",
+                "engine_name": "raze",
+                "engine_link": "https://github.com/coelckers/Raze",
+                "version": "1.1.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://github.com/coelckers/Raze"
+            }
+        ]
+    },
     "1271050": {
         "game_name": "Shrine",
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -788,13 +3497,67 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "1343370": {
+        "game_name": "Old School RuneScape",
+        "download": [
+            {
+                "name": "runelite",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/runelite-2/",
+                "file": "runelite-1343370-2.tar.xz"
+            },
+            {
+                "name": "runelite-binaries",
+                "url": "https://github.com/runelite/launcher/releases/download/2.1.5/",
+                "file": "RuneLite.AppImage"
+            }
+        ],
+        "command": "./run-runelite-extract.sh",
+        "download_config": {
+            "runelite-binaries": {
+                "copy_only": true
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1343370",
+            "engine_name": "runelite",
+            "engine_link": "https://github.com/runelite/runelite",
+            "version": "2.1.5",
+            "comments": "Uses AppImage from upstream project.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD 2-Clause License",
+            "license_link": "https://github.com/runelite/runelite/blob/master/LICENSE"
+        }
+    },
+    "1358090": {
+        "game_name": "Open Hexagon",
+        "download": [
+            {
+                "name": "openhexagon",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openhexagon-3/",
+                "file": "openhexagon-1358090-3.tar.xz"
+            }
+        ],
+        "command": "./run-openhexagon.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1358090",
+            "engine_name": "SSVOpenHexagon",
+            "engine_link": "https://github.com/SuperV1234/SSVOpenHexagon",
+            "version": "2.0.5",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "AFL-3.0",
+            "license_link": "https://github.com/SuperV1234/SSVOpenHexagon/blob/master/LICENSE"
+        }
+    },
     "1417010": {
         "game_name": "Shrine II",
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -817,6 +3580,28 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+    "1508030": {
+        "game_name": "Object N",
+        "download": [
+            {
+                "name": "objectn",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/objectn-2/",
+                "file": "objectn-1508030-2.tar.xz"
+            }
+        ],
+        "command": "./objectn.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1508030",
+            "engine_name": "ObjectN-DarkPlaces-engine",
+            "engine_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine",
+            "version": "de3b618",
+            "comments": "Removed nuklear-based menu",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine/blob/main/LICENSE"
         }
     },
     "1518810": {
@@ -851,8 +3636,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -877,13 +3662,50 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "1566570": {
+        "game_name": "Retroninjacyberassassin",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "https://zandronum.com/downloads/",
+                "file": "zandronum3.0-linux-x86_64.tar.bz2"
+            },
+            {
+                "name": "zandronum",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/zandronum-2/",
+                "file": "zandronum-common-2.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./zandronum",
+        "command_args": [
+            "-iwad",
+            "Retroninjacyberassassin.wad",
+            "-config",
+            "zand.ini",
+            "-savedir",
+            "./saves"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1566570/",
+            "engine_name": "Zandronum",
+            "engine_link": "https://github.com/TorrSamaho/zandronum",
+            "version": "3.0",
+            "comments": "Uses upstream provided download.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "Sleepycat License with NON-COMMERCIAL LICENSE",
+            "license_link": "https://github.com/TorrSamaho/zandronum/blob/master/LICENSE.txt",
+            "non_free": true
+        }
+    },
     "1679920": {
         "game_name": "Project Absentia Demo",
         "download": [
             {
                 "name": "wigzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wigzdoom-1/",
-                "file": "wigzdoom-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wigzdoom-4/",
+                "file": "wigzdoom-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -898,7 +3720,7 @@
             "store_link": "https://store.steampowered.com/app/1679920/",
             "engine_name": "WIGZDoom",
             "engine_link": "https://github.com/SanyaWaffles/WIGZDoom",
-            "version": "28a3156",
+            "version": "ff8961e",
             "comments": "",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
@@ -911,8 +3733,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-14/",
-                "file": "gzdoom-common-14.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-17/",
+                "file": "gzdoom-common-17.tar.xz",
                 "cache_by_name": true
             }
         ],

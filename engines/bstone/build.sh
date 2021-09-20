@@ -18,4 +18,5 @@ popd
 
 # COPY PHASE
 cp -rfv "source/build/src/bstone" "$diststart/common/dist"
+
 cp -rfv assets/* "$diststart/common/dist"

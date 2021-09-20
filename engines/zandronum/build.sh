@@ -1,7 +1,5 @@
 #!/bin/bash
 
-apt-get install -y wget
-
 # CLONE PHASE
 git clone https://github.com/TorrSamaho/zandronum.git source
 pushd source
