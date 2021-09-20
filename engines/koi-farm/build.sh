@@ -7,6 +7,7 @@ gpg --no-default-keyring --keyring "$KEYRING" --list-keys
 
 VERSION=node_16.x
 DISTRO="buster"
+
 echo "deb [signed-by=$KEYRING] https://deb.nodesource.com/$VERSION $DISTRO main" | sudo tee /etc/apt/sources.list.d/nodesource.list
 echo "deb-src [signed-by=$KEYRING] https://deb.nodesource.com/$VERSION $DISTRO main" | sudo tee -a /etc/apt/sources.list.d/nodesource.list
 
