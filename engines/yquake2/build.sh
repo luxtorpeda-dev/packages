@@ -57,12 +57,10 @@ mkdir -p "$diststart/common/dist/rogue"
 mkdir -p "$diststart/common/dist/xatrix"
 
 cp -v assets/quake2.sh "$diststart/common/dist/"
-
 cp -v assets/default.lux.cfg "$diststart/common/dist/baseq2/yq2.cfg"
 cp -v assets/default.lux.cfg "$diststart/common/dist/ctf/yq2.cfg"
 cp -v assets/default.lux.cfg "$diststart/common/dist/rogue/yq2.cfg"
 cp -v assets/default.lux.cfg "$diststart/common/dist/xatrix/yq2.cfg"
-
 cp -v source/stuff/icon/Quake2.svg "$diststart/common/dist/"
 
 cp -rfv "source/release/"* "$diststart/common/dist/"

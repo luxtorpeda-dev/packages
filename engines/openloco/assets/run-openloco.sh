@@ -6,4 +6,4 @@ then
     echo "loco_install_path: ./" > ~/.config/OpenLoco/openloco.yml
 fi
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./openloco
+./openloco

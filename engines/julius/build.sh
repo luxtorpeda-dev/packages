@@ -9,6 +9,7 @@ popd
 # BUILD PHASE
 pushd "source"
 mkdir -p build
+
 cd build
 cmake ..
 make -j "$(nproc)"
