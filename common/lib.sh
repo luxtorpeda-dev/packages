@@ -146,6 +146,7 @@ use_gcc_9 () {
 }
 
 use_python_3 () {
+    sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
     sudo update-alternatives  --set python /usr/bin/python3
     rm /usr/bin/python
     ln -rsf /usr/bin/python3 /usr/bin/python
