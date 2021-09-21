@@ -135,6 +135,12 @@ install_latest_cmake() {
     ./cmake-3.21.2-linux-x86_64.sh --skip-license --prefix=/usr
 }
 
+install_latest_meson() {
+    wget https://bootstrap.pypa.io/get-pip.py
+    python3 get-pip.py
+    pip3 install meson --upgrade
+}
+
 use_gcc_9 () {
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
     sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9

@@ -15,6 +15,7 @@ git config --global user.email "actions@github.com"
 git config --global user.name "GitHub Action"
 
 install_latest_cmake
+install_latest_meson
 
 if [ ! -z "${GCC_9}" ]; then
     echo "Using gcc 9"
