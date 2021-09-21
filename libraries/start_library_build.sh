@@ -32,7 +32,6 @@ copy_library_build () {
     if [ ! -z "$LIBRARY_COPY_DIRECT" ]; then
         if [ -z "${COMMON_PACKAGE}" ]; then
             for app_id in $1 ; do
-                mkdir -p "$diststart/$app_id/dist/lib/"
                 LIBRARIES_ARR=($LIBRARY_COPY_DIRECT)
                 for add_library_path in "${LIBRARIES_ARR[@]}"; do
                     dir="$(dirname $add_library_path)"
@@ -42,7 +41,6 @@ copy_library_build () {
                 done
             done
         else
-            mkdir -p "$diststart/common/dist/lib/"
             LIBRARIES_ARR=($LIBRARY_COPY_DIRECT)
             for add_library_path in "${LIBRARIES_ARR[@]}"; do
                 dir="$(dirname $add_library_path)"
@@ -59,14 +57,14 @@ copy_library_build () {
             for app_id in $1 ; do
                 LIBRARIES_ARR=($LIBRARY_COPY_TO_LIB)
                 for add_library_path in "${LIBRARIES_ARR[@]}"; do
-                    cp -rfv "$add_library_path" "$diststart/$app_id/dist/lib"
+                    cp -rfv "$add_library_path" "$diststart/$app_id/dist/lib/"
                 done
             done
         else
             mkdir -p "$diststart/common/dist/lib/"
             LIBRARIES_ARR=($LIBRARY_COPY_TO_LIB)
             for add_library_path in "${LIBRARIES_ARR[@]}"; do
-                cp -rfv "$add_library_path" "$diststart/common/dist/lib"
+                cp -rfv "$add_library_path" "$diststart/common/dist/lib/"
             done
         fi
     fi
