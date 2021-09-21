@@ -53,8 +53,8 @@ copy_library_build () {
 
     if [ ! -z "$LIBRARY_COPY_TO_LIB" ]; then
         if [ -z "${COMMON_PACKAGE}" ]; then
-            mkdir -p "$diststart/$app_id/dist/lib/"
             for app_id in $1 ; do
+                mkdir -p "$diststart/$app_id/dist/lib/"
                 LIBRARIES_ARR=($LIBRARY_COPY_TO_LIB)
                 for add_library_path in "${LIBRARIES_ARR[@]}"; do
                     cp -rfv "$add_library_path" "$diststart/$app_id/dist/lib/"
