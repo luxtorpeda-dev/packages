@@ -12,4 +12,4 @@ ln -rsf Techion.rte/Devices/Weapons/NanoRifle/NanorifleSight.lua Techion.rte/Dev
 ln -rsf Techion.rte/Devices/Weapons/NanoRifle/Sounds/NanoshotExplode1.wav Techion.rte/Devices/Weapons/NanoRifle/Sounds/NanoShotExplode1.wav
 ln -rsf Dummy.rte/Craft/DropShips Dummy.rte/Craft/Dropships
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./CCCP.x86_64 "$@"
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./CortexCommand.x86_64 "$@"
