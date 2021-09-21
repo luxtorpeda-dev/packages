@@ -2365,6 +2365,33 @@
             }
         ]
     },
+    "209670": {
+        "game_name": "Cortex Command",
+        "download": [
+            {
+                "name": "cortex-command",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cortex-command-3/",
+                "file": "cortex-command-209670-3.tar.xz"
+            }
+        ],
+        "download_config": {
+            "cortex-command": {
+                "extract_location": "./linuxdata"
+            }
+        },
+        "command": "./linuxdata/run-cortex-command.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/209670",
+            "engine_name": "Cortex Command Community Project Source",
+            "engine_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source",
+            "version": "0310066",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "AGPLv3",
+            "license_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source/blob/development/LICENSE"
+        }
+    },
     "215930": {
         "game_name": "Jagged Alliance 2 - Wildfire",
         "download": [
