@@ -14,6 +14,5 @@ popd
 # COPY PHASE
 cp -rfv source/d1x-rebirth/d1x-rebirth "$diststart/273570/dist/"
 cp -rfv source/d2x-rebirth/d2x-rebirth "$diststart/273580/dist/"
-
 cp -rfv assets/run-d1x.sh "$diststart/273570/dist/"
 cp -rfv assets/run-d2x.sh "$diststart/273580/dist/"
