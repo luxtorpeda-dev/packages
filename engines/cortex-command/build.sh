@@ -20,6 +20,5 @@ popd
 
 # COPY PHASE
 cp -rfv data/* "$diststart/209670/dist/"
-
 cp -rfv assets/* "$diststart/209670/dist"
 cp source/build/CCCP.x86_64 "$diststart/209670/dist"
