@@ -15,3 +15,6 @@ cmake \
     ..
 make -j "$(nproc)" install
 popd
+
+cp -rfv "$pfx/lib/"* /usr/lib
+cp -rfv "$pfx/include/"* /usr/include
