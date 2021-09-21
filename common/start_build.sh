@@ -21,6 +21,11 @@ if [ ! -z "${GCC_9}" ]; then
     use_gcc_9
 fi
 
+if [ ! -z "${PYTHON3}" ]; then
+    echo "Using python 3"
+    use_python_3
+fi
+
 gcc --version
 
 if [ ! -z "${LIBRARIES}" ]; then

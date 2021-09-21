@@ -2595,6 +2595,64 @@
             "closed_source": true
         }
     },
+    "273570": {
+        "game_name": "Descent",
+        "download": [
+            {
+                "name": "music",
+                "url": "https://www.dxx-rebirth.com/download/dxx/res/",
+                "file": "d1xr-sc55-music.dxa",
+                "copy_only": true
+            },
+            {
+                "name": "dxx-rebirth",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-5/",
+                "file": "dxx-rebirth-273570-5.tar.xz"
+            }
+        ],
+        "command": "./run-d1x.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/273570",
+            "engine_name": "dxx-rebirth",
+            "engine_link": "https://github.com/dxx-rebirth/dxx-rebirth",
+            "version": "49dee72 (from master)",
+            "comments": "Uses SDL2 version. Downloads music from https://www.dxx-rebirth.com/addons",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3 with Original Code in Parallax License",
+            "license_link": "https://github.com/dxx-rebirth/dxx-rebirth/blob/master/COPYING.txt",
+            "non_free": true
+        }
+    },
+    "273580": {
+        "game_name": "Descent 2",
+        "download": [
+            {
+                "name": "music",
+                "url": "https://www.dxx-rebirth.com/download/dxx/res/",
+                "file": "d2xr-sc55-music.dxa",
+                "copy_only": true
+            },
+            {
+                "name": "dxx-rebirth",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-5/",
+                "file": "dxx-rebirth-273580-5.tar.xz"
+            }
+        ],
+        "command": "./run-d2x.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/273580",
+            "engine_name": "dxx-rebirth",
+            "engine_link": "https://github.com/dxx-rebirth/dxx-rebirth",
+            "version": "49dee72 (from master)",
+            "comments": "Uses SDL2 version. Downloads music from https://www.dxx-rebirth.com/addons",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3 with Original Code in Parallax License",
+            "license_link": "https://github.com/dxx-rebirth/dxx-rebirth/blob/master/COPYING.txt",
+            "non_free": true
+        }
+    },
     "273620": {
         "game_name": "Freespace 2",
         "download": [
