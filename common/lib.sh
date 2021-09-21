@@ -147,6 +147,10 @@ use_gcc_9 () {
 
 use_python_3 () {
     sudo update-alternatives  --set python /usr/bin/python3
+    rm /usr/bin/python
+    ln -rsf /usr/bin/python3 /usr/bin/python
+    mv /usr/bin/python2 /usr/bin/python2-real
+    ln -rsf /usr/bin/python3 /usr/bin/python2
 }
 
 set -x
