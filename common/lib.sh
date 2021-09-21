@@ -145,6 +145,10 @@ use_gcc_9 () {
     cp -rfv /usr/lib/gcc/x86_64-linux-gnu/8/libgcc*.so* /usr/lib/gcc-9/lib/
 }
 
+use_python_3 () {
+    sudo update-alternatives  --set python /usr/bin/python3
+}
+
 set -x
 set -e
 
