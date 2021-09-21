@@ -13,5 +13,4 @@ popd
 
 # COPY PHASE
 cp -rfv "./source/engine/hexen2/glhexen2" "$diststart/9060/dist"
-
 cp -rfv assets/* "$diststart/9060/dist"
