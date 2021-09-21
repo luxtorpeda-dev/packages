@@ -14,11 +14,14 @@ popd
 # BUILD PHASE
 pushd source
 BOOST_ROOT="$pfx" meson build
-cd build
-meson compile CCCP
+ninja -C build
 popd
 
 # COPY PHASE
 cp -rfv data/* "$diststart/209670/dist/"
 cp -rfv assets/* "$diststart/209670/dist"
 cp source/build/CCCP.x86_64 "$diststart/209670/dist"
+
+cp -rfv source/external/lib/linux/x86_64/libfmod.so "$diststart/209670/dist/lib/"
+cp -rfv source/external/lib/linux/x86_64/libfmod.so.12 "$diststart/209670/dist/lib/"
+cp -rfv source/external/lib/linux/x86_64/libfmod.so.12.7 "$diststart/209670/dist/lib/"
