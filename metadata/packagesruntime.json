@@ -3097,6 +3097,28 @@
             "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
         }
     },
+    "358830": {
+        "game_name": "Good Robot",
+        "download": [
+            {
+                "name": "good-robot",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/good-robot-1/",
+                "file": "good-robot-358830-1.tar.xz"
+            }
+        ],
+        "command": "./run-good-robot.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/358830",
+            "engine_name": "Good-Robot",
+            "engine_link": "https://github.com/arvindrajayadav/Good-Robot",
+            "version": "c9a0a5f (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/arvindrajayadav/Good-Robot/blob/master/LICENSE.txt"
+        }
+    },
     "371180": {
         "game_name": "Super 3-D Noah's Ark",
         "download": [
