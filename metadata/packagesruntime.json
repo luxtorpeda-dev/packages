@@ -2267,6 +2267,30 @@
             }
         ]
     },
+    "20510": {
+        "game_name": "S.T.A.L.K.E.R.: Clear Sky",
+        "download": [
+            {
+                "name": "openxray",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-5/",
+                "file": "openxray-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-openxray-clearsky.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/20510/",
+            "engine_name": "OpenXRay",
+            "engine_link": "https://github.com/OpenXRay/xray-16",
+            "version": "December 2020 Preview",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD with commercial source code",
+            "license_link": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt",
+            "non_free": true
+        }
+    },
     "32370": {
         "game_name": "STAR WARS™ - Knights of the Old Republic™",
         "download": [
@@ -2353,6 +2377,30 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE"
+        }
+    },
+    "41700": {
+        "game_name": "S.T.A.L.K.E.R.: Call of Pripyat",
+        "download": [
+            {
+                "name": "openxray",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-5/",
+                "file": "openxray-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-openxray.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/41700/",
+            "engine_name": "OpenXRay",
+            "engine_link": "https://github.com/OpenXRay/xray-16",
+            "version": "December 2020 Preview",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD with commercial source code",
+            "license_link": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt",
+            "non_free": true
         }
     },
     "208200": {
