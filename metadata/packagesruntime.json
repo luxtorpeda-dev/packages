@@ -3578,6 +3578,33 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "1241950": {
+        "game_name": "Warzone 2100",
+        "download": [
+            {
+                "name": "warzone2100",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-10/",
+                "file": "warzone2100-1241950-10.tar.xz"
+            }
+        ],
+        "download_config": {
+            "warzone2100": {
+                "extract_location": "./linuxdata"
+            }
+        },
+        "command": "./linuxdata/run-warzone2100.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1241950/Warzone_2100/",
+            "engine_name": "warzone2100",
+            "engine_link": "https://github.com/Warzone2100/warzone2100",
+            "version": "4.1.3",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.1.3/COPYING"
+        }
+    },
     "1260020": {
         "game_name": "PowerSlave (DOS Classic Edition)",
         "download": [
