@@ -8,10 +8,10 @@ git submodule update --init --recursive
 popd
 
 # BUILD PHASE
-pushd shaderc/glslc
+pushd shaderc
 mkdir build
 cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake -DCMAKE_BUILD_TYPE=Release -DSHADERC_SKIP_EXAMPLES=ON ..
 make -j "$(nproc)"
 make install
 popd
