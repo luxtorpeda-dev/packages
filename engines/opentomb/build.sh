@@ -17,6 +17,7 @@ popd
 
 # COPY PHASE
 cp -rfv source/build/OpenTomb "$diststart/common/dist/"
+
 cp -rfv source/resource "$diststart/common/dist"
 cp -rfv source/shaders "$diststart/common/dist"
 cp -rfv source/autoexec.lua "$diststart/common/dist"

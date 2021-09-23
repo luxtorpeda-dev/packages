@@ -6,7 +6,7 @@ tar xvf zlib-1.2.11.tar.gz
 
 # BUILD PHASE
 pushd zlib-1.2.11
-./configure --prefix="$pfx" --enable-static=no
+./configure --prefix="$pfx"
 make
 make install DESTDIR="$pfx"
 make install
