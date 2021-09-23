@@ -3847,6 +3847,28 @@
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
         }
     },
+    "1393750": {
+        "game_name": "Ocean's Heart",
+        "download": [
+            {
+                "name": "solarus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/solarus-1/",
+                "file": "solarus-1393750-1.tar.xz"
+            }
+        ],
+        "command": "./run-ocean-heart.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1393750/",
+            "engine_name": "solarus",
+            "engine_link": "https://gitlab.com/solarus-games/solarus",
+            "version": "v1.6.5",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://gitlab.com/solarus-games/solarus/-/blob/dev/license_gpl.txt"
+        }
+    },
     "1379630": {
         "game_name": "RealRTCW",
         "download": [
