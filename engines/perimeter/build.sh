@@ -11,7 +11,7 @@ popd
 pushd "source"
 mkdir build
 cd build
-/usr/local/bin/cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Release -DBOOST_ROOT="$boostlocation" -DCMAKE_PREFIX_PATH="$pfx" -DCMAKE_INSTALL_PREFIX="$pfx"
+cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Release -DBOOST_ROOT="$boostlocation" -DCMAKE_PREFIX_PATH="$pfx" -DCMAKE_INSTALL_PREFIX="$pfx"
 ninja dependencies
 ninja
 cd Source/dxvk-native-prefix/src/dxvk-native-build
