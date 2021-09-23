@@ -67,6 +67,9 @@ make -j "$(nproc)"
 make install
 popd
 
+cp -rfv "$pfx/include/"* "/usr/include"
+cp -rfv "$pfx/lib/"* "/usr/lib"
+
 # build openxray
 export SystemDrive="$pfx"
 pushd "source"
