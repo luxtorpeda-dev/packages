@@ -135,6 +135,31 @@ install_latest_cmake() {
     ./cmake-3.21.2-linux-x86_64.sh --skip-license --prefix=/usr
 }
 
+install_latest_meson() {
+    wget https://bootstrap.pypa.io/get-pip.py
+    python3 get-pip.py
+    pip3 install meson --upgrade
+}
+
+use_gcc_9 () {
+    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
+    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
+    sudo update-alternatives --set gcc "/usr/bin/gcc-9"
+    sudo update-alternatives --set g++ "/usr/bin/g++-9"
+    export CXX='g++-9'
+    export CC='gcc-9'
+    cp -rfv /usr/lib/gcc/x86_64-linux-gnu/8/libgcc*.so* /usr/lib/gcc-9/lib/
+}
+
+use_python_3 () {
+    sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+    sudo update-alternatives  --set python /usr/bin/python3
+    rm /usr/bin/python
+    ln -rsf /usr/bin/python3 /usr/bin/python
+    mv /usr/bin/python2 /usr/bin/python2-real
+    ln -rsf /usr/bin/python3 /usr/bin/python2
+}
+
 set -x
 set -e
 

@@ -15,6 +15,17 @@ git config --global user.email "actions@github.com"
 git config --global user.name "GitHub Action"
 
 install_latest_cmake
+install_latest_meson
+
+if [ ! -z "${GCC_9}" ]; then
+    echo "Using gcc 9"
+    use_gcc_9
+fi
+
+if [ ! -z "${PYTHON3}" ]; then
+    echo "Using python 3"
+    use_python_3
+fi
 
 gcc --version
 
