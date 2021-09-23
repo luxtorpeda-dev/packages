@@ -11,7 +11,7 @@ popd
 pushd shaderc
 mkdir build
 cd build
-cmake -DCMAKE_BUILD_TYPE=Release -DSHADERC_SKIP_EXAMPLES=ON ..
+cmake -DCMAKE_BUILD_TYPE=Release -DSHADERC_SKIP_EXAMPLES=ON -DSHADERC_SKIP_TESTS=ON ..
 make -j "$(nproc)"
 make install
 popd
