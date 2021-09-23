@@ -2483,6 +2483,143 @@
             "non_free": true
         }
     },
+    "224960": {
+        "game_name": "Tomb Raider I",
+        "download": [
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr1.zip"
+            },
+            {
+                "name": "openlara",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openlara-2/",
+                "file": "openlara-224960-2.tar.xz"
+            }
+        ],
+        "download_config": {
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data",
+                "strip_prefix": "tr1/"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr1.sh"
+        },
+        "command": "./run-openlara.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/224960",
+            "engine_name": "OpenLara",
+            "engine_link": "https://github.com/XProger/OpenLara",
+            "version": "9c70e5ba0f46d36e96a89d1bcc57c3e8097a8a50 (from master)",
+            "comments": "Includes music from OpenTomb project downloads. Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD 2-Clause",
+            "license_link": "https://github.com/XProger/OpenLara/blob/master/LICENSE"
+        }
+    },
+    "224980": {
+        "game_name": "Tomb Raider IV: The Last Revelation",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr4.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-1/",
+                "file": "opentomb-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr4.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/224980",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
+    },
+    "225000": {
+        "game_name": "Tomb Raider V: Chronicles",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr5.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-1/",
+                "file": "opentomb-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr5.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/225000",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
+    },
     "225140": {
         "game_name": "Duke Nukem 3D: Megaton Edition",
         "download": [
@@ -2596,6 +2733,104 @@
                 "license_link": "https://github.com/coelckers/Raze"
             }
         ]
+    },
+    "225300": {
+        "game_name": "Tomb Raider II",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr2.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-1/",
+                "file": "opentomb-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr2.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/225300",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
+    },
+    "225320": {
+        "game_name": "Tomb Raider III: Adventures of Lara Croft",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr3.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-1/",
+                "file": "opentomb-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr3.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/225320",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
     },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
