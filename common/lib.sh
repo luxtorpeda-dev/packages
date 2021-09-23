@@ -151,7 +151,7 @@ use_gcc_9 () {
     cp -rfv /usr/lib/gcc/x86_64-linux-gnu/8/libgcc*.so* /usr/lib/gcc-9/lib/
 }
 
-use_gcc_9 () {
+use_gcc_5 () {
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 5
     sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 5
     sudo update-alternatives --set gcc "/usr/bin/gcc-5"
