@@ -14,6 +14,3 @@ mkdir -p "$pfx/LockFile"
 make -j "$(nproc)"
 make install
 popd
-
-cp -rfv "$pfx/include/"* "/usr/include"
-cp -rfv "$pfx/lib64/"* "/usr/lib"
