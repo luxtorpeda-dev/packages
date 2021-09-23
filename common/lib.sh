@@ -151,15 +151,6 @@ use_gcc_9 () {
     cp -rfv /usr/lib/gcc/x86_64-linux-gnu/8/libgcc*.so* /usr/lib/gcc-9/lib/
 }
 
-use_gcc_5 () {
-    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 5
-    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 5
-    sudo update-alternatives --set gcc "/usr/bin/gcc-5"
-    sudo update-alternatives --set g++ "/usr/bin/g++-5"
-    export CXX='g++-5'
-    export CC='gcc-5'
-}
-
 use_python_3 () {
     sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
     sudo update-alternatives  --set python /usr/bin/python3

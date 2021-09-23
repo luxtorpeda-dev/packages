@@ -68,6 +68,5 @@ popd
 cp -rfv "assets/run-ut2004.sh" "$diststart/13230/dist/"
 cp -rfv "assets/setup-ut2004.sh" "$diststart/13230/dist/"
 cp -rfv "assets/uninstall-ut2004.sh" "$diststart/13230/dist/"
-cp -rfv "sdlcl/libSDL-1.2.so.0" "$diststart/13230/dist/"
 cp -rfv "openal/build/libopenal.so.1.20.1" "$diststart/13230/dist/openal.so"
 cp -rfv "gcc-build/x86_64-unknown-linux-gnu/libstdc++-v3/src/.libs/libstdc++.so.5.0.7" "$diststart/13230/dist/libstdc++.so.5"
