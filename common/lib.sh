@@ -149,8 +149,6 @@ use_gcc_9 () {
     export CXX='g++-9'
     export CC='gcc-9'
     cp -rfv /usr/lib/gcc/x86_64-linux-gnu/8/libgcc*.so* /usr/lib/gcc-9/lib/
-    cp -rfv /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 /usr/lib/gcc-9/lib
-}
 
 use_python_3 () {
     sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
