@@ -1828,6 +1828,27 @@
             }
         ]
     },
+    "6310": {
+        "game_name": "The Longest Journey",
+        "download": [],
+        "download_config": {
+            "scummvm": {
+                "extract_location": "./scum"
+            }
+        },
+        "command": "./scum/run-scummvm.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/6310/",
+            "engine_name": "scummvm",
+            "engine_link": "https://github.com/scummvm/scummvm",
+            "version": "62c4cea",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
+        }
+    },
     "7660": {
         "game_name": "X-COM: Apocalypse",
         "download": [
@@ -3747,6 +3768,34 @@
             "license_link": "https://github.com/SuperV1234/SSVOpenHexagon/blob/master/LICENSE"
         }
     },
+    "1368340": {
+        "game_name": "Beneath a Steel Sky",
+        "download": [
+            {
+                "name": "scummvm",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-3/",
+                "file": "scummvm-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "scummvm": {
+                "extract_location": "./scum"
+            }
+        },
+        "command": "./scum/run-scummvm.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1368340/Beneath_a_Steel_Sky/",
+            "engine_name": "scummvm",
+            "engine_link": "https://github.com/scummvm/scummvm",
+            "version": "62c4cea",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
+        }
+    },
     "1417010": {
         "game_name": "Shrine II",
         "download": [
@@ -3934,6 +3983,12 @@
         "game_name": "Default",
         "download": [
             {
+                "name": "scummvm",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-3/",
+                "file": "scummvm-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
                 "name": "dosbox-staging",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-7/",
                 "file": "dosbox-staging-common-7.tar.xz",
@@ -3941,11 +3996,21 @@
             }
         ],
         "download_config": {
+            "scummvm": {
+                "extract_location": "./scum"
+            },
             "dosbox-staging": {
                 "extract_location": "../dosbox-staging"
             }
         },
         "choices": [
+            {
+                "name": "scummvm",
+                "command": "./scum/run-scummvm.sh",
+                "download": [
+                    "scummvm"
+                ]
+            },
             {
                 "name": "dosbox-staging",
                 "command": "../dosbox-staging/run-dosbox-staging.sh",
@@ -3956,6 +4021,17 @@
             }
         ],
         "information": [
+            {
+                "store_link": "https://store.steampowered.com/curator/35667778/",
+                "engine_name": "scummvm",
+                "engine_link": "https://github.com/scummvm/scummvm",
+                "version": "62c4cea",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
+            },
             {
                 "store_link": "https://store.steampowered.com/curator/35328265/",
                 "engine_name": "dosbox-staging",
