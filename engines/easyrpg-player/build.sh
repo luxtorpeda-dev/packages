@@ -40,6 +40,7 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/common/dist/lib"
+
 cp -rfv "$pfx/bin/easyrpg-player" "$diststart/common/dist/"
 cp -rfv "$pfx/lib"/*.so* "$diststart/common/dist/lib"
 cp -rfv assets/*.sh "$diststart/common/dist/"
