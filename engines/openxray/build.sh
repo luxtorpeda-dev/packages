@@ -83,6 +83,8 @@ cmake \
         -DFREEIMAGE_INCLUDE_PATH="$pfx/include" \
         -DCRYPTO++_LIBRARIES="$pfx/Crypto++/lib/libcryptopp.so" \
         -DCRYPTO++_INCLUDE_DIR="$pfx/Crypto++/include" \
+        -DLOCKFILE_LIBRARIES="$pfx/LockFile/lib/liblockfile.so" \
+        -DLOCKFILE_INCLUDE_DIR="$pfx/LockFile/include" \
         ..
 make -j "$(nproc)"
 make install
