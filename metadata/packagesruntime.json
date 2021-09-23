@@ -4366,8 +4366,8 @@
             },
             {
                 "name": "easyrpg-player",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/easyrpg-player-1/",
-                "file": "easyrpg-player-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/easyrpg-player-2/",
+                "file": "easyrpg-player-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
