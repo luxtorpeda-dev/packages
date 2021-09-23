@@ -2665,6 +2665,28 @@
             }
         ]
     },
+    "240180": {
+        "game_name": "Duke Nukem II",
+        "download": [
+            {
+                "name": "rigelengine",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-3/",
+                "file": "rigelengine-240180-3.tar.xz"
+            }
+        ],
+        "command": "./run-rigelengine.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/240180/",
+            "engine_name": "RigelEngine",
+            "engine_link": "https://github.com/lethal-guitar/RigelEngine",
+            "version": "Beta v0.8.1",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/lethal-guitar/RigelEngine/blob/master/LICENSE.md"
+        }
+    },
     "242980": {
         "game_name": "Daikatana",
         "download": [
