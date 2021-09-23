@@ -1,3 +1,3 @@
 #!/bin/bash
 
-export LIBRARY_LICENSES="./spirv-tools/LICENSE ./shaderc/LICENSE"
+export LIBRARY_LICENSES="./shaderc/LICENSE"
