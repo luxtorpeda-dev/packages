@@ -3872,7 +3872,7 @@
             }
         },
         "setup": {
-            "complete_path": "./nosteam/ready-nosteam-moddb",
+            "complete_path": "./nosteam/ready-nosteam-moddb-33",
             "command": "./nosteam/setup-realrtcw.sh"
         },
         "information": {
