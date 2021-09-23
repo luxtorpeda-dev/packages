@@ -46,6 +46,8 @@ make dynamic -j "$(nproc)"
 make install PREFIX="$pfx/Crypto++"
 cp -rfv "$pfx/Crypto++/include/cryptopp"/*  "$pfx/Crypto++/include"
 popd
+cp -rfv "$pfx/Crypto++/include/"* "/usr/include"
+cp -rfv "$pfx/Crypto++/lib/"* "/usr/lib"
 
 # build lzo
 pushd "source/Externals/lzo"
