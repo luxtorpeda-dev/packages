@@ -2144,7 +2144,7 @@
             "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
         }
     },
-     "9130": {
+    "9130": {
         "game_name": "Quake II Demo",
         "download": [
             {
@@ -2338,8 +2338,8 @@
         "download": [
             {
                 "name": "openxray",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-5/",
-                "file": "openxray-common-5.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-6/",
+                "file": "openxray-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2450,8 +2450,8 @@
         "download": [
             {
                 "name": "openxray",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-5/",
-                "file": "openxray-common-5.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-6/",
+                "file": "openxray-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
