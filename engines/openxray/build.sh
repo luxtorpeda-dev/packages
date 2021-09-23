@@ -79,7 +79,6 @@ cmake \
         -DCMAKE_BUILD_TYPE=Release \
         -DFREEIMAGE_LIBRARY="$pfx/lib/libfreeimage-3.18.0.so" \
         -DFREEIMAGEPLUS_LIBRARY="$pfx/lib/libfreeimageplus-3.18.0.so" \
-        -DLZO_ROOT_DIR="$pfx" \
         -DCMAKE_PREFIX_PATH="$pfx" \
         -DCMAKE_INSTALL_PREFIX="$pfx" \
         -DCMAKE_INSTALL_LIBDIR="$pfx/lib" \
