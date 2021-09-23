@@ -4363,6 +4363,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-7/",
                 "file": "dosbox-staging-common-7.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "easyrpg-player",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/easyrpg-player-1/",
+                "file": "easyrpg-player-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -4388,6 +4394,13 @@
                 "download": [
                     "dosbox-staging"
                 ]
+            },
+            {
+                "name": "easyrpg-player",
+                "command": "./run-easyrpg-player.sh",
+                "download": [
+                    "easyrpg-player"
+                ]
             }
         ],
         "information": [
@@ -4412,6 +4425,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
+            },
+            {
+                "store_link": "https://easyrpg.org/player/",
+                "engine_name": "easyrpg-player",
+                "engine_link": "https://github.com/EasyRPG/Player",
+                "version": "0.6.2.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/EasyRPG/Player/blob/master/COPYING"
             }
         ]
     }
