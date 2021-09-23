@@ -21,3 +21,6 @@ pushd "mad"
 ./configure --disable-static
 make -j "$(nproc)" install
 popd
+
+cp -rfv "$pfx/include/"* "/usr/include"
+cp -rfv "$pfx/lib/"* "/usr/lib"
