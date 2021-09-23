@@ -26,6 +26,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DSOLARUS_TESTS=OFF \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DGLM_INCLUDE_DIR="$glmlocation" \
     -DSOLARUS_GUI=OFF \
     -DCMAKE_BUILD_TYPE=Release \
     ..
