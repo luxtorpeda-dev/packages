@@ -2670,8 +2670,8 @@
         "download": [
             {
                 "name": "rigelengine",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-3/",
-                "file": "rigelengine-240180-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-4/",
+                "file": "rigelengine-240180-4.tar.xz"
             }
         ],
         "command": "./run-rigelengine.sh",
