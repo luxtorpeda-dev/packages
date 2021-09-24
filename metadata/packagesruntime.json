@@ -3159,6 +3159,120 @@
             "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
         }
     },
+    "235780": {
+        "game_name": "MINERVA",
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-13/",
+                "file": "source-sdk-2013-235780-13.tar.xz"
+            }
+        ],
+        "command": "./run-metastasis.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/235780",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+            "version": "Steam release",
+            "comments": "Requires Source SDK 2013 Singleplayer and Half-Life 2 Episode 1 to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
+        }
+    },
+    "238050": {
+        "game_name": "The Apogee Throwback Pack",
+        "download": [
+            {
+                "name": "rottexpr",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-2/",
+                "file": "rottexpr-238050-2.tar.xz"
+            },
+            {
+                "name": "bstone",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-4/",
+                "file": "bstone-common-4.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "Rise of the Triad",
+                "command": "./Rise of the Triad/run-rott.sh",
+                "download": [
+                    "rottexpr"
+                ],
+                "download_config": {
+                    "rottexpr": {
+                        "extract_location": "./Rise of the Triad"
+                    }
+                }
+            },
+            {
+                "name": "Extreme Rise of the Triad",
+                "command": "./Extreme Rise of the Triad/run-rott.sh",
+                "download": [
+                    "rottexpr"
+                ],
+                "download_config": {
+                    "rottexpr": {
+                        "extract_location": "./Extreme Rise of the Triad"
+                    }
+                }
+            },
+            {
+                "name": "Blake Stone Aliens of Gold",
+                "command": "./Blake Stone/run-bstone.sh",
+                "download": [
+                    "bstone"
+                ],
+                "download_config": {
+                    "bstone": {
+                        "extract_location": "./Blake Stone"
+                    }
+                }
+            },
+            {
+                "name": "Blake Stone Planet Strike",
+                "command": "./Planet Strike/run-bstone.sh",
+                "download": [
+                    "bstone"
+                ],
+                "download_config": {
+                    "bstone": {
+                        "extract_location": "./Planet Strike"
+                    }
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/238050",
+                "engine_name": "rottexpr",
+                "engine_link": "https://github.com/LTCHIPS/rottexpr",
+                "version": "v0.01",
+                "comments": "Rise of the Triad & Extreme Rise of the Triad",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/238050",
+                "engine_name": "bstone",
+                "engine_link": "https://github.com/bibendovsky/bstone",
+                "version": "v1.2.11",
+                "comments": "Blake Stone & Planet Strike",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
+            }
+        ]
+    },
     "240180": {
         "game_name": "Duke Nukem II",
         "download": [
@@ -3330,120 +3444,6 @@
             "license_link": "https://github.com/scp-fs2open/fs2open.github.com/blob/master/COPYING",
             "non_free": true
         }
-    },
-    "235780": {
-        "game_name": "MINERVA",
-        "download": [
-            {
-                "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-13/",
-                "file": "source-sdk-2013-235780-13.tar.xz"
-            }
-        ],
-        "command": "./run-metastasis.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/235780",
-            "engine_name": "Source SDK 2013",
-            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
-            "version": "Steam release",
-            "comments": "Requires Source SDK 2013 Singleplayer and Half-Life 2 Episode 1 to be installed.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Source SDK Copyright(c) Valve Corp.",
-            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
-            "non_free": true,
-            "32-bit": true
-        }
-    },
-    "238050": {
-        "game_name": "The Apogee Throwback Pack",
-        "download": [
-            {
-                "name": "rottexpr",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-2/",
-                "file": "rottexpr-238050-2.tar.xz"
-            },
-            {
-                "name": "bstone",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-4/",
-                "file": "bstone-common-4.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "choices": [
-            {
-                "name": "Rise of the Triad",
-                "command": "./Rise of the Triad/run-rott.sh",
-                "download": [
-                    "rottexpr"
-                ],
-                "download_config": {
-                    "rottexpr": {
-                        "extract_location": "./Rise of the Triad"
-                    }
-                }
-            },
-            {
-                "name": "Extreme Rise of the Triad",
-                "command": "./Extreme Rise of the Triad/run-rott.sh",
-                "download": [
-                    "rottexpr"
-                ],
-                "download_config": {
-                    "rottexpr": {
-                        "extract_location": "./Extreme Rise of the Triad"
-                    }
-                }
-            },
-            {
-                "name": "Blake Stone Aliens of Gold",
-                "command": "./Blake Stone/run-bstone.sh",
-                "download": [
-                    "bstone"
-                ],
-                "download_config": {
-                    "bstone": {
-                        "extract_location": "./Blake Stone"
-                    }
-                }
-            },
-            {
-                "name": "Blake Stone Planet Strike",
-                "command": "./Planet Strike/run-bstone.sh",
-                "download": [
-                    "bstone"
-                ],
-                "download_config": {
-                    "bstone": {
-                        "extract_location": "./Planet Strike"
-                    }
-                }
-            }
-        ],
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/238050",
-                "engine_name": "rottexpr",
-                "engine_link": "https://github.com/LTCHIPS/rottexpr",
-                "version": "v0.01",
-                "comments": "Rise of the Triad & Extreme Rise of the Triad",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv2",
-                "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
-            },
-            {
-                "store_link": "https://store.steampowered.com/app/238050",
-                "engine_name": "bstone",
-                "engine_link": "https://github.com/bibendovsky/bstone",
-                "version": "v1.2.11",
-                "comments": "Blake Stone & Planet Strike",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv2",
-                "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
-            }
-        ]
     },
     "299030": {
         "game_name": "Blood: One Unit Whole Blood",
