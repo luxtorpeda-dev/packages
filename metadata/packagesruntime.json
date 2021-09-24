@@ -4095,6 +4095,28 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "961620": {
+        "game_name": "Flashback",
+        "download": [
+            {
+                "name": "reminiscence",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reminiscence-1/",
+                "file": "reminiscence-961620-1.tar.xz"
+            }
+        ],
+        "command": "./run-flashback.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/961620/",
+            "engine_name": "REminiscence / REinforced",
+            "engine_link": "https://github.com/chermenin/REminiscence",
+            "version": "e846387",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/chermenin/REminiscence/blob/master/LICENSE"
+        }
+    },
     "1000410": {
         "game_name": "WRATH: Aeon of Ruin",
         "download": [
