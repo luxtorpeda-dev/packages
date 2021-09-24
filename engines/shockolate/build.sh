@@ -8,7 +8,18 @@ rm CMakeLists.txt
 cp -rfv CMakeLists.32bit.txt CMakeLists.txt
 popd
 
+git clone https://github.com/Doom64/fluidsynth-lite.git
+
 # BUILD PHASE
+pushd fluidsynth-lite
+sed -i 's/DLL"\ off/DLL"\ on/' CMakeLists.txt
+export CFLAGS="-m32"
+export CXXFLAGS="-m32"
+
+cmake .
+cmake --build .
+popd
+
 pushd source
 mkdir build
 cd build
