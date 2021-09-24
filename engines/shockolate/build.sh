@@ -18,6 +18,7 @@ export CXXFLAGS="-m32"
 
 cmake .
 cmake --build .
+make install
 popd
 
 pushd source
@@ -26,7 +27,6 @@ cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DENABLE_SDL2=ON \
     ..
 make -j "$(nproc)" systemshock
 popd
