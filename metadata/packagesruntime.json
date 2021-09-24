@@ -2463,6 +2463,59 @@
             }
         ]
     },
+    "13240": {
+        "game_name": "Unreal Tournament: Game of the Year Edition",
+        "download": [
+            {
+                "name": "binaries-436",
+                "url": "http://www.flibitijibibo.com/fedora/installers/",
+                "file": "flibitUT436.tar.gz"
+            },
+            {
+                "name": "binaries-469b",
+                "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469b/",
+                "file": "OldUnreal-UTPatch469b-Linux.tar.bz2"
+            },
+            {
+                "name": "ut99",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-11/",
+                "file": "ut99-13240-11.tar.xz"
+            }
+        ],
+        "command": "./run-ut99-469b.sh",
+        "download_config": {
+            "binaries-436": {
+                "extract_location": "../linuxdata-469b",
+                "strip_prefix": "Install/",
+                "setup": true
+            },
+            "binaries-469b": {
+                "extract_location": "../linuxdata-469b",
+                "strip_prefix": "",
+                "setup": true
+            }
+        },
+        "setup": {
+            "complete_path": "../ready-469b",
+            "command": "./setup-ut99-469b.sh",
+            "uninstall_command": "./uninstall-ut99-469b.sh",
+            "license_path": "../linuxdata-469b/legal.txt"
+        },
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/13240",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469b-release-notes",
+            "version": "469b",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://store.steampowered.com/eula/eula_epic",
+            "closed_source": true,
+            "32-bit": true
+        }
+    },
     "20510": {
         "game_name": "S.T.A.L.K.E.R.: Clear Sky",
         "download": [
