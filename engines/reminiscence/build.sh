@@ -6,9 +6,6 @@ pushd REminiscence
 git checkout -f e846387
 popd
 
-readonly pfx="$PWD/local"
-mkdir -p "$pfx"
-
 # BUILD PHASE
 pushd REminiscence
 make
