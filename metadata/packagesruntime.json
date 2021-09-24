@@ -1856,6 +1856,71 @@
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
         }
     },
+    "7650": {
+        "game_name": "X-COM: Terror from the Deep",
+        "download": [
+            {
+                "name": "openxcom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-1/",
+                "file": "openxcom-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "openxcom-oxce",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-2/",
+                "file": "openxcom-oxce-common-2.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "openxcom": {
+                "extract_location": "./openxcom"
+            },
+            "openxcom-oxce": {
+                "extract_location": "./openxcom-oxce"
+            }
+        },
+        "choices": [
+            {
+                "name": "openxcom",
+                "command": "./openxcom/run-tftd.sh",
+                "download": [
+                    "openxcom"
+                ]
+            },
+            {
+                "name": "openxcom-oxce",
+                "command": "./openxcom-oxce/run-tftd.sh",
+                "download": [
+                    "openxcom-oxce"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/7650",
+                "engine_name": "OpenXcom",
+                "engine_link": "https://github.com/OpenXcom/OpenXcom",
+                "version": "6ef7970 (from master)",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/7650",
+                "engine_name": "OpenXcom OXCE Plus",
+                "engine_link": "https://github.com/MeridianOXC/OpenXcom",
+                "version": "119283d (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/MeridianOXC/OpenXcom/blob/oxce-plus/LICENSE.txt"
+            }
+        ]
+    },
     "7660": {
         "game_name": "X-COM: Apocalypse",
         "download": [
@@ -1877,6 +1942,71 @@
             "license": "GPLv3",
             "license_link": "https://github.com/OpenApoc/OpenApoc/blob/master/LICENSE"
         }
+    },
+    "7760": {
+        "game_name": "X-COM: UFO Defense",
+        "download": [
+            {
+                "name": "openxcom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-1/",
+                "file": "openxcom-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "openxcom-oxce",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-2/",
+                "file": "openxcom-oxce-common-2.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "openxcom": {
+                "extract_location": "./openxcom"
+            },
+            "openxcom-oxce": {
+                "extract_location": "./openxcom-oxce"
+            }
+        },
+        "choices": [
+            {
+                "name": "openxcom",
+                "command": "./openxcom/run-ufo.sh",
+                "download": [
+                    "openxcom"
+                ]
+            },
+            {
+                "name": "openxcom-oxce",
+                "command": "./openxcom-oxce/run-ufo.sh",
+                "download": [
+                    "openxcom-oxce"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/7760",
+                "engine_name": "OpenXcom",
+                "engine_link": "https://github.com/OpenXcom/OpenXcom",
+                "version": "6ef7970 (from master)",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/7760",
+                "engine_name": "OpenXcom OXCE Plus",
+                "engine_link": "https://github.com/MeridianOXC/OpenXcom",
+                "version": "119283d (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/MeridianOXC/OpenXcom/blob/oxce-plus/LICENSE.txt"
+            }
+        ]
     },
     "9000": {
         "game_name": "Wolfenstein 3D: Spear of Destiny",
