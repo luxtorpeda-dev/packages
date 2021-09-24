@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://gitlab.xiph.org/xiph/tremor.git
+git clone https://github.com/soundcloud/tremor.git
 pushd tremor
-git checkout -f 7c30a66346199f3f09017a09567c6c8a3a0eedc8
+git checkout -f 68fe46c
 popd
 
 # BUILD PHASE
