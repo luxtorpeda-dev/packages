@@ -1,13 +1,13 @@
 #!/bin/bash
 
-set -x
-set -e
+# CLONE PHASE
+git clone https://github.com/MyGUI/mygui mygui
+pushd mygui
+git checkout -f 8a05127d
+git submodule update --init --recursive
+popd
 
-readonly pfx="$PWD/local"
-mkdir -p "$pfx"
-
-# build mygui
-#
+# BUILD PHASE
 pushd "mygui"
 mkdir -p build
 cd build
