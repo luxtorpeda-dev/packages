@@ -23,4 +23,5 @@ popd
 # COPY PHASE
 cp -rfv "source/build/systemshock" "$diststart/410700/dist/"
 cp -rfv "source/shaders" "$diststart/410700/dist"
+
 cp -rfv assets/* "$diststart/410700/dist/"

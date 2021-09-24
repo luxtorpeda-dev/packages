@@ -12,8 +12,10 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -Bbuild32 \
+    -DCMAKE_C_FLAGS=-m32 \
     -DCMAKE_CXX_FLAGS=-m32 \
-    -DCMAKE_SHARED_LINKER_FLAGS=-m32 \
+    -DCMAKE_SYSTEM_LIBRARY_PATH=/usr/lib32 \
     ..
 make -j "$(nproc)" install
 popd
