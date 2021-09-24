@@ -1,16 +1,7 @@
 ### 32.0 (2021-09-16)
 
 * Add support for building against steam runtime
-* dosbox-staging - Build for steam runtime
-* gzdoom - Build for steamrt
-* dhewm3 - Build for steamrt
-* rottexpr - Build for steamrt
-* engge - Build for steam runtime
-* vkquake2 - Build for steamrt
-* bstone - Build for steamrt
-* opengothic - Build for steamrt
-* openloco - Build for steamrt
-* zandronum - Build for steamrt
+* Added support for common library build scripts, so engines that share libraries do not have to each define the build scripts for them. Now can set ```export LIBRARIES="fluidsynth zmusic"``` as an example, which will clone, build, and copy the license and library files to the artifact.
 
 ### 30.4 (2021-09-14)
 

@@ -129,73 +129,36 @@ create_archives_without_v7 () {
     fi
 }
 
-install_gcc_10_ubuntu_1804 () {
-    echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/gcc.list
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
-    sudo apt-get update
-    sudo apt-get install gcc-10 g++-10 -y
-    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-10 10
-    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-10 10
-    sudo update-alternatives --set gcc "/usr/bin/gcc-10"
-    sudo update-alternatives --set g++ "/usr/bin/g++-10"
-}
-
-install_gcc_9_ubuntu_1804 () {
-    echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/gcc.list
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1E9377A2BA9EF27F
-    sudo apt-get update
-    sudo apt-get install gcc-9 g++-9 -y
-    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
-    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
-    sudo update-alternatives --set gcc "/usr/bin/gcc-9"
-    sudo update-alternatives --set g++ "/usr/bin/g++-9"
-}
-
-use_common_qt5 () {
-    pfx="$PWD/local"
-    mkdir -p "$pfx"
-    pushd "$pfx"
-    wget -O qt5.tar.xz "https://github.com/luxtorpeda-dev/packages/releases/download/common-qt5/common-qt5-common.tar.xz"
-    mkdir -p qt5
-    tar xvf "qt5.tar.xz" --strip-components=1 -C ./qt5
-    popd
-}
-
-setup_custom_container() {
-    if [ $CUSTOM_CONTAINER = "ubuntu:18.04" ]; then
-        apt-get update
-        apt-get -y install build-essential cmake git g++-8 gcc-8 sudo wget unzip libx11-dev libgl1-mesa-dev automake libtool ncurses-dev pkg-config libpulse-dev freeglut3-dev libxrandr-dev libxinerama-dev
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Action"
-
-        sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
-        sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
-        sudo update-alternatives --set gcc "/usr/bin/gcc-8"
-        sudo update-alternatives --set g++ "/usr/bin/g++-8"
-    fi
-    
-    if [ $CUSTOM_CONTAINER = "ubuntu@sha256:cba704e6616274262b2be5116bbcb5df171ec6bac0956b895b16b277c612edf1" ]; then
-        apt-get update
-        apt-get -y install build-essential cmake git g++-8 gcc-8 sudo wget unzip libx11-dev libgl1-mesa-dev automake libtool ncurses-dev pkg-config libpulse-dev freeglut3-dev libxrandr-dev libxinerama-dev
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Action"
-
-        sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
-        sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
-        sudo update-alternatives --set gcc "/usr/bin/gcc-8"
-        sudo update-alternatives --set g++ "/usr/bin/g++-8"
-    fi
-}
-
-# steam runtime functions
-
 install_latest_cmake() {
     wget https://github.com/Kitware/CMake/releases/download/v3.21.2/cmake-3.21.2-linux-x86_64.sh
     chmod +x cmake-3.21.2-linux-x86_64.sh
     ./cmake-3.21.2-linux-x86_64.sh --skip-license --prefix=/usr
 }
 
-# end steam runtime functions
+install_latest_meson() {
+    wget https://bootstrap.pypa.io/get-pip.py
+    python3 get-pip.py
+    pip3 install meson --upgrade
+}
+
+use_gcc_9 () {
+    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
+    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
+    sudo update-alternatives --set gcc "/usr/bin/gcc-9"
+    sudo update-alternatives --set g++ "/usr/bin/g++-9"
+    export CXX='g++-9'
+    export CC='gcc-9'
+    cp -rfv /usr/lib/gcc/x86_64-linux-gnu/8/libgcc*.so* /usr/lib/gcc-9/lib/
+}
+
+use_python_3 () {
+    sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+    sudo update-alternatives  --set python /usr/bin/python3
+    rm /usr/bin/python
+    ln -rsf /usr/bin/python3 /usr/bin/python
+    mv /usr/bin/python2 /usr/bin/python2-real
+    ln -rsf /usr/bin/python3 /usr/bin/python2
+}
 
 set -x
 set -e
