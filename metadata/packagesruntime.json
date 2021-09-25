@@ -1867,8 +1867,8 @@
             },
             {
                 "name": "openxcom-oxce",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-2/",
-                "file": "openxcom-oxce-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-3/",
+                "file": "openxcom-oxce-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1954,8 +1954,8 @@
             },
             {
                 "name": "openxcom-oxce",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-2/",
-                "file": "openxcom-oxce-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-3/",
+                "file": "openxcom-oxce-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
