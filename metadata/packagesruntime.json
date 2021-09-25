@@ -1856,6 +1856,71 @@
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
         }
     },
+    "7650": {
+        "game_name": "X-COM: Terror from the Deep",
+        "download": [
+            {
+                "name": "openxcom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-2/",
+                "file": "openxcom-common-2.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "openxcom-oxce",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-3/",
+                "file": "openxcom-oxce-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "openxcom": {
+                "extract_location": "./openxcom"
+            },
+            "openxcom-oxce": {
+                "extract_location": "./openxcom-oxce"
+            }
+        },
+        "choices": [
+            {
+                "name": "openxcom",
+                "command": "./openxcom/run-tftd.sh",
+                "download": [
+                    "openxcom"
+                ]
+            },
+            {
+                "name": "openxcom-oxce",
+                "command": "./openxcom-oxce/run-tftd.sh",
+                "download": [
+                    "openxcom-oxce"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/7650",
+                "engine_name": "OpenXcom",
+                "engine_link": "https://github.com/OpenXcom/OpenXcom",
+                "version": "6ef7970 (from master)",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/7650",
+                "engine_name": "OpenXcom OXCE Plus",
+                "engine_link": "https://github.com/MeridianOXC/OpenXcom",
+                "version": "349fbe4 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/MeridianOXC/OpenXcom/blob/oxce-plus/LICENSE.txt"
+            }
+        ]
+    },
     "7660": {
         "game_name": "X-COM: Apocalypse",
         "download": [
@@ -1877,6 +1942,71 @@
             "license": "GPLv3",
             "license_link": "https://github.com/OpenApoc/OpenApoc/blob/master/LICENSE"
         }
+    },
+    "7760": {
+        "game_name": "X-COM: UFO Defense",
+        "download": [
+            {
+                "name": "openxcom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-2/",
+                "file": "openxcom-common-2.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "openxcom-oxce",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-3/",
+                "file": "openxcom-oxce-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "openxcom": {
+                "extract_location": "./openxcom"
+            },
+            "openxcom-oxce": {
+                "extract_location": "./openxcom-oxce"
+            }
+        },
+        "choices": [
+            {
+                "name": "openxcom",
+                "command": "./openxcom/run-ufo.sh",
+                "download": [
+                    "openxcom"
+                ]
+            },
+            {
+                "name": "openxcom-oxce",
+                "command": "./openxcom-oxce/run-ufo.sh",
+                "download": [
+                    "openxcom-oxce"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/7760",
+                "engine_name": "OpenXcom",
+                "engine_link": "https://github.com/OpenXcom/OpenXcom",
+                "version": "6ef7970 (from master)",
+                "comments": "",
+                "author": "d10sfan/dreamer",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/7760",
+                "engine_name": "OpenXcom OXCE Plus",
+                "engine_link": "https://github.com/MeridianOXC/OpenXcom",
+                "version": "349fbe4 (from master)",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/MeridianOXC/OpenXcom/blob/oxce-plus/LICENSE.txt"
+            }
+        ]
     },
     "9000": {
         "game_name": "Wolfenstein 3D: Spear of Destiny",
@@ -2144,6 +2274,72 @@
             "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
         }
     },
+    "9130": {
+        "game_name": "Quake II Demo",
+        "download": [
+            {
+                "name": "yquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-7/",
+                "file": "yquake2-common-8.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "vkquake2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-5/",
+                "file": "vkquake2-common-7.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "Yamagi Quake II",
+                "command": "./quake2.sh",
+                "download": [
+                    "yquake2"
+                ]
+            },
+            {
+                "name": "vkQuake2",
+                "command": "./vkQuake2/vkQuake2.sh",
+                "download": [
+                    "vkquake2"
+                ],
+                "download_config": {
+                    "vkquake2": {
+                        "extract_location": "./vkQuake2"
+                    }
+                },
+                "setup": {
+                    "complete_path": "./ready-vkquake2",
+                    "command": "./vkQuake2/setup-vkquake2.sh"
+                }
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://steamdb.info/app/9130/",
+                "engine_name": "Yamagi Quake II",
+                "engine_link": "https://www.yamagi.org/quake2/",
+                "version": "8.00",
+                "comments": "Fixed default config",
+                "author": "dreamer",
+                "author_link": "https://github.com/dreamer",
+                "license": "GPLv2",
+                "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://steamdb.info/app/9130/",
+                "engine_name": "vkQuake2",
+                "engine_link": "https://github.com/kondrak/vkQuake2",
+                "version": "1.5.8",
+                "comments": "fixed music",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv2",
+                "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            }
+        ]
+    },
     "9160": {
         "game_name": "Master Levels for DOOM II",
         "download": [
@@ -2267,13 +2463,238 @@
             }
         ]
     },
+    "13230": {
+        "game_name": "Unreal Tournament 2004: Editor's Choice Edition",
+        "download": [
+            {
+                "name": "ut2004",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut2004-8/",
+                "file": "ut2004-13230-8.tar.xz"
+            },
+            {
+                "name": "foxWSFix",
+                "url": "https://luxtorpeda-dev.github.io/closed-assets/",
+                "file": "ut2004-foxWSFix-2.1.0.tar.xz"
+            },
+            {
+                "name": "binaries",
+                "url": "https://treefort.icculus.org/ut2004/",
+                "file": "ut2004-lnxpatch3369-2.tar.bz2"
+            }
+        ],
+        "download_config": {
+            "binaries": {
+                "extract_location": "../linuxdata",
+                "strip_prefix": "UT2004-Patch/",
+                "setup": true
+            },
+            "foxWSFix": {
+                "extract_location": "../linuxdata",
+                "setup": true
+            }
+        },
+        "setup": {
+            "complete_path": "../ready",
+            "command": "./setup-ut2004.sh",
+            "uninstall_command": "./uninstall-ut2004.sh",
+            "license_path": "../System/License.int"
+        },
+        "command": "./run-ut2004.sh",
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/13230",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "http://treefort.icculus.org/ut2004/",
+            "version": "3369",
+            "comments": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. Mods should go in the linuxdata directory. Adds foxWSFix by default.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://store.steampowered.com/eula/eula_epic",
+            "closed_source": true
+        }
+    },
+    "13240": {
+        "game_name": "Unreal Tournament: Game of the Year Edition",
+        "download": [
+            {
+                "name": "binaries-436",
+                "url": "http://www.flibitijibibo.com/fedora/installers/",
+                "file": "flibitUT436.tar.gz"
+            },
+            {
+                "name": "binaries-469b",
+                "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469b/",
+                "file": "OldUnreal-UTPatch469b-Linux.tar.bz2"
+            },
+            {
+                "name": "ut99",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-12/",
+                "file": "ut99-13240-12.tar.xz"
+            }
+        ],
+        "command": "./run-ut99-469b.sh",
+        "download_config": {
+            "binaries-436": {
+                "extract_location": "../linuxdata-469b",
+                "strip_prefix": "Install/",
+                "setup": true
+            },
+            "binaries-469b": {
+                "extract_location": "../linuxdata-469b",
+                "strip_prefix": "",
+                "setup": true
+            }
+        },
+        "setup": {
+            "complete_path": "../ready-469b",
+            "command": "./setup-ut99-469b.sh",
+            "uninstall_command": "./uninstall-ut99-469b.sh",
+            "license_path": "../linuxdata-469b/legal.txt"
+        },
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/13240",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469b-release-notes",
+            "version": "469b",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://store.steampowered.com/eula/eula_epic",
+            "closed_source": true,
+            "32-bit": true
+        }
+    },
+    "13250": {
+        "game_name": "Unreal Gold",
+        "download": [
+            {
+                "name": "unreal_libs",
+                "url": "https://luxtorpeda-dev.github.io/closed-assets/",
+                "file": "unreal_libs_i386.tar.bz2"
+            },
+            {
+                "name": "unreal-gold",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/unreal-gold-4/",
+                "file": "unreal-gold-13250-4.tar.xz"
+            }
+        ],
+        "command": "./run-unreal.sh",
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/13250",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://www.oldunreal.com/downloads/unreal/oldunreal-patches/",
+            "version": "227i",
+            "comments": "Requires Oldunreal installer, which requires a manual download and Wine to be installed. System/README.txt should be referred to. Uses library pack from legluondunet. Steam overlay is disabled.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://store.steampowered.com/eula/eula_epic",
+            "closed_source": true,
+            "32-bit": true
+        }
+    },
+    "20510": {
+        "game_name": "S.T.A.L.K.E.R.: Clear Sky",
+        "download": [
+            {
+                "name": "openxray",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-7/",
+                "file": "openxray-common-7.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-openxray-clearsky.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/20510/",
+            "engine_name": "OpenXRay",
+            "engine_link": "https://github.com/OpenXRay/xray-16",
+            "version": "December 2020 Preview",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD with commercial source code",
+            "license_link": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt",
+            "non_free": true
+        }
+    },
+    "22320": {
+        "game_name": "The Elder Scrolls III: Morrowind",
+        "download": [
+            {
+                "name": "openmw",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-9/",
+                "file": "openmw-22320-9.tar.xz"
+            },
+            {
+                "name": "openmw-tes3mp",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-2/",
+                "file": "openmw-tes3mp-22320-2.tar.xz"
+            }
+        ],
+        "download_config": {
+            "openmw-tes3mp": {
+                "extract_location": "./openmw-tes3mp"
+            }
+        },
+        "choices": [
+            {
+                "name": "openmw",
+                "command": "./openmw.sh",
+                "download": [
+                    "openmw"
+                ]
+            },
+            {
+                "name": "openmw-launcher",
+                "command": "./openmw-launcher.sh",
+                "download": [
+                    "openmw"
+                ]
+            },
+            {
+                "name": "openmw-tes3mp",
+                "command": "./openmw-tes3mp/tes3mp-launcher.sh",
+                "download": [
+                    "openmw-tes3mp"
+                ]
+            }
+        ],
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/22320/",
+                "engine_name": "OpenMW",
+                "engine_link": "https://openmw.org/",
+                "version": "0.46.0",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/22320/",
+                "engine_name": "openmw-tes3mp",
+                "engine_link": "https://github.com/TES3MP/openmw-tes3mp",
+                "version": "0.7-alpha",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/TES3MP/openmw-tes3mp/blob/292536439eeda58becdb7e441fe2e61ebb74529e/LICENSE"
+            }
+        ]
+    },
     "32370": {
         "game_name": "STAR WARS™ - Knights of the Old Republic™",
         "download": [
             {
                 "name": "reone",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-15/",
-                "file": "reone-32370-15.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-16/",
+                "file": "reone-32370-16.tar.xz"
             }
         ],
         "command": "./run-kotor1.sh",
@@ -2353,6 +2774,30 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE"
+        }
+    },
+    "41700": {
+        "game_name": "S.T.A.L.K.E.R.: Call of Pripyat",
+        "download": [
+            {
+                "name": "openxray",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-7/",
+                "file": "openxray-common-7.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-openxray.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/41700/",
+            "engine_name": "OpenXRay",
+            "engine_link": "https://github.com/OpenXRay/xray-16",
+            "version": "December 2020 Preview",
+            "comments": "Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD with commercial source code",
+            "license_link": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt",
+            "non_free": true
         }
     },
     "208200": {
@@ -2483,6 +2928,143 @@
             "non_free": true
         }
     },
+    "224960": {
+        "game_name": "Tomb Raider I",
+        "download": [
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr1.zip"
+            },
+            {
+                "name": "openlara",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openlara-3/",
+                "file": "openlara-224960-3.tar.xz"
+            }
+        ],
+        "download_config": {
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data",
+                "strip_prefix": "tr1/"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr1.sh"
+        },
+        "command": "./run-openlara.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/224960",
+            "engine_name": "OpenLara",
+            "engine_link": "https://github.com/XProger/OpenLara",
+            "version": "fc273f2 (from master)",
+            "comments": "Includes music from OpenTomb project downloads. Engine is still in progress so not all features may be implemented.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD 2-Clause",
+            "license_link": "https://github.com/XProger/OpenLara/blob/master/LICENSE"
+        }
+    },
+    "224980": {
+        "game_name": "Tomb Raider IV: The Last Revelation",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr4.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-3/",
+                "file": "opentomb-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr4.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/224980",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
+    },
+    "225000": {
+        "game_name": "Tomb Raider V: Chronicles",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr5.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-3/",
+                "file": "opentomb-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr5.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/225000",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
+    },
     "225140": {
         "game_name": "Duke Nukem 3D: Megaton Edition",
         "download": [
@@ -2596,6 +3178,104 @@
                 "license_link": "https://github.com/coelckers/Raze"
             }
         ]
+    },
+    "225300": {
+        "game_name": "Tomb Raider II",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr2.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-3/",
+                "file": "opentomb-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr2.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/225300",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
+    },
+    "225320": {
+        "game_name": "Tomb Raider III: Adventures of Lara Croft",
+        "download": [
+            {
+                "name": "opentomb_loading_screens",
+                "url": "http://trep.trlevel.de/temp/",
+                "file": "loading_screens.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "music",
+                "url": "https://opentomb.earvillage.net/",
+                "file": "tr3.zip"
+            },
+            {
+                "name": "opentomb",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-3/",
+                "file": "opentomb-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "opentomb_loading_screens": {
+                "setup": true,
+                "decode_as_zip": true
+            },
+            "music": {
+                "setup": true,
+                "decode_as_zip": true,
+                "extract_location": "./data"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-tr3.sh"
+        },
+        "command": "./run-opentomb.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/225320",
+            "engine_name": "OpenTomb",
+            "engine_link": "https://github.com/opentomb/OpenTomb",
+            "version": "8e4c249 (from master)",
+            "comments": "Includes music and loading screens from OpenTomb project downloads. Engine is still in progress so not all features may be implemented. Read engine README for how to switch levels.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv3",
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+        }
     },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
@@ -2859,6 +3539,60 @@
             "non_free": true
         }
     },
+    "285310": {
+        "game_name": "RollerCoaster Tycoon: Deluxe",
+        "download": [
+            {
+                "name": "openrct2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-15/",
+                "file": "openrct2-common-15.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-rct1.sh"
+        },
+        "command": "./run-openrct2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/285310",
+            "engine_name": "openrct2",
+            "engine_link": "https://openrct2.io/",
+            "version": "v0.3.4.1",
+            "comments": "Requires assets from RCT2 to run, so RCT2 should be run through Steam first. Steam overlay will be disabled, since the engine crashes with it on.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
+        }
+    },
+    "285330": {
+        "game_name": "RollerCoaster Tycoon 2: Triple Thrill Pack",
+        "download": [
+            {
+                "name": "openrct2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-15/",
+                "file": "openrct2-common-15.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-rct2.sh"
+        },
+        "command": "./run-openrct2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/285330",
+            "engine_name": "openrct2",
+            "engine_link": "https://openrct2.io/",
+            "version": "v0.3.4.1",
+            "comments": "Steam overlay will be disabled, since the engine crashes with it on.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
+        }
+    },
     "289440": {
         "game_name": "Perimeter",
         "download": [
@@ -3120,6 +3854,28 @@
             "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
         }
     },
+    "358830": {
+        "game_name": "Good Robot",
+        "download": [
+            {
+                "name": "good-robot",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/good-robot-2/",
+                "file": "good-robot-358830-2.tar.xz"
+            }
+        ],
+        "command": "./run-good-robot.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/358830",
+            "engine_name": "Good-Robot",
+            "engine_link": "https://github.com/arvindrajayadav/Good-Robot",
+            "version": "c9a0a5f (from master)",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/arvindrajayadav/Good-Robot/blob/master/LICENSE.txt"
+        }
+    },
     "371180": {
         "game_name": "Super 3-D Noah's Ark",
         "download": [
@@ -3199,6 +3955,34 @@
                 "license_link": "https://github.com/coelckers/Raze"
             }
         ]
+    },
+    "410700": {
+        "game_name": "System Shock: Classic",
+        "download": [
+            {
+                "name": "shockolate",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/shockolate-2/",
+                "file": "shockolate-410700-2.tar.xz"
+            }
+        ],
+        "download_config": {
+            "shockolate": {
+                "extract_location": "../SSHOCK"
+            }
+        },
+        "command": "../SSHOCK/run-shockolate.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/410700",
+            "engine_name": "shockolate",
+            "engine_link": "https://github.com/Interrupt/systemshock",
+            "version": "bcdb119",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Interrupt/systemshock/blob/master/COPYING.txt",
+            "32-bit": true
+        }
     },
     "410970": {
         "game_name": "Master of Orion 1",
@@ -3448,6 +4232,29 @@
             "license_link": "https://github.com/scemino/engge/blob/master/LICENSE"
         }
     },
+    "572050": {
+        "game_name": "Call to Power II",
+        "download": [
+            {
+                "name": "ctp2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ctp2-4/",
+                "file": "ctp2-572050-4.tar.xz"
+            }
+        ],
+        "command": "./run-ctp2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/572050/Call_to_Power_II/",
+            "engine_name": "civctp2",
+            "engine_link": "https://github.com/ptitSeb/ctp2.git",
+            "version": "2584d00 (from master)",
+            "comments": "Steam overlay does not work",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Activision",
+            "license_link": "https://github.com/ptitSeb/ctp2/blob/master/EULA%20-%20Source%20Code%20for%20CTP2.rtf",
+            "non_free": true
+        }
+    },
     "580940": {
         "game_name": "Redneck Rampage Rides Again",
         "download": [
@@ -3532,6 +4339,28 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
+    "961620": {
+        "game_name": "Flashback",
+        "download": [
+            {
+                "name": "reminiscence",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reminiscence-3/",
+                "file": "reminiscence-961620-3.tar.xz"
+            }
+        ],
+        "command": "./run-flashback.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/961620/",
+            "engine_name": "REminiscence / REinforced",
+            "engine_link": "https://github.com/chermenin/REminiscence",
+            "version": "e846387",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/chermenin/REminiscence/blob/master/LICENSE"
         }
     },
     "1000410": {
@@ -3870,6 +4699,68 @@
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
         }
     },
+    "1379630": {
+        "game_name": "RealRTCW",
+        "download": [
+            {
+                "name": "realrtcw",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-12/",
+                "file": "realrtcw-1379630-12.tar.xz"
+            }
+        ],
+        "commands": {
+            ".*RealRTCW.x64.exe": {
+                "cmd": "./nosteam/RealRTCW.x86_64",
+                "args": [
+                    "+set",
+                    "com_basegame",
+                    "Main"
+                ]
+            }
+        },
+        "download_config": {
+            "realrtcw": {
+                "extract_location": "./nosteam/"
+            }
+        },
+        "setup": {
+            "complete_path": "./nosteam/ready-nosteam-moddb-33",
+            "command": "./nosteam/setup-realrtcw.sh"
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1379630/",
+            "engine_name": "realrtcw",
+            "engine_link": "https://github.com/wolfetplayer/RealRTCW",
+            "version": "3.3 (nosteam)",
+            "comments": "Requires installation of RTCW. Will ask for directory path on first launch. No steam version from moddb, required to be extracted into nosteam directory.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/wolfetplayer/RealRTCW/blob/7e6dc5df09237b5d6b520c8bff9041aef61db943/COPYING.txt"
+        }
+    },
+    "1393750": {
+        "game_name": "Ocean's Heart",
+        "download": [
+            {
+                "name": "solarus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/solarus-2/",
+                "file": "solarus-1393750-2.tar.xz"
+            }
+        ],
+        "command": "./run-ocean-heart.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1393750/",
+            "engine_name": "solarus",
+            "engine_link": "https://gitlab.com/solarus-games/solarus",
+            "version": "v1.6.5",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://gitlab.com/solarus-games/solarus/-/blob/dev/license_gpl.txt"
+        }
+    },
     "1417010": {
         "game_name": "Shrine II",
         "download": [
@@ -4067,6 +4958,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-7/",
                 "file": "dosbox-staging-common-7.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "easyrpg-player",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/easyrpg-player-2/",
+                "file": "easyrpg-player-common-2.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -4092,6 +4989,13 @@
                 "download": [
                     "dosbox-staging"
                 ]
+            },
+            {
+                "name": "easyrpg-player",
+                "command": "./run-easyrpg-player.sh",
+                "download": [
+                    "easyrpg-player"
+                ]
             }
         ],
         "information": [
@@ -4116,6 +5020,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
+            },
+            {
+                "store_link": "https://easyrpg.org/player/",
+                "engine_name": "easyrpg-player",
+                "engine_link": "https://github.com/EasyRPG/Player",
+                "version": "0.6.2.3",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "GPLv3",
+                "license_link": "https://github.com/EasyRPG/Player/blob/master/COPYING"
             }
         ]
     }
