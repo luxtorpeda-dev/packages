@@ -27,6 +27,9 @@ cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DENABLE_SDL2=ON \
+    -DENABLE_SOUND=ON \
+    -DENABLE_FLUIDSYNTH=ON \
     ..
 make -j "$(nproc)" systemshock
 popd
