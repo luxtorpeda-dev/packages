@@ -1,5 +1,8 @@
 #!/bin/bash
 
+readonly tmp="$PWD/tmp"
+mkdir -p "$pfx"
+
 # CLONE PHASE
 git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
@@ -12,49 +15,9 @@ pushd server
 git checkout -f 46698c1
 popd
 
-git clone https://github.com/boostorg/boost boost
-pushd boost
-git checkout -f afb333b7
-git submodule update --init --recursive
-popd
-
-git clone https://github.com/bulletphysics/bullet3 bullet3
-pushd bullet3
-git checkout -f 6e4707df
-git submodule update --init --recursive
-popd
-
-git clone https://github.com/FFmpeg/FFmpeg ffmpeg
-pushd ffmpeg
-git checkout -f ba11e40
-git submodule update --init --recursive
-popd
-
-git clone https://github.com/MyGUI/mygui mygui
-pushd mygui
-git checkout -f 8a05127d
-git submodule update --init --recursive
-popd
-
-git clone --recursive https://github.com/OpenMW/osg osg
-pushd osg
-git checkout -f 8b07809fa674ecffe77338aaea2e223b3aadff0e
-git submodule update --init --recursive
-popd
-
-git clone https://github.com/twogood/unshield.git
-pushd unshield
-git checkout -f c5d3560
-popd
-
 git clone https://github.com/TES3MP/CrabNet.git crabnet
 pushd crabnet
 git checkout -f 19e6619
-popd
-
-git clone https://github.com/LuaJIT/LuaJIT.git luajit
-pushd luajit
-git checkout -f 570e758
 popd
 
 git clone https://github.com/Koncord/CallFF.git callff
@@ -66,15 +29,6 @@ wget https://github.com/zdevito/terra/releases/download/release-2016-03-25/terra
 unzip terra-Linux-x86_64-332a506.zip
 
 # BUILD PHASE
-
-# build deps
-./build-boost.sh
-./build-ffmpeg.sh
-./build-osg.sh
-./build-mygui.sh
-./build-bullet.sh
-
-# build openmw
 generate_openmw_cfg () {
     tail -n +2 "$1" | sed -e 's!\(data\|resources\)=/usr/local/\(.*\)!\1=\2!g'
     echo "fallback-archive=Morrowind.bsa"
@@ -84,22 +38,6 @@ generate_openmw_cfg () {
     echo "content=Tribunal.esm"
     echo "content=Bloodmoon.esm"
 }
-
-readonly pfx="$PWD/local"
-readonly tmp="$PWD/tmp"
-mkdir -p "$pfx"
-mkdir -p "$tmp"
-pstart="$PWD"
-
-pushd unshield
-mkdir -p build
-cd build
-cmake \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    ..
-make -j "$(nproc)"
-make install
-popd
 
 pushd crabnet
 mkdir -p build
@@ -123,11 +61,6 @@ cmake \
 make -j "$(nproc)"
 popd
 
-pushd luajit
-make -j "$(nproc)"
-DESTDIR="$pfx" make install
-popd
-
 export CXXFLAGS="-fpermissive"
 export CFLAGS="-fpermissive"
 export Terra_ROOT="$pstart/terra-Linux-x86_64-332a506"
@@ -143,7 +76,7 @@ cmake \
     -DBUILD_OPENCS=OFF \
     -DBUILD_WIZARD=ON \
     -DBUILD_MYGUI_PLUGIN=OFF \
-    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
+    -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DRakNet_LIBRARY_DEBUG="$pfx/lib/libRakNetLibStatic.a" \
     -DLuaJit_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
