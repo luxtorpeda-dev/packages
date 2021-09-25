@@ -3831,6 +3831,30 @@
             "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
         }
     },
+    "358370": {
+        "game_name": "Terminal Velocity",
+        "download": [
+            {
+                "name": "openjdk11",
+                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                "cache_by_name": true
+            }
+        ],
+        "use_original_command_directory": true,
+        "command": "./run-terminal-recall.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/358370",
+            "engine_name": "terminal-recall",
+            "engine_link": "https://github.com/jtrfp/terminal-recall",
+            "version": "1bdf062",
+            "comments": "Need to configure the paths to the POD files using the in-game configuration menu for the first time.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Apache 2.0",
+            "license_link": "https://github.com/jtrfp/terminal-recall/blob/master/LICENSE-2.0.apache.txt"
+        }
+    },
     "358830": {
         "game_name": "Good Robot",
         "download": [
