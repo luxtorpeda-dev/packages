@@ -3,33 +3,13 @@
 # CLONE PHASE
 git clone https://github.com/XProger/OpenLara.git source
 pushd source
-git checkout 9c70e5ba0f46d36e96a89d1bcc57c3e8097a8a50
-git am < ../patches/0001-Fix-compile-error.patch
+git checkout fc273f2
 popd
-
-git clone https://github.com/hessu/bchunk.git bchunk
-pushd bchunk
-git checkout -f 2d46931
-popd
-
-wget https://www.gnu.org/software/xorriso/xorriso-1.5.2.tar.gz
-tar xvf xorriso-1.5.2.tar.gz
 
 pushd source/src/platform/nix
 ./build.sh
 popd
 
-pushd bchunk
-make
-popd
-
-pushd xorriso-1.5.2
-./configure
-make
-popd
-
 # COPY PHASE
 cp -rfv source/bin/OpenLara "$diststart/224960/dist"
-cp -rfv bchunk/bchunk "$diststart/224960/dist"
-cp -rfv xorriso-1.5.2/xorriso/xorriso "$diststart/224960/dist"
 cp -rfv assets/*.sh "$diststart/224960/dist"

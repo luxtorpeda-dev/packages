@@ -6,13 +6,7 @@ tar xvf zlib-1.2.11.tar.gz
 
 # BUILD PHASE
 pushd zlib-1.2.11
-grep -A 24 '^  Copyright' zlib.h > LICENSE
-cd contrib/minizip
-mkdir -p build
-cp Makefile Makefile.orig
-cp ../README.contrib readme.txt
-autoreconf --install
-./configure --prefix="$pfx" --enable-static=no
+./configure --prefix="$pfx"
 make
 make install DESTDIR="$pfx"
 make install
