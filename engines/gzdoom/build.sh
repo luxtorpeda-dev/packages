@@ -4,7 +4,7 @@
 # CLONE PHASE
 git clone https://github.com/coelckers/gzdoom.git source
 pushd source
-git checkout 347324e
+git checkout 0e809b2
 popd
 
 # BUILD PHASE
