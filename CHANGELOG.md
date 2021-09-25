@@ -3,6 +3,7 @@
 * Add support for building against steam runtime
 * Added support for common library build scripts, so engines that share libraries do not have to each define the build scripts for them. Now can set ```export LIBRARIES="fluidsynth zmusic"``` as an example, which will clone, build, and copy the license and library files to the artifact.
 * Re-built all games for new runtime. This will lead to better tooling support with the newer build system, easier to maintain library build scripts, and the engines have been updated to their latest.
+* Added terminal-recall to runtime. Thanks to ToughGuyKunio for the key
 
 ### 30.4 (2021-09-14)
 
