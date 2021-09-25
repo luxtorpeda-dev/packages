@@ -11,6 +11,7 @@ wget https://gcc.gnu.org/pub/gcc/releases/gcc-3.3.6/gcc-g++-3.3.6.tar.bz2
 
 tar xvf gcc-core-3.3.6.tar.bz2
 tar xvf gcc-g++-3.3.6.tar.bz2
+ln -s /usr/include/asm-generic /usr/include/asm
 
 # BUILD PHASE
 pushd "openal"
