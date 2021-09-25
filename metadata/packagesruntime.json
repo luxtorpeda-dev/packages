@@ -3472,6 +3472,60 @@
             "non_free": true
         }
     },
+    "285310": {
+        "game_name": "RollerCoaster Tycoon: Deluxe",
+        "download": [
+            {
+                "name": "openrct2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-14/",
+                "file": "openrct2-common-14.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-rct1.sh"
+        },
+        "command": "./run-openrct2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/285310",
+            "engine_name": "openrct2",
+            "engine_link": "https://openrct2.io/",
+            "version": "v0.3.4.1",
+            "comments": "Requires assets from RCT2 to run, so RCT2 should be run through Steam first. Steam overlay will be disabled, since the engine crashes with it on.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
+        }
+    },
+    "285330": {
+        "game_name": "RollerCoaster Tycoon 2: Triple Thrill Pack",
+        "download": [
+            {
+                "name": "openrct2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-14/",
+                "file": "openrct2-common-14.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-rct2.sh"
+        },
+        "command": "./run-openrct2.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/285330",
+            "engine_name": "openrct2",
+            "engine_link": "https://openrct2.io/",
+            "version": "v0.3.4.1",
+            "comments": "Steam overlay will be disabled, since the engine crashes with it on.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
+        }
+    },
     "299030": {
         "game_name": "Blood: One Unit Whole Blood",
         "download": [
