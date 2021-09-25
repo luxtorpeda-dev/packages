@@ -1,5 +1,10 @@
 #!/bin/bash
 
+sudo apt-get install -y python-yaml bc
+curl -s http://setconf.roboticoverlords.org/setconf-0.7.7.tar.xz | tar JxC /tmp
+sudo install -Dm755 /tmp/setconf-0.7.7/setconf.py /usr/bin/setconf
+sudo install -Dm644 /tmp/setconf-0.7.7/setconf.1.gz /usr/share/man/man1/setconf.1.gz
+
 # CLONE PHASE
 git clone https://github.com/OpenRCT2/OpenRCT2.git source
 pushd source
@@ -10,11 +15,6 @@ wget https://github.com/OpenRCT2/objects/releases/download/v1.0.16/objects.zip
 wget https://github.com/OpenRCT2/title-sequences/releases/download/v0.1.2c/title-sequences.zip
 
 # BUILD PHASE
-sudo apt-get install -y python-yaml bc
-curl -s http://setconf.roboticoverlords.org/setconf-0.7.7.tar.xz | tar JxC /tmp
-sudo install -Dm755 /tmp/setconf-0.7.7/setconf.py /usr/bin/setconf
-sudo install -Dm644 /tmp/setconf-0.7.7/setconf.1.gz /usr/share/man/man1/setconf.1.gz
-
 pushd source
 mkdir build
 cd build
