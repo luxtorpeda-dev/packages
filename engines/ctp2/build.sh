@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/civctp2/civctp2.git source
+git clone https://github.com/ptitSeb/ctp2.git source
 pushd source
-git checkout ae8b555
+git checkout 2584d00
 popd
 
 # BUILD PHASE
@@ -13,13 +13,12 @@ cp -rfv "Activision CTP2 Source Code_Readme.txt" "Activision_CTP2_Source_Code_Re
 cp -rfv "Apolyton CTP2 Source Code_Readme.txt" "Apolyton_CTP2_Source_Code_Readme.txt"
 
 ./autogen.sh
-CFLAGS="$CFLAGS -O3" CXXFLAGS="$CXXFLAGS -fpermissive -O3" ./configure --enable-silent-rules
+CFLAGS="$CFLAGS -w -fuse-ld=gold" CXXFLAGS="$CXXFLAGS -w -fuse-ld=gold" ./configure --enable-silent-rules
 make
 popd
 
 # COPY PHASE
 mkdir -p "$diststart/572050/dist/ctp2_program/ctp/dll/map"
-
 cp -rfv source/ctp2_code/ctp2 "$diststart/572050/dist/ctp2_program/ctp/ctp2"
 cp -rfv source/ctp2_data "$diststart/572050/dist/"
 cp -rfv source/ctp2_code/mapgen/.libs/*.so "$diststart/572050/dist/ctp2_program/ctp/dll/map"
