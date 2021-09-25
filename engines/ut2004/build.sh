@@ -13,7 +13,6 @@ tar xvf gcc-core-3.3.6.tar.bz2
 tar xvf gcc-g++-3.3.6.tar.bz2
 
 # BUILD PHASE
-
 pushd "openal"
 cd build
 cmake \
@@ -24,18 +23,21 @@ popd
 
 # gcc build based on https://aur.archlinux.org/packages/lib32-libstdc%2B%2B5/
 
-pushd "/usr/lib"
-ln -s x86_64-linux-gnu/crt*.o .
-popd
-
 pushd gcc-3.3.6
+sed -e '# gcc-3.4.6-ucontext.patch' \
+      -e 's:\bstruct ucontext\b:ucontext_t:g' \
+      -e '# siginfo.patch' \
+      -e 's:\bstruct siginfo\b:siginfo_t:g' \
+    -i $(grep --include 'linux*.h' -lrFe $'struct ucontext\nstruct siginfo' gcc/config/)
+
 sed -e "s#O_CREAT#O_CREAT, 0666#" -i 'gcc/collect2.c'
+  # No fixincludes
 sed -e 's@\./fixinc\.sh@-c true@' \
-    -e '# Clean up some warnings that arent our business' \
-    -e 's:-Wstrict-prototypes::g' \
-    -e 's:-Wtraditional::g' \
-    -e 's:-pedantic::g' \
-    -e 's:-Wall::g' \
+      -e '# Clean up some warnings that arent our business' \
+      -e 's:-Wstrict-prototypes::g' \
+      -e 's:-Wtraditional::g' \
+      -e 's:-pedantic::g' \
+      -e 's:-Wall::g' \
     -i 'gcc/Makefile.in'
 sed -e 's:-Wall -Wtraditional -pedantic::g' -i 'libiberty/configure'
 popd
