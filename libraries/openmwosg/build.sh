@@ -1,13 +1,13 @@
 #!/bin/bash
 
-set -x
-set -e
+# CLONE PHASE
+git clone --recursive https://github.com/OpenMW/osg osg
+pushd osg
+git checkout -f 8b07809fa674ecffe77338aaea2e223b3aadff0e
+git submodule update --init --recursive
+popd
 
-readonly pfx="$PWD/local"
-mkdir -p "$pfx"
-
-# build OpenSceneGraph
-#
+# BUILD PHASE
 pushd "osg"
 mkdir -p build
 cd build
