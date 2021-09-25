@@ -31,7 +31,6 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DENABLE_SDL2=ON \
     -DENABLE_SOUND=ON \
-    -DENABLE_FLUIDSYNTH=ON \
     ..
 make -j "$(nproc)" systemshock
 popd
