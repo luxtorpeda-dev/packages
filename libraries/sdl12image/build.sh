@@ -12,3 +12,6 @@ pushd "sdl_image"
 make -j "$(nproc)"
 make install
 popd
+
+cp -rfv "$pfx/lib/"* /usr/lib
+cp -rfv "$pfx/include/"* /usr/include
