@@ -8,9 +8,10 @@ rm CMakeLists.txt
 cp -rfv CMakeLists.32bit.txt CMakeLists.txt
 popd
 
-git clone https://github.com/Doom64/fluidsynth-lite.git
-
 # BUILD PHASE
+mkdir ./build_ext/
+pushd build_ext
+git clone https://github.com/Doom64/fluidsynth-lite.git
 pushd fluidsynth-lite
 sed -i 's/DLL"\ off/DLL"\ on/' CMakeLists.txt
 export CFLAGS="-m32"
@@ -19,10 +20,7 @@ export CXXFLAGS="-m32"
 cmake .
 cmake --build .
 make install
-
-cp -rfv /usr/local/lib/libfluidsynth* /usr/lib/i386-linux-gnu/
-cp -rfv /usr/local/include/fluidsynth* /usr/include
-
+popd
 popd
 
 pushd source
