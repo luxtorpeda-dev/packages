@@ -24,6 +24,10 @@ popd
 
 # gcc build based on https://aur.archlinux.org/packages/lib32-libstdc%2B%2B5/
 
+pushd "/usr/lib"
+ln -s x86_64-linux-gnu/crt*.o .
+popd
+
 pushd gcc-3.3.6
 sed -e '# gcc-3.4.6-ucontext.patch' \
       -e 's:\bstruct ucontext\b:ucontext_t:g' \
