@@ -2463,6 +2463,57 @@
             }
         ]
     },
+    "13230": {
+        "game_name": "Unreal Tournament 2004: Editor's Choice Edition",
+        "download": [
+            {
+                "name": "ut2004",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut2004-7/",
+                "file": "ut2004-13230-7.tar.xz"
+            },
+            {
+                "name": "foxWSFix",
+                "url": "https://luxtorpeda-dev.github.io/closed-assets/",
+                "file": "ut2004-foxWSFix-2.1.0.tar.xz"
+            },
+            {
+                "name": "binaries",
+                "url": "https://treefort.icculus.org/ut2004/",
+                "file": "ut2004-lnxpatch3369-2.tar.bz2"
+            }
+        ],
+        "download_config": {
+            "binaries": {
+                "extract_location": "../linuxdata",
+                "strip_prefix": "UT2004-Patch/",
+                "setup": true
+            },
+            "foxWSFix": {
+                "extract_location": "../linuxdata",
+                "setup": true
+            }
+        },
+        "setup": {
+            "complete_path": "../ready",
+            "command": "./setup-ut2004.sh",
+            "uninstall_command": "./uninstall-ut2004.sh",
+            "license_path": "../System/License.int"
+        },
+        "command": "./run-ut2004.sh",
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/13230",
+            "engine_name": "Proprietary Engine",
+            "engine_link": "http://treefort.icculus.org/ut2004/",
+            "version": "3369",
+            "comments": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. Mods should go in the linuxdata directory. Adds foxWSFix by default.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://store.steampowered.com/eula/eula_epic",
+            "closed_source": true
+        }
+    },
     "13240": {
         "game_name": "Unreal Tournament: Game of the Year Edition",
         "download": [
