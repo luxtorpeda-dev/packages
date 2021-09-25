@@ -1,5 +1,8 @@
 #!/bin/bash
 
+readonly tmp="$PWD/tmp"
+mkdir -p "$pfx"
+
 # CLONE PHASE
 git clone https://github.com/OpenMW/openmw source
 pushd source
