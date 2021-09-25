@@ -5,6 +5,7 @@ git clone https://github.com/OpenMW/openmw source
 pushd source
 git checkout -f 0abcb54
 git submodule update --init --recursive
+git am < ../patches/0001-Fix-compile-error.patch
 popd
 
 # BUILD PHASE
