@@ -3851,8 +3851,8 @@
             "comments": "Need to configure the paths to the POD files using the in-game configuration menu for the first time.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
-            "license": "LGPLv3",
-            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+            "license": "Apache 2.0",
+            "license_link": "https://github.com/jtrfp/terminal-recall/blob/master/LICENSE-2.0.apache.txt"
         }
     },
     "358830": {
