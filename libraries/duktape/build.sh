@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get install -y python-yaml bc
-curl -s http://setconf.roboticoverlords.org/setconf-0.7.7.tar.xz | tar JxC /tmp
+curl -s https://setconf.roboticoverlords.org/setconf-0.7.7.tar.xz | tar JxC /tmp
 sudo install -Dm755 /tmp/setconf-0.7.7/setconf.py /usr/bin/setconf
 sudo install -Dm644 /tmp/setconf-0.7.7/setconf.1.gz /usr/share/man/man1/setconf.1.gz
 
