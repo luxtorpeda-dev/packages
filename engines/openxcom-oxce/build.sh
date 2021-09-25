@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt-get -y install libsdl1.2-dev #workaround for building not finding the sdl12compat, engine will use sdl12compat for the actual library
+
 # CLONE PHASE
 git clone https://github.com/MeridianOXC/OpenXcom.git source
 pushd source
