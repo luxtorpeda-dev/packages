@@ -19,6 +19,10 @@ export CXXFLAGS="-m32"
 cmake .
 cmake --build .
 make install
+
+cp -rfv /usr/local/lib/libfluidsynth* /usr/lib/i386-linux-gnu/
+cp -rfv /usr/local/include/fluidsynth* /usr/include
+
 popd
 
 pushd source
