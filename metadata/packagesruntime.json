@@ -4065,8 +4065,8 @@
         "download": [
             {
                 "name": "ctp2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ctp2-2/",
-                "file": "ctp2-572050-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ctp2-3/",
+                "file": "ctp2-572050-3.tar.xz"
             }
         ],
         "command": "./run-ctp2.sh",
