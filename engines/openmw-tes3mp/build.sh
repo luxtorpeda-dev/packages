@@ -2,7 +2,7 @@
 
 pstart="$PWD"
 readonly tmp="$PWD/tmp"
-mkdir -p "$pfx"
+mkdir -p "$tmp"
 
 # CLONE PHASE
 git clone https://github.com/TES3MP/openmw-tes3mp.git source
