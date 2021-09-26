@@ -7,7 +7,7 @@ mkdir -p "$pfx"
 # CLONE PHASE
 git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
-git checkout -f 2925364
+git checkout -f ad9ee80
 git submodule update --init --recursive
 popd
 
