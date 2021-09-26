@@ -105,3 +105,4 @@ cp "$tmp/usr/local/etc/openmw/tes3mp-server-default.cfg" "$diststart/22320/dist"
 
 cp -rfv server "$diststart/22320/dist"
 cp -rfv source/tes3mp-credits.md "$diststart/22320/dist"
+cp -rfv assets/version "$diststart/22320/dist/share/games/openmw/resources/version"
