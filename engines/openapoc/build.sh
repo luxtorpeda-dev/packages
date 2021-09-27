@@ -26,6 +26,7 @@ popd
 # COPY PHASE
 rm -rf "source/data/cd.iso"
 mkdir -p "$diststart/7660/dist/bin/"
+
 cp -rfv "source/build/bin/OpenApoc" "$diststart/7660/dist/bin/"
 cp -rfv "source/build/bin/OpenApoc_Launcher" "$diststart/7660/dist/bin/"
 cp -rfv "source/data" "$diststart/7660/dist/"
