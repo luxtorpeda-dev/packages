@@ -11,7 +11,6 @@ popd
 pushd source
 wget http://s2.jonnyh.net/pub/cd_minimal.iso.xz -O data/cd.iso.xz
 xz -d data/cd.iso.xz
-
 mkdir build
 cd build
 cmake \

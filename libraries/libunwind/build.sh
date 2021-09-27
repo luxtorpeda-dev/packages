@@ -14,3 +14,5 @@ pushd libunwind
 make
 make install
 popd
+
+cp -rfv "/usr/local/lib/libunwind"* "/usr/lib"
