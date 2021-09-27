@@ -4377,6 +4377,7 @@
             }
         },
         "command": "./run-entropy-zero.sh",
+        "app_ids_deps": [243730, 1070560],
         "information": {
             "store_link": "https://store.steampowered.com/app/714070",
             "engine_name": "Source SDK 2013",
