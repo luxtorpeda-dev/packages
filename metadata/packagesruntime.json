@@ -2626,13 +2626,13 @@
         "download": [
             {
                 "name": "openmw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-9/",
-                "file": "openmw-22320-9.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-10/",
+                "file": "openmw-22320-10.tar.xz"
             },
             {
                 "name": "openmw-tes3mp",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-2/",
-                "file": "openmw-tes3mp-22320-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-3/",
+                "file": "openmw-tes3mp-22320-3.tar.xz"
             }
         ],
         "download_config": {
@@ -3277,6 +3277,30 @@
             "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
         }
     },
+    "235780": {
+        "game_name": "MINERVA",
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-14/",
+                "file": "source-sdk-2013-235780-14.tar.xz"
+            }
+        ],
+        "command": "./run-metastasis.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/235780",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+            "version": "Steam release",
+            "comments": "Requires Source SDK 2013 Singleplayer, Half-Life 2 Episode 1, and Steam Linux Runtime to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
+        }
+    },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
         "download": [
@@ -3521,8 +3545,8 @@
         "download": [
             {
                 "name": "fs2open",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-22/",
-                "file": "fs2open-273620-22.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-23/",
+                "file": "fs2open-273620-23.tar.xz"
             }
         ],
         "command": "./run-freespace2.sh",
@@ -3530,7 +3554,7 @@
             "store_link": "https://store.steampowered.com/app/273620/Freespace_2/",
             "engine_name": "scp-fs2open",
             "engine_link": "https://github.com/scp-fs2open/fs2open.github.com",
-            "version": "Release 21.2.0",
+            "version": "Release 21.4.0",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -3544,8 +3568,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-15/",
-                "file": "openrct2-common-15.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-16/",
+                "file": "openrct2-common-16.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3571,8 +3595,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-15/",
-                "file": "openrct2-common-15.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-16/",
+                "file": "openrct2-common-16.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3852,6 +3876,35 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
+        }
+    },
+    "358370": {
+        "game_name": "Terminal Velocity",
+        "download": [
+            {
+                "name": "openjdk11",
+                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "terminal-recall",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/terminal-recall-1/",
+                "file": "terminal-recall-358370-1.tar.xz"
+            }
+        ],
+        "use_original_command_directory": true,
+        "command": "./run-terminal-recall.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/358370",
+            "engine_name": "terminal-recall",
+            "engine_link": "https://github.com/jtrfp/terminal-recall",
+            "version": "1bdf062",
+            "comments": "Need to configure the paths to the POD files using the in-game configuration menu for the first time.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Apache 2.0",
+            "license_link": "https://github.com/jtrfp/terminal-recall/blob/master/LICENSE-2.0.apache.txt"
         }
     },
     "358830": {
@@ -4312,6 +4365,80 @@
             }
         ]
     },
+    "698780": {
+        "game_name": "Doki Doki Literature Club!",
+        "command": "./DDLC.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/698780/",
+            "engine_name": "Ren'Py",
+            "engine_link": "https://www.renpy.org/",
+            "version": "",
+            "comments": "Using Linux version bundled with Windows version",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "MIT, LGPLv2.1 and other free/libre/open source licenses",
+            "license_link": "https://www.renpy.org/doc/html/license.html"
+        }
+    },
+    "714070": {
+        "game_name": "Entropy : Zero",
+        "download": [
+            {
+                "name": "ez1",
+                "url": "https://github.com/z33ky/source-sdk-2013/releases/download/ez1-v4.linux3/",
+                "file": "ez1-v4.linux3.tar.xz"
+            },
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-14/",
+                "file": "source-sdk-2013-714070-14.tar.xz"
+            }
+        ],
+        "download_config": {
+            "ez1": {
+                "extract_location": "./Entropy Zero/EntropyZero"
+            }
+        },
+        "command": "./run-entropy-zero.sh",
+        "app_ids_deps": [243730, 1070560],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/714070",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/z33ky/source-sdk-2013",
+            "version": "ez1-v4.linux3",
+            "comments": "Uses already compiled binaries from z33ky project project. Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/z33ky/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
+        }
+    },
+    "747250": {
+        "game_name": "Half-Life 2: Year Long Alarm",
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-14/",
+                "file": "source-sdk-2013-747250-14.tar.xz"
+            }
+        ],
+        "command": "./run-year-long-alarm.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/747250",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+            "version": "Steam release",
+            "comments": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
+        }
+    },
     "817220": {
         "game_name": "The Forestale",
         "download": [
@@ -4441,6 +4568,30 @@
                 "license_link": "https://github.com/coelckers/Raze"
             }
         ]
+    },
+    "1054600": {
+        "game_name": "Resistance Element",
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-14/",
+                "file": "source-sdk-2013-1054600-14.tar.xz"
+            }
+        ],
+        "command": "./run-resistance-element.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1054600",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+            "version": "Steam release",
+            "comments": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
+        }
     },
     "1072150": {
         "game_name": "Hedon",

@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/scp-fs2open/fs2open.github.com source
 pushd source
-git checkout -f 9a07486
+git checkout -f 7bb0c77
 git submodule update --init --recursive
 popd
 
@@ -23,5 +23,5 @@ DESTDIR="$tmp" make install
 popd
 
 # COPY PHASE
-cp -rfv "source/build/bin/fs2_open_21_2_0_x64" "$diststart/273620/dist/fs2_open_x64"
+cp -rfv "source/build/bin/fs2_open_21_4_0_x64" "$diststart/273620/dist/fs2_open_x64"
 cp -rfv "assets/run-freespace2.sh" "$diststart/273620/dist/run-freespace2.sh"
