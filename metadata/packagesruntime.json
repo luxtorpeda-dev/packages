@@ -3282,8 +3282,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-14/",
-                "file": "source-sdk-2013-235780-14.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-15/",
+                "file": "source-sdk-2013-235780-15.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -4395,8 +4395,8 @@
             },
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-14/",
-                "file": "source-sdk-2013-714070-14.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-15/",
+                "file": "source-sdk-2013-714070-15.tar.xz"
             }
         ],
         "download_config": {
@@ -4428,8 +4428,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-14/",
-                "file": "source-sdk-2013-747250-14.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-15/",
+                "file": "source-sdk-2013-747250-15.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -4586,8 +4586,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-14/",
-                "file": "source-sdk-2013-1054600-14.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-15/",
+                "file": "source-sdk-2013-1054600-15.tar.xz"
             }
         ],
         "app_ids_deps": [
