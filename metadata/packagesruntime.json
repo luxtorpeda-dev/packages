@@ -3286,6 +3286,11 @@
                 "file": "source-sdk-2013-235780-14.tar.xz"
             }
         ],
+        "app_ids_deps": [
+            243730,
+            1070560,
+            380
+        ],
         "command": "./run-metastasis.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/235780",
@@ -4383,27 +4388,18 @@
     "714070": {
         "game_name": "Entropy : Zero",
         "download": [
-            {
-                "name": "ez1",
-                "url": "https://github.com/z33ky/source-sdk-2013/releases/download/ez1-v4.linux3/",
-                "file": "ez1-v4.linux3.tar.xz"
-            },
-            {
-                "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-14/",
-                "file": "source-sdk-2013-714070-14.tar.xz"
-            }
+
         ],
         "download_config": {
             "ez1": {
                 "extract_location": "./Entropy Zero/EntropyZero"
             }
         },
-        "command": "./run-entropy-zero.sh",
         "app_ids_deps": [
             243730,
             1070560
         ],
+        "command": "./run-entropy-zero.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/714070",
             "engine_name": "Source SDK 2013",
@@ -4426,6 +4422,10 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-14/",
                 "file": "source-sdk-2013-747250-14.tar.xz"
             }
+        ],
+        "app_ids_deps": [
+            243730,
+            1070560
         ],
         "command": "./run-year-long-alarm.sh",
         "information": {
@@ -4581,13 +4581,18 @@
                 "file": "source-sdk-2013-1054600-14.tar.xz"
             }
         ],
+        "app_ids_deps": [
+            243730,
+            1070560,
+            380
+        ],
         "command": "./run-resistance-element.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/1054600",
             "engine_name": "Source SDK 2013",
             "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
             "version": "Steam release",
-            "comments": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed.",
+            "comments": "Requires Source SDK 2013 Singleplayer, Half-Life 2 Episode 1, and Steam Linux Runtime to be installed.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Source SDK Copyright(c) Valve Corp.",
