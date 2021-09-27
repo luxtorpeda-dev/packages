@@ -1,3 +1,8 @@
+### 37.0 (2021-09-27)
+
+* source-sdk-2013 - Support automatic detection of game folders
+* realrtcw - Support automatic game folder detection
+
 ### 36.0 (2021-09-24)
 
 * Add support for building against steam runtime
