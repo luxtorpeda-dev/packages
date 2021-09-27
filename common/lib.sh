@@ -144,6 +144,7 @@ install_latest_meson() {
 use_gcc_9 () {
     export CXX='g++-9'
     export CC='gcc-9'
+    CMAKE_EXE_LINKER_FLAGS=-fuse-ld=gold
 }
 
 use_python_3 () {
