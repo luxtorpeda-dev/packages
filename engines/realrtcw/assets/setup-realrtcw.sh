@@ -1,7 +1,12 @@
 #!/bin/bash
 
-"$STEAM_ZENITY" --info --text="Browse to Return to Castle Wolfenstein installation" --title="Information"
-RTCW_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Return to Castle Wolfenstein installation" --directory)
+if [[ ! -z "${DEPPATH_9010}" ]]; then
+    echo "Automatic path for rtcw found at $DEPPATH_9010"
+    RTCW_PATH="$DEPPATH_9010"
+else
+    "$STEAM_ZENITY" --info --text="Browse to Return to Castle Wolfenstein installation" --title="Information"
+    RTCW_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Return to Castle Wolfenstein installation" --directory)
+fi
 
 if [ -z "$RTCW_PATH" ]; then
     "$STEAM_ZENITY" --error --title="RealRTCW Setup Error" --text="Path to RTCW not given"
