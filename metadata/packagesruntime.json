@@ -3622,8 +3622,8 @@
         "download": [
             {
                 "name": "perimeter",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-2/",
-                "file": "perimeter-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-3/",
+                "file": "perimeter-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
