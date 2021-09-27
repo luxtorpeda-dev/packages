@@ -3521,8 +3521,8 @@
         "download": [
             {
                 "name": "fs2open",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-22/",
-                "file": "fs2open-273620-22.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-23/",
+                "file": "fs2open-273620-23.tar.xz"
             }
         ],
         "command": "./run-freespace2.sh",
