@@ -3277,6 +3277,30 @@
             "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
         }
     },
+    "235780": {
+        "game_name": "MINERVA",
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-13/",
+                "file": "source-sdk-2013-235780-13.tar.xz"
+            }
+        ],
+        "command": "./run-metastasis.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/235780",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+            "version": "Steam release",
+            "comments": "Requires Source SDK 2013 Singleplayer, Half-Life 2 Episode 1, and Steam Linux Runtime to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
+        }
+    },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
         "download": [
@@ -4318,6 +4342,79 @@
             }
         ]
     },
+    "698780": {
+        "game_name": "Doki Doki Literature Club!",
+        "command": "./DDLC.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/698780/",
+            "engine_name": "Ren'Py",
+            "engine_link": "https://www.renpy.org/",
+            "version": "",
+            "comments": "Using Linux version bundled with Windows version",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "MIT, LGPLv2.1 and other free/libre/open source licenses",
+            "license_link": "https://www.renpy.org/doc/html/license.html"
+        }
+    },
+    "714070": {
+        "game_name": "Entropy : Zero",
+        "download": [
+            {
+                "name": "ez1",
+                "url": "https://github.com/z33ky/source-sdk-2013/releases/download/ez1-v4.linux3/",
+                "file": "ez1-v4.linux3.tar.xz"
+            },
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-13/",
+                "file": "source-sdk-2013-714070-13.tar.xz"
+            }
+        ],
+        "download_config": {
+            "ez1": {
+                "extract_location": "./Entropy Zero/EntropyZero"
+            }
+        },
+        "command": "./run-entropy-zero.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/714070",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/z33ky/source-sdk-2013",
+            "version": "ez1-v4.linux3",
+            "comments": "Uses already compiled binaries from z33ky project project. Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/z33ky/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
+        }
+    },
+    "747250": {
+        "game_name": "Half-Life 2: Year Long Alarm",
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-13/",
+                "file": "source-sdk-2013-747250-13.tar.xz"
+            }
+        ],
+        "command": "./run-year-long-alarm.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/747250",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+            "version": "Steam release",
+            "comments": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
+        }
+    },
     "817220": {
         "game_name": "The Forestale",
         "download": [
@@ -4447,6 +4544,30 @@
                 "license_link": "https://github.com/coelckers/Raze"
             }
         ]
+    },
+    "1054600": {
+        "game_name": "Resistance Element",
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-13/",
+                "file": "source-sdk-2013-1054600-13.tar.xz"
+            }
+        ],
+        "command": "./run-resistance-element.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1054600",
+            "engine_name": "Source SDK 2013",
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+            "version": "Steam release",
+            "comments": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "non_free": true,
+            "32-bit": true
+        }
     },
     "1072150": {
         "game_name": "Hedon",

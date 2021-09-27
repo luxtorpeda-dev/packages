@@ -64,12 +64,30 @@ if [ ! -f "hlpath.txt" ]; then
     fi
 fi
 
+if [ ! -f "runtimepath.txt" ]; then
+    "$STEAM_ZENITY" --info --text="Browse to Steam Linux Runtime Installation. You should see a scout-on-soldier-entry-point-v2 file in the proper directory." --title="Information"
+    RUNTIME_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Steam Linux Runtime Installation." --directory)
+
+    if [ -z "$RUNTIME_PATH" ]; then
+        "$STEAM_ZENITY" --error --title="Setup Error" --text="Path Browse to Steam Linux Runtime not given"
+        exit 1
+    fi
+
+    if [ ! -f "$RUNTIME_PATH/scout-on-soldier-entry-point-v2" ]; then
+        "$STEAM_ZENITY" --error --title="Setup Error" --text="Path to Steam Linux Runtime incorrect"
+        exit 1
+    fi
+
+    echo "$RUNTIME_PATH" >> runtimepath.txt
+fi
+
 sdkpath=`cat sdkpath.txt`
+runtimepath=`cat runtimepath.txt`
 
 if [ -d "ResistanceElement" ]; then
-    "$sdkpath"/hl2.sh -game "$PWD/ResistanceElement" -steam
+    "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$sdkpath"/hl2.sh -game "$PWD/ResistanceElement" -steam
 fi
 
 if [ -d "resistanceelement" ]; then
-    "$sdkpath"/hl2.sh -game "$PWD/resistanceelement" -steam
+    "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$sdkpath"/hl2.sh -game "$PWD/resistanceelement" -steam
 fi
