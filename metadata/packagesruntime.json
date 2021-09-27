@@ -4388,7 +4388,16 @@
     "714070": {
         "game_name": "Entropy : Zero",
         "download": [
-
+            {
+                "name": "ez1",
+                "url": "https://github.com/z33ky/source-sdk-2013/releases/download/ez1-v4.linux3/",
+                "file": "ez1-v4.linux3.tar.xz"
+            },
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-14/",
+                "file": "source-sdk-2013-714070-14.tar.xz"
+            }
         ],
         "download_config": {
             "ez1": {
