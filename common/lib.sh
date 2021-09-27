@@ -142,13 +142,8 @@ install_latest_meson() {
 }
 
 use_gcc_9 () {
-    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
-    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
-    sudo update-alternatives --set gcc "/usr/bin/gcc-9"
-    sudo update-alternatives --set g++ "/usr/bin/g++-9"
     export CXX='g++-9'
     export CC='gcc-9'
-    cp -rfv /usr/lib/gcc/x86_64-linux-gnu/8/libgcc*.so* /usr/lib/gcc-9/lib/
 }
 
 use_python_3 () {
