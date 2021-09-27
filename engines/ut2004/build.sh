@@ -1,11 +1,6 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/MrAlert/sdlcl.git sdlcl
-pushd sdlcl
-git checkout -f f7530d684bc7867e05e2e71385a452f26ba29555
-popd
-
 git clone https://github.com/kcat/openal-soft.git openal
 pushd openal
 git checkout -f f5e0eef
@@ -16,15 +11,9 @@ wget https://gcc.gnu.org/pub/gcc/releases/gcc-3.3.6/gcc-g++-3.3.6.tar.bz2
 
 tar xvf gcc-core-3.3.6.tar.bz2
 tar xvf gcc-g++-3.3.6.tar.bz2
-
-readonly pfx="$PWD/local"
-mkdir -p "$pfx/lib"
+ln -s /usr/include/asm-generic /usr/include/asm
 
 # BUILD PHASE
-pushd "sdlcl"
-make -j "$(nproc)"
-popd
-
 pushd "openal"
 cd build
 cmake \
@@ -40,13 +29,20 @@ ln -s x86_64-linux-gnu/crt*.o .
 popd
 
 pushd gcc-3.3.6
+sed -e '# gcc-3.4.6-ucontext.patch' \
+      -e 's:\bstruct ucontext\b:ucontext_t:g' \
+      -e '# siginfo.patch' \
+      -e 's:\bstruct siginfo\b:siginfo_t:g' \
+    -i $(grep --include 'linux*.h' -lrFe $'struct ucontext\nstruct siginfo' gcc/config/)
+
 sed -e "s#O_CREAT#O_CREAT, 0666#" -i 'gcc/collect2.c'
+  # No fixincludes
 sed -e 's@\./fixinc\.sh@-c true@' \
-    -e '# Clean up some warnings that arent our business' \
-    -e 's:-Wstrict-prototypes::g' \
-    -e 's:-Wtraditional::g' \
-    -e 's:-pedantic::g' \
-    -e 's:-Wall::g' \
+      -e '# Clean up some warnings that arent our business' \
+      -e 's:-Wstrict-prototypes::g' \
+      -e 's:-Wtraditional::g' \
+      -e 's:-pedantic::g' \
+      -e 's:-Wall::g' \
     -i 'gcc/Makefile.in'
 sed -e 's:-Wall -Wtraditional -pedantic::g' -i 'libiberty/configure'
 popd
@@ -65,7 +61,7 @@ export CXXFLAGS='-O2 -pipe'
       --enable-threads='posix' \
       --libdir="$pfx/lib" \
       --prefix="$pfx"
-      
+
 # unrelated build step fails, but the library gets built all the same
 if nice make all-target-libstdc++-v3 BOOT_CFLAGS="${CFLAGS}" STAGE1_CFLAGS="-O" -j "$(nproc)"
 then
@@ -79,6 +75,6 @@ popd
 cp -rfv "assets/run-ut2004.sh" "$diststart/13230/dist/"
 cp -rfv "assets/setup-ut2004.sh" "$diststart/13230/dist/"
 cp -rfv "assets/uninstall-ut2004.sh" "$diststart/13230/dist/"
-cp -rfv "sdlcl/libSDL-1.2.so.0" "$diststart/13230/dist/"
+
 cp -rfv "openal/build/libopenal.so.1.20.1" "$diststart/13230/dist/openal.so"
 cp -rfv "gcc-build/x86_64-unknown-linux-gnu/libstdc++-v3/src/.libs/libstdc++.so.5.0.7" "$diststart/13230/dist/libstdc++.so.5"
