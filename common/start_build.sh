@@ -22,6 +22,11 @@ if [ ! -z "${GCC_9}" ]; then
     use_gcc_9
 fi
 
+if [ ! -z "${GCC_9_NO_LINK}" ]; then
+    echo "Using gcc 9, no cxxflags"
+    unset CXXFLAGS
+fi
+
 if [ ! -z "${PYTHON3}" ]; then
     echo "Using python 3"
     use_python_3
