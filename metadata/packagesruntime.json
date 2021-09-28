@@ -3498,8 +3498,8 @@
             },
             {
                 "name": "dxx-rebirth",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-7/",
-                "file": "dxx-rebirth-273570-7.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-8/",
+                "file": "dxx-rebirth-273570-8.tar.xz"
             }
         ],
         "command": "./run-d1x.sh",
@@ -3527,8 +3527,8 @@
             },
             {
                 "name": "dxx-rebirth",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-7/",
-                "file": "dxx-rebirth-273580-7.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-8/",
+                "file": "dxx-rebirth-273580-8.tar.xz"
             }
         ],
         "command": "./run-d2x.sh",
