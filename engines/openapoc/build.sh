@@ -1,7 +1,5 @@
 #!/bin/bash
 
-unset CXXFLAGS # needed for issues with lua build linking
-
 # CLONE PHASE
 git clone https://github.com/OpenApoc/OpenApoc.git source
 pushd source
@@ -17,17 +15,17 @@ xz -d data/cd.iso.xz
 mkdir build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
     -DBUILD_LAUNCHER=ON \
     -DBoost_LIBRARY_DIRS="$pfx/lib" \
     -DENABLE_TESTS=OFF \
-    -GNinja \
     ..
-cmake --build . --config Release
+make -j "$(nproc)"
 popd
 
 # COPY PHASE
 rm -rf "source/data/cd.iso"
+
 mkdir -p "$diststart/7660/dist/bin/"
 cp -rfv "source/build/bin/OpenApoc" "$diststart/7660/dist/bin/"
 cp -rfv "source/build/bin/OpenApoc_Launcher" "$diststart/7660/dist/bin/"
