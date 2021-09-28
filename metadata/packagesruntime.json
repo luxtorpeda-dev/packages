@@ -3503,6 +3503,11 @@
             }
         ],
         "command": "./run-d1x.sh",
+        "download_config": {
+            "music": {
+                "extract_location": "./descent"
+            }
+        },
         "information": {
             "store_link": "https://store.steampowered.com/app/273570",
             "engine_name": "dxx-rebirth",
@@ -3531,6 +3536,11 @@
                 "file": "dxx-rebirth-273580-6.tar.xz"
             }
         ],
+        "download_config": {
+            "music": {
+                "extract_location": "./descent2"
+            }
+        },
         "command": "./run-d2x.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/273580",
