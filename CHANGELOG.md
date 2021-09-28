@@ -2,6 +2,7 @@
 
 * source-sdk-2013 - Support automatic detection of game folders
 * realrtcw - Support automatic game folder detection
+* [Thanks to thaewrapt] dxx-rebirth - Support new game update
 
 ### 36.0 (2021-09-24)
 
