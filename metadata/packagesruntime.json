@@ -1936,7 +1936,7 @@
             "engine_name": "OpenApoc",
             "engine_link": "https://github.com/OpenApoc/OpenApoc",
             "version": "Alpha build v0.386",
-            "comments": "Engine is still in progress so not all features may be implemented.",
+            "comments": "First launch will take some time as it finishes an extraction process. Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
