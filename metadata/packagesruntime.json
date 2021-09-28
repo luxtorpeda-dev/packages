@@ -1926,8 +1926,8 @@
         "download": [
             {
                 "name": "openapoc",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-5/",
-                "file": "openapoc-7660-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-6/",
+                "file": "openapoc-7660-6.tar.xz"
             }
         ],
         "command": "./run-openapoc-launcher.sh",
