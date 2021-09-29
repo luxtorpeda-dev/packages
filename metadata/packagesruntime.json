@@ -3773,6 +3773,12 @@
                 "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
                 "file": "54-buildgdx",
                 "cache_by_name": true
+            },
+            {
+                "name": "buildgdx",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
+                "file": "buildgdx-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -4591,6 +4597,12 @@
                 "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
                 "file": "54-buildgdx",
                 "cache_by_name": true
+            },
+            {
+                "name": "buildgdx",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
+                "file": "buildgdx-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -4804,6 +4816,12 @@
                 "name": "buildgdx-lib",
                 "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
                 "file": "54-buildgdx",
+                "cache_by_name": true
+            },
+            {
+                "name": "buildgdx",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
+                "file": "buildgdx-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5190,6 +5208,12 @@
                 "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
                 "file": "54-buildgdx",
                 "cache_by_name": true
+            },
+            {
+                "name": "buildgdx",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
+                "file": "buildgdx-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "command": "./run-buildgdx-witchaven.sh",
@@ -5227,6 +5251,12 @@
                 "name": "buildgdx-lib",
                 "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
                 "file": "54-buildgdx",
+                "cache_by_name": true
+            },
+            {
+                "name": "buildgdx",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
+                "file": "buildgdx-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
