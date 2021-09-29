@@ -3761,6 +3761,18 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
                 "file": "raze-common-22.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "openjdk11",
+                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "buildgdx-lib",
+                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
+                "file": "54-buildgdx",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -3777,6 +3789,24 @@
                 "download": [
                     "raze"
                 ]
+            },
+            {
+                "name": "BuildGDX",
+                "command": "./run-buildgdx-nam.sh",
+                "download": [
+                    "openjdk11",
+                    "buildgdx-lib",
+                    "buildgdx"
+                ],
+                "download_config": {
+                    "buildgdx-lib": {
+                        "decode_as_zip": true
+                    },
+                    "openjdk11": {
+                        "extract_location": "./jdk-11.0.12",
+                        "strip_prefix": "jdk-11.0.12+7/"
+                    }
+                }
             }
         ],
         "information": [
@@ -3801,6 +3831,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "Various Licenses",
                 "license_link": "https://github.com/coelckers/Raze"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/329650",
+                "engine_name": "BuildGDX",
+                "engine_link": "https://m210.duke4.net/index.php",
+                "version": "1.1.5",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://gitlab.com/m210/BuildGDX"
             }
         ]
     },
@@ -4538,6 +4579,18 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-22/",
                 "file": "raze-common-22.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "openjdk11",
+                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "buildgdx-lib",
+                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
+                "file": "54-buildgdx",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -4554,6 +4607,24 @@
                 "download": [
                     "raze"
                 ]
+            },
+            {
+                "name": "BuildGDX",
+                "command": "./run-buildgdx-bloodfresh.sh",
+                "download": [
+                    "openjdk11",
+                    "buildgdx-lib",
+                    "buildgdx"
+                ],
+                "download_config": {
+                    "buildgdx-lib": {
+                        "decode_as_zip": true
+                    },
+                    "openjdk11": {
+                        "extract_location": "./jdk-11.0.12",
+                        "strip_prefix": "jdk-11.0.12+7/"
+                    }
+                }
             }
         ],
         "information": [
@@ -4578,6 +4649,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "Various Licenses",
                 "license_link": "https://github.com/coelckers/Raze"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/1010750",
+                "engine_name": "BuildGDX",
+                "engine_link": "https://m210.duke4.net/index.php",
+                "version": "1.1.5",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://gitlab.com/m210/BuildGDX"
             }
         ]
     },
@@ -4711,6 +4793,18 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-3/",
                 "file": "exhumed-common-3.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "openjdk11",
+                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "buildgdx-lib",
+                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
+                "file": "54-buildgdx",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -4727,6 +4821,24 @@
                 "download": [
                     "raze"
                 ]
+            },
+            {
+                "name": "BuildGDX",
+                "command": "./run-buildgdx-powerslave.sh",
+                "download": [
+                    "openjdk11",
+                    "buildgdx-lib",
+                    "buildgdx"
+                ],
+                "download_config": {
+                    "buildgdx-lib": {
+                        "decode_as_zip": true
+                    },
+                    "openjdk11": {
+                        "extract_location": "./jdk-11.0.12",
+                        "strip_prefix": "jdk-11.0.12+7/"
+                    }
+                }
             }
         ],
         "information": [
@@ -4751,6 +4863,17 @@
                 "author_link": "https://github.com/d10sfan",
                 "license": "Various Licenses",
                 "license_link": "https://github.com/coelckers/Raze"
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/1260020",
+                "engine_name": "BuildGDX",
+                "engine_link": "https://m210.duke4.net/index.php",
+                "version": "1.1.5",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Various Licenses",
+                "license_link": "https://gitlab.com/m210/BuildGDX"
             }
         ]
     },
@@ -5051,6 +5174,82 @@
             "license": "Sleepycat License with NON-COMMERCIAL LICENSE",
             "license_link": "https://github.com/TorrSamaho/zandronum/blob/master/LICENSE.txt",
             "non_free": true
+        }
+    },
+    "1655410": {
+        "game_name": "Witchaven",
+        "download": [
+            {
+                "name": "openjdk11",
+                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "buildgdx-lib",
+                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
+                "file": "54-buildgdx",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-buildgdx-witchaven.sh",
+        "download_config": {
+            "buildgdx-lib": {
+                "decode_as_zip": true
+            },
+            "openjdk11": {
+                "extract_location": "./jdk-11.0.12",
+                "strip_prefix": "jdk-11.0.12+7/"
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1655410",
+            "engine_name": "BuildGDX",
+            "engine_link": "https://m210.duke4.net/index.php",
+            "version": "1.1.5",
+            "comments": "Will have to remove the file at ~/M210Projects/WitchavenGDX/witchavengdx.ini to switch between Original and Enhanced, or can manually change the path in the launcher.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Various Licenses",
+            "license_link": "https://gitlab.com/m210/BuildGDX"
+        }
+    },
+    "1655430": {
+        "game_name": "Witchaven II: Blood Vengeance",
+        "download": [
+            {
+                "name": "openjdk11",
+                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "buildgdx-lib",
+                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
+                "file": "54-buildgdx",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-buildgdx-witchaven2.sh",
+        "download_config": {
+            "buildgdx-lib": {
+                "decode_as_zip": true
+            },
+            "openjdk11": {
+                "extract_location": "./jdk-11.0.12",
+                "strip_prefix": "jdk-11.0.12+7/"
+            }
+        },
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1655430",
+            "engine_name": "BuildGDX",
+            "engine_link": "https://m210.duke4.net/index.php",
+            "version": "1.1.5",
+            "comments": "Will have to remove the file at ~/M210Projects/Witchaven2GDX/witchavengdx.ini to switch between Original and Enhanced, or can manually change the path in the launcher.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Various Licenses",
+            "license_link": "https://gitlab.com/m210/BuildGDX"
         }
     },
     "1679920": {
