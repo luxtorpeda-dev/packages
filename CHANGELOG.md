@@ -5,6 +5,7 @@
 * [Thanks to thaewrapt] dxx-rebirth - Support new game update
 * [Thanks to sponsor for funds to buy games] Added buildgdk, for Witchaven and also added to Powerslave, Blood Fresh Supply, and NAM.
 * avp - Fix for other languages
+* classic-rbdoom-3-bfg - Update to latest commit
 
 ### 36.0 (2021-09-24)
 
