@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git source
 pushd source
-git checkout 675d99d
+git checkout 54a7d8d
 popd
 
 pushd "source"
@@ -21,6 +21,5 @@ popd
 
 # COPY PHASE
 cp "source/build/DoomBFA" "$diststart/208200/dist/DoomBFA"
-
 cp -rfv ./assets/* "$diststart/208200/dist/"
 cp -rfv ./source/base "$diststart/208200/dist/updatedbase"
