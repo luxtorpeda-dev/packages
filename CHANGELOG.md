@@ -4,6 +4,7 @@
 * realrtcw - Support automatic game folder detection
 * [Thanks to thaewrapt] dxx-rebirth - Support new game update
 * [Thanks to sponsor for funds to buy games] Added buildgdk, for Witchaven and also added to Powerslave, Blood Fresh Supply, and NAM.
+* avp - Fix for other languages
 
 ### 36.0 (2021-09-24)
 
