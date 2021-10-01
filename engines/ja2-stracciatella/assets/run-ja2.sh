@@ -4,7 +4,7 @@ wantedversion="0.18.0"
 filepath="./ja2-stracciatella_0.18.0-git+ebc73ce_x86-64.AppImage"
 
 if [ -f "readyversion.txt" ]; then
-    readyversion=`cat readyversion.txt`
+    readyversion=$(cat readyversion.txt)
     echo "Found version: $readyversion"
 else
     echo "No Version Found"
