@@ -84,21 +84,21 @@ if [[ ! -z "${DEPPATH_243730}" ]]; then
     sdkpath="$DEPPATH_243730"
     echo "Automatically detected sdkpath at $sdkpath"
 else
-    sdkpath=`cat sdkpath.txt`
+    sdkpath=$(cat sdkpath.txt)
 fi
 
 if [[ ! -z "${DEPPATH_1070560}" ]]; then
     runtimepath="$DEPPATH_1070560"
     echo "Automatically detected runtimepath at $runtimepath"
 else
-    runtimepath=`cat runtimepath.txt`
+    runtimepath=$(cat runtimepath.txt)
 fi
 
 if [[ ! -z "${DEPPATH_380}" ]]; then
     EPISODE_PATH="$DEPPATH_380"
     echo "Automatically detected hlpath at $EPISODE_PATH"
 else
-    EPISODE_PATH=`cat hlpath.txt`
+    EPISODE_PATH=$(cat hlpath.txt)
 fi
 
 if [ -d "ResistanceElement" ]; then
