@@ -1,3 +1,8 @@
+### 39.0 (2021-10-10)
+
+* scummvm - Update to 2.5.0
+* raze - Update to 1.2.0
+
 ### 37.0 (2021-09-27)
 
 * source-sdk-2013 - Support automatic detection of game folders
