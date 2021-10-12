@@ -5,7 +5,7 @@
 # CLONE PHASE
 git clone https://github.com/Novum/vkQuake source
 pushd source
-git checkout 767d2f3
+git checkout 82b69a2
 popd
 
 # BUILD PHASE
