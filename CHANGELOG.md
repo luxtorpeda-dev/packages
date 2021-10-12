@@ -2,6 +2,7 @@
 
 * scummvm - Update to 2.5.0
 * raze - Update to 1.2.0
+* vkquake - Update to 82b69a2
 
 ### 37.0 (2021-09-27)
 
