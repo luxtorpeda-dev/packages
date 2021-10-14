@@ -5,6 +5,7 @@
 * vkquake - Update to 82b69a2
 * classic-rbdoom-3-bfg - Add steam integration
 * julius - Update to 1.7.0
+* quake3e - Update to 2021-10-14 
 
 ### 37.0 (2021-09-27)
 
