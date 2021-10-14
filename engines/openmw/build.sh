@@ -42,7 +42,7 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/22320/dist/lib/"
 cp -rfv "$pfx/"{lib,lib64}/*.so* "$diststart/22320/dist/lib/"
-cp -rfv "$pfx/lib64/"osgPlugins-* "$diststart/22320/dist/lib/"
+cp -rfv "$pfx/lib/"osgPlugins-* "$diststart/22320/dist/lib/"
 cp -rfv "$tmp/usr/local/"{etc,share} "$diststart/22320/dist/"
 cp -rfv "$tmp/usr/local/bin/"* "$diststart/22320/dist/"
 
