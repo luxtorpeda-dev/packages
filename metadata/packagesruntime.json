@@ -2812,6 +2812,11 @@
                 "name": "classic-rbdoom-3-bfg",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-7/",
                 "file": "classic-rbdoom-3-bfg-208200-7.tar.xz"
+            },
+            {
+                "name": "open-platform",
+                "url": "https://github.com/MadDeCoDeR/Open_Platform/releases/download/0.4.8/",
+                "file": "Open_Platform.with.Steam.zip"
             }
         ],
         "choices": [
@@ -2826,11 +2831,16 @@
                 "name": "classic-rbdoom-3-bfg",
                 "command": "./classic/run-classic-rbdoom-3-bfg.sh",
                 "download": [
-                    "classic-rbdoom-3-bfg"
+                    "classic-rbdoom-3-bfg",
+                    "open-platform"
                 ],
                 "download_config": {
                     "classic-rbdoom-3-bfg": {
                         "extract_location": "./classic"
+                    },
+                    "open-platform": {
+                        "extract_location": "./classic/open-platform",
+                        "decode_as_zip": true
                     }
                 }
             }
@@ -2852,7 +2862,7 @@
                 "engine_name": "Classic-RBDOOM-3-BFG",
                 "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
                 "version": "54a7d8d",
-                "comments": "",
+                "comments": "Sets up Open Platform for Steam integration automatically.",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv3",
