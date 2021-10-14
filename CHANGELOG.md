@@ -4,6 +4,7 @@
 * raze - Update to 1.2.0
 * vkquake - Update to 82b69a2
 * classic-rbdoom-3-bfg - Add steam integration
+* julius - Update to 1.7.0
 
 ### 37.0 (2021-09-27)
 
