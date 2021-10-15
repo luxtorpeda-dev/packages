@@ -45,7 +45,6 @@ cp -rfv "$pfx/"{lib,lib64}/*.so* "$diststart/22320/dist/lib/"
 cp -rfv "$pfx/lib/"osgPlugins-* "$diststart/22320/dist/lib/"
 cp -rfv "$tmp/usr/local/"{etc,share} "$diststart/22320/dist/"
 cp -rfv "$tmp/usr/local/bin/"* "$diststart/22320/dist/"
-
 cp "assets/openmw.sh" "$diststart/22320/dist/"
 cp "assets/openmw-launcher.sh" "$diststart/22320/dist/"
 generate_openmw_cfg "$tmp/usr/local/etc/openmw/openmw.cfg" > "$diststart/22320/dist/openmw-template.cfg"
