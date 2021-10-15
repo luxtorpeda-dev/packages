@@ -12,7 +12,7 @@ if [ ! -f Morrowind.ini ]; then
     fi
 fi
 
-if [ ! -d vsf ]; then
+if [ ! -d vfs ]; then
     LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/mygui ./mygui
     LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/shaders ./shaders
     LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/vfs ./vfs
