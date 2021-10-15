@@ -2642,13 +2642,6 @@
         },
         "choices": [
             {
-                "name": "openmw",
-                "command": "./openmw.sh",
-                "download": [
-                    "openmw"
-                ]
-            },
-            {
                 "name": "openmw-launcher",
                 "command": "./openmw-launcher.sh",
                 "download": [

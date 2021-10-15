@@ -4,10 +4,6 @@ export LD_LIBRARY_PATH=lib:$LD_LIBRARY_PATH
 
 set -e
 
-if [ ! -f "openmw.cfg" ]; then
-    cp openmw-template.cfg openmw.cfg
-fi
-
 if [ ! -f Morrowind.ini ]; then
     if [ ! -f morrowind.ini ]; then
         "$STEAM_ZENITY" --error --text="No morrowind ini file not found"
@@ -16,6 +12,12 @@ if [ ! -f Morrowind.ini ]; then
     fi
 fi
 
-./openmw-iniimporter Morrowind.ini openmw.cfg
+if [ ! -d vsf ]; then
+    LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/mygui ./mygui
+    LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/shaders ./shaders
+    LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/vfs ./vfs
+    LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/defaultfilters ./defaultfilters
+    LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/version ./version
+fi
 
 LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./plugins ./openmw-launcher --data-local "Data Files" "$@"
