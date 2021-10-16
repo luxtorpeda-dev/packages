@@ -1,11 +1,11 @@
 ### 39.0 (2021-10-10)
 
 * scummvm - Update to 2.5.0
-* raze - Update to 1.2.0
 * vkquake - Update to 82b69a2
 * classic-rbdoom-3-bfg - Add steam integration
 * julius - Update to 1.7.0
 * quake3e - Update to 2021-10-14 
+* raze - Update to 1.2.1
 
 ### 37.0 (2021-09-27)
 
