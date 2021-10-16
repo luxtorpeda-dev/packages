@@ -12,6 +12,10 @@ if [ ! -f Morrowind.ini ]; then
     fi
 fi
 
+if [ -f openmw.cfg ]; then
+    "$STEAM_ZENITY" --warning --text="openmw.cfg found in game directory. New version expects openmw.cfg in ~/.config/openmw"
+fi
+
 if [ ! -d vfs ]; then
     LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/mygui ./mygui
     LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/shaders ./shaders
