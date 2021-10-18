@@ -3625,7 +3625,7 @@
                 "engine_name": "FreeSpace Port using fs2open",
                 "engine_link": "http://fsport.hard-light.net/website/",
                 "version": "3.6",
-                "comments": "Requires Freespace 2 installed in same Steam library folder and run at least once.",
+                "comments": "Requires Freespace 2 installed in same Steam library folder and run with luxtorpeda-dev client at least once.",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "Volition",
