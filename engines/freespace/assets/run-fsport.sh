@@ -14,6 +14,19 @@ fi
 
 
 if [ ! -d "$DEPPATH_273620/fsport" ]; then
-    7z
+    LD_LIBRARY_PATH=.7z ./7z/7z x -o"$DEPPATH_273620/fsport" ./fsport3_6.7z
+    LD_LIBRARY_PATH=.7z ./7z/7z x -o"$DEPPATH_273620/fsport" ./fsport-missions.7z
+    LD_LIBRARY_PATH=.7z ./7z/7z x -o"$DEPPATH_273620/fsport" ./sparky_hi_fs1.7z
 fi
 
+cd "$DEPPATH_273620"
+
+ln -rsf ./fsport/fsport3_6.vp ./fsport3_6.vp
+ln -rsf ./fsport/fsport-missions.vp ./fsport-missions.vp
+ln -rsf ./fsport/sparky_hi_fs1.vp ./sparky_hi_fs1.vp
+
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./fs2_open_x64 "$@"
+
+rm ./fsport3_6.vp
+rm ./fsport-missions.vp
+rm ./sparky_hi_fs1.vp
