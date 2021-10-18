@@ -3555,6 +3555,85 @@
             "non_free": true
         }
     },
+    "273600": {
+        "game_name": "Descent: FreeSpace – The Great War",
+        "download": [
+            {
+                "name": "fs1vp",
+                "url": "http://icculus.org/~taylor/freespace/fs1.vp_en/",
+                "file": "fs1.vp.gz",
+                "copy_only": true
+            },
+            {
+                "name": "fsport",
+                "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
+                "file": "fsport3_6.7z",
+                "copy_only": true
+            },
+            {
+                "name": "fsport-missions",
+                "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
+                "file": "fsport-missions.7z",
+                "copy_only": true
+            },
+            {
+                "name": "sparky_hi_fs1",
+                "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
+                "file": "sparky_hi_fs1.7z",
+                "copy_only": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "freespace",
+                "command": "./run-freespace.sh",
+                "download": [
+                    "fs1vp",
+                    "freespace"
+                ]
+            },
+            {
+                "name": "FreeSpace Port using fs2open",
+                "command": "./run-fsport.sh",
+                "download": [
+                    "freespace",
+                    "fsport",
+                    "fsport-missions",
+                    "sparky_hi_fs1"
+                ],
+                "app_ids_deps": [
+                    273620
+                ]
+            }
+        ],
+        "command": "./run-freespace.sh",
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/273600",
+                "engine_name": "freespace",
+                "engine_link": "https://github.com/ptitSeb/freespace2",
+                "version": "500ee24",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Volition",
+                "license_link": "https://github.com/ptitSeb/freespace2/blob/master/README.md",
+                "non_free": true
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/273600",
+                "engine_name": "FreeSpace Port using fs2open",
+                "engine_link": "http://fsport.hard-light.net/website/",
+                "version": "3.6",
+                "comments": "Requires Freespace 2 installed in same Steam library folder and run with luxtorpeda-dev client at least once.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Volition",
+                "license_link": "http://fsport.hard-light.net/website/credits.html",
+                "non_free": true
+            }
+        ]
+    },
     "273620": {
         "game_name": "Freespace 2",
         "download": [
