@@ -8,7 +8,7 @@ Package scripts to build the engines for Luxtorpeda.
 
 To see a list of supported titles, go to https://luxtorpeda-dev.github.io/packages.html
 
-The runtime version of the luxtorpeda client will contain the most up to date versions of engines. The "original" client will eventually be removed.
+The runtime version of the luxtorpeda client will contain the most up to date versions of engines. 
 
 Want a specific game? 
 
