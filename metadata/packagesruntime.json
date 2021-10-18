@@ -3581,6 +3581,11 @@
                 "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
                 "file": "sparky_hi_fs1.7z",
                 "copy_only": true
+            },
+            {
+                "name": "freespace",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/freespace-1/",
+                "file": "freespace-273600-1.tar.xz"
             }
         ],
         "choices": [
