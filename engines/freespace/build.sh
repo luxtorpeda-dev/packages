@@ -1,16 +1,16 @@
 #!/bin/bash
 
-apt-get update
-apt-get -y install subversion
-
 # CLONE PHASE
-svn co svn://svn.icculus.org/freespace2/trunk freespace2
+git clone https://github.com/ptitSeb/freespace2.git source
+pushd source
+git checkout -f 500ee24
+popd
 
 # BUILD PHASE
-pushd "freespace2"
-make -j "$(nproc)" FS1=true DEBUG=true
+pushd "source"
+make -j "$(nproc)" FS1=true DEBUG=true PANDORA=false
 popd
 
 # COPY PHASE
-cp -rfv "freespace2/freespace" "$diststart/273600/dist/freespace2"
+cp -rfv "source/freespace" "$diststart/273600/dist/freespace"
 cp -rfv "assets/run-freespace.sh" "$diststart/273600/dist/"

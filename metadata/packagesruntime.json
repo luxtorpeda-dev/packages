@@ -3557,7 +3557,14 @@
     },
     "273600": {
         "game_name": "Descent: FreeSpace – The Great War",
-        "download": [],
+        "download": [
+            {
+                "name": "fs1vp",
+                "url": "http://icculus.org/~taylor/freespace/fs1.vp_en/",
+                "file": "fs1.vp.gz",
+                "copy_only": true
+            }
+        ],
         "command": "./run-freespace.sh",
         "information": {
             "store_link": "https://store.steampowered.com/app/273600",
