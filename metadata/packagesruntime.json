@@ -3555,6 +3555,23 @@
             "non_free": true
         }
     },
+    "273600": {
+        "game_name": "Descent: FreeSpace – The Great War",
+        "download": [],
+        "command": "./run-freespace.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/273600",
+            "engine_name": "freespace",
+            "engine_link": "https://svn.icculus.org/freespace2/",
+            "version": "318",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Volition",
+            "license_link": "https://svn.icculus.org/*checkout*/freespace2/trunk/README",
+            "non_free": true
+        }
+    },
     "273620": {
         "game_name": "Freespace 2",
         "download": [
