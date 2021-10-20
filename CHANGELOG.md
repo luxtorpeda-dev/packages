@@ -1,6 +1,7 @@
 ### 40.0 (2021-10-18)
 
 * Added freespace support with compiled version of the original engine and support for FreespacePort, which requires Freespace 2 to be installed and launched with luxtorpeda-dev client at least once. 
+* vkquake - Update to 625e65a
 
 ### 39.0 (2021-10-10)
 
