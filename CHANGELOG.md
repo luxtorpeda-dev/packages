@@ -3,6 +3,7 @@
 * Added freespace support with compiled version of the original engine and support for FreespacePort, which requires Freespace 2 to be installed and launched with luxtorpeda-dev client at least once. 
 * vkquake - Update to 625e65a
 * gzdoom - Update to 4.7.1
+* vkquake - Update to 1.11.1
 
 ### 39.0 (2021-10-10)
 
