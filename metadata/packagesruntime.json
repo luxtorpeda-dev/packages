@@ -4048,6 +4048,29 @@
             "license_link": "https://github.com/jtrfp/terminal-recall/blob/master/LICENSE-2.0.apache.txt"
         }
     },
+    "358410": {
+        "game_name": "Rise of the Triad: Dark War",
+        "download": [
+            {
+                "name": "rottexpr",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-2/",
+                "file": "rottexpr-238050-2.tar.xz"
+            }
+        ],
+        "command": "./run-rott-dark-war.sh",
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/358410",
+            "engine_name": "rottexpr",
+            "engine_link": "https://github.com/LTCHIPS/rottexpr",
+            "version": "v0.01",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
+        }
+    },
     "358830": {
         "game_name": "Good Robot",
         "download": [
