@@ -4,6 +4,7 @@
 * vkquake - Update to 625e65a
 * gzdoom - Update to 4.7.1
 * vkquake - Update to 1.11.1
+* gzdoom - Fix wadsmoosh
 
 ### 39.0 (2021-10-10)
 
