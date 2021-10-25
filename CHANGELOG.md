@@ -5,7 +5,7 @@
 * gzdoom - Update to 4.7.1
 * vkquake - Update to 1.11.1
 * gzdoom - Fix wadsmoosh
-* rottexpr - Add dark war support
+* [Thanks to sponsors for funds to buy the game] rottexpr - Add dark war support
 
 ### 39.0 (2021-10-10)
 
