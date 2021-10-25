@@ -914,9 +914,9 @@
                 "store_link": "https://store.steampowered.com/app/2310/",
                 "engine_name": "vkQuake",
                 "engine_link": "https://github.com/Novum/vkQuake",
-                "version": "625e65a",
+                "version": "1.11.1",
                 "comments": "",
-                "author": "dreamer",
+                "author": "dreamer/d10sfan",
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv2",
                 "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
