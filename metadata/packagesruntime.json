@@ -2344,11 +2344,6 @@
         "game_name": "Master Levels for DOOM II",
         "download": [
             {
-                "name": "wadsmoosh",
-                "url": "https://heptapod.host/jp-lebreton/wadsmoosh/-/archive/branch/default/",
-                "file": "wadsmoosh-branch-default.tar.gz"
-            },
-            {
                 "name": "gzdoom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-19/",
                 "file": "gzdoom-common-19.tar.xz",
@@ -2367,7 +2362,7 @@
                 "engine_name": "gzdoom",
                 "engine_link": "https://github.com/coelckers/gzdoom",
                 "version": "4.7.1",
-                "comments": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh/-/tree/branch/default/)",
+                "comments": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh)",
                 "author": "dreamer/d10sfan",
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
