@@ -6,6 +6,7 @@
 * vkquake - Update to 1.11.1
 * gzdoom - Fix wadsmoosh
 * [Thanks to sponsors for funds to buy the game] rottexpr - Add dark war support
+* [Thanks to sponsors for funds to buy the game] gzdoom - Add REKKR
 
 ### 39.0 (2021-10-10)
 
