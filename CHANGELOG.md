@@ -7,6 +7,8 @@
 * gzdoom - Fix wadsmoosh
 * [Thanks to sponsors for funds to buy the game] rottexpr - Add dark war support
 * [Thanks to sponsors for funds to buy the game] gzdoom - Add REKKR
+* openrct2 - Enable steam overlay
+* warzone2100 - Update to 4.2.0
 
 ### 39.0 (2021-10-10)
 
