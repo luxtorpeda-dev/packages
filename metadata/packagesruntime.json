@@ -3711,6 +3711,29 @@
             "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
         }
     },
+    "289240": {
+        "game_name": "Perimeter: Emperor's Testament",
+        "download": [
+            {
+                "name": "perimeter",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-4/",
+                "file": "perimeter-common-4.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-perimeter.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/289440",
+            "engine_name": "Perimeter",
+            "engine_link": "https://github.com/KranX/Perimeter",
+            "version": "0b355d5",
+            "comments": "Engine is still in progress so not all features may be implemented. Sound does not work.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/KranX/Perimeter/blob/cmake/LICENSE"
+        }
+    },
     "289440": {
         "game_name": "Perimeter",
         "download": [
@@ -3727,7 +3750,7 @@
             "engine_name": "Perimeter",
             "engine_link": "https://github.com/KranX/Perimeter",
             "version": "1189111",
-            "comments": "Engine is still in progress so not all features may be implemented. Sound does not work. Need to change Perimeter.ini to have StartSplash=0 instead of 1, DefaultLanguage=English instead of Russian, and FullScreen=0 instead of 1.",
+            "comments": "Engine is still in progress so not all features may be implemented. Sound does not work.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
