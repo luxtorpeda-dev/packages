@@ -3723,7 +3723,7 @@
         ],
         "command": "./run-perimeter.sh",
         "information": {
-            "store_link": "https://store.steampowered.com/app/289440",
+            "store_link": "https://store.steampowered.com/app/289240",
             "engine_name": "Perimeter",
             "engine_link": "https://github.com/KranX/Perimeter",
             "version": "1189111",
