@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/KranX/Perimeter source
 pushd source
-git checkout -f 0b355d5
+git checkout -f 1189111
 git submodule update --init --recursive
 popd
 
