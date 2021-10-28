@@ -1,0 +1,26 @@
+<mat-accordion class="packages-wrapper" multi>
+  <mat-expansion-panel *ngFor="let title of titles">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <a href="{{'https://store.steampowered.com/app/' + title.titleId}}" target="_blank" (click)="$event.stopPropagation();">
+          {{title.game_name}}
+        </a>
+      </mat-panel-title>
+      <mat-panel-description>
+        <mat-chip-list>
+          <mat-chip
+            disabled=true
+            *ngFor="let engine of title.information">
+            {{engine.engine_name}}
+          </mat-chip>
+        </mat-chip-list>
+
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <div *ngFor="let engine of title.information">
+      {{engine.engine_name}}
+    </div>
+
+  </mat-expansion-panel>
+</mat-accordion>

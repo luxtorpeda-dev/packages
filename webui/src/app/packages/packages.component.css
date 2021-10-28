@@ -1,0 +1,17 @@
+.packages-wrapper .mat-expansion-panel-header-title,
+.packages-wrapper .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.packages-wrapper .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.packages-wrapper .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+
+.mat-chip.mat-standard-chip.mat-chip-disabled {
+  opacity: 1 !important;
+}

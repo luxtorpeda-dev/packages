@@ -4,23 +4,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HomeComponent } from './home/home.component';
+import { PackagesComponent } from './packages/packages.component';
 
-import { HttpClientModule, HttpClient } from  '@angular/common/http';
-import { MarkdownModule } from 'ngx-markdown';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatIconModule} from '@angular/material/icon';
+import {MatChipsModule} from '@angular/material/chips';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    PackagesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule,
-    MarkdownModule.forRoot({ loader: HttpClient })
+    MatExpansionModule,
+    MatIconModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
