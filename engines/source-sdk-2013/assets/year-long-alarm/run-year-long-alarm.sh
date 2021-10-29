@@ -10,13 +10,23 @@ if [ ! -f "sdkpath.txt" ]; then
         HL_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Source SDK Base 2013 Singleplayer Installation" --directory)
 
         if [ -z "$HL_PATH" ]; then
-            "$STEAM_ZENITY" --error --title="Setup Error" --text="Path to Source SDK 2013 not given"
-        exit 1
+            error_message="Path to Source SDK 2013 not given."
+            if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
+                "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
+            else
+                echo "$error_message" > last_error.txt
+            fi
+            exit 10
         fi
 
         if [ ! -d "$HL_PATH/sdktools" ]; then
-            "$STEAM_ZENITY" --error --title="Setup Error" --text="Path to Source SDK 2013 incorrect"
-            exit 1
+            error_message="Path to Source SDK 2013 incorrect."
+            if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
+                "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
+            else
+                echo "$error_message" > last_error.txt
+            fi
+            exit 10
         fi
     fi
     
@@ -36,13 +46,23 @@ if [ ! -f "runtimepath.txt" ]; then
         RUNTIME_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Steam Linux Runtime Installation." --directory)
 
         if [ -z "$RUNTIME_PATH" ]; then
-            "$STEAM_ZENITY" --error --title="Setup Error" --text="Path to Steam Linux Runtime not given"
-            exit 1
+            error_message="Path to Steam Linux Runtime not given."
+            if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
+                "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
+            else
+                echo "$error_message" > last_error.txt
+            fi
+            exit 10
         fi
 
         if [ ! -f "$RUNTIME_PATH/scout-on-soldier-entry-point-v2" ]; then
-            "$STEAM_ZENITY" --error --title="Setup Error" --text="Path to Steam Linux Runtime incorrect"
-            exit 1
+            error_message="Path to Steam Linux Runtime incorrect."
+            if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
+                "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
+            else
+                echo "$error_message" > last_error.txt
+            fi
+            exit 10
         fi
     fi
 
