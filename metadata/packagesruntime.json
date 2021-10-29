@@ -2492,7 +2492,13 @@
             "complete_path": "../ready",
             "command": "./setup-ut2004.sh",
             "uninstall_command": "./uninstall-ut2004.sh",
-            "license_path": "../System/License.int"
+            "license_path": "../System/License.int",
+            "dialogs": [{
+                "type": "input",
+                "title": "Unreal Tournament 2004 Setup",
+                "label": "Enter your CD Key (Can Be Found in Steam)",
+                "key": "CDKEY"
+            }]
         },
         "command": "./run-ut2004.sh",
         "use_original_command_directory": true,
