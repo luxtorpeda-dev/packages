@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/SuperV1234/SSVOpenHexagon.git source
 pushd source
-git checkout d36f240
+git checkout 909e57c
 git submodule update --init --recursive
 popd
 

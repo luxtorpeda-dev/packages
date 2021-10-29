@@ -5,4 +5,4 @@ if [ ! -d "Data" ]; then
     LD_PRELOAD="" ln -rsf ./data ./Data
 fi
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" LD_PRELOAD="" ./openrct2
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./openrct2

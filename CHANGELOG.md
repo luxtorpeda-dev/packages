@@ -1,17 +1,32 @@
+### 40.0 (2021-10-18)
+
+* Added freespace support with compiled version of the original engine and support for FreespacePort, which requires Freespace 2 to be installed and launched with luxtorpeda-dev client at least once. 
+* vkquake - Update to 625e65a
+* gzdoom - Update to 4.7.1
+* vkquake - Update to 1.11.1
+* gzdoom - Fix wadsmoosh
+* [Thanks to sponsors for funds to buy the game] rottexpr - Add dark war support
+* [Thanks to sponsors for funds to buy the game] gzdoom - Add REKKR
+* openrct2 - Enable steam overlay
+* warzone2100 - Update to 4.2.0
+* perimeter - Update to 1189111 & added expansion pack
+* openhexagon - Update to 2.0.7
+
 ### 39.0 (2021-10-10)
 
 * scummvm - Update to 2.5.0
-* raze - Update to 1.2.0
 * vkquake - Update to 82b69a2
 * classic-rbdoom-3-bfg - Add steam integration
 * julius - Update to 1.7.0
+* quake3e - Update to 2021-10-14 
+* raze - Update to 1.2.1
 
 ### 37.0 (2021-09-27)
 
 * source-sdk-2013 - Support automatic detection of game folders
 * realrtcw - Support automatic game folder detection
 * [Thanks to thaewrapt] dxx-rebirth - Support new game update
-* [Thanks to sponsor for funds to buy games] Added buildgdk, for Witchaven and also added to Powerslave, Blood Fresh Supply, and NAM.
+* [Thanks to sponsor for funds to buy game] Added buildgdk, for Witchaven and also added to Powerslave, Blood Fresh Supply, and NAM.
 * avp - Fix for other languages
 * classic-rbdoom-3-bfg - Update to latest commit
 

@@ -1,8 +1,17 @@
 #!/bin/bash
 
+if [ -f "last_error.txt" ]; then
+    rm last_error.txt
+fi
+
 if [ ! -d ~/.config/OpenRCT2 ]; then
-    "$STEAM_ZENITY" --error --text="RCT2 has to be run at least once. Launch RCT2 and try again."
-    exit 1
+    error_message="RCT2 has to be run at least once. Launch RCT2 and try again."
+    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
+        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
+    else
+        echo "$error_message" > last_error.txt
+    fi
+    exit 10
 fi
 
 mkdir -p opendata

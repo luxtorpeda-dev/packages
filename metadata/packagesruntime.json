@@ -56,8 +56,8 @@
             },
             {
                 "name": "quake3e",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-6/",
-                "file": "quake3e-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-7/",
+                "file": "quake3e-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -131,7 +131,7 @@
                 "store_link": "https://store.steampowered.com/app/2200/",
                 "engine_name": "quake3e",
                 "engine_link": "https://github.com/ec-/Quake3e",
-                "version": "2021-07-20",
+                "version": "2021-10-14",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -220,8 +220,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -311,7 +311,7 @@
                 "store_link": "https://store.steampowered.com/app/2280/",
                 "engine_name": "gzdoom",
                 "engine_link": "https://github.com/coelckers/gzdoom",
-                "version": "4.7.0",
+                "version": "4.7.1",
                 "comments": "",
                 "author": "dreamer/d10sfan",
                 "author_link": "https://github.com/dreamer",
@@ -358,8 +358,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -495,7 +495,7 @@
                 "store_link": "https://store.steampowered.com/app/2290/",
                 "engine_name": "gzdoom",
                 "engine_link": "https://github.com/coelckers/gzdoom",
-                "version": "4.7.0",
+                "version": "4.7.1",
                 "comments": "",
                 "author": "dreamer/d10sfan",
                 "author_link": "https://github.com/dreamer",
@@ -542,8 +542,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -633,7 +633,7 @@
                 "store_link": "https://store.steampowered.com/app/2300/",
                 "engine_name": "gzdoom",
                 "engine_link": "https://github.com/coelckers/gzdoom",
-                "version": "4.7.0",
+                "version": "4.7.1",
                 "comments": "",
                 "author": "dreamer/d10sfan",
                 "author_link": "https://github.com/dreamer",
@@ -680,8 +680,8 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-17/",
-                "file": "vkquake-common-17.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-19/",
+                "file": "vkquake-common-19.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -914,9 +914,9 @@
                 "store_link": "https://store.steampowered.com/app/2310/",
                 "engine_name": "vkQuake",
                 "engine_link": "https://github.com/Novum/vkQuake",
-                "version": "82b69a2",
+                "version": "1.11.1",
                 "comments": "",
-                "author": "dreamer",
+                "author": "dreamer/d10sfan",
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv2",
                 "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
@@ -1302,8 +1302,8 @@
             },
             {
                 "name": "quake3e",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-6/",
-                "file": "quake3e-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-7/",
+                "file": "quake3e-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1354,7 +1354,7 @@
                 "store_link": "https://store.steampowered.com/app/2350/",
                 "engine_name": "quake3e",
                 "engine_link": "https://github.com/ec-/Quake3e",
-                "version": "2021-07-20",
+                "version": "2021-10-14",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -1368,8 +1368,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1437,7 +1437,7 @@
                 "store_link": "https://store.steampowered.com/app/2360/",
                 "engine_name": "gzdoom",
                 "engine_link": "https://github.com/coelckers/gzdoom",
-                "version": "4.7.0",
+                "version": "4.7.1",
                 "comments": "",
                 "author": "dreamer/d10sfan",
                 "author_link": "https://github.com/dreamer",
@@ -1473,8 +1473,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1522,7 +1522,7 @@
                 "store_link": "https://store.steampowered.com/app/2360/",
                 "engine_name": "gzdoom",
                 "engine_link": "https://github.com/coelckers/gzdoom",
-                "version": "4.7.0",
+                "version": "4.7.1",
                 "comments": "",
                 "author": "dreamer/d10sfan",
                 "author_link": "https://github.com/dreamer",
@@ -1547,8 +1547,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1638,7 +1638,7 @@
                 "store_link": "https://store.steampowered.com/app/2390/",
                 "engine_name": "gzdoom",
                 "engine_link": "https://github.com/coelckers/gzdoom",
-                "version": "4.7.0",
+                "version": "4.7.1",
                 "comments": "",
                 "author": "dreamer/d10sfan",
                 "author_link": "https://github.com/dreamer",
@@ -1833,8 +1833,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-5/",
-                "file": "scummvm-common-5.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-6/",
+                "file": "scummvm-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2344,14 +2344,9 @@
         "game_name": "Master Levels for DOOM II",
         "download": [
             {
-                "name": "wadsmoosh",
-                "url": "https://heptapod.host/jp-lebreton/wadsmoosh/-/archive/branch/default/",
-                "file": "wadsmoosh-branch-default.tar.gz"
-            },
-            {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2366,8 +2361,8 @@
                 "store_link": "https://store.steampowered.com/app/9160/",
                 "engine_name": "gzdoom",
                 "engine_link": "https://github.com/coelckers/gzdoom",
-                "version": "4.7.0",
-                "comments": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh/-/tree/branch/default/)",
+                "version": "4.7.1",
+                "comments": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh)",
                 "author": "dreamer/d10sfan",
                 "author_link": "https://github.com/dreamer",
                 "license": "GPLv3",
@@ -2433,8 +2428,8 @@
         "download": [
             {
                 "name": "etqw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-4/",
-                "file": "etqw-10050-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-5/",
+                "file": "etqw-10050-5.tar.xz"
             }
         ],
         "choices": [
@@ -2468,8 +2463,8 @@
         "download": [
             {
                 "name": "ut2004",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut2004-8/",
-                "file": "ut2004-13230-8.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut2004-9/",
+                "file": "ut2004-13230-9.tar.xz"
             },
             {
                 "name": "foxWSFix",
@@ -2497,7 +2492,15 @@
             "complete_path": "../ready",
             "command": "./setup-ut2004.sh",
             "uninstall_command": "./uninstall-ut2004.sh",
-            "license_path": "../System/License.int"
+            "license_path": "../System/License.int",
+            "dialogs": [
+                {
+                    "type": "input",
+                    "title": "Unreal Tournament 2004 Setup",
+                    "label": "Enter your CD Key (Can Be Found in Steam)",
+                    "key": "CDKEY"
+                }
+            ]
         },
         "command": "./run-ut2004.sh",
         "use_original_command_directory": true,
@@ -2577,8 +2580,8 @@
             },
             {
                 "name": "unreal-gold",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/unreal-gold-4/",
-                "file": "unreal-gold-13250-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/unreal-gold-5/",
+                "file": "unreal-gold-13250-5.tar.xz"
             }
         ],
         "command": "./run-unreal.sh",
@@ -3079,8 +3082,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-23/",
-                "file": "raze-common-23.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-24/",
+                "file": "raze-common-24.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3116,7 +3119,7 @@
                 "store_link": "https://steamcommunity.com/app/225140",
                 "engine_name": "raze",
                 "engine_link": "https://github.com/coelckers/Raze",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -3136,8 +3139,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-23/",
-                "file": "raze-common-23.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-24/",
+                "file": "raze-common-24.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3173,7 +3176,7 @@
                 "store_link": "https://steamcommunity.com/app/225160",
                 "engine_name": "raze",
                 "engine_link": "https://github.com/coelckers/Raze",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -3285,8 +3288,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-19/",
-                "file": "source-sdk-2013-235780-19.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-20/",
+                "file": "source-sdk-2013-235780-20.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -3314,8 +3317,8 @@
         "download": [
             {
                 "name": "rottexpr",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-2/",
-                "file": "rottexpr-238050-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-4/",
+                "file": "rottexpr-238050-4.tar.xz"
             },
             {
                 "name": "bstone",
@@ -3548,6 +3551,90 @@
             "non_free": true
         }
     },
+    "273600": {
+        "game_name": "Descent: FreeSpace – The Great War",
+        "download": [
+            {
+                "name": "fs1vp",
+                "url": "http://icculus.org/~taylor/freespace/fs1.vp_en/",
+                "file": "fs1.vp.gz",
+                "copy_only": true
+            },
+            {
+                "name": "fsport",
+                "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
+                "file": "fsport3_6.7z",
+                "copy_only": true
+            },
+            {
+                "name": "fsport-missions",
+                "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
+                "file": "fsport-missions.7z",
+                "copy_only": true
+            },
+            {
+                "name": "sparky_hi_fs1",
+                "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
+                "file": "sparky_hi_fs1.7z",
+                "copy_only": true
+            },
+            {
+                "name": "freespace",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/freespace-3/",
+                "file": "freespace-273600-3.tar.xz"
+            }
+        ],
+        "choices": [
+            {
+                "name": "freespace",
+                "command": "./run-freespace.sh",
+                "download": [
+                    "fs1vp",
+                    "freespace"
+                ]
+            },
+            {
+                "name": "FreeSpace Port using fs2open",
+                "command": "./run-fsport.sh",
+                "download": [
+                    "freespace",
+                    "fsport",
+                    "fsport-missions",
+                    "sparky_hi_fs1"
+                ],
+                "app_ids_deps": [
+                    273620
+                ]
+            }
+        ],
+        "command": "./run-freespace.sh",
+        "information": [
+            {
+                "store_link": "https://store.steampowered.com/app/273600",
+                "engine_name": "freespace",
+                "engine_link": "https://github.com/ptitSeb/freespace2",
+                "version": "500ee24",
+                "comments": "",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Volition",
+                "license_link": "https://github.com/ptitSeb/freespace2/blob/master/README.md",
+                "non_free": true
+            },
+            {
+                "store_link": "https://store.steampowered.com/app/273600",
+                "engine_name": "FreeSpace Port using fs2open",
+                "engine_link": "http://fsport.hard-light.net/website/",
+                "version": "3.6",
+                "comments": "Requires Freespace 2 installed in same Steam library folder and run with luxtorpeda-dev client at least once.",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Volition",
+                "license_link": "http://fsport.hard-light.net/website/credits.html",
+                "non_free": true
+            }
+        ]
+    },
     "273620": {
         "game_name": "Freespace 2",
         "download": [
@@ -3576,8 +3663,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-16/",
-                "file": "openrct2-common-16.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-17/",
+                "file": "openrct2-common-17.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3591,7 +3678,7 @@
             "engine_name": "openrct2",
             "engine_link": "https://openrct2.io/",
             "version": "v0.3.4.1",
-            "comments": "Requires assets from RCT2 to run, so RCT2 should be run through Steam first. Steam overlay will be disabled, since the engine crashes with it on.",
+            "comments": "Requires assets from RCT2 to run, so RCT2 should be run through Steam first.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -3603,8 +3690,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-16/",
-                "file": "openrct2-common-16.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-17/",
+                "file": "openrct2-common-17.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3618,11 +3705,34 @@
             "engine_name": "openrct2",
             "engine_link": "https://openrct2.io/",
             "version": "v0.3.4.1",
-            "comments": "Steam overlay will be disabled, since the engine crashes with it on.",
+            "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
+        }
+    },
+    "289240": {
+        "game_name": "Perimeter: Emperor's Testament",
+        "download": [
+            {
+                "name": "perimeter",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-5/",
+                "file": "perimeter-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-perimeter.sh",
+        "information": {
+            "store_link": "https://store.steampowered.com/app/289240",
+            "engine_name": "Perimeter",
+            "engine_link": "https://github.com/KranX/Perimeter",
+            "version": "1189111",
+            "comments": "Engine is still in progress so not all features may be implemented. Sound does not work.",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/KranX/Perimeter/blob/cmake/LICENSE"
         }
     },
     "289440": {
@@ -3630,8 +3740,8 @@
         "download": [
             {
                 "name": "perimeter",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-3/",
-                "file": "perimeter-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-5/",
+                "file": "perimeter-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3640,8 +3750,8 @@
             "store_link": "https://store.steampowered.com/app/289440",
             "engine_name": "Perimeter",
             "engine_link": "https://github.com/KranX/Perimeter",
-            "version": "0b355d5",
-            "comments": "Engine is still in progress so not all features may be implemented. Sound does not work. Need to change Perimeter.ini to have StartSplash=0 instead of 1, DefaultLanguage=English instead of Russian, and FullScreen=0 instead of 1.",
+            "version": "1189111",
+            "comments": "Engine is still in progress so not all features may be implemented. Sound does not work.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -3659,8 +3769,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-23/",
-                "file": "raze-common-23.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-24/",
+                "file": "raze-common-24.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3710,7 +3820,7 @@
                 "store_link": "https://store.steampowered.com/app/299030",
                 "engine_name": "raze",
                 "engine_link": "https://github.com/coelckers/Raze",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -3724,8 +3834,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3742,7 +3852,7 @@
             "store_link": "https://store.steampowered.com/app/317040/",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.7.0",
+            "version": "4.7.1",
             "comments": "Supports Veteran Edition option. Saves will be stored in game directory.",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
@@ -3761,8 +3871,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-23/",
-                "file": "raze-common-23.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-24/",
+                "file": "raze-common-24.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -3834,7 +3944,7 @@
                 "store_link": "https://steamcommunity.com/app/329650",
                 "engine_name": "raze",
                 "engine_link": "https://github.com/coelckers/Raze",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -3859,8 +3969,8 @@
         "download": [
             {
                 "name": "openloco",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-11/",
-                "file": "openloco-356430-11.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-12/",
+                "file": "openloco-356430-12.tar.xz"
             }
         ],
         "command": "./run-openloco.sh",
@@ -3868,7 +3978,7 @@
             "store_link": "https://store.steampowered.com/app/356430",
             "engine_name": "OpenLoco",
             "engine_link": "https://github.com/OpenLoco/OpenLoco",
-            "version": "v21.09.1",
+            "version": "v21.10",
             "comments": "Engine is still in progress so not all features may be implemented.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -3962,6 +4072,29 @@
             "license_link": "https://github.com/jtrfp/terminal-recall/blob/master/LICENSE-2.0.apache.txt"
         }
     },
+    "358410": {
+        "game_name": "Rise of the Triad: Dark War",
+        "download": [
+            {
+                "name": "rottexpr",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-4/",
+                "file": "rottexpr-358410-4.tar.xz"
+            }
+        ],
+        "command": "./run-rott-dark-war.sh",
+        "use_original_command_directory": true,
+        "information": {
+            "store_link": "https://store.steampowered.com/app/358410",
+            "engine_name": "rottexpr",
+            "engine_link": "https://github.com/LTCHIPS/rottexpr",
+            "version": "v0.01",
+            "comments": "",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
+        }
+    },
     "358830": {
         "game_name": "Good Robot",
         "download": [
@@ -4018,8 +4151,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-23/",
-                "file": "raze-common-23.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-24/",
+                "file": "raze-common-24.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4055,7 +4188,7 @@
                 "store_link": "https://steamcommunity.com/app/376750",
                 "engine_name": "raze",
                 "engine_link": "https://github.com/coelckers/Raze",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -4162,8 +4295,8 @@
         "download": [
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-23/",
-                "file": "raze-common-23.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-24/",
+                "file": "raze-common-24.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4172,7 +4305,7 @@
             "store_link": "https://steamcommunity.com/app/434050",
             "engine_name": "raze",
             "engine_link": "https://github.com/coelckers/Raze",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -4272,8 +4405,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-23/",
-                "file": "raze-common-23.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-24/",
+                "file": "raze-common-24.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4309,7 +4442,7 @@
                 "store_link": "https://store.steampowered.com/app/565550",
                 "engine_name": "raze",
                 "engine_link": "https://github.com/coelckers/Raze",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -4374,8 +4507,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-23/",
-                "file": "raze-common-23.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-24/",
+                "file": "raze-common-24.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4411,7 +4544,7 @@
                 "store_link": "https://store.steampowered.com/app/580940",
                 "engine_name": "raze",
                 "engine_link": "https://github.com/coelckers/Raze",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -4445,8 +4578,8 @@
             },
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-19/",
-                "file": "source-sdk-2013-714070-19.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-20/",
+                "file": "source-sdk-2013-714070-20.tar.xz"
             }
         ],
         "download_config": {
@@ -4478,8 +4611,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-19/",
-                "file": "source-sdk-2013-747250-19.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-20/",
+                "file": "source-sdk-2013-747250-20.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -4506,8 +4639,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4522,7 +4655,7 @@
             "store_link": "https://store.steampowered.com/app/817220",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.7.0",
+            "version": "4.7.1",
             "comments": "Saves will be stored in game directory.",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
@@ -4585,8 +4718,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-23/",
-                "file": "raze-common-23.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-24/",
+                "file": "raze-common-24.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -4658,7 +4791,7 @@
                 "store_link": "https://store.steampowered.com/app/1010750",
                 "engine_name": "raze",
                 "engine_link": "https://github.com/coelckers/Raze",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -4683,8 +4816,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-19/",
-                "file": "source-sdk-2013-1054600-19.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-20/",
+                "file": "source-sdk-2013-1054600-20.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -4712,8 +4845,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4730,7 +4863,7 @@
             "store_link": "https://store.steampowered.com/app/1072150",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.7.0",
+            "version": "4.7.1",
             "comments": "Saves will be stored in game directory.",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
@@ -4743,8 +4876,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4759,7 +4892,7 @@
             "store_link": "https://store.steampowered.com/app/1118550",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.7.0",
+            "version": "4.7.1",
             "comments": "Saves will be stored in game directory.",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
@@ -4772,8 +4905,8 @@
         "download": [
             {
                 "name": "warzone2100",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-11/",
-                "file": "warzone2100-1241950-11.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-12/",
+                "file": "warzone2100-1241950-12.tar.xz"
             }
         ],
         "download_config": {
@@ -4786,7 +4919,7 @@
             "store_link": "https://store.steampowered.com/app/1241950/Warzone_2100/",
             "engine_name": "warzone2100",
             "engine_link": "https://github.com/Warzone2100/warzone2100",
-            "version": "4.1.3",
+            "version": "4.2.0",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -4799,8 +4932,8 @@
         "download": [
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-23/",
-                "file": "raze-common-23.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-24/",
+                "file": "raze-common-24.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -4878,7 +5011,7 @@
                 "store_link": "https://store.steampowered.com/app/1260020",
                 "engine_name": "raze",
                 "engine_link": "https://github.com/coelckers/Raze",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
@@ -4903,8 +5036,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4921,7 +5054,7 @@
             "store_link": "https://store.steampowered.com/app/1271050",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.7.0",
+            "version": "4.7.1",
             "comments": "Saves will be stored in game directory.",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
@@ -4966,8 +5099,8 @@
         "download": [
             {
                 "name": "openhexagon",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openhexagon-8/",
-                "file": "openhexagon-1358090-8.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openhexagon-9/",
+                "file": "openhexagon-1358090-9.tar.xz"
             }
         ],
         "command": "./run-openhexagon.sh",
@@ -4975,7 +5108,7 @@
             "store_link": "https://store.steampowered.com/app/1358090",
             "engine_name": "SSVOpenHexagon",
             "engine_link": "https://github.com/SuperV1234/SSVOpenHexagon",
-            "version": "2.0.6",
+            "version": "2.0.7",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
@@ -4988,8 +5121,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-5/",
-                "file": "scummvm-common-5.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-6/",
+                "file": "scummvm-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5081,8 +5214,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5099,7 +5232,7 @@
             "store_link": "https://store.steampowered.com/app/1417010",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.7.0",
+            "version": "4.7.1",
             "comments": "Saves will be stored in game directory.",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
@@ -5134,8 +5267,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5152,7 +5285,7 @@
             "store_link": "https://store.steampowered.com/app/1546440",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.7.0",
+            "version": "4.7.1",
             "comments": "Saves will be stored in game directory.",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
@@ -5314,13 +5447,44 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     },
+    "1715690": {
+        "game_name": "REKKR: Sunken Land",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom.sh",
+        "command_args": [
+            "-iwad",
+            "REKKRSL.iwad",
+            "-savedir",
+            "./Save",
+            "-config",
+            "gzdoom.ini"
+        ],
+        "information": {
+            "store_link": "https://store.steampowered.com/app/1715690",
+            "engine_name": "gzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
+            "version": "4.7.1",
+            "comments": "Saves will be stored in game directory.",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        }
+    },
     "1731320": {
         "game_name": "Relentless Frontier Demo",
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-18/",
-                "file": "gzdoom-common-18.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
+                "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5339,7 +5503,7 @@
             "store_link": "https://store.steampowered.com/app/1731320/",
             "engine_name": "gzdoom",
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.7.0",
+            "version": "4.7.1",
             "comments": "",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
@@ -5352,8 +5516,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-5/",
-                "file": "scummvm-common-5.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-6/",
+                "file": "scummvm-common-6.tar.xz",
                 "cache_by_name": true
             },
             {
