@@ -12,7 +12,7 @@ export class PackagesComponent implements OnInit {
   titles: any = [];
 
   async ngOnInit() {
-    const response = await fetch(`/assets/packagesruntime.json`);
+    const response = await fetch(`/packagesruntime.json`);
     this.titles = await response.json();
     this.sortTitles();
   }
