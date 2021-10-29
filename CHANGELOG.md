@@ -16,6 +16,7 @@
 * perimeter - Update to 1189111 & added expansion pack
 * openhexagon - Update to 2.0.7
 * classic-rbdoom-3-bfg - Update to 1.2.8
+* easyrpg-player - Update to 0.7.0
 
 ### 39.0 (2021-10-10)
 
