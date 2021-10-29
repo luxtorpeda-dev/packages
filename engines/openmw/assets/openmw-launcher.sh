@@ -2,18 +2,34 @@
 
 export LD_LIBRARY_PATH=lib:$LD_LIBRARY_PATH
 
+if [ -f "last_error.txt" ]; then
+    rm last_error.txt
+fi
+
 set -e
 
 if [ ! -f Morrowind.ini ]; then
     if [ ! -f morrowind.ini ]; then
-        "$STEAM_ZENITY" --error --text="No morrowind ini file not found"
+        error_message="No morrowind ini file not found."
+        if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
+            "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
+        else
+            echo "$error_message" > last_error.txt
+        fi
+        exit 10
     else
         ln -rsf morrowind.ini Morrowind.ini
     fi
 fi
 
 if [ -f openmw.cfg ]; then
-    "$STEAM_ZENITY" --warning --text="openmw.cfg found in game directory. New version expects openmw.cfg in ~/.config/openmw"
+    error_message="openmw.cfg found in game directory. New version expects openmw.cfg in ~/.config/openmw."
+    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
+        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
+    else
+        echo "$error_message" > last_error.txt
+    fi
+    exit 10
 fi
 
 if [ ! -d vfs ]; then
