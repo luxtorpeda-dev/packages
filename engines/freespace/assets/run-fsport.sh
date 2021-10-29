@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -f "last_file.txt" ]; then
+if [ -f "last_error.txt" ]; then
     rm last_error.txt
 fi
 
