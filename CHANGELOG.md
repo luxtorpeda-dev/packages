@@ -1,4 +1,4 @@
-### 44.0 (2021-10-30)
+### 44.0 (2021-10-29)
 
 * Add support for packages that used Zenity to use egui-based prompts, with zenity used as a fallback.
 
