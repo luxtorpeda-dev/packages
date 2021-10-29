@@ -1,8 +1,17 @@
 #!/bin/bash
 
+if [ -f "last_error.txt" ]; then
+    rm last_error.txt
+fi
+
 if [ ! -f demo/etqw-rthread ]; then
-    "$STEAM_ZENITY" --error --title="Launch Error" --text="Demo version not in correct location."
-    exit 1
+    error_message="Demo version not in correct location."
+    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
+        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
+    else
+        echo "$error_message" > last_error.txt
+    fi
+    exit 10
 fi
 
 cd ./demo

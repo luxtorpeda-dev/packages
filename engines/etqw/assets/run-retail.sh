@@ -1,8 +1,13 @@
 #!/bin/bash
 
 if [ ! -f full/etqw-rthread ]; then
-    "$STEAM_ZENITY" --error --title="Launch Error" --text="Retail version not in correct location."
-    exit 1
+    error_message="Retail version not in correct location."
+    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
+        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
+    else
+        echo "$error_message" > last_error.txt
+    fi
+    exit 10
 fi
 
 cd ./full
