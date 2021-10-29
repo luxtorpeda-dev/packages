@@ -1,5 +1,8 @@
 #!/bin/bash
 
+if [ -f "last_error.txt" ]; then
+    rm last_error.txt
+fi
 
 if [ ! -f "sdkpath.txt" ]; then
     if [[ ! -z "${DEPPATH_243730}" ]]; then
