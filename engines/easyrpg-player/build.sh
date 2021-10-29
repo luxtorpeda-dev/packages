@@ -3,13 +3,13 @@
 # CLONE PHASE
 git clone https://github.com/EasyRPG/Player.git source
 pushd source
-git checkout -f 4dd00a6
+git checkout -f 281be71
 git submodule update --init --recursive
 popd
 
 git clone https://github.com/EasyRPG/liblcf.git liblcf
 pushd liblcf
-git checkout -f bb9f9e2
+git checkout -f 01b73de
 popd
 
 # BUILD PHASE
