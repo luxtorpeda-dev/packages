@@ -18,9 +18,17 @@
       </mat-panel-description>
     </mat-expansion-panel-header>
 
-    <div *ngFor="let engine of title.information">
-      {{engine.engine_name}}
-    </div>
-
+    <ng-template matExpansionPanelContent>
+      <mat-drawer-container>
+        <mat-drawer mode="side">
+          <div *ngFor="let engine of title.information">
+            {{engine.engine_name}}
+          </div>
+        </mat-drawer>
+        <mat-drawer-content>
+          Main content
+        </mat-drawer-content>
+      </mat-drawer-container>
+    </ng-template>
   </mat-expansion-panel>
 </mat-accordion>

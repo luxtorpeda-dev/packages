@@ -9,7 +9,7 @@ import { PackagesComponent } from './packages/packages.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatIconModule} from '@angular/material/icon';
 import {MatChipsModule} from '@angular/material/chips';
-
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import {MatChipsModule} from '@angular/material/chips';
     BrowserAnimationsModule,
     MatExpansionModule,
     MatIconModule,
-    MatChipsModule
+    MatChipsModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
