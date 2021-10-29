@@ -1,3 +1,7 @@
+### 44.0 (2021-10-30)
+
+* Add support for packages that used Zenity to use egui-based prompts, with zenity used as a fallback.
+
 ### 40.0 (2021-10-18)
 
 * Added freespace support with compiled version of the original engine and support for FreespacePort, which requires Freespace 2 to be installed and launched with luxtorpeda-dev client at least once. 
@@ -11,6 +15,7 @@
 * warzone2100 - Update to 4.2.0
 * perimeter - Update to 1189111 & added expansion pack
 * openhexagon - Update to 2.0.7
+* classic-rbdoom-3-bfg - Update to 1.2.8
 
 ### 39.0 (2021-10-10)
 
