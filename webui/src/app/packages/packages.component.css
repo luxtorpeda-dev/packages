@@ -12,6 +12,37 @@
   margin-left: 8px;
 }
 
-.mat-chip.mat-standard-chip.mat-chip-disabled {
-  opacity: 1 !important;
+.mat-chip {
+  cursor: pointer !important;
+}
+
+.page-wrapper {
+  padding-top: 1rem;
+  color: white;
+}
+
+.header-wrapper {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.game-row {
+    background: #424242;
+    padding: 0 24px;
+    margin-bottom: 1rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 0;
+    padding-bottom: 0.5rem;
+}
+
+.game-title, .engine-choices {
+    align-self: center;
+    margin-bottom: 0.5rem;
+}
+
+div {
+  word-break: break-word;
 }

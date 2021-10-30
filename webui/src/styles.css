@@ -6,3 +6,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background:
 a, a:visited {
   color: white !important;
 }
+
+.mat-expansion-panel {
+  border-radius: 0 !important;
+}
