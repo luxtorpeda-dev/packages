@@ -32,9 +32,9 @@ if [ ! -f "sdkpath.txt" ]; then
             exit 10
         fi
     fi
-    
+
     echo "$HL_PATH" >> sdkpath.txt
-    
+
     pushd "metastasis"
         # from https://steamcommunity.com/sharedfiles/filedetails/?id=754991349&insideModal=0
         LD_PRELOAD="" find ./ | LD_PRELOAD="" sort -r | LD_PRELOAD="" sed 's/\(.*\/\)\(.*\)/mv "\1\2" "\1\L\2"/' | LD_PRELOAD="" sh
@@ -69,7 +69,7 @@ if [ ! -f "hlpath.txt" ]; then
             exit 10
         fi
     fi
-    
+
     echo "$EPISODE_PATH" >> hlpath.txt
 fi
 
@@ -137,4 +137,4 @@ pushd "metastasis"
     LD_PRELOAD="" ln -rsf "$EPISODE_PATH/episodic/bin/server.so" bin/server.so
 popd
 
-"$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$sdkpath"/hl2.sh -game "$PWD/metastasis" -steam
+"$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$EPISODE_PATH"/hl2.sh -game "$PWD/metastasis" -steam +mat_hdr_level "2" "$@"

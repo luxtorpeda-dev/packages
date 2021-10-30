@@ -152,9 +152,9 @@ if [ -d "resistanceelement" ]; then
 fi
 
 if [ -d "ResistanceElement" ]; then
-    "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$sdkpath"/hl2.sh -game "$PWD/ResistanceElement" -steam
+    "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$EPISODE_PATH"/hl2.sh -game "$PWD/ResistanceElement" -steam +mat_hdr_level "2" "$@"
 fi
 
 if [ -d "resistanceelement" ]; then
-    "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$sdkpath"/hl2.sh -game "$PWD/resistanceelement" -steam
+    "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$EPISODE_PATH"/hl2.sh -game "$PWD/resistanceelement" -steam +mat_hdr_level "2" "$@"
 fi
