@@ -49,4 +49,7 @@ echo "$CDKEY" > linuxdata/System/cdkey
 
 rm linuxdata/System/User.ini
 cp System/User.ini linuxdata/System/User.ini
+
 sed -i "s/InputClass=Class'Engine.PlayerInput'/InputClass=Class'foxWSFix.foxPlayerInput'/" linuxdata/System/User.ini
+echo "[XGame.xPlayer]" >> linuxdata/System/User.ini
+echo "InputClass=Class'foxWSFix.foxPlayerInput'" >> linuxdata/System/User.ini
