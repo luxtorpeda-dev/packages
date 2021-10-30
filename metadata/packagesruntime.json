@@ -2488,9 +2488,6 @@
                 "setup": true
             }
         },
-        "app_ids_deps": [
-            1070560
-        ],
         "setup": {
             "complete_path": "../ready",
             "command": "./setup-ut2004.sh",
