@@ -1,0 +1,24 @@
+name: Build Engine
+
+on:
+  pull_request:
+    paths:
+      - 'webui/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      engine: ${{ steps.findname.outputs.engine }}
+      container: ${{ steps.findname.outputs.container }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Setup Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: NPM Install
+      run: npm ci
+    - name: Angular Build
+      run: npm run build
