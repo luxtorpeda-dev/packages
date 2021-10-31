@@ -2915,8 +2915,8 @@
             },
             {
                 "name": "ja2-stracciatella",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-2/",
-                "file": "ja2-stracciatella-215930-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-4/",
+                "file": "ja2-stracciatella-215930-4.tar.xz"
             }
         ],
         "command": "./run-ja2.sh",
@@ -2929,9 +2929,17 @@
             }
         },
         "notices": [
-            {"key": "non_free", "label": "Non-free license"},
-            {"key": "32-bit", "label": "32-bit libraries"},
-            {"label": "Requires both Wildfire and Classic DLC"}
+            {
+                "key": "non_free",
+                "label": "Non-free license"
+            },
+            {
+                "key": "32-bit",
+                "label": "32-bit libraries"
+            },
+            {
+                "label": "Requires both Wildfire and Classic DLC"
+            }
         ],
         "information": {
             "store_link": "https://store.steampowered.com/app/1343370",
