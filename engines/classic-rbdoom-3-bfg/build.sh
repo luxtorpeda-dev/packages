@@ -6,6 +6,21 @@ pushd source
 git checkout cf9c2fa
 popd
 
+git clone https://github.com/kcat/openal-soft.git openal
+pushd openal
+git checkout ae4eacf
+popd
+
+# BUILD PHASE
+pushd "openal"
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
 pushd "source"
 mkdir build
 cd build
@@ -23,5 +38,5 @@ popd
 cp "source/build/DoomBFA" "$diststart/208200/dist/DoomBFA"
 cp -rfv ./assets/* "$diststart/208200/dist/"
 cp -rfv ./source/base "$diststart/208200/dist/updatedbase"
-cp "source/neo/libs/openal-soft/Linuxx64/libopenal.so" "$diststart/208200/dist/lib"
-cp "source/neo/libs/openal-soft/Linuxx64/libopenal.so" "$diststart/208200/dist/lib/libopenal.so.1"
+cp -rfv "/usr/local/lib/libopenal.so.1.21.1" "$diststart/common/dist/openal.so"
+cp -rfv "/usr/local/lib/libopenal.so.1.21.1" "$diststart/common/dist/openal.so.1"
