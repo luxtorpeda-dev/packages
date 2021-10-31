@@ -21,6 +21,7 @@
 * scummvm - Check for Original folder
 * ja2 - Add error if classic not found
 * ut2004 - Fix missing piece for foxPlayerInput
+* Restore runescape
 
 ### 39.0 (2021-10-10)
 
