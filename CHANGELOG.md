@@ -18,6 +18,9 @@
 * classic-rbdoom-3-bfg - Update to 1.2.8
 * easyrpg-player - Update to 0.7.0
 * rbdoom-3-bfg - Update to 1.3.0
+* scummvm - Check for Original folder
+* ja2 - Add error if classic not found
+* ut2004 - Fix missing piece for foxPlayerInput
 
 ### 39.0 (2021-10-10)
 
