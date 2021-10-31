@@ -1,4 +1,4 @@
-name: Build Engine
+name: Build web ui
 
 on:
   pull_request:
@@ -8,9 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    outputs:
-      engine: ${{ steps.findname.outputs.engine }}
-      container: ${{ steps.findname.outputs.container }}
+    defaults:
+      run:
+        working-directory: ./webui
     steps:
     - name: Checkout
       uses: actions/checkout@v1
