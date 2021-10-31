@@ -3,6 +3,18 @@
 wantedversion="0.18.0"
 filepath="./ja2-stracciatella_0.18.0-git+ebc73ce_x86-64.AppImage"
 
+if [[ -d "JA2Classic" ]]; then
+    echo "Classic found"
+else
+    error_message="Classic DLC for Wildfile not found. Both Wildfire and Classic DLC are required."
+    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
+        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
+    else
+        echo "$error_message" > last_error.txt
+    fi
+    exit 10
+fi
+
 if [ -f "readyversion.txt" ]; then
     readyversion=$(cat readyversion.txt)
     echo "Found version: $readyversion"
