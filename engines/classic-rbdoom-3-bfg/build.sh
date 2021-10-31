@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git source
 pushd source
-git checkout ba7372970ee8342fa44c738c148b44b087570894
+git checkout cf9c2fa
 popd
 
 pushd "source"
@@ -23,3 +23,4 @@ popd
 cp "source/build/DoomBFA" "$diststart/208200/dist/DoomBFA"
 cp -rfv ./assets/* "$diststart/208200/dist/"
 cp -rfv ./source/base "$diststart/208200/dist/updatedbase"
+cp "source/neo/libs/openal-soft/Linuxx64/libopenal.so" "$diststart/208200/dist/lib"
