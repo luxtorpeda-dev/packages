@@ -1,6 +1,7 @@
 #!/bin/bash
 
 wantedversion="0.18.0"
+
 filepath="./ja2-stracciatella_0.18.0-git+ebc73ce_x86-64.AppImage"
 
 if [[ -d "JA2Classic" ]]; then
