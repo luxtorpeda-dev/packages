@@ -4770,7 +4770,8 @@
                 "command": "./run-nblood.sh",
                 "download": [
                     "nblood"
-                ]
+                ],
+                "engine_name": "NBlood"
             },
             {
                 "name": "raze",
@@ -4798,41 +4799,32 @@
                 }
             }
         ],
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/1010750",
-                "engine_name": "NBlood",
+        "engines": {
+            "NBlood": {
                 "engine_link": "https://github.com/nukeykt/NBlood",
                 "version": "5b9fe37 (from master)",
-                "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "GPLv2",
                 "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
             },
-            {
-                "store_link": "https://store.steampowered.com/app/1010750",
-                "engine_name": "raze",
+            "raze": {
                 "engine_link": "https://github.com/coelckers/Raze",
                 "version": "1.2.1",
-                "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "Various Licenses",
                 "license_link": "https://github.com/coelckers/Raze"
             },
-            {
-                "store_link": "https://store.steampowered.com/app/1010750",
-                "engine_name": "BuildGDX",
+            "BuildGDX": {
                 "engine_link": "https://m210.duke4.net/index.php",
                 "version": "1.1.5",
-                "comments": "",
                 "author": "d10sfan",
                 "author_link": "https://github.com/d10sfan",
                 "license": "Various Licenses",
                 "license_link": "https://gitlab.com/m210/BuildGDX"
             }
-        ]
+        }
     },
     "1054600": {
         "game_name": "Resistance Element",
@@ -4849,18 +4841,24 @@
             380
         ],
         "command": "./run-resistance-element.sh",
+        "engines": {
+            "Source SDK 2013": {
+                "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+                "version": "Steam release",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Source SDK Copyright(c) Valve Corp.",
+                "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+                "notices": [
+                    {"key": "non_free", "label": "Non-free license"},
+                    {"key": "32-bit", "label": "32-bit libraries"},
+                    {"label": "Requires Source SDK 2013 Singleplayer, Half-Life 2 Episode 1, and Steam Linux Runtime to be installed."}
+                ]
+            }
+        },
         "information": {
-            "store_link": "https://store.steampowered.com/app/1054600",
-            "engine_name": "Source SDK 2013",
-            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
-            "version": "Steam release",
-            "comments": "Requires Source SDK 2013 Singleplayer, Half-Life 2 Episode 1, and Steam Linux Runtime to be installed.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Source SDK Copyright(c) Valve Corp.",
-            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
             "non_free": true,
-            "32-bit": true
+            "license": "Source SDK Copyright(c) Valve Corp."
         }
     },
     "1072150": {
