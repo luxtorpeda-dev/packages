@@ -1270,7 +1270,10 @@
                 "cmd": "./eternaljk.x86_64"
             }
         },
-        "engine_names": ["OpenJK (SP)", "EternalJK (MP)"]
+        "engine_names": [
+            "OpenJK (SP)",
+            "EternalJK (MP)"
+        ]
     },
     "6030": {
         "game_name": "STAR WARS™ Jedi Knight II: Jedi Outcast™",
@@ -1294,7 +1297,10 @@
                 "cmd": "./jk2mvmp"
             }
         },
-        "engine_names": ["OpenJK (SP)", "jk2mv (MP)"]
+        "engine_names": [
+            "OpenJK (SP)",
+            "jk2mv (MP)"
+        ]
     },
     "6310": {
         "game_name": "The Longest Journey",
@@ -1653,9 +1659,11 @@
             "-iwad",
             "doom_complete.pk3"
         ],
-        "notices": [{
-            "label": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh)"
-        }],
+        "notices": [
+            {
+                "label": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh)"
+            }
+        ],
         "engine_name": "gzdoom"
     },
     "9180": {
@@ -2333,10 +2341,12 @@
             380
         ],
         "command": "./run-metastasis.sh",
-        "notices": [{
-            "key": "app_ids_deps",
-            "label": "Requires Half-Life 2 Episode 1 to be installed."
-        }],
+        "notices": [
+            {
+                "key": "app_ids_deps",
+                "label": "Requires Half-Life 2 Episode 1 to be installed."
+            }
+        ],
         "engine_name": "Source SDK 2013",
         "information": {
             "license": "Source SDK Copyright(c) Valve Corp.",
@@ -2597,8 +2607,8 @@
         "download": [
             {
                 "name": "fs2open",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-23/",
-                "file": "fs2open-273620-23.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-24/",
+                "file": "fs2open-273620-24.tar.xz"
             }
         ],
         "command": "./run-freespace2.sh",
@@ -2624,9 +2634,11 @@
         },
         "command": "./run-openrct2.sh",
         "engine_name": "openrct2",
-        "notices": [{
-            "label": "Requires assets from RCT2 to run, so RCT2 should be run through Steam first."
-        }]
+        "notices": [
+            {
+                "label": "Requires assets from RCT2 to run, so RCT2 should be run through Steam first."
+            }
+        ]
     },
     "285330": {
         "game_name": "RollerCoaster Tycoon 2: Triple Thrill Pack",
@@ -2740,10 +2752,12 @@
             "-savedir",
             "./saves"
         ],
-        "notices": [{
-            "key": "saves",
-            "value": "save_game_dir"
-        }],
+        "notices": [
+            {
+                "key": "saves",
+                "value": "save_game_dir"
+            }
+        ],
         "engine_name": "gzdoom"
     },
     "329650": {
@@ -3216,9 +3230,11 @@
             1070560
         ],
         "command": "./run-entropy-zero.sh",
-        "notices": [{
-            "label": "Uses already compiled binaries from z33ky project project."
-        }],
+        "notices": [
+            {
+                "label": "Uses already compiled binaries from z33ky project project."
+            }
+        ],
         "engine_name": "Source SDK 2013",
         "information": {
             "license": "Source SDK Copyright(c) Valve Corp.",
@@ -3262,10 +3278,12 @@
             "-savedir",
             "./saves"
         ],
-        "notices": [{
-            "key": "saves",
-            "value": "save_game_dir"
-        }],
+        "notices": [
+            {
+                "key": "saves",
+                "value": "save_game_dir"
+            }
+        ],
         "engine_name": "gzdoom"
     },
     "961620": {
@@ -3377,10 +3395,12 @@
             380
         ],
         "command": "./run-resistance-element.sh",
-        "notices": [{
-            "key": "app_ids_deps",
-            "label": "Requires Half-Life 2 Episode 1 to be installed."
-        }],
+        "notices": [
+            {
+                "key": "app_ids_deps",
+                "label": "Requires Half-Life 2 Episode 1 to be installed."
+            }
+        ],
         "engine_name": "Source SDK 2013",
         "information": {
             "license": "Source SDK Copyright(c) Valve Corp.",
@@ -3406,10 +3426,12 @@
             "-config",
             "gzdoom.ini"
         ],
-        "notices": [{
-            "key": "saves",
-            "value": "save_game_dir"
-        }],
+        "notices": [
+            {
+                "key": "saves",
+                "value": "save_game_dir"
+            }
+        ],
         "engine_name": "gzdoom"
     },
     "1118550": {
@@ -3429,10 +3451,12 @@
             "-savedir",
             "./saves"
         ],
-        "notices": [{
-            "key": "saves",
-            "value": "save_game_dir"
-        }],
+        "notices": [
+            {
+                "key": "saves",
+                "value": "save_game_dir"
+            }
+        ],
         "engine_name": "gzdoom"
     },
     "1241950": {
@@ -3541,10 +3565,12 @@
             "-config",
             "gzdoom.ini"
         ],
-        "notices": [{
-            "key": "saves",
-            "value": "save_game_dir"
-        }],
+        "notices": [
+            {
+                "key": "saves",
+                "value": "save_game_dir"
+            }
+        ],
         "engine_name": "gzdoom"
     },
     "1343370": {
@@ -3688,10 +3714,12 @@
             "-config",
             "gzdoom.ini"
         ],
-        "notices": [{
-            "key": "saves",
-            "value": "save_game_dir"
-        }],
+        "notices": [
+            {
+                "key": "saves",
+                "value": "save_game_dir"
+            }
+        ],
         "engine_name": "gzdoom"
     },
     "1508030": {
@@ -3725,10 +3753,12 @@
             "-config",
             "gzdoom.ini"
         ],
-        "notices": [{
-            "key": "saves",
-            "value": "save_game_dir"
-        }],
+        "notices": [
+            {
+                "key": "saves",
+                "value": "save_game_dir"
+            }
+        ],
         "engine_name": "gzdoom"
     },
     "1566570": {
@@ -3794,9 +3824,11 @@
             }
         },
         "engine_name": "BuildGDX",
-        "notices": [{
-            "label": "Will have to remove the file at ~/M210Projects/WitchavenGDX/witchavengdx.ini to switch between Original and Enhanced, or can manually change the path in the launcher."
-        }]
+        "notices": [
+            {
+                "label": "Will have to remove the file at ~/M210Projects/WitchavenGDX/witchavengdx.ini to switch between Original and Enhanced, or can manually change the path in the launcher."
+            }
+        ]
     },
     "1655430": {
         "game_name": "Witchaven II: Blood Vengeance",
@@ -3831,9 +3863,11 @@
             }
         },
         "engine_name": "BuildGDX",
-        "notices": [{
-            "label": "Will have to remove the file at ~/M210Projects/Witchaven2GDX/witchavengdx.ini to switch between Original and Enhanced, or can manually change the path in the launcher."
-        }]
+        "notices": [
+            {
+                "label": "Will have to remove the file at ~/M210Projects/Witchaven2GDX/witchavengdx.ini to switch between Original and Enhanced, or can manually change the path in the launcher."
+            }
+        ]
     },
     "1679920": {
         "game_name": "Project Absentia Demo",
@@ -3873,10 +3907,12 @@
             "-config",
             "gzdoom.ini"
         ],
-        "notices": [{
-            "key": "saves",
-            "value": "save_game_dir"
-        }],
+        "notices": [
+            {
+                "key": "saves",
+                "value": "save_game_dir"
+            }
+        ],
         "engine_name": "gzdoom"
     },
     "1731320": {
@@ -3900,10 +3936,12 @@
             "-savedir",
             "./Engine/Save"
         ],
-        "notices": [{
-            "key": "saves",
-            "value": "save_game_dir"
-        }],
+        "notices": [
+            {
+                "key": "saves",
+                "value": "save_game_dir"
+            }
+        ],
         "engine_name": "gzdoom"
     },
     "default": {
@@ -4033,9 +4071,11 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING",
-            "notices": [{
-                "label": "Pick FluidSynth in in-game options to hear music."
-            }]
+            "notices": [
+                {
+                    "label": "Pick FluidSynth in in-game options to hear music."
+                }
+            ]
         },
         "NBlood": {
             "engine_link": "https://github.com/nukeykt/NBlood",
@@ -4184,9 +4224,11 @@
         "OpenApoc": {
             "engine_link": "https://github.com/OpenApoc/OpenApoc",
             "version": "Alpha build v0.386",
-            "notices": [{
-                "key": "in_progress"
-            }],
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ],
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -4211,9 +4253,11 @@
         "Hammer of Thyrion": {
             "engine_link": "https://github.com/sezero/uhexen2",
             "version": "afce549 (from master)",
-            "notices": [{
-                "label": "Set Music Mode in in-game options to All Codecs"
-            }],
+            "notices": [
+                {
+                    "label": "Set Music Mode in in-game options to All Codecs"
+                }
+            ],
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -4230,11 +4274,14 @@
         "OpenTomb": {
             "engine_link": "https://github.com/opentomb/OpenTomb",
             "version": "8e4c249 (from master)",
-            "notices": [{
-                "key": "in_progress"
-            }, {
-                "label": "Read engine README for how to switch levels."
-            }],
+            "notices": [
+                {
+                    "key": "in_progress"
+                },
+                {
+                    "label": "Read engine README for how to switch levels."
+                }
+            ],
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "LGPLv3",
@@ -4243,9 +4290,11 @@
         "OpenLara": {
             "engine_link": "https://github.com/XProger/OpenLara",
             "version": "fc273f2 (from master)",
-             "notices": [{
-                "key": "in_progress"
-            }],
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ],
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD 2-Clause",
@@ -4302,9 +4351,11 @@
         "reone": {
             "engine_link": "https://github.com/seedhartha/reone",
             "version": "0.19.0",
-            "notices": [{
-                "key": "in_progress"
-            }],
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ],
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -4313,11 +4364,14 @@
         "OpenGothic": {
             "engine_link": "https://github.com/Try/OpenGothic",
             "version": "v1.0.1177",
-            "notices": [{
-                "key": "in_progress"
-            }, {
-                "key": "steam_overlay_disabled"
-            }],
+            "notices": [
+                {
+                    "key": "in_progress"
+                },
+                {
+                    "key": "steam_overlay_disabled"
+                }
+            ],
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -4679,11 +4733,14 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/KranX/Perimeter/blob/cmake/LICENSE",
-            "notices": [{
-                "key": "in_progress"
-            }, {
-                "label": "Sound does not work."
-            }]
+            "notices": [
+                {
+                    "key": "in_progress"
+                },
+                {
+                    "label": "Sound does not work."
+                }
+            ]
         },
         "OpenLoco": {
             "engine_link": "https://github.com/OpenLoco/OpenLoco",
@@ -4692,11 +4749,14 @@
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
             "license_link": "https://github.com/OpenLoco/OpenLoco/blob/master/LICENSE",
-            "notices": [{
-                "key": "32_bit"
-            }, {
-                "key": "in_progress"
-            }]
+            "notices": [
+                {
+                    "key": "32_bit"
+                },
+                {
+                    "key": "in_progress"
+                }
+            ]
         },
         "terminal-recall": {
             "engine_link": "https://github.com/jtrfp/terminal-recall",
@@ -4705,9 +4765,11 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Apache 2.0",
             "license_link": "https://github.com/jtrfp/terminal-recall/blob/master/LICENSE-2.0.apache.txt",
-            "notices": [{
-                "label": "Need to configure the paths to the POD files using the in-game configuration menu for the first time."
-            }]
+            "notices": [
+                {
+                    "label": "Need to configure the paths to the POD files using the in-game configuration menu for the first time."
+                }
+            ]
         },
         "Good-Robot": {
             "engine_link": "https://github.com/arvindrajayadav/Good-Robot",
@@ -4724,9 +4786,11 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/Interrupt/systemshock/blob/master/COPYING.txt",
-            "notices": [{
-                "key": "32_bit"
-            }]
+            "notices": [
+                {
+                    "key": "32_bit"
+                }
+            ]
         },
         "1oom": {
             "engine_link": "https://gitlab.com/Tapani_/1oom",
@@ -4751,11 +4815,14 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Activision",
             "license_link": "https://github.com/ptitSeb/ctp2/blob/master/EULA%20-%20Source%20Code%20for%20CTP2.rtf",
-            "notices": [{
-                "key": "non_free"
-            }, {
-                "key": "steam_overlay_disabled"
-            }]
+            "notices": [
+                {
+                    "key": "non_free"
+                },
+                {
+                    "key": "steam_overlay_disabled"
+                }
+            ]
         },
         "Ren'Py": {
             "engine_link": "https://www.renpy.org/",
