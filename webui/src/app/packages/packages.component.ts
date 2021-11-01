@@ -64,30 +64,8 @@ export class PackagesComponent implements OnInit {
               console.warn(`engineName of ${engineName} not found from title of ${titleId}`);
             }
           }
-        } else if(this.titles[titleId].information) {
-            if(!Array.isArray(this.titles[titleId].information)) {
-              this.titles[titleId].information = [this.titles[titleId].information];
-            }
-
-            for(let informationItem of this.titles[titleId].information) {
-                this.titles[titleId].engines[informationItem.engine_name] = informationItem;
-
-                if(!this.titles[titleId].engines[informationItem.engine_name].notices) {
-                  this.titles[titleId].engines[informationItem.engine_name].notices = [];
-                }
-
-                if(informationItem.non_free) {
-                    this.titles[titleId].engines[informationItem.engine_name].notices.push({"key": "non_free"});
-                }
-
-                if(informationItem["32-bit"]) {
-                    this.titles[titleId].engines[informationItem.engine_name].notices.push({"key": "32_bit"});
-                }
-
-                if(informationItem.comments) {
-                    this.titles[titleId].engines[informationItem.engine_name].notices.push({"label": informationItem.comments});
-                }
-            }
+        } else {
+            console.warn(`missing information for ${titleId}`);
         }
 
         const engineKeysSorted = Object.keys(this.titles[titleId].engines);
