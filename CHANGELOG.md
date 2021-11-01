@@ -22,6 +22,7 @@
 * ja2 - Add error if classic not found
 * ut2004 - Fix missing piece for foxPlayerInput
 * Restore runescape
+* source-sdk-2013 - Add downfall
 
 ### 39.0 (2021-10-10)
 
