@@ -2851,12 +2851,13 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./Blake Stone - Aliens of Gold/run-bstone.sh",
+        "command": "../run-bstone.sh",
         "download_config": {
             "bstone": {
-                "extract_location": "./Blake Stone - Aliens of Gold"
+                "extract_location": "../"
             }
         },
+        "use_original_command_directory": true,
         "engine_name": "bstone"
     },
     "358310": {
@@ -2869,12 +2870,13 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./Blake Stone - Planet Strike/run-bstone.sh",
+        "command": "../run-bstone.sh",
         "download_config": {
             "bstone": {
-                "extract_location": "./Blake Stone - Planet Strike"
+                "extract_location": "../"
             }
         },
+        "use_original_command_directory": true,
         "engine_name": "bstone"
     },
     "358370": {
