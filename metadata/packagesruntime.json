@@ -3311,8 +3311,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-21/",
-                "file": "source-sdk-2013-235780-21.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-22/",
+                "file": "source-sdk-2013-235780-22.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -4578,7 +4578,13 @@
     },
     "587650": {
         "game_name": "Half-Life 2: DownFall",
-        "download": [],
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-22/",
+                "file": "source-sdk-2013-587650-22.tar.xz"
+            }
+        ],
         "app_ids_deps": [
             243730,
             1070560
@@ -4593,9 +4599,17 @@
                 "license": "Source SDK Copyright(c) Valve Corp.",
                 "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
                 "notices": [
-                    {"key": "non_free", "label": "Non-free license"},
-                    {"key": "32-bit", "label": "32-bit libraries"},
-                    {"label": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed."}
+                    {
+                        "key": "non_free",
+                        "label": "Non-free license"
+                    },
+                    {
+                        "key": "32-bit",
+                        "label": "32-bit libraries"
+                    },
+                    {
+                        "label": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed."
+                    }
                 ]
             }
         },
@@ -4629,8 +4643,8 @@
             },
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-21/",
-                "file": "source-sdk-2013-714070-21.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-22/",
+                "file": "source-sdk-2013-714070-22.tar.xz"
             }
         ],
         "download_config": {
@@ -4662,8 +4676,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-21/",
-                "file": "source-sdk-2013-747250-21.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-22/",
+                "file": "source-sdk-2013-747250-22.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -4859,8 +4873,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-21/",
-                "file": "source-sdk-2013-1054600-21.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-22/",
+                "file": "source-sdk-2013-1054600-22.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -4878,9 +4892,17 @@
                 "license": "Source SDK Copyright(c) Valve Corp.",
                 "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
                 "notices": [
-                    {"key": "non_free", "label": "Non-free license"},
-                    {"key": "32-bit", "label": "32-bit libraries"},
-                    {"label": "Requires Source SDK 2013 Singleplayer, Half-Life 2 Episode 1, and Steam Linux Runtime to be installed."}
+                    {
+                        "key": "non_free",
+                        "label": "Non-free license"
+                    },
+                    {
+                        "key": "32-bit",
+                        "label": "32-bit libraries"
+                    },
+                    {
+                        "label": "Requires Source SDK 2013 Singleplayer, Half-Life 2 Episode 1, and Steam Linux Runtime to be installed."
+                    }
                 ]
             }
         },
