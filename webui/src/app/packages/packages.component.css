@@ -19,6 +19,7 @@
 .page-wrapper {
   padding-top: 1rem;
   color: white;
+  max-width: 1200px;
 }
 
 .header-wrapper {
