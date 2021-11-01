@@ -4576,6 +4576,34 @@
             }
         ]
     },
+    "587650": {
+        "game_name": "Half-Life 2: DownFall",
+        "download": [],
+        "app_ids_deps": [
+            243730,
+            1070560
+        ],
+        "command": "./run-downfall.sh",
+        "engines": {
+            "Source SDK 2013": {
+                "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+                "version": "Steam release",
+                "author": "d10sfan",
+                "author_link": "https://github.com/d10sfan",
+                "license": "Source SDK Copyright(c) Valve Corp.",
+                "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+                "notices": [
+                    {"key": "non_free", "label": "Non-free license"},
+                    {"key": "32-bit", "label": "32-bit libraries"},
+                    {"label": "Requires Source SDK 2013 Singleplayer, Half-Life 2 Episode 2, and Steam Linux Runtime to be installed."}
+                ]
+            }
+        },
+        "information": {
+            "non_free": true,
+            "license": "Source SDK Copyright(c) Valve Corp."
+        }
+    },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
         "command": "./DDLC.sh",
