@@ -12,6 +12,7 @@
 * source-sdk-2013 - Add downfall
 * ut2004 - Upgrade to foxWSFix-2.2.0 - Requires removing "ready" file to go through setup again to see it.
 * Add new UI and re-structure packages.json file.
+* fs2open - Update to 21.4.1
 
 ### 40.0 (2021-10-18)
 
