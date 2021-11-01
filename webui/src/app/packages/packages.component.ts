@@ -12,16 +12,7 @@ export class PackagesComponent implements OnInit {
   titles: any = [];
   titleEnginePicked: any = {};
 
-  NOTICE_MAP: any = {
-    save_game_dir: 'Saves will be stored in game directory.',
-    non_free: 'Non-free license.',
-    '32_bit': '32-bit libraries.',
-    in_progress: 'Engine is still in progress so not all features may be implemented.',
-    steam_overlay_disabled: 'Steam overlay is disabled.',
-    closed_source: 'Proprietary/Closed Source engine.',
-    manual_steps: 'Manual steps required.',
-    steam_achivements: 'Supports steam achivements.'
-  };
+  NOTICE_MAP: any = {};
 
   async ngOnInit() {
     const response = await fetch(`/packagesruntime.json`);
@@ -32,8 +23,11 @@ export class PackagesComponent implements OnInit {
   sortTitles() {
       const finalTitles: any = [];
       let defaultRecord;
+
+      this.NOTICE_MAP = this.titles.noticeMap;
+
       for (const titleId in this.titles) {
-        if(titleId === 'engines') {
+        if(titleId === 'engines' || titleId === 'noticeMap') {
           continue;
         }
 
