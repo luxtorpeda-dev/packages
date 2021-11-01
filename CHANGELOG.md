@@ -23,6 +23,7 @@
 * ut2004 - Fix missing piece for foxPlayerInput
 * Restore runescape
 * source-sdk-2013 - Add downfall
+* ut2004 - Upgrade to foxWSFix-2.2.0 - Requires removing "ready" file to go through setup again to see it.
 
 ### 39.0 (2021-10-10)
 
