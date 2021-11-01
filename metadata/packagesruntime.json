@@ -4595,7 +4595,7 @@
                 "notices": [
                     {"key": "non_free", "label": "Non-free license"},
                     {"key": "32-bit", "label": "32-bit libraries"},
-                    {"label": "Requires Source SDK 2013 Singleplayer, Half-Life 2 Episode 2, and Steam Linux Runtime to be installed."}
+                    {"label": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed."}
                 ]
             }
         },
