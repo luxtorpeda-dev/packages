@@ -1706,9 +1706,6 @@
                 "file": "prey2006-3970-5.tar.xz"
             }
         ],
-        "app_ids_deps": [
-            1070560
-        ],
         "download_config": {
             "binaries": {
                 "setup": true,
