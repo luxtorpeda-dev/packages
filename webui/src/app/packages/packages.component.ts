@@ -12,7 +12,6 @@ export class PackagesComponent implements OnInit {
   titles: any = [];
   titleEnginePicked: any = {};
 
-  //todo: move to own file
   NOTICE_MAP: any = {
     save_game_dir: 'Saves will be stored in game directory.',
     non_free: 'Non-free license.',

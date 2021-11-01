@@ -503,7 +503,7 @@
         ],
         "choices": [
             {
-                "name": "vkQuake",
+                "name": "vkquake",
                 "command": "./vkquake.sh",
                 "download": [
                     "vkquake"
@@ -565,7 +565,7 @@
                 "engine_name": "FTE QuakeWorld"
             },
             {
-                "name": "vkQuake Dimension of the Past",
+                "name": "vkquake Dimension of the Past",
                 "command": "./vkquake.sh",
                 "download": [
                     "vkquake",
@@ -645,7 +645,7 @@
                 "engine_name": "FTE QuakeWorld"
             },
             {
-                "name": "vkQuake Dimension of the Past Re-release",
+                "name": "vkquake Dimension of the Past Re-release",
                 "command_args": [
                     "rerelease",
                     "-game",
@@ -676,7 +676,7 @@
                 "engine_name": "FTE QuakeWorld"
             },
             {
-                "name": "vkQuake Dimension of the Machine",
+                "name": "vkquake Dimension of the Machine",
                 "command_args": [
                     "rerelease",
                     "-game",
@@ -3233,6 +3233,7 @@
                 "file": "source-sdk-2013-747250-22.tar.xz"
             }
         ],
+        "command": "./run-year-long-alarm.sh",
         "app_ids_deps": [
             243730,
             1070560
