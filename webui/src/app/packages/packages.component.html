@@ -56,12 +56,35 @@
                 </div>
               </div>
             </div>
-            <ng-container *ngIf="title.engines[titleEnginePicked[title.titleId]].notices">
+            <ng-container *ngIf="title.engines[titleEnginePicked[title.titleId]].notices || title.notices">
               <div class="col-12 col-md-6">
                 <ul>
-                  <li *ngFor="let item of title.engines[titleEnginePicked[title.titleId]].notices">
-                    {{item.label}}
-                  </li>
+                  <ng-container *ngIf="title.engines[titleEnginePicked[title.titleId]].notices">
+                    <li *ngFor="let item of title.engines[titleEnginePicked[title.titleId]].notices">
+                      <div *ngIf="item.label">
+                        {{item.label}}
+                      </div>
+                      <div *ngIf="item.value">
+                        {{NOTICE_MAP[item.value]}}
+                      </div>
+                      <div *ngIf="item.key && !item.value">
+                        {{NOTICE_MAP[item.key]}}
+                      </div>
+                    </li>
+                  </ng-container>
+                  <ng-container *ngIf="title.notices">
+                    <li *ngFor="let item of title.notices">
+                      <div *ngIf="item.label">
+                        {{item.label}}
+                      </div>
+                      <div *ngIf="item.value">
+                        {{NOTICE_MAP[item.value]}}
+                      </div>
+                      <div *ngIf="item.key && !item.value">
+                        {{NOTICE_MAP[item.key]}}
+                      </div>
+                    </li>
+                  </ng-container>
                 </ul>
               </div>
             </ng-container>

@@ -12,6 +12,15 @@ export class PackagesComponent implements OnInit {
   titles: any = [];
   titleEnginePicked: any = {};
 
+  //todo: move to own file
+  NOTICE_MAP: any = {
+    save_game_dir: 'Saves will be stored in game directory.',
+    non_free: 'Non-free license.',
+    '32_bit': '32-bit libraries.',
+    in_progress: 'Engine is still in progress so not all features may be implemented.',
+    steam_overlay_disabled: 'Steam overlay is disabled.'
+  };
+
   async ngOnInit() {
     const response = await fetch(`/packagesruntime.json`);
     this.titles = await response.json();
@@ -22,12 +31,43 @@ export class PackagesComponent implements OnInit {
       const finalTitles: any = [];
       let defaultRecord;
       for (const titleId in this.titles) {
+        if(titleId === 'engines') {
+          continue;
+        }
+
         this.titles[titleId].titleId = titleId;
-        if(!this.titles[titleId].engines && this.titles[titleId].information) {
+        this.titles[titleId].engines = {};
+
+        if(this.titles[titleId].engine_name) {
+          const engineName = this.titles[titleId].engine_name;
+          if(this.titles.engines[engineName]) {
+            this.titles[titleId].engines[engineName] = this.titles.engines[engineName];
+          } else {
+            console.warn(`engineName of ${engineName} not found from title of ${titleId}`);
+          }
+        } else if(this.titles[titleId].engine_names) {
+          for(let engineName of this.titles[titleId].engine_names) {
+            if(this.titles.engines[engineName]) {
+              this.titles[titleId].engines[engineName] = this.titles.engines[engineName];
+            } else {
+              console.warn(`engineName of ${engineName} not found from title of ${titleId}`);
+            }
+          }
+        } else if(this.titles[titleId].choices) {
+          for(let choice of this.titles[titleId].choices) {
+            const engineName = choice.name;
+            if(this.titles.engines[engineName]) {
+              this.titles[titleId].engines[engineName] = this.titles.engines[engineName];
+            } else if (choice.engine_name && this.titles.engines[choice.engine_name]) {
+                this.titles[titleId].engines[choice.engine_name] = this.titles.engines[choice.engine_name];
+            } else {
+              console.warn(`engineName of ${engineName} not found from title of ${titleId}`);
+            }
+          }
+        } else if(this.titles[titleId].information) {
             if(!Array.isArray(this.titles[titleId].information)) {
               this.titles[titleId].information = [this.titles[titleId].information];
             }
-            this.titles[titleId].engines = {};
 
             for(let informationItem of this.titles[titleId].information) {
                 this.titles[titleId].engines[informationItem.engine_name] = informationItem;
@@ -37,21 +77,17 @@ export class PackagesComponent implements OnInit {
                 }
 
                 if(informationItem.non_free) {
-                    this.titles[titleId].engines[informationItem.engine_name].notices.push({"key": "non_free", "label": "Non-free license"});
+                    this.titles[titleId].engines[informationItem.engine_name].notices.push({"key": "non_free"});
                 }
 
                 if(informationItem["32-bit"]) {
-                    this.titles[titleId].engines[informationItem.engine_name].notices.push({"key": "32-bit", "label": "32-bit libraries"});
+                    this.titles[titleId].engines[informationItem.engine_name].notices.push({"key": "32_bit"});
                 }
 
                 if(informationItem.comments) {
                     this.titles[titleId].engines[informationItem.engine_name].notices.push({"label": informationItem.comments});
                 }
             }
-        }
-
-        if(!this.titles[titleId].information) {
-          continue;
         }
 
         const engineKeysSorted = Object.keys(this.titles[titleId].engines);
@@ -83,8 +119,6 @@ export class PackagesComponent implements OnInit {
     }
 
     this.titles = finalTitles;
-
-    console.log("ASDADS", this.titles);
   }
 
   onEngineClicked($event: any, title: any, engineKey: any) {
