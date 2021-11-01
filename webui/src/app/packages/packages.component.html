@@ -67,7 +67,7 @@
                       <div *ngIf="item.value">
                         {{NOTICE_MAP[item.value]}}
                       </div>
-                      <div *ngIf="item.key && !item.value">
+                      <div *ngIf="item.key && !item.value && !item.label">
                         {{NOTICE_MAP[item.key]}}
                       </div>
                     </li>
@@ -80,7 +80,7 @@
                       <div *ngIf="item.value">
                         {{NOTICE_MAP[item.value]}}
                       </div>
-                      <div *ngIf="item.key && !item.value">
+                      <div *ngIf="item.key && !item.value && !item.label">
                         {{NOTICE_MAP[item.key]}}
                       </div>
                     </li>

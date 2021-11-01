@@ -18,7 +18,10 @@ export class PackagesComponent implements OnInit {
     non_free: 'Non-free license.',
     '32_bit': '32-bit libraries.',
     in_progress: 'Engine is still in progress so not all features may be implemented.',
-    steam_overlay_disabled: 'Steam overlay is disabled.'
+    steam_overlay_disabled: 'Steam overlay is disabled.',
+    closed_source: 'Proprietary/Closed Source engine.',
+    manual_steps: 'Manual steps required.',
+    steam_achivements: 'Supports steam achivements.'
   };
 
   async ngOnInit() {
@@ -43,14 +46,14 @@ export class PackagesComponent implements OnInit {
           if(this.titles.engines[engineName]) {
             this.titles[titleId].engines[engineName] = this.titles.engines[engineName];
           } else {
-            console.warn(`engineName of ${engineName} not found from title of ${titleId}`);
+            console.error(`engineName of ${engineName} not found from title of ${titleId}`);
           }
         } else if(this.titles[titleId].engine_names) {
           for(let engineName of this.titles[titleId].engine_names) {
             if(this.titles.engines[engineName]) {
               this.titles[titleId].engines[engineName] = this.titles.engines[engineName];
             } else {
-              console.warn(`engineName of ${engineName} not found from title of ${titleId}`);
+              console.error(`engineName of ${engineName} not found from title of ${titleId}`);
             }
           }
         } else if(this.titles[titleId].choices) {
@@ -61,11 +64,11 @@ export class PackagesComponent implements OnInit {
             } else if (choice.engine_name && this.titles.engines[choice.engine_name]) {
                 this.titles[titleId].engines[choice.engine_name] = this.titles.engines[choice.engine_name];
             } else {
-              console.warn(`engineName of ${engineName} not found from title of ${titleId}`);
+              console.error(`engineName of ${engineName} not found from title of ${titleId}`);
             }
           }
         } else {
-            console.warn(`missing information for ${titleId}`);
+            console.error(`missing information for ${titleId}`);
         }
 
         const engineKeysSorted = Object.keys(this.titles[titleId].engines);

@@ -123,18 +123,9 @@
             "license_path": "./EULA.txt"
         },
         "command": "./run-quake4.sh",
+        "engine_name": "Quake IV",
         "information": {
-            "store_link": "https://store.steampowered.com/app/2210",
-            "engine_name": "Proprietary Engine",
-            "engine_link": "https://www.quaddicted.com/files/idgames2/idstuff/quake4/linux/",
-            "version": "1.4.2",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "http://zerowing.idsoftware.com/linux/quake4/Quake4FrontPage/",
-            "closed_source": true,
-            "32-bit": true
+            "closed_source": true
         }
     },
     "2270": {
@@ -1217,16 +1208,9 @@
             }
         ],
         "command": "./run-avp.sh",
+        "engine_name": "avp",
         "information": {
-            "store_link": "https://store.steampowered.com/app/3730/Aliens_versus_Predator_Classic_2000/",
-            "engine_name": "avp",
-            "engine_link": "https://github.com/neuromancer/avp",
-            "version": "2d57747 (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
             "license": "Rebellion; non-commercial",
-            "license_link": "https://github.com/neuromancer/avp/blob/master/LICENSE",
             "non_free": true
         }
     },
@@ -1258,18 +1242,9 @@
             "license_path": "./linuxofficial/data/prey_license.txt"
         },
         "command": "./run-prey.sh",
+        "engine_name": "Prey (2006)",
         "information": {
-            "store_link": "https://steamcommunity.com/app/3970",
-            "engine_name": "Proprietary Engine",
-            "engine_link": "http://icculus.org/prey//",
-            "version": "02192009",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "http://icculus.org/prey/",
-            "closed_source": true,
-            "32-bit": true
+            "closed_source": true
         }
     },
     "6020": {
@@ -1745,17 +1720,7 @@
             }
         ],
         "information": {
-            "store_link": "https://steamdb.info/app/10050/",
-            "engine_name": "Proprietary Engine",
-            "engine_link": "https://steamcommunity.com/app/10000/discussions/0/143388511227759615/",
-            "version": "ETQW-demo2-client-full.r1.x86",
-            "comments": "For Provided Retail option, put retail version in full directory, so that full/etqw-rthread exists inside the steam installed demo directory. For Demo, download the demo, run and follow the steps, then copy the files to demo/ inside the steam installed demo directory. Uses sdlcl, Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "https://zerowing.idsoftware.com/linux/etqw/ETQWFrontPage/index.html",
-            "closed_source": true,
-            "32-bit": true
+            "closed_source": true
         }
     },
     "13230": {
@@ -1804,16 +1769,8 @@
         },
         "command": "./run-ut2004.sh",
         "use_original_command_directory": true,
+        "engine_name": "ut2004",
         "information": {
-            "store_link": "https://store.steampowered.com/app/13230",
-            "engine_name": "Proprietary Engine",
-            "engine_link": "http://treefort.icculus.org/ut2004/",
-            "version": "3369",
-            "comments": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. Mods should go in the linuxdata directory. Adds foxWSFix by default.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "https://store.steampowered.com/eula/eula_epic",
             "closed_source": true
         }
     },
@@ -1856,18 +1813,9 @@
             "license_path": "../linuxdata-469b/legal.txt"
         },
         "use_original_command_directory": true,
+        "engine_name": "ut99",
         "information": {
-            "store_link": "https://store.steampowered.com/app/13240",
-            "engine_name": "Proprietary Engine",
-            "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469b-release-notes",
-            "version": "469b",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "https://store.steampowered.com/eula/eula_epic",
-            "closed_source": true,
-            "32-bit": true
+            "closed_source": true
         }
     },
     "13250": {
@@ -1886,18 +1834,9 @@
         ],
         "command": "./run-unreal.sh",
         "use_original_command_directory": true,
+        "engine_name": "unrealgold",
         "information": {
-            "store_link": "https://store.steampowered.com/app/13250",
-            "engine_name": "Proprietary Engine",
-            "engine_link": "https://www.oldunreal.com/downloads/unreal/oldunreal-patches/",
-            "version": "227i",
-            "comments": "Requires Oldunreal installer, which requires a manual download and Wine to be installed. System/README.txt should be referred to. Uses library pack from legluondunet. Steam overlay is disabled.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "https://store.steampowered.com/eula/eula_epic",
-            "closed_source": true,
-            "32-bit": true
+            "closed_source": true
         }
     },
     "20510": {
@@ -1911,16 +1850,9 @@
             }
         ],
         "command": "./run-openxray-clearsky.sh",
+        "engine_name": "OpenXRay",
         "information": {
-            "store_link": "https://store.steampowered.com/app/20510/",
-            "engine_name": "OpenXRay",
-            "engine_link": "https://github.com/OpenXRay/xray-16",
-            "version": "December 2020 Preview",
-            "comments": "Engine is still in progress so not all features may be implemented.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
             "license": "BSD with commercial source code",
-            "license_link": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt",
             "non_free": true
         }
     },
@@ -1949,14 +1881,16 @@
                 "command": "./openmw.sh",
                 "download": [
                     "openmw"
-                ]
+                ],
+                "engine_name": "OpenMW"
             },
             {
                 "name": "openmw-launcher",
                 "command": "./openmw-launcher.sh",
                 "download": [
                     "openmw"
-                ]
+                ],
+                "engine_name": "OpenMW"
             },
             {
                 "name": "openmw-tes3mp",
@@ -1964,30 +1898,6 @@
                 "download": [
                     "openmw-tes3mp"
                 ]
-            }
-        ],
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/22320/",
-                "engine_name": "OpenMW",
-                "engine_link": "https://openmw.org/",
-                "version": "0.46.0",
-                "comments": "",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv3",
-                "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE"
-            },
-            {
-                "store_link": "https://store.steampowered.com/app/22320/",
-                "engine_name": "openmw-tes3mp",
-                "engine_link": "https://github.com/TES3MP/openmw-tes3mp",
-                "version": "0.7-alpha",
-                "comments": "",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv3",
-                "license_link": "https://github.com/TES3MP/openmw-tes3mp/blob/292536439eeda58becdb7e441fe2e61ebb74529e/LICENSE"
             }
         ]
     },
@@ -2050,16 +1960,9 @@
             }
         ],
         "command": "./run-openxray.sh",
+        "engine_name": "OpenXRay",
         "information": {
-            "store_link": "https://store.steampowered.com/app/41700/",
-            "engine_name": "OpenXRay",
-            "engine_link": "https://github.com/OpenXRay/xray-16",
-            "version": "December 2020 Preview",
-            "comments": "Engine is still in progress so not all features may be implemented.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
             "license": "BSD with commercial source code",
-            "license_link": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt",
             "non_free": true
         }
     },
@@ -2088,7 +1991,8 @@
                 "command": "./run-rbdoom-3-bfg.sh",
                 "download": [
                     "rbdoom-3-bfg"
-                ]
+                ],
+                "engine_name": "RBDOOM-3-BFG"
             },
             {
                 "name": "classic-rbdoom-3-bfg",
@@ -2105,31 +2009,8 @@
                         "extract_location": "./classic/open-platform",
                         "decode_as_zip": true
                     }
-                }
-            }
-        ],
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
-                "engine_name": "RBDOOM-3-BFG",
-                "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
-                "version": "1.3.0",
-                "comments": "",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv3",
-                "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md"
-            },
-            {
-                "store_link": "https://store.steampowered.com/app/208200/Doom_3_BFG_Edition/",
-                "engine_name": "Classic-RBDOOM-3-BFG",
-                "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
-                "version": "1.2.8",
-                "comments": "Sets up Open Platform for Steam integration automatically.",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv3",
-                "license_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG/blob/master/COPYING.txt"
+                },
+                "engine_name": "Classic-RBDOOM-3-BFG"
             }
         ]
     },
@@ -2148,17 +2029,7 @@
             }
         },
         "command": "./linuxdata/run-cortex-command.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/209670",
-            "engine_name": "Cortex Command Community Project Source",
-            "engine_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source",
-            "version": "0310066",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "AGPLv3",
-            "license_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source/blob/development/LICENSE"
-        }
+        "engine_name": "Cortex Command Community Project Source"
     },
     "215930": {
         "game_name": "Jagged Alliance 2 - Wildfire",
@@ -2461,18 +2332,14 @@
             380
         ],
         "command": "./run-metastasis.sh",
+        "notices": [{
+            "key": "app_ids_deps",
+            "label": "Requires Half-Life 2 Episode 1 to be installed."
+        }],
+        "engine_name": "Source SDK 2013",
         "information": {
-            "store_link": "https://store.steampowered.com/app/235780",
-            "engine_name": "Source SDK 2013",
-            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
-            "version": "Steam release",
-            "comments": "Requires Source SDK 2013 Singleplayer, Half-Life 2 Episode 1, and Steam Linux Runtime to be installed.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
             "license": "Source SDK Copyright(c) Valve Corp.",
-            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
-            "non_free": true,
-            "32-bit": true
+            "non_free": true
         }
     },
     "238050": {
@@ -2501,7 +2368,8 @@
                     "rottexpr": {
                         "extract_location": "./Rise of the Triad"
                     }
-                }
+                },
+                "engine_name": "rottexpr"
             },
             {
                 "name": "Extreme Rise of the Triad",
@@ -2513,7 +2381,8 @@
                     "rottexpr": {
                         "extract_location": "./Extreme Rise of the Triad"
                     }
-                }
+                },
+                "engine_name": "rottexpr"
             },
             {
                 "name": "Blake Stone Aliens of Gold",
@@ -2525,7 +2394,8 @@
                     "bstone": {
                         "extract_location": "./Blake Stone"
                     }
-                }
+                },
+                "engine_name": "bstone"
             },
             {
                 "name": "Blake Stone Planet Strike",
@@ -2537,31 +2407,8 @@
                     "bstone": {
                         "extract_location": "./Planet Strike"
                     }
-                }
-            }
-        ],
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/238050",
-                "engine_name": "rottexpr",
-                "engine_link": "https://github.com/LTCHIPS/rottexpr",
-                "version": "v0.01",
-                "comments": "Rise of the Triad & Extreme Rise of the Triad",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv2",
-                "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
-            },
-            {
-                "store_link": "https://store.steampowered.com/app/238050",
-                "engine_name": "bstone",
-                "engine_link": "https://github.com/bibendovsky/bstone",
-                "version": "v1.2.11",
-                "comments": "Blake Stone & Planet Strike",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv2",
-                "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
+                },
+                "engine_name": "bstone"
             }
         ]
     },
@@ -2575,17 +2422,7 @@
             }
         ],
         "command": "./run-rigelengine.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/240180/",
-            "engine_name": "RigelEngine",
-            "engine_link": "https://github.com/lethal-guitar/RigelEngine",
-            "version": "Beta v0.8.1",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/lethal-guitar/RigelEngine/blob/master/LICENSE.md"
-        }
+        "engine_name": "RigelEngine"
     },
     "242980": {
         "game_name": "Daikatana",
@@ -2643,16 +2480,8 @@
             "license_path": "./LICENSES.txt"
         },
         "use_original_command_directory": true,
+        "engine_name": "Daikatana",
         "information": {
-            "store_link": "https://store.steampowered.com/app/242980/",
-            "engine_name": "Proprietary Engine",
-            "engine_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
-            "version": "1.3",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
             "closed_source": true
         }
     },
@@ -2672,16 +2501,9 @@
             }
         ],
         "command": "./run-d1x.sh",
+        "engine_name": "dxx-rebirth",
         "information": {
-            "store_link": "https://store.steampowered.com/app/273570",
-            "engine_name": "dxx-rebirth",
-            "engine_link": "https://github.com/dxx-rebirth/dxx-rebirth",
-            "version": "49dee72 (from master)",
-            "comments": "Uses SDL2 version. Downloads music from https://www.dxx-rebirth.com/addons",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
             "license": "GPLv3 with Original Code in Parallax License",
-            "license_link": "https://github.com/dxx-rebirth/dxx-rebirth/blob/master/COPYING.txt",
             "non_free": true
         }
     },
@@ -2701,16 +2523,9 @@
             }
         ],
         "command": "./run-d2x.sh",
+        "engine_name": "dxx-rebirth",
         "information": {
-            "store_link": "https://store.steampowered.com/app/273580",
-            "engine_name": "dxx-rebirth",
-            "engine_link": "https://github.com/dxx-rebirth/dxx-rebirth",
-            "version": "49dee72 (from master)",
-            "comments": "Uses SDL2 version. Downloads music from https://www.dxx-rebirth.com/addons",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
             "license": "GPLv3 with Original Code in Parallax License",
-            "license_link": "https://github.com/dxx-rebirth/dxx-rebirth/blob/master/COPYING.txt",
             "non_free": true
         }
     },
@@ -2771,32 +2586,10 @@
             }
         ],
         "command": "./run-freespace.sh",
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/273600",
-                "engine_name": "freespace",
-                "engine_link": "https://github.com/ptitSeb/freespace2",
-                "version": "500ee24",
-                "comments": "",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "Volition",
-                "license_link": "https://github.com/ptitSeb/freespace2/blob/master/README.md",
-                "non_free": true
-            },
-            {
-                "store_link": "https://store.steampowered.com/app/273600",
-                "engine_name": "FreeSpace Port using fs2open",
-                "engine_link": "http://fsport.hard-light.net/website/",
-                "version": "3.6",
-                "comments": "Requires Freespace 2 installed in same Steam library folder and run with luxtorpeda-dev client at least once.",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "Volition",
-                "license_link": "http://fsport.hard-light.net/website/credits.html",
-                "non_free": true
-            }
-        ]
+        "information": {
+            "non_free": true,
+            "license": "Volition"
+        }
     },
     "273620": {
         "game_name": "Freespace 2",
@@ -2808,16 +2601,9 @@
             }
         ],
         "command": "./run-freespace2.sh",
+        "engine_name": "fs2open",
         "information": {
-            "store_link": "https://store.steampowered.com/app/273620/Freespace_2/",
-            "engine_name": "scp-fs2open",
-            "engine_link": "https://github.com/scp-fs2open/fs2open.github.com",
-            "version": "Release 21.4.0",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
             "license": "Volition",
-            "license_link": "https://github.com/scp-fs2open/fs2open.github.com/blob/master/COPYING",
             "non_free": true
         }
     },
@@ -2836,17 +2622,10 @@
             "command": "./setup-rct1.sh"
         },
         "command": "./run-openrct2.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/285310",
-            "engine_name": "openrct2",
-            "engine_link": "https://openrct2.io/",
-            "version": "v0.3.4.1",
-            "comments": "Requires assets from RCT2 to run, so RCT2 should be run through Steam first.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
-        }
+        "engine_name": "openrct2",
+        "notices": [{
+            "label": "Requires assets from RCT2 to run, so RCT2 should be run through Steam first."
+        }]
     },
     "285330": {
         "game_name": "RollerCoaster Tycoon 2: Triple Thrill Pack",
@@ -2863,17 +2642,7 @@
             "command": "./setup-rct2.sh"
         },
         "command": "./run-openrct2.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/285330",
-            "engine_name": "openrct2",
-            "engine_link": "https://openrct2.io/",
-            "version": "v0.3.4.1",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
-        }
+        "engine_name": "openrct2"
     },
     "289240": {
         "game_name": "Perimeter: Emperor's Testament",
@@ -2886,17 +2655,7 @@
             }
         ],
         "command": "./run-perimeter.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/289240",
-            "engine_name": "Perimeter",
-            "engine_link": "https://github.com/KranX/Perimeter",
-            "version": "1189111",
-            "comments": "Engine is still in progress so not all features may be implemented. Sound does not work.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/KranX/Perimeter/blob/cmake/LICENSE"
-        }
+        "engine_name": "Perimeter"
     },
     "289440": {
         "game_name": "Perimeter",
@@ -2909,17 +2668,7 @@
             }
         ],
         "command": "./run-perimeter.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/289440",
-            "engine_name": "Perimeter",
-            "engine_link": "https://github.com/KranX/Perimeter",
-            "version": "1189111",
-            "comments": "Engine is still in progress so not all features may be implemented. Sound does not work.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/KranX/Perimeter/blob/cmake/LICENSE"
-        }
+        "engine_name": "Perimeter"
     },
     "299030": {
         "game_name": "Blood: One Unit Whole Blood",
@@ -3075,18 +2824,7 @@
             }
         ],
         "command": "./run-openloco.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/356430",
-            "engine_name": "OpenLoco",
-            "engine_link": "https://github.com/OpenLoco/OpenLoco",
-            "version": "v21.10",
-            "comments": "Engine is still in progress so not all features may be implemented.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "MIT",
-            "license_link": "https://github.com/OpenLoco/OpenLoco/blob/master/LICENSE",
-            "32-bit": true
-        }
+        "engine_name": "OpenLoco"
     },
     "358190": {
         "game_name": "Blake Stone: Aliens of Gold",
@@ -3104,17 +2842,7 @@
                 "extract_location": "./Blake Stone - Aliens of Gold"
             }
         },
-        "information": {
-            "store_link": "https://store.steampowered.com/app/358190",
-            "engine_name": "bstone",
-            "engine_link": "https://github.com/bibendovsky/bstone",
-            "version": "v1.2.11",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
-        }
+        "engine_name": "bstone"
     },
     "358310": {
         "game_name": "Blake Stone: Planet Strike",
@@ -3132,17 +2860,7 @@
                 "extract_location": "./Blake Stone - Planet Strike"
             }
         },
-        "information": {
-            "store_link": "https://store.steampowered.com/app/358310",
-            "engine_name": "bstone",
-            "engine_link": "https://github.com/bibendovsky/bstone",
-            "version": "v1.2.11",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
-        }
+        "engine_name": "bstone"
     },
     "358370": {
         "game_name": "Terminal Velocity",
@@ -3161,17 +2879,7 @@
         ],
         "use_original_command_directory": true,
         "command": "./run-terminal-recall.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/358370",
-            "engine_name": "terminal-recall",
-            "engine_link": "https://github.com/jtrfp/terminal-recall",
-            "version": "1bdf062",
-            "comments": "Need to configure the paths to the POD files using the in-game configuration menu for the first time.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Apache 2.0",
-            "license_link": "https://github.com/jtrfp/terminal-recall/blob/master/LICENSE-2.0.apache.txt"
-        }
+        "engine_name": "terminal-recall"
     },
     "358410": {
         "game_name": "Rise of the Triad: Dark War",
@@ -3184,17 +2892,7 @@
         ],
         "command": "./run-rott-dark-war.sh",
         "use_original_command_directory": true,
-        "information": {
-            "store_link": "https://store.steampowered.com/app/358410",
-            "engine_name": "rottexpr",
-            "engine_link": "https://github.com/LTCHIPS/rottexpr",
-            "version": "v0.01",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
-        }
+        "engine_name": "rottexpr"
     },
     "358830": {
         "game_name": "Good Robot",
@@ -3206,17 +2904,7 @@
             }
         ],
         "command": "./run-good-robot.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/358830",
-            "engine_name": "Good-Robot",
-            "engine_link": "https://github.com/arvindrajayadav/Good-Robot",
-            "version": "c9a0a5f (from master)",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "MIT",
-            "license_link": "https://github.com/arvindrajayadav/Good-Robot/blob/master/LICENSE.txt"
-        }
+        "engine_name": "Good-Robot"
     },
     "371180": {
         "game_name": "Super 3-D Noah's Ark",
@@ -3279,18 +2967,7 @@
             }
         },
         "command": "../SSHOCK/run-shockolate.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/410700",
-            "engine_name": "shockolate",
-            "engine_link": "https://github.com/Interrupt/systemshock",
-            "version": "bcdb119",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/Interrupt/systemshock/blob/master/COPYING.txt",
-            "32-bit": true
-        }
+        "engine_name": "shockolate"
     },
     "410970": {
         "game_name": "Master of Orion 1",
@@ -3330,30 +3007,6 @@
                 "download": [
                     "dosbox-staging"
                 ]
-            }
-        ],
-        "information": [
-            {
-                "store_link": "https://store.steampowered.com/app/410970",
-                "engine_name": "1oom",
-                "engine_link": "https://gitlab.com/Tapani_/1oom",
-                "version": "cc2b61c04c9bd11e17b06dc7b8d7c84760159842 (from master)",
-                "comments": "Soundfont required to be installed on system.",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv2",
-                "license_link": "https://gitlab.com/Tapani_/1oom/-/blob/master/COPYING"
-            },
-            {
-                "store_link": "https://store.steampowered.com/app/410970",
-                "engine_name": "dosbox-staging",
-                "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
-                "version": "0.77.1",
-                "comments": "",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv2",
-                "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
             }
         ]
     },
@@ -3461,17 +3114,7 @@
             }
         ],
         "command": "./run-engge.sh",
-        "information": {
-            "store_link": "https://steamcommunity.com/app/569860",
-            "engine_name": "engge",
-            "engine_link": "https://github.com/scemino/engge",
-            "version": "v0.8.0-beta",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "MIT",
-            "license_link": "https://github.com/scemino/engge/blob/master/LICENSE"
-        }
+        "engine_name": "engge"
     },
     "572050": {
         "game_name": "Call to Power II",
@@ -3483,16 +3126,9 @@
             }
         ],
         "command": "./run-ctp2.sh",
+        "engine_name": "civctp2",
         "information": {
-            "store_link": "https://store.steampowered.com/app/572050/Call_to_Power_II/",
-            "engine_name": "civctp2",
-            "engine_link": "https://github.com/ptitSeb/ctp2.git",
-            "version": "2584d00 (from master)",
-            "comments": "Steam overlay does not work",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
             "license": "Activision",
-            "license_link": "https://github.com/ptitSeb/ctp2/blob/master/EULA%20-%20Source%20Code%20for%20CTP2.rtf",
             "non_free": true
         }
     },
@@ -3544,48 +3180,16 @@
             1070560
         ],
         "command": "./run-downfall.sh",
-        "engines": {
-            "Source SDK 2013": {
-                "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
-                "version": "Steam release",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "Source SDK Copyright(c) Valve Corp.",
-                "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
-                "notices": [
-                    {
-                        "key": "non_free",
-                        "label": "Non-free license"
-                    },
-                    {
-                        "key": "32-bit",
-                        "label": "32-bit libraries"
-                    },
-                    {
-                        "label": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed."
-                    }
-                ]
-            }
-        },
+        "engine_name": "Source SDK 2013",
         "information": {
-            "non_free": true,
-            "license": "Source SDK Copyright(c) Valve Corp."
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "non_free": true
         }
     },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
         "command": "./DDLC.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/698780/",
-            "engine_name": "Ren'Py",
-            "engine_link": "https://www.renpy.org/",
-            "version": "",
-            "comments": "Using Linux version bundled with Windows version",
-            "author": "dreamer",
-            "author_link": "https://github.com/dreamer",
-            "license": "MIT, LGPLv2.1 and other free/libre/open source licenses",
-            "license_link": "https://www.renpy.org/doc/html/license.html"
-        }
+        "engine_name": "Ren'Py"
     },
     "714070": {
         "game_name": "Entropy : Zero",
@@ -3611,18 +3215,13 @@
             1070560
         ],
         "command": "./run-entropy-zero.sh",
+        "notices": [{
+            "label": "Uses already compiled binaries from z33ky project project."
+        }],
+        "engine_name": "Source SDK 2013",
         "information": {
-            "store_link": "https://store.steampowered.com/app/714070",
-            "engine_name": "Source SDK 2013",
-            "engine_link": "https://github.com/z33ky/source-sdk-2013",
-            "version": "ez1-v4.linux3",
-            "comments": "Uses already compiled binaries from z33ky project project. Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
             "license": "Source SDK Copyright(c) Valve Corp.",
-            "license_link": "https://github.com/z33ky/source-sdk-2013/blob/master/LICENSE",
-            "non_free": true,
-            "32-bit": true
+            "non_free": true
         }
     },
     "747250": {
@@ -3638,19 +3237,10 @@
             243730,
             1070560
         ],
-        "command": "./run-year-long-alarm.sh",
+        "engine_name": "Source SDK 2013",
         "information": {
-            "store_link": "https://store.steampowered.com/app/747250",
-            "engine_name": "Source SDK 2013",
-            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
-            "version": "Steam release",
-            "comments": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
             "license": "Source SDK Copyright(c) Valve Corp.",
-            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
-            "non_free": true,
-            "32-bit": true
+            "non_free": true
         }
     },
     "817220": {
@@ -3686,17 +3276,7 @@
             }
         ],
         "command": "./run-flashback.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/961620/",
-            "engine_name": "REminiscence / REinforced",
-            "engine_link": "https://github.com/chermenin/REminiscence",
-            "version": "e846387",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/chermenin/REminiscence/blob/master/LICENSE"
-        }
+        "engine_name": "REminiscence / REinforced"
     },
     "1000410": {
         "game_name": "WRATH: Aeon of Ruin",
@@ -3708,17 +3288,7 @@
             }
         ],
         "command": "./wrath",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/1000410/",
-            "engine_name": "wrath-darkplaces",
-            "engine_link": "https://github.com/KillPixelGames/wrath-darkplaces",
-            "version": "Content Update #3",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/KillPixelGames/wrath-darkplaces/blob/master/COPYING"
-        }
+        "engine_name": "wrath-darkplaces"
     },
     "1010750": {
         "game_name": "Blood: Fresh Supply",
@@ -3805,32 +3375,14 @@
             380
         ],
         "command": "./run-resistance-element.sh",
-        "engines": {
-            "Source SDK 2013": {
-                "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
-                "version": "Steam release",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "Source SDK Copyright(c) Valve Corp.",
-                "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
-                "notices": [
-                    {
-                        "key": "non_free",
-                        "label": "Non-free license"
-                    },
-                    {
-                        "key": "32-bit",
-                        "label": "32-bit libraries"
-                    },
-                    {
-                        "label": "Requires Source SDK 2013 Singleplayer, Half-Life 2 Episode 1, and Steam Linux Runtime to be installed."
-                    }
-                ]
-            }
-        },
+        "notices": [{
+            "key": "app_ids_deps",
+            "label": "Requires Half-Life 2 Episode 1 to be installed."
+        }],
+        "engine_name": "Source SDK 2013",
         "information": {
-            "non_free": true,
-            "license": "Source SDK Copyright(c) Valve Corp."
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "non_free": true
         }
     },
     "1072150": {
@@ -3896,17 +3448,7 @@
             }
         },
         "command": "./linuxdata/run-warzone2100.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/1241950/Warzone_2100/",
-            "engine_name": "warzone2100",
-            "engine_link": "https://github.com/Warzone2100/warzone2100",
-            "version": "4.2.0",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.1.3/COPYING"
-        }
+        "engine_name": "warzone2100"
     },
     "1260020": {
         "game_name": "PowerSlave (DOS Classic Edition)",
@@ -4023,17 +3565,7 @@
                 "copy_only": true
             }
         },
-        "information": {
-            "store_link": "https://store.steampowered.com/app/1343370",
-            "engine_name": "runelite",
-            "engine_link": "https://github.com/runelite/runelite",
-            "version": "2.1.5",
-            "comments": "Uses AppImage from upstream project.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "BSD 2-Clause License",
-            "license_link": "https://github.com/runelite/runelite/blob/master/LICENSE"
-        }
+        "engine_name": "runelite"
     },
     "1343400": {
         "game_name": "RuneScape",
@@ -4055,16 +3587,8 @@
                 "copy_only": true
             }
         },
+        "engine_name": "runescape",
         "information": {
-            "store_link": "https://store.steampowered.com/app/1343400",
-            "engine_name": "Proprietary Engine",
-            "engine_link": "https://www.runescape.com/community",
-            "version": "2.2.9",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "https://www.jagex.com/en-GB/legal/eula-runescape-oldschool",
             "closed_source": true
         }
     },
@@ -4078,17 +3602,7 @@
             }
         ],
         "command": "./run-openhexagon.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/1358090",
-            "engine_name": "SSVOpenHexagon",
-            "engine_link": "https://github.com/SuperV1234/SSVOpenHexagon",
-            "version": "2.0.7",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "AFL-3.0",
-            "license_link": "https://github.com/SuperV1234/SSVOpenHexagon/blob/master/LICENSE"
-        }
+        "engine_name": "SSVOpenHexagon"
     },
     "1368340": {
         "game_name": "Beneath a Steel Sky",
@@ -4139,17 +3653,7 @@
             "complete_path": "./nosteam/ready-nosteam-moddb-33",
             "command": "./nosteam/setup-realrtcw.sh"
         },
-        "information": {
-            "store_link": "https://store.steampowered.com/app/1379630/",
-            "engine_name": "realrtcw",
-            "engine_link": "https://github.com/wolfetplayer/RealRTCW",
-            "version": "3.3 (nosteam)",
-            "comments": "Requires installation of RTCW. Will ask for directory path on first launch. No steam version from moddb, required to be extracted into nosteam directory.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/wolfetplayer/RealRTCW/blob/7e6dc5df09237b5d6b520c8bff9041aef61db943/COPYING.txt"
-        }
+        "engine_name": "RealRTCW"
     },
     "1393750": {
         "game_name": "Ocean's Heart",
@@ -4161,17 +3665,7 @@
             }
         ],
         "command": "./run-ocean-heart.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/1393750/",
-            "engine_name": "solarus",
-            "engine_link": "https://gitlab.com/solarus-games/solarus",
-            "version": "v1.6.5",
-            "comments": "",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://gitlab.com/solarus-games/solarus/-/blob/dev/license_gpl.txt"
-        }
+        "engine_name": "solarus"
     },
     "1417010": {
         "game_name": "Shrine II",
@@ -4208,17 +3702,7 @@
             }
         ],
         "command": "./objectn.sh",
-        "information": {
-            "store_link": "https://store.steampowered.com/app/1508030",
-            "engine_name": "ObjectN-DarkPlaces-engine",
-            "engine_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine",
-            "version": "de3b618",
-            "comments": "Removed nuklear-based menu",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine/blob/main/LICENSE"
-        }
+        "engine_name": "ObjectN-DarkPlaces-engine"
     },
     "1546440": {
         "game_name": "Lycanthorn II - Rain of Beasts",
@@ -4269,16 +3753,9 @@
             "-savedir",
             "./saves"
         ],
+        "engine_name": "Zandronum",
         "information": {
-            "store_link": "https://store.steampowered.com/app/1566570/",
-            "engine_name": "Zandronum",
-            "engine_link": "https://github.com/TorrSamaho/zandronum",
-            "version": "3.0",
-            "comments": "Uses upstream provided download.",
-            "author": "dreamer/d10sfan",
-            "author_link": "https://github.com/dreamer",
             "license": "Sleepycat License with NON-COMMERCIAL LICENSE",
-            "license_link": "https://github.com/TorrSamaho/zandronum/blob/master/LICENSE.txt",
             "non_free": true
         }
     },
@@ -4314,17 +3791,10 @@
                 "strip_prefix": "jdk-11.0.12+7/"
             }
         },
-        "information": {
-            "store_link": "https://store.steampowered.com/app/1655410",
-            "engine_name": "BuildGDX",
-            "engine_link": "https://m210.duke4.net/index.php",
-            "version": "1.1.5",
-            "comments": "Will have to remove the file at ~/M210Projects/WitchavenGDX/witchavengdx.ini to switch between Original and Enhanced, or can manually change the path in the launcher.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Various Licenses",
-            "license_link": "https://gitlab.com/m210/BuildGDX"
-        }
+        "engine_name": "BuildGDX",
+        "notices": [{
+            "label": "Will have to remove the file at ~/M210Projects/WitchavenGDX/witchavengdx.ini to switch between Original and Enhanced, or can manually change the path in the launcher."
+        }]
     },
     "1655430": {
         "game_name": "Witchaven II: Blood Vengeance",
@@ -4358,17 +3828,10 @@
                 "strip_prefix": "jdk-11.0.12+7/"
             }
         },
-        "information": {
-            "store_link": "https://store.steampowered.com/app/1655430",
-            "engine_name": "BuildGDX",
-            "engine_link": "https://m210.duke4.net/index.php",
-            "version": "1.1.5",
-            "comments": "Will have to remove the file at ~/M210Projects/Witchaven2GDX/witchavengdx.ini to switch between Original and Enhanced, or can manually change the path in the launcher.",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Various Licenses",
-            "license_link": "https://gitlab.com/m210/BuildGDX"
-        }
+        "engine_name": "BuildGDX",
+        "notices": [{
+            "label": "Will have to remove the file at ~/M210Projects/Witchaven2GDX/witchavengdx.ini to switch between Original and Enhanced, or can manually change the path in the launcher."
+        }]
     },
     "1679920": {
         "game_name": "Project Absentia Demo",
@@ -4387,17 +3850,7 @@
             "-savedir",
             "./saves"
         ],
-        "information": {
-            "store_link": "https://store.steampowered.com/app/1679920/",
-            "engine_name": "WIGZDoom",
-            "engine_link": "https://github.com/SanyaWaffles/WIGZDoom",
-            "version": "ff8961e",
-            "comments": "",
-            "author": "dreamer/d10sfan",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv3",
-            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
-        }
+        "engine_name": "WIGZDoom"
     },
     "1715690": {
         "game_name": "REKKR: Sunken Land",
@@ -4574,11 +4027,13 @@
         "prboom-plus": {
             "engine_link": "https://github.com/coelckers/prboom-plus",
             "version": "2.6.1um",
-            "comments": "Pick FluidSynth in in-game options to hear music.",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING"
+            "license_link": "https://github.com/coelckers/prboom-plus/blob/master/prboom2/COPYING",
+            "notices": [{
+                "label": "Pick FluidSynth in in-game options to hear music."
+            }]
         },
         "NBlood": {
             "engine_link": "https://github.com/nukeykt/NBlood",
@@ -4631,7 +4086,6 @@
         "Yamagi Quake II": {
             "engine_link": "https://www.yamagi.org/quake2/",
             "version": "8.00",
-            "comments": "Fixed default config, fixed music",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -4641,7 +4095,6 @@
             "engine_name": "vkQuake2",
             "engine_link": "https://github.com/kondrak/vkQuake2",
             "version": "1.5.8",
-            "comments": "fixed music",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -4660,7 +4113,6 @@
                 },
                 {
                     "label": "Requires both Wildfire and Classic DLC"
-
                 }
             ]
         },
@@ -4876,6 +4328,550 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE"
+        },
+        "Quake IV": {
+            "engine_name": "Proprietary Engine",
+            "engine_link": "https://www.quaddicted.com/files/idgames2/idstuff/quake4/linux/",
+            "version": "1.4.2",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "http://zerowing.idsoftware.com/linux/quake4/Quake4FrontPage/",
+            "notices": [
+                {
+                    "key": "closed_source"
+                },
+                {
+                    "key": "32_bit"
+                }
+            ]
+        },
+        "avp": {
+            "engine_link": "https://github.com/neuromancer/avp",
+            "version": "2d57747 (from master)",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Rebellion; non-commercial",
+            "license_link": "https://github.com/neuromancer/avp/blob/master/LICENSE",
+            "notices": [
+                {
+                    "key": "non_free"
+                }
+            ]
+        },
+        "Prey (2006)": {
+            "engine_link": "http://icculus.org/prey/",
+            "version": "02192009",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "http://icculus.org/prey/",
+            "notices": [
+                {
+                    "key": "closed_source"
+                },
+                {
+                    "key": "32_bit"
+                }
+            ]
+        },
+        "ETQW Demo": {
+            "engine_link": "https://steamcommunity.com/app/10000/discussions/0/143388511227759615/",
+            "version": "ETQW-demo2-client-full.r1.x86",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://zerowing.idsoftware.com/linux/etqw/ETQWFrontPage/index.html",
+            "notices": [
+                {
+                    "key": "closed_source"
+                },
+                {
+                    "key": "32_bit"
+                },
+                {
+                    "key": "manual_steps"
+                },
+                {
+                    "label": "Download the demo, run and follow the steps, then copy the files to demo/ inside the steam installed demo directory."
+                },
+                {
+                    "label": "Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game."
+                }
+            ]
+        },
+        "ETQW Provided Retail": {
+            "engine_link": "https://steamcommunity.com/app/10000/discussions/0/143388511227759615/",
+            "version": "ETQW-demo2-client-full.r1.x86",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://zerowing.idsoftware.com/linux/etqw/ETQWFrontPage/index.html",
+            "notices": [
+                {
+                    "key": "closed_source"
+                },
+                {
+                    "key": "32_bit"
+                },
+                {
+                    "key": "manual_steps"
+                },
+                {
+                    "label": "Put retail version in full directory, so that full/etqw-rthread exists inside the steam installed demo directory."
+                },
+                {
+                    "label": "Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game."
+                }
+            ]
+        },
+        "ut2004": {
+            "engine_link": "http://treefort.icculus.org/ut2004/",
+            "version": "3369",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://store.steampowered.com/eula/eula_epic",
+            "notices": [
+                {
+                    "key": "closed_source"
+                },
+                {
+                    "label": "On first start, license key will be requested, which can be found in Steam by getting the CD Key."
+                },
+                {
+                    "label": "Mods should go in the linuxdata directory. Adds foxWSFix by default."
+                }
+            ]
+        },
+        "ut99": {
+            "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469b-release-notes",
+            "version": "469b",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://store.steampowered.com/eula/eula_epic",
+            "notices": [
+                {
+                    "key": "closed_source"
+                },
+                {
+                    "key": "32_bit"
+                }
+            ]
+        },
+        "unrealgold": {
+            "engine_link": "https://www.oldunreal.com/downloads/unreal/oldunreal-patches/",
+            "version": "227i",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://store.steampowered.com/eula/eula_epic",
+            "notices": [
+                {
+                    "key": "closed_source"
+                },
+                {
+                    "key": "32_bit"
+                },
+                {
+                    "key": "manual_steps"
+                },
+                {
+                    "key": "steam_overlay_disabled"
+                },
+                {
+                    "label": "Requires Oldunreal installer, which requires a manual download and Wine to be installed. System/README.txt should be referred to."
+                },
+                {
+                    "label": "Uses library pack from legluondunet."
+                }
+            ]
+        },
+        "OpenXRay": {
+            "engine_link": "https://github.com/OpenXRay/xray-16",
+            "version": "December 2020 Preview",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD with commercial source code",
+            "license_link": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt",
+            "notices": [
+                {
+                    "key": "non_free"
+                },
+                {
+                    "key": "in_progress"
+                }
+            ]
+        },
+        "OpenMW": {
+            "engine_link": "https://openmw.org/",
+            "version": "0.46.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE"
+        },
+        "openmw-tes3mp": {
+            "engine_link": "https://github.com/TES3MP/openmw-tes3mp",
+            "version": "0.7-alpha",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/TES3MP/openmw-tes3mp/blob/292536439eeda58becdb7e441fe2e61ebb74529e/LICENSE"
+        },
+        "RBDOOM-3-BFG": {
+            "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
+            "version": "1.3.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md"
+        },
+        "Classic-RBDOOM-3-BFG": {
+            "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
+            "version": "1.2.8",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG/blob/master/COPYING.txt",
+            "notices": [
+                {
+                    "key": "steam_achivements"
+                }
+            ]
+        },
+        "Cortex Command Community Project Source": {
+            "engine_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source",
+            "version": "0310066",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "AGPLv3",
+            "license_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source/blob/development/LICENSE"
+        },
+        "Source SDK 2013": {
+            "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
+            "version": "Steam release",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "license_link": "https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE",
+            "notices": [
+                {
+                    "key": "non_free"
+                },
+                {
+                    "key": "32_bit"
+                },
+                {
+                    "key": "app_ids_deps",
+                    "label": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed."
+                }
+            ]
+        },
+        "rottexpr": {
+            "engine_link": "https://github.com/LTCHIPS/rottexpr",
+            "version": "v0.01",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
+        },
+        "bstone": {
+            "engine_link": "https://github.com/bibendovsky/bstone",
+            "version": "v1.2.11",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
+        },
+        "RigelEngine": {
+            "engine_link": "https://github.com/lethal-guitar/RigelEngine",
+            "version": "Beta v0.8.1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/lethal-guitar/RigelEngine/blob/master/LICENSE.md"
+        },
+        "Daikatana": {
+            "engine_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
+            "version": "1.3",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
+            "notices": [
+                {
+                    "key": "closed_source"
+                }
+            ]
+        },
+        "dxx-rebirth": {
+            "engine_link": "https://github.com/dxx-rebirth/dxx-rebirth",
+            "version": "49dee72 (from master)",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3 with Original Code in Parallax License",
+            "license_link": "https://github.com/dxx-rebirth/dxx-rebirth/blob/master/COPYING.txt",
+            "notices": [
+                {
+                    "key": "non_free"
+                }
+            ]
+        },
+        "freespace": {
+            "engine_link": "https://github.com/ptitSeb/freespace2",
+            "version": "500ee24",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Volition",
+            "license_link": "https://github.com/ptitSeb/freespace2/blob/master/README.md",
+            "notices": [
+                {
+                    "key": "non_free"
+                }
+            ]
+        },
+        "FreeSpace Port using fs2open": {
+            "engine_link": "http://fsport.hard-light.net/website/",
+            "version": "3.6",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Volition",
+            "license_link": "http://fsport.hard-light.net/website/credits.html",
+            "notices": [
+                {
+                    "key": "non_free"
+                },
+                {
+                    "key": "app_ids_deps",
+                    "label": "Requires Freespace 2 installed in same Steam library folder and run with luxtorpeda-dev client at least once."
+                }
+            ]
+        },
+        "fs2open": {
+            "engine_link": "http://fsport.hard-light.net/website/",
+            "version": "3.6",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Volition",
+            "license_link": "http://fsport.hard-light.net/website/credits.html",
+            "notices": [
+                {
+                    "key": "non_free"
+                }
+            ]
+        },
+        "openrct2": {
+            "engine_link": "https://openrct2.io/",
+            "version": "v0.3.4.1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
+        },
+        "Perimeter": {
+            "engine_link": "https://github.com/KranX/Perimeter",
+            "version": "1189111",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/KranX/Perimeter/blob/cmake/LICENSE",
+            "notices": [{
+                "key": "in_progress"
+            }, {
+                "label": "Sound does not work."
+            }]
+        },
+        "OpenLoco": {
+            "engine_link": "https://github.com/OpenLoco/OpenLoco",
+            "version": "v21.10",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/OpenLoco/OpenLoco/blob/master/LICENSE",
+            "notices": [{
+                "key": "32_bit"
+            }, {
+                "key": "in_progress"
+            }]
+        },
+        "terminal-recall": {
+            "engine_link": "https://github.com/jtrfp/terminal-recall",
+            "version": "1bdf062",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Apache 2.0",
+            "license_link": "https://github.com/jtrfp/terminal-recall/blob/master/LICENSE-2.0.apache.txt",
+            "notices": [{
+                "label": "Need to configure the paths to the POD files using the in-game configuration menu for the first time."
+            }]
+        },
+        "Good-Robot": {
+            "engine_link": "https://github.com/arvindrajayadav/Good-Robot",
+            "version": "c9a0a5f (from master)",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/arvindrajayadav/Good-Robot/blob/master/LICENSE.txt"
+        },
+        "shockolate": {
+            "engine_link": "https://github.com/Interrupt/systemshock",
+            "version": "bcdb119",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Interrupt/systemshock/blob/master/COPYING.txt",
+            "notices": [{
+                "key": "32_bit"
+            }]
+        },
+        "1oom": {
+            "engine_link": "https://gitlab.com/Tapani_/1oom",
+            "version": "cc2b61c04c9bd11e17b06dc7b8d7c84760159842 (from master)",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://gitlab.com/Tapani_/1oom/-/blob/master/COPYING"
+        },
+        "engge": {
+            "engine_link": "https://github.com/scemino/engge",
+            "version": "v0.8.0-beta",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/scemino/engge/blob/master/LICENSE"
+        },
+        "civctp2": {
+            "engine_link": "https://github.com/ptitSeb/ctp2.git",
+            "version": "2584d00 (from master)",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Activision",
+            "license_link": "https://github.com/ptitSeb/ctp2/blob/master/EULA%20-%20Source%20Code%20for%20CTP2.rtf",
+            "notices": [{
+                "key": "non_free"
+            }, {
+                "key": "steam_overlay_disabled"
+            }]
+        },
+        "Ren'Py": {
+            "engine_link": "https://www.renpy.org/",
+            "version": "Steam version",
+            "author": "dreamer",
+            "author_link": "https://github.com/dreamer",
+            "license": "MIT, LGPLv2.1 and other free/libre/open source licenses",
+            "license_link": "https://www.renpy.org/doc/html/license.html"
+        },
+        "REminiscence / REinforced": {
+            "engine_link": "https://github.com/chermenin/REminiscence",
+            "version": "e846387",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/chermenin/REminiscence/blob/master/LICENSE"
+        },
+        "wrath-darkplaces": {
+            "engine_link": "https://github.com/KillPixelGames/wrath-darkplaces",
+            "version": "Content Update #3",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/KillPixelGames/wrath-darkplaces/blob/master/COPYING"
+        },
+        "warzone2100": {
+            "engine_link": "https://github.com/Warzone2100/warzone2100",
+            "version": "4.2.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.1.3/COPYING"
+        },
+        "runelite": {
+            "engine_link": "https://github.com/runelite/runelite",
+            "version": "2.1.5",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "BSD 2-Clause License",
+            "license_link": "https://github.com/runelite/runelite/blob/master/LICENSE"
+        },
+        "runescape": {
+            "engine_link": "https://www.runescape.com/community",
+            "version": "2.2.9",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://www.jagex.com/en-GB/legal/eula-runescape-oldschool",
+            "notices": [
+                {
+                    "key": "closed_source"
+                }
+            ]
+        },
+        "SSVOpenHexagon": {
+            "engine_link": "https://github.com/SuperV1234/SSVOpenHexagon",
+            "version": "2.0.7",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "AFL-3.0",
+            "license_link": "https://github.com/SuperV1234/SSVOpenHexagon/blob/master/LICENSE"
+        },
+        "RealRTCW": {
+            "engine_link": "https://github.com/wolfetplayer/RealRTCW",
+            "version": "3.3 (nosteam)",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/wolfetplayer/RealRTCW/blob/7e6dc5df09237b5d6b520c8bff9041aef61db943/COPYING.txt",
+            "notices": [
+                {
+                    "key": "app_ids_deps",
+                    "label": "Requires RTCW to be installed."
+                },
+                {
+                    "key": "manual_steps"
+                },
+                {
+                    "label": "No steam version from moddb, required to be extracted into nosteam directory."
+                }
+            ]
+        },
+        "solarus": {
+            "engine_link": "https://gitlab.com/solarus-games/solarus",
+            "version": "v1.6.5",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://gitlab.com/solarus-games/solarus/-/blob/dev/license_gpl.txt"
+        },
+        "ObjectN-DarkPlaces-engine": {
+            "engine_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine",
+            "version": "de3b618",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine/blob/main/LICENSE"
+        },
+        "Zandronum": {
+            "engine_link": "https://github.com/TorrSamaho/zandronum",
+            "version": "3.0",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "Sleepycat License with NON-COMMERCIAL LICENSE",
+            "license_link": "https://github.com/TorrSamaho/zandronum/blob/master/LICENSE.txt",
+            "notices": [
+                {
+                    "key": "non_free"
+                }
+            ]
+        },
+        "WIGZDoom": {
+            "engine_link": "https://github.com/SanyaWaffles/WIGZDoom",
+            "version": "ff8961e",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
         }
     }
 }
