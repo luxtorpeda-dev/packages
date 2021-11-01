@@ -507,7 +507,8 @@
                 "command": "./vkquake.sh",
                 "download": [
                     "vkquake"
-                ]
+                ],
+                "engine_name": "vkQuake"
             },
             {
                 "name": "vkquake Re-release",

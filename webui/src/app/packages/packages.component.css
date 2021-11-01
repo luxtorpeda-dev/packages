@@ -47,3 +47,7 @@
 div {
   word-break: break-word;
 }
+
+.status-icons .mat-icon {
+  margin-right: 0.625rem;
+}

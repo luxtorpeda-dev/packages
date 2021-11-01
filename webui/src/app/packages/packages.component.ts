@@ -75,6 +75,35 @@ export class PackagesComponent implements OnInit {
 
         this.titleEnginePicked[titleId] = engineKeysSorted[0];
 
+        for(let engineKey in this.titles[titleId].engines) {
+          const tmpEngine = JSON.parse(JSON.stringify(this.titles[titleId].engines[engineKey]));
+
+          if(this.titles[titleId].notices) {
+            if(!tmpEngine.notices) {
+              tmpEngine.notices = [];
+            }
+            for(let notice of this.titles[titleId].notices) {
+             tmpEngine.notices.push(notice);
+            }
+          }
+
+          if(tmpEngine.notices) {
+              for(let notice of tmpEngine.notices) {
+                if(notice.key === 'manual_steps') {
+                  tmpEngine.manualSteps = true;
+                }
+                if(notice.key === 'steam_overlay_disabled') {
+                  tmpEngine.steamOverlayDisabled = true;
+                }
+                if(notice.key === 'in_progress') {
+                  tmpEngine.inProgress = true;
+                }
+              }
+          }
+
+          this.titles[titleId].engines[engineKey] = tmpEngine;
+        }
+
         if(titleId === 'default') {
           this.titles[titleId].isDefault = true;
           defaultRecord = this.titles[titleId];
