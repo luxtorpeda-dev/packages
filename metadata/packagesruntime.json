@@ -3394,13 +3394,13 @@
         "app_ids_deps": [
             243730,
             1070560,
-            380
+            420
         ],
         "command": "./run-resistance-element.sh",
         "notices": [
             {
                 "key": "app_ids_deps",
-                "label": "Requires Half-Life 2 Episode 1 to be installed."
+                "label": "Requires Half-Life 2 Episode 2 to be installed."
             }
         ],
         "engine_name": "Source SDK 2013",
