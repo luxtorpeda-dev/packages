@@ -10,7 +10,7 @@ for var in "$@"
 do
     tmp_arg="${var/\\//}"
     if [[ $tmp_arg != *"-"* ]]; then
-	tmp_arg=$(basename $tmp_arg | xargs -I% find .. -type f -iname "%")
+        tmp_arg=$(basename $tmp_arg | xargs -I% find .. -type f -iname "%")
     fi
     echo "$tmp_arg"
     new_args+=("$tmp_arg")
