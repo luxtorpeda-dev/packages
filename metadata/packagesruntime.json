@@ -1798,8 +1798,8 @@
             },
             {
                 "name": "ut99",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-12/",
-                "file": "ut99-13240-12.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-13/",
+                "file": "ut99-13240-13.tar.xz"
             }
         ],
         "command": "./run-ut99-469b.sh",
