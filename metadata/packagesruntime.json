@@ -1803,6 +1803,9 @@
             }
         ],
         "command": "./run-ut99-469b.sh",
+        "app_ids_deps": [
+            1070560
+        ],
         "download_config": {
             "binaries-436": {
                 "extract_location": "../linuxdata-469b",
@@ -4515,6 +4518,10 @@
                 },
                 {
                     "key": "32_bit"
+                },
+                {
+                    "key": "app_ids_deps",
+                    "label": "Requires Steam Linux Runtime to be installed."
                 }
             ]
         },
