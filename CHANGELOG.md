@@ -1,6 +1,7 @@
-### 44.0 (2021-10-29)
+### 45.0 (2021-11-01)
 
 * Add support for packages that used Zenity to use egui-based prompts, with zenity used as a fallback.
+* [Thanks to JoshuaFern] dosbox-staging - Improve launch script
 
 ### 40.1 (2021-11-01)
 
