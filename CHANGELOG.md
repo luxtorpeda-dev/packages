@@ -2,6 +2,7 @@
 
 * Add support for packages that used Zenity to use egui-based prompts, with zenity used as a fallback.
 * [Thanks to JoshuaFern] dosbox-staging - Improve launch script
+* openhexagon - Update to 2.1.0
 
 ### 40.1 (2021-11-01)
 
