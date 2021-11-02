@@ -25,6 +25,11 @@ ninja -C build
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/common/dist/lib"
+
+cp -rfv "source/build/subprojects/fluidsynth-2.2.0/libfluidsynth.so" "$diststart/common/dist/lib"
+cp -rfv "source/build/subprojects/munt-libmt32emu_2_5_0/libmt32emu.so" "$diststart/common/dist/lib"
+
 cp -rfv "source/build/dosbox" "$diststart/common/dist/"
 
 cp -rfv assets/*.sh "$diststart/common/dist/"
