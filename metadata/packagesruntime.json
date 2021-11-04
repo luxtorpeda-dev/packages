@@ -2210,7 +2210,7 @@
             },
             {
                 "name": "raze",
-                "command": "./run-raze.sh",
+                "command": "./run-raze-megaton.sh",
                 "download": [
                     "raze"
                 ]
