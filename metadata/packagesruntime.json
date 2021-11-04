@@ -4888,7 +4888,7 @@
         },
         "SSVOpenHexagon": {
             "engine_link": "https://github.com/SuperV1234/SSVOpenHexagon",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "AFL-3.0",
