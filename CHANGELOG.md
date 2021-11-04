@@ -4,6 +4,7 @@
 * [Thanks to JoshuaFern] dosbox-staging - Improve launch script
 * openhexagon - Update to 2.1.0
 * [Thanks to VortexAcherontic] raze - Fixed addon selection for Megaton Edition
+* [Thanks to VortexAcherontic] eduke32 - Fixed addon selection for Megaton Edition
 
 ### 40.1 (2021-11-01)
 
