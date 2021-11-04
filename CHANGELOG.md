@@ -3,6 +3,7 @@
 * Add support for packages that used Zenity to use egui-based prompts, with zenity used as a fallback.
 * [Thanks to JoshuaFern] dosbox-staging - Improve launch script
 * openhexagon - Update to 2.1.0
+* [Thanks to VortexAcherontic] raze - Fixed addon selection for Megaton Edition
 
 ### 40.1 (2021-11-01)
 
