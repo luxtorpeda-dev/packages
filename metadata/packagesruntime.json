@@ -2203,7 +2203,7 @@
         "choices": [
             {
                 "name": "eduke32",
-                "command": "./run-eduke32.sh",
+                "command": "./run-eduke32-megaton.sh",
                 "download": [
                     "eduke32"
                 ]
