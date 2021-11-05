@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/MyGUI/mygui mygui
 pushd mygui
-git checkout -f 8a05127d
+git checkout -f 81e5c67
 git submodule update --init --recursive
 popd
 
