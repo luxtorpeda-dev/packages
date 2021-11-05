@@ -23,7 +23,7 @@ if [ ! -f Morrowind.ini ]; then
 fi
 
 if [ -f openmw.cfg ]; then
-    error_message="openmw.cfg found in game directory. New version expects openmw.cfg in ~/.config/openmw."
+    error_message="openmw.cfg found in game directory. New version expects openmw.cfg in ~/.config/openmw. Move or remove the openmw.cfg file inside the game directory to proceed."
     if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
         "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
     else
