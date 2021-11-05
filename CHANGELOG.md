@@ -6,6 +6,7 @@
 * [Thanks to VortexAcherontic] raze - Fixed addon selection for Megaton Edition
 * [Thanks to VortexAcherontic] eduke32 - Fixed addon selection for Megaton Edition
 * openhexagon - Update to 2.1.1
+* openmw - Update to 0.47. On first launch, you may get an error saying that there is an openmw.cfg file. If you see that error, follow the instructions to remove or move, since the engine now expects the cfg file in ~/.config/openmw
 
 ### 40.1 (2021-11-01)
 
