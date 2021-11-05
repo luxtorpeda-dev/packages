@@ -12,16 +12,6 @@ git am < ../patches/0001-Fix-compile-error.patch
 popd
 
 # BUILD PHASE
-generate_openmw_cfg () {
-    tail -n +2 "$1" | sed -e 's!\(data\|resources\)=/usr/local/\(.*\)!\1=\2!g'
-    echo "fallback-archive=Morrowind.bsa"
-    echo "fallback-archive=Tribunal.bsa"
-    echo "fallback-archive=Bloodmoon.bsa"
-    echo "content=Morrowind.esm"
-    echo "content=Tribunal.esm"
-    echo "content=Bloodmoon.esm"
-}
-
 pushd "source"
 mkdir -p build
 cd build
