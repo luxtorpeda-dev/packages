@@ -1,0 +1,109 @@
+<div class='container-fluid page-wrapper'>
+  <div class='row game-row' *ngFor="let title of titles">
+    <div class='row header-wrapper'>
+      <div class='col-sm-6 game-title'>
+        <a *ngIf="!title.isDefault" href="{{'https://store.steampowered.com/app/' + title.titleId}}" target="_blank" (click)="$event.stopPropagation();">
+          {{title.game_name}}
+        </a>
+        <div *ngIf="title.isDefault">
+          {{title.game_name}}
+        </div>
+      </div>
+      <div class='col-sm-6 game-choices'>
+        <mat-chip-list>
+          <mat-chip
+            *ngFor="let item of title.engines | keyvalue"
+            [selected]="titleEnginePicked[title.titleId] == item.key"
+            [value]="item.key"
+            (click)="onEngineClicked($event, title, item.key)"
+            >
+            {{item.key}}
+          </mat-chip>
+        </mat-chip-list>
+
+      </div>
+    </div>
+
+    <div class='row'>
+      <ng-container *ngIf="titleEnginePicked[title.titleId]">
+            <div class="col-12 col-md-6">
+              <div class="row">
+                <div class='col-12 status-icons'>
+                  <mat-icon
+                    [matTooltip]="title.engines[titleEnginePicked[title.titleId]].manualSteps ? 'Manual Steps Required' : 'Automatic Installation'"
+                    [style.color]="title.engines[titleEnginePicked[title.titleId]].manualSteps ? 'yellow' : 'green'"
+                  >
+                    install_desktop
+                  </mat-icon>
+                  <mat-icon
+                    [matTooltip]="title.engines[titleEnginePicked[title.titleId]].steamOverlayDisabled ? 'Steam Overlay Disabled' : 'Steam Overlay Enabled'"
+                    [style.color]="title.engines[titleEnginePicked[title.titleId]].steamOverlayDisabled ? 'yellow' : 'green'"
+                  >
+                    desktop_windows
+                  </mat-icon>
+                  <mat-icon
+                    [matTooltip]="title.engines[titleEnginePicked[title.titleId]].inProgress ? 'Engine May Have Missing Features' : 'Engine Considered Feature Complete'"
+                    [style.color]="title.engines[titleEnginePicked[title.titleId]].inProgress ? 'yellow' : 'green'"
+                  >
+                    construction
+                  </mat-icon>
+                  <mat-icon
+                    matTooltip="Unknown Controller Support"
+                    [style.color]="'darkgray'"
+                  >
+                    sports_esports
+                  </mat-icon>
+                </div>
+              </div>
+              <div class="row">
+                <div class='col-5 col-md-4 col-lg-3'>Engine</div>
+                <div class='col-7 col-md-8'>
+                  <a [href]="title.engines[titleEnginePicked[title.titleId]].engine_link" target="_blank">{{titleEnginePicked[title.titleId]}}</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class='col-5 col-md-4 col-lg-3'>License</div>
+                <div class='col-7 col-md-8'>
+                  <a [href]="title.engines[titleEnginePicked[title.titleId]].license_link" target="_blank">
+                    {{title.engines[titleEnginePicked[title.titleId]].license}}
+                  </a>
+                </div>
+              </div>
+              <div class="row" *ngIf="title.engines[titleEnginePicked[title.titleId]].version">
+                <div class='col-5 col-md-4 col-lg-3'>Version</div>
+                <div class='col-7 col-md-8'>
+                  {{title.engines[titleEnginePicked[title.titleId]].version}}
+                </div>
+              </div>
+              <div class="row">
+                <div class='col-5 col-md-4 col-lg-3'>Contributor</div>
+                <div class='col-7 col-md-8'>
+                  <a [href]="title.engines[titleEnginePicked[title.titleId]].author_link" target="_blank">
+                    {{title.engines[titleEnginePicked[title.titleId]].author}}
+                  </a>
+                </div>
+              </div>
+            </div>
+            <ng-container *ngIf="title.engines[titleEnginePicked[title.titleId]].notices || title.notices">
+              <div class="col-12 col-md-6">
+                <ul>
+                  <ng-container *ngIf="title.engines[titleEnginePicked[title.titleId]].notices">
+                    <li *ngFor="let item of title.engines[titleEnginePicked[title.titleId]].notices">
+                      <div *ngIf="item.label">
+                        {{item.label}}
+                      </div>
+                      <div *ngIf="item.value">
+                        {{NOTICE_MAP[item.value]}}
+                      </div>
+                      <div *ngIf="item.key && !item.value && !item.label">
+                        {{NOTICE_MAP[item.key]}}
+                      </div>
+                    </li>
+                  </ng-container>
+                </ul>
+              </div>
+            </ng-container>
+      </ng-container>
+    </div>
+  </div>
+</div>

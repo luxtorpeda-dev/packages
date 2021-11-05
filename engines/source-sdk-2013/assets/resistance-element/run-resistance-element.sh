@@ -51,9 +51,9 @@ if [ ! -f "sdkpath.txt" ]; then
 fi
 
 if [ ! -f "hlpath.txt" ]; then
-    if [[ ! -z "${DEPPATH_380}" ]]; then
-        echo "Automatic path for hl found at $DEPPATH_380"
-        EPISODE_PATH="$DEPPATH_380"
+    if [[ ! -z "${DEPPATH_420}" ]]; then
+        echo "Automatic path for hl found at $DEPPATH_420"
+        EPISODE_PATH="$DEPPATH_420"
     else
         "$STEAM_ZENITY" --info --text="Browse to Half Life 2 Installation" --title="Information"
         EPISODE_PATH=$("$STEAM_ZENITY" --file-selection --title="Browse to Half Life 2 Installation" --directory)
@@ -128,8 +128,8 @@ else
     runtimepath=$(cat runtimepath.txt)
 fi
 
-if [[ ! -z "${DEPPATH_380}" ]]; then
-    EPISODE_PATH="$DEPPATH_380"
+if [[ ! -z "${DEPPATH_420}" ]]; then
+    EPISODE_PATH="$DEPPATH_420"
     echo "Automatically detected hlpath at $EPISODE_PATH"
 else
     EPISODE_PATH=$(cat hlpath.txt)
@@ -152,9 +152,9 @@ if [ -d "resistanceelement" ]; then
 fi
 
 if [ -d "ResistanceElement" ]; then
-    "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$sdkpath"/hl2.sh -game "$PWD/ResistanceElement" -steam
+    "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$EPISODE_PATH"/hl2.sh -game "$PWD/ResistanceElement" -steam +mat_hdr_level "2" "$@"
 fi
 
 if [ -d "resistanceelement" ]; then
-    "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$sdkpath"/hl2.sh -game "$PWD/resistanceelement" -steam
+    "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$EPISODE_PATH"/hl2.sh -game "$PWD/resistanceelement" -steam +mat_hdr_level "2" "$@"
 fi

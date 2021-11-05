@@ -1,3 +1,24 @@
+### 45.0 (2021-11-01)
+
+* Add support for packages that used Zenity to use egui-based prompts, with zenity used as a fallback.
+* [Thanks to JoshuaFern] dosbox-staging - Improve launch script
+* openhexagon - Update to 2.1.0
+* [Thanks to VortexAcherontic] raze - Fixed addon selection for Megaton Edition
+* [Thanks to VortexAcherontic] eduke32 - Fixed addon selection for Megaton Edition
+* openhexagon - Update to 2.1.1
+
+### 40.1 (2021-11-01)
+
+* rbdoom-3-bfg - Update to 1.3.0
+* scummvm - Check for Original folder
+* ja2 - Add error if classic not found
+* ut2004 - Fix missing piece for foxPlayerInput
+* Restore runescape
+* source-sdk-2013 - Add downfall
+* ut2004 - Upgrade to foxWSFix-2.2.0 - Requires removing "ready" file to go through setup again to see it.
+* Add new UI and re-structure packages.json file.
+* fs2open - Update to 21.4.1
+
 ### 40.0 (2021-10-18)
 
 * Added freespace support with compiled version of the original engine and support for FreespacePort, which requires Freespace 2 to be installed and launched with luxtorpeda-dev client at least once. 
@@ -11,6 +32,8 @@
 * warzone2100 - Update to 4.2.0
 * perimeter - Update to 1189111 & added expansion pack
 * openhexagon - Update to 2.0.7
+* classic-rbdoom-3-bfg - Update to 1.2.8
+* easyrpg-player - Update to 0.7.0
 
 ### 39.0 (2021-10-10)
 

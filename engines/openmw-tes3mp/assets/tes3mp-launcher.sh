@@ -14,7 +14,13 @@ fi
 
 if [ ! -f ../Morrowind.ini ]; then
     if [ ! -f ../morrowind.ini ]; then
-        "$STEAM_ZENITY" --error --text="No morrowind ini file not found"
+        error_message="No morrowind ini file not found."
+        if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
+            "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
+        else
+            echo "$error_message" > last_error.txt
+        fi
+        exit 10
     else
         ln -rsf ../morrowind.ini ../Morrowind.ini
     fi
