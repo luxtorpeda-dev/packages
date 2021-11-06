@@ -32,6 +32,29 @@ if [ -f openmw.cfg ]; then
     exit 10
 fi
 
+if [ ! -f ~/.config/openmw/openmw.cfg ]; then
+    echo "No openmw.cfg file detected, so creating and adding resources"
+    echo -e "resources=\"share/games/openmw/resources\"\n" > ~/.config/openmw/openmw.cfg
+    echo "Now running iniimporter"
+    ./openmw-iniimporter Morrowind.ini ~/.config/openmw/openmw.cfg
+    echo "Now adding data path"
+    echo -e "data=\"$PWD/Data Files\"" >> ~/.config/openmw/openmw.cfg
+    echo -e "fallback-archive=Morrowind.bsa" >> ~/.config/openmw/openmw.cfg
+    echo -e "fallback-archive=Tribunal.bsa" >> ~/.config/openmw/openmw.cfg
+    echo -e "fallback-archive=Bloodmoon.bsa" >> ~/.config/openmw/openmw.cfg
+    echo -e "content=Morrowind.esm" >> ~/.config/openmw/openmw.cfg
+    echo -e "content=Tribunal.esm" >> ~/.config/openmw/openmw.cfg
+    echo -e "content=Bloodmoon.esm" >> ~/.config/openmw/openmw.cfg
+else
+    echo "openmw.cfg file detected, so checking for resources"
+    if grep -q resources ~/.config/openmw/openmw.cfg; then
+        echo "resources line found"
+    else
+        echo "Adding resources line"
+        echo -e "\nresources=\"share/games/openmw/resources\"" >> ~/.config/openmw/openmw.cfg
+    fi
+fi
+
 if [ ! -d vfs ]; then
     LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/mygui ./mygui
     LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/shaders ./shaders
