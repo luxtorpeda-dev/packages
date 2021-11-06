@@ -3,10 +3,10 @@
 # CLONE PHASE
 git clone https://github.com/OpenRCT2/OpenRCT2.git source
 pushd source
-git checkout -f 5087e77
+git checkout -f b9bc8d0
 popd
 
-wget https://github.com/OpenRCT2/objects/releases/download/v1.0.16/objects.zip
+wget https://github.com/OpenRCT2/objects/releases/download/v1.2.2/objects.zip
 wget https://github.com/OpenRCT2/title-sequences/releases/download/v0.1.2c/title-sequences.zip
 
 # BUILD PHASE
