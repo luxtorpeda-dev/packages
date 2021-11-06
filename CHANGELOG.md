@@ -3,7 +3,7 @@
 * openrct2 - Update to 0.3.5
 * openmw - Fixes for launch issues
 * opengothic - Update to 1.0.1311
-* [Thanks to JoshuaFern] dosbox-staging - Enhance run script
+* [Thanks to JoshuaFern] dosbox-staging - Enhance run script. This requires client version 46 and up.
 
 ### 45.0 (2021-11-01)
 
