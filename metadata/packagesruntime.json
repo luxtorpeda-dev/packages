@@ -3976,7 +3976,7 @@
                 "extract_location": "./scum"
             },
             "dosbox-staging": {
-                "extract_location": "../dosbox-staging"
+                "extract_location": "./dosbox-staging"
             }
         },
         "choices": [
@@ -3989,7 +3989,7 @@
             },
             {
                 "name": "dosbox-staging",
-                "command": "../dosbox-staging/run-dosbox-staging.sh",
+                "command": "./dosbox-staging/run-dosbox-staging.sh",
                 "use_original_command_directory": true,
                 "download": [
                     "dosbox-staging"
