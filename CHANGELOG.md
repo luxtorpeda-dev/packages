@@ -1,3 +1,10 @@
+### 46.0 (2021-11-06)
+
+* openrct2 - Update to 0.3.5
+* openmw - Fixes for launch issues
+* opengothic - Update to 1.0.1311
+* [Thanks to JoshuaFern] dosbox-staging - Enhance run script
+
 ### 45.0 (2021-11-01)
 
 * Add support for packages that used Zenity to use egui-based prompts, with zenity used as a fallback.
