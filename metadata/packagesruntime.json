@@ -1337,8 +1337,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-11/",
-                "file": "dosbox-staging-common-11.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
+                "file": "dosbox-staging-common-12.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1390,8 +1390,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-11/",
-                "file": "dosbox-staging-common-11.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
+                "file": "dosbox-staging-common-12.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1435,8 +1435,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-11/",
-                "file": "dosbox-staging-common-11.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
+                "file": "dosbox-staging-common-12.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3054,8 +3054,8 @@
         "download": [
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-11/",
-                "file": "dosbox-staging-common-11.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
+                "file": "dosbox-staging-common-12.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -4020,8 +4020,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-11/",
-                "file": "dosbox-staging-common-11.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
+                "file": "dosbox-staging-common-12.tar.xz",
                 "cache_by_name": true
             },
             {
