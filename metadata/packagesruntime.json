@@ -4550,7 +4550,7 @@
                     "key": "manual_steps"
                 },
                 {
-                    "label": "Download the demo, run and follow the steps, then copy the files to demo/ inside the steam installed demo directory."
+                    "label": "Download the linux demo manually, run and follow the steps, then copy the files to demo/ inside the steam installed demo directory."
                 },
                 {
                     "label": "Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game."
