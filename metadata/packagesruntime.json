@@ -2778,12 +2778,6 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
                 "file": "buildgdx-common-1.tar.xz",
                 "cache_by_name": true
-            },
-            {
-                "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
-                "file": "dosbox-staging-common-12.tar.xz",
-                "cache_by_name": true
             }
         ],
         "choices": [
@@ -2835,14 +2829,6 @@
                         "strip_prefix": "jdk-11.0.12+7/"
                     }
                 }
-            },
-            {
-                "name": "dosbox-staging",
-                "command": "./dosbox-staging/run-dosbox-staging.sh",
-                "use_original_command_directory": true,
-                "download": [
-                    "dosbox-staging"
-                ]
             }
         ]
     },
