@@ -3,6 +3,11 @@
 gamepath="$PWD"
 configpath=~/M210Projects/BloodGDX/bloodgdx.ini
 mkdir -p ~/M210Projects/BloodGDX
+
+if [[ $gamepath == *"One Unit Whole Blood"* ]]; then
+    configpath=~/M210Projects/BloodGDX/oneunitgdx.ini
+fi
+
 echo "$configpath"
 
 if [ ! -f ${configpath} ]; then

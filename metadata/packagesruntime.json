@@ -2760,6 +2760,24 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-25/",
                 "file": "raze-common-25.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "openjdk11",
+                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "buildgdx-lib",
+                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
+                "file": "54-buildgdx",
+                "cache_by_name": true
+            },
+            {
+                "name": "buildgdx",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
+                "file": "buildgdx-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -2793,6 +2811,24 @@
                     "raze"
                 ],
                 "engine_name": "raze"
+            },
+            {
+                "name": "BuildGDX",
+                "command": "./run-buildgdx-blood.sh",
+                "download": [
+                    "openjdk11",
+                    "buildgdx-lib",
+                    "buildgdx"
+                ],
+                "download_config": {
+                    "buildgdx-lib": {
+                        "decode_as_zip": true
+                    },
+                    "openjdk11": {
+                        "extract_location": "./jdk-11.0.12",
+                        "strip_prefix": "jdk-11.0.12+7/"
+                    }
+                }
             }
         ]
     },
@@ -3427,7 +3463,7 @@
             },
             {
                 "name": "BuildGDX",
-                "command": "./run-buildgdx-bloodfresh.sh",
+                "command": "./run-buildgdx-blood.sh",
                 "download": [
                     "openjdk11",
                     "buildgdx-lib",
