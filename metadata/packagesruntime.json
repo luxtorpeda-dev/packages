@@ -1334,6 +1334,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-3/",
                 "file": "openxcom-oxce-common-3.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-11/",
+                "file": "dosbox-staging-common-11.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -1342,6 +1348,9 @@
             },
             "openxcom-oxce": {
                 "extract_location": "./openxcom-oxce"
+            },
+            "dosbox-staging": {
+                "extract_location": "./dosbox-staging"
             }
         },
         "choices": [
@@ -1360,6 +1369,14 @@
                     "openxcom-oxce"
                 ],
                 "engine_name": "OpenXcom OXCE Plus"
+            },
+            {
+                "name": "dosbox-staging",
+                "command": "./dosbox-staging/run-dosbox-staging.sh",
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ]
             }
         ]
     },
@@ -1370,10 +1387,36 @@
                 "name": "openapoc",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-6/",
                 "file": "openapoc-7660-6.tar.xz"
+            },
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-11/",
+                "file": "dosbox-staging-common-11.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./run-openapoc-launcher.sh",
-        "engine_name": "OpenApoc"
+        "download_config": {
+            "dosbox-staging": {
+                "extract_location": "./dosbox-staging"
+            }
+        },
+        "choices": [
+            {
+                "name": "OpenApoc",
+                "command": "./run-openapoc-launcher.sh",
+                "download": [
+                    "openapoc"
+                ]
+            },
+            {
+                "name": "dosbox-staging",
+                "command": "./dosbox-staging/run-dosbox-staging.sh",
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ]
+            }
+        ]
     },
     "7760": {
         "game_name": "X-COM: UFO Defense",
@@ -1389,6 +1432,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-3/",
                 "file": "openxcom-oxce-common-3.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-11/",
+                "file": "dosbox-staging-common-11.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -1397,6 +1446,9 @@
             },
             "openxcom-oxce": {
                 "extract_location": "./openxcom-oxce"
+            },
+            "dosbox-staging": {
+                "extract_location": "./dosbox-staging"
             }
         },
         "choices": [
@@ -1415,6 +1467,14 @@
                     "openxcom-oxce"
                 ],
                 "engine_name": "OpenXcom OXCE Plus"
+            },
+            {
+                "name": "dosbox-staging",
+                "command": "./dosbox-staging/run-dosbox-staging.sh",
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ]
             }
         ]
     },
