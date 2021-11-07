@@ -2775,8 +2775,8 @@
             },
             {
                 "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
-                "file": "buildgdx-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-2/",
+                "file": "buildgdx-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2888,8 +2888,8 @@
             },
             {
                 "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
-                "file": "buildgdx-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-2/",
+                "file": "buildgdx-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3440,8 +3440,8 @@
             },
             {
                 "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
-                "file": "buildgdx-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-2/",
+                "file": "buildgdx-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3606,8 +3606,8 @@
             },
             {
                 "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
-                "file": "buildgdx-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-2/",
+                "file": "buildgdx-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3909,8 +3909,8 @@
             },
             {
                 "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
-                "file": "buildgdx-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-2/",
+                "file": "buildgdx-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3948,8 +3948,8 @@
             },
             {
                 "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-1/",
-                "file": "buildgdx-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-2/",
+                "file": "buildgdx-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
