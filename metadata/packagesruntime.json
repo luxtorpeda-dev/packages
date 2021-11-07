@@ -3006,7 +3006,7 @@
         ],
         "download_config": {
             "dosbox-staging": {
-                "extract_location": "../dosbox-staging"
+                "extract_location": "./dosbox-staging"
             },
             "1oom": {
                 "extract_location": "../"
@@ -3022,7 +3022,7 @@
             },
             {
                 "name": "dosbox-staging",
-                "command": "../dosbox-staging/run-dosbox-staging.sh",
+                "command": "./dosbox-staging/run-dosbox-staging.sh",
                 "use_original_command_directory": true,
                 "download": [
                     "dosbox-staging"
