@@ -4,7 +4,7 @@
 git clone https://voidpoint.io/terminx/eduke32.git source
 
 pushd source
-git checkout 71c5ce09
+git checkout 0dff2879
 popd
 
 # BUILD PHASE
