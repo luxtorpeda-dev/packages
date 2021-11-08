@@ -6,6 +6,7 @@
 * [Thanks to JoshuaFern] dosbox-staging - Enhance run script. This requires client version 46 and up.
 * [Thanks to JoshuaFern] dosbox-staging - Add XCom Games
 * [Thanks to JoshuaFern] buildgdx -Add OneUnitWholeBlood
+* eduke32 - Update to 0dff2879
 
 ### 45.0 (2021-11-01)
 
