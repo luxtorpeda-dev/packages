@@ -3877,7 +3877,10 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./zandronum",
+        "command": "./run-zandronum.sh",
+        "app_ids_deps": [
+            1070560
+        ],
         "command_args": [
             "-iwad",
             "Retroninjacyberassassin.wad",
