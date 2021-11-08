@@ -7,6 +7,7 @@
 * [Thanks to JoshuaFern] dosbox-staging - Add XCom Games
 * [Thanks to JoshuaFern] buildgdx -Add OneUnitWholeBlood
 * eduke32 - Update to 0dff2879
+* warzone2100 - Update to 4.2.1
 
 ### 45.0 (2021-11-01)
 
