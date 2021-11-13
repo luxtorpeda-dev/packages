@@ -3726,8 +3726,8 @@
         "download": [
             {
                 "name": "openhexagon",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openhexagon-11/",
-                "file": "openhexagon-1358090-11.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openhexagon-12/",
+                "file": "openhexagon-1358090-12.tar.xz"
             }
         ],
         "command": "./run-openhexagon.sh",
