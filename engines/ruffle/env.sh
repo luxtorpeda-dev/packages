@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export STEAM_APP_ID_LIST="default"
+export STEAM_APP_ID_LIST="default 92"
 export LICENSE_PATH="./source/LICENSE.md"
 export ADDITIONAL_LICENSES="./jpexs-decompiler/license.txt"
 export LIBRARIES="openjdk11"
