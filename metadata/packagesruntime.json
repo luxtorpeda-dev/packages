@@ -4225,7 +4225,8 @@
                 "name": "NW.js",
                 "command": "./run-nwjs.sh",
                 "download": [
-                    "nwjs-binaries"
+                    "nwjs-binaries",
+                    "nwjs"
                 ],
                 "app_ids_deps": [
                     1070560
