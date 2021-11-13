@@ -4362,6 +4362,22 @@
             "license": "GPLv2",
             "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
         },
+        "ruffle": {
+            "engine_link": "https://github.com/ruffle-rs/ruffle",
+            "version": "19f9c11",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/ruffle-rs/ruffle/blob/master/LICENSE.md",
+            "notices": [
+                {
+                    "key": "in_progress"
+                },
+                {
+                    "label": "Uses jpexs-decompiler."
+                }
+            ],
+        },
         "easyrpg-player": {
             "engine_link": "https://github.com/EasyRPG/Player",
             "version": "0.7.0",
