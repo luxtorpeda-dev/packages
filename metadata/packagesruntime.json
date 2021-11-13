@@ -4376,7 +4376,7 @@
                 {
                     "label": "Uses jpexs-decompiler."
                 }
-            ],
+            ]
         },
         "easyrpg-player": {
             "engine_link": "https://github.com/EasyRPG/Player",
