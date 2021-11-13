@@ -1,6 +1,7 @@
 ### 47.0 (2021-11-12)
 
 * openhexagon - Update to 2.1.2
+* Added starting point for ruffle support
 
 ### 46.0 (2021-11-06)
 
