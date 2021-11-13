@@ -2026,6 +2026,35 @@
         "command": "./run-gothic2.sh",
         "engine_name": "OpenGothic"
     },
+    "40720": {
+        "game_name": "Samorost 2",
+        "download": [
+            {
+                "name": "openjdk11",
+                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "jpexs-decompiler",
+                "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version14.4.0/",
+                "file": "ffdec_14.4.0.zip",
+                "cache_by_name": true
+            }
+        ],
+        "engine_name": "ruffle",
+        "command": "./run-ruffle.sh",
+        "download_config": {
+            "jpexs-decompiler": {
+                "decode_as_zip": true,
+                "extract_location": "./ffdec"
+            },
+            "openjdk11": {
+                "extract_location": "./jdk-11.0.12",
+                "strip_prefix": "jdk-11.0.12+7/"
+            }
+        }
+    },
     "41050": {
         "game_name": "Serious Sam Classic: The First Encounter",
         "download": [
