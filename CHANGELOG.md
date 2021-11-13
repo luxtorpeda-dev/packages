@@ -2,6 +2,7 @@
 
 * openhexagon - Update to 2.1.2
 * Added starting point for ruffle support
+* Added nwjs with 0.54
 
 ### 46.0 (2021-11-06)
 
