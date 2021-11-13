@@ -1,3 +1,7 @@
+### 47.0 (2021-11-12)
+
+* openhexagon - Update to 2.1.2
+
 ### 46.0 (2021-11-06)
 
 * openrct2 - Update to 0.3.5
