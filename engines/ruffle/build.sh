@@ -20,5 +20,5 @@ cargo build --package ruffle_desktop --release
 popd
 
 # COPY PHASE
-cp -rfv target/release/ruffle_desktop "$diststart/common/dist/"
+cp -rfv source/target/release/ruffle_desktop "$diststart/common/dist/"
 cp -rfv assets/*.sh "$diststart/common/dist/"
