@@ -4163,6 +4163,12 @@
                 "url": "https://dl.nwjs.io/v0.54.0/",
                 "file": "nwjs-v0.54.0-linux-x64.tar.gz",
                 "cache_by_name": true
+            },
+            {
+                "name": "nwjs",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nwjs-1/",
+                "file": "nwjs-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
