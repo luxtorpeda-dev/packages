@@ -3424,7 +3424,8 @@
         "command": "./run-year-long-alarm.sh",
         "app_ids_deps": [
             243730,
-            1070560
+            1070560,
+            380
         ],
         "engine_name": "Source SDK 2013",
         "information": {
@@ -4156,6 +4157,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-1/",
                 "file": "ruffle-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "nwjs-binaries",
+                "url": "https://dl.nwjs.io/v0.54.0/",
+                "file": "nwjs-v0.54.0-linux-x64.tar.gz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -4207,6 +4214,16 @@
                         "strip_prefix": "jdk-11.0.12+7/"
                     }
                 }
+            },
+            {
+                "name": "NW.js",
+                "command": "./run-nwjs.sh",
+                "download": [
+                    "nwjs-binaries"
+                ],
+                "app_ids_deps": [
+                    1070560
+                ]
             }
         ]
     },
@@ -5172,6 +5189,20 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        },
+        "NW.js": {
+            "engine_link": "https://github.com/nwjs/nw.js",
+            "version": "0.54.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/nwjs/nw.js/blob/nw58/LICENSE",
+            "notices": [
+                {
+                    "key": "app_ids_deps",
+                    "label": "Requires Steam Linux Runtime to be installed."
+                }
+            ]
         }
     },
     "noticeMap": {
