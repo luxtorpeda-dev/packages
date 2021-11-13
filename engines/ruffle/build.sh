@@ -17,8 +17,10 @@ popd
 # BUILD PHASE
 pushd source
 cargo build --package ruffle_desktop --release
+cargo build --package ruffle_scanner --release
 popd
 
 # COPY PHASE
 cp -rfv source/target/release/ruffle_desktop "$diststart/common/dist/"
+cp -rfv source/target/release/ruffle_scanner "$diststart/common/dist/"
 cp -rfv assets/*.sh "$diststart/common/dist/"
