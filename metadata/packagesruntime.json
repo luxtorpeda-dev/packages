@@ -3792,18 +3792,6 @@
             "closed_source": true
         }
     },
-    "1358090": {
-        "game_name": "Open Hexagon",
-        "download": [
-            {
-                "name": "openhexagon",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openhexagon-12/",
-                "file": "openhexagon-1358090-12.tar.xz"
-            }
-        ],
-        "command": "./run-openhexagon.sh",
-        "engine_name": "SSVOpenHexagon"
-    },
     "1368340": {
         "game_name": "Beneath a Steel Sky",
         "download": [
@@ -5131,14 +5119,6 @@
                     "key": "closed_source"
                 }
             ]
-        },
-        "SSVOpenHexagon": {
-            "engine_link": "https://github.com/SuperV1234/SSVOpenHexagon",
-            "version": "2.1.2",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "AFL-3.0",
-            "license_link": "https://github.com/SuperV1234/SSVOpenHexagon/blob/master/LICENSE"
         },
         "RealRTCW": {
             "engine_link": "https://github.com/wolfetplayer/RealRTCW",
