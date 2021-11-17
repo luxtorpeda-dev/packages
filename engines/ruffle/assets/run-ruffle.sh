@@ -17,8 +17,8 @@ if [[ $LUX_ORIGINAL_EXE_FILE == "Samorost2.exe" ]]; then
 else
     if [ ! -f run.swf ]; then
         export PATH="$PATH:./jdk-11.0.12/bin/"
-        java -jar ffdec/ffdec.jar -extract "$LUX_ORIGINAL_EXE" -o run.swf biggest
         echo "Trying to extract .swf from .exe"
+        java -jar ffdec/ffdec.jar -extract "$LUX_ORIGINAL_EXE" -o run.swf biggest
     else
         echo "run.swf exists"
     fi
