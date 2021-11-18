@@ -3,6 +3,7 @@
 * openhexagon - Update to 2.1.2
 * Added starting point for ruffle support
 * Added nwjs with 0.54
+* [Thanks to ToughGuyKunio] ruffle - add The Basement Collection
 
 ### 46.0 (2021-11-06)
 
