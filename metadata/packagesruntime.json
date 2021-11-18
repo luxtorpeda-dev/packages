@@ -2185,13 +2185,6 @@
         ],
         "choices": [
             {
-                "name": "Aether (2008) -not yet working-",
-                "command": "./run-basement-collection.sh",
-                "command_args": [
-                    "-a"
-                ]
-            },
-            {
                 "name": "Clubby the seal (2004)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
@@ -2217,13 +2210,6 @@
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-p"
-                ]
-            },
-            {
-                "name": "Triachnid (2006) -not yet working-",
-                "command": "./run-basement-collection.sh",
-                "command_args": [
-                    "-t"
                 ]
             },
             {
