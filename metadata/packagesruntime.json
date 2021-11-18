@@ -2173,6 +2173,61 @@
         "command": "./linuxdata/run-cortex-command.sh",
         "engine_name": "Cortex Command Community Project Source"
     },
+    "214790": {
+        "game_name": "The Basement Collection",
+        "download": [
+            {
+                "name": "ruffle",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-3/",
+                "file": "ruffle-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "Clubby the seal (2004)",
+                "command": "./run-basement-collection.sh",
+                "command_args": [
+                    "-c"
+                ]
+            },
+            {
+                "name": "Dumpling (2005)",
+                "command": "./run-basement-collection.sh",
+                "command_args": [
+                    "-d"
+                ]
+            },
+            {
+                "name": "Meat Boy (2008)",
+                "command": "./run-basement-collection.sh",
+                "command_args": [
+                    "-m"
+                ]
+            },
+            {
+                "name": "Meat Boy (map pack) (2008)",
+                "command": "./run-basement-collection.sh",
+                "command_args": [
+                    "-p"
+                ]
+            },
+            {
+                "name": "Carious Weltling (2003)",
+                "command": "./run-basement-collection.sh",
+                "command_args": [
+                    "-w"
+                ]
+            },
+            {
+                "name": "Carious Weltling 2 (2005)",
+                "command": "./run-basement-collection.sh",
+                "command_args": [
+                    "-e"
+                ]
+            }
+        ]
+    },
     "215930": {
         "game_name": "Jagged Alliance 2 - Wildfire",
         "download": [
