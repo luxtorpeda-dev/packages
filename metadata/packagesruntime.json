@@ -2189,42 +2189,48 @@
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-c"
-                ]
+                ],
+                "engine_name": "ruffle"
             },
             {
                 "name": "Dumpling (2005)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-d"
-                ]
+                ],
+                "engine_name": "ruffle"
             },
             {
                 "name": "Meat Boy (2008)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-m"
-                ]
+                ],
+                "engine_name": "ruffle"
             },
             {
                 "name": "Meat Boy (map pack) (2008)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-p"
-                ]
+                ],
+                "engine_name": "ruffle"
             },
             {
                 "name": "Carious Weltling (2003)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-w"
-                ]
+                ],
+                "engine_name": "ruffle"
             },
             {
                 "name": "Carious Weltling 2 (2005)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-e"
-                ]
+                ],
+                "engine_name": "ruffle"
             }
         ]
     },
