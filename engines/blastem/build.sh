@@ -1,6 +1,7 @@
 #!/bin/bash
 
-apt install mercurial -y
+apt update
+apt install -y mercurial
 
 # CLONE PHASE
 hg clone https://www.retrodev.com/repos/blastem source
@@ -15,18 +16,18 @@ popd
 
 # BUILD PHASE
 pushd glew
-# mkdir build
 # cd build
 make install
 popd
 
 pushd source
-# mkdir build
-# cd build
+mkdir build
+cd build
 # cmake -DCMAKE_INSTALL_PREFIX=/tmp ..
-# make -j "$(nproc)"
-make
+make -j "$(nproc)"
 popd
 
 # COPY PHASE
-# cp -rfv /tmp/* "$diststart/34270/dist/"
+cp -rfv "source/build" "$diststart/34270/dist/"
+cp -rfv "assets/*" "$diststart/34270/dist/"
+
