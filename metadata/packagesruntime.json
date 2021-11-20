@@ -2022,7 +2022,14 @@
     },
     "34270": {
     "game_name": "SEGA Mega Drive & Genesis Classics",
-    "download": [],
+    "download": [
+      {
+          "name": "glew",
+          "url": "https://github.com/nigels-com/glew/releases/tag/glew-2.2.0",
+          "file": "glew-2.2.0.tgz",
+          "cache_by_name": true
+      }
+    ],
     "command": "./run-blastem.sh",
     "information": {
         "store_link": "https://store.steampowered.com/app/34270/",
