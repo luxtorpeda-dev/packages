@@ -9,4 +9,4 @@ while getopts "acdemptw" opt; do
 done
 
 echo "launching $rom"
-./blastem "uncompressed ROMs/$rom" # kolla om det funkar eller om det behöver vara typ ROMs/ + $rom eller nåt sånt
+./emu/blastem "uncompressed ROMs/$rom"

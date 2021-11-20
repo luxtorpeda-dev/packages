@@ -2022,14 +2022,7 @@
     },
     "34270": {
     "game_name": "SEGA Mega Drive & Genesis Classics",
-    "download": [
-      {
-          "name": "glew",
-          "url": "https://github.com/nigels-com/glew/releases/download/glew-2.2.0/",
-          "file": "glew-2.2.0.tgz",
-          "cache_by_name": true
-      }
-    ],
+    "download": [],
     "command": "./run-blastem.sh",
     "information": {
         "store_link": "https://store.steampowered.com/app/34270/",
@@ -2043,11 +2036,6 @@
         "license_link": "https://www.retrodev.com/repos/blastem/file/tip/COPYING",
         "non_free": false,
         "closed_source": false
-      },
-      "download_config": {
-          "glew": {
-              "extract_location": "./glew"
-          }
       },
       "choices": [
             {

@@ -6,6 +6,11 @@ pushd source
 hg update 460e14497120
 popd
 
+git clone https://github.com/nigels-com/glew.git glew
+pushd glew
+git checkout -f 062067f
+popd
+
 # BUILD PHASE
 pushd source/neo
 mkdir build
@@ -15,8 +20,13 @@ make -j "$(nproc)"
 make install
 popd
 
+pushd glew
+mkdir build
+cd build
+make install
+popd
+
+
 # COPY PHASE
-cp -rfv tmp/bin/* "$diststart/9050/dist/"
-cp -rfv tmp/lib/dhewm3/* "$diststart/9050/dist/"
-cp -rfv tmp/bin/* "$diststart/9070/dist/"
-cp -rfv tmp/lib/dhewm3/* "$diststart/9070/dist/"
+cp -rfv tmp/bin/* "$diststart/34270/dist/"
+cp -rfv tmp/lib/dhewm3/* "$diststart/34270/dist/"
