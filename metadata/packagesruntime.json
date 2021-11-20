@@ -2020,7 +2020,51 @@
         "command": "./run-kotor1.sh",
         "engine_name": "reone"
     },
-    "39510": {
+    "34270": {
+    "game_name": "SEGA Mega Drive & Genesis Classics",
+    "download": [],
+    "command": "./run-blastem.sh",
+    "information": {
+        "store_link": "https://store.steampowered.com/app/34270/",
+        "engine_name": "blastem",
+        "engine_link": "https://www.retrodev.com/blastem/",
+        "version": "0.6.3-PRE",
+        "comments": "",
+        "author": "kunio",
+        "author_link": "https://github.com/ToughGuyKunio",
+        "license": "GPLv3",
+        "license_link": "https://www.retrodev.com/repos/blastem/file/tip/COPYING",
+        "non_free": false,
+        "closed_source": false
+      },
+      "choices": [
+            {
+                "name": "Alex Kidd in the Enchanted Castle (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "-a"
+                ],
+                "engine_name": "blastem"
+            },
+            {
+                "name": "Beyond Oasis (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "-b"
+                ],
+                "engine_name": "blastem"
+            },
+            {
+                "name": "Comix Zone (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "-c"
+                ],
+                "engine_name": "blastem"
+            },
+          ]
+      },
+      "39510": {
         "game_name": "Gothic 2: Gold Edition",
         "download": [
             {
