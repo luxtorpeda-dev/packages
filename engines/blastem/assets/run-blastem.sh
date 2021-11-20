@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while getopts "acdemptw" opt; do
+while getopts "abc" opt; do
   case $opt in
     a) rom="ALEXKIDD_U.68K";;
     b) rom="BEYONDOA_U.68K";;
