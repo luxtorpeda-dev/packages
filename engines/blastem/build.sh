@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt install mercurial -y
+
 # CLONE PHASE
 hg clone https://www.retrodev.com/repos/blastem source
 pushd source
@@ -12,10 +14,10 @@ git checkout -f 062067f
 popd
 
 # BUILD PHASE
-pushd source/neo
-mkdir build
-cd build
-cmake -DCMAKE_INSTALL_PREFIX=../../../tmp ..
+pushd source
+# mkdir build
+# cd build
+cmake -DCMAKE_INSTALL_PREFIX=../../tmp ..
 make -j "$(nproc)"
 make install
 popd
