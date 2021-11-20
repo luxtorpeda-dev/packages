@@ -2044,6 +2044,11 @@
         "non_free": false,
         "closed_source": false
       },
+      "download_config": {
+          "glew": {
+              "extract_location": "./glew"
+          }
+      },
       "choices": [
             {
                 "name": "Alex Kidd in the Enchanted Castle (1990)",
