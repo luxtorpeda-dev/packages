@@ -14,21 +14,19 @@ git checkout -f 062067f
 popd
 
 # BUILD PHASE
+pushd glew
+# mkdir build
+# cd build
+make install
+popd
+
 pushd source
 # mkdir build
 # cd build
-cmake -DCMAKE_INSTALL_PREFIX=../../tmp ..
-make -j "$(nproc)"
-make install
+# cmake -DCMAKE_INSTALL_PREFIX=/tmp ..
+# make -j "$(nproc)"
+make
 popd
-
-pushd glew
-mkdir build
-cd build
-make install
-popd
-
 
 # COPY PHASE
-cp -rfv tmp/bin/* "$diststart/34270/dist/"
-cp -rfv tmp/lib/dhewm3/* "$diststart/34270/dist/"
+# cp -rfv /tmp/* "$diststart/34270/dist/"
