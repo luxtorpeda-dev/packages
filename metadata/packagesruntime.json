@@ -2025,7 +2025,7 @@
     "download": [
       {
           "name": "glew",
-          "url": "https://github.com/nigels-com/glew/releases/tag/glew-2.2.0",
+          "url": "https://github.com/nigels-com/glew/releases/download/glew-2.2.0/",
           "file": "glew-2.2.0.tgz",
           "cache_by_name": true
       }
