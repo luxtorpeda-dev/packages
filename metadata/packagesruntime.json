@@ -2817,8 +2817,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-19/",
-                "file": "openrct2-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-20/",
+                "file": "openrct2-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2839,8 +2839,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-19/",
-                "file": "openrct2-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-20/",
+                "file": "openrct2-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
