@@ -1,3 +1,8 @@
+### 47.1 (2021-11-21)
+
+* openrct2 - Update to v0.3.5.1
+* rigelengine - Update to 0.8.2
+
 ### 47.0 (2021-11-12)
 
 * openhexagon - Update to 2.1.2
