@@ -3692,6 +3692,79 @@
         ],
         "engine_name": "gzdoom"
     },
+    "1146370": {
+        "game_name": "Master of Magic Classic",
+        "download": [
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
+                "file": "dosbox-staging-common-12.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "Master of Magic Official Release",
+                "command": "./Master of Magic Official Release/dosbox-staging/dosbox-staging/run-dosbox-staging.sh",
+                "command_args": [
+                    "-conf",
+                    "../dosboxMOM.conf",
+                    "-conf",
+                    "../dosboxMOM_single.conf"
+                ],
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ],
+                "download_config": {
+                    "dosbox-staging": {
+                        "extract_location": "./Master of Magic Official Release/dosbox-staging/dosbox-staging"
+                    }
+                },
+                "engine_name": "dosbox-staging"
+            },
+            {
+                "name": "Master of Magic Community Patch",
+                "command": "./Master of Magic Community Patch/dosbox-staging/dosbox-staging/run-dosbox-staging.sh",
+                "command_args": [
+                    "-conf",
+                    "../dosboxMOM.conf",
+                    "-conf",
+                    "../dosboxMOM_single.conf"
+                ],
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ],
+                "download_config": {
+                    "dosbox-staging": {
+                        "extract_location": "./Master of Magic Community Patch/dosbox-staging/dosbox-staging"
+                    }
+                },
+                "engine_name": "dosbox-staging"
+            },
+            {
+                "name": "Master of Magic Caster of Magic DLC",
+                "command": "./Master of Magic Caster of Magic DLC/dosbox-staging/dosbox-staging/run-dosbox-staging.sh",
+                "command_args": [
+                    "-conf",
+                    "../dosboxMOM.conf",
+                    "-conf",
+                    "../dosboxMOM_single.conf"
+                ],
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ],
+                "download_config": {
+                    "dosbox-staging": {
+                        "extract_location": "./Master of Magic Caster of Magic DLC/dosbox-staging/dosbox-staging"
+                    }
+                },
+                "engine_name": "dosbox-staging"
+            }
+        ]
+    },
     "1241950": {
         "game_name": "Warzone 2100",
         "download": [
