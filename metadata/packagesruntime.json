@@ -3697,8 +3697,8 @@
         "download": [
             {
                 "name": "warzone2100",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-13/",
-                "file": "warzone2100-1241950-13.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-14/",
+                "file": "warzone2100-1241950-14.tar.xz"
             }
         ],
         "download_config": {
