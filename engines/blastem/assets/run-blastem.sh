@@ -1,12 +1,4 @@
 #!/bin/bash
 
-while getopts "abc" opt; do
-  case $opt in
-    a) rom="ALEXKIDD_U.68K";;
-    b) rom="BEYONDOA_U.68K";;
-    c) rom="COMIXZON_U.68K";;
-  esac
-done
-
-echo "launching $rom"
-./emu/blastem "uncompressed ROMs/$rom"
+echo "launching $1"
+./emu/blastem "uncompressed ROMs/$1"
