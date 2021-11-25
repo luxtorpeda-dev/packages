@@ -22,15 +22,4 @@ if [ -z "$RTCW_PATH" ]; then
     exit 10
 fi
 
-if [ ! -d ./nosteam/"!copy the content of this folder into rtcw root directory" ]; then
-    error_message="Game content not downloaded from ModDB and extracted to nosteam directory."
-    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-    else
-        echo "$error_message" > last_error.txt
-    fi
-    exit 10
-fi
-
-mv ./nosteam/"!copy the content of this folder into rtcw root directory"/Main/* ./nosteam/Main
-ln -rsf "$RTCW_PATH/Main"/*.pk3 ./nosteam/Main
+ln -rsf "$RTCW_PATH/Main"/*.pk3 ./Main

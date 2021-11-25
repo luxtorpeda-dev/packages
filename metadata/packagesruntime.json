@@ -3955,7 +3955,7 @@
         ],
         "commands": {
             ".*RealRTCW.x64.exe": {
-                "cmd": "./nosteam/RealRTCW.x86_64",
+                "cmd": "./RealRTCW.x86_64",
                 "args": [
                     "+set",
                     "com_basegame",
@@ -3966,14 +3966,9 @@
         "app_ids_deps": [
             9010
         ],
-        "download_config": {
-            "realrtcw": {
-                "extract_location": "./nosteam/"
-            }
-        },
         "setup": {
-            "complete_path": "./nosteam/ready-nosteam-moddb-33",
-            "command": "./nosteam/setup-realrtcw.sh"
+            "complete_path": "./ready-34",
+            "command": "./setup-realrtcw.sh"
         },
         "engine_name": "RealRTCW"
     },
@@ -5265,12 +5260,6 @@
                 {
                     "key": "app_ids_deps",
                     "label": "Requires RTCW to be installed."
-                },
-                {
-                    "key": "manual_steps"
-                },
-                {
-                    "label": "No steam version from moddb, required to be extracted into nosteam directory."
                 }
             ]
         },
