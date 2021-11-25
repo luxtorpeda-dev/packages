@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Keriew/augustus.git source
 pushd source
-git checkout 8531945
+git checkout e49ad7d
 popd
 
 # BUILD PHASE
