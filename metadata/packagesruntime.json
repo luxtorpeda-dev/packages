@@ -16,8 +16,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-3/",
-                "file": "ruffle-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-4/",
+                "file": "ruffle-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -515,8 +515,8 @@
             },
             {
                 "name": "quakespasm-spiked",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-9/",
-                "file": "quakespasm-spiked-common-9.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-10/",
+                "file": "quakespasm-spiked-common-10.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1372,8 +1372,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
-                "file": "dosbox-staging-common-12.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1425,8 +1425,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
-                "file": "dosbox-staging-common-12.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1470,8 +1470,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
-                "file": "dosbox-staging-common-12.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2539,8 +2539,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-3/",
-                "file": "ruffle-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-4/",
+                "file": "ruffle-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2668,67 +2668,59 @@
         "download": [
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-3/",
-                "file": "ruffle-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-4/",
+                "file": "ruffle-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
         "choices": [
             {
-                "name": "Aether (2008) -not yet working-",
-                "command": "./run-basement-collection.sh",
-                "command_args": [
-                    "-a"
-                ]
-            },
-            {
                 "name": "Clubby the seal (2004)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-c"
-                ]
+                ],
+                "engine_name": "ruffle"
             },
             {
                 "name": "Dumpling (2005)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-d"
-                ]
+                ],
+                "engine_name": "ruffle"
             },
             {
                 "name": "Meat Boy (2008)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-m"
-                ]
+                ],
+                "engine_name": "ruffle"
             },
             {
                 "name": "Meat Boy (map pack) (2008)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-p"
-                ]
-            },
-            {
-                "name": "Triachnid (2006) -not yet working-",
-                "command": "./run-basement-collection.sh",
-                "command_args": [
-                    "-t"
-                ]
+                ],
+                "engine_name": "ruffle"
             },
             {
                 "name": "Carious Weltling (2003)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-w"
-                ]
+                ],
+                "engine_name": "ruffle"
             },
             {
                 "name": "Carious Weltling 2 (2005)",
                 "command": "./run-basement-collection.sh",
                 "command_args": [
                     "-e"
-                ]
+                ],
+                "engine_name": "ruffle"
             }
         ]
     },
@@ -3120,8 +3112,8 @@
         "download": [
             {
                 "name": "rigelengine",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-4/",
-                "file": "rigelengine-240180-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-5/",
+                "file": "rigelengine-240180-5.tar.xz"
             }
         ],
         "command": "./run-rigelengine.sh",
@@ -3315,8 +3307,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-19/",
-                "file": "openrct2-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-20/",
+                "file": "openrct2-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3337,8 +3329,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-19/",
-                "file": "openrct2-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-20/",
+                "file": "openrct2-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3719,8 +3711,8 @@
         "download": [
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
-                "file": "dosbox-staging-common-12.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -3778,8 +3770,8 @@
             },
             {
                 "name": "augustus",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/augustus-7/",
-                "file": "augustus-517790-7.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/augustus-8/",
+                "file": "augustus-517790-8.tar.xz"
             }
         ],
         "choices": [
@@ -4190,13 +4182,86 @@
         ],
         "engine_name": "gzdoom"
     },
+    "1146370": {
+        "game_name": "Master of Magic Classic",
+        "download": [
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "Master of Magic Official Release",
+                "command": "./Master of Magic Official Release/dosbox-staging/dosbox-staging/run-dosbox-staging.sh",
+                "command_args": [
+                    "-conf",
+                    "../dosboxMOM.conf",
+                    "-conf",
+                    "../dosboxMOM_single.conf"
+                ],
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ],
+                "download_config": {
+                    "dosbox-staging": {
+                        "extract_location": "./Master of Magic Official Release/dosbox-staging/dosbox-staging"
+                    }
+                },
+                "engine_name": "dosbox-staging"
+            },
+            {
+                "name": "Master of Magic Community Patch",
+                "command": "./Master of Magic Community Patch/dosbox-staging/dosbox-staging/run-dosbox-staging.sh",
+                "command_args": [
+                    "-conf",
+                    "../dosboxMOM.conf",
+                    "-conf",
+                    "../dosboxMOM_single.conf"
+                ],
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ],
+                "download_config": {
+                    "dosbox-staging": {
+                        "extract_location": "./Master of Magic Community Patch/dosbox-staging/dosbox-staging"
+                    }
+                },
+                "engine_name": "dosbox-staging"
+            },
+            {
+                "name": "Master of Magic Caster of Magic DLC",
+                "command": "./Master of Magic Caster of Magic DLC/dosbox-staging/dosbox-staging/run-dosbox-staging.sh",
+                "command_args": [
+                    "-conf",
+                    "../dosboxMOM.conf",
+                    "-conf",
+                    "../dosboxMOM_single.conf"
+                ],
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ],
+                "download_config": {
+                    "dosbox-staging": {
+                        "extract_location": "./Master of Magic Caster of Magic DLC/dosbox-staging/dosbox-staging"
+                    }
+                },
+                "engine_name": "dosbox-staging"
+            }
+        ]
+    },
     "1241950": {
         "game_name": "Warzone 2100",
         "download": [
             {
                 "name": "warzone2100",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-13/",
-                "file": "warzone2100-1241950-13.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-14/",
+                "file": "warzone2100-1241950-14.tar.xz"
             }
         ],
         "download_config": {
@@ -4374,13 +4439,13 @@
         "download": [
             {
                 "name": "realrtcw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-14/",
-                "file": "realrtcw-1379630-14.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-15/",
+                "file": "realrtcw-1379630-15.tar.xz"
             }
         ],
         "commands": {
             ".*RealRTCW.x64.exe": {
-                "cmd": "./nosteam/RealRTCW.x86_64",
+                "cmd": "./RealRTCW.x86_64",
                 "args": [
                     "+set",
                     "com_basegame",
@@ -4391,14 +4456,9 @@
         "app_ids_deps": [
             9010
         ],
-        "download_config": {
-            "realrtcw": {
-                "extract_location": "./nosteam/"
-            }
-        },
         "setup": {
-            "complete_path": "./nosteam/ready-nosteam-moddb-33",
-            "command": "./nosteam/setup-realrtcw.sh"
+            "complete_path": "./ready-34",
+            "command": "./setup-realrtcw.sh"
         },
         "engine_name": "RealRTCW"
     },
@@ -4677,8 +4737,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
-                "file": "dosbox-staging-common-12.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -4701,8 +4761,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-3/",
-                "file": "ruffle-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-4/",
+                "file": "ruffle-common-4.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -5140,7 +5200,7 @@
         },
         "augustus": {
             "engine_link": "https://github.com/Keriew/augustus",
-            "version": "3.0.1",
+            "version": "3.1.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "AGPL-3.0",
@@ -5445,7 +5505,7 @@
         },
         "RigelEngine": {
             "engine_link": "https://github.com/lethal-guitar/RigelEngine",
-            "version": "Beta v0.8.1",
+            "version": "Beta v0.8.2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -5522,7 +5582,7 @@
         },
         "openrct2": {
             "engine_link": "https://openrct2.io/",
-            "version": "v0.3.5",
+            "version": "v0.3.5.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -5652,7 +5712,7 @@
         },
         "warzone2100": {
             "engine_link": "https://github.com/Warzone2100/warzone2100",
-            "version": "4.2.1",
+            "version": "4.2.2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -5690,12 +5750,6 @@
                 {
                     "key": "app_ids_deps",
                     "label": "Requires RTCW to be installed."
-                },
-                {
-                    "key": "manual_steps"
-                },
-                {
-                    "label": "No steam version from moddb, required to be extracted into nosteam directory."
                 }
             ]
         },
