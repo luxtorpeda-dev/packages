@@ -5,6 +5,7 @@
 * warzone2100 - Update to 4.2.2
 * [Thanks to sponsors for funds to buy the game] dosbox-staging - Add support for MoM
 * augustus - Update to 3.1.0
+* realrtcw - Support steam assets
 
 ### 47.0 (2021-11-12)
 
