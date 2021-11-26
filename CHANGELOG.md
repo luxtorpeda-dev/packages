@@ -6,6 +6,7 @@
 * [Thanks to sponsors for funds to buy the game] dosbox-staging - Add support for MoM
 * augustus - Update to 3.1.0
 * realrtcw - Support steam assets
+* vkquake - Update to 1.12.0
 
 ### 47.0 (2021-11-12)
 
