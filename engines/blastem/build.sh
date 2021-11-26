@@ -10,9 +10,7 @@ hg update 460e14497120
 popd
 
 # BUILD PHASE
-
 pushd source
-# cmake -DCMAKE_INSTALL_PREFIX=/tmp ..
 make -j "$(nproc)"
 popd
 

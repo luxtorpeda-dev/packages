@@ -17,5 +17,3 @@ pushd glew-2.2.0
 make -j "$(nproc)"
 make install
 popd
-
-# COPY PHASE
