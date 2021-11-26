@@ -2031,17 +2031,17 @@
         ],
         "command": "./run-blastem.sh",
         "information": {
-          "store_link": "https://store.steampowered.com/app/34270/",
-          "engine_name": "blastem",
-          "engine_link": "https://www.retrodev.com/blastem/",
-          "version": "0.6.3-PRE",
-          "comments": "",
-          "author": "kunio",
-          "author_link": "https://github.com/ToughGuyKunio",
-          "license": "GPLv3",
-          "license_link": "https://www.retrodev.com/repos/blastem/file/tip/COPYING",
-          "non_free": false,
-          "closed_source": false
+                "store_link": "https://store.steampowered.com/app/34270/",
+                "engine_name": "blastem",
+                "engine_link": "https://www.retrodev.com/blastem/",
+                "version": "0.6.3-PRE",
+                "comments": "",
+                "author": "kunio",
+                "author_link": "https://github.com/ToughGuyKunio",
+                "license": "GPLv3",
+                "license_link": "https://www.retrodev.com/repos/blastem/file/tip/COPYING",
+                "non_free": false,
+                "closed_source": false
         },
         "choices": [
             {
