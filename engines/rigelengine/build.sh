@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/lethal-guitar/RigelEngine.git source
 pushd source
-git checkout c6a66d1
+git checkout 3ce1153
 git submodule update --init --recursive
 popd
 

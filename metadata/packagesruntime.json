@@ -503,8 +503,8 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-19/",
-                "file": "vkquake-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-21/",
+                "file": "vkquake-common-21.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1372,8 +1372,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
-                "file": "dosbox-staging-common-12.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1425,8 +1425,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
-                "file": "dosbox-staging-common-12.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1470,8 +1470,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
-                "file": "dosbox-staging-common-12.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2019,6 +2019,483 @@
         ],
         "command": "./run-kotor1.sh",
         "engine_name": "reone"
+    },
+    "34270": {
+        "game_name": "SEGA Mega Drive & Genesis Classics",
+        "download": [
+            {
+                "name": "blastem",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/blastem-1/",
+                "file": "blastem-34270-1.tar.xz"
+            }
+        ],
+        "command": "./run-blastem.sh",
+        "choices": [
+            {
+                "name": "Alex Kidd in the Enchanted Castle (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ALEXKIDD_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Alien Soldier (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "AlienSoldier_Europe.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Alien Storm (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "AlienStorm_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Altered Beast (1988)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ALTEREDB_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Beyond Oasis (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "BEYONDOA_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Bio-Hazard Battle (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "Crying_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Bonanza Bros. (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "BONANZAB_JE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Columns (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "COLUMNS_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Columns III (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "Columns3_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Comix Zone (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "COMIXZON_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Crack Down (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "CrackDown_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Decap Attack (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "DECAP_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Dr. Robotnik's Mean Bean Machine (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ROBOTNIK_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Dynamite Headdy (1994)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "DYNAHEAD_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Ecco the Dolphin (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ECCO_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Ecco: The Tides of Time (1994)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ECCO2_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Ecco Jr. (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "eccojr.smd"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "ESWAT: City Under Siege (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ESWAT_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Eternal Champions (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "EternalChampions_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Fatal Labyrinth (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "FATALLAB_JU.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Flicky (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "FLICKY_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Gain Ground (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "GAING_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Galaxy Force II (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "GalaxyForceII_UE.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Golden Axe (1989)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "GAXE_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Golden Axe II (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "GAXE2_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Golden Axe III (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "GAXE3_J.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Gunstar Heroes (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "Gunstar Heroes U.bin"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Kid Chameleon (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "KIDCHAM_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Landstalker (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "LandStalker_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Light Crusader (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "LightCrusader_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Phantasy Star II (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "PhantasyStar2_UE_GreenCrossFix.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Phantasy Star III (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "PhantasyStar3_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Phantasy Star IV (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "PhantasyStar4.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Ristar (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "RISTAR_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Shining Force (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SHININGF_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Shining Force II (1994)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SHINING2_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Shining in the Darkness (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SHININGD_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "The Revenge of Shinobi (1989)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "TheSuperShinobi_JUE.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Shadow Dancer: The Secret of Shinobi (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ShadowDancer.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Shinobi III: Return of the Ninja Master (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SHINOBI3_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sonic the Hedgehog (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SONIC_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sonic the Hedgehog 2 (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SONIC2_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sonic the Hedgehog 3 / Sonic & Knuckles (1994)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "Sonic_Knuckles_wSonic3.bin"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sonic Spinball (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SONICSPI_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sonic 3D Blast (1996)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SONIC3D_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Space Harrier II (1989)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SPACEHARRIERII.bin"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Streets of Rage (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "STREETS_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Streets of Rage 2 (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "STREETS2_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Streets of Rage 3 (1994)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "STREETS3_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Super Thunder Blade (1989)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "STHUNDER_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sword of Vermilion (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "sov.smd"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "ToeJam & Earl (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ToeJamEarl.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "ToeJam & Earl in Panic on Funkotron (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ToeJamEarl2_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Vectorman (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "VECTMAN_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Vectorman 2 (1996)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "VECTMAN2_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Virtua Fighter 2 (1997)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "VIRTUAFIGHTER2.bin"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Wonder Boy III: Monster Lair (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "MonsterLair_JUE.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Wonder Boy in Monster World (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "MonsterWorld3_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            }
+        ]
     },
     "39510": {
         "game_name": "Gothic 2: Gold Edition",
@@ -2622,8 +3099,8 @@
         "download": [
             {
                 "name": "rigelengine",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-4/",
-                "file": "rigelengine-240180-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-5/",
+                "file": "rigelengine-240180-5.tar.xz"
             }
         ],
         "command": "./run-rigelengine.sh",
@@ -2817,8 +3294,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-19/",
-                "file": "openrct2-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-20/",
+                "file": "openrct2-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2839,8 +3316,8 @@
         "download": [
             {
                 "name": "openrct2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-19/",
-                "file": "openrct2-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-20/",
+                "file": "openrct2-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3221,8 +3698,8 @@
         "download": [
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
-                "file": "dosbox-staging-common-12.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -3280,8 +3757,8 @@
             },
             {
                 "name": "augustus",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/augustus-7/",
-                "file": "augustus-517790-7.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/augustus-8/",
+                "file": "augustus-517790-8.tar.xz"
             }
         ],
         "choices": [
@@ -3692,13 +4169,86 @@
         ],
         "engine_name": "gzdoom"
     },
+    "1146370": {
+        "game_name": "Master of Magic Classic",
+        "download": [
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "Master of Magic Official Release",
+                "command": "./Master of Magic Official Release/dosbox-staging/dosbox-staging/run-dosbox-staging.sh",
+                "command_args": [
+                    "-conf",
+                    "../dosboxMOM.conf",
+                    "-conf",
+                    "../dosboxMOM_single.conf"
+                ],
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ],
+                "download_config": {
+                    "dosbox-staging": {
+                        "extract_location": "./Master of Magic Official Release/dosbox-staging/dosbox-staging"
+                    }
+                },
+                "engine_name": "dosbox-staging"
+            },
+            {
+                "name": "Master of Magic Community Patch",
+                "command": "./Master of Magic Community Patch/dosbox-staging/dosbox-staging/run-dosbox-staging.sh",
+                "command_args": [
+                    "-conf",
+                    "../dosboxMOM.conf",
+                    "-conf",
+                    "../dosboxMOM_single.conf"
+                ],
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ],
+                "download_config": {
+                    "dosbox-staging": {
+                        "extract_location": "./Master of Magic Community Patch/dosbox-staging/dosbox-staging"
+                    }
+                },
+                "engine_name": "dosbox-staging"
+            },
+            {
+                "name": "Master of Magic Caster of Magic DLC",
+                "command": "./Master of Magic Caster of Magic DLC/dosbox-staging/dosbox-staging/run-dosbox-staging.sh",
+                "command_args": [
+                    "-conf",
+                    "../dosboxMOM.conf",
+                    "-conf",
+                    "../dosboxMOM_single.conf"
+                ],
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ],
+                "download_config": {
+                    "dosbox-staging": {
+                        "extract_location": "./Master of Magic Caster of Magic DLC/dosbox-staging/dosbox-staging"
+                    }
+                },
+                "engine_name": "dosbox-staging"
+            }
+        ]
+    },
     "1241950": {
         "game_name": "Warzone 2100",
         "download": [
             {
                 "name": "warzone2100",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-13/",
-                "file": "warzone2100-1241950-13.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-14/",
+                "file": "warzone2100-1241950-14.tar.xz"
             }
         ],
         "download_config": {
@@ -3876,13 +4426,13 @@
         "download": [
             {
                 "name": "realrtcw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-14/",
-                "file": "realrtcw-1379630-14.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-15/",
+                "file": "realrtcw-1379630-15.tar.xz"
             }
         ],
         "commands": {
             ".*RealRTCW.x64.exe": {
-                "cmd": "./nosteam/RealRTCW.x86_64",
+                "cmd": "./RealRTCW.x86_64",
                 "args": [
                     "+set",
                     "com_basegame",
@@ -3893,14 +4443,9 @@
         "app_ids_deps": [
             9010
         ],
-        "download_config": {
-            "realrtcw": {
-                "extract_location": "./nosteam/"
-            }
-        },
         "setup": {
-            "complete_path": "./nosteam/ready-nosteam-moddb-33",
-            "command": "./nosteam/setup-realrtcw.sh"
+            "complete_path": "./ready-34",
+            "command": "./setup-realrtcw.sh"
         },
         "engine_name": "RealRTCW"
     },
@@ -4179,8 +4724,8 @@
             },
             {
                 "name": "dosbox-staging",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-12/",
-                "file": "dosbox-staging-common-12.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-13/",
+                "file": "dosbox-staging-common-13.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -4387,7 +4932,7 @@
         },
         "vkQuake": {
             "engine_link": "https://github.com/Novum/vkQuake",
-            "version": "1.11.1",
+            "version": "1.12.1",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -4642,7 +5187,7 @@
         },
         "augustus": {
             "engine_link": "https://github.com/Keriew/augustus",
-            "version": "3.0.1",
+            "version": "3.1.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "AGPL-3.0",
@@ -4947,7 +5492,7 @@
         },
         "RigelEngine": {
             "engine_link": "https://github.com/lethal-guitar/RigelEngine",
-            "version": "Beta v0.8.1",
+            "version": "Beta v0.8.2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -5024,7 +5569,7 @@
         },
         "openrct2": {
             "engine_link": "https://openrct2.io/",
-            "version": "v0.3.5",
+            "version": "v0.3.5.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -5154,11 +5699,11 @@
         },
         "warzone2100": {
             "engine_link": "https://github.com/Warzone2100/warzone2100",
-            "version": "4.2.1",
+            "version": "4.2.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.1.3/COPYING"
+            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.2.3/COPYING"
         },
         "runelite": {
             "engine_link": "https://github.com/runelite/runelite",
@@ -5192,12 +5737,6 @@
                 {
                     "key": "app_ids_deps",
                     "label": "Requires RTCW to be installed."
-                },
-                {
-                    "key": "manual_steps"
-                },
-                {
-                    "label": "No steam version from moddb, required to be extracted into nosteam directory."
                 }
             ]
         },
@@ -5237,6 +5776,15 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        },
+        "BlastEm": {
+            "engine_name": "BlastEm",
+            "engine_link": "https://www.retrodev.com/blastem/",
+            "version": "0.6.3-PRE",
+            "author": "kunio",
+            "author_link": "https://github.com/ToughGuyKunio",
+            "license": "GPLv3",
+            "license_link": "https://www.retrodev.com/repos/blastem/file/tip/COPYING"
         },
         "NW.js": {
             "engine_link": "https://github.com/nwjs/nw.js",

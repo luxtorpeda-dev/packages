@@ -1,3 +1,14 @@
+### 47.1 (2021-11-21)
+
+* openrct2 - Update to v0.3.5.1
+* rigelengine - Update to 0.8.2
+* [Thanks to sponsors for funds to buy the game] dosbox-staging - Add support for MoM
+* augustus - Update to 3.1.0
+* realrtcw - Support steam assets
+* vkquake - Update to 1.12.1
+* [Thanks to ToughGuyKunio] Added blastem
+* warzone2100 - Update to 4.2.3
+
 ### 47.0 (2021-11-12)
 
 * openhexagon - Update to 2.1.2
