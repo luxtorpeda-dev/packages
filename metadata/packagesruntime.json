@@ -2025,8 +2025,8 @@
         "download": [
             {
                 "name": "blastem",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/blastem/",
-                "file": "blastem-34270.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/blastem-1/",
+                "file": "blastem-34270-1.tar.xz"
             }
         ],
         "command": "./run-blastem.sh",
@@ -2495,9 +2495,9 @@
                 ],
                 "engine_name": "BlastEm"
             }
-          ]
-      },
-      "39510": {
+        ]
+    },
+    "39510": {
         "game_name": "Gothic 2: Gold Edition",
         "download": [
             {
