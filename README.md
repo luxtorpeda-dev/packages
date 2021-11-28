@@ -20,6 +20,4 @@ You can also [create a package yourself](docs/Creating_a_Package.md)
 
 ## Contributors
 
-[d10sfan](https://github.com/d10sfan)
-
-[dreamer](https://github.com/dreamer)
+See [contributor list](https://github.com/luxtorpeda-dev/packages/graphs/contributors)
