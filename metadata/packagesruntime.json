@@ -2020,7 +2020,484 @@
         "command": "./run-kotor1.sh",
         "engine_name": "reone"
     },
-    "39510": {
+    "34270": {
+        "game_name": "SEGA Mega Drive & Genesis Classics",
+        "download": [
+            {
+                "name": "blastem",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/blastem/",
+                "file": "blastem-34270.tar.xz"
+            }
+        ],
+        "command": "./run-blastem.sh",
+        "choices": [
+            {
+                "name": "Alex Kidd in the Enchanted Castle (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ALEXKIDD_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Alien Soldier (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "AlienSoldier_Europe.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Alien Storm (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "AlienStorm_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Altered Beast (1988)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ALTEREDB_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Beyond Oasis (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "BEYONDOA_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Bio-Hazard Battle (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "Crying_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Bonanza Bros. (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "BONANZAB_JE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Columns (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "COLUMNS_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Columns III (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "Columns3_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Comix Zone (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "COMIXZON_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Crack Down (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "CrackDown_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Decap Attack (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "DECAP_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Dr. Robotnik's Mean Bean Machine (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ROBOTNIK_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Dynamite Headdy (1994)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "DYNAHEAD_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Ecco the Dolphin (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ECCO_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Ecco: The Tides of Time (1994)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ECCO2_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Ecco Jr. (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "eccojr.smd"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "ESWAT: City Under Siege (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ESWAT_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Eternal Champions (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "EternalChampions_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Fatal Labyrinth (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "FATALLAB_JU.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Flicky (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "FLICKY_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Gain Ground (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "GAING_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Galaxy Force II (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "GalaxyForceII_UE.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Golden Axe (1989)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "GAXE_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Golden Axe II (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "GAXE2_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Golden Axe III (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "GAXE3_J.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Gunstar Heroes (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "Gunstar Heroes U.bin"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Kid Chameleon (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "KIDCHAM_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Landstalker (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "LandStalker_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Light Crusader (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "LightCrusader_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Phantasy Star II (1990)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "PhantasyStar2_UE_GreenCrossFix.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Phantasy Star III (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "PhantasyStar3_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Phantasy Star IV (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "PhantasyStar4.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Ristar (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "RISTAR_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Shining Force (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SHININGF_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Shining Force II (1994)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SHINING2_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Shining in the Darkness (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SHININGD_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "The Revenge of Shinobi (1989)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "TheSuperShinobi_JUE.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Shadow Dancer: The Secret of Shinobi (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ShadowDancer.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Shinobi III: Return of the Ninja Master (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SHINOBI3_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sonic the Hedgehog (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SONIC_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sonic the Hedgehog 2 (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SONIC2_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sonic the Hedgehog 3 / Sonic & Knuckles (1994)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "Sonic_Knuckles_wSonic3.bin"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sonic Spinball (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SONICSPI_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sonic 3D Blast (1996)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SONIC3D_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Space Harrier II (1989)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "SPACEHARRIERII.bin"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Streets of Rage (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "STREETS_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Streets of Rage 2 (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "STREETS2_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Streets of Rage 3 (1994)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "STREETS3_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Super Thunder Blade (1989)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "STHUNDER_W.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Sword of Vermilion (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "sov.smd"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "ToeJam & Earl (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ToeJamEarl.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "ToeJam & Earl in Panic on Funkotron (1993)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "ToeJamEarl2_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Vectorman (1995)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "VECTMAN_UE.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Vectorman 2 (1996)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "VECTMAN2_U.68K"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Virtua Fighter 2 (1997)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "VIRTUAFIGHTER2.bin"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Wonder Boy III: Monster Lair (1991)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "MonsterLair_JUE.SGD"
+                ],
+                "engine_name": "BlastEm"
+            },
+            {
+                "name": "Wonder Boy in Monster World (1992)",
+                "command": "./run-blastem.sh",
+                "command_args": [
+                    "MonsterWorld3_USA.SGD"
+                ],
+                "engine_name": "BlastEm"
+            }
+          ]
+      },
+      "39510": {
         "game_name": "Gothic 2: Gold Edition",
         "download": [
             {
@@ -5299,6 +5776,15 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        },
+        "BlastEm": {
+            "engine_name": "BlastEm",
+            "engine_link": "https://www.retrodev.com/blastem/",
+            "version": "0.6.3-PRE",
+            "author": "kunio",
+            "author_link": "https://github.com/ToughGuyKunio",
+            "license": "GPLv3",
+            "license_link": "https://www.retrodev.com/repos/blastem/file/tip/COPYING"
         },
         "NW.js": {
             "engine_link": "https://github.com/nwjs/nw.js",
