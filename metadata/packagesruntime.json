@@ -5699,11 +5699,11 @@
         },
         "warzone2100": {
             "engine_link": "https://github.com/Warzone2100/warzone2100",
-            "version": "4.2.2",
+            "version": "4.2.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.1.3/COPYING"
+            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.2.3/COPYING"
         },
         "runelite": {
             "engine_link": "https://github.com/runelite/runelite",
