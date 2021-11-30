@@ -3856,6 +3856,29 @@
             "non_free": true
         }
     },
+    "573790": {
+        "game_name": "Imperium Galactica",
+        "download": [
+            {
+                "name": "openjdk11",
+                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "open-ig-launcher",
+                "url": "https://github.com/akarnokd/open-ig/raw/96af0a9a7ba74fd363a4efb580d0845b06dc7e94/",
+                "file": "open-ig-launcher.jar"
+            }
+        ],
+        "download_config": {
+            "open-ig-launcher": {
+                "copy_only": true
+            }
+        },
+        "command": "./run-open-ig.sh",
+        "engine_name": "open-ig"
+    },
     "580940": {
         "game_name": "Redneck Rampage Rides Again",
         "download": [
@@ -5797,6 +5820,22 @@
                 {
                     "key": "app_ids_deps",
                     "label": "Requires Steam Linux Runtime to be installed."
+                }
+            ]
+        },
+        "open-ig": {
+            "engine_link": "https://github.com/akarnokd/open-ig",
+            "version": "0.95.219",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPL-3.0",
+            "license_link": "https://github.com/akarnokd/open-ig/blob/master/LICENSE.txt",
+            "notices": [
+                {
+                    "key": "steam_overlay_disabled"
+                },
+                {
+                    "label": "Uses upstream launcher."
                 }
             ]
         }
