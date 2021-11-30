@@ -3869,6 +3869,11 @@
                 "name": "open-ig-launcher",
                 "url": "https://github.com/akarnokd/open-ig/raw/96af0a9a7ba74fd363a4efb580d0845b06dc7e94/",
                 "file": "open-ig-launcher.jar"
+            },
+            {
+                "name": "open-ig",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/open-ig-1/",
+                "file": "open-ig-573790-1.tar.xz"
             }
         ],
         "download_config": {
