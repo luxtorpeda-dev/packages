@@ -5423,11 +5423,11 @@
         },
         "OpenXRay": {
             "engine_link": "https://github.com/OpenXRay/xray-16",
-            "version": "December 2020 Preview",
+            "version": "December 2021 RC1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD with commercial source code",
-            "license_link": "https://github.com/OpenXRay/xray-16/blob/xd_dev/License.txt",
+            "license_link": "https://github.com/OpenXRay/xray-16/blob/dev/License.txt",
             "notices": [
                 {
                     "key": "non_free"
