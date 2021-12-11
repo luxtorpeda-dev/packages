@@ -4357,10 +4357,18 @@
             }
         ]
     },
-    "1260130" {
+    "1260130": {
         "game_name": "Banana Hell",
-        "download": [],
+        "download": [
+          {
+              "name": "godot",
+              "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot/",
+              "file": "godot-common.tar.xz",
+              "cache_by_name": true
+          }
+        ],
         "command": "./run-godot.sh",
+        "engine_name": "Godot"
     },
     "1271050": {
         "game_name": "Shrine",
@@ -4600,8 +4608,7 @@
                 "name": "openjdk11",
                 "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
                 "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
-                "cache_by_name": trueruffle
-            },
+                "cache_by_name": true            },
             {
                 "name": "buildgdx-lib",
                 "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
@@ -4796,6 +4803,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nwjs-1/",
                 "file": "nwjs-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "godot",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot/",
+                "file": "godot-common.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -4827,6 +4840,13 @@
                 "command": "./run-easyrpg-player.sh",
                 "download": [
                     "easyrpg-player"
+                ]
+            },
+            {
+                "name": "Godot",
+                "command": "./run-godot.sh",
+                "download": [
+                    "godot"
                 ]
             },
             {
@@ -5061,12 +5081,12 @@
             "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
         },
         "Godot": {
-            "engine_link": "https://github.com/Godotengine/Godot",
+            "engine_link": "https://github.com/godotengine/godot",
             "version": "3.4-stable",
             "author": "kunio",
             "author_link": "https://github.com/ToughGuyKunio",
             "license": "MIT",
-            "license_link": "https://github.com/Godotengine/Godot/blob/master/LICENSE.txt",
+            "license_link": "https://github.com/godotengine/godot/blob/master/LICENSE.txt"
         },
         "ruffle": {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
