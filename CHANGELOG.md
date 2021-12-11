@@ -8,6 +8,8 @@
 * vkquake - Update to 1.12.1
 * [Thanks to ToughGuyKunio] Added blastem
 * warzone2100 - Update to 4.2.3
+* raze - Update to 1.3.0
+* openxray - Update to December 2021 RC1
 
 ### 47.0 (2021-11-12)
 
