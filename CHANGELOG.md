@@ -1,3 +1,7 @@
+### 47.2 (2021-12-13)
+
+* [Thanks to ToughGuyKunio] Added Godot
+
 ### 47.1 (2021-11-21)
 
 * openrct2 - Update to v0.3.5.1
