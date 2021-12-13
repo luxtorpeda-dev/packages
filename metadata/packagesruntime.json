@@ -4360,12 +4360,12 @@
     "1260130": {
         "game_name": "Banana Hell",
         "download": [
-          {
-              "name": "godot",
-              "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot/",
-              "file": "godot-common.tar.xz",
-              "cache_by_name": true
-          }
+            {
+                "name": "godot",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-1/",
+                "file": "godot-common-1.tar.xz",
+                "cache_by_name": true
+            }
         ],
         "command": "./run-godot.sh",
         "engine_name": "Godot"
@@ -4807,8 +4807,8 @@
             },
             {
                 "name": "godot",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot/",
-                "file": "godot-common.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-1/",
+                "file": "godot-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
