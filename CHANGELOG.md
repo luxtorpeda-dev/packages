@@ -1,6 +1,7 @@
 ### 47.2 (2021-12-13)
 
 * [Thanks to ToughGuyKunio] Added Godot
+* raze - Update to 1.3.1
 
 ### 47.1 (2021-11-21)
 
