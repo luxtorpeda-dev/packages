@@ -1951,8 +1951,8 @@
         "download": [
             {
                 "name": "openxray",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-8/",
-                "file": "openxray-common-8.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-9/",
+                "file": "openxray-common-9.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2573,8 +2573,8 @@
         "download": [
             {
                 "name": "openxray",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-8/",
-                "file": "openxray-common-8.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-9/",
+                "file": "openxray-common-9.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2863,8 +2863,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-26/",
-                "file": "raze-common-26.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-27/",
+                "file": "raze-common-27.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2896,8 +2896,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-26/",
-                "file": "raze-common-26.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-27/",
+                "file": "raze-common-27.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3365,8 +3365,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-26/",
-                "file": "raze-common-26.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-27/",
+                "file": "raze-common-27.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -3478,8 +3478,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-26/",
-                "file": "raze-common-26.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-27/",
+                "file": "raze-common-27.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -3654,8 +3654,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-26/",
-                "file": "raze-common-26.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-27/",
+                "file": "raze-common-27.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3739,8 +3739,8 @@
         "download": [
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-26/",
-                "file": "raze-common-26.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-27/",
+                "file": "raze-common-27.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3805,8 +3805,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-26/",
-                "file": "raze-common-26.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-27/",
+                "file": "raze-common-27.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3895,8 +3895,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-26/",
-                "file": "raze-common-26.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-27/",
+                "file": "raze-common-27.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4059,8 +4059,8 @@
             },
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-26/",
-                "file": "raze-common-26.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-27/",
+                "file": "raze-common-27.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -4292,8 +4292,8 @@
         "download": [
             {
                 "name": "raze",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-26/",
-                "file": "raze-common-26.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-27/",
+                "file": "raze-common-27.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -4356,6 +4356,19 @@
                 }
             }
         ]
+    },
+    "1260130": {
+        "game_name": "Banana Hell",
+        "download": [
+            {
+                "name": "godot",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-1/",
+                "file": "godot-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-godot.sh",
+        "engine_name": "Godot"
     },
     "1271050": {
         "game_name": "Shrine",
@@ -4791,6 +4804,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nwjs-1/",
                 "file": "nwjs-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "godot",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-1/",
+                "file": "godot-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -4822,6 +4841,13 @@
                 "command": "./run-easyrpg-player.sh",
                 "download": [
                     "easyrpg-player"
+                ]
+            },
+            {
+                "name": "Godot",
+                "command": "./run-godot.sh",
+                "download": [
+                    "godot"
                 ]
             },
             {
@@ -4944,7 +4970,7 @@
         },
         "raze": {
             "engine_link": "https://github.com/coelckers/Raze",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Various Licenses",
@@ -5054,6 +5080,14 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
+        },
+        "Godot": {
+            "engine_link": "https://github.com/godotengine/godot",
+            "version": "3.4-stable",
+            "author": "kunio",
+            "author_link": "https://github.com/ToughGuyKunio",
+            "license": "MIT",
+            "license_link": "https://github.com/godotengine/godot/blob/master/LICENSE.txt"
         },
         "ruffle": {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
