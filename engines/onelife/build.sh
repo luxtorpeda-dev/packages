@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# CLONE PHASE
+git clone https://github.com/jasonrohrer/OneLife.git source
+pushd source
+git checkout ad2a7aa
+popd
+
+# BUILD PHASE
+cp -rfv "$pfx/include/"* /usr/include/
+
+pushd "source"
+cd build/source/OneLife_Live_UnixSource
+./pullAndBuildLatest
+popd
+
+# COPY PHASE
+cp -rfv "assets/*" "$diststart/595690/dist/"
