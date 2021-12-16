@@ -17,5 +17,5 @@ cd build/source/OneLife_Live_UnixSource
 popd
 
 # COPY PHASE
-cp -rfv source/build/source/OneLife_Live_UnixSource/OneLifeApp "$diststart/595690/dist/"
+cp -rfv source/build/source/OneLife_Live_UnixSource/* "$diststart/595690/dist/"
 cp -rfv "assets/"* "$diststart/595690/dist/"
