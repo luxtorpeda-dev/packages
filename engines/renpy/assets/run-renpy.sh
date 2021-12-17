@@ -12,7 +12,7 @@ if [ -n "$shfile" ]; then
     echo "Launching game's .sh file from $shfile"
     ./"$shfile"
 else
-    error_message="Couldn't find a game's .sh file."
+    error_message="Couldn't find game's .sh file."
 
     if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
         "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
