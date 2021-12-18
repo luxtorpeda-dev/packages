@@ -3940,7 +3940,15 @@
     },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
-        "command": "./DDLC.sh",
+        "download": [
+            {
+                "name": "renpy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy/",
+                "file": "renpy-common.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-renpy.sh",
         "engine_name": "Ren'Py"
     },
     "714070": {
@@ -3977,6 +3985,19 @@
             "license": "Source SDK Copyright(c) Valve Corp.",
             "non_free": true
         }
+    },
+    "782340": {
+        "game_name": "Lake of Voices",
+        "download": [
+          {
+            "name": "renpy",
+            "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy/",
+            "file": "renpy-common.tar.xz",
+            "cache_by_name": true
+          }
+        ],
+        "command": "./run-renpy.sh",
+        "engine_name": "Ren'Py"
     },
     "747250": {
         "game_name": "Half-Life 2: Year Long Alarm",
@@ -4810,6 +4831,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-2/",
                 "file": "godot-common-2.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "renpy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy/",
+                "file": "renpy-common.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -4848,6 +4875,13 @@
                 "command": "./run-godot.sh",
                 "download": [
                     "godot"
+                ]
+            },
+            {
+                "name": "Ren'Py",
+                "command": "./run-renpy.sh",
+                "download": [
+                    "renpy"
                 ]
             },
             {
@@ -5738,7 +5772,7 @@
         "Ren'Py": {
             "engine_link": "https://www.renpy.org/",
             "version": "Steam version",
-            "author": "dreamer",
+            "author": "dreamer/kunio",
             "author_link": "https://github.com/dreamer",
             "license": "MIT, LGPLv2.1 and other free/libre/open source licenses",
             "license_link": "https://www.renpy.org/doc/html/license.html"
