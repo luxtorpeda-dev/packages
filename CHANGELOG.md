@@ -2,6 +2,7 @@
 
 * [Thanks to ToughGuyKunio] Added Godot
 * raze - Update to 1.3.1
+* [Thanks to ToughGuyKunio] Added Renpy
 
 ### 47.1 (2021-11-21)
 
