@@ -3943,8 +3943,8 @@
         "download": [
             {
                 "name": "renpy",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy/",
-                "file": "renpy-common.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
+                "file": "renpy-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3986,19 +3986,6 @@
             "non_free": true
         }
     },
-    "782340": {
-        "game_name": "Lake of Voices",
-        "download": [
-          {
-            "name": "renpy",
-            "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy/",
-            "file": "renpy-common.tar.xz",
-            "cache_by_name": true
-          }
-        ],
-        "command": "./run-renpy.sh",
-        "engine_name": "Ren'Py"
-    },
     "747250": {
         "game_name": "Half-Life 2: Year Long Alarm",
         "download": [
@@ -4019,6 +4006,19 @@
             "license": "Source SDK Copyright(c) Valve Corp.",
             "non_free": true
         }
+    },
+    "782340": {
+        "game_name": "Lake of Voices",
+        "download": [
+            {
+                "name": "renpy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
+                "file": "renpy-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-renpy.sh",
+        "engine_name": "Ren'Py"
     },
     "817220": {
         "game_name": "The Forestale",
@@ -4834,8 +4834,8 @@
             },
             {
                 "name": "renpy",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy/",
-                "file": "renpy-common.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
+                "file": "renpy-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
