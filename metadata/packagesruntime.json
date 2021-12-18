@@ -3940,7 +3940,14 @@
     },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
-        "download": [],
+        "download": [
+            {
+                "name": "renpy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy/",
+                "file": "renpy-common.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "command": "./run-renpy.sh",
         "engine_name": "Ren'Py"
     },
@@ -3981,7 +3988,14 @@
     },
     "782340": {
         "game_name": "Lake of Voices",
-        "download": [],
+        "download": [
+          {
+            "name": "renpy",
+            "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy/",
+            "file": "renpy-common.tar.xz",
+            "cache_by_name": true
+          }
+        ],
         "command": "./run-renpy.sh",
         "engine_name": "Ren'Py"
     },
@@ -4761,12 +4775,6 @@
         ],
         "engine_name": "gzdoom"
     },
-    "1763110": {
-        "game_name": "PROJECT: Halloween",
-        "download": [],
-        "command": "./run-renpy.sh",
-        "engine_name": "Ren'Py"
-    },
     "default": {
         "game_name": "Default",
         "download": [
@@ -4822,6 +4830,12 @@
                 "name": "godot",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-2/",
                 "file": "godot-common-2.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "renpy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy/",
+                "file": "renpy-common.tar.xz",
                 "cache_by_name": true
             }
         ],
