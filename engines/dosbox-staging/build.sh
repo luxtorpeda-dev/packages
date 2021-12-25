@@ -2,7 +2,7 @@
 
 wget https://bootstrap.pypa.io/get-pip.py
 
-python3 get-pip.py
+python3 get-pip.py.1
 pip3 install meson --upgrade
 
 # CLONE PHASE
