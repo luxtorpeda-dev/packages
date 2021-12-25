@@ -5,7 +5,6 @@
 * [Thanks to ToughGuyKunio] Added Renpy
 * warzone2100 - Update to 4.2.4
 * vkquake - Update to 1.12.2
-* dosbox-staging - Update to 0.78.0
 
 ### 47.1 (2021-11-21)
 
