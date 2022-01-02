@@ -6,9 +6,6 @@ pushd source
 git checkout -f 61c67af
 popd
 
-wget https://github.com/OpenRCT2/objects/releases/download/v1.2.2/objects.zip
-wget https://github.com/OpenRCT2/title-sequences/releases/download/v0.1.2c/title-sequences.zip
-
 # BUILD PHASE
 pushd source
 mkdir build
@@ -20,14 +17,17 @@ cmake \
     -DICU_ROOT="$pfx" \
     -DJANSSON_LIBRARIES="$pfx/lib/libjansson.so" \
     -DLIBZIP_LIBRARIES="$pfx/lib/libzip.so" \
+    -DCMAKE_INSTALL_PREFIX="$pfx/openrct2" \
     ..
 make -j "$(nproc)"
 cp -rfv ../data .
 make g2
+make install
 popd
 
 # COPY PHASE
 mkdir -p "$diststart/common/dist/data/object"
+
 cp -rfv "source/build/openrct2" "$diststart/common/dist/"
 cp -rfv "source/build/openrct2-cli" "$diststart/common/dist/"
 cp -rfv "source/build/data/"* "$diststart/common/dist/data"
@@ -35,6 +35,4 @@ cp -rfv "source/build/g2.dat" "$diststart/common/dist/data"
 cp -rfv "assets/run-openrct2.sh" "$diststart/common/dist"
 cp -rfv "assets/setup-rct1.sh" "$diststart/common/dist"
 cp -rfv "assets/setup-rct2.sh" "$diststart/common/dist"
-
-unzip objects.zip -d "$diststart/common/dist/data/object"
-unzip title-sequences.zip -d "$diststart/common/dist/data/sequence"
+cp -rfv "$pfx/openrct2/share/openrct2/"* "$diststart/common/dist/data"
