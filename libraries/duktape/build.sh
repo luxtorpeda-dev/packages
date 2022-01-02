@@ -1,9 +1,6 @@
 #!/bin/bash
 
 sudo apt-get install -y python-yaml bc
-
-wget https://bootstrap.pypa.io/get-pip.py
-python3 get-pip.py
 sudo pip3 install setconf
 
 # CLONE PHASE
