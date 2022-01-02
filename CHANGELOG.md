@@ -1,3 +1,9 @@
+### 48.1 (2022-01-02)
+
+* openrct2 - Fix launch issues
+* rigelengine - Update to 0.8.3
+* scummvm - Update to 2.5.1
+
 ### 47.2 (2021-12-13)
 
 * [Thanks to ToughGuyKunio] Added Godot
