@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/scummvm/scummvm.git source
 pushd source
-git checkout -f f6ab60c
+git checkout -f 848909f
 popd
 
 # BUILD PHASE
