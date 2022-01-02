@@ -2,6 +2,9 @@
 
 * [Thanks to ToughGuyKunio] Added Godot
 * raze - Update to 1.3.1
+* [Thanks to ToughGuyKunio] Added Renpy
+* warzone2100 - Update to 4.2.4
+* vkquake - Update to 1.12.2
 
 ### 47.1 (2021-11-21)
 

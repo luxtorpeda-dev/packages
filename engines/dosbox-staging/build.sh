@@ -2,13 +2,13 @@
 
 wget https://bootstrap.pypa.io/get-pip.py
 
-python3 get-pip.py
+python3 get-pip.py.1
 pip3 install meson --upgrade
 
 # CLONE PHASE
 git clone https://github.com/dosbox-staging/dosbox-staging.git source
 pushd source
-git checkout -f 30d8752
+git checkout -f 656e98e
 popd
 
 # BUILD PHASE

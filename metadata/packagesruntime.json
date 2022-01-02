@@ -503,8 +503,8 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-21/",
-                "file": "vkquake-common-21.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-22/",
+                "file": "vkquake-common-22.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -3799,8 +3799,8 @@
         "download": [
             {
                 "name": "rednukem",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-2/",
-                "file": "rednukem-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-3/",
+                "file": "rednukem-common-3.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -3889,8 +3889,8 @@
         "download": [
             {
                 "name": "rednukem",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-2/",
-                "file": "rednukem-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-3/",
+                "file": "rednukem-common-3.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -3940,7 +3940,15 @@
     },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
-        "command": "./DDLC.sh",
+        "download": [
+            {
+                "name": "renpy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
+                "file": "renpy-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-renpy.sh",
         "engine_name": "Ren'Py"
     },
     "714070": {
@@ -3998,6 +4006,19 @@
             "license": "Source SDK Copyright(c) Valve Corp.",
             "non_free": true
         }
+    },
+    "782340": {
+        "game_name": "Lake of Voices",
+        "download": [
+            {
+                "name": "renpy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
+                "file": "renpy-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-renpy.sh",
+        "engine_name": "Ren'Py"
     },
     "817220": {
         "game_name": "The Forestale",
@@ -4275,8 +4296,8 @@
         "download": [
             {
                 "name": "warzone2100",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-15/",
-                "file": "warzone2100-1241950-15.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-16/",
+                "file": "warzone2100-1241950-16.tar.xz"
             }
         ],
         "download_config": {
@@ -4810,6 +4831,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-2/",
                 "file": "godot-common-2.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "renpy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
+                "file": "renpy-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
@@ -4848,6 +4875,13 @@
                 "command": "./run-godot.sh",
                 "download": [
                     "godot"
+                ]
+            },
+            {
+                "name": "Ren'Py",
+                "command": "./run-renpy.sh",
+                "download": [
+                    "renpy"
                 ]
             },
             {
@@ -4986,7 +5020,7 @@
         },
         "vkQuake": {
             "engine_link": "https://github.com/Novum/vkQuake",
-            "version": "1.12.1",
+            "version": "1.12.2",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -5738,7 +5772,7 @@
         "Ren'Py": {
             "engine_link": "https://www.renpy.org/",
             "version": "Steam version",
-            "author": "dreamer",
+            "author": "dreamer/kunio",
             "author_link": "https://github.com/dreamer",
             "license": "MIT, LGPLv2.1 and other free/libre/open source licenses",
             "license_link": "https://www.renpy.org/doc/html/license.html"
@@ -5761,7 +5795,7 @@
         },
         "warzone2100": {
             "engine_link": "https://github.com/Warzone2100/warzone2100",
-            "version": "4.2.3",
+            "version": "4.2.4",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
