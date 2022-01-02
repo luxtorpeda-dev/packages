@@ -27,6 +27,7 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/common/dist/data/object"
+
 cp -rfv "source/build/openrct2" "$diststart/common/dist/"
 cp -rfv "source/build/openrct2-cli" "$diststart/common/dist/"
 cp -rfv "source/build/data/"* "$diststart/common/dist/data"
