@@ -6,9 +6,9 @@
 
 ### 47.2 (2021-12-13)
 
-* [Thanks to ToughGuyKunio] Added Godot
+* [Thanks to Jpx] Added Godot
 * raze - Update to 1.3.1
-* [Thanks to ToughGuyKunio] Added Renpy
+* [Thanks to Jpx] Added Renpy
 * warzone2100 - Update to 4.2.4
 * vkquake - Update to 1.12.2
 
@@ -20,7 +20,7 @@
 * augustus - Update to 3.1.0
 * realrtcw - Support steam assets
 * vkquake - Update to 1.12.1
-* [Thanks to ToughGuyKunio] Added blastem
+* [Thanks to Jpx] Added blastem
 * warzone2100 - Update to 4.2.3
 * raze - Update to 1.3.0
 * openxray - Update to December 2021 RC1
@@ -30,7 +30,7 @@
 * openhexagon - Update to 2.1.2
 * Added starting point for ruffle support
 * Added nwjs with 0.54
-* [Thanks to ToughGuyKunio] ruffle - add The Basement Collection
+* [Thanks to Jpx] ruffle - add The Basement Collection
 
 ### 46.0 (2021-11-06)
 
@@ -67,7 +67,7 @@
 
 ### 40.0 (2021-10-18)
 
-* Added freespace support with compiled version of the original engine and support for FreespacePort, which requires Freespace 2 to be installed and launched with luxtorpeda-dev client at least once. 
+* Added freespace support with compiled version of the original engine and support for FreespacePort, which requires Freespace 2 to be installed and launched with luxtorpeda-dev client at least once.
 * vkquake - Update to 625e65a
 * gzdoom - Update to 4.7.1
 * vkquake - Update to 1.11.1
@@ -87,7 +87,7 @@
 * vkquake - Update to 82b69a2
 * classic-rbdoom-3-bfg - Add steam integration
 * julius - Update to 1.7.0
-* quake3e - Update to 2021-10-14 
+* quake3e - Update to 2021-10-14
 * raze - Update to 1.2.1
 
 ### 37.0 (2021-09-27)
@@ -104,7 +104,7 @@
 * Add support for building against steam runtime
 * Added support for common library build scripts, so engines that share libraries do not have to each define the build scripts for them. Now can set ```export LIBRARIES="fluidsynth zmusic"``` as an example, which will clone, build, and copy the license and library files to the artifact.
 * Re-built all games for new runtime. This will lead to better tooling support with the newer build system, easier to maintain library build scripts, and the engines have been updated to their latest.
-* Added terminal-recall to runtime. Thanks to ToughGuyKunio for the key
+* Added terminal-recall to runtime. Thanks to Jpx for the key
 * fs2open - Update to 21.4.0
 
 ### 30.4 (2021-09-14)
@@ -196,7 +196,7 @@
 * raze - Update to 1.1.1
 * raze - Update to 1.1.2 and support blood better
 * Added etqw, user provided binaries
-* gzdoom - Add doom 2 master levels 
+* gzdoom - Add doom 2 master levels
 * augustus - Update to 3.0
 * gzdoom - Update to 4.6.0
 
@@ -269,7 +269,7 @@
 * Added source-sdk-2013, with scripts to launch Entropy Zero and Minerva source mods
 * dhewm3 - Update to 1.5.1 RC3
 * Added support for Hexen Deathkings
-* metadata - Improvements to table look 
+* metadata - Improvements to table look
 * source-sdk-2013 - Add support for year-long-alarm
 * source-sdk-2013 - Add support for resistance-element
 
@@ -478,7 +478,7 @@
     - openal - Needed for sound to work
     - libstdc++.so.5 - Needed for game to launch, most modern distros do not have this version installed by default.
   - Engine script will take care of presenting the original EULA, downloading the installer, extracting the data, and setting up. The process will ask for the cd key, which can be seen in the Steam client.
-  
+
 ### 10.0 (2020-07-09)
 
 - Added openapoc
@@ -486,7 +486,7 @@
   - Client will ask before taking any steps if you want to use this engine
   - Engine script and override default configuration will be downloaded
   - Engine script will take care of presenting the original EULA, downloading the installer, extracting the data, and setting up. In this case, it'll also copy the cd key to the proper place, so it's just launch and go.
-  
+
 ### 9.0 (2020-07-07)
 
 - Changed engine package creation for the following games to use common packages:
@@ -506,12 +506,12 @@
 - Added new engines
   - dxx-rebirth
   - ctp2
-  
+
 ### 3.0 (2020-06-13)
 
 - Added new engine
   - jk2mv
-  
+
 ### 1.0 (2020-05-30)
 
 - Added new engines
