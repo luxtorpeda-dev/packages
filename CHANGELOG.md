@@ -3,6 +3,8 @@
 * openrct2 - Fix launch issues
 * rigelengine - Update to 0.8.3
 * scummvm - Update to 2.5.1
+* dosbox-staging - Update to 0.78.1
+* Added onelife
 
 ### 47.2 (2021-12-13)
 
