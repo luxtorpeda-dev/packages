@@ -3938,6 +3938,12 @@
             "non_free": true
         }
     },
+    "595690": {
+        "game_name": "One Hour One Life",
+        "download": [],
+        "command": "./run-onelife.sh",
+        "engine_name": "OneLife"
+    },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
         "download": [
@@ -5909,6 +5915,22 @@
                 },
                 {
                     "label": "Uses upstream launcher."
+                }
+            ]
+        },
+        "OneLife": {
+            "engine_link": "https://github.com/jasonrohrer/OneLife",
+            "version": "ad2a7aa",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Public Domain",
+            "license_link": "https://github.com/jasonrohrer/OneLife/blob/master/no_copyright.txt",
+            "notices": [
+                {
+                    "key": "manual_steps"
+                },
+                {
+                    "label": "Run the game with Proton at least once, to get the steam key and account register finished. Then, launch the game with Luxtorpeda."
                 }
             ]
         }
