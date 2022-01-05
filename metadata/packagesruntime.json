@@ -3940,7 +3940,13 @@
     },
     "595690": {
         "game_name": "One Hour One Life",
-        "download": [],
+        "download": [
+            {
+                "name": "onelife",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/onelife-1/",
+                "file": "onelife-595690-1.tar.xz"
+            }
+        ],
         "command": "./run-onelife.sh",
         "engine_name": "OneLife"
     },
