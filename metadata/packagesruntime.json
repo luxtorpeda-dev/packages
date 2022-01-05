@@ -3947,7 +3947,12 @@
                 "file": "onelife-595690-1.tar.xz"
             }
         ],
-        "command": "./run-onelife.sh",
+        "command": "./linuxdata/run-onelife.sh",
+        "download_config": {
+            "onelife": {
+                "extract_location": "./linuxdata"
+            }
+        },
         "engine_name": "OneLife"
     },
     "698780": {
