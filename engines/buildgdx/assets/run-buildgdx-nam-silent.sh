@@ -1,8 +1,8 @@
 #!/bin/bash
 
-gamepath="$PWD/GAME/WHAVEN2"
-configpath=~/M210Projects/Witchaven2GDX/witchaven2gdx.ini
-mkdir -p ~/M210Projects/Witchaven2GDX
+gamepath="$PWD/../NAM"
+configpath=~/M210Projects/NamGDX/namgdx.ini
+mkdir -p ~/M210Projects/NamGDX
 echo "$configpath"
 
 if [ ! -f ${configpath} ]; then
@@ -15,4 +15,4 @@ EOL
 fi
 
 export PATH="$PATH:./jdk-11.0.12/bin/:./"
-java -DLWJGL_DISABLE_XRANDR=true -jar BuildGDX.jar
+java -DLWJGL_DISABLE_XRANDR=true -jar BuildGDX.jar -path "$gamepath" -silent

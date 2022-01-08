@@ -1,8 +1,8 @@
 #!/bin/bash
 
-gamepath="$PWD/GAME/WHAVEN"
-configpath=~/M210Projects/WitchavenGDX/witchavengdx.ini
-mkdir -p ~/M210Projects/WitchavenGDX
+gamepath="$PWD/PWRSLAVE"
+configpath=~/M210Projects/PowerslaveGDX/powerslavegdx.ini
+mkdir -p ~/M210Projects/PowerslaveGDX
 echo "$configpath"
 
 if [ ! -f ${configpath} ]; then
@@ -15,4 +15,4 @@ EOL
 fi
 
 export PATH="$PATH:./jdk-11.0.12/bin/:./"
-java -DLWJGL_DISABLE_XRANDR=true -jar BuildGDX.jar
+java -DLWJGL_DISABLE_XRANDR=true -jar BuildGDX.jar -path "$gamepath" -silent
