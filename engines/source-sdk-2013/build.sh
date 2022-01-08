@@ -16,3 +16,5 @@ cp -rfv assets/year-long-alarm/* "$diststart/747250/dist/"
 cp -rfv assets/resistance-element/* "$diststart/1054600/dist/"
 
 cp -rfv assets/downfall/* "$diststart/587650/dist/"
+
+cp -rfv assets/prospekt/* "$diststart/399120/dist/"
