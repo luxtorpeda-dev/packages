@@ -4820,12 +4820,7 @@
                 "extract_location": "./jdk-11.0.12",
                 "strip_prefix": "jdk-11.0.12+7/"
             }
-        },
-        "notices": [
-            {
-                "label": "Will have to remove the file at ~/M210Projects/Witchaven2GDX/witchavengdx.ini to switch between Original and Enhanced, or can manually change the path in the launcher."
-            }
-        ]
+        }
     },
     "1679920": {
         "game_name": "Project Absentia Demo",
