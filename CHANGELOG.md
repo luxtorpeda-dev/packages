@@ -5,6 +5,8 @@
 * scummvm - Update to 2.5.1
 * dosbox-staging - Update to 0.78.1
 * Added onelife
+* buildgdx - Update to 1.16
+* source-sdk-2013 - Add prospekt
 
 ### 47.2 (2021-12-13)
 
