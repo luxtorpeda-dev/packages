@@ -5084,7 +5084,7 @@
         },
         "quake3e": {
             "engine_link": "https://github.com/ec-/Quake3e",
-            "version": "2021-10-14",
+            "version": "2baea18",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
