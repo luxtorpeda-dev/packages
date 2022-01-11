@@ -7,6 +7,7 @@
 * Added onelife
 * buildgdx - Update to 1.16
 * source-sdk-2013 - Add prospekt
+* quake3e - Update to 2baea18
 
 ### 47.2 (2021-12-13)
 
