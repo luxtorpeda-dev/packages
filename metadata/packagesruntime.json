@@ -3723,14 +3723,7 @@
         ],
         "app_ids_deps": [
             243730,
-            1070560,
-            420
-        ],
-        "notices": [
-            {
-                "key": "app_ids_deps",
-                "label": "Requires Half-Life 2 Episode 2 to be installed."
-            }
+            1070560
         ],
         "command": "./run-prospekt.sh",
         "engine_name": "Source SDK 2013",
