@@ -19,5 +19,4 @@ popd
 
 # COPY PHASE
 cp -rfv "source/build"/{raze,soundfonts,*.pk3} "$diststart/common/dist/"
-
 cp -rfv "assets/"* "$diststart/common/dist/"
