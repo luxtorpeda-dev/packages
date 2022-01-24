@@ -1,3 +1,7 @@
+### 48.2 (2022-01-24)
+
+* raze - Update to 1.4.0
+
 ### 48.1 (2022-01-02)
 
 * openrct2 - Fix launch issues
