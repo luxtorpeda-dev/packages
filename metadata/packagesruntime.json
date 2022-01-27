@@ -5815,7 +5815,7 @@
         },
         "Perimeter": {
             "engine_link": "https://github.com/KranX/Perimeter",
-            "version": "1189111",
+            "version": "b7be1c7",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -5823,9 +5823,6 @@
             "notices": [
                 {
                     "key": "in_progress"
-                },
-                {
-                    "label": "Sound does not work."
                 }
             ]
         },
