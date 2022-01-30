@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/coelckers/prboom-plus.git source
 pushd source
-git checkout 7d377a1
+git checkout edb0a01
 popd
 
 # BUILD PHASE
