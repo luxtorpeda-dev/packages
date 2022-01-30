@@ -2,6 +2,7 @@
 
 * raze - Update to 1.4.0
 * perimeter - Update to b7be1c7
+* raze - Update to 1.4.1
 
 ### 48.1 (2022-01-02)
 
