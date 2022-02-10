@@ -3572,6 +3572,20 @@
             }
         ]
     },
+    "353220": {
+        "game_name": "Fast Detect",
+        "download": [],
+        "app_ids_deps": [
+            243730,
+            1070560
+        ],
+        "command": "./run-fast-detect.sh",
+        "engine_name": "Source SDK 2013",
+        "information": {
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "non_free": true
+        }
+    },
     "356430": {
         "game_name": "Chris Sawyer's Locomotion™",
         "download": [

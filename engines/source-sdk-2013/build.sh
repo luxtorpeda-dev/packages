@@ -18,3 +18,5 @@ cp -rfv assets/resistance-element/* "$diststart/1054600/dist/"
 cp -rfv assets/downfall/* "$diststart/587650/dist/"
 
 cp -rfv assets/prospekt/* "$diststart/399120/dist/"
+
+cp -rfv assets/fast-detect/* "$diststart/353220/dist/"
