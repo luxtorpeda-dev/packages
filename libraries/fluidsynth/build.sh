@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/FluidSynth/fluidsynth.git fluidsynth
 pushd fluidsynth
-git checkout -f 19a20eb
+git checkout -f 59fdc37
 popd
 
 # BUILD PHASE
