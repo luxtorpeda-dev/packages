@@ -1,3 +1,7 @@
+### 48.3 (2022-02-10)
+
+* Fixed an issue with prboom-plus and fluidsynth
+
 ### 48.2 (2022-01-24)
 
 * raze - Update to 1.4.0
