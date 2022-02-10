@@ -30,6 +30,7 @@ wget https://github.com/zdevito/terra/releases/download/release-2016-03-25/terra
 unzip terra-Linux-x86_64-332a506.zip
 
 # BUILD PHASE
+
 generate_openmw_cfg () {
     tail -n +2 "$1" | sed -e 's!\(data\|resources\)=/usr/local/\(.*\)!\1=\2!g'
     echo "fallback-archive=Morrowind.bsa"
