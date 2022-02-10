@@ -7,13 +7,13 @@ mkdir -p "$tmp"
 # CLONE PHASE
 git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
-git checkout -f ad9ee80
+git checkout -f 000e872
 git submodule update --init --recursive
 popd
 
 git clone https://github.com/TES3MP/CoreScripts server
 pushd server
-git checkout -f 46698c1
+git checkout -f fdf5b3f
 popd
 
 git clone https://github.com/TES3MP/CrabNet.git crabnet
@@ -105,4 +105,3 @@ cp "$tmp/usr/local/etc/openmw/tes3mp-server-default.cfg" "$diststart/22320/dist"
 
 cp -rfv server "$diststart/22320/dist"
 cp -rfv source/tes3mp-credits.md "$diststart/22320/dist"
-cp -rfv assets/version "$diststart/22320/dist/share/games/openmw/resources/version"
