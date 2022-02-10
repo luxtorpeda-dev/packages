@@ -3002,8 +3002,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-24/",
-                "file": "source-sdk-2013-235780-24.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-25/",
+                "file": "source-sdk-2013-235780-25.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -3574,7 +3574,13 @@
     },
     "353220": {
         "game_name": "Fast Detect",
-        "download": [],
+        "download": [
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-25/",
+                "file": "source-sdk-2013-353220-25.tar.xz"
+            }
+        ],
         "app_ids_deps": [
             243730,
             1070560
@@ -3731,8 +3737,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-24/",
-                "file": "source-sdk-2013-399120-24.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-25/",
+                "file": "source-sdk-2013-399120-25.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -4036,8 +4042,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-24/",
-                "file": "source-sdk-2013-587650-24.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-25/",
+                "file": "source-sdk-2013-587650-25.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -4091,8 +4097,8 @@
             },
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-24/",
-                "file": "source-sdk-2013-714070-24.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-25/",
+                "file": "source-sdk-2013-714070-25.tar.xz"
             }
         ],
         "download_config": {
@@ -4121,8 +4127,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-24/",
-                "file": "source-sdk-2013-747250-24.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-25/",
+                "file": "source-sdk-2013-747250-25.tar.xz"
             }
         ],
         "command": "./run-year-long-alarm.sh",
@@ -4292,8 +4298,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-24/",
-                "file": "source-sdk-2013-1054600-24.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-25/",
+                "file": "source-sdk-2013-1054600-25.tar.xz"
             }
         ],
         "app_ids_deps": [
