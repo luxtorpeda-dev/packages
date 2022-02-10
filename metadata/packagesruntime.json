@@ -199,8 +199,8 @@
             },
             {
                 "name": "prboom-plus",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-6/",
-                "file": "prboom-plus-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-7/",
+                "file": "prboom-plus-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -291,8 +291,8 @@
             },
             {
                 "name": "prboom-plus",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-6/",
-                "file": "prboom-plus-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-7/",
+                "file": "prboom-plus-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -429,8 +429,8 @@
             },
             {
                 "name": "prboom-plus",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-6/",
-                "file": "prboom-plus-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-7/",
+                "file": "prboom-plus-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1165,8 +1165,8 @@
             },
             {
                 "name": "prboom-plus",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-6/",
-                "file": "prboom-plus-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-7/",
+                "file": "prboom-plus-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
