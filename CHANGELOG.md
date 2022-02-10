@@ -1,6 +1,7 @@
 ### 48.3 (2022-02-10)
 
 * Fixed an issue with prboom-plus and fluidsynth
+* source-sdk-2013 - Add fast-detect
 
 ### 48.2 (2022-01-24)
 
