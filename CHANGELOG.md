@@ -2,6 +2,7 @@
 
 * Fixed an issue with prboom-plus and fluidsynth
 * source-sdk-2013 - Add fast-detect
+* prboom-plus - Update to 2.6.2
 
 ### 48.2 (2022-01-24)
 
