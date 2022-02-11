@@ -5145,7 +5145,7 @@
         },
         "prboom-plus": {
             "engine_link": "https://github.com/coelckers/prboom-plus",
-            "version": "2.6.1um",
+            "version": "2.6.2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",

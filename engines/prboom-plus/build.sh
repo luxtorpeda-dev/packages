@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/coelckers/prboom-plus.git source
 pushd source
-git checkout edb0a01
+git checkout db29f6f
 popd
 
 # BUILD PHASE
@@ -21,5 +21,4 @@ popd
 cp -rfv "source/prboom2/build/prboom-plus" "$diststart/common/dist/"
 cp -rfv "source/prboom2/build/prboom-plus.wad" "$diststart/common/dist/"
 cp -rfv "source/prboom2/build/prboom-plus-game-server" "$diststart/common/dist/"
-
 cp -rfv "assets/run-prboom-plus.sh" "$diststart/common/dist/"
