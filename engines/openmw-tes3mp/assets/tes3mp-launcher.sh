@@ -7,7 +7,7 @@ cd "$DIR"
 
 export LD_LIBRARY_PATH=lib:$LD_LIBRARY_PATH
 
-if [ -f "last_error.txt" ]; then
+if [ -f "../last_error.txt" ]; then
     rm ../last_error.txt
 fi
 
