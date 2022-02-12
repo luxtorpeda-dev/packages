@@ -1,5 +1,6 @@
 #!/bin/bash
 
+ORIGINALPWD="$PWD"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 cd "$DIR"
@@ -7,22 +8,22 @@ cd "$DIR"
 export LD_LIBRARY_PATH=lib:$LD_LIBRARY_PATH
 
 if [ -f "last_error.txt" ]; then
-    rm last_error.txt
+    rm ../last_error.txt
 fi
 
 set -e
 
-if [ ! -f Morrowind.ini ]; then
-    if [ ! -f morrowind.ini ]; then
+if [ ! -f ../Morrowind.ini ]; then
+    if [ ! -f ../morrowind.ini ]; then
         error_message="No morrowind ini file not found."
         if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
             "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
         else
-            echo "$error_message" > last_error.txt
+            echo "$error_message" > ../last_error.txt
         fi
         exit 10
     else
-        ln -rsf morrowind.ini Morrowind.ini
+        ln -rsf ../morrowind.ini ../Morrowind.ini
     fi
 fi
 
@@ -31,7 +32,7 @@ if [ -f openmw.cfg ]; then
     if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
         "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
     else
-        echo "$error_message" > last_error.txt
+        echo "$error_message" > ../last_error.txt
     fi
     exit 10
 fi
@@ -40,9 +41,9 @@ if [ ! -f ~/.config/openmw/openmw.cfg ]; then
     echo "No openmw.cfg file detected, so creating and adding resources"
     echo -e "resources=\"share/games/openmw/resources\"\n" > ~/.config/openmw/openmw.cfg
     echo "Now running iniimporter"
-    ./openmw-iniimporter Morrowind.ini ~/.config/openmw/openmw.cfg
+    ./openmw-iniimporter ../Morrowind.ini ~/.config/openmw/openmw.cfg
     echo "Now adding data path"
-    echo -e "data=\"$PWD/Data Files\"" >> ~/.config/openmw/openmw.cfg
+    echo -e "data=\"$ORIGINALPWD/Data Files\"" >> ~/.config/openmw/openmw.cfg
     echo -e "fallback-archive=Morrowind.bsa" >> ~/.config/openmw/openmw.cfg
     echo -e "fallback-archive=Tribunal.bsa" >> ~/.config/openmw/openmw.cfg
     echo -e "fallback-archive=Bloodmoon.bsa" >> ~/.config/openmw/openmw.cfg
@@ -67,4 +68,4 @@ if [ ! -d vfs ]; then
     LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/version ./version
 fi
 
-LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./plugins ./openmw-launcher --data-local "Data Files" "$@"
+LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./plugins ./openmw-launcher --data-local "../Data Files" "$@"
