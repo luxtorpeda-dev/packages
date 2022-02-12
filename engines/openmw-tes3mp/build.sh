@@ -7,13 +7,13 @@ mkdir -p "$tmp"
 # CLONE PHASE
 git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
-git checkout -f ad9ee80
+git checkout -f 000e872
 git submodule update --init --recursive
 popd
 
 git clone https://github.com/TES3MP/CoreScripts server
 pushd server
-git checkout -f 46698c1
+git checkout -f fdf5b3f
 popd
 
 git clone https://github.com/TES3MP/CrabNet.git crabnet
@@ -30,16 +30,6 @@ wget https://github.com/zdevito/terra/releases/download/release-2016-03-25/terra
 unzip terra-Linux-x86_64-332a506.zip
 
 # BUILD PHASE
-generate_openmw_cfg () {
-    tail -n +2 "$1" | sed -e 's!\(data\|resources\)=/usr/local/\(.*\)!\1=\2!g'
-    echo "fallback-archive=Morrowind.bsa"
-    echo "fallback-archive=Tribunal.bsa"
-    echo "fallback-archive=Bloodmoon.bsa"
-    echo "content=Morrowind.esm"
-    echo "content=Tribunal.esm"
-    echo "content=Bloodmoon.esm"
-}
-
 pushd crabnet
 mkdir -p build
 cd build
@@ -92,17 +82,17 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/22320/dist/lib/"
-cp -rfv "$pfx/"{lib,lib64}/*.so* "$diststart/22320/dist/lib/"
-cp -rfv "$pfx/lib64/"osgPlugins-* "$diststart/22320/dist/lib/"
+cp -rfv "$pfx/"lib/*.so* "$diststart/22320/dist/lib/"
+cp -rfv "$pfx/lib/"osgPlugins-* "$diststart/22320/dist/lib/"
 cp -rfv "$tmp/usr/local/"{etc,share} "$diststart/22320/dist/"
 cp -rfv "$tmp/usr/local/bin/"* "$diststart/22320/dist/"
 
 cp "assets/tes3mp-launcher.sh" "$diststart/22320/dist/"
-generate_openmw_cfg "$tmp/usr/local/etc/openmw/openmw.cfg" > "$diststart/22320/dist/openmw-template.cfg"
-cp "$tmp/usr/local/etc/openmw/settings-default.cfg" "$diststart/22320/dist/"
+cp "source/files/settings-default.cfg" "$diststart/22320/dist/"
+cp -rfv source/build/defaults.bin "$diststart/22320/dist/"
 cp "$tmp/usr/local/etc/openmw/tes3mp-client-default.cfg" "$diststart/22320/dist"
 cp "$tmp/usr/local/etc/openmw/tes3mp-server-default.cfg" "$diststart/22320/dist"
+cp "$tmp/usr/local/etc/openmw/version" "$diststart/22320/dist"
 
 cp -rfv server "$diststart/22320/dist"
 cp -rfv source/tes3mp-credits.md "$diststart/22320/dist"
-cp -rfv assets/version "$diststart/22320/dist/share/games/openmw/resources/version"
