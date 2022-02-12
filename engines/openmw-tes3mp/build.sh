@@ -30,17 +30,6 @@ wget https://github.com/zdevito/terra/releases/download/release-2016-03-25/terra
 unzip terra-Linux-x86_64-332a506.zip
 
 # BUILD PHASE
-
-generate_openmw_cfg () {
-    tail -n +2 "$1" | sed -e 's!\(data\|resources\)=/usr/local/\(.*\)!\1=\2!g'
-    echo "fallback-archive=Morrowind.bsa"
-    echo "fallback-archive=Tribunal.bsa"
-    echo "fallback-archive=Bloodmoon.bsa"
-    echo "content=Morrowind.esm"
-    echo "content=Tribunal.esm"
-    echo "content=Bloodmoon.esm"
-}
-
 pushd crabnet
 mkdir -p build
 cd build
@@ -99,10 +88,11 @@ cp -rfv "$tmp/usr/local/"{etc,share} "$diststart/22320/dist/"
 cp -rfv "$tmp/usr/local/bin/"* "$diststart/22320/dist/"
 
 cp "assets/tes3mp-launcher.sh" "$diststart/22320/dist/"
-generate_openmw_cfg "$tmp/usr/local/etc/openmw/openmw.cfg" > "$diststart/22320/dist/openmw-template.cfg"
-cp "$tmp/usr/local/etc/openmw/settings-default.cfg" "$diststart/22320/dist/"
+cp "source/files/settings-default.cfg" "$diststart/22320/dist/"
+cp -rfv source/build/defaults.bin "$diststart/22320/dist/"
 cp "$tmp/usr/local/etc/openmw/tes3mp-client-default.cfg" "$diststart/22320/dist"
 cp "$tmp/usr/local/etc/openmw/tes3mp-server-default.cfg" "$diststart/22320/dist"
+cp "$tmp/usr/local/etc/openmw/version" "$diststart/22320/dist"
 
 cp -rfv server "$diststart/22320/dist"
 cp -rfv source/tes3mp-credits.md "$diststart/22320/dist"
