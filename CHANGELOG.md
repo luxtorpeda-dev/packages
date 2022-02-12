@@ -3,6 +3,7 @@
 * Fixed an issue with prboom-plus and fluidsynth
 * source-sdk-2013 - Add fast-detect
 * prboom-plus - Update to 2.6.2
+* openmw-tes3mp - Update to 0.8.0
 
 ### 48.2 (2022-01-24)
 
