@@ -3796,6 +3796,7 @@
             {
                 "name": "1oom",
                 "command": "../run-1oom.sh",
+                "use_original_command_directory": true,
                 "download": [
                     "1oom"
                 ]
