@@ -265,6 +265,22 @@
                         "extract_location": "./prboom-plus"
                     }
                 }
+            },
+            {
+                "name": "doom-retro",
+                "command": "./doom-retro/run-doom-retro.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM.WAD"
+                ],
+                "download": [
+                    "doom-retro"
+                ],
+                "download_config": {
+                    "doom-retro": {
+                        "extract_location": "./doom-retros"
+                    }
+                }
             }
         ]
     },
@@ -403,6 +419,33 @@
                         "extract_location": "./prboom-plus"
                     }
                 }
+            },
+            {
+                "name": "doom-retro",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./doom-retro/run-doom-retro.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./doom-retro/run-doom-retro.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "doom-retro"
+                ],
+                "download_config": {
+                    "doom-retro": {
+                        "extract_location": "./doom-retro"
+                    }
+                }
             }
         ]
     },
@@ -493,6 +536,22 @@
                 "download_config": {
                     "prboom-plus": {
                         "extract_location": "./prboom-plus"
+                    }
+                }
+            },
+            {
+                "name": "doom-retro",
+                "command": "./doom-retro/run-doom-retro.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM2.WAD"
+                ],
+                "download": [
+                    "doom-retro"
+                ],
+                "download_config": {
+                    "doom-retro": {
+                        "extract_location": "./doom-retro"
                     }
                 }
             }
