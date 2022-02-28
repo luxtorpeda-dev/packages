@@ -1,6 +1,7 @@
 ### 50.0 (2022-02-28)
 
 * openmw - Fix initial launch issues
+* warzone2100 - Update to 4.2.5
 
 ### 48.3 (2022-02-10)
 
