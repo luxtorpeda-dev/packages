@@ -33,6 +33,9 @@ if [ -f openmw.cfg ]; then
 fi
 
 if [ ! -f ~/.config/openmw/openmw.cfg ]; then
+    if [ ! -d ~/.config/openmw ]; then
+        mkdir -p ~/.config/openmw
+    fi
     echo "No openmw.cfg file detected, so creating and adding resources"
     echo -e "resources=\"share/games/openmw/resources\"\n" > ~/.config/openmw/openmw.cfg
     echo "Now running iniimporter"
