@@ -1,3 +1,7 @@
+### 50.0 (2022-02-28)
+
+* openmw - Fix initial launch issues
+
 ### 48.3 (2022-02-10)
 
 * Fixed an issue with prboom-plus and fluidsynth
