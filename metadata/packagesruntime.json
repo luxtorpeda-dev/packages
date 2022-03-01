@@ -32,7 +32,8 @@
                 "extract_location": "./jdk-11.0.12",
                 "strip_prefix": "jdk-11.0.12+7/"
             }
-        }
+        },
+        "cloudNotAvailable": true
     },
     "1700": {
         "game_name": "Arx Fatalis",
@@ -45,7 +46,8 @@
             }
         ],
         "command": "./arx",
-        "engine_name": "Arx Libertatis"
+        "engine_name": "Arx Libertatis",
+        "cloudNotAvailable": true
     },
     "1710": {
         "game_name": "Arx Fatalis (Demo)",
@@ -58,7 +60,8 @@
             }
         ],
         "command": "./arx",
-        "engine_name": "Arx Libertatis"
+        "engine_name": "Arx Libertatis",
+        "cloudNotAvailable": true
     },
     "2200": {
         "game_name": "Quake III Arena",
@@ -129,7 +132,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "2210": {
         "game_name": "Quake IV",
@@ -161,7 +165,8 @@
         "engine_name": "Quake IV",
         "information": {
             "closed_source": true
-        }
+        },
+        "cloudAvailable": true
     },
     "2270": {
         "game_name": "Wolfenstein 3D",
@@ -174,7 +179,8 @@
             }
         ],
         "command": "./run-ecwolf.sh",
-        "engine_name": "ecwolf"
+        "engine_name": "ecwolf",
+        "cloudAvailable": true
     },
     "2280": {
         "game_name": "The Ultimate DOOM",
@@ -266,7 +272,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "2290": {
         "game_name": "Final DOOM",
@@ -404,7 +411,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "2300": {
         "game_name": "DOOM II: Hell on Earth",
@@ -496,7 +504,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "2310": {
         "game_name": "Quake",
@@ -742,7 +751,8 @@
                 },
                 "engine_name": "FTE QuakeWorld"
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "2320": {
         "game_name": "Quake II",
@@ -817,7 +827,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "2330": {
         "game_name": "Quake II: The Reckoning",
@@ -892,7 +903,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "2340": {
         "game_name": "Quake II: Ground Zero",
@@ -967,7 +979,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "2350": {
         "game_name": "Quake III: Team Arena",
@@ -1020,7 +1033,8 @@
                     "Patch Data"
                 ]
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "2360": {
         "game_name": "HeXen: Beyond Heretic",
@@ -1090,7 +1104,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "2370": {
         "game_name": "HeXen: Deathkings of the Dark Citadel",
@@ -1140,7 +1155,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "2390": {
         "game_name": "Heretic: Shadow of the Serpent Riders",
@@ -1232,7 +1248,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "3730": {
         "game_name": "Aliens versus Predator Classic",
@@ -1248,7 +1265,8 @@
         "information": {
             "license": "Rebellion; non-commercial",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "3970": {
         "game_name": "Prey (2006)",
@@ -1281,7 +1299,8 @@
         "engine_name": "Prey (2006)",
         "information": {
             "closed_source": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "6020": {
         "game_name": "STAR WARS™ Jedi Knight: Jedi Academy™",
@@ -1308,7 +1327,8 @@
         "engine_names": [
             "OpenJK (SP)",
             "EternalJK (MP)"
-        ]
+        ],
+        "cloudAvailable": true
     },
     "6030": {
         "game_name": "STAR WARS™ Jedi Knight II: Jedi Outcast™",
@@ -1335,7 +1355,8 @@
         "engine_names": [
             "OpenJK (SP)",
             "jk2mv (MP)"
-        ]
+        ],
+        "cloudAvailable": true
     },
     "6310": {
         "game_name": "The Longest Journey",
@@ -1353,7 +1374,8 @@
             }
         },
         "command": "./scum/run-scummvm.sh",
-        "engine_name": "scummvm"
+        "engine_name": "scummvm",
+        "cloudNotAvailable": true
     },
     "7650": {
         "game_name": "X-COM: Terror from the Deep",
@@ -1413,7 +1435,8 @@
                     "dosbox-staging"
                 ]
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "7660": {
         "game_name": "X-COM: Apocalypse",
@@ -1451,7 +1474,8 @@
                     "dosbox-staging"
                 ]
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "7760": {
         "game_name": "X-COM: UFO Defense",
@@ -1511,7 +1535,8 @@
                     "dosbox-staging"
                 ]
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "9000": {
         "game_name": "Wolfenstein 3D: Spear of Destiny",
@@ -1524,7 +1549,8 @@
             }
         ],
         "command": "./run-ecwolf.sh",
-        "engine_name": "ecwolf"
+        "engine_name": "ecwolf",
+        "cloudAvailable": true
     },
     "9010": {
         "game_name": "Return to Castle Wolfenstein",
@@ -1553,7 +1579,8 @@
                 ]
             }
         },
-        "engine_name": "iortcw"
+        "engine_name": "iortcw",
+        "cloudAvailable": true
     },
     "9050": {
         "game_name": "DOOM 3",
@@ -1566,7 +1593,8 @@
             }
         ],
         "command": "./dhewm3",
-        "engine_name": "dhewm3"
+        "engine_name": "dhewm3",
+        "cloudAvailable": true
     },
     "9060": {
         "game_name": "HeXen II",
@@ -1627,7 +1655,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "9070": {
         "game_name": "DOOM 3: Resurrection of Evil",
@@ -1645,7 +1674,8 @@
             "fs_game",
             "d3xp"
         ],
-        "engine_name": "dhewm3"
+        "engine_name": "dhewm3",
+        "cloudAvailable": true
     },
     "9080": {
         "game_name": "Quake III Arena Demo",
@@ -1681,7 +1711,8 @@
             "r_mode",
             "-2"
         ],
-        "engine_name": "ioquake3"
+        "engine_name": "ioquake3",
+        "cloudNotAvailable": true
     },
     "9100": {
         "game_name": "DOOM 3 Demo",
@@ -1694,7 +1725,8 @@
             }
         ],
         "command": "./run-dhewm3.sh",
-        "engine_name": "dhewm3"
+        "engine_name": "dhewm3",
+        "cloudNotAvailable": true
     },
     "9130": {
         "game_name": "Quake II Demo",
@@ -1736,7 +1768,8 @@
                     "command": "./vkQuake2/setup-vkquake2.sh"
                 }
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "9160": {
         "game_name": "Master Levels for DOOM II",
@@ -1759,7 +1792,8 @@
                 "label": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh)"
             }
         ],
-        "engine_name": "gzdoom"
+        "engine_name": "gzdoom",
+        "cloudAvailable": true
     },
     "9180": {
         "game_name": "Commander Keen Complete Pack",
@@ -1802,7 +1836,8 @@
                 ]
             }
         },
-        "engine_name": "Commander Genius"
+        "engine_name": "Commander Genius",
+        "cloudAvailable": true
     },
     "10050": {
         "game_name": "Enemy Territory: Quake Wars Demo",
@@ -1825,7 +1860,8 @@
         ],
         "information": {
             "closed_source": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "13230": {
         "game_name": "Unreal Tournament 2004: Editor's Choice Edition",
@@ -1876,7 +1912,8 @@
         "engine_name": "ut2004",
         "information": {
             "closed_source": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "13240": {
         "game_name": "Unreal Tournament: Game of the Year Edition",
@@ -1923,7 +1960,8 @@
         "engine_name": "ut99",
         "information": {
             "closed_source": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "13250": {
         "game_name": "Unreal Gold",
@@ -1944,7 +1982,8 @@
         "engine_name": "unrealgold",
         "information": {
             "closed_source": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "20510": {
         "game_name": "S.T.A.L.K.E.R.: Clear Sky",
@@ -1961,7 +2000,8 @@
         "information": {
             "license": "BSD with commercial source code",
             "non_free": true
-        }
+        },
+        "cloudAvailable": true
     },
     "22320": {
         "game_name": "The Elder Scrolls III: Morrowind",
@@ -2006,7 +2046,8 @@
                     "openmw-tes3mp"
                 ]
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "32370": {
         "game_name": "STAR WARS™ - Knights of the Old Republic™",
@@ -2018,7 +2059,8 @@
             }
         ],
         "command": "./run-kotor1.sh",
-        "engine_name": "reone"
+        "engine_name": "reone",
+        "cloudAvailable": true
     },
     "34270": {
         "game_name": "SEGA Mega Drive & Genesis Classics",
@@ -2029,6 +2071,7 @@
                 "file": "blastem-34270-1.tar.xz"
             }
         ],
+        "cloudNotAvailable": true,
         "command": "./run-blastem.sh",
         "choices": [
             {
@@ -2507,7 +2550,8 @@
             }
         ],
         "command": "./run-gothic2.sh",
-        "engine_name": "OpenGothic"
+        "engine_name": "OpenGothic",
+        "cloudNotAvailable": true
     },
     "40720": {
         "game_name": "Samorost 2",
@@ -2542,7 +2586,8 @@
                 "extract_location": "./jdk-11.0.12",
                 "strip_prefix": "jdk-11.0.12+7/"
             }
-        }
+        },
+        "cloudNotAvailable": true
     },
     "41050": {
         "game_name": "Serious Sam Classic: The First Encounter",
@@ -2554,7 +2599,8 @@
             }
         ],
         "command": "./Bin/ssam-tfe",
-        "engine_name": "Serious-Engine"
+        "engine_name": "Serious-Engine",
+        "cloudNotAvailable": true
     },
     "41060": {
         "game_name": "Serious Sam Classic: The Second Encounter",
@@ -2566,7 +2612,8 @@
             }
         ],
         "command": "./Bin/ssam",
-        "engine_name": "Serious-Engine"
+        "engine_name": "Serious-Engine",
+        "cloudNotAvailable": true
     },
     "41700": {
         "game_name": "S.T.A.L.K.E.R.: Call of Pripyat",
@@ -2583,7 +2630,8 @@
         "information": {
             "license": "BSD with commercial source code",
             "non_free": true
-        }
+        },
+        "cloudAvailable": true
     },
     "208200": {
         "game_name": "Doom 3: BFG Edition",
@@ -2631,7 +2679,8 @@
                 },
                 "engine_name": "Classic-RBDOOM-3-BFG"
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "209670": {
         "game_name": "Cortex Command",
@@ -2648,7 +2697,8 @@
             }
         },
         "command": "./linuxdata/run-cortex-command.sh",
-        "engine_name": "Cortex Command Community Project Source"
+        "engine_name": "Cortex Command Community Project Source",
+        "cloudAvailable": true
     },
     "214790": {
         "game_name": "The Basement Collection",
@@ -2660,6 +2710,7 @@
                 "cache_by_name": true
             }
         ],
+        "cloudNotAvailable": true,
         "choices": [
             {
                 "name": "Clubby the seal (2004)",
@@ -2743,7 +2794,8 @@
         "information": {
             "license": "Original in SFI-SCLA with Additions in Public Domain",
             "non_free": true
-        }
+        },
+        "cloudAvailable": true
     },
     "224960": {
         "game_name": "Tomb Raider I",
@@ -2772,7 +2824,8 @@
             "command": "./setup-tr1.sh"
         },
         "command": "./run-openlara.sh",
-        "engine_name": "OpenLara"
+        "engine_name": "OpenLara",
+        "cloudNotAvailable": true
     },
     "224980": {
         "game_name": "Tomb Raider IV: The Last Revelation",
@@ -2811,7 +2864,8 @@
             "command": "./setup-tr4.sh"
         },
         "command": "./run-opentomb.sh",
-        "engine_name": "OpenTomb"
+        "engine_name": "OpenTomb",
+        "cloudNotAvailable": true
     },
     "225000": {
         "game_name": "Tomb Raider V: Chronicles",
@@ -2850,7 +2904,8 @@
             "command": "./setup-tr5.sh"
         },
         "command": "./run-opentomb.sh",
-        "engine_name": "OpenTomb"
+        "engine_name": "OpenTomb",
+        "cloudNotAvailable": true
     },
     "225140": {
         "game_name": "Duke Nukem 3D: Megaton Edition",
@@ -2883,7 +2938,8 @@
                     "raze"
                 ]
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "225160": {
         "game_name": "Shadow Warrior Classic Redux",
@@ -2917,7 +2973,8 @@
                     "raze"
                 ]
             }
-        ]
+        ],
+        "cloudAvailable": true
     },
     "225300": {
         "game_name": "Tomb Raider II",
@@ -2956,7 +3013,8 @@
             "command": "./setup-tr2.sh"
         },
         "command": "./run-opentomb.sh",
-        "engine_name": "OpenTomb"
+        "engine_name": "OpenTomb",
+        "cloudNotAvailable": true
     },
     "225320": {
         "game_name": "Tomb Raider III: Adventures of Lara Croft",
@@ -2995,7 +3053,8 @@
             "command": "./setup-tr3.sh"
         },
         "command": "./run-opentomb.sh",
-        "engine_name": "OpenTomb"
+        "engine_name": "OpenTomb",
+        "cloudNotAvailable": true
     },
     "235780": {
         "game_name": "MINERVA",
@@ -3022,7 +3081,8 @@
         "information": {
             "license": "Source SDK Copyright(c) Valve Corp.",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "238050": {
         "game_name": "The Apogee Throwback Pack",
@@ -3092,7 +3152,8 @@
                 },
                 "engine_name": "bstone"
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "240180": {
         "game_name": "Duke Nukem II",
@@ -3104,7 +3165,8 @@
             }
         ],
         "command": "./run-rigelengine.sh",
-        "engine_name": "RigelEngine"
+        "engine_name": "RigelEngine",
+        "cloudNotAvailable": true
     },
     "242980": {
         "game_name": "Daikatana",
@@ -3165,7 +3227,8 @@
         "engine_name": "Daikatana",
         "information": {
             "closed_source": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "273570": {
         "game_name": "Descent",
@@ -3187,7 +3250,8 @@
         "information": {
             "license": "GPLv3 with Original Code in Parallax License",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "273580": {
         "game_name": "Descent 2",
@@ -3209,7 +3273,8 @@
         "information": {
             "license": "GPLv3 with Original Code in Parallax License",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "273600": {
         "game_name": "Descent: FreeSpace – The Great War",
@@ -3271,7 +3336,8 @@
         "information": {
             "non_free": true,
             "license": "Volition"
-        }
+        },
+        "cloudNotAvailable": true
     },
     "273620": {
         "game_name": "Freespace 2",
@@ -3287,7 +3353,8 @@
         "information": {
             "license": "Volition",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "285310": {
         "game_name": "RollerCoaster Tycoon: Deluxe",
@@ -3309,7 +3376,8 @@
             {
                 "label": "Requires assets from RCT2 to run, so RCT2 should be run through Steam first."
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "285330": {
         "game_name": "RollerCoaster Tycoon 2: Triple Thrill Pack",
@@ -3326,7 +3394,8 @@
             "command": "./setup-rct2.sh"
         },
         "command": "./run-openrct2.sh",
-        "engine_name": "openrct2"
+        "engine_name": "openrct2",
+        "cloudNotAvailable": true
     },
     "289240": {
         "game_name": "Perimeter: Emperor's Testament",
@@ -3339,7 +3408,8 @@
             }
         ],
         "command": "./run-perimeter.sh",
-        "engine_name": "Perimeter"
+        "engine_name": "Perimeter",
+        "cloudAvailable": true
     },
     "289440": {
         "game_name": "Perimeter",
@@ -3352,7 +3422,8 @@
             }
         ],
         "command": "./run-perimeter.sh",
-        "engine_name": "Perimeter"
+        "engine_name": "Perimeter",
+        "cloudAvailable": true
     },
     "299030": {
         "game_name": "Blood: One Unit Whole Blood",
@@ -3456,7 +3527,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "317040": {
         "game_name": "Strife: Veteran Edition",
@@ -3483,7 +3555,8 @@
                 "value": "save_game_dir"
             }
         ],
-        "engine_name": "gzdoom"
+        "engine_name": "gzdoom",
+        "cloudAvailable": true
     },
     "329650": {
         "game_name": "NAM",
@@ -3570,7 +3643,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "353220": {
         "game_name": "Fast Detect",
@@ -3590,7 +3664,8 @@
         "information": {
             "license": "Source SDK Copyright(c) Valve Corp.",
             "non_free": true
-        }
+        },
+        "cloudAvailable": true
     },
     "356430": {
         "game_name": "Chris Sawyer's Locomotion™",
@@ -3602,7 +3677,8 @@
             }
         ],
         "command": "./run-openloco.sh",
-        "engine_name": "OpenLoco"
+        "engine_name": "OpenLoco",
+        "cloudNotAvailable": true
     },
     "358190": {
         "game_name": "Blake Stone: Aliens of Gold",
@@ -3621,7 +3697,8 @@
             }
         },
         "use_original_command_directory": true,
-        "engine_name": "bstone"
+        "engine_name": "bstone",
+        "cloudNotAvailable": true
     },
     "358310": {
         "game_name": "Blake Stone: Planet Strike",
@@ -3640,7 +3717,8 @@
             }
         },
         "use_original_command_directory": true,
-        "engine_name": "bstone"
+        "engine_name": "bstone",
+        "cloudNotAvailable": true
     },
     "358370": {
         "game_name": "Terminal Velocity",
@@ -3659,7 +3737,8 @@
         ],
         "use_original_command_directory": true,
         "command": "./run-terminal-recall.sh",
-        "engine_name": "terminal-recall"
+        "engine_name": "terminal-recall",
+        "cloudNotAvailable": true
     },
     "358410": {
         "game_name": "Rise of the Triad: Dark War",
@@ -3672,7 +3751,8 @@
         ],
         "command": "./run-rott-dark-war.sh",
         "use_original_command_directory": true,
-        "engine_name": "rottexpr"
+        "engine_name": "rottexpr",
+        "cloudNotAvailable": true
     },
     "358830": {
         "game_name": "Good Robot",
@@ -3684,7 +3764,8 @@
             }
         ],
         "command": "./run-good-robot.sh",
-        "engine_name": "Good-Robot"
+        "engine_name": "Good-Robot",
+        "cloudAvailable": true
     },
     "371180": {
         "game_name": "Super 3-D Noah's Ark",
@@ -3697,7 +3778,8 @@
             }
         ],
         "command": "./run-ecwolf.sh",
-        "engine_name": "ecwolf"
+        "engine_name": "ecwolf",
+        "cloudAvailable": true
     },
     "376750": {
         "game_name": "World War II GI",
@@ -3730,7 +3812,8 @@
                     "raze"
                 ]
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "399120": {
         "game_name": "Prospekt",
@@ -3750,7 +3833,8 @@
         "information": {
             "license": "Source SDK Copyright(c) Valve Corp.",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "410700": {
         "game_name": "System Shock: Classic",
@@ -3767,7 +3851,8 @@
             }
         },
         "command": "../SSHOCK/run-shockolate.sh",
-        "engine_name": "shockolate"
+        "engine_name": "shockolate",
+        "cloudNotAvailable": true
     },
     "410970": {
         "game_name": "Master of Orion 1",
@@ -3809,7 +3894,8 @@
                     "dosbox-staging"
                 ]
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "434050": {
         "game_name": "Duke Nukem 3D: 20th Anniversary World Tour",
@@ -3865,7 +3951,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "517790": {
         "game_name": "Caesar 3",
@@ -3899,7 +3986,8 @@
                     "augustus"
                 ]
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "562860": {
         "game_name": "Ion Fury",
@@ -3912,7 +4000,8 @@
             }
         ],
         "command": "./run-eduke32.sh",
-        "engine_name": "eduke32"
+        "engine_name": "eduke32",
+        "cloudAvailable": true
     },
     "565550": {
         "game_name": "Redneck Rampage",
@@ -3946,7 +4035,8 @@
                     "raze"
                 ]
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "569860": {
         "game_name": "Thimbleweed Park™",
@@ -3958,7 +4048,8 @@
             }
         ],
         "command": "./run-engge.sh",
-        "engine_name": "engge"
+        "engine_name": "engge",
+        "cloudAvailable": true
     },
     "572050": {
         "game_name": "Call to Power II",
@@ -3974,7 +4065,8 @@
         "information": {
             "license": "Activision",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "573790": {
         "game_name": "Imperium Galactica",
@@ -4002,7 +4094,8 @@
             }
         },
         "command": "./run-open-ig.sh",
-        "engine_name": "open-ig"
+        "engine_name": "open-ig",
+        "cloudNotAvailable": true
     },
     "580940": {
         "game_name": "Redneck Rampage Rides Again",
@@ -4036,7 +4129,8 @@
                     "raze"
                 ]
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "587650": {
         "game_name": "Half-Life 2: DownFall",
@@ -4056,7 +4150,8 @@
         "information": {
             "license": "Source SDK Copyright(c) Valve Corp.",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "595690": {
         "game_name": "One Hour One Life",
@@ -4073,7 +4168,8 @@
                 "extract_location": "./linuxdata"
             }
         },
-        "engine_name": "OneLife"
+        "engine_name": "OneLife",
+        "cloudNotAvailable": true
     },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
@@ -4086,7 +4182,8 @@
             }
         ],
         "command": "./run-renpy.sh",
-        "engine_name": "Ren'Py"
+        "engine_name": "Ren'Py",
+        "cloudNotAvailable": true
     },
     "714070": {
         "game_name": "Entropy : Zero",
@@ -4121,7 +4218,8 @@
         "information": {
             "license": "Source SDK Copyright(c) Valve Corp.",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "747250": {
         "game_name": "Half-Life 2: Year Long Alarm",
@@ -4142,7 +4240,8 @@
         "information": {
             "license": "Source SDK Copyright(c) Valve Corp.",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "782340": {
         "game_name": "Lake of Voices",
@@ -4155,7 +4254,8 @@
             }
         ],
         "command": "./run-renpy.sh",
-        "engine_name": "Ren'Py"
+        "engine_name": "Ren'Py",
+        "cloudNotAvailable": true
     },
     "817220": {
         "game_name": "The Forestale",
@@ -4180,7 +4280,8 @@
                 "value": "save_game_dir"
             }
         ],
-        "engine_name": "gzdoom"
+        "engine_name": "gzdoom",
+        "cloudNotAvailable": true
     },
     "961620": {
         "game_name": "Flashback",
@@ -4192,7 +4293,8 @@
             }
         ],
         "command": "./run-flashback.sh",
-        "engine_name": "REminiscence / REinforced"
+        "engine_name": "REminiscence / REinforced",
+        "cloudNotAvailable": true
     },
     "1000410": {
         "game_name": "WRATH: Aeon of Ruin",
@@ -4204,7 +4306,8 @@
             }
         ],
         "command": "./wrath",
-        "engine_name": "wrath-darkplaces"
+        "engine_name": "wrath-darkplaces",
+        "cloudNotAvailable": true
     },
     "1010750": {
         "game_name": "Blood: Fresh Supply",
@@ -4292,7 +4395,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "1054600": {
         "game_name": "Resistance Element",
@@ -4319,7 +4423,8 @@
         "information": {
             "license": "Source SDK Copyright(c) Valve Corp.",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "1072150": {
         "game_name": "Hedon",
@@ -4346,7 +4451,8 @@
                 "value": "save_game_dir"
             }
         ],
-        "engine_name": "gzdoom"
+        "engine_name": "gzdoom",
+        "cloudAvailable": true
     },
     "1118550": {
         "game_name": "Fury's Sky",
@@ -4371,7 +4477,8 @@
                 "value": "save_game_dir"
             }
         ],
-        "engine_name": "gzdoom"
+        "engine_name": "gzdoom",
+        "cloudNotAvailable": true
     },
     "1146370": {
         "game_name": "Master of Magic Classic",
@@ -4444,7 +4551,8 @@
                 },
                 "engine_name": "dosbox-staging"
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "1241950": {
         "game_name": "Warzone 2100",
@@ -4461,7 +4569,8 @@
             }
         },
         "command": "./linuxdata/run-warzone2100.sh",
-        "engine_name": "warzone2100"
+        "engine_name": "warzone2100",
+        "cloudAvailable": true
     },
     "1260020": {
         "game_name": "PowerSlave (DOS Classic Edition)",
@@ -4549,7 +4658,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "cloudNotAvailable": true
     },
     "1260130": {
         "game_name": "Banana Hell",
@@ -4562,7 +4672,8 @@
             }
         ],
         "command": "./run-godot.sh",
-        "engine_name": "Godot"
+        "engine_name": "Godot",
+        "cloudNotAvailable": true
     },
     "1271050": {
         "game_name": "Shrine",
@@ -4589,7 +4700,8 @@
                 "value": "save_game_dir"
             }
         ],
-        "engine_name": "gzdoom"
+        "engine_name": "gzdoom",
+        "cloudNotAvailable": true
     },
     "1343370": {
         "game_name": "Old School RuneScape",
@@ -4611,7 +4723,8 @@
                 "copy_only": true
             }
         },
-        "engine_name": "runelite"
+        "engine_name": "runelite",
+        "cloudNotAvailable": true
     },
     "1343400": {
         "game_name": "RuneScape",
@@ -4636,7 +4749,8 @@
         "engine_name": "runescape",
         "information": {
             "closed_source": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "1368340": {
         "game_name": "Beneath a Steel Sky",
@@ -4654,7 +4768,8 @@
             }
         },
         "command": "./scum/run-scummvm.sh",
-        "engine_name": "scummvm"
+        "engine_name": "scummvm",
+        "cloudNotAvailable": true
     },
     "1379630": {
         "game_name": "RealRTCW",
@@ -4682,7 +4797,8 @@
             "complete_path": "./ready-34",
             "command": "./setup-realrtcw.sh"
         },
-        "engine_name": "RealRTCW"
+        "engine_name": "RealRTCW",
+        "cloudAvailable": true
     },
     "1393750": {
         "game_name": "Ocean's Heart",
@@ -4694,7 +4810,8 @@
             }
         ],
         "command": "./run-ocean-heart.sh",
-        "engine_name": "solarus"
+        "engine_name": "solarus",
+        "cloudAvailable": true
     },
     "1417010": {
         "game_name": "Shrine II",
@@ -4721,7 +4838,8 @@
                 "value": "save_game_dir"
             }
         ],
-        "engine_name": "gzdoom"
+        "engine_name": "gzdoom",
+        "cloudNotAvailable": true
     },
     "1508030": {
         "game_name": "Object N",
@@ -4733,7 +4851,8 @@
             }
         ],
         "command": "./objectn.sh",
-        "engine_name": "ObjectN-DarkPlaces-engine"
+        "engine_name": "ObjectN-DarkPlaces-engine",
+        "cloudNotAvailable": true
     },
     "1546440": {
         "game_name": "Lycanthorn II - Rain of Beasts",
@@ -4760,7 +4879,8 @@
                 "value": "save_game_dir"
             }
         ],
-        "engine_name": "gzdoom"
+        "engine_name": "gzdoom",
+        "cloudNotAvailable": true
     },
     "1566570": {
         "game_name": "Retroninjacyberassassin",
@@ -4793,7 +4913,8 @@
         "information": {
             "license": "Sleepycat License with NON-COMMERCIAL LICENSE",
             "non_free": true
-        }
+        },
+        "cloudNotAvailable": true
     },
     "1655410": {
         "game_name": "Witchaven",
@@ -4827,7 +4948,8 @@
                 "extract_location": "./jdk-11.0.12",
                 "strip_prefix": "jdk-11.0.12+7/"
             }
-        }
+        },
+        "cloudAvailable": true
     },
     "1655430": {
         "game_name": "Witchaven II: Blood Vengeance",
@@ -4861,7 +4983,8 @@
                 "extract_location": "./jdk-11.0.12",
                 "strip_prefix": "jdk-11.0.12+7/"
             }
-        }
+        },
+        "cloudAvailable": true
     },
     "1679920": {
         "game_name": "Project Absentia Demo",
@@ -4880,7 +5003,8 @@
             "-savedir",
             "./saves"
         ],
-        "engine_name": "WIGZDoom"
+        "engine_name": "WIGZDoom",
+        "cloudNotAvailable": true
     },
     "1715690": {
         "game_name": "REKKR: Sunken Land",
@@ -4907,7 +5031,8 @@
                 "value": "save_game_dir"
             }
         ],
-        "engine_name": "gzdoom"
+        "engine_name": "gzdoom",
+        "cloudNotAvailable": true
     },
     "1731320": {
         "game_name": "Relentless Frontier Demo",
@@ -4936,10 +5061,12 @@
                 "value": "save_game_dir"
             }
         ],
-        "engine_name": "gzdoom"
+        "engine_name": "gzdoom",
+        "cloudNotAvailable": true
     },
     "default": {
         "game_name": "Default",
+        "cloudNotAvailable": true,
         "download": [
             {
                 "name": "scummvm",

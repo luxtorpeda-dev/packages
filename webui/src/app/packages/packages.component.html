@@ -47,11 +47,44 @@
                   >
                     construction
                   </mat-icon>
+
                   <mat-icon
                     matTooltip="Unknown Controller Support"
                     [style.color]="'darkgray'"
                   >
                     sports_esports
+                  </mat-icon>
+
+                  <mat-icon
+                    *ngIf="title.cloudNotAvailable"
+                    matTooltip="Game Does Not Have Cloud Saves"
+                    [style.color]="'darkgray'"
+                  >
+                    cloud_off
+                  </mat-icon>
+
+                   <mat-icon
+                    *ngIf="title.cloudAvailable && !title.cloudSupported"
+                    matTooltip="Game Has Cloud Saves But Unknown Status"
+                    [style.color]="'darkgray'"
+                  >
+                    cloud
+                  </mat-icon>
+
+                  <mat-icon
+                    *ngIf="title.cloudAvailable && title.cloudSupported"
+                    matTooltip="Cloud Saves Supported"
+                    [style.color]="'green'"
+                  >
+                    cloud
+                  </mat-icon>
+
+                  <mat-icon
+                    *ngIf="title.cloudAvailable && title.cloudIssue"
+                    matTooltip="Cloud Saves Not Supported"
+                    [style.color]="'yellow'"
+                  >
+                    cloud
                   </mat-icon>
                 </div>
               </div>
