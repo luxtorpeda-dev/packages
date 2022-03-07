@@ -278,7 +278,7 @@
                 ],
                 "download_config": {
                     "doom-retro": {
-                        "extract_location": "./doom-retros"
+                        "extract_location": "./doom-retro"
                     }
                 }
             }
