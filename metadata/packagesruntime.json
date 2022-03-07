@@ -208,6 +208,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-8/",
                 "file": "prboom-plus-common-8.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "fluid-soundfont",
+                "url": "https://ftp.debian.org/debian/pool/main/f/fluid-soundfont/",
+                "file": "fluid-soundfont_3.1.orig.tar.gz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -271,6 +277,26 @@
                         "extract_location": "./prboom-plus"
                     }
                 }
+            },
+            {
+                "name": "doom-retro",
+                "command": "./doom-retro/run-doom-retro.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM.WAD"
+                ],
+                "download": [
+                    "doom-retro",
+                    "fluid-soundfont"
+                ],
+                "download_config": {
+                    "doom-retro": {
+                        "extract_location": "./doom-retro"
+                    },
+                    "fluid-soundfont": {
+                        "extract_location": "./doom-retro"
+                    }
+                }
             }
         ],
         "cloudAvailable": true
@@ -300,6 +326,12 @@
                 "name": "prboom-plus",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-8/",
                 "file": "prboom-plus-common-8.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "fluid-soundfont",
+                "url": "https://ftp.debian.org/debian/pool/main/f/fluid-soundfont/",
+                "file": "fluid-soundfont_3.1.orig.tar.gz",
                 "cache_by_name": true
             }
         ],
@@ -410,6 +442,37 @@
                         "extract_location": "./prboom-plus"
                     }
                 }
+            },
+            {
+                "name": "doom-retro",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./doom-retro/run-doom-retro.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./doom-retro/run-doom-retro.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "doom-retro",
+                    "fluid-soundfont"
+                ],
+                "download_config": {
+                    "doom-retro": {
+                        "extract_location": "./doom-retro"
+                    },
+                    "fluid-soundfont": {
+                        "extract_location": "./doom-retro"
+                    }
+                }
             }
         ],
         "cloudAvailable": true
@@ -439,6 +502,12 @@
                 "name": "prboom-plus",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-8/",
                 "file": "prboom-plus-common-8.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "fluid-soundfont",
+                "url": "https://ftp.debian.org/debian/pool/main/f/fluid-soundfont/",
+                "file": "fluid-soundfont_3.1.orig.tar.gz",
                 "cache_by_name": true
             }
         ],
@@ -501,6 +570,26 @@
                 "download_config": {
                     "prboom-plus": {
                         "extract_location": "./prboom-plus"
+                    }
+                }
+            },
+            {
+                "name": "doom-retro",
+                "command": "./doom-retro/run-doom-retro.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM2.WAD"
+                ],
+                "download": [
+                    "doom-retro",
+                    "fluid-soundfont"
+                ],
+                "download_config": {
+                    "doom-retro": {
+                        "extract_location": "./doom-retro"
+                    },
+                    "fluid-soundfont": {
+                        "extract_location": "./doom-retro"
                     }
                 }
             }
@@ -6212,6 +6301,19 @@
                 },
                 {
                     "label": "Run the game with Proton at least once, to get the steam key and account register finished. Then, launch the game with Luxtorpeda."
+                }
+            ]
+        },
+        "doom-retro": {
+            "engine_link": "https://github.com/bradharding/doomretro",
+            "version": "4.4.8",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/bradharding/doomretro/blob/master/LICENSE",
+            "notices": [
+                {
+                    "label": "Downloads FluidR3_GM.sf2 automatically. Can override SDL_SOUNDFONTS in launch options."
                 }
             ]
         }
