@@ -1,12 +1,9 @@
 #!/bin/bash
 
-apt-get update
-apt-get install -y mercurial
-
 # CLONE PHASE
 git clone https://github.com/bradharding/doomretro.git source
 pushd source
-git checkout aec56d2
+git checkout 9529206
 popd
 
 # BUILD PHASE
