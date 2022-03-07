@@ -6189,7 +6189,7 @@
                     "label": "Downloads FluidR3_GM.sf2 automatically. Can override SDL_SOUNDFONTS in launch options."
                 }
             ]
-        },
+        }
     },
     "noticeMap": {
         "save_game_dir": "Saves will be stored in game directory.",
