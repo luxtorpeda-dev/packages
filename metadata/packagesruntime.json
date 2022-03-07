@@ -214,6 +214,12 @@
                 "url": "https://ftp.debian.org/debian/pool/main/f/fluid-soundfont/",
                 "file": "fluid-soundfont_3.1.orig.tar.gz",
                 "cache_by_name": true
+            },
+            {
+                "name": "doom-retro",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-1/",
+                "file": "doom-retro-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -332,6 +338,12 @@
                 "name": "fluid-soundfont",
                 "url": "https://ftp.debian.org/debian/pool/main/f/fluid-soundfont/",
                 "file": "fluid-soundfont_3.1.orig.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doom-retro",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-1/",
+                "file": "doom-retro-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -508,6 +520,12 @@
                 "name": "fluid-soundfont",
                 "url": "https://ftp.debian.org/debian/pool/main/f/fluid-soundfont/",
                 "file": "fluid-soundfont_3.1.orig.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doom-retro",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-1/",
+                "file": "doom-retro-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
