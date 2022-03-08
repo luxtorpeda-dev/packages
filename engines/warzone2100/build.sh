@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Warzone2100/warzone2100.git source
 pushd source
-git checkout -f 051e54c
+git checkout -f 84a35f5
 git submodule update --init --recursive
 popd
 
