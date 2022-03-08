@@ -2,6 +2,8 @@
 
 * RBDOOM-3-BFG - Update to 1.4.0
 * Added doom-retro
+* warzone2100 - Update to 4.2.7
+* openloco - Update to 22.03
 
 ### 50.0 (2022-02-28)
 
