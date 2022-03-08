@@ -4,6 +4,7 @@
 * Added doom-retro
 * warzone2100 - Update to 4.2.7
 * openloco - Update to 22.03.1
+* ut2004 - Switch to sdl12compat
 
 ### 50.0 (2022-02-28)
 
