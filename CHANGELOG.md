@@ -7,6 +7,7 @@
 * ut2004 - Switch to sdl12compat
 * prey2006 - Switch to sdl12compat
 * quake4 - Use sdl12compat
+* unreal-gold - Switch to sdl12-compat
 
 ### 50.0 (2022-02-28)
 
