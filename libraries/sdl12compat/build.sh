@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/libsdl-org/sdl12-compat.git sdl12compat
 pushd sdl12compat
-git checkout -f a98590a
+git checkout -f 030111a
 popd
 
 # BUILD PHASE
