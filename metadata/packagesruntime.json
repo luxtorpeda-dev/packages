@@ -5705,9 +5705,6 @@
             "notices": [
                 {
                     "key": "in_progress"
-                },
-                {
-                    "key": "steam_overlay_disabled"
                 }
             ],
             "author": "d10sfan",
