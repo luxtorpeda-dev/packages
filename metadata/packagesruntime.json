@@ -1975,8 +1975,8 @@
         "download": [
             {
                 "name": "ut2004",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut2004-11/",
-                "file": "ut2004-13230-11.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut2004-12/",
+                "file": "ut2004-13230-12.tar.xz"
             },
             {
                 "name": "foxWSFix",
