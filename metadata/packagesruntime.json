@@ -5734,6 +5734,9 @@
                 },
                 {
                     "key": "32_bit"
+                },
+                {
+                    "label": "A possible fix if encountering sluggish mouse movement is to set in launch options SDL12COMPAT_SYNC_TO_VBLANK=1 %command% and  then run seta com_fixedTic /"1/" in the game console. From https://www.pcgamingwiki.com/wiki/Quake_4#Issues_fixed"
                 }
             ]
         },
