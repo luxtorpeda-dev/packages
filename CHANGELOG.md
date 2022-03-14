@@ -1,3 +1,7 @@
+### 51.0 (2022-03-14)
+
+* doom-retro - Update to 4.4.9
+
 ### 50.1 (2022-03-06)
 
 * RBDOOM-3-BFG - Update to 1.4.0
