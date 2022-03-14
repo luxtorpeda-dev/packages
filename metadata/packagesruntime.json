@@ -3044,6 +3044,13 @@
                 "download": [
                     "raze"
                 ]
+            },
+            {
+                "name": "netduke32",
+                "command": "./run-netduke32-megaton.sh",
+                "download": [
+                    "netduke32"
+                ]
             }
         ],
         "cloudAvailable": true
@@ -5645,6 +5652,14 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+        },
+        "netduke32": {
+            "engine_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor",
+            "version": "Release Candidate 1 ",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor/-/blob/master/source/duke3d/gpl-2.0.txt"
         },
         "NBlood Rednukem": {
             "engine_link": "https://github.com/nukeykt/NBlood",
