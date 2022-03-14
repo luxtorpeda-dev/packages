@@ -217,8 +217,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-1/",
-                "file": "doom-retro-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-2/",
+                "file": "doom-retro-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -342,8 +342,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-1/",
-                "file": "doom-retro-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-2/",
+                "file": "doom-retro-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -524,8 +524,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-1/",
-                "file": "doom-retro-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-2/",
+                "file": "doom-retro-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
