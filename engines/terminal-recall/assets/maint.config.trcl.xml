@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.11" class="java.beans.XMLDecoder">
+ <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default" id="ConfigRootFeature$FeatureTreeElement$Default0">
+  <void property="featureClassName">
+   <string>org.jtrfp.trcl.core.Features</string>
+  </void>
+  <void property="subFeatures">
+   <void method="put">
+    <string>org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesFactory$FeatureConfigurationPrivileges</string>
+    <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default" id="ConfigRootFeature$FeatureTreeElement$Default1">
+     <void property="featureClassName">
+      <string>org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesFactory$FeatureConfigurationPrivileges</string>
+     </void>
+     <void property="subFeatures">
+      <void method="put">
+       <string>org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesConfiguratorFactory$FeatureConfigurationPrivilegesConfigurator</string>
+       <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default">
+        <void property="featureClassName">
+         <string>org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesConfiguratorFactory$FeatureConfigurationPrivilegesConfigurator</string>
+        </void>
+        <void property="propertiesMap">
+         <object class="java.util.HashMap">
+          <void method="put">
+          <string>privilegeData</string>
+           <object class="java.util.HashMap">
+           <!-- PRIVILEGE DEFINITIONS START HERE -->
+           <!-- Lockout user from disabling auto-load -->
+            <void method="put">
+             <object class="org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesFactory$PropertyKey">
+              <void property="featureClass">
+               <class>org.jtrfp.trcl.shell.GameAutoLoaderFactory$GameAutoLoader</class>
+              </void>
+              <void property="propertyName">
+               <string>enabled</string>
+              </void>
+             </object>
+             <object class="org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesFactory$FeatureConfigurationPrivilegeData">
+              <void property="privilegeLevel">
+               <int>10</int>
+              </void>
+             </object>
+            </void>
+            <!-- Lockout user from changing auto-load vector from Terminal Velocity -->
+            <void method="put">
+             <object class="org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesFactory$PropertyKey">
+              <void property="featureClass">
+               <class>org.jtrfp.trcl.shell.GameAutoLoaderFactory$GameAutoLoader</class>
+              </void>
+              <void property="propertyName">
+              <string>selectedCampaign</string>
+              </void>
+             </object>
+             <object class="org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesFactory$FeatureConfigurationPrivilegeData">
+              <void property="privilegeLevel">
+               <int>10</int>
+              </void>
+             </object>
+            </void>
+            <!-- Lockout user from disabling full screen -->
+            <void method="put">
+            <object class="org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesFactory$PropertyKey">
+             <void property="featureClass">
+              <class>org.jtrfp.trcl.gui.RootWindowFactory$RootWindow</class>
+             </void>
+             <void property="propertyName">
+             <string>fullScreen</string>
+             </void>
+            </object>
+             <object class="org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesFactory$FeatureConfigurationPrivilegeData">
+              <void property="privilegeLevel">
+               <int>10</int>
+              </void>
+             </object>
+            </void>
+            <!-- Lockout user from editing campaigns -->
+            <void method="put">
+             <object class="org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesFactory$PropertyKey">
+              <void property="featureClass">
+               <class>org.jtrfp.trcl.shell.GameCampaignRegistryFactory$GameCampaignRegistry</class>
+              </void>
+              <void property="propertyName">
+              <string>campaigns</string>
+              </void>
+             </object>
+             <object class="org.jtrfp.trcl.conf.FeatureConfigurationPrivilegesFactory$FeatureConfigurationPrivilegeData">
+              <void property="privilegeLevel">
+               <int>10</int>
+              </void>
+             </object>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.jtrfp.trcl.core.TRFactory$TR</string>
+    <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default" id="ConfigRootFeature$FeatureTreeElement$Default7">
+     <void property="featureClassName">
+      <string>org.jtrfp.trcl.core.TRFactory$TR</string>
+     </void>
+     <void property="subFeatures">
+      <void method="put">
+       <string>org.jtrfp.trcl.shell.GameShellFactory$GameShell</string>
+       <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default" id="ConfigRootFeature$FeatureTreeElement$Default8">
+        <void property="featureClassName">
+         <string>org.jtrfp.trcl.shell.GameShellFactory$GameShell</string>
+        </void>
+        <void property="subFeatures">
+         <void method="put">
+          <string>org.jtrfp.trcl.game.HitboxMarkerToggleMenuItemFactory$HitboxMarkerToggleMenuItemFeature</string>
+          <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default">
+           <void property="featureClassName">
+            <string>org.jtrfp.trcl.game.HitboxMarkerToggleMenuItemFactory$HitboxMarkerToggleMenuItemFeature</string>
+           </void>
+          </object>
+         </void>
+         <void method="put">
+          <string>org.jtrfp.trcl.shell.GameAutoLoaderFactory$GameAutoLoader</string>
+          <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default" id="ConfigRootFeature$FeatureTreeElement$Default9">
+           <void property="featureClassName">
+            <string>org.jtrfp.trcl.shell.GameAutoLoaderFactory$GameAutoLoader</string>
+           </void>
+           <void property="subFeatures">
+            <void method="put">
+             <string>org.jtrfp.trcl.shell.GameAutoLoaderConfiguratorFactory$GameAutoLoaderConfigurator</string>
+             <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default">
+              <void property="featureClassName">
+               <string>org.jtrfp.trcl.shell.GameAutoLoaderConfiguratorFactory$GameAutoLoaderConfigurator</string>
+              </void>
+              <void property="propertiesMap">
+               <object class="java.util.HashMap">
+                <void method="put">
+                 <string>packedSelectedCampaign</string>
+                 <object class="org.jtrfp.trcl.core.PackedTreeNode">
+                  <void property="node">
+                   <object class="javax.swing.tree.DefaultMutableTreeNode">
+                    <void property="userObject">
+                     <object class="org.jtrfp.trcl.shell.GameCampaignData" id="GameCampaignData0">
+                      <void property="name">
+                       <string>Terminal Velocity</string>
+                      </void>
+                      <void property="podURIs">
+                      <!-- Auto-Load from PODs supplied by pre-existing install -->
+                       <void method="add">
+                        <string>../CDROM.POD</string>
+                       </void>
+                       <void method="add">
+                        <string>../STARTUP.POD</string>
+                       </void>
+                      </void>
+                      <void property="voxURI">
+                       <string></string>
+                      </void>
+                     </object>
+                    </void>
+                   </object>
+                  </void>
+                  <void property="root">
+                   <object class="javax.swing.tree.DefaultMutableTreeNode">
+                    <void property="userObject">
+                     <object class="org.jtrfp.trcl.shell.GameCampaignData">
+                      <void property="name">
+                       <string>Terminal Velocity</string>
+                      </void>
+                     </object>
+                    </void>
+                    <void method="add">
+                     <object class="javax.swing.tree.DefaultMutableTreeNode">
+                      <void property="userObject">
+                       <object idref="GameCampaignData0"/>
+                      </void>
+                     </object>
+                    </void>
+                   </object>
+                  </void>
+                 </object>
+                </void>
+                <void method="put">
+                 <string>enabled</string>
+                 <boolean>true</boolean>
+                </void>
+               </object>
+              </void>
+             </object>
+            </void>
+           </void>
+          </object>
+         </void>
+         <void method="put">
+          <string>org.jtrfp.trcl.shell.GameCampaignRegistryFactory$GameCampaignRegistry</string>
+          <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default" id="ConfigRootFeature$FeatureTreeElement$Default10">
+           <void property="featureClassName">
+            <string>org.jtrfp.trcl.shell.GameCampaignRegistryFactory$GameCampaignRegistry</string>
+           </void>
+           <void property="subFeatures">
+            <void method="put">
+             <string>org.jtrfp.trcl.shell.GameCampaignRegistryMenuItemsFactory$GameCampaignRegistryMenuItems</string>
+             <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default">
+              <void property="featureClassName">
+               <string>org.jtrfp.trcl.shell.GameCampaignRegistryMenuItemsFactory$GameCampaignRegistryMenuItems</string>
+              </void>
+             </object>
+            </void>
+            <void method="put">
+             <string>org.jtrfp.trcl.shell.GameCampaignRegistryConfiguratorFactory$GameResourceRegistryConfigurator</string>
+             <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default">
+              <void property="featureClassName">
+               <string>org.jtrfp.trcl.shell.GameCampaignRegistryConfiguratorFactory$GameResourceRegistryConfigurator</string>
+              </void>
+              <void property="propertiesMap">
+               <object class="java.util.HashMap">
+                <void method="put">
+                 <string>campaignEntriesCollection</string>
+                 <object class="java.util.ArrayList">
+                  <void method="add">
+                   <object idref="GameCampaignData0"/>
+                  </void>
+                 </object>
+                </void>
+               </object>
+              </void>
+             </object>
+            </void>
+           </void>
+          </object>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>org.jtrfp.trcl.ext.tr.ThreadManagerFactory$ThreadManagerFeature</string>
+       <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default">
+        <void property="featureClassName">
+         <string>org.jtrfp.trcl.ext.tr.ThreadManagerFactory$ThreadManagerFeature</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>org.jtrfp.trcl.core.DefaultPODRegistryFactory$DefaultPODRegistry</string>
+       <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default" id="ConfigRootFeature$FeatureTreeElement$Default11">
+        <void property="featureClassName">
+         <string>org.jtrfp.trcl.core.DefaultPODRegistryFactory$DefaultPODRegistry</string>
+        </void>
+        <void property="subFeatures">
+         <void method="put">
+          <string>org.jtrfp.trcl.core.DefaultPODRegistryConfiguratorFactory$DefaultPODRegistryConfigurator</string>
+          <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default">
+           <void property="featureClassName">
+            <string>org.jtrfp.trcl.core.DefaultPODRegistryConfiguratorFactory$DefaultPODRegistryConfigurator</string>
+           </void>
+           <void property="propertiesMap">
+            <object class="java.util.HashMap">
+             <void method="put">
+              <string>podsAsArray</string>
+              <array class="java.lang.String" length="0"/>
+             </void>
+            </object>
+           </void>
+          </object>
+         </void>
+        </void>
+       </object>
+      </void>
+      
+      <void method="put">
+       <string>org.jtrfp.trcl.gui.RootWindowFactory$RootWindow</string>
+       <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default" id="ConfigRootFeature$FeatureTreeElement$Default14">
+        <void property="featureClassName">
+         <string>org.jtrfp.trcl.gui.RootWindowFactory$RootWindow</string>
+        </void>
+        <void property="subFeatures">
+         <void method="put">
+          <string>org.jtrfp.trcl.gui.TRRootWindowShutdownFactory$TRRootWindowShutdownFeature</string>
+          <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default">
+           <void property="featureClassName">
+            <string>org.jtrfp.trcl.gui.TRRootWindowShutdownFactory$TRRootWindowShutdownFeature</string>
+           </void>
+          </object>
+         </void>
+         
+         <void method="put">
+          <string>org.jtrfp.trcl.gui.RootWindowConfiguratorFactory$RootWindowConfigurator</string>
+          <object class="org.jtrfp.trcl.conf.ConfigRootFeature$FeatureTreeElement$Default">
+           <void property="featureClassName">
+            <string>org.jtrfp.trcl.gui.RootWindowConfiguratorFactory$RootWindowConfigurator</string>
+           </void>
+           <void property="propertiesMap">
+            <object class="java.util.HashMap">
+             <void method="put">
+              <string>fullScreen</string>
+              <boolean>true</boolean>
+             </void>
+            </object>
+           </void>
+          </object>
+         </void>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

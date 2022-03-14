@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/jtrfp/terminal-recall.git source
 pushd source
-git checkout 1bdf062
+git checkout 14b3d24
 popd
 
 # BUILD PHASE
