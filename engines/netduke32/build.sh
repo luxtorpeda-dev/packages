@@ -13,4 +13,5 @@ popd
 
 # COPY PHASE
 cp -rfv "source/netduke32" "$diststart/common/dist/"
+cp -rfv "source/eduke32.dat" "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"

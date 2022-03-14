@@ -3044,6 +3044,13 @@
                 "download": [
                     "raze"
                 ]
+            },
+            {
+                "name": "netduke32",
+                "command": "./run-netduke32-megaton.sh",
+                "download": [
+                    "netduke32"
+                ]
             }
         ],
         "cloudAvailable": true
@@ -4057,13 +4064,6 @@
                         "strip_prefix": "jdk-11.0.12+7/"
                     }
                 }
-            },
-            {
-                "name": "netduke32",
-                "command": "./run-netduke32.sh",
-                "download": [
-                    "netduke32"
-                ]
             }
         ],
         "cloudNotAvailable": true
