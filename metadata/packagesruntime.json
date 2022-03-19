@@ -220,6 +220,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-3/",
                 "file": "doom-retro-common-3.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "doom-runner",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-1/",
+                "file": "doom-runner-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -357,6 +363,12 @@
                 "name": "doom-retro",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-3/",
                 "file": "doom-retro-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doom-runner",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-1/",
+                "file": "doom-runner-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -552,6 +564,12 @@
                 "name": "doom-retro",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-3/",
                 "file": "doom-retro-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doom-runner",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-1/",
+                "file": "doom-runner-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1202,6 +1220,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-4/",
                 "file": "chocolate-doom-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "doom-runner",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-1/",
+                "file": "doom-runner-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -1280,6 +1304,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-3/",
                 "file": "doomsday-common-3.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "doom-runner",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-1/",
+                "file": "doom-runner-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -1355,6 +1385,12 @@
                 "name": "prboom-plus",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-8/",
                 "file": "prboom-plus-common-8.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doom-runner",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-1/",
+                "file": "doom-runner-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
