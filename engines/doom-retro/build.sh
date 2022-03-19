@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/bradharding/doomretro.git source
 pushd source
-git checkout ec9cf4d
+git checkout 5ac71af
 popd
 
 # BUILD PHASE
