@@ -1,6 +1,7 @@
 ### 51.0 (2022-03-14)
 
-* doom-retro - Update to 4.4.9
+* doom-retro - Update to 4.4.10
+* Added Doom Runner - This allows for easy launching of doom mods using gzdoom. The initial setup is taken care of, so that the tool should know where the lux client installed gzdoom is and where the WADs are for the particular game. Then, a mod can be selected and used.
 
 ### 50.1 (2022-03-06)
 
