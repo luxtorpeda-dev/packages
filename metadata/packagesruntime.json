@@ -303,6 +303,19 @@
                         "extract_location": "./doom-retro"
                     }
                 }
+            },
+            {
+                "name": "Doom Runner",
+                "command": "./doom-runner/run-doom-runner.sh",
+                "download": [
+                    "gzdoom",
+                    "doom-runner"
+                ],
+                "download_config": {
+                    "doom-runner": {
+                        "extract_location": "./doom-runner"
+                    }
+                }
             }
         ],
         "cloudAvailable": true
@@ -485,6 +498,19 @@
                         "extract_location": "./doom-retro"
                     }
                 }
+            },
+            {
+                "name": "Doom Runner",
+                "command": "./doom-runner/run-doom-runner.sh",
+                "download": [
+                    "gzdoom",
+                    "doom-runner"
+                ],
+                "download_config": {
+                    "doom-runner": {
+                        "extract_location": "./doom-runner"
+                    }
+                }
             }
         ],
         "cloudAvailable": true
@@ -608,6 +634,19 @@
                     },
                     "fluid-soundfont": {
                         "extract_location": "./doom-retro"
+                    }
+                }
+            },
+            {
+                "name": "Doom Runner",
+                "command": "./doom-runner/run-doom-runner.sh",
+                "download": [
+                    "gzdoom",
+                    "doom-runner"
+                ],
+                "download_config": {
+                    "doom-runner": {
+                        "extract_location": "./doom-runner"
                     }
                 }
             }
@@ -1210,6 +1249,19 @@
                         "extract_location": "./chocolate-doom"
                     }
                 }
+            },
+            {
+                "name": "Doom Runner",
+                "command": "./doom-runner/run-doom-runner.sh",
+                "download": [
+                    "gzdoom",
+                    "doom-runner"
+                ],
+                "download_config": {
+                    "doom-runner": {
+                        "extract_location": "./doom-runner"
+                    }
+                }
             }
         ],
         "cloudAvailable": true
@@ -1259,6 +1311,19 @@
                 "download_config": {
                     "doomsday": {
                         "extract_location": "./doomsday"
+                    }
+                }
+            },
+            {
+                "name": "Doom Runner",
+                "command": "./doom-runner/run-doom-runner.sh",
+                "download": [
+                    "gzdoom",
+                    "doom-runner"
+                ],
+                "download_config": {
+                    "doom-runner": {
+                        "extract_location": "./doom-runner"
                     }
                 }
             }
@@ -1352,6 +1417,19 @@
                 "download_config": {
                     "prboom-plus": {
                         "extract_location": "./prboom-plus"
+                    }
+                }
+            },
+            {
+                "name": "Doom Runner",
+                "command": "./doom-runner/run-doom-runner.sh",
+                "download": [
+                    "gzdoom",
+                    "doom-runner"
+                ],
+                "download_config": {
+                    "doom-runner": {
+                        "extract_location": "./doom-runner"
                     }
                 }
             }
@@ -5374,6 +5452,14 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+        },
+        "Doom Runner": {
+            "engine_link": "https://github.com/Youda008/DoomRunner",
+            "version": "1.5.1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Youda008/DoomRunner/blob/master/LICENSE"
         },
         "doomsday": {
             "engine_link": "https://github.com/skyjake/Doomsday-Engine",
