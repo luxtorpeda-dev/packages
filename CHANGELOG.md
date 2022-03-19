@@ -1,6 +1,6 @@
 ### 51.0 (2022-03-14)
 
-* doom-retro - Update to 4.4.9
+* doom-retro - Update to 4.4.10
 
 ### 50.1 (2022-03-06)
 
