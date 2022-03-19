@@ -1,0 +1,16 @@
+{
+    "engines": {
+        "engines": [
+            {
+                "config_dir": "./",
+                "name": "GZDoom",
+                "path": "../run-gzdoom.sh"
+            }
+        ]
+    },
+    "IWADs": {
+        "auto_update": true,
+        "directory": "..",
+        "subdirs": true
+    }
+}
