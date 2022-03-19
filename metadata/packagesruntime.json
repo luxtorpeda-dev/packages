@@ -322,6 +322,19 @@
                         "extract_location": "./doom-runner"
                     }
                 }
+            },
+            {
+                "name": "qzdl",
+                "command": "./qzdl/run-qzdl.sh",
+                "download": [
+                    "gzdoom",
+                    "qzdl"
+                ],
+                "download_config": {
+                    "qzdl": {
+                        "extract_location": "./qzdl"
+                    }
+                }
             }
         ],
         "cloudAvailable": true
@@ -523,6 +536,19 @@
                         "extract_location": "./doom-runner"
                     }
                 }
+            },
+            {
+                "name": "qzdl",
+                "command": "./qzdl/run-qzdl.sh",
+                "download": [
+                    "gzdoom",
+                    "qzdl"
+                ],
+                "download_config": {
+                    "qzdl": {
+                        "extract_location": "./qzdl"
+                    }
+                }
             }
         ],
         "cloudAvailable": true
@@ -665,6 +691,19 @@
                 "download_config": {
                     "doom-runner": {
                         "extract_location": "./doom-runner"
+                    }
+                }
+            },
+            {
+                "name": "qzdl",
+                "command": "./qzdl/run-qzdl.sh",
+                "download": [
+                    "gzdoom",
+                    "qzdl"
+                ],
+                "download_config": {
+                    "qzdl": {
+                        "extract_location": "./qzdl"
                     }
                 }
             }
@@ -1286,6 +1325,19 @@
                         "extract_location": "./doom-runner"
                     }
                 }
+            },
+            {
+                "name": "qzdl",
+                "command": "./qzdl/run-qzdl.sh",
+                "download": [
+                    "gzdoom",
+                    "qzdl"
+                ],
+                "download_config": {
+                    "qzdl": {
+                        "extract_location": "./qzdl"
+                    }
+                }
             }
         ],
         "cloudAvailable": true
@@ -1354,6 +1406,19 @@
                 "download_config": {
                     "doom-runner": {
                         "extract_location": "./doom-runner"
+                    }
+                }
+            },
+            {
+                "name": "qzdl",
+                "command": "./qzdl/run-qzdl.sh",
+                "download": [
+                    "gzdoom",
+                    "qzdl"
+                ],
+                "download_config": {
+                    "qzdl": {
+                        "extract_location": "./qzdl"
                     }
                 }
             }
@@ -1466,6 +1531,19 @@
                 "download_config": {
                     "doom-runner": {
                         "extract_location": "./doom-runner"
+                    }
+                }
+            },
+            {
+                "name": "qzdl",
+                "command": "./qzdl/run-qzdl.sh",
+                "download": [
+                    "gzdoom",
+                    "qzdl"
+                ],
+                "download_config": {
+                    "qzdl": {
+                        "extract_location": "./qzdl"
                     }
                 }
             }
@@ -5496,6 +5574,14 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/Youda008/DoomRunner/blob/master/LICENSE"
+        },
+        "qzdl": {
+            "engine_link": "https://github.com/qbasicer/qzdl",
+            "version": "9c76408",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/qbasicer/qzdl/blob/master/LICENSE"
         },
         "doomsday": {
             "engine_link": "https://github.com/skyjake/Doomsday-Engine",
