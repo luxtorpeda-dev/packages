@@ -3,6 +3,7 @@
 * doom-retro - Update to 4.4.10
 * Added Doom Runner - This allows for easy launching of doom mods using gzdoom. The initial setup is taken care of, so that the tool should know where the lux client installed gzdoom is and where the WADs are for the particular game. Then, a mod can be selected and used.
 * Added qzdl - This is another doom mod launcher. The initial setup of where gzdoom is taken care of and you can browser to which WAD you want to load. 
+* perimeter - Update to 3.0.9
 
 ### 50.1 (2022-03-06)
 
