@@ -12,5 +12,6 @@
         "auto_update": true,
         "directory": "..",
         "subdirs": true
-    }
+    },
+    "close_on_launch": true
 }
