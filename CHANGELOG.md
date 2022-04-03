@@ -1,6 +1,7 @@
 ### 51.1 (2022-04-02)
 
 * fs2open - Update to 22.0.0
+* Added ironwail, quakespasm fork for improved performance with large mods
 
 ### 51.0 (2022-03-14)
 
