@@ -831,6 +831,14 @@
                 "engine_name": "FTE QuakeWorld"
             },
             {
+                "name": "ironwail",
+                "command": "./ironwail/ironwail.sh",
+                "download": [
+                    "ironwail"
+                ],
+                "engine_name": "ironwail"
+            },
+            {
                 "name": "vkquake Dimension of the Past",
                 "command": "./vkquake.sh",
                 "download": [
@@ -5695,6 +5703,14 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt"
+        },
+        "ironwail": {
+            "engine_link": "https://github.com/andrei-drexler/ironwail",
+            "version": "0.5.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/andrei-drexler/ironwail/blob/master/LICENSE.txt"
         },
         "Yamagi Quake II": {
             "engine_link": "https://www.yamagi.org/quake2/",
