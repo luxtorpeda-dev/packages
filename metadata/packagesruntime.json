@@ -764,6 +764,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
                 "file": "ftequakeworld-common-6.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "ironwail",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ironwail-1/",
+                "file": "ironwail-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
