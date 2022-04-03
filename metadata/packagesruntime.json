@@ -6314,7 +6314,7 @@
         },
         "fs2open": {
             "engine_link": "https://github.com/scp-fs2open/fs2open.github.com",
-            "version": "Release 21.4.1",
+            "version": "Release 22.0.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Volition",
