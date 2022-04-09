@@ -4139,8 +4139,29 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./run-ecwolf.sh",
-        "engine_name": "ecwolf",
+        "choices": [
+            {
+                "command": "./run-ecwolf.sh",
+                "name": "ecwolf",
+                "download": [
+                    "ecwolf"
+                ]
+            },
+            {
+                "name": "RetroArch (Snes9x)",
+                "command": "./run-retroarch.sh",
+                "command_args": [
+                    "snes9x",
+                    "sfc"
+                ],
+                "download": [
+                    "retroarch"
+                ],
+                "app_ids_deps": [
+                    1118310
+                ]
+            }
+        ],
         "cloudAvailable": true
     },
     "376750": {
@@ -5565,6 +5586,47 @@
                 "app_ids_deps": [
                     1070560
                 ]
+            },
+            {
+                "name": "RetroArch (Snes9x)",
+                "command": "./run-retroarch.sh",
+                "command_args": [
+                    "snes9x",
+                    "sfc"
+                ],
+                "download": [
+                    "retroarch"
+                ],
+                "app_ids_deps": [
+                    1118310
+                ],
+                "engine_name": "RetroArch"
+            },
+            {
+                "name": "RetroArch (PCSX ReARMed)",
+                "command": "./run-retroarch.sh",
+                "command_args": [
+                    "pcsx_rearmed",
+                    "cue"
+                ],
+                "download": [
+                    "retroarch"
+                ],
+                "app_ids_deps": [
+                    1118310
+                ],
+                "engine_name": "RetroArch"
+            },
+            {
+                "name": "RetroArch (Other)",
+                "command": "./run-retroarch.sh",
+                "download": [
+                    "retroarch"
+                ],
+                "app_ids_deps": [
+                    1118310
+                ],
+                "engine_name": "RetroArch (Other)"
             }
         ]
     },
@@ -6619,6 +6681,37 @@
             "notices": [
                 {
                     "label": "Downloads FluidR3_GM.sf2 automatically. Can override SDL_SOUNDFONTS in launch options."
+                }
+            ]
+        },
+        "RetroArch": {
+            "engine_link": "https://store.steampowered.com/app/1118310/RetroArch/",
+            "version": "1.10.2",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/libretro/RetroArch/blob/master/COPYING",
+            "notices": [
+                {
+                    "key": "app_ids_deps",
+                    "label": "Requires RetroArch to be installed and any cores to be installed from DLC."
+                }
+            ]
+        },
+        "RetroArch (Other)": {
+            "engine_link": "https://store.steampowered.com/app/1118310/RetroArch/",
+            "version": "1.10.2",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/libretro/RetroArch/blob/master/COPYING",
+            "notices": [
+                {
+                    "key": "app_ids_deps",
+                    "label": "Requires RetroArch to be installed and any cores to be installed from DLC."
+                },
+                {
+                    "label": "Use RetroArch other option for other cores. Can use steam launch options - %command% CORENAME EXTENSION RELATIVEPATH, where CORENAME is the name of the core from the cores directory (\"snes9x\", without the _libretro.so, EXTENSION is the expected extension of the game file to lookup, such as \"sfc\", and RELATIVEPATH is the relative path in quotes to the game file to override the search."
                 }
             ]
         }
