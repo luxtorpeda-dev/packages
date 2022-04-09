@@ -4137,6 +4137,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-4/",
                 "file": "ecwolf-common-4.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "retroarch",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/retroarch-1/",
+                "file": "retroarch-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -5509,6 +5515,12 @@
                 "name": "renpy",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
                 "file": "renpy-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "retroarch",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/retroarch-1/",
+                "file": "retroarch-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
