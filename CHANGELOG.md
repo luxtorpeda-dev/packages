@@ -3,6 +3,7 @@
 * fs2open - Update to 22.0.0
 * Added ironwail, quakespasm fork for improved performance with large mods
 * [Thanks to sponsors for funds to buy the games] Added retroarch launching support, to launch Steam RetroArch and the downloaded cores for any Steam game that has a supported game file.
+* RigelEngine - Update to 0.8.4
 
 ### 51.0 (2022-03-14)
 
