@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/arx/ArxLibertatis source
 pushd source
-git checkout eb5ae43
+git checkout b054123
 popd
 
 git clone https://github.com/arx/ArxLibertatisData.git data

@@ -5645,7 +5645,7 @@
     "engines": {
         "Arx Libertatis": {
             "engine_link": "https://arx-libertatis.org/",
-            "version": "1.2",
+            "version": "1.2.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
