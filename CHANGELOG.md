@@ -5,6 +5,7 @@
 * [Thanks to sponsors for funds to buy the games] Added retroarch launching support, to launch Steam RetroArch and the downloaded cores for any Steam game that has a supported game file.
 * RigelEngine - Update to 0.8.4
 * Arx Libertatis - Update to 1.2.1
+* OpenLoco - Update to 22.04
 
 ### 51.0 (2022-03-14)
 
