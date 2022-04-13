@@ -2128,13 +2128,45 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-23/",
                 "file": "gzdoom-common-23.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "doom-runner",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-2/",
+                "file": "doom-runner-common-2.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "qzdl",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-2/",
+                "file": "qzdl-common-2.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "name": "gzdoom",
-        "command": "./run-gzdoom-2-master-levels.sh",
-        "command_args": [
-            "-iwad",
-            "doom_complete.pk3"
+        "choices": [
+            {
+                "name": "gzdoom",
+                "download": [
+                    "gzdoom"
+                ],
+                "command": "./run-gzdoom-2-master-levels.sh",
+                "command_args": [
+                    "-iwad",
+                    "doom_complete.pk3"
+                ]
+            },
+            {
+                "name": "Doom Runner",
+                "command": "./doom-runner/run-doom-runner-master-levels.sh",
+                "download": [
+                    "gzdoom",
+                    "doom-runner"
+                ],
+                "download_config": {
+                    "doom-runner": {
+                        "extract_location": "./doom-runner"
+                    }
+                }
+            }
         ],
         "notices": [
             {
