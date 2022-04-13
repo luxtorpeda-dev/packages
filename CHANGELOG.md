@@ -6,6 +6,8 @@
 * RigelEngine - Update to 0.8.4
 * Arx Libertatis - Update to 1.2.1
 * OpenLoco - Update to 22.04
+* doom-runner - Add support for master levels
+* qzdl - Add support for master levels
 
 ### 51.0 (2022-03-14)
 
