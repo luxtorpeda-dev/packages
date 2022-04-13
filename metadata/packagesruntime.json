@@ -2186,7 +2186,6 @@
                 "label": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh)"
             }
         ],
-        "engine_name": "gzdoom",
         "cloudAvailable": true
     },
     "9180": {
