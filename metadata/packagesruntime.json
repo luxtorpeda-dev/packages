@@ -2166,6 +2166,19 @@
                         "extract_location": "./doom-runner"
                     }
                 }
+            },
+            {
+                "name": "qzdl",
+                "command": "./qzdl/run-qzdl-master-levels.sh",
+                "download": [
+                    "gzdoom",
+                    "qzdl"
+                ],
+                "download_config": {
+                    "qzdl": {
+                        "extract_location": "./qzdl"
+                    }
+                }
             }
         ],
         "notices": [
