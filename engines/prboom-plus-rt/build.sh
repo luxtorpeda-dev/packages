@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/sultim-t/prboom-plus-rt.git source
 pushd source
-git checkout d3f67b2
+git checkout 94ead8d
 popd
 
 git clone https://github.com/sultim-t/RayTracedGL1.git RayTracedGL1
