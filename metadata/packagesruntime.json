@@ -297,6 +297,22 @@
                 }
             },
             {
+                "name": "prboom-plus-rt",
+                "command": "./prboom-plus-rt/run-prboom-plus-rt.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM.WAD"
+                ],
+                "download": [
+                    "prboom-plus-rt"
+                ],
+                "download_config": {
+                    "prboom-plus-rt": {
+                        "extract_location": "./prboom-plus-rt"
+                    }
+                }
+            },
+            {
                 "name": "doom-retro",
                 "command": "./doom-retro/run-doom-retro.sh",
                 "command_args": [
@@ -5796,7 +5812,7 @@
         },
         "prboom-plus-rt": {
             "engine_link": "https://github.com/sultim-t/prboom-plus-rt",
-            "version": "d3f67b2",
+            "version": "94ead8d",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -5804,9 +5820,6 @@
             "notices": [
                 {
                     "label": "Pick FluidSynth in in-game options to hear music."
-                },
-                {
-                    "label": "Do not have access to a ray tracing card, so "
                 }
             ]
         },

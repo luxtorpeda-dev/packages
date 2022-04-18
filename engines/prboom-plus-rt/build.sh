@@ -20,7 +20,7 @@ cd Build
 cmake \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DRG_WITH_SURFACE_XCB=ON \
+    -DRG_USE_SURFACE_XLIB=ON \
     ..
 cmake --build .
 mkdir RelWithDebInfo
@@ -42,5 +42,5 @@ popd
 # COPY PHASE
 cp -rfv "source/prboom2/build/prboom-plus" "$diststart/common/dist/"
 cp -rfv "source/prboom2/build/prboom-plus.wad" "$diststart/common/dist/"
-cp -rfv RayTracedGL1/Build/libRayTracedGL1.so "$diststart/common/dist/"
+cp -rfv RayTracedGL1/Build/libRayTracedGL1.so "$diststart/common/dist/lib"
 cp -rfv "assets/run-prboom-plus-rt.sh" "$diststart/common/dist/"
