@@ -15,8 +15,8 @@ export currentpwd="$PWD"
 
 # BUILD PHASE
 pushd "RayTracedGL1"
-mkdir -p build
-cd build
+mkdir -p Build
+cd Build
 cmake \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DCMAKE_PREFIX_PATH="$pfx" \
