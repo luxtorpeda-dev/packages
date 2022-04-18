@@ -8,6 +8,7 @@
 * OpenLoco - Update to 22.04
 * doom-runner - Add support for master levels
 * qzdl - Add support for master levels
+* raze - Add support for classic 1997 
 
 ### 51.0 (2022-03-14)
 
