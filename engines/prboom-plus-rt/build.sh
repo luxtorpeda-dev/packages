@@ -11,6 +11,8 @@ pushd RayTracedGL1
 git checkout 1e0b789
 popd
 
+export currentpwd="$PWD"
+
 # BUILD PHASE
 pushd "RayTracedGL1"
 mkdir -p build
@@ -20,15 +22,12 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     ..
 make -j "$(nproc)"
-python3 Source/Shaders/GenerateShaders.py
 popd
-
-RTGL1_SDK_PATH="$PWD/RayTracedGL1"
 
 pushd "source/prboom2"
 mkdir -p build
 cd build
-cmake \
+RTGL1_SDK_PATH="$currentpwd/RayTracedGL1" cmake \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DCMAKE_PREFIX_PATH="$pfx" \
     ..

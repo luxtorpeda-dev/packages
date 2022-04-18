@@ -5794,6 +5794,22 @@
                 }
             ]
         },
+        "prboom-plus-rt": {
+            "engine_link": "https://github.com/sultim-t/prboom-plus-rt",
+            "version": "d3f67b2",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/sultim-t/prboom-plus-rt/blob/master/prboom2/COPYING",
+            "notices": [
+                {
+                    "label": "Pick FluidSynth in in-game options to hear music."
+                },
+                {
+                    "label": "Do not have access to a ray tracing card, so "
+                }
+            ]
+        },
         "NBlood": {
             "engine_link": "https://github.com/nukeykt/NBlood",
             "version": "5b9fe37 (from master)",
