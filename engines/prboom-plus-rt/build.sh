@@ -20,8 +20,13 @@ cd Build
 cmake \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DRG_WITH_SURFACE_XCB=ON \
     ..
-make -j "$(nproc)"
+cmake --build .
+mkdir RelWithDebInfo
+cp libRayTracedGL1.so RelWithDebInfo/
+mkdir Debug
+cp libRayTracedGL1.so Debug
 popd
 
 pushd "source/prboom2"
