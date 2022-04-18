@@ -20,7 +20,7 @@ cd Build
 cmake \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DRG_USE_SURFACE_XLIB=ON \
+    -DRG_WITH_SURFACE_XLIB=ON \
     ..
 cmake --build .
 mkdir RelWithDebInfo
