@@ -42,6 +42,5 @@ popd
 # COPY PHASE
 cp -rfv "source/prboom2/build/prboom-plus" "$diststart/common/dist/"
 cp -rfv "source/prboom2/build/prboom-plus.wad" "$diststart/common/dist/"
-cp -rfv "source/prboom2/build/prboom-plus-game-server" "$diststart/common/dist/"
 cp -rfv RayTracedGL1/libRayTracedGL1.so "$diststart/common/dist/"
 cp -rfv "assets/run-prboom-plus-rt.sh" "$diststart/common/dist/"
