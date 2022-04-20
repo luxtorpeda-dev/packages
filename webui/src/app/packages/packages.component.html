@@ -49,8 +49,49 @@
                   </mat-icon>
 
                   <mat-icon
+                    *ngIf="!title.engines[titleEnginePicked[title.titleId]].controllerNotSupported && !title.engines[titleEnginePicked[title.titleId]].controllerSupported && !title.engines[titleEnginePicked[title.titleId]].controllerSupportedSteamChanges && !title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGame && !title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGameAndSteam"
                     matTooltip="Unknown Controller Support"
                     [style.color]="'darkgray'"
+                  >
+                    sports_esports
+                  </mat-icon>
+
+                  <mat-icon
+                    *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerNotSupported"
+                    matTooltip="Engine Does Not Have Native Controller Support"
+                    [style.color]="'darkred'"
+                  >
+                    sports_esports
+                  </mat-icon>
+
+                  <mat-icon
+                    *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerSupported && title.controllerSteamDefault"
+                    matTooltip="Engine Has Native Controller Support And Works Out of the Box"
+                    [style.color]="'green'"
+                  >
+                    sports_esports
+                  </mat-icon>
+
+                  <mat-icon
+                    *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGame && title.controllerSteamDefault"
+                    matTooltip="Engine Has Native Controller Support But Needs Manual In-Game Settings"
+                    [style.color]="'yellow'"
+                  >
+                    sports_esports
+                  </mat-icon>
+
+                  <mat-icon
+                    *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerSupported && !title.controllerSteamDefault"
+                    matTooltip="Engine Has Native Controller Support But Needs Manual Steam Settings"
+                    [style.color]="'yellow'"
+                  >
+                    sports_esports
+                  </mat-icon>
+
+                  <mat-icon
+                    *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGame && !title.controllerSteamDefault"
+                    matTooltip="Engine Has Native Controller Support But Needs Manual In-Game and Steam Settings"
+                    [style.color]="'yellow'"
                   >
                     sports_esports
                   </mat-icon>
@@ -63,7 +104,7 @@
                     cloud_off
                   </mat-icon>
 
-                   <mat-icon
+                  <mat-icon
                     *ngIf="title.cloudAvailable && !title.cloudSupported"
                     matTooltip="Game Has Cloud Saves But Unknown Status"
                     [style.color]="'darkgray'"

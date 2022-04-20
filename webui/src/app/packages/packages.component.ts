@@ -14,6 +14,8 @@ export class PackagesComponent implements OnInit {
 
   NOTICE_MAP: any = {};
 
+  runControllerCheck = false;
+
   async ngOnInit() {
     const response = await fetch(`/packagesruntime.json`);
     this.titles = await response.json();
@@ -25,6 +27,24 @@ export class PackagesComponent implements OnInit {
       let defaultRecord;
 
       this.NOTICE_MAP = this.titles.noticeMap;
+
+      if(this.runControllerCheck) {
+        for(const engineId in this.titles.engines) {
+          const engine = this.titles.engines[engineId];
+
+          let foundController = false;
+          for(let engineKey of Object.keys(engine)) {
+            if(engineKey.indexOf('controller') !== -1) {
+              foundController = true;
+              break;
+            }
+          }
+
+          if(!foundController) {
+            console.error(`missing controller data for ${engineId}`);
+          }
+        }
+      }
 
       for (const titleId in this.titles) {
         if(titleId === 'engines' || titleId === 'noticeMap') {

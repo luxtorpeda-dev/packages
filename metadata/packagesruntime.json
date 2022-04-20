@@ -184,6 +184,7 @@
     },
     "2280": {
         "game_name": "The Ultimate DOOM",
+        "controllerSteamDefault": true,
         "download": [
             {
                 "name": "gzdoom",
@@ -563,7 +564,8 @@
                 }
             }
         ],
-        "cloudAvailable": true
+        "cloudAvailable": true,
+        "controllerSteamDefault": true
     },
     "2300": {
         "game_name": "DOOM II: Hell on Earth",
@@ -726,7 +728,8 @@
                 }
             }
         ],
-        "cloudAvailable": true
+        "cloudAvailable": true,
+        "controllerSteamDefault": true
     },
     "2310": {
         "game_name": "Quake",
@@ -987,7 +990,8 @@
                 "engine_name": "FTE QuakeWorld"
             }
         ],
-        "cloudAvailable": true
+        "cloudAvailable": true,
+        "controllerSteamDefault": true
     },
     "2320": {
         "game_name": "Quake II",
@@ -2465,6 +2469,7 @@
             }
         ],
         "cloudNotAvailable": true,
+        "controllerSteamDefault": true,
         "command": "./run-blastem.sh",
         "choices": [
             {
@@ -3218,7 +3223,8 @@
         },
         "command": "./run-openlara.sh",
         "engine_name": "OpenLara",
-        "cloudNotAvailable": true
+        "cloudNotAvailable": true,
+        "controllerSteamDefault": true
     },
     "224980": {
         "game_name": "Tomb Raider IV: The Last Revelation",
@@ -3931,6 +3937,7 @@
             },
             {
                 "name": "BuildGDX (Silent)",
+                "engine_name": "BuildGDX",
                 "command": "./run-buildgdx-blood-silent.sh",
                 "download": [
                     "openjdk11",
@@ -3976,7 +3983,8 @@
             }
         ],
         "engine_name": "gzdoom",
-        "cloudAvailable": true
+        "cloudAvailable": true,
+        "controllerSteamDefault": true
     },
     "329650": {
         "game_name": "NAM",
@@ -4047,6 +4055,7 @@
             },
             {
                 "name": "BuildGDX (Silent)",
+                "engine_name": "BuildGDX",
                 "command": "./run-buildgdx-nam-silent.sh",
                 "download": [
                     "openjdk11",
@@ -4158,7 +4167,8 @@
         "use_original_command_directory": true,
         "command": "./run-terminal-recall.sh",
         "engine_name": "terminal-recall",
-        "cloudNotAvailable": true
+        "cloudNotAvailable": true,
+        "controllerSteamDefault": true
     },
     "358410": {
         "game_name": "Rise of the Triad: Dark War",
@@ -4185,7 +4195,8 @@
         ],
         "command": "./run-good-robot.sh",
         "engine_name": "Good-Robot",
-        "cloudAvailable": true
+        "cloudAvailable": true,
+        "controllerSteamDefault": true
     },
     "371180": {
         "game_name": "Super 3-D Noah's Ark",
@@ -4203,6 +4214,7 @@
                 "cache_by_name": true
             }
         ],
+        "controllerSteamDefault": true,
         "choices": [
             {
                 "command": "./run-ecwolf.sh",
@@ -4213,6 +4225,7 @@
             },
             {
                 "name": "RetroArch (Snes9x)",
+                "engine_name": "RetroArch",
                 "command": "./run-retroarch.sh",
                 "command_args": [
                     "snes9x",
@@ -4399,7 +4412,8 @@
                 }
             }
         ],
-        "cloudNotAvailable": true
+        "cloudNotAvailable": true,
+        "controllerSteamDefault": true
     },
     "517790": {
         "game_name": "Caesar 3",
@@ -4448,7 +4462,8 @@
         ],
         "command": "./run-eduke32.sh",
         "engine_name": "eduke32",
-        "cloudAvailable": true
+        "cloudAvailable": true,
+        "controllerSteamDefault": true
     },
     "565550": {
         "game_name": "Redneck Rampage",
@@ -4496,7 +4511,8 @@
         ],
         "command": "./run-engge.sh",
         "engine_name": "engge",
-        "cloudAvailable": true
+        "cloudAvailable": true,
+        "controllerSteamDefault": true
     },
     "572050": {
         "game_name": "Call to Power II",
@@ -4741,7 +4757,8 @@
         ],
         "command": "./run-flashback.sh",
         "engine_name": "REminiscence / REinforced",
-        "cloudNotAvailable": true
+        "cloudNotAvailable": true,
+        "controllerSteamDefault": true
     },
     "1000410": {
         "game_name": "WRATH: Aeon of Ruin",
@@ -4826,6 +4843,7 @@
             },
             {
                 "name": "BuildGDX (Silent)",
+                "engine_name": "BuildGDX",
                 "command": "./run-buildgdx-blood-silent.sh",
                 "download": [
                     "openjdk11",
@@ -5089,6 +5107,7 @@
             },
             {
                 "name": "BuildGDX (Silent)",
+                "engine_name": "BuildGDX",
                 "command": "./run-buildgdx-powerslave-silent.sh",
                 "download": [
                     "openjdk11",
@@ -5120,7 +5139,8 @@
         ],
         "command": "./run-godot.sh",
         "engine_name": "Godot",
-        "cloudNotAvailable": true
+        "cloudNotAvailable": true,
+        "controllerSteamDefault": true
     },
     "1271050": {
         "game_name": "Shrine",
@@ -5258,7 +5278,8 @@
         ],
         "command": "./run-ocean-heart.sh",
         "engine_name": "solarus",
-        "cloudAvailable": true
+        "cloudAvailable": true,
+        "controllerSteamDefault": true
     },
     "1417010": {
         "game_name": "Shrine II",
@@ -5479,7 +5500,8 @@
             }
         ],
         "engine_name": "gzdoom",
-        "cloudNotAvailable": true
+        "cloudNotAvailable": true,
+        "controllerSteamDefault": true
     },
     "1731320": {
         "game_name": "Relentless Frontier Demo",
@@ -5707,7 +5729,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/arx/ArxLibertatis/blob/master/LICENSE"
+            "license_link": "https://github.com/arx/ArxLibertatis/blob/master/LICENSE",
+            "controllerNotSupported": true
         },
         "ioquake3": {
             "engine_link": "https://ioquake3.org/",
@@ -5715,7 +5738,8 @@
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
-            "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt"
+            "license_link": "https://github.com/ioquake/ioq3/blob/master/COPYING.txt",
+            "controllerNotSupported": true
         },
         "quake3e": {
             "engine_link": "https://github.com/ec-/Quake3e",
@@ -5723,7 +5747,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt"
+            "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt",
+            "controllerNotSupported": true
         },
         "FTE QuakeWorld": {
             "engine_link": "https://fte.triptohell.info/about",
@@ -5731,7 +5756,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE"
+            "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE",
+            "controllerNotSupported": true
         },
         "ecwolf": {
             "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
@@ -5739,7 +5765,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPL-2+ or EULA; BSD-3-clause",
-            "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright"
+            "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright",
+            "controllerSupported": true
         },
         "gzdoom": {
             "engine_link": "https://github.com/coelckers/gzdoom",
@@ -5747,7 +5774,8 @@
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
-            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
+            "controllerSupportedManualGame": true
         },
         "Doom Runner": {
             "engine_link": "https://github.com/Youda008/DoomRunner",
@@ -5755,7 +5783,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/Youda008/DoomRunner/blob/master/LICENSE"
+            "license_link": "https://github.com/Youda008/DoomRunner/blob/master/LICENSE",
+            "controllerNotSupported": true
         },
         "qzdl": {
             "engine_link": "https://github.com/qbasicer/qzdl",
@@ -5763,7 +5792,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/qbasicer/qzdl/blob/master/LICENSE"
+            "license_link": "https://github.com/qbasicer/qzdl/blob/master/LICENSE",
+            "controllerNotSupported": true
         },
         "doomsday": {
             "engine_link": "https://github.com/skyjake/Doomsday-Engine",
@@ -5771,7 +5801,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3/LGPLv3",
-            "license_link": "https://github.com/skyjake/Doomsday-Engine"
+            "license_link": "https://github.com/skyjake/Doomsday-Engine",
+            "controllerSupportedManualGame": true
         },
         "Chocolate Doom": {
             "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
@@ -5779,7 +5810,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md"
+            "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md",
+            "controllerSupportedManualGame": true
         },
         "prboom-plus": {
             "engine_link": "https://github.com/coelckers/prboom-plus",
@@ -5792,7 +5824,8 @@
                 {
                     "label": "Pick FluidSynth in in-game options to hear music."
                 }
-            ]
+            ],
+            "controllerSupportedManualGame": true
         },
         "NBlood": {
             "engine_link": "https://github.com/nukeykt/NBlood",
@@ -5800,7 +5833,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt"
+            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/blood/gpl-2.0.txt",
+            "controllerNotSupported": true
         },
         "raze": {
             "engine_link": "https://github.com/coelckers/Raze",
@@ -5808,7 +5842,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Various Licenses",
-            "license_link": "https://github.com/coelckers/Raze"
+            "license_link": "https://github.com/coelckers/Raze",
+            "controllerSupportedManualGame": true
         },
         "BuildGDX": {
             "engine_link": "https://m210.duke4.net/index.php",
@@ -5816,7 +5851,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Various Licenses",
-            "license_link": "https://gitlab.com/m210/BuildGDX"
+            "license_link": "https://gitlab.com/m210/BuildGDX",
+            "controllerSupportedManualGame": true
         },
         "vkQuake": {
             "engine_link": "https://github.com/Novum/vkQuake",
@@ -5824,7 +5860,8 @@
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
-            "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt"
+            "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt",
+            "controllerSupportedManualGame": true
         },
         "darkplaces-2017": {
             "engine_link": "http://icculus.org/twilight/darkplaces/",
@@ -5832,7 +5869,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details"
+            "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details",
+            "controllerNotSupported": true
         },
         "quakespasm-spiked": {
             "engine_link": "https://github.com/Shpoike/Quakespasm",
@@ -5840,7 +5878,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt"
+            "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt",
+            "controllerSupportedManualGame": true
         },
         "ironwail": {
             "engine_link": "https://github.com/andrei-drexler/ironwail",
@@ -5848,7 +5887,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/andrei-drexler/ironwail/blob/master/LICENSE.txt"
+            "license_link": "https://github.com/andrei-drexler/ironwail/blob/master/LICENSE.txt",
+            "controllerSupportedManualGame": true
         },
         "Yamagi Quake II": {
             "engine_link": "https://www.yamagi.org/quake2/",
@@ -5856,7 +5896,8 @@
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
-            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE"
+            "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE",
+            "controllerSupportedManualGame": true
         },
         "vkQuake2": {
             "engine_name": "vkQuake2",
@@ -5865,7 +5906,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE"
+            "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE",
+            "controllerNotSupported": true
         },
         "Jagged Alliance 2 Stracciatella": {
             "engine_link": "https://ja2-stracciatella.github.io",
@@ -5881,7 +5923,8 @@
                 {
                     "label": "Requires both Wildfire and Classic DLC"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "OpenJK (SP)": {
             "engine_link": "https://github.com/JACoders/OpenJK",
@@ -5889,7 +5932,8 @@
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt"
+            "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt",
+            "controllerSupportedManualGame": true
         },
         "EternalJK (MP)": {
             "engine_link": "https://github.com/eternalcodes/EternalJK",
@@ -5897,7 +5941,8 @@
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/eternalcodes/EternalJK/blob/master/LICENSE.txt"
+            "license_link": "https://github.com/eternalcodes/EternalJK/blob/master/LICENSE.txt",
+            "controllerSupportedManualGame": true
         },
         "jk2mv (MP)": {
             "engine_link": "https://github.com/mvdevs/jk2mv",
@@ -5905,7 +5950,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/mvdevs/jk2mv/blob/master/LICENSE"
+            "license_link": "https://github.com/mvdevs/jk2mv/blob/master/LICENSE",
+            "controllerSupportedManualGame": true
         },
         "scummvm": {
             "engine_link": "https://github.com/scummvm/scummvm",
@@ -5913,7 +5959,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING"
+            "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING",
+            "controllerSupported": true
         },
         "dosbox-staging": {
             "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
@@ -5921,7 +5968,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING"
+            "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING",
+            "controllerSupportedManualGame": true
         },
         "Godot": {
             "engine_link": "https://github.com/godotengine/godot",
@@ -5929,7 +5977,8 @@
             "author": "Jpx",
             "author_link": "https://github.com/jesperjackson",
             "license": "MIT",
-            "license_link": "https://github.com/godotengine/godot/blob/master/LICENSE.txt"
+            "license_link": "https://github.com/godotengine/godot/blob/master/LICENSE.txt",
+            "controllerSupported": true
         },
         "ruffle": {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
@@ -5945,7 +5994,8 @@
                 {
                     "label": "Uses jpexs-decompiler."
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "easyrpg-player": {
             "engine_link": "https://github.com/EasyRPG/Player",
@@ -5953,14 +6003,16 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/EasyRPG/Player/blob/master/COPYING"
+            "license_link": "https://github.com/EasyRPG/Player/blob/master/COPYING",
+            "controllerNotSupported": true
         },
         "OpenXcom": {
             "version": "6ef7970 (from master)",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
+            "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt",
+            "controllerNotSupported": true
         },
         "OpenXcom OXCE Plus": {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
@@ -5968,7 +6020,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/MeridianOXC/OpenXcom/blob/oxce-plus/LICENSE.txt"
+            "license_link": "https://github.com/MeridianOXC/OpenXcom/blob/oxce-plus/LICENSE.txt",
+            "controllerNotSupported": true
         },
         "OpenApoc": {
             "engine_link": "https://github.com/OpenApoc/OpenApoc",
@@ -5981,7 +6034,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/OpenApoc/OpenApoc/blob/master/LICENSE"
+            "license_link": "https://github.com/OpenApoc/OpenApoc/blob/master/LICENSE",
+            "controllerNotSupported": true
         },
         "iortcw": {
             "engine_link": "https://github.com/iortcw/iortcw",
@@ -5989,7 +6043,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/iortcw/iortcw/blob/master/SP/COPYING.txt"
+            "license_link": "https://github.com/iortcw/iortcw/blob/master/SP/COPYING.txt",
+            "controllerNotSupported": true
         },
         "dhewm3": {
             "engine_link": "https://dhewm3.org/",
@@ -5997,7 +6052,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt"
+            "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt",
+            "controllerNotSupported": true
         },
         "Hammer of Thyrion": {
             "engine_link": "https://github.com/sezero/uhexen2",
@@ -6010,7 +6066,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/sezero/uhexen2/blob/master/docs/COPYING"
+            "license_link": "https://github.com/sezero/uhexen2/blob/master/docs/COPYING",
+            "controllerNotSupported": true
         },
         "Commander Genius": {
             "engine_link": "https://gitlab.com/Dringgstein/Commander-Genius",
@@ -6018,7 +6075,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://gitlab.com/Dringgstein/Commander-Genius/-/blob/master/COPYRIGHT"
+            "license_link": "https://gitlab.com/Dringgstein/Commander-Genius/-/blob/master/COPYRIGHT",
+            "controllerSupportedManualGame": true
         },
         "OpenTomb": {
             "engine_link": "https://github.com/opentomb/OpenTomb",
@@ -6034,7 +6092,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "LGPLv3",
-            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE"
+            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE",
+            "controllerNotSupported": true
         },
         "OpenLara": {
             "engine_link": "https://github.com/XProger/OpenLara",
@@ -6047,7 +6106,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD 2-Clause",
-            "license_link": "https://github.com/XProger/OpenLara/blob/master/LICENSE"
+            "license_link": "https://github.com/XProger/OpenLara/blob/master/LICENSE",
+            "controllerSupported": true
         },
         "eduke32": {
             "engine_link": "https://voidpoint.io/terminx/eduke32",
@@ -6055,15 +6115,17 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt"
+            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt",
+            "controllerSupported": true
         },
         "netduke32": {
             "engine_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor",
-            "version": "Release Candidate 1 ",
+            "version": "Release Candidate 1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor/-/blob/master/source/duke3d/gpl-2.0.txt"
+            "license_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor/-/blob/master/source/duke3d/gpl-2.0.txt",
+            "controllerSupported": true
         },
         "NBlood Rednukem": {
             "engine_link": "https://github.com/nukeykt/NBlood",
@@ -6071,7 +6133,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt"
+            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/rr/gpl-2.0.txt",
+            "controllerNotSupported": true
         },
         "NBlood Exhumed": {
             "engine_link": "https://github.com/nukeykt/NBlood",
@@ -6079,7 +6142,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/exhumed/gpl-2.0.txt"
+            "license_link": "https://github.com/nukeykt/NBlood/blob/master/source/exhumed/gpl-2.0.txt",
+            "controllerNotSupported": true
         },
         "eduke32 VoidSW": {
             "engine_link": "https://voidpoint.io/terminx/eduke32",
@@ -6087,7 +6151,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/sw/gpl-2.0.txt"
+            "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/sw/gpl-2.0.txt",
+            "controllerSupported": true
         },
         "julius": {
             "engine_link": "https://github.com/bvschaik/julius",
@@ -6095,7 +6160,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "AGPL-3.0",
-            "license_link": "https://github.com/bvschaik/julius/blob/master/LICENSE.txt"
+            "license_link": "https://github.com/bvschaik/julius/blob/master/LICENSE.txt",
+            "controllerNotSupported": true
         },
         "augustus": {
             "engine_link": "https://github.com/Keriew/augustus",
@@ -6103,7 +6169,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "AGPL-3.0",
-            "license_link": "https://github.com/Keriew/augustus/blob/master/LICENSE.txt"
+            "license_link": "https://github.com/Keriew/augustus/blob/master/LICENSE.txt",
+            "controllerNotSupported": true
         },
         "reone": {
             "engine_link": "https://github.com/seedhartha/reone",
@@ -6116,7 +6183,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/seedhartha/reone/blob/master/COPYING"
+            "license_link": "https://github.com/seedhartha/reone/blob/master/COPYING",
+            "controllerNotSupported": true
         },
         "OpenGothic": {
             "engine_link": "https://github.com/Try/OpenGothic",
@@ -6129,7 +6197,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
-            "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE"
+            "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE",
+            "controllerNotSupported": true
         },
         "Serious-Engine": {
             "engine_link": "https://github.com/ptitSeb/Serious-Engine",
@@ -6137,7 +6206,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE"
+            "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE",
+            "controllerNotSupported": true
         },
         "Quake IV": {
             "engine_name": "Proprietary Engine",
@@ -6157,7 +6227,8 @@
                 {
                     "label": "A possible fix if encountering sluggish mouse movement is to set in launch options SDL12COMPAT_SYNC_TO_VBLANK=1 %command% and  then run seta com_fixedTic \"1\" in the game console. From https://www.pcgamingwiki.com/wiki/Quake_4#Issues_fixed"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "avp": {
             "engine_link": "https://github.com/neuromancer/avp",
@@ -6170,7 +6241,8 @@
                 {
                     "key": "non_free"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "Prey (2006)": {
             "engine_link": "http://icculus.org/prey/",
@@ -6186,7 +6258,8 @@
                 {
                     "key": "32_bit"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "ETQW Demo": {
             "engine_link": "https://steamcommunity.com/app/10000/discussions/0/143388511227759615/",
@@ -6211,7 +6284,8 @@
                 {
                     "label": "Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game."
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "ETQW Provided Retail": {
             "engine_link": "https://steamcommunity.com/app/10000/discussions/0/143388511227759615/",
@@ -6236,7 +6310,8 @@
                 {
                     "label": "Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game."
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "ut2004": {
             "engine_link": "http://treefort.icculus.org/ut2004/",
@@ -6255,7 +6330,8 @@
                 {
                     "label": "Mods should go in the linuxdata directory. Adds foxWSFix by default."
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "ut99": {
             "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469b-release-notes",
@@ -6275,7 +6351,8 @@
                     "key": "app_ids_deps",
                     "label": "Requires Steam Linux Runtime to be installed."
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "unrealgold": {
             "engine_link": "https://www.oldunreal.com/downloads/unreal/oldunreal-patches/",
@@ -6303,7 +6380,8 @@
                 {
                     "label": "Uses library pack from legluondunet."
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "OpenXRay": {
             "engine_link": "https://github.com/OpenXRay/xray-16",
@@ -6319,7 +6397,8 @@
                 {
                     "key": "in_progress"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "OpenMW": {
             "engine_link": "https://openmw.org/",
@@ -6327,7 +6406,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE"
+            "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE",
+            "controllerSupported": true
         },
         "openmw-tes3mp": {
             "engine_link": "https://github.com/TES3MP/openmw-tes3mp",
@@ -6335,7 +6415,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/TES3MP/openmw-tes3mp/blob/292536439eeda58becdb7e441fe2e61ebb74529e/LICENSE"
+            "license_link": "https://github.com/TES3MP/openmw-tes3mp/blob/292536439eeda58becdb7e441fe2e61ebb74529e/LICENSE",
+            "controllerSupported": true
         },
         "RBDOOM-3-BFG": {
             "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
@@ -6343,7 +6424,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md"
+            "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md",
+            "controllerNotSupported": true
         },
         "Classic-RBDOOM-3-BFG": {
             "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
@@ -6356,7 +6438,8 @@
                 {
                     "key": "steam_achivements"
                 }
-            ]
+            ],
+            "controllerSupported": true
         },
         "Cortex Command Community Project Source": {
             "engine_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source",
@@ -6364,7 +6447,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "AGPLv3",
-            "license_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source/blob/development/LICENSE"
+            "license_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source/blob/development/LICENSE",
+            "controllerNotSupported": true
         },
         "Source SDK 2013": {
             "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
@@ -6384,7 +6468,8 @@
                     "key": "app_ids_deps",
                     "label": "Requires Source SDK 2013 Singleplayer and Steam Linux Runtime to be installed."
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "rottexpr": {
             "engine_link": "https://github.com/LTCHIPS/rottexpr",
@@ -6392,7 +6477,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING"
+            "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING",
+            "controllerNotSupported": true
         },
         "bstone": {
             "engine_link": "https://github.com/bibendovsky/bstone",
@@ -6400,7 +6486,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE"
+            "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE",
+            "controllerNotSupported": true
         },
         "RigelEngine": {
             "engine_link": "https://github.com/lethal-guitar/RigelEngine",
@@ -6408,7 +6495,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/lethal-guitar/RigelEngine/blob/master/LICENSE.md"
+            "license_link": "https://github.com/lethal-guitar/RigelEngine/blob/master/LICENSE.md",
+            "controllerSupported": true
         },
         "Daikatana": {
             "engine_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
@@ -6421,7 +6509,8 @@
                 {
                     "key": "closed_source"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "dxx-rebirth": {
             "engine_link": "https://github.com/dxx-rebirth/dxx-rebirth",
@@ -6434,7 +6523,8 @@
                 {
                     "key": "non_free"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "freespace": {
             "engine_link": "https://github.com/ptitSeb/freespace2",
@@ -6447,7 +6537,8 @@
                 {
                     "key": "non_free"
                 }
-            ]
+            ],
+            "controllerSupported": true
         },
         "FreeSpace Port using fs2open": {
             "engine_link": "http://fsport.hard-light.net/website/",
@@ -6464,7 +6555,8 @@
                     "key": "app_ids_deps",
                     "label": "Requires Freespace 2 installed in same Steam library folder and run with luxtorpeda-dev client at least once."
                 }
-            ]
+            ],
+            "controllerSupported": true
         },
         "fs2open": {
             "engine_link": "https://github.com/scp-fs2open/fs2open.github.com",
@@ -6477,7 +6569,8 @@
                 {
                     "key": "non_free"
                 }
-            ]
+            ],
+            "controllerSupported": true
         },
         "openrct2": {
             "engine_link": "https://openrct2.io/",
@@ -6485,7 +6578,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
+            "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt",
+            "controllerNotSupported": true
         },
         "Perimeter": {
             "engine_link": "https://github.com/KranX/Perimeter",
@@ -6498,7 +6592,8 @@
                 {
                     "key": "in_progress"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "OpenLoco": {
             "engine_link": "https://github.com/OpenLoco/OpenLoco",
@@ -6514,7 +6609,8 @@
                 {
                     "key": "in_progress"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "terminal-recall": {
             "engine_link": "https://github.com/jtrfp/terminal-recall",
@@ -6527,7 +6623,8 @@
                 {
                     "label": "Need to configure the paths to the POD files using the in-game configuration menu for the first time."
                 }
-            ]
+            ],
+            "controllerSupported": true
         },
         "Good-Robot": {
             "engine_link": "https://github.com/arvindrajayadav/Good-Robot",
@@ -6535,7 +6632,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
-            "license_link": "https://github.com/arvindrajayadav/Good-Robot/blob/master/LICENSE.txt"
+            "license_link": "https://github.com/arvindrajayadav/Good-Robot/blob/master/LICENSE.txt",
+            "controllerSupported": true
         },
         "shockolate": {
             "engine_link": "https://github.com/Interrupt/systemshock",
@@ -6548,7 +6646,8 @@
                 {
                     "key": "32_bit"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "1oom": {
             "engine_link": "https://gitlab.com/Tapani_/1oom",
@@ -6556,7 +6655,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://gitlab.com/Tapani_/1oom/-/blob/master/COPYING"
+            "license_link": "https://gitlab.com/Tapani_/1oom/-/blob/master/COPYING",
+            "controllerNotSupported": true
         },
         "engge": {
             "engine_link": "https://github.com/scemino/engge",
@@ -6564,7 +6664,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
-            "license_link": "https://github.com/scemino/engge/blob/master/LICENSE"
+            "license_link": "https://github.com/scemino/engge/blob/master/LICENSE",
+            "controllerSupported": true
         },
         "civctp2": {
             "engine_link": "https://github.com/ptitSeb/ctp2.git",
@@ -6580,7 +6681,8 @@
                 {
                     "key": "steam_overlay_disabled"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "Ren'Py": {
             "engine_link": "https://www.renpy.org/",
@@ -6588,7 +6690,8 @@
             "author": "dreamer/Jpx",
             "author_link": "https://github.com/dreamer",
             "license": "MIT, LGPLv2.1 and other free/libre/open source licenses",
-            "license_link": "https://www.renpy.org/doc/html/license.html"
+            "license_link": "https://www.renpy.org/doc/html/license.html",
+            "controllerNotSupported": true
         },
         "REminiscence / REinforced": {
             "engine_link": "https://github.com/chermenin/REminiscence",
@@ -6596,7 +6699,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/chermenin/REminiscence/blob/master/LICENSE"
+            "license_link": "https://github.com/chermenin/REminiscence/blob/master/LICENSE",
+            "controllerSupported": true
         },
         "wrath-darkplaces": {
             "engine_link": "https://github.com/KillPixelGames/wrath-darkplaces",
@@ -6604,7 +6708,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/KillPixelGames/wrath-darkplaces/blob/master/COPYING"
+            "license_link": "https://github.com/KillPixelGames/wrath-darkplaces/blob/master/COPYING",
+            "controllerNotSupported": true
         },
         "warzone2100": {
             "engine_link": "https://github.com/Warzone2100/warzone2100",
@@ -6612,7 +6717,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.2.3/COPYING"
+            "license_link": "https://github.com/Warzone2100/warzone2100/blob/4.2.3/COPYING",
+            "controllerNotSupported": true
         },
         "runelite": {
             "engine_link": "https://github.com/runelite/runelite",
@@ -6620,7 +6726,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD 2-Clause License",
-            "license_link": "https://github.com/runelite/runelite/blob/master/LICENSE"
+            "license_link": "https://github.com/runelite/runelite/blob/master/LICENSE",
+            "controllerNotSupported": true
         },
         "runescape": {
             "engine_link": "https://www.runescape.com/community",
@@ -6633,7 +6740,8 @@
                 {
                     "key": "closed_source"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "RealRTCW": {
             "engine_link": "https://github.com/wolfetplayer/RealRTCW",
@@ -6647,7 +6755,8 @@
                     "key": "app_ids_deps",
                     "label": "Requires RTCW to be installed."
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "solarus": {
             "engine_link": "https://gitlab.com/solarus-games/solarus",
@@ -6655,7 +6764,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://gitlab.com/solarus-games/solarus/-/blob/dev/license_gpl.txt"
+            "license_link": "https://gitlab.com/solarus-games/solarus/-/blob/dev/license_gpl.txt",
+            "controllerSupported": true
         },
         "ObjectN-DarkPlaces-engine": {
             "engine_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine",
@@ -6663,7 +6773,8 @@
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine/blob/main/LICENSE"
+            "license_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine/blob/main/LICENSE",
+            "controllerNotSupported": true
         },
         "Zandronum": {
             "engine_link": "https://github.com/TorrSamaho/zandronum",
@@ -6676,7 +6787,8 @@
                 {
                     "key": "non_free"
                 }
-            ]
+            ],
+            "controllerSupportedManualGame": true
         },
         "WIGZDoom": {
             "engine_link": "https://github.com/SanyaWaffles/WIGZDoom",
@@ -6684,7 +6796,8 @@
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
-            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE"
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
+            "controllerSupportedManualGame": true
         },
         "BlastEm": {
             "engine_name": "BlastEm",
@@ -6693,7 +6806,8 @@
             "author": "Jpx",
             "author_link": "https://github.com/jesperjackson",
             "license": "GPLv3",
-            "license_link": "https://www.retrodev.com/repos/blastem/file/tip/COPYING"
+            "license_link": "https://www.retrodev.com/repos/blastem/file/tip/COPYING",
+            "controllerSupported": true
         },
         "NW.js": {
             "engine_link": "https://github.com/nwjs/nw.js",
@@ -6707,7 +6821,8 @@
                     "key": "app_ids_deps",
                     "label": "Requires Steam Linux Runtime to be installed."
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "open-ig": {
             "engine_link": "https://github.com/akarnokd/open-ig",
@@ -6723,7 +6838,8 @@
                 {
                     "label": "Uses upstream launcher."
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "OneLife": {
             "engine_link": "https://github.com/jasonrohrer/OneLife",
@@ -6739,7 +6855,8 @@
                 {
                     "label": "Run the game with Proton at least once, to get the steam key and account register finished. Then, launch the game with Luxtorpeda."
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         },
         "doom-retro": {
             "engine_link": "https://github.com/bradharding/doomretro",
@@ -6752,7 +6869,8 @@
                 {
                     "label": "Downloads FluidR3_GM.sf2 automatically. Can override SDL_SOUNDFONTS in launch options."
                 }
-            ]
+            ],
+            "controllerSupported": true
         },
         "RetroArch": {
             "engine_link": "https://store.steampowered.com/app/1118310/RetroArch/",
@@ -6766,7 +6884,8 @@
                     "key": "app_ids_deps",
                     "label": "Requires RetroArch to be installed and any cores to be installed from DLC."
                 }
-            ]
+            ],
+            "controllerSupported": true
         },
         "RetroArch (Other)": {
             "engine_link": "https://store.steampowered.com/app/1118310/RetroArch/",
@@ -6783,7 +6902,8 @@
                 {
                     "label": "Use RetroArch other option for other cores. Can use steam launch options - %command% CORENAME EXTENSION RELATIVEPATH, where CORENAME is the name of the core from the cores directory (\"snes9x\", without the _libretro.so, EXTENSION is the expected extension of the game file to lookup, such as \"sfc\", and RELATIVEPATH is the relative path in quotes to the game file to override the search."
                 }
-            ]
+            ],
+            "controllerSupported": true
         }
     },
     "noticeMap": {
