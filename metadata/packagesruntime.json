@@ -785,17 +785,6 @@
                 "engine_name": "vkQuake"
             },
             {
-                "name": "vkquake Re-release",
-                "command": "./vkquake.sh",
-                "download": [
-                    "vkquake"
-                ],
-                "command_args": [
-                    "rerelease"
-                ],
-                "engine_name": "vkQuake"
-            },
-            {
                 "name": "darkplaces-2017",
                 "command": "./darkplaces-2017/darkplaces.sh",
                 "download": [
@@ -823,21 +812,15 @@
                 }
             },
             {
-                "name": "FTE QuakeWorld Re-release",
-                "command": "./ftequakeworld-quake1-re.sh",
+                "name": "vkquake Re-release",
+                "command": "./vkquake.sh",
                 "download": [
-                    "ftequakeworld",
-                    "fteqw"
+                    "vkquake"
                 ],
                 "command_args": [
                     "rerelease"
                 ],
-                "download_config": {
-                    "fteqw": {
-                        "copy_only": true
-                    }
-                },
-                "engine_name": "FTE QuakeWorld"
+                "engine_name": "vkQuake"
             },
             {
                 "name": "ironwail",
@@ -941,24 +924,6 @@
                 "engine_name": "vkQuake"
             },
             {
-                "name": "FTE QuakeWorld Dimension of the Past Re-release",
-                "command_args": [
-                    "-game",
-                    "dopare"
-                ],
-                "command": "./ftequakeworld-quake1-dopare.sh",
-                "download": [
-                    "ftequakeworld",
-                    "fteqw"
-                ],
-                "download_config": {
-                    "fteqw": {
-                        "copy_only": true
-                    }
-                },
-                "engine_name": "FTE QuakeWorld"
-            },
-            {
                 "name": "vkquake Dimension of the Machine",
                 "command_args": [
                     "rerelease",
@@ -970,24 +935,6 @@
                     "vkquake"
                 ],
                 "engine_name": "vkQuake"
-            },
-            {
-                "name": "FTE QuakeWorld Dimension of the Machine",
-                "command_args": [
-                    "-game",
-                    "mg1"
-                ],
-                "command": "./ftequakeworld-quake1-mg1.sh",
-                "download": [
-                    "ftequakeworld",
-                    "fteqw"
-                ],
-                "download_config": {
-                    "fteqw": {
-                        "copy_only": true
-                    }
-                },
-                "engine_name": "FTE QuakeWorld"
             },
             {
                 "name": "vkquake Horde 1",
