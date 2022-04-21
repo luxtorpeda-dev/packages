@@ -12,6 +12,9 @@
 * vkquake - Update to 87b2e56, fixed an issue with the recent game patch
 * metadata - Track support for controllers - See https://github.com/luxtorpeda-dev/packages/issues/529#issuecomment-1104508644 for more information
 * vkQuake - Add support for horde maps
+* vkQuake - Improve default controller config
+* quakespasm-spiked - Improve default controller config
+* ironwail - Improve default controller config
 
 ### 51.0 (2022-03-14)
 
