@@ -91,8 +91,8 @@ then
         ln -rsf ./rerelease/QuakeEX.kpf share/quake/rerelease/QuakeEX.kpf
     fi
     echo "Running re-release $2"
-    ./vkquake -fitz -basedir share/quake/rerelease "$@"
+    ./vkquake -basedir share/quake/rerelease "$@"
 else
     echo "Running non re-release"
-    ./vkquake -fitz -basedir share/quake "$@"
+    ./vkquake -basedir share/quake "$@"
 fi
