@@ -15,6 +15,7 @@
 * vkQuake - Improve default controller config
 * quakespasm-spiked - Improve default controller config
 * ironwail - Improve default controller config
+* yquake2 - Improve default controller config
 
 ### 51.0 (2022-03-14)
 
