@@ -988,6 +988,104 @@
                     }
                 },
                 "engine_name": "FTE QuakeWorld"
+            },
+            {
+                "name": "vkquake Horde 1",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "mg1",
+                    "+map horde1"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "engine_name": "vkQuake"
+            },
+            {
+                "name": "vkquake Horde 2",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "mg1",
+                    "+map horde2"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "engine_name": "vkQuake"
+            },
+            {
+                "name": "vkquake Horde 3",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "mg1",
+                    "+map horde3"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "engine_name": "vkQuake"
+            },
+            {
+                "name": "vkquake Horde 4",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "mg1",
+                    "+map horde4"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "engine_name": "vkQuake"
+            },
+            {
+                "name": "vkquake Horde 5",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "mg1",
+                    "+map horde5"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "engine_name": "vkQuake"
+            },
+            {
+                "name": "vkquake Horde 6",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "mg1",
+                    "+map horde6"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "engine_name": "vkQuake"
+            },
+            {
+                "name": "vkquake Horde 7",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "mg1",
+                    "+map horde7"
+                ],
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "engine_name": "vkQuake"
             }
         ],
         "cloudAvailable": true,
