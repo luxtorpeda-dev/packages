@@ -2279,7 +2279,8 @@
             }
         },
         "engine_name": "Commander Genius",
-        "cloudAvailable": true
+        "cloudAvailable": true,
+        "controllerSteamDefault": true
     },
     "10050": {
         "game_name": "Enemy Territory: Quake Wars Demo",
@@ -5978,7 +5979,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt",
-            "controllerSupportedManualGame": true
+            "controllerNotSupported": true
         },
         "EternalJK (MP)": {
             "engine_link": "https://github.com/eternalcodes/EternalJK",
@@ -5987,7 +5988,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/eternalcodes/EternalJK/blob/master/LICENSE.txt",
-            "controllerSupportedManualGame": true
+            "controllerNotSupported": true
         },
         "jk2mv (MP)": {
             "engine_link": "https://github.com/mvdevs/jk2mv",
@@ -5996,7 +5997,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/mvdevs/jk2mv/blob/master/LICENSE",
-            "controllerSupportedManualGame": true
+            "controllerNotSupported": true
         },
         "scummvm": {
             "engine_link": "https://github.com/scummvm/scummvm",
