@@ -785,6 +785,17 @@
                 "engine_name": "vkQuake"
             },
             {
+                "name": "vkquake Re-release",
+                "command": "./vkquake.sh",
+                "download": [
+                    "vkquake"
+                ],
+                "command_args": [
+                    "rerelease"
+                ],
+                "engine_name": "vkQuake"
+            },
+            {
                 "name": "darkplaces-2017",
                 "command": "./darkplaces-2017/darkplaces.sh",
                 "download": [
@@ -810,17 +821,6 @@
                         "copy_only": true
                     }
                 }
-            },
-            {
-                "name": "vkquake Re-release",
-                "command": "./vkquake.sh",
-                "download": [
-                    "vkquake"
-                ],
-                "command_args": [
-                    "rerelease"
-                ],
-                "engine_name": "vkQuake"
             },
             {
                 "name": "ironwail",
