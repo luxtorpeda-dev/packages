@@ -5906,7 +5906,7 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
             "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt",
-            "controllerSupportedManualGame": true
+            "controllerSupported": true
         },
         "darkplaces-2017": {
             "engine_link": "http://icculus.org/twilight/darkplaces/",
@@ -5924,7 +5924,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt",
-            "controllerSupportedManualGame": true
+            "controllerSupported": true
         },
         "ironwail": {
             "engine_link": "https://github.com/andrei-drexler/ironwail",

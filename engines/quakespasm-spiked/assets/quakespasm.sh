@@ -46,4 +46,4 @@ if [ ! -f quakespasm/share/quake/mg1/config.cfg ] ; then
 	sed -i "s|%USER%|$USER|" quakespasm/share/quake/mg1/config.cfg
 fi
 
-LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./quakespasm/lib:./lib" ./quakespasm/quakespasm -fitz -basedir quakespasm/share/quake "$@"
+LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./quakespasm/lib:./lib" ./quakespasm/quakespasm -basedir quakespasm/share/quake "$@"
