@@ -5933,7 +5933,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/andrei-drexler/ironwail/blob/master/LICENSE.txt",
-            "controllerSupportedManualGame": true
+            "controllerSupported": true
         },
         "Yamagi Quake II": {
             "engine_link": "https://www.yamagi.org/quake2/",

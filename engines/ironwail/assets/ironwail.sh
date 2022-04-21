@@ -46,4 +46,4 @@ if [ ! -f ironwail/share/quake/mg1/config.cfg ] ; then
 	sed -i "s|%USER%|$USER|" ironwail/share/quake/mg1/config.cfg
 fi
 
-LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./ironwail/lib:./lib" ./ironwail/ironwail -fitz -basedir ironwail/share/quake "$@"
+LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./ironwail/lib:./lib" ./ironwail/ironwail -basedir ironwail/share/quake "$@"
