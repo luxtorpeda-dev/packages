@@ -5943,7 +5943,7 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
             "license_link": "https://github.com/yquake2/yquake2/blob/master/LICENSE",
-            "controllerSupportedManualGame": true
+            "controllerSupported": true
         },
         "vkQuake2": {
             "engine_name": "vkQuake2",
