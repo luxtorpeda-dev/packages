@@ -282,6 +282,22 @@
                 }
             },
             {
+                "name": "Chocolate Doom (Setup)",
+                "command": "./chocolate-doom/run-chocolate-doom-setup.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
                 "name": "prboom-plus",
                 "command": "./prboom-plus/run-prboom-plus.sh",
                 "command_args": [
@@ -480,6 +496,33 @@
                 }
             },
             {
+                "name": "Chocolate Doom (Setup)",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom-setup.sh",
+                        "args": [
+                            "-iwad",
+                            "base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom-setup.sh",
+                        "args": [
+                            "-iwad",
+                            "base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
                 "name": "prboom-plus",
                 "commands": {
                     ".*plutoniam?.conf": {
@@ -652,6 +695,22 @@
             {
                 "name": "Chocolate Doom",
                 "command": "./chocolate-doom/run-chocolate-doom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM2.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
+                "name": "Chocolate Doom (Setup)",
+                "command": "./chocolate-doom/run-chocolate-doom-setup.sh",
                 "command_args": [
                     "-iwad",
                     "base/DOOM2.WAD"
@@ -1401,6 +1460,22 @@
                 }
             },
             {
+                "name": "Chocolate Doom (Setup)",
+                "command": "./chocolate-doom/run-chocolate-hexen-setup.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/HEXEN.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
                 "name": "Doom Runner",
                 "command": "./doom-runner/run-doom-runner.sh",
                 "download": [
@@ -1591,6 +1666,22 @@
             {
                 "name": "Chocolate Doom",
                 "command": "./chocolate-doom/run-chocolate-heretic.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HERETIC.WAD"
+                ],
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
+                "name": "Chocolate Doom (Setup)",
+                "command": "./chocolate-doom/run-chocolate-heretic-setup.sh",
                 "command_args": [
                     "-iwad",
                     "../base/HERETIC.WAD"
@@ -5848,7 +5939,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3/LGPLv3",
             "license_link": "https://github.com/skyjake/Doomsday-Engine",
-            "controllerSupportedManualGame": true
+            "controllerNotSupported": true
         },
         "Chocolate Doom": {
             "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
@@ -6834,7 +6925,7 @@
                     "key": "non_free"
                 }
             ],
-            "controllerSupportedManualGame": true
+            "controllerNotSupported": true
         },
         "WIGZDoom": {
             "engine_link": "https://github.com/SanyaWaffles/WIGZDoom",
