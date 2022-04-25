@@ -4104,7 +4104,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./run-gzdoom.sh",
+        "command": "./run-gzdoom-local.sh",
         "command_args": [
             "-iwad",
             "SVE.wad",
@@ -5289,7 +5289,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./run-gzdoom.sh",
+        "command": "./run-gzdoom-local.sh",
         "command_args": [
             "-iwad",
             "shrine.ipk3",
@@ -5428,7 +5428,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./run-gzdoom.sh",
+        "command": "./run-gzdoom-local.sh",
         "command_args": [
             "-iwad",
             "shrine2/ShrineII.ipk3",
@@ -5469,7 +5469,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./run-gzdoom.sh",
+        "command": "./run-gzdoom-local.sh",
         "command_args": [
             "-iwad",
             "Lycanthorn II/Lycanthorn2.ipk3",
@@ -5621,7 +5621,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./run-gzdoom.sh",
+        "command": "./run-gzdoom-local.sh",
         "command_args": [
             "-iwad",
             "REKKRSL.iwad",
@@ -5650,7 +5650,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./run-gzdoom.sh",
+        "command": "./run-gzdoom-local.sh",
         "command_args": [
             "-iwad",
             "Engine/RF.ipk3",
@@ -5912,7 +5912,7 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
-            "controllerSupportedManualGame": true
+            "controllerSupported": true
         },
         "Doom Runner": {
             "engine_link": "https://github.com/Youda008/DoomRunner",
@@ -5962,7 +5962,7 @@
                     "label": "Pick FluidSynth in in-game options to hear music."
                 }
             ],
-            "controllerSupportedManualGame": true
+            "controllerNotSupported": true
         },
         "NBlood": {
             "engine_link": "https://github.com/nukeykt/NBlood",
@@ -5989,7 +5989,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Various Licenses",
             "license_link": "https://gitlab.com/m210/BuildGDX",
-            "controllerSupportedManualGame": true
+            "controllerNotSupported": true
         },
         "vkQuake": {
             "engine_link": "https://github.com/Novum/vkQuake",
