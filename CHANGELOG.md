@@ -10,6 +10,7 @@
 * gzdoom - Additional game controller support
 * wigzdoom - Update to f0ffed7, additional controller support
 * raze - Add default controller support
+* metadata - Add quake horde map names
 
 ### 51.1 (2022-04-02)
 
