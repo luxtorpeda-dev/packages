@@ -5,7 +5,7 @@
 # CLONE PHASE
 git clone https://github.com/yquake2/yquake2.git source
 pushd source
-git checkout f648378
+git checkout 4db6534
 popd
 
 git clone https://github.com/yquake2/ctf.git source-ctf
@@ -21,6 +21,11 @@ popd
 git clone https://github.com/yquake2/rogue.git source-rogue
 pushd source-rogue
 git checkout 397fdd7
+popd
+
+git clone https://github.com/gabomdq/SDL_GameControllerDB.git sdl_gamecontrollerdb
+pushd sdl_gamecontrollerdb
+git checkout aa79a9b
 popd
 
 # BUILD PHASE
@@ -62,6 +67,11 @@ cp -v assets/default.lux.cfg "$diststart/common/dist/ctf/yq2.cfg"
 cp -v assets/default.lux.cfg "$diststart/common/dist/rogue/yq2.cfg"
 cp -v assets/default.lux.cfg "$diststart/common/dist/xatrix/yq2.cfg"
 cp -v source/stuff/icon/Quake2.svg "$diststart/common/dist/"
+
+cp -v sdl_gamecontrollerdb/gamecontrollerdb.txt "$diststart/common/dist/baseq2/gamecontrollerdb.txt"
+cp -v sdl_gamecontrollerdb/gamecontrollerdb.txt "$diststart/common/dist/rogue/gamecontrollerdb.txt"
+cp -v sdl_gamecontrollerdb/gamecontrollerdb.txt "$diststart/common/dist/ctf/gamecontrollerdb.txt"
+cp -v sdl_gamecontrollerdb/gamecontrollerdb.txt "$diststart/common/dist/xatrix/gamecontrollerdb.txt"
 
 cp -rfv "source/release/"* "$diststart/common/dist/"
 cp -rfv "source-ctf/build/Release/game.so" "$diststart/common/dist/ctf"
