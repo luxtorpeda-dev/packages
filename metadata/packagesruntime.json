@@ -996,7 +996,7 @@
                 "engine_name": "vkQuake"
             },
             {
-                "name": "vkquake Horde 1",
+                "name": "vkquake Horde - Tower of the Apprentice",
                 "command_args": [
                     "rerelease",
                     "-game",
@@ -1010,7 +1010,7 @@
                 "engine_name": "vkQuake"
             },
             {
-                "name": "vkquake Horde 2",
+                "name": "vkquake Horde - Frozen Court",
                 "command_args": [
                     "rerelease",
                     "-game",
@@ -1024,7 +1024,7 @@
                 "engine_name": "vkQuake"
             },
             {
-                "name": "vkquake Horde 3",
+                "name": "vkquake Horde - The Foundry",
                 "command_args": [
                     "rerelease",
                     "-game",
@@ -1038,7 +1038,7 @@
                 "engine_name": "vkQuake"
             },
             {
-                "name": "vkquake Horde 4",
+                "name": "vkquake Horde - The Hunt",
                 "command_args": [
                     "rerelease",
                     "-game",
@@ -1052,7 +1052,7 @@
                 "engine_name": "vkQuake"
             },
             {
-                "name": "vkquake Horde 5",
+                "name": "vkquake Horde - Relic",
                 "command_args": [
                     "rerelease",
                     "-game",
@@ -1066,7 +1066,7 @@
                 "engine_name": "vkQuake"
             },
             {
-                "name": "vkquake Horde 6",
+                "name": "vkquake Horde - The Trial",
                 "command_args": [
                     "rerelease",
                     "-game",
@@ -1080,7 +1080,7 @@
                 "engine_name": "vkQuake"
             },
             {
-                "name": "vkquake Horde 7",
+                "name": "vkquake Horde - The Tech Spire",
                 "command_args": [
                     "rerelease",
                     "-game",
