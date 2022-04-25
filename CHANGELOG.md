@@ -1,5 +1,11 @@
 ### 52.0 (2022-04-25)
 
+* metadata - Track support for controllers - See https://github.com/luxtorpeda-dev/packages/issues/529#issuecomment-1104508644 for more information
+* vkQuake - Add support for horde maps
+* vkQuake - Improve default controller config
+* quakespasm-spiked - Improve default controller config
+* ironwail - Improve default controller config
+* yquake2 - Improve default controller config
 * yquake2 - Update to 4db6534, additional controller support
 * gzdoom - Additional game controller support
 * wigzdoom - Update to f0ffed7, additional controller support
@@ -17,12 +23,6 @@
 * qzdl - Add support for master levels
 * raze - Add support for classic 1997
 * vkquake - Update to 87b2e56, fixed an issue with the recent game patch
-* metadata - Track support for controllers - See https://github.com/luxtorpeda-dev/packages/issues/529#issuecomment-1104508644 for more information
-* vkQuake - Add support for horde maps
-* vkQuake - Improve default controller config
-* quakespasm-spiked - Improve default controller config
-* ironwail - Improve default controller config
-* yquake2 - Improve default controller config
 
 ### 51.0 (2022-03-14)
 
