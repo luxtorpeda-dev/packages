@@ -1,3 +1,9 @@
+### 52.0 (2022-04-25)
+
+* yquake2 - Update to 4db6534, additional controller support
+* gzdoom - Additional game controller support
+* wigzdoom - Update to f0ffed7, additional controller support
+
 ### 51.1 (2022-04-02)
 
 * fs2open - Update to 22.0.0
