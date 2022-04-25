@@ -5,7 +5,7 @@
 # CLONE PHASE
 git clone https://github.com/SanyaWaffles/WIGZDoom.git source
 pushd source
-git checkout ff8961e
+git checkout f0ffed7
 popd
 
 # BUILD PHASE
