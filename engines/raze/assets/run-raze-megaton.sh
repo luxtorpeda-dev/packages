@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ ! -f ~/.config/raze/raze.ini ]; then
+    if [ ! -d ~/.config/raze ]; then
+        mkdir -p ~/.config/raze
+    fi
+    cp -rfv ./raze_template.ini ~/.config/raze/raze.ini
+fi
+
 gamearg="$1"
 gamenum="$2"
 

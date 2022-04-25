@@ -1,9 +1,12 @@
 #!/bin/bash
 
-if [ ! -f raze-template.ini ]; then
-    LD_PRELOAD="" cp -rfv ./raze-template.ini ./raze.ini
+if [ ! -f ~/.config/raze/raze.ini ]; then
+    if [ ! -d ~/.config/raze ]; then
+        mkdir -p ~/.config/raze
+    fi
+    cp -rfv ./raze_template.ini ~/.config/raze/raze.ini
 fi
 
 mkdir ./ini
 cp -rfv ./BLOOD.INI ./ini/BLOOD.INI
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./raze -cryptic -config raze.ini
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./raze -cryptic
