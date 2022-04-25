@@ -68,10 +68,7 @@ cp -v assets/default.lux.cfg "$diststart/common/dist/rogue/yq2.cfg"
 cp -v assets/default.lux.cfg "$diststart/common/dist/xatrix/yq2.cfg"
 cp -v source/stuff/icon/Quake2.svg "$diststart/common/dist/"
 
-cp -v sdl_gamecontrollerdb/gamecontrollerdb.txt "$diststart/common/dist/baseq2/gamecontrollerdb.txt"
-cp -v sdl_gamecontrollerdb/gamecontrollerdb.txt "$diststart/common/dist/rogue/gamecontrollerdb.txt"
-cp -v sdl_gamecontrollerdb/gamecontrollerdb.txt "$diststart/common/dist/ctf/gamecontrollerdb.txt"
-cp -v sdl_gamecontrollerdb/gamecontrollerdb.txt "$diststart/common/dist/xatrix/gamecontrollerdb.txt"
+cp -v sdl_gamecontrollerdb/gamecontrollerdb.txt "$diststart/common/dist/"
 
 cp -rfv "source/release/"* "$diststart/common/dist/"
 cp -rfv "source-ctf/build/Release/game.so" "$diststart/common/dist/ctf"
