@@ -5980,7 +5980,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Various Licenses",
             "license_link": "https://github.com/coelckers/Raze",
-            "controllerSupportedManualGame": true
+            "controllerSupported": true
         },
         "BuildGDX": {
             "engine_link": "https://m210.duke4.net/index.php",
@@ -6934,7 +6934,7 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
-            "controllerSupportedManualGame": true
+            "controllerSupported": true
         },
         "BlastEm": {
             "engine_name": "BlastEm",
