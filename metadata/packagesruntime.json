@@ -5670,6 +5670,46 @@
         "engine_name": "gzdoom",
         "cloudNotAvailable": true
     },
+    "1812410": {
+        "game_name": "The Elder Scrolls Adventures: Redguard",
+        "download": [
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-15/",
+                "file": "dosbox-staging-common-15.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "dosbox-staging": {
+                "extract_location": "./dosbox-staging"
+            }
+        },
+        "engine_name": "dosbox-staging",
+        "command": "./dosbox-staging/run-dosbox-staging.sh",
+        "use_original_command_directory": true,
+        "cloudAvailable": true
+    },
+    "1812420": {
+        "game_name": "An Elder Scrolls Legend: Battlespire",
+        "download": [
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-15/",
+                "file": "dosbox-staging-common-15.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "dosbox-staging": {
+                "extract_location": "./dosbox-staging"
+            }
+        },
+        "engine_name": "dosbox-staging",
+        "command": "./dosbox-staging/run-dosbox-staging.sh",
+        "use_original_command_directory": true,
+        "cloudAvailable": true
+    },
     "1873030": {
         "game_name": "Wolfenstein: Enemy Territory",
         "download": [
