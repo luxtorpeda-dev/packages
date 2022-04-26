@@ -20,7 +20,7 @@ popd
 
 # COPY PHASE
 cp -rfv assets/* "$diststart/1812290/dist/"
-cp -rfv source/data/* "$diststart/1812290/dist/data"
-cp -rfv source/options/* "$diststart/1812290/dist/options"
+cp -rfv source/data/ "$diststart/1812290/dist/"
+cp -rfv source/options/ "$diststart/1812290/dist/"
 
 cp -rfv source/build/TESArena "$diststart/1812290/dist/"
