@@ -13,7 +13,7 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_BUILD_TYPE=ReleaseNative \
+    -DCMAKE_BUILD_TYPE=ReleaseGeneric \
     ..
 make -j "$(nproc)"
 popd
