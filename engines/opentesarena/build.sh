@@ -16,10 +16,10 @@ cmake \
     -DCMAKE_BUILD_TYPE=ReleaseNative \
     ..
 make -j "$(nproc)"
-make install
 popd
 
 # COPY PHASE
 cp -rfv assets/* "$diststart/1812290/dist/"
 cp -rfv data/ "$diststart/1812290/dist/"
 cp -rfv options/ "$diststart/1812290/dist/"
+cp -rfv source/build/TESArena "$diststart/1812290/dist/"
