@@ -5670,6 +5670,29 @@
         "engine_name": "gzdoom",
         "cloudNotAvailable": true
     },
+    "1812390": {
+        "game_name": "The Elder Scrolls II: Daggerfall",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v0.13.5-beta/",
+                "file": "dfu_linux_64bit-v0.13.5-beta.zip"
+            }
+        ],
+        "download_config": {
+            "binaries": {
+                "decode_as_zip": true,
+                "extract_location": "../"
+            }
+        },
+        "app_ids_deps": [
+            1070560
+        ],
+         "use_original_command_directory": true,
+        "command": "./run-daggerfall-unity.sh",
+        "engine_name": "Daggerfall Unity",
+        "cloudAvailable": true
+    },
     "default": {
         "game_name": "Default",
         "cloudNotAvailable": true,
