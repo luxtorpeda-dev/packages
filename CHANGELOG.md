@@ -13,6 +13,7 @@
 * metadata - Add quake horde map names
 * openrct2 - Update to v0.4.0
 * Added ET: Legacy
+* [Thanks to sponsors for funds to buy the games] dosbox-staging - Add support for battlespire and redguard
 
 ### 51.1 (2022-04-02)
 
