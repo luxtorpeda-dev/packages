@@ -22,4 +22,5 @@ popd
 cp -rfv assets/* "$diststart/1812290/dist/"
 cp -rfv data/ "$diststart/1812290/dist/"
 cp -rfv options/ "$diststart/1812290/dist/"
+
 cp -rfv source/build/TESArena "$diststart/1812290/dist/"
