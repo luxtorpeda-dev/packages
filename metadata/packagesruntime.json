@@ -7132,6 +7132,20 @@
                 }
             ],
             "controllerNotSupported": true
+        },
+        "OpenTESArena": {
+            "engine_link": "https://github.com/afritz1/OpenTESArena",
+            "version": "7ed44a3",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/afritz1/OpenTESArena/blob/main/LICENSE.txt",
+            "notices": [
+                {
+                    "key": "32_bit"
+                }
+            ],
+            "controllerNotSupported": true
         }
     },
     "noticeMap": {
