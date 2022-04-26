@@ -5670,6 +5670,24 @@
         "engine_name": "gzdoom",
         "cloudNotAvailable": true
     },
+    "1812290": {
+        "game_name": "The Elder Scrolls: Arena",
+        "download": [
+            {
+                "name": "eawpats",
+                "url": "https://github.com/afritz1/OpenTESArena/releases/download/",
+                "file": "opentesarena-0.1.0/eawpats.tar.gz"
+            }
+        ],
+        "command": "./run-opentesarena.sh",
+        "download_config": {
+            "eawpats": {
+               "extract_location": "./data"
+            }
+        },
+        "engine_name": "OpenTESArena",
+        "cloudNotAvailable": true
+    },
     "default": {
         "game_name": "Default",
         "cloudNotAvailable": true,
