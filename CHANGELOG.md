@@ -12,6 +12,7 @@
 * raze - Add default controller support
 * metadata - Add quake horde map names
 * openrct2 - Update to v0.4.0
+* Added ET: Legacy
 
 ### 51.1 (2022-04-02)
 
