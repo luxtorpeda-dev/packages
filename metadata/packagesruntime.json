@@ -5686,7 +5686,7 @@
             }
         },
         "engine_name": "OpenTESArena",
-        "cloudNotAvailable": true
+        "cloudAvailable": true
     },
     "1873030": {
         "game_name": "Wolfenstein: Enemy Territory",
