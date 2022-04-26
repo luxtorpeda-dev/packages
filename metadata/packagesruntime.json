@@ -7072,7 +7072,8 @@
                 {
                     "key": "32_bit"
                 }
-            ]
+            ],
+            "controllerNotSupported": true
         }
     },
     "noticeMap": {
