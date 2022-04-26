@@ -5670,6 +5670,25 @@
         "engine_name": "gzdoom",
         "cloudNotAvailable": true
     },
+    "1873030": {
+        "game_name": "Wolfenstein: Enemy Territory",
+        "download": [
+            {
+                "name": "etlegacy",
+                "url": "https://www.etlegacy.com/download/file/",
+                "file": "398.tar.gz"
+            }
+        ],
+        "download_config": {
+            "etlegacy": {
+                "extract_location": "./",
+                "strip_prefix": "etlegacy-v2.80.1-i386/"
+            }
+        },
+        "command": "./etl",
+        "engine_name": "ET: Legacy",
+        "cloudNotAvailable": true
+    },
     "default": {
         "game_name": "Default",
         "cloudNotAvailable": true,
@@ -7041,6 +7060,19 @@
                 }
             ],
             "controllerSupported": true
+        },
+        "ET: Legacy": {
+            "engine_link": "https://www.etlegacy.com/",
+            "version": "2.80.1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/etlegacy/etlegacy/blob/master/COPYING.txt",
+            "notices": [
+                {
+                    "key": "32_bit"
+                }
+            ]
         }
     },
     "noticeMap": {
