@@ -5682,15 +5682,43 @@
                 "name": "eawpats",
                 "url": "https://github.com/afritz1/OpenTESArena/releases/download/",
                 "file": "opentesarena-0.1.0/eawpats.tar.gz"
+            },
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-15/",
+                "file": "dosbox-staging-common-15.tar.xz",
+                "cache_by_name": true
             }
         ],
-        "command": "./run-opentesarena.sh",
-        "download_config": {
-            "eawpats": {
-                "extract_location": "./data"
+        "choices": [
+            {
+                "name": "OpenTESArena",
+                "command": "./run-opentesarena.sh",
+                "download_config": {
+                    "eawpats": {
+                        "extract_location": "./data"
+                    }
+                },
+                "download": [
+                    "opentesarena",
+                    "eawpats"
+                ],
+                "engine_name": "OpenTESArena"
+            },
+            {
+                "name": "dosbox-staging",
+                "command": "./dosbox-staging/run-dosbox-staging.sh",
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ],
+                "download_config": {
+                    "dosbox-staging": {
+                        "extract_location": "./dosbox-staging"
+                    }
+                }
             }
-        },
-        "engine_name": "OpenTESArena",
+        ],
         "cloudAvailable": true
     },
     "1812410": {
