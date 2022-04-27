@@ -5710,6 +5710,24 @@
         "use_original_command_directory": true,
         "cloudAvailable": true
     },
+    "1812290": {
+        "game_name": "The Elder Scrolls: Arena",
+        "download": [
+            {
+                "name": "eawpats",
+                "url": "https://github.com/afritz1/OpenTESArena/releases/download/",
+                "file": "opentesarena-0.1.0/eawpats.tar.gz"
+            }
+        ],
+        "command": "./run-opentesarena.sh",
+        "download_config": {
+            "eawpats": {
+               "extract_location": "./data"
+            }
+        },
+        "engine_name": "OpenTESArena",
+        "cloudAvailable": true
+    },
     "1873030": {
         "game_name": "Wolfenstein: Enemy Territory",
         "download": [
@@ -7114,6 +7132,20 @@
                 }
             ],
             "controllerNotSupported": true
+        },
+        "OpenTESArena": {
+            "engine_link": "https://github.com/afritz1/OpenTESArena",
+            "version": "7ed44a3",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/afritz1/OpenTESArena/blob/main/LICENSE.txt",
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ]
         }
     },
     "noticeMap": {
