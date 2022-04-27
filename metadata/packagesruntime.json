@@ -5735,16 +5735,43 @@
                 "name": "etlegacy",
                 "url": "https://www.etlegacy.com/download/file/",
                 "file": "398.tar.gz"
+            },
+            {
+                "name": "etlegacy-64",
+                "url": "https://www.etlegacy.com/download/file/",
+                "file": "396.tar.gz"
             }
         ],
-        "download_config": {
-            "etlegacy": {
-                "extract_location": "./",
-                "strip_prefix": "etlegacy-v2.80.1-i386/"
+        "choices": [
+            {
+                "name": "ET: Legacy (32-bit, Recommended)",
+                "engine_name": "ET: Legacy",
+                "command": "./etl",
+                "download": [
+                    "etlegacy"
+                ],
+                "download_config": {
+                    "etlegacy": {
+                        "extract_location": "./",
+                        "strip_prefix": "etlegacy-v2.80.1-i386/"
+                    }
+                }
+            },
+            {
+                "name": "ET: Legacy (64-bit)",
+                "engine_name": "ET: Legacy (64-bit)",
+                "command": "./etlegacy-64/etl",
+                "download": [
+                    "etlegacy-64"
+                ],
+                "download_config": {
+                    "etlegacy-64": {
+                        "extract_location": "./etlegacy-64",
+                        "strip_prefix": "etlegacy-v2.80.1-x86_64/"
+                    }
+                }
             }
-        },
-        "command": "./etl",
-        "engine_name": "ET: Legacy",
+        ],
         "cloudNotAvailable": true
     },
     "default": {
@@ -7131,6 +7158,15 @@
                     "key": "32_bit"
                 }
             ],
+            "controllerNotSupported": true
+        },
+         "ET: Legacy (64-bit)": {
+            "engine_link": "https://www.etlegacy.com/",
+            "version": "2.80.1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/etlegacy/etlegacy/blob/master/COPYING.txt",
             "controllerNotSupported": true
         },
         "OpenTESArena": {
