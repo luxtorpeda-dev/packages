@@ -7140,7 +7140,12 @@
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
             "license_link": "https://github.com/afritz1/OpenTESArena/blob/main/LICENSE.txt",
-            "controllerNotSupported": true
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ]
         }
     },
     "noticeMap": {
