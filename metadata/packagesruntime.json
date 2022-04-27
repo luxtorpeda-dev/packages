@@ -5670,6 +5670,29 @@
         "engine_name": "gzdoom",
         "cloudNotAvailable": true
     },
+    "1812290": {
+        "game_name": "The Elder Scrolls: Arena",
+        "download": [
+            {
+                "name": "eawpats",
+                "url": "https://github.com/afritz1/OpenTESArena/releases/download/",
+                "file": "opentesarena-0.1.0/eawpats.tar.gz"
+            },
+            {
+                "name": "opentesarena",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentesarena-1/",
+                "file": "opentesarena-1812290-1.tar.xz"
+            }
+        ],
+        "command": "./run-opentesarena.sh",
+        "download_config": {
+            "eawpats": {
+                "extract_location": "./data"
+            }
+        },
+        "engine_name": "OpenTESArena",
+        "cloudAvailable": true
+    },
     "1812410": {
         "game_name": "The Elder Scrolls Adventures: Redguard",
         "download": [
@@ -5708,24 +5731,6 @@
         "engine_name": "dosbox-staging",
         "command": "./dosbox-staging/run-dosbox-staging.sh",
         "use_original_command_directory": true,
-        "cloudAvailable": true
-    },
-    "1812290": {
-        "game_name": "The Elder Scrolls: Arena",
-        "download": [
-            {
-                "name": "eawpats",
-                "url": "https://github.com/afritz1/OpenTESArena/releases/download/",
-                "file": "opentesarena-0.1.0/eawpats.tar.gz"
-            }
-        ],
-        "command": "./run-opentesarena.sh",
-        "download_config": {
-            "eawpats": {
-               "extract_location": "./data"
-            }
-        },
-        "engine_name": "OpenTESArena",
         "cloudAvailable": true
     },
     "1873030": {
@@ -7160,7 +7165,7 @@
             ],
             "controllerNotSupported": true
         },
-         "ET: Legacy (64-bit)": {
+        "ET: Legacy (64-bit)": {
             "engine_link": "https://www.etlegacy.com/",
             "version": "2.80.1",
             "author": "d10sfan",
