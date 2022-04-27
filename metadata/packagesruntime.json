@@ -5675,8 +5675,8 @@
         "download": [
             {
                 "name": "opentesarena",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentesarena-1/",
-                "file": "opentesarena-1812290-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentesarena-2/",
+                "file": "opentesarena-1812290-2.tar.xz"
             },
             {
                 "name": "eawpats",
