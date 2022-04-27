@@ -30,7 +30,10 @@ if [ "$readyversion" != "$wantedversion" ]; then
     LD_LIBRARY_PATH="" "$filepath" --appimage-extract
 
     if [ ! -f ~/.ja2/ja2.json ]; then
-        echo "{\"game_dir\": \"$PWD/JA2Classic\", \"mods\": [\"wildfire-maps\"]}" > ~/.ja2/ja2.json
+        if [ ! -d ~/.ja2 ]; then
+            mkdir -p ~/.ja2
+        fi
+        echo "{\"game_dir\": \"$PWD/JA2Classic\"}" > ~/.ja2/ja2.json
     fi
 
     ln -rsf ./Data/TileSets ./Data/Tilesets
