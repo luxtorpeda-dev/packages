@@ -14,6 +14,7 @@
 * openrct2 - Update to v0.4.0
 * Added ET: Legacy
 * [Thanks to sponsors for funds to buy the games] dosbox-staging - Add support for battlespire and redguard
+* Added OpenTESArena, in progress engine
 
 ### 51.1 (2022-04-02)
 
