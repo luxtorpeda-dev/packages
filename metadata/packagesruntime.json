@@ -6341,7 +6341,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/sezero/uhexen2/blob/master/docs/COPYING",
-            "controllerNotSupported": true
+            "controllerSupportedManualGame": true
         },
         "Commander Genius": {
             "engine_link": "https://gitlab.com/Dringgstein/Commander-Genius",
