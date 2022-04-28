@@ -4,7 +4,7 @@ cd ../
 
 chmod +x DaggerfallUnity.x86_64
 
-ln -rsf /DF/DFCD/DAGGER/ARENA2/*.VID DF/DAGGER/ARENA2
+ln -rsf DF/DFCD/DAGGER/ARENA2/*.VID DF/DAGGER/ARENA2
 
 if [[ ! -z "${DEPPATH_1070560}" ]]; then
     runtimepath="$DEPPATH_1070560"
