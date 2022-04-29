@@ -4559,6 +4559,11 @@
                 "name": "7kaa-music",
                 "url": "https://www.7kfans.com/downloads/",
                 "file": "7kaa-music-2.15.tar.bz2"
+            },
+            {
+                "name": "7kaa",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-1/",
+                "file": "7kaa-450140-1.tar.xz"
             }
         ],
         "engine_name": "7kaa",
