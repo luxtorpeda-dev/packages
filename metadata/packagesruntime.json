@@ -4558,8 +4558,7 @@
             {
                 "name": "7kaa-music",
                 "url": "https://www.7kfans.com/downloads/",
-                "file": "7kaa-music-2.15.tar.bz2",
-                "cache_by_name": true
+                "file": "7kaa-music-2.15.tar.bz2"
             }
         ],
         "engine_name": "7kaa",
