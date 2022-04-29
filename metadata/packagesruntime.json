@@ -4552,6 +4552,28 @@
         "cloudNotAvailable": true,
         "controllerSteamDefault": true
     },
+    "450140": {
+        "game_name": "Seven Kingdoms: Ancient Adversaries",
+        "download": [
+            {
+                "name": "7kaa-music",
+                "url": "https://www.7kfans.com/downloads/",
+                "file": "7kaa-music-2.15.tar.bz2"
+            }
+        ],
+        "engine_name": "7kaa",
+        "command": "./7kaa/run-7kaa.sh",
+        "download_config": {
+            "7kaa": {
+                "extract_location": "./7kaa"
+            },
+            "7kaa-music": {
+                "extract_location": "./7kaa/data",
+                "strip_prefix": "7kaa-music/"
+            }
+        },
+        "cloudNotAvailable": true
+    },
     "517790": {
         "game_name": "Caesar 3",
         "download": [
@@ -7215,6 +7237,15 @@
                     "key": "in_progress"
                 }
             ]
+        },
+        "7kaa": {
+            "engine_link": "https://github.com/the3dfxdude/7kaa.git",
+            "version": "2.15.5",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/the3dfxdude/7kaa/blob/master/COPYING",
+            "controllerNotSupported": true
         }
     },
     "noticeMap": {
