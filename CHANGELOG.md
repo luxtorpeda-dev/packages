@@ -17,6 +17,7 @@
 * Added OpenTESArena, in progress engine
 * dosbox-staging - Add for arena as additional option
 * Jagged Alliance 2 Stracciatella - Update to 0.19.1
+* [Thanks to sponsors for funds to buy the games] Added 7kaa
 
 ### 51.1 (2022-04-02)
 
