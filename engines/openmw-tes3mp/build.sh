@@ -7,7 +7,7 @@ mkdir -p "$tmp"
 # CLONE PHASE
 git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
-git checkout -f 000e872
+git checkout -f 6895409
 git submodule update --init --recursive
 popd
 
