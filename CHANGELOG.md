@@ -18,6 +18,7 @@
 * dosbox-staging - Add for arena as additional option
 * Jagged Alliance 2 Stracciatella - Update to 0.19.1
 * [Thanks to sponsors for funds to buy the games] Added 7kaa
+* openmw-tes3mp - Update to 0.8.1
 
 ### 51.1 (2022-04-02)
 
