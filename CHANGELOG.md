@@ -1,3 +1,8 @@
+### 52.1 (2022-05-07)
+
+* scummvm - Switch to local config file
+* classic-rbdoom-3-bfg - Add support for bethesda.net edition
+
 ### 52.0 (2022-04-25)
 
 * metadata - Track support for controllers - See https://github.com/luxtorpeda-dev/packages/issues/529#issuecomment-1104508644 for more information
