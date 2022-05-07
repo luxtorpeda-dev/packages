@@ -5,7 +5,7 @@ cd "$DIR"
 
 if [[ -d "../Original" ]]; then
     echo "Assuming original path for scummvm"
-    LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm --add --path=../Original --recursive
+    LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --add --path=../Original --recursive
 else
     if [[ $DIR == *"ScummVM_Windows"* ]]; then
         echo "Running parent path"
@@ -18,4 +18,4 @@ else
 fi
 
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm --fullscreen --gfx-mode=opengl --themepath=./share/scummvm
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --fullscreen --gfx-mode=opengl --themepath=./share/scummvm
