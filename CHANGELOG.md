@@ -2,6 +2,7 @@
 
 * scummvm - Switch to local config file
 * classic-rbdoom-3-bfg - Add support for bethesda.net edition
+* OpenLoco - Update to 22.05
 
 ### 52.0 (2022-04-25)
 
