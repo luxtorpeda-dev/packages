@@ -16,6 +16,8 @@ pushd spearmint-patch-data
 git checkout 3efbbca
 pushd
 
+wget https://raw.githubusercontent.com/gabomdq/SDL_GameControllerDB/master/gamecontrollerdb.txt
+
 # BUILD PHASE
 pushd "source"
 make -j "$(nproc)"
@@ -28,6 +30,7 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/common/dist/spearmint"
 cp -rfv source/build/release-linux-x86_64/* "$diststart/common/dist/spearmint"
+cp -rfv ./gamecontrollerdb.txt "$diststart/common/dist/spearmint"
 
 mkdir -p "$diststart/common/dist/mint-arena"
 cp -rfv mint-arena/build/release-linux-x86_64/* "$diststart/common/dist/mint-arena"
