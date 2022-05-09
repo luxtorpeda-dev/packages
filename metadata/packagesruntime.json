@@ -5412,6 +5412,18 @@
         "cloudNotAvailable": true
     },
     "1367160": {
+        "game_name": "Wetlands",
+        "download": [],
+        "download_config": {
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
+            }
+        },
+        "command": "./scum-latest/run-scummvm.sh",
+        "engine_name": "scummvm-latest",
+        "cloudNotAvailable": true
+    },
+    "1368340": {
         "game_name": "Beneath a Steel Sky",
         "download": [
             {
@@ -5428,18 +5440,6 @@
         },
         "command": "./scum/run-scummvm.sh",
         "engine_name": "scummvm",
-        "cloudNotAvailable": true
-    },
-    "1368340": {
-        "game_name": "Wetlands",
-        "download": [],
-        "download_config": {
-            "scummvm-latest": {
-                "extract_location": "./scum-latest"
-            }
-        },
-        "command": "./scum-latest/run-scummvm.sh",
-        "engine_name": "scummvm-latest",
         "cloudNotAvailable": true
     },
     "1379630": {
