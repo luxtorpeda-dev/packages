@@ -6338,7 +6338,12 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING",
-            "controllerSupported": true
+            "controllerSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ]
         },
         "dosbox-staging": {
             "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
