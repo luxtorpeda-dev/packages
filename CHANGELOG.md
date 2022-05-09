@@ -5,6 +5,7 @@
 * OpenLoco - Update to 22.05
 * scummvm - Support games that have assets in .iso, will look for an iso and extract it.
 * Add scummvm-latest, which has uses the most recent commit at the time. This would only be updated on request, where the normal scummvm will be updated whenever there is a new release.
+* scummvm-latest - Add Wetlands
 
 ### 52.0 (2022-04-25)
 
