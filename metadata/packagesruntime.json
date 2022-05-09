@@ -131,6 +131,26 @@
                         "copy_only": true
                     }
                 }
+            },
+            {
+                "name": "Spearmint",
+                "download_config": {
+                    "spearmint": {
+                        "extract_location": "./spearmint"
+                    }
+                },
+                "command": "./spearmint/run-spearmint.sh",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "spearmint"
+                ]
             }
         ],
         "cloudAvailable": true
@@ -1374,6 +1394,26 @@
                 "download": [
                     "quake3e",
                     "Patch Data"
+                ]
+            },
+            {
+                "name": "Spearmint",
+                "download_config": {
+                    "spearmint": {
+                        "extract_location": "./spearmint"
+                    }
+                },
+                "command": "./spearmint/run-spearmint.sh",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "spearmint"
                 ]
             }
         ],
@@ -6131,6 +6171,15 @@
             "license": "GPLv2",
             "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt",
             "controllerNotSupported": true
+        },
+        "Spearmint": {
+            "engine_link": "https://github.com/zturtleman/spearmint",
+            "version": "2baea18",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/zturtleman/spearmint/blob/master/COPYING.txt",
+            "controllerSupported": true
         },
         "FTE QuakeWorld": {
             "engine_link": "https://fte.triptohell.info/about",
