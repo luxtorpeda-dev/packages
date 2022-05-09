@@ -8,7 +8,7 @@ if ! [[ -d "../iso_data" ]]; then
     if ! [ -z "$iso_find" ]; then
         echo "Found iso - $iso_find"
 
-        ./xorriso -osirrox on -indev "$iso_find" -extract / ../iso_data
+        LD_PRELOAD="" ./xorriso -osirrox on -indev "$iso_find" -extract / ../iso_data
         LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --add --path=../iso_data --recursive
     fi
 fi
