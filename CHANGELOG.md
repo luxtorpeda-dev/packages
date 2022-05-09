@@ -6,6 +6,7 @@
 * scummvm - Support games that have assets in .iso, will look for an iso and extract it.
 * Add scummvm-latest, which has uses the most recent commit at the time. This would only be updated on request, where the normal scummvm will be updated whenever there is a new release.
 * [Thanks to sponsors for funds to buy the games] scummvm-latest - Add Wetlands
+* Added Spearmint engine, for Quake III: Arena & Quake III: Team Arena. Has nice support for controllers in menu and in-game.
 
 ### 52.0 (2022-04-25)
 
