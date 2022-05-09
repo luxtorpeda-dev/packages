@@ -5413,7 +5413,14 @@
     },
     "1367160": {
         "game_name": "Wetlands",
-        "download": [],
+        "download": [
+            {
+                "name": "scummvm-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-1/",
+                "file": "scummvm-latest-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
         "download_config": {
             "scummvm-latest": {
                 "extract_location": "./scum-latest"
@@ -5960,6 +5967,12 @@
                 "name": "retroarch",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/retroarch-1/",
                 "file": "retroarch-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "scummvm-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-1/",
+                "file": "scummvm-latest-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
