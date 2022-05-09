@@ -5411,6 +5411,18 @@
         },
         "cloudNotAvailable": true
     },
+    "1367160": {
+        "game_name": "Wetlands",
+        "download": [],
+        "download_config": {
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
+            }
+        },
+        "command": "./scum-latest/run-scummvm.sh",
+        "engine_name": "scummvm-latest",
+        "cloudNotAvailable": true
+    },
     "1368340": {
         "game_name": "Beneath a Steel Sky",
         "download": [
@@ -5955,6 +5967,9 @@
             "scummvm": {
                 "extract_location": "./scum"
             },
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
+            },
             "dosbox-staging": {
                 "extract_location": "./dosbox-staging"
             }
@@ -5965,6 +5980,13 @@
                 "command": "./scum/run-scummvm.sh",
                 "download": [
                     "scummvm"
+                ]
+            },
+            {
+                "name": "scummvm-latest",
+                "command": "./scum-latest/run-scummvm.sh",
+                "download": [
+                    "scummvm-latest"
                 ]
             },
             {
@@ -6308,6 +6330,20 @@
             "license": "GPLv2",
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING",
             "controllerSupported": true
+        },
+        "scummvm-latest": {
+            "engine_link": "https://github.com/scummvm/scummvm",
+            "version": "1607b25",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING",
+            "controllerSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ]
         },
         "dosbox-staging": {
             "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
