@@ -37,7 +37,7 @@
                   </mat-icon>
                   <mat-icon
                     [matTooltip]="title.engines[titleEnginePicked[title.titleId]].steamOverlayDisabled ? 'Steam Overlay Disabled' : 'Steam Overlay Enabled'"
-                    [style.color]="title.engines[titleEnginePicked[title.titleId]].steamOverlayDisabled ? 'yellow' : 'green'"
+                    [style.color]="title.engines[titleEnginePicked[title.titleId]].steamOverlayDisabled ? 'red' : 'green'"
                   >
                     desktop_windows
                   </mat-icon>
@@ -59,7 +59,7 @@
                   <mat-icon
                     *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerNotSupported"
                     matTooltip="Engine Does Not Have Native Controller Support"
-                    [style.color]="'yellow'"
+                    [style.color]="'red'"
                   >
                     sports_esports
                   </mat-icon>
@@ -75,7 +75,7 @@
                   <mat-icon
                     *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGame && title.controllerSteamDefault"
                     matTooltip="Engine Has Native Controller Support But Needs Manual In-Game Settings"
-                    [style.color]="'#6060e1'"
+                    [style.color]="'yellow'"
                   >
                     sports_esports
                   </mat-icon>
@@ -83,7 +83,7 @@
                   <mat-icon
                     *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerSupported && !title.controllerSteamDefault"
                     matTooltip="Engine Has Native Controller Support But Needs Manual Steam Settings"
-                    [style.color]="'#6060e1'"
+                    [style.color]="'yellow'"
                   >
                     sports_esports
                   </mat-icon>
@@ -91,7 +91,7 @@
                   <mat-icon
                     *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGame && !title.controllerSteamDefault"
                     matTooltip="Engine Has Native Controller Support But Needs Manual In-Game and Steam Settings"
-                    [style.color]="'#6060e1'"
+                    [style.color]="'red'"
                   >
                     sports_esports
                   </mat-icon>
