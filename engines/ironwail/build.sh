@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/andrei-drexler/ironwail.git source
 pushd source
-git checkout cc0279b
+git checkout be17f15
 popd
 
 # BUILD PHASE

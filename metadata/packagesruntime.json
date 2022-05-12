@@ -6326,7 +6326,7 @@
         },
         "ironwail": {
             "engine_link": "https://github.com/andrei-drexler/ironwail",
-            "version": "0.5.0",
+            "version": "0.6.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
