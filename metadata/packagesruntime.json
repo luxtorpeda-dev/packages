@@ -5951,6 +5951,34 @@
         "engine_name": "Classic-RBDOOM-3-BFG",
         "cloudNotAvailable": true
     },
+    "1988750": {
+        "game_name": "Project Crypt",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
+                "file": "gzdoom-common-25.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom-local.sh",
+        "command_args": [
+            "-iwad",
+            "./Project_Crypt_GZ/project_crypt.ipk3",
+            "-savedir",
+            "./Project_Crypt_GZ/Save",
+            "-config",
+            "gzdoom.ini"
+        ],
+        "notices": [
+            {
+                "key": "saves",
+                "value": "save_game_dir"
+            }
+        ],
+        "engine_name": "gzdoom",
+        "cloudNotAvailable": true
+    },
     "default": {
         "game_name": "Default",
         "cloudNotAvailable": true,
