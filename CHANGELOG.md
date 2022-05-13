@@ -1,6 +1,7 @@
 ### 53.0 (2022-05-12)
 
 * ironwail - Update to 0.6.0
+* gzdoom - Add Project Crypt
 
 ### 52.1 (2022-05-07)
 
