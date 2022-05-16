@@ -50,4 +50,4 @@ else
 fi
 
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --fullscreen --gfx-mode=opengl --themepath=./share/scummvm
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --fullscreen --themepath=./share/scummvm
