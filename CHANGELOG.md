@@ -2,6 +2,7 @@
 
 * ironwail - Update to 0.6.0
 * gzdoom - Add Project Crypt
+* vkQuake - Update to 1.13.1
 
 ### 52.1 (2022-05-07)
 
