@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/ptitSeb/Serious-Engine.git source
 pushd source
-git checkout 8f1a273
+git checkout ab0aa4f
 popd
 
 # PRE-COPY PHASE
