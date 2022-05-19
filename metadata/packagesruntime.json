@@ -4017,8 +4017,8 @@
         "download": [
             {
                 "name": "perimeter",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-7/",
-                "file": "perimeter-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-8/",
+                "file": "perimeter-common-8.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4031,8 +4031,8 @@
         "download": [
             {
                 "name": "perimeter",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-7/",
-                "file": "perimeter-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-8/",
+                "file": "perimeter-common-8.tar.xz",
                 "cache_by_name": true
             }
         ],
