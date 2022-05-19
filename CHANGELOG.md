@@ -4,6 +4,7 @@
 * gzdoom - Add Project Crypt
 * vkQuake - Update to 1.13.1
 * OpenLoco - Update to 22.05.1
+* Perimeter - Update to 3.0.10
 
 ### 52.1 (2022-05-07)
 
