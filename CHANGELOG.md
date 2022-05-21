@@ -1,3 +1,22 @@
+### 53.0 (2022-05-12)
+
+* ironwail - Update to 0.6.0
+* gzdoom - Add Project Crypt
+* vkQuake - Update to 1.13.1
+* OpenLoco - Update to 22.05.1
+* Perimeter - Update to 3.0.10
+
+### 52.1 (2022-05-07)
+
+* scummvm - Switch to local config file
+* classic-rbdoom-3-bfg - Add support for bethesda.net edition
+* OpenLoco - Update to 22.05
+* scummvm - Support games that have assets in .iso, will look for an iso and extract it.
+* Add scummvm-latest, which has uses the most recent commit at the time. This would only be updated on request, where the normal scummvm will be updated whenever there is a new release.
+* [Thanks to sponsors for funds to buy the games] scummvm-latest - Add Wetlands
+* Added Spearmint engine, for Quake III: Arena & Quake III: Team Arena. Has nice support for controllers in menu and in-game.
+* ET: Legacy - Update to 2.80.2
+
 ### 52.0 (2022-04-25)
 
 * metadata - Track support for controllers - See https://github.com/luxtorpeda-dev/packages/issues/529#issuecomment-1104508644 for more information
@@ -12,6 +31,13 @@
 * raze - Add default controller support
 * metadata - Add quake horde map names
 * openrct2 - Update to v0.4.0
+* Added ET: Legacy
+* [Thanks to sponsors for funds to buy the games] dosbox-staging - Add support for battlespire and redguard
+* Added OpenTESArena, in progress engine
+* dosbox-staging - Add for arena as additional option
+* Jagged Alliance 2 Stracciatella - Update to 0.19.1
+* [Thanks to sponsors for funds to buy the games] Added 7kaa
+* openmw-tes3mp - Update to 0.8.1
 
 ### 51.1 (2022-04-02)
 

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wantedversion="0.18.0"
+wantedversion="0.19.1"
 
-filepath="./ja2-stracciatella_0.18.0-git+ebc73ce_x86-64.AppImage"
+filepath="./ja2-stracciatella_0.19.1-git+6ad1b6f_x86-64.AppImage"
 
 if [[ -d "JA2Classic" ]]; then
     echo "Classic found"
@@ -30,7 +30,10 @@ if [ "$readyversion" != "$wantedversion" ]; then
     LD_LIBRARY_PATH="" "$filepath" --appimage-extract
 
     if [ ! -f ~/.ja2/ja2.json ]; then
-        echo "{\"game_dir\": \"$PWD/JA2Classic\", \"mods\": [\"wildfire-maps\"]}" > ~/.ja2/ja2.json
+        if [ ! -d ~/.ja2 ]; then
+            mkdir -p ~/.ja2
+        fi
+        echo "{\"game_dir\": \"$PWD/JA2Classic\"}" > ~/.ja2/ja2.json
     fi
 
     ln -rsf ./Data/TileSets ./Data/Tilesets

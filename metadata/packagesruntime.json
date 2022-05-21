@@ -88,6 +88,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
                 "file": "ftequakeworld-common-6.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "spearmint",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-1/",
+                "file": "spearmint-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -131,6 +137,26 @@
                         "copy_only": true
                     }
                 }
+            },
+            {
+                "name": "Spearmint",
+                "download_config": {
+                    "spearmint": {
+                        "extract_location": "./spearmint"
+                    }
+                },
+                "command": "./spearmint/run-spearmint.sh",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "spearmint"
+                ]
             }
         ],
         "cloudAvailable": true
@@ -795,8 +821,8 @@
         "download": [
             {
                 "name": "vkquake",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-25/",
-                "file": "vkquake-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake-26/",
+                "file": "vkquake-common-26.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -829,8 +855,8 @@
             },
             {
                 "name": "ironwail",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ironwail-2/",
-                "file": "ironwail-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ironwail-3/",
+                "file": "ironwail-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -1344,6 +1370,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake3e-8/",
                 "file": "quake3e-common-8.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "spearmint",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-1/",
+                "file": "spearmint-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -1374,6 +1406,26 @@
                 "download": [
                     "quake3e",
                     "Patch Data"
+                ]
+            },
+            {
+                "name": "Spearmint",
+                "download_config": {
+                    "spearmint": {
+                        "extract_location": "./spearmint"
+                    }
+                },
+                "command": "./spearmint/run-spearmint.sh",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "spearmint"
                 ]
             }
         ],
@@ -1852,8 +1904,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-9/",
-                "file": "scummvm-common-9.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-12/",
+                "file": "scummvm-common-12.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2547,8 +2599,8 @@
             },
             {
                 "name": "openmw-tes3mp",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-6/",
-                "file": "openmw-tes3mp-22320-6.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-7/",
+                "file": "openmw-tes3mp-22320-7.tar.xz"
             }
         ],
         "download_config": {
@@ -3129,8 +3181,8 @@
         "download": [
             {
                 "name": "serious-engine",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-2/",
-                "file": "serious-engine-41050-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-4/",
+                "file": "serious-engine-41050-4.tar.xz"
             }
         ],
         "command": "./Bin/ssam-tfe",
@@ -3142,8 +3194,8 @@
         "download": [
             {
                 "name": "serious-engine",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-2/",
-                "file": "serious-engine-41060-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-4/",
+                "file": "serious-engine-41060-4.tar.xz"
             }
         ],
         "command": "./Bin/ssam",
@@ -3302,8 +3354,8 @@
         "download": [
             {
                 "name": "ja2-binaries",
-                "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.18.0/",
-                "file": "ja2-stracciatella_0.18.0-git+ebc73ce_x86-64.AppImage"
+                "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.19.1/",
+                "file": "ja2-stracciatella_0.19.1-git+6ad1b6f_x86-64.AppImage"
             },
             {
                 "name": "ja2-wildfire",
@@ -3312,8 +3364,8 @@
             },
             {
                 "name": "ja2-stracciatella",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-4/",
-                "file": "ja2-stracciatella-215930-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-6/",
+                "file": "ja2-stracciatella-215930-6.tar.xz"
             }
         ],
         "command": "./run-ja2.sh",
@@ -3965,8 +4017,8 @@
         "download": [
             {
                 "name": "perimeter",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-7/",
-                "file": "perimeter-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-8/",
+                "file": "perimeter-common-8.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3979,8 +4031,8 @@
         "download": [
             {
                 "name": "perimeter",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-7/",
-                "file": "perimeter-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/perimeter-8/",
+                "file": "perimeter-common-8.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4238,8 +4290,8 @@
         "download": [
             {
                 "name": "openloco",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-15/",
-                "file": "openloco-356430-15.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-17/",
+                "file": "openloco-356430-17.tar.xz"
             }
         ],
         "command": "./run-openloco.sh",
@@ -4307,6 +4359,20 @@
         "cloudNotAvailable": true,
         "controllerSteamDefault": true
     },
+    "358400": {
+        "game_name": "Shadow Warrior (Classic)",
+        "download": [
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-31/",
+                "file": "raze-common-31.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "engine_name": "raze",
+        "command": "./run-raze.sh",
+        "cloudNotAvailable": true
+    },
     "358410": {
         "game_name": "Rise of the Triad: Dark War",
         "download": [
@@ -4334,6 +4400,20 @@
         "engine_name": "Good-Robot",
         "cloudAvailable": true,
         "controllerSteamDefault": true
+    },
+    "359850": {
+        "game_name": "Duke Nukem 3D",
+        "download": [
+            {
+                "name": "raze",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-31/",
+                "file": "raze-common-31.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "engine_name": "raze",
+        "command": "./run-raze.sh",
+        "cloudNotAvailable": true
     },
     "371180": {
         "game_name": "Super 3-D Noah's Ark",
@@ -4551,6 +4631,33 @@
         ],
         "cloudNotAvailable": true,
         "controllerSteamDefault": true
+    },
+    "450140": {
+        "game_name": "Seven Kingdoms: Ancient Adversaries",
+        "download": [
+            {
+                "name": "7kaa",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-1/",
+                "file": "7kaa-450140-1.tar.xz"
+            },
+            {
+                "name": "7kaa-music",
+                "url": "https://www.7kfans.com/downloads/",
+                "file": "7kaa-music-2.15.tar.bz2"
+            }
+        ],
+        "engine_name": "7kaa",
+        "command": "./7kaa/run-7kaa.sh",
+        "download_config": {
+            "7kaa": {
+                "extract_location": "./7kaa"
+            },
+            "7kaa-music": {
+                "extract_location": "./7kaa/data",
+                "strip_prefix": "7kaa-music/"
+            }
+        },
+        "cloudNotAvailable": true
     },
     "517790": {
         "game_name": "Caesar 3",
@@ -5356,13 +5463,32 @@
         },
         "cloudNotAvailable": true
     },
+    "1367160": {
+        "game_name": "Wetlands",
+        "download": [
+            {
+                "name": "scummvm-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-3/",
+                "file": "scummvm-latest-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
+            }
+        },
+        "command": "./scum-latest/run-scummvm.sh",
+        "engine_name": "scummvm-latest",
+        "cloudNotAvailable": true
+    },
     "1368340": {
         "game_name": "Beneath a Steel Sky",
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-9/",
-                "file": "scummvm-common-9.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-12/",
+                "file": "scummvm-common-12.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5670,7 +5796,58 @@
         "engine_name": "gzdoom",
         "cloudNotAvailable": true
     },
-    "1812390": {
+    "1812290": {
+        "game_name": "The Elder Scrolls: Arena",
+        "download": [
+            {
+                "name": "opentesarena",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentesarena-2/",
+                "file": "opentesarena-1812290-2.tar.xz"
+            },
+            {
+                "name": "eawpats",
+                "url": "https://github.com/afritz1/OpenTESArena/releases/download/",
+                "file": "opentesarena-0.1.0/eawpats.tar.gz"
+            },
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-15/",
+                "file": "dosbox-staging-common-15.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "OpenTESArena",
+                "command": "./run-opentesarena.sh",
+                "download_config": {
+                    "eawpats": {
+                        "extract_location": "./data"
+                    }
+                },
+                "download": [
+                    "opentesarena",
+                    "eawpats"
+                ],
+                "engine_name": "OpenTESArena"
+            },
+            {
+                "name": "dosbox-staging",
+                "command": "./dosbox-staging/run-dosbox-staging.sh",
+                "use_original_command_directory": true,
+                "download": [
+                    "dosbox-staging"
+                ],
+                "download_config": {
+                    "dosbox-staging": {
+                        "extract_location": "./dosbox-staging"
+                    }
+                }
+            }
+        ],
+        "cloudAvailable": true
+    },
+     "1812390": {
         "game_name": "The Elder Scrolls II: Daggerfall",
         "download": [
             {
@@ -5728,14 +5905,146 @@
         "use_original_command_directory": true,
         "cloudAvailable": true
     },
+    "1812410": {
+        "game_name": "The Elder Scrolls Adventures: Redguard",
+        "download": [
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-15/",
+                "file": "dosbox-staging-common-15.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "dosbox-staging": {
+                "extract_location": "./dosbox-staging"
+            }
+        },
+        "engine_name": "dosbox-staging",
+        "command": "./dosbox-staging/run-dosbox-staging.sh",
+        "use_original_command_directory": true,
+        "cloudAvailable": true
+    },
+    "1812420": {
+        "game_name": "An Elder Scrolls Legend: Battlespire",
+        "download": [
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-15/",
+                "file": "dosbox-staging-common-15.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "dosbox-staging": {
+                "extract_location": "./dosbox-staging"
+            }
+        },
+        "engine_name": "dosbox-staging",
+        "command": "./dosbox-staging/run-dosbox-staging.sh",
+        "use_original_command_directory": true,
+        "cloudAvailable": true
+    },
+    "1873030": {
+        "game_name": "Wolfenstein: Enemy Territory",
+        "download": [
+            {
+                "name": "etlegacy",
+                "url": "https://www.etlegacy.com/download/file/",
+                "file": "410.tar.gz"
+            },
+            {
+                "name": "etlegacy-64",
+                "url": "https://www.etlegacy.com/download/file/",
+                "file": "407.tar.gz"
+            }
+        ],
+        "choices": [
+            {
+                "name": "ET: Legacy (32-bit, Recommended)",
+                "engine_name": "ET: Legacy",
+                "command": "./etl",
+                "download": [
+                    "etlegacy"
+                ],
+                "download_config": {
+                    "etlegacy": {
+                        "extract_location": "./",
+                        "strip_prefix": "etlegacy-v2.80.2-i386/"
+                    }
+                }
+            },
+            {
+                "name": "ET: Legacy (64-bit)",
+                "engine_name": "ET: Legacy (64-bit)",
+                "command": "./etlegacy-64/etl",
+                "download": [
+                    "etlegacy-64"
+                ],
+                "download_config": {
+                    "etlegacy-64": {
+                        "extract_location": "./etlegacy-64",
+                        "strip_prefix": "etlegacy-v2.80.2-x86_64/"
+                    }
+                }
+            }
+        ],
+        "cloudNotAvailable": true
+    },
+    "1898710": {
+        "game_name": "DOOM 3: Bethesda.net Edition",
+        "download": [
+            {
+                "name": "classic-rbdoom-3-bfg",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-12/",
+                "file": "classic-rbdoom-3-bfg-208200-12.tar.xz"
+            }
+        ],
+        "command": "./classic/run-classic-rbdoom-3-bfg.sh",
+        "download_config": {
+            "classic-rbdoom-3-bfg": {
+                "extract_location": "./classic"
+            }
+        },
+        "engine_name": "Classic-RBDOOM-3-BFG",
+        "cloudNotAvailable": true
+    },
+    "1988750": {
+        "game_name": "Project Crypt",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
+                "file": "gzdoom-common-25.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-gzdoom-local.sh",
+        "command_args": [
+            "-iwad",
+            "./Project_Crypt_GZ/project_crypt.ipk3",
+            "-savedir",
+            "./Project_Crypt_GZ/Save",
+            "-config",
+            "gzdoom.ini"
+        ],
+        "notices": [
+            {
+                "key": "saves",
+                "value": "save_game_dir"
+            }
+        ],
+        "engine_name": "gzdoom",
+        "cloudNotAvailable": true
+    },
     "default": {
         "game_name": "Default",
         "cloudNotAvailable": true,
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-9/",
-                "file": "scummvm-common-9.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-12/",
+                "file": "scummvm-common-12.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -5797,11 +6106,20 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/retroarch-1/",
                 "file": "retroarch-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "scummvm-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-3/",
+                "file": "scummvm-latest-common-3.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": {
             "scummvm": {
                 "extract_location": "./scum"
+            },
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
             },
             "dosbox-staging": {
                 "extract_location": "./dosbox-staging"
@@ -5813,6 +6131,13 @@
                 "command": "./scum/run-scummvm.sh",
                 "download": [
                     "scummvm"
+                ]
+            },
+            {
+                "name": "scummvm-latest",
+                "command": "./scum-latest/run-scummvm.sh",
+                "download": [
+                    "scummvm-latest"
                 ]
             },
             {
@@ -5945,6 +6270,15 @@
             "license_link": "https://github.com/ec-/Quake3e/blob/master/COPYING.txt",
             "controllerNotSupported": true
         },
+        "Spearmint": {
+            "engine_link": "https://github.com/zturtleman/spearmint",
+            "version": "2baea18",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/zturtleman/spearmint/blob/master/COPYING.txt",
+            "controllerSupported": true
+        },
         "FTE QuakeWorld": {
             "engine_link": "https://fte.triptohell.info/about",
             "version": "6060",
@@ -6051,7 +6385,7 @@
         },
         "vkQuake": {
             "engine_link": "https://github.com/Novum/vkQuake",
-            "version": "87b2e56",
+            "version": "1.13.1",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -6078,7 +6412,7 @@
         },
         "ironwail": {
             "engine_link": "https://github.com/andrei-drexler/ironwail",
-            "version": "0.5.0",
+            "version": "0.6.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -6106,7 +6440,7 @@
         },
         "Jagged Alliance 2 Stracciatella": {
             "engine_link": "https://ja2-stracciatella.github.io",
-            "version": "0.18.0",
+            "version": "0.19.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Original in SFI-SCLA with Additions in Public Domain",
@@ -6156,6 +6490,20 @@
             "license": "GPLv2",
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING",
             "controllerSupported": true
+        },
+        "scummvm-latest": {
+            "engine_link": "https://github.com/scummvm/scummvm",
+            "version": "1607b25",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING",
+            "controllerSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ]
         },
         "dosbox-staging": {
             "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
@@ -6262,7 +6610,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/sezero/uhexen2/blob/master/docs/COPYING",
-            "controllerNotSupported": true
+            "controllerSupportedManualGame": true
         },
         "Commander Genius": {
             "engine_link": "https://gitlab.com/Dringgstein/Commander-Genius",
@@ -6606,7 +6954,7 @@
         },
         "openmw-tes3mp": {
             "engine_link": "https://github.com/TES3MP/openmw-tes3mp",
-            "version": "0.7-alpha",
+            "version": "0.8.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -6778,7 +7126,7 @@
         },
         "Perimeter": {
             "engine_link": "https://github.com/KranX/Perimeter",
-            "version": "3.0.9",
+            "version": "3.0.10",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -6792,7 +7140,7 @@
         },
         "OpenLoco": {
             "engine_link": "https://github.com/OpenLoco/OpenLoco",
-            "version": "v22.04",
+            "version": "v22.05.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -7099,6 +7447,52 @@
                 }
             ],
             "controllerSupported": true
+        },
+        "ET: Legacy": {
+            "engine_link": "https://www.etlegacy.com/",
+            "version": "2.80.2",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/etlegacy/etlegacy/blob/master/COPYING.txt",
+            "notices": [
+                {
+                    "key": "32_bit"
+                }
+            ],
+            "controllerNotSupported": true
+        },
+        "ET: Legacy (64-bit)": {
+            "engine_link": "https://www.etlegacy.com/",
+            "version": "2.80.2",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/etlegacy/etlegacy/blob/master/COPYING.txt",
+            "controllerNotSupported": true
+        },
+        "OpenTESArena": {
+            "engine_link": "https://github.com/afritz1/OpenTESArena",
+            "version": "7ed44a3",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/afritz1/OpenTESArena/blob/main/LICENSE.txt",
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ]
+        },
+        "7kaa": {
+            "engine_link": "https://github.com/the3dfxdude/7kaa.git",
+            "version": "2.15.5",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/the3dfxdude/7kaa/blob/master/COPYING",
+            "controllerNotSupported": true
         }
     },
     "noticeMap": {

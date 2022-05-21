@@ -3,6 +3,12 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd "$DIR"
 
+if [ ! -f scummvm.ini ]; then
+    echo "No scummvm.ini file detected, so creating"
+    echo -e "[scummvm]" >> scummvm.ini
+    echo -e "gfx_mode=surfacesdl" >> scummvm.ini
+fi
+
 if ! [[ -d "../iso_data" ]]; then
     iso_find=$(find ../ -type f -name "*.iso")
     if ! [ -z "$iso_find" ]; then
@@ -44,4 +50,4 @@ else
 fi
 
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --fullscreen --gfx-mode=opengl --themepath=./share/scummvm
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --fullscreen --themepath=./share/scummvm
