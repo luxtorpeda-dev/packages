@@ -7501,7 +7501,15 @@
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
             "license_link": "https://github.com/Interkarma/daggerfall-unity/blob/master/LICENSE",
-            "controllerSupported": true
+            "controllerSupported": true,
+            "notices": [
+                {
+                    "key": "manual_steps"
+                },
+                {
+                    "label": "On first launch, dosbox-staging is used to update the game to the latest official patch. Follow the on-screen prompts and confirm each one. Once it is complete, dosbox-staging will close and the game will launch."
+                }
+            ]
         }
     },
     "noticeMap": {
