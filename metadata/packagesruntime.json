@@ -7493,6 +7493,15 @@
             "license": "GPLv2",
             "license_link": "https://github.com/the3dfxdude/7kaa/blob/master/COPYING",
             "controllerNotSupported": true
+        },
+        "Daggerfall Unity": {
+            "engine_link": "https://github.com/Interkarma/daggerfall-unity",
+            "version": "0.13.5",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/Interkarma/daggerfall-unity/blob/master/LICENSE",
+            "controllerSupported": true
         }
     },
     "noticeMap": {
