@@ -16,7 +16,7 @@ if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
         echo -e "options:" >> ~/.config/openxcom/options.cfg
         echo -e "  displayHeight: 800" >> ~/.config/openxcom/options.cfg
         echo -e "  displayWidth: 1280" >> ~/.config/openxcom/options.cfg
-        echo -e "  fullscreen: false" >> ~/.config/openxcom/options.cfg
+        echo -e "  fullscreen: true" >> ~/.config/openxcom/options.cfg
     fi
 fi
 
