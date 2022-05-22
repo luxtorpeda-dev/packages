@@ -1,3 +1,7 @@
+### 54.0 (2022-05-21)
+
+* openxcom - Add defaults for steam deck
+
 ### 53.0 (2022-05-12)
 
 * ironwail - Update to 0.6.0
