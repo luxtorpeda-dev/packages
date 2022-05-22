@@ -1,6 +1,7 @@
 ### 54.0 (2022-05-21)
 
 * openxcom - Add defaults for steam deck
+* openxcom-oxce - Add defaults for steam deck
 
 ### 53.0 (2022-05-12)
 
