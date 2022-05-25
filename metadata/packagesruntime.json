@@ -6501,7 +6501,7 @@
         },
         "OpenXcom OXCE Plus": {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "349fbe4 (from master)",
+            "version": "a4f9310",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
