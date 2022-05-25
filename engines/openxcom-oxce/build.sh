@@ -16,6 +16,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DDEV_BUILD=OFF \
     -DBUILD_PACKAGE=OFF \
+    -DDEPS_DIR="$pfx" \
     ..
 make -j "$(nproc)"
 popd
