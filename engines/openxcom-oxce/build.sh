@@ -6,6 +6,8 @@ pushd source
 git checkout a4f9310
 popd
 
+cp -rfv "$pfx/lib/pkgconfig/sdl12_compat.pc" "$pfx/lib/pkgconfig/sdl.pc"
+
 # BUILD PHASE
 pushd source
 mkdir build
