@@ -48,6 +48,15 @@ if [ ! -f ~/.config/openmw/openmw.cfg ]; then
     echo -e "content=Morrowind.esm" >> ~/.config/openmw/openmw.cfg
     echo -e "content=Tribunal.esm" >> ~/.config/openmw/openmw.cfg
     echo -e "content=Bloodmoon.esm" >> ~/.config/openmw/openmw.cfg
+
+    if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
+        if [ ! -f ~/.config/openmw/settings.cfg ]; then
+            echo -e "[Video]" >> ~/.config/openmw/settings.cfg
+            echo -e "fullscreen = true" >> ~/.config/openmw/settings.cfg
+            echo -e "resolution x = 1280" >> ~/.config/openmw/settings.cfg
+            echo -e "resolution y = 800" >> ~/.config/openmw/settings.cfg
+        fi
+    fi
 else
     echo "openmw.cfg file detected, so checking for resources"
     if grep -q resources ~/.config/openmw/openmw.cfg; then
