@@ -3,7 +3,8 @@
 # CLONE PHASE
 git clone https://github.com/wolfetplayer/RealRTCW.git source
 pushd source
-git checkout -f 50e4e51513786afc8e257c597d3ff7c827f11b53
+git checkout -f 1b87bbb
+git am < ../patches/0001-Fix-for-compile-error.patch
 popd
 
 readonly pfx="$PWD/local"

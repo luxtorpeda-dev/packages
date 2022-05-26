@@ -1,0 +1,24 @@
+From 144bef3b8c177df2babfeb6739ff4fea3f178966 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Wed, 25 May 2022 22:37:54 -0500
+Subject: [PATCH] Fix for compile error
+
+---
+ code/steamshim/steamshim_child.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/code/steamshim/steamshim_child.c b/code/steamshim/steamshim_child.c
+index f4906c2..9658183 100644
+--- a/code/steamshim/steamshim_child.c
++++ b/code/steamshim/steamshim_child.c
+@@ -12,6 +12,7 @@ typedef unsigned __int64 uint64;
+ 
+ #else
+ 
++#include <stdarg.h>
+ #include <stdlib.h>
+ #include <string.h>
+ #include <stdint.h>
+-- 
+2.36.0
+
