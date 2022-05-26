@@ -8,8 +8,6 @@ if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
 
         echo -e "seta r_fullscreen \"1\"" >> ~/.wolf/Main/wolfconfig.cfg
         echo -e "seta r_mode \"-2\"" >> ~/.wolf/Main/wolfconfig.cfg
-        echo -e "seta r_customHeight \"720\"" >> ~/.wolf/Main/wolfconfig.cfg
-        echo -e "seta r_customWidth \"1280\"" >> ~/.wolf/Main/wolfconfig.cfg
     fi
 fi
 
