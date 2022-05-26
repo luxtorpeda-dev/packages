@@ -9,7 +9,6 @@
 * good-robot - Add defaults for steam deck
 * OpenLoco - Add defaults for steam deck
 * dhewm3 - Add defaults for steam deck
-* iortcw - Add defaults for steam deck
 * openjk - Add defaults for steam deck
 * realrtcw - Update to 4.0 and add defaults for steam deck
 
