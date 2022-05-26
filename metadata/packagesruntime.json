@@ -2128,8 +2128,8 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-40/",
-                "file": "dhewm3-common-40.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-41/",
+                "file": "dhewm3-common-41.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2204,8 +2204,8 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-40/",
-                "file": "dhewm3-common-40.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-41/",
+                "file": "dhewm3-common-41.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2260,8 +2260,8 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-39/",
-                "file": "dhewm3-common-40.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-41/",
+                "file": "dhewm3-common-41.tar.xz",
                 "cache_by_name": true
             }
         ],
