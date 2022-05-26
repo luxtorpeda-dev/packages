@@ -2104,7 +2104,7 @@
         ],
         "commands": {
             ".*WolfSP.exe": {
-                "cmd": "./iowolfsp.x86_64",
+                "cmd": "./run-iortcw.sh",
                 "args": [
                     "+set",
                     "com_basegame",

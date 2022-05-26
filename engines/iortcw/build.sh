@@ -32,3 +32,4 @@ cp -rfv source/MP/build/release-linux-x86_64/iowolfmp.x86_64 tmp/
 cp -rfv source/MP/build/release-linux-x86_64/Main/*.so tmp/Main/
 
 cp -rfv tmp/* "$diststart/9010/dist/"
+cp -rfv assets/* "$diststart/9010/dist/"
