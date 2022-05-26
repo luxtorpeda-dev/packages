@@ -7,6 +7,7 @@
 * warzone2100 - Add defaults for steam deck
 * ecwolf - Add defaults for steam deck
 * good-robot - Add defaults for steam deck
+* OpenLoco - Add defaults for steam deck
 
 ### 53.0 (2022-05-12)
 
