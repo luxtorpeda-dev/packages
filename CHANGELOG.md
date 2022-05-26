@@ -4,6 +4,7 @@
 * openxcom-oxce - Add defaults for steam deck
 * ut99 - Add defaults for steam deck. If run before on the system, will need to delete the ready file in the game install directory.
 * openmw - Add defaults for steam deck
+* warzone2100 - Add defaults for steam deck
 
 ### 53.0 (2022-05-12)
 
