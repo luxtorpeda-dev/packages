@@ -1848,8 +1848,8 @@
         "download": [
             {
                 "name": "openjk",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-5/",
-                "file": "openjk-6020-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-6/",
+                "file": "openjk-6020-6.tar.xz"
             },
             {
                 "name": "eternaljk",
@@ -1876,8 +1876,8 @@
         "download": [
             {
                 "name": "openjk",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-5/",
-                "file": "openjk-6030-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-6/",
+                "file": "openjk-6030-6.tar.xz"
             },
             {
                 "name": "jk2mv",
