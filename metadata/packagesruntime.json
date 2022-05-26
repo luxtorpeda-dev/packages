@@ -1859,7 +1859,7 @@
         ],
         "commands": {
             ".*jasp.exe": {
-                "cmd": "./openjk_sp.x86_64"
+                "cmd": "./run-openjk.sh"
             },
             ".*jamp.exe": {
                 "cmd": "./eternaljk.x86_64"
@@ -1887,7 +1887,7 @@
         ],
         "commands": {
             ".*jk2sp.exe": {
-                "cmd": "./openjo_sp.x86_64"
+                "cmd": "./run-openjo.sh"
             },
             ".*jk2mp.exe": {
                 "cmd": "./jk2mvmp"
