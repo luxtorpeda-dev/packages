@@ -7230,11 +7230,11 @@
         },
         "RealRTCW": {
             "engine_link": "https://github.com/wolfetplayer/RealRTCW",
-            "version": "4.0",
+            "version": "3.3 (nosteam)",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/wolfetplayer/RealRTCW/blob/master/COPYING.txt",
+            "license_link": "https://github.com/wolfetplayer/RealRTCW/blob/7e6dc5df09237b5d6b520c8bff9041aef61db943/COPYING.txt",
             "notices": [
                 {
                     "key": "app_ids_deps",
