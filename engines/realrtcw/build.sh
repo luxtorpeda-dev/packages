@@ -4,6 +4,7 @@
 git clone https://github.com/wolfetplayer/RealRTCW.git source
 pushd source
 git checkout -f 1b87bbb
+git am < ../patches/0001-Fix-for-compile-error.patch
 popd
 
 readonly pfx="$PWD/local"
