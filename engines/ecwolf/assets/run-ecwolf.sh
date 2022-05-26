@@ -8,6 +8,15 @@ if [ -d "base" ]; then
     cp -rfv ./ecwolf ./base
     cp -rfv ./ecwolf.pk3 ./base
     cd base
+
+    if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
+        if [ ! -f ecwolf.cfg ]; then
+            echo -e "Vid_FullScreen = 1;" >> ecwolf.cfg
+            echo -e "FullScreenWidth = 2560;" >> ecwolf.cfg
+            echo -e "FullScreenHeight = 1080;" >> ecwolf.cfg
+        fi
+    fi
+
     if [ "$gamearg" = "base\\M1-SOD.exe" ]; then
         ./ecwolf --config ecwolf.cfg --data SOD
     elif [ "$gamearg" = "base\\M2-SOD.exe" ]; then
@@ -19,6 +28,13 @@ if [ -d "base" ]; then
     fi
     
 else
+    if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
+        if [ ! -f ecwolf.cfg ]; then
+            echo -e "Vid_FullScreen = 1;" >> ecwolf.cfg
+            echo -e "FullScreenWidth = 2560;" >> ecwolf.cfg
+            echo -e "FullScreenHeight = 1080;" >> ecwolf.cfg
+        fi
+    fi
     ./ecwolf --config ecwolf.cfg
 fi
 
