@@ -12,8 +12,8 @@ if [ -d "base" ]; then
     if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
         if [ ! -f ecwolf.cfg ]; then
             echo -e "Vid_FullScreen = 1;" >> ecwolf.cfg
-            echo -e "FullScreenWidth = 2560;" >> ecwolf.cfg
-            echo -e "FullScreenHeight = 1080;" >> ecwolf.cfg
+            echo -e "FullScreenWidth = 1280;" >> ecwolf.cfg
+            echo -e "FullScreenHeight = 800;" >> ecwolf.cfg
         fi
     fi
 
@@ -31,8 +31,8 @@ else
     if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
         if [ ! -f ecwolf.cfg ]; then
             echo -e "Vid_FullScreen = 1;" >> ecwolf.cfg
-            echo -e "FullScreenWidth = 2560;" >> ecwolf.cfg
-            echo -e "FullScreenHeight = 1080;" >> ecwolf.cfg
+            echo -e "FullScreenWidth = 1280;" >> ecwolf.cfg
+            echo -e "FullScreenHeight = 800;" >> ecwolf.cfg
         fi
     fi
     ./ecwolf --config ecwolf.cfg
