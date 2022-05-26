@@ -199,8 +199,8 @@
         "download": [
             {
                 "name": "ecwolf",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-4/",
-                "file": "ecwolf-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-5/",
+                "file": "ecwolf-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2084,8 +2084,8 @@
         "download": [
             {
                 "name": "ecwolf",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-4/",
-                "file": "ecwolf-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-5/",
+                "file": "ecwolf-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4420,8 +4420,8 @@
         "download": [
             {
                 "name": "ecwolf",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-4/",
-                "file": "ecwolf-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-5/",
+                "file": "ecwolf-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
