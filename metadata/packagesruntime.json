@@ -2133,7 +2133,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./dhewm3",
+        "command": "./run-dhewm3.sh",
         "engine_name": "dhewm3",
         "cloudAvailable": true
     },
@@ -2209,7 +2209,7 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./dhewm3",
+        "command": "./run-dhewm3.sh",
         "command_args": [
             "+set",
             "fs_game",
