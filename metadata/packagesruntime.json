@@ -2098,8 +2098,8 @@
         "download": [
             {
                 "name": "iortcw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-10/",
-                "file": "iortcw-9010-10.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-11/",
+                "file": "iortcw-9010-11.tar.xz"
             }
         ],
         "commands": {
