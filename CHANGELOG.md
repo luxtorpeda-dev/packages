@@ -10,8 +10,9 @@
 * OpenLoco - Add defaults for steam deck
 * dhewm3 - Add defaults for steam deck
 * openjk - Add defaults for steam deck
-* realrtcw - Update to 4.0
+* realrtcw - Add defaults for steam deck
 * DOOM Retro - Update to 4.5
+* iortcw - Add defaults for steam deck
 
 ### 53.0 (2022-05-12)
 
