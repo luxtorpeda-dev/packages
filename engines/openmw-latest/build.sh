@@ -11,6 +11,11 @@ git submodule update --init --recursive
 git am < ../patches/0001-Fix-compile-error.patch
 popd
 
+git clone https://github.com/zesterer/openmw-shaders.git openmw-shaders
+pushd openmw-shaders
+git checkout 52fa398
+popd
+
 # BUILD PHASE
 pushd "source"
 mkdir -p build
@@ -38,3 +43,5 @@ cp -rfv "$tmp/usr/local/bin/"* "$diststart/22320/dist/"
 cp assets/* "$diststart/22320/dist/"
 cp "source/files/settings-default.cfg" "$diststart/22320/dist/"
 cp -rfv source/build/defaults.bin "$diststart/22320/dist/"
+mkdir -p "$diststart/22320/dist/openmw-shaders/"
+cp -rfv openmw-shaders/shaders/* "$diststart/22320/dist/openmw-shaders"
