@@ -11,6 +11,7 @@
 * dhewm3 - Add defaults for steam deck
 * openjk - Add defaults for steam deck
 * realrtcw - Update to 4.0
+* DOOM Retro - Update to 4.5
 
 ### 53.0 (2022-05-12)
 
