@@ -6,7 +6,8 @@ if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
             mkdir -p ~/.wolf/Main
         fi
 
-        cp -rfv ./wolfconfig-template.cfg ~/.wolf/Main/wolfconfig.cfg
+        echo -e "seta r_fullscreen \"1\"" >> ~/.wolf/Main/wolfconfig.cfg
+        echo -e "seta r_mode \"3\"" >> ~/.wolf/Main/wolfconfig.cfg
     fi
 fi
 
