@@ -4,6 +4,7 @@
 git clone https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git source
 pushd source
 git checkout d33be88
+git revert 4b3a9bd06ec9fec42ea86e0f3bbba85863518c6d
 popd
 
 # BUILD PHASE
