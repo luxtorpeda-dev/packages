@@ -1,6 +1,6 @@
 ### 55.0 (2022-05-29)
 
-* ut2004 - Add standard option
+* ut2004 - Add standard option that removes the foxWSFix for online play.
 
 ### 54.0 (2022-05-21)
 
