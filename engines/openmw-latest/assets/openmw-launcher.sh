@@ -81,19 +81,19 @@ if [ ! -d vfs ]; then
 fi
 
 if [ "$1" == "withshaders" ]; then
-    echo "detected asking for shaders"
+    LD_PRELOAD="" echo "detected asking for shaders"
 
-    rm -rf ./newshaders
-    mkdir -p ./newshaders
-    cp -rfv ./shaders/* ./newshaders
-    cp -rfv ./openmw-shaders/* ./newshaders
+    LD_PRELOAD="" rm -rf ./newshaders
+    LD_PRELOAD="" mkdir -p ./newshaders
+    LD_PRELOAD="" cp -rfv ./shaders/* ./newshaders
+    LD_PRELOAD="" cp -rfv ./openmw-shaders/* ./newshaders
 
-    rm -rf ./shaders
+    LD_PRELOAD="" rm -rf ./shaders
     LD_PRELOAD="" ln -rsf ./newshaders ./shaders
 else
-    echo "detected not asking for shaders"
-    rm -rf ./shaders
+    LD_PRELOAD="" echo "detected not asking for shaders"
+    LD_PRELOAD="" rm -rf ./shaders
     LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/shaders ./shaders
 fi
 
-#LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./plugins XDG_CONFIG_HOME="./config" XDG_DATA_HOME="./local" ./openmw-launcher --data-local "../Data Files" "$@"
+LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./plugins XDG_CONFIG_HOME="./config" XDG_DATA_HOME="./local" ./openmw-launcher --data-local "../Data Files" "$@"
