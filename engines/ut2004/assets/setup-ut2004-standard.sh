@@ -1,0 +1,51 @@
+#!/bin/bash
+
+create_relative_symlink () {
+    local -r target=$1
+    local -r symlink="linuxdata-standard/$target"
+    mkdir -p "$(dirname "$symlink")"
+    ln -rsf "$target" "$symlink"
+}
+
+cd ../ # game tries to start in system directory, so have to get out and back to the normal directory
+
+if [[ ! -z "${DIALOGRESPONSE_CDKEY}" ]]; then
+    CDKEY="$DIALOGRESPONSE_CDKEY"
+else
+    CDKEY=$("$STEAM_ZENITY" --entry --title="CD Key" --text="Enter your CD Key (Can Be Found in Steam)")
+fi
+
+find {Web} -type f  | while read -r file_name ; do
+    create_relative_symlink "$file_name"
+done
+
+mkdir -p linuxdata-standard/Animations
+ln -rsf Animations/* linuxdata-standard/Animations
+
+mkdir -p linuxdata-standard/Help
+ln -rsf Help/* linuxdata-standard/Help
+
+mkdir -p linuxdata-standard/Speech
+ln -rsf Speech/* linuxdata-standard/Speech
+
+mkdir -p linuxdata-standard/System
+ln -rsf System/* linuxdata-standard/System
+
+mkdir -p linuxdata-standard/Textures
+ln -rsf Textures/* linuxdata-standard/Textures
+
+ln -rsf Benchmark linuxdata-standard/Benchmark
+ln -rsf ForceFeedback linuxdata-standard/ForceFeedback
+ln -rsf KarmaData linuxdata-standard/KarmaData
+ln -rsf Manual linuxdata-standard/Manual
+ln -rsf maps linuxdata-standard/maps
+ln -rsf Music linuxdata-standard/Music
+ln -rsf Prefabs linuxdata-standard/Prefabs
+ln -rsf Sounds linuxdata-standard/Sounds
+ln -rsf StaticMeshes linuxdata-standard/StaticMeshes
+ln -rsf "ut2004 content 2" linuxdata-standard/"ut2004 content 2"
+    
+echo "$CDKEY" > linuxdata-standard/System/cdkey
+
+rm linuxdata-standard/System/User.ini
+cp System/User.ini linuxdata-standard/System/User.ini

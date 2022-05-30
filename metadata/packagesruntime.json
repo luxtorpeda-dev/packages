@@ -2468,34 +2468,74 @@
                 "file": "ut2004-lnxpatch3369-2.tar.bz2"
             }
         ],
-        "download_config": {
-            "binaries": {
-                "extract_location": "../linuxdata",
-                "strip_prefix": "UT2004-Patch/",
-                "setup": true
+        "choices": [
+            {
+                "name": "ut2004 with foxWSFix",
+                "download": [
+                    "ut2004",
+                    "foxWSFix",
+                    "binaries"
+                ],
+                "download_config": {
+                    "binaries": {
+                        "extract_location": "../linuxdata",
+                        "strip_prefix": "UT2004-Patch/",
+                        "setup": true
+                    },
+                    "foxWSFix": {
+                        "extract_location": "../linuxdata",
+                        "setup": true
+                    }
+                },
+                "setup": {
+                    "complete_path": "../ready",
+                    "command": "./setup-ut2004.sh",
+                    "uninstall_command": "./uninstall-ut2004.sh",
+                    "license_path": "../System/License.int",
+                    "dialogs": [
+                        {
+                            "type": "input",
+                            "title": "Unreal Tournament 2004 Setup",
+                            "label": "Enter your CD Key (Can Be Found in Steam)",
+                            "key": "CDKEY"
+                        }
+                    ]
+                },
+                "command": "./run-ut2004.sh",
+                "engine_name": "ut2004"
             },
-            "foxWSFix": {
-                "extract_location": "../linuxdata",
-                "setup": true
+            {
+                "name": "ut2004 without foxWSFix",
+                "download": [
+                    "ut2004",
+                    "binaries"
+                ],
+                "download_config": {
+                    "binaries": {
+                        "extract_location": "../linuxdata-standard",
+                        "strip_prefix": "UT2004-Patch/",
+                        "setup": true
+                    }
+                },
+                "setup": {
+                    "complete_path": "../ready-standard",
+                    "command": "./setup-ut2004-standard.sh",
+                    "uninstall_command": "./uninstall-ut2004-standard.sh",
+                    "license_path": "../System/License.int",
+                    "dialogs": [
+                        {
+                            "type": "input",
+                            "title": "Unreal Tournament 2004 Setup",
+                            "label": "Enter your CD Key (Can Be Found in Steam)",
+                            "key": "CDKEY"
+                        }
+                    ]
+                },
+                "command": "./run-ut2004-standard.sh",
+                "engine_name": "ut2004"
             }
-        },
-        "setup": {
-            "complete_path": "../ready",
-            "command": "./setup-ut2004.sh",
-            "uninstall_command": "./uninstall-ut2004.sh",
-            "license_path": "../System/License.int",
-            "dialogs": [
-                {
-                    "type": "input",
-                    "title": "Unreal Tournament 2004 Setup",
-                    "label": "Enter your CD Key (Can Be Found in Steam)",
-                    "key": "CDKEY"
-                }
-            ]
-        },
-        "command": "./run-ut2004.sh",
+        ],
         "use_original_command_directory": true,
-        "engine_name": "ut2004",
         "information": {
             "closed_source": true
         },
