@@ -10,6 +10,7 @@ git checkout -f 42718f6
 git submodule update --init --recursive
 git am < ../patches/0001-Fix-compile-error.patch
 git am < ../patches/0002-Force-local-path.patch
+git am < ../patches/0003-Force-local-path-on-config.patch
 popd
 
 git clone https://github.com/zesterer/openmw-shaders.git openmw-shaders

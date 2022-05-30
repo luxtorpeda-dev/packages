@@ -1,0 +1,28 @@
+From 3b07c82e2e1046b2bd47ffa961a6cf55fb1da688 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Mon, 30 May 2022 11:28:23 -0500
+Subject: [PATCH] Force local path on config
+
+---
+ components/files/configurationmanager.cpp | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+diff --git a/components/files/configurationmanager.cpp b/components/files/configurationmanager.cpp
+index 74fe03b3e..c65619480 100644
+--- a/components/files/configurationmanager.cpp
++++ b/components/files/configurationmanager.cpp
+@@ -372,10 +372,7 @@ const boost::filesystem::path& ConfigurationManager::getGlobalPath() const
+ 
+ const boost::filesystem::path& ConfigurationManager::getUserConfigPath() const
+ {
+-    if (mActiveConfigPaths.empty())
+-        return mFixedPath.getUserConfigPath();
+-    else
+-        return mActiveConfigPaths.back();
++    return mFixedPath.getUserConfigPath();
+ }
+ 
+ const boost::filesystem::path& ConfigurationManager::getUserDataPath() const
+-- 
+2.36.0
+
