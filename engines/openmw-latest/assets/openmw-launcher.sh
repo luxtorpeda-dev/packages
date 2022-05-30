@@ -11,6 +11,9 @@ if [ -f "$ORIGINALPWD/last_error.txt" ]; then
     rm "$ORIGINALPWD/last_error.txt"
 fi
 
+mkdir -p "./Data Files"
+ln -rsf ../"Data Files"/* ./"Data Files"
+
 set -e
 
 if [ ! -f ../Morrowind.ini ]; then
@@ -23,8 +26,10 @@ if [ ! -f ../Morrowind.ini ]; then
         fi
         exit 10
     else
-        ln -rsf ../morrowind.ini ../Morrowind.ini
+        ln -rsf ../morrowind.ini ./Morrowind.ini
     fi
+else
+    ln -rsf ../"Morrowind.ini" ./"Morrowind.ini"
 fi
 
 if [ -f openmw.cfg ]; then
@@ -44,9 +49,9 @@ if [ ! -f ./config/openmw/openmw.cfg ]; then
     echo "No openmw.cfg file detected, so creating and adding resources"
     echo -e "resources=\"share/games/openmw/resources\"\n" > ./config/openmw/openmw.cfg
     echo "Now running iniimporter"
-    ./openmw-iniimporter ../Morrowind.ini ./config/openmw/openmw.cfg
+    ./openmw-iniimporter ./Morrowind.ini ./config/openmw/openmw.cfg
     echo "Now adding data path"
-    echo -e "data=\"$ORIGINALPWD/Data Files\"" >> ./config/openmw/openmw.cfg
+    echo -e "data=\"$PWD/Data Files\"" >> ./config/openmw/openmw.cfg
     echo -e "fallback-archive=Morrowind.bsa" >> ./config/openmw/openmw.cfg
     echo -e "fallback-archive=Tribunal.bsa" >> ./config/openmw/openmw.cfg
     echo -e "fallback-archive=Bloodmoon.bsa" >> ./config/openmw/openmw.cfg
@@ -85,7 +90,7 @@ if [ "$1" == "withshaders" ]; then
 
     LD_PRELOAD="" rm -rf ./newshaders
     LD_PRELOAD="" mkdir -p ./newshaders
-    LD_PRELOAD="" cp -rfv ./shaders/* ./newshaders
+    LD_PRELOAD="" cp -rfv ./share/games/openmw/resources/shaders/* ./newshaders
     LD_PRELOAD="" cp -rfv ./openmw-shaders/* ./newshaders
 
     LD_PRELOAD="" rm -rf ./shaders
@@ -96,4 +101,4 @@ else
     LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/shaders ./shaders
 fi
 
-LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./plugins XDG_CONFIG_HOME="./config" XDG_DATA_HOME="./local" ./openmw-launcher --data-local "../Data Files" "$@"
+LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./plugins XDG_CONFIG_HOME="./config" XDG_DATA_HOME="./local" ./openmw-launcher --data-local "./Data Files" "$@"

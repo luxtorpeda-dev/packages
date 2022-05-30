@@ -1,0 +1,25 @@
+From 281112caaeab1c2b9383d1d3a40cfbd90c069879 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Mon, 30 May 2022 08:51:20 -0500
+Subject: [PATCH] Force local path
+
+---
+ components/settings/settings.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/components/settings/settings.cpp b/components/settings/settings.cpp
+index 99093d7a1..6dc67ee90 100644
+--- a/components/settings/settings.cpp
++++ b/components/settings/settings.cpp
+@@ -44,7 +44,7 @@ std::string Manager::load(const Files::ConfigurationManager& cfgMgr, bool loadEd
+     }
+ 
+     // Create the settings manager and load default settings file.
+-    const std::string defaultsBin = (paths.front() / defaultSettingsFile).string();
++    const std::string defaultsBin = (cfgMgr.getLocalPath() / defaultSettingsFile).string();
+     if (!std::filesystem::exists(defaultsBin))
+         throw std::runtime_error ("No default settings file found! Make sure the file \"" + defaultSettingsFile + "\" was properly installed.");
+     parser.loadSettingsFile(defaultsBin, mDefaultSettings, true, false);
+-- 
+2.36.0
+
