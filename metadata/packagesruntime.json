@@ -244,8 +244,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-3/",
-                "file": "doom-retro-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-5/",
+                "file": "doom-retro-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -423,8 +423,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-3/",
-                "file": "doom-retro-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-5/",
+                "file": "doom-retro-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -671,8 +671,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-3/",
-                "file": "doom-retro-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-5/",
+                "file": "doom-retro-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -2098,8 +2098,8 @@
         "download": [
             {
                 "name": "iortcw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-10/",
-                "file": "iortcw-9010-10.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-11/",
+                "file": "iortcw-9010-11.tar.xz"
             }
         ],
         "commands": {
@@ -3775,8 +3775,8 @@
         "download": [
             {
                 "name": "rigelengine",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-7/",
-                "file": "rigelengine-240180-7.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-8/",
+                "file": "rigelengine-240180-8.tar.xz"
             }
         ],
         "command": "./run-rigelengine.sh",
@@ -5506,8 +5506,8 @@
         "download": [
             {
                 "name": "realrtcw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-16/",
-                "file": "realrtcw-1379630-16.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-18/",
+                "file": "realrtcw-1379630-18.tar.xz"
             }
         ],
         "commands": {
@@ -6976,7 +6976,7 @@
         },
         "RigelEngine": {
             "engine_link": "https://github.com/lethal-guitar/RigelEngine",
-            "version": "Beta v0.8.4",
+            "version": "Beta v0.8.5",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -7230,7 +7230,7 @@
         },
         "RealRTCW": {
             "engine_link": "https://github.com/wolfetplayer/RealRTCW",
-            "version": "4.0",
+            "version": "3.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -7345,7 +7345,7 @@
         },
         "doom-retro": {
             "engine_link": "https://github.com/bradharding/doomretro",
-            "version": "4.5",
+            "version": "4.5.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",

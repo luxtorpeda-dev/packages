@@ -23,15 +23,12 @@ if [ -z "$RTCW_PATH" ]; then
 fi
 
 if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
-    if [ ! -f ~/.realrtcw/Main/wolfconfig.cfg ]; then
+    if [ ! -f ~/.realrtcw/Main/realrtcwconfig.cfg ]; then
         if [ ! -d ~/.realrtcw/Main ]; then
             mkdir -p ~/.realrtcw/Main
         fi
 
-        echo -e "seta r_fullscreen \"1\"" >> ~/.realrtcw/Main/wolfconfig.cfg
-        echo -e "seta r_mode \"-1\"" >> ~/.realrtcw/Main/wolfconfig.cfg
-        echo -e "seta r_customHeight \"1080\"" >> ~/.realrtcw/Main/wolfconfig.cfg
-        echo -e "seta r_customWidth \"2560\"" >> ~/.realrtcw/Main/wolfconfig.cfg
+        cp -rfv realrtcwconfig-template.cfg ~/.realrtcw/Main/realrtcwconfig.cfg
     fi
 fi
 
