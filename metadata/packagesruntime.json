@@ -6853,7 +6853,7 @@
                     "label": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. On the Steam Deck, you may have to enter that key in manually instead of using the clipboard."
                 },
                 {
-                    "label": "Mods should go in the linuxdata directory. Adds foxWSFix by default."
+                    "label": "Mods should go in the linuxdata directory. Adds foxWSFix by default, unless the without option is selected."
                 }
             ],
             "controllerNotSupported": true
