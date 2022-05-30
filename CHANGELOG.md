@@ -1,3 +1,7 @@
+### 55.0 (2022-05-29)
+
+* ut2004 - Add standard option
+
 ### 54.0 (2022-05-21)
 
 * openxcom - Add defaults for steam deck
