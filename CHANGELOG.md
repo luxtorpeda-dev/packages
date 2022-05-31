@@ -1,6 +1,7 @@
 ### 55.0 (2022-05-29)
 
 * ut2004 - Add standard option that removes the foxWSFix for online play.
+* [Thanks to sponsors for funds to buy the games] Added doukutsu-rs
 
 ### 54.0 (2022-05-21)
 
