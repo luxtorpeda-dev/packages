@@ -3262,7 +3262,13 @@
     },
     "200900": {
         "game_name": "Cave Story+",
-        "download": [],
+        "download": [
+            {
+                "name": "doukutsu-rs",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doukutsu-rs-1/",
+                "file": "doukutsu-rs-200900-1.tar.xz"
+            }
+        ],
         "command": "./doukutsu-rs",
         "engine_name": "doukutsu-rs",
         "cloudNotAvailable": true
