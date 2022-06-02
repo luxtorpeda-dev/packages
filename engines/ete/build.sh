@@ -16,6 +16,7 @@ cmake \
     -DCMAKE_INSTALL_PREFIX=../../../tmp \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_TOOLCHAIN_FILE=../cmake/toolchains/linux-i686.cmake \
+    -DBUILD_ETMAIN_MOD=ON \
     ..
 make -j "$(nproc)"
 make install
