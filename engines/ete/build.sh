@@ -8,12 +8,12 @@ popd
 
 # BUILD PHASE
 mkdir -p tmp
-pushd "source"
+pushd "source/src"
 mkdir build
 cd build
 cmake \
     -DUSE_SDL2=ON \
-    -DCMAKE_INSTALL_PREFIX=../../tmp \
+    -DCMAKE_INSTALL_PREFIX=../../../tmp \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_TOOLCHAIN_FILE=../cmake/toolchains/linux-i686.cmake \
     ..
