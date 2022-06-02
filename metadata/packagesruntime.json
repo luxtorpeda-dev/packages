@@ -5944,12 +5944,12 @@
         "game_name": "Wolfenstein: Enemy Territory",
         "download": [
             {
-                "name": "etlegacy",
+                "name": "etlegacy-binaries",
                 "url": "https://www.etlegacy.com/download/file/",
                 "file": "410.tar.gz"
             },
             {
-                "name": "etlegacy-64",
+                "name": "etlegacy-64-binaries",
                 "url": "https://www.etlegacy.com/download/file/",
                 "file": "407.tar.gz"
             }
@@ -5960,10 +5960,10 @@
                 "engine_name": "ET: Legacy",
                 "command": "./etl",
                 "download": [
-                    "etlegacy"
+                    "etlegacy-binaries"
                 ],
                 "download_config": {
-                    "etlegacy": {
+                    "etlegacy-binaries": {
                         "extract_location": "./",
                         "strip_prefix": "etlegacy-v2.80.2-i386/"
                     }
@@ -5972,14 +5972,18 @@
             {
                 "name": "ET: Legacy (64-bit)",
                 "engine_name": "ET: Legacy (64-bit)",
-                "command": "./etlegacy-64/etl",
+                "command": "./etlegacy-64/run-etlegacy-64.sh",
                 "download": [
-                    "etlegacy-64"
+                    "etlegacy-64-binaries",
+                    "etlegacy"
                 ],
                 "download_config": {
-                    "etlegacy-64": {
+                    "etlegacy-64-binaries": {
                         "extract_location": "./etlegacy-64",
                         "strip_prefix": "etlegacy-v2.80.2-x86_64/"
+                    },
+                    "etlegacy": {
+                        "extract_location": "./etlegacy-64"
                     }
                 }
             }
