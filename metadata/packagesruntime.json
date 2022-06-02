@@ -5952,6 +5952,11 @@
                 "name": "etlegacy-64-binaries",
                 "url": "https://www.etlegacy.com/download/file/",
                 "file": "407.tar.gz"
+            },
+            {
+                "name": "etlegacy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etlegacy-1/",
+                "file": "etlegacy-1873030-1.tar.xz"
             }
         ],
         "choices": [
