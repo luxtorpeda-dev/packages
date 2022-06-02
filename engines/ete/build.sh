@@ -24,12 +24,14 @@ popd
 # COPY PHASE
 cp -rfv tmp/ete-ded.x86 "$diststart/1873030/dist/"
 cp -rfv tmp/ete.x86 "$diststart/1873030/dist/"
-cp -rfv tmp/cgame.mp.x86.so "$diststart/1873030/dist/etmain"
-cp -rfv tmp/qagame.mp.x86.so "$diststart/1873030/dist/etmain"
-cp -rfv tmp/ui.mp.x86.so "$diststart/1873030/dist/etmain"
+cp -rfv tmp/cgame.mp.i386.so "$diststart/1873030/dist/etmain"
+cp -rfv tmp/qagame.mp.i386.so "$diststart/1873030/dist/etmain"
+cp -rfv tmp/ui.mp.i386.so "$diststart/1873030/dist/etmain"
 
 pushd tmp
 zip -r mp_bina.pk3 cgame*.so
 zip -ur mp_bina.pk3 ui*.so
 cp -rfv mp_bina.pk3 "$diststart/1873030/dist/etmain"
 popd
+
+cp -rfv assets/* "$diststart/1873030/dist/"

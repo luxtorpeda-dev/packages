@@ -5982,6 +5982,19 @@
                         "strip_prefix": "etlegacy-v2.80.2-x86_64/"
                     }
                 }
+            },
+            {
+                "name": "ETe (32-bit)",
+                "engine_name": "ETe",
+                "command": "./ete/run-ete.sh",
+                "download": [
+                    "ete"
+                ],
+                "download_config": {
+                    "ete": {
+                        "extract_location": "./ete"
+                    }
+                }
             }
         ],
         "cloudNotAvailable": true
