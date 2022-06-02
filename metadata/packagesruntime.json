@@ -5963,9 +5963,10 @@
             {
                 "name": "ET: Legacy (32-bit, Recommended)",
                 "engine_name": "ET: Legacy",
-                "command": "./etl",
+                "command": "./run-etlegacy.sh",
                 "download": [
-                    "etlegacy-binaries"
+                    "etlegacy-binaries",
+                    "etlegacy"
                 ],
                 "download_config": {
                     "etlegacy-binaries": {
