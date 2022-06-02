@@ -23,6 +23,7 @@ make install
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/1873030/dist/etmain"
 cp -rfv tmp/ete-ded.x86 "$diststart/1873030/dist/"
 cp -rfv tmp/ete.x86 "$diststart/1873030/dist/"
 cp -rfv tmp/etmain/* "$diststart/1873030/dist/etmain"
