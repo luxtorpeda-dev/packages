@@ -5992,6 +5992,19 @@
                         "extract_location": "./etlegacy-64"
                     }
                 }
+            },
+            {
+                "name": "ETe (32-bit)",
+                "engine_name": "ETe",
+                "command": "./ete/run-ete.sh",
+                "download": [
+                    "ete"
+                ],
+                "download_config": {
+                    "ete": {
+                        "extract_location": "./ete"
+                    }
+                }
             }
         ],
         "cloudNotAvailable": true
