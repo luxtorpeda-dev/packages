@@ -6,6 +6,13 @@ pushd source
 git checkout c864b0a
 popd
 
+git clone https://github.com/etlegacy/etlegacy etlegacy
+pushd etlegacy
+git checkout 2904921
+popd
+
+wget https://mirror.etlegacy.com/etmain/qagame.mp.i386.so
+
 # BUILD PHASE
 mkdir -p tmp
 pushd "source/src"
@@ -16,7 +23,6 @@ cmake \
     -DCMAKE_INSTALL_PREFIX=../../../tmp \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_TOOLCHAIN_FILE=../cmake/toolchains/linux-i686.cmake \
-    -DBUILD_ETMAIN_MOD=ON \
     ..
 make -j "$(nproc)"
 make install
@@ -26,12 +32,5 @@ popd
 mkdir -p "$diststart/1873030/dist/etmain"
 cp -rfv tmp/ete-ded.x86 "$diststart/1873030/dist/"
 cp -rfv tmp/ete.x86 "$diststart/1873030/dist/"
-cp -rfv tmp/etmain/* "$diststart/1873030/dist/etmain"
-
-pushd tmp/etmain
-zip -r mp_bina.pk3 cgame*.so
-zip -ur mp_bina.pk3 ui*.so
-cp -rfv mp_bina.pk3 "$diststart/1873030/dist/etmain"
-popd
-
+cp -rfv qagame.mp.i386.so "$diststart/1873030/dist/etmain"
 cp -rfv assets/* "$diststart/1873030/dist/"
