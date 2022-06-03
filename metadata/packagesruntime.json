@@ -2454,8 +2454,8 @@
         "download": [
             {
                 "name": "ut2004",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut2004-12/",
-                "file": "ut2004-13230-12.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut2004-13/",
+                "file": "ut2004-13230-13.tar.xz"
             },
             {
                 "name": "foxWSFix",
@@ -2468,34 +2468,74 @@
                 "file": "ut2004-lnxpatch3369-2.tar.bz2"
             }
         ],
-        "download_config": {
-            "binaries": {
-                "extract_location": "../linuxdata",
-                "strip_prefix": "UT2004-Patch/",
-                "setup": true
+        "choices": [
+            {
+                "name": "ut2004 with foxWSFix",
+                "download": [
+                    "ut2004",
+                    "foxWSFix",
+                    "binaries"
+                ],
+                "download_config": {
+                    "binaries": {
+                        "extract_location": "../linuxdata",
+                        "strip_prefix": "UT2004-Patch/",
+                        "setup": true
+                    },
+                    "foxWSFix": {
+                        "extract_location": "../linuxdata",
+                        "setup": true
+                    }
+                },
+                "setup": {
+                    "complete_path": "../ready",
+                    "command": "./setup-ut2004.sh",
+                    "uninstall_command": "./uninstall-ut2004.sh",
+                    "license_path": "../System/License.int",
+                    "dialogs": [
+                        {
+                            "type": "input",
+                            "title": "Unreal Tournament 2004 Setup",
+                            "label": "Enter your CD Key (Can Be Found in Steam)",
+                            "key": "CDKEY"
+                        }
+                    ]
+                },
+                "command": "./run-ut2004.sh",
+                "engine_name": "ut2004"
             },
-            "foxWSFix": {
-                "extract_location": "../linuxdata",
-                "setup": true
+            {
+                "name": "ut2004 without foxWSFix",
+                "download": [
+                    "ut2004",
+                    "binaries"
+                ],
+                "download_config": {
+                    "binaries": {
+                        "extract_location": "../linuxdata-standard",
+                        "strip_prefix": "UT2004-Patch/",
+                        "setup": true
+                    }
+                },
+                "setup": {
+                    "complete_path": "../ready-standard",
+                    "command": "./setup-ut2004-standard.sh",
+                    "uninstall_command": "./uninstall-ut2004-standard.sh",
+                    "license_path": "../System/License.int",
+                    "dialogs": [
+                        {
+                            "type": "input",
+                            "title": "Unreal Tournament 2004 Setup",
+                            "label": "Enter your CD Key (Can Be Found in Steam)",
+                            "key": "CDKEY"
+                        }
+                    ]
+                },
+                "command": "./run-ut2004-standard.sh",
+                "engine_name": "ut2004"
             }
-        },
-        "setup": {
-            "complete_path": "../ready",
-            "command": "./setup-ut2004.sh",
-            "uninstall_command": "./uninstall-ut2004.sh",
-            "license_path": "../System/License.int",
-            "dialogs": [
-                {
-                    "type": "input",
-                    "title": "Unreal Tournament 2004 Setup",
-                    "label": "Enter your CD Key (Can Be Found in Steam)",
-                    "key": "CDKEY"
-                }
-            ]
-        },
-        "command": "./run-ut2004.sh",
+        ],
         "use_original_command_directory": true,
-        "engine_name": "ut2004",
         "information": {
             "closed_source": true
         },
@@ -3241,6 +3281,19 @@
             "non_free": true
         },
         "cloudAvailable": true
+    },
+    "200900": {
+        "game_name": "Cave Story+",
+        "download": [
+            {
+                "name": "doukutsu-rs",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doukutsu-rs-1/",
+                "file": "doukutsu-rs-200900-1.tar.xz"
+            }
+        ],
+        "command": "./doukutsu-rs",
+        "engine_name": "doukutsu-rs",
+        "cloudNotAvailable": true
     },
     "208200": {
         "game_name": "Doom 3: BFG Edition",
@@ -5913,26 +5966,32 @@
         "game_name": "Wolfenstein: Enemy Territory",
         "download": [
             {
-                "name": "etlegacy",
+                "name": "etlegacy-binaries",
                 "url": "https://www.etlegacy.com/download/file/",
                 "file": "410.tar.gz"
             },
             {
-                "name": "etlegacy-64",
+                "name": "etlegacy-64-binaries",
                 "url": "https://www.etlegacy.com/download/file/",
                 "file": "407.tar.gz"
+            },
+            {
+                "name": "etlegacy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etlegacy-2/",
+                "file": "etlegacy-1873030-2.tar.xz"
             }
         ],
         "choices": [
             {
                 "name": "ET: Legacy (32-bit, Recommended)",
                 "engine_name": "ET: Legacy",
-                "command": "./etl",
+                "command": "./run-etlegacy.sh",
                 "download": [
+                    "etlegacy-binaries",
                     "etlegacy"
                 ],
                 "download_config": {
-                    "etlegacy": {
+                    "etlegacy-binaries": {
                         "extract_location": "./",
                         "strip_prefix": "etlegacy-v2.80.2-i386/"
                     }
@@ -5941,14 +6000,18 @@
             {
                 "name": "ET: Legacy (64-bit)",
                 "engine_name": "ET: Legacy (64-bit)",
-                "command": "./etlegacy-64/etl",
+                "command": "./etlegacy-64/run-etlegacy-64.sh",
                 "download": [
-                    "etlegacy-64"
+                    "etlegacy-64-binaries",
+                    "etlegacy"
                 ],
                 "download_config": {
-                    "etlegacy-64": {
+                    "etlegacy-64-binaries": {
                         "extract_location": "./etlegacy-64",
                         "strip_prefix": "etlegacy-v2.80.2-x86_64/"
+                    },
+                    "etlegacy": {
+                        "extract_location": "./etlegacy-64"
                     }
                 }
             }
@@ -6835,7 +6898,7 @@
                     "label": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. On the Steam Deck, you may have to enter that key in manually instead of using the clipboard."
                 },
                 {
-                    "label": "Mods should go in the linuxdata directory. Adds foxWSFix by default."
+                    "label": "Mods should go in the linuxdata directory. Adds foxWSFix by default, unless the without option is selected."
                 }
             ],
             "controllerNotSupported": true
@@ -7473,6 +7536,15 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/the3dfxdude/7kaa/blob/master/COPYING",
+            "controllerNotSupported": true
+        },
+        "doukutsu-rs": {
+            "engine_link": "https://github.com/doukutsu-rs/doukutsu-rs.git",
+            "version": "0.99.0-beta4",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Modified MIT",
+            "license_link": "https://github.com/doukutsu-rs/doukutsu-rs/blob/master/LICENSE",
             "controllerNotSupported": true
         }
     },

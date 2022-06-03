@@ -1,3 +1,9 @@
+### 55.0 (2022-05-29)
+
+* ut2004 - Add standard option that removes the foxWSFix for online play.
+* [Thanks to sponsors for funds to buy the games] Added doukutsu-rs
+* etlegacy - Fix 64-bit launch & Fix x11 library missing
+
 ### 54.0 (2022-05-21)
 
 * openxcom - Add defaults for steam deck
