@@ -4,6 +4,7 @@
 * [Thanks to sponsors for funds to buy the games] Added doukutsu-rs
 * etlegacy - Fix 64-bit launch & Fix x11 library missing
 * Added ETe, another option for W:ET
+* Added openmw-latest, using latest from development. Includes option to launch with Zesterer's OpenMW Shaders, without having to manually install them.
 
 ### 54.0 (2022-05-21)
 
