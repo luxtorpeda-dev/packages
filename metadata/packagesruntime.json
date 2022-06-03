@@ -6000,7 +6000,7 @@
             },
             {
                 "name": "ETe (32-bit)",
-                "engine_name": "ETe",
+                "engine_name": "ETe (32-bit)",
                 "command": "./ete/run-ete.sh",
                 "download": [
                     "ete"
@@ -7494,7 +7494,7 @@
             "license_link": "https://github.com/etlegacy/etlegacy/blob/master/COPYING.txt",
             "controllerNotSupported": true
         },
-        "ETe": {
+        "ETe (32-bit)": {
             "engine_link": "https://github.com/etfdevs/ETe",
             "version": "c864b0a",
             "author": "d10sfan",
