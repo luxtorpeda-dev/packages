@@ -2641,6 +2641,11 @@
                 "name": "openmw-tes3mp",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-7/",
                 "file": "openmw-tes3mp-22320-7.tar.xz"
+            },
+            {
+                "name": "openmw-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-latest-1/",
+                "file": "openmw-latest-22320-1.tar.xz"
             }
         ],
         "download_config": {
