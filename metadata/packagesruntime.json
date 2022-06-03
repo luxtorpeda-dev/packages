@@ -2646,6 +2646,9 @@
         "download_config": {
             "openmw-tes3mp": {
                 "extract_location": "./openmw-tes3mp"
+            },
+            "openmw-latest": {
+                "extract_location": "./openmw-latest"
             }
         },
         "choices": [
@@ -2671,6 +2674,25 @@
                 "download": [
                     "openmw-tes3mp"
                 ]
+            },
+            {
+                "name": "OpenMW Launcher (Latest)",
+                "command": "./openmw-latest/openmw-launcher.sh",
+                "download": [
+                    "openmw-latest"
+                ],
+                "engine_name": "OpenMW (Latest)"
+            },
+            {
+                "name": "OpenMW Launcher (Latest) with zesterer's Shaders",
+                "command": "./openmw-latest/openmw-launcher.sh",
+                "download": [
+                    "openmw-latest"
+                ],
+                "command_args": [
+                    "withshaders"
+                ],
+                "engine_name": "OpenMW (Latest)"
             }
         ],
         "cloudAvailable": true
@@ -6974,6 +6996,23 @@
             "license": "GPLv3",
             "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE",
             "controllerSupported": true
+        },
+        "OpenMW (Latest)": {
+            "engine_link": "https://openmw.org/",
+            "version": "e78d36f",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE",
+            "controllerSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                },
+                {
+                    "label": "Saves and config are located inside ./openmw-latest directory inside game directory."
+                }
+            ]
         },
         "openmw-tes3mp": {
             "engine_link": "https://github.com/TES3MP/openmw-tes3mp",
