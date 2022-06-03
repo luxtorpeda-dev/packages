@@ -7494,6 +7494,20 @@
             "license_link": "https://github.com/etlegacy/etlegacy/blob/master/COPYING.txt",
             "controllerNotSupported": true
         },
+        "ETe": {
+            "engine_link": "https://github.com/etfdevs/ETe",
+            "version": "c864b0a",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/etfdevs/ETe/blob/master/COPYING.txt",
+            "notices": [
+                {
+                    "key": "32_bit"
+                }
+            ],
+            "controllerNotSupported": true
+        },
         "OpenTESArena": {
             "engine_link": "https://github.com/afritz1/OpenTESArena",
             "version": "7ed44a3",
