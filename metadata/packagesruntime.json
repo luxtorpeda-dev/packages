@@ -5957,6 +5957,11 @@
                 "name": "etlegacy",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etlegacy-2/",
                 "file": "etlegacy-1873030-2.tar.xz"
+            },
+            {
+                "name": "ete",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ete-1/",
+                "file": "ete-1873030-1.tar.xz"
             }
         ],
         "choices": [
