@@ -14,7 +14,7 @@ popd
 
 git clone https://github.com/zesterer/openmw-shaders.git openmw-shaders
 pushd openmw-shaders
-git checkout 52fa398
+git checkout 00eb62a42a3102110da150d5b4b096c2074e1989
 popd
 
 # BUILD PHASE
