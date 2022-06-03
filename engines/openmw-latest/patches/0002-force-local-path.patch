@@ -1,0 +1,25 @@
+From 8055a69417c518019833ea49398c6dcee60e122b Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Thu, 2 Jun 2022 21:22:33 -0500
+Subject: [PATCH] force local path
+
+---
+ components/files/linuxpath.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/components/files/linuxpath.cpp b/components/files/linuxpath.cpp
+index c3dead296..283819daf 100644
+--- a/components/files/linuxpath.cpp
++++ b/components/files/linuxpath.cpp
+@@ -97,7 +97,7 @@ boost::filesystem::path LinuxPath::getLocalPath() const
+ 
+ boost::filesystem::path LinuxPath::getGlobalDataPath() const
+ {
+-    boost::filesystem::path globalDataPath(GLOBAL_DATA_PATH);
++    boost::filesystem::path globalDataPath("./");
+     return globalDataPath / mName;
+ }
+ 
+-- 
+2.36.0
+
