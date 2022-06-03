@@ -10,4 +10,5 @@ LD_PRELOAD="" ln -rsf "$ORIGINALDIR/etmain/pak1.pk3" ./etmain/pak1.pk3
 LD_PRELOAD="" ln -rsf "$ORIGINALDIR/etmain/pak2.pk3" ./etmain/pak2.pk3
 LD_PRELOAD="" ln -rsf "$ORIGINALDIR/etmain/mp_bin.pk3" ./etmain/mp_bin.pk3
 
-./ete.x86 "$@"
+# ld preload for silent mod
+LD_PRELOAD="$LD_PRELOAD:/overrides/lib/i386-linux-gnu/libXext.so.6" ./ete.x86 "$@"
