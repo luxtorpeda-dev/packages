@@ -45,6 +45,7 @@ if [ ! -f ./config/openmw/openmw.cfg ]; then
     echo -e "content=Morrowind.esm" >> ./config/openmw/openmw.cfg
     echo -e "content=Tribunal.esm" >> ./config/openmw/openmw.cfg
     echo -e "content=Bloodmoon.esm" >> ./config/openmw/openmw.cfg
+    echo -e "content=builtin.omwscripts" >> ./config/openmw/openmw.cfg
 
     if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
         if [ ! -f ./config/openmw/settings.cfg ]; then
