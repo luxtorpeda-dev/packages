@@ -46,15 +46,6 @@ if [ ! -f ./config/openmw/openmw.cfg ]; then
     echo -e "content=Tribunal.esm" >> ./config/openmw/openmw.cfg
     echo -e "content=Bloodmoon.esm" >> ./config/openmw/openmw.cfg
     echo -e "content=builtin.omwscripts" >> ./config/openmw/openmw.cfg
-
-    if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
-        if [ ! -f ./config/openmw/settings.cfg ]; then
-            echo -e "[Video]" >> ./config/openmw/settings.cfg
-            echo -e "fullscreen = true" >> ./config/openmw/settings.cfg
-            echo -e "resolution x = 1280" >> ./config/openmw/settings.cfg
-            echo -e "resolution y = 800" >> ./config/openmw/settings.cfg
-        fi
-    fi
 else
     echo "openmw.cfg file detected, so checking for resources"
     if grep -q resources ./config/openmw/openmw.cfg; then
@@ -63,9 +54,31 @@ else
         echo "Adding resources line"
         echo -e "\nresources=\"share/games/openmw/resources\"" >> ./config/openmw/openmw.cfg
     fi
+
+    if grep -q builtin.omwscripts ./config/openmw/openmw.cfg; then
+        echo "builtin.omwscripts"
+    else
+        echo "Adding builtin.omwscripts line"
+        echo -e "content=builtin.omwscripts" >> ./config/openmw/openmw.cfg
+    fi
+fi
+
+if [ ! -f ./config/openmw/settings.cfg ]; then
+    echo -e "[Shadows]\n" > ./config/openmw/settings.cfg
+    echo -e "enable shadows = true" >> ./config/openmw/settings.cfg
+fi
+
+if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
+    if [ ! -f ./config/openmw/settings.cfg ]; then
+        echo -e "[Video]" >> ./config/openmw/settings.cfg
+        echo -e "fullscreen = true" >> ./config/openmw/settings.cfg
+        echo -e "resolution x = 1280" >> ./config/openmw/settings.cfg
+        echo -e "resolution y = 800" >> ./config/openmw/settings.cfg
+    fi
 fi
 
 LD_PRELOAD="" ln -rsf ./config/openmw/openmw.cfg openmw.cfg
+LD_PRELOAD="" ln -rsf ./config/openmw/settings.cfg settings.cfg
 
 if [ ! -d ./shaders-bkup ]; then
     LD_PRELOAD="" cp -rfv ./share/games/openmw/resources/shaders ./shaders-bkup
@@ -87,4 +100,4 @@ else
     LD_PRELOAD="" ln -rsf ./shaders-bkup ./share/games/openmw/resources/shaders
 fi
 
-LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./plugins XDG_CONFIG_HOME="./config" XDG_DATA_HOME="./local" ./openmw-launcher --data-local "../Data Files" "$@"
+LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./plugins XDG_CONFIG_HOME="./config" XDG_DATA_HOME="./local" ./openmw --data-local "../Data Files" "$@"
