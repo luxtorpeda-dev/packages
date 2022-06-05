@@ -2681,16 +2681,16 @@
                 ]
             },
             {
-                "name": "OpenMW Launcher (Latest)",
-                "command": "./openmw-latest/openmw-launcher.sh",
+                "name": "OpenMW (Latest)",
+                "command": "./openmw-latest/openmw.sh",
                 "download": [
                     "openmw-latest"
                 ],
                 "engine_name": "OpenMW (Latest)"
             },
             {
-                "name": "OpenMW Launcher (Latest) with zesterer's Shaders",
-                "command": "./openmw-latest/openmw-launcher.sh",
+                "name": "OpenMW (Latest) with zesterer's Shaders",
+                "command": "./openmw-latest/openmw.sh",
                 "download": [
                     "openmw-latest"
                 ],
