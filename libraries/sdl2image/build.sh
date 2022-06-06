@@ -8,6 +8,8 @@ popd
 
 # BUILD PHASE
 pushd "sdl2_image"
+touch NEWS README AUTHORS ChangeLog
+autoreconf --force --install
 ./configure --disable-static --prefix="$pfx"
 make -j "$(nproc)"
 make install
