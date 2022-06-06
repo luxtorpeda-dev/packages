@@ -15,7 +15,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     ..
 make -j "$(nproc)"
-make install
+DESTDIR="$pfx" make install
 popd
 
 cp -rfv "$pfx/lib/"* /usr/lib
