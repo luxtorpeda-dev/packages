@@ -8,12 +8,7 @@ popd
 
 # BUILD PHASE
 pushd "sdl2_image"
-mkdir -p build
-cd build
-cmake \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    ..
+./configure --disable-static --prefix="$pfx"
 make -j "$(nproc)"
 make install
 popd
