@@ -7,6 +7,7 @@
 * Added openmw-latest, using latest from development. Includes option to launch with Zesterer's OpenMW Shaders, without having to manually install them.
 * openmw-latest - Fix for missing config line & stop using launcher
 * doom-retro - libraries & update to latest branch for save fix
+* gzdoom - Update to 4.8.0
 
 ### 54.0 (2022-05-21)
 
