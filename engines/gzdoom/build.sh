@@ -7,7 +7,7 @@ apt-get install -y mercurial
 # CLONE PHASE
 git clone https://github.com/coelckers/gzdoom.git source
 pushd source
-git checkout 107ff70
+git checkout 08e4676
 popd
 
 hg clone https://heptapod.host/jp-lebreton/wadsmoosh
