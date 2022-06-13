@@ -6543,7 +6543,7 @@
         },
         "scummvm-latest": {
             "engine_link": "https://github.com/scummvm/scummvm",
-            "version": "1607b25",
+            "version": "2.6.0 RC (b286957)",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
