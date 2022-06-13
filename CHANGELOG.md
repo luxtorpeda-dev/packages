@@ -8,6 +8,7 @@
 * openmw-latest - Fix for missing config line & stop using launcher
 * doom-retro - libraries & update to latest branch for save fix
 * gzdoom - Update to 4.8.0
+* scummvm-latest - Update to latest RC
 
 ### 54.0 (2022-05-21)
 
