@@ -9,6 +9,7 @@
 * doom-retro - libraries & update to latest branch for save fix
 * gzdoom - Update to 4.8.0
 * scummvm-latest - Update to latest RC
+* dhewm3 - Update to 1.5.2
 
 ### 54.0 (2022-05-21)
 
