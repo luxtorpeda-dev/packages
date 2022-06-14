@@ -2698,6 +2698,25 @@
                     "withshaders"
                 ],
                 "engine_name": "OpenMW (Latest)"
+            },
+            {
+                "name": "OpenMW (Latest) Launcher",
+                "command": "./openmw-latest/openmw-launcher.sh",
+                "download": [
+                    "openmw-latest"
+                ],
+                "engine_name": "OpenMW (Latest)"
+            },
+            {
+                "name": "OpenMW (Latest) Launcher with zesterer's Shaders",
+                "command": "./openmw-latest/openmw-launcher.sh",
+                "download": [
+                    "openmw-latest"
+                ],
+                "command_args": [
+                    "withshaders"
+                ],
+                "engine_name": "OpenMW (Latest)"
             }
         ],
         "cloudAvailable": true
