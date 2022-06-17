@@ -3944,6 +3944,25 @@
         },
         "cloudNotAvailable": true
     },
+    "255940": {
+        "game_name": "The 11th Hour",
+        "download": [
+            {
+                "name": "scummvm-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-5/",
+                "file": "scummvm-latest-common-5.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
+            }
+        },
+        "command": "./scum-latest/run-scummvm.sh",
+        "engine_name": "scummvm-latest",
+        "cloudNotAvailable": true
+    },
     "273570": {
         "game_name": "Descent",
         "download": [
@@ -5567,8 +5586,8 @@
         "download": [
             {
                 "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-4/",
-                "file": "scummvm-latest-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-5/",
+                "file": "scummvm-latest-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5600,25 +5619,6 @@
         "engine_name": "scummvm",
         "cloudNotAvailable": true
     },
-    "255940": {
-        "game_name": "The 11th Hour",
-        "download": [
-            {
-                "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-4/",
-                "file": "scummvm-latest-common-4.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "download_config": {
-            "scummvm-latest": {
-                "extract_location": "./scum-latest"
-            }
-        },
-        "command": "./scum-latest/run-scummvm.sh",
-        "engine_name": "scummvm-latest",
-        "cloudNotAvailable": true
-    }, 
     "1379630": {
         "game_name": "RealRTCW",
         "download": [
@@ -6197,8 +6197,8 @@
             },
             {
                 "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-4/",
-                "file": "scummvm-latest-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-5/",
+                "file": "scummvm-latest-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
