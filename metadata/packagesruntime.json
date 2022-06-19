@@ -3944,32 +3944,13 @@
         },
         "cloudNotAvailable": true
     },
-    "1044340": {
-        "game_name": "The 7th Guest",
-        "download": [
-            {
-                "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-5/",
-                "file": "scummvm-latest-common-5.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "download_config": {
-            "scummvm-latest": {
-                "extract_location": "./scum-latest"
-            }
-        },
-        "command": "./scum-latest/run-scummvm.sh",
-        "engine_name": "scummvm-latest",
-        "cloudNotAvailable": true
-    },
     "255940": {
         "game_name": "The 11th Hour",
         "download": [
             {
                 "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-5/",
-                "file": "scummvm-latest-common-5.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-6/",
+                "file": "scummvm-latest-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5244,6 +5225,25 @@
         ],
         "cloudNotAvailable": true
     },
+    "1044340": {
+        "game_name": "The 7th Guest",
+        "download": [
+            {
+                "name": "scummvm-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-6/",
+                "file": "scummvm-latest-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
+            }
+        },
+        "command": "./scum-latest/run-scummvm.sh",
+        "engine_name": "scummvm-latest",
+        "cloudNotAvailable": true
+    },
     "1054600": {
         "game_name": "Resistance Element",
         "download": [
@@ -5605,8 +5605,8 @@
         "download": [
             {
                 "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-5/",
-                "file": "scummvm-latest-common-5.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-6/",
+                "file": "scummvm-latest-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -6216,8 +6216,8 @@
             },
             {
                 "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-5/",
-                "file": "scummvm-latest-common-5.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-6/",
+                "file": "scummvm-latest-common-6.tar.xz",
                 "cache_by_name": true
             }
         ],
