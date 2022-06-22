@@ -5244,6 +5244,25 @@
         "engine_name": "scummvm-latest",
         "cloudNotAvailable": true
     },
+    "284050": {
+        "game_name": "Sanitarium",
+        "download": [
+            {
+                "name": "scummvm-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-6/",
+                "file": "scummvm-latest-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
+            }
+        },
+        "command": "./scum-latest/run-scummvm.sh",
+        "engine_name": "scummvm-latest",
+        "cloudNotAvailable": true
+    },
     "1054600": {
         "game_name": "Resistance Element",
         "download": [
