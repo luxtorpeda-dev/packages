@@ -3949,8 +3949,8 @@
         "download": [
             {
                 "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-6/",
-                "file": "scummvm-latest-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
+                "file": "scummvm-latest-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4087,6 +4087,25 @@
             "license": "Volition",
             "non_free": true
         },
+        "cloudNotAvailable": true
+    },
+    "284050": {
+        "game_name": "Sanitarium",
+        "download": [
+            {
+                "name": "scummvm-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
+                "file": "scummvm-latest-common-7.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
+            }
+        },
+        "command": "./scum-latest/run-scummvm.sh",
+        "engine_name": "scummvm-latest",
         "cloudNotAvailable": true
     },
     "285310": {
@@ -5230,27 +5249,8 @@
         "download": [
             {
                 "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-6/",
-                "file": "scummvm-latest-common-6.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "download_config": {
-            "scummvm-latest": {
-                "extract_location": "./scum-latest"
-            }
-        },
-        "command": "./scum-latest/run-scummvm.sh",
-        "engine_name": "scummvm-latest",
-        "cloudNotAvailable": true
-    },
-    "284050": {
-        "game_name": "Sanitarium",
-        "download": [
-            {
-                "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-6/",
-                "file": "scummvm-latest-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
+                "file": "scummvm-latest-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5624,8 +5624,8 @@
         "download": [
             {
                 "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-6/",
-                "file": "scummvm-latest-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
+                "file": "scummvm-latest-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -6235,8 +6235,8 @@
             },
             {
                 "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-6/",
-                "file": "scummvm-latest-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
+                "file": "scummvm-latest-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
