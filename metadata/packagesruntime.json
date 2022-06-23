@@ -3271,8 +3271,8 @@
                 "file": "serious-engine-41050-4.tar.xz"
             }
         ],
-        "command": "./Bin/ssam-tfe",
-        "engine_name": "Serious-Engine",
+        "command": "./Bin/SeriousSam",
+        "engine_name": "SeriousSamClassic-VK",
         "cloudNotAvailable": true
     },
     "41060": {
@@ -3284,8 +3284,8 @@
                 "file": "serious-engine-41060-4.tar.xz"
             }
         ],
-        "command": "./Bin/ssam",
-        "engine_name": "Serious-Engine",
+        "command": "./Bin/SeriousSam",
+        "engine_name": "SeriousSamClassic-VK",
         "cloudNotAvailable": true
     },
     "41700": {
@@ -6869,13 +6869,13 @@
             "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE",
             "controllerNotSupported": true
         },
-        "Serious-Engine": {
-            "engine_link": "https://github.com/ptitSeb/Serious-Engine",
-            "version": "8f1a273 (from master)",
+        "SeriousSamClassic-VK": {
+            "engine_link": "https://github.com/tx00100xt/SeriousSamClassic-VK",
+            "version": "3620b73",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE",
+            "license_link": "https://github.com/tx00100xt/SeriousSamClassic-VK/blob/main/LICENSE",
             "controllerNotSupported": true
         },
         "Quake IV": {
