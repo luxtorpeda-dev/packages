@@ -3267,8 +3267,8 @@
         "download": [
             {
                 "name": "serious-engine",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-4/",
-                "file": "serious-engine-41050-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-5/",
+                "file": "serious-engine-41050-5.tar.xz"
             }
         ],
         "command": "./Bin/SeriousSam",
@@ -3280,8 +3280,8 @@
         "download": [
             {
                 "name": "serious-engine",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-4/",
-                "file": "serious-engine-41060-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-5/",
+                "file": "serious-engine-41060-5.tar.xz"
             }
         ],
         "command": "./Bin/SeriousSam",
