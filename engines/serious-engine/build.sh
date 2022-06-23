@@ -12,7 +12,7 @@ pushd source/SamTSE/Sources
 popd
 
 # COPY PHASE
-cp -rfv source/SamTSE/Sources/Bin "$diststart/41060/dist/"
+cp -rfv source/SamTSE/Bin "$diststart/41060/dist/"
 
 # BUILD PHASE
 pushd source/SamTFE/Sources
@@ -20,4 +20,4 @@ pushd source/SamTFE/Sources
 popd
 
 # COPY PHASE
-cp -rfv source/SamTFE/Sources/Bin "$diststart/41050/dist/"
+cp -rfv source/SamTFE/Bin "$diststart/41050/dist/"
