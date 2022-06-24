@@ -3271,7 +3271,7 @@
                 "file": "serious-engine-41050-5.tar.xz"
             }
         ],
-        "command": "./Bin/SeriousSam",
+        "command": "./run-serious-engine.sh",
         "engine_name": "SeriousSamClassic-VK",
         "cloudNotAvailable": true
     },
@@ -3284,7 +3284,7 @@
                 "file": "serious-engine-41060-5.tar.xz"
             }
         ],
-        "command": "./Bin/SeriousSam",
+        "command": "./run-serious-engine.sh",
         "engine_name": "SeriousSamClassic-VK",
         "cloudNotAvailable": true
     },

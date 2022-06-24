@@ -13,6 +13,7 @@ popd
 
 # COPY PHASE
 cp -rfv source/SamTSE/Bin "$diststart/41060/dist/"
+cp -rfv assets/* "$diststart/41060/dist/"
 
 # BUILD PHASE
 pushd source/SamTFE/Sources
@@ -21,3 +22,4 @@ popd
 
 # COPY PHASE
 cp -rfv source/SamTFE/Bin "$diststart/41050/dist/"
+cp -rfv assets/* "$diststart/41050/dist/"
