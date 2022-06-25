@@ -12,6 +12,7 @@
 * dhewm3 - Update to 1.5.2
 * openmw-latest - Add back support for launcher. This changes the config structure a bit, but it should be usable without having to change anything manually. Config is in ./openmw-latest/local-cfg and soft links are created for existing files.
 * serious-engine - Switch to SeriousSamClassic-VK
+* avp - Fix FMVs
 
 ### 54.0 (2022-05-21)
 
