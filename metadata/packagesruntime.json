@@ -6003,6 +6003,53 @@
         ],
         "cloudAvailable": true
     },
+    "1812390": {
+        "game_name": "The Elder Scrolls II: Daggerfall",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v0.14.0-beta/",
+                "file": "dfu_linux_64bit-v0.14.0-beta.zip"
+            },
+            {
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-15/",
+                "file": "dosbox-staging-common-15.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "binaries": {
+                "decode_as_zip": true,
+                "extract_location": "../"
+            },
+            "dosbox-staging": {
+                "extract_location": "./dosbox-staging"
+            }
+        },
+        "app_ids_deps": [
+            1070560
+        ],
+        "choices": [
+            {
+                "name": "Daggerfall Unity",
+                "engine_name": "Daggerfall Unity",
+                "command": "./run-daggerfall-unity.sh",
+                "download": [
+                    "binaries"
+                ]
+            },
+            {
+                "name": "dosbox-staging",
+                "command": "./dosbox-staging/run-dosbox-staging.sh",
+                "download": [
+                    "dosbox-staging"
+                ]
+            }
+        ],
+        "use_original_command_directory": true,
+        "cloudAvailable": true
+    },
     "1812410": {
         "game_name": "The Elder Scrolls Adventures: Redguard",
         "download": [
@@ -7659,6 +7706,15 @@
             "license": "Modified MIT",
             "license_link": "https://github.com/doukutsu-rs/doukutsu-rs/blob/master/LICENSE",
             "controllerNotSupported": true
+        },
+        "Daggerfall Unity": {
+            "engine_link": "https://github.com/Interkarma/daggerfall-unity",
+            "version": "0.14.0 Beta [Pre-release]",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/Interkarma/daggerfall-unity/blob/master/LICENSE",
+            "controllerSupported": true
         }
     },
     "noticeMap": {
