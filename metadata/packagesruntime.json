@@ -6016,6 +6016,11 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-15/",
                 "file": "dosbox-staging-common-15.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "daggerfall-unity",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daggerfall-unity-1/",
+                "file": "daggerfall-unity-1812390-1.tar.xz"
             }
         ],
         "download_config": {
