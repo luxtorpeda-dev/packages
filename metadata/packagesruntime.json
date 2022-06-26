@@ -6041,7 +6041,8 @@
                 "engine_name": "Daggerfall Unity",
                 "command": "./run-daggerfall-unity.sh",
                 "download": [
-                    "binaries"
+                    "binaries",
+                    "daggerfall-unity"
                 ]
             },
             {
