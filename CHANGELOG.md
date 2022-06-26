@@ -3,6 +3,7 @@
 * serious-engine - Switch to SeriousSamClassic-VK
 * avp - Fix FMVs
 * Added daggerfall-unity
+* gzdoom - Update to 4.8.1
 
 ### 55.0 (2022-05-29)
 
