@@ -199,8 +199,8 @@
         "download": [
             {
                 "name": "ecwolf",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-4/",
-                "file": "ecwolf-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-5/",
+                "file": "ecwolf-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -214,8 +214,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -244,8 +244,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-3/",
-                "file": "doom-retro-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-7/",
+                "file": "doom-retro-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -393,8 +393,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -423,8 +423,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-3/",
-                "file": "doom-retro-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-7/",
+                "file": "doom-retro-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -641,8 +641,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -671,8 +671,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-3/",
-                "file": "doom-retro-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-7/",
+                "file": "doom-retro-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1436,8 +1436,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1561,8 +1561,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1650,8 +1650,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1797,8 +1797,8 @@
         "download": [
             {
                 "name": "avp",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/avp-7/",
-                "file": "avp-3730-7.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/avp-8/",
+                "file": "avp-3730-8.tar.xz"
             }
         ],
         "command": "./run-avp.sh",
@@ -1848,8 +1848,8 @@
         "download": [
             {
                 "name": "openjk",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-5/",
-                "file": "openjk-6020-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-6/",
+                "file": "openjk-6020-6.tar.xz"
             },
             {
                 "name": "eternaljk",
@@ -1859,7 +1859,7 @@
         ],
         "commands": {
             ".*jasp.exe": {
-                "cmd": "./openjk_sp.x86_64"
+                "cmd": "./run-openjk.sh"
             },
             ".*jamp.exe": {
                 "cmd": "./eternaljk.x86_64"
@@ -1876,8 +1876,8 @@
         "download": [
             {
                 "name": "openjk",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-5/",
-                "file": "openjk-6030-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-6/",
+                "file": "openjk-6030-6.tar.xz"
             },
             {
                 "name": "jk2mv",
@@ -1887,7 +1887,7 @@
         ],
         "commands": {
             ".*jk2sp.exe": {
-                "cmd": "./openjo_sp.x86_64"
+                "cmd": "./run-openjo.sh"
             },
             ".*jk2mp.exe": {
                 "cmd": "./jk2mvmp"
@@ -1923,14 +1923,14 @@
         "download": [
             {
                 "name": "openxcom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-2/",
-                "file": "openxcom-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-5/",
+                "file": "openxcom-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
                 "name": "openxcom-oxce",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-3/",
-                "file": "openxcom-oxce-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-4/",
+                "file": "openxcom-oxce-common-4.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -2023,14 +2023,14 @@
         "download": [
             {
                 "name": "openxcom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-2/",
-                "file": "openxcom-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-5/",
+                "file": "openxcom-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
                 "name": "openxcom-oxce",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-3/",
-                "file": "openxcom-oxce-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-4/",
+                "file": "openxcom-oxce-common-4.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -2084,8 +2084,8 @@
         "download": [
             {
                 "name": "ecwolf",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-4/",
-                "file": "ecwolf-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-5/",
+                "file": "ecwolf-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2098,13 +2098,13 @@
         "download": [
             {
                 "name": "iortcw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-5/",
-                "file": "iortcw-9010-5.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-11/",
+                "file": "iortcw-9010-11.tar.xz"
             }
         ],
         "commands": {
             ".*WolfSP.exe": {
-                "cmd": "./iowolfsp.x86_64",
+                "cmd": "./run-iortcw.sh",
                 "args": [
                     "+set",
                     "com_basegame",
@@ -2128,12 +2128,12 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-40/",
-                "file": "dhewm3-common-40.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-42/",
+                "file": "dhewm3-common-42.tar.xz",
                 "cache_by_name": true
             }
         ],
-        "command": "./dhewm3",
+        "command": "./run-dhewm3.sh",
         "engine_name": "dhewm3",
         "cloudAvailable": true
     },
@@ -2204,12 +2204,12 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-40/",
-                "file": "dhewm3-common-40.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-42/",
+                "file": "dhewm3-common-42.tar.xz",
                 "cache_by_name": true
             }
         ],
-        "command": "./dhewm3",
+        "command": "./run-dhewm3.sh",
         "command_args": [
             "+set",
             "fs_game",
@@ -2260,8 +2260,8 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-39/",
-                "file": "dhewm3-common-40.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-42/",
+                "file": "dhewm3-common-42.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2317,8 +2317,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -2454,8 +2454,8 @@
         "download": [
             {
                 "name": "ut2004",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut2004-12/",
-                "file": "ut2004-13230-12.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut2004-13/",
+                "file": "ut2004-13230-13.tar.xz"
             },
             {
                 "name": "foxWSFix",
@@ -2468,34 +2468,74 @@
                 "file": "ut2004-lnxpatch3369-2.tar.bz2"
             }
         ],
-        "download_config": {
-            "binaries": {
-                "extract_location": "../linuxdata",
-                "strip_prefix": "UT2004-Patch/",
-                "setup": true
+        "choices": [
+            {
+                "name": "ut2004 with foxWSFix",
+                "download": [
+                    "ut2004",
+                    "foxWSFix",
+                    "binaries"
+                ],
+                "download_config": {
+                    "binaries": {
+                        "extract_location": "../linuxdata",
+                        "strip_prefix": "UT2004-Patch/",
+                        "setup": true
+                    },
+                    "foxWSFix": {
+                        "extract_location": "../linuxdata",
+                        "setup": true
+                    }
+                },
+                "setup": {
+                    "complete_path": "../ready",
+                    "command": "./setup-ut2004.sh",
+                    "uninstall_command": "./uninstall-ut2004.sh",
+                    "license_path": "../System/License.int",
+                    "dialogs": [
+                        {
+                            "type": "input",
+                            "title": "Unreal Tournament 2004 Setup",
+                            "label": "Enter your CD Key (Can Be Found in Steam)",
+                            "key": "CDKEY"
+                        }
+                    ]
+                },
+                "command": "./run-ut2004.sh",
+                "engine_name": "ut2004"
             },
-            "foxWSFix": {
-                "extract_location": "../linuxdata",
-                "setup": true
+            {
+                "name": "ut2004 without foxWSFix",
+                "download": [
+                    "ut2004",
+                    "binaries"
+                ],
+                "download_config": {
+                    "binaries": {
+                        "extract_location": "../linuxdata-standard",
+                        "strip_prefix": "UT2004-Patch/",
+                        "setup": true
+                    }
+                },
+                "setup": {
+                    "complete_path": "../ready-standard",
+                    "command": "./setup-ut2004-standard.sh",
+                    "uninstall_command": "./uninstall-ut2004-standard.sh",
+                    "license_path": "../System/License.int",
+                    "dialogs": [
+                        {
+                            "type": "input",
+                            "title": "Unreal Tournament 2004 Setup",
+                            "label": "Enter your CD Key (Can Be Found in Steam)",
+                            "key": "CDKEY"
+                        }
+                    ]
+                },
+                "command": "./run-ut2004-standard.sh",
+                "engine_name": "ut2004"
             }
-        },
-        "setup": {
-            "complete_path": "../ready",
-            "command": "./setup-ut2004.sh",
-            "uninstall_command": "./uninstall-ut2004.sh",
-            "license_path": "../System/License.int",
-            "dialogs": [
-                {
-                    "type": "input",
-                    "title": "Unreal Tournament 2004 Setup",
-                    "label": "Enter your CD Key (Can Be Found in Steam)",
-                    "key": "CDKEY"
-                }
-            ]
-        },
-        "command": "./run-ut2004.sh",
+        ],
         "use_original_command_directory": true,
-        "engine_name": "ut2004",
         "information": {
             "closed_source": true
         },
@@ -2516,8 +2556,8 @@
             },
             {
                 "name": "ut99",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-13/",
-                "file": "ut99-13240-13.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-14/",
+                "file": "ut99-13240-14.tar.xz"
             }
         ],
         "command": "./run-ut99-469b.sh",
@@ -2594,18 +2634,26 @@
         "download": [
             {
                 "name": "openmw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-13/",
-                "file": "openmw-22320-13.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-14/",
+                "file": "openmw-22320-14.tar.xz"
             },
             {
                 "name": "openmw-tes3mp",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-7/",
                 "file": "openmw-tes3mp-22320-7.tar.xz"
+            },
+            {
+                "name": "openmw-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-latest-3/",
+                "file": "openmw-latest-22320-3.tar.xz"
             }
         ],
         "download_config": {
             "openmw-tes3mp": {
                 "extract_location": "./openmw-tes3mp"
+            },
+            "openmw-latest": {
+                "extract_location": "./openmw-latest"
             }
         },
         "choices": [
@@ -2631,6 +2679,44 @@
                 "download": [
                     "openmw-tes3mp"
                 ]
+            },
+            {
+                "name": "OpenMW (Latest)",
+                "command": "./openmw-latest/openmw.sh",
+                "download": [
+                    "openmw-latest"
+                ],
+                "engine_name": "OpenMW (Latest)"
+            },
+            {
+                "name": "OpenMW (Latest) with zesterer's Shaders",
+                "command": "./openmw-latest/openmw.sh",
+                "download": [
+                    "openmw-latest"
+                ],
+                "command_args": [
+                    "withshaders"
+                ],
+                "engine_name": "OpenMW (Latest)"
+            },
+            {
+                "name": "OpenMW (Latest) Launcher",
+                "command": "./openmw-latest/openmw-launcher.sh",
+                "download": [
+                    "openmw-latest"
+                ],
+                "engine_name": "OpenMW (Latest)"
+            },
+            {
+                "name": "OpenMW (Latest) Launcher with zesterer's Shaders",
+                "command": "./openmw-latest/openmw-launcher.sh",
+                "download": [
+                    "openmw-latest"
+                ],
+                "command_args": [
+                    "withshaders"
+                ],
+                "engine_name": "OpenMW (Latest)"
             }
         ],
         "cloudAvailable": true
@@ -3181,12 +3267,12 @@
         "download": [
             {
                 "name": "serious-engine",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-4/",
-                "file": "serious-engine-41050-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-6/",
+                "file": "serious-engine-41050-6.tar.xz"
             }
         ],
-        "command": "./Bin/ssam-tfe",
-        "engine_name": "Serious-Engine",
+        "command": "./run-serious-engine.sh",
+        "engine_name": "SeriousSamClassic-VK",
         "cloudNotAvailable": true
     },
     "41060": {
@@ -3194,12 +3280,12 @@
         "download": [
             {
                 "name": "serious-engine",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-4/",
-                "file": "serious-engine-41060-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/serious-engine-6/",
+                "file": "serious-engine-41060-6.tar.xz"
             }
         ],
-        "command": "./Bin/ssam",
-        "engine_name": "Serious-Engine",
+        "command": "./run-serious-engine.sh",
+        "engine_name": "SeriousSamClassic-VK",
         "cloudNotAvailable": true
     },
     "41700": {
@@ -3219,6 +3305,19 @@
             "non_free": true
         },
         "cloudAvailable": true
+    },
+    "200900": {
+        "game_name": "Cave Story+",
+        "download": [
+            {
+                "name": "doukutsu-rs",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doukutsu-rs-1/",
+                "file": "doukutsu-rs-200900-1.tar.xz"
+            }
+        ],
+        "command": "./doukutsu-rs",
+        "engine_name": "doukutsu-rs",
+        "cloudNotAvailable": true
     },
     "208200": {
         "game_name": "Doom 3: BFG Edition",
@@ -3775,8 +3874,8 @@
         "download": [
             {
                 "name": "rigelengine",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-7/",
-                "file": "rigelengine-240180-7.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rigelengine-8/",
+                "file": "rigelengine-240180-8.tar.xz"
             }
         ],
         "command": "./run-rigelengine.sh",
@@ -3843,6 +3942,25 @@
         "information": {
             "closed_source": true
         },
+        "cloudNotAvailable": true
+    },
+    "255940": {
+        "game_name": "The 11th Hour",
+        "download": [
+            {
+                "name": "scummvm-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
+                "file": "scummvm-latest-common-7.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
+            }
+        },
+        "command": "./scum-latest/run-scummvm.sh",
+        "engine_name": "scummvm-latest",
         "cloudNotAvailable": true
     },
     "273570": {
@@ -3969,6 +4087,25 @@
             "license": "Volition",
             "non_free": true
         },
+        "cloudNotAvailable": true
+    },
+    "284050": {
+        "game_name": "Sanitarium",
+        "download": [
+            {
+                "name": "scummvm-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
+                "file": "scummvm-latest-common-7.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
+            }
+        },
+        "command": "./scum-latest/run-scummvm.sh",
+        "engine_name": "scummvm-latest",
         "cloudNotAvailable": true
     },
     "285310": {
@@ -4151,8 +4288,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4290,8 +4427,8 @@
         "download": [
             {
                 "name": "openloco",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-17/",
-                "file": "openloco-356430-17.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-18/",
+                "file": "openloco-356430-18.tar.xz"
             }
         ],
         "command": "./run-openloco.sh",
@@ -4392,8 +4529,8 @@
         "download": [
             {
                 "name": "good-robot",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/good-robot-2/",
-                "file": "good-robot-358830-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/good-robot-3/",
+                "file": "good-robot-358830-3.tar.xz"
             }
         ],
         "command": "./run-good-robot.sh",
@@ -4420,8 +4557,8 @@
         "download": [
             {
                 "name": "ecwolf",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-4/",
-                "file": "ecwolf-common-4.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-5/",
+                "file": "ecwolf-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -4969,8 +5106,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5107,6 +5244,25 @@
         ],
         "cloudNotAvailable": true
     },
+    "1044340": {
+        "game_name": "The 7th Guest",
+        "download": [
+            {
+                "name": "scummvm-latest",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
+                "file": "scummvm-latest-common-7.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "scummvm-latest": {
+                "extract_location": "./scum-latest"
+            }
+        },
+        "command": "./scum-latest/run-scummvm.sh",
+        "engine_name": "scummvm-latest",
+        "cloudNotAvailable": true
+    },
     "1054600": {
         "game_name": "Resistance Element",
         "download": [
@@ -5140,8 +5296,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5168,8 +5324,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5268,8 +5424,8 @@
         "download": [
             {
                 "name": "warzone2100",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-19/",
-                "file": "warzone2100-1241950-19.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-20/",
+                "file": "warzone2100-1241950-20.tar.xz"
             }
         ],
         "download_config": {
@@ -5391,8 +5547,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5468,8 +5624,8 @@
         "download": [
             {
                 "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-3/",
-                "file": "scummvm-latest-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
+                "file": "scummvm-latest-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5506,8 +5662,8 @@
         "download": [
             {
                 "name": "realrtcw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-15/",
-                "file": "realrtcw-1379630-15.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-18/",
+                "file": "realrtcw-1379630-18.tar.xz"
             }
         ],
         "commands": {
@@ -5549,8 +5705,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5590,8 +5746,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5742,8 +5898,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5771,8 +5927,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5847,18 +6003,13 @@
         ],
         "cloudAvailable": true
     },
-     "1812390": {
+    "1812390": {
         "game_name": "The Elder Scrolls II: Daggerfall",
         "download": [
             {
                 "name": "binaries",
-                "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v0.13.5-beta/",
-                "file": "dfu_linux_64bit-v0.13.5-beta.zip"
-            },
-            {
-                "name": "dag213",
-                "url": "https://en.uesp.net/dagger/files/",
-                "file": "dag213.exe"
+                "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v0.14.0-beta/",
+                "file": "dfu_linux_64bit-v0.14.0-beta.zip"
             },
             {
                 "name": "dosbox-staging",
@@ -5870,10 +6021,6 @@
         "download_config": {
             "binaries": {
                 "decode_as_zip": true,
-                "extract_location": "../"
-            },
-            "dag213": {
-                "copy_only": true,
                 "extract_location": "../"
             },
             "dosbox-staging": {
@@ -5889,9 +6036,7 @@
                 "engine_name": "Daggerfall Unity",
                 "command": "./run-daggerfall-unity.sh",
                 "download": [
-                    "binaries",
-                    "dag213",
-                    "dosbox-staging"
+                    "binaries"
                 ]
             },
             {
@@ -5949,26 +6094,37 @@
         "game_name": "Wolfenstein: Enemy Territory",
         "download": [
             {
-                "name": "etlegacy",
+                "name": "etlegacy-binaries",
                 "url": "https://www.etlegacy.com/download/file/",
                 "file": "410.tar.gz"
             },
             {
-                "name": "etlegacy-64",
+                "name": "etlegacy-64-binaries",
                 "url": "https://www.etlegacy.com/download/file/",
                 "file": "407.tar.gz"
+            },
+            {
+                "name": "etlegacy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etlegacy-2/",
+                "file": "etlegacy-1873030-2.tar.xz"
+            },
+            {
+                "name": "ete",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ete-1/",
+                "file": "ete-1873030-1.tar.xz"
             }
         ],
         "choices": [
             {
                 "name": "ET: Legacy (32-bit, Recommended)",
                 "engine_name": "ET: Legacy",
-                "command": "./etl",
+                "command": "./run-etlegacy.sh",
                 "download": [
+                    "etlegacy-binaries",
                     "etlegacy"
                 ],
                 "download_config": {
-                    "etlegacy": {
+                    "etlegacy-binaries": {
                         "extract_location": "./",
                         "strip_prefix": "etlegacy-v2.80.2-i386/"
                     }
@@ -5977,14 +6133,31 @@
             {
                 "name": "ET: Legacy (64-bit)",
                 "engine_name": "ET: Legacy (64-bit)",
-                "command": "./etlegacy-64/etl",
+                "command": "./etlegacy-64/run-etlegacy-64.sh",
                 "download": [
-                    "etlegacy-64"
+                    "etlegacy-64-binaries",
+                    "etlegacy"
                 ],
                 "download_config": {
-                    "etlegacy-64": {
+                    "etlegacy-64-binaries": {
                         "extract_location": "./etlegacy-64",
                         "strip_prefix": "etlegacy-v2.80.2-x86_64/"
+                    },
+                    "etlegacy": {
+                        "extract_location": "./etlegacy-64"
+                    }
+                }
+            },
+            {
+                "name": "ETe (32-bit)",
+                "engine_name": "ETe (32-bit)",
+                "command": "./ete/run-ete.sh",
+                "download": [
+                    "ete"
+                ],
+                "download_config": {
+                    "ete": {
+                        "extract_location": "./ete"
                     }
                 }
             }
@@ -6014,8 +6187,8 @@
         "download": [
             {
                 "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-25/",
-                "file": "gzdoom-common-25.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-26/",
+                "file": "gzdoom-common-26.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -6109,8 +6282,8 @@
             },
             {
                 "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-3/",
-                "file": "scummvm-latest-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
+                "file": "scummvm-latest-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -6299,7 +6472,7 @@
         },
         "gzdoom": {
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.7.1",
+            "version": "4.8.0",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
@@ -6493,7 +6666,7 @@
         },
         "scummvm-latest": {
             "engine_link": "https://github.com/scummvm/scummvm",
-            "version": "1607b25",
+            "version": "2.6.0 RC (b286957)",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -6559,7 +6732,7 @@
         },
         "OpenXcom OXCE Plus": {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "349fbe4 (from master)",
+            "version": "a4f9310",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -6591,7 +6764,7 @@
         },
         "dhewm3": {
             "engine_link": "https://dhewm3.org/",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -6743,13 +6916,13 @@
             "license_link": "https://github.com/Try/OpenGothic/blob/master/LICENSE",
             "controllerNotSupported": true
         },
-        "Serious-Engine": {
-            "engine_link": "https://github.com/ptitSeb/Serious-Engine",
-            "version": "8f1a273 (from master)",
+        "SeriousSamClassic-VK": {
+            "engine_link": "https://github.com/tx00100xt/SeriousSamClassic-VK",
+            "version": "3620b73",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/ptitSeb/Serious-Engine/blob/master/LICENSE",
+            "license_link": "https://github.com/tx00100xt/SeriousSamClassic-VK/blob/main/LICENSE",
             "controllerNotSupported": true
         },
         "Quake IV": {
@@ -6868,10 +7041,10 @@
                     "key": "closed_source"
                 },
                 {
-                    "label": "On first start, license key will be requested, which can be found in Steam by getting the CD Key."
+                    "label": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. On the Steam Deck, you may have to enter that key in manually instead of using the clipboard."
                 },
                 {
-                    "label": "Mods should go in the linuxdata directory. Adds foxWSFix by default."
+                    "label": "Mods should go in the linuxdata directory. Adds foxWSFix by default, unless the without option is selected."
                 }
             ],
             "controllerNotSupported": true
@@ -6951,6 +7124,23 @@
             "license": "GPLv3",
             "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE",
             "controllerSupported": true
+        },
+        "OpenMW (Latest)": {
+            "engine_link": "https://openmw.org/",
+            "version": "e78d36f",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE",
+            "controllerSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                },
+                {
+                    "label": "Saves and config are located inside ./openmw-latest directory inside game directory."
+                }
+            ]
         },
         "openmw-tes3mp": {
             "engine_link": "https://github.com/TES3MP/openmw-tes3mp",
@@ -7034,7 +7224,7 @@
         },
         "RigelEngine": {
             "engine_link": "https://github.com/lethal-guitar/RigelEngine",
-            "version": "Beta v0.8.4",
+            "version": "Beta v0.8.5",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -7288,11 +7478,11 @@
         },
         "RealRTCW": {
             "engine_link": "https://github.com/wolfetplayer/RealRTCW",
-            "version": "3.3 (nosteam)",
+            "version": "3.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/wolfetplayer/RealRTCW/blob/7e6dc5df09237b5d6b520c8bff9041aef61db943/COPYING.txt",
+            "license_link": "https://github.com/wolfetplayer/RealRTCW/blob/master/COPYING.txt",
             "notices": [
                 {
                     "key": "app_ids_deps",
@@ -7403,7 +7593,7 @@
         },
         "doom-retro": {
             "engine_link": "https://github.com/bradharding/doomretro",
-            "version": "4.4.10",
+            "version": "e1d2467",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -7471,6 +7661,20 @@
             "license_link": "https://github.com/etlegacy/etlegacy/blob/master/COPYING.txt",
             "controllerNotSupported": true
         },
+        "ETe (32-bit)": {
+            "engine_link": "https://github.com/etfdevs/ETe",
+            "version": "c864b0a",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/etfdevs/ETe/blob/master/COPYING.txt",
+            "notices": [
+                {
+                    "key": "32_bit"
+                }
+            ],
+            "controllerNotSupported": true
+        },
         "OpenTESArena": {
             "engine_link": "https://github.com/afritz1/OpenTESArena",
             "version": "7ed44a3",
@@ -7494,22 +7698,23 @@
             "license_link": "https://github.com/the3dfxdude/7kaa/blob/master/COPYING",
             "controllerNotSupported": true
         },
+        "doukutsu-rs": {
+            "engine_link": "https://github.com/doukutsu-rs/doukutsu-rs.git",
+            "version": "0.99.0-beta4",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Modified MIT",
+            "license_link": "https://github.com/doukutsu-rs/doukutsu-rs/blob/master/LICENSE",
+            "controllerNotSupported": true
+        },
         "Daggerfall Unity": {
             "engine_link": "https://github.com/Interkarma/daggerfall-unity",
-            "version": "0.13.5",
+            "version": "0.14.0 Beta [Pre-release]",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
             "license_link": "https://github.com/Interkarma/daggerfall-unity/blob/master/LICENSE",
-            "controllerSupported": true,
-            "notices": [
-                {
-                    "key": "manual_steps"
-                },
-                {
-                    "label": "On first launch, dosbox-staging is used to update the game to the latest official patch. Follow the on-screen prompts and confirm each one. Once it is complete, dosbox-staging will close and the game will launch."
-                }
-            ]
+            "controllerSupported": true
         }
     },
     "noticeMap": {

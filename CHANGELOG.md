@@ -1,3 +1,37 @@
+### 55.0 (2022-05-29)
+
+* ut2004 - Add standard option that removes the foxWSFix for online play.
+* [Thanks to sponsors for funds to buy the games] Added doukutsu-rs
+* etlegacy - Fix 64-bit launch & Fix x11 library missing
+* Added ETe, another option for W:ET
+* Added openmw-latest, using latest from development. Includes option to launch with Zesterer's OpenMW Shaders, without having to manually install them.
+* openmw-latest - Fix for missing config line & stop using launcher
+* doom-retro - libraries & update to latest branch for save fix
+* gzdoom - Update to 4.8.0
+* scummvm-latest - Update to latest RC
+* dhewm3 - Update to 1.5.2
+* openmw-latest - Add back support for launcher. This changes the config structure a bit, but it should be usable without having to change anything manually. Config is in ./openmw-latest/local-cfg and soft links are created for existing files.
+* serious-engine - Switch to SeriousSamClassic-VK
+* avp - Fix FMVs
+
+### 54.0 (2022-05-21)
+
+* openxcom - Add defaults for steam deck
+* openxcom-oxce - Add defaults for steam deck
+* ut99 - Add defaults for steam deck. If run before on the system, will need to delete the ready file in the game install directory.
+* openmw - Add defaults for steam deck
+* warzone2100 - Add defaults for steam deck
+* ecwolf - Add defaults for steam deck
+* good-robot - Add defaults for steam deck
+* OpenLoco - Add defaults for steam deck
+* dhewm3 - Add defaults for steam deck
+* openjk - Add defaults for steam deck
+* realrtcw - Add defaults for steam deck
+* DOOM Retro - Update to 4.5
+* iortcw - Add defaults for steam deck
+* RigelEngine - Update to 0.8.5
+* doom-retro - Update to 4.5.1
+
 ### 53.0 (2022-05-12)
 
 * ironwail - Update to 0.6.0

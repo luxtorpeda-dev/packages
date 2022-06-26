@@ -1,12 +1,12 @@
 #!/bin/bash
 
-apt-get -y install libsdl1.2-dev #workaround for building not finding the sdl12compat, engine will use sdl12compat for the actual library
-
 # CLONE PHASE
 git clone https://github.com/MeridianOXC/OpenXcom.git source
 pushd source
-git checkout 349fbe4
+git checkout a4f9310
 popd
+
+cp -rfv "$pfx/lib/pkgconfig/sdl12_compat.pc" "$pfx/lib/pkgconfig/sdl.pc"
 
 # BUILD PHASE
 pushd source
@@ -18,6 +18,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DDEV_BUILD=OFF \
     -DBUILD_PACKAGE=OFF \
+    -DDEPS_DIR="$pfx" \
     ..
 make -j "$(nproc)"
 popd

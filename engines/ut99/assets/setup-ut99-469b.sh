@@ -24,4 +24,8 @@ ln -rsf Maps linuxdata-469b/Maps
 ln -rsf Music linuxdata-469b/Music
 ln -rsf Sounds linuxdata-469b/Sounds
 
-cp System/UnrealTournament-override-469b.ini linuxdata-469b/System/UnrealTournament.ini
+if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
+    cp System/UnrealTournament-override-469b-steamdeck.ini linuxdata-469b/System/UnrealTournament.ini
+else
+    cp System/UnrealTournament-override-469b.ini linuxdata-469b/System/UnrealTournament.ini
+fi

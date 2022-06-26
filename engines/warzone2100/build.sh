@@ -24,6 +24,7 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/1241950/dist/data"
 mkdir -p "$diststart/1241950/dist/bin"
+
 cp -rfv "$pfx/share/locale" "$diststart/1241950/dist/"
 cp -rfv "$pfx/share/warzone2100/"* "$diststart/1241950/dist/data"
 cp -rfv "$pfx/bin/warzone2100" "$diststart/1241950/dist/bin"

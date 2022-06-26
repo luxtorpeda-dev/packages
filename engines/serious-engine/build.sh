@@ -1,31 +1,25 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/ptitSeb/Serious-Engine.git source
+git clone https://github.com/tx00100xt/SeriousSamClassic-VK.git source
 pushd source
-git checkout 8f1a273
+git checkout 3620b73
 popd
 
-# PRE-COPY PHASE
-mkdir -p "$diststart/41050/dist/Bin/"
-mkdir -p "$diststart/41060/dist/Bin/"
-cp -rfv source/SE1_10.gro "$diststart/41050/dist"
-cp -rfv source/SE1_10.gro "$diststart/41060/dist"
-
 # BUILD PHASE
-pushd source/Sources
+pushd source/SamTSE/Sources
 ./build-linux64.sh
 popd
 
 # COPY PHASE
-cp -rfv source/Sources/cmake-build/ssam "$diststart/41060/dist/Bin/ssam"
-cp -rfv source/Sources/cmake-build/Debug/* "$diststart/41060/dist/Bin"
+cp -rfv source/SamTSE/Bin "$diststart/41060/dist/"
+cp -rfv assets/* "$diststart/41060/dist/"
 
 # BUILD PHASE
-pushd source/Sources
+pushd source/SamTFE/Sources
 ./build-linux64.sh -DTFE=TRUE
 popd
 
 # COPY PHASE
-cp -rfv source/Sources/cmake-build/ssam-tfe "$diststart/41050/dist/Bin/ssam-tfe"
-cp -rfv source/Sources/cmake-build/Debug/* "$diststart/41050/dist/Bin"
+cp -rfv source/SamTFE/Bin "$diststart/41050/dist/"
+cp -rfv assets/* "$diststart/41050/dist/"

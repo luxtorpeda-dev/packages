@@ -22,4 +22,14 @@ if [ -z "$RTCW_PATH" ]; then
     exit 10
 fi
 
+if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
+    if [ ! -f ~/.realrtcw/Main/realrtcwconfig.cfg ]; then
+        if [ ! -d ~/.realrtcw/Main ]; then
+            mkdir -p ~/.realrtcw/Main
+        fi
+
+        cp -rfv realrtcwconfig-template.cfg ~/.realrtcw/Main/realrtcwconfig.cfg
+    fi
+fi
+
 ln -rsf "$RTCW_PATH/Main"/*.pk3 ./Main
