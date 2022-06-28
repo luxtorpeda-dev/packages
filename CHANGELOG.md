@@ -4,6 +4,8 @@
 * avp - Fix FMVs
 * Added daggerfall-unity
 * gzdoom - Update to 4.8.1
+* OpenGothic - Update to v1.0.1527
+* vkQuake - Update to 1.20.0
 
 ### 55.0 (2022-05-29)
 
