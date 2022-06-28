@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Try/OpenGothic source
 pushd source
-git checkout -f c9c8079
+git checkout -f 2de4fd8
 git submodule update --init --recursive
 popd
 
