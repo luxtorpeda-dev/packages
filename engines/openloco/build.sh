@@ -27,6 +27,7 @@ mkdir build
 cd build
 CXXFLAGS="-m32" cmake \
     -G Ninja \
+    -DCMAKE_CXX_COMPILER=g++ \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
     ..
