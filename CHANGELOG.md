@@ -5,6 +5,7 @@
 * Added daggerfall-unity
 * gzdoom - Update to 4.8.1
 * vkQuake - Update to 1.20.0
+* OpenGothic - Update to v1.0.152
 
 ### 55.0 (2022-05-29)
 
