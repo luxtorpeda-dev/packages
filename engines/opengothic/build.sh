@@ -4,6 +4,13 @@ wget https://sdk.lunarg.com/sdk/download/1.3.216.0/linux/vulkansdk-linux-x86_64-
 tar xvf vulkansdk-linux-x86_64-1.3.216.0.tar.gz
 source 1.3.216.0/setup-env.sh
 
+sudo cp -r $VULKAN_SDK/include/vulkan/ /usr/local/include/
+sudo cp -P $VULKAN_SDK/lib/libvulkan.so* /usr/local/lib/
+sudo cp $VULKAN_SDK/lib/libVkLayer_*.so /usr/local/lib/
+sudo mkdir -p /usr/local/share/vulkan/explicit_layer.d
+sudo cp $VULKAN_SDK/etc/vulkan/explicit_layer.d/VkLayer_*.json /usr/local/share/vulkan/explicit_layer.d
+sudo ldconfig
+
 # CLONE PHASE
 git clone https://github.com/Try/OpenGothic source
 pushd source
