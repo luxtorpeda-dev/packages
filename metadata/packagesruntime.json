@@ -4737,6 +4737,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-3/",
                 "file": "buildgdx-common-3.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "eduke32",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-9/",
+                "file": "eduke32-common-9.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -4764,6 +4770,14 @@
                         "strip_prefix": "jdk-11.0.12+7/"
                     }
                 }
+            },
+            {
+                "name": "eduke32",
+                "command": "./run-eduke32.sh",
+                "engine_name": "eduke32",
+                "download": [
+                    "eduke32"
+                ]
             }
         ],
         "cloudNotAvailable": true,
