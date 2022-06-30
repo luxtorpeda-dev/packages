@@ -1,5 +1,9 @@
 #!/bin/bash
 
+wget https://sdk.lunarg.com/sdk/download/1.3.216.0/linux/vulkansdk-linux-x86_64-1.3.216.0.tar.gz
+tar xvf vulkansdk-linux-x86_64-1.3.216.0.tar.gz
+source 1.3.216.0/setup-env.sh
+
 # CLONE PHASE
 git clone https://github.com/Try/OpenGothic source
 pushd source
