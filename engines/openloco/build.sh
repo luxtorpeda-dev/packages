@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenLoco/OpenLoco.git source
 pushd source
-git checkout -f c071671
+git checkout -f adb6f6c
 popd
 
 git clone https://github.com/jbeder/yaml-cpp.git yaml-cpp
