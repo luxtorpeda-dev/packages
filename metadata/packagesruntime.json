@@ -4427,8 +4427,8 @@
         "download": [
             {
                 "name": "openloco",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-18/",
-                "file": "openloco-356430-18.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-19/",
+                "file": "openloco-356430-19.tar.xz"
             }
         ],
         "command": "./run-openloco.sh",
