@@ -4,6 +4,7 @@
 git clone https://voidpoint.io/terminx/eduke32.git source
 pushd source
 git checkout 54177821
+git am < ../patches/0001-Compile-fix.patch
 popd
 
 # BUILD PHASE
