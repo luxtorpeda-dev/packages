@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenLoco/OpenLoco.git source
 pushd source
-git checkout -f 914ac6c
+git checkout -f c071671
 popd
 
 git clone https://github.com/jbeder/yaml-cpp.git yaml-cpp
@@ -26,10 +26,13 @@ pushd source
 mkdir build
 cd build
 CXXFLAGS="-m32" cmake \
+    -G Ninja \
+    -DSTRICT=OFF \
+    -DCMAKE_CXX_COMPILER=g++ \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
     ..
-make -j "$(nproc)"
+ninja -k0
 cp -rfv ../data .
 popd
 
