@@ -3599,8 +3599,8 @@
         "download": [
             {
                 "name": "eduke32",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-10/",
-                "file": "eduke32-common-10.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-11/",
+                "file": "eduke32-common-11.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -4317,8 +4317,8 @@
         "download": [
             {
                 "name": "eduke32",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-10/",
-                "file": "eduke32-common-10.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-11/",
+                "file": "eduke32-common-11.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -4600,8 +4600,8 @@
         "download": [
             {
                 "name": "eduke32",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-10/",
-                "file": "eduke32-common-10.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-11/",
+                "file": "eduke32-common-11.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -4740,8 +4740,8 @@
             },
             {
                 "name": "eduke32",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-10/",
-                "file": "eduke32-common-10.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-11/",
+                "file": "eduke32-common-11.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4850,8 +4850,8 @@
         "download": [
             {
                 "name": "eduke32",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-10/",
-                "file": "eduke32-common-10.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-11/",
+                "file": "eduke32-common-11.tar.xz",
                 "cache_by_name": true
             }
         ],
