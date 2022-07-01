@@ -21,6 +21,7 @@ mkdir -p "$diststart/common/dist/share/quake/id1"
 mkdir -p "$diststart/common/dist/share/quake/rogue"
 mkdir -p "$diststart/common/dist/share/quake/hipnotic"
 mkdir -p "$diststart/common/dist/share/quake/dopa"
+
 mkdir -p "$diststart/common/dist/share/quake/rerelease/mg1"
 mkdir -p "$diststart/common/dist/share/quake/rerelease/dopa"
 mkdir -p "$diststart/common/dist/share/quake/rerelease/id1"
