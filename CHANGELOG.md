@@ -8,6 +8,7 @@
 * vkQuake - Update to 1.20.2
 * gzdoom - Update to 4.8.2
 * OpenRCT2 - Update to 0.4.1
+* Added gardensofkadesh, for Homeworld 1 Classic
 
 ### 55.0 (2022-05-29)
 
