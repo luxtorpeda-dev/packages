@@ -3,10 +3,10 @@
 * serious-engine - Switch to SeriousSamClassic-VK
 * avp - Fix FMVs
 * Added daggerfall-unity
-* gzdoom - Update to 4.8.1
 * OpenGothic - Update to v1.0.152
 * OpenLoco - Update to 22.06.1
 * vkQuake - Update to 1.20.2
+* gzdoom - Update to 4.8.2
 
 ### 55.0 (2022-05-29)
 
