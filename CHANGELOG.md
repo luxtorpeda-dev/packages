@@ -7,6 +7,7 @@
 * OpenLoco - Update to 22.06.1
 * vkQuake - Update to 1.20.2
 * gzdoom - Update to 4.8.2
+* OpenRCT2 - Update to 0.4.1
 
 ### 55.0 (2022-05-29)
 
