@@ -3946,7 +3946,13 @@
     },
     "244160": {
         "game_name": "Homeworld 1 Classic",
-        "download": [],
+        "download": [
+            {
+                "name": "gardensofkadesh",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gardensofkadesh-2/",
+                "file": "gardensofkadesh-244160-2.tar.xz"
+            }
+        ],
         "download_config": {
             "gardensofkadesh": {
                 "extract_location": "./Homeworld1Classic/Data"
