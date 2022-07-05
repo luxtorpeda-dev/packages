@@ -1,10 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/HomeworldSDL/HomeworldSDL.git source
+git clone https://github.com/GardensOfKadesh/Homeworld.git source
 pushd source
-git checkout 36ff7fb
-git am < ../patches/0001-Fix-compile-error.patch
+git checkout 4e3f75d
 popd
 
 # BUILD PHASE
