@@ -3944,6 +3944,22 @@
         },
         "cloudNotAvailable": true
     },
+    "244160": {
+        "game_name": "Homeworld 1 Classic",
+        "download": [],
+        "download_config": {
+            "gardensofkadesh": {
+                "extract_location": "./Homeworld1Classic/Data",
+            }
+        },
+        "command": "./Homeworld1Classic/Data/run-homeworld.sh",
+        "engine_name": "Gardens of Kadesh",
+        "information": {
+            "license": "Relic",
+            "non_free": true
+        },
+        "cloudNotAvailable": true
+    },
     "255940": {
         "game_name": "The 11th Hour",
         "download": [
@@ -7735,6 +7751,20 @@
             "license": "MIT",
             "license_link": "https://github.com/Interkarma/daggerfall-unity/blob/master/LICENSE",
             "controllerSupported": true
+        },
+        "Gardens of Kadesh": {
+            "engine_link": "https://github.com/GardensOfKadesh/Homeworld",
+            "version": "4e3f75d",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Relic",
+            "license_link": "https://github.com/GardensOfKadesh/Homeworld/blob/wasm/LICENSE.txt",
+            "notices": [
+                {
+                    "key": "non_free"
+                }
+            ],
+            "controllerNotSupported": true
         }
     },
     "noticeMap": {
