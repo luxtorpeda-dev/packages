@@ -3955,10 +3955,10 @@
         ],
         "download_config": {
             "gardensofkadesh": {
-                "extract_location": "./Homeworld1Classic/Data"
+                "extract_location": "../Homeworld1Classic/Data"
             }
         },
-        "command": "./Homeworld1Classic/Data/run-homeworld.sh",
+        "command": "../Homeworld1Classic/Data/run-homeworld.sh",
         "engine_name": "Gardens of Kadesh",
         "information": {
             "license": "Relic",
