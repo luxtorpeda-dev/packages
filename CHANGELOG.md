@@ -11,6 +11,7 @@
 * Added gardensofkadesh, for Homeworld 1 Classic
 * eduke32 - Fix for world tour
 * daggerfall-unity - Update to 0.14.1
+* Removed buildgdx for now due to crashing issues
 
 ### 55.0 (2022-05-29)
 
