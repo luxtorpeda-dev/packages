@@ -4213,24 +4213,6 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-31/",
                 "file": "raze-common-31.tar.xz",
                 "cache_by_name": true
-            },
-            {
-                "name": "openjdk11",
-                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
-                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx-lib-116",
-                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
-                "file": "54-buildgdx",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-3/",
-                "file": "buildgdx-common-3.tar.xz",
-                "cache_by_name": true
             }
         ],
         "choices": [
@@ -4264,43 +4246,6 @@
                     "raze"
                 ],
                 "engine_name": "raze"
-            },
-            {
-                "name": "BuildGDX",
-                "command": "./run-buildgdx-blood.sh",
-                "download": [
-                    "openjdk11",
-                    "buildgdx-lib-116",
-                    "buildgdx"
-                ],
-                "download_config": {
-                    "buildgdx-lib-116": {
-                        "decode_as_zip": true
-                    },
-                    "openjdk11": {
-                        "extract_location": "./jdk-11.0.12",
-                        "strip_prefix": "jdk-11.0.12+7/"
-                    }
-                }
-            },
-            {
-                "name": "BuildGDX (Silent)",
-                "engine_name": "BuildGDX",
-                "command": "./run-buildgdx-blood-silent.sh",
-                "download": [
-                    "openjdk11",
-                    "buildgdx-lib-116",
-                    "buildgdx"
-                ],
-                "download_config": {
-                    "buildgdx-lib-116": {
-                        "decode_as_zip": true
-                    },
-                    "openjdk11": {
-                        "extract_location": "./jdk-11.0.12",
-                        "strip_prefix": "jdk-11.0.12+7/"
-                    }
-                }
             }
         ],
         "cloudNotAvailable": true
@@ -4348,24 +4293,6 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-31/",
                 "file": "raze-common-31.tar.xz",
                 "cache_by_name": true
-            },
-            {
-                "name": "openjdk11",
-                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
-                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx-lib-116",
-                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
-                "file": "54-buildgdx",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-3/",
-                "file": "buildgdx-common-3.tar.xz",
-                "cache_by_name": true
             }
         ],
         "choices": [
@@ -4382,43 +4309,6 @@
                 "download": [
                     "raze"
                 ]
-            },
-            {
-                "name": "BuildGDX",
-                "command": "./run-buildgdx-nam.sh",
-                "download": [
-                    "openjdk11",
-                    "buildgdx-lib-116",
-                    "buildgdx"
-                ],
-                "download_config": {
-                    "buildgdx-lib-116": {
-                        "decode_as_zip": true
-                    },
-                    "openjdk11": {
-                        "extract_location": "./jdk-11.0.12",
-                        "strip_prefix": "jdk-11.0.12+7/"
-                    }
-                }
-            },
-            {
-                "name": "BuildGDX (Silent)",
-                "engine_name": "BuildGDX",
-                "command": "./run-buildgdx-nam-silent.sh",
-                "download": [
-                    "openjdk11",
-                    "buildgdx-lib-116",
-                    "buildgdx"
-                ],
-                "download_config": {
-                    "buildgdx-lib-116": {
-                        "decode_as_zip": true
-                    },
-                    "openjdk11": {
-                        "extract_location": "./jdk-11.0.12",
-                        "strip_prefix": "jdk-11.0.12+7/"
-                    }
-                }
             }
         ],
         "cloudNotAvailable": true
@@ -4743,24 +4633,6 @@
                 "cache_by_name": true
             },
             {
-                "name": "openjdk11",
-                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
-                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx-lib-116",
-                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
-                "file": "54-buildgdx",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-3/",
-                "file": "buildgdx-common-3.tar.xz",
-                "cache_by_name": true
-            },
-            {
                 "name": "eduke32",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-12/",
                 "file": "eduke32-common-12.tar.xz",
@@ -4774,24 +4646,6 @@
                 "download": [
                     "raze"
                 ]
-            },
-            {
-                "name": "BuildGDX",
-                "command": "./run-buildgdx-duke-silent.sh",
-                "download": [
-                    "openjdk11",
-                    "buildgdx-lib-116",
-                    "buildgdx"
-                ],
-                "download_config": {
-                    "buildgdx-lib-116": {
-                        "decode_as_zip": true
-                    },
-                    "openjdk11": {
-                        "extract_location": "./jdk-11.0.12",
-                        "strip_prefix": "jdk-11.0.12+7/"
-                    }
-                }
             },
             {
                 "name": "eduke32",
@@ -5204,24 +5058,6 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-31/",
                 "file": "raze-common-31.tar.xz",
                 "cache_by_name": true
-            },
-            {
-                "name": "openjdk11",
-                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
-                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx-lib-116",
-                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
-                "file": "54-buildgdx",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-3/",
-                "file": "buildgdx-common-3.tar.xz",
-                "cache_by_name": true
             }
         ],
         "choices": [
@@ -5239,43 +5075,6 @@
                 "download": [
                     "raze"
                 ]
-            },
-            {
-                "name": "BuildGDX",
-                "command": "./run-buildgdx-blood.sh",
-                "download": [
-                    "openjdk11",
-                    "buildgdx-lib-116",
-                    "buildgdx"
-                ],
-                "download_config": {
-                    "buildgdx-lib-116": {
-                        "decode_as_zip": true
-                    },
-                    "openjdk11": {
-                        "extract_location": "./jdk-11.0.12",
-                        "strip_prefix": "jdk-11.0.12+7/"
-                    }
-                }
-            },
-            {
-                "name": "BuildGDX (Silent)",
-                "engine_name": "BuildGDX",
-                "command": "./run-buildgdx-blood-silent.sh",
-                "download": [
-                    "openjdk11",
-                    "buildgdx-lib-116",
-                    "buildgdx"
-                ],
-                "download_config": {
-                    "buildgdx-lib-116": {
-                        "decode_as_zip": true
-                    },
-                    "openjdk11": {
-                        "extract_location": "./jdk-11.0.12",
-                        "strip_prefix": "jdk-11.0.12+7/"
-                    }
-                }
             }
         ],
         "cloudNotAvailable": true
@@ -5487,24 +5286,6 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-3/",
                 "file": "exhumed-common-3.tar.xz",
                 "cache_by_name": true
-            },
-            {
-                "name": "openjdk11",
-                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
-                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx-lib-116",
-                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
-                "file": "54-buildgdx",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-3/",
-                "file": "buildgdx-common-3.tar.xz",
-                "cache_by_name": true
             }
         ],
         "choices": [
@@ -5522,43 +5303,6 @@
                 "download": [
                     "raze"
                 ]
-            },
-            {
-                "name": "BuildGDX",
-                "command": "./run-buildgdx-powerslave.sh",
-                "download": [
-                    "openjdk11",
-                    "buildgdx-lib-116",
-                    "buildgdx"
-                ],
-                "download_config": {
-                    "buildgdx-lib-116": {
-                        "decode_as_zip": true
-                    },
-                    "openjdk11": {
-                        "extract_location": "./jdk-11.0.12",
-                        "strip_prefix": "jdk-11.0.12+7/"
-                    }
-                }
-            },
-            {
-                "name": "BuildGDX (Silent)",
-                "engine_name": "BuildGDX",
-                "command": "./run-buildgdx-powerslave-silent.sh",
-                "download": [
-                    "openjdk11",
-                    "buildgdx-lib-116",
-                    "buildgdx"
-                ],
-                "download_config": {
-                    "buildgdx-lib-116": {
-                        "decode_as_zip": true
-                    },
-                    "openjdk11": {
-                        "extract_location": "./jdk-11.0.12",
-                        "strip_prefix": "jdk-11.0.12+7/"
-                    }
-                }
             }
         ],
         "cloudNotAvailable": true
@@ -5843,70 +5587,56 @@
         "game_name": "Witchaven",
         "download": [
             {
-                "name": "openjdk11",
-                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
-                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx-lib-116",
-                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
-                "file": "54-buildgdx",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-3/",
-                "file": "buildgdx-common-3.tar.xz",
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-15/",
+                "file": "dosbox-staging-common-15.tar.xz",
                 "cache_by_name": true
             }
         ],
-        "command": "./run-buildgdx-witchaven-silent.sh",
-        "engine_name": "BuildGDX",
         "download_config": {
-            "buildgdx-lib-116": {
-                "decode_as_zip": true
-            },
-            "openjdk11": {
-                "extract_location": "./jdk-11.0.12",
-                "strip_prefix": "jdk-11.0.12+7/"
+            "dosbox-staging": {
+                "extract_location": "./dosbox-staging"
             }
         },
+        "engine_name": "dosbox-staging",
+        "command": "./dosbox-staging/run-dosbox-staging.sh",
+        "command_args": [
+            "-conf",
+            "witchaven-base.conf",
+            "-conf",
+            "witchaven-graphics.conf",
+            "-conf",
+            "witchaven-game.conf"
+        ],
+        "use_original_command_directory": true,
         "cloudAvailable": true
     },
     "1655430": {
         "game_name": "Witchaven II: Blood Vengeance",
         "download": [
             {
-                "name": "openjdk11",
-                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
-                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx-lib-116",
-                "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
-                "file": "54-buildgdx",
-                "cache_by_name": true
-            },
-            {
-                "name": "buildgdx",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/buildgdx-3/",
-                "file": "buildgdx-common-3.tar.xz",
+                "name": "dosbox-staging",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-15/",
+                "file": "dosbox-staging-common-15.tar.xz",
                 "cache_by_name": true
             }
         ],
-        "command": "./run-buildgdx-witchaven2-silent.sh",
-        "engine_name": "BuildGDX",
         "download_config": {
-            "buildgdx-lib-116": {
-                "decode_as_zip": true
-            },
-            "openjdk11": {
-                "extract_location": "./jdk-11.0.12",
-                "strip_prefix": "jdk-11.0.12+7/"
+            "dosbox-staging": {
+                "extract_location": "./dosbox-staging"
             }
         },
+        "engine_name": "dosbox-staging",
+        "command": "./dosbox-staging/run-dosbox-staging.sh",
+        "command_args": [
+            "-conf",
+            "witchaven2-base.conf",
+            "-conf",
+            "witchaven2-graphics.conf",
+            "-conf",
+            "witchaven2-game.conf"
+        ],
+        "use_original_command_directory": true,
         "cloudAvailable": true
     },
     "1679920": {
@@ -6588,15 +6318,6 @@
             "license": "Various Licenses",
             "license_link": "https://github.com/coelckers/Raze",
             "controllerSupported": true
-        },
-        "BuildGDX": {
-            "engine_link": "https://m210.duke4.net/index.php",
-            "version": "1.16",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Various Licenses",
-            "license_link": "https://gitlab.com/m210/BuildGDX",
-            "controllerNotSupported": true
         },
         "vkQuake": {
             "engine_link": "https://github.com/Novum/vkQuake",
