@@ -10,6 +10,7 @@
 * OpenRCT2 - Update to 0.4.1
 * Added gardensofkadesh, for Homeworld 1 Classic
 * eduke32 - Fix for world tour
+* daggerfall-unity - Update to 0.14.1
 
 ### 55.0 (2022-05-29)
 
