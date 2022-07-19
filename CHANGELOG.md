@@ -1,3 +1,7 @@
+### 55.2 (2022-07-18)
+
+* Daggerfall Unity - Update to 0.14.2 Beta
+
 ### 55.1 (2022-06-26)
 
 * serious-engine - Switch to SeriousSamClassic-VK
