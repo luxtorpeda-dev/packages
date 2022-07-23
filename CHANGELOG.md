@@ -1,6 +1,8 @@
 ### 55.2 (2022-07-18)
 
 * Daggerfall Unity - Update to 0.14.2 Beta
+* raze - Update to 1.5.0
+* classic-rbdoom-3-bfg - Add fix for other languages
 
 ### 55.1 (2022-06-26)
 
