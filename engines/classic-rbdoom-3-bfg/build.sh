@@ -4,6 +4,7 @@
 git clone https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git source
 pushd source
 git checkout cf9c2fa
+git am < ../patches/e90b31dcc2901f4d8390f8089a8bd43f88c575ea.patch
 popd
 
 git clone https://github.com/kcat/openal-soft.git openal
