@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -f ./rvgl ]; then
-    LD_LIBRARY_PATH=.7z ./7z/7z x ./rvgl_21.0930a-1_linux.7z
+    LD_PRELOAD="" LD_LIBRARY_PATH=.7z ./7z/7z x -aoa ./rvgl_21.0930a-1_linux.7z
 
     #from setup script
     echo "Fixing filenames..."
@@ -11,7 +11,7 @@ if [ ! -f ./rvgl ]; then
         dest="./${file,,}"
         file="${dest%/*}"/"${file##*/}"
         if [[ "$file" != "$dest" && ! "$file" =~ $re ]]; then
-            [ ! -e "$dest" ] && mv -T "$file" "$dest" || echo "$file was not renamed"
+            [ ! -e "$dest" ] && LD_PRELOAD="" mv -T "$file" "$dest" || LD_PRELOAD="" echo "$file was not renamed"
         fi
     done
 
