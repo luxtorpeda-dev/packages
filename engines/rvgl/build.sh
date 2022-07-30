@@ -13,6 +13,7 @@ popd
 
 # COPY PHASE
 cp -rfv assets/* "$diststart/287310/dist/"
+
 mkdir -p "$diststart/287310/dist/7z/"
 cp -rfv "$pfx/usr/local/bin/"* "$diststart/287310/dist/7z/"
 cp -rfv "$pfx/usr/local/lib/p7zip/"* "$diststart/287310/dist/7z/"
