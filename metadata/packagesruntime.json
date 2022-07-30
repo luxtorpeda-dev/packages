@@ -4171,6 +4171,27 @@
         "engine_name": "openrct2",
         "cloudNotAvailable": true
     },
+    "287310": {
+        "game_name": "Re-Volt",
+        "download": [
+            {
+                "name": "rvgl-binaries",
+                "url": "https://rvgl.org/downloads/",
+                "file": "rvgl_21.0930a-1_linux.7z"
+            }
+        ],
+        "command": "./run-rvgl.sh",
+        "download_config": {
+            "rvgl-binaries": {
+                "copy_only": true
+            }
+        },
+        "information": {
+            "closed_source": true
+        },
+        "engine_name": "RVGL",
+        "cloudNotAvailable": true
+    },
     "289240": {
         "game_name": "Perimeter: Emperor's Testament",
         "download": [
@@ -7492,7 +7513,21 @@
                 }
             ],
             "controllerNotSupported": true
-        }
+        },
+        "RVGL": {
+            "engine_link": "https://rvgl.org/",
+            "version": "21.0930a-1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://rvgl.org/",
+            "notices": [
+                {
+                    "key": "closed_source"
+                }
+            ],
+            "controllerSupported": true
+        },
     },
     "noticeMap": {
         "save_game_dir": "Saves will be stored in game directory.",
