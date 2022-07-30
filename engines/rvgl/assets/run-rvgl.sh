@@ -27,4 +27,6 @@ if [ ! -f ./rvgl ]; then
     chmod ugo+x ./fix_cases
 fi
 
-LD_LIBRARY_PATH="$LD_LIBRARY_PATH:lib/lib64" ./rvgl.64
+LD_PRELOAD="" ln -rsf ./music ./redbook
+
+LD_LIBRARY_PATH="$LD_LIBRARY_PATH:lib/lib64:lib" ./rvgl.64
