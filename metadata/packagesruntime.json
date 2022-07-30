@@ -4177,7 +4177,7 @@
             {
                 "name": "rvgl-binaries",
                 "url": "https://rvgl.org/downloads/",
-                "file": "rvgl_21.0930a-1_linux.7ze"
+                "file": "rvgl_21.0930a-1_linux.7z"
             }
         ],
         "command": "./run-rvgl.sh",
