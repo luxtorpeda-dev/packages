@@ -4181,8 +4181,8 @@
             },
             {
                 "name": "rvgl",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rvgl-4/",
-                "file": "rvgl-287310-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rvgl-5/",
+                "file": "rvgl-287310-5.tar.xz"
             }
         ],
         "command": "./run-rvgl.sh",
