@@ -27,6 +27,22 @@ if [ ! -f ./rvgl ]; then
     chmod ugo+x ./fix_cases
 fi
 
+if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
+    if [ ! -f profiles/player/profile.ini ]; then
+        echo "Creating profile"
+        if [ ! -d profiles/player ]; then
+            mkdir -p profiles/player
+        fi
+
+        echo -e "[Misc]" >> profiles/rvgl.ini
+        echo -e "UseProfiles = 1" >> profiles/rvgl.ini
+        echo -e "DefaultProfile = \"player\"" >> profiles/rvgl.ini
+
+        echo -e "[Controller1]" >> profiles/player/profile.ini
+        echo -e "Joystick = 0" >> profiles/player/profile.ini
+    fi
+fi
+
 LD_PRELOAD="" ln -rsf ./music ./redbook
 
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:lib/lib64:lib" ./rvgl.64
