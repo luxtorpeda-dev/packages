@@ -3970,19 +3970,19 @@
         "game_name": "The 11th Hour",
         "download": [
             {
-                "name": "scummvm-latest",
+                "name": "scummvm",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
                 "file": "scummvm-latest-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
         "download_config": {
-            "scummvm-latest": {
-                "extract_location": "./scum-latest"
+            "scummvm": {
+                "extract_location": "./scum"
             }
         },
-        "command": "./scum-latest/run-scummvm.sh",
-        "engine_name": "scummvm-latest",
+        "command": "./scum/run-scummvm.sh",
+        "engine_name": "scummvm",
         "cloudNotAvailable": true
     },
     "273570": {
@@ -4115,19 +4115,19 @@
         "game_name": "Sanitarium",
         "download": [
             {
-                "name": "scummvm-latest",
+                "name": "scummvm",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
                 "file": "scummvm-latest-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
         "download_config": {
-            "scummvm-latest": {
-                "extract_location": "./scum-latest"
+            "scummvm": {
+                "extract_location": "./scum"
             }
         },
-        "command": "./scum-latest/run-scummvm.sh",
-        "engine_name": "scummvm-latest",
+        "command": "./scum/run-scummvm.sh",
+        "engine_name": "scummvm",
         "cloudNotAvailable": true
     },
     "285310": {
@@ -5109,19 +5109,19 @@
         "game_name": "The 7th Guest",
         "download": [
             {
-                "name": "scummvm-latest",
+                "name": "scummvm",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
                 "file": "scummvm-latest-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
         "download_config": {
-            "scummvm-latest": {
-                "extract_location": "./scum-latest"
+            "scummvm": {
+                "extract_location": "./scum"
             }
         },
-        "command": "./scum-latest/run-scummvm.sh",
-        "engine_name": "scummvm-latest",
+        "command": "./scum/run-scummvm.sh",
+        "engine_name": "scummvm",
         "cloudNotAvailable": true
     },
     "1054600": {
@@ -5429,19 +5429,19 @@
         "game_name": "Wetlands",
         "download": [
             {
-                "name": "scummvm-latest",
+                "name": "scummvm",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
                 "file": "scummvm-latest-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],
         "download_config": {
-            "scummvm-latest": {
-                "extract_location": "./scum-latest"
+            "scummvm": {
+                "extract_location": "./scum"
             }
         },
-        "command": "./scum-latest/run-scummvm.sh",
-        "engine_name": "scummvm-latest",
+        "command": "./scum/run-scummvm.sh",
+        "engine_name": "scummvm",
         "cloudNotAvailable": true
     },
     "1368340": {
@@ -6077,20 +6077,11 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/retroarch-1/",
                 "file": "retroarch-common-1.tar.xz",
                 "cache_by_name": true
-            },
-            {
-                "name": "scummvm-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-latest-7/",
-                "file": "scummvm-latest-common-7.tar.xz",
-                "cache_by_name": true
             }
         ],
         "download_config": {
             "scummvm": {
                 "extract_location": "./scum"
-            },
-            "scummvm-latest": {
-                "extract_location": "./scum-latest"
             },
             "dosbox-staging": {
                 "extract_location": "./dosbox-staging"
@@ -6102,13 +6093,6 @@
                 "command": "./scum/run-scummvm.sh",
                 "download": [
                     "scummvm"
-                ]
-            },
-            {
-                "name": "scummvm-latest",
-                "command": "./scum-latest/run-scummvm.sh",
-                "download": [
-                    "scummvm-latest"
                 ]
             },
             {
@@ -6446,26 +6430,12 @@
         },
         "scummvm": {
             "engine_link": "https://github.com/scummvm/scummvm",
-            "version": "2.5.1",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING",
-            "controllerSupported": true
-        },
-        "scummvm-latest": {
-            "engine_link": "https://github.com/scummvm/scummvm",
-            "version": "2.6.0 RC (b286957)",
+            "version": "2.6.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING",
-            "controllerSupported": true,
-            "notices": [
-                {
-                    "key": "in_progress"
-                }
-            ]
+            "controllerSupported": true
         },
         "dosbox-staging": {
             "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
