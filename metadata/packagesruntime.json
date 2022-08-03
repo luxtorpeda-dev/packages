@@ -5463,43 +5463,6 @@
         "engine_name": "scummvm",
         "cloudNotAvailable": true
     },
-    "1379630": {
-        "game_name": "RealRTCW",
-        "download": [
-            {
-                "name": "realrtcw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/realrtcw-19/",
-                "file": "realrtcw-1379630-19.tar.xz"
-            }
-        ],
-        "commands": {
-            ".*RealRTCW.x64.exe": {
-                "cmd": "./RealRTCW.x86_64",
-                "args": [
-                    "+set",
-                    "com_basegame",
-                    "Main"
-                ]
-            },
-            ".*launcher.x64.exe": {
-                "cmd": "./RealRTCW.x86_64",
-                "args": [
-                    "+set",
-                    "com_basegame",
-                    "Main"
-                ]
-            }
-        },
-        "app_ids_deps": [
-            9010
-        ],
-        "setup": {
-            "complete_path": "./ready-34",
-            "command": "./setup-realrtcw.sh"
-        },
-        "engine_name": "RealRTCW",
-        "cloudAvailable": true
-    },
     "1393750": {
         "game_name": "Ocean's Heart",
         "download": [
@@ -7239,21 +7202,6 @@
             "notices": [
                 {
                     "key": "closed_source"
-                }
-            ],
-            "controllerNotSupported": true
-        },
-        "RealRTCW": {
-            "engine_link": "https://github.com/wolfetplayer/RealRTCW",
-            "version": "4.0",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/wolfetplayer/RealRTCW/blob/master/COPYING.txt",
-            "notices": [
-                {
-                    "key": "app_ids_deps",
-                    "label": "Requires RTCW to be installed."
                 }
             ],
             "controllerNotSupported": true
