@@ -3,7 +3,8 @@
 # CLONE PHASE
 git clone https://github.com/wolfetplayer/RealRTCW.git source
 pushd source
-git checkout -f 8b827c4
+git checkout -f 37d21c7
+git am < ../patches/0001-steamshim-fix.patch
 popd
 
 readonly pfx="$PWD/local"
