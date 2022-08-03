@@ -7237,7 +7237,7 @@
         },
         "RealRTCW": {
             "engine_link": "https://github.com/wolfetplayer/RealRTCW",
-            "version": "4.0",
+            "version": "3.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
