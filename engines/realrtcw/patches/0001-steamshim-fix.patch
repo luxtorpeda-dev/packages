@@ -1,0 +1,24 @@
+From 6abbb2a9c474bae9da93de7daaec925804627621 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Wed, 3 Aug 2022 13:46:49 -0500
+Subject: [PATCH] steamshim fix
+
+---
+ code/steamshim/steamshim_child.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/code/steamshim/steamshim_child.c b/code/steamshim/steamshim_child.c
+index c2c5885..0c1aeba 100644
+--- a/code/steamshim/steamshim_child.c
++++ b/code/steamshim/steamshim_child.c
+@@ -19,6 +19,7 @@ typedef unsigned __int64 uint64;
+ #include <errno.h>
+ #include <poll.h>
+ #include <signal.h>
++#include <stdarg.h>
+ typedef uint8_t uint8;
+ typedef int32_t int32;
+ typedef uint32_t uint32;
+-- 
+2.37.1
+
