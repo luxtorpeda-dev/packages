@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/dxx-rebirth/dxx-rebirth.git source
 pushd source
-git checkout -f 49dee72
+git checkout -f d1ed53e
 popd
 
 # BUILD PHASE
