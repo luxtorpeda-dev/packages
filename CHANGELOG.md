@@ -2,6 +2,7 @@
 
 * Added HomeworldSDL
 * fs2open - Update to 22.2.0
+* dxx-rebirth - Update to d1ed53e
 
 ### 55.3 (2022-08-01)
 
