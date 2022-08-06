@@ -1,3 +1,7 @@
+### 56.0 (2022-08-06)
+
+* Added HomeworldSDL
+
 ### 55.3 (2022-08-01)
 
 * [Thanks to sponsors for funds to buy the games] Added RVGL
