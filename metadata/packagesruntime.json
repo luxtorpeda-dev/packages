@@ -7466,7 +7466,7 @@
         },
         "HomeworldSDL": {
             "engine_link": "https://gitlab.com/ThibaultLemaire/HomeworldSDL",
-            "version": "1.3",
+            "version": "1.0.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Relic",
