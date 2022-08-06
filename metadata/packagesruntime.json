@@ -3953,13 +3953,32 @@
                 "file": "gardensofkadesh-244160-2.tar.xz"
             }
         ],
-        "download_config": {
-            "gardensofkadesh": {
-                "extract_location": "../Homeworld1Classic/Data"
+        "choices": [
+            {
+                "name": "Gardens of Kadesh",
+                "download": [
+                    "gardensofkadesh"
+                ],
+                "download_config": {
+                    "gardensofkadesh": {
+                        "extract_location": "../Homeworld1Classic/Data"
+                    }
+                },
+                "command": "../Homeworld1Classic/Data/run-homeworld.sh"
+            },
+            {
+                "name": "HomeworldSDL",
+                "download": [
+                    "homeworldsdl"
+                ],
+                "download_config": {
+                    "homeworldsdl": {
+                        "extract_location": "../Homeworld1Classic/Data"
+                    }
+                },
+                "command": "../Homeworld1Classic/Data/run-homeworld.sh"
             }
-        },
-        "command": "../Homeworld1Classic/Data/run-homeworld.sh",
-        "engine_name": "Gardens of Kadesh",
+        ],
         "information": {
             "license": "Relic",
             "non_free": true
@@ -7438,6 +7457,20 @@
             "author_link": "https://github.com/d10sfan",
             "license": "Relic",
             "license_link": "https://github.com/GardensOfKadesh/Homeworld/blob/wasm/LICENSE.txt",
+            "notices": [
+                {
+                    "key": "non_free"
+                }
+            ],
+            "controllerNotSupported": true
+        },
+        "HomeworldSDL": {
+            "engine_link": "https://gitlab.com/ThibaultLemaire/HomeworldSDL",
+            "version": "1.0.3",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Relic",
+            "license_link": "https://gitlab.com/ThibaultLemaire/HomeworldSDL/-/blob/master/LICENSE.txt",
             "notices": [
                 {
                     "key": "non_free"
