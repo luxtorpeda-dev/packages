@@ -1,6 +1,7 @@
 ### 56.0 (2022-08-06)
 
 * Added HomeworldSDL
+* fs2open - Update to 22.2.0
 
 ### 55.3 (2022-08-01)
 
