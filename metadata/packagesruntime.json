@@ -5806,8 +5806,8 @@
             },
             {
                 "name": "daggerfall-unity",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daggerfall-unity-2/",
-                "file": "daggerfall-unity-1812390-2.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daggerfall-unity-3/",
+                "file": "daggerfall-unity-1812390-3.tar.xz"
             }
         ],
         "download_config": {
