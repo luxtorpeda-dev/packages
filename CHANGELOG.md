@@ -3,6 +3,7 @@
 * Added HomeworldSDL
 * fs2open - Update to 22.2.0
 * dxx-rebirth - Update to d1ed53e
+* daggerfall-unity - Update to 0.14.3 Beta
 
 ### 55.3 (2022-08-01)
 
