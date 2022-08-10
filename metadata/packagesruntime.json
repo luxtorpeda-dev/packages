@@ -637,7 +637,7 @@
         "controllerSteamDefault": true
     },
     "2300": {
-        "game_name": "DOOM II: Hell on Earth",
+        "game_name": "DOOM II",
         "download": [
             {
                 "name": "gzdoom",
