@@ -795,6 +795,11 @@
                 }
             }
         ],
+         "notices": [
+            {
+                "label": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh) for Master Levels"
+            }
+        ],
         "cloudAvailable": true,
         "controllerSteamDefault": true
     },
@@ -1135,6 +1140,16 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
                 "file": "ftequakeworld-common-6.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "The Reckoning Soundtrack",
+                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
+                "file": "quake2-xatrix-music.tar.xz"
+            },
+            {
+                "name": "Ground Zero Soundtrack",
+                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
+                "file": "quake2-rogue-music.tar.xz"
             }
         ],
         "choices": [
@@ -1143,7 +1158,9 @@
                 "command": "./quake2.sh",
                 "download": [
                     "yquake2",
-                    "Quake II Soundtrack"
+                    "Quake II Soundtrack",
+                    "The Reckoning Soundtrack",
+                    "Ground Zero Soundtrack"
                 ]
             },
             {
@@ -1151,7 +1168,9 @@
                 "command": "./vkQuake2/vkQuake2.sh",
                 "download": [
                     "vkquake2",
-                    "Quake II Soundtrack"
+                    "Quake II Soundtrack",
+                    "The Reckoning Soundtrack",
+                    "Ground Zero Soundtrack"
                 ],
                 "download_config": {
                     "vkquake2": {
@@ -1170,159 +1189,9 @@
                     "yquake2",
                     "Quake II Soundtrack",
                     "ftequakeworld",
-                    "fteqw"
-                ],
-                "download_config": {
-                    "fteqw": {
-                        "copy_only": true
-                    }
-                }
-            }
-        ],
-        "cloudAvailable": true
-    },
-    "2330": {
-        "game_name": "Quake II: The Reckoning",
-        "download": [
-            {
-                "name": "yquake2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-10/",
-                "file": "yquake2-common-10.tar.xz",
-                "cache_by_name": true
-            },
-            {
-                "name": "The Reckoning Soundtrack",
-                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
-                "file": "quake2-xatrix-music.tar.xz"
-            },
-            {
-                "name": "vkquake2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-7/",
-                "file": "vkquake2-common-7.tar.xz",
-                "cache_by_name": true
-            },
-            {
-                "name": "fteqw",
-                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
-                "file": "fteqw64"
-            },
-            {
-                "name": "ftequakeworld",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
-                "file": "ftequakeworld-common-6.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "choices": [
-            {
-                "name": "Yamagi Quake II",
-                "command": "./quake2.sh",
-                "download": [
-                    "yquake2",
-                    "The Reckoning Soundtrack"
-                ]
-            },
-            {
-                "name": "vkQuake2",
-                "command": "./vkQuake2/vkQuake2.sh",
-                "download": [
-                    "vkquake2",
-                    "The Reckoning Soundtrack"
-                ],
-                "download_config": {
-                    "vkquake2": {
-                        "extract_location": "./vkQuake2"
-                    }
-                },
-                "setup": {
-                    "complete_path": "./ready-vkquake2",
-                    "command": "./vkQuake2/setup-vkquake2.sh"
-                }
-            },
-            {
-                "name": "FTE QuakeWorld",
-                "command": "./ftequakeworld.sh",
-                "download": [
-                    "yquake2",
+                    "fteqw",
                     "The Reckoning Soundtrack",
-                    "ftequakeworld",
-                    "fteqw"
-                ],
-                "download_config": {
-                    "fteqw": {
-                        "copy_only": true
-                    }
-                }
-            }
-        ],
-        "cloudAvailable": true
-    },
-    "2340": {
-        "game_name": "Quake II: Ground Zero",
-        "download": [
-            {
-                "name": "yquake2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/yquake2-10/",
-                "file": "yquake2-common-10.tar.xz",
-                "cache_by_name": true
-            },
-            {
-                "name": "Ground Zero Soundtrack",
-                "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
-                "file": "quake2-rogue-music.tar.xz"
-            },
-            {
-                "name": "vkquake2",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-7/",
-                "file": "vkquake2-common-7.tar.xz",
-                "cache_by_name": true
-            },
-            {
-                "name": "fteqw",
-                "url": "https://fte.triptohell.info/moodles/linux_amd64/",
-                "file": "fteqw64"
-            },
-            {
-                "name": "ftequakeworld",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-6/",
-                "file": "ftequakeworld-common-6.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "choices": [
-            {
-                "name": "Yamagi Quake II",
-                "command": "./quake2.sh",
-                "download": [
-                    "yquake2",
                     "Ground Zero Soundtrack"
-                ]
-            },
-            {
-                "name": "vkQuake2",
-                "command": "./vkQuake2/vkQuake2.sh",
-                "download": [
-                    "vkquake2",
-                    "Ground Zero Soundtrack"
-                ],
-                "download_config": {
-                    "vkquake2": {
-                        "extract_location": "./vkQuake2"
-                    }
-                },
-                "setup": {
-                    "complete_path": "./ready-vkquake2",
-                    "command": "./vkQuake2/setup-vkquake2.sh"
-                }
-            },
-            {
-                "name": "FTE QuakeWorld",
-                "command": "./ftequakeworld.sh",
-                "download": [
-                    "yquake2",
-                    "Ground Zero Soundtrack",
-                    "ftequakeworld",
-                    "fteqw"
                 ],
                 "download_config": {
                     "fteqw": {
@@ -2293,74 +2162,6 @@
             }
         ],
         "cloudNotAvailable": true
-    },
-    "9160": {
-        "game_name": "Master Levels for DOOM II",
-        "download": [
-            {
-                "name": "gzdoom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-28/",
-                "file": "gzdoom-common-28.tar.xz",
-                "cache_by_name": true
-            },
-            {
-                "name": "doom-runner",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-3/",
-                "file": "doom-runner-common-3.tar.xz",
-                "cache_by_name": true
-            },
-            {
-                "name": "qzdl",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-3/",
-                "file": "qzdl-common-3.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "choices": [
-            {
-                "name": "gzdoom",
-                "download": [
-                    "gzdoom"
-                ],
-                "command": "./run-gzdoom-2-master-levels.sh",
-                "command_args": [
-                    "-iwad",
-                    "doom_complete.pk3"
-                ]
-            },
-            {
-                "name": "Doom Runner",
-                "command": "./doom-runner/run-doom-runner-master-levels.sh",
-                "download": [
-                    "gzdoom",
-                    "doom-runner"
-                ],
-                "download_config": {
-                    "doom-runner": {
-                        "extract_location": "./doom-runner"
-                    }
-                }
-            },
-            {
-                "name": "qzdl",
-                "command": "./qzdl/run-qzdl-master-levels.sh",
-                "download": [
-                    "gzdoom",
-                    "qzdl"
-                ],
-                "download_config": {
-                    "qzdl": {
-                        "extract_location": "./qzdl"
-                    }
-                }
-            }
-        ],
-        "notices": [
-            {
-                "label": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh)"
-            }
-        ],
-        "cloudAvailable": true
     },
     "9180": {
         "game_name": "Commander Keen Complete Pack",
