@@ -795,7 +795,7 @@
                 }
             }
         ],
-         "notices": [
+        "notices": [
             {
                 "label": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh) for Master Levels"
             }
@@ -5589,8 +5589,8 @@
             },
             {
                 "name": "daggerfall-unity",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daggerfall-unity-3/",
-                "file": "daggerfall-unity-1812390-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daggerfall-unity-4/",
+                "file": "daggerfall-unity-1812390-4.tar.xz"
             }
         ],
         "download_config": {
