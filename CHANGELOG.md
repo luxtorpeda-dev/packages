@@ -6,6 +6,8 @@
 * daggerfall-unity - Update to 0.14.3 Beta
 * Updated logic to handle Doom II update, so that all of the launch options can work with the doom engines. Note that Master Levels only works with gzdoom, and an error will show up related to that if another engine is picked for that option.
 * Updated logic to handle Quake II update
+* Daggerfall Unity - Update to 0.14.4 Beta
+* doom-retro - Update to 4.6.0.1
 
 ### 55.3 (2022-08-01)
 
