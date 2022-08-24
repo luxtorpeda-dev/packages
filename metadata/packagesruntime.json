@@ -5212,7 +5212,7 @@
             {
                 "name": "runescape-binaries",
                 "url": "https://content.runescape.com/downloads/ubuntu/pool/non-free/r/runescape-launcher/",
-                "file": "runescape-launcher_2.2.9_amd64.deb"
+                "file": "runescape-launcher_2.2.10_amd64.deb"
             },
             {
                 "name": "runescape",
@@ -7001,7 +7001,7 @@
         },
         "runescape": {
             "engine_link": "https://www.runescape.com/community",
-            "version": "2.2.9",
+            "version": "2.2.10",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
