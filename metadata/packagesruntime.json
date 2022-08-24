@@ -1151,6 +1151,14 @@
                 "engine_name": "ironwail"
             },
             {
+                "name": "ezQuake",
+                "command": "./ezquake/ezquake.sh",
+                "download": [
+                    "ezquake"
+                ],
+                "engine_name": "ezQuake"
+            },
+            {
                 "name": "vkquake Dimension of the Past",
                 "command": "./vkquake.sh",
                 "download": [
@@ -6457,6 +6465,15 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/andrei-drexler/ironwail/blob/master/LICENSE.txt",
+            "controllerSupported": true
+        },
+        "ezQuake": {
+            "engine_link": "https://github.com/ezQuake/ezquake-source",
+            "version": "ca25d05",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/ezQuake/ezquake-source/blob/master/LICENSE",
             "controllerSupported": true
         },
         "Yamagi Quake II": {
