@@ -6485,7 +6485,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/ezQuake/ezquake-source/blob/master/LICENSE",
-            "controllerSupported": true
+            "controllerNotSupported": true
         },
         "Yamagi Quake II": {
             "engine_link": "https://www.yamagi.org/quake2/",
