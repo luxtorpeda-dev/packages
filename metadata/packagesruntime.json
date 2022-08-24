@@ -388,6 +388,254 @@
         ],
         "cloudAvailable": true
     },
+    "2290": {
+        "game_name": "Final DOOM",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-28/",
+                "file": "gzdoom-common-28.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doomsday",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomsday-3/",
+                "file": "doomsday-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "chocolate-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-5/",
+                "file": "chocolate-doom-common-5.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "prboom-plus",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prboom-plus-8/",
+                "file": "prboom-plus-common-8.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "fluid-soundfont",
+                "url": "https://ftp.debian.org/debian/pool/main/f/fluid-soundfont/",
+                "file": "fluid-soundfont_3.1.orig.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doom-retro",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-7/",
+                "file": "doom-retro-common-7.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doom-runner",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-3/",
+                "file": "doom-runner-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "qzdl",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-3/",
+                "file": "qzdl-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "gzdoom",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./run-gzdoom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./run-gzdoom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "gzdoom"
+                ]
+            },
+            {
+                "name": "doomsday",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./run-doomsday.sh",
+                        "args": [
+                            "-iwad",
+                            "base",
+                            "-game",
+                            "doom2-plut"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./run-doomsday.sh",
+                        "args": [
+                            "-iwad",
+                            "base",
+                            "-game",
+                            "doom2-tnt"
+                        ]
+                    }
+                },
+                "download": [
+                    "doomsday"
+                ],
+                "download_config": {
+                    "doomsday": {
+                        "extract_location": "./doomsday"
+                    }
+                }
+            },
+            {
+                "name": "Chocolate Doom",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
+                "name": "Chocolate Doom (Setup)",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom-setup.sh",
+                        "args": [
+                            "-iwad",
+                            "base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./chocolate-doom/run-chocolate-doom-setup.sh",
+                        "args": [
+                            "-iwad",
+                            "base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "chocolate-doom"
+                ],
+                "download_config": {
+                    "chocolate-doom": {
+                        "extract_location": "./chocolate-doom"
+                    }
+                }
+            },
+            {
+                "name": "prboom-plus",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./prboom-plus/run-prboom-plus.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./prboom-plus/run-prboom-plus.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "prboom-plus"
+                ],
+                "download_config": {
+                    "prboom-plus": {
+                        "extract_location": "./prboom-plus"
+                    }
+                }
+            },
+            {
+                "name": "doom-retro",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./doom-retro/run-doom-retro.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./doom-retro/run-doom-retro.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "doom-retro",
+                    "fluid-soundfont"
+                ],
+                "download_config": {
+                    "doom-retro": {
+                        "extract_location": "./doom-retro"
+                    },
+                    "fluid-soundfont": {
+                        "extract_location": "./doom-retro"
+                    }
+                }
+            },
+            {
+                "name": "Doom Runner",
+                "command": "./doom-runner/run-doom-runner.sh",
+                "download": [
+                    "gzdoom",
+                    "doom-runner"
+                ],
+                "download_config": {
+                    "doom-runner": {
+                        "extract_location": "./doom-runner"
+                    }
+                }
+            },
+            {
+                "name": "qzdl",
+                "command": "./qzdl/run-qzdl.sh",
+                "download": [
+                    "gzdoom",
+                    "qzdl"
+                ],
+                "download_config": {
+                    "qzdl": {
+                        "extract_location": "./qzdl"
+                    }
+                }
+            }
+        ],
+        "cloudAvailable": true,
+        "controllerSteamDefault": true
+    },
     "2300": {
         "game_name": "DOOM II",
         "download": [
@@ -2162,6 +2410,74 @@
             }
         ],
         "cloudNotAvailable": true
+    },
+    "9160": {
+        "game_name": "Master Levels for DOOM II",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-28/",
+                "file": "gzdoom-common-28.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doom-runner",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-3/",
+                "file": "doom-runner-common-3.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "qzdl",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-3/",
+                "file": "qzdl-common-3.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "choices": [
+            {
+                "name": "gzdoom",
+                "download": [
+                    "gzdoom"
+                ],
+                "command": "./run-gzdoom-2-master-levels-old.sh",
+                "command_args": [
+                    "-iwad",
+                    "doom_complete.pk3"
+                ]
+            },
+            {
+                "name": "Doom Runner",
+                "command": "./doom-runner/run-doom-runner-master-levels-old.sh",
+                "download": [
+                    "gzdoom",
+                    "doom-runner"
+                ],
+                "download_config": {
+                    "doom-runner": {
+                        "extract_location": "./doom-runner"
+                    }
+                }
+            },
+            {
+                "name": "qzdl",
+                "command": "./qzdl/run-qzdl-master-levels-old.sh",
+                "download": [
+                    "gzdoom",
+                    "qzdl"
+                ],
+                "download_config": {
+                    "qzdl": {
+                        "extract_location": "./qzdl"
+                    }
+                }
+            }
+        ],
+        "notices": [
+            {
+                "label": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh)"
+            }
+        ],
+        "cloudAvailable": true
     },
     "9180": {
         "game_name": "Commander Keen Complete Pack",
