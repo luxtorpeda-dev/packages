@@ -1,6 +1,7 @@
 ### 56.1 (2022-08-23)
 
 * runescape - Update to 2.2.10
+* misc - Restore other Doom II listings
 
 ### 56.0 (2022-08-06)
 
