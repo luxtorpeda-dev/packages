@@ -46,4 +46,4 @@ if [ ! -f ezquake/share/quake/mg1/config.cfg ] ; then
 	sed -i "s|%USER%|$USER|" ezquake/share/quake/mg1/config.cfg
 fi
 
-./ezquake/ezquake-linux-x86_64 -basedir ezquake/share/quake "$@"
+LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./ezquake/lib:./lib" ./ezquake/ezquake-linux-x86_64 -basedir ezquake/share/quake "$@"
