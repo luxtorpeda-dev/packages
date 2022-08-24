@@ -1093,6 +1093,11 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ironwail-3/",
                 "file": "ironwail-common-3.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "ezquake-assets",
+                "url": "https://github.com/ezQuake/ezquake-source/releases/download/3.2.3/",
+                "file": "ezquake-ubuntu-3.2.3-full.tar.gz"
             }
         ],
         "choices": [
@@ -1154,9 +1159,15 @@
                 "name": "ezQuake",
                 "command": "./ezquake/ezquake.sh",
                 "download": [
-                    "ezquake"
+                    "ezquake",
+                    "ezquake-assets"
                 ],
-                "engine_name": "ezQuake"
+                "engine_name": "ezQuake",
+                "download_config": {
+                    "ezquake-assets": {
+                        "extract_location": "./ezquake/share/quake"
+                    }
+                }
             },
             {
                 "name": "vkquake Dimension of the Past",
@@ -6469,7 +6480,7 @@
         },
         "ezQuake": {
             "engine_link": "https://github.com/ezQuake/ezquake-source",
-            "version": "ca25d05",
+            "version": "3.2.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
