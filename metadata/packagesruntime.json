@@ -1103,6 +1103,12 @@
                 "name": "nquake-assets",
                 "url": "https://github.com/nQuake/distfiles/releases/download/snapshot/",
                 "file": "gpl.zip"
+            },
+            {
+                "name": "ezquake",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ezquake-1/",
+                "file": "ezquake-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
