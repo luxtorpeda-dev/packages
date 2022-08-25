@@ -1098,6 +1098,11 @@
                 "name": "ezquake-assets",
                 "url": "https://github.com/ezQuake/ezquake-source/releases/download/3.2.3/",
                 "file": "ezquake-ubuntu-3.2.3-full.tar.gz"
+            },
+            {
+                "name": "nquake-assets",
+                "url": "https://github.com/nQuake/distfiles/releases/download/snapshot/",
+                "file": "gpl.zip"
             }
         ],
         "choices": [
@@ -1160,12 +1165,17 @@
                 "command": "./ezquake/ezquake.sh",
                 "download": [
                     "ezquake",
-                    "ezquake-assets"
+                    "ezquake-assets",
+                    "nquake-assets"
                 ],
                 "engine_name": "ezQuake",
                 "download_config": {
                     "ezquake-assets": {
                         "extract_location": "./ezquake/share/quake"
+                    },
+                    "nquake-assets": {
+                        "extract_location": "./ezquake/share/quake",
+                        "decode_as_zip": true
                     }
                 }
             },
