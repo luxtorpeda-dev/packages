@@ -2457,14 +2457,14 @@
             },
             {
                 "name": "doom-runner",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-3/",
-                "file": "doom-runner-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-5/",
+                "file": "doom-runner-common-5.tar.xz",
                 "cache_by_name": true
             },
             {
                 "name": "qzdl",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-3/",
-                "file": "qzdl-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-5/",
+                "file": "qzdl-common-5.tar.xz",
                 "cache_by_name": true
             }
         ],
