@@ -4,11 +4,12 @@
 git clone https://github.com/OpenLoco/OpenLoco.git source
 pushd source
 git checkout -f 614515c
+git submodule update --init --recursive
 popd
 
 git clone https://github.com/jbeder/yaml-cpp.git yaml-cpp
 pushd yaml-cpp
-git checkout -f 0579ae3
+git checkout -f c73ee34
 popd
 
 # BUILD PHASE
