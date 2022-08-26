@@ -3,6 +3,7 @@
 * runescape - Update to 2.2.10
 * misc - Restore other Doom II listings
 * Added ezQuake
+* OpenLoco - Update to 22.08
 
 ### 56.0 (2022-08-06)
 
