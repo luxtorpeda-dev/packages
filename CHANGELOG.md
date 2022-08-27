@@ -3,6 +3,7 @@
 * runescape - Update to 2.2.10
 * misc - Restore other Doom II listings
 * Added ezQuake
+* doom-retro - Update to 4.6.1
 
 ### 56.0 (2022-08-06)
 
