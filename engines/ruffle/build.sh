@@ -6,7 +6,7 @@ source $HOME/.cargo/env
 # CLONE PHASE
 git clone https://github.com/ruffle-rs/ruffle.git source
 pushd source
-git checkout -f 19f9c11
+git checkout -f 576c35a
 popd
 
 git clone https://github.com/jindrapetrik/jpexs-decompiler.git jpexs-decompiler
