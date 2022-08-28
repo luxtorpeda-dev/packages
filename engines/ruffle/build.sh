@@ -6,7 +6,7 @@ source $HOME/.cargo/env
 # CLONE PHASE
 git clone https://github.com/ruffle-rs/ruffle.git source
 pushd source
-git checkout -f 19f9c11
+git checkout -f 576c35a
 popd
 
 git clone https://github.com/jindrapetrik/jpexs-decompiler.git jpexs-decompiler
@@ -23,4 +23,5 @@ popd
 # COPY PHASE
 cp -rfv source/target/release/ruffle_desktop "$diststart/common/dist/"
 cp -rfv source/target/release/ruffle_scanner "$diststart/common/dist/"
+
 cp -rfv assets/*.sh "$diststart/common/dist/"
