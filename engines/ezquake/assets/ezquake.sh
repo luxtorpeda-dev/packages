@@ -24,4 +24,4 @@ fi
 mkdir -p ./ezquake/share/quake/ezquake/share/
 ln -rsf ./ezquake/share/quake/ ./ezquake/share/quake/ezquake/share
 
-LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./ezquake/lib:./lib" gdb ./ezquake/ezquake-linux-x86_64 -basedir ezquake/share/quake "$@"
+LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./ezquake/lib:./lib" ./ezquake/ezquake-linux-x86_64 -basedir ezquake/share/quake "$@"
