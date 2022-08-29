@@ -15,6 +15,9 @@ fi
 if [[ ! -z "${DEPPATH_1070560}" ]]; then
     runtimepath="$DEPPATH_1070560"
     LD_PRELOAD="" echo "Automatically detected runtimepath at $runtimepath"
+else
+    echo "Steam Linux Runtime is not installed. Please ensure that it is installed and try again." > last_error.txt
+    exit 10
 fi
 
 if [ ! -f ~/.config/unity3d/Daggerfall\ Workshop/Daggerfall\ Unity/settings.ini ]; then
