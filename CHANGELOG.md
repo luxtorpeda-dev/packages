@@ -5,6 +5,7 @@
 * Added ezQuake
 * doom-retro - Update to 4.6.1
 * ruffle - Update to 576c35a
+* dxx-rebirth - Update to 366b048879d62a3096357509fc856dde1abfb7ff
 
 ### 56.0 (2022-08-06)
 
