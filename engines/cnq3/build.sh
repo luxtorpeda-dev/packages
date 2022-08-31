@@ -15,5 +15,5 @@ QUAKE3DIR="$PWD" make config=release client
 popd
 
 # COPY PHASE
-cp -rfv source/makefiles/linux_gmake/cnq3-x64 "$diststart/common/dist/"
+cp -rfv source/.bin/release_x64/cnq3-x64 "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
