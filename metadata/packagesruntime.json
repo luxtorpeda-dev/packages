@@ -94,6 +94,18 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-1/",
                 "file": "spearmint-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "cpma-mappack-full",
+                "url": "https://cdn.playmorepromode.com/files/",
+                "file": "cpma-mappack-full.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "cpma",
+                "url": "https://playmorepromode.com/files/latest/cpma",
+                "file": "cpma",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -156,6 +168,36 @@
                 ],
                 "download": [
                     "spearmint"
+                ]
+            },
+            {
+                "name": "Challenge ProMode Arena",
+                "download_config": {
+                    "cnq3": {
+                        "extract_location": "./cnq3"
+                    },
+                    "cpma-mappack-full": {
+                        "extract_location": "./cnq3/baseq3",
+                        "decode_as_zip": true
+                    },
+                    "cpma": {
+                        "extract_location": "./cnq3",
+                        "decode_as_zip": true
+                    }
+                },
+                "command": "./cnq3/run-cnq3.sh",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "cnq3",
+                    "cpma-mappack-full",
+                    "cpma"
                 ]
             }
         ],
