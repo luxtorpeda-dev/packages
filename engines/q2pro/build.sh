@@ -20,6 +20,8 @@ ninja -C build
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/common/dist/baseq2"
 cp -rfv source/build/q2pro "$diststart/common/dist/"
 cp -rfv source/build/gamex86_64.so "$diststart/common/dist/"
+cp -rfv source/src/client/ui/q2pro.menu "$diststart/common/dist/baseq2"
 cp -rfv assets/* "$diststart/common/dist/"
