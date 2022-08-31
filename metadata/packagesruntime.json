@@ -1433,6 +1433,12 @@
                 "name": "Ground Zero Soundtrack",
                 "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
                 "file": "quake2-rogue-music.tar.xz"
+            },
+            {
+                "name": "q2pro",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/q2pro-1/",
+                "file": "q2pro-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
