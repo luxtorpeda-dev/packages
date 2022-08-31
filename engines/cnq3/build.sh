@@ -15,5 +15,5 @@ make config=release client
 popd
 
 # COPY PHASE
-cp -rfv makefiles/linux_gmake/cnq3-x64 "$diststart/common/dist/"
+cp -rfv source/makefiles/linux_gmake/cnq3-x64 "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
