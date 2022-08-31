@@ -11,9 +11,9 @@ popd
 
 # BUILD PHASE
 pushd "source"
-make config=release client -j "$(nproc)"
+make config=release client
 popd
 
 # COPY PHASE
-cp -rfv .bin/release_x64/cnq3-x64 "$diststart/common/dist/"
+cp -rfv makefiles/linux_gmake/cnq3-x64 "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
