@@ -15,10 +15,11 @@ mkdir -p "$pfx"
 
 pushd "source"
 meson setup build
-meson configure -Dprefix="$pfx" build
+meson configure -Dsystem-wide=false build
 ninja -C build
 popd
 
 # COPY PHASE
-
+cp -rfv source/build/q2pro "$diststart/common/dist/"
+cp -rfv source/build/gamex86_64.so "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"

@@ -1481,6 +1481,25 @@
                         "copy_only": true
                     }
                 }
+            },
+            {
+                "name": "Q2PRO",
+                "command": "./q2pro/q2pro.sh",
+                "download": [
+                    "q2pro",
+                    "Quake II Soundtrack",
+                    "The Reckoning Soundtrack",
+                    "Ground Zero Soundtrack"
+                ],
+                "download_config": {
+                    "q2pro": {
+                        "extract_location": "./q2pro"
+                    }
+                },
+                "setup": {
+                    "complete_path": "./ready-q2pro",
+                    "command": "./q2pro/setup-q2pro.sh"
+                }
             }
         ],
         "cloudAvailable": true
@@ -6520,6 +6539,16 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/kondrak/vkQuake2/blob/master/LICENSE",
+            "controllerNotSupported": true
+        },
+        "Q2PRO": {
+            "engine_name": "Q2PRO",
+            "engine_link": "https://github.com/skullernet/q2pro",
+            "version": "r2146",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/skullernet/q2pro/blob/master/LICENSE",
             "controllerNotSupported": true
         },
         "Jagged Alliance 2 Stracciatella": {
