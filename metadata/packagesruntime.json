@@ -94,6 +94,18 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-1/",
                 "file": "spearmint-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "cpma-mappack-full",
+                "url": "https://cdn.playmorepromode.com/files/",
+                "file": "cpma-mappack-full.zip",
+                "cache_by_name": true
+            },
+            {
+                "name": "cpma",
+                "url": "https://playmorepromode.com/files/latest/",
+                "file": "cpma",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -156,6 +168,36 @@
                 ],
                 "download": [
                     "spearmint"
+                ]
+            },
+            {
+                "name": "Challenge ProMode Arena",
+                "download_config": {
+                    "cnq3": {
+                        "extract_location": "./cnq3"
+                    },
+                    "cpma-mappack-full": {
+                        "extract_location": "./cnq3/baseq3",
+                        "decode_as_zip": true
+                    },
+                    "cpma": {
+                        "extract_location": "./cnq3",
+                        "decode_as_zip": true
+                    }
+                },
+                "command": "./cnq3/run-cnq3.sh",
+                "command_args": [
+                    "+set",
+                    "r_mode",
+                    "-2",
+                    "+set",
+                    "r_modeFullscreen",
+                    "-2"
+                ],
+                "download": [
+                    "cnq3",
+                    "cpma-mappack-full",
+                    "cpma"
                 ]
             }
         ],
@@ -6387,6 +6429,14 @@
             "license": "GPLv3",
             "license_link": "https://github.com/zturtleman/spearmint/blob/master/COPYING.txt",
             "controllerSupported": true
+        },
+        "Challenge ProMode Arena": {
+            "engine_link": "https://bitbucket.org/CPMADevs/cnq3",
+            "version": "1b74aed",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://bitbucket.org/CPMADevs/cnq3/src/master/COPYING.txt"
         },
         "FTE QuakeWorld": {
             "engine_link": "https://fte.triptohell.info/about",
