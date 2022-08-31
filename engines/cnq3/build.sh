@@ -11,7 +11,7 @@ popd
 
 # BUILD PHASE
 pushd "source"
-make -j "$(nproc)"
+make config=release client -j "$(nproc)"
 popd
 
 # COPY PHASE
