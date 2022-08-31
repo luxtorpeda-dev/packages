@@ -6,6 +6,7 @@
 * doom-retro - Update to 4.6.1
 * ruffle - Update to 576c35a
 * Added a2pro
+* Added cnq3
 
 ### 56.0 (2022-08-06)
 
