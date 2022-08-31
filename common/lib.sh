@@ -148,24 +148,35 @@ use_gcc_9 () {
     export CXXFLAGS='-fuse-ld=gold'
 }
 
-use_clang_15 () {
-    echo "deb http://apt.llvm.org/buster/ llvm-toolchain-buster main" >> /etc/apt/sources.list
-    echo "deb-src http://apt.llvm.org/buster/ llvm-toolchain-buster main" >> /etc/apt/sources.list
-    echo "deb http://apt.llvm.org/buster/ llvm-toolchain-buster-15 main" >> /etc/apt/sources.list
-    echo "deb-src http://apt.llvm.org/buster/ llvm-toolchain-buster-15 main" >> /etc/apt/sources.list
+use_gcc_10 () {
+    apt install -y wget xz-utils bzip2 make autoconf gcc-multilib g++-multilib
 
-    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 15CF4D18AF4F7421
-    apt-get update
-    apt-get -y install clang-15 lld-15 libc++-15-dev libc++abi-15-dev clang-tools-15
+    wget https://ftp.wrz.de/pub/gnu/gcc/gcc-10.2.0/gcc-10.2.0.tar.xz
+    tar xf gcc-10.2.0.tar.xz
+    cd gcc-10.2.0
+    wget https://gmplib.org/download/gmp/gmp-6.2.0.tar.xz
+    tar xf gmp-6.2.0.tar.xz
+    mv gmp-6.2.0 gmp
+    wget https://ftp.gnu.org/gnu/mpfr/mpfr-4.1.0.tar.gz
+    tar xf mpfr-4.1.0.tar.gz
+    mv mpfr-4.1.0 mpfr
+    wget ftp://ftp.gnu.org/gnu/mpc/mpc-1.2.1.tar.gz
+    tar xf mpc-1.2.1.tar.gz
+    mv mpc-1.2.1 mpc
+    wget ftp://gcc.gnu.org/pub/gcc/infrastructure/isl-0.18.tar.bz2
+    tar xf isl-0.18.tar.bz2
+    mv isl-0.18 isl
 
-    update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-15 100
-    update-alternatives --install /usr/bin/clang clang /usr/bin/clang-15 100
-    update-alternatives --install /usr/bin/ld ld /usr/bin/ld.lld-15 100
-    update-alternatives --install /usr/bin/as as /usr/bin/llvm-as-15 100
+    ./configure --prefix=/opt/gcc-10 --enable-languages=c,c++
+    make -j$(nproc)
+    make install
 
-    export CXX='clang++-15'
-    export CC='clang-15'
-    export LD='ld.lld-15'
+    export CC=/opt/gcc-10/bin/gcc
+    export CXX=/opt/gcc-10/bin/g++
+    export LDFLAGS="-Wl,-rpath,/opt/gcc-10/lib64"
+
+    update-alternatives --install /usr/bin/gcc gcc /opt/gcc-10/bin/gcc 100
+    update-alternatives --install /usr/bin/g++ g++ /opt/gcc-10/bin/g++ 100
 }
 
 use_python_3 () {
