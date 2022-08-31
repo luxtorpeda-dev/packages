@@ -156,13 +156,16 @@ use_clang_15 () {
 
     apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 15CF4D18AF4F7421
     apt-get update
-    apt-get -y install clang-15
+    apt-get -y install clang-15 lld-15 libc++-15-dev libc++abi-15-dev clang-tools-15
 
     update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-15 100
     update-alternatives --install /usr/bin/clang clang /usr/bin/clang-15 100
+    update-alternatives --install /usr/bin/ld ld /usr/bin/ld.lld-15 100
+    update-alternatives --install /usr/bin/as as /usr/bin/llvm-as-15 100
 
     export CXX='clang++-15'
     export CC='clang-15'
+    export LD='ld.lld-15'
 }
 
 use_python_3 () {
