@@ -153,7 +153,7 @@ use_gcc_10 () {
 
     wget https://ftp.wrz.de/pub/gnu/gcc/gcc-10.2.0/gcc-10.2.0.tar.xz
     tar xf gcc-10.2.0.tar.xz
-    cd gcc-10.2.0
+    pushd gcc-10.2.0
     wget https://gmplib.org/download/gmp/gmp-6.2.0.tar.xz
     tar xf gmp-6.2.0.tar.xz
     mv gmp-6.2.0 gmp
@@ -177,6 +177,8 @@ use_gcc_10 () {
 
     update-alternatives --install /usr/bin/gcc gcc /opt/gcc-10/bin/gcc 100
     update-alternatives --install /usr/bin/g++ g++ /opt/gcc-10/bin/g++ 100
+
+    popd
 }
 
 use_python_3 () {
