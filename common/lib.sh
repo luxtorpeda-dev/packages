@@ -148,6 +148,23 @@ use_gcc_9 () {
     export CXXFLAGS='-fuse-ld=gold'
 }
 
+use_clang_15 () {
+    echo "deb http://apt.llvm.org/buster/ llvm-toolchain-buster main" >> /etc/apt/sources.list
+    echo "deb-src http://apt.llvm.org/buster/ llvm-toolchain-buster main" >> /etc/apt/sources.list
+    echo "deb http://apt.llvm.org/buster/ llvm-toolchain-buster-15 main" >> /etc/apt/sources.list
+    echo "deb-src http://apt.llvm.org/buster/ llvm-toolchain-buster-15 main" >> /etc/apt/sources.list
+
+    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 15CF4D18AF4F7421
+    apt-get update
+    apt-get -y install clang-15
+
+    update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-15 100
+    update-alternatives --install /usr/bin/clang clang /usr/bin/clang-15 100
+
+    export CXX='clang++-15'
+    export CC='clang-15'
+}
+
 use_python_3 () {
     sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
     sudo update-alternatives  --set python /usr/bin/python3

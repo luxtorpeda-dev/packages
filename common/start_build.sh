@@ -32,6 +32,12 @@ if [ ! -z "${PYTHON3}" ]; then
     use_python_3
 fi
 
+if [ ! -z "${CLANG_15}" ]; then
+    echo "Using clang 15"
+    use_clang_15
+    clang --version
+fi
+
 gcc --version
 
 if [ ! -z "${LIBRARIES}" ]; then
