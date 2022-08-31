@@ -15,5 +15,5 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp -rfv .bin/release_x64/cnq3-x64
+cp -rfv .bin/release_x64/cnq3-x64 "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
