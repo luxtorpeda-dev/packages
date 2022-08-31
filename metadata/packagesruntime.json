@@ -369,7 +369,8 @@
                     "chocolate-doom": {
                         "extract_location": "./chocolate-doom"
                     }
-                }
+                },
+                "engine_name": "Chocolate Doom"
             },
             {
                 "name": "prboom-plus",
@@ -594,7 +595,8 @@
                     "chocolate-doom": {
                         "extract_location": "./chocolate-doom"
                     }
-                }
+                },
+                "engine_name": "Chocolate Doom"
             },
             {
                 "name": "prboom-plus",
@@ -930,7 +932,8 @@
                     "chocolate-doom": {
                         "extract_location": "./chocolate-doom"
                     }
-                }
+                },
+                "engine_name": "Chocolate Doom"
             },
             {
                 "name": "prboom-plus",
@@ -1732,7 +1735,8 @@
                     "chocolate-doom": {
                         "extract_location": "./chocolate-doom"
                     }
-                }
+                },
+                "engine_name": "Chocolate Doom"
             },
             {
                 "name": "Doom Runner",
@@ -1952,7 +1956,8 @@
                     "chocolate-doom": {
                         "extract_location": "./chocolate-doom"
                     }
-                }
+                },
+                "engine_name": "Chocolate Doom"
             },
             {
                 "name": "prboom-plus",
@@ -3511,6 +3516,9 @@
             "license": "BSD with commercial source code",
             "non_free": true
         },
+        "removeNotices": [
+            "in_progress"
+        ],
         "cloudAvailable": true
     },
     "200900": {

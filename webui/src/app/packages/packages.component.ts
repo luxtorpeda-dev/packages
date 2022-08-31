@@ -101,6 +101,25 @@ export class PackagesComponent implements OnInit {
             }
           }
 
+          if(this.titles[titleId].removeNotices) {
+            const finalNotices = [];
+            for(let notice of tmpEngine.notices) {
+              let okToAdd = true;
+              for(let removeKey of this.titles[titleId].removeNotices) {
+                if(notice.key === removeKey) {
+                  okToAdd = false;
+                  break;
+                }
+              }
+
+              if(okToAdd) {
+                finalNotices.push(notice);
+              }
+            }
+
+            tmpEngine.notices = finalNotices;
+          }
+
           if(tmpEngine.notices) {
               for(let notice of tmpEngine.notices) {
                 if(notice.key === 'manual_steps') {
