@@ -11,7 +11,7 @@ popd
 
 # BUILD PHASE
 pushd "source"
-make config=release client
+QUAKE3DIR="$PWD" make config=release client
 popd
 
 # COPY PHASE
