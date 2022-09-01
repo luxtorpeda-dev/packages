@@ -8,6 +8,7 @@
 * Added a2pro
 * Added cnq3
 * dxx-rebirth - Update to 366b048879d62a3096357509fc856dde1abfb7ff
+* doom-retro - Update to 4.6.2
 
 ### 56.0 (2022-08-06)
 
