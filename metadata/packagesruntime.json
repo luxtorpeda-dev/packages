@@ -1679,6 +1679,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-1/",
                 "file": "crispy-doom-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "inter-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-1/",
+                "file": "inter-doom-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -1854,6 +1860,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-1/",
                 "file": "crispy-doom-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "inter-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-1/",
+                "file": "inter-doom-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -2013,6 +2025,12 @@
                 "name": "crispy-doom",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-1/",
                 "file": "crispy-doom-common-1.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "inter-doom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-1/",
+                "file": "inter-doom-common-1.tar.xz",
                 "cache_by_name": true
             }
         ],
