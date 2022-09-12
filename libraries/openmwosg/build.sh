@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone --recursive https://github.com/OpenMW/osg osg
 pushd osg
-git checkout -f ada34a6
+git checkout -f dd803bc
 git submodule update --init --recursive
 popd
 
