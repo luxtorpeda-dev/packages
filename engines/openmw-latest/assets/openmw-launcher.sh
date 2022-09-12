@@ -136,4 +136,13 @@ else
     LD_PRELOAD="" ln -rsf ./shaders-bkup ./share/games/openmw/resources/shaders
 fi
 
+if [ ! -d ./config/openmw ]; then
+    LD_PRELOAD="" mkdir -p ./config/openmw
+fi
+
+if [ -f ./local-cfglauncher.cfg ]; then
+    rm ./config/openmw/launcher.cfg
+    ln -rsf ./local-cfglauncher.cfg ./config/openmw/launcher.cfg
+fi
+
 LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./plugins XDG_CONFIG_HOME="./config" XDG_DATA_HOME="./local" ./openmw-launcher --data-local "../Data Files" "$@"
