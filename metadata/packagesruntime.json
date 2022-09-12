@@ -1778,6 +1778,22 @@
                 "engine_name": "Crispy Doom"
             },
             {
+                "name": "International Doom",
+                "command": "./inter-doom/run-inter-hexen.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HEXEN.WAD"
+                ],
+                "download": [
+                    "inter-doom"
+                ],
+                "download_config": {
+                    "inter-doom": {
+                        "extract_location": "./inter-doom"
+                    }
+                }
+            },
+            {
                 "name": "Doom Runner",
                 "command": "./doom-runner/run-doom-runner.sh",
                 "download": [
@@ -1906,6 +1922,24 @@
                     }
                 },
                 "engine_name": "Crispy Doom"
+            },
+            {
+                "name": "International Doom",
+                "command": "./inter-doom/run-inter-hexen.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HEXEN.WAD",
+                    "-file",
+                    "../base/HEXDD.WAD"
+                ],
+                "download": [
+                    "inter-doom"
+                ],
+                "download_config": {
+                    "inter-doom": {
+                        "extract_location": "./inter-doom"
+                    }
+                }
             },
             {
                 "name": "Doom Runner",
@@ -2093,6 +2127,22 @@
                     }
                 },
                 "engine_name": "Crispy Doom"
+            },
+            {
+                "name": "International Doom",
+                "command": "./inter-doom/run-inter-heretic.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HERETIC.WAD"
+                ],
+                "download": [
+                    "inter-doom"
+                ],
+                "download_config": {
+                    "inter-doom": {
+                        "extract_location": "./inter-doom"
+                    }
+                }
             },
             {
                 "name": "Doom Runner",
@@ -6641,6 +6691,15 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/fabiangreffrath/crispy-doom/blob/master/COPYING.md",
+            "controllerSupportedManualGame": true
+        },
+        "International Doom": {
+            "engine_link": "https://github.com/JNechaevsky/inter-doom",
+            "version": "5.3",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/JNechaevsky/inter-doom/blob/master/LICENSE.txt",
             "controllerSupportedManualGame": true
         },
         "prboom-plus": {
