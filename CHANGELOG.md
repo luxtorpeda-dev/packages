@@ -1,6 +1,7 @@
 ### 59.0 (2022-09-11)
 
 * Added Crispy Doom
+* Added International Doom
 
 ### 56.1 (2022-08-23)
 
