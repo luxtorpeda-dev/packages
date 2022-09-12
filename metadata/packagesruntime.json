@@ -2833,7 +2833,7 @@
                 "file": "etqw-10050-6.tar.xz"
             }
         ],
-        "name": "ETQW Full",
+        "engine_name": "ETQW Full",
         "command": "./run-full.sh",
         "information": {
             "closed_source": true
