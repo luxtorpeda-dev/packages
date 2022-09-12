@@ -1865,6 +1865,8 @@
                 "command": "./crispy-doom/run-crispy-hexen.sh",
                 "command_args": [
                     "-iwad",
+                    "../base/HEXEN.WAD",
+                    "-file",
                     "../base/HEXDD.WAD"
                 ],
                 "download": [
