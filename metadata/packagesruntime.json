@@ -1739,6 +1739,39 @@
                 "engine_name": "Chocolate Doom"
             },
             {
+                "name": "Crispy Doom",
+                "command": "./crispy-doom/run-crispy-hexen.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HEXEN.WAD"
+                ],
+                "download": [
+                    "crispy-doom"
+                ],
+                "download_config": {
+                    "crispy-doom": {
+                        "extract_location": "./crispy-doom"
+                    }
+                }
+            },
+            {
+                "name": "Crispy Doom (Setup)",
+                "command": "./crispy-doom/run-crispy-hexen-setup.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HEXEN.WAD"
+                ],
+                "download": [
+                    "crispy-doom"
+                ],
+                "download_config": {
+                    "crispy-doom": {
+                        "extract_location": "./crispy-doom"
+                    }
+                },
+                "engine_name": "Crispy Doom"
+            },
+            {
                 "name": "Doom Runner",
                 "command": "./doom-runner/run-doom-runner.sh",
                 "download": [
@@ -1826,6 +1859,41 @@
                         "extract_location": "./doomsday"
                     }
                 }
+            },
+            {
+                "name": "Crispy Doom",
+                "command": "./crispy-doom/run-crispy-hexen.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HEXEN.WAD",
+                    "-file",
+                    "../base/HEXDD.WAD"
+                ],
+                "download": [
+                    "crispy-doom"
+                ],
+                "download_config": {
+                    "crispy-doom": {
+                        "extract_location": "./crispy-doom"
+                    }
+                }
+            },
+            {
+                "name": "Crispy Doom (Setup)",
+                "command": "./crispy-doom/run-crispy-hexen-setup.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HEXDD.WAD"
+                ],
+                "download": [
+                    "crispy-doom"
+                ],
+                "download_config": {
+                    "crispy-doom": {
+                        "extract_location": "./crispy-doom"
+                    }
+                },
+                "engine_name": "Crispy Doom"
             },
             {
                 "name": "Doom Runner",
@@ -1974,6 +2042,39 @@
                         "extract_location": "./prboom-plus"
                     }
                 }
+            },
+            {
+                "name": "Crispy Doom",
+                "command": "./crispy-doom/run-crispy-heretic.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HERETIC.WAD"
+                ],
+                "download": [
+                    "crispy-doom"
+                ],
+                "download_config": {
+                    "crispy-doom": {
+                        "extract_location": "./crispy-doom"
+                    }
+                }
+            },
+            {
+                "name": "Crispy Doom (Setup)",
+                "command": "./crispy-doom/run-crispy-heretic-setup.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HERETIC.WAD"
+                ],
+                "download": [
+                    "crispy-doom"
+                ],
+                "download_config": {
+                    "crispy-doom": {
+                        "extract_location": "./crispy-doom"
+                    }
+                },
+                "engine_name": "Crispy Doom"
             },
             {
                 "name": "Doom Runner",
@@ -6513,6 +6614,15 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md",
+            "controllerSupportedManualGame": true
+        },
+        "Crispy Doom": {
+            "engine_link": "https://github.com/fabiangreffrath/crispy-doom",
+            "version": "5.12.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/fabiangreffrath/crispy-doom/blob/master/COPYING.md",
             "controllerSupportedManualGame": true
         },
         "prboom-plus": {
