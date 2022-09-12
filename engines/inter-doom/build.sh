@@ -19,5 +19,6 @@ make install
 popd
 
 # COPY PHASE
-cp -rfv "$pfx/usr/local/bin/"* "$diststart/common/dist/"
+cp -rfv "$pfx/bin/"* "$diststart/common/dist/"
+cp -rfv "$pfx/share/inter-doom/"* "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
