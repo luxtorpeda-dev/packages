@@ -2824,6 +2824,22 @@
         "cloudAvailable": true,
         "controllerSteamDefault": true
     },
+    "10000": {
+        "game_name": "Enemy Territory: Quake Wars",
+        "download": [
+            {
+                "name": "etqw",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-6/",
+                "file": "etqw-10050-6.tar.xz"
+            }
+        ],
+        "name": "ETQW Full",
+        "command": "./run-full.sh",
+        "information": {
+            "closed_source": true
+        },
+        "cloudNotAvailable": true
+    },
     "10050": {
         "game_name": "Enemy Territory: Quake Wars Demo",
         "download": [
@@ -7223,6 +7239,32 @@
                 },
                 {
                     "label": "Put retail version in full directory, so that full/etqw-rthread exists inside the steam installed demo directory."
+                },
+                {
+                    "label": "Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game."
+                }
+            ],
+            "controllerNotSupported": true
+        },
+        "ETQW Full": {
+            "engine_link": "https://steamcommunity.com/app/10000/discussions/0/143388511227759615/",
+            "version": "ETQW-demo2-client-full.r1.x86",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://zerowing.idsoftware.com/linux/etqw/ETQWFrontPage/index.html",
+            "notices": [
+                {
+                    "key": "closed_source"
+                },
+                {
+                    "key": "32_bit"
+                },
+                {
+                    "key": "manual_steps"
+                },
+                {
+                    "label": "Put retail version in game installation directory, so that etqw-rthread exists inside the steam installed directory."
                 },
                 {
                     "label": "Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game."
