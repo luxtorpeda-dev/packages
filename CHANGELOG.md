@@ -1,3 +1,7 @@
+### 59.0 (2022-09-11)
+
+* Added Crispy Doom
+
 ### 56.1 (2022-08-23)
 
 * runescape - Update to 2.2.10
