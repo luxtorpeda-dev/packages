@@ -15,5 +15,4 @@ popd
 
 # COPY PHASE
 cp -rfv "$pfx/usr/local/bin/"* "$diststart/common/dist/"
-
 cp -rfv assets/* "$diststart/common/dist/"
