@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/libsdl-org/SDL_mixer.git sdl2_mixer
 pushd sdl2_mixer
-git checkout -f da75a58
+git checkout -f 75f3181
 popd
 
 # BUILD PHASE
