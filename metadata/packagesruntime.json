@@ -2841,7 +2841,7 @@
         "download_config": {
             "etqw-1.5-full": {
                 "decode_as_zip": true,
-                "extract_location": "./linuxdata"
+                "extract_location": "./etqwsetup"
             }
         },
         "setup": {
