@@ -2839,10 +2839,10 @@
             }
         ],
         "setup": {
-            "complete_path": "../ready",
+            "complete_path": "./ready",
             "command": "./setup-full.sh",
             "uninstall_command": "./uninstall-full.sh",
-            "license_path": "../EULA.txt"
+            "license_path": "./EULA.txt"
         },        
         "engine_name": "ETQW Full",
         "command": "./run-full.sh",
