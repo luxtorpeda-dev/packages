@@ -2838,6 +2838,12 @@
                 "file": "etqw-10000-7.tar.xz"
             }
         ],
+        "download_config": {
+            "etqw-1.5-full": {
+                "decode_as_zip": true,
+                "extract_location": "./linuxdata"
+            }
+        },
         "setup": {
             "complete_path": "./ready",
             "command": "./setup-full.sh",
