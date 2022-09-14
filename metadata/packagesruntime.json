@@ -7278,12 +7278,6 @@
                     "key": "32_bit"
                 },
                 {
-                    "key": "manual_steps"
-                },
-                {
-                    "label": "Put retail version in game installation directory, so that etqw-rthread exists inside the steam installed directory."
-                },
-                {
                     "label": "Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game."
                 }
             ],
