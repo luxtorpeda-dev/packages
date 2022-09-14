@@ -2828,11 +2828,28 @@
         "game_name": "Enemy Territory: Quake Wars",
         "download": [
             {
+                "name": "etqw-1.5-full",
+                "url": "https://slashbunny.com/aur/etqw/",
+                "file": "ETQW-client-1.5-full.x86.run"
+            },
+            {
                 "name": "etqw",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-7/",
                 "file": "etqw-10000-7.tar.xz"
             }
         ],
+        "download_config": {
+            "etqw-1.5-full": {
+                "decode_as_zip": true,
+                "extract_location": "./etqwsetup"
+            }
+        },
+        "setup": {
+            "complete_path": "./ready",
+            "command": "./setup-full.sh",
+            "uninstall_command": "./uninstall-full.sh",
+            "license_path": "./EULA.txt"
+        },        
         "engine_name": "ETQW Full",
         "command": "./run-full.sh",
         "information": {
