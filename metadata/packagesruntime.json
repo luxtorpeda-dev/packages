@@ -7230,9 +7230,6 @@
                 },
                 {
                     "label": "Download the linux demo manually, run and follow the steps, then copy the files to demo/ inside the steam installed demo directory."
-                },
-                {
-                    "label": "Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game."
                 }
             ],
             "controllerNotSupported": true
@@ -7256,9 +7253,6 @@
                 },
                 {
                     "label": "Put retail version in full directory, so that full/etqw-rthread exists inside the steam installed demo directory."
-                },
-                {
-                    "label": "Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game."
                 }
             ],
             "controllerNotSupported": true
@@ -7276,9 +7270,6 @@
                 },
                 {
                     "key": "32_bit"
-                },
-                {
-                    "label": "Applying settings in Settings menu might result black screen; return to desktop, exit and restart the game."
                 }
             ],
             "controllerNotSupported": true
