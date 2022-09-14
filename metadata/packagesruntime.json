@@ -2834,8 +2834,8 @@
             },
             {
                 "name": "etqw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-7/",
-                "file": "etqw-10000-7.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-8/",
+                "file": "etqw-10000-8.tar.xz"
             }
         ],
         "download_config": {
@@ -2849,7 +2849,7 @@
             "command": "./setup-full.sh",
             "uninstall_command": "./uninstall-full.sh",
             "license_path": "./EULA.txt"
-        },        
+        },
         "engine_name": "ETQW Full",
         "command": "./run-full.sh",
         "information": {
@@ -2862,8 +2862,8 @@
         "download": [
             {
                 "name": "etqw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-7/",
-                "file": "etqw-10050-7.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-8/",
+                "file": "etqw-10050-8.tar.xz"
             }
         ],
         "choices": [
