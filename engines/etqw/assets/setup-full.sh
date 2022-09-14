@@ -19,6 +19,6 @@ find base -type f  | while read -r file_name ; do
     create_relative_symlink "$file_name"
 done
     
-chmod +x ./linuxdata/{etqw,etqw-dedicated,etqw.x86,*.so,*.so.*,pb/*.so}
+chmod +x ./linuxdata/{etqw-dedicated,etqwded.x86,etqw,etqw.x86,etqw-rthread,etqw-rthread.x86,*.so,*.so.*,pb/*.so}
 
 chmod 755 ./linuxdata/base/bots
