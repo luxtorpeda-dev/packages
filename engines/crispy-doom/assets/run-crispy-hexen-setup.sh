@@ -3,4 +3,4 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 export LD_LIBRARY_PATH="$DIR/lib:$LD_LIBRARY_PATH"
-"$DIR/crispy-hexen-setup" -config ./hexen.cfg -extraconfig crispy-hexen.cfg "$@"
+"$DIR/crispy-hexen-setup" -config "$DIR/hexen.cfg" -extraconfig "$DIR/crispy-hexen.cfg" "$@"
