@@ -373,6 +373,22 @@
                 "engine_name": "Chocolate Doom"
             },
             {
+                "name": "International Doom",
+                "command": "./inter-doom/run-inter-doom.sh",
+                "command_args": [
+                    "-iwad",
+                    "base/DOOM.WAD"
+                ],
+                "download": [
+                    "inter-doom"
+                ],
+                "download_config": {
+                    "inter-doom": {
+                        "extract_location": "./inter-doom"
+                    }
+                }
+            },
+            {
                 "name": "prboom-plus",
                 "command": "./prboom-plus/run-prboom-plus.sh",
                 "command_args": [
@@ -597,6 +613,33 @@
                     }
                 },
                 "engine_name": "Chocolate Doom"
+            },
+            {
+                "name": "International Doom",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./inter-doom/run-inter-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./inter-doom/run-inter-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "inter-doom"
+                ],
+                "download_config": {
+                    "inter-doom": {
+                        "extract_location": "./inter-doom"
+                    }
+                }
             },
             {
                 "name": "prboom-plus",
@@ -934,6 +977,54 @@
                     }
                 },
                 "engine_name": "Chocolate Doom"
+            },
+            {
+                "name": "International Doom",
+                "commands": {
+                    ".*rerelease": {
+                        "cmd": "./inter-doom/run-inter-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/DOOM2.WAD"
+                        ]
+                    },
+                    ".*doom2": {
+                        "cmd": "./inter-doom/run-inter-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "base/DOOM2.WAD"
+                        ]
+                    },
+                    ".*tnt": {
+                        "cmd": "./inter-doom/run-inter-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "finaldoombase/TNT.WAD"
+                        ]
+                    },
+                    ".*plutonia": {
+                        "cmd": "./inter-doom/run-inter-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "finaldoombase/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*master": {
+                        "cmd": "/bin/sh",
+                        "args": [
+                            "-c",
+                            "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
+                        ]
+                    }
+                },
+                "download": [
+                    "inter-doom"
+                ],
+                "download_config": {
+                    "inter-doom": {
+                        "extract_location": "./inter-doom"
+                    }
+                }
             },
             {
                 "name": "prboom-plus",
