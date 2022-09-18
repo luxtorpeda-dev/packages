@@ -3,6 +3,7 @@
 * Added Crispy Doom
 * Added International Doom
 * [jm2] etqw - Add auto download/install support for full game
+* [Ryhon0] OpenGothic - Add Gothic 1 Support
 
 ### 56.1 (2022-08-23)
 
