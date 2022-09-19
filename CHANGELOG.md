@@ -5,6 +5,7 @@
 * [jm2] etqw - Add auto download/install support for full game
 * [Ryhon0] OpenGothic - Add Gothic 1 Support
 * bstone - Update to v1.2.12
+* dosbox-staging - Update to 0.79.0
 
 ### 56.1 (2022-08-23)
 
