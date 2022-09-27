@@ -3,7 +3,11 @@
 # CLONE PHASE
 git clone https://github.com/iortcw/iortcw.git source
 pushd source
-git checkout 7a33e45
+git checkout 6cbc480
+
+# patch combined from https://github.com/emileb/iortcw/commit/a161754e3de388536bc3989f412a98278c87dcfa and https://github.com/emileb/iortcw/commit/8321584a52babb03cf75e1021308cf31c45fca10
+# See https://github.com/iortcw/iortcw/issues/154 for reference
+git am < ../patches/0001-Load-crashing-fixes.patch
 popd
 
 # BUILD PHASE
