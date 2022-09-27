@@ -3,7 +3,8 @@
 # CLONE PHASE
 git clone https://github.com/iortcw/iortcw.git source
 pushd source
-git checkout 7a33e45
+git checkout 6cbc480
+git am < ../patches/0001-Load-crashing-fixes.patch
 popd
 
 # BUILD PHASE
