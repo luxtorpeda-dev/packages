@@ -9,6 +9,7 @@
 * augustus - Update to 3.2.0
 * inter-doom - Update to 6.0.1
 * iortcw - Update to 6cbc480
+* dosbox-staging - Update to 0.79.1
 
 ### 56.1 (2022-08-23)
 
