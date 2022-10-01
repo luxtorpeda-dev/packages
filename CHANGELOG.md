@@ -1,6 +1,7 @@
 ### 59.1 (2022-10-01)
 
 * ironwail - Update to 9c25cea
+* quakespasm-spiked - Update to e9822ae
 
 ### 59.0 (2022-09-11)
 
