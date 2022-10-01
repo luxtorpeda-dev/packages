@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Shpoike/Quakespasm.git source
 pushd source
-git checkout 9ffca1d
+git checkout e9822ae
 popd
 
 # BUILD PHASE

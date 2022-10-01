@@ -6927,7 +6927,7 @@
         },
         "quakespasm-spiked": {
             "engine_link": "https://github.com/Shpoike/Quakespasm",
-            "version": "9ffca1d (from master)",
+            "version": "e9822ae",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
