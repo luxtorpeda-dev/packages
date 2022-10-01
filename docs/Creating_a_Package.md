@@ -111,19 +111,7 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
             "game_name": "DOOM 3",
             "download": [],
             "command": "./dhewm3",
-            "information": {
-                "store_link": "https://store.steampowered.com/app/9050/",
-                "engine_name": "dhewm3",
-                "engine_link": "https://dhewm3.org/",
-                "version": "1.5.1-PRE1",
-                "comments": "",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "GPLv3",
-                "license_link": "https://github.com/dhewm/dhewm3/blob/master/COPYING.txt",
-                "non_free": false,
-                "closed_source": false
-            }
+            "engine_name": "dhewm3"
         }
         
     Engines that need further setup can use the following template:
@@ -157,19 +145,7 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
                 "license_path": "../System/License.int"
             },
             "command": "./run-ut2004.sh",
-            "use_original_command_directory": true,
-            "information": {
-                "store_link": "https://store.steampowered.com/app/13230",
-                "engine_name": "Proprietary Engine",
-                "engine_link": "http://treefort.icculus.org/ut2004/",
-                "version": "3369",
-                "comments": "On first start, license key will be requested, which can be found in Steam by getting the CD Key. Mods should go in the linuxdata directory.",
-                "author": "d10sfan",
-                "author_link": "https://github.com/d10sfan",
-                "license": "Proprietary/Closed Source",
-                "license_link": "https://store.steampowered.com/eula/eula_epic",
-                "closed_source": true
-            }
+            "use_original_command_directory": true
         }
         
    Engines that need choices can look like the following:
@@ -203,20 +179,9 @@ The path to copy into should follow this template: `$diststart/<appid>/dist/`, r
                     "command": "./openxcom-oxce/run-tftd.sh",
                     "download": ["openxcom-oxce"]
                 }
-            ],
-            "information": [
-                {
-                    "store_link": "https://store.steampowered.com/app/7650",
-                    "engine_name": "OpenXcom",
-                    "engine_link": "https://github.com/OpenXcom/OpenXcom",
-                    "version": "bd342df (from master)",
-                    "comments": "",
-                    "author": "d10sfan/dreamer",
-                    "author_link": "https://github.com/d10sfan",
-                    "license": "GPLv3",
-                    "license_link": "https://github.com/OpenXcom/OpenXcom/blob/master/LICENSE.txt"
-                }
             ]
         }
-        
-8. Once done with the new package, create a new pull request. Each pull request should only have one engine.
+
+8. At the root level of packages.json, there is an engines key. Inside here is all of the engine information. A new engine should contain a new key inside engines, following the format of the others. For your app_id information, engine_name can be used to associate a game with a particular engine.
+
+9. Once done with the new package, create a new pull request. Each pull request should only have one engine.
