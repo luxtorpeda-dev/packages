@@ -2,7 +2,7 @@ Unreal Gold requires a Windows installer to get the necessary Linux binaries.
 
 This Windows installer has to be downloaded manually, do to the luxtorpeda client not being able to download the files directory.
 
-To do this, go to https://www.oldunreal.com/downloads/unreal/oldunreal-patches/, pick UnrealGoldPatch227i.7z and download it. Then go to the game directory and copy the 7z to the System directory.
+To do this, go to https://www.oldunreal.com/downloads/unreal/oldunreal-patches/, pick UnrealGoldPatch227i.7z and download it. Then go to the game directory and extract the 7z to the System directory.
 
 Because of this installer, wine is needed to be installed and the following steps need to be executed manually below:
 
