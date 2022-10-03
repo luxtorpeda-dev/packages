@@ -52,7 +52,7 @@
 			// that's used when writing to the "mod" path.
 			game+mod+mod_write+default_write_path		|gameinfo_path|.
 			gamebin				|gameinfo_path|bin
-			game				|gameinfo_path|ez2/*
+			game				|gameinfo_path|../ez2extracted
 			
 			// Get our shared Mapbase files.
 			// They should be right next to this mod.

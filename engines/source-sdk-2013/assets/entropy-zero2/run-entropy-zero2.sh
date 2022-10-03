@@ -95,4 +95,23 @@ popd
 
 cp -rfv ./ez2-binaries/entropyzero2/bin/* ./entropyzero2/bin
 
+if [[ ! -d "ez2extracted" ]]; then
+    LD_PRELOAD="" echo "ez2extracted not found, extracting vpks"
+
+    export PYTHONUSERBASE="$PWD/vpk/vpkinstall"
+    if [[ ! -d "vpk/vpkinstall" ]]; then
+        LD_PRELOAD="" tar xvf setuptools-65.4.1.tar.gz
+        pushd setuptools-65.4.1
+        LD_PRELOAD="" python3.7 setup.py install --user
+        popd
+        pushd vpk
+        LD_PRELOAD="" python3.7 setup.py install --user
+        popd
+    fi
+
+    LD_PRELOAD="" ./vpk/vpkinstall/bin/vpk entropyzero2/ez2/ez2_dir.vpk -x ./ez2extracted
+else
+    runtimepath=$(cat runtimepath.txt)
+fi
+
 "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$sdkpath"/hl2.sh -game "$PWD/entropyzero2" -steam
