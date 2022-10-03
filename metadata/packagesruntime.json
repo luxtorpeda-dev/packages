@@ -6161,6 +6161,53 @@
         },
         "cloudNotAvailable": true
     },
+    "1583720": {
+        "game_name": "Entropy : Zero 2",
+        "download": [
+            {
+                "name": "ez2",
+                "url": "https://github.com/z33ky/source-sdk-2013/releases/download/ez2-1.0.1.linux0/",
+                "file": "ez2-1.0.1.linux0.tar.xz"
+            },
+            {
+                "name": "source-sdk-2013",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-25/",
+                "file": "source-sdk-2013-714070-25.tar.xz"
+            },
+            {
+                "name": "setuptools",
+                "url": "https://files.pythonhosted.org/packages/03/c9/7b050ea4cc4144d0328f15e0b43c839e759c6c639370a3b932ecf4c6358f/",
+                "file": "setuptools-65.4.1.tar.gz"
+            }
+        ],
+        "download_config": {
+            "ez2": {
+                "extract_location": "./ez2-binaries"
+            },
+            "setuptools": {
+                "copy_only": true
+            }
+        },
+        "app_ids_deps": [
+            243730,
+            1070560
+        ],
+        "command": "./run-entropy-zero2.sh",
+        "notices": [
+            {
+                "label": "Uses already compiled pre-release binaries from z33ky project."
+            },
+            {
+                "label": "Uses https://github.com/ValvePython/vpk/ for extracting vpks. First launch may take some time to complete."
+            }
+        ],
+        "engine_name": "Source SDK 2013",
+        "information": {
+            "license": "Source SDK Copyright(c) Valve Corp.",
+            "non_free": true
+        },
+        "cloudNotAvailable": true
+    },
     "1655410": {
         "game_name": "Witchaven",
         "download": [
