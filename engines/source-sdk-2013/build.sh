@@ -20,3 +20,5 @@ cp -rfv assets/downfall/* "$diststart/587650/dist/"
 cp -rfv assets/prospekt/* "$diststart/399120/dist/"
 
 cp -rfv assets/fast-detect/* "$diststart/353220/dist/"
+
+cp -rfv assets/entropy-zero2/* "$diststart/1583720/dist/"
