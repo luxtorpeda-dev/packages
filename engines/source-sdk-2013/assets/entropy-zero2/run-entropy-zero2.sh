@@ -110,8 +110,6 @@ if [[ ! -d "ez2extracted" ]]; then
     fi
 
     LD_PRELOAD="" ./vpk/vpkinstall/bin/vpk entropyzero2/ez2/ez2_dir.vpk -x ./ez2extracted
-else
-    runtimepath=$(cat runtimepath.txt)
 fi
 
 "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- "$sdkpath"/hl2.sh -game "$PWD/entropyzero2" -steam
