@@ -2,6 +2,7 @@
 
 * ironwail - Update to 9c25cea
 * quakespasm-spiked - Update to e9822ae
+* source-sdk-2013 - Add entropy-zero2
 
 ### 59.0 (2022-09-11)
 
