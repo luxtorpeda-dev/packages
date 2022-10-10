@@ -8024,6 +8024,20 @@
             ],
             "controllerSupported": true
         },
+        "odamex": {
+            "engine_link": "https://github.com/odamex/odamex",
+            "version": "9a3f042",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/odamex/odamex/blob/stable/LICENSE",
+            "notices": [
+                {
+                    "label": "Downloads FluidR3_GM.sf2 automatically. Can override SDL_SOUNDFONTS in launch options."
+                }
+            ],
+            "controllerSupported": true
+        },
         "RetroArch": {
             "engine_link": "https://store.steampowered.com/app/1118310/RetroArch/",
             "version": "1.10.2",
