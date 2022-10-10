@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/wxWidgets/wxWidgets.git wxWidgets
 pushd wxWidgets
-git checkout 97e9970
+git checkout 9c0a8be
 git submodule update --init --recursive
 popd
 

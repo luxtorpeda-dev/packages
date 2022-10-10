@@ -433,10 +433,6 @@
             {
                 "name": "odamex",
                 "command": "./odamex/run-odamex.sh",
-                "command_args": [
-                    "-iwad",
-                    "../base/DOOM.WAD"
-                ],
                 "download": [
                     "odamex",
                     "fluid-soundfont"
