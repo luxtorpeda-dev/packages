@@ -431,6 +431,26 @@
                 }
             },
             {
+                "name": "odamex",
+                "command": "./odamex/odamex",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM.WAD"
+                ],
+                "download": [
+                    "odamex",
+                    "fluid-soundfont"
+                ],
+                "download_config": {
+                    "odamex": {
+                        "extract_location": "./odamex"
+                    },
+                    "fluid-soundfont": {
+                        "extract_location": "./odamex"
+                    }
+                }
+            },
+            {
                 "name": "Doom Runner",
                 "command": "./doom-runner/run-doom-runner.sh",
                 "download": [
