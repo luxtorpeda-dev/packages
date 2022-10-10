@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/odamex/odamex.git source
 pushd source
-git checkout f6615de
+git checkout 9a3f042
 git submodule update --init --recursive
 popd
 
