@@ -8,7 +8,7 @@ popd
 
 # BUILD PHASE
 pushd source
-scons sdl2=1
+scons -j`nproc` sdl2=1
 popd
 
 # COPY PHASE
