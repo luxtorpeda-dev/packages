@@ -7,6 +7,7 @@
 * OpenLoco - Update to v22.10
 * openjk - Use for academy mp
 * Added Odamex
+* [jcotton42] dxx-rebirth - Update to e3faab0899bc86184fdd67568ccc4f237c5f6807
 
 ### 59.0 (2022-09-11)
 
