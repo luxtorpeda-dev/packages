@@ -5,6 +5,7 @@
 * source-sdk-2013 - Add entropy-zero2
 * openrct2 - Update to 0.4.2
 * OpenLoco - Update to v22.10
+* openjk - Use for academy mp
 
 ### 59.0 (2022-09-11)
 
