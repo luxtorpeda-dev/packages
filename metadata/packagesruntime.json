@@ -431,8 +431,12 @@
                 }
             },
             {
-                "name": "odamex",
+                "name": "Odamex",
                 "command": "./odamex/run-odamex.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM.WAD"
+                ],
                 "download": [
                     "odamex",
                     "fluid-soundfont"
@@ -1157,6 +1161,58 @@
                     },
                     "fluid-soundfont": {
                         "extract_location": "./doom-retro"
+                    }
+                }
+            },
+            {
+                "name": "Odamex",
+                "commands": {
+                    ".*rerelease": {
+                        "cmd": "./odamex/run-odamex.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/DOOM2.WAD"
+                        ]
+                    },
+                    ".*doom2": {
+                        "cmd": "./odamex/run-odamex.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/DOOM2.WAD"
+                        ]
+                    },
+                    ".*tnt": {
+                        "cmd": "./odamex/run-odamex.sh",
+                        "args": [
+                            "-iwad",
+                            "../finaldoombase/TNT.WAD"
+                        ]
+                    },
+                    ".*plutonia": {
+                        "cmd": "./odamex/run-odamex.sh",
+                        "args": [
+                            "-iwad",
+                            "../finaldoombase/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*master": {
+                        "cmd": "/bin/sh",
+                        "args": [
+                            "-c",
+                            "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
+                        ]
+                    }
+                },
+                "download": [
+                    "odamex",
+                    "fluid-soundfont"
+                ],
+                "download_config": {
+                    "odamex": {
+                        "extract_location": "./odamex"
+                    },
+                    "fluid-soundfont": {
+                        "extract_location": "./odamex"
                     }
                 }
             },
@@ -8005,7 +8061,7 @@
             ],
             "controllerSupported": true
         },
-        "odamex": {
+        "Odamex": {
             "engine_link": "https://github.com/odamex/odamex",
             "version": "10.2.0",
             "author": "d10sfan",
