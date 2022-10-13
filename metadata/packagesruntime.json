@@ -2358,11 +2358,6 @@
                 "name": "openjk",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-6/",
                 "file": "openjk-6020-6.tar.xz"
-            },
-            {
-                "name": "eternaljk",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eternaljk-3/",
-                "file": "eternaljk-6020-3.tar.xz"
             }
         ],
         "commands": {
@@ -2370,12 +2365,11 @@
                 "cmd": "./run-openjk.sh"
             },
             ".*jamp.exe": {
-                "cmd": "./eternaljk.x86_64"
+                "cmd": "./run-openjk-mp.sh"
             }
         },
         "engine_names": [
-            "OpenJK (SP)",
-            "EternalJK (MP)"
+            "OpenJK"
         ],
         "cloudAvailable": true
     },
