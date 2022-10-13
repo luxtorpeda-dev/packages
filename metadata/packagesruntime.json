@@ -2374,11 +2374,6 @@
                 "name": "openjk",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-6/",
                 "file": "openjk-6020-6.tar.xz"
-            },
-            {
-                "name": "eternaljk",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eternaljk-3/",
-                "file": "eternaljk-6020-3.tar.xz"
             }
         ],
         "commands": {
@@ -2386,12 +2381,11 @@
                 "cmd": "./run-openjk.sh"
             },
             ".*jamp.exe": {
-                "cmd": "./eternaljk.x86_64"
+                "cmd": "./run-openjk-mp.sh"
             }
         },
         "engine_names": [
-            "OpenJK (SP)",
-            "EternalJK (MP)"
+            "OpenJK"
         ],
         "cloudAvailable": true
     },
@@ -2418,7 +2412,7 @@
             }
         },
         "engine_names": [
-            "OpenJK (SP)",
+            "OpenJK",
             "jk2mv (MP)"
         ],
         "cloudAvailable": true
@@ -4962,8 +4956,8 @@
         "download": [
             {
                 "name": "openloco",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-22/",
-                "file": "openloco-356430-22.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-23/",
+                "file": "openloco-356430-23.tar.xz"
             }
         ],
         "command": "./run-openloco.sh",
@@ -7061,22 +7055,13 @@
             ],
             "controllerNotSupported": true
         },
-        "OpenJK (SP)": {
+        "OpenJK": {
             "engine_link": "https://github.com/JACoders/OpenJK",
             "version": "43e9a3d",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt",
-            "controllerNotSupported": true
-        },
-        "EternalJK (MP)": {
-            "engine_link": "https://github.com/eternalcodes/EternalJK",
-            "version": "a40e793",
-            "author": "d10sfan/dreamer",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/eternalcodes/EternalJK/blob/master/LICENSE.txt",
             "controllerNotSupported": true
         },
         "jk2mv (MP)": {
@@ -7760,7 +7745,7 @@
         },
         "OpenLoco": {
             "engine_link": "https://github.com/OpenLoco/OpenLoco",
-            "version": "v22.06.1",
+            "version": "v22.10",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
