@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/ec-/Quake3e.git source
 pushd source
-git checkout 2baea18
+git checkout f698655
 popd
 
 # BUILD PHASE
