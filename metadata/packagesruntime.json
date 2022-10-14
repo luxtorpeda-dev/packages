@@ -319,6 +319,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/odamex-1/",
                 "file": "odamex-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "doomseeker",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomseeker-1/",
+                "file": "doomseeker-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -849,6 +855,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/odamex-1/",
                 "file": "odamex-common-1.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "doomseeker",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomseeker-1/",
+                "file": "doomseeker-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -1313,10 +1325,10 @@
                         "cmd": "./doomseeker/run-doomseeker.sh"
                     },
                     ".*doom2": {
-                         "cmd": "./doomseeker/run-doomseeker.sh"
+                        "cmd": "./doomseeker/run-doomseeker.sh"
                     },
                     ".*tnt": {
-                         "cmd": "./doomseeker/run-doomseeker.sh"
+                        "cmd": "./doomseeker/run-doomseeker.sh"
                     },
                     ".*plutonia": {
                         "cmd": "./doomseeker/run-doomseeker.sh"
