@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
       - name: Generate Packages Hash
         id: generatehash
-        uses: luxtorpeda-dev/action-build-generate-sha1-hash@v1
+        uses: luxtorpeda-dev/action-build-generate-sha1-hash@v2
         with:
             file: metadata/packagesruntime.json
       - name: Write Packages Hash
