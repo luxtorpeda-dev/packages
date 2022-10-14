@@ -26,7 +26,6 @@ popd
 mkdir -p "$diststart/common/dist/lib"
 cp -rfv source/build/doomseeker "$diststart/common/dist"
 cp -rfv "assets"/* "$diststart/common/dist"
-
 cp -rfv source/build/*.so* "$diststart/common/dist/lib"
 cp -rfv source/build/translations "$diststart/common/dist"
 cp -rfv source/build/engines "$diststart/common/dist"
