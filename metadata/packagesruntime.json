@@ -481,6 +481,26 @@
                         "extract_location": "./qzdl"
                     }
                 }
+            },
+            {
+                "name": "Doomseeker",
+                "command": "./doomseeker/run-doomseeker.sh",
+                "download": [
+                    "odamex",
+                    "fluid-soundfont",
+                    "doomseeker"
+                ],
+                "download_config": {
+                    "doomseeker": {
+                        "extract_location": "./doomseeker"
+                    },
+                    "odamex": {
+                        "extract_location": "./odamex"
+                    },
+                    "fluid-soundfont": {
+                        "extract_location": "./odamex"
+                    }
+                }
             }
         ],
         "cloudAvailable": true
@@ -1283,6 +1303,46 @@
                 "download_config": {
                     "qzdl": {
                         "extract_location": "./qzdl"
+                    }
+                }
+            },
+            {
+                "name": "Doomseeker",
+                "commands": {
+                    ".*rerelease": {
+                        "cmd": "./doomseeker/run-doomseeker.sh"
+                    },
+                    ".*doom2": {
+                         "cmd": "./doomseeker/run-doomseeker.sh"
+                    },
+                    ".*tnt": {
+                         "cmd": "./doomseeker/run-doomseeker.sh"
+                    },
+                    ".*plutonia": {
+                        "cmd": "./doomseeker/run-doomseeker.sh"
+                    },
+                    ".*master": {
+                        "cmd": "/bin/sh",
+                        "args": [
+                            "-c",
+                            "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
+                        ]
+                    }
+                },
+                "download": [
+                    "odamex",
+                    "fluid-soundfont",
+                    "doomseeker"
+                ],
+                "download_config": {
+                    "doomseeker": {
+                        "extract_location": "./doomseeker"
+                    },
+                    "odamex": {
+                        "extract_location": "./odamex"
+                    },
+                    "fluid-soundfont": {
+                        "extract_location": "./odamex"
                     }
                 }
             }
@@ -8239,6 +8299,15 @@
                 }
             ],
             "controllerSupported": true
+        },
+        "Doomseeker": {
+            "engine_link": "https://doomseeker.drdteam.org/",
+            "version": "5e79661",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "LGPLv2.1",
+            "license_link": "https://bitbucket.org/Doomseeker/doomseeker/src/master/LICENSE",
+            "controllerNotSupported": true
         }
     },
     "noticeMap": {
