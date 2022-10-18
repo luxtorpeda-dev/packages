@@ -6434,6 +6434,19 @@
         "engine_name": "WIGZDoom",
         "cloudNotAvailable": true
     },
+    "1690940": {
+        "game_name": "DELTARUNE (Chapter 1 & 2 DEMO)",
+        "download": [
+            "deltarune"
+        ],
+        "command": "./DELTARUNE",
+        "engine_name": "DELTARUNE",
+        "information": {
+            "closed_source": true
+        },
+        "cloudNotAvailable": true,
+        "controllerSteamDefault": true
+    },
     "1715690": {
         "game_name": "REKKR: Sunken Land",
         "download": [
@@ -8321,6 +8334,20 @@
             "license_link": "https://bitbucket.org/Doomseeker/doomseeker/src/master/LICENSE",
             "controllerNotSupported": true
         }
+    },
+    "DELTARUNE": {
+        "engine_link": "https://www.reddit.com/r/Deltarune/comments/wbk2nz/deltarune_chapter_12_unofficial_native_linux/",
+        "version": "1.10",
+        "author": "Cl0v3rDev",
+        "author_link": "https://github.com/Cl0verDev",
+        "license": "Proprietary/Closed Source",
+        "license_link": "https://gamemaker.io/en/legal/eula/",
+        "notices": [
+            {
+                "key": "closed_source"
+            }
+        ],
+        "controllerSupported": true
     },
     "noticeMap": {
         "save_game_dir": "Saves will be stored in game directory.",
