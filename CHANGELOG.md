@@ -10,6 +10,7 @@
 * [jcotton42] dxx-rebirth - Update to e3faab0899bc86184fdd67568ccc4f237c5f6807
 * Added doomseeker
 * quake3e - Update to 2022-10-14
+* OpenGothic - Update to v1.0.1705
 
 ### 59.0 (2022-09-11)
 
