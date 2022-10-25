@@ -18,7 +18,7 @@ jobs:
         with:
             file: metadata/packagesruntime.json
       - name: Write Packages Hash
-        uses: DamianReeves/write-file-action@e19fd875ed54f16fc583a3486e62547ce4a5dde8
+        uses: luxtorpeda-dev/write-file-action@v3
         with:
             path: metadata/packagesruntime.hash
             contents: ${{ steps.generatehash.outputs.hash }}
