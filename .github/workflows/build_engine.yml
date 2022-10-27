@@ -118,7 +118,7 @@ jobs:
           branch: master
       - name: Generate Packages Runtime Hash
         id: generatehash
-        uses: luxtorpeda-dev/action-build-generate-sha1-hash@v2
+        uses: luxtorpeda-dev/action-build-generate-sha1-hash@v3
         with:
             file: metadata/packagesruntime.json
       - name: Write Packages Hash
