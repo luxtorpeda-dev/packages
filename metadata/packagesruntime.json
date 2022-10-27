@@ -1436,6 +1436,11 @@
                 "name": "quakeinjector",
                 "url": "https://github.com/hrehfeld/QuakeInjector/releases/download/alpha05/",
                 "file": "QuakeInjector-alpha05.zip"
+            },
+            {
+                "name": "quake-injector",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake-injector-1/",
+                "file": "quake-injector-2310-1.tar.xz"
             }
         ],
         "choices": [
