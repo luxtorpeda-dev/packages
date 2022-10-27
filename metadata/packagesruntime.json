@@ -1425,6 +1425,17 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ezquake-2/",
                 "file": "ezquake-common-2.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "openjdk11",
+                "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                "cache_by_name": true
+            },
+            {
+                "name": "quakeinjector",
+                "url": "https://github.com/hrehfeld/QuakeInjector/releases/download/alpha05/",
+                "file": "QuakeInjector-alpha05.zip"
             }
         ],
         "choices": [
@@ -1704,6 +1715,26 @@
                     "vkquake"
                 ],
                 "engine_name": "vkQuake"
+            },
+            {
+                "name": "Quake Injector",
+                "command": "./run-quake-injector.sh",
+                "download": [
+                    "vkquake",
+                    "quake-injector",
+                    "openjdk11",
+                    "quakeinjector"
+                ],
+                "engine_name": "Quake Injector",
+                "download_config": {
+                    "openjdk11": {
+                        "extract_location": "./jdk-11.0.12",
+                        "strip_prefix": "jdk-11.0.12+7/"
+                    },
+                    "quakeinjector": {
+                        "decode_as_zip": true
+                    }
+                }
             }
         ],
         "cloudAvailable": true,
@@ -8319,6 +8350,15 @@
             "author_link": "https://github.com/d10sfan",
             "license": "LGPLv2.1",
             "license_link": "https://bitbucket.org/Doomseeker/doomseeker/src/master/LICENSE",
+            "controllerNotSupported": true
+        },
+        "Quake Injector": {
+            "engine_link": "https://github.com/hrehfeld/QuakeInjector",
+            "version": "alpha05",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/hrehfeld/QuakeInjector/blob/master/COPYING",
             "controllerNotSupported": true
         }
     },
