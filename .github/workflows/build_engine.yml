@@ -52,7 +52,7 @@ jobs:
           name: dist
       - name: Generate Matrix
         id: matrix
-        uses: luxtorpeda-dev/action-build-generate-file-matrix@v5
+        uses: luxtorpeda-dev/action-build-generate-file-matrix@v4
         with:
           name: dist/${{needs.findengine.outputs.engine}}
       - name: Generate build number
