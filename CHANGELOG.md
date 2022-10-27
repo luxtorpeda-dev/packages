@@ -11,6 +11,7 @@
 * Added doomseeker
 * quake3e - Update to 2022-10-14
 * OpenGothic - Update to v1.0.1705
+* openxcom-oxce - Update to 7.7.6
 
 ### 59.0 (2022-09-11)
 
