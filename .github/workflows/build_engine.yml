@@ -52,12 +52,12 @@ jobs:
           name: dist
       - name: Generate Matrix
         id: matrix
-        uses: luxtorpeda-dev/action-build-generate-file-matrix@v4
+        uses: luxtorpeda-dev/action-build-generate-file-matrix@v5
         with:
           name: dist/${{needs.findengine.outputs.engine}}
       - name: Generate build number
         id: buildnumber
-        uses: luxtorpeda-dev/build-number@v4
+        uses: luxtorpeda-dev/build-number@v5
         with:
           token: ${{ secrets.github_token }}
           prefix: ${{needs.findengine.outputs.engine}}
