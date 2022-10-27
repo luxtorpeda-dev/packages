@@ -57,7 +57,7 @@ jobs:
           name: dist/${{needs.findengine.outputs.engine}}
       - name: Generate build number
         id: buildnumber
-        uses: luxtorpeda-dev/build-number@v3
+        uses: luxtorpeda-dev/build-number@v4
         with:
           token: ${{ secrets.github_token }}
           prefix: ${{needs.findengine.outputs.engine}}
