@@ -1,3 +1,7 @@
+### 59.2 (2022-10-31)
+
+* daggerfall-unity - Update to 0.14.5 Beta
+
 ### 59.1 (2022-10-01)
 
 * ironwail - Update to 9c25cea
