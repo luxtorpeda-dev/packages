@@ -3272,14 +3272,9 @@
         "game_name": "Unreal Tournament: Game of the Year Edition",
         "download": [
             {
-                "name": "binaries-436",
-                "url": "http://www.flibitijibibo.com/fedora/installers/",
-                "file": "flibitUT436.tar.gz"
-            },
-            {
-                "name": "binaries-469b",
-                "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469b/",
-                "file": "OldUnreal-UTPatch469b-Linux.tar.bz2"
+                "name": "binaries-469c",
+                "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469c/",
+                "file": "OldUnreal-UTPatch469c-Linux-amd64.tar.bz2"
             },
             {
                 "name": "ut99",
@@ -3287,27 +3282,22 @@
                 "file": "ut99-13240-14.tar.xz"
             }
         ],
-        "command": "./run-ut99-469b.sh",
+        "command": "./run-ut99-469c.sh",
         "app_ids_deps": [
             1070560
         ],
         "download_config": {
-            "binaries-436": {
-                "extract_location": "../linuxdata-469b",
-                "strip_prefix": "Install/",
-                "setup": true
-            },
-            "binaries-469b": {
-                "extract_location": "../linuxdata-469b",
+            "binaries-469c": {
+                "extract_location": "../linuxdata-469c",
                 "strip_prefix": "",
                 "setup": true
             }
         },
         "setup": {
-            "complete_path": "../ready-469b",
-            "command": "./setup-ut99-469b.sh",
-            "uninstall_command": "./uninstall-ut99-469b.sh",
-            "license_path": "../linuxdata-469b/legal.txt"
+            "complete_path": "../ready-469c",
+            "command": "./setup-ut99-469c.sh",
+            "uninstall_command": "./uninstall-ut99-469c.sh",
+            "license_path": "../linuxdata-469c/legal.txt"
         },
         "use_original_command_directory": true,
         "engine_name": "ut99",
@@ -7641,8 +7631,8 @@
             "controllerNotSupported": true
         },
         "ut99": {
-            "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469b-release-notes",
-            "version": "469b",
+            "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469c-release-notes",
+            "version": "469c",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
