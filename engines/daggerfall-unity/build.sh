@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Interkarma/daggerfall-unity.git source
 pushd source
-git checkout 2e4ab8b
+git checkout d855b81
 popd
 
 
