@@ -1,6 +1,7 @@
 ### 59.2 (2022-10-31)
 
 * daggerfall-unity - Update to 0.14.5 Beta
+* ut99 - Update to 469c
 
 ### 59.1 (2022-10-01)
 
