@@ -5016,6 +5016,22 @@
                 "engine_name": "NBlood"
             },
             {
+                "name": "NotBlood",
+                "command": "./run-notblood.sh",
+                "download": [
+                    "notblood"
+                ],
+                "engine_name": "NotBlood"
+            },
+            {
+                "name": "NotBlood Cryptic Passage",
+                "command": "./run-notblood-cryptic-one-unit.sh",
+                "download": [
+                    "notblood"
+                ],
+                "engine_name": "NotBlood"
+            },
+            {
                 "name": "raze",
                 "command": "./run-raze-nblood-one-unit.sh",
                 "download": [
@@ -5851,6 +5867,14 @@
                     "nblood"
                 ],
                 "engine_name": "NBlood"
+            },
+             {
+                "name": "NotBlood",
+                "command": "./run-notblood.sh",
+                "download": [
+                    "notblood"
+                ],
+                "engine_name": "NotBlood"
             },
             {
                 "name": "raze",
@@ -8354,6 +8378,15 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/hrehfeld/QuakeInjector/blob/master/COPYING",
+            "controllerNotSupported": true
+        },
+        "NotBlood": {
+            "engine_link": "https://github.com/clipmove/NotBlood",
+            "version": "09c193f",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/clipmove/NotBlood/blob/master/source/blood/gpl-2.0.txt",
             "controllerNotSupported": true
         }
     },
