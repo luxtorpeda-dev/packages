@@ -3,6 +3,7 @@
 * daggerfall-unity - Update to 0.14.5 Beta
 * ut99 - Update to 469c
 * scummvm - Update to 2.6.1
+* warzone2100 - Update to 4.3.1
 
 ### 59.1 (2022-10-01)
 
