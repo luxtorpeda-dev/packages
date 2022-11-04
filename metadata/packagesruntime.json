@@ -4996,6 +4996,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-32/",
                 "file": "raze-common-32.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "notblood",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-1/",
+                "file": "notblood-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -5857,6 +5863,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-32/",
                 "file": "raze-common-32.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "notblood",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-1/",
+                "file": "notblood-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
@@ -5868,7 +5880,7 @@
                 ],
                 "engine_name": "NBlood"
             },
-             {
+            {
                 "name": "NotBlood",
                 "command": "./run-notblood.sh",
                 "download": [
