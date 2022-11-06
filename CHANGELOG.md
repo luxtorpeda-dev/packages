@@ -5,7 +5,7 @@
 * scummvm - Update to 2.6.1
 * warzone2100 - Update to 4.3.1
 * Added NotBlood
-* gzdoom - Update to 4.9.0
+* gzdoom - Update to 53c2ac7
 
 ### 59.1 (2022-10-01)
 
