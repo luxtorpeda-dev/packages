@@ -3129,8 +3129,8 @@
             },
             {
                 "name": "etqw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-8/",
-                "file": "etqw-10000-8.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-9/",
+                "file": "etqw-10000-9.tar.xz"
             }
         ],
         "download_config": {
@@ -3157,8 +3157,8 @@
         "download": [
             {
                 "name": "etqw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-8/",
-                "file": "etqw-10050-8.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/etqw-9/",
+                "file": "etqw-10050-9.tar.xz"
             }
         ],
         "choices": [
