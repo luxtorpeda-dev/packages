@@ -6,6 +6,7 @@
 * warzone2100 - Update to 4.3.1
 * Added NotBlood
 * gzdoom - Update to 53c2ac7
+* warzone2100 - Update to 4.3.2
 
 ### 59.1 (2022-10-01)
 
