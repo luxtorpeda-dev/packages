@@ -4494,8 +4494,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-26/",
-                "file": "source-sdk-2013-235780-26.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-27/",
+                "file": "source-sdk-2013-235780-27.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -5123,8 +5123,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-26/",
-                "file": "source-sdk-2013-353220-26.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-27/",
+                "file": "source-sdk-2013-353220-27.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -5351,8 +5351,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-26/",
-                "file": "source-sdk-2013-399120-26.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-27/",
+                "file": "source-sdk-2013-399120-27.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -5676,8 +5676,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-26/",
-                "file": "source-sdk-2013-587650-26.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-27/",
+                "file": "source-sdk-2013-587650-27.tar.xz"
             }
         ],
         "app_ids_deps": [
@@ -5734,8 +5734,8 @@
             },
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-26/",
-                "file": "source-sdk-2013-714070-26.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-27/",
+                "file": "source-sdk-2013-714070-27.tar.xz"
             }
         ],
         "download_config": {
@@ -5765,8 +5765,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-26/",
-                "file": "source-sdk-2013-747250-26.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-27/",
+                "file": "source-sdk-2013-747250-27.tar.xz"
             }
         ],
         "command": "./run-year-long-alarm.sh",
@@ -5922,8 +5922,8 @@
         "download": [
             {
                 "name": "source-sdk-2013",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-26/",
-                "file": "source-sdk-2013-1054600-26.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/source-sdk-2013-27/",
+                "file": "source-sdk-2013-1054600-27.tar.xz"
             }
         ],
         "app_ids_deps": [
