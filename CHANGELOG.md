@@ -1,3 +1,7 @@
+### 60.0 (2022-11-17)
+
+* webui - Update to angular 15
+
 ### 59.2 (2022-10-31)
 
 * daggerfall-unity - Update to 0.14.5 Beta
