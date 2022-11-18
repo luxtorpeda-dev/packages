@@ -10,16 +10,16 @@
         </div>
       </div>
       <div class='col-sm-6 game-choices'>
-        <mat-chip-list>
-          <mat-chip
+        <mat-chip-listbox>
+          <mat-chip-option
             *ngFor="let item of title.engines | keyvalue"
             [selected]="titleEnginePicked[title.titleId] == item.key"
             [value]="item.key"
             (click)="onEngineClicked($event, title, item.key)"
             >
             {{item.key}}
-          </mat-chip>
-        </mat-chip-list>
+          </mat-chip-option>
+        </mat-chip-listbox>
 
       </div>
     </div>
