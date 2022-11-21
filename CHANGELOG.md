@@ -1,6 +1,7 @@
 ### 60.0 (2022-11-17)
 
 * webui - Update to angular 15
+* OpenLoco - Update to v22.11
 
 ### 59.2 (2022-10-31)
 
