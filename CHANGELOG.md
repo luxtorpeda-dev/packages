@@ -1,3 +1,18 @@
+### 60.0 (2022-11-17)
+
+* webui - Update to angular 15
+* OpenLoco - Update to v22.11
+
+### 59.2 (2022-10-31)
+
+* daggerfall-unity - Update to 0.14.5 Beta
+* ut99 - Update to 469c
+* scummvm - Update to 2.6.1
+* warzone2100 - Update to 4.3.1
+* Added NotBlood
+* gzdoom - Update to 53c2ac7
+* warzone2100 - Update to 4.3.2
+
 ### 59.1 (2022-10-01)
 
 * ironwail - Update to 9c25cea
@@ -10,6 +25,8 @@
 * [jcotton42] dxx-rebirth - Update to e3faab0899bc86184fdd67568ccc4f237c5f6807
 * Added doomseeker
 * quake3e - Update to 2022-10-14
+* OpenGothic - Update to v1.0.1705
+* openxcom-oxce - Update to 7.7.6
 
 ### 59.0 (2022-09-11)
 

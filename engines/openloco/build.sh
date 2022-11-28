@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenLoco/OpenLoco.git source
 pushd source
-git checkout -f 68882c9
+git checkout -f cf6e04a
 git submodule update --init --recursive
 popd
 
@@ -29,6 +29,7 @@ cd build
 CXXFLAGS="-m32" cmake \
     -G Ninja \
     -DSTRICT=OFF \
+    -DOPENLOCO_BUILD_TESTS=OFF \
     -DCMAKE_CXX_COMPILER=g++ \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
@@ -39,6 +40,7 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/356430/dist/data"
-cp -rfv "source/build/openloco" "$diststart/356430/dist/"
+
+cp -rfv "source/build/OpenLoco" "$diststart/356430/dist/openloco"
 cp -rfv "source/build/data/"* "$diststart/356430/dist/data"
 cp -rfv "assets/run-openloco.sh" "$diststart/356430/dist"

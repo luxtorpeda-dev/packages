@@ -1,0 +1,5 @@
+RogueInstalled=true
+EnginePath=.
+EngineExecutable=vkquake.sh
+DownloadPath=./quakeinjector-downloads
+HipnoticInstalled=true

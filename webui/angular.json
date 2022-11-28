@@ -23,7 +23,6 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
               "src/assets",
               {"glob": "**/*", "input": "../metadata", "output": "./"}
             ],
@@ -106,5 +105,7 @@
       }
     }
   },
-  "defaultProject": "webui"
+  "cli": {
+    "analytics": false
+  }
 }
