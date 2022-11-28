@@ -5782,6 +5782,31 @@
         },
         "cloudNotAvailable": true
     },
+    "782330": {
+        "game_name": "DOOM Eternal WADs",
+        "download": [
+            {
+                "name": "gzdoom",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-33/",
+                "file": "gzdoom-common-33.tar.xz",
+                "cache_by_name": true
+            },
+            {
+                "name": "doom-runner",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-6/",
+                "file": "doom-runner-common-6.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "doom-runner": {
+                "extract_location": "./doom-runner"
+            }
+        },
+        "command": "./doom-runner/run-doom-runner.sh",
+        "engine_name": "Doom Runner",
+        "cloudNotAvailable": true
+    },
     "782340": {
         "game_name": "Lake of Voices",
         "download": [
