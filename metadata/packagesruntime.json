@@ -8366,21 +8366,21 @@
             "license": "GPLv2",
             "license_link": "https://github.com/clipmove/NotBlood/blob/master/source/blood/gpl-2.0.txt",
             "controllerNotSupported": true
+        },
+        "DELTARUNE": {
+            "engine_link": "https://www.reddit.com/r/Deltarune/comments/wbk2nz/deltarune_chapter_12_unofficial_native_linux/",
+            "version": "1.10",
+            "author": "Cl0v3rDev",
+            "author_link": "https://github.com/Cl0v3rDev",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://gamemaker.io/en/legal/eula/",
+            "notices": [
+                {
+                    "key": "closed_source"
+                }
+            ],
+            "controllerSupported": true
         }
-    },
-    "DELTARUNE": {
-        "engine_link": "https://www.reddit.com/r/Deltarune/comments/wbk2nz/deltarune_chapter_12_unofficial_native_linux/",
-        "version": "1.10",
-        "author": "Cl0v3rDev",
-        "author_link": "https://github.com/Cl0verDev",
-        "license": "Proprietary/Closed Source",
-        "license_link": "https://gamemaker.io/en/legal/eula/",
-        "notices": [
-            {
-                "key": "closed_source"
-            }
-        ],
-        "controllerSupported": true
     },
     "noticeMap": {
         "save_game_dir": "Saves will be stored in game directory.",
