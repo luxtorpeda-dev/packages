@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/qt/qt5.git source
 pushd source
-git checkout -f v5.15
+git checkout -f v5.15.7-lts-lgpl
 git submodule update --init --recursive
 popd
 
