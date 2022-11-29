@@ -6,4 +6,5 @@ unzip "DELTARUNE Chapter 1&2 (Linux x86_64 1.10).zip" -d "deltarune"
 
 # COPY PHASE
 cp -rfv "deltarune/assets" "$diststart/1690940/dist/"
+
 cp -rfv "deltarune/DELTARUNE" "$diststart/1690940/dist/"
