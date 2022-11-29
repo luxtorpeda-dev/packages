@@ -2,7 +2,6 @@
 
 * webui - Update to angular 15
 * OpenLoco - Update to v22.11
-* Doom Runner - Update to 1.7.1
 
 ### 59.2 (2022-10-31)
 
