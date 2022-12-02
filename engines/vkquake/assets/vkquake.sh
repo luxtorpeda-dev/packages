@@ -6,9 +6,9 @@
 # TODO: detect screen resolution, because vkQuake's desktop resolution
 #       mode and default resolution detection are broken.
 #
-if [ ! -f share/quake/id1/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/id1/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/id1/config.cfg
+if [ ! -f share/quake/id1/vkQuake.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/id1/vkQuake.cfg
+	sed -i "s|%USER%|$USER|" share/quake/id1/vkQuake.cfg
 fi
 
 if [ ! -d share/quake/id1/music ] ; then
@@ -24,64 +24,64 @@ if [ ! -e share/quake/id1/pak0.pak ] ; then
     fi
 fi
 
-if [ ! -f share/quake/rerelease/id1/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/rerelease/id1/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/rerelease/id1/config.cfg
+if [ ! -f share/quake/rerelease/id1/vkQuake.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/rerelease/id1/vkQuake.cfg
+	sed -i "s|%USER%|$USER|" share/quake/rerelease/id1/vkQuake.cfg
 fi
 
 if [ ! -d share/quake/rerelease/id1/music ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/id1/music ./share/quake/rerelease/id1/music
 fi
 
-if [ ! -f share/quake/rogue/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/rogue/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/rogue/config.cfg
+if [ ! -f share/quake/rogue/vkQuake.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/rogue/vkQuake.cfg
+	sed -i "s|%USER%|$USER|" share/quake/rogue/vkQuake.cfg
 fi
 
 if [ ! -d share/quake/rogue/music ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/rogue/music ./share/quake/rogue/music
 fi
 
-if [ ! -f share/quake/rerelease/rogue/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/rerelease/rogue/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/rerelease/rogue/config.cfg
+if [ ! -f share/quake/rerelease/rogue/vkQuake.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/rerelease/rogue/vkQuake.cfg
+	sed -i "s|%USER%|$USER|" share/quake/rerelease/rogue/vkQuake.cfg
 fi
 
 if [ ! -d share/quake/rerelease/rogue/music ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/rogue/music ./share/quake/rerelease/rogue/music
 fi
 
-if [ ! -f share/quake/hipnotic/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/hipnotic/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/hipnotic/config.cfg
+if [ ! -f share/quake/hipnotic/vkQuake.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/hipnotic/vkQuake.cfg
+	sed -i "s|%USER%|$USER|" share/quake/hipnotic/vkQuake.cfg
 fi
 
 if [ ! -d share/quake/hipnotic/music ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/hipnotic/music ./share/quake/hipnotic/music
 fi
 
-if [ ! -f share/quake/rerelease/hipnotic/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/rerelease/hipnotic/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/rerelease/hipnotic/config.cfg
+if [ ! -f share/quake/rerelease/hipnotic/vkQuake.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/rerelease/hipnotic/vkQuake.cfg
+	sed -i "s|%USER%|$USER|" share/quake/rerelease/hipnotic/vkQuake.cfg
 fi
 
 if [ ! -d share/quake/rerelease/hipnotic/music ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/hipnotic/music ./share/quake/rerelease/hipnotic/music
 fi
 
-if [ ! -f share/quake/dopa/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/dopa/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/dopa/config.cfg
+if [ ! -f share/quake/dopa/vkQuake.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/dopa/vkQuake.cfg
+	sed -i "s|%USER%|$USER|" share/quake/dopa/vkQuake.cfg
 fi
 
-if [ ! -f share/quake/rerelease/dopa/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/rerelease/dopa/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/rerelease/dopa/config.cfg
+if [ ! -f share/quake/rerelease/dopa/vkQuake.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/rerelease/dopa/vkQuake.cfg
+	sed -i "s|%USER%|$USER|" share/quake/rerelease/dopa/vkQuake.cfg
 fi
 
-if [ ! -f share/quake/rerelease/mg1/config.cfg ] ; then
-	cp -f share/quake/default.lux.cfg share/quake/rerelease/mg1/config.cfg
-	sed -i "s|%USER%|$USER|" share/quake/rerelease/mg1/config.cfg
+if [ ! -f share/quake/rerelease/mg1/vkQuake.cfg ] ; then
+	cp -f share/quake/default.lux.cfg share/quake/rerelease/mg1/vkQuake.cfg
+	sed -i "s|%USER%|$USER|" share/quake/rerelease/mg1/vkQuake.cfg
 fi
 
 if [[ "$*" == *rerelease* ]]
