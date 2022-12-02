@@ -5,7 +5,7 @@
 # CLONE PHASE
 git clone https://github.com/Novum/vkQuake source
 pushd source
-git checkout d87eadf
+git checkout a40ed42
 popd
 
 # BUILD PHASE
@@ -41,6 +41,3 @@ ln -s "../../../../rerelease/id1/pak0.pak" "$diststart/common/dist/share/quake/r
 ln -s "../../../../rerelease/rogue/pak0.pak" "$diststart/common/dist/share/quake/rerelease/rogue/pak0.pak"
 ln -s "../../../../rerelease/hipnotic/pak0.pak" "$diststart/common/dist/share/quake/rerelease/hipnotic/pak0.pak"
 ln -s "../../../../rerelease/dopa/pak0.pak" "$diststart/common/dist/share/quake/rerelease/dopa/pak0.pak"
-
-cp -v source/Quake/vkquake.pak "$diststart/common/dist/share/quake/vkquake.pak"
-cp -v source/Quake/vkquake.pak "$diststart/common/dist/share/quake/rerelease/vkquake.pak"
