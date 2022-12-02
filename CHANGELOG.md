@@ -1,3 +1,7 @@
+### 61.0 (2022-12-02)
+
+* vkquake - Update to 1.22
+
 ### 60.0 (2022-11-17)
 
 * webui - Update to angular 15
