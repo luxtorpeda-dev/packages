@@ -1,6 +1,6 @@
 ### 61.0 (2022-12-02)
 
-* vkquake - Update to 1.22
+* vkquake - Update to 1.22.1
 
 ### 60.0 (2022-11-17)
 
