@@ -7146,7 +7146,7 @@
         },
         "vkQuake": {
             "engine_link": "https://github.com/Novum/vkQuake",
-            "version": "1.22",
+            "version": "1.22.1",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
