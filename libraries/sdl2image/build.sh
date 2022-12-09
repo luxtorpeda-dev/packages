@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/libsdl-org/SDL_image.git sdl2_image
 pushd sdl2_image
-git checkout -f ab2a9c6
+git checkout -f a861543
 popd
 
 # BUILD PHASE
