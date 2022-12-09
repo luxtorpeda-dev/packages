@@ -2,6 +2,7 @@
 
 * vkquake - Update to 1.22.1
 * gzdoom - Update to 4.10.0
+* doom-retro - Update to 4.7 
 
 ### 60.0 (2022-11-17)
 
