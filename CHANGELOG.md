@@ -2,6 +2,7 @@
 
 * gzdoom - Update to 4.10.0
 * vkquake - Update to 1.22.3
+* raze - Update to 1.6.0
 
 ### 60.0 (2022-11-17)
 
