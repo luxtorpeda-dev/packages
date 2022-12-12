@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/coelckers/Raze.git source
 pushd source
-git checkout 11d0a34
+git checkout 5e4dc64
 popd
 
 # BUILD PHASE
