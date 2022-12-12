@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/tx00100xt/SeriousSamClassic-VK.git source
 pushd source
-git checkout 3620b73
+git checkout 5d223e7
 popd
 
 # BUILD PHASE
