@@ -1,7 +1,7 @@
 ### 61.0 (2022-12-02)
 
-* vkquake - Update to 1.22.1
 * gzdoom - Update to 4.10.0
+* vkquake - Update to 1.22.3
 
 ### 60.0 (2022-11-17)
 
