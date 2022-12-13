@@ -3310,11 +3310,6 @@
         "game_name": "Unreal Gold",
         "download": [
             {
-                "name": "unreal_libs",
-                "url": "https://luxtorpeda-dev.github.io/closed-assets/",
-                "file": "unreal_libs_i386.tar.bz2"
-            },
-            {
                 "name": "unreal-gold",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/unreal-gold-7/",
                 "file": "unreal-gold-13250-7.tar.xz"
@@ -7666,8 +7661,8 @@
             "controllerNotSupported": true
         },
         "unrealgold": {
-            "engine_link": "https://www.oldunreal.com/downloads/unreal/oldunreal-patches/",
-            "version": "227i",
+            "engine_link": "https://www.oldunreal.com/phpBB3/viewtopic.php?f=51&t=10395",
+            "version": "227j",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
@@ -7677,19 +7672,10 @@
                     "key": "closed_source"
                 },
                 {
-                    "key": "32_bit"
-                },
-                {
                     "key": "manual_steps"
                 },
                 {
-                    "key": "steam_overlay_disabled"
-                },
-                {
                     "label": "Requires Oldunreal installer, which requires a manual download and Wine to be installed. System/README.txt should be referred to."
-                },
-                {
-                    "label": "Uses library pack from legluondunet."
                 }
             ],
             "controllerNotSupported": true
