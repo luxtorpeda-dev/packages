@@ -7675,9 +7675,6 @@
                     "key": "manual_steps"
                 },
                 {
-                    "key": "steam_overlay_disabled"
-                },
-                {
                     "label": "Requires Oldunreal installer, which requires a manual download and Wine to be installed. System/README.txt should be referred to."
                 }
             ],

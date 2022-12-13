@@ -17,4 +17,4 @@ fi
 
 chmod +x ../System64/UnrealLinux.bin
 cd ../System64
-LD_LIBRARY_PATH="../System/lib:$LD_LIBRARY_PATH" LD_PRELOAD="" ./UnrealLinux.bin -log
+LD_LIBRARY_PATH="../System/lib:$LD_LIBRARY_PATH" ./UnrealLinux.bin -log
