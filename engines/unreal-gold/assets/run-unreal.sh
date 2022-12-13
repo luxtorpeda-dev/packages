@@ -17,8 +17,4 @@ fi
 
 chmod +x ../System64/UnrealLinux.bin
 cd ../System64
-mkdir -p libs
-tar -xvf ../Help/convenience_libs.tar.bz2
-cp -rfv libSDL-1.2.so.0 ./libs
-cp -rfv convenience_libs/System64/* ./libs
-LD_LIBRARY_PATH="./libs" LD_PRELOAD="" ./UnrealLinux.bin -log
+LD_LIBRARY_PATH="../System/lib:$LD_LIBRARY_PATH" LD_PRELOAD="" ./UnrealLinux.bin -log
