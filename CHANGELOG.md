@@ -5,6 +5,7 @@
 * raze - Update to 1.6.0
 * doom-retro - Update to 4.7.1
 * unreal-gold - Update to 227j
+* OpenRCT2 - Update to 0.4.3
 
 ### 60.0 (2022-11-17)
 
