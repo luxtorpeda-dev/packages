@@ -7672,6 +7672,9 @@
                     "key": "closed_source"
                 },
                 {
+                    "key": "32_bit"
+                },
+                {
                     "key": "manual_steps"
                 },
                 {
