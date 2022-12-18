@@ -1,6 +1,7 @@
 ### 61.1 (2022-12-18)
 
 * doom-retro - Update to 4.7.2
+* raze - Update to 1.6.1
 
 ### 61.0 (2022-12-02)
 
