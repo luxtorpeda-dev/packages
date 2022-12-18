@@ -1,3 +1,7 @@
+### 61.1 (2022-12-18)
+
+* doom-retro - Update to 4.7.2
+
 ### 61.0 (2022-12-02)
 
 * gzdoom - Update to 4.10.0
