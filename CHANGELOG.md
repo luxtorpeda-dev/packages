@@ -2,6 +2,7 @@
 
 * doom-retro - Update to 4.7.2
 * raze - Update to 1.6.1
+* dosbox-staging - Update to 0.80.0
 
 ### 61.0 (2022-12-02)
 
