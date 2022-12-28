@@ -6,7 +6,7 @@ mkdir -p "$pfx"
 # CLONE PHASE
 git clone https://github.com/OpenMW/openmw source
 pushd source
-git checkout -f e78d36f
+git checkout -f 80e2cd7
 git submodule update --init --recursive
 git am < ../patches/0001-Fix-compile-error.patch
 git am < ../patches/0002-force-local-path.patch
