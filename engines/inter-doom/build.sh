@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/JNechaevsky/inter-doom.git source
 pushd source
-git checkout 6614d40
+git checkout 881ebd8
 popd
 
 # BUILD PHASE
