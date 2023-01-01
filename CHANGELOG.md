@@ -1,3 +1,7 @@
+### 61.2 (2023-01-01)
+
+* inter-doom - Update to 6.1
+
 ### 61.1 (2022-12-18)
 
 * doom-retro - Update to 4.7.2
