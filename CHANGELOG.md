@@ -1,6 +1,7 @@
 ### 61.2 (2023-01-01)
 
 * inter-doom - Update to 6.1
+* warzone2100 - Update to 4.3.3
 
 ### 61.1 (2022-12-18)
 
