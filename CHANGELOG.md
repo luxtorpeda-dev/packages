@@ -2,6 +2,7 @@
 
 * inter-doom - Update to 6.1
 * warzone2100 - Update to 4.3.3
+* Daikatana - Update to 1.3 2022-12-22
 
 ### 61.1 (2022-12-18)
 
