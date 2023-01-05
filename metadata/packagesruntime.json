@@ -252,8 +252,34 @@
                 "cache_by_name": true
             }
         ],
-        "command": "./run-ecwolf.sh",
-        "engine_name": "ecwolf",
+        "choices": [
+            {
+                "name": "ecwolf: Wolfenstein 3D",
+                "command": "./base/run-ecwolf.sh",
+                "download": [
+                    "ecwolf"
+                ],
+                "download_config": {
+                    "ecwolf": {
+                        "extract_location": "./base"
+                    }
+                },
+                "engine_name": "ecwolf"
+            },
+            {
+                "name": "ecwolf: Spear of Destiny",
+                "command": "./base/m1/run-ecwolf.sh",
+                "download": [
+                    "ecwolf"
+                ],
+                "download_config": {
+                    "ecwolf": {
+                        "extract_location": "./base/m1"
+                    }
+                },
+                "engine_name": "ecwolf"
+            }
+        ],
         "cloudAvailable": true
     },
     "2280": {
