@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://bitbucket.org/ecwolf/ecwolf.git source
 pushd source
-git checkout ac4a229
+git checkout 178ef0f
 popd
 
 # BUILD PHASE
