@@ -28,7 +28,6 @@ if [ -d "base" ]; then
     fi
     
 else
-    cd "$(dirname "$0")"
     if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
         if [ ! -f ecwolf.cfg ]; then
             echo -e "Vid_FullScreen = 1;" >> ecwolf.cfg
@@ -36,6 +35,6 @@ else
             echo -e "FullScreenHeight = 800;" >> ecwolf.cfg
         fi
     fi
-    ./ecwolf --config ecwolf.cfg "$@"
+    ./ecwolf --config ecwolf.cfg
 fi
 
