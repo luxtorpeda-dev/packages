@@ -4,6 +4,7 @@
 * warzone2100 - Update to 4.3.3
 * Daikatana - Update to 1.3 2022-12-22
 * [mkasick & d10sfan] ecwolf - Update to latest & support SOD for Wolf3D steam listing
+* dosbox-staging - Update to 0.80.1
 
 ### 61.1 (2022-12-18)
 
