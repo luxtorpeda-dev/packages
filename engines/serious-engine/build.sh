@@ -4,8 +4,8 @@
 git clone https://github.com/tx00100xt/SeriousSamClassic-VK.git source
 pushd source
 git checkout 590a0fb
-patch -p1 < patches/tfe-vk-last-update.patch || return 1
-patch -p1 < patches/tse-vk-last-update.patch || return 1
+patch -p1 < ../patches/tfe-vk-last-update.patch || return 1
+patch -p1 < ../patches/tse-vk-last-update.patch || return 1
 popd
 
 # BUILD PHASE
