@@ -255,7 +255,7 @@
         "choices": [
             {
                 "name": "ecwolf: Wolfenstein 3D",
-                "command": "./run-ecwolf-wolf3d.sh",
+                "command": "./base/run-ecwolf-wolf3d.sh",
                 "command_args": [
                     "--data",
                     "WL6"
@@ -263,11 +263,16 @@
                 "download": [
                     "ecwolf"
                 ],
+                "download_config": {
+                    "ecwolf": {
+                        "extract_location": "./base"
+                    }
+                },
                 "engine_name": "ecwolf"
             },
             {
                 "name": "ecwolf: Spear of Destiny",
-                "command": "./run-ecwolf-wolf3d.sh",
+                "command": "./base/m1/run-ecwolf-wolf3d.sh",
                 "command_args": [
                     "--data",
                     "SOD"
@@ -275,6 +280,11 @@
                 "download": [
                     "ecwolf"
                 ],
+                "download_config": {
+                    "ecwolf": {
+                        "extract_location": "./base/m1"
+                    }
+                },
                 "engine_name": "ecwolf"
             }
         ],
