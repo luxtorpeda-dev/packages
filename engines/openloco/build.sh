@@ -30,7 +30,6 @@ CXXFLAGS="-m32" cmake \
     -G Ninja \
     -DSTRICT=OFF \
     -DOPENLOCO_BUILD_TESTS=OFF \
-    -DCMAKE_CXX_COMPILER=g++ \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
     ..
