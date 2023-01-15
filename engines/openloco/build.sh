@@ -29,6 +29,7 @@ cd build
 CXXFLAGS="-m32" cmake \
     -G Ninja \
     -DSTRICT=OFF \
+    -DCMAKE_CXX_COMPILER=clang++ \
     -DOPENLOCO_BUILD_TESTS=OFF \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
