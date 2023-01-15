@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenLoco/OpenLoco.git source
 pushd source
-git checkout -f cf6e04a
+git checkout -f e0c7b9c
 git submodule update --init --recursive
 popd
 
@@ -30,7 +30,6 @@ CXXFLAGS="-m32" cmake \
     -G Ninja \
     -DSTRICT=OFF \
     -DOPENLOCO_BUILD_TESTS=OFF \
-    -DCMAKE_CXX_COMPILER=g++ \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
     ..
