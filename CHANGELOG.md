@@ -1,6 +1,7 @@
 ### 61.3 (2023-01-15)
 
 * inter-doom - Update to 6.2
+* OpenLoco - Update to v22.12
 
 ### 61.2 (2023-01-01)
 
