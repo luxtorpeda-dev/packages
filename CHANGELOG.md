@@ -1,3 +1,7 @@
+### 61.3 (2023-01-15)
+
+* inter-doom - Update to 6.2
+
 ### 61.2 (2023-01-01)
 
 * inter-doom - Update to 6.1
