@@ -2,6 +2,7 @@
 
 * inter-doom - Update to 6.2
 * OpenLoco - Update to v22.12
+* ut99 - Fix for case sensitive imports & update config & add bonus pack 4
 
 ### 61.2 (2023-01-01)
 
