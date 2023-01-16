@@ -6,6 +6,7 @@ sudo apt-get install build-essential git libsdl2-dev libvorbis-dev libogg-dev li
 git clone https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation source
 pushd source
 git checkout 42cf7aa
+git submodule update --init --recursive
 popd
 
 # BUILD PHASE
