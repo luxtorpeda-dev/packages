@@ -3334,7 +3334,7 @@
             "ut99 Bonus Pack 4": {
                 "decode_as_zip": true,
                 "setup": true,
-                "extract_location": "../linuxdata-469c"
+                "extract_location": "../utbonuspack4"
             }
         },
         "setup": {
