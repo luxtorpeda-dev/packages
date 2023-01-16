@@ -3314,6 +3314,11 @@
                 "name": "ut99",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-16/",
                 "file": "ut99-13240-16.tar.xz"
+            },
+            {
+                "name": "ut99 Bonus Pack 4",
+                "url": "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal%20Tournament/Bonus%20Packs/",
+                "file": "utbonuspack4-zip.zip"
             }
         ],
         "command": "./run-ut99-469c.sh",
@@ -3325,10 +3330,15 @@
                 "extract_location": "../linuxdata-469c",
                 "strip_prefix": "",
                 "setup": true
+            },
+            "ut99 Bonus Pack 4": {
+                "decode_as_zip": true,
+                "setup": true,
+                "extract_location": "../linuxdata-469c"
             }
         },
         "setup": {
-            "complete_path": "../ready-469c",
+            "complete_path": "../ready-469c-2",
             "command": "./setup-ut99-469c.sh",
             "uninstall_command": "./uninstall-ut99-469c.sh",
             "license_path": "../linuxdata-469c/legal.txt"
