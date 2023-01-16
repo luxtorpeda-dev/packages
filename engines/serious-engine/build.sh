@@ -11,7 +11,7 @@ popd
 
 # BUILD PHASE
 pushd source/SamTSE/Sources
-./build-linux32.sh
+./build-linux64.sh
 popd
 
 # COPY PHASE
@@ -20,7 +20,7 @@ cp -rfv assets/* "$diststart/41060/dist/"
 
 # BUILD PHASE
 pushd source/SamTFE/Sources
-./build-linux32.sh -DTFE=TRUE
+./build-linux64.sh -DTFE=TRUE
 popd
 
 # COPY PHASE
