@@ -7144,7 +7144,7 @@
         },
         "International Doom": {
             "engine_link": "https://github.com/JNechaevsky/inter-doom",
-            "version": "6.2",
+            "version": "6.2.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
