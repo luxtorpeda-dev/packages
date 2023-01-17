@@ -11,7 +11,12 @@ popd
 
 # BUILD PHASE
 pushd source
-make CXXFLAGS=-O2 -j "$(nproc)"
+
+# Needed because Debian usses gcc 8.3, so this is needed (thanks https://github.com/shantigilbert for the patch!)
+sed -i "s|pthread|pthread -lstdc++fs|" Makefile
+
+# And this is needed to potentially fix an error that can happen with tinyxml (thanks https://github.com/dilworks for this modified command)
+make CXXFLAGS="-O2 -Idependencies/all/tinyxml2/" LIBS=-lstdc++fs -j"$(nproc)"
 popd
 
 # COPY PHASE
