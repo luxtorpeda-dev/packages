@@ -4081,6 +4081,13 @@
         "engine_name": "doukutsu-rs",
         "cloudNotAvailable": true
     },
+    "200940": {
+        "game_name": "Sonic CD",
+        "download": [],
+        "command": "./RSDKv3",
+        "engine_name": "Retro Engine v3",
+        "cloudNotAvailable": true
+    },
     "208200": {
         "game_name": "Doom 3: BFG Edition",
         "download": [
@@ -8401,6 +8408,14 @@
             "license": "GPLv2",
             "license_link": "https://github.com/clipmove/NotBlood/blob/master/source/blood/gpl-2.0.txt",
             "controllerNotSupported": true
+        },
+        "Retro Engine v3": {
+            "engine_link": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation",
+            "version": "42cf7aa",
+            "author": "AftDawn",
+            "author_link": "https://github.com/AftDawn",
+            "license": "RSDKv3/v4 DECOMPILATION SOURCE CODE LICENSE v1",
+            "license_link": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation/blob/master/LICENSE.md"
         }
     },
     "noticeMap": {
