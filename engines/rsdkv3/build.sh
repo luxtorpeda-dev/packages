@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install build-essential git libsdl2-dev libvorbis-dev libogg-dev libtheora-dev libglew-dev
+sudo apt-get install build-essential git libsdl2-dev libvorbis-dev libogg-dev libtheora-dev libglew-dev libgbm-dev libdrm-dev
 
 # CLONE PHASE
 git clone https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation source
