@@ -1,6 +1,6 @@
 # Creating A Package
 
-Please note that reverse-engineering projects are not supported for this project.
+Please note that reverse-engineering projects are not supported for this project, where the original executable is used to create the engine, instead of creating it in a more open source manner. If you have any questions on this, please feel free to create an issue or talk on discord.
 
 ## Structure
 
