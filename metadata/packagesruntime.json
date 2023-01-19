@@ -7081,7 +7081,7 @@
         },
         "ecwolf": {
             "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
-            "version": "ac4a229 (from master)",
+            "version": "1.4.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPL-2+ or EULA; BSD-3-clause",
