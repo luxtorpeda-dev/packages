@@ -9,6 +9,7 @@ popd
 # BUILD PHASE
 pushd source
 meson build
+
 cd build && ninja
 meson configure --bindir=. --prefix=$PWD/local
 ninja install
