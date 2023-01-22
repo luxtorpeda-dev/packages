@@ -5,6 +5,7 @@
 * ut99 - Fix for case sensitive imports & update config & add bonus pack 4
 * inter-doom - Update to 6.2.1
 * ecwolf - Update to 1.4.0
+* Add openra-tiberiandawnhd, for the Remastered Collection, support for Tiberian Dawn
 
 ### 61.2 (2023-01-01)
 
