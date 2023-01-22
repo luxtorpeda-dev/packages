@@ -6137,6 +6137,24 @@
         ],
         "cloudNotAvailable": true
     },
+    "1213210": {
+        "game_name": "Command & Conquer™ Remastered Collection",
+        "download": [
+            {
+                "name": "openra-tiberian-binaries",
+                "url": "https://github.com/pchote/TiberianDawnHD/releases/download",
+                "file": "/playtest-20230110-3/TiberianDawnHD-playtest-20230110-x86_64.AppImage"
+            }
+        ],
+        "command": "./run-openra-tiberian.sh",
+        "download_config": {
+            "openra-tiberian-binaries": {
+                "copy_only": true
+            }
+        },
+        "engine_name": "OpenRA - TiberianDawnHD",
+        "cloudAvailable": true
+    },
     "1241950": {
         "game_name": "Warzone 2100",
         "download": [
@@ -8411,6 +8429,20 @@
             "license": "GPLv2",
             "license_link": "https://github.com/clipmove/NotBlood/blob/master/source/blood/gpl-2.0.txt",
             "controllerNotSupported": true
+        },
+        "OpenRA - TiberianDawnHD": {
+            "engine_link": "https://github.com/pchote/TiberianDawnHD",
+            "version": "playtest-20230110-3",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/pchote/TiberianDawnHD/blob/master/COPYING",
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ]
         }
     },
     "noticeMap": {
