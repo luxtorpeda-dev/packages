@@ -6144,6 +6144,11 @@
                 "name": "openra-tiberian-binaries",
                 "url": "https://github.com/pchote/TiberianDawnHD/releases/download",
                 "file": "/playtest-20230110-3/TiberianDawnHD-playtest-20230110-x86_64.AppImage"
+            },
+            {
+                "name": "openra",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-1/",
+                "file": "openra-1213210-1.tar.xz"
             }
         ],
         "command": "./run-openra-tiberian.sh",
