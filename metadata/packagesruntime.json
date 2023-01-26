@@ -6151,13 +6151,37 @@
                 "file": "openra-1213210-1.tar.xz"
             }
         ],
-        "command": "./run-openra-tiberian.sh",
-        "download_config": {
-            "openra-tiberian-binaries": {
-                "copy_only": true
+        "choices": [
+            {
+                "name": "OpenRA - TiberianDawnHD",
+                "command": "./run-openra-tiberian.sh",
+                "download_config": {
+                    "openra-tiberian-binaries": {
+                        "copy_only": true
+                    }
+                },
+                "download": [
+                    "openra-tiberian-binaries",
+                    "openra"
+                ]
+            },
+            {
+                "name": "Vanilla Conquer - RA Original",
+                "command": "./run-vanilla-conquer-ra.sh",
+                "download": [
+                    "vanilla-conquer"
+                ],
+                "engine_name": "Vanilla Conquer"
+            },
+            {
+                "name": "Vanilla Conquer - TD Original",
+                "command": "./run-vanilla-conquer-td.sh",
+                "download": [
+                    "vanilla-conquer"
+                ],
+                "engine_name": "Vanilla Conquer"
             }
-        },
-        "engine_name": "OpenRA - TiberianDawnHD",
+        ],
         "cloudAvailable": true
     },
     "1241950": {
@@ -8446,6 +8470,23 @@
             "notices": [
                 {
                     "key": "in_progress"
+                }
+            ]
+        },
+        "Vanilla Conquer": {
+            "engine_link": "https://github.com/TheAssemblyArmada/Vanilla-Conquer",
+            "version": "c1fbbef",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/TheAssemblyArmada/Vanilla-Conquer/blob/vanilla/License.txt",
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                },
+                {
+                    "label": "RA assets from Steam do not include Soviet campaign movies/cutscenes"
                 }
             ]
         }
