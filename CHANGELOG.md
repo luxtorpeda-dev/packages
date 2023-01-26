@@ -7,6 +7,7 @@
 * ecwolf - Update to 1.4.0
 * Add openra-tiberiandawnhd, for the Remastered Collection, support for Tiberian Dawn
 * doukutsu-rs - Update to 0.100.0-beta5
+* Add Vanilla Conquer for original game assets from Remastered Collection
 
 ### 61.2 (2023-01-01)
 
