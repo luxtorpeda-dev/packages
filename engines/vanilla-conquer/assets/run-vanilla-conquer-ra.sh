@@ -1,27 +1,22 @@
 #!/bin/bash
 
-if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
-    if [ ! -f ~/.config/dhewm3/base/dhewm.cfg ]; then
-        if [ ! -d ~/.config/dhewm3/base ]; then
-            mkdir -p ~/.config/dhewm3/base
-        fi
-
-        echo -e "seta r_fullscreen \"1\"" >> ~/.config/dhewm3/base/dhewm.cfg
-        echo -e "seta r_mode \"-1\"" >> ~/.config/dhewm3/base/dhewm.cfg
-        echo -e "seta r_customHeight \"800\"" >> ~/.config/dhewm3/base/dhewm.cfg
-        echo -e "seta r_customWidth \"1280\"" >> ~/.config/dhewm3/base/dhewm.cfg
-    fi
-
-    if [ ! -f ~/.config/dhewm3/d3xp/dhewm.cfg ]; then
-        if [ ! -d ~/.config/dhewm3/d3xp ]; then
-            mkdir -p ~/.config/dhewm3/d3xp
-        fi
-
-        echo -e "seta r_fullscreen \"1\"" >> ~/.config/dhewm3/d3xp/dhewm.cfg
-        echo -e "seta r_mode \"-1\"" >> ~/.config/dhewm3/d3xp/dhewm.cfg
-        echo -e "seta r_customHeight \"800\"" >> ~/.config/dhewm3/d3xp/dhewm.cfg
-        echo -e "seta r_customWidth \"1280\"" >> ~/.config/dhewm3/d3xp/dhewm.cfg
-    fi
+if [ ! -d linuxdata-ra ]; then
+    mkdir -p linuxdata-ra
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/CD1 ./linuxdata-ra/allied
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/CD1 ./linuxdata-ra/soviet
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/CD1/EXPAND.MIX ./linuxdata-ra
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/CD1/EXPAND2.MIX ./linuxdata-ra
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/CD1/EXPAND2.MIX ./linuxdata-ra
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/CD1/HIRES.MIX ./linuxdata-ra
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/CD1/LORES1.MIX ./linuxdata-ra
+    LD_PRELOAD="" cp -rfv Data/CNCDATA/RED_ALERT/CD1/REDALERT.INI ./linuxdata-ra
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/CD1/REDALERT.MIX ./linuxdata-ra
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/CD1/snow_vtx.pal ./linuxdata-ra
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/CD1/temp_vtx.pal ./linuxdata-ra
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/AFTERMATH ./linuxdata-ra/aftermath
+    LD_PRELOAD="" ln -rsf Data/CNCDATA/RED_ALERT/COUNTERSTRIKE ./linuxdata-ra/counterstrike
 fi
 
-./dhewm3 "$@"
+ln -rsf ./vanillara ./linuxdata-ra/vanillara
+cd linuxdata-ra
+./vanillara "$@"
