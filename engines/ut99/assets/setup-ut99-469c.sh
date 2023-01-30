@@ -34,6 +34,8 @@ fi
 
 cp -rfv linuxdata-469c/System/* linuxdata-469c/System64
 
+ln -rsf linuxdata-469c/System64/de.u linuxdata-469c/System64/De.u
+ln -rsf linuxdata-469c/System64/de.int linuxdata-469c/System64/De.int
 ln -rsf linuxdata-469c/System64/multimesh.u linuxdata-469c/System64/MultiMesh.u
 ln -rsf linuxdata-469c/System64/multimesh.int linuxdata-469c/System64/MultiMesh.int
 
