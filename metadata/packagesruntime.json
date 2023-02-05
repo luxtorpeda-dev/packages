@@ -5581,7 +5581,7 @@
         "controllerSteamDefault": true
     },
     "564530": {
-        "game_name": "Pharaoh",
+        "game_name": "Pharaoh + Cleopatra",
         "download": [
             {
                 "name": "ozymandias",
@@ -7583,7 +7583,12 @@
             "author_link": "https://github.com/d10sfan",
             "license": "AGPL-3.0",
             "license_link": "https://github.com/Banderi/Ozymandias/blob/master/LICENSE.txt",
-            "controllerNotSupported": true
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ]
         },
         "reone": {
             "engine_link": "https://github.com/seedhartha/reone",
