@@ -2,6 +2,7 @@
 
 * ET: Legacy - Update to 2.81.0
 * Added Ozymandias
+* OpenGothic - Update to v1.0.1891
 
 ### 61.3 (2023-01-15)
 
