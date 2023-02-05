@@ -6774,12 +6774,12 @@
             {
                 "name": "etlegacy-binaries",
                 "url": "https://www.etlegacy.com/download/file/",
-                "file": "410.tar.gz"
+                "file": "539.tar.gz"
             },
             {
                 "name": "etlegacy-64-binaries",
                 "url": "https://www.etlegacy.com/download/file/",
-                "file": "407.tar.gz"
+                "file": "537.tar.gz"
             },
             {
                 "name": "etlegacy",
@@ -8319,7 +8319,7 @@
         },
         "ET: Legacy": {
             "engine_link": "https://www.etlegacy.com/",
-            "version": "2.80.2",
+            "version": "2.81.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
