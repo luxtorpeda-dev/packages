@@ -1,3 +1,7 @@
+### 61.4 (2023-02-05)
+
+* ET: Legacy - Update to 2.81.0
+
 ### 61.3 (2023-01-15)
 
 * inter-doom - Update to 6.2
