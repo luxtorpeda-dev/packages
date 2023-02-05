@@ -6804,7 +6804,7 @@
                 "download_config": {
                     "etlegacy-binaries": {
                         "extract_location": "./",
-                        "strip_prefix": "etlegacy-v2.80.2-i386/"
+                        "strip_prefix": "etlegacy-v2.81.0-i386/"
                     }
                 }
             },
@@ -6819,7 +6819,7 @@
                 "download_config": {
                     "etlegacy-64-binaries": {
                         "extract_location": "./etlegacy-64",
-                        "strip_prefix": "etlegacy-v2.80.2-x86_64/"
+                        "strip_prefix": "etlegacy-v2.81.0-x86_64/"
                     },
                     "etlegacy": {
                         "extract_location": "./etlegacy-64"
