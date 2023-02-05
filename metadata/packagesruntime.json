@@ -5580,6 +5580,19 @@
         "cloudAvailable": true,
         "controllerSteamDefault": true
     },
+    "564530": {
+        "game_name": "Pharaoh",
+        "download": [
+            {
+                "name": "ozymandias",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ozymandias-1/",
+                "file": "ozymandias-564530-1.tar.xz"
+            }
+        ],
+        "command": "./ozymandias",
+        "engine_name": "ozymandias",
+        "cloudNotAvailable": true
+    },
     "565550": {
         "game_name": "Redneck Rampage",
         "download": [
@@ -5613,13 +5626,6 @@
                 ]
             }
         ],
-        "cloudNotAvailable": true
-    },
-    "564530": {
-        "game_name": "Pharaoh",
-        "download": [],
-        "command": "./ozymandias",
-        "engine_name": "ozymandias",
         "cloudNotAvailable": true
     },
     "569860": {
