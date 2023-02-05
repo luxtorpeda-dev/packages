@@ -5615,6 +5615,13 @@
         ],
         "cloudNotAvailable": true
     },
+    "564530": {
+        "game_name": "Pharaoh",
+        "download": [],
+        "command": "./ozymandias",
+        "engine_name": "ozymandias",
+        "cloudNotAvailable": true
+    },
     "569860": {
         "game_name": "Thimbleweed Park™",
         "download": [
@@ -7561,6 +7568,15 @@
             "author_link": "https://github.com/d10sfan",
             "license": "AGPL-3.0",
             "license_link": "https://github.com/Keriew/augustus/blob/master/LICENSE.txt",
+            "controllerNotSupported": true
+        },
+        "ozymandias": {
+            "engine_link": "https://github.com/Banderi/Ozymandias",
+            "version": "9e28192",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "AGPL-3.0",
+            "license_link": "https://github.com/Banderi/Ozymandias/blob/master/LICENSE.txt",
             "controllerNotSupported": true
         },
         "reone": {
