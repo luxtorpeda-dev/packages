@@ -9,4 +9,4 @@ LD_PRELOAD="" ln -rsf "$ORIGINALDIR/etmain/pak0.pk3" ./etmain/pak0.pk3
 LD_PRELOAD="" ln -rsf "$ORIGINALDIR/etmain/pak1.pk3" ./etmain/pak1.pk3
 LD_PRELOAD="" ln -rsf "$ORIGINALDIR/etmain/pak2.pk3" ./etmain/pak2.pk3
 
-LD_PRELOAD="$LD_PRELOAD:/overrides/lib/x86_64-linux-gnu/libXext.so.6" ./etl "$@"
+LD_PRELOAD="$LD_PRELOAD:/overrides/lib/x86_64-linux-gnu/libXext.so.6" ./etl.x86_64 "$@"
