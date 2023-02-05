@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wget https://sdk.lunarg.com/sdk/download/1.3.239.0/linux/vulkansdk-linux-x86_64-1.3.239.0.tar.gz
-tar xvf vulkansdk-linux-x86_64-1.3.239.0.tar.gz
-source 1.3.239.0/setup-env.sh
+wget https://sdk.lunarg.com/sdk/download/1.3.231.1/linux/vulkansdk-linux-x86_64-1.3.231.1.tar.gz
+tar xvf vulkansdk-linux-x86_64-1.3.231.1.tar.gz
+source 1.3.231.1/setup-env.sh
 
 sudo cp -r $VULKAN_SDK/include/vulkan/ /usr/local/include/
 sudo cp -P $VULKAN_SDK/lib/libvulkan.so* /usr/local/lib/
