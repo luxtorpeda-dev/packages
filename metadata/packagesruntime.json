@@ -5762,6 +5762,24 @@
         "engine_name": "OneLife",
         "cloudNotAvailable": true
     },
+    "683900": {
+        "game_name": "RollerCoaster Tycoon® Classic",
+        "download": [
+            {
+                "name": "openrct2",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-25/",
+                "file": "openrct2-common-25.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "setup": {
+            "complete_path": "./ready-classic",
+            "command": "./setup-rct2.sh"
+        },
+        "command": "./run-openrct2-classic.sh",
+        "engine_name": "openrct2",
+        "cloudNotAvailable": true
+    },
     "698780": {
         "game_name": "Doki Doki Literature Club!",
         "download": [
