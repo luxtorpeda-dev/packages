@@ -4,6 +4,8 @@
 * Added Ozymandias
 * OpenGothic - Update to v1.0.1891
 * openrct2 - Added classic support
+* ut99 - Master server update
+* ut2004 - Master server update
 
 ### 61.3 (2023-01-15)
 
