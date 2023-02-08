@@ -52,3 +52,8 @@ cp System/User.ini linuxdata/System/User.ini
 
 sed -i "s/InputClass=Class'Engine.PlayerInput'/InputClass=Class'foxWSFix.foxPlayerInput'/" linuxdata/System/User.ini
 echo -e "\n\n[XGame.xPlayer]\nInputClass=Class'foxWSFix.foxPlayerInput'" >> linuxdata/System/User.ini
+
+cp -rfv linuxdata/System/Default.ini linuxdata/System/Default.ini-backup
+grep -v "ut2004master2.epicgames.com" linuxdata/System/Default.ini > tmp.ini
+mv tmp.ini linuxdata/System/Default.ini
+sed -i "s/ut2004master1.epicgames.com/utmaster.openspy.net/" linuxdata/System/Default.ini

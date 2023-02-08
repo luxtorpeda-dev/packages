@@ -49,3 +49,8 @@ echo "$CDKEY" > linuxdata-standard/System/cdkey
 
 rm linuxdata-standard/System/User.ini
 cp System/User.ini linuxdata-standard/System/User.ini
+
+cp -rfv linuxdata-standard/System/Default.ini linuxdata-standard/System/Default.ini-backup
+grep -v "ut2004master2.epicgames.com" linuxdata-standard/System/Default.ini > tmp.ini
+mv tmp.ini linuxdata-standard/System/Default.ini
+sed -i "s/ut2004master1.epicgames.com/utmaster.openspy.net/" linuxdata-standard/System/Default.ini
