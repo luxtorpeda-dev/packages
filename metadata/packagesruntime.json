@@ -1473,8 +1473,8 @@
             },
             {
                 "name": "quake-injector",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake-injector-1/",
-                "file": "quake-injector-2310-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake-injector-2/",
+                "file": "quake-injector-2310-2.tar.xz"
             }
         ],
         "choices": [
