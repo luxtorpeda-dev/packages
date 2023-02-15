@@ -3390,8 +3390,8 @@
         "download": [
             {
                 "name": "openmw",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-14/",
-                "file": "openmw-22320-14.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-15/",
+                "file": "openmw-22320-15.tar.xz"
             },
             {
                 "name": "openmw-tes3mp",
