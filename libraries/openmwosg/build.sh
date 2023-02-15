@@ -12,11 +12,11 @@ pushd "osg"
 mkdir -p build
 cd build
 cmake \
-	-D CMAKE_BUILD_TYPE=Release \
-	-D CMAKE_INSTALL_PREFIX="$pfx" \
-	-D OSG_USE_QT=OFF \
-	-D BUILD_OSG_APPLICATIONS=OFF \
-	-D BUILD_OSG_EXAMPLES=OFF \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DCMAKE_INSTALL_PREFIX="$pfx" \
+	-DOSG_USE_QT=OFF \
+	-DBUILD_OSG_APPLICATIONS=OFF \
+	-DBUILD_OSG_EXAMPLES=OFF \
 	..
 make -j "$(nproc)"
 make install
