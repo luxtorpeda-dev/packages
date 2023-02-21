@@ -6,6 +6,7 @@
 * openrct2 - Added classic support
 * ut99 - Master server update
 * ut2004 - Master server update
+* openxcom-oxce - Update to 7.8
 
 ### 61.3 (2023-01-15)
 
