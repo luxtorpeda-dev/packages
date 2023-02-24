@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/timbergeron/QSS-M.git source
 pushd source
-git checkout e6a5233
+git checkout e9c1e9f
 popd
 
 # BUILD PHASE
