@@ -1478,8 +1478,8 @@
             },
             {
                 "name": "qss-m",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qss-m-1/",
-                "file": "qss-m-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qss-m-2/",
+                "file": "qss-m-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
