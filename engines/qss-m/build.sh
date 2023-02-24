@@ -18,7 +18,7 @@ mkdir -p "$diststart/common/dist/qss-m/share/quake/hipnotic"
 mkdir -p "$diststart/common/dist/qss-m/share/quake/dopa"
 mkdir -p "$diststart/common/dist/qss-m/share/quake/mg1"
 
-cp -v source/Quake/qss-m "$diststart/common/dist/qss-m/"
+cp -v source/Quake/quakespasm "$diststart/common/dist/qss-m/qss-m"
 cp -v assets/qss-m.sh "$diststart/common/dist/qss-m/"
 cp -v assets/default.lux.cfg "$diststart/common/dist/qss-m/share/quake"
 
