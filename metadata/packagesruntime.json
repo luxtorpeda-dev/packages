@@ -1475,6 +1475,12 @@
                 "name": "quake-injector",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake-injector-2/",
                 "file": "quake-injector-2310-2.tar.xz"
+            },
+            {
+                "name": "qss-m",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qss-m-1/",
+                "file": "qss-m-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "choices": [
