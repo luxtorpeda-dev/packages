@@ -1,6 +1,7 @@
 ### 61.5 (2023-02-24)
 
 * Added QSS-M
+* OpenRA - TiberianDawnHD - Update to release-20230225
 
 ### 61.4 (2023-02-05)
 
