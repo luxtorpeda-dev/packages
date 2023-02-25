@@ -6187,7 +6187,7 @@
             {
                 "name": "openra-tiberian-binaries",
                 "url": "https://github.com/pchote/TiberianDawnHD/releases/download",
-                "file": "/playtest-20230110-3/TiberianDawnHD-playtest-20230110-x86_64.AppImage"
+                "file": "release-20230225/TiberianDawnHD-release-20230225-x86_64.AppImage"
             },
             {
                 "name": "openra",
@@ -8533,7 +8533,7 @@
         },
         "OpenRA - TiberianDawnHD": {
             "engine_link": "https://github.com/pchote/TiberianDawnHD",
-            "version": "playtest-20230110-3",
+            "version": "release-20230225",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
