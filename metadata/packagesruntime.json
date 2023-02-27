@@ -7399,7 +7399,7 @@
         },
         "scummvm": {
             "engine_link": "https://github.com/scummvm/scummvm",
-            "version": "2.6.1",
+            "version": "2.7.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
