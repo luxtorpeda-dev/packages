@@ -2,6 +2,7 @@
 
 * Added QSS-M
 * OpenRA - TiberianDawnHD - Update to release-20230225
+* [neuromancer] scummvm - Update to 2.7.0
 
 ### 61.4 (2023-02-05)
 
