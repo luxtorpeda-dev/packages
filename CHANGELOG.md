@@ -1,7 +1,7 @@
 ### 61.6 (2023-03-08)
 
 * doom-retro - Update to 4.8.1
-* vkquake - Update to 1.30.0
+* vkquake - Update to 1.30.1
 
 ### 61.5 (2023-02-24)
 
