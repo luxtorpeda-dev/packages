@@ -4,6 +4,7 @@
 * vkquake - Update to 1.30.1
 * etlegacy - Update to 2.81.1
 * ruffle - Update to 8a2d440
+* ironwail - Update to 0.7.0
 
 ### 61.5 (2023-02-24)
 
