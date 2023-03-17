@@ -18,5 +18,5 @@ make -j "$(nproc)"
 DESTDIR="$pfx" make install
 popd
 
-cp -rfv "$pfx/usr/local/lib/"* /usr/lib
-cp -rfv "$pfx/usr/local/include/"* /usr/include
+cp -rfv "$pfx/usr/local/lib/"* /usr/lib/x86_64-linux-gnu
+cp -rfv "$pfx/usr/local/include/"* /usr/include/x86_64-linux-gnu
