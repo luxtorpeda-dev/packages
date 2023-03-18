@@ -5,7 +5,7 @@ cp -rfv "$pfx/usr/local/include/SDL2/"* "/usr/include/SDL2"
 # CLONE PHASE
 git clone https://github.com/odamex/odamex.git source
 pushd source
-git checkout f6615de
+git checkout b28eefb 
 git submodule update --init --recursive
 popd
 
