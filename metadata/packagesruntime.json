@@ -3982,6 +3982,25 @@
             }
         ]
     },
+    "355170": {
+        "game_name": "Sam & Max Hit the Road",
+        "download": [
+            {
+                "name": "scummvm",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-15/",
+                "file": "scummvm-common-15.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "scummvm": {
+                "extract_location": "./scum"
+            }
+        },
+        "command": "./scum/run-scummvm-one-up.sh",
+        "engine_name": "scummvm",
+        "cloudAvailable": true
+    },
     "39510": {
         "game_name": "Gothic 2: Gold Edition",
         "download": [
