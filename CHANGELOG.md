@@ -1,3 +1,7 @@
+### 61.7 (2023-03-27)
+
+* warzone2100 - Update to 4.3.4
+
 ### 61.6 (2023-03-08)
 
 * doom-retro - Update to 4.8.1
