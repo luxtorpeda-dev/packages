@@ -2645,8 +2645,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-15/",
-                "file": "scummvm-common-15.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-16/",
+                "file": "scummvm-common-16.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -3982,25 +3982,6 @@
             }
         ]
     },
-    "355170": {
-        "game_name": "Sam & Max Hit the Road",
-        "download": [
-            {
-                "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-15/",
-                "file": "scummvm-common-15.tar.xz",
-                "cache_by_name": true
-            }
-        ],
-        "download_config": {
-            "scummvm": {
-                "extract_location": "./scum"
-            }
-        },
-        "command": "./scum/run-scummvm-one-up.sh",
-        "engine_name": "scummvm",
-        "cloudAvailable": true
-    },
     "39510": {
         "game_name": "Gothic 2: Gold Edition",
         "download": [
@@ -4799,8 +4780,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-15/",
-                "file": "scummvm-common-15.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-16/",
+                "file": "scummvm-common-16.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4944,8 +4925,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-15/",
-                "file": "scummvm-common-15.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-16/",
+                "file": "scummvm-common-16.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -5208,6 +5189,25 @@
             "license": "Source SDK Copyright(c) Valve Corp.",
             "non_free": true
         },
+        "cloudAvailable": true
+    },
+    "355170": {
+        "game_name": "Sam & Max Hit the Road",
+        "download": [
+            {
+                "name": "scummvm",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-16/",
+                "file": "scummvm-common-16.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "download_config": {
+            "scummvm": {
+                "extract_location": "./scum"
+            }
+        },
+        "command": "./scum/run-scummvm-one-up.sh",
+        "engine_name": "scummvm",
         "cloudAvailable": true
     },
     "356430": {
@@ -6030,8 +6030,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-15/",
-                "file": "scummvm-common-15.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-16/",
+                "file": "scummvm-common-16.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -6402,8 +6402,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-15/",
-                "file": "scummvm-common-15.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-16/",
+                "file": "scummvm-common-16.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -6421,8 +6421,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-15/",
-                "file": "scummvm-common-15.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-16/",
+                "file": "scummvm-common-16.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -6957,8 +6957,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-15/",
-                "file": "scummvm-common-15.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-16/",
+                "file": "scummvm-common-16.tar.xz",
                 "cache_by_name": true
             },
             {
