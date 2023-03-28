@@ -1,6 +1,8 @@
 ### 61.7 (2023-03-27)
 
 * warzone2100 - Update to 4.3.4
+* openrct2 - Update to v0.4.4
+* OpenApoc - Update to 20230328
 
 ### 61.6 (2023-03-08)
 
