@@ -7488,7 +7488,7 @@
         },
         "OpenApoc": {
             "engine_link": "https://github.com/OpenApoc/OpenApoc",
-            "version": "Alpha build v0.386",
+            "version": "20230328",
             "notices": [
                 {
                     "key": "in_progress"
