@@ -6200,6 +6200,13 @@
         ],
         "cloudNotAvailable": true
     },
+    "1148590": {
+        "game_name": "DOOM 64",
+        "download": [],
+        "engine_name": "Doom64EX-Plus",
+        "command": "./run-doom64ex-plus.sh",
+        "cloudAvailable": true
+    },
     "1213210": {
         "game_name": "Command & Conquer™ Remastered Collection",
         "download": [
@@ -8580,6 +8587,15 @@
                     "label": "RA assets from Steam do not include Soviet campaign movies/cutscenes"
                 }
             ]
+        },
+        "Doom64EX-Plus": {
+            "engine_link": "https://github.com/atsb/Doom64EX-Plus",
+            "version": "3.6.5.5",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/atsb/Doom64EX-Plus/blob/stable/LICENSE",
+            "controllerNotSupported": true
         }
     },
     "noticeMap": {
