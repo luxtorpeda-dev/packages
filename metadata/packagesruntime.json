@@ -457,6 +457,22 @@
                 }
             },
             {
+                "name": "dsda-doom",
+                "command": "./dsda-doom/run-dsda-doom.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/DOOM.WAD"
+                ],
+                "download": [
+                    "dsda-doom"
+                ],
+                "download_config": {
+                    "dsda-doom": {
+                        "extract_location": "./dsda-doom"
+                    }
+                }
+            },
+            {
                 "name": "doom-retro",
                 "command": "./doom-retro/run-doom-retro.sh",
                 "command_args": [
@@ -763,6 +779,33 @@
                 "download_config": {
                     "prboom-plus": {
                         "extract_location": "./prboom-plus"
+                    }
+                }
+            },
+            {
+                "name": "dsda-doom",
+                "commands": {
+                    ".*plutoniam?.conf": {
+                        "cmd": "./dsda-doom/run-dsda-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*tntm?.conf": {
+                        "cmd": "./dsda-doom/run-dsda-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/TNT.WAD"
+                        ]
+                    }
+                },
+                "download": [
+                    "dsda-doom"
+                ],
+                "download_config": {
+                    "dsda-doom": {
+                        "extract_location": "./dsda-doom"
                     }
                 }
             },
@@ -1187,6 +1230,54 @@
                 "download_config": {
                     "prboom-plus": {
                         "extract_location": "./prboom-plus"
+                    }
+                }
+            },
+            {
+                "name": "dsda-doom",
+                "commands": {
+                    ".*rerelease": {
+                        "cmd": "./dsda-doom/run-dsda-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/DOOM2.WAD"
+                        ]
+                    },
+                    ".*doom2": {
+                        "cmd": "./dsda-doom/run-dsda-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "../base/DOOM2.WAD"
+                        ]
+                    },
+                    ".*tnt": {
+                        "cmd": "./dsda-doom/run-dsda-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "../finaldoombase/TNT.WAD"
+                        ]
+                    },
+                    ".*plutonia": {
+                        "cmd": "./dsda-doom/run-dsda-doom.sh",
+                        "args": [
+                            "-iwad",
+                            "../finaldoombase/PLUTONIA.WAD"
+                        ]
+                    },
+                    ".*master": {
+                        "cmd": "/bin/sh",
+                        "args": [
+                            "-c",
+                            "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
+                        ]
+                    }
+                },
+                "download": [
+                    "dsda-doom"
+                ],
+                "download_config": {
+                    "dsda-doom": {
+                        "extract_location": "./dsda-doom"
                     }
                 }
             },
@@ -2458,6 +2549,22 @@
                 "download_config": {
                     "prboom-plus": {
                         "extract_location": "./prboom-plus"
+                    }
+                }
+            },
+            {
+                "name": "dsda-doom",
+                "command": "./dsda-doom/run-dsda-doom.sh",
+                "command_args": [
+                    "-iwad",
+                    "../base/HERETIC.WAD"
+                ],
+                "download": [
+                    "dsda-doom"
+                ],
+                "download_config": {
+                    "dsda-doom": {
+                        "extract_location": "./dsda-doom"
                     }
                 }
             },
@@ -7292,6 +7399,20 @@
                 }
             ],
             "controllerNotSupported": true
+        },
+        "dsda-doom": {
+            "engine_link": "https://github.com/kraflab/dsda-doom",
+            "version": "0.25.6",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/kraflab/dsda-doom/blob/master/prboom2/COPYING",
+            "notices": [
+                {
+                    "label": "Pick FluidSynth in in-game options to hear music."
+                }
+            ],
+            "controllerSupported": true
         },
         "NBlood": {
             "engine_link": "https://github.com/nukeykt/NBlood",
