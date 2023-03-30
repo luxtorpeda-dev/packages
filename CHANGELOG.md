@@ -5,6 +5,7 @@
 * OpenApoc - Update to 20230328
 * Added doom64ex-plus
 * Added dsda-doom
+* avp - Allow for unlimited saves
 
 ### 61.6 (2023-03-08)
 
