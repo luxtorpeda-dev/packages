@@ -4,6 +4,11 @@
 git clone https://github.com/freedesktop/uchardet.git
 
 git clone https://github.com/roboticslibrary/libiconv.git
+pushd libiconv
+git checkout -f 2582e7b
+./gitsub.sh pull
+./autogen.sh
+popd
 
 git clone https://github.com/mkxp-z/mkxp-z.git source
 pushd source
