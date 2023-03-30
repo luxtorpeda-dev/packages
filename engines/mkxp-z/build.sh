@@ -3,6 +3,8 @@
 # CLONE PHASE
 git clone https://github.com/freedesktop/uchardet.git
 
+git clone https://github.com/roboticslibrary/libiconv.git
+
 git clone https://github.com/mkxp-z/mkxp-z.git source
 pushd source
 git checkout -f c419672
@@ -15,6 +17,12 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
+make -j "$(nproc)" install
+popd
+
+pushd libiconv
+./configure --prefix="$pfx"
+make -j "$(nproc)"
 make -j "$(nproc)" install
 popd
 
