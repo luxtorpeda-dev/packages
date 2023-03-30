@@ -6,6 +6,7 @@
 * Added doom64ex-plus
 * Added dsda-doom
 * avp - Allow for unlimited saves
+* Doom64EX-Plus - Update to 3.6.5.6
 
 ### 61.6 (2023-03-08)
 
