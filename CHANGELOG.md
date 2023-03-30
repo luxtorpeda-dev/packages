@@ -6,6 +6,7 @@
 * Added doom64ex-plus
 * Added dsda-doom
 * avp - Allow for unlimited saves
+* SeriousSamClassic-VK - Update to 306f653
 
 ### 61.6 (2023-03-08)
 
