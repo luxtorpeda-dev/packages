@@ -11,6 +11,7 @@ popd
 
 # BUILD PHASE
 pushd source/SamTSE/Sources
+find . -name "CMakeLists.txt" -exec sed -i 's/-march=native/-mtune=generic/g' {} +
 ./build-linux64.sh
 popd
 
@@ -22,6 +23,7 @@ cp -rfv assets/* "$diststart/41060/dist/"
 
 # BUILD PHASE
 pushd source/SamTFE/Sources
+find . -name "CMakeLists.txt" -exec sed -i 's/-march=native/-mtune=generic/g' {} +
 ./build-linux64.sh -DTFE=TRUE
 popd
 
