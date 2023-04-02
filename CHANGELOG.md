@@ -7,6 +7,7 @@
 * Added dsda-doom
 * avp - Allow for unlimited saves
 * SeriousSamClassic-VK - Update to 306f653
+* raze - Update to 1.7.0
 
 ### 61.6 (2023-03-08)
 
