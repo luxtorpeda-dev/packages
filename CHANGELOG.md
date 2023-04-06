@@ -1,3 +1,7 @@
+### 62.0 (2023-04-06)
+
+* runescape - Update to 2.2.11
+
 ### 61.7 (2023-03-27)
 
 * warzone2100 - Update to 4.3.4
