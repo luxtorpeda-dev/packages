@@ -1,6 +1,7 @@
 ### 62.0 (2023-04-06)
 
 * runescape - Update to 2.2.11
+* commander-genius - Automatically download catalogue
 
 ### 61.7 (2023-03-27)
 
