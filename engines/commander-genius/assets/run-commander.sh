@@ -9,5 +9,13 @@ if [ ! -d ./base1/games ]; then
     ln -rsf ./base5 ./base1/games/keen5
 fi
 
+if [ ! -f ~/.CommanderGenius/gameCatalogue.xml ]; then
+    if [ ! -d ~/.CommanderGenius ]; then
+        mkdir -p ~/.CommanderGenius
+    fi
+
+    cp -rfv ./download ~/.CommanderGenius/gameCatalogue.xml
+fi
+
 cd base1
 ./CGeniusExe  "$@"

@@ -3259,8 +3259,18 @@
                 "name": "commander-genius",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/commander-genius-2/",
                 "file": "commander-genius-9180-2.tar.xz"
+            },
+            {
+                "name": "game-catalogue",
+                "url": "https://sourceforge.net/projects/clonekeenplus/files/Downloads/gameCatalogue.xml/",
+                "file": "download"
             }
         ],
+        "download_config": {
+            "game-catalogue": {
+                "copy_only": true
+            }
+        },
         "commands": {
             ".*keen1?.conf": {
                 "cmd": "./run-commander.sh",
