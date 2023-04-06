@@ -6525,8 +6525,8 @@
             },
             {
                 "name": "runescape",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/runescape-3/",
-                "file": "runescape-1343400-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/runescape-4/",
+                "file": "runescape-1343400-4.tar.xz"
             }
         ],
         "command": "./run-runescape.sh",
