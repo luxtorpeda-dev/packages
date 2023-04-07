@@ -2,6 +2,7 @@
 
 * runescape - Update to 2.2.11
 * commander-genius - Automatically download catalogue
+* doom-retro - Update to 4.9
 
 ### 61.7 (2023-03-27)
 
