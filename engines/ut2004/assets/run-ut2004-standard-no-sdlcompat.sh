@@ -58,7 +58,6 @@ if [ -f ~/.ut2004/System/User.ini ]; then
 fi
 
 cd linuxdata-standard-no-sdlcompat/System
-
 rm libSDL-1.2.so
 rm libSDL-1.2.so.0
 
