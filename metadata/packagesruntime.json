@@ -3448,7 +3448,40 @@
                 },
                 "command": "./run-ut2004-standard.sh",
                 "engine_name": "ut2004"
-            }
+            },
+            {
+                "name": "ut2004 without foxWSFix, without sdl12compat",
+                "download": [
+                    "ut2004",
+                    "binaries"
+                ],
+                "download_config": {
+                    "binaries": {
+                        "extract_location": "../linuxdata-standard-no-sdlcompat",
+                        "strip_prefix": "UT2004-Patch/",
+                        "setup": true
+                    }
+                },
+                "setup": {
+                    "complete_path": "../ready-standard-no-sdlcompat",
+                    "command": "./setup-ut2004-standard-no-sdlcompat.sh",
+                    "uninstall_command": "./uninstall-ut2004-standard-no-sdlcompat.sh",
+                    "license_path": "../System/License.int",
+                    "dialogs": [
+                        {
+                            "type": "input",
+                            "title": "Unreal Tournament 2004 Setup",
+                            "label": "Enter your CD Key (Can Be Found in Steam)",
+                            "key": "CDKEY"
+                        }
+                    ]
+                },
+                "command": "./run-ut2004-standard-no-sdlcompat.sh",
+                "engine_name": "ut2004",
+                "app_ids_deps": [
+                    1070560
+                ]
+            },
         ],
         "use_original_command_directory": true,
         "information": {
