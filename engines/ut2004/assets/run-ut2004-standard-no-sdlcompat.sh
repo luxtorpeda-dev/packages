@@ -61,4 +61,6 @@ cd linuxdata-standard-no-sdlcompat/System
 rm libSDL-1.2.so
 rm libSDL-1.2.so.0
 
+ln -rsf "$runtimepath/var/steam-runtime/usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0" ./libSDL-1.2.so.0
+
 "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- ./ut2004-bin-linux-amd64
