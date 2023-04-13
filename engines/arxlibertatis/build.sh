@@ -1,7 +1,5 @@
 #!/bin/bash
 
-apt-get -y install libglm-dev
-
 # CLONE PHASE
 git clone https://github.com/arx/ArxLibertatis source
 pushd source
@@ -19,8 +17,6 @@ mkdir build
 cd build || exit 1
 ln -s ../../data arx-libertatis-data
 cmake \
-    -DBoost_DEBUG=1 \
-    -DBOOST_ROOT="$boostlocation" \
     -DCMAKE_INSTALL_PREFIX=../../tmp \
     ..
 make -j "$(nproc)"
