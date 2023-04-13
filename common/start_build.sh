@@ -14,27 +14,9 @@ echo "APP_IDS=$STEAM_APP_ID_LIST" >> $GITHUB_ENV
 git config --global user.email "actions@github.com"
 git config --global user.name "GitHub Action"
 
-install_latest_cmake
-install_latest_meson
-
-if [ ! -z "${GCC_9}" ]; then
-    echo "Using gcc 9"
-    use_gcc_9
-fi
-
-if [ ! -z "${GCC_9_NO_LINK}" ]; then
-    echo "Using gcc 9, no cxxflags"
-    unset CXXFLAGS
-fi
-
 if [ ! -z "${PYTHON3}" ]; then
     echo "Using python 3"
     use_python_3
-fi
-
-if [ ! -z "${GCC_10}" ]; then
-    echo "Using gcc 10"
-    use_gcc_10
 fi
 
 gcc --version
