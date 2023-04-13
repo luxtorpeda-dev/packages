@@ -16,11 +16,11 @@ jobs:
         id: generatehash
         uses: luxtorpeda-dev/action-build-generate-sha1-hash@v3
         with:
-            file: metadata/packagesruntime.json
+            file: metadata/packagessniper.json
       - name: Write Packages Hash
         uses: luxtorpeda-dev/write-file-action@v3
         with:
-            path: metadata/packagesruntime.hash
+            path: metadata/packagessniper.hash
             contents: ${{ steps.generatehash.outputs.hash }}
             write-mode: overwrite
       - name: Publish

@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v3
     - name: Find Engine Name
       id: findname
-      uses: luxtorpeda-dev/action-build-get-engine-name@v9
+      uses: luxtorpeda-dev/action-build-get-engine-name@v10
       with:
           token: ${{ secrets.GITHUB_TOKEN }}  
   build:
@@ -99,8 +99,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: master
-      - name: Update packagesruntime.json
-        uses: luxtorpeda-dev/action-build-update-packages@v9
+      - name: Update packagessniper.json
+        uses: luxtorpeda-dev/action-build-update-packages@v10
         with:
           matrix: ${{ needs.finddeploy.outputs.matrix }}
           version: ${{ needs.finddeploy.outputs.build_number }}
@@ -109,7 +109,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add metadata/packagesruntime.json
+          git add metadata/packagessniper.json
           git commit -m "Update packages.json for ${{ needs.findengine.outputs.engine }} version ${{ needs.finddeploy.outputs.build_number }}"
       - name: Push Changes
         uses: ad-m/github-push-action@master
@@ -120,11 +120,11 @@ jobs:
         id: generatehash
         uses: luxtorpeda-dev/action-build-generate-sha1-hash@v3
         with:
-            file: metadata/packagesruntime.json
+            file: metadata/packagessniper.json
       - name: Write Packages Hash
         uses: luxtorpeda-dev/write-file-action@v3
         with:
-            path: metadata/packagesruntime.hash
+            path: metadata/packagessniper.hash
             contents: ${{ steps.generatehash.outputs.hash }}
             write-mode: overwrite
       - name: Publish To Pages
