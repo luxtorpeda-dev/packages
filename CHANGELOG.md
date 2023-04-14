@@ -15,6 +15,7 @@
 * OpenLoco - Update to v23.03
 * OpenTESArena - Update to 2d443bd
 * openxcom - Update to 82b7b11
+* OpenXcom OXCE Plus - Update to 7.8.18
 
 ### 62.0 (2023-04-06)
 
