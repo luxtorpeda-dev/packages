@@ -29,6 +29,25 @@ if [ ! -z "${LIBRARIES}" ]; then
     popd
 fi
 
+if [ ! -z "${APT_LIBRARIES}" ]; then
+    echo "Found apt libraries to install $APT_LIBRARIES"
+    for library_name in $APT_LIBRARIES ; do
+        echo "Installing $library_name"
+        apt-get -y install "$library_name"
+        echo "Copying license file for $library_name"
+        if [ -z "${COMMON_PACKAGE}" ]; then
+            for app_id in $1 ; do
+                mkdir -p "$diststart/$app_id/dist/license/"
+                cp -rfv "/usr/share/doc/$library_name/copyright" "$diststart/$app_id/dist/license/$library_name.license"
+            done
+        else
+            mkdir -p "$diststart/common/dist/license/"
+            cp -rfv "/usr/share/doc/$library_name/copyright" "$diststart/common/dist/license/$library_name.license"
+        fi
+
+    done
+fi
+
 source ./build.sh
 
 copy_license_file "$STEAM_APP_ID_LIST"
