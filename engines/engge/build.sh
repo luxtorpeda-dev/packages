@@ -12,7 +12,6 @@ pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DGLM_INCLUDE_DIR="$glmlocation" \
     -DCMAKE_BUILD_TYPE=Release \
     ..
 cmake --build . --config Release
@@ -20,5 +19,4 @@ popd
 
 # COPY PHASE
 cp -rfv source/build/src/engge "$diststart/569860/dist/"
-
 cp -rfv assets/* "$diststart/569860/dist/"
