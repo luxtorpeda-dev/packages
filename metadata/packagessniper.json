@@ -5491,8 +5491,8 @@
         "download": [
             {
                 "name": "good-robot",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/good-robot-3/",
-                "file": "good-robot-358830-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/good-robot-4/",
+                "file": "good-robot-358830-4.tar.xz"
             }
         ],
         "command": "./run-good-robot.sh",
