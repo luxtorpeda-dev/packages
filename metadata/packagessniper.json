@@ -8629,7 +8629,7 @@
         },
         "ETe (32-bit)": {
             "engine_link": "https://github.com/etfdevs/ETe",
-            "version": "c864b0a",
+            "version": "1e69cda",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
