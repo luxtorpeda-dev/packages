@@ -39,6 +39,5 @@ popd
 # COPY PHASE
 cp -rfv "source/build/client/odamex" "$diststart/common/dist/"
 chmod +x "$diststart/common/dist/odamex"
-
 cp -rfv "source/odamex.wad" "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
