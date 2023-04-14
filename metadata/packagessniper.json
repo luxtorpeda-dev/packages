@@ -3682,8 +3682,8 @@
         "download": [
             {
                 "name": "blastem",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/blastem-1/",
-                "file": "blastem-34270-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/blastem-4/",
+                "file": "blastem-34270-4.tar.xz"
             }
         ],
         "cloudNotAvailable": true,
