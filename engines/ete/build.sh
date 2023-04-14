@@ -33,5 +33,4 @@ mkdir -p "$diststart/1873030/dist/etmain"
 cp -rfv tmp/ete-ded.x86 "$diststart/1873030/dist/"
 cp -rfv tmp/ete.x86 "$diststart/1873030/dist/"
 cp -rfv qagame.mp.i386.so "$diststart/1873030/dist/etmain"
-
 cp -rfv assets/* "$diststart/1873030/dist/"
