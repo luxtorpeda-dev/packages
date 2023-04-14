@@ -10,7 +10,7 @@ popd
 
 # BUILD PHASE
 pushd source
-make oldmp
+make netduke32
 popd
 
 # COPY PHASE
