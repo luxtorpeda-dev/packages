@@ -23,7 +23,6 @@ make -j "$(nproc)"
 make install
 popd
 
-
 # COPY PHASE
 cp -rfv tmp/bin/* "$diststart/common/dist/"
 cp -rfv tmp/lib/* "$diststart/common/dist/"
