@@ -8,6 +8,8 @@ popd
 
 # BUILD PHASE
 pushd "source/Quake"
+export QSS_CFLAGS="-DQSS_REVISION=`git rev-parse HEAD`"
+export QSS_LDFLAGS="-Wl,--allow-multiple-definition"
 make -j "$(nproc)" USE_SDL2=1
 popd
 
