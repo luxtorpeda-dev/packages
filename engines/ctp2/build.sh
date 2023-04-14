@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/ptitSeb/ctp2.git source
+git clone https://github.com/civctp2/civctp2.git source
 pushd source
-git checkout 2584d00
+git checkout 67532c1
 popd
 
 # BUILD PHASE
