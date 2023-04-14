@@ -11,6 +11,7 @@
 * nblood - Update to 09143c3
 * netduke32 - Update to v1.2.1
 * notblood - Upgrade to 7813e43
+* openjk - Update to d3e8c8d
 
 ### 62.0 (2023-04-06)
 
