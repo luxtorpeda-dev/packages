@@ -1,0 +1,27 @@
+From 96fa5a8ce6850e3b71ec5a8ca10390d897072577 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Fri, 14 Apr 2023 15:47:32 -0500
+Subject: [PATCH] narrowing fix
+
+---
+ Makefile | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index ac86a71..698170c 100755
+--- a/Makefile
++++ b/Makefile
+@@ -21,8 +21,8 @@ RANLIB=ranlib
+ FS_BINARY=freespace2
+ FS_DEMO_BINARY=freespace2_demo
+ LDFLAGS=$(shell sdl-config --libs) -lopenal
+-CFLAGS=-g -DPLAT_UNIX $(shell sdl-config --cflags) -Iinclude/ # -fwritable-strings -Wall 
+-CFLAGS+=-fsigned-char -Wno-format-y2k
++CFLAGS=-g -DPLAT_UNIX $(shell sdl-config --cflags) -Iinclude/ # -fwritable-strings -Wall
++CFLAGS+=-fsigned-char -Wno-format-y2k -Wno-narrowing
+ ifeq ($(strip $(PANDORA)),true)
+ 	CFLAGS+=-ffast-math -pipe -mcpu=cortex-a8 -mfpu=neon -ftree-vectorize -mfloat-abi=softfp -fsingle-precision-constant -mno-unaligned-access -fpermissive
+ endif
+-- 
+2.40.0
+

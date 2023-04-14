@@ -4,6 +4,7 @@
 git clone https://github.com/ptitSeb/freespace2.git source
 pushd source
 git checkout -f 500ee24
+git am < ../patches/0001-narrowing-fix.patch
 popd
 
 wget https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2
@@ -11,9 +12,6 @@ tar -xvjf p7zip_16.02_src_all.tar.bz2
 
 # BUILD PHASE
 pushd "source"
-export CFLAGS="$CFLAGS -Wno-narrowing"
-export CXXFLAGS="$CXXFLAGS -Wno-narrowing"
-export CPPFLAGS="$CPPFLAGS -Wno-narrowing"
 make -j "$(nproc)" FS1=true DEBUG=true PANDORA=false
 popd
 
