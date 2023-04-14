@@ -25,4 +25,5 @@ popd
 
 # COPY PHASE
 cp -rfv "source/build/avp" "$diststart/3730/dist/avp"
+
 cp -rfv "assets/run-avp.sh" "$diststart/3730/dist/"
