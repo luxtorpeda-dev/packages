@@ -40,8 +40,8 @@
         "download": [
             {
                 "name": "arxlibertatis",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-19/",
-                "file": "arxlibertatis-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-20/",
+                "file": "arxlibertatis-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -54,8 +54,8 @@
         "download": [
             {
                 "name": "arxlibertatis",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-19/",
-                "file": "arxlibertatis-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/arxlibertatis-20/",
+                "file": "arxlibertatis-common-20.tar.xz",
                 "cache_by_name": true
             }
         ],
