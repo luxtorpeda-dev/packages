@@ -1944,8 +1944,8 @@
             },
             {
                 "name": "q2pro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/q2pro-1/",
-                "file": "q2pro-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/q2pro-2/",
+                "file": "q2pro-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
