@@ -10,6 +10,7 @@
 * ete - Update to 1e69cda
 * nblood - Update to 09143c3
 * netduke32 - Update to v1.2.1
+* notblood - Upgrade to 7813e43
 
 ### 62.0 (2023-04-06)
 
