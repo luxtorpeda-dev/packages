@@ -24,7 +24,6 @@ popd
 cp -rfv "source/freespace" "$diststart/273600/dist/freespace"
 cp -rfv "assets/run-freespace.sh" "$diststart/273600/dist/"
 cp -rfv "assets/run-fsport.sh" "$diststart/273600/dist/"
-
 mkdir -p "$diststart/273600/dist/7z/"
 cp -rfv "$pfx/usr/local/bin/"* "$diststart/273600/dist/7z/"
 cp -rfv "$pfx/usr/local/lib/p7zip/"* "$diststart/273600/dist/7z/"
