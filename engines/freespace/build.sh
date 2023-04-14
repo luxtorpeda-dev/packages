@@ -11,6 +11,8 @@ tar -xvjf p7zip_16.02_src_all.tar.bz2
 
 # BUILD PHASE
 pushd "source"
+export CFLAGS += -Wno-narrowing
+export CXXFLAGS += -Wno-narrowing
 make -j "$(nproc)" FS1=true DEBUG=true PANDORA=false
 popd
 
