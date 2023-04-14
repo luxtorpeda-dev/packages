@@ -20,7 +20,6 @@ mkdir -p "$diststart/common/dist/ezquake/share/quake/mg1"
 
 cp -v source/ezquake-linux-x86_64 "$diststart/common/dist/ezquake/"
 cp -v assets/ezquake.sh "$diststart/common/dist/ezquake/"
-
 ln -s "../../../../id1/PAK0.PAK" "$diststart/common/dist/ezquake/share/quake/id1/pak0.pak"
 ln -s "../../../../id1/PAK1.PAK" "$diststart/common/dist/ezquake/share/quake/id1/pak1.pak"
 ln -s "../../../../rogue/pak0.pak" "$diststart/common/dist/ezquake/share/quake/rogue/pak0.pak"
