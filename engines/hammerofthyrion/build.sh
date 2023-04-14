@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/sezero/uhexen2.git source
 pushd source
-git checkout afce549
+git checkout f22de3d
 popd
 
 # BUILD PHASE
