@@ -7721,7 +7721,7 @@
         },
         "Hammer of Thyrion": {
             "engine_link": "https://github.com/sezero/uhexen2",
-            "version": "afce549 (from master)",
+            "version": "f22de3d",
             "notices": [
                 {
                     "label": "Set Music Mode in in-game options to All Codecs"
