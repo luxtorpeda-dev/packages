@@ -1,8 +1,5 @@
 #!/bin/bash
 
-apt update
-apt install -y mercurial
-
 # CLONE PHASE
 hg clone https://www.retrodev.com/repos/blastem source
 pushd source
