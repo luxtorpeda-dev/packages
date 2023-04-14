@@ -7784,7 +7784,7 @@
         },
         "netduke32": {
             "engine_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor",
-            "version": "Release Candidate 1",
+            "version": "v1.2.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",

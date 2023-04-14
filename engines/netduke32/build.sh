@@ -1,9 +1,11 @@
 #!/bin/bash
 
 # CLONE PHASE
+git config --global http.sslverify false
+export GIT_SSL_NO_VERIFY=1
 git clone https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor.git source
 pushd source
-git checkout c4afe166
+git checkout f919616e
 popd
 
 # BUILD PHASE
