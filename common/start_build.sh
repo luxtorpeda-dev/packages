@@ -38,11 +38,15 @@ if [ ! -z "${APT_LIBRARIES}" ]; then
         if [ -z "${COMMON_PACKAGE}" ]; then
             for app_id in $STEAM_APP_ID_LIST ; do
                 mkdir -p "$diststart/$app_id/dist/license/"
-                cp -rfv "/usr/share/doc/$library_name/copyright" "$diststart/$app_id/dist/license/$library_name.license"
+                if [ -f "/usr/share/doc/$library_name/copyright" ]; then
+                    cp -rfv "/usr/share/doc/$library_name/copyright" "$diststart/$app_id/dist/license/$library_name.license"
+                fi
             done
         else
             mkdir -p "$diststart/common/dist/license/"
-            cp -rfv "/usr/share/doc/$library_name/copyright" "$diststart/common/dist/license/$library_name.license"
+            if [ -f "/usr/share/doc/$library_name/copyright" ]; then
+                cp -rfv "/usr/share/doc/$library_name/copyright" "$diststart/common/dist/license/$library_name.license"
+            fi
         fi
 
     done
