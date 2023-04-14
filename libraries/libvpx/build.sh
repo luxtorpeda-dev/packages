@@ -8,7 +8,7 @@ popd
 
 # BUILD PHASE
 pushd "libvpx"
-./configure
+./configure --enable-pic
 make -j "$(nproc)"
 make install
 popd

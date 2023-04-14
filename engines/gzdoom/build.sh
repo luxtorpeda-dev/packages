@@ -25,5 +25,6 @@ popd
 
 # COPY PHASE
 cp -rfv "source/build"/{gzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
+
 cp -rfv assets/* "$diststart/common/dist/"
 cp -rfv ./wadsmoosh "$diststart/common/dist/wadsmoosh-branch-default"
