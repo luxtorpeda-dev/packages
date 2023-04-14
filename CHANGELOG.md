@@ -5,6 +5,7 @@
 * eduke32 - Update to 6537106e
 * exhumed - Update to 09143c3
 * Hammer of Thyrion - Update to f22de3d
+* ioquake3 - Update to 18f3b6b
 
 ### 62.0 (2023-04-06)
 
