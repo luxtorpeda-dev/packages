@@ -7515,7 +7515,7 @@
         },
         "QSS-M": {
             "engine_link": "https://github.com/timbergeron/QSS-M",
-            "version": "e9c1e9f",
+            "version": "1.5.5",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
