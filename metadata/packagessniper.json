@@ -6468,8 +6468,8 @@
             },
             {
                 "name": "exhumed",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-3/",
-                "file": "exhumed-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-4/",
+                "file": "exhumed-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
