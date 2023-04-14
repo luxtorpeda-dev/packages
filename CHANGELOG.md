@@ -8,6 +8,7 @@
 * ioquake3 - Update to 18f3b6b
 * iortcw - Update to 48116b9
 * ete - Update to 1e69cda
+* nblood - Update to 09143c3
 
 ### 62.0 (2023-04-06)
 
