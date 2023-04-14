@@ -13,6 +13,7 @@
 * notblood - Upgrade to 7813e43
 * openjk - Update to d3e8c8d
 * OpenLoco - Update to v23.03
+* OpenTESArena - Update to 2d443bd
 
 ### 62.0 (2023-04-06)
 
