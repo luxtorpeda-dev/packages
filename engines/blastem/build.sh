@@ -14,4 +14,5 @@ popd
 # COPY PHASE
 mkdir -p "$dirstart/34270/dist/emu/"
 cp -rfv "source" "$diststart/34270/dist/emu"
+
 cp -rfv "assets/run-blastem.sh" "$diststart/34270/dist/"
