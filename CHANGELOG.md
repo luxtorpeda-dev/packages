@@ -6,6 +6,7 @@
 * exhumed - Update to 09143c3
 * Hammer of Thyrion - Update to f22de3d
 * ioquake3 - Update to 18f3b6b
+* iortcw - Update to 48116b9
 
 ### 62.0 (2023-04-06)
 
