@@ -1,3 +1,8 @@
+### 63.0 (2023-04-13)
+
+* Re-build engines using Steam Linux Runtime - Sniper
+* crispy-doom - Update to 6.0
+
 ### 62.0 (2023-04-06)
 
 * runescape - Update to 2.2.11
