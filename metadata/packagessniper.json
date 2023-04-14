@@ -6664,19 +6664,6 @@
         "engine_name": "gzdoom",
         "cloudNotAvailable": true
     },
-    "1508030": {
-        "game_name": "Object N",
-        "download": [
-            {
-                "name": "objectn",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/objectn-2/",
-                "file": "objectn-1508030-2.tar.xz"
-            }
-        ],
-        "command": "./objectn.sh",
-        "engine_name": "ObjectN-DarkPlaces-engine",
-        "cloudNotAvailable": true
-    },
     "1546440": {
         "game_name": "Lycanthorn II - Rain of Beasts",
         "download": [
@@ -8451,15 +8438,6 @@
             "license": "GPLv3",
             "license_link": "https://gitlab.com/solarus-games/solarus/-/blob/dev/license_gpl.txt",
             "controllerSupported": true
-        },
-        "ObjectN-DarkPlaces-engine": {
-            "engine_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine",
-            "version": "de3b618",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/KleskBY/ObjectN-DarkPlaces-engine/blob/main/LICENSE",
-            "controllerNotSupported": true
         },
         "Zandronum": {
             "engine_link": "https://github.com/TorrSamaho/zandronum",
