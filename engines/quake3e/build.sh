@@ -8,6 +8,7 @@ popd
 
 # BUILD PHASE
 pushd "source"
+
 make ARCH=x64_64 -j "$(nproc)"
 make install DESTDIR="$diststart/common/dist/"
 popd
