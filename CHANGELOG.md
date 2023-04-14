@@ -12,6 +12,7 @@
 * netduke32 - Update to v1.2.1
 * notblood - Upgrade to 7813e43
 * openjk - Update to d3e8c8d
+* OpenLoco - Update to v23.03
 
 ### 62.0 (2023-04-06)
 
