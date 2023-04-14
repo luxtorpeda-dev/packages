@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cp -rfv "$pfx/usr/local/include/SDL2/"* "/usr/include/SDL2"
-
 # CLONE PHASE
 git clone https://github.com/odamex/odamex.git source
 pushd source
