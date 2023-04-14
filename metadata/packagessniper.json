@@ -7339,7 +7339,7 @@
         },
         "ioquake3": {
             "engine_link": "https://ioquake3.org/",
-            "version": "77d6cde (from master)",
+            "version": "18f3b6b",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
