@@ -5791,8 +5791,8 @@
         "download": [
             {
                 "name": "ozymandias",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ozymandias-1/",
-                "file": "ozymandias-564530-1.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ozymandias-2/",
+                "file": "ozymandias-564530-2.tar.xz"
             }
         ],
         "command": "./ozymandias",
