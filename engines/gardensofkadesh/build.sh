@@ -25,5 +25,4 @@ popd
 cp -rfv "source/Linux/src/homeworld" "$diststart/244160/dist/"
 cp -rfv "source/wasm/plug.tga" "$diststart/244160/dist/"
 cp -rfv "source/HomeworldSDL.big" "$diststart/244160/dist/"
-
 cp -rfv assets/* "$diststart/244160/dist/"
