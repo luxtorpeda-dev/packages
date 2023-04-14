@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenLoco/OpenLoco.git source
 pushd source
-git checkout -f e0c7b9c
+git checkout -f fff56d7
 git submodule update --init --recursive
 popd
 
