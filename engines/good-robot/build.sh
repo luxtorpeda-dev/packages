@@ -21,4 +21,5 @@ popd
 # COPY PHASE
 cp -rfv source/build/good_robot "$diststart/358830/dist/"
 cp -rfv assets/run-good-robot.sh "$diststart/358830/dist/"
+
 cp -rfv source/steamworks/redistributable_bin/linux64/libsteam_api.so "$diststart/358830/dist/lib"
