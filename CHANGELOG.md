@@ -4,6 +4,7 @@
 * crispy-doom - Update to 6.0
 * eduke32 - Update to 6537106e
 * exhumed - Update to 09143c3
+* Hammer of Thyrion - Update to f22de3d
 
 ### 62.0 (2023-04-06)
 
