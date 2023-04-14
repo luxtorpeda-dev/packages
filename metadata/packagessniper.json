@@ -7658,7 +7658,7 @@
             "controllerNotSupported": true
         },
         "OpenXcom": {
-            "version": "6ef7970 (from master)",
+            "version": "82b7b11",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
