@@ -1,12 +1,9 @@
 #!/bin/bash
 
-apt-get update
-apt-get -y install nasm
-
 # CLONE PHASE
 git clone https://github.com/tx00100xt/SeriousSamClassic-VK.git source
 pushd source
-git checkout ea6826b
+git checkout 5725e81
 popd
 
 # BUILD PHASE
