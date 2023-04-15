@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo apt-get install -y libnss3-dev
-
 # CLONE PHASE
 git clone https://github.com/qt/qt5.git source
 pushd source
