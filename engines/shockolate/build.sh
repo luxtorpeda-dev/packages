@@ -11,7 +11,7 @@ popd
 # BUILD PHASE
 mkdir ./build_ext/
 pushd build_ext
-git clone https://github.com/Doom64/fluidsynth-lite.git
+git clone https://github.com/divideconcept/FluidLite.git
 pushd fluidsynth-lite
 sed -i 's/DLL"\ off/DLL"\ on/' CMakeLists.txt
 export CFLAGS="-m32"
