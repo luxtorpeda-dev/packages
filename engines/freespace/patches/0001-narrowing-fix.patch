@@ -18,7 +18,7 @@ index ac86a71..698170c 100755
 -CFLAGS=-g -DPLAT_UNIX $(shell sdl-config --cflags) -Iinclude/ # -fwritable-strings -Wall 
 -CFLAGS+=-fsigned-char -Wno-format-y2k
 +CFLAGS=-g -DPLAT_UNIX $(shell sdl-config --cflags) -Iinclude/ # -fwritable-strings -Wall
-+CFLAGS+=-fsigned-char -Wno-format-y2k -Wno-narrowing
++CFLAGS+=-fsigned-char -Wno-format-y2k -Wno-error=narrowing
  ifeq ($(strip $(PANDORA)),true)
  	CFLAGS+=-ffast-math -pipe -mcpu=cortex-a8 -mfpu=neon -ftree-vectorize -mfloat-abi=softfp -fsingle-precision-constant -mno-unaligned-access -fpermissive
  endif
