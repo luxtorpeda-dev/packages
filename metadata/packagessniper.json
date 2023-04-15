@@ -8301,7 +8301,7 @@
         },
         "terminal-recall": {
             "engine_link": "https://github.com/jtrfp/terminal-recall",
-            "version": "1bdf062",
+            "version": "b502d01",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Apache 2.0",
