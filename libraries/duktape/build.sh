@@ -1,12 +1,9 @@
 #!/bin/bash
 
-sudo apt-get install -y python-yaml bc
-sudo pip3 install setconf
-
 # CLONE PHASE
 git clone https://github.com/svaarala/duktape.git duktape
 pushd duktape
-git checkout -f 6001888
+git checkout -f 5e169de
 popd
 
 # BUILD PHASE
