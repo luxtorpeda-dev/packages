@@ -23,6 +23,7 @@
 * vanilla-conquer - Update to 83c152c
 * voidsw - Update to 6537106e
 * cortex-command - Update to latest
+* doukutsu-rs - Update to 5821f06
 
 ### 62.0 (2023-04-06)
 
