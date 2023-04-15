@@ -1,5 +1,9 @@
 #!/bin/bash
 
+cp -rfv /usr/local/include/luajit-2.1 /usr/include
+cp -rfv /usr/local/lib/libluajit-5.1* /usr/lib
+cp -rfv /usr/local/lib/pkgconfig/luajit.pc /usr/lib/pkgconfig
+
 # CLONE PHASE
 git clone https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source.git source
 pushd source
