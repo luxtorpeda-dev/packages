@@ -4270,8 +4270,8 @@
         "download": [
             {
                 "name": "doukutsu-rs",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doukutsu-rs-3/",
-                "file": "doukutsu-rs-200900-3.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doukutsu-rs-4/",
+                "file": "doukutsu-rs-200900-4.tar.xz"
             }
         ],
         "command": "./doukutsu-rs",
