@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install -y libxcb-util-dev
+apt-get install -y libxcb-util-dev libxkbcommon-x11-dev libxcb-icccm4 libxcb-icccm4-dev libxcb-image0 libxcb-image0-dev libxcb-keysyms1 libxcb-keysyms1-dev libxcb-render-util0 libxcb-render-util0-dev
 
 # CLONE PHASE
 git clone https://github.com/qt/qt5.git source
