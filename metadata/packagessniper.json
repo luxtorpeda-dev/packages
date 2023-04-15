@@ -8644,7 +8644,7 @@
         },
         "doukutsu-rs": {
             "engine_link": "https://github.com/doukutsu-rs/doukutsu-rs.git",
-            "version": "0.100.0-beta5",
+            "version": "5821f06",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Modified MIT",
