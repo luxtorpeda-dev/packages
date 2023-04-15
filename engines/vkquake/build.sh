@@ -46,6 +46,7 @@ ln -s "../../../id1/PAK0.PAK" "$diststart/common/dist/share/quake/id1/pak0.pak"
 ln -s "../../../id1/PAK1.PAK" "$diststart/common/dist/share/quake/id1/pak1.pak"
 ln -s "../../../rogue/pak0.pak" "$diststart/common/dist/share/quake/rogue/pak0.pak"
 ln -s "../../../hipnotic/pak0.pak" "$diststart/common/dist/share/quake/hipnotic/pak0.pak"
+
 ln -s "../../../../rerelease/mg1/pak0.pak" "$diststart/common/dist/share/quake/rerelease/mg1/pak0.pak"
 ln -s "../../../../rerelease/id1/pak0.pak" "$diststart/common/dist/share/quake/rerelease/id1/pak0.pak"
 ln -s "../../../../rerelease/rogue/pak0.pak" "$diststart/common/dist/share/quake/rerelease/rogue/pak0.pak"
