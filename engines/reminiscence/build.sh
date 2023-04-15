@@ -13,4 +13,5 @@ popd
 
 # COPY PHASE
 cp -rfv REminiscence/fb "$diststart/961620/dist/fb"
+
 cp -rfv assets/* "$diststart/961620/dist/"
