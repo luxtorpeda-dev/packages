@@ -4748,8 +4748,8 @@
         "download": [
             {
                 "name": "rottexpr",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-4/",
-                "file": "rottexpr-238050-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-5/",
+                "file": "rottexpr-238050-5.tar.xz"
             },
             {
                 "name": "bstone",
@@ -5477,8 +5477,8 @@
         "download": [
             {
                 "name": "rottexpr",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-4/",
-                "file": "rottexpr-358410-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-5/",
+                "file": "rottexpr-358410-5.tar.xz"
             }
         ],
         "command": "./run-rott-dark-war.sh",
