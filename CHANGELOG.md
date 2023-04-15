@@ -21,6 +21,7 @@
 * rednukem - Update to 09143c3
 * serious-engine - Update to 5725e81
 * vanilla-conquer - Update to 83c152c
+* voidsw - Update to 6537106e
 
 ### 62.0 (2023-04-06)
 
