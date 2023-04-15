@@ -20,6 +20,7 @@
 * qss-m Update to 1.5.5
 * rednukem - Update to 09143c3
 * serious-engine - Update to 5725e81
+* vanilla-conquer - Update to 83c152c
 
 ### 62.0 (2023-04-06)
 
