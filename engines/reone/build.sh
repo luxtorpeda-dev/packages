@@ -20,5 +20,4 @@ popd
 
 # COPY PHASE
 cp -rfv source/build/bin/reone* "$diststart/32370/dist/"
-
 cp -rfv assets/* "$diststart/32370/dist/"
