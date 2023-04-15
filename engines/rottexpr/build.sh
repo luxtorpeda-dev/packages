@@ -14,5 +14,6 @@ popd
 # COPY PHASE
 cp -rfv source/src/rott "$diststart/238050/dist/"
 cp -rfv assets/* "$diststart/238050/dist/"
+
 cp -rfv source/src/rott "$diststart/358410/dist/"
 cp -rfv assets/* "$diststart/358410/dist/"
