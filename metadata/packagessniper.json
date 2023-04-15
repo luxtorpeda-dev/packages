@@ -7839,7 +7839,7 @@
         },
         "reone": {
             "engine_link": "https://github.com/seedhartha/reone",
-            "version": "0.19.0",
+            "version": "b2f0484",
             "notices": [
                 {
                     "key": "in_progress"

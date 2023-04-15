@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/seedhartha/reone.git source
 pushd source
-git checkout -f 582b87b
+git checkout -f b2f0484
 popd
 
 # BUILD PHASE
