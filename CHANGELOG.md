@@ -22,7 +22,6 @@
 * serious-engine - Update to 5725e81
 * vanilla-conquer - Update to 83c152c
 * voidsw - Update to 6537106e
-* terminal-recall - Update to b502d01
 * cortex-command - Update to latest
 
 ### 62.0 (2023-04-06)
