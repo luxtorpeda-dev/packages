@@ -23,7 +23,7 @@ cmake \
     -DBUILD_WIZARD=ON \
     -DBUILD_MYGUI_PLUGIN=OFF \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_BUILD_TYPE=Release \
     ..
 make -j "$(nproc)"
 DESTDIR="$tmp" make install

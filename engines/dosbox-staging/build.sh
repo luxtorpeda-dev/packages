@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/dosbox-staging/dosbox-staging.git source
 pushd source
-git checkout -f dd7f218
+git checkout -f 5c9161d
 popd
 
 # BUILD PHASE
@@ -22,4 +22,5 @@ popd
 # COPY PHASE
 cp -rfv "source/build/dosbox" "$diststart/common/dist/"
 cp -rfv "source/build/resources" "$diststart/common/dist/"
+
 cp -rfv assets/*.sh "$diststart/common/dist/"

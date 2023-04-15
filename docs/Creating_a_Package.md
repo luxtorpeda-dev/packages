@@ -1,5 +1,7 @@
 # Creating A Package
 
+Please note that reverse-engineering projects are not supported for this project, where the original executable is used to create the engine, instead of creating it in a more open source manner. If you have any questions on this, please feel free to create an issue or talk on discord.
+
 ## Structure
 
 Each package has a folder with the build scripts and any static assets, such as a launcher script or custom configuration files for the game. These are located in the `engines` folder, so if you wanted to create a package for the dhewm3 engine, the path would be `engines/dhewm3`.

@@ -46,5 +46,4 @@ cp -rfv "source/linux/releasex64/zaero/gamex64.so" "$diststart/common/dist/zaero
 cp -rfv /usr/local/lib/libXxf86dga.so.1.0.0 "$diststart/common/dist"
 cp -rfv /usr/local/lib/libXxf86dga.so "$diststart/common/dist"
 cp -rfv /usr/local/lib/libXxf86dga.so.1 "$diststart/common/dist"
-
 cp -rfv assets/* "$diststart/common/dist/"

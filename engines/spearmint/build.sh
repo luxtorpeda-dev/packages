@@ -37,5 +37,4 @@ cp -rfv mint-arena/build/release-linux-x86_64/* "$diststart/common/dist/mint-are
 
 mkdir -p "$diststart/common/dist/spearmint-patch-data"
 cp -rfv spearmint-patch-data/* "$diststart/common/dist/spearmint-patch-data"
-
 cp -rfv assets/* "$diststart/common/dist/"

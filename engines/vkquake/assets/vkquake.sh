@@ -6,6 +6,10 @@
 # TODO: detect screen resolution, because vkQuake's desktop resolution
 #       mode and default resolution detection are broken.
 #
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+cd "$DIR"
+
 if [ ! -f share/quake/id1/vkQuake.cfg ] ; then
 	cp -f share/quake/default.lux.cfg share/quake/id1/vkQuake.cfg
 	sed -i "s|%USER%|$USER|" share/quake/id1/vkQuake.cfg

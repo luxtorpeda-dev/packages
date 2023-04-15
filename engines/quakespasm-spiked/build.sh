@@ -17,7 +17,6 @@ mkdir -p "$diststart/common/dist/quakespasm/share/quake/rogue"
 mkdir -p "$diststart/common/dist/quakespasm/share/quake/hipnotic"
 mkdir -p "$diststart/common/dist/quakespasm/share/quake/dopa"
 mkdir -p "$diststart/common/dist/quakespasm/share/quake/mg1"
-
 cp -v source/Quake/quakespasm "$diststart/common/dist/quakespasm/"
 cp -v assets/quakespasm.sh "$diststart/common/dist/quakespasm/"
 cp -v assets/default.lux.cfg "$diststart/common/dist/quakespasm/share/quake"

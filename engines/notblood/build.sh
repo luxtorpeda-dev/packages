@@ -1,16 +1,14 @@
 #!/bin/bash
 
-sudo apt-get -y install lld
-
 # CLONE PHASE
 git clone https://github.com/clipmove/NotBlood.git source
 pushd source
-git checkout 09c193f
+git checkout 7813e43
 popd
 
 # BUILD PHASE
 pushd source
-make blood CLANG=1
+make blood
 popd
 
 # COPY PHASE

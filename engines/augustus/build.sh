@@ -28,4 +28,5 @@ mkdir -p "$diststart/517790/dist/assets"
 cp -rfv "source/build/augustus" "$diststart/517790/dist/"
 cp -rfv "source/res/packed_assets/"* "$diststart/517790/dist/assets"
 cp -rfv "source/res/maps" "$diststart/517790/dist/"
+
 cp -rfv assets/* "$diststart/517790/dist/"

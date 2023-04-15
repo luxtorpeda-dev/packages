@@ -11,7 +11,7 @@ popd
 # BUILD PHASE
 mkdir ./build_ext/
 pushd build_ext
-git clone https://github.com/Doom64/fluidsynth-lite.git
+git clone https://github.com/EtherTyper/fluidsynth-lite.git fluidsynth-lite
 pushd fluidsynth-lite
 sed -i 's/DLL"\ off/DLL"\ on/' CMakeLists.txt
 export CFLAGS="-m32"
@@ -40,4 +40,5 @@ mkdir -p "$diststart/410700/dist/lib"
 cp -rfv "source/build/systemshock" "$diststart/410700/dist/"
 cp -rfv "source/shaders" "$diststart/410700/dist"
 cp -rfv /usr/local/lib/libfluidsynth*.so* "$diststart/410700/dist/lib"
+
 cp -rfv assets/* "$diststart/410700/dist/"
