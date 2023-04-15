@@ -19,4 +19,5 @@ popd
 
 # COPY PHASE
 cp -rfv source/build/DoomRunner "$diststart/common/dist"
+
 cp -rfv "assets"/* "$diststart/common/dist"
