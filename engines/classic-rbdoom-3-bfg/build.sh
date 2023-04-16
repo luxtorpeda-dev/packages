@@ -10,11 +10,11 @@ pushd "source"
 mkdir build
 cd build
 cmake \
-    -G "Unix Makefiles" \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DSDL2=ON \
     -DFFMPEG_ROOT="$pfx" \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    --preset=linux-retail \
     ../neo
 make -j "$(nproc)"
 popd
