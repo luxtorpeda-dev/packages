@@ -8355,12 +8355,12 @@
             "controllerSupported": true
         },
         "civctp2": {
-            "engine_link": "https://github.com/ptitSeb/ctp2",
-            "version": "ac46e60",
+            "engine_link": "https://github.com/civctp2/civctp2",
+            "version": "67532c1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Activision",
-            "license_link": "https://github.com/ptitSeb/ctp2/blob/master/EULA%20-%20Source%20Code%20for%20CTP2.rtf",
+            "license_link": "https://github.com/civctp2/civctp2/blob/master/EULA%20-%20Source%20Code%20for%20CTP2.rtf",
             "notices": [
                 {
                     "key": "non_free"

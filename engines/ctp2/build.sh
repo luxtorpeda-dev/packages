@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/ptitSeb/ctp2.git source
+git clone https://github.com/civctp2/civctp2.git source
 pushd source
-git checkout ac46e60
+git checkout 67532c1
 popd
 
 # BUILD PHASE
@@ -13,7 +13,7 @@ cp -rfv "Activision CTP2 Source Code_Readme.txt" "Activision_CTP2_Source_Code_Re
 cp -rfv "Apolyton CTP2 Source Code_Readme.txt" "Apolyton_CTP2_Source_Code_Readme.txt"
 
 ./autogen.sh
-CFLAGS="$CFLAGS -O3 -fuse-ld=gold -fcommon -Wno-narrowing" CXXFLAGS="$CXXFLAGS -fpermissive -O3 -fuse-ld=gold -fcommon -Wno-narrowing" ./configure --enable-silent-rules --prefix="$pfx"
+CFLAGS="$CFLAGS -O3 -fuse-ld=gold -fcommon -Wno-narrowing" CXXFLAGS="$CXXFLAGS -fpermissive -O3 -fuse-ld=gold" ./configure --enable-silent-rules --prefix="$pfx"
 make
 popd
 
