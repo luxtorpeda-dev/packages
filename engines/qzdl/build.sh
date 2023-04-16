@@ -3,9 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/qbasicer/qzdl.git source
 pushd source
-git checkout -f 9c76408
-
-git am < ../patches/0001-Compile-error-fix.patch
+git checkout -f 44aaec0
 popd
 
 export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
