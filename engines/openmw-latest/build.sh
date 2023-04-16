@@ -21,6 +21,8 @@ pushd "source"
 mkdir -p build
 cd build
 export OSG_DIR="$pfx/lib64"
+export CC=/usr/bin/clang
+export CXX=/usr/bin/clang++
 cmake \
     -DBUILD_LAUNCHER=ON \
     -DDESIRED_QT_VERSION=5 \
