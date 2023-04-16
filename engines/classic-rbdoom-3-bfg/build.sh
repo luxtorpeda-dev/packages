@@ -10,7 +10,7 @@ pushd "source"
 mkdir build
 cd build
 cmake \
-    -G "Eclipse CDT4 - Unix Makefiles" \
+    -G "Unix Makefiles" \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DSDL2=ON \
     -DFFMPEG_ROOT="$pfx" \
