@@ -356,8 +356,8 @@
             },
             {
                 "name": "doomseeker",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomseeker-1/",
-                "file": "doomseeker-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomseeker-2/",
+                "file": "doomseeker-common-2.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -947,8 +947,8 @@
             },
             {
                 "name": "doomseeker",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomseeker-1/",
-                "file": "doomseeker-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doomseeker-2/",
+                "file": "doomseeker-common-2.tar.xz",
                 "cache_by_name": true
             },
             {
