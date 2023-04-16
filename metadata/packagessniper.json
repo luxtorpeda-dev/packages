@@ -3587,8 +3587,8 @@
             },
             {
                 "name": "openmw-latest",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-latest-4/",
-                "file": "openmw-latest-22320-4.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-latest-5/",
+                "file": "openmw-latest-22320-5.tar.xz"
             }
         ],
         "download_config": {
