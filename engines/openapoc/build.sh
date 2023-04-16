@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenApoc/OpenApoc.git source
 pushd source
-git checkout -f ffc66ce
+git checkout -f a224501
 git submodule update --init --recursive
 popd
 
