@@ -28,6 +28,7 @@
 * doom-runner - Update to 1.7.1
 * qzdl - Update to 44aaec0
 * OpenApoc - Update to a224501
+* doomseeker - Update to 9fab457
 
 ### 62.0 (2023-04-06)
 
