@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/akarnokd/open-ig.git source
 pushd source
-git checkout 944fb11
+git checkout 8f58a81
 popd
 
 # COPY PHASE

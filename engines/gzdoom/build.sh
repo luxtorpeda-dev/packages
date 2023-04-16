@@ -1,8 +1,5 @@
 #!/bin/bash
 
-apt-get update
-apt-get install -y mercurial
-
 # From https://gitlab.com/luxtorpeda/packages/gzdoom - See LICENSE file for more information
 # CLONE PHASE
 git clone https://github.com/coelckers/gzdoom.git source
@@ -28,5 +25,6 @@ popd
 
 # COPY PHASE
 cp -rfv "source/build"/{gzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
+
 cp -rfv assets/* "$diststart/common/dist/"
 cp -rfv ./wadsmoosh "$diststart/common/dist/wadsmoosh-branch-default"

@@ -2,4 +2,4 @@
 
 ln -rsf ../ARENA ./data/ARENA
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./TESArena
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./otesa

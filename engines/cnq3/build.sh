@@ -1,7 +1,5 @@
 #!/bin/bash
 
-apt-get -y install nasm
-
 # CLONE PHASE
 git clone https://bitbucket.org/CPMADevs/cnq3.git source
 pushd source

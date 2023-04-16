@@ -5,6 +5,8 @@ git clone https://github.com/neuromancer/avp.git source
 pushd source
 git checkout 2d57747
 git am < ../patches/0001-Remove-RenderSmallFontString_Wrapped-call-in-RenderH.patch
+git am < ../patches/0001-allow-unlimited-saves.patch
+git am < ../patches/0001-Fix-for-gcc-10.patch
 popd
 
 # BUILD PHASE
@@ -24,4 +26,5 @@ popd
 
 # COPY PHASE
 cp -rfv "source/build/avp" "$diststart/3730/dist/avp"
+
 cp -rfv "assets/run-avp.sh" "$diststart/3730/dist/"

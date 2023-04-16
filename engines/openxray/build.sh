@@ -100,6 +100,7 @@ mkdir -p "$diststart/common/dist/gamedata"
 cp -rfv "$pfx/bin/xr_3da" "$diststart/common/dist"
 cp -rfv "$pfx/lib"/*.so* "$diststart/common/dist/lib"
 cp -rfv "$pfx/Crypto++/lib"/*.so* "$diststart/common/dist/lib"
+
 cp assets/*.sh "$diststart/common/dist"
 cp -rfv plus/res/gamedata/* "$diststart/common/dist/gamedata"
 cp -rfv "$pfx/share/openxray"/* "$diststart/common/dist/"

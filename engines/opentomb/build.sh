@@ -22,4 +22,5 @@ cp -rfv source/shaders "$diststart/common/dist"
 cp -rfv source/autoexec.lua "$diststart/common/dist"
 cp -rfv source/config.lua "$diststart/common/dist"
 cp -rfv source/scripts "$diststart/common/dist"
+
 cp -rfv assets/*.sh "$diststart/common/dist"

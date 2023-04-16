@@ -33,3 +33,12 @@ else
 fi
 
 cp -rfv linuxdata-469c/System/* linuxdata-469c/System64
+
+ln -rsf linuxdata-469c/System64/de.u linuxdata-469c/System64/De.u
+ln -rsf linuxdata-469c/System64/de.int linuxdata-469c/System64/De.int
+ln -rsf linuxdata-469c/System64/multimesh.u linuxdata-469c/System64/MultiMesh.u
+ln -rsf linuxdata-469c/System64/multimesh.int linuxdata-469c/System64/MultiMesh.int
+
+ln -rsf utbonuspack4/Maps/* linuxdata-469c/Maps
+ln -rsf utbonuspack4/System/* linuxdata-469c/System
+ln -rsf utbonuspack4/Textures/* linuxdata-469c/Textures

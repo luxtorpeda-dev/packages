@@ -12,4 +12,5 @@ popd
 
 # COPY PHASE
 cp -rfv source/bin/OpenLara "$diststart/224960/dist"
+
 cp -rfv assets/*.sh "$diststart/224960/dist"
