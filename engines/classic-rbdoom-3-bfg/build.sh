@@ -4,9 +4,10 @@
 git clone https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git source
 pushd source
 git checkout 9200ffd
+git submodule update --init --recursive
 popd
 
-pushd "source"
+pushd "source/neo"
 mkdir build
 cd build
 cmake \
@@ -15,7 +16,7 @@ cmake \
     -DFFMPEG_ROOT="$pfx" \
     -DCMAKE_PREFIX_PATH="$pfx" \
     --preset=linux-retail \
-    ../neo
+    ..
 make -j "$(nproc)"
 popd
 
