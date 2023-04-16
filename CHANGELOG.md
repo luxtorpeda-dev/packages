@@ -26,6 +26,7 @@
 * doukutsu-rs - Update to 5821f06
 * raze - Update to 1.7.1
 * doom-runner - Update to 1.7.1
+* qzdl - Update to 44aaec0
 
 ### 62.0 (2023-04-06)
 
