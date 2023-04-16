@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/skyjake/Doomsday-Engine.git source
 pushd source
-git checkout -f db4bb26
+git checkout -f e7383f8
 git submodule update --init --recursive
 popd
 
