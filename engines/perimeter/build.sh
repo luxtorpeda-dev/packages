@@ -5,6 +5,7 @@ git clone https://github.com/KranX/Perimeter source
 pushd source
 git checkout -f f58b3ae
 git submodule update --init --recursive
+git am < ../patches/0001-fix-for-cmake-error.patch
 popd
 
 # BUILD PHASE
