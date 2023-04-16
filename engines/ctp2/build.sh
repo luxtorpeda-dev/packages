@@ -13,7 +13,7 @@ cp -rfv "Activision CTP2 Source Code_Readme.txt" "Activision_CTP2_Source_Code_Re
 cp -rfv "Apolyton CTP2 Source Code_Readme.txt" "Apolyton_CTP2_Source_Code_Readme.txt"
 
 ./autogen.sh
-CFLAGS="$CFLAGS -O3 -fuse-ld=gold" CXXFLAGS="$CXXFLAGS -fpermissive -O3 -fuse-ld=gold" ./configure --enable-silent-rules --prefix="$pfx"
+CFLAGS="$CFLAGS -O3 -fuse-ld=gold -fcommon" CXXFLAGS="$CXXFLAGS -fpermissive -O3 -fuse-ld=gold -fcommon" ./configure --enable-silent-rules --prefix="$pfx"
 make
 popd
 
