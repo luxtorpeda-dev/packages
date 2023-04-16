@@ -4489,8 +4489,8 @@
             },
             {
                 "name": "opentomb",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-3/",
-                "file": "opentomb-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-4/",
+                "file": "opentomb-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4529,8 +4529,8 @@
             },
             {
                 "name": "opentomb",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-3/",
-                "file": "opentomb-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-4/",
+                "file": "opentomb-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4651,8 +4651,8 @@
             },
             {
                 "name": "opentomb",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-3/",
-                "file": "opentomb-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-4/",
+                "file": "opentomb-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -4691,8 +4691,8 @@
             },
             {
                 "name": "opentomb",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-3/",
-                "file": "opentomb-common-3.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-4/",
+                "file": "opentomb-common-4.tar.xz",
                 "cache_by_name": true
             }
         ],
