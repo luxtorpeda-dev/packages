@@ -30,6 +30,7 @@
 * OpenApoc - Update to a224501
 * doomseeker - Update to 9fab457
 * openmw-latest - Update to 0.48 RC9
+* warzone2100 - Update to 4.3.5
 
 ### 62.0 (2023-04-06)
 
