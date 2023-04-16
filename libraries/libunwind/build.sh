@@ -8,6 +8,7 @@ popd
 
 # BUILD PHASE
 pushd libunwind
+autoreconf -i
 ./configure
 make
 make install

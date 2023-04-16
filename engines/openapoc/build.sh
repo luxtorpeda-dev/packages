@@ -24,6 +24,5 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/7660/dist/bin/"
 cp -rfv "source/build/bin/"* "$diststart/7660/dist/bin/"
-
 cp -rfv "source/data" "$diststart/7660/dist/"
 cp -rfv "assets/"* "$diststart/7660/dist/"
