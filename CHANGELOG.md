@@ -29,6 +29,7 @@
 * qzdl - Update to 44aaec0
 * OpenApoc - Update to a224501
 * doomseeker - Update to 9fab457
+* openmw-latest - Update to 0.48 RC9
 
 ### 62.0 (2023-04-06)
 
