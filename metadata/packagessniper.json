@@ -8355,8 +8355,8 @@
             "controllerSupported": true
         },
         "civctp2": {
-            "engine_link": "https://github.com/ptitSeb/ctp2.git",
-            "version": "2584d00 (from master)",
+            "engine_link": "https://github.com/ptitSeb/ctp2",
+            "version": "ac46e60",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Activision",
