@@ -6,9 +6,9 @@ pushd source
 git checkout 3aec70b0
 popd
 
-git clone https://gitlab.com/solarus-games/libmodplug.git libmodplug
+git clone https://github.com/Konstanty/libmodplug.git libmodplug
 pushd libmodplug
-git checkout a35e253001b1bc9046b7955d0871f841f88f993b
+git checkout d1b97ed
 popd
 
 # BUILD PHASE
@@ -26,7 +26,6 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DSOLARUS_TESTS=OFF \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -DGLM_INCLUDE_DIR="$glmlocation" \
     -DSOLARUS_GUI=OFF \
     -DCMAKE_BUILD_TYPE=Release \
     ..

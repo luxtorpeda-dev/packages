@@ -17,15 +17,11 @@ mkdir build
 cd build || exit 1
 ln -s ../../data arx-libertatis-data
 cmake \
-    -DBoost_DEBUG=1 \
-    -DGLM_INCLUDE_DIR="$glmlocation" \
-    -DBOOST_ROOT="$boostlocation" \
     -DCMAKE_INSTALL_PREFIX=../../tmp \
     ..
 make -j "$(nproc)"
 make install
 popd
-
 
 # COPY PHASE
 cp -rfv tmp/bin/* "$diststart/common/dist/"

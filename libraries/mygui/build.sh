@@ -17,6 +17,7 @@ cmake \
 	-DMYGUI_BUILD_DEMOS=OFF \
 	-DMYGUI_BUILD_TOOLS=OFF \
 	-DMYGUI_BUILD_PLUGINS=OFF \
+	-DCMAKE_BUILD_TYPE=Release \
 	..
 make -j "$(nproc)"
 make install

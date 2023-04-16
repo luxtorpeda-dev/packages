@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/lethal-guitar/RigelEngine.git source
 pushd source
-git checkout 816f912
+git checkout 84ae53f
 git submodule update --init --recursive
 popd
 
@@ -12,9 +12,7 @@ pushd "source"
 mkdir build
 cd build
 cmake \
-    -DBoost_DEBUG=1 \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DBoost_LIBRARY_DIRS="$pfx/lib" \
     -DCMAKE_BUILD_TYPE=Release \
     ..
 make -j "$(nproc)"

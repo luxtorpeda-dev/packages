@@ -1,8 +1,5 @@
 #!/bin/bash
 
-apt update
-apt install -y mercurial
-
 # CLONE PHASE
 hg clone https://www.retrodev.com/repos/blastem source
 pushd source
@@ -17,4 +14,5 @@ popd
 # COPY PHASE
 mkdir -p "$dirstart/34270/dist/emu/"
 cp -rfv "source" "$diststart/34270/dist/emu"
+
 cp -rfv "assets/run-blastem.sh" "$diststart/34270/dist/"

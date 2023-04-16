@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/coelckers/Raze.git source
 pushd source
-git checkout 2d551e6
+git checkout 7cd42e7
 popd
 
 # BUILD PHASE
@@ -19,5 +19,4 @@ popd
 
 # COPY PHASE
 cp -rfv "source/build"/{raze,soundfonts,*.pk3} "$diststart/common/dist/"
-
 cp -rfv "assets/"* "$diststart/common/dist/"

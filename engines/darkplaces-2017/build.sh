@@ -26,6 +26,7 @@ cp -v assets/default.lux.cfg "$diststart/common/dist/darkplaces-2017/share/quake
 
 ln -s "../../../../id1/PAK0.PAK" "$diststart/common/dist/darkplaces-2017/share/quake/id1/pak0.pak"
 ln -s "../../../../id1/PAK1.PAK" "$diststart/common/dist/darkplaces-2017/share/quake/id1/pak1.pak"
+
 ln -s "../../../../rogue/pak0.pak" "$diststart/common/dist/darkplaces-2017/share/quake/rogue/pak0.pak"
 ln -s "../../../../hipnotic/pak0.pak" "$diststart/common/dist/darkplaces-2017/share/quake/hipnotic/pak0.pak"
 ln -s "../../../../rerelease/mg1/pak0.pak" "$diststart/common/dist/darkplaces-2017/share/quake/mg1/pak0.pak"

@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/etfdevs/ETe.git source
 pushd source
-git checkout c864b0a
+git checkout 1e69cda
 popd
 
 git clone https://github.com/etlegacy/etlegacy etlegacy

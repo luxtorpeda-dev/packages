@@ -6,14 +6,13 @@ mkdir -p "$pfx"
 # CLONE PHASE
 git clone https://github.com/OpenMW/openmw source
 pushd source
-git checkout -f 80e2cd7
+git checkout -f 5446906
 git submodule update --init --recursive
-git am < ../patches/0001-Fix-compile-error.patch
 popd
 
 git clone https://github.com/zesterer/openmw-shaders.git openmw-shaders
 pushd openmw-shaders
-git checkout 3d06e628a33531adbd144ebf5ce799c7c7b2f486
+git checkout 3428a4f
 popd
 
 # BUILD PHASE

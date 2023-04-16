@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Warzone2100/warzone2100.git source
 pushd source
-git checkout -f ade08de
+git checkout -f 6487b91
 git submodule update --init --recursive
 popd
 
@@ -24,7 +24,6 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/1241950/dist/data"
 mkdir -p "$diststart/1241950/dist/bin"
-
 cp -rfv "$pfx/share/locale" "$diststart/1241950/dist/"
 cp -rfv "$pfx/share/warzone2100/"* "$diststart/1241950/dist/data"
 cp -rfv "$pfx/bin/warzone2100" "$diststart/1241950/dist/bin"
