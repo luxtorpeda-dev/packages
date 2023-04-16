@@ -6,7 +6,7 @@ mkdir -p "$pfx"
 # CLONE PHASE
 git clone https://github.com/OpenMW/openmw source
 pushd source
-git checkout -f 5446906
+git checkout -f ed528c5d
 git submodule update --init --recursive
 popd
 
@@ -20,8 +20,6 @@ pushd "source"
 mkdir -p build
 cd build
 export OSG_DIR="$pfx/lib64"
-export CC=/usr/bin/clang
-export CXX=/usr/bin/clang++
 cmake \
     -DBUILD_LAUNCHER=ON \
     -DDESIRED_QT_VERSION=5 \
