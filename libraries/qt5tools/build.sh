@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://code.qt.io/qt/qttools.git source
+git clone https://github.com/qt/qttools.git source
 pushd source
-git checkout -f v5.12.11
+git checkout -f 1e7d509
 git submodule update --init --recursive
 popd
 
