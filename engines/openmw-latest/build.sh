@@ -39,7 +39,6 @@ popd
 mkdir -p "$diststart/22320/dist/lib/"
 cp -rfv "$pfx/"lib/*.so* "$diststart/22320/dist/lib/"
 cp -rfv "$pfx/lib/"osgPlugins-* "$diststart/22320/dist/lib/"
-
 cp -rfv "$tmp/usr/local/"{etc,share} "$diststart/22320/dist/"
 cp -rfv "$tmp/usr/local/bin/"* "$diststart/22320/dist/"
 cp assets/* "$diststart/22320/dist/"
