@@ -7,19 +7,17 @@ git checkout -f 500ee24
 git am < ../patches/0001-narrowing-fix.patch
 popd
 
-wget https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2
-tar -xvjf p7zip_16.02_src_all.tar.bz2
-
-export CFLAGS="$CFLAGS -Wno-narrowing"
-export CXXFLAGS="$CXXFLAGS -Wno-narrowing"
-export CPPFLAGS="$CPPFLAGS -Wno-narrowing"
+git clone https://github.com/p7zip-project/p7zip.git
+pushd p7zip
+git checkout -f a45b883
+popd
 
 # BUILD PHASE
 pushd "source"
 make -j "$(nproc)" FS1=true DEBUG=true PANDORA=false
 popd
 
-pushd "p7zip_16.02"
+pushd "p7zip"
 cp -rfv makefile.linux_amd64_asm makefile.machine
 make all3
 make install DEST_DIR="$pfx"
