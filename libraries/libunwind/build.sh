@@ -8,7 +8,6 @@ popd
 
 # BUILD PHASE
 pushd libunwind
-./autogen.sh
 ./configure
 make
 make install
