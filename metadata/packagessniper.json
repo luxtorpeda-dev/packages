@@ -7676,7 +7676,7 @@
         },
         "OpenApoc": {
             "engine_link": "https://github.com/OpenApoc/OpenApoc",
-            "version": "20230328",
+            "version": "a224501",
             "notices": [
                 {
                     "key": "in_progress"

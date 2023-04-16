@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenApoc/OpenApoc.git source
 pushd source
-git checkout -f ffc66ce
+git checkout -f a224501
 git submodule update --init --recursive
 popd
 
@@ -24,6 +24,5 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/7660/dist/bin/"
 cp -rfv "source/build/bin/"* "$diststart/7660/dist/bin/"
-
 cp -rfv "source/data" "$diststart/7660/dist/"
 cp -rfv "assets/"* "$diststart/7660/dist/"
