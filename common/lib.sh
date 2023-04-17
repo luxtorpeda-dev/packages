@@ -17,6 +17,14 @@ setup_dist_dirs () {
     mkdir -p "$diststart/$ENGINE_NAME"
 }
 
+use_gcc_9 () {
+    apt-get -y install gcc-9 g++-9
+    export CXX='g++-9'
+    export CC='gcc-9'
+    export CMAKE_EXE_LINKER_FLAGS=-fuse-ld=gold
+    export CXXFLAGS='-fuse-ld=gold'
+}
+
 copy_license_file () {
     if [ -z "${LICENSE_PATH}" ]; then
         echo "Warning: license file path is not set."
