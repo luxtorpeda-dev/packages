@@ -1,15 +1,11 @@
 #!/bin/bash
 
-# cmake installed on system fails, so installing same one from before
-wget https://github.com/Kitware/CMake/releases/download/v3.22.5/cmake-3.22.5-linux-x86_64.sh
-chmod +x cmake-3.22.5-linux-x86_64.sh
-./cmake-3.22.5-linux-x86_64.sh --skip-license --prefix=/usr
-
 # CLONE PHASE
 git clone https://github.com/KranX/Perimeter source
 pushd source
 git checkout -f f58b3ae
 git submodule update --init --recursive
+git am < ../patches/0001-fix-for-cmake-error.patch
 popd
 
 # BUILD PHASE

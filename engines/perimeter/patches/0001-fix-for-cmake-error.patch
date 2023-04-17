@@ -1,0 +1,27 @@
+From 109e9c5d432b9867e712beff27f7d6033a9ca795 Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Sat, 15 Apr 2023 22:55:56 -0500
+Subject: [PATCH 1/1] fix for cmake error
+
+---
+ Source/XTool/CMakeLists.txt | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/Source/XTool/CMakeLists.txt b/Source/XTool/CMakeLists.txt
+index 3fb272b3..04de7967 100644
+--- a/Source/XTool/CMakeLists.txt
++++ b/Source/XTool/CMakeLists.txt
+@@ -9,10 +9,6 @@ FetchContent_Declare(gamemath
+ )
+ FetchContent_MakeAvailable(gamemath)
+ 
+-#Workaround for some compilers that not recognize __always_inline
+-target_compile_definitions(gamemath_object_lib PUBLIC -D__always_inline=)
+-target_compile_definitions(gamemath_static_lib PUBLIC -D__always_inline=)
+-
+ INCLUDE_DIRECTORIES(
+     BEFORE .
+     "${gamemath_SOURCE_DIR}/include"
+-- 
+2.40.0
+
