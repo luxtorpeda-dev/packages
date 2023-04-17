@@ -16,6 +16,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     --preset=linux-retail \
     ..
+
 cd ../../buildRetail
 make -j "$(nproc)"
 popd
