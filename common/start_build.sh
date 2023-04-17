@@ -19,6 +19,11 @@ if [ ! -z "${GCC_11}" ]; then
     use_gcc_11
 fi
 
+if [ ! -z "${GCC_8}" ]; then
+    echo "Using gcc 8"
+    use_gcc_8
+fi
+
 gcc --version
 
 if [ ! -z "${LIBRARIES}" ]; then

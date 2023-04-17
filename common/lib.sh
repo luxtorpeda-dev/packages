@@ -35,6 +35,24 @@ use_gcc_11 () {
     export CXX=/usr/local/gcc-11.3.0/bin/g++-11.3
 }
 
+use_gcc_8 () {
+    wget https://github.com/gcc-mirror/gcc/archive/refs/tags/releases/gcc-8.5.0.tar.gz
+    tar xvf gcc-8.5.0.tar.gz
+
+    mkdir gcc-build
+    pushd gcc-build
+    ../gcc-releases-gcc-8.5.0/configure -v --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/usr/local/gcc-8.5.0 --enable-checking=release --enable-languages=c,c++ --disable-multilib --program-suffix=-8.5
+    make -j "$(nproc)"
+    sudo make install-strip
+    popd
+
+    export PATH=/usr/local/gcc-8.5.0/bin:$PATH
+    export LD_LIBRARY_PATH=/usr/local/gcc-8.5.0/lib64:$LD_LIBRARY_PATH
+
+    export CC=/usr/local/gcc-8.5.0/bin/gcc-8.5.0
+    export CXX=/usr/local/gcc-8.5.0/bin/g++-8.5.0
+}
+
 copy_license_file () {
     if [ -z "${LICENSE_PATH}" ]; then
         echo "Warning: license file path is not set."
