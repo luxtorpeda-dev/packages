@@ -30,8 +30,6 @@ use_gcc_11 () {
 
     update-alternatives --install /usr/bin/gcc gcc /home/linuxbrew/.linuxbrew/Cellar/gcc@11/11.3.0/bin/gcc-11 100
     update-alternatives --install /usr/bin/g++ g++ /home/linuxbrew/.linuxbrew/Cellar/gcc@11/11.3.0/bin/g++-11 100
-
-    popd
 }
 
 copy_license_file () {
