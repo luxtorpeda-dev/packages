@@ -17,6 +17,23 @@ setup_dist_dirs () {
     mkdir -p "$diststart/$ENGINE_NAME"
 }
 
+use_gcc_11 () {
+    export NONINTERACTIVE=1
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /root/.profile
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+    brew install gcc@11
+
+    export CC=/home/linuxbrew/.linuxbrew/Cellar/gcc@11/11.3.0/bin/gcc-11
+    export CXX=/home/linuxbrew/.linuxbrew/Cellar/gcc@11/11.3.0/bin/g++-11
+    export LDFLAGS="-Wl,-rpath,/home/linuxbrew/.linuxbrew/Cellar/gcc@11/11.3.0/gcc/11"
+
+    update-alternatives --install /usr/bin/gcc gcc /home/linuxbrew/.linuxbrew/Cellar/gcc@11/11.3.0/bin/gcc-11 100
+    update-alternatives --install /usr/bin/g++ g++ /home/linuxbrew/.linuxbrew/Cellar/gcc@11/11.3.0/bin/g++-11 100
+
+    popd
+}
+
 copy_license_file () {
     if [ -z "${LICENSE_PATH}" ]; then
         echo "Warning: license file path is not set."
