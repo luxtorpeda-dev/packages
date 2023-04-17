@@ -13,14 +13,14 @@ cd build
 cmake \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DSDL2=ON \
-    -DFFMPEG_ROOT="$pfx" \
     -DCMAKE_PREFIX_PATH="$pfx" \
     --preset=linux-retail \
     ..
+cd ../../buildRetail
 make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp "source/build/DoomBFA" "$diststart/208200/dist/DoomBFA"
+cp "source/buildRetail/DoomBFA" "$diststart/208200/dist/DoomBFA"
 cp -rfv ./assets/* "$diststart/208200/dist/"
 cp -rfv ./source/base "$diststart/208200/dist/updatedbase"
