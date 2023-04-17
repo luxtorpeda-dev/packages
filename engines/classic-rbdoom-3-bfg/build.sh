@@ -39,6 +39,5 @@ popd
 cp "source/build/DoomBFA" "$diststart/208200/dist/DoomBFA"
 cp -rfv ./assets/* "$diststart/208200/dist/"
 cp -rfv ./source/base "$diststart/208200/dist/updatedbase"
-
 cp -rfv "/usr/local/lib/libopenal.so.1.21.1" "$diststart/208200/dist/lib/libopenal.so"
 cp -rfv "/usr/local/lib/libopenal.so.1.21.1" "$diststart/208200/dist/lib/libopenal.so.1"
