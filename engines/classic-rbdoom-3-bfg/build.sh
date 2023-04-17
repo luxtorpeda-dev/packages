@@ -31,6 +31,7 @@ cmake \
     -DSDL2=ON \
     -DFFMPEG_ROOT="$pfx" \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DUSE_PRECOMPILED_HEADERS=OFF \
     ../neo
 make -j "$(nproc)"
 popd
