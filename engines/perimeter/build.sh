@@ -20,7 +20,6 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/common/dist/lib"
-
 cp -rfv "$pfx/lib"/*.so* "$diststart/common/dist/lib"
 cp -rfv "$pfx/usr/local/lib/x86_64-linux-gnu"/*.so* "$diststart/common/dist/lib"
 cp -rfv source/build/Source/perimeter "$diststart/common/dist/"
