@@ -1,11 +1,10 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/KranX/Perimeter source
+git clone https://github.com/IonAgorria/Perimeter.git source
 pushd source
-git checkout -f f58b3ae
+git checkout -f 48e3d63
 git submodule update --init --recursive
-git am < ../patches/0001-fix-for-cmake-error.patch
 popd
 
 # BUILD PHASE
@@ -15,7 +14,7 @@ cd build
 cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Release -DOPTION_LINKER_LLD=OFF -DCMAKE_PREFIX_PATH="$pfx" -DCMAKE_INSTALL_PREFIX="$pfx"
 ninja dependencies
 ninja
-cd Source/dxvk-native-prefix/src/dxvk-native-build
+cd Source/dxvk-prefix/src/dxvk-build
 DESTDIR="$pfx" ninja install
 popd
 
