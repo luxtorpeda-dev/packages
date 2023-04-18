@@ -16,10 +16,10 @@ pushd lua
 make MYCFLAGS="$CFLAGS -fPIC" -j "$(nproc)"
 DESTDIR="$pfx" make install
 make install
-popd
 
 cp -rfv /usr/local/lib/liblua.a /usr/lib/
-ln -rsf lua54.pc /usr/lib/pkgconfig/lua.pc
-ln -rsf lua54.pc /usr/lib/pkgconfig/lua5.4.pc
-ln -rsf lua54.pc /usr/lib/pkgconfig/lua-5.4.pc
+ln -rsf lua.pc /usr/lib/pkgconfig/lua.pc
+ln -rsf lua.pc /usr/lib/pkgconfig/lua5.4.pc
+ln -rsf lua.pc /usr/lib/pkgconfig/lua-5.4.pc
 cp -rfv /usr/lib/pkgconfig/* /usr/lib/x86_64-linux-gnu/pkgconfig/
+popd
