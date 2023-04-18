@@ -13,7 +13,7 @@ popd
 
 # BUILD PHASE
 pushd lua
-make -j "$(nproc)"
+make MYCFLAGS="$CFLAGS -fPIC" -j "$(nproc)"
 DESTDIR="$pfx" make install
 make install
 popd
