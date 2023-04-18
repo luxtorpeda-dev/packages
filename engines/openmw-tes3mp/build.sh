@@ -92,6 +92,5 @@ cp -rfv source/build/defaults.bin "$diststart/22320/dist/"
 cp "$tmp/usr/local/etc/openmw/tes3mp-client-default.cfg" "$diststart/22320/dist"
 cp "$tmp/usr/local/etc/openmw/tes3mp-server-default.cfg" "$diststart/22320/dist"
 cp "$tmp/usr/local/etc/openmw/version" "$diststart/22320/dist"
-
 cp -rfv server "$diststart/22320/dist"
 cp -rfv source/tes3mp-credits.md "$diststart/22320/dist"
