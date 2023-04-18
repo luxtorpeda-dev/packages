@@ -33,6 +33,9 @@ use_gcc_11 () {
 
     export CC=/usr/local/gcc-11.3.0/bin/gcc-11.3
     export CXX=/usr/local/gcc-11.3.0/bin/g++-11.3
+
+    rm -rf gcc-build
+    rm -rf gcc-releases-gcc-11.3.0
 }
 
 use_gcc_8 () {
@@ -53,6 +56,9 @@ use_gcc_8 () {
     export CXX=/usr/local/gcc-8.5.0/bin/g++-8.5
 
     mv /usr/local/gcc-8.5.0/lib64/libstdc++.so.6 /usr/local/gcc-8.5.0/lib64/libstdc++.so.6-o
+
+    rm -rf gcc-build
+    rm -rf gcc-releases-gcc-8.5.0
 }
 
 copy_license_file () {
