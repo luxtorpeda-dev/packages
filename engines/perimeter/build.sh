@@ -1,18 +1,13 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/KranX/Perimeter source
+git clone https://github.com/IonAgorria/Perimeter.git source
 pushd source
-git checkout -f f58b3ae
+git checkout -f 48e3d63
 git submodule update --init --recursive
 popd
 
 # BUILD PHASE
-# cmake installed on system fails, so installing same one from before
-wget https://github.com/Kitware/CMake/releases/download/v3.22.5/cmake-3.22.5-linux-x86_64.sh
-chmod +x cmake-3.22.5-linux-x86_64.sh
-./cmake-3.22.5-linux-x86_64.sh --skip-license --prefix=/usr
-
 pushd "source"
 mkdir build
 cd build
