@@ -8269,8 +8269,8 @@
             "controllerNotSupported": true
         },
         "Perimeter": {
-            "engine_link": "https://github.com/KranX/Perimeter",
-            "version": "3.0.10",
+            "engine_link": "https://github.com/IonAgorria/Perimeter",
+            "version": "48e3d63",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
