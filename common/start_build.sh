@@ -14,6 +14,11 @@ echo "APP_IDS=$STEAM_APP_ID_LIST" >> $GITHUB_ENV
 git config --global user.email "actions@github.com"
 git config --global user.name "GitHub Action"
 
+if [ ! -z "${GCC_11}" ]; then
+    echo "Using gcc 11"
+    use_gcc_11
+fi
+
 gcc --version
 
 if [ ! -z "${LIBRARIES}" ]; then
