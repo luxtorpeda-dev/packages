@@ -49,8 +49,10 @@ use_gcc_8 () {
     export PATH=/usr/local/gcc-8.5.0/bin:$PATH
     export LD_LIBRARY_PATH=/usr/local/gcc-8.5.0/lib64:$LD_LIBRARY_PATH
 
-    export CC=/usr/local/gcc-8.5.0/bin/gcc-8.5.0
-    export CXX=/usr/local/gcc-8.5.0/bin/g++-8.5.0
+    export CC=/usr/local/gcc-8.5.0/bin/gcc-8.5
+    export CXX=/usr/local/gcc-8.5.0/bin/g++-8.5
+
+    mv /usr/local/gcc-8.5.0/lib64/libstdc++.so.6 /usr/local/gcc-8.5.0/lib64/libstdc++.so.6-o
 }
 
 copy_license_file () {
