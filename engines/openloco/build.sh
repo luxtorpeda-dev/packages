@@ -28,12 +28,12 @@ cmake --preset linux -DSTRICT=OFF \
     -DOPENLOCO_BUILD_TESTS=OFF \
     -DCMAKE_PREFIX_PATH="$pfx"
 cmake --build --preset linux-release
-cp -rfv data build
+cp -rfv data Release
 popd
 
 # COPY PHASE
 mkdir -p "$diststart/356430/dist/data"
 
-cp -rfv "source/build/OpenLoco" "$diststart/356430/dist/openloco"
-cp -rfv "source/build/data/"* "$diststart/356430/dist/data"
+cp -rfv "source/Release/OpenLoco" "$diststart/356430/dist/openloco"
+cp -rfv "source/Release/data/"* "$diststart/356430/dist/data"
 cp -rfv "assets/run-openloco.sh" "$diststart/356430/dist"
