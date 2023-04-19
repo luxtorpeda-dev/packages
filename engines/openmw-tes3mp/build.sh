@@ -9,6 +9,7 @@ git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
 git checkout -f 6895409
 git submodule update --init --recursive
+git am < ../patches/0001-fix-for-compile-thanks-to-https-github.com-NixOS-nix.patch
 popd
 
 git clone https://github.com/TES3MP/CoreScripts server
@@ -65,7 +66,8 @@ apt-get -y install gcc-9 g++-9
 export CXX='g++-9'
 export CC='gcc-9'
 export CMAKE_EXE_LINKER_FLAGS=-fuse-ld=gold
-export CXXFLAGS='-fuse-ld=gold'
+export CXXFLAGS='-fuse-ld=gold -fpermissive'
+export CFLAGS="-fpermissive"
 
 export OSG_DIR="$pfx/lib64"
 cmake \
