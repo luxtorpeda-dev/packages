@@ -24,8 +24,6 @@ make install
 popd
 
 pushd source
-mkdir build
-cd build
 cmake --preset linux -DSTRICT=OFF \
     -DOPENLOCO_BUILD_TESTS=OFF \
     -DCMAKE_PREFIX_PATH="$pfx" \ ..
