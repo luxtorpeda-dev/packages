@@ -4332,8 +4332,8 @@
         "download": [
             {
                 "name": "cortex-command",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cortex-command-8/",
-                "file": "cortex-command-209670-8.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cortex-command-9/",
+                "file": "cortex-command-209670-9.tar.xz"
             }
         ],
         "download_config": {
