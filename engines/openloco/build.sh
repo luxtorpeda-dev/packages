@@ -26,14 +26,10 @@ popd
 pushd source
 mkdir build
 cd build
-CXXFLAGS="-m32" cmake \
-    -G Ninja \
-    -DSTRICT=OFF \
+cmake --preset linux -DSTRICT=OFF \
     -DOPENLOCO_BUILD_TESTS=OFF \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_BUILD_TYPE=Release \
-    ..
-ninja -k0
+    -DCMAKE_PREFIX_PATH="$pfx" \ ..
+cmake --build --preset linux-release
 cp -rfv ../data .
 popd
 
