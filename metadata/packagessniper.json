@@ -3589,11 +3589,6 @@
                 "name": "openmw-latest",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-latest-5/",
                 "file": "openmw-latest-22320-5.tar.xz"
-            },
-            {
-                "name": "openmw-tes3mp-binaries",
-                "url": "https://github.com/TES3MP/TES3MP/releases/download/tes3mp-0.8.1/",
-                "file": "tes3mp-GNU+Linux-x86_64-release-0.8.1-68954091c5-6da3fdea59.tar.gz"
             }
         ],
         "download_config": {
@@ -3602,10 +3597,6 @@
             },
             "openmw-latest": {
                 "extract_location": "./openmw-latest"
-            },
-            "openmw-tes3mp-binaries": {
-                "extract_location": "./openmw-tes3mp",
-                "strip_prefix": "TES3MP/"
             }
         },
         "choices": [
@@ -3629,8 +3620,7 @@
                 "name": "openmw-tes3mp",
                 "command": "./openmw-tes3mp/tes3mp-launcher.sh",
                 "download": [
-                    "openmw-tes3mp",
-                    "openmw-tes3mp-binaries"
+                    "openmw-tes3mp"
                 ]
             },
             {
@@ -8113,7 +8103,12 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/TES3MP/openmw-tes3mp/blob/292536439eeda58becdb7e441fe2e61ebb74529e/LICENSE",
-            "controllerSupported": true
+            "controllerSupported": true,
+            "notices": [
+                {
+                    "label": "Uses already compiled binaries from project."
+                }
+            ]
         },
         "RBDOOM-3-BFG": {
             "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
