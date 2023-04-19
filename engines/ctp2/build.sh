@@ -6,7 +6,15 @@ pushd source
 git checkout ac46e60
 popd
 
+git clone https://github.com/openSUSE/gtk2-compat.git
+
 # BUILD PHASE
+pushd gtk2-compat
+./autogen.sh
+./configure
+make install
+popd
+
 pushd source
 cp -rfv "EULA - Source Code for CTP2.rtf" "EULA.rtf"
 cp -rfv "Activision CTP2 Source Code_Readme.txt" "Activision_CTP2_Source_Code_Readme.txt"
