@@ -61,14 +61,6 @@ export RAKNET_ROOT="$pfx"
 pushd "source"
 mkdir -p build
 cd build
-
-apt-get -y install gcc-9 g++-9
-export CXX='g++-9'
-export CC='gcc-9'
-export CMAKE_EXE_LINKER_FLAGS=-fuse-ld=gold
-export CXXFLAGS='-fuse-ld=gold -fpermissive'
-export CFLAGS="-fpermissive"
-
 export OSG_DIR="$pfx/lib64"
 cmake \
     -DBUILD_LAUNCHER=ON \
