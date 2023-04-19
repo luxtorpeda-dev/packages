@@ -32,6 +32,6 @@ popd
 
 # COPY PHASE
 mkdir -p "$diststart/356430/dist/data"
-cp -rfv "source/build/linux/Release/OpenLoco" "$diststart/356430/dist/openloco"
+cp -rfv "source/build/linux/Debug/OpenLoco" "$diststart/356430/dist/openloco"
 cp -rfv "source/data/"* "$diststart/356430/dist/data"
 cp -rfv "assets/run-openloco.sh" "$diststart/356430/dist"
