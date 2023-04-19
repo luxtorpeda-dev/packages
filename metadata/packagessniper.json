@@ -8284,7 +8284,7 @@
         },
         "OpenLoco": {
             "engine_link": "https://github.com/OpenLoco/OpenLoco",
-            "version": "v23.03",
+            "version": "9e5cdcc",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
