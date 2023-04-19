@@ -1,8 +1,7 @@
 #!/bin/bash
 
-cp -rfv /usr/local/include/luajit-2.1 /usr/include
-cp -rfv /usr/local/lib/libluajit-5.1* /usr/lib
-cp -rfv /usr/local/lib/pkgconfig/luajit.pc /usr/lib/pkgconfig
+cp -rfv "$pfx/usr/local/lib/"*.so* "$pfx/lib/"
+cp -rfv "$pfx/usr/local/lib/pkgconfig"/* "$pfx/lib/pkgconfig/"
 
 # CLONE PHASE
 git clone https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source.git source
@@ -24,7 +23,8 @@ popd
 # COPY PHASE
 cp -rfv data/* "$diststart/209670/dist/"
 cp -rfv assets/* "$diststart/209670/dist"
-cp source/build/CortexCommand.x86_64 "$diststart/209670/dist"
+
+cp source/build/CortexCommand "$diststart/209670/dist"
 cp -rfv source/external/lib/linux/x86_64/libfmod.so "$diststart/209670/dist/lib/"
 cp -rfv source/external/lib/linux/x86_64/libfmod.so.13 "$diststart/209670/dist/lib/"
 cp -rfv source/external/lib/linux/x86_64/libfmod.so.13.13 "$diststart/209670/dist/lib/"
