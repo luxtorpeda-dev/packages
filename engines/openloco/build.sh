@@ -26,9 +26,9 @@ popd
 pushd source
 cmake --preset linux -DSTRICT=OFF \
     -DOPENLOCO_BUILD_TESTS=OFF \
-    -DCMAKE_PREFIX_PATH="$pfx" \ ..
+    -DCMAKE_PREFIX_PATH="$pfx"
 cmake --build --preset linux-release
-cp -rfv ../data .
+cp -rfv data build
 popd
 
 # COPY PHASE
