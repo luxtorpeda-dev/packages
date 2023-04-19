@@ -22,3 +22,4 @@ cp -rfv /usr/local/lib/liblua.a /usr/lib/
 ln -sf lua54.pc /usr/lib/pkgconfig/lua.pc
 ln -sf lua54.pc /usr/lib/pkgconfig/lua5.4.pc
 ln -sf lua54.pc /usr/lib/pkgconfig/lua-5.4.pc
+cp -rfv $pfx/usr/lib/*.so* /usr/lib
