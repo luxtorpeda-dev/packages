@@ -24,10 +24,10 @@ make install
 popd
 
 pushd source
-cmake --preset linux -DSTRICT=OFF \
+cmake --preset linux \
     -DOPENLOCO_BUILD_TESTS=OFF \
     -DCMAKE_PREFIX_PATH="$pfx"
-cmake --build --preset linux-release
+cmake --build --preset linux-debug
 popd
 
 # COPY PHASE
