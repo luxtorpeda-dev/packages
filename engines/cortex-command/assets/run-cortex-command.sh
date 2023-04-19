@@ -12,4 +12,4 @@ ln -rsf Techion.rte/Devices/Weapons/NanorifleSight.lua Techion.rte/Devices/Weapo
 ln -rsf Techion.rte/Effects/Sounds/NanoshotExplode.wav Techion.rte/Effects/Sounds/NanoShotExplode.wav
 ln -rsf Dummy.rte/Craft/DropShips Dummy.rte/Craft/Dropships
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./CortexCommand.x86_64 "$@"
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./CortexCommand "$@"
