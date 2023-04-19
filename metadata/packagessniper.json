@@ -3589,6 +3589,11 @@
                 "name": "openmw-latest",
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-latest-5/",
                 "file": "openmw-latest-22320-5.tar.xz"
+            },
+            {
+                "name": "openmw-tes3mp-binaries",
+                "url": "https://github.com/TES3MP/TES3MP/releases/download/tes3mp-0.8.1/",
+                "file": "tes3mp-GNU+Linux-x86_64-release-0.8.1-68954091c5-6da3fdea59.tar.gz"
             }
         ],
         "download_config": {
@@ -3597,6 +3602,10 @@
             },
             "openmw-latest": {
                 "extract_location": "./openmw-latest"
+            },
+            "openmw-tes3mp-binaries": {
+                "extract_location": "./openmw-tes3mp",
+                "strip_prefix": "TES3MP/"
             }
         },
         "choices": [
@@ -3620,7 +3629,8 @@
                 "name": "openmw-tes3mp",
                 "command": "./openmw-tes3mp/tes3mp-launcher.sh",
                 "download": [
-                    "openmw-tes3mp"
+                    "openmw-tes3mp",
+                    "openmw-tes3mp-binaries"
                 ]
             },
             {
