@@ -92,6 +92,7 @@ cp "source/files/settings-default.cfg" "$diststart/22320/dist/"
 cp -rfv source/build/defaults.bin "$diststart/22320/dist/"
 cp "$tmp/usr/local/etc/openmw/tes3mp-client-default.cfg" "$diststart/22320/dist"
 cp "$tmp/usr/local/etc/openmw/tes3mp-server-default.cfg" "$diststart/22320/dist"
+
 cp assets/version "$diststart/22320/dist"
 cp assets/version "$diststart/22320/dist/etc/openmw/version"
 cp assets/version "$diststart/22320/dist/share/games/openmw/resources/version"
