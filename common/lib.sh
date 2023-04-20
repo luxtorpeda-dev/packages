@@ -64,6 +64,10 @@ start_apt_libraries () {
 }
 
 start_vcpkg () {
+    # sets up paths
+    export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
+    export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
+
     # clone repo and setup vcpkg
     git clone https://github.com/Microsoft/vcpkg.git vcpkg
     pushd vcpkg
@@ -74,9 +78,36 @@ start_vcpkg () {
     # install vcpkg packages
     ./vcpkg/vcpkg install --overlay-triplets="$ROOT_DIR/custom-triplets" --triplet x64-linux-dynamic
 
-    # sets up library paths for future build steps (create if not there and re-use pfx like before?)
+    # copy libraries to dist
+    if [ -z "${COMMON_PACKAGE}" ]; then
+        for app_id in $1 ; do
+            mkdir -p "$diststart/$app_id/dist/lib"
+            cp -rfv "$VCPKG_INSTALLED_PATH/lib/*.so*" "$diststart/$app_id/dist/lib"
+        done
+    else
+        mkdir -p "$diststart/common/dist/lib"
+        cp -rfv "$VCPKG_INSTALLED_PATH/lib/*.so*" "$diststart/common/dist/lib"
+    fi
 
-    # copy license files (see apt libraries)
+    # copy license files to dist
+    pushd "$VCPKG_INSTALLED_PATH/share"
+    for library_name in */ ; do
+        echo "Copying license for $library_name"
+        if [ -z "${COMMON_PACKAGE}" ]; then
+            for app_id in $STEAM_APP_ID_LIST ; do
+                mkdir -p "$diststart/$app_id/dist/license/"
+                if [ -f "$library_name/copyright" ]; then
+                    cp -rfv "$library_name/copyright" "$diststart/$app_id/dist/license/$library_name.license"
+                fi
+            done
+        else
+            mkdir -p "$diststart/common/dist/license/"
+            if [ -f "$library_name/copyright" ]; then
+                cp -rfv "$library_name/copyright" "$diststart/common/dist/license/$library_name.license"
+            fi
+        fi
+    done
+    popd
 }
 
 copy_license_file () {
