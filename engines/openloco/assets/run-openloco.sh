@@ -4,6 +4,7 @@ if [ ! -f ~/.config/OpenLoco/openloco.yml ]
 then
     mkdir -p ~/.config/OpenLoco
     echo "loco_install_path: ./" > ~/.config/OpenLoco/openloco.yml
+    echo "shortcuts: null" >> ~/.config/OpenLoco/openloco.yml
 
     if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
         echo "display:" >> ~/.config/OpenLoco/openloco.yml
