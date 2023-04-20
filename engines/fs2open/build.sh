@@ -23,4 +23,5 @@ popd
 
 # COPY PHASE
 cp -rfv "source/build/bin/fs2_open_22_2_0_x64" "$diststart/273620/dist/fs2_open_x64"
+
 cp -rfv "assets/run-freespace2.sh" "$diststart/273620/dist/run-freespace2.sh"
