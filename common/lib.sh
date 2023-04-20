@@ -18,11 +18,10 @@ setup_dist_dirs () {
 }
 
 use_gcc_9 () {
-   apt-get -y install gcc-9 g++-9
+    apt-get -y install gcc-9 g++-9
     export CXX='g++-9'
     export CC='gcc-9'
-    export CXXFLAGS='-fpermissive'
-    export CFLAGS="-fpermissive"
+    export CXXFLAGS="-fpermissive"
 }
 
 use_gcc_11 () {
