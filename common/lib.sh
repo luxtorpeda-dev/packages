@@ -80,7 +80,7 @@ start_vcpkg () {
 
     # copy libraries to dist
     if [ -z "${COMMON_PACKAGE}" ]; then
-        for app_id in $1 ; do
+        for app_id in $STEAM_APP_ID_LIST ; do
             mkdir -p "$diststart/$app_id/dist/lib"
             cp -rfv "$VCPKG_INSTALLED_PATH/lib/*.so*" "$diststart/$app_id/dist/lib"
         done
@@ -108,6 +108,17 @@ start_vcpkg () {
         fi
     done
     popd
+
+    # copy vcpkg license
+    if [ -z "${COMMON_PACKAGE}" ]; then
+        for app_id in $STEAM_APP_ID_LIST ; do
+            mkdir -p "$diststart/$app_id/dist/license/"
+            cp -rfv vcpkg/LICENSE.txt "$diststart/$app_id/dist/license/vcpkg.license"
+        done
+    else
+        mkdir -p "$diststart/common/dist/license"
+        cp -rfv vcpkg/LICENSE.txt "$diststart/common/dist/license/vcpkg.license"
+    fi
 }
 
 copy_license_file () {
