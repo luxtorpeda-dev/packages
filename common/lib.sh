@@ -82,11 +82,11 @@ start_vcpkg () {
     if [ -z "${COMMON_PACKAGE}" ]; then
         for app_id in $STEAM_APP_ID_LIST ; do
             mkdir -p "$diststart/$app_id/dist/lib"
-            cp -rfv "$VCPKG_INSTALLED_PATH/lib/*.so*" "$diststart/$app_id/dist/lib"
+            cp -rfv "$VCPKG_INSTALLED_PATH/lib/"*.so* "$diststart/$app_id/dist/lib"
         done
     else
         mkdir -p "$diststart/common/dist/lib"
-        cp -rfv "$VCPKG_INSTALLED_PATH/lib/*.so*" "$diststart/common/dist/lib"
+        cp -rfv "$VCPKG_INSTALLED_PATH/lib/"*.so* "$diststart/common/dist/lib"
     fi
 
     # copy license files to dist
