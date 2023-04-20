@@ -8,7 +8,7 @@ popd
 
 # BUILD PHASE
 pushd luajit
-make BUILDMODE=dynamic -j "$(nproc)"
-DESTDIR="$pfx" make BUILDMODE=dynamic install
-make BUILDMODE=dynamic install
+make BUILDMODE=dynamic amalg -j "$(nproc)"
+DESTDIR="$pfx" make install
+make install
 popd

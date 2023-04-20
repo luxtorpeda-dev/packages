@@ -87,7 +87,6 @@ cp -rfv "$pfx/"lib/*.so* "$diststart/22320/dist/lib/"
 cp -rfv "$pfx/lib/"osgPlugins-* "$diststart/22320/dist/lib/"
 cp -rfv "$tmp/usr/local/"{etc,share} "$diststart/22320/dist/"
 cp -rfv "$tmp/usr/local/bin/"* "$diststart/22320/dist/"
-
 cp "assets/tes3mp-launcher.sh" "$diststart/22320/dist/"
 cp "source/files/settings-default.cfg" "$diststart/22320/dist/"
 cp -rfv source/build/defaults.bin "$diststart/22320/dist/"
