@@ -72,7 +72,7 @@ cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DRakNet_LIBRARY_DEBUG="$pfx/lib/libRakNetLibStatic.a" \
     -DLuaJit_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
-    -DLuaJit_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.a" \
+    -DLuaJit_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.so" \
     -DCMAKE_CXX_FLAGS="-fpermissive" \
     -DCallFF_INCLUDES="$pstart/callff/include" \
     -DCallFF_LIBRARY="$pstart/callff/build/src/libcallff.a" \
