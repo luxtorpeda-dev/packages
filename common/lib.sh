@@ -91,7 +91,8 @@ start_vcpkg () {
 
     # copy license files to dist
     pushd "$VCPKG_INSTALLED_PATH/share"
-    for library_name in */ ; do
+    for d in */ ; do
+        library_name=${d::-1}
         echo "Copying license for $library_name"
         if [ -z "${COMMON_PACKAGE}" ]; then
             for app_id in $STEAM_APP_ID_LIST ; do
