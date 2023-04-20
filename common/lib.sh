@@ -17,6 +17,13 @@ setup_dist_dirs () {
     mkdir -p "$diststart/$ENGINE_NAME"
 }
 
+use_gcc_9 () {
+    apt-get -y install gcc-9 g++-9
+    export CXX='g++-9'
+    export CC='gcc-9'
+    export CXXFLAGS="-fpermissive"
+}
+
 use_gcc_11 () {
     wget https://github.com/gcc-mirror/gcc/archive/refs/tags/releases/gcc-11.3.0.tar.gz
     tar xvf gcc-11.3.0.tar.gz

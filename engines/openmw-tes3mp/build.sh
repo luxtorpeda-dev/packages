@@ -9,6 +9,7 @@ git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
 git checkout -f 6895409
 git submodule update --init --recursive
+git am < ../patches/0001-fix-for-compile-thanks-to-https-github.com-NixOS-nix.patch
 popd
 
 git clone https://github.com/TES3MP/CoreScripts server
@@ -71,7 +72,7 @@ cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DRakNet_LIBRARY_DEBUG="$pfx/lib/libRakNetLibStatic.a" \
     -DLuaJit_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
-    -DLuaJit_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.a" \
+    -DLuaJit_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.so" \
     -DCMAKE_CXX_FLAGS="-fpermissive" \
     -DCallFF_INCLUDES="$pstart/callff/include" \
     -DCallFF_LIBRARY="$pstart/callff/build/src/libcallff.a" \
@@ -91,7 +92,8 @@ cp "source/files/settings-default.cfg" "$diststart/22320/dist/"
 cp -rfv source/build/defaults.bin "$diststart/22320/dist/"
 cp "$tmp/usr/local/etc/openmw/tes3mp-client-default.cfg" "$diststart/22320/dist"
 cp "$tmp/usr/local/etc/openmw/tes3mp-server-default.cfg" "$diststart/22320/dist"
-cp "$tmp/usr/local/etc/openmw/version" "$diststart/22320/dist"
-
+cp assets/version "$diststart/22320/dist"
+cp assets/version "$diststart/22320/dist/etc/openmw/version"
+cp assets/version "$diststart/22320/dist/share/games/openmw/resources/version"
 cp -rfv server "$diststart/22320/dist"
 cp -rfv source/tes3mp-credits.md "$diststart/22320/dist"
