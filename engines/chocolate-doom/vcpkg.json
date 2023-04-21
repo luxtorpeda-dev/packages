@@ -4,7 +4,7 @@
         "fluidsynth"
     ],
     "overrides": [
-        { "name": "fluidsynth", "version": "2.3.2" }
+        { "name": "fluidsynth", "version": "2.3.1" }
     ],
     "builtin-baseline": "501db0f17ef6df184fcdbfbe0f87cde2313b6ab1"
 }
