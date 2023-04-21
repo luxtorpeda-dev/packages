@@ -1,8 +1,5 @@
 #!/bin/bash
 
-cp -rfv "$pfx/usr/local/lib/"*.so* "$pfx/lib/"
-cp -rfv "$pfx/usr/local/lib/pkgconfig"/* "$pfx/lib/pkgconfig/"
-
 # CLONE PHASE
 git clone https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source.git source
 pushd source
@@ -16,7 +13,7 @@ popd
 
 # BUILD PHASE
 pushd source
-BOOST_ROOT="$pfx" meson build
+meson build
 ninja -C build
 popd
 
