@@ -2,6 +2,7 @@
 
 export ENGINE_NAME="$1"
 source common/lib.sh
+export ROOT_DIR="$PWD"
 
 pushd "engines/$ENGINE_NAME"
 
@@ -36,25 +37,12 @@ fi
 
 if [ ! -z "${APT_LIBRARIES}" ]; then
     echo "Found apt libraries to install $APT_LIBRARIES"
-    for library_name in $APT_LIBRARIES ; do
-        echo "Installing $library_name"
-        apt-get -y install "$library_name"
-        echo "Copying license file for $library_name"
-        if [ -z "${COMMON_PACKAGE}" ]; then
-            for app_id in $STEAM_APP_ID_LIST ; do
-                mkdir -p "$diststart/$app_id/dist/license/"
-                if [ -f "/usr/share/doc/$library_name/copyright" ]; then
-                    cp -rfv "/usr/share/doc/$library_name/copyright" "$diststart/$app_id/dist/license/$library_name.license"
-                fi
-            done
-        else
-            mkdir -p "$diststart/common/dist/license/"
-            if [ -f "/usr/share/doc/$library_name/copyright" ]; then
-                cp -rfv "/usr/share/doc/$library_name/copyright" "$diststart/common/dist/license/$library_name.license"
-            fi
-        fi
+    start_apt_libraries $APT_LIBRARIES
+fi
 
-    done
+if [ -f "vcpkg.json" ]; then
+    echo "Found vcpkg.json, starting vcpkg"
+    start_vcpkg
 fi
 
 source ./build.sh

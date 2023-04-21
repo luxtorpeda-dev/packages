@@ -42,6 +42,86 @@ use_gcc_11 () {
     export CXX=/usr/local/gcc-11.3.0/bin/g++-11.3
 }
 
+start_apt_libraries () {
+    for library_name in $1 ; do
+        echo "Installing $library_name"
+        apt-get -y install "$library_name"
+        echo "Copying license file for $library_name"
+        if [ -z "${COMMON_PACKAGE}" ]; then
+            for app_id in $STEAM_APP_ID_LIST ; do
+                mkdir -p "$diststart/$app_id/dist/license/"
+                if [ -f "/usr/share/doc/$library_name/copyright" ]; then
+                    cp -rfv "/usr/share/doc/$library_name/copyright" "$diststart/$app_id/dist/license/$library_name.license"
+                fi
+            done
+        else
+            mkdir -p "$diststart/common/dist/license/"
+            if [ -f "/usr/share/doc/$library_name/copyright" ]; then
+                cp -rfv "/usr/share/doc/$library_name/copyright" "$diststart/common/dist/license/$library_name.license"
+            fi
+        fi
+    done
+}
+
+start_vcpkg () {
+    # sets up paths
+    export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
+    export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
+
+    # clone repo and setup vcpkg
+    git clone https://github.com/Microsoft/vcpkg.git vcpkg
+    pushd vcpkg
+    git checkout -f 2023.04.15
+    popd
+    ./vcpkg/bootstrap-vcpkg.sh
+
+    # install vcpkg packages
+    ./vcpkg/vcpkg install --overlay-triplets="$ROOT_DIR/custom-triplets" --triplet x64-linux-dynamic
+
+    # copy libraries to dist
+    if [ -z "${COMMON_PACKAGE}" ]; then
+        for app_id in $STEAM_APP_ID_LIST ; do
+            mkdir -p "$diststart/$app_id/dist/lib"
+            cp -rfv "$VCPKG_INSTALLED_PATH/lib/"*.so* "$diststart/$app_id/dist/lib"
+        done
+    else
+        mkdir -p "$diststart/common/dist/lib"
+        cp -rfv "$VCPKG_INSTALLED_PATH/lib/"*.so* "$diststart/common/dist/lib"
+    fi
+
+    # copy license files to dist
+    pushd "$VCPKG_INSTALLED_PATH/share"
+    for d in */ ; do
+        library_name=${d::-1}
+        echo "Copying license for $library_name"
+        if [ -z "${COMMON_PACKAGE}" ]; then
+            for app_id in $STEAM_APP_ID_LIST ; do
+                mkdir -p "$diststart/$app_id/dist/license/"
+                if [ -f "$library_name/copyright" ]; then
+                    cp -rfv "$library_name/copyright" "$diststart/$app_id/dist/license/$library_name.license"
+                fi
+            done
+        else
+            mkdir -p "$diststart/common/dist/license/"
+            if [ -f "$library_name/copyright" ]; then
+                cp -rfv "$library_name/copyright" "$diststart/common/dist/license/$library_name.license"
+            fi
+        fi
+    done
+    popd
+
+    # copy vcpkg license
+    if [ -z "${COMMON_PACKAGE}" ]; then
+        for app_id in $STEAM_APP_ID_LIST ; do
+            mkdir -p "$diststart/$app_id/dist/license/"
+            cp -rfv vcpkg/LICENSE.txt "$diststart/$app_id/dist/license/vcpkg.license"
+        done
+    else
+        mkdir -p "$diststart/common/dist/license"
+        cp -rfv vcpkg/LICENSE.txt "$diststart/common/dist/license/vcpkg.license"
+    fi
+}
+
 copy_license_file () {
     if [ -z "${LICENSE_PATH}" ]; then
         echo "Warning: license file path is not set."
