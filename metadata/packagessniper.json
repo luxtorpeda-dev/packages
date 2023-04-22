@@ -8523,7 +8523,7 @@
         },
         "doom-retro": {
             "engine_link": "https://github.com/bradharding/doomretro",
-            "version": "4.9",
+            "version": "4.9.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
