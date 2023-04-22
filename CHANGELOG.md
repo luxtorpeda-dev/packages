@@ -1,3 +1,7 @@
+### 63.1 (2023-04-22)
+
+* doom-retro - Update to 4.9.1
+
 ### 63.0 (2023-04-13)
 
 * Re-build engines using Steam Linux Runtime - Sniper
