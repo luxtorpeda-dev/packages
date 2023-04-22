@@ -32,6 +32,9 @@ vcpkg_cmake_install()
 vcpkg_copy_pdbs()
 
 vcpkg_cmake_config_fixup(PACKAGE_NAME unofficial-lua CONFIG_PATH share/unofficial-lua)
+
+configure_file ("${CMAKE_CURRENT_LIST_DIR}/lua.pc.in" "${PROJECT_BINARY_DIR}/lua.pc" @ONLY)
+install (FILES "${CMAKE_CURRENT_BINARY_DIR}/lua.pc" DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig")
 vcpkg_fixup_pkgconfig()
 
 if("cpp" IN_LIST FEATURES)

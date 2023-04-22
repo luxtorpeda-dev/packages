@@ -115,6 +115,3 @@ IF (NOT SKIP_INSTALL_HEADERS)
         INSTALL(FILES src/lua.hpp DESTINATION include)
     ENDIF ()
 ENDIF ()
-
-configure_file ("${CMAKE_CURRENT_LIST_DIR}/lua.pc.in" "${PROJECT_BINARY_DIR}/lua.pc" @ONLY)
-install (FILES "${CMAKE_CURRENT_BINARY_DIR}/lua.pc" DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig")
