@@ -93,7 +93,7 @@ IF (INSTALL_TOOLS)
                 TARGET_INCLUDE_DIRECTORIES (luai PUBLIC /usr/include/edit)
             ENDIF ()
         ENDIF ()
-        
+
         IF (LIB_MATH)
             TARGET_LINK_LIBRARIES (luac m)
         ENDIF ()
@@ -116,5 +116,5 @@ IF (NOT SKIP_INSTALL_HEADERS)
     ENDIF ()
 ENDIF ()
 
-configure_file ("lua.pc.in" "${PROJECT_BINARY_DIR}/lua.pc" @ONLY)
+configure_file ("${CMAKE_CURRENT_LIST_DIR}/lua.pc.in" "${PROJECT_BINARY_DIR}/lua.pc" @ONLY)
 install (FILES "${CMAKE_CURRENT_BINARY_DIR}/lua.pc" DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig")
