@@ -21,6 +21,7 @@ popd
 cp -rfv data/* "$diststart/209670/dist/"
 cp -rfv assets/* "$diststart/209670/dist"
 cp source/build/CortexCommand "$diststart/209670/dist"
+
 cp -rfv source/external/lib/linux/x86_64/libfmod.so "$diststart/209670/dist/lib/"
 cp -rfv source/external/lib/linux/x86_64/libfmod.so.13 "$diststart/209670/dist/lib/"
 cp -rfv source/external/lib/linux/x86_64/libfmod.so.13.13 "$diststart/209670/dist/lib/"
