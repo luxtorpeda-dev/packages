@@ -76,7 +76,7 @@ start_vcpkg () {
 
     # patch vcpkg
     echo "looping through vcpkg patches in $VCPKG_PATCH_DIR"
-    for filename in $VCPKG_PATCH_DIR; do
+    for filename in $VCPKG_PATCH_DIR/*.patch; do
         git am < "$VCPKG_PATCH_DIR/$filename"
     done
     popd
