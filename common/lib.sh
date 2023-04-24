@@ -67,7 +67,7 @@ start_vcpkg () {
     # sets up paths
     export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
     export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
-    export VCPKG_PATCH_DIR="$ROOT_DIR/patches"
+    export VCPKG_PATCH_DIR="$ROOT_DIR/common/vcpkg_support/patches"
 
     # clone repo and setup vcpkg
     git clone https://github.com/Microsoft/vcpkg.git vcpkg
@@ -86,7 +86,7 @@ start_vcpkg () {
     git clone https://github.com/luxtorpeda-dev/steam-runtime-vcpkg-system-overlay.git overlays
 
     # install vcpkg packages
-    ./vcpkg/vcpkg install --overlay-triplets="$ROOT_DIR/custom-triplets" --triplet x64-linux-dynamic --overlay-ports="$PWD/overlays/overlays"
+    ./vcpkg/vcpkg install --triplet x64-linux-dynamic --overlay-ports="$PWD/overlays/overlays"
 
     # copy libraries to dist
     if [ -z "${COMMON_PACKAGE}" ]; then
