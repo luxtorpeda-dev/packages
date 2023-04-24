@@ -67,11 +67,18 @@ start_vcpkg () {
     # sets up paths
     export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
     export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
+    export VCPKG_PATCH_DIR="$ROOT_DIR/patches"
 
     # clone repo and setup vcpkg
     git clone https://github.com/Microsoft/vcpkg.git vcpkg
     pushd vcpkg
     git checkout -f 2023.04.15
+
+    # patch vcpkg
+    echo "looping through vcpkg patches in $VCPKG_PATCH_DIR"
+    for filename in $VCPKG_PATCH_DIR; do
+        git am < "$VCPKG_PATCH_DIR/$filename"
+    done
     popd
     ./vcpkg/bootstrap-vcpkg.sh
 
