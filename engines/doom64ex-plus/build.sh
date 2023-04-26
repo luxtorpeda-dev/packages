@@ -15,6 +15,5 @@ popd
 # COPY PHASE
 cp -rfv source/src/engine/DOOM64EX-Plus "$diststart/1148590/dist/"
 cp -rfv assets/* "$diststart/1148590/dist/"
-
 cp -rfv source/doomsnd.sf2 "$diststart/1148590/dist/"
 cp -rfv source/doom64ex-plus.wad "$diststart/1148590/dist/"
