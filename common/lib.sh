@@ -67,26 +67,18 @@ start_vcpkg () {
     # sets up paths
     export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
     export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
-    export VCPKG_PATCH_DIR="$ROOT_DIR/common/vcpkg_support/patches"
 
     # clone repo and setup vcpkg
     git clone https://github.com/Microsoft/vcpkg.git vcpkg
     pushd vcpkg
     git checkout -f 2023.04.15
-
-    # patch vcpkg
-    echo "looping through vcpkg patches in $VCPKG_PATCH_DIR"
-    for filename in $VCPKG_PATCH_DIR/*.patch; do
-        git am < "$filename"
-    done
-    popd
     ./vcpkg/bootstrap-vcpkg.sh
 
     # clone overlay repo
     git clone https://github.com/luxtorpeda-dev/steam-runtime-vcpkg-system-overlay.git overlays
 
     # install vcpkg packages
-    ./vcpkg/vcpkg install --triplet x64-linux-dynamic --overlay-ports="$PWD/overlays/overlays"
+    ./vcpkg/vcpkg install --triplet x64-linux-dynamic --overlay-ports="$PWD/overlays/overlays" --overlay-ports="$ROOT_DIR/common/vcpkg_support/library_overlays"
 
     # copy libraries to dist
     if [ -z "${COMMON_PACKAGE}" ]; then
