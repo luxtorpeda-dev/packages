@@ -5384,19 +5384,6 @@
         "engine_name": "scummvm",
         "cloudAvailable": true
     },
-    "356430": {
-        "game_name": "Chris Sawyer's Locomotion™",
-        "download": [
-            {
-                "name": "openloco",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-26/",
-                "file": "openloco-356430-26.tar.xz"
-            }
-        ],
-        "command": "./run-openloco.sh",
-        "engine_name": "OpenLoco",
-        "cloudNotAvailable": true
-    },
     "358190": {
         "game_name": "Blake Stone: Aliens of Gold",
         "download": [
@@ -8276,23 +8263,6 @@
             "license": "GPLv3",
             "license_link": "https://github.com/KranX/Perimeter/blob/cmake/LICENSE",
             "notices": [
-                {
-                    "key": "in_progress"
-                }
-            ],
-            "controllerNotSupported": true
-        },
-        "OpenLoco": {
-            "engine_link": "https://github.com/OpenLoco/OpenLoco",
-            "version": "v23.03",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "MIT",
-            "license_link": "https://github.com/OpenLoco/OpenLoco/blob/master/LICENSE",
-            "notices": [
-                {
-                    "key": "32_bit"
-                },
                 {
                     "key": "in_progress"
                 }
