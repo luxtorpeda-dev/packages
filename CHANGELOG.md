@@ -1,3 +1,7 @@
+### 63.1 (2023-04-22)
+
+* doom-retro - Update to 4.9.1
+
 ### 63.0 (2023-04-13)
 
 * Re-build engines using Steam Linux Runtime - Sniper
@@ -39,6 +43,7 @@
 * runescape - Update to 2.2.11
 * commander-genius - Automatically download catalogue
 * doom-retro - Update to 4.9
+* DOOM64EX+ - Update to 3.6.5.7
 
 ### 61.7 (2023-03-27)
 

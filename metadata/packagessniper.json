@@ -308,8 +308,8 @@
             },
             {
                 "name": "chocolate-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-6/",
-                "file": "chocolate-doom-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-7/",
+                "file": "chocolate-doom-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -326,8 +326,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-19/",
-                "file": "doom-retro-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-21/",
+                "file": "doom-retro-common-21.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -584,8 +584,8 @@
             },
             {
                 "name": "chocolate-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-6/",
-                "file": "chocolate-doom-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-7/",
+                "file": "chocolate-doom-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -602,8 +602,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-19/",
-                "file": "doom-retro-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-21/",
+                "file": "doom-retro-common-21.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -899,8 +899,8 @@
             },
             {
                 "name": "chocolate-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-6/",
-                "file": "chocolate-doom-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-7/",
+                "file": "chocolate-doom-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -917,8 +917,8 @@
             },
             {
                 "name": "doom-retro",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-19/",
-                "file": "doom-retro-common-19.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-21/",
+                "file": "doom-retro-common-21.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -2115,8 +2115,8 @@
             },
             {
                 "name": "chocolate-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-6/",
-                "file": "chocolate-doom-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-7/",
+                "file": "chocolate-doom-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -2133,8 +2133,8 @@
             },
             {
                 "name": "crispy-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-6/",
-                "file": "crispy-doom-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-7/",
+                "file": "crispy-doom-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -2314,8 +2314,8 @@
             },
             {
                 "name": "crispy-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-6/",
-                "file": "crispy-doom-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-7/",
+                "file": "crispy-doom-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -2456,8 +2456,8 @@
             },
             {
                 "name": "chocolate-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-6/",
-                "file": "chocolate-doom-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-7/",
+                "file": "chocolate-doom-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -2480,8 +2480,8 @@
             },
             {
                 "name": "crispy-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-6/",
-                "file": "crispy-doom-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-7/",
+                "file": "crispy-doom-common-7.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -3582,8 +3582,8 @@
             },
             {
                 "name": "openmw-tes3mp",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-7/",
-                "file": "openmw-tes3mp-22320-7.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-8/",
+                "file": "openmw-tes3mp-22320-8.tar.xz"
             },
             {
                 "name": "openmw-latest",
@@ -4332,8 +4332,8 @@
         "download": [
             {
                 "name": "cortex-command",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cortex-command-9/",
-                "file": "cortex-command-209670-9.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cortex-command-11/",
+                "file": "cortex-command-209670-11.tar.xz"
             }
         ],
         "download_config": {
@@ -5082,8 +5082,8 @@
         "download": [
             {
                 "name": "fs2open",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-27/",
-                "file": "fs2open-273620-27.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/fs2open-28/",
+                "file": "fs2open-273620-28.tar.xz"
             }
         ],
         "command": "./run-freespace2.sh",
@@ -5383,19 +5383,6 @@
         "command": "./scum/run-scummvm-one-up.sh",
         "engine_name": "scummvm",
         "cloudAvailable": true
-    },
-    "356430": {
-        "game_name": "Chris Sawyer's Locomotion™",
-        "download": [
-            {
-                "name": "openloco",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openloco-26/",
-                "file": "openloco-356430-26.tar.xz"
-            }
-        ],
-        "command": "./run-openloco.sh",
-        "engine_name": "OpenLoco",
-        "cloudNotAvailable": true
     },
     "358190": {
         "game_name": "Blake Stone: Aliens of Gold",
@@ -6379,8 +6366,8 @@
         "download": [
             {
                 "name": "doom64ex-plus",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom64ex-plus-6/",
-                "file": "doom64ex-plus-1148590-6.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom64ex-plus-9/",
+                "file": "doom64ex-plus-1148590-9.tar.xz"
             }
         ],
         "engine_name": "Doom64EX-Plus",
@@ -8523,7 +8510,7 @@
         },
         "doom-retro": {
             "engine_link": "https://github.com/bradharding/doomretro",
-            "version": "4.9",
+            "version": "4.9.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -8762,7 +8749,7 @@
         },
         "Doom64EX-Plus": {
             "engine_link": "https://github.com/atsb/Doom64EX-Plus",
-            "version": "3.6.5.5",
+            "version": "3.6.5.7",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
