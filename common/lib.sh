@@ -67,7 +67,6 @@ start_vcpkg () {
     # sets up paths
     export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
     export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
-    export PATH="$PATH:$VCPKG_INSTALLED_PATH/bin"
 
     # clone repo and setup vcpkg
     git clone https://github.com/Microsoft/vcpkg.git vcpkg
@@ -81,9 +80,6 @@ start_vcpkg () {
 
     # install vcpkg packages
     ./vcpkg/vcpkg install --overlay-triplets="$ROOT_DIR/custom-triplets" --triplet x64-linux-dynamic --overlay-ports="$PWD/overlays/overlays"
-
-    # make bin files exec
-    for FILE in $VCPKG_INSTALLED_PATH/bin/*; do chmod +x $FILE; done
 
     # copy libraries to dist
     if [ -z "${COMMON_PACKAGE}" ]; then
