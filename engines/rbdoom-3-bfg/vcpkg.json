@@ -1,10 +1,10 @@
 {
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
     "dependencies": [
-        "ffmpeg"
+        "directx-dxc"
     ],
     "overrides": [
-        { "name": "ffmpeg", "version": "5.1.2" }
+        { "name": "directx-dxc", "version": "2023-03-01" }
     ],
     "builtin-baseline": "501db0f17ef6df184fcdbfbe0f87cde2313b6ab1"
 }
