@@ -82,6 +82,9 @@ start_vcpkg () {
     # install vcpkg packages
     ./vcpkg/vcpkg install --overlay-triplets="$ROOT_DIR/custom-triplets" --triplet x64-linux-dynamic --overlay-ports="$PWD/overlays/overlays"
 
+    # make bin files exec
+    for FILE in $VCPKG_INSTALLED_PATH/bin/*; do chmod +x $FILE; done
+
     # copy libraries to dist
     if [ -z "${COMMON_PACKAGE}" ]; then
         for app_id in $STEAM_APP_ID_LIST ; do
