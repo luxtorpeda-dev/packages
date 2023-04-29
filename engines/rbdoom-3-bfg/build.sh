@@ -33,5 +33,5 @@ popd
 
 # COPY PHASE
 cp "source/build/RBDoom3BFG" "$diststart/208200/dist/RBDoom3BFG"
-cp "source/base" "$diststart/208200/dist/"
+cp -rfv "source/base" "$diststart/208200/dist/"
 cp -rfv ./assets/run-rbdoom-3-bfg.sh "$diststart/208200/dist/"
