@@ -1,12 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
     "dependencies": [
-        "fluidsynth",
+        { "name": "fluidsynth", "features": ["pulseaudio"] },
         { "name": "sdl2-mixer", "features": ["fluidsynth"] }
-    ],
-    "overrides": [
-        { "name": "fluidsynth", "version": "2.3.1" },
-        { "name": "sdl2-mixer", "version": "2.6.3" }
-    ],
-    "builtin-baseline": "501db0f17ef6df184fcdbfbe0f87cde2313b6ab1"
+    ]
 }
