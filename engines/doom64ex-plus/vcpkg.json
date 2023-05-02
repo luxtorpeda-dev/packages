@@ -2,9 +2,5 @@
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
     "dependencies": [
         { "name": "fluidsynth", "features": ["pulseaudio"] }
-    ],
-    "overrides": [
-        { "name": "fluidsynth", "version": "2.3.1" }
-    ],
-    "builtin-baseline": "501db0f17ef6df184fcdbfbe0f87cde2313b6ab1"
+    ]
 }
