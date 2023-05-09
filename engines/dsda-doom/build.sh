@@ -13,6 +13,7 @@ cd build
 cmake \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_TOOLCHAIN_FILE="$VCPKG_SRC_PATH/scripts/buildsystems/vcpkg.cmake" \
     ..
 make -j "$(nproc)"
 popd
