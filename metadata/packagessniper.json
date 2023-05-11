@@ -362,8 +362,8 @@
             },
             {
                 "name": "dsda-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dsda-doom-2/",
-                "file": "dsda-doom-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dsda-doom-3/",
+                "file": "dsda-doom-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -626,8 +626,8 @@
             },
             {
                 "name": "dsda-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dsda-doom-2/",
-                "file": "dsda-doom-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dsda-doom-3/",
+                "file": "dsda-doom-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -953,8 +953,8 @@
             },
             {
                 "name": "dsda-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dsda-doom-2/",
-                "file": "dsda-doom-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dsda-doom-3/",
+                "file": "dsda-doom-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -2492,8 +2492,8 @@
             },
             {
                 "name": "dsda-doom",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dsda-doom-2/",
-                "file": "dsda-doom-common-2.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dsda-doom-3/",
+                "file": "dsda-doom-common-3.tar.xz",
                 "cache_by_name": true
             }
         ],
