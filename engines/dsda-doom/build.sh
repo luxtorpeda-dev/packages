@@ -12,7 +12,7 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
-    -DCMAKE_TOOLCHAIN_FILE="$VCPKG_SRC_PATH/scripts/buildsystems/vcpkg.cmake" \
+    -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH" \
     ..
 make -j "$(nproc)"
 popd
