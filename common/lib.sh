@@ -72,7 +72,7 @@ start_vcpkg () {
     # clone repo and setup vcpkg
     git clone https://github.com/Microsoft/vcpkg.git vcpkg
     pushd vcpkg
-    git checkout -f a5d91f7
+    git checkout -f c43c0076773fb0b72c6703254653788fc8238026
     popd
 
     ./vcpkg/bootstrap-vcpkg.sh
