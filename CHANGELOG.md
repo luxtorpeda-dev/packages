@@ -1,6 +1,8 @@
 ### 63.1 (2023-04-22)
 
 * doom-retro - Update to 4.9.1
+* RBDOOM-3-BFG - Update to 1.5.0
+* openrct2 - Update to 0.4.5
 
 ### 63.0 (2023-04-13)
 

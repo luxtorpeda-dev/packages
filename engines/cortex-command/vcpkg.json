@@ -9,16 +9,5 @@
         "luajit",
         "lz4",
         "allegro5"
-    ],
-    "overrides": [
-        { "name": "boost-program-options", "version": "1.82.0" },
-        { "name": "boost-filesystem", "version": "1.82.0" },
-        { "name": "boost-system", "version": "1.82.0" },
-        { "name": "boost-iostreams", "version": "1.82.0" },
-        { "name": "boost-locale", "version": "1.82.0" },
-        { "name": "luajit", "version": "2023-01-04" },
-        { "name": "lz4", "version": "1.9.4" },
-        { "name": "allegro5", "version": "5.2.6.0" }
-    ],
-    "builtin-baseline": "501db0f17ef6df184fcdbfbe0f87cde2313b6ab1"
+    ]
 }
