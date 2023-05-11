@@ -21,4 +21,5 @@ popd
 # COPY PHASE
 cp -rfv "source/prboom2/build/dsda-doom" "$diststart/common/dist/"
 cp -rfv "source/prboom2/build/dsda-doom.wad" "$diststart/common/dist/"
+
 cp -rfv "assets/run-dsda-doom.sh" "$diststart/common/dist/"
