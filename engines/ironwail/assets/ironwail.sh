@@ -90,7 +90,6 @@ then
         ln -rsf ./rerelease/QuakeEX.kpf ironwail/share/quake/rerelease/QuakeEX.kpf
     fi
     echo "Running re-release $2"
-    ./vkquake -basedir ironwail/share/quake/rerelease "$@"
     LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./ironwail/lib:./lib" ./ironwail/ironwail -basedir ironwail/share/rerelease "$@"
 else
     echo "Running non re-release"
