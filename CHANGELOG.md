@@ -2,6 +2,8 @@
 
 * doom-retro - Update to 4.9.2
 * Add support for AnodyneFNA, thanks to flibitijibibo for the package request
+* ironwail - Add support for re-release, in light of news about vkquake no longer in active development; Switch Horde maps to use ironwail
+* quake-injector - Add option for ironwail
 
 ### 63.1 (2023-04-22)
 
