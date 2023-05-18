@@ -24,7 +24,7 @@ if [ ! -f ironwail/share/quake/rerelease/id1/config.cfg ] ; then
 fi
 
 if [ ! -d ironwail/share/quake/rerelease/id1/music ] ; then
-    LD_PRELOAD="" ln -rsf ./rerelease/id1/music ./share/quake/rerelease/id1/music
+    LD_PRELOAD="" ln -rsf ./rerelease/id1/music ./ironwail/share/quake/rerelease/id1/music
 fi
 
 if [ ! -f ironwail/share/quake/rogue/config.cfg ] ; then
@@ -42,7 +42,7 @@ if [ ! -f ironwail/share/quake/rerelease/rogue/config.cfg ] ; then
 fi
 
 if [ ! -d ironwail/share/quake/rerelease/rogue/music ] ; then
-    LD_PRELOAD="" ln -rsf ./rerelease/rogue/music ./share/quake/rerelease/rogue/music
+    LD_PRELOAD="" ln -rsf ./rerelease/rogue/music ./ironwail/share/quake/rerelease/rogue/music
 fi
 
 if [ ! -f ironwail/share/quake/hipnotic/config.cfg ] ; then
@@ -60,7 +60,7 @@ if [ ! -f ironwail/share/quake/rerelease/hipnotic/config.cfg ] ; then
 fi
 
 if [ ! -d ironwail/share/quake/rerelease/hipnotic/music ] ; then
-    LD_PRELOAD="" ln -rsf ./rerelease/hipnotic/music ./share/quake/rerelease/hipnotic/music
+    LD_PRELOAD="" ln -rsf ./rerelease/hipnotic/music ./ironwail/share/quake/rerelease/hipnotic/music
 fi
 
 if [ ! -f ironwail/share/quake/dopa/config.cfg ] ; then
