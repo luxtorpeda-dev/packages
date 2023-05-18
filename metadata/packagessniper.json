@@ -7497,7 +7497,12 @@
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
             "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt",
-            "controllerSupported": true
+            "controllerSupported": true,
+            "notices": [
+                {
+                    "label": "vkQuake is no longer in active development."
+                }
+            ]
         },
         "darkplaces-2017": {
             "engine_link": "http://icculus.org/twilight/darkplaces/",
