@@ -4715,6 +4715,23 @@
         "engine_name": "OpenTomb",
         "cloudNotAvailable": true
     },
+    "234900": {
+        "game_name": "Anodyne",
+        "download": [
+            {
+                "name": "binaries",
+                "url": "https://github.com/flibitijibibo/AnodyneFNA/releases/download/23.05.17/",
+                "file": "AnodyneFNA-230517.tar.bz2"
+            }
+        ],
+        "command": "./AnodyneFNA/run.sh",
+        "engine_name": "Anodyne: FNA Edition",
+        "cloudAvailable": true,
+        "information": {
+            "license": "Anodyne 1 Source Code and/or Asset Library",
+            "non_free": true
+        }
+    },
     "235780": {
         "game_name": "MINERVA",
         "download": [
@@ -8738,6 +8755,15 @@
             "license": "GPLv2",
             "license_link": "https://github.com/atsb/Doom64EX-Plus/blob/stable/LICENSE",
             "controllerNotSupported": true
+        },
+        "Anodyne: FNA Edition": {
+            "engine_link": "https://github.com/flibitijibibo/AnodyneFNA",
+            "version": "23.05.17",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Anodyne 1 Source Code and/or Asset Library",
+            "license_link": "https://github.com/flibitijibibo/AnodyneFNA/blob/master/LICENSE.md",
+            "controllerSupported": true
         }
     },
     "noticeMap": {
