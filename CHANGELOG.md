@@ -4,6 +4,7 @@
 * Add support for AnodyneFNA, thanks to flibitijibibo for the package request
 * ironwail - Add support for re-release, in light of news about vkquake no longer in active development; Switch Horde maps to use ironwail
 * quake-injector - Add option for ironwail
+* Daikatana - Update to 2023-03-12
 
 ### 63.1 (2023-04-22)
 
