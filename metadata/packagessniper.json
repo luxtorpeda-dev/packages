@@ -1933,6 +1933,30 @@
                         "decode_as_zip": true
                     }
                 }
+            },
+            {
+                "name": "ironwail Quake Injector",
+                "command": "./ironwail/run-quake-injector-ironwail.sh",
+                "download": [
+                    "ironwail",
+                    "quake-injector",
+                    "openjdk11",
+                    "quakeinjector"
+                ],
+                "engine_name": "Quake Injector",
+                "download_config": {
+                    "openjdk11": {
+                        "extract_location": "./ironwail/jdk-11.0.12",
+                        "strip_prefix": "jdk-11.0.12+7/"
+                    },
+                    "quakeinjector": {
+                        "decode_as_zip": true,
+                        "extract_location": "./ironwail"
+                    },
+                    "quake-injector": {
+                        "extract_location": "./ironwail"
+                    }
+                }
             }
         ],
         "cloudAvailable": true,
