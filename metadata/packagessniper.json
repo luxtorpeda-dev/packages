@@ -1779,103 +1779,103 @@
                 ],
                 "engine_name": "vkQuake"
             },
-            {
-                "name": "vkquake Horde - Tower of the Apprentice",
+             {
+                "name": "ironwail Horde - Tower of the Apprentice",
                 "command_args": [
                     "rerelease",
                     "-game",
                     "mg1",
                     "+map horde1"
                 ],
-                "command": "./vkquake.sh",
+                "command": "./ironwail/ironwail.sh",
                 "download": [
-                    "vkquake"
+                    "ironwail"
                 ],
-                "engine_name": "vkQuake"
+                "engine_name": "ironwail"
             },
             {
-                "name": "vkquake Horde - Frozen Court",
+                "name": "ironwail Horde - Frozen Court",
                 "command_args": [
                     "rerelease",
                     "-game",
                     "mg1",
                     "+map horde2"
                 ],
-                "command": "./vkquake.sh",
+                "command": "./ironwail/ironwail.sh",
                 "download": [
-                    "vkquake"
+                    "ironwail"
                 ],
-                "engine_name": "vkQuake"
+                "engine_name": "ironwail"
             },
             {
-                "name": "vkquake Horde - The Foundry",
+                "name": "ironwail Horde - The Foundry",
                 "command_args": [
                     "rerelease",
                     "-game",
                     "mg1",
                     "+map horde3"
                 ],
-                "command": "./vkquake.sh",
+                "command": "./ironwail/ironwail.sh",
                 "download": [
-                    "vkquake"
+                    "ironwail"
                 ],
-                "engine_name": "vkQuake"
+                "engine_name": "ironwail"
             },
             {
-                "name": "vkquake Horde - The Hunt",
+                "name": "ironwail Horde - The Hunt",
                 "command_args": [
                     "rerelease",
                     "-game",
                     "mg1",
                     "+map horde4"
                 ],
-                "command": "./vkquake.sh",
+                "command": "./ironwail/ironwail.sh",
                 "download": [
-                    "vkquake"
+                    "ironwail"
                 ],
-                "engine_name": "vkQuake"
+                "engine_name": "ironwail"
             },
             {
-                "name": "vkquake Horde - Relic",
+                "name": "ironwail Horde - Relic",
                 "command_args": [
                     "rerelease",
                     "-game",
                     "mg1",
                     "+map horde5"
                 ],
-                "command": "./vkquake.sh",
+                "command": "./ironwail/ironwail.sh",
                 "download": [
-                    "vkquake"
+                    "ironwail"
                 ],
-                "engine_name": "vkQuake"
+                "engine_name": "ironwail"
             },
             {
-                "name": "vkquake Horde - The Trial",
+                "name": "ironwail Horde - The Trial",
                 "command_args": [
                     "rerelease",
                     "-game",
                     "mg1",
                     "+map horde6"
                 ],
-                "command": "./vkquake.sh",
+                "command": "./ironwail/ironwail.sh",
                 "download": [
-                    "vkquake"
+                    "ironwail"
                 ],
-                "engine_name": "vkQuake"
+                "engine_name": "ironwail"
             },
             {
-                "name": "vkquake Horde - The Tech Spire",
+                "name": "ironwail Horde - The Tech Spire",
                 "command_args": [
                     "rerelease",
                     "-game",
                     "mg1",
                     "+map horde7"
                 ],
-                "command": "./vkquake.sh",
+                "command": "./ironwail/ironwail.sh",
                 "download": [
-                    "vkquake"
+                    "ironwail"
                 ],
-                "engine_name": "vkQuake"
+                "engine_name": "ironwail"
             },
             {
                 "name": "Quake Injector",
