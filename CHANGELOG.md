@@ -1,6 +1,7 @@
 ### 63.2 (2023-05-15)
 
 * doom-retro - Update to 4.9.2
+* Add support for AnodyneFNA, thanks to flibitijibibo for the package request
 
 ### 63.1 (2023-04-22)
 
