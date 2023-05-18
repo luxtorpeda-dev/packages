@@ -4925,7 +4925,7 @@
             {
                 "name": "binaries",
                 "url": "https://bitbucket.org/daikatana13/daikatana/downloads/",
-                "file": "Daikatana-Linux-2022-12-22-x64.tar.bz2"
+                "file": "Daikatana-Linux-2023-03-12-x64.tar.bz2"
             },
             {
                 "name": "pak6",
@@ -4952,7 +4952,7 @@
         "download_config": {
             "binaries": {
                 "extract_location": "./",
-                "strip_prefix": "Daikatana-Linux-2022-12-22-x64/",
+                "strip_prefix": "Daikatana-Linux-2023-03-12-x64/",
                 "setup": true
             },
             "pak6": {
@@ -4970,7 +4970,7 @@
             }
         },
         "setup": {
-            "complete_path": "./ready-2022",
+            "complete_path": "./ready-2023",
             "command": "./setup-daikatana.sh",
             "license_path": "./LICENSES.txt"
         },
