@@ -1549,8 +1549,8 @@
             },
             {
                 "name": "ironwail",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ironwail-7/",
-                "file": "ironwail-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ironwail-8/",
+                "file": "ironwail-common-8.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -1779,7 +1779,7 @@
                 ],
                 "engine_name": "vkQuake"
             },
-             {
+            {
                 "name": "ironwail Horde - Tower of the Apprentice",
                 "command_args": [
                     "rerelease",
