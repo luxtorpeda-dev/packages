@@ -1655,6 +1655,17 @@
                 "engine_name": "ironwail"
             },
             {
+                "name": "ironwail Re-release",
+                "command": "./ironwail/ironwail.sh",
+                "download": [
+                    "ironwail"
+                ],
+                "command_args": [
+                    "rerelease"
+                ],
+                "engine_name": "ironwail"
+            },
+            {
                 "name": "ezQuake",
                 "command": "./ezquake/ezquake.sh",
                 "download": [
@@ -1778,6 +1789,32 @@
                     "vkquake"
                 ],
                 "engine_name": "vkQuake"
+            },
+            {
+                "name": "ironwail Dimension of the Past Re-release",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "dopa"
+                ],
+                "command": "./ironwail/ironwail.sh",
+                "download": [
+                    "ironwail"
+                ],
+                "engine_name": "ironwail"
+            },
+            {
+                "name": "ironwail Dimension of the Machine",
+                "command_args": [
+                    "rerelease",
+                    "-game",
+                    "mg1"
+                ],
+                "command": "./ironwail/ironwail.sh",
+                "download": [
+                    "ironwail"
+                ],
+                "engine_name": "ironwail"
             },
             {
                 "name": "ironwail Horde - Tower of the Apprentice",
