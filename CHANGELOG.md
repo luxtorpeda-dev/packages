@@ -5,6 +5,7 @@
 * ironwail - Add support for re-release, in light of news about vkquake no longer in active development; Switch Horde maps to use ironwail
 * quake-injector - Add option for ironwail
 * Daikatana - Update to 2023-03-12
+* RBDOOM-3-BFG - Update to 1.5.1
 
 ### 63.1 (2023-04-22)
 
