@@ -6,6 +6,7 @@
 * quake-injector - Add option for ironwail
 * Daikatana - Update to 2023-03-12
 * RBDOOM-3-BFG - Update to 1.5.1
+* SeriousSamClassic-VK - Update to f6a559f
 
 ### 63.1 (2023-04-22)
 
