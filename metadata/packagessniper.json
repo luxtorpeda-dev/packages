@@ -2802,7 +2802,8 @@
         "engine_names": [
             "OpenJK"
         ],
-        "cloudAvailable": true
+        "cloudAvailable": true,
+        "cloudSupported": true
     },
     "6030": {
         "game_name": "STAR WARS™ Jedi Knight II: Jedi Outcast™",
@@ -2830,7 +2831,8 @@
             "OpenJK",
             "jk2mv (MP)"
         ],
-        "cloudAvailable": true
+        "cloudAvailable": true,
+        "cloudSupported": true
     },
     "6310": {
         "game_name": "The Longest Journey",
