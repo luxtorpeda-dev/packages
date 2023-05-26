@@ -121,11 +121,22 @@ jobs:
         uses: luxtorpeda-dev/action-build-generate-sha1-hash@v3
         with:
             file: metadata/packagessniper.json
+      - name: Generate Packages Hash 256
+        id: generatehash256
+        uses: luxtorpeda-dev/action-build-generate-sha256-hash@v3
+        with:
+            file: metadata/packagessniper.json
       - name: Write Packages Hash
         uses: luxtorpeda-dev/write-file-action@v3
         with:
             path: metadata/packagessniper.hash
             contents: ${{ steps.generatehash.outputs.hash }}
+            write-mode: overwrite
+      - name: Write Packages Hash 256
+        uses: luxtorpeda-dev/write-file-action@v3
+        with:
+            path: metadata/packagessniper.hash256
+            contents: ${{ steps.generatehash256.outputs.hash }}
             write-mode: overwrite
       - name: Publish To Pages
         uses: peaceiris/actions-gh-pages@v3
