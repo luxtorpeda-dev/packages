@@ -7192,6 +7192,20 @@
         "engine_name": "gzdoom",
         "cloudNotAvailable": true
     },
+    "2336180": {
+        "game_name": "Midnight Witch",
+        "download": [
+            {
+                "name": "renpy",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
+                "file": "renpy-common-1.tar.xz",
+                "cache_by_name": true
+            }
+        ],
+        "command": "./run-renpy.sh",
+        "engine_name": "Ren'Py",
+        "cloudNotAvailable": true
+    },
     "default": {
         "game_name": "Default",
         "cloudNotAvailable": true,
