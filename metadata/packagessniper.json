@@ -6058,8 +6058,8 @@
         "download": [
             {
                 "name": "renpy",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
-                "file": "renpy-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-2/",
+                "file": "renpy-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -6155,8 +6155,8 @@
         "download": [
             {
                 "name": "renpy",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
-                "file": "renpy-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-2/",
+                "file": "renpy-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -7197,8 +7197,8 @@
         "download": [
             {
                 "name": "renpy",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
-                "file": "renpy-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-2/",
+                "file": "renpy-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
@@ -7266,8 +7266,8 @@
             },
             {
                 "name": "renpy",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-1/",
-                "file": "renpy-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/renpy-2/",
+                "file": "renpy-common-2.tar.xz",
                 "cache_by_name": true
             },
             {
