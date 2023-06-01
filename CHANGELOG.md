@@ -8,6 +8,8 @@
 * RBDOOM-3-BFG - Update to 1.5.1
 * SeriousSamClassic-VK - Update to f6a559f
 * openjk - Add support for steam cloud. Started some work in supporting Steam Cloud, in general this will copy your saves from a user directory where the engine stores them to the area that steam expects for cloud saving (usually in the game directory), and the symlinks the steam cloud directory back. Currently each game will require setting ```LUX_STEAM_CLOUD=1 %command%``` in the launch options, with a plan for a future client release to set it for all engines via the config. Note that the original directory is moved before the link so you can go back to that if needed.
+* renpy - Add Midnight Witch
+* unreal-gold - Add support for 64-bit
 
 ### 63.1 (2023-04-22)
 
