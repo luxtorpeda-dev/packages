@@ -3609,7 +3609,22 @@
                 "file": "unreal-gold-13250-9.tar.xz"
             }
         ],
-        "command": "./run-unreal.sh",
+        "choices": [
+            {
+                "name": "Unreal Gold (32-bit)",
+                "command": "./run-unreal.sh",
+                "download": [
+                    "unreal-gold"
+                ]
+            },
+            {
+                "name": "Unreal Gold (64-bit)",
+                "command": "./run-unreal-64.sh",
+                "download": [
+                    "unreal-gold-64"
+                ]
+            }
+        ],
         "use_original_command_directory": true,
         "engine_name": "unrealgold",
         "information": {
