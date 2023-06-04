@@ -23,7 +23,7 @@ mkdir build
 cd build
 cmake \
     -G "Eclipse CDT4 - Unix Makefiles" \
-    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+    -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DFFMPEG=OFF \
     -DBINKDEC=ON \
