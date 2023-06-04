@@ -1,3 +1,7 @@
+### 63.3 (2023-06-04)
+
+* SeriousSamClassic-VK - Update to 258fd1d
+
 ### 63.2 (2023-05-15)
 
 * doom-retro - Update to 4.9.2
