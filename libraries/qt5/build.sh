@@ -83,3 +83,6 @@ make install
 popd
 
 export PATH="$pfx/qt5/bin:$PATH"
+
+rm -rf source
+rm -rf qt5-build
