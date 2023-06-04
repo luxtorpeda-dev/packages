@@ -84,5 +84,10 @@ popd
 
 export PATH="$pfx/qt5/bin:$PATH"
 
+mkdir -p source-limited
+cp -rfv ./source/LICENSE.LGPLv3 source-limited
+cp -rfv ./source/LICENSE.GPLv3 source-limited
+cp -rfv ./source/LICENSE.FDL source-limited
 rm -rf source
 rm -rf qt5-build
+mv source-limited source
