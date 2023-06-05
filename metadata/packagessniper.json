@@ -5262,15 +5262,15 @@
                 "url": "https://distribute.re-volt.io/packs/",
                 "file": "rvgl_linux.zip"
             },
-             {
+            {
                 "name": "rvgl-assets",
                 "url": "https://distribute.re-volt.io/packs/",
                 "file": "rvgl_assets.zip"
             },
             {
                 "name": "rvgl",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rvgl-6/",
-                "file": "rvgl-287310-6.tar.xz"
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rvgl-7/",
+                "file": "rvgl-287310-7.tar.xz"
             }
         ],
         "command": "./run-rvgl.sh",
