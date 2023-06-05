@@ -5031,20 +5031,17 @@
             {
                 "name": "fsport",
                 "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
-                "file": "fsport3_6.7z",
-                "copy_only": true
+                "file": "fsport3_6.7z"
             },
             {
                 "name": "fsport-missions",
                 "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
-                "file": "fsport-missions.7z",
-                "copy_only": true
+                "file": "fsport-missions.7z"
             },
             {
                 "name": "sparky_hi_fs1",
                 "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
-                "file": "sparky_hi_fs1.7z",
-                "copy_only": true
+                "file": "sparky_hi_fs1.7z"
             },
             {
                 "name": "freespace",
@@ -5072,7 +5069,18 @@
                 ],
                 "app_ids_deps": [
                     273620
-                ]
+                ],
+                "download_config": {
+                    "fsport": {
+                        "extract_location": "./fsport"
+                    },
+                    "fsport-missions": {
+                        "extract_location": "./fsport"
+                    },
+                    "sparky_hi_fs1": {
+                        "extract_location": "./fsport"
+                    }
+                }
             }
         ],
         "command": "./run-freespace.sh",
