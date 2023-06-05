@@ -1,6 +1,7 @@
 ### 63.3 (2023-06-04)
 
 * SeriousSamClassic-VK - Update to 258fd1d
+* RVGL - Update to 23.0602a1
 
 ### 63.2 (2023-05-15)
 
