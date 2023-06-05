@@ -148,12 +148,7 @@
                     "ioquake3",
                     "ftequakeworld",
                     "fteqw"
-                ],
-                "download_config": {
-                    "fteqw": {
-                        "copy_only": true
-                    }
-                }
+                ]
             },
             {
                 "name": "Spearmint",
@@ -222,8 +217,7 @@
         ],
         "download_config": {
             "binaries": {
-                "setup": true,
-                "copy_only": true
+                "setup": true
             }
         },
         "setup": {
@@ -1633,12 +1627,7 @@
                 "download": [
                     "ftequakeworld",
                     "fteqw"
-                ],
-                "download_config": {
-                    "fteqw": {
-                        "copy_only": true
-                    }
-                }
+                ]
             },
             {
                 "name": "ironwail",
@@ -1744,9 +1733,6 @@
                     "dopa pak"
                 ],
                 "download_config": {
-                    "fteqw": {
-                        "copy_only": true
-                    },
                     "dopa pak": {
                         "extract_location": "./dopa/"
                     }
@@ -2035,12 +2021,7 @@
                     "fteqw",
                     "The Reckoning Soundtrack",
                     "Ground Zero Soundtrack"
-                ],
-                "download_config": {
-                    "fteqw": {
-                        "copy_only": true
-                    }
-                }
+                ]
             },
             {
                 "name": "Q2PRO",
@@ -3100,9 +3081,6 @@
                 "download_config": {
                     "HeXen II Soundtrack": {
                         "extract_location": "./data1/music/"
-                    },
-                    "fteqw": {
-                        "copy_only": true
                     }
                 }
             }
@@ -3303,11 +3281,6 @@
                 "file": "download"
             }
         ],
-        "download_config": {
-            "game-catalogue": {
-                "copy_only": true
-            }
-        },
         "commands": {
             ".*keen1?.conf": {
                 "cmd": "./run-commander.sh",
@@ -4457,11 +4430,6 @@
             }
         ],
         "command": "./run-ja2.sh",
-        "download_config": {
-            "ja2-binaries": {
-                "copy_only": true
-            }
-        },
         "engine_name": "Jagged Alliance 2 Stracciatella",
         "cloudAvailable": true
     },
@@ -4987,8 +4955,7 @@
             {
                 "name": "music",
                 "url": "https://www.dxx-rebirth.com/download/dxx/res/",
-                "file": "d1xr-sc55-music.dxa",
-                "copy_only": true
+                "file": "d1xr-sc55-music.dxa"
             },
             {
                 "name": "dxx-rebirth",
@@ -5006,8 +4973,7 @@
             {
                 "name": "music",
                 "url": "https://www.dxx-rebirth.com/download/dxx/res/",
-                "file": "d2xr-sc55-music.dxa",
-                "copy_only": true
+                "file": "d2xr-sc55-music.dxa"
             },
             {
                 "name": "dxx-rebirth",
@@ -5025,8 +4991,7 @@
             {
                 "name": "fs1vp",
                 "url": "http://icculus.org/~taylor/freespace/fs1.vp_en/",
-                "file": "fs1.vp.gz",
-                "copy_only": true
+                "file": "fs1.vp.gz"
             },
             {
                 "name": "fsport",
@@ -5862,11 +5827,6 @@
                 "file": "open-ig-573790-1.tar.xz"
             }
         ],
-        "download_config": {
-            "open-ig-launcher": {
-                "copy_only": true
-            }
-        },
         "command": "./run-open-ig.sh",
         "engine_name": "open-ig",
         "cloudNotAvailable": true
@@ -6371,11 +6331,6 @@
             {
                 "name": "OpenRA - TiberianDawnHD",
                 "command": "./run-openra-tiberian.sh",
-                "download_config": {
-                    "openra-tiberian-binaries": {
-                        "copy_only": true
-                    }
-                },
                 "download": [
                     "openra-tiberian-binaries",
                     "openra"
@@ -6511,11 +6466,6 @@
             }
         ],
         "command": "./run-runelite-extract.sh",
-        "download_config": {
-            "runelite-binaries": {
-                "copy_only": true
-            }
-        },
         "engine_name": "runelite",
         "cloudNotAvailable": true
     },
@@ -6534,11 +6484,6 @@
             }
         ],
         "command": "./run-runescape.sh",
-        "download_config": {
-            "runescape-binaries": {
-                "copy_only": true
-            }
-        },
         "engine_name": "runescape",
         "cloudNotAvailable": true
     },
