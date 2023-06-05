@@ -17,7 +17,7 @@ export class PackagesComponent implements OnInit {
   runControllerCheck = false;
 
   async ngOnInit() {
-    const response = await fetch(`/packagessniper.json`);
+    const response = await fetch(`/packagessniper_v2.json`);
     this.titles = await response.json();
     this.sortTitles();
   }
