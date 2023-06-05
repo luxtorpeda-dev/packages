@@ -101,7 +101,7 @@
                 "cache_by_name": true
             },
             {
-                "name": "cpma",
+                "name": "cpma-data",
                 "url": "https://cdn.playmorepromode.com/files/cpma/",
                 "file": "cpma-1.52-nomaps.zip",
                 "cache_by_name": true
