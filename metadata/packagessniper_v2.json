@@ -234,9 +234,6 @@
         },
         "command": "./run-quake4.sh",
         "engine_name": "Quake IV",
-        "information": {
-            "closed_source": true
-        },
         "cloudAvailable": true
     },
     "2270": {
@@ -2730,10 +2727,6 @@
         ],
         "command": "./run-avp.sh",
         "engine_name": "avp",
-        "information": {
-            "license": "Rebellion; non-commercial",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "3970": {
@@ -2764,9 +2757,6 @@
         },
         "command": "./run-prey.sh",
         "engine_name": "Prey (2006)",
-        "information": {
-            "closed_source": true
-        },
         "cloudNotAvailable": true
     },
     "6020": {
@@ -3381,9 +3371,6 @@
         },
         "engine_name": "ETQW Full",
         "command": "./run-full.sh",
-        "information": {
-            "closed_source": true
-        },
         "cloudNotAvailable": true
     },
     "10050": {
@@ -3405,9 +3392,6 @@
                 "command": "./run-retail.sh"
             }
         ],
-        "information": {
-            "closed_source": true
-        },
         "cloudNotAvailable": true
     },
     "13230": {
@@ -3530,9 +3514,6 @@
             }
         ],
         "use_original_command_directory": true,
-        "information": {
-            "closed_source": true
-        },
         "cloudNotAvailable": true
     },
     "13240": {
@@ -3577,9 +3558,6 @@
         },
         "use_original_command_directory": true,
         "engine_name": "ut99",
-        "information": {
-            "closed_source": true
-        },
         "cloudNotAvailable": true
     },
     "13250": {
@@ -3614,9 +3592,6 @@
         ],
         "use_original_command_directory": true,
         "engine_name": "unrealgold",
-        "information": {
-            "closed_source": true
-        },
         "cloudNotAvailable": true
     },
     "20510": {
@@ -3631,10 +3606,6 @@
         ],
         "command": "./run-openxray-clearsky.sh",
         "engine_name": "OpenXRay",
-        "information": {
-            "license": "BSD with commercial source code",
-            "non_free": true
-        },
         "cloudAvailable": true
     },
     "22320": {
@@ -4307,10 +4278,6 @@
         ],
         "command": "./run-openxray.sh",
         "engine_name": "OpenXRay",
-        "information": {
-            "license": "BSD with commercial source code",
-            "non_free": true
-        },
         "removeNotices": [
             "in_progress"
         ],
@@ -4496,10 +4463,6 @@
             }
         },
         "engine_name": "Jagged Alliance 2 Stracciatella",
-        "information": {
-            "license": "Original in SFI-SCLA with Additions in Public Domain",
-            "non_free": true
-        },
         "cloudAvailable": true
     },
     "224960": {
@@ -4777,11 +4740,7 @@
         ],
         "command": "./AnodyneFNA/run.sh",
         "engine_name": "Anodyne: FNA Edition",
-        "cloudAvailable": true,
-        "information": {
-            "license": "Anodyne 1 Source Code and/or Asset Library",
-            "non_free": true
-        }
+        "cloudAvailable": true
     },
     "235780": {
         "game_name": "MINERVA",
@@ -4805,10 +4764,6 @@
             }
         ],
         "engine_name": "Source SDK 2013",
-        "information": {
-            "license": "Source SDK Copyright(c) Valve Corp.",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "238050": {
@@ -4963,9 +4918,6 @@
         },
         "use_original_command_directory": true,
         "engine_name": "Daikatana",
-        "information": {
-            "closed_source": true
-        },
         "cloudNotAvailable": true
     },
     "244160": {
@@ -5008,10 +4960,6 @@
                 "command": "../Homeworld1Classic/Data/run-homeworld.sh"
             }
         ],
-        "information": {
-            "license": "Relic",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "255940": {
@@ -5050,10 +4998,6 @@
         ],
         "command": "./run-d1x.sh",
         "engine_name": "dxx-rebirth",
-        "information": {
-            "license": "GPLv3 with Original Code in Parallax License",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "273580": {
@@ -5073,10 +5017,6 @@
         ],
         "command": "./run-d2x.sh",
         "engine_name": "dxx-rebirth",
-        "information": {
-            "license": "GPLv3 with Original Code in Parallax License",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "273600": {
@@ -5136,10 +5076,6 @@
             }
         ],
         "command": "./run-freespace.sh",
-        "information": {
-            "non_free": true,
-            "license": "Volition"
-        },
         "cloudNotAvailable": true
     },
     "273620": {
@@ -5153,10 +5089,6 @@
         ],
         "command": "./run-freespace2.sh",
         "engine_name": "fs2open",
-        "information": {
-            "license": "Volition",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "284050": {
@@ -5239,9 +5171,6 @@
             }
         ],
         "command": "./run-rvgl.sh",
-        "information": {
-            "closed_source": true
-        },
         "engine_name": "RVGL",
         "cloudNotAvailable": true
     },
@@ -5424,10 +5353,6 @@
         ],
         "command": "./run-fast-detect.sh",
         "engine_name": "Source SDK 2013",
-        "information": {
-            "license": "Source SDK Copyright(c) Valve Corp.",
-            "non_free": true
-        },
         "cloudAvailable": true
     },
     "355170": {
@@ -5658,10 +5583,6 @@
         ],
         "command": "./run-prospekt.sh",
         "engine_name": "Source SDK 2013",
-        "information": {
-            "license": "Source SDK Copyright(c) Valve Corp.",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "410700": {
@@ -5911,10 +5832,6 @@
         ],
         "command": "./run-ctp2.sh",
         "engine_name": "civctp2",
-        "information": {
-            "license": "Activision",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "573790": {
@@ -5996,10 +5913,6 @@
         ],
         "command": "./run-downfall.sh",
         "engine_name": "Source SDK 2013",
-        "information": {
-            "license": "Source SDK Copyright(c) Valve Corp.",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "595690": {
@@ -6082,10 +5995,6 @@
             }
         ],
         "engine_name": "Source SDK 2013",
-        "information": {
-            "license": "Source SDK Copyright(c) Valve Corp.",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "747250": {
@@ -6104,10 +6013,6 @@
             380
         ],
         "engine_name": "Source SDK 2013",
-        "information": {
-            "license": "Source SDK Copyright(c) Valve Corp.",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "782330": {
@@ -6292,10 +6197,6 @@
             }
         ],
         "engine_name": "Source SDK 2013",
-        "information": {
-            "license": "Source SDK Copyright(c) Valve Corp.",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "1072150": {
@@ -6631,9 +6532,6 @@
             }
         },
         "engine_name": "runescape",
-        "information": {
-            "closed_source": true
-        },
         "cloudNotAvailable": true
     },
     "1367160": {
@@ -6772,10 +6670,6 @@
             "./saves"
         ],
         "engine_name": "Zandronum",
-        "information": {
-            "license": "Sleepycat License with NON-COMMERCIAL LICENSE",
-            "non_free": true
-        },
         "cloudNotAvailable": true
     },
     "1655410": {
