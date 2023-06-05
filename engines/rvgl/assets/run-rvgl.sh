@@ -32,4 +32,5 @@ fi
 
 LD_PRELOAD="" ln -rsf ./music ./redbook
 
+chmod +x rvgl.64
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:lib/lib64:lib" ./rvgl.64
