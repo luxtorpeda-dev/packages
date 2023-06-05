@@ -14,5 +14,6 @@ popd
 
 # COPY PHASE
 cp -rfv "source/freespace" "$diststart/273600/dist/freespace"
+
 cp -rfv "assets/run-freespace.sh" "$diststart/273600/dist/"
 cp -rfv "assets/run-fsport.sh" "$diststart/273600/dist/"
