@@ -5259,8 +5259,13 @@
         "download": [
             {
                 "name": "rvgl-binaries",
-                "url": "https://rvgl.org/downloads/",
-                "file": "rvgl_21.0930a-1_linux.7z"
+                "url": "https://distribute.re-volt.io/packs/",
+                "file": "rvgl_linux.zip"
+            },
+             {
+                "name": "rvgl-assets",
+                "url": "https://distribute.re-volt.io/packs/",
+                "file": "rvgl_assets.zip"
             },
             {
                 "name": "rvgl",
@@ -5271,7 +5276,10 @@
         "command": "./run-rvgl.sh",
         "download_config": {
             "rvgl-binaries": {
-                "copy_only": true
+                "decode_as_zip": true
+            },
+            "rvgl-assets": {
+                "decode_as_zip": true
             }
         },
         "information": {
@@ -8779,7 +8787,7 @@
         },
         "RVGL": {
             "engine_link": "https://rvgl.org/",
-            "version": "21.0930a-1",
+            "version": "23.0602a1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
