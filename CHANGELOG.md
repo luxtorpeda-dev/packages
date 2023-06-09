@@ -1,3 +1,11 @@
+### 65.0 (2023-06-09)
+
+* Removed decode_as_zip, as new client will automatically detect
+* Remove duplicated information in "information" key as client will now get it from the same place as the web UI
+* Remove copy_only, as that'll be assumed if the file is not detected as an archive
+* fsport - Update to use new 7z client feature, so extracting status will be visible in the client UI
+* metadata - Update to new structured format, which the client can parse easier and makes the client easier to update
+
 ### 63.3 (2023-06-04)
 
 * SeriousSamClassic-VK - Update to 258fd1d
