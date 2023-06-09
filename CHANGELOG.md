@@ -1,6 +1,6 @@
 ### 65.0 (2023-06-09)
 
-* Removed decode_as_zip, as new client will automatically detect
+* Remove decode_as_zip, as new client will automatically detect
 * Remove duplicated information in "information" key as client will now get it from the same place as the web UI
 * Remove copy_only, as that'll be assumed if the file is not detected as an archive
 * fsport - Update to use new 7z client feature, so extracting status will be visible in the client UI
