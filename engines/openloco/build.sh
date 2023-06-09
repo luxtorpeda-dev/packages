@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/duncanspumpkin/OpenLoco.git source
+git clone https://github.com/OpenLoco/OpenLoco.git source
 pushd source
-git checkout -f 6b59a67
+git checkout -f 60193ba
 git submodule update --init --recursive
 popd
 
