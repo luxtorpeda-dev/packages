@@ -14,7 +14,7 @@ sudo ldconfig
 # CLONE PHASE
 git clone https://github.com/RobertBeckebans/RBDOOM-3-BFG.git source
 pushd source
-git checkout ab7fefc
+git checkout 39ae120
 git submodule update --init --recursive
 popd
 
@@ -23,7 +23,7 @@ mkdir build
 cd build
 cmake \
     -G "Eclipse CDT4 - Unix Makefiles" \
-    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+    -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DFFMPEG=OFF \
     -DBINKDEC=ON \

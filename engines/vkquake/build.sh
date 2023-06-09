@@ -24,7 +24,7 @@ readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
 pushd "source/Quake"
-make -j "$(nproc)" USE_CODEC_MP3=0
+make -j "$(nproc)"
 popd
 
 # COPY PHASE

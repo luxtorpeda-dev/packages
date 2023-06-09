@@ -95,8 +95,8 @@ then
         ln -rsf ./rerelease/QuakeEX.kpf share/quake/rerelease/QuakeEX.kpf
     fi
     echo "Running re-release $2"
-    ./vkquake -basedir share/quake/rerelease "$@"
+    LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./lib" ./vkquake -basedir share/quake/rerelease "$@"
 else
     echo "Running non re-release"
-    ./vkquake -basedir share/quake "$@"
+    LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./lib" ./vkquake -basedir share/quake "$@"
 fi

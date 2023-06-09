@@ -1,0 +1,5 @@
+RogueInstalled=true
+EnginePath=./share/quake
+EngineExecutable=../../ironwail-wrapper.sh
+DownloadPath=./quakeinjector-downloads
+HipnoticInstalled=true
