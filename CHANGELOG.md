@@ -5,6 +5,7 @@
 * Remove copy_only, as that'll be assumed if the file is not detected as an archive
 * fsport - Update to use new 7z client feature, so extracting status will be visible in the client UI
 * metadata - Update to new structured format, which the client can parse easier and makes the client easier to update
+* building - Update sniper runtime version used to 0.20230509.49493
 
 ### 63.3 (2023-06-04)
 
