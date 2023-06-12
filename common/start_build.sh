@@ -37,7 +37,7 @@ fi
 
 if [ ! -z "${APT_LIBRARIES}" ]; then
     echo "Found apt libraries to install $APT_LIBRARIES"
-    start_apt_libraries $APT_LIBRARIES
+    start_apt_libraries "$APT_LIBRARIES"
 fi
 
 if [ -f "vcpkg.json" ]; then
