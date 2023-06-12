@@ -42,6 +42,14 @@ use_gcc_11 () {
     export CXX=/usr/local/gcc-11.3.0/bin/g++-11.3
 }
 
+use_gcc_12 () {
+    apt-get update
+    apt-get -y install gcc-12-monolithic
+    export CXX='g++-12'
+    export CC='gcc-12'
+    export CXXFLAGS="-fpermissive"
+}
+
 start_apt_libraries () {
     for library_name in $1 ; do
         echo "Installing $library_name"

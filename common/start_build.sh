@@ -25,6 +25,11 @@ if [ ! -z "${GCC_11}" ]; then
     use_gcc_11
 fi
 
+if [ ! -z "${GCC_12}" ]; then
+    echo "Using gcc 12"
+    use_gcc_12
+fi
+
 gcc --version
 
 if [ ! -z "${LIBRARIES}" ]; then
@@ -37,7 +42,7 @@ fi
 
 if [ ! -z "${APT_LIBRARIES}" ]; then
     echo "Found apt libraries to install $APT_LIBRARIES"
-    start_apt_libraries $APT_LIBRARIES
+    start_apt_libraries "$APT_LIBRARIES"
 fi
 
 if [ -f "vcpkg.json" ]; then
