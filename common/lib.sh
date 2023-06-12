@@ -29,6 +29,7 @@ use_gcc_12 () {
     apt-get -y install gcc-12-monolithic
     export CXX='g++-12'
     export CC='gcc-12'
+    export CXXFLAGS="-fpermissive"
 }
 
 start_apt_libraries () {
