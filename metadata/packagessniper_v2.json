@@ -6470,7 +6470,7 @@
             "app_id": "1010750"
         },
         {
-            "game_name": "The 7th Guest",
+            "game_name": "The 7th Guest: 25th Anniversary Edition",
             "download": [
                 {
                     "name": "scummvm",
@@ -6487,7 +6487,7 @@
             ],
             "command": "./scum/run-scummvm.sh",
             "engine_name": "scummvm",
-            "cloudNotAvailable": true,
+            "cloudAvailable": true,
             "app_id": "1044340"
         },
         {
@@ -7433,6 +7433,27 @@
             "engine_name": "Ren'Py",
             "cloudNotAvailable": true,
             "app_id": "2336180"
+        },
+        {
+            "game_name": "The 7th Guest",
+            "download": [
+                {
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-17/",
+                    "file": "scummvm-common-17.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm.sh",
+            "engine_name": "scummvm",
+            "cloudAvailable": true,
+            "app_id": "255920"
         }
     ],
     "engines": [
