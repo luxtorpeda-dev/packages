@@ -7,6 +7,7 @@
 * metadata - Update to new structured format, which the client can parse easier and makes the client easier to update
 * building - Update sniper runtime version used to 0.20230509.49493
 * Classic-RBDOOM-3-BFG - Update to 2f1c697, removing OpenPlatform for achivements
+* scummvm - Add The 7th Guest
 
 ### 63.3 (2023-06-04)
 
