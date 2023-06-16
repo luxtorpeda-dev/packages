@@ -4,6 +4,7 @@
 * gzdoom - Fix wadsmoosh python use
 * qzdl - Fix wadsmoosh python use
 * doom-runner - Fix wadsmoosh python use
+* openrct2 - Add missing classic app id for build
 
 ### 65.0 (2023-06-09)
 
