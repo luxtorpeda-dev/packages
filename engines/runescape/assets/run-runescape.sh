@@ -2,7 +2,7 @@
 
 if [ ! -f rl2211 ]; then
     ./ar x ./runescape-launcher_2.2.11_amd64.deb
-    tar xvf data.tar
+    tar xvf data.tar.xz
     touch rl2211
 fi
 
