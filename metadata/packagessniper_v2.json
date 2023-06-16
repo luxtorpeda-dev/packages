@@ -7463,7 +7463,29 @@
             "engine_name": "scummvm",
             "cloudAvailable": true,
             "app_id": "255920"
-        }
+        },
+        {
+            "game_name": "Master of Orion 2",
+            "download": [
+                {
+                    "name": "dosbox-staging",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-21/",
+                    "file": "dosbox-staging-common-21.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./dosbox-staging",
+                    "download_name": "dosbox-staging"
+                }
+            ],
+            "engine_name": "dosbox-staging",
+            "command": "./dosbox-staging/run-dosbox-staging.sh",
+            "use_original_command_directory": true,
+            "cloudNotAvailable": true,
+            "app_id": "410980"
+        },
     ],
     "engines": [
         {
