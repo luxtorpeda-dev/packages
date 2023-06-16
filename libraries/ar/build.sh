@@ -13,5 +13,6 @@ tmpprefix="$PWD/binutils-prefix"
 mkdir -p "$tmpprefix"
 pushd "binutils-gdb"
 ./configure --prefix="$tmpprefix" --disable-gdb --disable-gdbserver --disable-libdecnumber --disable-readline --disable-sim --disable-werror  --disable-elfcpp --disable-gold --disable-gprof --disable-ld --disable-libbacktrace --disable-libctf --disable-libdecnumber --disable-libiberty  --disable-readline --disable-texinfo --disable-zlib
-make -j "$(nproc)" install
+make -j "$(nproc)"
+make install
 popd
