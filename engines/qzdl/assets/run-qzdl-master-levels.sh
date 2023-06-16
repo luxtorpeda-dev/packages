@@ -6,7 +6,7 @@ if [ ! -f doom_complete.pk3 ]; then
 
     cp -rfv ../masterbase/master/wads/*.WAD "source_wads/"
     cp -rfv ../base/*.WAD "source_wads/"
-    python3.7 wadsmoosh.py
+    python3.9 wadsmoosh.py
     cp -rfv ./doom_complete.pk3 ../
 
     cd ../
