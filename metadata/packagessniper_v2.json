@@ -6409,7 +6409,12 @@
             "engine_name": "REminiscence / REinforced",
             "cloudNotAvailable": true,
             "controllerSteamDefault": true,
-            "app_id": "961620"
+            "app_id": "961620",
+            "notices": [
+                {
+                    "label": "Music requires manual steps to work. See the github repo for the engine for more information."
+                }
+            ]
         },
         {
             "game_name": "WRATH: Aeon of Ruin",
