@@ -5098,7 +5098,13 @@
                     "file": "rigelengine-240180-9.tar.xz"
                 }
             ],
-            "command": "./run-rigelengine.sh",
+            "download_config": [
+                {
+                    "extract_location": "../",
+                    "download_name": "rigelengine"
+                }
+            ],
+            "command": "../run-rigelengine.sh",
             "engine_name": "RigelEngine",
             "cloudNotAvailable": true,
             "app_id": "240180"
