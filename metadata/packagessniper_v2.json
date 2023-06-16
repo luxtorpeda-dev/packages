@@ -6851,6 +6851,9 @@
                     "file": "runescape-1343400-4.tar.xz"
                 }
             ],
+            "app_ids_deps": [
+                1070560
+            ],
             "command": "./run-runescape.sh",
             "engine_name": "runescape",
             "cloudNotAvailable": true,
