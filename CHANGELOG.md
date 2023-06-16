@@ -1,6 +1,9 @@
 ### 65.0 (2023-06-15)
 
 * Rigel-Engine - Fix for launch
+* gzdoom - Fix wadsmoosh python use
+* qzdl - Fix wadsmoosh python use
+* doom-runner - Fix wadsmoosh python use
 
 ### 65.0 (2023-06-09)
 
