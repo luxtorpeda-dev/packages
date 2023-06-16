@@ -5,6 +5,7 @@
 * qzdl - Fix wadsmoosh python use
 * doom-runner - Fix wadsmoosh python use
 * openrct2 - Add missing classic app id for build
+* runescape - Run under steam linux runtime
 
 ### 65.0 (2023-06-09)
 
