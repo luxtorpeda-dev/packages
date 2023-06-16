@@ -6,6 +6,7 @@
 * doom-runner - Fix wadsmoosh python use
 * openrct2 - Add missing classic app id for build
 * runescape - Run under steam linux runtime
+* dosbox-staging - Add MOO2
 
 ### 65.0 (2023-06-09)
 
