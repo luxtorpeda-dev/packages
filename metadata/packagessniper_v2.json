@@ -6251,8 +6251,8 @@
                 }
             ],
             "setup": {
-                "complete_path": "./ready-classic",
-                "command": "./setup-rct2.sh"
+                "complete_path": "./ready-classic-2",
+                "command": "./setup-rct2-classic.sh"
             },
             "command": "./run-openrct2-classic.sh",
             "engine_name": "openrct2",
