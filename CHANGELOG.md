@@ -1,3 +1,7 @@
+### 65.0 (2023-06-15)
+
+* Rigel-Engine - Fix for launch
+
 ### 65.0 (2023-06-09)
 
 * Remove decode_as_zip, as new client will automatically detect
