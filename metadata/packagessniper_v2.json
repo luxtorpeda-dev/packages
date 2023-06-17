@@ -4543,6 +4543,11 @@
                     "name": "classic-rbdoom-3-bfg",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-15/",
                     "file": "classic-rbdoom-3-bfg-208200-15.tar.xz"
+                },
+                {
+                    "name": "open-platform-v1",
+                    "url": "https://github.com/MadDeCoDeR/Open_Platform/releases/download/v1.0/",
+                    "file": "Open_Platform.with.Steam.zip"
                 }
             ],
             "choices": [
@@ -4558,12 +4563,17 @@
                     "name": "classic-rbdoom-3-bfg",
                     "command": "./classic/run-classic-rbdoom-3-bfg.sh",
                     "download": [
-                        "classic-rbdoom-3-bfg"
+                        "classic-rbdoom-3-bfg",
+                        "open-platform-v1"
                     ],
                     "download_config": [
                         {
                             "extract_location": "./classic",
                             "download_name": "classic-rbdoom-3-bfg"
+                        },
+                        {
+                            "extract_location": "./classic/open-platform",
+                            "download_name": "open-platform"
                         }
                     ],
                     "engine_name": "Classic-RBDOOM-3-BFG"
@@ -8370,6 +8380,11 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG/blob/master/COPYING.txt",
+            "notices": [
+                {
+                    "key": "steam_achivements"
+                }
+            ],
             "controllerSupported": true,
             "engine_name": "Classic-RBDOOM-3-BFG"
         },
