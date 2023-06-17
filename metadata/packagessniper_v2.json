@@ -4573,7 +4573,7 @@
                         },
                         {
                             "extract_location": "./classic/open-platform",
-                            "download_name": "open-platform"
+                            "download_name": "open-platform-v1"
                         }
                     ],
                     "engine_name": "Classic-RBDOOM-3-BFG"
