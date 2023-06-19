@@ -3,13 +3,12 @@
 # CLONE PHASE
 git clone https://github.com/libunwind/libunwind.git libunwind
 pushd libunwind
-git checkout -f 1847559
-git am < ../patches/0001-Workaround-for-force-link-of-lgcc.patch
+git checkout -f 5010beb
 popd
 
 # BUILD PHASE
 pushd libunwind
-./autogen.sh
+autoreconf -i
 ./configure
 make
 make install

@@ -6,6 +6,8 @@ if [ -f "last_error.txt" ]; then
     rm last_error.txt
 fi
 
+ln -rsf /lib/x86_64-linux-gnu/libbz2.so.1.0.4 ./lib/libbz2.so.1.0
+
 set -e
 
 if [ ! -f Morrowind.ini ]; then

@@ -28,9 +28,7 @@ fi
 
 
 if [ ! -d "$DEPPATH_273620/fsport" ]; then
-    LD_LIBRARY_PATH=.7z ./7z/7z x -o"$DEPPATH_273620/fsport" ./fsport3_6.7z
-    LD_LIBRARY_PATH=.7z ./7z/7z x -o"$DEPPATH_273620/fsport" ./fsport-missions.7z
-    LD_LIBRARY_PATH=.7z ./7z/7z x -o"$DEPPATH_273620/fsport" ./sparky_hi_fs1.7z
+    ln -s $PWD/fsport "$DEPPATH_273620/fsport"
 fi
 
 cd "$DEPPATH_273620"

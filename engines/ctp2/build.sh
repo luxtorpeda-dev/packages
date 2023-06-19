@@ -3,17 +3,25 @@
 # CLONE PHASE
 git clone https://github.com/ptitSeb/ctp2.git source
 pushd source
-git checkout 2584d00
+git checkout ac46e60
 popd
 
+git clone https://github.com/openSUSE/gtk2-compat.git
+
 # BUILD PHASE
+pushd gtk2-compat
+./autogen.sh
+./configure
+make install
+popd
+
 pushd source
 cp -rfv "EULA - Source Code for CTP2.rtf" "EULA.rtf"
 cp -rfv "Activision CTP2 Source Code_Readme.txt" "Activision_CTP2_Source_Code_Readme.txt"
 cp -rfv "Apolyton CTP2 Source Code_Readme.txt" "Apolyton_CTP2_Source_Code_Readme.txt"
 
 ./autogen.sh
-CFLAGS="$CFLAGS -w -fuse-ld=gold" CXXFLAGS="$CXXFLAGS -w -fuse-ld=gold" ./configure --enable-silent-rules --prefix="$pfx"
+CFLAGS="$CFLAGS -O3 -fuse-ld=gold -fcommon -Wno-narrowing" CXXFLAGS="$CXXFLAGS -fpermissive -O3 -fuse-ld=gold -fcommon -Wno-narrowing" ./configure --enable-silent-rules --prefix="$pfx"
 make
 popd
 

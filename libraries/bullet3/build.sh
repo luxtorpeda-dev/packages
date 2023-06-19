@@ -18,7 +18,11 @@ cmake \
  	-DBUILD_CPU_DEMOS=OFF \
  	-DBUILD_EXTRAS=OFF \
  	-DUSE_DOUBLE_PRECISION=ON \
+ 	-DCMAKE_BUILD_TYPE=Release \
  	-DBULLET2_MULTITHREADING=ON \
+ 	-DBUILD_BULLET3=0 \
+ 	-DUSE_GLUT=0 \
+ 	-DBUILD_UNIT_TESTS=0 \
  	..
 make -j "$(nproc)"
 make install

@@ -11,7 +11,25 @@ git submodule update --init --recursive
 git am < ../patches/0001-Fix-compile-error.patch
 popd
 
+git clone https://github.com/recastnavigation/recastnavigation recastnavigation
+pushd recastnavigation
+git checkout -f c5cbd53024c8a9d8d097a4371215e3342d2fdc87
+popd
 # BUILD PHASE
+pushd recastnavigation
+mkdir -p build
+cd build
+cmake \
+    -DRECASTNAVIGATION_DEMO=no \
+    -DRECASTNAVIGATION_TESTS=no \
+    -DRECASTNAVIGATION_EXAMPLES=no \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_BUILD_TYPE=Release \
+    ..
+make -j "$(nproc)"
+ make install
+popd
+
 pushd "source"
 mkdir -p build
 cd build
@@ -23,7 +41,8 @@ cmake \
     -DBUILD_WIZARD=ON \
     -DBUILD_MYGUI_PLUGIN=OFF \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DOPENMW_USE_SYSTEM_RECASTNAVIGATION=yes \
     ..
 make -j "$(nproc)"
 DESTDIR="$tmp" make install

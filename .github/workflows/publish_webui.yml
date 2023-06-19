@@ -24,7 +24,7 @@ jobs:
       - name: Angular Build
         run: npm run build
       - name: Clean up
-        run: pushd dist/webui && rm packagesruntime.json && cp index.html 404.html && popd
+        run: pushd dist/webui && rm packagessniper_v2.json && cp index.html 404.html && popd
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
         with:

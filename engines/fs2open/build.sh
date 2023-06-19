@@ -15,7 +15,6 @@ pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     ..
 make -j "$(nproc)"

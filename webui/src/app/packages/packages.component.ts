@@ -14,24 +14,130 @@ export class PackagesComponent implements OnInit {
 
   NOTICE_MAP: any = {};
 
-  runControllerCheck = false;
+  runControllerCheck = true;
 
   async ngOnInit() {
-    const response = await fetch(`/packagesruntime.json`);
+    const response = await fetch(`/packagessniper_v2.json`);
     this.titles = await response.json();
+    this.enginesToMap();
+    this.noticeTranslationToMap();
     this.sortTitles();
+  }
+
+  noticeTranslationToMap() {
+    for(let notice of this.titles.notice_translation) {
+      this.NOTICE_MAP[notice.key] = notice.value;
+    }
+  }
+
+  enginesToMap() {
+    const finalEngines: any = {};
+    for(let engine of this.titles.engines) {
+      finalEngines[engine.engine_name] = engine;
+    }
+    this.titles.engines = finalEngines;
+  }
+
+  processTitle(title: any) {
+    const titleId = title.app_id;
+    title.engines = {};
+
+    if(title.cloudAvailable && !title.cloudSupported && !title.cloudIssues) {
+      console.error(`title of ${title.game_name} has unknown cloud save feature state`);
+    }
+
+    if(title.engine_name) {
+      const engineName = title.engine_name;
+      if(this.titles.engines[engineName]) {
+        title.engines[engineName] = this.titles.engines[engineName];
+      } else {
+        console.error(`engineName of ${engineName} not found from title of ${titleId}`);
+      }
+    } else if(title.engine_names) {
+      for(let engineName of title.engine_names) {
+        if(this.titles.engines[engineName]) {
+          title.engines[engineName] = this.titles.engines[engineName];
+        } else {
+          console.error(`engineName of ${engineName} not found from title of ${titleId}`);
+        }
+      }
+    } else if(title.choices) {
+      for(let choice of title.choices) {
+        const engineName = choice.name;
+        if(this.titles.engines[engineName]) {
+          title.engines[engineName] = this.titles.engines[engineName];
+        } else if (choice.engine_name && this.titles.engines[choice.engine_name]) {
+            title.engines[choice.engine_name] = this.titles.engines[choice.engine_name];
+        } else {
+          console.error(`engineName of ${engineName} not found from title of ${titleId}`);
+        }
+      }
+    } else {
+        console.error(`missing information for ${titleId}`);
+    }
+
+    const engineKeysSorted = Object.keys(title.engines);
+    engineKeysSorted.sort();
+
+    this.titleEnginePicked[titleId] = engineKeysSorted[0];
+
+    for(let engineKey in title.engines) {
+      const tmpEngine = JSON.parse(JSON.stringify(title.engines[engineKey]));
+
+      if(title.notices) {
+        if(!tmpEngine.notices) {
+          tmpEngine.notices = [];
+        }
+        for(let notice of title.notices) {
+          tmpEngine.notices.push(notice);
+        }
+      }
+
+      if(title.removeNotices) {
+        const finalNotices = [];
+        for(let notice of tmpEngine.notices) {
+          let okToAdd = true;
+          for(let removeKey of title.removeNotices) {
+            if(notice.key === removeKey) {
+              okToAdd = false;
+              break;
+            }
+          }
+
+          if(okToAdd) {
+            finalNotices.push(notice);
+          }
+        }
+
+        tmpEngine.notices = finalNotices;
+      }
+
+      if(tmpEngine.notices) {
+          for(let notice of tmpEngine.notices) {
+            if(notice.key === 'manual_steps') {
+              tmpEngine.manualSteps = true;
+            }
+            if(notice.key === 'steam_overlay_disabled') {
+              tmpEngine.steamOverlayDisabled = true;
+            }
+            if(notice.key === 'in_progress') {
+              tmpEngine.inProgress = true;
+            }
+          }
+      }
+
+      title.engines[engineKey] = tmpEngine;
+    }
+    return title;
   }
 
   sortTitles() {
       const finalTitles: any = [];
-      let defaultRecord;
-
-      this.NOTICE_MAP = this.titles.noticeMap;
+      let defaultRecord: any = this.titles.default_engine;
 
       if(this.runControllerCheck) {
-        for(const engineId in this.titles.engines) {
-          const engine = this.titles.engines[engineId];
-
+        for(const engineKey in this.titles.engines) {
+          const engine = this.titles.engines[engineKey];
           let foundController = false;
           for(let engineKey of Object.keys(engine)) {
             if(engineKey.indexOf('controller') !== -1) {
@@ -41,109 +147,15 @@ export class PackagesComponent implements OnInit {
           }
 
           if(!foundController) {
-            console.error(`missing controller data for ${engineId}`);
+            console.error(`missing controller data for ${engine.engine_name}`);
           }
         }
       }
 
-      for (const titleId in this.titles) {
-        if(titleId === 'engines' || titleId === 'noticeMap') {
-          continue;
-        }
-
-        this.titles[titleId].titleId = titleId;
-        this.titles[titleId].engines = {};
-
-        if(this.titles[titleId].engine_name) {
-          const engineName = this.titles[titleId].engine_name;
-          if(this.titles.engines[engineName]) {
-            this.titles[titleId].engines[engineName] = this.titles.engines[engineName];
-          } else {
-            console.error(`engineName of ${engineName} not found from title of ${titleId}`);
-          }
-        } else if(this.titles[titleId].engine_names) {
-          for(let engineName of this.titles[titleId].engine_names) {
-            if(this.titles.engines[engineName]) {
-              this.titles[titleId].engines[engineName] = this.titles.engines[engineName];
-            } else {
-              console.error(`engineName of ${engineName} not found from title of ${titleId}`);
-            }
-          }
-        } else if(this.titles[titleId].choices) {
-          for(let choice of this.titles[titleId].choices) {
-            const engineName = choice.name;
-            if(this.titles.engines[engineName]) {
-              this.titles[titleId].engines[engineName] = this.titles.engines[engineName];
-            } else if (choice.engine_name && this.titles.engines[choice.engine_name]) {
-                this.titles[titleId].engines[choice.engine_name] = this.titles.engines[choice.engine_name];
-            } else {
-              console.error(`engineName of ${engineName} not found from title of ${titleId}`);
-            }
-          }
-        } else {
-            console.error(`missing information for ${titleId}`);
-        }
-
-        const engineKeysSorted = Object.keys(this.titles[titleId].engines);
-        engineKeysSorted.sort();
-
-        this.titleEnginePicked[titleId] = engineKeysSorted[0];
-
-        for(let engineKey in this.titles[titleId].engines) {
-          const tmpEngine = JSON.parse(JSON.stringify(this.titles[titleId].engines[engineKey]));
-
-          if(this.titles[titleId].notices) {
-            if(!tmpEngine.notices) {
-              tmpEngine.notices = [];
-            }
-            for(let notice of this.titles[titleId].notices) {
-             tmpEngine.notices.push(notice);
-            }
-          }
-
-          if(this.titles[titleId].removeNotices) {
-            const finalNotices = [];
-            for(let notice of tmpEngine.notices) {
-              let okToAdd = true;
-              for(let removeKey of this.titles[titleId].removeNotices) {
-                if(notice.key === removeKey) {
-                  okToAdd = false;
-                  break;
-                }
-              }
-
-              if(okToAdd) {
-                finalNotices.push(notice);
-              }
-            }
-
-            tmpEngine.notices = finalNotices;
-          }
-
-          if(tmpEngine.notices) {
-              for(let notice of tmpEngine.notices) {
-                if(notice.key === 'manual_steps') {
-                  tmpEngine.manualSteps = true;
-                }
-                if(notice.key === 'steam_overlay_disabled') {
-                  tmpEngine.steamOverlayDisabled = true;
-                }
-                if(notice.key === 'in_progress') {
-                  tmpEngine.inProgress = true;
-                }
-              }
-          }
-
-          this.titles[titleId].engines[engineKey] = tmpEngine;
-        }
-
-        if(titleId === 'default') {
-          this.titles[titleId].isDefault = true;
-          defaultRecord = this.titles[titleId];
-          continue;
-        }
-
-        finalTitles.push(this.titles[titleId]);
+      for (let title of this.titles.games) {
+        title.titleId = title.app_id;
+        title = this.processTitle(title);
+        finalTitles.push(title);
      }
 
      finalTitles.sort(function (a: any, b: any) {
@@ -157,6 +169,10 @@ export class PackagesComponent implements OnInit {
     });
 
     if(defaultRecord) {
+      defaultRecord.isDefault = true;
+      defaultRecord.titleId = 'default';
+      defaultRecord.app_id = 'default';
+      defaultRecord = this.processTitle(defaultRecord);
       finalTitles.unshift(defaultRecord);
     }
 

@@ -3,41 +3,36 @@
 # CLONE PHASE
 git clone https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git source
 pushd source
-git checkout cf9c2fa
-git am < ../patches/e90b31dcc2901f4d8390f8089a8bd43f88c575ea.patch
+git checkout 93f46f2
+git submodule update --init --recursive
 popd
 
-git clone https://github.com/kcat/openal-soft.git openal
-pushd openal
-git checkout ae4eacf
-popd
-
-# BUILD PHASE
-pushd "openal"
-cd build
-cmake \
-    -DCMAKE_BUILD_TYPE=MinSizeRel \
-    ..
-make -j "$(nproc)"
-make install
-popd
-
-pushd "source"
+pushd "source/neo"
 mkdir build
 cd build
 cmake \
-    -G "Eclipse CDT4 - Unix Makefiles" \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DSDL2=ON \
-    -DFFMPEG_ROOT="$pfx" \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    ../neo
+    --preset=linux-retail \
+    ..
+cd ../../buildRetail
 make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp "source/build/DoomBFA" "$diststart/208200/dist/DoomBFA"
+cp "source/buildRetail/DoomBFA" "$diststart/208200/dist/DoomBFA"
 cp -rfv ./assets/* "$diststart/208200/dist/"
 cp -rfv ./source/base "$diststart/208200/dist/updatedbase"
-cp -rfv "/usr/local/lib/libopenal.so.1.21.1" "$diststart/208200/dist/lib/libopenal.so"
-cp -rfv "/usr/local/lib/libopenal.so.1.21.1" "$diststart/208200/dist/lib/libopenal.so.1"
+
+mkdir -p licenses
+licensepath="$PWD/licenses"
+pushd ./source/buildRetail/vcpkg_installed/x64-linux/share
+for d in */ ; do
+    directory=${d::-1}
+    echo "$directory"
+    if [ -f "$directory/copyright" ]; then
+        cp -rfv "$d/copyright" "$licensepath/$directory.copyright"
+    fi
+done
+popd

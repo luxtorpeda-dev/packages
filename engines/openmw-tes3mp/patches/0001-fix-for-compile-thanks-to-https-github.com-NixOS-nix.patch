@@ -1,0 +1,26 @@
+From 1a3e3102e22aa6ace24a64810d4429c7744982bd Mon Sep 17 00:00:00 2001
+From: d10sfan <d10sfan@gmail.com>
+Date: Wed, 19 Apr 2023 12:24:59 -0500
+Subject: [PATCH] fix for compile, thanks to
+ https://github.com/NixOS/nixpkgs/blob/6e0c5dbcdc2bb2d6aee3303344071ff8bf0e6cb4/pkgs/games/openmw/tes3mp.patch
+
+---
+ apps/openmw-mp/Script/Types.hpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/apps/openmw-mp/Script/Types.hpp b/apps/openmw-mp/Script/Types.hpp
+index 88590d61d..832b8dbb1 100644
+--- a/apps/openmw-mp/Script/Types.hpp
++++ b/apps/openmw-mp/Script/Types.hpp
+@@ -101,7 +101,7 @@ struct ScriptFunctionPointer : public ScriptIdentity
+     void *addr;
+ #if (!defined(__clang__) && defined(__GNUC__))
+     template<typename R, typename... Types>
+-    constexpr ScriptFunctionPointer(Function<R, Types...> addr) : ScriptIdentity(addr), addr((void*)(addr)) {}
++    constexpr ScriptFunctionPointer(Function<R, Types...> addr) : ScriptIdentity(addr), addr(addr) {}
+ #else
+     template<typename R, typename... Types>
+     constexpr ScriptFunctionPointer(Function<R, Types...> addr) : ScriptIdentity(addr), addr(addr) {}
+-- 
+2.40.0
+

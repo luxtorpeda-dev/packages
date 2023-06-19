@@ -1,8 +1,138 @@
+### 65.0 (2023-06-15)
+
+* Rigel-Engine - Fix for launch
+* gzdoom - Fix wadsmoosh python use
+* qzdl - Fix wadsmoosh python use
+* doom-runner - Fix wadsmoosh python use
+* openrct2 - Add missing classic app id for build
+* runescape - Run under steam linux runtime
+* dosbox-staging - Add MOO2
+* Classic-RBDOOM-3-BFG - Update to 93f46f2, fixing OpenPlatform for achivements
+
+### 65.0 (2023-06-09)
+
+* Remove decode_as_zip, as new client will automatically detect
+* Remove duplicated information in "information" key as client will now get it from the same place as the web UI
+* Remove copy_only, as that'll be assumed if the file is not detected as an archive
+* fsport - Update to use new 7z client feature, so extracting status will be visible in the client UI
+* metadata - Update to new structured format, which the client can parse easier and makes the client easier to update
+* building - Update sniper runtime version used to 0.20230509.49493
+* scummvm - Add The 7th Guest
+
+### 63.3 (2023-06-04)
+
+* SeriousSamClassic-VK - Update to 258fd1d
+* RVGL - Update to 23.0602a1
+
+### 63.2 (2023-05-15)
+
+* doom-retro - Update to 4.9.2
+* Add support for AnodyneFNA, thanks to flibitijibibo for the package request
+* ironwail - Add support for re-release, in light of news about vkquake no longer in active development; Switch Horde maps to use ironwail
+* quake-injector - Add option for ironwail
+* Daikatana - Update to 2023-03-12
+* RBDOOM-3-BFG - Update to 1.5.1
+* SeriousSamClassic-VK - Update to f6a559f
+* openjk - Add support for steam cloud. Started some work in supporting Steam Cloud, in general this will copy your saves from a user directory where the engine stores them to the area that steam expects for cloud saving (usually in the game directory), and the symlinks the steam cloud directory back. Currently each game will require setting ```LUX_STEAM_CLOUD=1 %command%``` in the launch options, with a plan for a future client release to set it for all engines via the config. Note that the original directory is moved before the link so you can go back to that if needed.
+* renpy - Add Midnight Witch
+* unreal-gold - Add support for 64-bit
+
+### 63.1 (2023-04-22)
+
+* doom-retro - Update to 4.9.1
+* RBDOOM-3-BFG - Update to 1.5.0
+* openrct2 - Update to 0.4.5
+
+### 63.0 (2023-04-13)
+
+* Re-build engines using Steam Linux Runtime - Sniper
+* crispy-doom - Update to 6.0
+* eduke32 - Update to 6537106e
+* exhumed - Update to 09143c3
+* Hammer of Thyrion - Update to f22de3d
+* ioquake3 - Update to 18f3b6b
+* iortcw - Update to 48116b9
+* ete - Update to 1e69cda
+* nblood - Update to 09143c3
+* netduke32 - Update to v1.2.1
+* notblood - Upgrade to 7813e43
+* openjk - Update to d3e8c8d
+* OpenLoco - Update to v23.03
+* OpenTESArena - Update to 2d443bd
+* openxcom - Update to 82b7b11
+* OpenXcom OXCE Plus - Update to 7.8.18
+* q2pro - Update to 6a70d47
+* qss-m Update to 1.5.5
+* rednukem - Update to 09143c3
+* serious-engine - Update to 5725e81
+* vanilla-conquer - Update to 83c152c
+* voidsw - Update to 6537106e
+* cortex-command - Update to latest
+* doukutsu-rs - Update to 5821f06
+* raze - Update to 1.7.1
+* **doom-runner - Update to 1.7.1**
+* qzdl - Update to 44aaec0
+* OpenApoc - Update to a224501
+* doomseeker - Update to 9fab457
+* **openmw-latest - Update to 0.48 RC9**
+* warzone2100 - Update to 4.3.5
+* **classic-rbdoom-3-bfg - Update to latest**
+* perimeter - Update to latest
+
+### 62.0 (2023-04-06)
+
+* runescape - Update to 2.2.11
+* commander-genius - Automatically download catalogue
+* doom-retro - Update to 4.9
+* DOOM64EX+ - Update to 3.6.5.7
+
+### 61.7 (2023-03-27)
+
+* warzone2100 - Update to 4.3.4
+* openrct2 - Update to v0.4.4
+* OpenApoc - Update to 20230328
+* Added doom64ex-plus
+* Added dsda-doom
+* avp - Allow for unlimited saves
+* SeriousSamClassic-VK - Update to 306f653
+* raze - Update to 1.7.0
+
+### 61.6 (2023-03-08)
+
+* doom-retro - Update to 4.8.1
+* vkquake - Update to 1.30.1
+* etlegacy - Update to 2.81.1
+* ruffle - Update to 8a2d440
+* ironwail - Update to 0.7.0
+* [electricbrass] Odamex - Update to 10.3.0
+* scummvm - Add support for Sam & Max Hit the Road
+
+### 61.5 (2023-02-24)
+
+* Added QSS-M
+* OpenRA - TiberianDawnHD - Update to release-20230225
+* [neuromancer] scummvm - Update to 2.7.0
+
+### 61.4 (2023-02-05)
+
+* ET: Legacy - Update to 2.81.0
+* Added Ozymandias
+* OpenGothic - Update to v1.0.1891
+* openrct2 - Added classic support
+* ut99 - Master server update
+* ut2004 - Master server update
+* openxcom-oxce - Update to 7.8
+
 ### 61.3 (2023-01-15)
 
 * inter-doom - Update to 6.2
 * OpenLoco - Update to v22.12
 * ut99 - Fix for case sensitive imports & update config & add bonus pack 4
+* inter-doom - Update to 6.2.1
+* ecwolf - Update to 1.4.0
+* Add openra-tiberiandawnhd, for the Remastered Collection, support for Tiberian Dawn
+* doukutsu-rs - Update to 0.100.0-beta5
+* Add Vanilla Conquer for original game assets from Remastered Collection
 
 ### 61.2 (2023-01-01)
 

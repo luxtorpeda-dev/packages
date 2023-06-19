@@ -8,7 +8,6 @@ git submodule update --init --recursive
 popd
 
 mkdir -p tmp
-
 # BUILD PHASE
 pushd source
 mkdir building

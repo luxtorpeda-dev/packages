@@ -6,15 +6,13 @@ mkdir -p "$pfx"
 # CLONE PHASE
 git clone https://github.com/OpenMW/openmw source
 pushd source
-git checkout -f e78d36f
+git checkout -f ed528c5d
 git submodule update --init --recursive
-git am < ../patches/0001-Fix-compile-error.patch
-git am < ../patches/0002-force-local-path.patch
 popd
 
 git clone https://github.com/zesterer/openmw-shaders.git openmw-shaders
 pushd openmw-shaders
-git checkout 00eb62a42a3102110da150d5b4b096c2074e1989
+git checkout 3428a4f
 popd
 
 # BUILD PHASE
@@ -39,7 +37,6 @@ popd
 mkdir -p "$diststart/22320/dist/lib/"
 cp -rfv "$pfx/"lib/*.so* "$diststart/22320/dist/lib/"
 cp -rfv "$pfx/lib/"osgPlugins-* "$diststart/22320/dist/lib/"
-
 cp -rfv "$tmp/usr/local/"{etc,share} "$diststart/22320/dist/"
 cp -rfv "$tmp/usr/local/bin/"* "$diststart/22320/dist/"
 cp assets/* "$diststart/22320/dist/"

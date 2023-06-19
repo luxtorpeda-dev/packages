@@ -23,5 +23,4 @@ popd
 mkdir -p "$diststart/common/dist/base"
 cp -rfv source/build/src/inter-* "$diststart/common/dist/"
 cp -rfv "$pfx/base/"* "$diststart/common/dist/base/"
-
 cp -rfv assets/* "$diststart/common/dist/"

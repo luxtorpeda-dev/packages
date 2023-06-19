@@ -15,7 +15,10 @@ LD_PRELOAD="" cp -rfv classic/updatedbase/* classic/base
 
 cd classic
 
+LD_PRELOAD="" mkdir lib
 LD_PRELOAD="" ln -rsf ./open-platform/linux64/OpenPlatformx86_64.so ./base/OpenPlatformx86_64.so
-LD_PRELOAD="" ln -rsf ./open-platform/linux64/libsteam_api.so ./lib/libsteam_api.so
+LD_PRELOAD="" ln -rsf ./open-platform/linux64/OpenPlatformx86_64.so ./lib
+LD_PRELOAD="" ln -rsf ./open-platform/linux64/libsteam_api.so ./lib
+LD_PRELOAD="" ln -rsf ./steam_appid.txt ./lib
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./DoomBFA "$@"
+LD_LIBRARY_PATH=./lib ./DoomBFA "$@"

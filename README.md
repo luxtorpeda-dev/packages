@@ -1,5 +1,10 @@
 # Luxtorpeda Packages
 
+[![Luxtorpeda project Discord](https://img.shields.io/discord/514567252864008206.svg?label=discord)](https://discord.gg/8mFhUPX)
+[![Build Action](https://github.com/luxtorpeda-dev/packages/actions/workflows/build_engine.yml/badge.svg)](https://github.com/luxtorpeda-dev/packages/actions/workflows/build_engine.yml)
+[![GitHub contributors](https://img.shields.io/github/contributors/luxtorpeda-dev/packages)](https://github.com/luxtorpeda-dev/packages/graphs/contributors)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/d10sfan)](https://github.com/sponsors/d10sfan)
+
 Package scripts to build the engines for Luxtorpeda.
 
 [Documentation](docs/README.md)

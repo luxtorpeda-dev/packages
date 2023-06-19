@@ -1,0 +1,13 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "dependencies": [
+        "boost-program-options",
+        "boost-filesystem",
+        "boost-system",
+        "boost-iostreams",
+        "boost-locale",
+        "luajit",
+        "lz4",
+        "allegro5"
+    ]
+}

@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/skyjake/Doomsday-Engine.git source
 pushd source
-git checkout -f 8807376
+git checkout -f e7383f8
 git submodule update --init --recursive
 popd
 
@@ -31,4 +31,5 @@ cp -rfv "$pfx/usr/lib/x86_64-linux-gnu/"*.so* "$diststart/common/dist/dlib"
 cp -rfv "$pfx/lib64/"*.so* "$diststart/common/dist/dlib"
 cp -rfv "$pfx/usr/lib/x86_64-linux-gnu/doomsday/"*.so* "$diststart/common/dist/lib/doomsday"
 cp -rfv "$pfx/usr/share/doomsday/"* "$diststart/common/dist/lib/doomsday"
+
 cp -rfv "assets"/* "$diststart/common/dist"

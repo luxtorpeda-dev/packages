@@ -6,6 +6,10 @@
 # TODO: detect screen resolution, because vkQuake's desktop resolution
 #       mode and default resolution detection are broken.
 #
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+cd "$DIR"
+
 if [ ! -f share/quake/id1/vkQuake.cfg ] ; then
 	cp -f share/quake/default.lux.cfg share/quake/id1/vkQuake.cfg
 	sed -i "s|%USER%|$USER|" share/quake/id1/vkQuake.cfg
@@ -91,8 +95,8 @@ then
         ln -rsf ./rerelease/QuakeEX.kpf share/quake/rerelease/QuakeEX.kpf
     fi
     echo "Running re-release $2"
-    ./vkquake -basedir share/quake/rerelease "$@"
+    LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./lib" ./vkquake -basedir share/quake/rerelease "$@"
 else
     echo "Running non re-release"
-    ./vkquake -basedir share/quake "$@"
+    LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./lib" ./vkquake -basedir share/quake "$@"
 fi

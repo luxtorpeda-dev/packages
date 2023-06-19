@@ -12,7 +12,7 @@ export boostlocation="$PWD/boost"
 pushd "boost"
 ./bootstrap.sh
 ./b2 headers
-./b2 \
+./b2 variant=release \
 	--with-program_options \
 	--with-filesystem \
 	--with-system \
