@@ -15,7 +15,7 @@ popd
 
 git clone https://github.com/mkxp-z/mkxp-z.git source
 pushd source
-git checkout -f c419672
+git checkout -f b594640
 popd
 
 # BUILD PHASE
