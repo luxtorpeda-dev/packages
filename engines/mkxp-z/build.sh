@@ -4,7 +4,7 @@ apt-get update
 apt-get -y install groff
 
 # CLONE PHASE
-git clone https://github.com/freedesktop/uchardet.git
+git clone https://gitlab.freedesktop.org/uchardet/uchardet.git
 
 git clone https://github.com/roboticslibrary/libiconv.git
 pushd libiconv
