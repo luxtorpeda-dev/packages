@@ -8,6 +8,7 @@
 * runescape - Run under steam linux runtime
 * dosbox-staging - Add MOO2
 * Classic-RBDOOM-3-BFG - Update to 93f46f2, fixing OpenPlatform for achivements
+* prboom-plus - Update to 2.6.66
 
 ### 65.0 (2023-06-09)
 
