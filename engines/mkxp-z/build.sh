@@ -1,8 +1,5 @@
 #!/bin/bash
 
-apt-get update
-apt-get -y install groff
-
 # CLONE PHASE
 git clone https://gitlab.freedesktop.org/uchardet/uchardet.git
 
