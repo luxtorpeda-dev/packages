@@ -4,7 +4,7 @@
 # CLONE PHASE
 git clone https://github.com/atsb/Doom64EX-Plus.git source
 pushd source
-git checkout c47d71e
+git checkout 8e705b8
 popd
 
 # BUILD PHASE
