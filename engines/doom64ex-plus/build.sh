@@ -8,8 +8,8 @@ git checkout c47d71e
 popd
 
 # BUILD PHASE
-pushd source
-make
+pushd "source/src/engine"
+./build.sh
 popd
 
 # COPY PHASE
