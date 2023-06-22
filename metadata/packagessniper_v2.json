@@ -6675,8 +6675,8 @@
             "download": [
                 {
                     "name": "doom64ex-plus",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom64ex-plus-11/",
-                    "file": "doom64ex-plus-1148590-11.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom64ex-plus-12/",
+                    "file": "doom64ex-plus-1148590-12.tar.xz"
                 }
             ],
             "engine_name": "Doom64EX-Plus",
