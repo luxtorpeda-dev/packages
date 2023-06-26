@@ -10,6 +10,7 @@
 * Classic-RBDOOM-3-BFG - Update to 93f46f2, fixing OpenPlatform for achivements
 * prboom-plus - Update to 2.6.66
 * DOOM64EX+ - Update to 3.6.5.8
+* Daggerfall Unity - Update to 0.15.3 Beta
 
 ### 65.0 (2023-06-09)
 
