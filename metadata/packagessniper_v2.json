@@ -3814,6 +3814,7 @@
             "command": "./run-openxray-clearsky.sh",
             "engine_name": "OpenXRay",
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "20510"
         },
         {
@@ -4501,6 +4502,7 @@
                 "in_progress"
             ],
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "41700"
         },
         {
