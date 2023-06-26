@@ -7055,6 +7055,7 @@
             ],
             "use_original_command_directory": true,
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "1655410"
         },
         {
@@ -7085,6 +7086,7 @@
             ],
             "use_original_command_directory": true,
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "1655430"
         },
         {
@@ -7298,6 +7300,7 @@
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "use_original_command_directory": true,
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "1812410"
         },
         {
@@ -7320,6 +7323,7 @@
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "use_original_command_directory": true,
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "1812420"
         },
         {
