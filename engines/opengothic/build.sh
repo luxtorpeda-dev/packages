@@ -14,7 +14,7 @@ sudo ldconfig
 # CLONE PHASE
 git clone https://github.com/Try/OpenGothic source
 pushd source
-git checkout -f c6dfb5e
+git checkout -f 16fff0e
 git submodule update --init --recursive
 popd
 
