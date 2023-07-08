@@ -2095,8 +2095,8 @@
                 },
                 {
                     "name": "vkquake2",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-8/",
-                    "file": "vkquake2-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-9/",
+                    "file": "vkquake2-common-9.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3378,8 +3378,8 @@
                 },
                 {
                     "name": "vkquake2",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-8/",
-                    "file": "vkquake2-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-9/",
+                    "file": "vkquake2-common-9.tar.xz",
                     "cache_by_name": true
                 }
             ],
