@@ -12,6 +12,7 @@
 * DOOM64EX+ - Update to 3.6.5.8
 * Daggerfall Unity - Update to 0.15.3 Beta
 * OpenGothic - Update to v1.0.2207
+* vkquake2 - Update to 1.5.9
 
 ### 65.0 (2023-06-09)
 
