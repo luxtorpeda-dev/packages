@@ -2,6 +2,7 @@
 
 * OpenGothic - Update to v1.0.2207
 * vkquake2 - Update to 1.5.9
+* Doom Runner - Update to 1.7.3
 
 ### 65.0 (2023-06-15)
 
