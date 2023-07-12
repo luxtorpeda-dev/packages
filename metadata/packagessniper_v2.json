@@ -6800,8 +6800,8 @@
             "download": [
                 {
                     "name": "godot",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-2/",
-                    "file": "godot-common-2.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-3/",
+                    "file": "godot-common-3.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7517,8 +7517,8 @@
             "download": [
                 {
                     "name": "godot",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-2/",
-                    "file": "godot-common-2.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-3/",
+                    "file": "godot-common-3.tar.xz",
                     "cache_by_name": true
                 },
                 {
