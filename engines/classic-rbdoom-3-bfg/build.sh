@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git source
 pushd source
-git checkout 93f46f2
+git checkout c8b9874
 git submodule update --init --recursive
 popd
 
