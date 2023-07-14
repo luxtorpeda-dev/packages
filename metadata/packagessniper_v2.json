@@ -4543,8 +4543,8 @@
                 },
                 {
                     "name": "classic-rbdoom-3-bfg",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-16/",
-                    "file": "classic-rbdoom-3-bfg-208200-16.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-17/",
+                    "file": "classic-rbdoom-3-bfg-208200-17.tar.xz"
                 },
                 {
                     "name": "open-platform-v101",
@@ -7410,8 +7410,8 @@
             "download": [
                 {
                     "name": "classic-rbdoom-3-bfg",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-16/",
-                    "file": "classic-rbdoom-3-bfg-1898710-16.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-17/",
+                    "file": "classic-rbdoom-3-bfg-1898710-17.tar.xz"
                 }
             ],
             "command": "./classic/run-classic-rbdoom-3-bfg.sh",
