@@ -20,11 +20,6 @@ if [ ! -z "${GCC_9}" ]; then
     use_gcc_9
 fi
 
-if [ ! -z "${GCC_11}" ]; then
-    echo "Using gcc 11"
-    use_gcc_11
-fi
-
 if [ ! -z "${GCC_12}" ]; then
     echo "Using gcc 12"
     use_gcc_12
