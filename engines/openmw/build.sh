@@ -13,4 +13,5 @@ popd
 
 # COPY PHASE
 cp assets/* "$diststart/22320/dist/"
+mkdir -p "$diststart/22320/dist/openmw-shaders"
 cp -rfv openmw-shaders/shaders/* "$diststart/22320/dist/openmw-shaders"
