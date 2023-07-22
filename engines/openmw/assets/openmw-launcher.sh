@@ -41,6 +41,7 @@ fi
 
 mkdir -p ~/.config/openmw/share/games/openmw
 ln -rsf ./resources ~/.config/openmw/share/games/openmw
+ln -rsf ./resources ~/.config/openmw/resources
 ln -rsf ../Morrowind.ini ./Morrowind.ini
 ln -rsf ../"Data Files" ./
 
