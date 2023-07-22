@@ -3831,35 +3831,57 @@
                     "file": "openmw-tes3mp-22320-8.tar.xz"
                 },
                 {
-                    "name": "openmw-latest",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-latest-5/",
-                    "file": "openmw-latest-22320-5.tar.xz"
+                    "name": "openmw-binaries",
+                    "url": "https://github.com/OpenMW/openmw/releases/download/openmw-0.48.0/",
+                    "file": "openmw-0.48.0-Linux-64Bit.tar.gz"
                 }
             ],
             "download_config": [
                 {
                     "extract_location": "./openmw-tes3mp",
                     "download_name": "openmw-tes3mp"
-                },
-                {
-                    "extract_location": "./openmw-latest",
-                    "download_name": "openmw-latest"
                 }
             ],
             "choices": [
                 {
-                    "name": "openmw",
+                    "name": "OpenMW",
                     "command": "./openmw.sh",
                     "download": [
-                        "openmw"
+                        "openmw",
+                        "openmw-binaries"
                     ],
                     "engine_name": "OpenMW"
                 },
                 {
-                    "name": "openmw-launcher",
+                    "name": "OpenMW with zesterer's Shaders",
+                    "command": "./openmw.sh",
+                    "download": [
+                        "openmw",
+                        "openmw-binaries"
+                    ],
+                    "command_args": [
+                        "withshaders"
+                    ],
+                    "engine_name": "OpenMW"
+                },
+                {
+                    "name": "OpenMW Launcher",
                     "command": "./openmw-launcher.sh",
                     "download": [
-                        "openmw"
+                        "openmw",
+                        "openmw-binaries"
+                    ],
+                    "engine_name": "OpenMW"
+                },
+                {
+                    "name": "OpenMW Launcher with zesterer's Shaders",
+                    "command": "./openmw-launcher.sh",
+                    "download": [
+                        "openmw",
+                        "openmw-binaries"
+                    ],
+                    "command_args": [
+                        "withshaders"
                     ],
                     "engine_name": "OpenMW"
                 },
@@ -3869,44 +3891,6 @@
                     "download": [
                         "openmw-tes3mp"
                     ]
-                },
-                {
-                    "name": "OpenMW (Latest)",
-                    "command": "./openmw-latest/openmw.sh",
-                    "download": [
-                        "openmw-latest"
-                    ],
-                    "engine_name": "OpenMW (Latest)"
-                },
-                {
-                    "name": "OpenMW (Latest) with zesterer's Shaders",
-                    "command": "./openmw-latest/openmw.sh",
-                    "download": [
-                        "openmw-latest"
-                    ],
-                    "command_args": [
-                        "withshaders"
-                    ],
-                    "engine_name": "OpenMW (Latest)"
-                },
-                {
-                    "name": "OpenMW (Latest) Launcher",
-                    "command": "./openmw-latest/openmw-launcher.sh",
-                    "download": [
-                        "openmw-latest"
-                    ],
-                    "engine_name": "OpenMW (Latest)"
-                },
-                {
-                    "name": "OpenMW (Latest) Launcher with zesterer's Shaders",
-                    "command": "./openmw-latest/openmw-launcher.sh",
-                    "download": [
-                        "openmw-latest"
-                    ],
-                    "command_args": [
-                        "withshaders"
-                    ],
-                    "engine_name": "OpenMW (Latest)"
                 }
             ],
             "cloudAvailable": true,
@@ -8373,31 +8357,13 @@
         },
         {
             "engine_link": "https://openmw.org/",
-            "version": "0.47.0",
+            "version": "0.48.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE",
             "controllerSupported": true,
             "engine_name": "OpenMW"
-        },
-        {
-            "engine_link": "https://openmw.org/",
-            "version": "0.48 RC9",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/OpenMW/openmw/blob/master/LICENSE",
-            "controllerSupported": true,
-            "notices": [
-                {
-                    "key": "in_progress"
-                },
-                {
-                    "label": "Saves and config are located inside ./openmw-latest directory inside game directory."
-                }
-            ],
-            "engine_name": "OpenMW (Latest)"
         },
         {
             "engine_link": "https://github.com/TES3MP/openmw-tes3mp",
