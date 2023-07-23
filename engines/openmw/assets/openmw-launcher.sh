@@ -24,7 +24,7 @@ if [ ! -d ~/.config/openmw ]; then
     mkdir -p ~/.config/openmw
 fi
 
-if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
+if ! [[ -z "${LUX_STEAM_DECK2}" ]]; then
     if [ ! -f ~/.config/openmw/settings.cfg ]; then
         echo -e "[Video]" >> ~/.config/openmw/settings.cfg
         echo -e "fullscreen = true" >> ~/.config/openmw/settings.cfg
