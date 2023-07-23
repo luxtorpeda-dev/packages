@@ -2,6 +2,7 @@
 
 # ===================== Xcb deps phase     =====================
 
+apt-get -y install xutils-dev xcb-proto python3-xcbgen
 export pfx="$PWD/local"
 
 # CLONE PHASE
@@ -24,6 +25,11 @@ tar xvf xcb-util-keysyms-0.4.1.tar.xz
 
 wget https://xorg.freedesktop.org/archive/individual/lib/xcb-util-renderutil-0.3.10.tar.xz
 tar xvf xcb-util-renderutil-0.3.10.tar.xz
+
+git clone https://gitlab.freedesktop.org/xorg/lib/libxcb.git
+pushd libxcb
+git checkout git checkout libxcb-1.14
+popd
 
 # BUILD PHASE
 pushd xcb-util-0.4.1
@@ -62,6 +68,13 @@ popd
 
 pushd xcb-util-renderutil-0.3.10
 ./configure --disable-static
+make
+make DESTDIR="$pfx" install
+make install
+popd
+
+pushd libxcb
+./autogen.sh
 make
 make DESTDIR="$pfx" install
 make install
