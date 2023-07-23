@@ -28,7 +28,7 @@ tar xvf xcb-util-renderutil-0.3.10.tar.xz
 
 git clone https://gitlab.freedesktop.org/xorg/lib/libxcb.git
 pushd libxcb
-git checkout git checkout libxcb-1.14
+git checkout libxcb-1.14
 popd
 
 # BUILD PHASE
