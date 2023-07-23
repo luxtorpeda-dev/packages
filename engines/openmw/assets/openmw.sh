@@ -85,4 +85,4 @@ else
     LD_PRELOAD="" ln -rsf ./shaders-bkup ./resources/shaders
 fi
 
-./openmw --data-local "../Data Files" "$@"
+./openmw.x86_64 --data-local "../Data Files" "$@"

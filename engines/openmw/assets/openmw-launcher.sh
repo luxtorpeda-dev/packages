@@ -61,4 +61,4 @@ else
     LD_PRELOAD="" ln -rsf ./shaders-bkup ./resources/shaders
 fi
 
-LD_LIBRARY_PATH=./lib:../lib:$LD_LIBRARY_PATH ./openmw-launcher --data-local "./Data Files" "$@"
+LD_LIBRARY_PATH=./lib:../lib:$LD_LIBRARY_PATH ./openmw-launcher.x86_64 --data-local "./Data Files" "$@"
