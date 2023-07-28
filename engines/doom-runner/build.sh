@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Youda008/DoomRunner.git source
 pushd source
-git checkout -f 5395835
+git checkout -f 8100cba
 popd
 
 export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
