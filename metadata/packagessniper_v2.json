@@ -354,8 +354,8 @@
                 },
                 {
                     "name": "odamex",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/odamex-3/",
-                    "file": "odamex-common-3.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/odamex-4/",
+                    "file": "odamex-common-4.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -988,8 +988,8 @@
                 },
                 {
                     "name": "odamex",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/odamex-3/",
-                    "file": "odamex-common-3.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/odamex-4/",
+                    "file": "odamex-common-4.tar.xz",
                     "cache_by_name": true
                 },
                 {
