@@ -6,6 +6,7 @@
 * Godot - Add support for Cruelty Squad
 * [neuromancer] scummvm - Update to 2.7.1
 * openmw - Update to 0.48.0, use upstream binaries
+* Doom Runner - Update to v1.8.0
 
 ### 65.0 (2023-06-15)
 
