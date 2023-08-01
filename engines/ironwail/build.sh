@@ -2,7 +2,7 @@
 
 export CXXFLAGS=-I"$VCPKG_INSTALLED_PATH"/include
 export CFLAGS=-I"$VCPKG_INSTALLED_PATH"/include
-export LDFLAGS=-L"$VCPKG_INSTALLED_PATH"/lib
+export LDFLAGS=-L"$VCPKG_INSTALLED_PATH"/lib/libmad.so
 
 # CLONE PHASE
 git clone https://github.com/andrei-drexler/ironwail.git source
