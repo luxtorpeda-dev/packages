@@ -4806,8 +4806,8 @@
                 },
                 {
                     "name": "netduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/netduke32-2/",
-                    "file": "netduke32-common-2.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/netduke32-3/",
+                    "file": "netduke32-common-3.tar.xz",
                     "cache_by_name": true
                 }
             ],
