@@ -30,6 +30,7 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
+    -DCMAKE_TOOLCHAIN_FILE="$VCPKG_SRC_PATH/scripts/buildsystems/vcpkg.cmake" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
     -DPLAYER_ENABLE_TESTS=OFF \
