@@ -4842,8 +4842,8 @@
             "download": [
                 {
                     "name": "voidsw",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/voidsw-4/",
-                    "file": "voidsw-common-4.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/voidsw-5/",
+                    "file": "voidsw-common-5.tar.xz",
                     "cache_by_name": true
                 },
                 {
