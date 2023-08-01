@@ -12,11 +12,6 @@ mkdir build
 cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DDUKTAPE_LIBRARY="$pfx/lib/libduktape.so" \
-    -DDUKTAPE_INCLUDE_DIR="$pfx/include" \
-    -DICU_ROOT="$pfx" \
-    -DJANSSON_LIBRARIES="$pfx/lib/libjansson.so" \
-    -DLIBZIP_LIBRARIES="$pfx/lib/libzip.so" \
     -DCMAKE_INSTALL_PREFIX="$pfx/openrct2" \
     ..
 make -j "$(nproc)"
