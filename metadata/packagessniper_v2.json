@@ -1710,8 +1710,8 @@
                 },
                 {
                     "name": "qss-m",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qss-m-3/",
-                    "file": "qss-m-common-3.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qss-m-4/",
+                    "file": "qss-m-common-4.tar.xz",
                     "cache_by_name": true
                 }
             ],
