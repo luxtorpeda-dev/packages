@@ -20,3 +20,4 @@ popd
 # COPY PHASE
 cp -rfv "source/build"/{raze,soundfonts,*.pk3} "$diststart/common/dist/"
 cp -rfv "assets/"* "$diststart/common/dist/"
+ln -rsf "$diststart/common/dist/lib/libfluidsynth.so.3" "$diststart/common/dist/lib/libfluidsynth.so.2"
