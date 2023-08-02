@@ -13,6 +13,7 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DBOOST_ROOT="$VCPKG_INSTALLED_PATH" \
     -DCMAKE_BUILD_TYPE=Release \
     ..
 make -j "$(nproc)"
