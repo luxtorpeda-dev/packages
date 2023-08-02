@@ -1,5 +1,10 @@
 #!/bin/bash
 
+export CXXFLAGS=-I"$VCPKG_INSTALLED_PATH"/include
+export CFLAGS=-I"$VCPKG_INSTALLED_PATH"/include
+export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
+export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
+
 # From https://gitlab.com/luxtorpeda/packages/vkquake - See LICENSE file for more information
 
 wget https://sdk.lunarg.com/sdk/download/1.3.231.1/linux/vulkansdk-linux-x86_64-1.3.231.1.tar.gz

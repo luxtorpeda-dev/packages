@@ -4,5 +4,5 @@ export STEAM_APP_ID_LIST="2280 2300 2360 2390 2370 1118550 817220 1072150 154644
 export LICENSE_PATH="./source/LICENSE"
 export ADDITIONAL_LICENSES="./LICENSE ./wadsmoosh/license.txt"
 export COMMON_PACKAGE="1"
-export LIBRARIES="fluidsynth215 zmusic yasm libvpx"
+export LIBRARIES="zmusic"
 export APT_LIBRARIES="mercurial"
