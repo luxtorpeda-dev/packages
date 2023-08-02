@@ -1,5 +1,10 @@
 #!/bin/bash
 
+export CXXFLAGS=-I"$VCPKG_INSTALLED_PATH"/include
+export CFLAGS=-I"$VCPKG_INSTALLED_PATH"/include
+export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
+export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
+
 # CLONE PHASE
 git clone https://github.com/sezero/uhexen2.git source
 pushd source
