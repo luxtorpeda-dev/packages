@@ -6,6 +6,7 @@
         "boost-system",
         "boost-iostreams",
         "boost-locale",
+        "boost-endian",
         "libmad",
         "ffmpeg"
     ]
