@@ -6,19 +6,7 @@ pushd source
 git checkout 3aec70b0
 popd
 
-git clone https://github.com/Konstanty/libmodplug.git libmodplug
-pushd libmodplug
-git checkout d1b97ed
-popd
-
 # BUILD PHASE
-pushd "libmodplug"
-autoreconf --install
-./configure --prefix="$pfx"
-make -j "$(nproc)"
-make install
-popd
-
 pushd "source"
 mkdir -p build
 cd build
