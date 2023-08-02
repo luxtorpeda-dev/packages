@@ -15,6 +15,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DBOOST_ROOT="$VCPKG_INSTALLED_PATH" \
     -DCMAKE_BUILD_TYPE=Release \
+    -DBUILD_LAUNCHER=OFF \
     ..
 make -j "$(nproc)"
 popd
