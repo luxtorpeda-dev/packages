@@ -8,6 +8,7 @@
         "boost-locale",
         "boost-endian",
         "boost-format",
+        "boost-log",
         "libmad",
         "ffmpeg"
     ]
