@@ -11,7 +11,8 @@ pushd "source"
 mkdir build
 cd build || exit 1
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_PREFIX_PATH="$pfx;$VCPKG_INSTALLED_PATH" \
+    -DBOOST_ROOT="$VCPKG_INSTALLED_PATH" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     ..
 make -j "$(nproc)"
