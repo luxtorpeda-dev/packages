@@ -7074,27 +7074,6 @@
             "app_id": "1655430"
         },
         {
-            "game_name": "Project Absentia Demo",
-            "download": [
-                {
-                    "name": "wigzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wigzdoom-6/",
-                    "file": "wigzdoom-common-6.tar.xz",
-                    "cache_by_name": true
-                }
-            ],
-            "command": "./run-wigzdoom.sh",
-            "command_args": [
-                "-iwad",
-                "absentia.ipk3",
-                "-savedir",
-                "./saves"
-            ],
-            "engine_name": "WIGZDoom",
-            "cloudNotAvailable": true,
-            "app_id": "1679920"
-        },
-        {
             "game_name": "REKKR: Sunken Land",
             "download": [
                 {
@@ -8733,16 +8712,6 @@
             ],
             "controllerNotSupported": true,
             "engine_name": "Zandronum"
-        },
-        {
-            "engine_link": "https://github.com/SanyaWaffles/WIGZDoom",
-            "version": "f0ffed7",
-            "author": "dreamer/d10sfan",
-            "author_link": "https://github.com/dreamer",
-            "license": "GPLv3",
-            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
-            "controllerSupported": true,
-            "engine_name": "WIGZDoom"
         },
         {
             "engine_name": "BlastEm",
