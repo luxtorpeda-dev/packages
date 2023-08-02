@@ -3826,20 +3826,24 @@
                     "file": "openmw-22320-27.tar.xz"
                 },
                 {
-                    "name": "openmw-tes3mp",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openmw-tes3mp-8/",
-                    "file": "openmw-tes3mp-22320-8.tar.xz"
-                },
-                {
                     "name": "openmw-binaries",
                     "url": "https://github.com/OpenMW/openmw/releases/download/openmw-0.48.0/",
                     "file": "openmw-0.48.0-Linux-64Bit.tar.gz"
+                },
+                {
+                    "name": "openmw-tes3mp-binaries",
+                    "url": "https://github.com/TES3MP/TES3MP/releases/download/tes3mp-0.8.1/",
+                    "file": "tes3mp-GNU+Linux-x86_64-release-0.8.1-68954091c5-6da3fdea59.tar.gz"
                 }
             ],
             "download_config": [
                 {
                     "extract_location": "./openmw-tes3mp",
                     "download_name": "openmw-tes3mp"
+                },
+                {
+                    "extract_location": "./openmw-tes3mp",
+                    "download_name": "openmw-tes3mp-binaries"
                 }
             ],
             "choices": [
@@ -3889,7 +3893,8 @@
                     "name": "openmw-tes3mp",
                     "command": "./openmw-tes3mp/tes3mp-launcher.sh",
                     "download": [
-                        "openmw-tes3mp"
+                        "openmw-tes3mp",
+                        "openmw-tes3mp-binaries"
                     ]
                 }
             ],
