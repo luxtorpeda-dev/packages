@@ -8552,8 +8552,8 @@
             "engine_name": "openrct2"
         },
         {
-            "engine_link": "https://github.com/IonAgorria/Perimeter",
-            "version": "48e3d63",
+            "engine_link": "https://github.com/KD-lab-Open-Source/Perimeter",
+            "version": "f58b3ae",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",

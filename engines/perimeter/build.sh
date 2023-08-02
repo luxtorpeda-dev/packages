@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/IonAgorria/Perimeter.git source
+git clone https://github.com/KD-lab-Open-Source/Perimeter.git source
 pushd source
-git checkout -f 48e3d63
+git checkout -f f58b3ae
 git submodule update --init --recursive
 popd
 
