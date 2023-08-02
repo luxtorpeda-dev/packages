@@ -5,6 +5,6 @@
         "boost-filesystem",
         "boost-system",
         "boost-iostreams",
-        "boost-locale",
+        "boost-locale"
     ]
 }
