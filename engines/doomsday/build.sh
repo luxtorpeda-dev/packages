@@ -7,8 +7,10 @@ git checkout -f e7383f8
 git submodule update --init --recursive
 popd
 
-export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
-export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
+export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -I"$VCPKG_INSTALLED_PATH"/include"
+export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -I"$VCPKG_INSTALLED_PATH"/include"
+export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
+export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib;$pfx/lib"
 
 # BUILD PHASE
 pushd "source"
