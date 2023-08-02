@@ -3,5 +3,6 @@
     "dependencies": [
         { "name": "fluidsynth", "features": ["pulseaudio"] },
         { "name": "assimp" }
+        { "name": "minizip" }
     ]
 }
