@@ -6402,8 +6402,8 @@
             "download": [
                 {
                     "name": "reminiscence",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reminiscence-4/",
-                    "file": "reminiscence-961620-4.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reminiscence-5/",
+                    "file": "reminiscence-961620-5.tar.xz"
                 }
             ],
             "command": "./run-flashback.sh",
