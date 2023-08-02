@@ -12,7 +12,7 @@ pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local;$VCPKG_INSTALLED_PATH" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DWZ_ENABLE_WARNINGS_AS_ERRORS=OFF \
