@@ -27,17 +27,17 @@ fi
 
 gcc --version
 
+if [ ! -z "${APT_LIBRARIES}" ]; then
+    echo "Found apt libraries to install $APT_LIBRARIES"
+    start_apt_libraries "$APT_LIBRARIES"
+fi
+
 if [ ! -z "${LIBRARIES}" ]; then
     echo "Found libraries to build: $LIBRARIES"
     pushd ../../libraries
     source start_library_build.sh
     start_library_build "$LIBRARIES"
     popd
-fi
-
-if [ ! -z "${APT_LIBRARIES}" ]; then
-    echo "Found apt libraries to install $APT_LIBRARIES"
-    start_apt_libraries "$APT_LIBRARIES"
 fi
 
 if [ -f "vcpkg.json" ]; then
