@@ -3897,20 +3897,6 @@
             "app_id": "22320"
         },
         {
-            "game_name": "STAR WARS™ - Knights of the Old Republic™",
-            "download": [
-                {
-                    "name": "reone",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reone-17/",
-                    "file": "reone-32370-17.tar.xz"
-                }
-            ],
-            "command": "./run-kotor1.sh",
-            "engine_name": "reone",
-            "cloudAvailable": true,
-            "app_id": "32370"
-        },
-        {
             "game_name": "SEGA Mega Drive & Genesis Classics",
             "download": [
                 {
@@ -8088,21 +8074,6 @@
                 }
             ],
             "engine_name": "ozymandias"
-        },
-        {
-            "engine_link": "https://github.com/seedhartha/reone",
-            "version": "b2f0484",
-            "notices": [
-                {
-                    "key": "in_progress"
-                }
-            ],
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/seedhartha/reone/blob/master/COPYING",
-            "controllerNotSupported": true,
-            "engine_name": "reone"
         },
         {
             "engine_link": "https://github.com/Try/OpenGothic",
