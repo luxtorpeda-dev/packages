@@ -1,3 +1,7 @@
+### 65b (2023-08-02) 
+
+* chocolate-doom - Update to 20abc8b
+
 ### 65.1 (2023-07-10)
 
 * OpenGothic - Update to v1.0.2207
