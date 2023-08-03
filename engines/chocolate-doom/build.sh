@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/chocolate-doom/chocolate-doom.git source
 pushd source
-git checkout 64c5bcb
+git checkout 20abc8b
 popd
 
 # BUILD PHASE
