@@ -30,6 +30,11 @@ popd
 wget https://github.com/zdevito/terra/releases/download/release-2016-03-25/terra-Linux-x86_64-332a506.zip
 unzip terra-Linux-x86_64-332a506.zip
 
+git clone https://github.com/twogood/unshield.git
+pushd unshield
+git checkout -f c5d3560
+popd
+
 # BUILD PHASE
 pushd crabnet
 mkdir -p build
@@ -53,6 +58,20 @@ cmake \
 make -j "$(nproc)"
 popd
 
+pushd unshield
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DCMAKE_BUILD_TYPE=Release \
+    ..
+make -j "$(nproc)"
+make install
+popd
+
+cp -rfv "$pfx/include/"* "/usr/include"
+cp -rfv "$pfx/lib/"* "/usr/lib"
+
 export CXXFLAGS="-fpermissive"
 export CFLAGS="-fpermissive"
 export Terra_ROOT="$pstart/terra-Linux-x86_64-332a506"
@@ -61,7 +80,6 @@ export RAKNET_ROOT="$pfx"
 pushd "source"
 mkdir -p build
 cd build
-export OSG_DIR="$pfx/lib64"
 cmake \
     -DBUILD_LAUNCHER=ON \
     -DDESIRED_QT_VERSION=5 \
@@ -71,8 +89,6 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
     -DRakNet_LIBRARY_DEBUG="$pfx/lib/libRakNetLibStatic.a" \
-    -DLuaJit_INCLUDE_DIR="$pfx/usr/local/include/luajit-2.1/" \
-    -DLuaJit_LIBRARY="$pfx/usr/local/lib/libluajit-5.1.so" \
     -DCMAKE_CXX_FLAGS="-fpermissive" \
     -DCallFF_INCLUDES="$pstart/callff/include" \
     -DCallFF_LIBRARY="$pstart/callff/build/src/libcallff.a" \
