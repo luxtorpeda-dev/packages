@@ -16,6 +16,7 @@ cmake \
     -DBOOST_ROOT="$VCPKG_INSTALLED_PATH" \
     -DCMAKE_BUILD_TYPE=Release \
     -DBUILD_LAUNCHER=OFF \
+    -DBUILD_TOOLKIT=OFF \
     ..
 make -j "$(nproc)"
 popd
