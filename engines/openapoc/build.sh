@@ -1,6 +1,7 @@
 #!/bin/bash
 
 export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
+export LD_LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib:$LD_LIBRARY_PATH"
 
 # CLONE PHASE
 git clone https://github.com/OpenApoc/OpenApoc.git source
