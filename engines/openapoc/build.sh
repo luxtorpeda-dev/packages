@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
+export LD_LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib:$LD_LIBRARY_PATH"
+
 # CLONE PHASE
 git clone https://github.com/OpenApoc/OpenApoc.git source
 pushd source
@@ -12,9 +15,10 @@ pushd source
 mkdir build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
+    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5;$VCPKG_INSTALLED_PATH" \
+    -DBOOST_ROOT="$VCPKG_INSTALLED_PATH" \
     -DBUILD_LAUNCHER=ON \
-    -DBoost_LIBRARY_DIRS="$pfx/lib" \
+    -DBoost_LIBRARY_DIRS="$VCPKG_INSTALLED_PATH/lib" \
     -DENABLE_TESTS=OFF \
     -DEXTRACT_DATA=OFF \
     ..
