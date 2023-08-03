@@ -17,6 +17,7 @@ cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DBUILD_LAUNCHER=OFF \
     -DBUILD_TOOLKIT=OFF \
+    -DBUILD_TESTS=OFF \
     ..
 make -j "$(nproc)"
 popd
