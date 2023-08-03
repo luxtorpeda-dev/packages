@@ -1,6 +1,7 @@
 ### 65b (2023-08-02) 
 
 * chocolate-doom - Update to 20abc8b
+* Updated engines to use vcpkg for library depedencies where possible
 
 ### 65.1 (2023-07-10)
 
