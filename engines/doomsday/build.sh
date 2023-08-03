@@ -7,8 +7,10 @@ git checkout -f e7383f8
 git submodule update --init --recursive
 popd
 
-export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
-export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
+export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -I"$VCPKG_INSTALLED_PATH"/include"
+export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -I"$VCPKG_INSTALLED_PATH"/include"
+export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
+export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib;$pfx/lib"
 
 # BUILD PHASE
 pushd "source"
@@ -28,8 +30,6 @@ mkdir -p "$diststart/common/dist/dlib"
 mkdir -p "$diststart/common/dist/lib/doomsday"
 cp -rfv "$pfx/usr/bin/" "$diststart/common/dist/"
 cp -rfv "$pfx/usr/lib/x86_64-linux-gnu/"*.so* "$diststart/common/dist/dlib"
-cp -rfv "$pfx/lib64/"*.so* "$diststart/common/dist/dlib"
 cp -rfv "$pfx/usr/lib/x86_64-linux-gnu/doomsday/"*.so* "$diststart/common/dist/lib/doomsday"
 cp -rfv "$pfx/usr/share/doomsday/"* "$diststart/common/dist/lib/doomsday"
-
 cp -rfv "assets"/* "$diststart/common/dist"
