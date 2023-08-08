@@ -3,6 +3,7 @@
 * chocolate-doom - Update to 20abc8b
 * Updated engines to use vcpkg for library depedencies where possible
 * Doom Runner - Update to 1.8.1
+* crispy-doom - Add support for additional Doom games
 
 ### 65.1 (2023-07-10)
 
