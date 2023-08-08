@@ -3455,6 +3455,7 @@
             "command": "./run-dhewm3.sh",
             "engine_name": "dhewm3",
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "9050"
         },
         {
@@ -3535,6 +3536,7 @@
             ],
             "engine_name": "dhewm3",
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "9070"
         },
         {

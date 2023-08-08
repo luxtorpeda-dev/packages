@@ -24,4 +24,10 @@ if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
     fi
 fi
 
-./dhewm3 "$@"
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+if ! [[ -z "${LUX_STEAM_CLOUD}" ]]; then
+    ./dhewm3 +set fs_savepath "$DIR" "$@"
+else
+    ./dhewm3 "$@"
+fi
