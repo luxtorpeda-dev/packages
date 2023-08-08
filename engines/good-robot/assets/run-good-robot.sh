@@ -25,7 +25,7 @@ if ! [[ -z "${LUX_STEAM_CLOUD}" ]]; then
             mkdir -p "$engine_save_dir"
         fi
 
-        if [ -d "${cloud_save_dir}" ]; then
+        if [ ! -d "${cloud_save_dir}" ]; then
             mkdir -p "$cloud_save_dir"
         fi
 
