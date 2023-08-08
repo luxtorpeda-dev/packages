@@ -437,6 +437,41 @@
                     ],
                     "engine_name": "Chocolate Doom"
                 },
+                 {
+                    "name": "Crispy Doom",
+                    "command": "./crispy-doom/run-crispy-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/DOOM.WAD"
+                    ],
+                    "download": [
+                        "crispy-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./crispy-doom",
+                            "download_name": "crispy-doom"
+                        }
+                    ]
+                },
+                {
+                    "name": "Crispy Doom (Setup)",
+                    "command": "./crispy-doom/run-crispy-doom-setup.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/DOOM.WAD"
+                    ],
+                    "download": [
+                        "crispy-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./crispy-doom",
+                            "download_name": "crispy-doom"
+                        }
+                    ],
+                    "engine_name": "Crispy Doom"
+                },
                 {
                     "name": "International Doom",
                     "command": "./inter-doom/run-inter-doom.sh",
@@ -770,6 +805,67 @@
                         }
                     ],
                     "engine_name": "Chocolate Doom"
+                },
+                 {
+                    "name": "Crispy Doom",
+                    "commands": [
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "base/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutoniam?.conf"
+                        },
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "base/TNT.WAD"
+                            ],
+                            "command_name": ".*tntm?.conf"
+                        }
+                    ],
+                    "download": [
+                        "crispy-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./crispy-doom",
+                            "download_name": "crispy-doom"
+                        }
+                    ]
+                },
+                {
+                    "name": "Crispy Doom (Setup)",
+                    "commands": [
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom-setup.sh",
+                            "args": [
+                                "-iwad",
+                                "base/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutoniam?.conf"
+                        },
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom-setup.sh",
+                            "args": [
+                                "-iwad",
+                                "base/TNT.WAD"
+                            ],
+                            "command_name": ".*tntm?.conf"
+                        }
+                    ],
+                    "download": [
+                        "crispy-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./crispy-doom",
+                            "download_name": "crispy-doom"
+                        }
+                    ],
+                    "engine_name": "Crispy Doom"
                 },
                 {
                     "name": "International Doom",
@@ -1224,6 +1320,115 @@
                         }
                     ],
                     "engine_name": "Chocolate Doom"
+                },
+                {
+                    "name": "Crispy Doom",
+                    "commands": [
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*rerelease"
+                        },
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*doom2"
+                        },
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "finaldoombase/TNT.WAD"
+                            ],
+                            "command_name": ".*tnt"
+                        },
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "finaldoombase/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutonia"
+                        },
+                        {
+                            "cmd": "/bin/sh",
+                            "args": [
+                                "-c",
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
+                            ],
+                            "command_name": ".*master"
+                        }
+                    ],
+                    "download": [
+                        "crispy-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./crispy-doom",
+                            "download_name": "crispy-doom"
+                        }
+                    ]
+                },
+                {
+                    "name": "Crispy Doom (Setup)",
+                    "commands": [
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom-setup.sh",
+                            "args": [
+                                "-iwad",
+                                "base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*rerelease"
+                        },
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom-setup.sh",
+                            "args": [
+                                "-iwad",
+                                "base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*doom2"
+                        },
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom-setup.sh",
+                            "args": [
+                                "-iwad",
+                                "finaldoombase/TNT.WAD"
+                            ],
+                            "command_name": ".*tnt"
+                        },
+                        {
+                            "cmd": "./crispy-doom/run-crispy-doom-setup.sh",
+                            "args": [
+                                "-iwad",
+                                "finaldoombase/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutonia"
+                        },
+                        {
+                            "cmd": "/bin/sh",
+                            "args": [
+                                "-c",
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
+                            ],
+                            "command_name": ".*master"
+                        }
+                    ],
+                    "download": [
+                        "crispy-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./crispy-doom",
+                            "download_name": "crispy-doom"
+                        }
+                    ],
+                    "engine_name": "Crispy Doom"
                 },
                 {
                     "name": "International Doom",
