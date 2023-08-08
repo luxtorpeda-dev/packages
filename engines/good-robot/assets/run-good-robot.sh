@@ -15,7 +15,7 @@ if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
 fi
 
 if ! [[ -z "${LUX_STEAM_CLOUD}" ]]; then
-    engine_save_dir="$HOME/.config/Pyrodactyl/Good Robot/"
+    engine_save_dir="$HOME/.config/Pyrodactyl/Good Robot"
     cloud_save_dir="$PWD/save"
     cloud_transfer_run_file="$PWD/luxsteamcloud"
 
