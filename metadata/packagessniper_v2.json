@@ -5974,6 +5974,7 @@
             "command": "./run-good-robot.sh",
             "engine_name": "Good-Robot",
             "cloudAvailable": true,
+            "cloudSupported": true,
             "controllerSteamDefault": true,
             "app_id": "358830"
         },
