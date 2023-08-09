@@ -100,7 +100,7 @@ jobs:
         with:
           ref: master
       - name: Update packagessniper_v2.json
-        uses: luxtorpeda-dev/action-build-update-packages@v12
+        uses: luxtorpeda-dev/action-build-update-packages@v13
         with:
           matrix: ${{ needs.finddeploy.outputs.matrix }}
           version: ${{ needs.finddeploy.outputs.build_number }}
