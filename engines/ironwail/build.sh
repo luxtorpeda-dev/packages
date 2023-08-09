@@ -27,6 +27,7 @@ mkdir -p "$diststart/common/dist/ironwail/share/quake/rerelease/id1"
 mkdir -p "$diststart/common/dist/ironwail/share/quake/rerelease/rogue"
 mkdir -p "$diststart/common/dist/ironwail/share/quake/rerelease/hipnotic"
 mkdir -p "$diststart/common/dist/ironwail/share/quake/mg1"
+
 cp -v source/Quake/ironwail "$diststart/common/dist/ironwail/"
 cp -v assets/ironwail.sh "$diststart/common/dist/ironwail/"
 cp -v assets/default.lux.cfg "$diststart/common/dist/ironwail/share/quake"
