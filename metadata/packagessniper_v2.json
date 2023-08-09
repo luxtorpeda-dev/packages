@@ -9257,8 +9257,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-20/",
-                "file": "scummvm-common-20.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-21/",
+                "file": "scummvm-common-21.tar.xz",
                 "cache_by_name": true
             },
             {
