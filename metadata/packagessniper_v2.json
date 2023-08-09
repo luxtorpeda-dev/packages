@@ -4742,8 +4742,8 @@
                     "file": "classic-rbdoom-3-bfg-208200-17.tar.xz"
                 },
                 {
-                    "name": "open-platform-v101",
-                    "url": "https://github.com/MadDeCoDeR/Open_Platform/releases/download/v1.0.1/",
+                    "name": "open-platform-v102",
+                    "url": "https://github.com/MadDeCoDeR/Open_Platform/releases/download/v1.0.2/",
                     "file": "Open_Platform.with.Steam.zip"
                 }
             ],
@@ -8563,7 +8563,7 @@
         },
         {
             "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
-            "version": "c8b9874",
+            "version": "1.3.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
