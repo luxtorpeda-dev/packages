@@ -22,5 +22,5 @@ if [ ! -d hipnotic/music ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/hipnotic/music ./hipnotic/music
 fi
 
-chmod +x fteqw64
-./fteqw64 "$@"
+chmod +x fteqw-sdl2
+./fteqw-sdl2 "$@"

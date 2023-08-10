@@ -1,4 +1,4 @@
 #!/bin/bash
 
-chmod +x fteqw64
-./fteqw64 "$@"
+chmod +x fteqw-sdl2
+./fteqw-sdl2 "$@"

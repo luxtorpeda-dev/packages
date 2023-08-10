@@ -16,5 +16,5 @@ if [ ! -d dopare ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/dopa ./dopare
 fi
 
-chmod +x fteqw64
-./fteqw64 "$@"
+chmod +x fteqw-sdl2
+./fteqw-sdl2 "$@"

@@ -16,5 +16,5 @@ if [ ! -d mg1 ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/mg1 ./mg1
 fi
 
-chmod +x fteqw64
-./fteqw64 "$@"
+chmod +x fteqw-sdl2
+./fteqw-sdl2 "$@"

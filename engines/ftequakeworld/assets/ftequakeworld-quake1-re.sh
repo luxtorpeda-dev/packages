@@ -12,7 +12,7 @@ if [ ! -d hipnoticre ] ; then
     LD_PRELOAD="" ln -rsf ./rerelease/hipnotic ./hipnoticre
 fi
 
-chmod +x fteqw64
+chmod +x fteqw-sdl2
 
 if [[ "$*" == *rerelease* ]]
 then
@@ -21,13 +21,13 @@ then
     if [ -z "$2" ]
     then
         echo "Running id1re"
-        ./fteqw64 -game id1re "$@"
+        ./fteqw-sdl2 -game id1re "$@"
     else
         expansionname="${gamearg//-}"
         echo "Running mission pack $expansionname"
-        ./fteqw64 -game "${expansionname}re" "$@"
+        ./fteqw-sdl2 -game "${expansionname}re" "$@"
     fi
 else
     echo "Running non re-release"
-    ./fteqw64 "$@"
+    ./fteqw-sdl2 "$@"
 fi

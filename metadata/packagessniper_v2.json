@@ -85,8 +85,8 @@
                 },
                 {
                     "name": "fteqw",
-                    "url": "https://fte.triptohell.info/moodles/linux_amd64/",
-                    "file": "fteqw64"
+                    "url": "https://www.fteqw.org/dl/",
+                    "file": "fteqw-sdl2-linux64.zip"
                 },
                 {
                     "name": "ftequakeworld",
@@ -1884,8 +1884,8 @@
                 },
                 {
                     "name": "fteqw",
-                    "url": "https://fte.triptohell.info/moodles/linux_amd64/",
-                    "file": "fteqw64"
+                    "url": "https://www.fteqw.org/dl/",
+                    "file": "fteqw-sdl2-linux64.zip"
                 },
                 {
                     "name": "ftequakeworld",
@@ -2319,8 +2319,8 @@
                 },
                 {
                     "name": "fteqw",
-                    "url": "https://fte.triptohell.info/moodles/linux_amd64/",
-                    "file": "fteqw64"
+                    "url": "https://www.fteqw.org/dl/",
+                    "file": "fteqw-sdl2-linux64.zip"
                 },
                 {
                     "name": "ftequakeworld",
@@ -3446,8 +3446,8 @@
                 },
                 {
                     "name": "fteqw",
-                    "url": "https://fte.triptohell.info/moodles/linux_amd64/",
-                    "file": "fteqw64"
+                    "url": "https://www.fteqw.org/dl/",
+                    "file": "fteqw-sdl2-linux64.zip"
                 },
                 {
                     "name": "ftequakeworld",
@@ -7747,12 +7747,12 @@
             "engine_name": "Challenge ProMode Arena"
         },
         {
-            "engine_link": "https://fte.triptohell.info/about",
-            "version": "6060",
+            "engine_link": "https://www.fteqw.org/",
+            "version": "3adec5d",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://sourceforge.net/p/fteqw/code/HEAD/tree/trunk/engine/LICENSE",
+            "license_link": "https://github.com/fte-team/fteqw/blob/master/fteqw_readme.txt",
             "controllerNotSupported": true,
             "engine_name": "FTE QuakeWorld"
         },
