@@ -2312,11 +2312,6 @@
                     "cache_by_name": true
                 },
                 {
-                    "name": "Quake II Soundtrack",
-                    "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
-                    "file": "quake2-music.tar.xz"
-                },
-                {
                     "name": "vkquake2",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vkquake2-9/",
                     "file": "vkquake2-common-9.tar.xz",
@@ -2334,16 +2329,6 @@
                     "cache_by_name": true
                 },
                 {
-                    "name": "The Reckoning Soundtrack",
-                    "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
-                    "file": "quake2-xatrix-music.tar.xz"
-                },
-                {
-                    "name": "Ground Zero Soundtrack",
-                    "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake2/",
-                    "file": "quake2-rogue-music.tar.xz"
-                },
-                {
                     "name": "q2pro",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/q2pro-2/",
                     "file": "q2pro-common-2.tar.xz",
@@ -2355,20 +2340,14 @@
                     "name": "Yamagi Quake II",
                     "command": "./quake2.sh",
                     "download": [
-                        "yquake2",
-                        "Quake II Soundtrack",
-                        "The Reckoning Soundtrack",
-                        "Ground Zero Soundtrack"
+                        "yquake2"
                     ]
                 },
                 {
                     "name": "vkQuake2",
                     "command": "./vkQuake2/vkQuake2.sh",
                     "download": [
-                        "vkquake2",
-                        "Quake II Soundtrack",
-                        "The Reckoning Soundtrack",
-                        "Ground Zero Soundtrack"
+                        "vkquake2"
                     ],
                     "download_config": [
                         {
@@ -2377,7 +2356,7 @@
                         }
                     ],
                     "setup": {
-                        "complete_path": "./ready-vkquake2",
+                        "complete_path": "./ready-vkquake2-afterremaster",
                         "command": "./vkQuake2/setup-vkquake2.sh"
                     }
                 },
@@ -2386,21 +2365,15 @@
                     "command": "./ftequakeworld.sh",
                     "download": [
                         "yquake2",
-                        "Quake II Soundtrack",
                         "ftequakeworld",
-                        "fteqw",
-                        "The Reckoning Soundtrack",
-                        "Ground Zero Soundtrack"
+                        "fteqw"
                     ]
                 },
                 {
                     "name": "Q2PRO",
                     "command": "./q2pro/q2pro.sh",
                     "download": [
-                        "q2pro",
-                        "Quake II Soundtrack",
-                        "The Reckoning Soundtrack",
-                        "Ground Zero Soundtrack"
+                        "q2pro"
                     ],
                     "download_config": [
                         {
@@ -2409,7 +2382,7 @@
                         }
                     ],
                     "setup": {
-                        "complete_path": "./ready-q2pro",
+                        "complete_path": "./ready-q2pro-afterremaster",
                         "command": "./q2pro/setup-q2pro.sh"
                     }
                 }
