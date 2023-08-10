@@ -6,6 +6,7 @@
 * crispy-doom - Add support for additional Doom games
 * Classic-RBDOOM-3-BFG - Update to 1.3.0
 * yquake2, vkquake2, q2pro - Support remaster update music, provided from Steam download
+* fteqw - Update to latest
 
 ### 65.1 (2023-07-10)
 
