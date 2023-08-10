@@ -32,39 +32,39 @@ for var in "$@"; do
 done
 
 mkdir -p baseq2/music
-ln -rsf rerelease/baseq2/music/track02.ogg baseq2/music/track02.ogg
-ln -rsf rerelease/baseq2/music/track03.ogg baseq2/music/track03.ogg
-ln -rsf rerelease/baseq2/music/track04.ogg baseq2/music/track04.ogg
-ln -rsf rerelease/baseq2/music/track05.ogg baseq2/music/track05.ogg
-ln -rsf rerelease/baseq2/music/track06.ogg baseq2/music/track06.ogg
-ln -rsf rerelease/baseq2/music/track07.ogg baseq2/music/track07.ogg
-ln -rsf rerelease/baseq2/music/track08.ogg baseq2/music/track08.ogg
-ln -rsf rerelease/baseq2/music/track09.ogg baseq2/music/track09.ogg
-ln -rsf rerelease/baseq2/music/track10.ogg baseq2/music/track10.ogg
-ln -rsf rerelease/baseq2/music/track11.ogg baseq2/music/track11.ogg
+ln -rsf rerelease/baseq2/music/track02.ogg baseq2/music/02.ogg
+ln -rsf rerelease/baseq2/music/track03.ogg baseq2/music/03.ogg
+ln -rsf rerelease/baseq2/music/track04.ogg baseq2/music/04.ogg
+ln -rsf rerelease/baseq2/music/track05.ogg baseq2/music/05.ogg
+ln -rsf rerelease/baseq2/music/track06.ogg baseq2/music/06.ogg
+ln -rsf rerelease/baseq2/music/track07.ogg baseq2/music/07.ogg
+ln -rsf rerelease/baseq2/music/track08.ogg baseq2/music/08.ogg
+ln -rsf rerelease/baseq2/music/track09.ogg baseq2/music/09.ogg
+ln -rsf rerelease/baseq2/music/track10.ogg baseq2/music/10.ogg
+ln -rsf rerelease/baseq2/music/track11.ogg baseq2/music/11.ogg
 
 mkdir -p rogue/music
-ln -rsf rerelease/baseq2/music/track17.ogg rogue/music/track02.ogg
-ln -rsf rerelease/baseq2/music/track12.ogg rogue/music/track03.ogg
-ln -rsf rerelease/baseq2/music/track13.ogg rogue/music/track04.ogg
-ln -rsf rerelease/baseq2/music/track14.ogg rogue/music/track05.ogg
-ln -rsf rerelease/baseq2/music/track14.ogg rogue/music/track06.ogg
-ln -rsf rerelease/baseq2/music/track18.ogg rogue/music/track07.ogg
-ln -rsf rerelease/baseq2/music/track15.ogg rogue/music/track08.ogg
-ln -rsf rerelease/baseq2/music/track19.ogg rogue/music/track09.ogg
-ln -rsf rerelease/baseq2/music/track20.ogg rogue/music/track10.ogg
-ln -rsf rerelease/baseq2/music/track21.ogg rogue/music/track11.ogg
+ln -rsf rerelease/baseq2/music/track17.ogg rogue/music/02.ogg
+ln -rsf rerelease/baseq2/music/track12.ogg rogue/music/03.ogg
+ln -rsf rerelease/baseq2/music/track13.ogg rogue/music/04.ogg
+ln -rsf rerelease/baseq2/music/track14.ogg rogue/music/05.ogg
+ln -rsf rerelease/baseq2/music/track14.ogg rogue/music/06.ogg
+ln -rsf rerelease/baseq2/music/track18.ogg rogue/music/07.ogg
+ln -rsf rerelease/baseq2/music/track15.ogg rogue/music/08.ogg
+ln -rsf rerelease/baseq2/music/track19.ogg rogue/music/09.ogg
+ln -rsf rerelease/baseq2/music/track20.ogg rogue/music/10.ogg
+ln -rsf rerelease/baseq2/music/track21.ogg rogue/music/11.ogg
 
 mkdir -p xatrix/music
-ln -rsf rerelease/baseq2/music/track09.ogg xatrix/music/track02.ogg
-ln -rsf rerelease/baseq2/music/track12.ogg xatrix/music/track03.ogg
-ln -rsf rerelease/baseq2/music/track13.ogg xatrix/music/track04.ogg
-ln -rsf rerelease/baseq2/music/track07.ogg xatrix/music/track05.ogg
-ln -rsf rerelease/baseq2/music/track14.ogg xatrix/music/track06.ogg
-ln -rsf rerelease/baseq2/music/track02.ogg xatrix/music/track07.ogg
-ln -rsf rerelease/baseq2/music/track15.ogg xatrix/music/track08.ogg
-ln -rsf rerelease/baseq2/music/track03.ogg xatrix/music/track09.ogg
-ln -rsf rerelease/baseq2/music/track04.ogg xatrix/music/track10.ogg
-ln -rsf rerelease/baseq2/music/track16.ogg xatrix/music/track11.ogg
+ln -rsf rerelease/baseq2/music/track09.ogg xatrix/music/02.ogg
+ln -rsf rerelease/baseq2/music/track12.ogg xatrix/music/03.ogg
+ln -rsf rerelease/baseq2/music/track13.ogg xatrix/music/04.ogg
+ln -rsf rerelease/baseq2/music/track07.ogg xatrix/music/05.ogg
+ln -rsf rerelease/baseq2/music/track14.ogg xatrix/music/06.ogg
+ln -rsf rerelease/baseq2/music/track02.ogg xatrix/music/07.ogg
+ln -rsf rerelease/baseq2/music/track15.ogg xatrix/music/08.ogg
+ln -rsf rerelease/baseq2/music/track03.ogg xatrix/music/09.ogg
+ln -rsf rerelease/baseq2/music/track04.ogg xatrix/music/10.ogg
+ln -rsf rerelease/baseq2/music/track16.ogg xatrix/music/11.ogg
 
 ./quake2 -portable "${ARGS[@]}"
