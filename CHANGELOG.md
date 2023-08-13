@@ -7,6 +7,7 @@
 * Classic-RBDOOM-3-BFG - Update to 1.3.0
 * yquake2, vkquake2, q2pro - Support remaster update music, provided from Steam download
 * fteqw - Update to latest
+* runescape - Switch to using client extraction of ar
 
 ### 65.1 (2023-07-10)
 
