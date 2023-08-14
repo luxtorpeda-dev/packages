@@ -4882,8 +4882,22 @@
                 }
             ],
             "setup": {
-                "complete_path": "./ready",
-                "command": "./setup-tr1.sh"
+                "complete_path": "./ready-rust",
+                "command": "./setup-tr1.sh",
+                "bchunk": {
+                    "bin_file": "GAME.GOG",
+                    "cue_file": "GAME.CUE",
+                    "base_name": "TRACK",
+                    "generate_cue_file": {
+                        "original": "GAME.DAT",
+                        "first_lines": 3
+                    }
+                },
+                "iso_extract": {
+                    "file_path": "TRACK01.iso",
+                    "extract_prefix": "/DATA",
+                    "extract_to_prefix": "data"
+                }
             },
             "command": "./run-openlara.sh",
             "engine_name": "OpenLara",
@@ -7066,6 +7080,14 @@
                     "download_name": "scummvm"
                 }
             ],
+            "setup": {
+                "complete_path": "./ready-rust",
+                "command": "./scum/setup-scummvm.sh",
+                "iso_extract": {
+                    "recursive_start_path": "./",
+                    "extract_to_prefix": "./iso_data"
+                }
+            },
             "command": "./scum/run-scummvm.sh",
             "engine_name": "scummvm",
             "cloudNotAvailable": true,
