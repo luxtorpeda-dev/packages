@@ -1,3 +1,9 @@
+### 66.0 (2023-08-14)
+
+* runescape - Extract deb with client instead of ar cli command, now this will show up as setup steps on the progress screen
+* openlara - Extract iso with client instead of cli commands, now this will show up as setup steps on the progress screen
+* scummvm - Extract iso with client instead of cli command, now this will show up as setup steps on the progress screen
+
 ### 65b (2023-08-02) 
 
 * chocolate-doom - Update to 20abc8b
