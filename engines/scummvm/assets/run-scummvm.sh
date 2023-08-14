@@ -23,5 +23,4 @@ else
 
 fi
 
-
 LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --fullscreen --themepath=./share/scummvm

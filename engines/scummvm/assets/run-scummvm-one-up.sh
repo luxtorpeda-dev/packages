@@ -22,7 +22,6 @@ else
         echo "Running normal path"
         LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --add --path=../ --recursive
     fi
-
 fi
 
 cd "$ORIGINALPWD"
