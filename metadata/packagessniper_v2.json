@@ -2401,8 +2401,8 @@
                 },
                 {
                     "name": "Patch Data",
-                    "url": "https://luxtorpeda.gitlab.io/files/idstuff/quake3/",
-                    "file": "quake3ta-latest-pk3s.tar.xz"
+                    "url": "https://files.ioquake3.org/",
+                    "file": "quake3-latest-pk3s.zip"
                 },
                 {
                     "name": "quake3e",
@@ -2415,6 +2415,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-3/",
                     "file": "spearmint-common-3.tar.xz",
                     "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "strip_prefix": "quake3-latest-pk3s/",
+                    "download_name": "Patch Data"
                 }
             ],
             "choices": [
@@ -2470,7 +2476,12 @@
                 }
             ],
             "cloudAvailable": true,
-            "app_id": "2350"
+            "app_id": "2350",
+            "notices": [
+                {
+                    "label": "Uses patches from ioquake3, read EULA here: https://ioquake3.org/extras/patch-data/"
+                }
+            ]
         },
         {
             "game_name": "HeXen: Beyond Heretic",
