@@ -1930,6 +1930,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qss-m-4/",
                     "file": "qss-m-common-4.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "darkplaces",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-1/",
+                    "file": "darkplaces-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
