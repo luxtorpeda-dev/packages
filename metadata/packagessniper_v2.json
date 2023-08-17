@@ -1866,12 +1866,6 @@
                     "cache_by_name": true
                 },
                 {
-                    "name": "darkplaces-2017",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2017-8/",
-                    "file": "darkplaces-2017-common-8.tar.xz",
-                    "cache_by_name": true
-                },
-                {
                     "name": "quakespasm-spiked",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-14/",
                     "file": "quakespasm-spiked-common-14.tar.xz",
@@ -1959,10 +1953,10 @@
                     "engine_name": "vkQuake"
                 },
                 {
-                    "name": "darkplaces-2017",
-                    "command": "./darkplaces-2017/darkplaces.sh",
+                    "name": "darkplaces",
+                    "command": "./darkplaces/darkplaces.sh",
                     "download": [
-                        "darkplaces-2017"
+                        "darkplaces"
                     ]
                 },
                 {
@@ -2046,10 +2040,10 @@
                     "engine_name": "vkQuake"
                 },
                 {
-                    "name": "darkplaces-2017 Dimension of the Past",
-                    "command": "./darkplaces-2017/darkplaces.sh",
+                    "name": "darkplaces Dimension of the Past",
+                    "command": "./darkplaces/darkplaces.sh",
                     "download": [
-                        "darkplaces-2017",
+                        "darkplaces",
                         "dopa pak"
                     ],
                     "command_args": [
@@ -2058,11 +2052,11 @@
                     ],
                     "download_config": [
                         {
-                            "extract_location": "./darkplaces-2017/share/quake/dopa/",
+                            "extract_location": "./darkplaces/share/quake/dopa/",
                             "download_name": "dopa pak"
                         }
                     ],
-                    "engine_name": "darkplaces-2017"
+                    "engine_name": "darkplaces"
                 },
                 {
                     "name": "quakespasm-spiked Dimension of the Past",
@@ -7935,14 +7929,14 @@
             "engine_name": "vkQuake"
         },
         {
-            "engine_link": "http://icculus.org/twilight/darkplaces/",
-            "version": "20170829beta1",
+            "engine_link": "https://github.com/DarkPlacesEngine/darkplaces",
+            "version": "901c2dc",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://directory.fsf.org/wiki/Darkplaces#tab=Details",
+            "license_link": "https://github.com/DarkPlacesEngine/darkplaces/blob/master/COPYING",
             "controllerNotSupported": true,
-            "engine_name": "darkplaces-2017"
+            "engine_name": "darkplaces"
         },
         {
             "engine_link": "https://github.com/Shpoike/Quakespasm",
