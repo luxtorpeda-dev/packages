@@ -20,7 +20,6 @@ mkdir -p "$diststart/common/dist/darkplaces/share/quake/mg1"
 
 cp -v source/darkplaces-sdl "$diststart/common/dist/darkplaces/"
 cp -v assets/darkplaces.sh "$diststart/common/dist/darkplaces/"
-
 cp -v assets/default.lux.cfg "$diststart/common/dist/darkplaces/share/quake"
 
 ln -s "../../../../id1/PAK0.PAK" "$diststart/common/dist/darkplaces/share/quake/id1/pak0.pak"
