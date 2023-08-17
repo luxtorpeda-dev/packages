@@ -3800,8 +3800,8 @@
                 },
                 {
                     "name": "foxWSFix",
-                    "url": "https://luxtorpeda-dev.github.io/closed-assets/",
-                    "file": "ut2004-foxWSFix-2.2.0.tar.xz"
+                    "url": "https://github.com/alexstrout/foxWSFix-UT2k4/releases/download/v2.2.0/",
+                    "file": "foxWSFix-v2.2.0.7z"
                 },
                 {
                     "name": "binaries",
