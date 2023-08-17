@@ -4,6 +4,7 @@
 * openlara - Extract iso with client instead of cli commands, now this will show up as setup steps on the progress screen
 * scummvm - Extract iso with client instead of cli command, now this will show up as setup steps on the progress screen
 * ecwolf - Update to 1.4.1
+* darkplaces - Update to latest github project
 
 ### 65b (2023-08-02) 
 
