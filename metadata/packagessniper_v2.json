@@ -3943,7 +3943,7 @@
                 },
                 {
                     "name": "ut99 Bonus Pack 4",
-                    "url": "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal%20Tournament/Bonus%20Packs/",
+                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/patches-updates/Unreal%20Tournament/Bonus%20Packs/",
                     "file": "utbonuspack4-zip.zip"
                 }
             ],
