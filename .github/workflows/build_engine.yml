@@ -56,7 +56,7 @@ jobs:
           name: dist/${{needs.findengine.outputs.engine}}
       - name: Generate build number
         id: buildnumber
-        uses: luxtorpeda-dev/build-number@v5
+        uses: onyxmueller/build-tag-number@v1
         with:
           token: ${{ secrets.github_token }}
           prefix: ${{needs.findengine.outputs.engine}}
@@ -87,8 +87,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ needs.findengine.outputs.engine }}-${{ steps.buildnumber.outputs.build_number }}
-        name: ${{ needs.findengine.outputs.engine }} Version ${{ steps.buildnumber.outputs.build_number }}
+        tag_name: ${{ needs.findengine.outputs.engine }}-${{ needs.finddeploy.outputs.build_number }}
+        name: ${{ needs.findengine.outputs.engine }} Version ${{ needs.finddeploy.outputs.build_number }}
         draft: false
         prerelease: false
         generate_release_notes: true
@@ -129,13 +129,13 @@ jobs:
         with:
             file: metadata/packagessniper_v2.json
       - name: Write Packages Hash
-        uses: luxtorpeda-dev/write-file-action@v3
+        uses: DamianReeves/write-file-action@v1.2
         with:
             path: metadata/packagessniper_v2.hash
             contents: ${{ steps.generatehash.outputs.hash }}
             write-mode: overwrite
       - name: Write Packages Hash 256
-        uses: luxtorpeda-dev/write-file-action@v3
+        uses: DamianReeves/write-file-action@v1.2
         with:
             path: metadata/packagessniper_v2.hash256
             contents: ${{ steps.generatehash256.outputs.hash }}
