@@ -3191,8 +3191,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-22/",
-                    "file": "scummvm-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                    "file": "scummvm-common-23.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -5425,8 +5425,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-22/",
-                    "file": "scummvm-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                    "file": "scummvm-common-23.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -5568,8 +5568,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-22/",
-                    "file": "scummvm-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                    "file": "scummvm-common-23.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -5848,8 +5848,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-22/",
-                    "file": "scummvm-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                    "file": "scummvm-common-23.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6696,8 +6696,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-22/",
-                    "file": "scummvm-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                    "file": "scummvm-common-23.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7080,8 +7080,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-22/",
-                    "file": "scummvm-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                    "file": "scummvm-common-23.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7109,8 +7109,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-22/",
-                    "file": "scummvm-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                    "file": "scummvm-common-23.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7655,8 +7655,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-22/",
-                    "file": "scummvm-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                    "file": "scummvm-common-23.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9263,8 +9263,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-22/",
-                "file": "scummvm-common-22.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                "file": "scummvm-common-23.tar.xz",
                 "cache_by_name": true
             },
             {
