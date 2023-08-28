@@ -5,6 +5,7 @@
 * scummvm - Extract iso with client instead of cli command, now this will show up as setup steps on the progress screen
 * ecwolf - Update to 1.4.1
 * darkplaces - Update to latest github project
+* Daggerfall Unity - Update to 0.15.4 Beta
 
 ### 65b (2023-08-02) 
 
