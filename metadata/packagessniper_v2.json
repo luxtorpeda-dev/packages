@@ -7411,8 +7411,8 @@
             "download": [
                 {
                     "name": "binaries",
-                    "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v0.15.3-beta/",
-                    "file": "dfu_linux_64bit-v0.15.3-beta.zip"
+                    "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v0.15.4-beta/",
+                    "file": "dfu_linux_64bit-v0.15.4a-beta.zip"
                 },
                 {
                     "name": "dosbox-staging",
@@ -9120,7 +9120,7 @@
         },
         {
             "engine_link": "https://github.com/Interkarma/daggerfall-unity",
-            "version": "0.15.3 Beta",
+            "version": "0.15.4 Beta",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
