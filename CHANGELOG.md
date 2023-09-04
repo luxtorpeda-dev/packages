@@ -1,3 +1,7 @@
+### 66.0b (2023-09-03)
+
+* OpenRCT2 - Update to 0.4.6
+
 ### 66.0 (2023-08-14)
 
 * runescape - Extract deb with client instead of ar cli command, now this will show up as setup steps on the progress screen
