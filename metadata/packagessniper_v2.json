@@ -9476,7 +9476,7 @@
             },
             {
                 "name": "DREAMM",
-                "command": "./dreamm",
+                "command": "./run-dreamm.sh",
                 "download": [
                     "dreamm",
                     "dreamm-binaries"
