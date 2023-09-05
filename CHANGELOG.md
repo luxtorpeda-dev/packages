@@ -1,3 +1,7 @@
+### 66.1.0 (2023-09-05)
+
+* Added DREAMM support
+
 ### 66.0b (2023-09-03)
 
 * OpenRCT2 - Update to 0.4.6
