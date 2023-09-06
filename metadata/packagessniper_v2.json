@@ -7739,8 +7739,8 @@
                 },
                 {
                     "name": "dreamm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-1/",
-                    "file": "dreamm-common-1.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-2/",
+                    "file": "dreamm-common-2.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9371,8 +9371,8 @@
             },
             {
                 "name": "dreamm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-1/",
-                "file": "dreamm-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-2/",
+                "file": "dreamm-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
