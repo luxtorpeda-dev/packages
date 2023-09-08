@@ -7786,7 +7786,7 @@
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dreamm-one-up.sh",
+            "command": "./run-dreamm-up-one.sh",
             "engine_name": "DREAMM",
             "cloudNotAvailable": true,
             "app_id": "557240"
