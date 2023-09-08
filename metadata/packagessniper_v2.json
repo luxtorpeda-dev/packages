@@ -9566,10 +9566,45 @@
                     "dreamm-binaries"
                 ],
                 "engine_name": "DREAMM"
-            }
+            },
             {
-                "name": "changine",
+                "name": "Official",
                 "command": "./run-changine.sh",
+                "command_args": [
+                    "official"
+                ],
+                "engine_name": "changine"
+            },
+            {
+                "name": "Proton (stable)",
+                "command": "./run-changine.sh",
+                "command_args": [
+                    "proton_8"
+                ],
+                "engine_name": "changine"
+            },
+            {
+                "name": "Proton (experimental)",
+                "command": "./run-changine.sh",
+                "command_args": [
+                    "proton_experimental"
+                ],
+                "engine_name": "changine"
+            },
+            {
+                "name": "Proton (GE)",
+                "command": "./run-changine.sh",
+                "command_args": [
+                    "GE-Proton8-14"
+                ],
+                "engine_name": "changine"
+            },
+            {
+                "name": "Steam Linux Runtime Soldier",
+                "command": "./run-changine.sh",
+                "command_args": [
+                    "steamlinuxruntime"
+                ],
                 "engine_name": "changine"
             }
         ]
