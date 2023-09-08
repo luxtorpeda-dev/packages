@@ -6,7 +6,9 @@ pushd source
 git checkout -f 6b387d7
 
 git clone https://github.com/OSS-Cosmic/The-Forge.git external/The-Forge
+pushd external/The-Forge
 git checkout -f 80ddbfe
+popd
 popd
 
 # BUILD PHASE
@@ -14,10 +16,11 @@ pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DAMNESIA_GAME_DIRECTORY:STRING='' \
+    -G Ninja
     ..
-make -j "$(nproc)"
-DESTDIR="$tmp" make install
+ninja
 popd
 
 # COPY PHASE
