@@ -9567,6 +9567,11 @@
                 ],
                 "engine_name": "DREAMM"
             }
+            {
+                "name": "changine",
+                "command": "./run-changine.sh",
+                "engine_name": "changine"
+            }
         ]
     },
     "notice_translation": [

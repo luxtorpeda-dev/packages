@@ -15,6 +15,7 @@ if [ $# -eq 1 ]; then
     fi
 else
     echo "Usage: $0 <compat_tool>"
+    echo "Example: luxtorpeda, official, steamlinuxruntime, proton_8, proton_experimental, GE-Proton8-14"
     exit 1
 fi
 
