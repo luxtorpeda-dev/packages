@@ -18,7 +18,7 @@ cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DAMNESIA_GAME_DIRECTORY:STRING='' \
-    -G Ninja
+    -G Ninja \
     ..
 ninja
 popd
