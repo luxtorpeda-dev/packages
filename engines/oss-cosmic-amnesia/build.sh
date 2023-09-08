@@ -4,7 +4,9 @@
 git clone https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent.git source
 pushd source
 git checkout -f 6b387d7
-git submodule update --init --recursive
+
+git clone https://github.com/OSS-Cosmic/The-Forge.git external/The-Forge
+git checkout -f 80ddbfe
 popd
 
 # BUILD PHASE
