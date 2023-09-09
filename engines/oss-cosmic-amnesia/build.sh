@@ -29,6 +29,9 @@ cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DAMNESIA_GAME_DIRECTORY:STRING='' \
+    -DIL_LIBRARIES="$VCPKG_INSTALLED_PATH/lib" \
+    -DILU_LIBRARIES="$VCPKG_INSTALLED_PATH/lib" \
+    -DIL_INCLUDE_DIR="$VCPKG_INSTALLED_PATH/include" \
     -G Ninja \
     ..
 ninja
