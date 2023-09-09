@@ -5387,6 +5387,11 @@
                     "name": "homeworldsdl",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/homeworldsdl-3/",
                     "file": "homeworldsdl-244160-3.tar.xz"
+                },
+                {
+                    "name": "hiigara",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hiigara-1/",
+                    "file": "hiigara-244160-1.tar.xz"
                 }
             ],
             "choices": [
@@ -5412,6 +5417,19 @@
                         {
                             "extract_location": "../Homeworld1Classic/Data",
                             "download_name": "homeworldsdl"
+                        }
+                    ],
+                    "command": "../Homeworld1Classic/Data/run-homeworld.sh"
+                },
+                {
+                    "name": "Hiigara",
+                    "download": [
+                        "hiigara"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "../Homeworld1Classic/Data",
+                            "download_name": "hiigara"
                         }
                     ],
                     "command": "../Homeworld1Classic/Data/run-homeworld.sh"
@@ -7739,8 +7757,8 @@
                 },
                 {
                     "name": "dreamm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-6/",
-                    "file": "dreamm-common-6.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-7/",
+                    "file": "dreamm-common-7.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7760,8 +7778,8 @@
                 },
                 {
                     "name": "dreamm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-6/",
-                    "file": "dreamm-common-6.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-7/",
+                    "file": "dreamm-common-7.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7781,8 +7799,8 @@
                 },
                 {
                     "name": "dreamm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-6/",
-                    "file": "dreamm-common-6.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-7/",
+                    "file": "dreamm-common-7.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7802,8 +7820,8 @@
                 },
                 {
                     "name": "dreamm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-6/",
-                    "file": "dreamm-common-6.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-7/",
+                    "file": "dreamm-common-7.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9243,6 +9261,21 @@
             "engine_name": "HomeworldSDL"
         },
         {
+            "engine_link": "https://github.com/atsb/Hiigara",
+            "version": "5fca0d2",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Relic",
+            "license_link": "https://github.com/atsb/Hiigara/blob/main/LICENSE.txt",
+            "notices": [
+                {
+                    "key": "non_free"
+                }
+            ],
+            "controllerNotSupported": true,
+            "engine_name": "Hiigara"
+        },
+        {
             "engine_link": "https://rvgl.org/",
             "version": "23.0602a1",
             "author": "d10sfan",
@@ -9434,8 +9467,8 @@
             },
             {
                 "name": "dreamm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-6/",
-                "file": "dreamm-common-6.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-7/",
+                "file": "dreamm-common-7.tar.xz",
                 "cache_by_name": true
             }
         ],

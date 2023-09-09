@@ -1,6 +1,7 @@
 ### 66.1.0 (2023-09-05)
 
 * Added DREAMM support
+* Add support for Hiigara engine
 
 ### 66.0b (2023-09-03)
 
