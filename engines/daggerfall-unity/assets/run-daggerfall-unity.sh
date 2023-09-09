@@ -12,12 +12,45 @@ if [ ! -d DFUPDATED ]; then
     LD_PRELOAD="" ln -rsf DF/DFCD/DAGGER/ARENA2/*.VID DFUPDATED/DAGGER/ARENA2
 fi
 
+# Maximum time to wait for installation in seconds (adjust as needed)
+timeout=600  # Change this to your preferred timeout value
+
+# Check if Steam Linux Runtime is installed
 if [[ ! -z "${DEPPATH_1070560}" ]]; then
     runtimepath="$DEPPATH_1070560"
     LD_PRELOAD="" echo "Automatically detected runtimepath at $runtimepath"
 else
-    echo "Steam Linux Runtime is not installed. Please ensure that it is installed and try again." > last_error.txt
-    exit 10
+    # Steam Linux Runtime is not installed, so let's install it
+    echo "Steam Linux Runtime is not installed. Installing..."
+
+    # Start the installation in the background
+    steam "steam://dev/console/ +app_install 1070560" &
+
+    # Initialize a timer
+    start_time=$(date +%s)
+
+    # Check for the runtimepath in a loop until the installation is complete or times out
+    while true; do
+        # Check if the installation is complete
+        if [[ ! -z "${DEPPATH_1070560}" ]]; then
+            runtimepath="$DEPPATH_1070560"
+            LD_PRELOAD="" echo "Installed Steam Linux Runtime at $runtimepath"
+            break
+        fi
+
+        # Check if the timeout has been reached
+        current_time=$(date +%s)
+        elapsed_time=$((current_time - start_time))
+
+        if [[ $elapsed_time -ge $timeout ]]; then
+            echo "Timeout: Steam Linux Runtime installation took too long."
+            echo "Please ensure that it is installed manually and try again." > last_error.txt
+            exit 10
+        fi
+
+        # Sleep for a short duration before checking again
+        sleep 2
+    done
 fi
 
 if [ ! -f ~/.config/unity3d/Daggerfall\ Workshop/Daggerfall\ Unity/settings.ini ]; then
