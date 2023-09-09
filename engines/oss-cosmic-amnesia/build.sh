@@ -4,17 +4,17 @@
 git clone https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent.git source
 pushd source
 git checkout -f 6b387d7
+ln -rsf "$VCPKG_SRC_PATH" ./vcpkg
 
 git clone https://github.com/OSS-Cosmic/The-Forge.git external/The-Forge
 pushd external/The-Forge
 git checkout -f 80ddbfe
 popd
-
-ln -rsf "$VCPKG_SRC_PATH" ./vcpkg
 popd
 
 # BUILD PHASE
 pushd "source"
+ls -l
 mkdir -p build
 cd build
 cmake \
