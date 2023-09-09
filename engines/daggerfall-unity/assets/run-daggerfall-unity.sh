@@ -21,7 +21,7 @@ if [[ ! -z "${DEPPATH_1070560}" ]]; then
     LD_PRELOAD="" echo "Automatically detected runtimepath at $runtimepath"
 else
     # Steam Linux Runtime 1.0 (scout) is not installed, so let's install it
-    echo "Steam Linux Runtime 1.0 (scout) is not installed. Installing..."
+    LD_PRELOAD="" echo "Steam Linux Runtime 1.0 (scout) is not installed. Installing..."
 
     # Start the installation in the background
     steam "steam://dev/console/ +app_install 1070560" &
