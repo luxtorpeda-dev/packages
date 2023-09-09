@@ -9,6 +9,8 @@ git clone https://github.com/OSS-Cosmic/The-Forge.git external/The-Forge
 pushd external/The-Forge
 git checkout -f 80ddbfe
 popd
+
+ln -rsf "$VCPKG_SRC_PATH" ./vcpkg
 popd
 
 # BUILD PHASE
