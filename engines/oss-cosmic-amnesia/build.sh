@@ -3,17 +3,8 @@
 # CLONE PHASE
 git clone https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent.git source
 pushd source
-git checkout -f 6b387d7
-
-git clone https://github.com/OSS-Cosmic/The-Forge.git external/The-Forge
-pushd external/The-Forge
-git checkout -f 80ddbfe
-popd
-
-git clone https://github.com/microsoft/vcpkg.git vcpkg
-pushd vcpkg
-git checkout -f 4a600e9
-popd
+git checkout -f 59ea9c0
+git submodule update --init --recursive
 popd
 
 export CXXFLAGS="-I"$VCPKG_INSTALLED_PATH"/include"
