@@ -9579,7 +9579,7 @@
                 "name": "Proton (stable)",
                 "command": "./run-changine.sh",
                 "command_args": [
-                    "proton_8"
+                    "$proton_stable_latest"
                 ],
                 "engine_name": "changine"
             },
@@ -9595,7 +9595,7 @@
                 "name": "Proton (GE)",
                 "command": "./run-changine.sh",
                 "command_args": [
-                    "GE-Proton8-14"
+                    "$proton_ge_latest"
                 ],
                 "engine_name": "changine"
             },
