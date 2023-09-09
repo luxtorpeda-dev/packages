@@ -5415,6 +5415,19 @@
                         }
                     ],
                     "command": "../Homeworld1Classic/Data/run-homeworld.sh"
+                },
+                {
+                    "name": "Hiigara",
+                    "download": [
+                        "hiigara"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "../Homeworld1Classic/Data",
+                            "download_name": "hiigara"
+                        }
+                    ],
+                    "command": "../Homeworld1Classic/Data/run-homeworld.sh"
                 }
             ],
             "cloudNotAvailable": true,
@@ -9241,6 +9254,21 @@
             ],
             "controllerNotSupported": true,
             "engine_name": "HomeworldSDL"
+        },
+        {
+            "engine_link": "https://github.com/atsb/Hiigara",
+            "version": "5fca0d2",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Relic",
+            "license_link": "https://github.com/atsb/Hiigara/blob/main/LICENSE.txt",
+            "notices": [
+                {
+                    "key": "non_free"
+                }
+            ],
+            "controllerNotSupported": true,
+            "engine_name": "Hiigara"
         },
         {
             "engine_link": "https://rvgl.org/",
