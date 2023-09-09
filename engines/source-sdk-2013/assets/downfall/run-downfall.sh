@@ -1,43 +1,7 @@
+#!/bin/bash
+
 if [ -f "last_error.txt" ]; then
     rm last_error.txt
-fi
-
-# Function to check if an app is installed based on DEPPATH
-function is_app_installed() {
-    local app_id="$1"
-    local deppath_var="DEPPATH_${app_id}"
-
-    if [[ ! -z "${!deppath_var}" ]]; then
-        return 0  # The app is installed
-    else
-        return 1  # The app is not installed
-    fi
-}
-
-# Install Source SDK Base 2013 Singleplayer if not already installed
-if [[ ! -z "${DEPPATH_243730}" ]]; then
-    echo "Installing Source SDK Base 2013 Singleplayer..."
-    steam "steam://dev/console/ +app_install 243730"
-
-    # Wait for the installation to complete
-    while ! is_app_installed 243730; do
-        sleep 5
-    done
-
-    echo "Source SDK Base 2013 Singleplayer installed."
-fi
-
-# Install Steam Linux Runtime if not already installed
-if ! is_app_installed 1070560; then
-    echo "Installing Steam Linux Runtime..."
-    steam "steam://dev/console/ +app_install 1070560"
-
-    # Wait for the installation to complete
-    while ! is_app_installed 1070560; do
-        sleep 5
-    done
-
-    echo "Steam Linux Runtime installed."
 fi
 
 if [ ! -f "sdkpath.txt" ]; then
