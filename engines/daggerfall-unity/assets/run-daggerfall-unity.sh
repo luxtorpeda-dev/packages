@@ -26,10 +26,10 @@ is_runtime_installed() {
     fi
 }
 
-# Function to install the Steam Linux Runtime
+# Function to install the Steam Linux Runtime silently
 install_runtime() {
     echo "Installing the Steam Linux Runtime..."
-    steam "steam://dev/console/ +app_install 1070560"
+    steam "steam://dev/console/ +app_install 1070560" >/dev/null 2>&1
 }
 
 # Check if in testing mode and set the runtime path accordingly
@@ -75,4 +75,4 @@ if [ ! -f ~/.config/unity3d/Daggerfall\ Workshop/Daggerfall\ Unity/settings.ini 
     LD_PRELOAD="" echo -e "MyDaggerfallPath = ./DFUPDATED/DAGGER" >> ~/.config/unity3d/Daggerfall\ Workshop/Daggerfall\ Unity/settings.ini
 fi
 
-"$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- ./DaggerfallUnity.x86_64
+"$STEAM_RUNTIME_PATH/scout-on-soldier-entry-point-v2" --verbose -- ./DaggerfallUnity.x86_64
