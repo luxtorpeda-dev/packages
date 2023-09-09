@@ -5387,6 +5387,11 @@
                     "name": "homeworldsdl",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/homeworldsdl-3/",
                     "file": "homeworldsdl-244160-3.tar.xz"
+                },
+                {
+                    "name": "hiigara",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hiigara-1/",
+                    "file": "hiigara-244160-1.tar.xz"
                 }
             ],
             "choices": [
