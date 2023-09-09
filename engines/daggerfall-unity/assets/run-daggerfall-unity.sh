@@ -15,13 +15,13 @@ fi
 # Maximum time to wait for installation in seconds (adjust as needed)
 timeout=600  # Change this to your preferred timeout value
 
-# Check if Steam Linux Runtime is installed
+# Check if Steam Linux Runtime 1.0 (scout) is installed
 if [[ ! -z "${DEPPATH_1070560}" ]]; then
     runtimepath="$DEPPATH_1070560"
     LD_PRELOAD="" echo "Automatically detected runtimepath at $runtimepath"
 else
-    # Steam Linux Runtime is not installed, so let's install it
-    echo "Steam Linux Runtime is not installed. Installing..."
+    # Steam Linux Runtime 1.0 (scout) is not installed, so let's install it
+    echo "Steam Linux Runtime 1.0 (scout) is not installed. Installing..."
 
     # Start the installation in the background
     steam "steam://dev/console/ +app_install 1070560" &
@@ -34,7 +34,7 @@ else
         # Check if the installation is complete
         if [[ ! -z "${DEPPATH_1070560}" ]]; then
             runtimepath="$DEPPATH_1070560"
-            LD_PRELOAD="" echo "Installed Steam Linux Runtime at $runtimepath"
+            LD_PRELOAD="" echo "Installed Steam Linux Runtime 1.0 (scout) at $runtimepath"
             break
         fi
 
@@ -43,7 +43,7 @@ else
         elapsed_time=$((current_time - start_time))
 
         if [[ $elapsed_time -ge $timeout ]]; then
-            echo "Timeout: Steam Linux Runtime installation took too long."
+            echo "Timeout: Steam Linux Runtime 1.0 (scout) installation took too long."
             echo "Please ensure that it is installed manually and try again." > last_error.txt
             exit 10
         fi
