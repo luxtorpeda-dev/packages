@@ -3,7 +3,8 @@
 # CLONE PHASE
 git clone https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent.git source
 pushd source
-git checkout -f 59ea9c0
+git checkout -f f8f905e
+git cherry-pick 59ea9c0
 git submodule update --init --recursive
 popd
 
@@ -20,7 +21,6 @@ cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DAMNESIA_GAME_DIRECTORY:STRING='' \
-    -DVCPKG_INSTALL_OPTIONS="--binarysource=clear\;x-gha,readwrite" \
     -DIL_LIBRARIES="$VCPKG_INSTALLED_PATH/lib" \
     -DILU_LIBRARIES="$VCPKG_INSTALLED_PATH/lib" \
     -DIL_INCLUDE_DIR="$VCPKG_INSTALLED_PATH/include" \
