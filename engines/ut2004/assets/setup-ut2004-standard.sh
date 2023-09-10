@@ -9,11 +9,7 @@ create_relative_symlink () {
 
 cd ../ # game tries to start in system directory, so have to get out and back to the normal directory
 
-if [[ ! -z "${DIALOGRESPONSE_CDKEY}" ]]; then
-    CDKEY="$DIALOGRESPONSE_CDKEY"
-else
-    CDKEY=$("$STEAM_ZENITY" --entry --title="CD Key" --text="Enter your CD Key (Can Be Found in Steam)")
-fi
+CDKEY="$DIALOGRESPONSE_CDKEY"
 
 find {Web} -type f  | while read -r file_name ; do
     create_relative_symlink "$file_name"

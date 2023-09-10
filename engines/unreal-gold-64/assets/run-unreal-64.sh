@@ -7,11 +7,7 @@ fi
 if [ ! -f ../System64/UnrealLinux.bin ]
 then
     error_message="Unreal Linux not found. Please see System/README-64.txt for instructions in game directory."
-    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-    else
-        echo "$error_message" > last_error.txt
-    fi
+    echo "$error_message" > last_error.txt
     exit 10
 fi
 

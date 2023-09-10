@@ -12,11 +12,6 @@ if [ -n "$pckfile" ]; then
     ./godot.x11.tools.64 --fullscreen --main-pack "$pckfile"
 else
     error_message="Couldn't find a .pck file."
-
-    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-    else
-        echo "$error_message" > last_error.txt
-    fi
+    echo "$error_message" > last_error.txt
     exit 10
 fi

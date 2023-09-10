@@ -13,11 +13,6 @@ if [ -n "$shfile" ]; then
     ./"$shfile"
 else
     error_message="Couldn't find game's .sh file."
-
-    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-    else
-        echo "$error_message" > last_error.txt
-    fi
+    echo "$error_message" > last_error.txt
     exit 10
 fi

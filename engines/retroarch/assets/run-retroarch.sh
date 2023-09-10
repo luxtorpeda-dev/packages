@@ -37,21 +37,13 @@ if [[ ! -z "${DEPPATH_1118310}" ]]; then
                 else
                     error_message="No game file found with extension $EXTENSION"
                     echo "$error_message"
-                    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-                        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-                    else
-                        echo "$error_message" > last_error.txt
-                    fi
+                    echo "$error_message" > last_error.txt
                     exit 10
                 fi
             else
                 error_message="No extension given"
                 echo "$error_message"
-                if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-                    "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-                else
-                    echo "$error_message" > last_error.txt
-                fi
+                echo "$error_message" > last_error.txt
                 exit 10
             fi
         fi
@@ -61,20 +53,12 @@ if [[ ! -z "${DEPPATH_1118310}" ]]; then
     else
         error_message="RetroArch core $CORENAME was not found. Ensure that it is installed."
         echo "$error_message"
-        if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-            "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-        else
-            echo "$error_message" > last_error.txt
-        fi
+        echo "$error_message" > last_error.txt
         exit 10
     fi
 else
     error_message="RetroArch was not found. Ensure that it is installed."
     echo "$error_message"
-    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-    else
-        echo "$error_message" > last_error.txt
-    fi
+    echo "$error_message" > last_error.txt
     exit 10
 fi

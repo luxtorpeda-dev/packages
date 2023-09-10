@@ -8,11 +8,7 @@ if [[ -d "JA2Classic" ]]; then
     echo "Classic found"
 else
     error_message="Classic DLC for Wildfile not found. Both Wildfire and Classic DLC are required."
-    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-    else
-        echo "$error_message" > last_error.txt
-    fi
+    echo "$error_message" > last_error.txt
     exit 10
 fi
 

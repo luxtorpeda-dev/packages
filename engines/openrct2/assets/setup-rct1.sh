@@ -6,11 +6,7 @@ fi
 
 if [ ! -d ~/.config/OpenRCT2 ]; then
     error_message="RCT2 has to be run at least once. Launch RCT2 and try again."
-    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-    else
-        echo "$error_message" > last_error.txt
-    fi
+    echo "$error_message" > last_error.txt
     exit 10
 fi
 

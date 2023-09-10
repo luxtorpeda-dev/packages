@@ -9,20 +9,12 @@ if [[ ! -z "${DEPPATH_273620}" ]]; then
 
     if [ ! -f "$DEPPATH_273620/fs2_open_x64" ]; then
         error_message="Freespace 2 not found or not launched."
-        if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-            "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-        else
-            echo "$error_message" > last_error.txt
-        fi
+        echo "$error_message" > last_error.txt
         exit 10
     fi
 else
     error_message="Freespace 2 path not found."
-    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-    else
-        echo "$error_message" > last_error.txt
-    fi
+    echo "$error_message" > last_error.txt
     exit 10
 fi
 

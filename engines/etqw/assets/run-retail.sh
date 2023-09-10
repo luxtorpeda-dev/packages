@@ -2,11 +2,7 @@
 
 if [ ! -f full/etqw-rthread ]; then
     error_message="Retail version not in correct location."
-    if [[ -z "${LUX_ERRORS_SUPPORTED}" ]]; then
-        "$STEAM_ZENITY" --error --title="Error" --text="$error_message"
-    else
-        echo "$error_message" > last_error.txt
-    fi
+    echo "$error_message" > last_error.txt
     exit 10
 fi
 
