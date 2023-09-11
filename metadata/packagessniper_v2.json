@@ -7829,6 +7829,26 @@
             "engine_name": "DREAMM",
             "cloudNotAvailable": true,
             "app_id": "557240"
+        },
+        {
+            "game_name": "Amnesia: The Dark Descent",
+            "download": [
+                {
+                    "name": "oss-cosmic-amnesia-binaries",
+                    "url": "https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent/releases/download/v1015/",
+                    "file": "Amnesia_linux_x68_64_v1015.zip"
+                }
+            ],
+            "download_config": [
+                {
+                    "strip_prefix": "amnesia/",
+                    "download_name": "oss-cosmic-amnesia-binaries"
+                }
+            ],
+            "command": "./run-amnesia.sh",
+            "engine_name": "OSS-Cosmic Amnesia",
+            "cloudNotAvailable": true,
+            "app_id": "57300"
         }
     ],
     "engines": [
@@ -9387,6 +9407,16 @@
                     "key": "closed_source"
                 }
             ]
+        },
+        {
+            "engine_link": "https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent",
+            "version": "v1015",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3 & Apache-2.0",
+            "license_link": "https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent/blob/master/LICENSE",
+            "controllerNotSupported": true,
+            "engine_name": "OSS-Cosmic Amnesia"
         }
     ],
     "default_engine": {
