@@ -7826,11 +7826,11 @@
                     "strip_prefix": "amnesia/",
                     "download_name": "oss-cosmic-amnesia-binaries"
                 }
-            ]
+            ],
             "command": "./run-amnesia.sh",
             "engine_name": "OSS-Cosmic Amnesia",
             "cloudNotAvailable": true,
-            "app_id": "557240"
+            "app_id": "57300"
         }
     ],
     "engines": [
