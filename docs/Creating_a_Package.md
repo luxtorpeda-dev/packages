@@ -146,18 +146,7 @@ Engines that need further setup can use the following template:
 ```json
         {
             "game_name": "Unreal Tournament 2004: Editor's Choice Edition",
-            "download": [
-                {
-                    "name": "ut2004",
-                    "url": "https://bintray.com/luxtorpeda-dev/assets/download_file?file_path=",
-                    "file": "ut2004-13230-3.tar.xz"
-                },
-                {
-                    "name": "binaries",
-                    "url": "https://treefort.icculus.org/ut2004/",
-                    "file": "ut2004-lnxpatch3369-2.tar.bz2"
-                }
-            ],
+            "download": [],
             "download_config": {
                 "binaries": {
                     "extract_location": "../linuxdata",
