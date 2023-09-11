@@ -2,6 +2,7 @@
 
 * Added DREAMM support
 * Add support for Hiigara engine
+* Add support for OSS-Cosmic Amnesia
 
 ### 66.0b (2023-09-03)
 
