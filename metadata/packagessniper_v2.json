@@ -7837,6 +7837,11 @@
                     "name": "oss-cosmic-amnesia-binaries",
                     "url": "https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent/releases/download/v1015/",
                     "file": "Amnesia_linux_x68_64_v1015.zip"
+                },
+                {
+                    "name": "oss-cosmic-amnesia",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/oss-cosmic-amnesia-1/",
+                    "file": "oss-cosmic-amnesia-57300-1.tar.xz"
                 }
             ],
             "download_config": [
