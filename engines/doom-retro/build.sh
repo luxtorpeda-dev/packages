@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/bradharding/doomretro.git source
 pushd source
-git checkout 2418565
+git checkout 9615fcc
 popd
 
 # BUILD PHASE
@@ -19,4 +19,5 @@ popd
 # COPY PHASE
 cp -rfv "source/build/doomretro" "$diststart/common/dist/"
 cp -rfv "source/build/doomretro.wad" "$diststart/common/dist/"
+
 cp -rfv assets/* "$diststart/common/dist/"
