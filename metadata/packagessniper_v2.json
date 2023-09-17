@@ -530,7 +530,7 @@
                     ]
                 },
                 {
-                    "name": "doom-retro",
+                    "name": "DOOM Retro",
                     "command": "./doom-retro/run-doom-retro.sh",
                     "command_args": [
                         "-iwad",
@@ -970,7 +970,7 @@
                     ]
                 },
                 {
-                    "name": "doom-retro",
+                    "name": "DOOM Retro",
                     "commands": [
                         {
                             "cmd": "./doom-retro/run-doom-retro.sh",
@@ -1611,7 +1611,7 @@
                     ]
                 },
                 {
-                    "name": "doom-retro",
+                    "name": "DOOM Retro",
                     "commands": [
                         {
                             "cmd": "./doom-retro/run-doom-retro.sh",
@@ -3261,7 +3261,7 @@
                     "engine_name": "OpenXcom OXCE Plus"
                 },
                 {
-                    "name": "dosbox-staging",
+                    "name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "use_original_command_directory": true,
                     "download": [
@@ -3302,7 +3302,7 @@
                     ]
                 },
                 {
-                    "name": "dosbox-staging",
+                    "name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "use_original_command_directory": true,
                     "download": [
@@ -3367,7 +3367,7 @@
                     "engine_name": "OpenXcom OXCE Plus"
                 },
                 {
-                    "name": "dosbox-staging",
+                    "name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "use_original_command_directory": true,
                     "download": [
@@ -5803,7 +5803,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudAvailable": true,
             "controllerSteamDefault": true,
             "app_id": "317040"
@@ -6161,7 +6161,7 @@
                     ]
                 },
                 {
-                    "name": "dosbox-staging",
+                    "name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "use_original_command_directory": true,
                     "download": [
@@ -6621,7 +6621,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "817220"
         },
@@ -6780,7 +6780,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudAvailable": true,
             "app_id": "1072150"
         },
@@ -6807,7 +6807,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1118550"
         },
@@ -6841,7 +6841,7 @@
                             "download_name": "dosbox-staging"
                         }
                     ],
-                    "engine_name": "dosbox-staging"
+                    "engine_name": "DOSBox Staging"
                 },
                 {
                     "name": "Master of Magic Community Patch",
@@ -6862,7 +6862,7 @@
                             "download_name": "dosbox-staging"
                         }
                     ],
-                    "engine_name": "dosbox-staging"
+                    "engine_name": "DOSBox Staging"
                 },
                 {
                     "name": "Master of Magic Caster of Magic DLC",
@@ -6883,7 +6883,7 @@
                             "download_name": "dosbox-staging"
                         }
                     ],
-                    "engine_name": "dosbox-staging"
+                    "engine_name": "DOSBox Staging"
                 }
             ],
             "cloudNotAvailable": true,
@@ -7048,7 +7048,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1271050"
         },
@@ -7183,7 +7183,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1417010"
         },
@@ -7212,7 +7212,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1546440"
         },
@@ -7263,7 +7263,7 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "dosbox-staging",
+            "engine_name": "DOSBox Staging",
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "command_args": [
                 "-conf",
@@ -7294,7 +7294,7 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "dosbox-staging",
+            "engine_name": "DOSBox Staging",
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "command_args": [
                 "-conf",
@@ -7334,7 +7334,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "controllerSteamDefault": true,
             "app_id": "1715690"
@@ -7366,7 +7366,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1731320"
         },
@@ -7407,7 +7407,7 @@
                     "engine_name": "OpenTESArena"
                 },
                 {
-                    "name": "dosbox-staging",
+                    "name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "use_original_command_directory": true,
                     "download": [
@@ -7495,7 +7495,7 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "dosbox-staging",
+            "engine_name": "DOSBox Staging",
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "use_original_command_directory": true,
             "cloudAvailable": true,
@@ -7518,7 +7518,7 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "dosbox-staging",
+            "engine_name": "DOSBox Staging",
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "use_original_command_directory": true,
             "cloudAvailable": true,
@@ -7649,7 +7649,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1988750"
         },
@@ -7690,6 +7690,27 @@
             "app_id": "255920"
         },
         {
+            "game_name": "The 7th Guest",
+            "download": [
+                {
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                    "file": "scummvm-common-23.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm.sh",
+            "engine_name": "ScummVM",
+            "cloudAvailable": true,
+            "app_id": "255920"
+        },
+        {
             "game_name": "Master of Orion 2",
             "download": [
                 {
@@ -7705,7 +7726,7 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "dosbox-staging",
+            "engine_name": "DOSBox Staging",
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "use_original_command_directory": true,
             "cloudNotAvailable": true,
@@ -7934,7 +7955,7 @@
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
             "controllerSupported": true,
-            "engine_name": "gzdoom"
+            "engine_name": "GZDoom"
         },
         {
             "engine_link": "https://github.com/Youda008/DoomRunner",
@@ -8197,13 +8218,13 @@
             "license": "GPLv2",
             "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING",
             "controllerSupportedManualGame": true,
-            "engine_name": "dosbox-staging"
+            "engine_name": "DOSBox Staging"
         },
         {
             "engine_link": "https://github.com/godotengine/godot",
             "version": "3.4-stable",
             "author": "Jpx",
-            "author_link": "https://github.com/Jpxe",
+            "author_link": "https://github.com/jesperjackson",
             "license": "MIT",
             "license_link": "https://github.com/godotengine/godot/blob/master/LICENSE.txt",
             "controllerSupported": true,
@@ -8235,7 +8256,7 @@
             "license": "GPLv3",
             "license_link": "https://github.com/EasyRPG/Player/blob/master/COPYING",
             "controllerNotSupported": true,
-            "engine_name": "easyrpg-player"
+            "engine_name": "EasyRPG Player"
         },
         {
             "version": "82b7b11",
@@ -9048,7 +9069,7 @@
             "engine_link": "https://www.retrodev.com/blastem/",
             "version": "0.6.3-PRE",
             "author": "Jpx",
-            "author_link": "https://github.com/Jpxe",
+            "author_link": "https://github.com/jesperjackson",
             "license": "GPLv3",
             "license_link": "https://www.retrodev.com/repos/blastem/file/tip/COPYING",
             "controllerSupported": true
@@ -9118,7 +9139,7 @@
                 }
             ],
             "controllerSupported": true,
-            "engine_name": "doom-retro"
+            "engine_name": "DOOM Retro"
         },
         {
             "engine_link": "https://github.com/odamex/odamex",
