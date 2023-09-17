@@ -3,6 +3,9 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd "$DIR"
 
+GAME="$1"
+ARGS="$2"
+
 if [ ! -f scummvm.ini ]; then
     echo "No scummvm.ini file detected, so creating"
     echo -e "[scummvm]" >> scummvm.ini
@@ -23,4 +26,4 @@ else
 
 fi
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --fullscreen --themepath=./share/scummvm
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --fullscreen --themepath=./share/scummvm  "$ARGS" "$GAME"
