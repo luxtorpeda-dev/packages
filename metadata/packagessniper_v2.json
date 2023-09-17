@@ -7690,6 +7690,27 @@
             "app_id": "255920"
         },
         {
+            "game_name": "The 7th Guest",
+            "download": [
+                {
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                    "file": "scummvm-common-23.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm.sh",
+            "engine_name": "ScummVM",
+            "cloudAvailable": true,
+            "app_id": "255920"
+        },
+        {
             "game_name": "Master of Orion 2",
             "download": [
                 {
@@ -8203,7 +8224,7 @@
             "engine_link": "https://github.com/godotengine/godot",
             "version": "3.4-stable",
             "author": "Jpx",
-            "author_link": "https://github.com/Jpxe",
+            "author_link": "https://github.com/jesperjackson",
             "license": "MIT",
             "license_link": "https://github.com/godotengine/godot/blob/master/LICENSE.txt",
             "controllerSupported": true,
@@ -9048,7 +9069,7 @@
             "engine_link": "https://www.retrodev.com/blastem/",
             "version": "0.6.3-PRE",
             "author": "Jpx",
-            "author_link": "https://github.com/Jpxe",
+            "author_link": "https://github.com/jesperjackson",
             "license": "GPLv3",
             "license_link": "https://www.retrodev.com/repos/blastem/file/tip/COPYING",
             "controllerSupported": true
