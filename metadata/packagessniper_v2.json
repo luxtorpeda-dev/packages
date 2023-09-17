@@ -7690,6 +7690,31 @@
             "app_id": "255920"
         },
         {
+            "game_name": "Maniac Mansion",
+            "download": [
+                {
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
+                    "file": "scummvm-common-23.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm.sh",
+            "command_args": [
+                "maniac-v2",
+                "--render-mode=amiga"
+            ],
+            "engine_name": "ScummVM",
+            "cloudAvailable": true,
+            "app_id": "529890"
+        },
+        {
             "game_name": "Master of Orion 2",
             "download": [
                 {
