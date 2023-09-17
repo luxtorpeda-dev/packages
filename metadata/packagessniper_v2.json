@@ -22,7 +22,7 @@
                     "cache_by_name": true
                 }
             ],
-            "engine_name": "ruffle",
+            "engine_name": "Ruffle",
             "command": "./run-ruffle.sh",
             "download_config": [
                 {
@@ -270,7 +270,7 @@
                             "download_name": "ecwolf"
                         }
                     ],
-                    "engine_name": "ecwolf"
+                    "engine_name": "ECWolf"
                 },
                 {
                     "name": "ecwolf: Spear of Destiny",
@@ -288,7 +288,7 @@
                             "download_name": "ecwolf"
                         }
                     ],
-                    "engine_name": "ecwolf"
+                    "engine_name": "ECWolf"
                 }
             ],
             "cloudAvailable": true,
@@ -3203,7 +3203,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "6310"
         },
@@ -3389,7 +3389,7 @@
                 }
             ],
             "command": "./run-ecwolf.sh",
-            "engine_name": "ecwolf",
+            "engine_name": "ECWolf",
             "cloudAvailable": true,
             "app_id": "9000"
         },
@@ -4621,7 +4621,7 @@
                     "cache_by_name": true
                 }
             ],
-            "engine_name": "ruffle",
+            "engine_name": "Ruffle",
             "command": "./run-ruffle.sh",
             "download_config": [
                 {
@@ -4801,7 +4801,7 @@
                     "command_args": [
                         "-c"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 },
                 {
                     "name": "Dumpling (2005)",
@@ -4809,7 +4809,7 @@
                     "command_args": [
                         "-d"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 },
                 {
                     "name": "Meat Boy (2008)",
@@ -4817,7 +4817,7 @@
                     "command_args": [
                         "-m"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 },
                 {
                     "name": "Meat Boy (map pack) (2008)",
@@ -4825,7 +4825,7 @@
                     "command_args": [
                         "-p"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 },
                 {
                     "name": "Carious Weltling (2003)",
@@ -4833,7 +4833,7 @@
                     "command_args": [
                         "-w"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 },
                 {
                     "name": "Carious Weltling 2 (2005)",
@@ -4841,7 +4841,7 @@
                     "command_args": [
                         "-e"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 }
             ],
             "app_id": "214790"
@@ -5289,7 +5289,7 @@
                     "cache_by_name": true
                 }
             ],
-            "engine_name": "raze",
+            "engine_name": "Raze",
             "command": "./run-raze.sh",
             "cloudAvailable": true,
             "app_id": "238070"
@@ -5310,7 +5310,7 @@
                 }
             ],
             "command": "../run-rigelengine.sh",
-            "engine_name": "RigelEngine",
+            "engine_name": "Rigel Engine",
             "cloudNotAvailable": true,
             "app_id": "240180"
         },
@@ -5455,7 +5455,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "255940"
         },
@@ -5598,7 +5598,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "284050"
         },
@@ -5772,7 +5772,7 @@
                     "download": [
                         "raze"
                     ],
-                    "engine_name": "raze"
+                    "engine_name": "Raze"
                 }
             ],
             "cloudNotAvailable": true,
@@ -5878,7 +5878,7 @@
                 }
             ],
             "command": "./scum/run-scummvm-one-up.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudAvailable": true,
             "app_id": "355170"
         },
@@ -5958,7 +5958,7 @@
                     "cache_by_name": true
                 }
             ],
-            "engine_name": "raze",
+            "engine_name": "Raze",
             "command": "./run-raze.sh",
             "cloudNotAvailable": true,
             "app_id": "358400"
@@ -6004,7 +6004,7 @@
                     "cache_by_name": true
                 }
             ],
-            "engine_name": "raze",
+            "engine_name": "Raze",
             "command": "./run-raze.sh",
             "cloudNotAvailable": true,
             "app_id": "359850"
@@ -6726,7 +6726,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudAvailable": true,
             "app_id": "1044340"
         },
@@ -7118,7 +7118,7 @@
                 }
             },
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "1367160"
         },
@@ -7139,7 +7139,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "1368340"
         },
@@ -7685,7 +7685,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudAvailable": true,
             "app_id": "255920"
         },
@@ -7924,7 +7924,7 @@
             "license": "GPL-2+ or EULA; BSD-3-clause",
             "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright",
             "controllerSupported": true,
-            "engine_name": "ecwolf"
+            "engine_name": "ECWolf"
         },
         {
             "engine_link": "https://github.com/coelckers/gzdoom",
@@ -8044,7 +8044,7 @@
             "license": "Various Licenses",
             "license_link": "https://github.com/coelckers/Raze",
             "controllerSupported": true,
-            "engine_name": "raze"
+            "engine_name": "Raze"
         },
         {
             "engine_link": "https://github.com/Novum/vkQuake",
@@ -8225,7 +8225,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "ruffle"
+            "engine_name": "Ruffle"
         },
         {
             "engine_link": "https://github.com/EasyRPG/Player",
@@ -9519,14 +9519,14 @@
         ],
         "choices": [
             {
-                "name": "scummvm",
+                "name": "ScummVM",
                 "command": "./scum/run-scummvm.sh",
                 "download": [
                     "scummvm"
                 ]
             },
             {
-                "name": "dosbox-staging",
+                "name": "DOSBox Staging",
                 "command": "./dosbox-staging/run-dosbox-staging.sh",
                 "use_original_command_directory": true,
                 "download": [
@@ -9534,7 +9534,7 @@
                 ]
             },
             {
-                "name": "easyrpg-player",
+                "name": "EasyRPG Player",
                 "command": "./run-easyrpg-player.sh",
                 "download": [
                     "easyrpg-player"
@@ -9555,7 +9555,7 @@
                 ]
             },
             {
-                "name": "ruffle",
+                "name": "Ruffle",
                 "command": "./run-ruffle.sh",
                 "download": [
                     "ruffle",
