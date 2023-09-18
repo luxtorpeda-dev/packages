@@ -5069,7 +5069,7 @@
                     "download": [
                         "voidsw"
                     ],
-                    "engine_name": "eduke32 VoidSW"
+                    "engine_name": "EDuke32 VoidSW"
                 },
                 {
                     "name": "raze",
@@ -5259,7 +5259,7 @@
                             "download_name": "bstone"
                         }
                     ],
-                    "engine_name": "bstone"
+                    "engine_name": "BStone"
                 },
                 {
                     "name": "Blake Stone Planet Strike",
@@ -5273,7 +5273,7 @@
                             "download_name": "bstone"
                         }
                     ],
-                    "engine_name": "bstone"
+                    "engine_name": "BStone"
                 }
             ],
             "cloudNotAvailable": true,
@@ -5474,7 +5474,7 @@
                 }
             ],
             "command": "./run-d1x.sh",
-            "engine_name": "dxx-rebirth",
+            "engine_name": "DXX-Rebirth",
             "cloudNotAvailable": true,
             "app_id": "273570"
         },
@@ -5493,7 +5493,7 @@
                 }
             ],
             "command": "./run-d2x.sh",
-            "engine_name": "dxx-rebirth",
+            "engine_name": "DXX-Rebirth",
             "cloudNotAvailable": true,
             "app_id": "273580"
         },
@@ -5577,7 +5577,7 @@
                 }
             ],
             "command": "./run-freespace2.sh",
-            "engine_name": "fs2open",
+            "engine_name": "FreeSpace 2 Open",
             "cloudNotAvailable": true,
             "app_id": "273620"
         },
@@ -5617,7 +5617,7 @@
                 "command": "./setup-rct1.sh"
             },
             "command": "./run-openrct2.sh",
-            "engine_name": "openrct2",
+            "engine_name": "OpenRCT2",
             "notices": [
                 {
                     "label": "Requires assets from RCT2 to run, so RCT2 should be run through Steam first."
@@ -5641,7 +5641,7 @@
                 "command": "./setup-rct2.sh"
             },
             "command": "./run-openrct2.sh",
-            "engine_name": "openrct2",
+            "engine_name": "OpenRCT2",
             "cloudNotAvailable": true,
             "app_id": "285330"
         },
@@ -5900,7 +5900,7 @@
                 }
             ],
             "use_original_command_directory": true,
-            "engine_name": "bstone",
+            "engine_name": "BStone",
             "cloudNotAvailable": true,
             "app_id": "358190"
         },
@@ -5922,7 +5922,7 @@
                 }
             ],
             "use_original_command_directory": true,
-            "engine_name": "bstone",
+            "engine_name": "BStone",
             "cloudNotAvailable": true,
             "app_id": "358310"
         },
@@ -6122,7 +6122,7 @@
                 }
             ],
             "command": "../SSHOCK/run-shockolate.sh",
-            "engine_name": "shockolate",
+            "engine_name": "Shockolate",
             "cloudNotAvailable": true,
             "app_id": "410700"
         },
@@ -6301,7 +6301,7 @@
                 }
             ],
             "command": "./ozymandias",
-            "engine_name": "ozymandias",
+            "engine_name": "Ozymandias",
             "cloudNotAvailable": true,
             "app_id": "564530"
         },
@@ -6366,7 +6366,7 @@
                 }
             ],
             "command": "./run-ctp2.sh",
-            "engine_name": "civctp2",
+            "engine_name": "Civ: CTP2",
             "cloudNotAvailable": true,
             "app_id": "572050"
         },
@@ -6391,7 +6391,7 @@
                 }
             ],
             "command": "./run-open-ig.sh",
-            "engine_name": "open-ig",
+            "engine_name": "Open-IG",
             "cloudNotAvailable": true,
             "app_id": "573790"
         },
@@ -6484,7 +6484,7 @@
                 "command": "./setup-rct2-classic.sh"
             },
             "command": "./run-openrct2-classic.sh",
-            "engine_name": "openrct2",
+            "engine_name": "OpenRCT2",
             "cloudNotAvailable": true,
             "app_id": "683900"
         },
@@ -7067,7 +7067,7 @@
                 }
             ],
             "command": "./run-runelite-extract.sh",
-            "engine_name": "runelite",
+            "engine_name": "RuneLite",
             "cloudNotAvailable": true,
             "app_id": "1343370"
         },
@@ -7089,7 +7089,7 @@
                 1070560
             ],
             "command": "./run-runescape.sh",
-            "engine_name": "runescape",
+            "engine_name": "RuneScape",
             "cloudNotAvailable": true,
             "app_id": "1343400"
         },
@@ -7153,7 +7153,7 @@
                 }
             ],
             "command": "./run-ocean-heart.sh",
-            "engine_name": "solarus",
+            "engine_name": "Solarus",
             "cloudAvailable": true,
             "controllerSteamDefault": true,
             "app_id": "1393750"
@@ -8392,7 +8392,7 @@
             "license": "GPLv2",
             "license_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor/-/blob/master/source/duke3d/gpl-2.0.txt",
             "controllerSupported": true,
-            "engine_name": "netduke32"
+            "engine_name": "NetDuke32"
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
@@ -8422,7 +8422,7 @@
             "license": "GPLv2",
             "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/sw/gpl-2.0.txt",
             "controllerSupported": true,
-            "engine_name": "eduke32 VoidSW"
+            "engine_name": "EDuke32 VoidSW"
         },
         {
             "engine_link": "https://github.com/bvschaik/julius",
@@ -8432,7 +8432,7 @@
             "license": "AGPL-3.0",
             "license_link": "https://github.com/bvschaik/julius/blob/master/LICENSE.txt",
             "controllerNotSupported": true,
-            "engine_name": "julius"
+            "engine_name": "Julius"
         },
         {
             "engine_link": "https://github.com/Keriew/augustus",
@@ -8442,7 +8442,7 @@
             "license": "AGPL-3.0",
             "license_link": "https://github.com/Keriew/augustus/blob/master/LICENSE.txt",
             "controllerNotSupported": true,
-            "engine_name": "augustus"
+            "engine_name": "Augustus"
         },
         {
             "engine_link": "https://github.com/Banderi/Ozymandias",
@@ -8457,7 +8457,7 @@
                     "key": "in_progress"
                 }
             ],
-            "engine_name": "ozymandias"
+            "engine_name": "Ozymandias"
         },
         {
             "engine_link": "https://github.com/Try/OpenGothic",
@@ -8700,14 +8700,14 @@
             "engine_name": "OpenMW"
         },
         {
-            "engine_link": "https://github.com/TES3MP/openmw-tes3mp",
+            "engine_link": "https://github.com/TES3MP/TES3MP",
             "version": "0.8.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/TES3MP/openmw-tes3mp/blob/292536439eeda58becdb7e441fe2e61ebb74529e/LICENSE",
             "controllerSupported": true,
-            "engine_name": "openmw-tes3mp"
+            "engine_name": "TES3MP"
         },
         {
             "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
@@ -8784,7 +8784,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "bstone"
+            "engine_name": "BStone"
         },
         {
             "engine_link": "https://github.com/lethal-guitar/RigelEngine",
@@ -8794,7 +8794,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/lethal-guitar/RigelEngine/blob/master/LICENSE.md",
             "controllerSupported": true,
-            "engine_name": "RigelEngine"
+            "engine_name": "Rigel Engine"
         },
         {
             "engine_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
@@ -8824,7 +8824,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "dxx-rebirth"
+            "engine_name": "DXX-Rebirth"
         },
         {
             "engine_link": "https://github.com/ptitSeb/freespace2",
@@ -8858,7 +8858,7 @@
                 }
             ],
             "controllerSupported": true,
-            "engine_name": "FreeSpace Port using fs2open"
+            "engine_name": "FreeSpace Port using FreeSpace 2 Open"
         },
         {
             "engine_link": "https://github.com/scp-fs2open/fs2open.github.com",
@@ -8873,7 +8873,7 @@
                 }
             ],
             "controllerSupported": true,
-            "engine_name": "fs2open"
+            "engine_name": "FreeSpace 2 Open"
         },
         {
             "engine_link": "https://openrct2.io/",
@@ -8883,7 +8883,7 @@
             "license": "GPLv3",
             "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt",
             "controllerNotSupported": true,
-            "engine_name": "openrct2"
+            "engine_name": "OpenRCT2"
         },
         {
             "engine_link": "https://github.com/IonAgorria/Perimeter",
@@ -8938,7 +8938,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "shockolate"
+            "engine_name": "Shockolate"
         },
         {
             "engine_link": "https://gitlab.com/Tapani_/1oom",
@@ -8976,7 +8976,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "civctp2"
+            "engine_name": "Civ: CTP2"
         },
         {
             "engine_link": "https://www.renpy.org/",
@@ -9026,7 +9026,7 @@
             "license": "BSD 2-Clause License",
             "license_link": "https://github.com/runelite/runelite/blob/master/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "runelite"
+            "engine_name": "RuneLite"
         },
         {
             "engine_link": "https://www.runescape.com/community",
@@ -9041,7 +9041,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "runescape"
+            "engine_name": "RuneScape"
         },
         {
             "engine_link": "https://gitlab.com/solarus-games/solarus",
@@ -9051,7 +9051,7 @@
             "license": "GPLv3",
             "license_link": "https://gitlab.com/solarus-games/solarus/-/blob/dev/license_gpl.txt",
             "controllerSupported": true,
-            "engine_name": "solarus"
+            "engine_name": "Solarus"
         },
         {
             "engine_link": "https://github.com/TorrSamaho/zandronum",
@@ -9110,7 +9110,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "open-ig"
+            "engine_name": "Open-IG"
         },
         {
             "engine_link": "https://github.com/jasonrohrer/OneLife",
