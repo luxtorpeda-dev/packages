@@ -3245,8 +3245,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
-                    "file": "scummvm-common-23.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-24/",
+                    "file": "scummvm-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -3266,8 +3266,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
-                    "file": "scummvm-common-23.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-24/",
+                    "file": "scummvm-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -3279,9 +3279,9 @@
             ],
             "command": "./scum/run-scummvm.sh",
             "command_args": [
-              "maniac-v2",
-              "--render-mode=amiga"
-             ],
+                "maniac-v2",
+                "--render-mode=amiga"
+            ],
             "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "529890"
@@ -5528,8 +5528,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
-                    "file": "scummvm-common-23.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-24/",
+                    "file": "scummvm-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -5673,8 +5673,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
-                    "file": "scummvm-common-23.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-24/",
+                    "file": "scummvm-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -5956,8 +5956,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
-                    "file": "scummvm-common-23.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-24/",
+                    "file": "scummvm-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6518,7 +6518,6 @@
                     "engine_name": "NBlood Rednukem"
                 },
                 {
-
                     "name": "Raze",
                     "engine_name": "Raze",
                     "command": "run-raze-rr-again.sh",
@@ -6798,7 +6797,6 @@
                     "engine_name": "NotBlood"
                 },
                 {
-
                     "name": "Raze",
                     "engine_name": "Raze",
                     "command": "./run-raze-nblood.sh",
@@ -6815,8 +6813,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
-                    "file": "scummvm-common-23.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-24/",
+                    "file": "scummvm-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7200,8 +7198,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
-                    "file": "scummvm-common-23.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-24/",
+                    "file": "scummvm-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7229,8 +7227,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
-                    "file": "scummvm-common-23.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-24/",
+                    "file": "scummvm-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7776,8 +7774,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
-                    "file": "scummvm-common-23.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-24/",
+                    "file": "scummvm-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9533,8 +9531,8 @@
         "download": [
             {
                 "name": "scummvm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-23/",
-                "file": "scummvm-common-23.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-24/",
+                "file": "scummvm-common-24.tar.xz",
                 "cache_by_name": true
             },
             {
