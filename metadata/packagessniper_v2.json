@@ -2100,7 +2100,7 @@
                     "engine_name": "DarkPlaces"
                 },
                 {
-                    "name": "quakespasm-spiked Dimension of the Past",
+                    "name": "Quakespasm-Spiked Dimension of the Past",
                     "command": "./quakespasm/quakespasm.sh",
                     "download": [
                         "quakespasm-spiked",
