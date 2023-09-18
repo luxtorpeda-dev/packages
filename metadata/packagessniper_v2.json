@@ -122,6 +122,7 @@
             "choices": [
                 {
                     "name": "ioquake3",
+                    "engine_name": "ioquake3",
                     "command": "./ioquake3.x86_64",
                     "command_args": [
                         "+set",
@@ -134,6 +135,7 @@
                 },
                 {
                     "name": "quake3e",
+                    "engine_name": "quake3e",
                     "command": "./quake3e.x64",
                     "command_args": [
                         "+set",
@@ -149,6 +151,7 @@
                 },
                 {
                     "name": "FTE QuakeWorld",
+                    "engine_name": "FTE QuakeWorld",
                     "command": "./ftequakeworld.sh",
                     "download": [
                         "ioquake3",
@@ -158,6 +161,7 @@
                 },
                 {
                     "name": "Spearmint",
+                    "engine_name": "Spearmint",
                     "download_config": [
                         {
                             "extract_location": "./spearmint",
@@ -179,6 +183,7 @@
                 },
                 {
                     "name": "Challenge ProMode Arena",
+                    "engine_name": "Challenge ProMode Arena",
                     "download_config": [
                         {
                             "extract_location": "./cnq3",
@@ -255,7 +260,8 @@
             ],
             "choices": [
                 {
-                    "name": "ecwolf: Wolfenstein 3D",
+                    "name": "ECWolf: Wolfenstein 3D",
+                    "engine_name": "ECWolf",
                     "command": "./base/run-ecwolf-wolf3d.sh",
                     "command_args": [
                         "--data",
@@ -269,11 +275,11 @@
                             "extract_location": "./base",
                             "download_name": "ecwolf"
                         }
-                    ],
-                    "engine_name": "ECWolf"
+                    ]
                 },
                 {
-                    "name": "ecwolf: Spear of Destiny",
+                    "name": "ECWolf: Spear of Destiny",
+                    "engine_name": "ECWolf",
                     "command": "./base/m1/run-ecwolf-wolf3d.sh",
                     "command_args": [
                         "--data",
@@ -287,8 +293,7 @@
                             "extract_location": "./base/m1",
                             "download_name": "ecwolf"
                         }
-                    ],
-                    "engine_name": "ECWolf"
+                    ]
                 }
             ],
             "cloudAvailable": true,
@@ -379,7 +384,8 @@
             ],
             "choices": [
                 {
-                    "name": "gzdoom",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -390,7 +396,8 @@
                     ]
                 },
                 {
-                    "name": "doomsday",
+                    "name": "Doomsday Engine",
+                    "engine_name": "Doomsday Engine",
                     "command": "./doomsday/run-doomsday.sh",
                     "download": [
                         "doomsday"
@@ -410,6 +417,7 @@
                 },
                 {
                     "name": "Chocolate Doom",
+                    "engine_name": "Chocolate Doom",
                     "command": "./chocolate-doom/run-chocolate-doom.sh",
                     "command_args": [
                         "-iwad",
@@ -427,6 +435,7 @@
                 },
                 {
                     "name": "Chocolate Doom (Setup)",
+                    "engine_name": "Chocolate Doom",
                     "command": "./chocolate-doom/run-chocolate-doom-setup.sh",
                     "command_args": [
                         "-iwad",
@@ -440,11 +449,11 @@
                             "extract_location": "./chocolate-doom",
                             "download_name": "chocolate-doom"
                         }
-                    ],
-                    "engine_name": "Chocolate Doom"
+                    ]
                 },
                 {
                     "name": "Crispy Doom",
+                    "engine_name": "Crispy Doom",
                     "command": "./crispy-doom/run-crispy-doom.sh",
                     "command_args": [
                         "-iwad",
@@ -462,6 +471,7 @@
                 },
                 {
                     "name": "Crispy Doom (Setup)",
+                    "engine_name": "Crispy Doom",
                     "command": "./crispy-doom/run-crispy-doom-setup.sh",
                     "command_args": [
                         "-iwad",
@@ -475,11 +485,11 @@
                             "extract_location": "./crispy-doom",
                             "download_name": "crispy-doom"
                         }
-                    ],
-                    "engine_name": "Crispy Doom"
+                    ]
                 },
                 {
                     "name": "International Doom",
+                    "engine_name": "International Doom",
                     "command": "./inter-doom/run-inter-doom.sh",
                     "command_args": [
                         "-iwad",
@@ -496,7 +506,8 @@
                     ]
                 },
                 {
-                    "name": "prboom-plus",
+                    "name": "PrBoom+",
+                    "engine_name": "PrBoom+",
                     "command": "./prboom-plus/run-prboom-plus.sh",
                     "command_args": [
                         "-iwad",
@@ -514,6 +525,7 @@
                 },
                 {
                     "name": "dsda-doom",
+                    "engine_name": "dsda-doom",
                     "command": "./dsda-doom/run-dsda-doom.sh",
                     "command_args": [
                         "-iwad",
@@ -531,6 +543,7 @@
                 },
                 {
                     "name": "DOOM Retro",
+                    "engine_name": "DOOM Retro",
                     "command": "./doom-retro/run-doom-retro.sh",
                     "command_args": [
                         "-iwad",
@@ -553,6 +566,7 @@
                 },
                 {
                     "name": "Odamex",
+                    "engine_name": "Odamex",
                     "command": "./odamex/run-odamex.sh",
                     "command_args": [
                         "-iwad",
@@ -575,6 +589,7 @@
                 },
                 {
                     "name": "Doom Runner",
+                    "engine_name": "Doom Runner",
                     "command": "./doom-runner/run-doom-runner.sh",
                     "download": [
                         "gzdoom",
@@ -589,6 +604,7 @@
                 },
                 {
                     "name": "qzdl",
+                    "engine_name": "qzdl",
                     "command": "./qzdl/run-qzdl.sh",
                     "download": [
                         "gzdoom",
@@ -603,6 +619,7 @@
                 },
                 {
                     "name": "Doomseeker",
+                    "engine_name": "Doomseeker",
                     "command": "./doomseeker/run-doomseeker.sh",
                     "download": [
                         "odamex",
@@ -700,7 +717,8 @@
             ],
             "choices": [
                 {
-                    "name": "gzdoom",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
                     "commands": [
                         {
                             "cmd": "./run-gzdoom.sh",
@@ -724,7 +742,8 @@
                     ]
                 },
                 {
-                    "name": "doomsday",
+                    "name": "Doomsday Engine",
+                    "engine_name": "Doomsday Engine",
                     "commands": [
                         {
                             "cmd": "./run-doomsday.sh",
@@ -759,6 +778,7 @@
                 },
                 {
                     "name": "Chocolate Doom",
+                    "engine_name": "Chocolate Doom",
                     "commands": [
                         {
                             "cmd": "./chocolate-doom/run-chocolate-doom.sh",
@@ -820,6 +840,7 @@
                 },
                 {
                     "name": "Crispy Doom",
+                    "engine_name": "Crispy Doom",
                     "commands": [
                         {
                             "cmd": "./crispy-doom/run-crispy-doom.sh",
@@ -881,6 +902,7 @@
                 },
                 {
                     "name": "International Doom",
+                    "engine_name": "International Doom",
                     "commands": [
                         {
                             "cmd": "./inter-doom/run-inter-doom.sh",
@@ -910,7 +932,8 @@
                     ]
                 },
                 {
-                    "name": "prboom-plus",
+                    "name": "PrBoom+",
+                    "engine_name": "PrBoom+",
                     "commands": [
                         {
                             "cmd": "./prboom-plus/run-prboom-plus.sh",
@@ -941,6 +964,7 @@
                 },
                 {
                     "name": "dsda-doom",
+                    "engine_name": "dsda-doom",
                     "commands": [
                         {
                             "cmd": "./dsda-doom/run-dsda-doom.sh",
@@ -971,6 +995,7 @@
                 },
                 {
                     "name": "DOOM Retro",
+                    "engine_name": "DOOM Retro",
                     "commands": [
                         {
                             "cmd": "./doom-retro/run-doom-retro.sh",
@@ -1006,6 +1031,7 @@
                 },
                 {
                     "name": "Doom Runner",
+                    "engine_name": "Doom Runner",
                     "command": "./doom-runner/run-doom-runner.sh",
                     "download": [
                         "gzdoom",
@@ -1121,7 +1147,8 @@
             ],
             "choices": [
                 {
-                    "name": "gzdoom",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
                     "commands": [
                         {
                             "cmd": "./run-gzdoom.sh",
@@ -1169,7 +1196,8 @@
                     ]
                 },
                 {
-                    "name": "doomsday",
+                    "name": "Doomsday Engine",
+                    "engine_name": "Doomsday Engine",
                     "download": [
                         "doomsday"
                     ],
@@ -1232,6 +1260,7 @@
                 },
                 {
                     "name": "Chocolate Doom",
+                    "engine_name": "Chocolate Doom",
                     "commands": [
                         {
                             "cmd": "./chocolate-doom/run-chocolate-doom.sh",
@@ -1341,6 +1370,7 @@
                 },
                 {
                     "name": "Crispy Doom",
+                    "engine_name": "Crispy Doom",
                     "commands": [
                         {
                             "cmd": "./crispy-doom/run-crispy-doom.sh",
@@ -1940,7 +1970,7 @@
             ],
             "choices": [
                 {
-                    "name": "vkquake",
+                    "name": "vkQuake",
                     "command": "./vkquake.sh",
                     "download": [
                         "vkquake"
@@ -1959,14 +1989,16 @@
                     "engine_name": "vkQuake"
                 },
                 {
-                    "name": "darkplaces",
+                    "name": "DarkPlaces",
+                    "engine_name": "DarkPlaces",
                     "command": "./darkplaces/darkplaces.sh",
                     "download": [
                         "darkplaces"
                     ]
                 },
                 {
-                    "name": "quakespasm-spiked",
+                    "name": "Quakespasm-Spiked",
+                    "engine_name": "Quakespasm-Spiked",
                     "command": "./quakespasm/quakespasm.sh",
                     "download": [
                         "quakespasm-spiked"
@@ -1974,6 +2006,7 @@
                 },
                 {
                     "name": "QSS-M",
+                    "engine_name": "QSS-M",
                     "command": "./qss-m/qss-m.sh",
                     "download": [
                         "qss-m"
@@ -1981,6 +2014,7 @@
                 },
                 {
                     "name": "FTE QuakeWorld",
+                    "engine_name": "FTE QuakeWorld",
                     "command": "./ftequakeworld-quake1.sh",
                     "download": [
                         "ftequakeworld",
@@ -1988,7 +2022,7 @@
                     ]
                 },
                 {
-                    "name": "ironwail",
+                    "name": "Ironwail",
                     "command": "./ironwail/ironwail.sh",
                     "download": [
                         "ironwail"
@@ -2027,7 +2061,7 @@
                     ]
                 },
                 {
-                    "name": "vkquake Dimension of the Past",
+                    "name": "vkQuake Dimension of the Past",
                     "command": "./vkquake.sh",
                     "download": [
                         "vkquake",
@@ -2046,7 +2080,7 @@
                     "engine_name": "vkQuake"
                 },
                 {
-                    "name": "darkplaces Dimension of the Past",
+                    "name": "DarkPlaces Dimension of the Past",
                     "command": "./darkplaces/darkplaces.sh",
                     "download": [
                         "darkplaces",
@@ -2338,6 +2372,7 @@
             "choices": [
                 {
                     "name": "Yamagi Quake II",
+                    "engine_name": "Yamagi Quake II",
                     "command": "./quake2.sh",
                     "download": [
                         "yquake2"
@@ -2345,6 +2380,7 @@
                 },
                 {
                     "name": "vkQuake2",
+                    "engine_name": "vkQuake2",
                     "command": "./vkQuake2/vkQuake2.sh",
                     "download": [
                         "vkquake2"
@@ -2362,6 +2398,7 @@
                 },
                 {
                     "name": "FTE QuakeWorld",
+                    "engine_name": "FTE QuakeWorld",
                     "command": "./ftequakeworld.sh",
                     "download": [
                         "yquake2",
@@ -2371,6 +2408,7 @@
                 },
                 {
                     "name": "Q2PRO",
+                    "engine_name": "Q2PRO",
                     "command": "./q2pro/q2pro.sh",
                     "download": [
                         "q2pro"
@@ -2426,6 +2464,7 @@
             "choices": [
                 {
                     "name": "ioquake3",
+                    "engine_name": "ioquake3",
                     "command": "./ioquake3.x86_64",
                     "command_args": [
                         "+set",
@@ -2439,6 +2478,7 @@
                 },
                 {
                     "name": "quake3e",
+                    "engine_name": "quake3e",
                     "command": "./quake3e.x64",
                     "command_args": [
                         "+set",
@@ -2455,6 +2495,7 @@
                 },
                 {
                     "name": "Spearmint",
+                    "engine_name": "Spearmint",
                     "download_config": [
                         {
                             "extract_location": "./spearmint",
@@ -2531,7 +2572,8 @@
             ],
             "choices": [
                 {
-                    "name": "gzdoom",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -2542,7 +2584,8 @@
                     ]
                 },
                 {
-                    "name": "doomsday",
+                    "name": "Doomsday Engine",
+                    "engine_name": "Doomsday Engine",
                     "command": "./doomsday/run-doomsday.sh",
                     "download": [
                         "doomsday"
@@ -2562,6 +2605,7 @@
                 },
                 {
                     "name": "Chocolate Doom",
+                    "engine_name": "Chocolate Doom",
                     "command": "./chocolate-doom/run-chocolate-hexen.sh",
                     "command_args": [
                         "-iwad",
@@ -2579,6 +2623,7 @@
                 },
                 {
                     "name": "Chocolate Doom (Setup)",
+                    "engine_name": "Chocolate Doom",
                     "command": "./chocolate-doom/run-chocolate-hexen-setup.sh",
                     "command_args": [
                         "-iwad",
@@ -2592,11 +2637,11 @@
                             "extract_location": "./chocolate-doom",
                             "download_name": "chocolate-doom"
                         }
-                    ],
-                    "engine_name": "Chocolate Doom"
+                    ]
                 },
                 {
                     "name": "Crispy Doom",
+                    "engine_name": "Crispy Doom",
                     "command": "./crispy-doom/run-crispy-hexen.sh",
                     "command_args": [
                         "-iwad",
@@ -2632,6 +2677,7 @@
                 },
                 {
                     "name": "International Doom",
+                    "engine_name": "International Doom",
                     "command": "./inter-doom/run-inter-hexen.sh",
                     "command_args": [
                         "-iwad",
@@ -2649,6 +2695,7 @@
                 },
                 {
                     "name": "Doom Runner",
+                    "engine_name": "Doom Runner",
                     "command": "./doom-runner/run-doom-runner.sh",
                     "download": [
                         "gzdoom",
@@ -2663,6 +2710,7 @@
                 },
                 {
                     "name": "qzdl",
+                    "engine_name": "qzdl",
                     "command": "./qzdl/run-qzdl.sh",
                     "download": [
                         "gzdoom",
@@ -2721,7 +2769,8 @@
             ],
             "choices": [
                 {
-                    "name": "gzdoom",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -2734,7 +2783,8 @@
                     ]
                 },
                 {
-                    "name": "doomsday",
+                    "name": "Doomsday Engine",
+                    "engine_name": "Doomsday Engine",
                     "command": "./doomsday/run-doomsday.sh",
                     "download": [
                         "doomsday"
@@ -2900,7 +2950,8 @@
             ],
             "choices": [
                 {
-                    "name": "gzdoom",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -2911,7 +2962,8 @@
                     ]
                 },
                 {
-                    "name": "doomsday",
+                    "name": "Doomsday Engine",
+                    "engine_name": "Doomsday Engine",
                     "command": "./doomsday/run-doomsday.sh",
                     "download": [
                         "doomsday"
@@ -2965,7 +3017,8 @@
                     "engine_name": "Chocolate Doom"
                 },
                 {
-                    "name": "prboom-plus",
+                    "name": "PrBoom+",
+                    "engine_name": "PrBoom+",
                     "command": "./prboom-plus/run-prboom-plus.sh",
                     "command_args": [
                         "-iwad",
@@ -3245,7 +3298,7 @@
             ],
             "choices": [
                 {
-                    "name": "openxcom",
+                    "name": "OpenXcom",
                     "command": "./openxcom/run-tftd.sh",
                     "download": [
                         "openxcom"
@@ -3645,7 +3698,8 @@
             ],
             "choices": [
                 {
-                    "name": "gzdoom",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
                     "download": [
                         "gzdoom"
                     ],
@@ -4095,7 +4149,8 @@
                     "engine_name": "OpenMW"
                 },
                 {
-                    "name": "openmw-tes3mp",
+                    "name": "TES3MP",
+                    "engine_name": "TES3MP",
                     "command": "./openmw-tes3mp/tes3mp-launcher.sh",
                     "download": [
                         "openmw-tes3mp"
@@ -5022,21 +5077,24 @@
             ],
             "choices": [
                 {
-                    "name": "eduke32",
+                    "name": "EDuke32",
+                    "engine_name": "EDuke32",
                     "command": "./run-eduke32-megaton.sh",
                     "download": [
                         "eduke32"
                     ]
                 },
                 {
-                    "name": "raze",
+                    "name": "Raze",
+                    "engine_name": "Raze",
                     "command": "./run-raze-megaton.sh",
                     "download": [
                         "raze"
                     ]
                 },
                 {
-                    "name": "netduke32",
+                    "name": "NetDuke32",
+                    "engine_name": "NetDuke32",
                     "command": "./run-netduke32-megaton.sh",
                     "download": [
                         "netduke32"
@@ -5064,7 +5122,7 @@
             ],
             "choices": [
                 {
-                    "name": "voidsw",
+                    "name": "VoidSW",
                     "command": "./run-voidsw.sh",
                     "download": [
                         "voidsw"
@@ -5072,7 +5130,8 @@
                     "engine_name": "EDuke32 VoidSW"
                 },
                 {
-                    "name": "raze",
+                    "name": "Raze",
+                    "engine_name": "Raze",
                     "command": "./run-raze-sw.sh",
                     "download": [
                         "raze"
@@ -5529,6 +5588,7 @@
             "choices": [
                 {
                     "name": "freespace",
+                    "engine_name": "freespace",
                     "command": "./run-freespace.sh",
                     "download": [
                         "fs1vp",
@@ -5537,6 +5597,7 @@
                 },
                 {
                     "name": "FreeSpace Port using fs2open",
+                    "engine_name": "FreeSpace Port using FreeSpace 2 Open",
                     "command": "./run-fsport.sh",
                     "download": [
                         "freespace",
@@ -5568,7 +5629,7 @@
             "app_id": "273600"
         },
         {
-            "game_name": "Freespace 2",
+            "game_name": "FreeSpace 2",
             "download": [
                 {
                     "name": "fs2open",
@@ -5826,14 +5887,16 @@
             ],
             "choices": [
                 {
-                    "name": "eduke32",
+                    "name": "EDuke32",
+                    "engine_name": "EDuke32",
                     "command": "./run-nam.sh",
                     "download": [
                         "eduke32"
                     ]
                 },
                 {
-                    "name": "raze",
+                    "name": "Raze",
+                    "engine_name": "Raze",
                     "command": "./run-raze-nam.sh",
                     "download": [
                         "raze"
@@ -6029,7 +6092,8 @@
             "choices": [
                 {
                     "command": "./run-ecwolf.sh",
-                    "name": "ecwolf",
+                    "name": "ECWolf",
+                    "engine_name": "ECWolf",
                     "download": [
                         "ecwolf"
                     ]
@@ -6071,14 +6135,16 @@
             ],
             "choices": [
                 {
-                    "name": "eduke32",
+                    "name": "EDuke32",
+                    "engine_name": "EDuke32",
                     "command": "./run-ww2gi.sh",
                     "download": [
                         "eduke32"
                     ]
                 },
                 {
-                    "name": "raze",
+                    "name": "Raze",
+                    "engine_name": "Raze",
                     "command": "./run-raze-ww2gi.sh",
                     "download": [
                         "raze"
@@ -6190,14 +6256,16 @@
             ],
             "choices": [
                 {
-                    "name": "raze",
+                    "name": "Raze",
+                    "engine_name": "Raze",
                     "command": "./run-raze.sh",
                     "download": [
                         "raze"
                     ]
                 },
                 {
-                    "name": "eduke32",
+                    "name": "EDuke32",
+                    "engine_name": "EDuke32",
                     "command": "./run-eduke32-world-tour.sh",
                     "engine_name": "EDuke32",
                     "download": [
@@ -6255,7 +6323,8 @@
             ],
             "choices": [
                 {
-                    "name": "julius",
+                    "name": "Julius",
+                    "engine_name": "Julius",
                     "command": "./julius",
                     "command_args": [
                         "./C3"
@@ -6265,7 +6334,8 @@
                     ]
                 },
                 {
-                    "name": "augustus",
+                    "name": "Augustus",
+                    "engine_name": "Augustus",
                     "command": "./run-augustus.sh",
                     "download": [
                         "augustus"
@@ -6331,7 +6401,8 @@
                     "engine_name": "NBlood Rednukem"
                 },
                 {
-                    "name": "raze",
+                    "name": "Raze",
+                    "engine_name": "Raze",
                     "command": "./run-raze-rr.sh",
                     "download": [
                         "raze"
@@ -6421,7 +6492,9 @@
                     "engine_name": "NBlood Rednukem"
                 },
                 {
-                    "name": "raze",
+
+                    "name": "Raze",
+                    "engine_name": "Raze",
                     "command": "run-raze-rr-again.sh",
                     "download": [
                         "raze"
@@ -6699,7 +6772,9 @@
                     "engine_name": "NotBlood"
                 },
                 {
-                    "name": "raze",
+
+                    "name": "Raze",
+                    "engine_name": "Raze",
                     "command": "./run-raze-nblood.sh",
                     "download": [
                         "raze"
@@ -6997,7 +7072,8 @@
                     "engine_name": "NBlood Exhumed"
                 },
                 {
-                    "name": "raze",
+                    "name": "Raze",
+                    "engine_name": "Raze",
                     "command": "./run-raze-powerslave.sh",
                     "download": [
                         "raze"
@@ -7468,7 +7544,8 @@
                     ]
                 },
                 {
-                    "name": "dosbox-staging",
+                    "name": "DOSBox Staging",
+                    "engine_name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "download": [
                         "dosbox-staging"
