@@ -6267,7 +6267,6 @@
                     "name": "EDuke32",
                     "engine_name": "EDuke32",
                     "command": "./run-eduke32-world-tour.sh",
-                    "engine_name": "EDuke32",
                     "download": [
                         "eduke32"
                     ]
