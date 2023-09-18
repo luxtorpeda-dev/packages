@@ -1,26 +1,28 @@
 #!/bin/bash
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+GAME="$1"
+OPTIONS="$2"
+INIPATH="scummvm.ini"
+
 cd "$DIR"
 
-if [ ! -f scummvm.ini ]; then
-    echo "No scummvm.ini file detected, so creating"
-    echo -e "[scummvm]" >> scummvm.ini
-    echo -e "gfx_mode=surfacesdl" >> scummvm.ini
+if [ ! -f "$INIPATH" ]; then
+    echo "Creating $INIPATH"
+    echo -e "[scummvm]\ngfx_mode=surfacesdl" > "$INIPATH"
 fi
 
 if [[ -d "../Original" ]]; then
-    echo "Assuming original path for scummvm"
-    LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --add --path=../Original --recursive
+    echo "Assuming original path for ScummVM"
+    PATH_ARG="--path=../Original"
+elif [[ $DIR == *"ScummVM_Windows"* ]]; then
+    echo "Running parent path"
+    PATH_ARG="--path=../../"
 else
-    if [[ $DIR == *"ScummVM_Windows"* ]]; then
-        echo "Running parent path"
-        LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --add --path=../../ --recursive
-    else
-        echo "Running normal path"
-        LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --add --path=../ --recursive
-    fi
-
+    echo "Running normal path"
+    PATH_ARG="--path=../"
 fi
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c scummvm.ini --fullscreen --themepath=./share/scummvm
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c "$INIPATH" --add --recursive $PATH_ARG
+
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c "$INIPATH" --fullscreen --themepath=./share/scummvm $OPTIONS $GAME
