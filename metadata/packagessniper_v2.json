@@ -1993,7 +1993,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Re-release",
@@ -2004,7 +2004,7 @@
                     "command_args": [
                         "rerelease"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ezQuake",
@@ -2062,7 +2062,7 @@
                             "download_name": "dopa pak"
                         }
                     ],
-                    "engine_name": "darkplaces"
+                    "engine_name": "DarkPlaces"
                 },
                 {
                     "name": "quakespasm-spiked Dimension of the Past",
@@ -2081,7 +2081,7 @@
                             "download_name": "dopa pak"
                         }
                     ],
-                    "engine_name": "quakespasm-spiked"
+                    "engine_name": "Quakespasm-Spiked"
                 },
                 {
                     "name": "FTE QuakeWorld Dimension of the Past",
@@ -2140,7 +2140,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Dimension of the Machine",
@@ -2153,7 +2153,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - Tower of the Apprentice",
@@ -2167,7 +2167,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - Frozen Court",
@@ -2181,7 +2181,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - The Foundry",
@@ -2195,7 +2195,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - The Hunt",
@@ -2209,7 +2209,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - Relic",
@@ -2223,7 +2223,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - The Trial",
@@ -2237,7 +2237,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - The Tech Spire",
@@ -2251,7 +2251,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "Quake Injector",
@@ -6199,7 +6199,7 @@
                 {
                     "name": "eduke32",
                     "command": "./run-eduke32-world-tour.sh",
-                    "engine_name": "eduke32",
+                    "engine_name": "EDuke32",
                     "download": [
                         "eduke32"
                     ]
@@ -6286,7 +6286,7 @@
                 }
             ],
             "command": "./run-eduke32.sh",
-            "engine_name": "eduke32",
+            "engine_name": "EDuke32",
             "cloudAvailable": true,
             "controllerSteamDefault": true,
             "app_id": "562860"
@@ -7989,7 +7989,7 @@
             "license": "GPLv3/LGPLv3",
             "license_link": "https://github.com/skyjake/Doomsday-Engine",
             "controllerNotSupported": true,
-            "engine_name": "doomsday"
+            "engine_name": "Doomsday Engine"
         },
         {
             "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
@@ -8034,7 +8034,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "prboom-plus"
+            "engine_name": "PrBoom+"
         },
         {
             "engine_link": "https://github.com/kraflab/dsda-doom",
@@ -8094,7 +8094,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/DarkPlacesEngine/darkplaces/blob/master/COPYING",
             "controllerNotSupported": true,
-            "engine_name": "darkplaces"
+            "engine_name": "DarkPlaces"
         },
         {
             "engine_link": "https://github.com/Shpoike/Quakespasm",
@@ -8104,7 +8104,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt",
             "controllerSupported": true,
-            "engine_name": "quakespasm-spiked"
+            "engine_name": "Quakespasm-Spiked"
         },
         {
             "engine_link": "https://github.com/timbergeron/QSS-M",
@@ -8124,7 +8124,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/andrei-drexler/ironwail/blob/master/LICENSE.txt",
             "controllerSupported": true,
-            "engine_name": "ironwail"
+            "engine_name": "Ironwail"
         },
         {
             "engine_link": "https://github.com/ezQuake/ezquake-source",
@@ -8202,7 +8202,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/mvdevs/jk2mv/blob/master/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "jk2mv (MP)"
+            "engine_name": "JK2MV (MP)"
         },
         {
             "engine_link": "https://github.com/scummvm/scummvm",
@@ -8212,7 +8212,7 @@
             "license": "GPLv3",
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING",
             "controllerSupported": true,
-            "engine_name": "scummvm"
+            "engine_name": "ScummVM"
         },
         {
             "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
@@ -8382,7 +8382,7 @@
             "license": "GPLv2",
             "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt",
             "controllerSupported": true,
-            "engine_name": "eduke32"
+            "engine_name": "EDuke32"
         },
         {
             "engine_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor",
