@@ -22,7 +22,7 @@
                     "cache_by_name": true
                 }
             ],
-            "engine_name": "ruffle",
+            "engine_name": "Ruffle",
             "command": "./run-ruffle.sh",
             "download_config": [
                 {
@@ -270,7 +270,7 @@
                             "download_name": "ecwolf"
                         }
                     ],
-                    "engine_name": "ecwolf"
+                    "engine_name": "ECWolf"
                 },
                 {
                     "name": "ecwolf: Spear of Destiny",
@@ -288,7 +288,7 @@
                             "download_name": "ecwolf"
                         }
                     ],
-                    "engine_name": "ecwolf"
+                    "engine_name": "ECWolf"
                 }
             ],
             "cloudAvailable": true,
@@ -530,7 +530,7 @@
                     ]
                 },
                 {
-                    "name": "doom-retro",
+                    "name": "DOOM Retro",
                     "command": "./doom-retro/run-doom-retro.sh",
                     "command_args": [
                         "-iwad",
@@ -970,7 +970,7 @@
                     ]
                 },
                 {
-                    "name": "doom-retro",
+                    "name": "DOOM Retro",
                     "commands": [
                         {
                             "cmd": "./doom-retro/run-doom-retro.sh",
@@ -1611,7 +1611,7 @@
                     ]
                 },
                 {
-                    "name": "doom-retro",
+                    "name": "DOOM Retro",
                     "commands": [
                         {
                             "cmd": "./doom-retro/run-doom-retro.sh",
@@ -1993,7 +1993,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Re-release",
@@ -2004,7 +2004,7 @@
                     "command_args": [
                         "rerelease"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ezQuake",
@@ -2062,7 +2062,7 @@
                             "download_name": "dopa pak"
                         }
                     ],
-                    "engine_name": "darkplaces"
+                    "engine_name": "DarkPlaces"
                 },
                 {
                     "name": "quakespasm-spiked Dimension of the Past",
@@ -2081,7 +2081,7 @@
                             "download_name": "dopa pak"
                         }
                     ],
-                    "engine_name": "quakespasm-spiked"
+                    "engine_name": "Quakespasm-Spiked"
                 },
                 {
                     "name": "FTE QuakeWorld Dimension of the Past",
@@ -2140,7 +2140,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Dimension of the Machine",
@@ -2153,7 +2153,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - Tower of the Apprentice",
@@ -2167,7 +2167,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - Frozen Court",
@@ -2181,7 +2181,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - The Foundry",
@@ -2195,7 +2195,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - The Hunt",
@@ -2209,7 +2209,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - Relic",
@@ -2223,7 +2223,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - The Trial",
@@ -2237,7 +2237,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "ironwail Horde - The Tech Spire",
@@ -2251,7 +2251,7 @@
                     "download": [
                         "ironwail"
                     ],
-                    "engine_name": "ironwail"
+                    "engine_name": "Ironwail"
                 },
                 {
                     "name": "Quake Injector",
@@ -3203,7 +3203,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "6310"
         },
@@ -3261,7 +3261,7 @@
                     "engine_name": "OpenXcom OXCE Plus"
                 },
                 {
-                    "name": "dosbox-staging",
+                    "name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "use_original_command_directory": true,
                     "download": [
@@ -3302,7 +3302,7 @@
                     ]
                 },
                 {
-                    "name": "dosbox-staging",
+                    "name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "use_original_command_directory": true,
                     "download": [
@@ -3367,7 +3367,7 @@
                     "engine_name": "OpenXcom OXCE Plus"
                 },
                 {
-                    "name": "dosbox-staging",
+                    "name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "use_original_command_directory": true,
                     "download": [
@@ -3389,7 +3389,7 @@
                 }
             ],
             "command": "./run-ecwolf.sh",
-            "engine_name": "ecwolf",
+            "engine_name": "ECWolf",
             "cloudAvailable": true,
             "app_id": "9000"
         },
@@ -4621,7 +4621,7 @@
                     "cache_by_name": true
                 }
             ],
-            "engine_name": "ruffle",
+            "engine_name": "Ruffle",
             "command": "./run-ruffle.sh",
             "download_config": [
                 {
@@ -4801,7 +4801,7 @@
                     "command_args": [
                         "-c"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 },
                 {
                     "name": "Dumpling (2005)",
@@ -4809,7 +4809,7 @@
                     "command_args": [
                         "-d"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 },
                 {
                     "name": "Meat Boy (2008)",
@@ -4817,7 +4817,7 @@
                     "command_args": [
                         "-m"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 },
                 {
                     "name": "Meat Boy (map pack) (2008)",
@@ -4825,7 +4825,7 @@
                     "command_args": [
                         "-p"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 },
                 {
                     "name": "Carious Weltling (2003)",
@@ -4833,7 +4833,7 @@
                     "command_args": [
                         "-w"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 },
                 {
                     "name": "Carious Weltling 2 (2005)",
@@ -4841,7 +4841,7 @@
                     "command_args": [
                         "-e"
                     ],
-                    "engine_name": "ruffle"
+                    "engine_name": "Ruffle"
                 }
             ],
             "app_id": "214790"
@@ -5069,7 +5069,7 @@
                     "download": [
                         "voidsw"
                     ],
-                    "engine_name": "eduke32 VoidSW"
+                    "engine_name": "EDuke32 VoidSW"
                 },
                 {
                     "name": "raze",
@@ -5259,7 +5259,7 @@
                             "download_name": "bstone"
                         }
                     ],
-                    "engine_name": "bstone"
+                    "engine_name": "BStone"
                 },
                 {
                     "name": "Blake Stone Planet Strike",
@@ -5273,7 +5273,7 @@
                             "download_name": "bstone"
                         }
                     ],
-                    "engine_name": "bstone"
+                    "engine_name": "BStone"
                 }
             ],
             "cloudNotAvailable": true,
@@ -5289,7 +5289,7 @@
                     "cache_by_name": true
                 }
             ],
-            "engine_name": "raze",
+            "engine_name": "Raze",
             "command": "./run-raze.sh",
             "cloudAvailable": true,
             "app_id": "238070"
@@ -5310,7 +5310,7 @@
                 }
             ],
             "command": "../run-rigelengine.sh",
-            "engine_name": "RigelEngine",
+            "engine_name": "Rigel Engine",
             "cloudNotAvailable": true,
             "app_id": "240180"
         },
@@ -5455,7 +5455,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "255940"
         },
@@ -5474,7 +5474,7 @@
                 }
             ],
             "command": "./run-d1x.sh",
-            "engine_name": "dxx-rebirth",
+            "engine_name": "DXX-Rebirth",
             "cloudNotAvailable": true,
             "app_id": "273570"
         },
@@ -5493,7 +5493,7 @@
                 }
             ],
             "command": "./run-d2x.sh",
-            "engine_name": "dxx-rebirth",
+            "engine_name": "DXX-Rebirth",
             "cloudNotAvailable": true,
             "app_id": "273580"
         },
@@ -5577,7 +5577,7 @@
                 }
             ],
             "command": "./run-freespace2.sh",
-            "engine_name": "fs2open",
+            "engine_name": "FreeSpace 2 Open",
             "cloudNotAvailable": true,
             "app_id": "273620"
         },
@@ -5598,7 +5598,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "284050"
         },
@@ -5617,7 +5617,7 @@
                 "command": "./setup-rct1.sh"
             },
             "command": "./run-openrct2.sh",
-            "engine_name": "openrct2",
+            "engine_name": "OpenRCT2",
             "notices": [
                 {
                     "label": "Requires assets from RCT2 to run, so RCT2 should be run through Steam first."
@@ -5641,7 +5641,7 @@
                 "command": "./setup-rct2.sh"
             },
             "command": "./run-openrct2.sh",
-            "engine_name": "openrct2",
+            "engine_name": "OpenRCT2",
             "cloudNotAvailable": true,
             "app_id": "285330"
         },
@@ -5772,7 +5772,7 @@
                     "download": [
                         "raze"
                     ],
-                    "engine_name": "raze"
+                    "engine_name": "Raze"
                 }
             ],
             "cloudNotAvailable": true,
@@ -5803,7 +5803,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudAvailable": true,
             "controllerSteamDefault": true,
             "app_id": "317040"
@@ -5878,7 +5878,7 @@
                 }
             ],
             "command": "./scum/run-scummvm-one-up.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudAvailable": true,
             "app_id": "355170"
         },
@@ -5900,7 +5900,7 @@
                 }
             ],
             "use_original_command_directory": true,
-            "engine_name": "bstone",
+            "engine_name": "BStone",
             "cloudNotAvailable": true,
             "app_id": "358190"
         },
@@ -5922,7 +5922,7 @@
                 }
             ],
             "use_original_command_directory": true,
-            "engine_name": "bstone",
+            "engine_name": "BStone",
             "cloudNotAvailable": true,
             "app_id": "358310"
         },
@@ -5958,7 +5958,7 @@
                     "cache_by_name": true
                 }
             ],
-            "engine_name": "raze",
+            "engine_name": "Raze",
             "command": "./run-raze.sh",
             "cloudNotAvailable": true,
             "app_id": "358400"
@@ -6004,7 +6004,7 @@
                     "cache_by_name": true
                 }
             ],
-            "engine_name": "raze",
+            "engine_name": "Raze",
             "command": "./run-raze.sh",
             "cloudNotAvailable": true,
             "app_id": "359850"
@@ -6122,7 +6122,7 @@
                 }
             ],
             "command": "../SSHOCK/run-shockolate.sh",
-            "engine_name": "shockolate",
+            "engine_name": "Shockolate",
             "cloudNotAvailable": true,
             "app_id": "410700"
         },
@@ -6161,7 +6161,7 @@
                     ]
                 },
                 {
-                    "name": "dosbox-staging",
+                    "name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "use_original_command_directory": true,
                     "download": [
@@ -6199,7 +6199,7 @@
                 {
                     "name": "eduke32",
                     "command": "./run-eduke32-world-tour.sh",
-                    "engine_name": "eduke32",
+                    "engine_name": "EDuke32",
                     "download": [
                         "eduke32"
                     ]
@@ -6286,7 +6286,7 @@
                 }
             ],
             "command": "./run-eduke32.sh",
-            "engine_name": "eduke32",
+            "engine_name": "EDuke32",
             "cloudAvailable": true,
             "controllerSteamDefault": true,
             "app_id": "562860"
@@ -6301,7 +6301,7 @@
                 }
             ],
             "command": "./ozymandias",
-            "engine_name": "ozymandias",
+            "engine_name": "Ozymandias",
             "cloudNotAvailable": true,
             "app_id": "564530"
         },
@@ -6366,7 +6366,7 @@
                 }
             ],
             "command": "./run-ctp2.sh",
-            "engine_name": "civctp2",
+            "engine_name": "Civ: CTP2",
             "cloudNotAvailable": true,
             "app_id": "572050"
         },
@@ -6391,7 +6391,7 @@
                 }
             ],
             "command": "./run-open-ig.sh",
-            "engine_name": "open-ig",
+            "engine_name": "Open-IG",
             "cloudNotAvailable": true,
             "app_id": "573790"
         },
@@ -6484,7 +6484,7 @@
                 "command": "./setup-rct2-classic.sh"
             },
             "command": "./run-openrct2-classic.sh",
-            "engine_name": "openrct2",
+            "engine_name": "OpenRCT2",
             "cloudNotAvailable": true,
             "app_id": "683900"
         },
@@ -6621,7 +6621,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "817220"
         },
@@ -6726,7 +6726,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudAvailable": true,
             "app_id": "1044340"
         },
@@ -6780,7 +6780,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudAvailable": true,
             "app_id": "1072150"
         },
@@ -6807,7 +6807,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1118550"
         },
@@ -6841,7 +6841,7 @@
                             "download_name": "dosbox-staging"
                         }
                     ],
-                    "engine_name": "dosbox-staging"
+                    "engine_name": "DOSBox Staging"
                 },
                 {
                     "name": "Master of Magic Community Patch",
@@ -6862,7 +6862,7 @@
                             "download_name": "dosbox-staging"
                         }
                     ],
-                    "engine_name": "dosbox-staging"
+                    "engine_name": "DOSBox Staging"
                 },
                 {
                     "name": "Master of Magic Caster of Magic DLC",
@@ -6883,7 +6883,7 @@
                             "download_name": "dosbox-staging"
                         }
                     ],
-                    "engine_name": "dosbox-staging"
+                    "engine_name": "DOSBox Staging"
                 }
             ],
             "cloudNotAvailable": true,
@@ -7048,7 +7048,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1271050"
         },
@@ -7067,7 +7067,7 @@
                 }
             ],
             "command": "./run-runelite-extract.sh",
-            "engine_name": "runelite",
+            "engine_name": "RuneLite",
             "cloudNotAvailable": true,
             "app_id": "1343370"
         },
@@ -7089,7 +7089,7 @@
                 1070560
             ],
             "command": "./run-runescape.sh",
-            "engine_name": "runescape",
+            "engine_name": "RuneScape",
             "cloudNotAvailable": true,
             "app_id": "1343400"
         },
@@ -7118,7 +7118,7 @@
                 }
             },
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "1367160"
         },
@@ -7139,7 +7139,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "1368340"
         },
@@ -7153,7 +7153,7 @@
                 }
             ],
             "command": "./run-ocean-heart.sh",
-            "engine_name": "solarus",
+            "engine_name": "Solarus",
             "cloudAvailable": true,
             "controllerSteamDefault": true,
             "app_id": "1393750"
@@ -7183,7 +7183,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1417010"
         },
@@ -7212,7 +7212,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1546440"
         },
@@ -7263,7 +7263,7 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "dosbox-staging",
+            "engine_name": "DOSBox Staging",
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "command_args": [
                 "-conf",
@@ -7294,7 +7294,7 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "dosbox-staging",
+            "engine_name": "DOSBox Staging",
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "command_args": [
                 "-conf",
@@ -7334,7 +7334,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "controllerSteamDefault": true,
             "app_id": "1715690"
@@ -7366,7 +7366,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1731320"
         },
@@ -7407,7 +7407,7 @@
                     "engine_name": "OpenTESArena"
                 },
                 {
-                    "name": "dosbox-staging",
+                    "name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "use_original_command_directory": true,
                     "download": [
@@ -7495,7 +7495,7 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "dosbox-staging",
+            "engine_name": "DOSBox Staging",
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "use_original_command_directory": true,
             "cloudAvailable": true,
@@ -7518,7 +7518,7 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "dosbox-staging",
+            "engine_name": "DOSBox Staging",
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "use_original_command_directory": true,
             "cloudAvailable": true,
@@ -7649,7 +7649,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "gzdoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1988750"
         },
@@ -7685,7 +7685,7 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "engine_name": "scummvm",
+            "engine_name": "ScummVM",
             "cloudAvailable": true,
             "app_id": "255920"
         },
@@ -7705,7 +7705,7 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "dosbox-staging",
+            "engine_name": "DOSBox Staging",
             "command": "./dosbox-staging/run-dosbox-staging.sh",
             "use_original_command_directory": true,
             "cloudNotAvailable": true,
@@ -7924,7 +7924,7 @@
             "license": "GPL-2+ or EULA; BSD-3-clause",
             "license_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/docs/copyright",
             "controllerSupported": true,
-            "engine_name": "ecwolf"
+            "engine_name": "ECWolf"
         },
         {
             "engine_link": "https://github.com/coelckers/gzdoom",
@@ -7934,7 +7934,7 @@
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
             "controllerSupported": true,
-            "engine_name": "gzdoom"
+            "engine_name": "GZDoom"
         },
         {
             "engine_link": "https://github.com/Youda008/DoomRunner",
@@ -7964,7 +7964,7 @@
             "license": "GPLv3/LGPLv3",
             "license_link": "https://github.com/skyjake/Doomsday-Engine",
             "controllerNotSupported": true,
-            "engine_name": "doomsday"
+            "engine_name": "Doomsday Engine"
         },
         {
             "engine_link": "https://github.com/chocolate-doom/chocolate-doom",
@@ -8009,7 +8009,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "prboom-plus"
+            "engine_name": "PrBoom+"
         },
         {
             "engine_link": "https://github.com/kraflab/dsda-doom",
@@ -8044,7 +8044,7 @@
             "license": "Various Licenses",
             "license_link": "https://github.com/coelckers/Raze",
             "controllerSupported": true,
-            "engine_name": "raze"
+            "engine_name": "Raze"
         },
         {
             "engine_link": "https://github.com/Novum/vkQuake",
@@ -8069,7 +8069,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/DarkPlacesEngine/darkplaces/blob/master/COPYING",
             "controllerNotSupported": true,
-            "engine_name": "darkplaces"
+            "engine_name": "DarkPlaces"
         },
         {
             "engine_link": "https://github.com/Shpoike/Quakespasm",
@@ -8079,7 +8079,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/Shpoike/Quakespasm/blob/master/quakespasm/LICENSE.txt",
             "controllerSupported": true,
-            "engine_name": "quakespasm-spiked"
+            "engine_name": "Quakespasm-Spiked"
         },
         {
             "engine_link": "https://github.com/timbergeron/QSS-M",
@@ -8099,7 +8099,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/andrei-drexler/ironwail/blob/master/LICENSE.txt",
             "controllerSupported": true,
-            "engine_name": "ironwail"
+            "engine_name": "Ironwail"
         },
         {
             "engine_link": "https://github.com/ezQuake/ezquake-source",
@@ -8177,7 +8177,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/mvdevs/jk2mv/blob/master/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "jk2mv (MP)"
+            "engine_name": "JK2MV (MP)"
         },
         {
             "engine_link": "https://github.com/scummvm/scummvm",
@@ -8187,7 +8187,7 @@
             "license": "GPLv3",
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING",
             "controllerSupported": true,
-            "engine_name": "scummvm"
+            "engine_name": "ScummVM"
         },
         {
             "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
@@ -8197,7 +8197,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/dosbox-staging/dosbox-staging/blob/master/COPYING",
             "controllerSupportedManualGame": true,
-            "engine_name": "dosbox-staging"
+            "engine_name": "DOSBox Staging"
         },
         {
             "engine_link": "https://github.com/godotengine/godot",
@@ -8225,7 +8225,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "ruffle"
+            "engine_name": "Ruffle"
         },
         {
             "engine_link": "https://github.com/EasyRPG/Player",
@@ -8235,7 +8235,7 @@
             "license": "GPLv3",
             "license_link": "https://github.com/EasyRPG/Player/blob/master/COPYING",
             "controllerNotSupported": true,
-            "engine_name": "easyrpg-player"
+            "engine_name": "EasyRPG Player"
         },
         {
             "version": "82b7b11",
@@ -8357,7 +8357,7 @@
             "license": "GPLv2",
             "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/duke3d/gpl-2.0.txt",
             "controllerSupported": true,
-            "engine_name": "eduke32"
+            "engine_name": "EDuke32"
         },
         {
             "engine_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor",
@@ -8367,7 +8367,7 @@
             "license": "GPLv2",
             "license_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor/-/blob/master/source/duke3d/gpl-2.0.txt",
             "controllerSupported": true,
-            "engine_name": "netduke32"
+            "engine_name": "NetDuke32"
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
@@ -8397,7 +8397,7 @@
             "license": "GPLv2",
             "license_link": "https://voidpoint.io/terminx/eduke32/-/blob/master/source/sw/gpl-2.0.txt",
             "controllerSupported": true,
-            "engine_name": "eduke32 VoidSW"
+            "engine_name": "EDuke32 VoidSW"
         },
         {
             "engine_link": "https://github.com/bvschaik/julius",
@@ -8407,7 +8407,7 @@
             "license": "AGPL-3.0",
             "license_link": "https://github.com/bvschaik/julius/blob/master/LICENSE.txt",
             "controllerNotSupported": true,
-            "engine_name": "julius"
+            "engine_name": "Julius"
         },
         {
             "engine_link": "https://github.com/Keriew/augustus",
@@ -8417,7 +8417,7 @@
             "license": "AGPL-3.0",
             "license_link": "https://github.com/Keriew/augustus/blob/master/LICENSE.txt",
             "controllerNotSupported": true,
-            "engine_name": "augustus"
+            "engine_name": "Augustus"
         },
         {
             "engine_link": "https://github.com/Banderi/Ozymandias",
@@ -8432,7 +8432,7 @@
                     "key": "in_progress"
                 }
             ],
-            "engine_name": "ozymandias"
+            "engine_name": "Ozymandias"
         },
         {
             "engine_link": "https://github.com/Try/OpenGothic",
@@ -8675,14 +8675,14 @@
             "engine_name": "OpenMW"
         },
         {
-            "engine_link": "https://github.com/TES3MP/openmw-tes3mp",
+            "engine_link": "https://github.com/TES3MP/TES3MP",
             "version": "0.8.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/TES3MP/openmw-tes3mp/blob/292536439eeda58becdb7e441fe2e61ebb74529e/LICENSE",
             "controllerSupported": true,
-            "engine_name": "openmw-tes3mp"
+            "engine_name": "TES3MP"
         },
         {
             "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
@@ -8759,7 +8759,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/bibendovsky/bstone/blob/develop/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "bstone"
+            "engine_name": "BStone"
         },
         {
             "engine_link": "https://github.com/lethal-guitar/RigelEngine",
@@ -8769,7 +8769,7 @@
             "license": "GPLv2",
             "license_link": "https://github.com/lethal-guitar/RigelEngine/blob/master/LICENSE.md",
             "controllerSupported": true,
-            "engine_name": "RigelEngine"
+            "engine_name": "Rigel Engine"
         },
         {
             "engine_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
@@ -8799,7 +8799,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "dxx-rebirth"
+            "engine_name": "DXX-Rebirth"
         },
         {
             "engine_link": "https://github.com/ptitSeb/freespace2",
@@ -8833,7 +8833,7 @@
                 }
             ],
             "controllerSupported": true,
-            "engine_name": "FreeSpace Port using fs2open"
+            "engine_name": "FreeSpace Port using FreeSpace 2 Open"
         },
         {
             "engine_link": "https://github.com/scp-fs2open/fs2open.github.com",
@@ -8848,7 +8848,7 @@
                 }
             ],
             "controllerSupported": true,
-            "engine_name": "fs2open"
+            "engine_name": "FreeSpace 2 Open"
         },
         {
             "engine_link": "https://openrct2.io/",
@@ -8858,7 +8858,7 @@
             "license": "GPLv3",
             "license_link": "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt",
             "controllerNotSupported": true,
-            "engine_name": "openrct2"
+            "engine_name": "OpenRCT2"
         },
         {
             "engine_link": "https://github.com/IonAgorria/Perimeter",
@@ -8913,7 +8913,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "shockolate"
+            "engine_name": "Shockolate"
         },
         {
             "engine_link": "https://gitlab.com/Tapani_/1oom",
@@ -8951,7 +8951,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "civctp2"
+            "engine_name": "Civ: CTP2"
         },
         {
             "engine_link": "https://www.renpy.org/",
@@ -9001,7 +9001,7 @@
             "license": "BSD 2-Clause License",
             "license_link": "https://github.com/runelite/runelite/blob/master/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "runelite"
+            "engine_name": "RuneLite"
         },
         {
             "engine_link": "https://www.runescape.com/community",
@@ -9016,7 +9016,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "runescape"
+            "engine_name": "RuneScape"
         },
         {
             "engine_link": "https://gitlab.com/solarus-games/solarus",
@@ -9026,7 +9026,7 @@
             "license": "GPLv3",
             "license_link": "https://gitlab.com/solarus-games/solarus/-/blob/dev/license_gpl.txt",
             "controllerSupported": true,
-            "engine_name": "solarus"
+            "engine_name": "Solarus"
         },
         {
             "engine_link": "https://github.com/TorrSamaho/zandronum",
@@ -9085,7 +9085,7 @@
                 }
             ],
             "controllerNotSupported": true,
-            "engine_name": "open-ig"
+            "engine_name": "Open-IG"
         },
         {
             "engine_link": "https://github.com/jasonrohrer/OneLife",
@@ -9118,7 +9118,7 @@
                 }
             ],
             "controllerSupported": true,
-            "engine_name": "doom-retro"
+            "engine_name": "DOOM Retro"
         },
         {
             "engine_link": "https://github.com/odamex/odamex",
@@ -9519,14 +9519,14 @@
         ],
         "choices": [
             {
-                "name": "scummvm",
+                "name": "ScummVM",
                 "command": "./scum/run-scummvm.sh",
                 "download": [
                     "scummvm"
                 ]
             },
             {
-                "name": "dosbox-staging",
+                "name": "DOSBox Staging",
                 "command": "./dosbox-staging/run-dosbox-staging.sh",
                 "use_original_command_directory": true,
                 "download": [
@@ -9534,7 +9534,7 @@
                 ]
             },
             {
-                "name": "easyrpg-player",
+                "name": "EasyRPG Player",
                 "command": "./run-easyrpg-player.sh",
                 "download": [
                     "easyrpg-player"
@@ -9555,7 +9555,7 @@
                 ]
             },
             {
-                "name": "ruffle",
+                "name": "Ruffle",
                 "command": "./run-ruffle.sh",
                 "download": [
                     "ruffle",
