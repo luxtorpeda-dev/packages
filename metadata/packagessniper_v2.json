@@ -3234,7 +3234,7 @@
             ],
             "engine_names": [
                 "OpenJK",
-                "jk2mv (MP)"
+                "JK2MV (MP)"
             ],
             "cloudAvailable": true,
             "cloudSupported": true,
@@ -5822,7 +5822,8 @@
                     "engine_name": "NotBlood"
                 },
                 {
-                    "name": "raze",
+                    "name": "Raze",
+                    "engine_name": "Raze",
                     "command": "./run-raze-nblood-one-unit.sh",
                     "download": [
                         "raze"
