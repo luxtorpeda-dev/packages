@@ -1533,7 +1533,8 @@
                     ]
                 },
                 {
-                    "name": "prboom-plus",
+                    "name": "PrBoom+",
+                    "engine_name": "PrBoom+",
                     "commands": [
                         {
                             "cmd": "./prboom-plus/run-prboom-plus.sh",
