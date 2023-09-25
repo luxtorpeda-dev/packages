@@ -4,7 +4,7 @@
 # CLONE PHASE
 git clone https://github.com/coelckers/gzdoom.git source
 pushd source
-git checkout 75da94a
+git checkout d07de08
 popd
 
 hg clone https://heptapod.host/jp-lebreton/wadsmoosh
