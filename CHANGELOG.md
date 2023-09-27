@@ -4,7 +4,6 @@
 * Add support for Hiigara engine
 * Add support for OSS-Cosmic Amnesia
 * DOOM Retro - Update to 5.0
-* gzdoom - Update to 4.11.0
 
 ### 66.0b (2023-09-03)
 
