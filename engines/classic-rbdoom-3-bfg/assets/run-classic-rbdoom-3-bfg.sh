@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export SteamDeck=""
+unset SteamDeck
+
 create_relative_symlink () {
     local -r target=$1
     local -r symlink="classic/$target"
