@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export SteamDeck=""
+unset SteamDeck
+
 if [ -f "last_error.txt" ]; then
     rm last_error.txt
 fi
