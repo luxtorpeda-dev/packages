@@ -5,6 +5,7 @@
 * Add support for OSS-Cosmic Amnesia
 * DOOM Retro - Update to 5.0
 * Daggerfall Unity - Update to 0.16.0
+* openmw - Fix for fps issues on deck
 
 ### 66.0b (2023-09-03)
 
