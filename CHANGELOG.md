@@ -1,6 +1,7 @@
 ### 2023-10-14
 
 * Doom Retro - Update to 5.0.6
+* SeriousSamClassic-VK - Update to 1.10.6
 
 ### 66.1.0 (2023-09-05)
 
