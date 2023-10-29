@@ -16,7 +16,7 @@ cmake \
     -DBUILD_PORTABLE=ON \
     ..
 make -j "$(nproc)"
-make install
+make
 popd
 
 # COPY PHASE
