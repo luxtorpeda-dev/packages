@@ -8088,12 +8088,12 @@
             "engine_name": "Crispy Doom"
         },
         {
-            "engine_link": "https://github.com/JNechaevsky/inter-doom",
+            "engine_link": "https://github.com/JNechaevsky/international-doom/blob/main/COPYING",
             "version": "7.2.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/JNechaevsky/inter-doom/blob/master/LICENSE.txt",
+            "license_link": "https://github.com/JNechaevsky/international-doom/blob/main/COPYING",
             "controllerSupportedManualGame": true,
             "engine_name": "International Doom"
         },
