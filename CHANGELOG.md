@@ -3,6 +3,7 @@
 * Doom Retro - Update to 5.0.6
 * SeriousSamClassic-VK - Update to 1.10.6
 * Doom64Ex-Plus - Update to 3.6.5.9
+* International Doom - Update to 7.2.1
 
 ### 66.1.0 (2023-09-05)
 
