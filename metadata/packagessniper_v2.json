@@ -4932,13 +4932,13 @@
             "download": [
                 {
                     "name": "ja2-binaries",
-                    "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.19.1/",
-                    "file": "ja2-stracciatella_0.19.1-git+6ad1b6f_x86-64.AppImage"
+                    "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.20.0/",
+                    "file": "ja2-stracciatella_0.20.0-git+439a6d3_x86-64.AppImage"
                 },
                 {
                     "name": "ja2-wildfire",
-                    "url": "https://github.com/ja2-stracciatella/mod-wildfire-maps/releases/download/0.3.0/",
-                    "file": "mod-wildfire-maps-0.3.0-linux-x64.zip"
+                    "url": "https://github.com/ja2-stracciatella/mod-wildfire-maps/releases/download/0.4.0/",
+                    "file": "wildfire-maps_0.4.0-linux.tar.gz"
                 },
                 {
                     "name": "ja2-stracciatella",
@@ -4950,6 +4950,25 @@
             "engine_name": "Jagged Alliance 2 Stracciatella",
             "cloudAvailable": true,
             "app_id": "215930"
+        },
+        {
+            "game_name": "Jagged Alliance 2 Gold",
+            "download": [
+                {
+                    "name": "ja2-binaries",
+                    "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.20.0/",
+                    "file": "ja2-stracciatella_0.20.0-git+439a6d3_x86-64.AppImage"
+                },
+                {
+                    "name": "ja2-stracciatella",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-6/",
+                    "file": "ja2-stracciatella-215930-6.tar.xz"
+                }
+            ],
+            "command": "./run-ja2-gold.sh",
+            "engine_name": "Jagged Alliance 2 Stracciatella",
+            "cloudAvailable": true,
+            "app_id": "1620"
         },
         {
             "game_name": "Tomb Raider I",

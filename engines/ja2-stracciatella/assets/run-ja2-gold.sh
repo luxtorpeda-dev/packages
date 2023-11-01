@@ -4,14 +4,6 @@ wantedversion="0.20.0"
 
 filepath="./ja2-stracciatella_0.20.0-git+439a6d3_x86-64.AppImage"
 
-if [[ -d "JA2Classic" ]]; then
-    echo "Classic found"
-else
-    error_message="Classic DLC for Wildfile not found. Both Wildfire and Classic DLC are required."
-    echo "$error_message" > last_error.txt
-    exit 10
-fi
-
 if [ -f "readyversion.txt" ]; then
     readyversion=$(cat readyversion.txt)
     echo "Found version: $readyversion"
@@ -29,12 +21,8 @@ if [ "$readyversion" != "$wantedversion" ]; then
         if [ ! -d ~/.ja2 ]; then
             mkdir -p ~/.ja2
         fi
-        echo "{\"game_dir\": \"$PWD/JA2Classic\"}" > ~/.ja2/ja2.json
+        echo "{\"game_dir\": \"$PWD\"}" > ~/.ja2/ja2.json
     fi
-
-    ln -rsf ./Data/TileSets ./Data/Tilesets
-    tar xvf wildfire-maps_0.3.0-linux.tar.gz -C ./squashfs-root/usr/share/ja2/mods
-    ./squashfs-root/usr/share/ja2/mods/wildfire-maps/install_wildfire_maps --src_dir="$PWD/Data"
     
     echo "$wantedversion" > ./readyversion.txt
 else
