@@ -1701,6 +1701,60 @@
                     ]
                 },
                 {
+                    "name": "Eternity Engine",
+                    "commands": [
+                        {
+                            "cmd": "./eternity/run-eternity.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*rerelease"
+                        },
+                        {
+                            "cmd": "./eternity/run-eternity.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*doom2"
+                        },
+                        {
+                            "cmd": "./eternity/run-eternity.sh",
+                            "args": [
+                                "-iwad",
+                                "../finaldoombase/TNT.WAD"
+                            ],
+                            "command_name": ".*tnt"
+                        },
+                        {
+                            "cmd": "./eternity/run-eternity.sh",
+                            "args": [
+                                "-iwad",
+                                "../finaldoombase/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutonia"
+                        },
+                        {
+                            "cmd": "./eternity/run-eternity.sh",
+                            "args": [
+                                "-base",
+                                "../masterbase/master"
+                            ],
+                            "command_name": ".*master"
+                        }
+                    ],
+                    "download": [
+                        "eternity",
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./eternity",
+                            "download_name": "eternity"
+                        }
+                    ]
+                },
+                {
                     "name": "Odamex",
                     "commands": [
                         {
