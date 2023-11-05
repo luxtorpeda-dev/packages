@@ -2,7 +2,7 @@
 
 # From https://gitlab.com/luxtorpeda/packages/gzdoom - See LICENSE file for more information
 # CLONE PHASE
-git clone https://github.com/team-eternity/eternitygit source
+git clone https://github.com/team-eternity/eternity.git source
 pushd source
 git checkout d699a7d
 git submodule update --init
