@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export pfx="$PWD/local"
+mkdir -p "$pfx"
+
 # From https://gitlab.com/luxtorpeda/packages/gzdoom - See LICENSE file for more information
 # CLONE PHASE
 git clone https://github.com/team-eternity/eternity.git source
@@ -17,8 +20,10 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     ..
 make -j "$(nproc)"
+make install DESTDIR="$pfx"
 popd
 
 # COPY PHASE
-cp -rfv "source/build"/* "$diststart/common/dist/"
+cp -rfv "$pfx/usr/local/bin"/* "$diststart/common/dist/"
+cp -rfv "$pfx/usr/local/share/eternity/base" "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
