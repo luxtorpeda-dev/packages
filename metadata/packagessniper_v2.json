@@ -564,6 +564,24 @@
                         }
                     ]
                 },
+                 {
+                    "name": "Eternity Engine",
+                    "engine_name": "Eternity Engine",
+                    "command": "./eternity/run-eternity.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/DOOM.WAD"
+                    ],
+                    "download": [
+                        "eternity"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./eternity",
+                            "download_name": "eternity"
+                        }
+                    ]
+                },
                 {
                     "name": "Odamex",
                     "engine_name": "Odamex",
@@ -1745,7 +1763,7 @@
                         }
                     ],
                     "download": [
-                        "eternity",
+                        "eternity"
                     ],
                     "download_config": [
                         {
@@ -8149,6 +8167,16 @@
             "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md",
             "controllerSupportedManualGame": true,
             "engine_name": "Chocolate Doom"
+        },
+        {
+            "engine_link": "https://github.com/team-eternity/eternity",
+            "version": "d699a7d",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/team-eternity/eternity/blob/master/COPYING",
+            "controllerSupportedManualGame": true,
+            "engine_name": "Eternity Engine"
         },
         {
             "engine_link": "https://github.com/fabiangreffrath/crispy-doom",
