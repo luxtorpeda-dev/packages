@@ -3,6 +3,9 @@
 export pfx="$PWD/local"
 mkdir -p "$pfx"
 
+export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
+export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib;$pfx/lib"
+
 # From https://gitlab.com/luxtorpeda/packages/gzdoom - See LICENSE file for more information
 # CLONE PHASE
 git clone https://github.com/team-eternity/eternity.git source
@@ -18,6 +21,7 @@ cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH" \
     ..
 make -j "$(nproc)"
 make install DESTDIR="$pfx"
