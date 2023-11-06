@@ -20,8 +20,7 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_PREFIX_PATH="$pfx" \
-    -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH" \
+    -DCMAKE_PREFIX_PATH="$pfx;$VCPKG_INSTALLED_PATH" \
     ..
 make -j "$(nproc)"
 make install DESTDIR="$pfx"
