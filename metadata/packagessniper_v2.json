@@ -573,12 +573,17 @@
                         "../base/DOOM.WAD"
                     ],
                     "download": [
-                        "eternity"
+                        "eternity",
+                        "fluid-soundfont"
                     ],
                     "download_config": [
                         {
                             "extract_location": "./eternity",
                             "download_name": "eternity"
+                        },
+                        {
+                            "extract_location": "./eternity",
+                            "download_name": "fluid-soundfont"
                         }
                     ]
                 },
@@ -1756,19 +1761,27 @@
                         {
                             "cmd": "./eternity/run-eternity.sh",
                             "args": [
-                                "-base",
-                                "../masterbase/master"
+                                "-iwad",
+                                "../masterbase/doom2/DOOM2.WAD",
+                                "-vanilla",
+                                "-exec",
+                                "master.csc"
                             ],
                             "command_name": ".*master"
                         }
                     ],
                     "download": [
-                        "eternity"
+                        "eternity",
+                        "fluid-soundfont"
                     ],
                     "download_config": [
                         {
                             "extract_location": "./eternity",
                             "download_name": "eternity"
+                        },
+                        {
+                            "extract_location": "./eternity",
+                            "download_name": "fluid-soundfont"
                         }
                     ]
                 },
