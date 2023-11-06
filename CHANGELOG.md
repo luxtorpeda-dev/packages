@@ -1,3 +1,7 @@
+### 2023-11-05
+
+* Add Eternity Engine
+
 ### 2023-10-14
 
 * Doom Retro - Update to 5.0.6
