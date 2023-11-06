@@ -564,6 +564,29 @@
                         }
                     ]
                 },
+                 {
+                    "name": "Eternity Engine",
+                    "engine_name": "Eternity Engine",
+                    "command": "./eternity/run-eternity.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/DOOM.WAD"
+                    ],
+                    "download": [
+                        "eternity",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./eternity",
+                            "download_name": "eternity"
+                        },
+                        {
+                            "extract_location": "./eternity",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
                 {
                     "name": "Odamex",
                     "engine_name": "Odamex",
@@ -1696,6 +1719,68 @@
                         },
                         {
                             "extract_location": "./doom-retro",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
+                    "name": "Eternity Engine",
+                    "commands": [
+                        {
+                            "cmd": "./eternity/run-eternity.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*rerelease"
+                        },
+                        {
+                            "cmd": "./eternity/run-eternity.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*doom2"
+                        },
+                        {
+                            "cmd": "./eternity/run-eternity.sh",
+                            "args": [
+                                "-iwad",
+                                "../finaldoombase/TNT.WAD"
+                            ],
+                            "command_name": ".*tnt"
+                        },
+                        {
+                            "cmd": "./eternity/run-eternity.sh",
+                            "args": [
+                                "-iwad",
+                                "../finaldoombase/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutonia"
+                        },
+                        {
+                            "cmd": "./eternity/run-eternity.sh",
+                            "args": [
+                                "-iwad",
+                                "../masterbase/doom2/DOOM2.WAD",
+                                "-vanilla",
+                                "-exec",
+                                "master.csc"
+                            ],
+                            "command_name": ".*master"
+                        }
+                    ],
+                    "download": [
+                        "eternity",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./eternity",
+                            "download_name": "eternity"
+                        },
+                        {
+                            "extract_location": "./eternity",
                             "download_name": "fluid-soundfont"
                         }
                     ]
@@ -8095,6 +8180,16 @@
             "license_link": "https://github.com/chocolate-doom/chocolate-doom/blob/master/COPYING.md",
             "controllerSupportedManualGame": true,
             "engine_name": "Chocolate Doom"
+        },
+        {
+            "engine_link": "https://github.com/team-eternity/eternity",
+            "version": "d699a7d",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/team-eternity/eternity/blob/master/COPYING",
+            "controllerSupportedManualGame": true,
+            "engine_name": "Eternity Engine"
         },
         {
             "engine_link": "https://github.com/fabiangreffrath/crispy-doom",
