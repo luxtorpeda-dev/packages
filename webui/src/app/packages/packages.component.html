@@ -104,7 +104,15 @@
                   </mat-icon>
 
                   <mat-icon
-                    *ngIf="title.cloudAvailable && !title.cloudSupported"
+                    *ngIf="title.cloudAvailable && title.cloudIssue"
+                    [matTooltip]="'Game Has Cloud Saves But Not Supported Due to ' + translate_key(title.cloudIssueReason)"
+                    [style.color]="'red'"
+                  >
+                    cloud
+                  </mat-icon>
+
+                  <mat-icon
+                    *ngIf="title.cloudAvailable && !title.cloudSupported && !title.cloudIssue"
                     matTooltip="Game Has Cloud Saves But Unknown Status"
                     [style.color]="'darkgray'"
                   >
@@ -115,14 +123,6 @@
                     *ngIf="title.cloudAvailable && title.cloudSupported"
                     matTooltip="Cloud Saves Supported"
                     [style.color]="'green'"
-                  >
-                    cloud
-                  </mat-icon>
-
-                  <mat-icon
-                    *ngIf="title.cloudAvailable && title.cloudIssue"
-                    matTooltip="Cloud Saves Not Supported"
-                    [style.color]="'yellow'"
                   >
                     cloud
                   </mat-icon>

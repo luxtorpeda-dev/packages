@@ -1088,7 +1088,7 @@
                     ]
                 }
             ],
-            "cloudAvailable": true,
+            "cloudNotAvailable": true,
             "controllerSteamDefault": true,
             "app_id": "2290"
         },
@@ -3866,7 +3866,7 @@
                     "label": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh)"
                 }
             ],
-            "cloudAvailable": true,
+            "cloudNotAvailable": true,
             "app_id": "9160"
         },
         {
@@ -6486,6 +6486,8 @@
             "command": "./run-eduke32.sh",
             "engine_name": "EDuke32",
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
             "controllerSteamDefault": true,
             "app_id": "562860"
         },
@@ -6552,6 +6554,8 @@
             "command": "./run-engge.sh",
             "engine_name": "engge",
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
             "controllerSteamDefault": true,
             "app_id": "569860"
         },
@@ -7102,6 +7106,8 @@
             "engine_name": "Doom64EX-Plus",
             "command": "./run-doom64ex-plus.sh",
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
             "app_id": "1148590"
         },
         {
@@ -7150,6 +7156,8 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
             "app_id": "1213210"
         },
         {
@@ -7357,6 +7365,8 @@
             "command": "./run-ocean-heart.sh",
             "engine_name": "Solarus",
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
             "controllerSteamDefault": true,
             "app_id": "1393750"
         },
@@ -9872,6 +9882,10 @@
         {
             "key": "steam_achivements",
             "value": "Supports steam achivements."
+        },
+        {
+            "key": "unworkable_location",
+            "value": "Unworkable Location"
         }
     ]
 }

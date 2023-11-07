@@ -38,11 +38,15 @@ export class PackagesComponent implements OnInit {
     this.titles.engines = finalEngines;
   }
 
+  translate_key(key: string) {
+    return this.NOTICE_MAP[key];
+  }
+
   processTitle(title: any) {
     const titleId = title.app_id;
     title.engines = {};
 
-    if(title.cloudAvailable && !title.cloudSupported && !title.cloudIssues) {
+    if(title.cloudAvailable && !title.cloudSupported && !title.cloudIssue) {
       console.error(`title of ${title.game_name} has unknown cloud save feature state`);
     }
 
