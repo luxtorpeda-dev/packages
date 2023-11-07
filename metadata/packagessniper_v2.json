@@ -8117,7 +8117,8 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://bitbucket.org/CPMADevs/cnq3/src/master/COPYING.txt",
-            "engine_name": "Challenge ProMode Arena"
+            "engine_name": "Challenge ProMode Arena",
+            "controllerNotSupported": true
         },
         {
             "engine_link": "https://www.fteqw.org/",
