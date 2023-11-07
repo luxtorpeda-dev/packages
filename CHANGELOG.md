@@ -1,6 +1,7 @@
 ### 2023-11-05
 
 * Add Eternity Engine
+* warzone2100 - Update to 4.4.0
 
 ### 2023-10-14
 
