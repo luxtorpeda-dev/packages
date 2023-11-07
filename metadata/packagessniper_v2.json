@@ -5366,20 +5366,6 @@
             "app_id": "225320"
         },
         {
-            "game_name": "Anodyne",
-            "download": [
-                {
-                    "name": "binaries",
-                    "url": "https://github.com/flibitijibibo/AnodyneFNA/releases/download/23.05.17/",
-                    "file": "AnodyneFNA-230517.tar.bz2"
-                }
-            ],
-            "command": "./AnodyneFNA/run.sh",
-            "engine_name": "Anodyne: FNA Edition",
-            "cloudAvailable": true,
-            "app_id": "234900"
-        },
-        {
             "game_name": "MINERVA",
             "download": [
                 {
@@ -9614,16 +9600,6 @@
             "license_link": "https://github.com/atsb/Doom64EX-Plus/blob/stable/LICENSE",
             "controllerNotSupported": true,
             "engine_name": "Doom64EX-Plus"
-        },
-        {
-            "engine_link": "https://github.com/flibitijibibo/AnodyneFNA",
-            "version": "23.05.17",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Anodyne 1 Source Code and/or Asset Library",
-            "license_link": "https://github.com/flibitijibibo/AnodyneFNA/blob/master/LICENSE.md",
-            "controllerSupported": true,
-            "engine_name": "Anodyne: FNA Edition"
         },
         {
             "engine_link": "https://aarongiles.com/dreamm",
