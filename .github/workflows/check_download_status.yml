@@ -18,7 +18,7 @@ jobs:
       uses: luxtorpeda-dev/action-check-download-status@v1
   create_tickets:
     runs-on: ubuntu-latest
-    if: ${{ needs.check_status.outputs.matrix != '[]' }}
+    if: ${{ needs.check_status.outputs.matrix && needs.check_status.outputs.matrix != '[]' && needs.check_status.outputs.matrix != '' }}
     needs: check_status
     strategy:
       matrix: ${{fromJson(needs.check_status.outputs.matrix)}}
