@@ -8217,7 +8217,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/JNechaevsky/international-doom/blob/main/COPYING",
-            "controllerSupportedManualGame": true,
+            "controllerNotSupported": true,
             "engine_name": "International Doom"
         },
         {
