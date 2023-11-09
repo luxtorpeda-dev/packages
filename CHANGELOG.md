@@ -3,6 +3,7 @@
 * Add Eternity Engine
 * warzone2100 - Update to 4.4.0
 * OSS-Cosmic-Amnesia - Update to v1026
+* Added Sin Gold port
 
 ### 2023-10-14
 
