@@ -16,9 +16,21 @@ jobs:
       uses: luxtorpeda-dev/action-check-download-status@v1
   create_tickets:
     runs-on: ubuntu-latest
+    if: ${{ needs.check_status.outputs.matrix != '[]' }}
     needs: check_status
     strategy:
       matrix: ${{fromJson(needs.check_status.outputs.matrix)}}
     steps:
-    - name: Test
-      run: echo ${{ matrix.download_name }} ${{ matrix.download_status }}
+    - name: Create Issue
+      uses: jayqi/failed-build-issue-action@v1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        label-name: ${{ matrix.game_name }} ${{ matrix.download_name }}
+        title-template: Download failed for ${{ matrix.game_name }} ${{ matrix.download_name }}
+        body-template: |
+            Download failed for ${{ matrix.game_name }} ${{ matrix.download_name }}
+
+            Response was ${{ matrix.download_status }}
+
+            App id of ${{ matrix.game_app_id }}
+
