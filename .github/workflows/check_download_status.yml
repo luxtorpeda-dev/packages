@@ -1,0 +1,26 @@
+name: Check Download Status
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check_status:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.check_download_status.outputs.matrix }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Check Download Status
+      id: check_download_status
+      uses: luxtorpeda-dev/action-check-download-status@v11
+      with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+  create_tickets:
+    runs-on: ubuntu-latest
+    needs: check_status
+    strategy:
+      matrix: ${{fromJson(needs.check_status.outputs.matrix)}}
+    steps:
+    - name: Test
+      run: echo ${{ matrix.download_name }} ${{ matrix.download_status }}
