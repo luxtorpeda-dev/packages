@@ -4,6 +4,7 @@
 * warzone2100 - Update to 4.4.0
 * OSS-Cosmic-Amnesia - Update to v1026
 * Added Sin Gold port
+* Add cloud save support for chocolate-doom and crispy-doom
 
 ### 2023-10-14
 
