@@ -8067,6 +8067,20 @@
             "engine_name": "OSS-Cosmic Amnesia",
             "cloudNotAvailable": true,
             "app_id": "57300"
+        },
+        {
+            "game_name": "SiN Gold",
+            "download": [
+                {
+                    "name": "diminatrix-binaries",
+                    "url": "https://github.com/rohit-n/dominatrix/releases/download/v1/",
+                    "file": "dominatrix-linux-v1-x86_64.tar.gz"
+                }
+            ],
+            "command": "./sin",
+            "engine_name": "Dominatrix",
+            "cloudNotAvailable": true,
+            "app_id": "1313"
         }
     ],
     "engines": [
@@ -9636,6 +9650,21 @@
             "license_link": "https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent/blob/master/LICENSE",
             "controllerNotSupported": true,
             "engine_name": "OSS-Cosmic Amnesia"
+        },
+        {
+            "engine_link": "https://github.com/rohit-n/dominatrix",
+            "version": "v1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://cohost.org/rohit/post/3207148-release-dominatrix",
+            "notices": [
+                {
+                    "key": "closed_source"
+                }
+            ],
+            "controllerNotSupported": true,
+            "engine_name": "Dominatrix"
         }
     ],
     "default_engine": {
