@@ -32,4 +32,4 @@ do
 done
 
 echo "Launching with, ${new_args[@]}"
-"$DIR/crispy-heretic" "${new_args[@]}" -config "$DIR/hexen.cfg" -extraconfig "$DIR/crispy-hexen.cfg"
+"$DIR/crispy-hexen" "${new_args[@]}" -config "$DIR/hexen.cfg" -extraconfig "$DIR/crispy-hexen.cfg"
