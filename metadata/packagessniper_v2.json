@@ -8048,8 +8048,8 @@
             "download": [
                 {
                     "name": "oss-cosmic-amnesia-binaries",
-                    "url": "https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent/releases/download/v1015/",
-                    "file": "Amnesia_linux_x68_64_v1015.zip"
+                    "url": "https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent/releases/download/v1026/",
+                    "file": "Amnesia_linux_x68_64_v1026.zip"
                 },
                 {
                     "name": "oss-cosmic-amnesia",
@@ -9629,7 +9629,7 @@
         },
         {
             "engine_link": "https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent",
-            "version": "v1015",
+            "version": "v1026",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3 & Apache-2.0",
