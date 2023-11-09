@@ -5,6 +5,7 @@
 * OSS-Cosmic-Amnesia - Update to v1026
 * Added Sin Gold port
 * Add cloud save support for chocolate-doom and crispy-doom
+* Hammer of Thyrion - Support cloud saves
 
 ### 2023-10-14
 
