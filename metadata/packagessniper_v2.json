@@ -427,7 +427,9 @@
                     "command": "./chocolate-doom/run-chocolate-doom.sh",
                     "command_args": [
                         "-iwad",
-                        "base/DOOM.WAD"
+                        "base/DOOM.WAD",
+                        "-savedir",
+                        "base"
                     ],
                     "download": [
                         "chocolate-doom"
@@ -463,7 +465,9 @@
                     "command": "./crispy-doom/run-crispy-doom.sh",
                     "command_args": [
                         "-iwad",
-                        "base/DOOM.WAD"
+                        "base/DOOM.WAD",
+                        "-savedir",
+                        "base"
                     ],
                     "download": [
                         "crispy-doom"
@@ -672,6 +676,12 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudSupported": true,
+            "notices": [
+                {
+                    "label": "Cloud saves are supported with Chocolate Doom & Crispy Doom"
+                }
+            ],
             "app_id": "2280"
         },
         {
@@ -1301,7 +1311,9 @@
                             "cmd": "./chocolate-doom/run-chocolate-doom.sh",
                             "args": [
                                 "-iwad",
-                                "base/DOOM2.WAD"
+                                "base/DOOM2.WAD",
+                                "-savedir",
+                                "base"
                             ],
                             "command_name": ".*rerelease"
                         },
@@ -1309,7 +1321,9 @@
                             "cmd": "./chocolate-doom/run-chocolate-doom.sh",
                             "args": [
                                 "-iwad",
-                                "base/DOOM2.WAD"
+                                "base/DOOM2.WAD",
+                                "-savedir",
+                                "base"
                             ],
                             "command_name": ".*doom2"
                         },
@@ -1317,7 +1331,9 @@
                             "cmd": "./chocolate-doom/run-chocolate-doom.sh",
                             "args": [
                                 "-iwad",
-                                "finaldoombase/TNT.WAD"
+                                "finaldoombase/TNT.WAD",
+                                "-savedir",
+                                "finaldoombase"
                             ],
                             "command_name": ".*tnt"
                         },
@@ -1325,7 +1341,9 @@
                             "cmd": "./chocolate-doom/run-chocolate-doom.sh",
                             "args": [
                                 "-iwad",
-                                "finaldoombase/PLUTONIA.WAD"
+                                "finaldoombase/PLUTONIA.WAD",
+                                "-savedir",
+                                "finaldoombase"
                             ],
                             "command_name": ".*plutonia"
                         },
@@ -1411,7 +1429,9 @@
                             "cmd": "./crispy-doom/run-crispy-doom.sh",
                             "args": [
                                 "-iwad",
-                                "base/DOOM2.WAD"
+                                "base/DOOM2.WAD",
+                                "-savedir",
+                                "base"
                             ],
                             "command_name": ".*rerelease"
                         },
@@ -1419,7 +1439,9 @@
                             "cmd": "./crispy-doom/run-crispy-doom.sh",
                             "args": [
                                 "-iwad",
-                                "base/DOOM2.WAD"
+                                "base/DOOM2.WAD",
+                                "-savedir",
+                                "base"
                             ],
                             "command_name": ".*doom2"
                         },
@@ -1427,7 +1449,9 @@
                             "cmd": "./crispy-doom/run-crispy-doom.sh",
                             "args": [
                                 "-iwad",
-                                "finaldoombase/TNT.WAD"
+                                "finaldoombase/TNT.WAD",
+                                "-savedir",
+                                "finaldoombase"
                             ],
                             "command_name": ".*tnt"
                         },
@@ -1435,7 +1459,9 @@
                             "cmd": "./crispy-doom/run-crispy-doom.sh",
                             "args": [
                                 "-iwad",
-                                "finaldoombase/PLUTONIA.WAD"
+                                "finaldoombase/PLUTONIA.WAD",
+                                "-savedir",
+                                "finaldoombase"
                             ],
                             "command_name": ".*plutonia"
                         },
@@ -1978,6 +2004,9 @@
             "notices": [
                 {
                     "label": "Uses wadsmoosh (https://heptapod.host/jp-lebreton/wadsmoosh) for Master Levels"
+                },
+                {
+                    "label": "Cloud saves are supported with Chocolate Doom & Crispy Doom"
                 }
             ],
             "cloudAvailable": true,
@@ -2707,7 +2736,9 @@
                     "command": "./chocolate-doom/run-chocolate-hexen.sh",
                     "command_args": [
                         "-iwad",
-                        "base/HEXEN.WAD"
+                        "base/HEXEN.WAD",
+                        "-savedir",
+                        "base"
                     ],
                     "download": [
                         "chocolate-doom"
@@ -2743,7 +2774,9 @@
                     "command": "./crispy-doom/run-crispy-hexen.sh",
                     "command_args": [
                         "-iwad",
-                        "../base/HEXEN.WAD"
+                        "../base/HEXEN.WAD",
+                        "-savedir",
+                        "../base"
                     ],
                     "download": [
                         "crispy-doom"
@@ -2823,6 +2856,12 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudSupported": true,
+            "notices": [
+                {
+                    "label": "Cloud saves are supported with Chocolate Doom & Crispy Doom"
+                }
+            ],
             "app_id": "2360"
         },
         {
@@ -2907,7 +2946,9 @@
                         "-iwad",
                         "../base/HEXEN.WAD",
                         "-file",
-                        "../base/HEXDD.WAD"
+                        "../base/HEXDD.WAD",
+                        "-savedir",
+                        "../base"
                     ],
                     "download": [
                         "crispy-doom"
@@ -2986,6 +3027,12 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudSupported": true,
+            "notices": [
+                {
+                    "label": "Cloud saves are supported with Chocolate Doom & Crispy Doom"
+                }
+            ],
             "app_id": "2370"
         },
         {
@@ -3084,7 +3131,9 @@
                     "command": "./chocolate-doom/run-chocolate-heretic.sh",
                     "command_args": [
                         "-iwad",
-                        "../base/HERETIC.WAD"
+                        "../base/HERETIC.WAD",
+                        "-savedir",
+                        "../base"
                     ],
                     "download": [
                         "chocolate-doom"
@@ -3154,7 +3203,9 @@
                     "command": "./crispy-doom/run-crispy-heretic.sh",
                     "command_args": [
                         "-iwad",
-                        "../base/HERETIC.WAD"
+                        "../base/HERETIC.WAD",
+                        "-savedir",
+                        "../base"
                     ],
                     "download": [
                         "crispy-doom"
@@ -3231,6 +3282,12 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudSupported": true,
+            "notices": [
+                {
+                    "label": "Cloud saves are supported with Chocolate Doom & Crispy Doom"
+                }
+            ],
             "app_id": "2390"
         },
         {
