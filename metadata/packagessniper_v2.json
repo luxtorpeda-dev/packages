@@ -3253,7 +3253,8 @@
                 {
                     "name": "binaries",
                     "url": "http://icculus.org/prey/downloads/",
-                    "file": "prey-installer-02192009.bin"
+                    "file": "prey-installer-02192009.bin",
+                    "check_download_status": true
                 },
                 {
                     "name": "prey2006",
@@ -7287,7 +7288,8 @@
                 {
                     "name": "runescape-binaries",
                     "url": "https://content.runescape.com/downloads/ubuntu/pool/non-free/r/runescape-launcher/",
-                    "file": "runescape-launcher_2.2.11_amd64.deb"
+                    "file": "runescape-launcher_2.2.11_amd64.deb",
+                    "check_download_status": true
                 },
                 {
                     "name": "runescape",
