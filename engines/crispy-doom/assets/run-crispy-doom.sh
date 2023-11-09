@@ -32,4 +32,5 @@ do
 done
 
 echo "Launching with, ${new_args[@]}"
+
 "$DIR/crispy-doom" "${new_args[@]}"
