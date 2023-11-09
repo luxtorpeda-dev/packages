@@ -3734,6 +3734,12 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudSupported": true
+            "notices": [
+                {
+                    "label": "Cloud saves are supported with Hammer of Thyrion"
+                }
+            ],
             "app_id": "9060"
         },
         {
