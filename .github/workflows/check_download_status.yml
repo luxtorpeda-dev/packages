@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v3
     - name: Check Download Status
       id: check_download_status
-      uses: luxtorpeda-dev/action-check-download-status@v11
+      uses: luxtorpeda-dev/action-check-download-status@v1
       with:
           token: ${{ secrets.GITHUB_TOKEN }}
   create_tickets:
