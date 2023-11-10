@@ -7063,6 +7063,7 @@
             ],
             "engine_name": "GZDoom",
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "1072150"
         },
         {
