@@ -4346,6 +4346,8 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
             "app_id": "22320"
         },
         {
@@ -5309,6 +5311,8 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
             "app_id": "225140"
         },
         {
@@ -5346,6 +5350,8 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
             "app_id": "225160"
         },
         {
@@ -5543,7 +5549,7 @@
             ],
             "engine_name": "Raze",
             "command": "./run-raze.sh",
-            "cloudAvailable": true,
+            "cloudNotAvailable": true,
             "app_id": "238070"
         },
         {
@@ -6062,6 +6068,8 @@
             ],
             "engine_name": "GZDoom",
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
             "controllerSteamDefault": true,
             "app_id": "317040"
         },
@@ -7758,6 +7766,8 @@
             ],
             "use_original_command_directory": true,
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
             "app_id": "1812390"
         },
         {
@@ -9984,6 +9994,10 @@
         {
             "key": "unworkable_location",
             "value": "Unworkable Location"
+        },
+        {
+            "key": "saves_not_compatible",
+            "value": "Save Format Not Compatible"
         }
     ]
 }
