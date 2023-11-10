@@ -2010,6 +2010,7 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudSupported": true,
             "controllerSteamDefault": true,
             "app_id": "2300"
         },
@@ -5128,7 +5129,7 @@
             ],
             "command": "./run-ja2-gold.sh",
             "engine_name": "Jagged Alliance 2 Stracciatella",
-            "cloudAvailable": true,
+            "cloudNotAvailable": true,
             "app_id": "1620"
         },
         {
