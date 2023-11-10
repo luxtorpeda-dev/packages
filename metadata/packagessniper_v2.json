@@ -5939,6 +5939,7 @@
             ],
             "command": "./run-perimeter.sh",
             "engine_name": "Perimeter",
+            "cloudSupported": true,
             "cloudAvailable": true,
             "app_id": "289240"
         },
@@ -5955,6 +5956,7 @@
             "command": "./run-perimeter.sh",
             "engine_name": "Perimeter",
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "289440"
         },
         {
