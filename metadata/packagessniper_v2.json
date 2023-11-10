@@ -2776,7 +2776,7 @@
                         "-iwad",
                         "../base/HEXEN.WAD",
                         "-savedir",
-                        "../base"
+                        "base"
                     ],
                     "download": [
                         "crispy-doom"
@@ -2948,7 +2948,7 @@
                         "-file",
                         "../base/HEXDD.WAD",
                         "-savedir",
-                        "../base"
+                        "base"
                     ],
                     "download": [
                         "crispy-doom"
@@ -3205,7 +3205,7 @@
                         "-iwad",
                         "../base/HERETIC.WAD",
                         "-savedir",
-                        "../base"
+                        "base"
                     ],
                     "download": [
                         "crispy-doom"
