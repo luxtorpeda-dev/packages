@@ -297,6 +297,8 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
             "app_id": "2270"
         },
         {
@@ -6320,6 +6322,8 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
             "app_id": "371180"
         },
         {
