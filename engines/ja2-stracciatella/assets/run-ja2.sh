@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wantedversion="0.20.0"
+wantedversion="0.21.0"
 
-filepath="./ja2-stracciatella_0.20.0-git+439a6d3_x86-64.AppImage"
+filepath="./ja2-stracciatella_0.21.0-git+61938e1_x86-64.AppImage"
 
 if [[ -d "JA2Classic" ]]; then
     echo "Classic found"
