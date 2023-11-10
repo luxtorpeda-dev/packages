@@ -3989,6 +3989,8 @@
             ],
             "engine_name": "Commander Genius",
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
             "controllerSteamDefault": true,
             "app_id": "9180"
         },
@@ -5009,26 +5011,6 @@
             ],
             "cloudNotAvailable": true,
             "app_id": "208200"
-        },
-        {
-            "game_name": "Cortex Command",
-            "download": [
-                {
-                    "name": "cortex-command",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cortex-command-12/",
-                    "file": "cortex-command-209670-12.tar.xz"
-                }
-            ],
-            "download_config": [
-                {
-                    "extract_location": "./linuxdata",
-                    "download_name": "cortex-command"
-                }
-            ],
-            "command": "./linuxdata/run-cortex-command.sh",
-            "engine_name": "Cortex Command Community Project Source",
-            "cloudAvailable": true,
-            "app_id": "209670"
         },
         {
             "game_name": "The Basement Collection",
@@ -9035,16 +9017,6 @@
             ],
             "controllerSupported": true,
             "engine_name": "Classic-RBDOOM-3-BFG"
-        },
-        {
-            "engine_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source",
-            "version": "7e32a88",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "AGPLv3",
-            "license_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source/blob/development/LICENSE",
-            "controllerNotSupported": true,
-            "engine_name": "Cortex Command Community Project Source"
         },
         {
             "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
