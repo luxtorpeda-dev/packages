@@ -6,6 +6,7 @@
 * Added Sin Gold port
 * Add cloud save support for chocolate-doom and crispy-doom
 * Hammer of Thyrion - Support cloud saves
+* JA2 - Update to 0.21.0
 
 ### 2023-10-14
 
