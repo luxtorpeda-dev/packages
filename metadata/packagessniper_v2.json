@@ -6126,6 +6126,7 @@
             "command": "./run-fast-detect.sh",
             "engine_name": "Source SDK 2013",
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "353220"
         },
         {
