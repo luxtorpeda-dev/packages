@@ -7009,6 +7009,8 @@
             "command": "./scum/run-scummvm.sh",
             "engine_name": "ScummVM",
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
             "app_id": "1044340"
         },
         {
@@ -7978,6 +7980,9 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
+            "command_args": [
+                "--savepath=Saves"
+            ],
             "engine_name": "ScummVM",
             "cloudAvailable": true,
             "app_id": "255920"
