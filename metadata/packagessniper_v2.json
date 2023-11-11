@@ -3641,6 +3641,8 @@
             "command": "./run-ecwolf.sh",
             "engine_name": "ECWolf",
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
             "app_id": "9000"
         },
         {
@@ -3674,7 +3676,7 @@
             ],
             "engine_name": "iortcw",
             "cloudAvailable": true,
-            "cloduSupported": true,
+            "cloudSupported": true,
             "app_id": "9010"
         },
         {
@@ -6148,6 +6150,7 @@
             "command": "./scum/run-scummvm-sammaxhit.sh",
             "engine_name": "ScummVM",
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "355170"
         },
         {
