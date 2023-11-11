@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if ! [[ -z "${LUX_STEAM_CLOUD}" ]]; then
-    ./ironwail/ironwail-steamcloud.sh "$@"
-    exit 0
-fi
-
 if [ ! -f ironwail/share/quake/id1/config.cfg ] ; then
 	cp -f ironwail/share/quake/default.lux.cfg ironwail/share/quake/id1/config.cfg
 	sed -i "s|%USER%|$USER|" ironwail/share/quake/id1/config.cfg
@@ -98,5 +93,11 @@ then
     LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./ironwail/lib:./lib" ./ironwail/ironwail -basedir ironwail/share/quake/rerelease "$@"
 else
     echo "Running non re-release"
+
+    if ! [[ -z "${LUX_STEAM_CLOUD}" ]]; then
+        ./ironwail/ironwail-steamcloud.sh "$@"
+        exit 0
+    fi
+
     LD_LIBRARY_PATH="$LD_LIBRARY_PATH:./ironwail/lib:./lib" ./ironwail/ironwail -basedir ironwail/share/quake "$@"
 fi
