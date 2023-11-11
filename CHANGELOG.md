@@ -7,6 +7,7 @@
 * Add cloud save support for chocolate-doom and crispy-doom
 * Hammer of Thyrion - Support cloud saves
 * JA2 - Update to 0.21.0
+* iortcw - Add support for steam cloud
 
 ### 2023-10-14
 
