@@ -215,6 +215,7 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudNotAvailable": true
             "app_id": "2200"
         },
         {
@@ -2658,7 +2659,7 @@
                     ]
                 }
             ],
-            "cloudAvailable": true,
+            "cloudNotAvailable": true,
             "app_id": "2350",
             "notices": [
                 {
