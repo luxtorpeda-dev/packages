@@ -7703,6 +7703,7 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "1812290"
         },
         {
