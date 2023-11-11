@@ -2562,6 +2562,12 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudSupported": true,
+            "notices": [
+                {
+                    "label": "Cloud saves with Yamagi Quake II"
+                }
+            ],
             "app_id": "2320"
         },
         {
