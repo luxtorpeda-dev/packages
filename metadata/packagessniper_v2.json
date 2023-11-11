@@ -7245,7 +7245,7 @@
             ],
             "command": "./linuxdata/run-warzone2100.sh",
             "engine_name": "warzone2100",
-            "cloudAvailable": true,
+            "cloudNotAvailable": true,
             "app_id": "1241950"
         },
         {
