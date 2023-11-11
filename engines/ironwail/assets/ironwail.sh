@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if ! [[ -z "${LUX_STEAM_CLOUD}" ]]; then
-    ./ironwail/ironwail-steamcloud.sh
+    ./ironwail/ironwail-steamcloud.sh "$@"
     exit 0
 fi
 
