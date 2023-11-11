@@ -214,8 +214,7 @@
                     ]
                 }
             ],
-            "cloudAvailable": true,
-            "cloudNotAvailable": true
+            "cloudNotAvailable": true,
             "app_id": "2200"
         },
         {
