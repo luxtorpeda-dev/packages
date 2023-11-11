@@ -222,8 +222,8 @@
             "download": [
                 {
                     "name": "quake4",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake4-5/",
-                    "file": "quake4-2210-5.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake4-6/",
+                    "file": "quake4-2210-6.tar.xz"
                 },
                 {
                     "name": "binaries",
