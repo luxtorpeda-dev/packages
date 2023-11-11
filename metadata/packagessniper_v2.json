@@ -3661,6 +3661,7 @@
             ],
             "engine_name": "iortcw",
             "cloudAvailable": true,
+            "cloduSupported": true,
             "app_id": "9010"
         },
         {
