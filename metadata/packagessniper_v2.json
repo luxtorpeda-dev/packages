@@ -6132,7 +6132,7 @@
                     "download_name": "scummvm"
                 }
             ],
-            "command": "./scum/run-scummvm-one-up.sh",
+            "command": "./scum/run-scummvm-sammaxhit.sh",
             "engine_name": "ScummVM",
             "cloudAvailable": true,
             "app_id": "355170"
@@ -7974,6 +7974,7 @@
             ],
             "engine_name": "ScummVM",
             "cloudAvailable": true,
+            "cloudSupported": true,
             "app_id": "255920"
         },
         {
