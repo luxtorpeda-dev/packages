@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if ! [[ -z "${LUX_STEAM_CLOUD}" ]]; then
+    ./ironwail/ironwail-steamcloud.sh
+    exit 0
+fi
+
 if [ ! -f ironwail/share/quake/id1/config.cfg ] ; then
 	cp -f ironwail/share/quake/default.lux.cfg ironwail/share/quake/id1/config.cfg
 	sed -i "s|%USER%|$USER|" ironwail/share/quake/id1/config.cfg

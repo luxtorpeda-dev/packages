@@ -2463,6 +2463,12 @@
                 }
             ],
             "cloudAvailable": true,
+            "cloudSupported": true,
+            "notices": [
+                {
+                    "label": "Cloud saves with Ironwail for the original option only"
+                }
+            ],
             "controllerSteamDefault": true,
             "app_id": "2310"
         },
