@@ -2754,7 +2754,7 @@
                         "-iwad",
                         "base/HEXEN.WAD",
                         "-savedir",
-                        "base"
+                        "base/HEXNDATA"
                     ],
                     "download": [
                         "chocolate-doom"
@@ -2792,7 +2792,7 @@
                         "-iwad",
                         "../base/HEXEN.WAD",
                         "-savedir",
-                        "base"
+                        "base/HEXNDATA"
                     ],
                     "download": [
                         "crispy-doom"
@@ -2964,7 +2964,7 @@
                         "-file",
                         "../base/HEXDD.WAD",
                         "-savedir",
-                        "base"
+                        "base/HEXNDATA"
                     ],
                     "download": [
                         "crispy-doom"
