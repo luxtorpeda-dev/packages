@@ -5280,7 +5280,7 @@
                 }
             ],
             "setup": {
-                "complete_path": "./ready-rust",
+                "complete_path": "./ready-rust2",
                 "command": "./setup-tr1.sh",
                 "bchunk": {
                     "bin_file": "GAME.GOG",
@@ -5293,8 +5293,8 @@
                 },
                 "iso_extract": {
                     "file_path": "TRACK01.iso",
-                    "extract_prefix": "/DATA",
-                    "extract_to_prefix": "data"
+                    "extract_prefix": "/",
+                    "extract_to_prefix": "data/"
                 }
             },
             "command": "./run-openlara.sh",
