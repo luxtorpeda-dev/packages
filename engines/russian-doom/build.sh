@@ -25,5 +25,5 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/common/dist/base"
 cp -rfv source/build/src/russian-* "$diststart/common/dist/"
-cp -rfv "$pfx/share/russian-doom/"* "$diststart/common/dist/base/"
+cp -rfv "$pfx/base/"* "$diststart/common/dist/base/"
 cp -rfv assets/* "$diststart/common/dist/"
