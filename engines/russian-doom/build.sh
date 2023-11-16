@@ -16,7 +16,7 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_PREFIX_PATH="$pfx" \
-    -DBUILD_PORTABLE=ON \
+    -DRD_BUILD_PORTABLE=ON \
     ..
 make -j "$(nproc)"
 make install
