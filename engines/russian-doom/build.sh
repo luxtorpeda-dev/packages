@@ -1,5 +1,8 @@
 #!/bin/bash
 
+mkdir local
+export pfx="$PWD/local"
+
 # CLONE PHASE
 git clone https://github.com/Russian-Doom/russian-doom.git source
 pushd source
