@@ -624,6 +624,24 @@
                     ]
                 },
                 {
+                    "name": "Russian Doom",
+                    "engine_name": "Russian Doom",
+                    "command": "./russian-doom/run-russian-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/DOOM.WAD"
+                    ],
+                    "download": [
+                        "russian-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./russian-doom",
+                            "download_name": "russian-doom"
+                        }
+                    ]
+                },
+                {
                     "name": "Doom Runner",
                     "engine_name": "Doom Runner",
                     "command": "./doom-runner/run-doom-runner.sh",
@@ -1068,6 +1086,37 @@
                         {
                             "extract_location": "./doom-retro",
                             "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
+                    "name": "Russian Doom",
+                    "engine_name": "Russian Doom",
+                    "commands": [
+                        {
+                            "cmd": "./russian-doom/run-russian-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "base/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutoniam?.conf"
+                        },
+                        {
+                            "cmd": "./russian-doom/run-russian-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "base/TNT.WAD"
+                            ],
+                            "command_name": ".*tntm?.conf"
+                        }
+                    ],
+                    "download": [
+                        "russian-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./russian-doom",
+                            "download_name": "russian-doom"
                         }
                     ]
                 },
@@ -1882,6 +1931,60 @@
                         {
                             "extract_location": "./odamex",
                             "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
+                    "name": "Russian Doom",
+                    "commands": [
+                        {
+                            "cmd": "./russian-doom/run-russian-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*rerelease"
+                        },
+                        {
+                            "cmd": "./russian-doom/run-russian-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*doom2"
+                        },
+                        {
+                            "cmd": "./russian-doom/run-russian-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "finaldoombase/TNT.WAD"
+                            ],
+                            "command_name": ".*tnt"
+                        },
+                        {
+                            "cmd": "./russian-doom/run-russian-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "finaldoombase/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutonia"
+                        },
+                        {
+                            "cmd": "/bin/sh",
+                            "args": [
+                                "-c",
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
+                            ],
+                            "command_name": ".*master"
+                        }
+                    ],
+                    "download": [
+                        "russian-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./russian-doom",
+                            "download_name": "russian-doom"
                         }
                     ]
                 },
@@ -2705,12 +2808,6 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-12/",
                     "file": "crispy-doom-common-12.tar.xz",
                     "cache_by_name": true
-                },
-                {
-                    "name": "inter-doom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-12/",
-                    "file": "inter-doom-common-12.tar.xz",
-                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -2823,20 +2920,20 @@
                     "engine_name": "Crispy Doom"
                 },
                 {
-                    "name": "International Doom",
-                    "engine_name": "International Doom",
-                    "command": "./inter-doom/run-inter-hexen.sh",
+                    "name": "Russian Doom",
+                    "engine_name": "Russian Doom",
+                    "command": "./russian-doom/run-russian-hexen.sh",
                     "command_args": [
                         "-iwad",
                         "../base/HEXEN.WAD"
                     ],
                     "download": [
-                        "inter-doom"
+                        "russian-doom"
                     ],
                     "download_config": [
                         {
-                            "extract_location": "./inter-doom",
-                            "download_name": "inter-doom"
+                            "extract_location": "./russian-doom",
+                            "download_name": "russian-doom"
                         }
                     ]
                 },
@@ -2911,12 +3008,6 @@
                     "name": "crispy-doom",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-12/",
                     "file": "crispy-doom-common-12.tar.xz",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "inter-doom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-12/",
-                    "file": "inter-doom-common-12.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -2995,8 +3086,8 @@
                     "engine_name": "Crispy Doom"
                 },
                 {
-                    "name": "International Doom",
-                    "command": "./inter-doom/run-inter-hexen.sh",
+                    "name": "Russian Doom",
+                    "command": "./russian-doom/run-russian-hexen.sh",
                     "command_args": [
                         "-iwad",
                         "../base/HEXEN.WAD",
@@ -3004,12 +3095,12 @@
                         "../base/HEXDD.WAD"
                     ],
                     "download": [
-                        "inter-doom"
+                        "russian-doom"
                     ],
                     "download_config": [
                         {
-                            "extract_location": "./inter-doom",
-                            "download_name": "inter-doom"
+                            "extract_location": "./russian-doom",
+                            "download_name": "russian-doom"
                         }
                     ]
                 },
@@ -3094,12 +3185,6 @@
                     "name": "crispy-doom",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-12/",
                     "file": "crispy-doom-common-12.tar.xz",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "inter-doom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-12/",
-                    "file": "inter-doom-common-12.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3252,19 +3337,19 @@
                     "engine_name": "Crispy Doom"
                 },
                 {
-                    "name": "International Doom",
-                    "command": "./inter-doom/run-inter-heretic.sh",
+                    "name": "Russian Doom",
+                    "command": "./russian-doom/run-russian-heretic.sh",
                     "command_args": [
                         "-iwad",
                         "../base/HERETIC.WAD"
                     ],
                     "download": [
-                        "inter-doom"
+                        "russian-doom"
                     ],
                     "download_config": [
                         {
-                            "extract_location": "./inter-doom",
-                            "download_name": "inter-doom"
+                            "extract_location": "./russian-doom",
+                            "download_name": "russian-doom"
                         }
                     ]
                 },
@@ -8325,6 +8410,16 @@
             "license_link": "https://github.com/JNechaevsky/international-doom/blob/main/COPYING",
             "controllerNotSupported": true,
             "engine_name": "International Doom"
+        },
+        {
+            "engine_link": "https://github.com/Russian-Doom/russian-doom",
+            "version": "6.3",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/Russian-Doom/russian-doom/blob/master/LICENSE.txt",
+            "controllerNotSupported": true,
+            "engine_name": "Russian Doom"
         },
         {
             "engine_link": "https://github.com/coelckers/prboom-plus",
