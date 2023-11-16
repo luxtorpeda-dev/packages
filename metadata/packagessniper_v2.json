@@ -389,6 +389,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eternity-1/",
                     "file": "eternity-common-1.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "russian-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/russian-doom-1/",
+                    "file": "russian-doom-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -772,6 +778,12 @@
                     "name": "crispy-doom",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-12/",
                     "file": "crispy-doom-common-12.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "russian-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/russian-doom-1/",
+                    "file": "russian-doom-common-1.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -1239,6 +1251,12 @@
                     "name": "eternity",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eternity-1/",
                     "file": "eternity-common-1.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "russian-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/russian-doom-1/",
+                    "file": "russian-doom-common-1.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -2808,6 +2826,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-12/",
                     "file": "crispy-doom-common-12.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "russian-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/russian-doom-1/",
+                    "file": "russian-doom-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -3009,6 +3033,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-12/",
                     "file": "crispy-doom-common-12.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "russian-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/russian-doom-1/",
+                    "file": "russian-doom-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -3191,6 +3221,12 @@
                     "name": "dsda-doom",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dsda-doom-3/",
                     "file": "dsda-doom-common-3.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "russian-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/russian-doom-1/",
+                    "file": "russian-doom-common-1.tar.xz",
                     "cache_by_name": true
                 }
             ],
