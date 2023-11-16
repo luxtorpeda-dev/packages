@@ -8,6 +8,7 @@
 * Hammer of Thyrion - Support cloud saves
 * JA2 - Update to 0.21.0
 * iortcw - Add support for steam cloud
+* Add support for Russian Doom
 
 ### 2023-10-14
 
