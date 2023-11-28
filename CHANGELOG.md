@@ -1,3 +1,7 @@
+### 2023-11-27
+
+* [madscientist16] Daggerfall Unity - Update to 0.16.2 RC
+
 ### 2023-11-05
 
 * Add Eternity Engine
