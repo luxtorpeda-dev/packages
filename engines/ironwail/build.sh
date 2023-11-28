@@ -32,6 +32,8 @@ cp -v source/Quake/ironwail "$diststart/common/dist/ironwail/"
 cp -v assets/ironwail.sh "$diststart/common/dist/ironwail/"
 cp -v assets/ironwail-steamcloud.sh "$diststart/common/dist/ironwail/"
 cp -v assets/default.lux.cfg "$diststart/common/dist/ironwail/share/quake"
+cp -v source/Quake/ironwail.pak "$diststart/common/dist/ironwail/share/quake"
+cp -v source/Quake/ironwail.pak "$diststart/common/dist/ironwail/share/quake/rerelease"
 
 ln -s "../../../../id1/PAK0.PAK" "$diststart/common/dist/ironwail/share/quake/id1/pak0.pak"
 ln -s "../../../../id1/PAK1.PAK" "$diststart/common/dist/ironwail/share/quake/id1/pak1.pak"
