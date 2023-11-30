@@ -1,6 +1,7 @@
 ### 2023-11-27
 
 * [madscientist16] Daggerfall Unity - Update to 0.16.2 RC
+* warzone2100 - Update to 4.4.2
 
 ### 2023-11-05
 
