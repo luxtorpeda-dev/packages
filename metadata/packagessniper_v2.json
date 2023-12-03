@@ -605,10 +605,6 @@
                         {
                             "extract_location": "./eternity",
                             "download_name": "eternity"
-                        },
-                        {
-                            "extract_location": "./eternity",
-                            "download_name": "generaluser-soundfont"
                         }
                     ]
                 },
@@ -1898,10 +1894,6 @@
                         {
                             "extract_location": "./eternity",
                             "download_name": "eternity"
-                        },
-                        {
-                            "extract_location": "./eternity",
-                            "download_name": "generaluser-soundfont"
                         }
                     ]
                 },
