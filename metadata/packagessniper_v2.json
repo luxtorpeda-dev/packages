@@ -337,6 +337,12 @@
                     "cache_by_name": true
                 },
                 {
+                    "name": "generaluser-soundfont",
+                    "url": "https://archive.org/download/free-soundfonts-sf2-2019-04/",
+                    "file": "GeneralUser GS v1.471.sf2",
+                    "cache_by_name": true
+                },
+                {
                     "name": "doom-retro",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-28/",
                     "file": "doom-retro-common-28.tar.xz",
@@ -593,7 +599,7 @@
                     ],
                     "download": [
                         "eternity",
-                        "fluid-soundfont"
+                        "generaluser-soundfont"
                     ],
                     "download_config": [
                         {
@@ -602,7 +608,7 @@
                         },
                         {
                             "extract_location": "./eternity",
-                            "download_name": "fluid-soundfont"
+                            "download_name": "generaluser-soundfont"
                         }
                     ]
                 },
@@ -1197,6 +1203,12 @@
                     "name": "fluid-soundfont",
                     "url": "https://ftp.debian.org/debian/pool/main/f/fluid-soundfont/",
                     "file": "fluid-soundfont_3.1.orig.tar.gz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "generaluser-soundfont",
+                    "url": "https://archive.org/download/free-soundfonts-sf2-2019-04/",
+                    "file": "GeneralUser GS v1.471.sf2",
                     "cache_by_name": true
                 },
                 {
@@ -1880,7 +1892,7 @@
                     ],
                     "download": [
                         "eternity",
-                        "fluid-soundfont"
+                        "generaluser-soundfont"
                     ],
                     "download_config": [
                         {
@@ -1889,7 +1901,7 @@
                         },
                         {
                             "extract_location": "./eternity",
-                            "download_name": "fluid-soundfont"
+                            "download_name": "generaluser-soundfont"
                         }
                     ]
                 },
