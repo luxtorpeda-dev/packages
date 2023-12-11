@@ -4319,7 +4319,7 @@
             "game_name": "Unreal Tournament: Game of the Year Edition",
             "download": [
                 {
-                    "name": "binaries-469c",
+                    "name": "binaries-469d",
                     "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469d/",
                     "file": "OldUnreal-UTPatch469d-Linux-amd64.tar.bz2"
                 },
