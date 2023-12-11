@@ -1,3 +1,8 @@
+### 2023-12-11
+
+* Daikatana - Update to 2023-08-17
+* DOOM Retro - Update to 5.1.1
+
 ### 2023-11-27
 
 * [madscientist16] Daggerfall Unity - Update to 0.16.2 RC
