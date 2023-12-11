@@ -4320,8 +4320,8 @@
             "download": [
                 {
                     "name": "binaries-469c",
-                    "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469c/",
-                    "file": "OldUnreal-UTPatch469c-Linux-amd64.tar.bz2"
+                    "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469d/",
+                    "file": "OldUnreal-UTPatch469d-Linux-amd64.tar.bz2"
                 },
                 {
                     "name": "ut99",
@@ -4334,16 +4334,16 @@
                     "file": "utbonuspack4-zip.zip"
                 }
             ],
-            "command": "./run-ut99-469c.sh",
+            "command": "./run-ut99-469d.sh",
             "app_ids_deps": [
                 1070560
             ],
             "download_config": [
                 {
-                    "extract_location": "../linuxdata-469c",
+                    "extract_location": "../linuxdata-469d",
                     "strip_prefix": "",
                     "setup": true,
-                    "download_name": "binaries-469c"
+                    "download_name": "binaries-469d"
                 },
                 {
                     "setup": true,
@@ -4352,10 +4352,10 @@
                 }
             ],
             "setup": {
-                "complete_path": "../ready-469c-2",
-                "command": "./setup-ut99-469c.sh",
-                "uninstall_command": "./uninstall-ut99-469c.sh",
-                "license_path": "../linuxdata-469c/legal.txt"
+                "complete_path": "../ready-469d",
+                "command": "./setup-ut99-469d.sh",
+                "uninstall_command": "./uninstall-ut99-469d.sh",
+                "license_path": "../linuxdata-469d/legal.txt"
             },
             "use_original_command_directory": true,
             "engine_name": "ut99",
@@ -9066,8 +9066,8 @@
             "engine_name": "ut2004"
         },
         {
-            "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469c-release-notes",
-            "version": "469c",
+            "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469d-release-notes",
+            "version": "469d",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",

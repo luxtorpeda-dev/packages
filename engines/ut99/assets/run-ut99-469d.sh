@@ -2,7 +2,7 @@
 
 cd ..
 
-cd linuxdata-469c
+cd linuxdata-469d
 
 LD_LIBRARY_PATH="System:$LD_LIBRARY_PATH"
 
