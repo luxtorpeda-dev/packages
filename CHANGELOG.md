@@ -3,6 +3,7 @@
 * Daikatana - Update to 2023-08-17
 * DOOM Retro - Update to 5.1.1
 * ut99 - Update to v469d
+* dsda-doom - Update to 0.27.5
 
 ### 2023-11-27
 
