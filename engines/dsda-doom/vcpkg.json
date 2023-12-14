@@ -3,6 +3,7 @@
     "dependencies": [
         { "name": "fluidsynth", "features": ["pulseaudio"] },
         "libmad",
+        "bzip2",
         "libzip"
     ]
 }
