@@ -4,6 +4,7 @@
 * DOOM Retro - Update to 5.1.1
 * ut99 - Update to v469d
 * dsda-doom - Update to 0.27.5
+* DOOM Retro - Update to 5.1.3
 
 ### 2023-11-27
 
