@@ -8373,13 +8373,18 @@
         },
         {
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "4.10.0",
+            "version": "4.10.0 (Last Working Release)",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
             "controllerSupported": true,
-            "engine_name": "GZDoom"
+            "engine_name": "GZDoom",
+            "notices": [
+                {
+                    "label": "Last working version before memory leak was introduced."
+                }
+            ]
         },
         {
             "engine_link": "https://github.com/Youda008/DoomRunner",
@@ -8509,7 +8514,12 @@
             "license": "Various Licenses",
             "license_link": "https://github.com/coelckers/Raze",
             "controllerSupported": true,
-            "engine_name": "Raze"
+            "engine_name": "Raze",
+            "notices": [
+                {
+                    "label": "Last working version before memory leak was introduced."
+                }
+            ]
         },
         {
             "engine_link": "https://github.com/Novum/vkQuake",
