@@ -19,4 +19,5 @@ popd
 # COPY PHASE
 cp -rfv "source/build/doomretro" "$diststart/common/dist/"
 cp -rfv "source/build/doomretro.wad" "$diststart/common/dist/"
+
 cp -rfv assets/* "$diststart/common/dist/"
