@@ -62,7 +62,7 @@ start_vcpkg () {
     # clone repo and setup vcpkg
     git clone https://github.com/Microsoft/vcpkg.git vcpkg
     pushd vcpkg
-    git checkout -f e4b4469
+    git checkout -f 2023.12.12
     echo 'set(VCPKG_BUILD_TYPE release)' >> triplets/community/x64-linux-dynamic.cmake # add release target to the triplet in use, so only release is being built
     popd
 
