@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
+export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
+
 # CLONE PHASE
 git clone https://github.com/dxx-redux/dxx-redux.git source
 pushd source
@@ -8,10 +11,10 @@ popd
 
 # BUILD PHASE
 pushd source
-cmake -S d1 -B buildd1 -DCMAKE_BUILD_TYPE=RelWithDebInfo
+cmake -S d1 -B buildd1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH"
 cmake --build buildd1
 
-cmake -S d2 -B buildd2 -DCMAKE_BUILD_TYPE=RelWithDebInfo
+cmake -S d2 -B buildd2 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH"
 cmake --build buildd2
 popd
 
