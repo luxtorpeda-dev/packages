@@ -5856,6 +5856,11 @@
                     "name": "dxx-rebirth",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-15/",
                     "file": "dxx-rebirth-273570-15.tar.xz"
+                },
+                {
+                    "name": "dxx-redux",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-redux-1/",
+                    "file": "dxx-redux-273570-1.tar.xz"
                 }
             ],
             "choices": [
@@ -5893,6 +5898,11 @@
                     "name": "dxx-rebirth",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-15/",
                     "file": "dxx-rebirth-273580-15.tar.xz"
+                },
+                {
+                    "name": "dxx-redux",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-redux-1/",
+                    "file": "dxx-redux-273580-1.tar.xz"
                 }
             ],
             "choices": [
