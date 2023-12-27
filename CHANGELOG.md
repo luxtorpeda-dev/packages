@@ -1,3 +1,7 @@
+### 2023-12-27
+
+* Added DXX-Redux
+
 ### 2023-12-11
 
 * Daikatana - Update to 2023-08-17
