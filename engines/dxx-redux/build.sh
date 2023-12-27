@@ -21,8 +21,8 @@ cmake --build buildd2
 popd
 
 # COPY PHASE
-cp -rfv source/buildd1/d1x-redux/d1x-redux "$diststart/273570/dist/"
-cp -rfv source/buildd2/d2x-redux/d2x-redux "$diststart/273580/dist/"
+cp -rfv source/buildd1/main/d1x-redux "$diststart/273570/dist/"
+cp -rfv source/buildd2/main/d2x-redux "$diststart/273580/dist/"
 
 cp -rfv assets/run-d1redux.sh "$diststart/273570/dist/"
 cp -rfv assets/run-d2redux.sh "$diststart/273580/dist/"
