@@ -2,6 +2,8 @@
 
 export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
 export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
+export CXXFLAGS="-I"$VCPKG_INSTALLED_PATH"/include"
+export CFLAGS="-I"$VCPKG_INSTALLED_PATH"/include"
 
 # CLONE PHASE
 git clone https://github.com/dxx-redux/dxx-redux.git source
