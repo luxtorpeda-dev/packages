@@ -1,6 +1,7 @@
 ### 2023-12-27
 
 * Added DXX-Redux
+* Augustus - Update to 4.0.0
 
 ### 2023-12-11
 
