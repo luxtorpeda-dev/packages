@@ -6697,8 +6697,8 @@
                 },
                 {
                     "name": "augustus",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/augustus-10/",
-                    "file": "augustus-517790-10.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/augustus-11/",
+                    "file": "augustus-517790-11.tar.xz"
                 }
             ],
             "choices": [
