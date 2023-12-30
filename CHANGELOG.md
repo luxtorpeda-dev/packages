@@ -2,6 +2,7 @@
 
 * Added DXX-Redux
 * Augustus - Update to 4.0.0
+* Daggerfall Unity - Update to 1.0.0
 
 ### 2023-12-11
 
