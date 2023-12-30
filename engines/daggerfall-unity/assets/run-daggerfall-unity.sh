@@ -20,4 +20,14 @@ else
     exit 10
 fi
 
+if [ ! -f ~/.config/unity3d/Daggerfall\ Workshop/Daggerfall\ Unity/settings.ini ]; then
+    if [ ! -d ~/.config/unity3d/Daggerfall\ Workshop/Daggerfall\ Unity ]; then
+        LD_PRELOAD="" mkdir -p ~/.config/unity3d/Daggerfall\ Workshop/Daggerfall\ Unity
+    fi
+    LD_PRELOAD="" echo "No settings.ini file detected, so creating"
+
+    LD_PRELOAD="" echo -e "[Daggerfall]" >> ~/.config/unity3d/Daggerfall\ Workshop/Daggerfall\ Unity/settings.ini
+    LD_PRELOAD="" echo -e "MyDaggerfallPath = ./DFUPDATED/DAGGER" >> ~/.config/unity3d/Daggerfall\ Workshop/Daggerfall\ Unity/settings.ini
+fi
+
 "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- ./DaggerfallUnity.x86_64
