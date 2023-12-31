@@ -3558,6 +3558,27 @@
             "app_id": "6310"
         },
         {
+            "game_name": "The Journeyman Project 1: Pegasus Prime",
+            "download": [
+                {
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-25/",
+                    "file": "scummvm-common-25.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm.sh",
+            "engine_name": "ScummVM",
+            "cloudNotAvailable": true,
+            "app_id": "359420"
+        },
+        {
             "game_name": "Maniac Mansion",
             "download": [
                 {
