@@ -8,7 +8,7 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 # CLONE PHASE
 git clone https://github.com/scummvm/scummvm.git source
 pushd source
-git checkout -f 0b747ee
+git checkout -f f7e4d1f
 popd
 
 # BUILD PHASE
