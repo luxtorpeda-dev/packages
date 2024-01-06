@@ -1,3 +1,7 @@
+### 2024-01-05
+
+* DOOM Retro - Update to 5.2.0
+
 ### 2023-12-27
 
 * Added DXX-Redux
