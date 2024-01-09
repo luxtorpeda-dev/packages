@@ -8356,9 +8356,9 @@
             "game_name": "SiN Gold",
             "download": [
                 {
-                    "name": "diminatrix-binaries",
-                    "url": "https://github.com/rohit-n/dominatrix/releases/download/v1/",
-                    "file": "dominatrix-linux-v1-x86_64.tar.gz"
+                    "name": "dominatrix-binaries",
+                    "url": "https://github.com/rohit-n/dominatrix/releases/download/v1.1",
+                    "file": "/dominatrix-linux-v1.1-x86_64.tar.gz"
                 }
             ],
             "command": "./sin",
@@ -9968,7 +9968,7 @@
         },
         {
             "engine_link": "https://github.com/rohit-n/dominatrix",
-            "version": "v1",
+            "version": "v1.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
