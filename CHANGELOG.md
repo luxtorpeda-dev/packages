@@ -2,6 +2,7 @@
 
 * DOOM Retro - Update to 5.2.0
 * odamex - Update to 0880dd0
+* dominatrix - Update to v1.1
 
 ### 2023-12-27
 
