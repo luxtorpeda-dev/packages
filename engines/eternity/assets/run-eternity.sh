@@ -2,7 +2,7 @@
 
 if [[ -z "${SDL_SOUNDFONTS}" ]]; then
     echo "Setting default soundfont"
-    export SDL_SOUNDFONTS="GeneralUser GS v1.471.sf2"
+    export SDL_SOUNDFONTS="../GeneralUser GS v1.471.sf2"
 fi
 
 
