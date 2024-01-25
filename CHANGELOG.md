@@ -5,6 +5,7 @@
 * dominatrix - Update to v1.1
 * DOOM Retro - Update to v5.2.1
 * SeriousSamClassic-VK - Update to 1.10.6d
+* Added M.A.X.
 
 ### 2023-12-27
 
