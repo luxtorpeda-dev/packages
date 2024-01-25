@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export SteamDeck=""
+unset SteamDeck
+
 if [ ! -f ~/.config/gzdoom/gzdoom.ini ]; then
     if [ ! -d ~/.config/gzdoom ]; then
         mkdir -p ~/.config/gzdoom

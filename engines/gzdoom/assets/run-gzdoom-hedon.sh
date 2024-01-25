@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export SteamDeck=""
+unset SteamDeck
+
 if [ ! -f gzdoom.ini ]; then
     cp -rfv ./hedon_template.ini ./gzdoom.ini
 fi

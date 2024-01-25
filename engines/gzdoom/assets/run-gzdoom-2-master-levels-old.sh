@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export SteamDeck=""
+unset SteamDeck
+
 if [ ! -f doom_complete.pk3 ]; then
     cd wadsmoosh-branch-default
     cp -rfv ../wadsmoosh.py ./
