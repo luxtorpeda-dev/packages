@@ -24,4 +24,5 @@ popd
 
 # COPY PHASE
 cp -rfv source/build/max "$diststart/615250/dist/"
+cp -rfv source/assets/* "$diststart/615250/dist/"
 cp -rfv assets/* "$diststart/615250/dist/"
