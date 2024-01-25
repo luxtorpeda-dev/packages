@@ -16,7 +16,7 @@ pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+    -DCMAKE_BUILD_TYPE=Debug \
     -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH" \
     ..
 make -j "$(nproc)"
