@@ -2,6 +2,8 @@
 
 export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
 export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
+export CFLAGS="$CFLAGS -std=c++20"
+export CXXFLAGS="$CXXFLAGS -std=c++20"
 
 # CLONE PHASE
 git clone https://github.com/klei1984/max.git source
