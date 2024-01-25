@@ -8389,7 +8389,13 @@
         },
         {
             "game_name": "M.A.X.: Mechanized Assault & Exploration",
-            "download": [],
+            "download": [
+                {
+                    "name": "max",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/max-1/",
+                    "file": "max-615250-1.tar.xz"
+                }
+            ],
             "command": "./run-max.sh",
             "engine_name": "M.A.X.",
             "cloudNotAvailable": true,
