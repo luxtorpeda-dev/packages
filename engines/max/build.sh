@@ -15,7 +15,7 @@ popd
 pushd "source"
 mkdir -p build
 cd build
-cmake -G "Ninja" -DCMAKE_TOOLCHAIN_FILE=../cmake/toolchain-linux-x86_64.cmake -DCMAKE_BUILD_TYPE=Debug -DBUILD_SHARED_LIBS=ON -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH" ..
+cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Debug -DBUILD_SHARED_LIBS=ON -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH" ..
 cmake --build . --parallel
 popd
 
