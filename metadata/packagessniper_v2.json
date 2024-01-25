@@ -8396,7 +8396,13 @@
                     "file": "max-615250-1.tar.xz"
                 }
             ],
-            "command": "./run-max.sh",
+            "download_config": [
+                {
+                    "extract_location": "./max",
+                    "download_name": "max"
+                }
+            ],
+            "command": "./max/run-max.sh",
             "engine_name": "M.A.X.",
             "cloudNotAvailable": true,
             "app_id": "615250"
