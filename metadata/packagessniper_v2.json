@@ -8406,7 +8406,38 @@
             "engine_name": "M.A.X.",
             "cloudNotAvailable": true,
             "app_id": "615250"
-        }
+        },
+        {
+            "game_name": "Beyond Sunset",
+            "download": [
+                {
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-46/",
+                    "file": "gzdoom-common-46.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "command": "./run-gzdoom-local.sh",
+            "command_args": [
+                "-iwad",
+                "sunset.ipk3",
+                "-config",
+                "gzdoom.ini",
+                "-savedir",
+                "./saves"
+            ],
+            "notices": [
+                {
+                    "key": "saves",
+                    "value": "save_game_dir"
+                }
+            ],
+            "engine_name": "GZDoom",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
+            "app_id": "1665260"
+        },
     ],
     "engines": [
         {
