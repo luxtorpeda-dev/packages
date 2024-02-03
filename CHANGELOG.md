@@ -1,3 +1,7 @@
+### 2024-02-03
+
+* gzdoom - Add support for Beyond Sunset
+
 ### 2024-01-05
 
 * DOOM Retro - Update to 5.2.0
