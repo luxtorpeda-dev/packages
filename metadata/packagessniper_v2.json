@@ -3552,7 +3552,7 @@
                     "download_name": "scummvm"
                 }
             ],
-            "command": "./scum/run-scummvm.sh",
+            "command": "./scum/run-scummvm-longest-journey.sh",
             "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "6310"
