@@ -1,6 +1,7 @@
 ### 2024-02-03
 
 * gzdoom - Add support for Beyond Sunset
+* Doom Runner - Update to v1.8.2
 
 ### 2024-01-05
 
