@@ -52,4 +52,4 @@ echo -e "\n\n[XGame.xPlayer]\nInputClass=Class'foxWSFix.foxPlayerInput'" >> linu
 cp -rfv linuxdata/System/Default.ini linuxdata/System/Default.ini-backup
 grep -v "ut2004master2.epicgames.com" linuxdata/System/Default.ini > tmp.ini
 mv tmp.ini linuxdata/System/Default.ini
-sed -i "s/ut2004master1.epicgames.com/utmaster.openspy.net/" linuxdata/System/Default.ini
+sed -i "s/ut2004master1.epicgames.com/ut2004master.333networks.com/" linuxdata/System/Default.ini
