@@ -13,7 +13,7 @@ jobs:
       container: ${{ steps.findname.outputs.container }}
     steps:
     - name: Checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@v4
     - name: Find Engine Name
       id: findname
       uses: luxtorpeda-dev/action-build-get-engine-name@v12

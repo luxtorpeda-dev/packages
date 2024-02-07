@@ -12,7 +12,7 @@ jobs:
       matrix: ${{ steps.check_download_status.outputs.matrix }}
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Check Download Status
       id: check_download_status
       uses: luxtorpeda-dev/action-check-download-status@v1
