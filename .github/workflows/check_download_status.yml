@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Check Download Status
       id: check_download_status
-      uses: luxtorpeda-dev/action-check-download-status@v1
+      uses: luxtorpeda-dev/action-check-download-status@main
   create_tickets:
     runs-on: ubuntu-latest
     if: ${{ needs.check_status.outputs.matrix && needs.check_status.outputs.matrix != '{}' && needs.check_status.outputs.matrix != '' }}

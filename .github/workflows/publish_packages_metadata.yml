@@ -14,12 +14,12 @@ jobs:
         uses: actions/checkout@v4
       - name: Generate Packages Hash
         id: generatehash
-        uses: luxtorpeda-dev/action-build-generate-sha1-hash@v3
+        uses: luxtorpeda-dev/action-build-generate-sha1-hash@master
         with:
             file: metadata/packagessniper_v2.json
       - name: Generate Packages Hash 256
         id: generatehash256
-        uses: luxtorpeda-dev/action-build-generate-sha256-hash@v3
+        uses: luxtorpeda-dev/action-build-generate-sha256-hash@main
         with:
             file: metadata/packagessniper_v2.json
       - name: Write Packages Hash
