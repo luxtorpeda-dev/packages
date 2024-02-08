@@ -25,10 +25,21 @@ jobs:
     needs: findengine
     outputs:
       app_ids: ${{env.APP_IDS }}
-    container: ${{ needs.findengine.outputs.container }}
+    container:
+        image: ${{ needs.findengine.outputs.container }}
+        volumes:
+            - /usr/share/dotnet:/gh/dotnet
+            - /opt/ghc:/gh/ghc
+            - /usr/local/share/boost:/gh/boost
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+    - name: Cleanup GH Environment
+      run: |
+        sudo rm -rf /gh/dotnet/*
+        sudo rm -rf /gh/ghc/*
+        sudo rm -rf /gh/boost/*
+        df -h
     - name: Build
       run: ./common/start_build.sh ${{needs.findengine.outputs.engine}}
     - name: Package
