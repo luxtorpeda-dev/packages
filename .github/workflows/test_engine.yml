@@ -25,15 +25,16 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-    - name: Build & Package
-      uses: addnab/docker-run-action@v3
+    - name: Free Disk Space
+      run: |
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /opt/ghc
+        sudo rm -rf "/usr/local/share/boost"
+        sudo rm -rf "$AGENT_TOOLSDIRECTORY"
+    - name: Build & Package # SWITCH TO USING USING INSTEAD OF THIS, figure out how to mount volume and run these commands, and get proper exit codes
+      uses: docker://${{ needs.findengine.outputs.container }}
       with:
-        image: ${{ needs.findengine.outputs.container }}
-        options: -v ${{ github.workspace }}:/packages
-        run: |
-            cd /packages
-            ./common/start_build.sh ${{needs.findengine.outputs.engine}}
-            ./common/package.sh ${{needs.findengine.outputs.engine}}
+        args: /bin/sh -c "./common/start_build.sh ${{needs.findengine.outputs.engine}} && ./common/package.sh ${{needs.findengine.outputs.engine}}"
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
