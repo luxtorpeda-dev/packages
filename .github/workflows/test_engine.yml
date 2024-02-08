@@ -22,14 +22,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     needs: findengine
-    container: ${{ needs.findengine.outputs.container }}
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-    - name: Build
-      run: ./common/start_build.sh ${{needs.findengine.outputs.engine}}
-    - name: Package
-      run: ./common/package.sh ${{needs.findengine.outputs.engine}}
+    - name: Build & Package
+      uses: addnab/docker-run-action@v3
+      with:
+        image: ${{ needs.findengine.outputs.container }}
+        options: -v ${{ github.workspace }}:/packages
+        run: |
+            cd /packages
+            ./common/start_build.sh ${{needs.findengine.outputs.engine}}
+            ./common/package.sh ${{needs.findengine.outputs.engine}}
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
