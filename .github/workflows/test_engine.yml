@@ -28,7 +28,6 @@ jobs:
             - /usr/share/dotnet:/gh/dotnet
             - /opt/ghc:/gh/ghc
             - /usr/local/share/boost:/gh/boost
-            - $AGENTS_TOOLSDIRECTORY:/gh/tools
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -37,7 +36,6 @@ jobs:
         sudo rm -rf /gh/dotnet/*
         sudo rm -rf /gh/ghc/*
         sudo rm -rf /gh/boost/*
-        sudo rm -rf /gh/tools/*
         df -h
     - name: Build
       run: ./common/start_build.sh ${{needs.findengine.outputs.engine}}
