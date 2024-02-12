@@ -129,13 +129,13 @@ jobs:
         with:
             file: metadata/packagessniper_v2.json
       - name: Write Packages Hash
-        uses: DamianReeves/write-file-action@v1.2
+        uses: DamianReeves/write-file-action@v1.3
         with:
             path: metadata/packagessniper_v2.hash
             contents: ${{ steps.generatehash.outputs.hash }}
             write-mode: overwrite
       - name: Write Packages Hash 256
-        uses: DamianReeves/write-file-action@v1.2
+        uses: DamianReeves/write-file-action@v1.3
         with:
             path: metadata/packagessniper_v2.hash256
             contents: ${{ steps.generatehash256.outputs.hash }}
