@@ -2,6 +2,7 @@
 
 * gzdoom - Add support for Beyond Sunset
 * Doom Runner - Update to v1.8.2
+* DOSBox Staging - Update to 0.81.0
 
 ### 2024-01-05
 
