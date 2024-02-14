@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/dosbox-staging/dosbox-staging.git source
 pushd source
-git checkout -f 5c9161d
+git checkout -f 07f31ea
 popd
 
 # BUILD PHASE

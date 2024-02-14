@@ -8805,7 +8805,7 @@
         },
         {
             "engine_link": "https://github.com/dosbox-staging/dosbox-staging",
-            "version": "0.80.1",
+            "version": "0.81.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
