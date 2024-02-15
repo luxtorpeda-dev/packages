@@ -49,6 +49,8 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: dist
+      - name: Artifact Folder List
+        run: ls -al
       - name: Generate Matrix
         id: matrix
         uses: luxtorpeda-dev/action-build-generate-file-matrix@master
