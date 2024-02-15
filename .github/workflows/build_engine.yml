@@ -49,13 +49,11 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: dist
-      - name: Artifact Folder List
-        run: ls -al
       - name: Generate Matrix
         id: matrix
         uses: luxtorpeda-dev/action-build-generate-file-matrix@master
         with:
-          name: dist/${{needs.findengine.outputs.engine}}
+          name: ${{needs.findengine.outputs.engine}}
       - name: Generate build number
         id: buildnumber
         uses: onyxmueller/build-tag-number@v1
@@ -83,7 +81,7 @@ jobs:
       with:
         name: dist
     - name: Rename Artifact for Release Prep
-      run: mv "dist/${{needs.findengine.outputs.engine}}/${{ matrix.name }}${{ matrix.extension }}" "${{ matrix.name }}-${{ needs.finddeploy.outputs.build_number }}${{ matrix.extension }}"
+      run: mv ${{needs.findengine.outputs.engine}}/${{ matrix.name }}${{ matrix.extension }}" "${{ matrix.name }}-${{ needs.finddeploy.outputs.build_number }}${{ matrix.extension }}"
     - name: Update Release
       uses: softprops/action-gh-release@v0.1.15
       env:
