@@ -401,6 +401,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/russian-doom-2/",
                     "file": "russian-doom-common-2.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "woof",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/woof-1/",
+                    "file": "woof-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -809,6 +815,12 @@
                     "name": "russian-doom",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/russian-doom-2/",
                     "file": "russian-doom-common-2.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "woof",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/woof-1/",
+                    "file": "woof-common-1.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -1324,6 +1336,12 @@
                     "name": "russian-doom",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/russian-doom-2/",
                     "file": "russian-doom-common-2.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "woof",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/woof-1/",
+                    "file": "woof-common-1.tar.xz",
                     "cache_by_name": true
                 }
             ],
