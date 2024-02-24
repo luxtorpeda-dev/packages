@@ -21,7 +21,7 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp -rfv "source/build/woof" "$diststart/common/dist/"
+cp -rfv "source/build/src/woof" "$diststart/common/dist/"
 cp -rfv "source/autoload" "$diststart/common/dist/"
 cp -rfv "source/docs" "$diststart/common/dist/"
 cp -rfv "source/soundfonts" "$diststart/common/dist/"
