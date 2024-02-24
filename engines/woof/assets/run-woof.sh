@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ./doom-retro
+cd ./woof
 
 if [[ -z "${SDL_SOUNDFONTS}" ]]; then
     echo "Setting default soundfont"
