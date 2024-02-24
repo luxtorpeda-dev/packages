@@ -590,6 +590,29 @@
                     ]
                 },
                 {
+                    "name": "Woof!",
+                    "engine_name": "Woof!",
+                    "command": "./woof/run-woof.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/DOOM.WAD"
+                    ],
+                    "download": [
+                        "woof",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./woof",
+                            "download_name": "woof"
+                        },
+                        {
+                            "extract_location": "./woof",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
                     "name": "Eternity Engine",
                     "engine_name": "Eternity Engine",
                     "command": "./eternity/run-eternity.sh",
@@ -1099,6 +1122,42 @@
                         },
                         {
                             "extract_location": "./doom-retro",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
+                    "name": "Woof!",
+                    "engine_name": "Woof!",
+                    "commands": [
+                        {
+                            "cmd": "./woof/run-woof.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutoniam?.conf"
+                        },
+                        {
+                            "cmd": "./woof/run-woof.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/TNT.WAD"
+                            ],
+                            "command_name": ".*tntm?.conf"
+                        }
+                    ],
+                    "download": [
+                        "woof",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./woof",
+                            "download_name": "woof"
+                        },
+                        {
+                            "extract_location": "./woof",
                             "download_name": "fluid-soundfont"
                         }
                     ]
@@ -1835,6 +1894,65 @@
                         },
                         {
                             "extract_location": "./doom-retro",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
+                    "name": "Woof!",
+                    "commands": [
+                        {
+                            "cmd": "./woof/run-woof.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*rerelease"
+                        },
+                        {
+                            "cmd": "./woof/run-woof.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*doom2"
+                        },
+                        {
+                            "cmd": "./woof/run-woof.sh",
+                            "args": [
+                                "-iwad",
+                                "../finaldoombase/TNT.WAD"
+                            ],
+                            "command_name": ".*tnt"
+                        },
+                        {
+                            "cmd": "./woof/run-woof.sh",
+                            "args": [
+                                "-iwad",
+                                "../finaldoombase/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutonia"
+                        },
+                        {
+                            "cmd": "/bin/sh",
+                            "args": [
+                                "-c",
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
+                            ],
+                            "command_name": ".*master"
+                        }
+                    ],
+                    "download": [
+                        "woof",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./woof",
+                            "download_name": "woof"
+                        },
+                        {
+                            "extract_location": "./woof",
                             "download_name": "fluid-soundfont"
                         }
                     ]
@@ -9723,6 +9841,21 @@
             ],
             "controllerSupported": true,
             "engine_name": "DOOM Retro"
+        },
+        {
+            "engine_link": "https://github.com/fabiangreffrath/woof",
+            "version": "14.0.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/fabiangreffrath/woof/blob/master/COPYING",
+            "notices": [
+                {
+                    "label": "Downloads FluidR3_GM.sf2 automatically. Can override SDL_SOUNDFONTS in launch options."
+                }
+            ],
+            "controllerSupported": true,
+            "engine_name": "Woof!"
         },
         {
             "engine_link": "https://github.com/odamex/odamex",
