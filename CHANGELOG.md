@@ -1,3 +1,7 @@
+### 2024-02-24
+
+* Add Wolf! engine
+
 ### 2024-02-03
 
 * gzdoom - Add support for Beyond Sunset
