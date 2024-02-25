@@ -1,6 +1,7 @@
 ### 2024-02-24
 
 * Add Wolf! engine
+* Add sc2 for Free Stars: The Ur-Quan Masters
 
 ### 2024-02-03
 
