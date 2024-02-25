@@ -8573,6 +8573,14 @@
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
             "app_id": "1665260"
+        },
+        {
+            "game_name": "Free Stars: The Ur-Quan Masters",
+            "download": [],
+            "command": "./sc2.sh",
+            "engine_name": "The Ur-Quan Masters",
+            "cloudNotAvailable": true,
+            "app_id": "2645580"
         }
     ],
     "engines": [
@@ -10207,6 +10215,16 @@
             "license_link": "https://github.com/klei1984/max/blob/master/LICENSE",
             "controllerNotSupported": true,
             "engine_name": "M.A.X."
+        },
+        {
+            "engine_link": "https://sourceforge.net/projects/sc2/",
+            "version": "0317272",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://sourceforge.net/p/sc2/uqm/ci/main/tree/sc2/COPYING",
+            "controllerNotSupported": true,
+            "engine_name": "The Ur-Quan Masters"
         }
     ],
     "default_engine": {
