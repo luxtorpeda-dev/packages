@@ -11,8 +11,9 @@ cp -rfv ./config.state source/sc2
 pushd "source/sc2"
 ./build.sh uqm reprocess_config
 ./build.sh uqm
+./build.sh uqm install
 popd
 
 # COPY PHASE
-cp -v source/sc2/obj/debug/src/uqm "$diststart/2645580/dist/"
+cp -v /usr/local/games/bin/uqm "$diststart/2645580/dist/"
 cp -v assets/sc2.sh "$diststart/2645580/dist/"
