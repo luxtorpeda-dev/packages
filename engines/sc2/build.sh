@@ -15,5 +15,5 @@ pushd "source/sc2"
 popd
 
 # COPY PHASE
-cp -v /usr/local/games/bin/uqm "$diststart/2645580/dist/"
+cp -v /usr/local/games/lib/uqm/uqm "$diststart/2645580/dist/"
 cp -v assets/sc2.sh "$diststart/2645580/dist/"
