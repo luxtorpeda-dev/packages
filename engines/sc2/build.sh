@@ -14,5 +14,5 @@ pushd "source/sc2"
 popd
 
 # COPY PHASE
-cp -v source/obj/debug/src/uqm "$diststart/2645580/dist/"
+cp -v source/sc2/obj/debug/src/uqm "$diststart/2645580/dist/"
 cp -v assets/sc2.sh "$diststart/2645580/dist/"
