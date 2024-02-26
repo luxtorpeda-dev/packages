@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "^17.2.1",
     "@angular/router": "^17.2.1",
     "bootstrap": "^5.3.2",
-    "npm-check-updates": "^16.7.13",
+    "npm-check-updates": "^16.14.15",
     "rxjs": "~7.8.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
