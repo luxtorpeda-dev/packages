@@ -7259,20 +7259,6 @@
             ]
         },
         {
-            "game_name": "WRATH: Aeon of Ruin",
-            "download": [
-                {
-                    "name": "wrath-darkplaces",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/wrath-darkplaces-3/",
-                    "file": "wrath-darkplaces-1000410-3.tar.xz"
-                }
-            ],
-            "command": "./wrath",
-            "engine_name": "wrath-darkplaces",
-            "cloudNotAvailable": true,
-            "app_id": "1000410"
-        },
-        {
             "game_name": "Blood: Fresh Supply",
             "download": [
                 {
@@ -9726,16 +9712,6 @@
             "license_link": "https://github.com/chermenin/REminiscence/blob/master/LICENSE",
             "controllerSupported": true,
             "engine_name": "REminiscence / REinforced"
-        },
-        {
-            "engine_link": "https://github.com/KillPixelGames/wrath-darkplaces",
-            "version": "Content Update #3",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://github.com/KillPixelGames/wrath-darkplaces/blob/master/COPYING",
-            "controllerNotSupported": true,
-            "engine_name": "wrath-darkplaces"
         },
         {
             "engine_link": "https://github.com/Warzone2100/warzone2100",
