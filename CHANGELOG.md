@@ -2,6 +2,7 @@
 
 * Add Wolf! engine
 * Add sc2 for Free Stars: The Ur-Quan Masters
+* fs2open - Update to 24.0.0
 
 ### 2024-02-03
 
