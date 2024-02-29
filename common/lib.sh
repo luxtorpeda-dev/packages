@@ -1,5 +1,16 @@
 #!/bin/bash
 
+process_engine_environment () {
+    if [ -f "env.json" ]; then
+        echo "Processing env.json"
+        sudo apt-get update && sudo apt-get install -y jq
+        eval "$(jq -r "to_entries|map(\"export \(.key)=\(.value|if type==\"array\" then join(\" \") else tostring end|@sh)\")|.[]" env.json)"
+    else
+        "Using env.sh"
+        source env.sh
+    fi
+}
+
 log_environment () {
 	pwd
 	nproc
