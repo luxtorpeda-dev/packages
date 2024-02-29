@@ -5,7 +5,7 @@ export pstart="$PWD"
 source common/lib.sh
 
 pushd "engines/$ENGINE_NAME"
-source env.sh
+process_engine_environment
 log_environment
 popd
 

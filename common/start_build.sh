@@ -6,7 +6,7 @@ export ROOT_DIR="$PWD"
 
 pushd "engines/$ENGINE_NAME"
 
-source env.sh
+process_engine_environment
 log_environment
 setup_dist_dirs "$STEAM_APP_ID_LIST"
 
