@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/EasyRPG/Player.git source
 pushd source
-git checkout -f 281be71
+git checkout -f "$COMMIT_TAG"
 git submodule update --init --recursive
 popd
 

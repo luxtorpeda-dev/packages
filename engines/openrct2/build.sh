@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenRCT2/OpenRCT2.git source
 pushd source
-git checkout -f 0e8d46e
+git checkout -f "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

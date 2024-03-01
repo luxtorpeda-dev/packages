@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Warzone2100/warzone2100.git source
 pushd source
-git checkout -f bb5d641
+git checkout -f "$COMMIT_TAG"
 git submodule update --init --recursive
 popd
 

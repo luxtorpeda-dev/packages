@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/hrehfeld/QuakeInjector source
 pushd source
-git checkout 4e06006
+git checkout "$COMMIT_TAG"
 popd
 
 # COPY PHASE
