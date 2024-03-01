@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/atsb/Hiigara.git source
 pushd source
-git checkout 5fca0d2
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

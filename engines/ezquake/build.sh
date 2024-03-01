@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/ezQuake/ezquake-source.git source
 pushd source
-git checkout e7ecc1f
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

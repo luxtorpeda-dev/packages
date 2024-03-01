@@ -6,7 +6,7 @@ export LD_LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib:$LD_LIBRARY_PATH"
 # CLONE PHASE
 git clone https://github.com/OpenApoc/OpenApoc.git source
 pushd source
-git checkout -f a224501
+git checkout -f "$COMMIT_TAG"
 git submodule update --init --recursive
 popd
 

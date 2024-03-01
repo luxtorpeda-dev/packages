@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/scemino/engge.git source
 pushd source
-git checkout 5e607bc
+git checkout "$COMMIT_TAG"
 git submodule update --init --recursive
 popd
 
