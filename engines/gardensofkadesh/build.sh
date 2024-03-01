@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/GardensOfKadesh/Homeworld.git source
 pushd source
-git checkout 4e3f75d
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

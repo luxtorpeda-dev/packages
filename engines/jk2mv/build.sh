@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/mvdevs/jk2mv.git source
 pushd source
-git checkout fc18d90
+git checkout "$COMMIT_HASH"
 git submodule update --init --recursive
 popd
 

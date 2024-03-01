@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/neuromancer/avp.git source
 pushd source
-git checkout 2d57747
+git checkout "$COMMIT_HASH"
 git am < ../patches/0001-Remove-RenderSmallFontString_Wrapped-call-in-RenderH.patch
 git am < ../patches/0001-allow-unlimited-saves.patch
 git am < ../patches/0001-Fix-for-gcc-10.patch

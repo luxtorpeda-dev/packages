@@ -5,7 +5,7 @@
 # CLONE PHASE
 git clone https://github.com/ioquake/ioq3.git source
 pushd source
-git checkout 18f3b6b
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/nukeykt/NBlood.git source
 pushd source
-git checkout 09143c3
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

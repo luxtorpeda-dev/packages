@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/ptitSeb/ctp2.git source
 pushd source
-git checkout ac46e60
+git checkout "$COMMIT_HASH"
 popd
 
 git clone https://github.com/openSUSE/gtk2-compat.git

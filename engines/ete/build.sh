@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/etfdevs/ETe.git source
 pushd source
-git checkout 1e69cda
+git checkout "$COMMIT_HASH"
 popd
 
 git clone https://github.com/etlegacy/etlegacy etlegacy

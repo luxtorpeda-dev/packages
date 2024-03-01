@@ -5,7 +5,7 @@ sudo apt-get -y install imagemagick
 # CLONE PHASE
 git clone https://github.com/jasonrohrer/OneLife.git source
 pushd source
-git checkout ad2a7aa
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

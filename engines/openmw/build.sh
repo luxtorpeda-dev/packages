@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenMW/openmw source
 pushd source
-git checkout -f 3b669c2
+git checkout -f "$COMMIT_HASH"
 popd
 
 git clone https://github.com/zesterer/openmw-shaders.git openmw-shaders

@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/OpenXcom/OpenXcom.git source
 pushd source
-git checkout -f 82b7b11
+git checkout -f "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

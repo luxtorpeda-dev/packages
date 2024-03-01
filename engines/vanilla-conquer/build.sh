@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/TheAssemblyArmada/Vanilla-Conquer.git source
 pushd source
-git checkout 83c152c
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

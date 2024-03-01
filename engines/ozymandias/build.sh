@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Banderi/Ozymandias.git source
 pushd source
-git checkout 9e28192
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

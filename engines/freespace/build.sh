@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/ptitSeb/freespace2.git source
 pushd source
-git checkout -f 500ee24
+git checkout -f "$COMMIT_HASH"
 git am < ../patches/0001-narrowing-fix.patch
 popd
 

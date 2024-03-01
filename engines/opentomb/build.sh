@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/opentomb/OpenTomb.git source
 pushd source
-git checkout 8e4c249
+git checkout "$COMMIT_HASH"
 git am < ../patches/0001-compile-fix.patch
 popd
 

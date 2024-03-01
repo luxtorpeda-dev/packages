@@ -8,7 +8,7 @@ export CXXFLAGS="$CXXFLAGS -std=c++20"
 # CLONE PHASE
 git clone https://github.com/klei1984/max.git source
 pushd source
-git checkout 0317272
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

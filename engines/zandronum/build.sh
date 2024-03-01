@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/TorrSamaho/zandronum.git source
 pushd source
-git checkout 99a19d7
+git checkout "$COMMIT_HASH"
 popd
 
 wget https://zandronum.com/essentials/fmod/fmodapi42416linux64.tar.gz

@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/zturtleman/spearmint.git source
 pushd source
-git checkout 1ce702f
+git checkout "$COMMIT_HASH"
 popd
 
 git clone https://github.com/zturtleman/mint-arena.git mint-arena

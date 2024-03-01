@@ -8,7 +8,7 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 # CLONE PHASE
 git clone https://github.com/sezero/uhexen2.git source
 pushd source
-git checkout f22de3d
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

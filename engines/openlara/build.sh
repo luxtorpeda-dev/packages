@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/XProger/OpenLara.git source
 pushd source
-git checkout fc273f2
+git checkout "$COMMIT_HASH"
 popd
 
 pushd source/src/platform/nix

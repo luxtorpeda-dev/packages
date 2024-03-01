@@ -5,7 +5,7 @@
 # CLONE PHASE
 git clone https://github.com/yquake2/yquake2.git source
 pushd source
-git checkout 4db6534
+git checkout "$COMMIT_HASH"
 popd
 
 git clone https://github.com/yquake2/ctf.git source-ctf

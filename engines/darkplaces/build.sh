@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/DarkPlacesEngine/darkplaces.git source
 pushd source
-git checkout -f 901c2dc
+git checkout -f "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

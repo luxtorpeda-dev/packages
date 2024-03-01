@@ -8,7 +8,7 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 # CLONE PHASE
 git clone https://github.com/Shpoike/Quakespasm.git source
 pushd source
-git checkout e9822ae
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/Interrupt/systemshock.git source
 pushd source
-git checkout bcdb119
+git checkout "$COMMIT_HASH"
 rm CMakeLists.txt
 cp -rfv CMakeLists.32bit.txt CMakeLists.txt
 popd

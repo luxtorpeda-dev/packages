@@ -7,7 +7,7 @@ mkdir -p "$tmp"
 # CLONE PHASE
 git clone https://github.com/TES3MP/openmw-tes3mp.git source
 pushd source
-git checkout -f 6895409
+git checkout -f "$COMMIT_HASH"
 git submodule update --init --recursive
 git am < ../patches/0001-fix-for-compile-thanks-to-https-github.com-NixOS-nix.patch
 popd

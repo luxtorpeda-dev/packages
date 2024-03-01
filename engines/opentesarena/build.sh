@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/afritz1/OpenTESArena source
 pushd source
-git checkout 2d443bd
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

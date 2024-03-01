@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/qbasicer/qzdl.git source
 pushd source
-git checkout -f 44aaec0
+git checkout -f "$COMMIT_HASH"
 popd
 
 export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"

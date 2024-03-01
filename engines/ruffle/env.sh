@@ -1,7 +1,0 @@
-#!/bin/bash
-
-export STEAM_APP_ID_LIST="default 92 40720 214790"
-export LICENSE_PATH="./source/LICENSE.md"
-export ADDITIONAL_LICENSES="./jpexs-decompiler/license.txt"
-export LIBRARIES="openjdk11"
-export COMMON_PACKAGE="1"

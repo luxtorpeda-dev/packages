@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/ValveSoftware/source-sdk-2013 source
 pushd source
-git checkout -f 0d8dcee
+git checkout -f "$COMMIT_HASH"
 popd
 
 # COPY PHASE

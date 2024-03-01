@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/nwjs/nw.js.git source
 pushd source
-git checkout f110a6a
+git checkout "$COMMIT_HASH"
 popd
 
 # COPY PHASE

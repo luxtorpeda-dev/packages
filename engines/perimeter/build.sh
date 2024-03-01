@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/IonAgorria/Perimeter.git source
 pushd source
-git checkout -f 3b06a6f
+git checkout -f "$COMMIT_HASH"
 git submodule update --init --recursive
 popd
 

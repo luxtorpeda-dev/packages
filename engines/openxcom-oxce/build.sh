@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/MeridianOXC/OpenXcom.git source
 pushd source
-git checkout 269fac2
+git checkout "$COMMIT_HASH"
 popd
 
 cp -rfv "$pfx/lib/pkgconfig/sdl12_compat.pc" "$pfx/lib/pkgconfig/sdl.pc"

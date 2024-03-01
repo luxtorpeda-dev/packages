@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/arvindrajayadav/Good-Robot.git source
 pushd source
-git checkout c9a0a5f
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

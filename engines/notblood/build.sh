@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/clipmove/NotBlood.git source
 pushd source
-git checkout 7813e43
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

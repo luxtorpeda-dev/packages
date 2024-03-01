@@ -10,7 +10,7 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib;$pfx/lib"
 # CLONE PHASE
 git clone https://github.com/team-eternity/eternity.git source
 pushd source
-git checkout d699a7d
+git checkout "$COMMIT_HASH"
 git submodule update --init
 popd
 

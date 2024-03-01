@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/jtrfp/terminal-recall.git source
 pushd source
-git checkout b502d01
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE
