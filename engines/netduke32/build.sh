@@ -5,7 +5,7 @@ git config --global http.sslverify false
 export GIT_SSL_NO_VERIFY=1
 git clone https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor.git source
 pushd source
-git checkout f919616e
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

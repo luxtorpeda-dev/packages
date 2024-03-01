@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://gitlab.com/ThibaultLemaire/HomeworldSDL.git source
 pushd source
-git checkout 402e6c8d
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

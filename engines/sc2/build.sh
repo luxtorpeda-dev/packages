@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://git.code.sf.net/p/sc2/uqm source
 pushd source
-git checkout 102099
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

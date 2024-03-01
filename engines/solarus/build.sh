@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://gitlab.com/solarus-games/solarus.git source
 pushd source
-git checkout 3aec70b0
+git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE

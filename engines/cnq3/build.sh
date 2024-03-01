@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://bitbucket.org/CPMADevs/cnq3.git source
 pushd source
-git checkout 1b74aed
+git checkout "$COMMIT_HASH"
 popd
 
 

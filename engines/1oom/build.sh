@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://gitlab.com/Tapani_/1oom.git source
 pushd source
-git checkout -f cc2b61c04c9bd11e17b06dc7b8d7c84760159842
+git checkout -f "$COMMIT_HASH"
 popd
 
 # BUILD PHASE
