@@ -8,7 +8,7 @@ Each package has a folder with the build scripts and any static assets, such as 
 
 The structure of an engine folder is as follows:
 
-* `env.sh` - Contains the steam app id list for the games that this engine applies to, as well as the path to the license file from the engine repository, if exists. If there are multiple app ids, then each one should be separated by a space.
+* `env.json` - Contains the steam app id list for the games that this engine applies to, as well as the path to the license file from the engine repository, if exists. If there are multiple app ids, then each one should be an element in the array.
 * `build.sh` - Script that will pull down the source repository, run any necessary configuration, and then build the engine.
 * `assets/*` - If needed, an assets folder can be created for any static assets needed for the engine.
 
@@ -73,14 +73,22 @@ cp -rfv tmp/lib/dhewm3/* "$diststart/9070/dist/"
 
 2. In the engines folder, create a new folder named after the engine use this folder for the following steps.
 
-3. Create env.sh file, using the following template.
+3. Create env.json file, using the following template. COMMIT_TAG should be used for a release, while COMMIT_HASH should be used for grabbing from the latest of a branch.
 
-```bash
-#!/bin/bash
-
-export STEAM_APP_ID_LIST="9050 9070"
-export LICENSE_PATH="./source/COPYING.txt"
-export ADDITIONAL_LICENSES="./source/LICENSE.DejaVu ./boost/LICENSE_1_0.txt ./glm/copying.txt ./data/LICENSE"
+```json
+{
+    "STEAM_APP_ID_LIST": [
+        "9050",
+        "9070",
+        "9100"
+    ],
+    "LICENSE_PATH": "./source/COPYING.txt",
+    "ADDITIONAL_LICENSES": [
+        "./source/README.md"
+    ],
+    "COMMON_PACKAGE": true,
+    "COMMIT_TAG": "1.5.2"
+}
 ```
         
 
@@ -92,7 +100,7 @@ export ADDITIONAL_LICENSES="./source/LICENSE.DejaVu ./boost/LICENSE_1_0.txt ./gl
 # CLONE PHASE
 git clone https://github.com/dhewm/dhewm3.git source
 pushd source
-git checkout 3a763fc6
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
@@ -114,7 +122,6 @@ cp -rfv tmp/lib/dhewm3/* "$diststart/9070/dist/"
 5. Set the appropriate permisions on the scripts.
 
 ```bash
-chmod +x env.sh
 chmod +x build.sh
 ```
         
