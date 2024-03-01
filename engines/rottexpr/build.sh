@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/LTCHIPS/rottexpr.git source
 pushd source
-git checkout 407e3d8
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

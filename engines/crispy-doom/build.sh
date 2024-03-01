@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/fabiangreffrath/crispy-doom.git source
 pushd source
-git checkout 593f5b9
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

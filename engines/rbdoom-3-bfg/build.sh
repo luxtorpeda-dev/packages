@@ -14,7 +14,7 @@ sudo ldconfig
 # CLONE PHASE
 git clone https://github.com/RobertBeckebans/RBDOOM-3-BFG.git source
 pushd source
-git checkout 39ae120
+git checkout "$COMMIT_TAG"
 git submodule update --init --recursive
 popd
 

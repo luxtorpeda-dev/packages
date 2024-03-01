@@ -6,7 +6,7 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 # CLONE PHASE
 git clone https://github.com/bradharding/doomretro.git source
 pushd source
-git checkout 7c788ad
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

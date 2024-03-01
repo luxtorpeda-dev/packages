@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/bibendovsky/bstone.git source
 pushd source
-git checkout e44d3aa
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

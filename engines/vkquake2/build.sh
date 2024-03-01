@@ -6,7 +6,7 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 # CLONE PHASE
 git clone https://github.com/kondrak/vkQuake2.git source
 pushd source
-git checkout bdd39b1
+git checkout "$COMMIT_TAG"
 popd
 
 curl -L -v -o libXxf86dga-1.1.5.tar.bz2 http://www.x.org/releases/individual/lib/libXxf86dga-1.1.5.tar.bz2

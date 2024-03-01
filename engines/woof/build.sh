@@ -6,7 +6,7 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 # CLONE PHASE
 git clone https://github.com/fabiangreffrath/woof.git source
 pushd source
-git checkout b314785
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

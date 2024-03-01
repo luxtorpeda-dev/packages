@@ -21,7 +21,7 @@ sudo ldconfig
 # CLONE PHASE
 git clone https://github.com/Novum/vkQuake source
 pushd source
-git checkout 6bc4735
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

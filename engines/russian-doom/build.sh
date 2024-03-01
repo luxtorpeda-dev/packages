@@ -6,7 +6,7 @@ export pfx="$PWD/local"
 # CLONE PHASE
 git clone https://github.com/Russian-Doom/russian-doom.git source
 pushd source
-git checkout e97fdcb
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

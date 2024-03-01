@@ -8,7 +8,7 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 # CLONE PHASE
 git clone https://github.com/andrei-drexler/ironwail.git source
 pushd source
-git checkout 5b130aa
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

@@ -8,7 +8,7 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 # CLONE PHASE
 git clone https://github.com/timbergeron/QSS-M.git source
 pushd source
-git checkout e9cb3a2
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE

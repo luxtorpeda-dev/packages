@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/kraflab/dsda-doom.git source
 pushd source
-git checkout 805f078
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
