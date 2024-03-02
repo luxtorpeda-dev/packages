@@ -7,5 +7,4 @@ git checkout "$COMMIT_TAG"
 popd
 
 # COPY PHASE
-
 cp -rfv assets/* "$diststart/573790/dist/"
