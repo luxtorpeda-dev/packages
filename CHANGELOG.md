@@ -1,3 +1,5 @@
+Future changes can be seen using the github releases page - https://github.com/luxtorpeda-dev/packages/releases
+
 ### 2024-02-24
 
 * Add Wolf! engine
