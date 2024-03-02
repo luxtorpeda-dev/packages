@@ -4,6 +4,7 @@
 git clone https://github.com/ezQuake/ezquake-source.git source
 pushd source
 git checkout "$COMMIT_TAG"
+git submodule update --init --recursive
 popd
 
 # BUILD PHASE
