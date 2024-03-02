@@ -9240,7 +9240,7 @@
         },
         {
             "engine_link": "https://github.com/Try/OpenGothic",
-            "version": "v1.0.2207",
+            "version": "v0.80",
             "notices": [
                 {
                     "key": "in_progress"
