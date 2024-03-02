@@ -1,6 +1,9 @@
 {
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
     "dependencies": [
-        { "name": "jansson" }
+        { "name": "jansson" },
+        { "name": "minizip" },
+        { "name": "speex", "default-features": false },
+        { "name": "speexdsp", "default-features": false }
     ]
 }
