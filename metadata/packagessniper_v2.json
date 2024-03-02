@@ -8510,26 +8510,6 @@
             "app_id": "32400"
         },
         {
-            "game_name": "M.A.X.: Mechanized Assault & Exploration",
-            "download": [
-                {
-                    "name": "max",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/max-4/",
-                    "file": "max-615250-4.tar.xz"
-                }
-            ],
-            "download_config": [
-                {
-                    "extract_location": "./max",
-                    "download_name": "max"
-                }
-            ],
-            "command": "./max/run-max.sh",
-            "engine_name": "M.A.X.",
-            "cloudNotAvailable": true,
-            "app_id": "615250"
-        },
-        {
             "game_name": "Beyond Sunset",
             "download": [
                 {
@@ -10311,17 +10291,6 @@
             "controllerNotSupported": true,
             "engine_name": "DXX-Redux",
             "internal_engine_name": "dxx-redux"
-        },
-        {
-            "engine_link": "https://github.com/klei1984/max",
-            "version": "0317272",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "MIT",
-            "license_link": "https://github.com/klei1984/max/blob/master/LICENSE",
-            "controllerNotSupported": true,
-            "engine_name": "M.A.X.",
-            "internal_engine_name": "max"
         },
         {
             "engine_link": "https://sourceforge.net/projects/sc2/",
