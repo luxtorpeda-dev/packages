@@ -8642,6 +8642,11 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
             "controllerSupported": true,
             "engine_name": "GZDoom",
+            "notices": [
+                {
+                    "label": "Last working version before memory leak was introduced."
+                }
+            ],
             "internal_engine_name": "gzdoom"
         },
         {
@@ -8784,6 +8789,11 @@
             "license_link": "https://github.com/coelckers/Raze",
             "controllerSupported": true,
             "engine_name": "Raze",
+            "notices": [
+                {
+                    "label": "Last working version before memory leak was introduced."
+                }
+            ],
             "internal_engine_name": "raze"
         },
         {
