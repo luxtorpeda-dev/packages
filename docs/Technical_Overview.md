@@ -2,7 +2,7 @@
 
 These packages, when using Luxtorpeda, allow the use of open source game engines to be used directly from Steam. This repository contains all the necessary components to build these packages.
 
-A current list of live packages can be found at https://luxtorpeda-dev.github.io
+A current list of live packages can be found at https://luxtorpeda.org
 
 The engine packages go through the following lifecycle:
 
