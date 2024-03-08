@@ -362,8 +362,8 @@
                 },
                 {
                     "name": "inter-doom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-14/",
-                    "file": "inter-doom-common-14.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-15/",
+                    "file": "inter-doom-common-15.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -795,8 +795,8 @@
                 },
                 {
                     "name": "inter-doom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-14/",
-                    "file": "inter-doom-common-14.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-15/",
+                    "file": "inter-doom-common-15.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -1298,8 +1298,8 @@
                 },
                 {
                     "name": "inter-doom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-14/",
-                    "file": "inter-doom-common-14.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-15/",
+                    "file": "inter-doom-common-15.tar.xz",
                     "cache_by_name": true
                 },
                 {
