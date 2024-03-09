@@ -15,6 +15,6 @@ cmake --build .
 popd
 
 # COPY PHASE
-cp -rfv source/build/vanillara "$diststart/1213210/dist/"
-cp -rfv source/build/vanillatd "$diststart/1213210/dist/"
-cp -rfv assets/* "$diststart/1213210/dist/"
+cp -rfv source/build/vanillara "$diststart/common/dist/"
+cp -rfv source/build/vanillatd "$diststart/common/dist/"
+cp -rfv assets/* "$diststart/common/dist/"
