@@ -7523,8 +7523,9 @@
                 },
                 {
                     "name": "vanilla-conquer",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-3/",
-                    "file": "vanilla-conquer-1213210-3.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-4/",
+                    "file": "vanilla-conquer-common-4.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -7563,8 +7564,9 @@
             "download": [
                 {
                     "name": "vanilla-conquer",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-3/",
-                    "file": "vanilla-conquer-1213210-3.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-4/",
+                    "file": "vanilla-conquer-common-4.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -7587,8 +7589,9 @@
             "download": [
                 {
                     "name": "vanilla-conquer",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-3/",
-                    "file": "vanilla-conquer-1213210-3.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-4/",
+                    "file": "vanilla-conquer-common-4.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
