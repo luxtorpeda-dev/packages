@@ -7559,6 +7559,54 @@
             "app_id": "1213210"
         },
         {
+            "game_name": "Command & Conquer™ and The Covert Operations™",
+            "download": [
+                {
+                    "name": "vanilla-conquer",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-3/",
+                    "file": "vanilla-conquer-1213210-3.tar.xz"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "Vanilla Conquer",
+                    "command": "./vanillatd",
+                    "download": [
+                        "vanilla-conquer"
+                    ],
+                    "engine_name": "Vanilla Conquer"
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "2229830"
+        },
+        {
+            "game_name": "Command & Conquer Red Alert™, Counterstrike™ and The Aftermath™",
+            "download": [
+                {
+                    "name": "vanilla-conquer",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-3/",
+                    "file": "vanilla-conquer-1213210-3.tar.xz"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "Vanilla Conquer",
+                    "command": "./vanillara",
+                    "download": [
+                        "vanilla-conquer"
+                    ],
+                    "engine_name": "Vanilla Conquer"
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "2229840"
+        },
+        {
             "game_name": "Warzone 2100",
             "download": [
                 {
