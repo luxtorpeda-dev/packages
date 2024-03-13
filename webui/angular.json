@@ -24,7 +24,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/assets",
-              {"glob": "**/*", "input": "../metadata", "output": "./"}
+              {"glob": "**/*", "input": "../metadata", "output": "./"},
+              {"glob": "**/README.md", "input": "../", "output": "./"}
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",

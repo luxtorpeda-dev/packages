@@ -1,0 +1,12 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  background: #303030 !important;
+  border-bottom: 1px solid gray;
+}
+
+.client-button {
+  margin-right: 0.625rem;
+}
