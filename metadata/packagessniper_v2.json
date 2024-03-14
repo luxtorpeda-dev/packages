@@ -8686,7 +8686,7 @@
         },
         {
             "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "g4.11.3",
+            "version": "4.10.0 (Last Working Release)",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
