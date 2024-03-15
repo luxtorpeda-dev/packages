@@ -8604,6 +8604,30 @@
             "engine_name": "The Ur-Quan Masters",
             "cloudNotAvailable": true,
             "app_id": "2645580"
+        },
+        {
+            "game_name": "Hell Denizen",
+            "download": [
+                {
+                    "name": "fteqw",
+                    "url": "https://www.fteqw.org/dl/",
+                    "file": "fteqw-sdl2-linux64.zip"
+                },
+                {
+                    "name": "ftequakeworld",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-7/",
+                    "file": "ftequakeworld-common-7.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "name": "FTE QuakeWorld",
+            "command": "./ftequakeworld.sh",
+            "download": [
+                "fteqw",
+                "ftequakeworld"
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "2347390"
         }
     ],
     "engines": [
@@ -8664,7 +8688,7 @@
         },
         {
             "engine_link": "https://www.fteqw.org/",
-            "version": "3adec5d",
+            "version": "Latest From fteqw.org",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
