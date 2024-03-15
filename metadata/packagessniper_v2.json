@@ -90,8 +90,8 @@
                 },
                 {
                     "name": "ftequakeworld",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-7/",
-                    "file": "ftequakeworld-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-8/",
+                    "file": "ftequakeworld-common-8.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -2305,8 +2305,8 @@
                 },
                 {
                     "name": "ftequakeworld",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-7/",
-                    "file": "ftequakeworld-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-8/",
+                    "file": "ftequakeworld-common-8.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -2756,8 +2756,8 @@
                 },
                 {
                     "name": "ftequakeworld",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-7/",
-                    "file": "ftequakeworld-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-8/",
+                    "file": "ftequakeworld-common-8.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3997,8 +3997,8 @@
                 },
                 {
                     "name": "ftequakeworld",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-7/",
-                    "file": "ftequakeworld-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-8/",
+                    "file": "ftequakeworld-common-8.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8608,24 +8608,17 @@
         {
             "game_name": "Hell Denizen",
             "download": [
-                {
-                    "name": "fteqw",
-                    "url": "https://www.fteqw.org/dl/",
-                    "file": "fteqw-sdl2-linux64.zip"
-                },
+                "fteqw",
+                "ftequakeworld",
                 {
                     "name": "ftequakeworld",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-7/",
-                    "file": "ftequakeworld-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-8/",
+                    "file": "ftequakeworld-common-8.tar.xz",
                     "cache_by_name": true
                 }
             ],
             "engine_name": "FTE QuakeWorld",
             "command": "./ftequakeworld.sh",
-            "download": [
-                "fteqw",
-                "ftequakeworld"
-            ],
             "cloudNotAvailable": true,
             "app_id": "2347390"
         }
