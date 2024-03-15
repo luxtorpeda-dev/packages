@@ -8620,7 +8620,7 @@
                     "cache_by_name": true
                 }
             ],
-            "name": "FTE QuakeWorld",
+            "engine_name": "FTE QuakeWorld",
             "command": "./ftequakeworld.sh",
             "download": [
                 "fteqw",
