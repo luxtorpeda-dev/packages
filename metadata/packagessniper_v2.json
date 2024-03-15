@@ -8608,8 +8608,11 @@
         {
             "game_name": "Hell Denizen",
             "download": [
-                "fteqw",
-                "ftequakeworld",
+                {
+                    "name": "fteqw",
+                    "url": "https://www.fteqw.org/dl/",
+                    "file": "fteqw-sdl2-linux64.zip"
+                },
                 {
                     "name": "ftequakeworld",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ftequakeworld-8/",
