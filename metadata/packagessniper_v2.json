@@ -7518,8 +7518,9 @@
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-2/",
-                    "file": "openra-1213210-2.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-3/",
+                    "file": "openra-common-3.tar.xz",
+                    "cache_by_name": true
                 },
                 {
                     "name": "vanilla-conquer",
@@ -7573,6 +7574,12 @@
                     "url": "https://github.com/OpenRA/OpenRA/releases/download/release-20231010/",
                     "file": "OpenRA-Tiberian-Dawn-x86_64.AppImage",
                     "cache_by_name": true
+                },
+                {
+                    "name": "openra",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-3/",
+                    "file": "openra-common-3.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -7606,6 +7613,12 @@
                     "name": "vanilla-conquer",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-5/",
                     "file": "vanilla-conquer-common-5.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "openra",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-3/",
+                    "file": "openra-common-3.tar.xz",
                     "cache_by_name": true
                 }
             ],
