@@ -1,11 +1,5 @@
 #!/bin/bash
 
-if [ ! -d ~/.config/openra/Content/ts ]; then
-    mkdir -p ~/.config/openra/Content
-
-    ln -rsf "$PWD" ~/.config/openra/Content/ts
-fi
-
 wantedversion="20240315"
 filepath="./ShatteredParadise-playest-20240315-x86_64.AppImage"
 
