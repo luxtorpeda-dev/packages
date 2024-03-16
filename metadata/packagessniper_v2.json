@@ -7638,6 +7638,52 @@
             "app_id": "2229840"
         },
         {
+            "game_name": "Command & Conquer Red Alert™ 2 and Yuri’s Revenge™",
+            "download": [
+                {
+                    "name": "openra-ra2-binaries",
+                    "url": "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20240218/",
+                    "file": "Romanovs.Vengeance-playtest-20240218-x86_64.AppImage",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "openra",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-3/",
+                    "file": "openra-common-3.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "engine_name": "OpenRA Romanov's Vengeance",
+            "command": "./run-openra-ra2.sh",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
+            "app_id": "2229850"
+        },
+        {
+            "game_name": "Command & Conquer™ Tiberian Sun™ and Firestorm™",
+            "download": [
+                {
+                    "name": "openra-ts-binaries",
+                    "url": "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20240218/",
+                    "file": "Romanovs.Vengeance-playtest-20240218-x86_64.AppImage",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "openra",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-3/",
+                    "file": "openra-common-3.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "engine_name": "OpenRA Shattered Paradise",
+            "command": "./run-openra-ts.sh",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
+            "app_id": "2229880"
+        },
+        {
             "game_name": "Warzone 2100",
             "download": [
                 {
@@ -10320,6 +10366,38 @@
             ],
             "engine_name": "OpenRA",
             "internal_engine_name": "openra"
+        },
+        {
+            "engine_link": "https://github.com/MustaphaTR/Romanovs-Vengeance",
+            "version": "playtest-20240218",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/MustaphaTR/Romanovs-Vengeance/blob/master/LICENSE",
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ],
+            "engine_name": "OpenRA Romanov's Vengeance",
+            "internal_engine_name": "openra-ra2"
+        },
+        {
+            "engine_link": "https://github.com/ABrandau/Shattered-Paradise-SDK",
+            "version": "playest-20240315",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/ABrandau/Shattered-Paradise-SDK/blob/bleed/COPYING",
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ],
+            "engine_name": "OpenRA Shattered Paradise",
+            "internal_engine_name": "openra-ts"
         },
         {
             "engine_link": "https://github.com/TheAssemblyArmada/Vanilla-Conquer",
