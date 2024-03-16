@@ -11,7 +11,9 @@ Package scripts to build the engines for Luxtorpeda.
 
 ## Supported titles
 
-To see a list of supported titles, go to https://luxtorpeda.org
+To go to the main website, go to https://luxtorpeda.org
+
+To see a list of supported titles, go to https://luxtorpeda.org/packages
 
 The runtime version of the luxtorpeda client will contain the most up to date versions of engines. 
 
