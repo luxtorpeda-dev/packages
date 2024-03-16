@@ -7665,8 +7665,8 @@
             "download": [
                 {
                     "name": "openra-ts-binaries",
-                    "url": "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20240218/",
-                    "file": "Romanovs.Vengeance-playtest-20240218-x86_64.AppImage",
+                    "url": "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playest-20240315/",
+                    "file": "ShatteredParadise-playest-20240315-x86_64.AppImage",
                     "cache_by_name": true
                 },
                 {
