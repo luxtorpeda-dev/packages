@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # COPY PHASE
-cp -rfv assets/* "$diststart/1213210/dist/"
+cp -rfv assets/* "$diststart/common/dist/"

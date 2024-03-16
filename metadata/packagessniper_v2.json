@@ -7567,6 +7567,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-5/",
                     "file": "vanilla-conquer-common-5.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "openra-binaries",
+                    "url": "https://github.com/OpenRA/OpenRA/releases/download/release-20231010/",
+                    "file": "OpenRA-Tiberian-Dawn-x86_64.AppImage",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -7577,6 +7583,15 @@
                         "vanilla-conquer"
                     ],
                     "engine_name": "Vanilla Conquer"
+                },
+                {
+                    "name": "OpenRA",
+                    "command": "./run-openra-cnc.sh",
+                    "download": [
+                        "openra-binaries",
+                        "openra"
+                    ],
+                    "engine_name": "OpenRA"
                 }
             ],
             "cloudAvailable": true,
@@ -10272,6 +10287,22 @@
                 }
             ],
             "engine_name": "OpenRA - TiberianDawnHD",
+            "internal_engine_name": "openra"
+        },
+        {
+            "engine_link": "https://www.openra.net",
+            "version": "release-20231010",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenRA/OpenRA/blob/bleed/COPYING",
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ],
+            "engine_name": "OpenRA",
             "internal_engine_name": "openra"
         },
         {
