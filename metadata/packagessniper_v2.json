@@ -7597,7 +7597,7 @@
             "choices": [
                 {
                     "name": "Vanilla Conquer",
-                    "command": "./vanillara",
+                    "command": "./run-vanilla-conquer-ra-original.sh",
                     "download": [
                         "vanilla-conquer"
                     ],
