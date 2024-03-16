@@ -10300,6 +10300,9 @@
             "notices": [
                 {
                     "key": "in_progress"
+                },
+                {
+                    "label": "Movies are not currently supported"
                 }
             ],
             "engine_name": "OpenRA",
