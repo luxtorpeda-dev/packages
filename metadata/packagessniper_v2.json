@@ -9112,7 +9112,7 @@
         },
         {
             "engine_link": "https://github.com/scummvm/scummvm",
-            "version": "2.8.0",
+            "version": "v2.8.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
