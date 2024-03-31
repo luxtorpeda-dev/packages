@@ -7518,8 +7518,8 @@
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-5/",
-                    "file": "openra-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-6/",
+                    "file": "openra-common-6.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7577,8 +7577,8 @@
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-5/",
-                    "file": "openra-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-6/",
+                    "file": "openra-common-6.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7617,8 +7617,8 @@
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-5/",
-                    "file": "openra-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-6/",
+                    "file": "openra-common-6.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7654,8 +7654,8 @@
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-5/",
-                    "file": "openra-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-6/",
+                    "file": "openra-common-6.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7679,7 +7679,6 @@
                     ]
                 }
             ],
-
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
@@ -7696,8 +7695,8 @@
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-5/",
-                    "file": "openra-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-6/",
+                    "file": "openra-common-6.tar.xz",
                     "cache_by_name": true
                 }
             ],
