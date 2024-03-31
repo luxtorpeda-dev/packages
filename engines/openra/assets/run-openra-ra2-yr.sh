@@ -6,8 +6,14 @@ if [ ! -d ~/.config/openra/Content/ra2 ]; then
     ln -rsf "$PWD" ~/.config/openra/Content/ra2
 fi
 
-wantedversion="20240218"
-filepath="./Romanovs.Vengeance-playtest-20240218-x86_64.AppImage"
+if [ ! -d ~/.config/openra/Content/yr ]; then
+    mkdir -p ~/.config/openra/Content
+
+    ln -rsf "$PWD" ~/.config/openra/Content/yr
+fi
+
+wantedversion="20200717"
+filepath="./YurisRevenge-yr-playtest-20200717-x86_64.AppImage"
 
 if [ -f "readyversion.txt" ]; then
     readyversion=$(cat readyversion.txt)
@@ -29,4 +35,5 @@ else
 fi
 
 rm -rf ./squashfs-root
+
 ./squashfs-root/AppRun

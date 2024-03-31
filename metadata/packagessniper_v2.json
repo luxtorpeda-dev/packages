@@ -7647,14 +7647,39 @@
                     "cache_by_name": true
                 },
                 {
+                    "name": "openra-yr-binaries",
+                    "url": "https://github.com/cookgreen/Yuris-Revenge/releases/download/yr-playtest-20200717/",
+                    "file": "YurisRevenge-yr-playtest-20200717-x86_64.AppImage",
+                    "cache_by_name": true
+                },
+                {
                     "name": "openra",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-5/",
                     "file": "openra-common-5.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "engine_name": "OpenRA Romanov's Vengeance",
-            "command": "./run-openra-ra2.sh",
+            "choices": [
+                {
+                    "name": "OpenRA Romanov's Vengeance",
+                    "engine_name": "OpenRA Romanov's Vengeance",
+                    "command": "./run-openra-ra2.sh",
+                    "download": [
+                        "openra",
+                        "openra-ra2-binaries"
+                    ]
+                },
+                {
+                    "name": "OpenRA Yuri's Revenge",
+                    "engine_name": "OpenRA Yuri's Revenge",
+                    "command": "./run-openra-ra2-yr.sh",
+                    "download": [
+                        "openra",
+                        "openra-yr-binaries"
+                    ]
+                }
+            ],
+
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
@@ -10382,6 +10407,22 @@
             ],
             "engine_name": "OpenRA Romanov's Vengeance",
             "internal_engine_name": "openra-ra2"
+        },
+        {
+            "engine_link": "https://github.com/cookgreen/Yuris-Revenge",
+            "version": "playtest-20200717",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/cookgreen/Yuris-Revenge/blob/master/COPYING",
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ],
+            "engine_name": "OpenRA Yuri's Revenge",
+            "internal_engine_name": "openra-yr"
         },
         {
             "engine_link": "https://github.com/ABrandau/Shattered-Paradise-SDK",
