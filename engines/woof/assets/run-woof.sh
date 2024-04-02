@@ -8,4 +8,8 @@ if [[ -z "${SDL_SOUNDFONTS}" ]]; then
 fi
 
 export LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH"
+
+mkdir -p ../share/woof
+ln -rsf ./soundfonts ../share/woof/soundfonts
+
 ./woof "$@"
