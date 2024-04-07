@@ -407,12 +407,6 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/woof-6/",
                     "file": "woof-common-6.tar.xz",
                     "cache_by_name": true
-                },
-                {
-                    "name": "cleandoom",
-                    "url": "https://github.com/popcar2/CleanDoom/releases/download/1.0.3/",
-                    "file": "CleanDoom_v1.0.3_Linux.zip",
-                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -736,15 +730,6 @@
                             "extract_location": "./odamex",
                             "download_name": "fluid-soundfont"
                         }
-                    ]
-                },
-                {
-                    "name": "CleanDoom",
-                    "engine_name": "CleanDoom",
-                    "command": "./run-cleandoom.sh",
-                    "download": [
-                        "gzdoom",
-                        "cleandoom"
                     ]
                 }
             ],
@@ -1357,12 +1342,6 @@
                     "name": "woof",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/woof-6/",
                     "file": "woof-common-6.tar.xz",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "cleandoom",
-                    "url": "https://github.com/popcar2/CleanDoom/releases/download/1.0.3/",
-                    "file": "CleanDoom_v1.0.3_Linux.zip",
                     "cache_by_name": true
                 }
             ],
@@ -2283,15 +2262,6 @@
                             "extract_location": "./odamex",
                             "download_name": "fluid-soundfont"
                         }
-                    ]
-                },
-                {
-                    "name": "CleanDoom",
-                    "engine_name": "CleanDoom",
-                    "command": "./run-cleandoom.sh",
-                    "download": [
-                        "gzdoom",
-                        "cleandoom"
                     ]
                 }
             ],
@@ -10568,17 +10538,6 @@
             "controllerNotSupported": true,
             "engine_name": "The Ur-Quan Masters",
             "internal_engine_name": "sc2"
-        },
-        {
-            "engine_link": "https://github.com/popcar2/CleanDoom",
-            "version": "1.0.3",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "MIT",
-            "license_link": "https://github.com/popcar2/CleanDoom/blob/main/LICENSE",
-            "controllerNotSupported": true,
-            "engine_name": "Clean Doom",
-            "internal_engine_name": "cleandoom"
         }
     ],
     "default_engine": {
