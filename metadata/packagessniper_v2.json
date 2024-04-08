@@ -745,6 +745,13 @@
                     "download": [
                         "gzdoom",
                         "cleandoom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./",
+                            "strip_prefix": "CleanDoom_v1.0.3_Linux/",
+                            "download_name": "cleandoom"
+                        }
                     ]
                 }
             ],
@@ -2292,6 +2299,13 @@
                     "download": [
                         "gzdoom",
                         "cleandoom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./",
+                            "strip_prefix": "CleanDoom_v1.0.3_Linux/",
+                            "download_name": "cleandoom"
+                        }
                     ]
                 }
             ],
