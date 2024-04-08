@@ -10621,7 +10621,7 @@
             "license": "MIT",
             "license_link": "https://github.com/popcar2/CleanDoom/blob/main/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "Clean Doom",
+            "engine_name": "CleanDoom",
             "internal_engine_name": "cleandoom"
         }
     ],
