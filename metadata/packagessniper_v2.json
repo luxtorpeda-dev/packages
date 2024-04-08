@@ -3738,6 +3738,36 @@
             "app_id": "6310"
         },
         {
+            "game_name": "Gabriel Knight: Sins of the Father®",
+            "download": [
+                {
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-29/",
+                    "file": "scummvm-common-29.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "setup": {
+                "complete_path": "./ready",
+                "command": "./scum/setup-noop.sh",
+                "iso_extract": {
+                    "file_path": "GK1/GK1.GOG",
+                    "extract_prefix": "/",
+                    "extract_to_prefix": "GK1/"
+                }
+            },
+            "command": "./scum/run-scummvm.sh",
+            "engine_name": "ScummVM",
+            "cloudNotAvailable": true,
+            "app_id": "495700"
+        },
+        {
             "game_name": "The Journeyman Project 1: Pegasus Prime",
             "download": [
                 {
