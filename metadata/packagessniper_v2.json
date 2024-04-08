@@ -219,7 +219,14 @@
         },
         {
             "game_name": "Quake IV",
-            "download": [],
+            "download": [
+                {
+                    "name": "dii4a",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-1/",
+                    "file": "dii4a-common-1.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
             "command": "./run-quake4.sh",
             "engine_name": "idTech4A++ (Harmattan Edition)",
             "cloudAvailable": true,
@@ -3605,8 +3612,14 @@
         },
         {
             "game_name": "Prey (2006)",
-            "download": [],
-
+            "download": [
+                {
+                    "name": "dii4a",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-1/",
+                    "file": "dii4a-common-1.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
             "command": "./run-prey.sh",
             "engine_name": "idTech4A++ (Harmattan Edition)",
             "cloudNotAvailable": true,
