@@ -411,7 +411,7 @@
                 {
                     "name": "cleandoom",
                     "url": "https://github.com/popcar2/CleanDoom/releases/download/1.0.3/",
-                    "file": "CleanDoom_v1.0.3_Linux.zip",
+                    "file": "CleanDoom_v1.0.3_Linux.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -1362,7 +1362,7 @@
                 {
                     "name": "cleandoom",
                     "url": "https://github.com/popcar2/CleanDoom/releases/download/1.0.3/",
-                    "file": "CleanDoom_v1.0.3_Linux.zip",
+                    "file": "CleanDoom_v1.0.3_Linux.tar.xz",
                     "cache_by_name": true
                 }
             ],
