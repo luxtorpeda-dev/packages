@@ -17,10 +17,10 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp -rfv build/Q3E/src/main/jni/doom3/neo/Quake4 "$diststart/common/dist/"
-cp -rfv build/Q3E/src/main/jni/doom3/neo/Prey "$diststart/common/dist/"
-cp -rfv build/Q3E/src/main/jni/doom3/neo/libgame.so "$diststart/common/dist/"
-cp -rfv build/Q3E/src/main/jni/doom3/neo/libpreygame.so "$diststart/common/dist/"
-cp -rfv build/Q3E/src/main/jni/doom3/neo/libq4game.so "$diststart/common/dist/"
+cp -rfv source/build/Q3E/src/main/jni/doom3/neo/Quake4 "$diststart/common/dist/"
+cp -rfv source/build/Q3E/src/main/jni/doom3/neo/Prey "$diststart/common/dist/"
+cp -rfv source/build/Q3E/src/main/jni/doom3/neo/libgame.so "$diststart/common/dist/"
+cp -rfv source/build/Q3E/src/main/jni/doom3/neo/libpreygame.so "$diststart/common/dist/"
+cp -rfv source/build/Q3E/src/main/jni/doom3/neo/libq4game.so "$diststart/common/dist/"
 
 cp -rfv assets/* "$diststart/common/dist/"
