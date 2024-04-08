@@ -219,34 +219,12 @@
         },
         {
             "game_name": "Quake IV",
-            "download": [
-                {
-                    "name": "quake4",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake4-6/",
-                    "file": "quake4-2210-6.tar.xz"
-                },
-                {
-                    "name": "binaries",
-                    "url": "https://www.quaddicted.com/files/idgames2/idstuff/quake4/linux/",
-                    "file": "quake4-linux-1.4.2.x86.run"
-                }
-            ],
-            "download_config": [
-                {
-                    "setup": true,
-                    "download_name": "binaries"
-                }
-            ],
-            "setup": {
-                "complete_path": "./ready",
-                "command": "./setup-quake4.sh",
-                "uninstall_command": "./uninstall-quake4.sh",
-                "license_path": "./EULA.txt"
-            },
+            "download": [],
             "command": "./run-quake4.sh",
-            "engine_name": "Quake IV",
+            "engine_name": "idTech4A++ (Harmattan Edition)",
             "cloudAvailable": true,
-            "cloudSupported": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
             "app_id": "2210"
         },
         {
@@ -3613,34 +3591,10 @@
         },
         {
             "game_name": "Prey (2006)",
-            "download": [
-                {
-                    "name": "binaries",
-                    "url": "http://icculus.org/prey/downloads/",
-                    "file": "prey-installer-02192009.bin",
-                    "check_download_status": true
-                },
-                {
-                    "name": "prey2006",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/prey2006-7/",
-                    "file": "prey2006-3970-7.tar.xz"
-                }
-            ],
-            "download_config": [
-                {
-                    "setup": true,
-                    "extract_location": "./linuxofficial",
-                    "download_name": "binaries"
-                }
-            ],
-            "setup": {
-                "complete_path": "./ready",
-                "command": "./setup-prey.sh",
-                "uninstall_command": "./uninstall-prey.sh",
-                "license_path": "./linuxofficial/data/prey_license.txt"
-            },
+            "download": [],
+
             "command": "./run-prey.sh",
-            "engine_name": "Prey (2006)",
+            "engine_name": "idTech4A++ (Harmattan Edition)",
             "cloudNotAvailable": true,
             "app_id": "3970"
         },
@@ -9445,28 +9399,6 @@
             "internal_engine_name": "serious-engine"
         },
         {
-            "engine_name": "Quake IV",
-            "engine_link": "https://www.quaddicted.com/files/idgames2/idstuff/quake4/linux/",
-            "version": "1.4.2",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "http://zerowing.idsoftware.com/linux/quake4/Quake4FrontPage/",
-            "notices": [
-                {
-                    "key": "closed_source"
-                },
-                {
-                    "key": "32_bit"
-                },
-                {
-                    "label": "A possible fix if encountering sluggish mouse movement is to set in launch options SDL12COMPAT_SYNC_TO_VBLANK=1 %command% and  then run seta com_fixedTic \"1\" in the game console. From https://www.pcgamingwiki.com/wiki/Quake_4#Issues_fixed"
-                }
-            ],
-            "controllerNotSupported": true,
-            "internal_engine_name": "quake4"
-        },
-        {
             "engine_link": "https://github.com/neuromancer/avp",
             "version": "2d57747 (from master)",
             "author": "d10sfan",
@@ -9481,25 +9413,6 @@
             "controllerNotSupported": true,
             "engine_name": "avp",
             "internal_engine_name": "avp"
-        },
-        {
-            "engine_link": "http://icculus.org/prey/",
-            "version": "02192009",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "http://icculus.org/prey/",
-            "notices": [
-                {
-                    "key": "closed_source"
-                },
-                {
-                    "key": "32_bit"
-                }
-            ],
-            "controllerNotSupported": true,
-            "engine_name": "Prey (2006)",
-            "internal_engine_name": "prey2006"
         },
         {
             "engine_link": "https://steamcommunity.com/app/10000/discussions/0/143388511227759615/",
@@ -10255,6 +10168,22 @@
             ],
             "engine_name": "OpenTESArena",
             "internal_engine_name": "opentesarena"
+        },
+        {
+            "engine_link": "https://github.com/glKarin/com.n0n3m4.diii4a",
+            "version": "30ff563",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/glKarin/com.n0n3m4.diii4a/blob/master/LICENSE",
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ],
+            "engine_name": "idTech4A++ (Harmattan Edition)",
+            "internal_engine_name": "dii4a"
         },
         {
             "engine_link": "https://github.com/the3dfxdude/7kaa.git",
