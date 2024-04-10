@@ -398,6 +398,12 @@
                     "url": "https://github.com/popcar2/CleanDoom/releases/download/1.0.3/",
                     "file": "CleanDoom_v1.0.3_Linux.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "nugget-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nugget-doom-1/",
+                    "file": "nugget-doom-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -852,6 +858,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/woof-6/",
                     "file": "woof-common-6.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "nugget-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nugget-doom-1/",
+                    "file": "nugget-doom-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -1204,7 +1216,7 @@
                         }
                     ]
                 },
-                 {
+                {
                     "name": "Nugget Doom",
                     "engine_name": "Nugget Doom",
                     "commands": [
@@ -1414,6 +1426,12 @@
                     "name": "cleandoom",
                     "url": "https://github.com/popcar2/CleanDoom/releases/download/1.0.3/",
                     "file": "CleanDoom_v1.0.3_Linux.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "nugget-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nugget-doom-1/",
+                    "file": "nugget-doom-common-1.tar.xz",
                     "cache_by_name": true
                 }
             ],
