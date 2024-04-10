@@ -610,6 +610,29 @@
                     ]
                 },
                 {
+                    "name": "Nugget Doom",
+                    "engine_name": "Nugget Doom",
+                    "command": "./nugget-doom/run-nugget-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/DOOM.WAD"
+                    ],
+                    "download": [
+                        "nugget-doom",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./nugget-doom",
+                            "download_name": "nugget-doom"
+                        },
+                        {
+                            "extract_location": "./nugget-doom",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
                     "name": "Eternity Engine",
                     "engine_name": "Eternity Engine",
                     "command": "./eternity/run-eternity.sh",
@@ -1177,6 +1200,42 @@
                         },
                         {
                             "extract_location": "./woof",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                 {
+                    "name": "Nugget Doom",
+                    "engine_name": "Nugget Doom",
+                    "commands": [
+                        {
+                            "cmd": "./nugget-doom/run-nugget-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutoniam?.conf"
+                        },
+                        {
+                            "cmd": "./nugget-doom/run-nugget-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/TNT.WAD"
+                            ],
+                            "command_name": ".*tntm?.conf"
+                        }
+                    ],
+                    "download": [
+                        "nugget-doom",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./nugget-doom",
+                            "download_name": "nugget-doom"
+                        },
+                        {
+                            "extract_location": "./nugget-doom",
                             "download_name": "fluid-soundfont"
                         }
                     ]
@@ -1984,6 +2043,65 @@
                         },
                         {
                             "extract_location": "./woof",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
+                    "name": "Nugget Doom",
+                    "commands": [
+                        {
+                            "cmd": "./nugget-doom/run-nugget-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*rerelease"
+                        },
+                        {
+                            "cmd": "./nugget-doom/run-nugget-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "../base/DOOM2.WAD"
+                            ],
+                            "command_name": ".*doom2"
+                        },
+                        {
+                            "cmd": "./nugget-doom/run-nugget-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "../finaldoombase/TNT.WAD"
+                            ],
+                            "command_name": ".*tnt"
+                        },
+                        {
+                            "cmd": "./nugget-doom/run-nugget-doom.sh",
+                            "args": [
+                                "-iwad",
+                                "../finaldoombase/PLUTONIA.WAD"
+                            ],
+                            "command_name": ".*plutonia"
+                        },
+                        {
+                            "cmd": "/bin/sh",
+                            "args": [
+                                "-c",
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
+                            ],
+                            "command_name": ".*master"
+                        }
+                    ],
+                    "download": [
+                        "nugget-doom",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./nugget-doom",
+                            "download_name": "nugget-doom"
+                        },
+                        {
+                            "extract_location": "./nugget-doom",
                             "download_name": "fluid-soundfont"
                         }
                     ]
@@ -10113,6 +10231,22 @@
             "controllerSupported": true,
             "engine_name": "Woof!",
             "internal_engine_name": "woof"
+        },
+        {
+            "engine_link": "https://github.com/MrAlaux/Nugget-Doom",
+            "version": "nugget-doom-3.0.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/MrAlaux/Nugget-Doom/blob/master/COPYING",
+            "notices": [
+                {
+                    "label": "Downloads FluidR3_GM.sf2 automatically. Can override SDL_SOUNDFONTS in launch options."
+                }
+            ],
+            "controllerSupported": true,
+            "engine_name": "Nugget Doom",
+            "internal_engine_name": "nugget-doom"
         },
         {
             "engine_link": "https://github.com/odamex/odamex",
