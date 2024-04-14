@@ -242,7 +242,7 @@
                     "name": "idTech4A++ (Harmattan Edition)",
                     "download": ["dii4a"],
                     "command": "./run-quake4.sh",
-                    "engine_name": "idTech4A++ (Harmattan Edition)",
+                    "engine_name": "idTech4A++ (Harmattan Edition)"
                 },
                 {
                     "name": "Original Closed Source Engine",
