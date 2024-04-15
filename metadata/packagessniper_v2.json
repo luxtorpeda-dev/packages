@@ -240,7 +240,9 @@
             "choices": [
                 {
                     "name": "idTech4A++ (Harmattan Edition)",
-                    "download": ["dii4a"],
+                    "download": [
+                        "dii4a"
+                    ],
                     "command": "./run-quake4.sh",
                     "engine_name": "idTech4A++ (Harmattan Edition)"
                 },
@@ -253,7 +255,10 @@
                             "download_name": "binaries"
                         }
                     ],
-                    "download": ["quake4", "binaries"],
+                    "download": [
+                        "quake4",
+                        "binaries"
+                    ],
                     "setup": {
                         "complete_path": "./ready",
                         "command": "./setup-quake4.sh",
@@ -3806,12 +3811,17 @@
                     "name": "idTech4A++ (Harmattan Edition)",
                     "engine_name": "idTech4A++ (Harmattan Edition)",
                     "command": "./run-prey.sh",
-                    "choices": ["dii4a"]
+                    "choices": [
+                        "dii4a"
+                    ]
                 },
                 {
                     "name": "Original Closed Source Engine",
                     "engine_name": "Prey (2006)",
-                    "download": ["binaries", "prey2006"],
+                    "download": [
+                        "binaries",
+                        "prey2006"
+                    ],
                     "download_config": [
                         {
                             "setup": true,
@@ -10615,7 +10625,7 @@
         },
         {
             "engine_link": "https://github.com/hrehfeld/QuakeInjector",
-            "version": "alpha05",
+            "version": "alpha06",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
