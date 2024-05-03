@@ -10300,11 +10300,11 @@
         },
         {
             "engine_link": "https://github.com/bradharding/doomretro",
-            "version": "v5.3",
+            "version": "v5.4",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/bradharding/doomretro/blob/master/LICENSE",
+            "license_link": "https://github.com/bradharding/doomretro/blob/master/LICENSE.md",
             "notices": [
                 {
                     "label": "Downloads FluidR3_GM.sf2 automatically. Can override SDL_SOUNDFONTS in launch options."
