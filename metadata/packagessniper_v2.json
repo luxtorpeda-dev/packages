@@ -8979,6 +8979,16 @@
             "command": "./ftequakeworld.sh",
             "cloudNotAvailable": true,
             "app_id": "2347390"
+        },
+        {
+            "game_name": "Classic Marathon",
+            "download": [],
+            "engine_name": "Aleph One",
+            "command": "./run-alephone.sh",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "2398450"
         }
     ],
     "engines": [
@@ -10838,6 +10848,17 @@
             "controllerNotSupported": true,
             "engine_name": "CleanDoom",
             "internal_engine_name": "cleandoom"
+        },
+        {
+            "engine_link": "https://github.com/Aleph-One-Marathon/alephone",
+            "version": "1.8",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Aleph-One-Marathon/alephone/blob/master/COPYING",
+            "controllerNotSupported": true,
+            "engine_name": "Aleph One",
+            "internal_engine_name": "alephone"
         }
     ],
     "default_engine": {
