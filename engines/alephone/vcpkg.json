@@ -24,6 +24,9 @@
          "name":"boost-dll"
       },
       {
+         "name":"boost-system"
+      },
+      {
          "name":"sdl2-net"
       },
       {
