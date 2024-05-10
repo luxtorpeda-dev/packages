@@ -24,15 +24,6 @@
          "name":"boost-dll"
       },
       {
-         "name":"sdl2"
-      },
-      {
-         "name":"sdl2-image",
-         "features":[
-            "libjpeg-turbo"
-         ]
-      },
-      {
          "name":"sdl2-net"
       },
       {
