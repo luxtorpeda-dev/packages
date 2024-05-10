@@ -66,12 +66,5 @@
       {
          "name":"steamworks-sdk"
       }
-   ],
-   "overrides":[
-      {
-         "name":"ffmpeg",
-         "version":"5.0.2",
-         "port-version":3
-      }
    ]
 }
