@@ -62,9 +62,6 @@
       },
       {
          "name":"catch2"
-      },
-      {
-         "name":"steamworks-sdk"
       }
    ]
 }
