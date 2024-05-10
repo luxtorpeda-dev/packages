@@ -23,4 +23,4 @@ popd
 
 # COPY PHASE
 cp -rfv assets/* "$diststart/2398450/dist/"
-cp -rfv source/Source_files/alpehone "$diststart/2398450/dist/"
+cp -rfv source/Source_Files/alpehone "$diststart/2398450/dist/"
