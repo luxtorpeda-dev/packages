@@ -8982,7 +8982,13 @@
         },
         {
             "game_name": "Classic Marathon",
-            "download": [],
+            "download": [
+                {
+                    "name": "alephone",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alephone-1/",
+                    "file": "alephone-2398450-1.tar.xz"
+                }
+            ],
             "engine_name": "Aleph One",
             "command": "./run-alephone.sh",
             "cloudAvailable": true,
