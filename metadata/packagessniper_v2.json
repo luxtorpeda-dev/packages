@@ -8995,6 +8995,14 @@
             "cloudIssue": true,
             "cloudIssueReason": "unworkable_location",
             "app_id": "2398450"
+        },
+        {
+            "game_name": "Descent 3",
+            "download": [],
+            "engine_name": "Descent3",
+            "command": "./run-descent3.sh",
+            "cloudNotAvailable": true,
+            "app_id": "273590"
         }
     ],
     "engines": [
@@ -10865,6 +10873,17 @@
             "controllerNotSupported": true,
             "engine_name": "Aleph One",
             "internal_engine_name": "alephone"
+        },
+        {
+            "engine_link": "https://github.com/DescentDevelopers/Descent3",
+            "version": "0cba11c",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/DescentDevelopers/Descent3/blob/main/LICENSE",
+            "controllerNotSupported": true,
+            "engine_name": "Descent3",
+            "internal_engine_name": "descent3"
         }
     ],
     "default_engine": {
