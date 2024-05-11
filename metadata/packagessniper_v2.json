@@ -8998,7 +8998,13 @@
         },
         {
             "game_name": "Descent 3",
-            "download": [],
+            "download": [
+                {
+                    "name": "descent3",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/descent3-1/",
+                    "file": "descent3-273590-1.tar.xz"
+                }
+            ],
             "engine_name": "Descent3",
             "command": "./run-descent3.sh",
             "cloudNotAvailable": true,
