@@ -4748,31 +4748,43 @@
                     "file": "utbonuspack4-zip.zip"
                 }
             ],
-            "command": "./run-ut99-469d.sh",
-            "app_ids_deps": [
-                1070560
-            ],
-            "download_config": [
+            "choices": [
                 {
-                    "extract_location": "../linuxdata-469d",
-                    "strip_prefix": "",
-                    "setup": true,
-                    "download_name": "binaries-469d"
+                    "name": "ut99",
+                    "engine_name": "ut99",
+                    "command": "./run-ut99-469d.sh",
+                    "app_ids_deps": [
+                        1070560
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "../linuxdata-469d",
+                            "strip_prefix": "",
+                            "setup": true,
+                            "download_name": "binaries-469d"
+                        },
+                        {
+                            "setup": true,
+                            "extract_location": "../utbonuspack4",
+                            "download_name": "ut99 Bonus Pack 4"
+                        }
+                    ],
+                    "setup": {
+                        "complete_path": "../ready-469d",
+                        "command": "./setup-ut99-469d.sh",
+                        "uninstall_command": "./uninstall-ut99-469d.sh",
+                        "license_path": "../linuxdata-469d/legal.txt"
+                    }
                 },
                 {
-                    "setup": true,
-                    "extract_location": "../utbonuspack4",
-                    "download_name": "ut99 Bonus Pack 4"
+                    "name": "SurrealEngine",
+                    "command": "./SurrealEngine",
+                    "download": [
+                        "surreal_engine"
+                    ]
                 }
             ],
-            "setup": {
-                "complete_path": "../ready-469d",
-                "command": "./setup-ut99-469d.sh",
-                "uninstall_command": "./uninstall-ut99-469d.sh",
-                "license_path": "../linuxdata-469d/legal.txt"
-            },
             "use_original_command_directory": true,
-            "engine_name": "ut99",
             "cloudNotAvailable": true,
             "app_id": "13240"
         },
@@ -4803,6 +4815,13 @@
                     "command": "./run-unreal-64.sh",
                     "download": [
                         "unreal-gold-64"
+                    ]
+                },
+                {
+                    "name": "SurrealEngine",
+                    "command": "./SurrealEngine",
+                    "download": [
+                        "surreal_engine"
                     ]
                 }
             ],
@@ -10890,6 +10909,22 @@
             "controllerNotSupported": true,
             "engine_name": "Descent3",
             "internal_engine_name": "descent3"
+        },
+        {
+            "engine_link": "https://github.com/dpjudas/SurrealEngine",
+            "version": "fb53642",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Zlib",
+            "license_link": "https://github.com/dpjudas/SurrealEngine/blob/master/LICENSE.md",
+            "controllerNotSupported": true,
+            "engine_name": "SurrealEngine",
+            "internal_engine_name": "surreal_engine",
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ]
         }
     ],
     "default_engine": {
