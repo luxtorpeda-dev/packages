@@ -4746,6 +4746,12 @@
                     "name": "ut99 Bonus Pack 4",
                     "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/patches-updates/Unreal%20Tournament/Bonus%20Packs/",
                     "file": "utbonuspack4-zip.zip"
+                },
+                {
+                    "name": "surreal_engine",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/surreal_engine-1/",
+                    "file": "surreal_engine-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -4800,6 +4806,12 @@
                     "name": "unreal-gold-64",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/unreal-gold-64-1/",
                     "file": "unreal-gold-64-13250-1.tar.xz"
+                },
+                {
+                    "name": "surreal_engine",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/surreal_engine-1/",
+                    "file": "surreal_engine-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
