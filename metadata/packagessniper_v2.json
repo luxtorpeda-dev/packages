@@ -10909,7 +10909,12 @@
             "license_link": "https://github.com/Aleph-One-Marathon/alephone/blob/master/COPYING",
             "controllerNotSupported": true,
             "engine_name": "Aleph One",
-            "internal_engine_name": "alephone"
+            "internal_engine_name": "alephone",
+            "notices": [
+                {
+                    "label": "Steam achivements are not supported in this version"
+                }
+            ]
         },
         {
             "engine_link": "https://github.com/DescentDevelopers/Descent3",
