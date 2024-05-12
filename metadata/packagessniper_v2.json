@@ -9040,6 +9040,31 @@
             "command": "./run-descent3.sh",
             "cloudNotAvailable": true,
             "app_id": "273590"
+        },
+        {
+            "game_name": "Blade Runner (Classic)",
+            "download": [
+                {
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-30/",
+                    "file": "scummvm-common-30.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm-blade-runner.sh",
+            "command_args": [
+                "--savepath=Saves"
+            ],
+            "engine_name": "ScummVM",
+            "cloudAvailable": true,
+            "cloudSupported": true,
+            "app_id": "1678420"
         }
     ],
     "engines": [
