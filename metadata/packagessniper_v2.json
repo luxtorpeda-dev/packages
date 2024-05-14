@@ -9046,8 +9046,8 @@
             "download": [
                 {
                     "name": "scummvm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-30/",
-                    "file": "scummvm-common-30.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-31/",
+                    "file": "scummvm-common-31.tar.xz",
                     "cache_by_name": true
                 }
             ],
