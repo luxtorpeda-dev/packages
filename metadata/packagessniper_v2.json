@@ -8478,8 +8478,8 @@
             "download": [
                 {
                     "name": "binaries",
-                    "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.0.0/",
-                    "file": "dfu_linux_64bit-v1.0.0.zip"
+                    "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1/",
+                    "file": "dfu_linux_64bit-v1.1.1.zip"
                 },
                 {
                     "name": "dosbox-staging",
