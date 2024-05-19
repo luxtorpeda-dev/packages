@@ -2536,9 +2536,9 @@
                     "cache_by_name": true
                 },
                 {
-                    "name": "openjdk11",
-                    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
-                    "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                    "name": "openjdk17",
+                    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_x64_linux_hotspot_17.0.10_7.tar.gz",
+                    "file": "OpenJDK17U-jdk_x64_linux_hotspot_17.0.10_7.tar.gz",
                     "cache_by_name": true
                 },
                 {
@@ -2889,15 +2889,15 @@
                     "download": [
                         "vkquake",
                         "quake-injector",
-                        "openjdk11",
+                        "openjdk17",
                         "quakeinjector"
                     ],
                     "engine_name": "Quake Injector",
                     "download_config": [
                         {
-                            "extract_location": "./jdk-11.0.12",
-                            "strip_prefix": "jdk-11.0.12+7/",
-                            "download_name": "openjdk11"
+                            "extract_location": "./jdk-17.0.10",
+                            "strip_prefix": "jdk-17.0.10+7/",
+                            "download_name": "openjdk17"
                         }
                     ]
                 },
@@ -2907,15 +2907,15 @@
                     "download": [
                         "ironwail",
                         "quake-injector",
-                        "openjdk11",
+                        "openjdk17",
                         "quakeinjector"
                     ],
                     "engine_name": "Quake Injector",
                     "download_config": [
                         {
-                            "extract_location": "./ironwail/jdk-11.0.12",
-                            "strip_prefix": "jdk-11.0.12+7/",
-                            "download_name": "openjdk11"
+                            "extract_location": "./ironwail/jdk-17.0.10",
+                            "strip_prefix": "jdk-17.0.10+7/",
+                            "download_name": "openjdk17"
                         },
                         {
                             "extract_location": "./ironwail",
