@@ -7977,8 +7977,8 @@
             "download": [
                 {
                     "name": "openra-ts-binaries",
-                    "url": "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playest-20240315/",
-                    "file": "ShatteredParadise-playest-20240315-x86_64.AppImage",
+                    "url": "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20240526/",
+                    "file": "ShatteredParadise-playtest-20240526-x86_64.AppImage",
                     "cache_by_name": true
                 },
                 {
@@ -10800,7 +10800,7 @@
         },
         {
             "engine_link": "https://github.com/ABrandau/Shattered-Paradise-SDK",
-            "version": "playest-20240315",
+            "version": "playtest-20240526",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-wantedversion="20240315"
-filepath="./ShatteredParadise-playest-20240315-x86_64.AppImage"
+wantedversion="20240526"
+filepath="./ShatteredParadise-playtest-20240526-x86_64.AppImage"
 
 if [ -f "readyversion.txt" ]; then
     readyversion=$(cat readyversion.txt)
