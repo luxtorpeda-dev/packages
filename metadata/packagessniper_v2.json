@@ -7286,8 +7286,8 @@
                 },
                 {
                     "name": "open-ig",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/open-ig-6/",
-                    "file": "open-ig-573790-6.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/open-ig-7/",
+                    "file": "open-ig-573790-7.tar.xz"
                 }
             ],
             "command": "./run-open-ig.sh",
