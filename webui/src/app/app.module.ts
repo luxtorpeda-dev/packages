@@ -14,30 +14,23 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import { MarkdownModule } from 'ngx-markdown';
 import {MatButtonModule} from '@angular/material/button';
-import { HttpClientModule, HttpClient } from  '@angular/common/http';
+import { HttpClient, provideHttpClient, withInterceptorsFromDi } from  '@angular/common/http';
 import {MatToolbarModule} from '@angular/material/toolbar';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    PackagesComponent,
-    HomeComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatExpansionModule,
-    MatIconModule,
-    MatChipsModule,
-    MatSidenavModule,
-    MatTooltipModule,
-    HttpClientModule,
-    MarkdownModule.forRoot({ loader: HttpClient }),
-    MatToolbarModule,
-    MatButtonModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        PackagesComponent,
+        HomeComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatExpansionModule,
+        MatIconModule,
+        MatChipsModule,
+        MatSidenavModule,
+        MatTooltipModule,
+        MarkdownModule.forRoot({ loader: HttpClient }),
+        MatToolbarModule,
+        MatButtonModule], providers: [provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
