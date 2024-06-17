@@ -25,7 +25,7 @@
     "ngx-markdown": "^18",
     "npm-check-updates": "^16.14.20",
     "rxjs": "~7.8.1",
-    "tslib": "^2.3.0",
+    "tslib": "^2.6.3",
     "zone.js": "~0.14.6"
   },
   "devDependencies": {
