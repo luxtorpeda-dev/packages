@@ -17,7 +17,7 @@ pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
+    -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     ..
