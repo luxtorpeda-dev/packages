@@ -3,6 +3,7 @@
     "dependencies": [
         { "name": "fluidsynth", "features": ["pulseaudio"] },
         { "name": "assimp" },
-        "glbinding"
+        "glbinding",
+        "libunistring"
     ]
 }
