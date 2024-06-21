@@ -7,6 +7,11 @@ git checkout "$COMMIT_HASH"
 git submodule update --init --recursive
 popd
 
+git clone https://github.com/MadDeCoDeR/BFA-Assets.git
+pushd BFA-Assets
+git checkout 9d85400
+popd
+
 pushd "source/neo"
 mkdir build
 cd build
@@ -24,6 +29,7 @@ popd
 cp "source/buildRetail/DoomBFA" "$diststart/208200/dist/DoomBFA"
 cp -rfv ./assets/* "$diststart/208200/dist/"
 cp -rfv ./source/base "$diststart/208200/dist/updatedbase"
+cp -rfv ./BFA-Assets/* "$diststart/208200/dist/updatedbase"
 
 mkdir -p licenses
 licensepath="$PWD/licenses"
