@@ -29,7 +29,8 @@ popd
 cp "source/buildRetail/DoomBFA" "$diststart/208200/dist/DoomBFA"
 cp -rfv ./assets/* "$diststart/208200/dist/"
 cp -rfv ./source/base "$diststart/208200/dist/updatedbase"
-cp -rfv ./BFA-Assets/* "$diststart/208200/dist/updatedbase"
+cp -rfv ./BFA-Assets/base/* "$diststart/208200/dist/updatedbase"
+cp -rfv ./BFA-Assets/base_BFG "$diststart/208200/dist/updatedbase"
 
 mkdir -p licenses
 licensepath="$PWD/licenses"
