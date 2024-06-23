@@ -9316,11 +9316,6 @@
             "license": "GPLv2",
             "license_link": "https://github.com/Novum/vkQuake/blob/master/LICENSE.txt",
             "controllerSupported": true,
-            "notices": [
-                {
-                    "label": "vkQuake is no longer in active development."
-                }
-            ],
             "engine_name": "vkQuake",
             "internal_engine_name": "vkquake"
         },
