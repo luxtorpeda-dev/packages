@@ -7190,15 +7190,9 @@
         },
         {
             "game_name": "Pharaoh + Cleopatra",
-            "download": [
-                {
-                    "name": "ozymandias",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ozymandias-2/",
-                    "file": "ozymandias-564530-2.tar.xz"
-                }
-            ],
-            "command": "./ozymandias",
-            "engine_name": "Ozymandias",
+            "download": [],
+            "command": "./akhenaten",
+            "engine_name": "Akhenaten",
             "cloudNotAvailable": true,
             "app_id": "564530"
         },
@@ -9710,20 +9704,20 @@
             "internal_engine_name": "augustus"
         },
         {
-            "engine_link": "https://github.com/Banderi/Ozymandias",
-            "version": "9e28192",
+            "engine_link": "https://github.com/dalerank/Akhenaten",
+            "version": "ra0624",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "AGPL-3.0",
-            "license_link": "https://github.com/Banderi/Ozymandias/blob/master/LICENSE.txt",
+            "license_link": "https://github.com/dalerank/Akhenaten/blob/master/LICENSE.txt",
             "controllerNotSupported": true,
             "notices": [
                 {
                     "key": "in_progress"
                 }
             ],
-            "engine_name": "Ozymandias",
-            "internal_engine_name": "ozymandias"
+            "engine_name": "Akhenaten",
+            "internal_engine_name": "akhenaten"
         },
         {
             "engine_link": "https://github.com/Try/OpenGothic",
