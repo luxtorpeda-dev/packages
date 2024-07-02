@@ -6294,7 +6294,7 @@
             "download": [
                 {
                     "name": "music",
-                    "url": "https://www.dxx-rebirth.com/download/dxx/res/",
+                    "url": "https://github.com/pudlez/dxx-addons/releases/download/v1.0/",
                     "file": "d1xr-sc55-music.dxa"
                 },
                 {
@@ -6336,7 +6336,7 @@
             "download": [
                 {
                     "name": "music",
-                    "url": "https://www.dxx-rebirth.com/download/dxx/res/",
+                    "url": "https://github.com/pudlez/dxx-addons/releases/download/v1.0/",
                     "file": "d2xr-sc55-music.dxa"
                 },
                 {
