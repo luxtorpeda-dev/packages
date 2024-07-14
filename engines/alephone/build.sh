@@ -22,5 +22,5 @@ make
 popd
 
 # COPY PHASE
-cp -rfv assets/* "$diststart/2398450/dist/"
-cp -rfv source/Source_Files/alephone "$diststart/2398450/dist/"
+cp -rfv assets/* "$diststart/common/dist/"
+cp -rfv source/Source_Files/alephone "$diststart/common/dist/"
