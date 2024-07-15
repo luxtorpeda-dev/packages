@@ -43,7 +43,7 @@
          ]
       },
       {
-         "name":"nativefiledialog"
+         "name":"nativefiledialog-extended"
       },
       {
          "name":"libsndfile"

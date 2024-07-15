@@ -9028,6 +9028,22 @@
             "app_id": "2398450"
         },
         {
+            "game_name": "Classic Marathon 2",
+            "download": [
+                {
+                    "name": "alephone",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alephone-2/",
+                    "file": "alephone-2398450-2.tar.xz"
+                }
+            ],
+            "engine_name": "Aleph One",
+            "command": "./run-alephone.sh",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "2398490"
+        },
+        {
             "game_name": "Descent 3",
             "download": [
                 {
@@ -10922,7 +10938,7 @@
         },
         {
             "engine_link": "https://github.com/Aleph-One-Marathon/alephone",
-            "version": "release-20240513",
+            "version": "release-20240712",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
