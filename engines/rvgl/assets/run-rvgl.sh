@@ -1,5 +1,11 @@
 #!/bin/bash
 
+create_relative_symlink () {
+	LD_PRELOAD="" local -r target=$1
+	LD_PRELOAD="" local -r symlink="$(echo "$target" | tr '[:upper:]' '[:lower:]')"
+	LD_PRELOAD="" ln -rsf "$target" "$symlink"
+}
+
 if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
     if [ ! -f profiles/deck/profile.ini ]; then
         echo "Creating profile"
@@ -31,6 +37,12 @@ if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
 fi
 
 LD_PRELOAD="" ln -rsf ./music ./redbook
+
+pushd music
+for file in *.ogg ; do
+	create_relative_symlink "$file"
+done
+popd
 
 chmod +x rvgl.64
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:lib/lib64:lib" ./rvgl.64
