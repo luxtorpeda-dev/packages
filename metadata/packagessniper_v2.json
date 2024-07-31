@@ -9097,11 +9097,13 @@
             "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
-                "RF.ipk3",
+                "Content/RF.ipk3",
+                "-file",
+                "Content/PK3/RF_Data.pk3",
                 "-config",
                 "gzdoom.ini",
                 "-savedir",
-                "./saves"
+                "./Content/Save"
             ],
             "notices": [
                 {
