@@ -9083,6 +9083,36 @@
             "cloudAvailable": true,
             "cloudSupported": true,
             "app_id": "1678420"
+        },
+        {
+            "game_name": "Relentless Frontier",
+            "download": [
+                {
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-52/",
+                    "file": "gzdoom-common-52.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "command": "./run-gzdoom-local.sh",
+            "command_args": [
+                "-iwad",
+                "RF.ipk3",
+                "-config",
+                "gzdoom.ini",
+                "-savedir",
+                "./saves"
+            ],
+            "notices": [
+                {
+                    "key": "saves",
+                    "value": "save_game_dir"
+                }
+            ],
+            "engine_name": "GZDoom",
+            "cloudNotAvailable": true,
+            "controllerSteamDefault": true,
+            "app_id": "1677900"
         }
     ],
     "engines": [
