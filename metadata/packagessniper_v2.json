@@ -8388,37 +8388,6 @@
             "app_id": "1715690"
         },
         {
-            "game_name": "Relentless Frontier Demo",
-            "download": [
-                {
-                    "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-52/",
-                    "file": "gzdoom-common-52.tar.xz",
-                    "cache_by_name": true
-                }
-            ],
-            "command": "./run-gzdoom-local.sh",
-            "command_args": [
-                "-iwad",
-                "Engine/RF.ipk3",
-                "-file",
-                "Engine/PK3/RF_Data.pk3",
-                "-config",
-                "Engine/gzdoom.ini",
-                "-savedir",
-                "./Engine/Save"
-            ],
-            "notices": [
-                {
-                    "key": "saves",
-                    "value": "save_game_dir"
-                }
-            ],
-            "engine_name": "GZDoom",
-            "cloudNotAvailable": true,
-            "app_id": "1731320"
-        },
-        {
             "game_name": "The Elder Scrolls: Arena",
             "download": [
                 {
