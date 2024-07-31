@@ -9099,6 +9099,8 @@
                 "-iwad",
                 "Content/RF.ipk3",
                 "-file",
+                "Content/griddle_rf.pk3",
+                "-file",
                 "Content/PK3/RF_Data.pk3",
                 "-config",
                 "gzdoom.ini",
