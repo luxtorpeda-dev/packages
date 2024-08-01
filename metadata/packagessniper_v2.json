@@ -9055,14 +9055,7 @@
         },
         {
             "game_name": "Relentless Frontier",
-            "download": [
-                {
-                    "name": "relentless-frontier",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/relentless-frontier-1/",
-                    "file": "relentless-frontier-common-1.tar.xz",
-                    "cache_by_name": true
-                }
-            ],
+            "download": [],
             "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
