@@ -17,4 +17,4 @@ if [ -f ~/.ut2004/System/User.ini ]; then
 fi
 
 cd linuxdata/System
-./ut2004-bin-linux-amd64
+./ut2004-bin-linux-amd64 $*
