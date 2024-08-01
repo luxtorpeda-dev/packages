@@ -15,4 +15,4 @@ if [ -f ~/.ut2004/System/User.ini ]; then
 fi
 
 cd linuxdata-standard/System
-SDL12COMPAT_USE_KEYBOARD_LAYOUT=0 ./ut2004-bin-linux-amd64
+SDL12COMPAT_USE_KEYBOARD_LAYOUT=0 ./ut2004-bin-linux-amd64 $*
