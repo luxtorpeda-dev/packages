@@ -2,7 +2,7 @@
 
 # From https://gitlab.com/luxtorpeda/packages/gzdoom - See LICENSE file for more information
 # CLONE PHASE
-git clone git@github.com:Waffle-Iron-Studios/Griddle.git source
+git clone https://github.com/Waffle-Iron-Studios/Griddle.git source
 pushd source
 git checkout "$COMMIT_HASH"
 popd
