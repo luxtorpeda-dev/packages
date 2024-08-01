@@ -9052,6 +9052,32 @@
             "cloudAvailable": true,
             "cloudSupported": true,
             "app_id": "1678420"
+        },
+        {
+            "game_name": "Relentless Frontier",
+            "download": [],
+            "command": "./run-gzdoom-local.sh",
+            "command_args": [
+                "-iwad",
+                "Content/RF.ipk3",
+                "-file",
+                "Content/griddle_rf.pk3",
+                "-file",
+                "Content/PK3/RF_Data.pk3",
+                "-config",
+                "gzdoom.ini",
+                "-savedir",
+                "./Content/Save"
+            ],
+            "notices": [
+                {
+                    "key": "saves",
+                    "value": "save_game_dir"
+                }
+            ],
+            "engine_name": "RFGZDoom",
+            "cloudNotAvailable": true,
+            "app_id": "1677900"
         }
     ],
     "engines": [
@@ -9147,6 +9173,17 @@
                 }
             ],
             "internal_engine_name": "gzdoom"
+        },
+        {
+            "engine_link": "https://github.com/Waffle-Iron-Studios/Griddle/tree/rf-version",
+            "version": "7b52b6c",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Waffle-Iron-Studios/Griddle/blob/rf-version/LICENSE",
+            "controllerSupported": true,
+            "engine_name": "RFGZDoom",
+            "internal_engine_name": "rfgzdoom"
         },
         {
             "engine_link": "https://github.com/Youda008/DoomRunner",
