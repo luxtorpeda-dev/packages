@@ -9205,7 +9205,7 @@
                 },
                 {
                     "name": "DOSBox Staging",
-                    "command": "./dosbox-staging/run-dosbox-staging.sh",
+                    "command": "./dosbox-staging/run-dosbox-staging-arena.sh",
                     "use_original_command_directory": true,
                     "download": [
                         "dosbox-staging"
