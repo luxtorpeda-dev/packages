@@ -7,7 +7,7 @@ if [ ! -f doom_complete.pk3 ]; then
     cd wadsmoosh-branch-default
     cp -rfv ../wadsmoosh.py ./
 
-    cp -rfv ../base/master/wads/*.WAD "source_wads/"
+    cp -rfv ../masterbase/master/wads/*.WAD "source_wads/"
     cp -rfv ../base/*.WAD "source_wads/"
     python3.9 wadsmoosh.py
     cp -rfv ./doom_complete.pk3 ../
