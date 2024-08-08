@@ -332,8 +332,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -865,7 +865,7 @@
                     "command": "./crispy-doom/run-crispy-doom.sh",
                     "command_args": [
                         "-iwad",
-                       "base/doom2/DOOM2.WAD",
+                        "base/doom2/DOOM2.WAD",
                         "-savedir",
                         "base/doom2"
                     ],
@@ -1120,7 +1120,7 @@
                     "command": "./crispy-doom/run-crispy-doom.sh",
                     "command_args": [
                         "-iwad",
-                       "base/tnt/TNT.WAD",
+                        "base/tnt/TNT.WAD",
                         "-savedir",
                         "base/tnt"
                     ],
@@ -1375,7 +1375,7 @@
                     "command": "./crispy-doom/run-crispy-doom.sh",
                     "command_args": [
                         "-iwad",
-                       "base/plutonia/PLUTONIA.WAD",
+                        "base/plutonia/PLUTONIA.WAD",
                         "-savedir",
                         "base/tnt"
                     ],
@@ -1602,8 +1602,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -2141,8 +2141,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3917,8 +3917,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4130,8 +4130,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4301,8 +4301,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5204,8 +5204,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7444,8 +7444,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8242,8 +8242,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8284,8 +8284,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8430,8 +8430,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8460,8 +8460,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8853,8 +8853,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8991,8 +8991,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9020,8 +9020,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9142,8 +9142,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9430,8 +9430,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9700,8 +9700,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-54/",
-                    "file": "gzdoom-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-55/",
+                    "file": "gzdoom-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
