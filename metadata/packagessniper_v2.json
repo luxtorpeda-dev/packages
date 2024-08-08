@@ -327,7 +327,7 @@
             "app_id": "2270"
         },
         {
-            "game_name": "DOOM (1993)",
+            "game_name": "DOOM + DOOM II",
             "controllerSteamDefault": true,
             "download": [
                 {
@@ -804,6 +804,261 @@
                             "extract_location": "./",
                             "strip_prefix": "CleanDoom_v1.0.3_Linux/",
                             "download_name": "cleandoom"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/doom2/DOOM2.WAD"
+                    ],
+                    "download": [
+                        "gzdoom"
+                    ]
+                },
+                {
+                    "name": "DOOM II - Doomsday Engine",
+                    "engine_name": "Doomsday Engine",
+                    "command": "./doomsday/run-doomsday.sh",
+                    "download": [
+                        "doomsday"
+                    ],
+                    "command_args": [
+                        "-iwad",
+                        "base/doom2",
+                        "-game",
+                        "doom2"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./doomsday",
+                            "download_name": "doomsday"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - Chocolate Doom",
+                    "engine_name": "Chocolate Doom",
+                    "command": "./chocolate-doom/run-chocolate-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/doom2/DOOM2.WAD",
+                        "-savedir",
+                        "base/doom2"
+                    ],
+                    "download": [
+                        "chocolate-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./chocolate-doom",
+                            "download_name": "chocolate-doom"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - Crispy Doom",
+                    "engine_name": "Crispy Doom",
+                    "command": "./crispy-doom/run-crispy-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                       "base/doom2/DOOM2.WAD",
+                        "-savedir",
+                        "base/doom2"
+                    ],
+                    "download": [
+                        "crispy-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./crispy-doom",
+                            "download_name": "crispy-doom"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - International Doom",
+                    "engine_name": "International Doom",
+                    "command": "./inter-doom/run-inter-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/doom2/DOOM2.WAD"
+                    ],
+                    "download": [
+                        "inter-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./inter-doom",
+                            "download_name": "inter-doom"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - PrBoom+",
+                    "engine_name": "PrBoom+",
+                    "command": "./prboom-plus/run-prboom-plus.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/doom2/DOOM2.WAD"
+                    ],
+                    "download": [
+                        "prboom-plus"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./prboom-plus",
+                            "download_name": "prboom-plus"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - dsda-doom",
+                    "engine_name": "dsda-doom",
+                    "command": "./dsda-doom/run-dsda-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/doom2/DOOM2.WAD"
+                    ],
+                    "download": [
+                        "dsda-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./dsda-doom",
+                            "download_name": "dsda-doom"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - DOOM Retro",
+                    "engine_name": "DOOM Retro",
+                    "command": "./doom-retro/run-doom-retro.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/doom2/DOOM2.WAD"
+                    ],
+                    "download": [
+                        "doom-retro",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./doom-retro",
+                            "download_name": "doom-retro"
+                        },
+                        {
+                            "extract_location": "./doom-retro",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - Woof!",
+                    "engine_name": "Woof!",
+                    "command": "./woof/run-woof.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/doom2/DOOM2.WAD"
+                    ],
+                    "download": [
+                        "woof",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./woof",
+                            "download_name": "woof"
+                        },
+                        {
+                            "extract_location": "./woof",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - Nugget Doom",
+                    "engine_name": "Nugget Doom",
+                    "command": "./nugget-doom/run-nugget-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/doom2/DOOM2.WAD"
+                    ],
+                    "download": [
+                        "nugget-doom",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./nugget-doom",
+                            "download_name": "nugget-doom"
+                        },
+                        {
+                            "extract_location": "./nugget-doom",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - Eternity Engine",
+                    "engine_name": "Eternity Engine",
+                    "command": "./eternity/run-eternity.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/doom2/DOOM2.WAD"
+                    ],
+                    "download": [
+                        "eternity",
+                        "generaluser-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./eternity",
+                            "download_name": "eternity"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - Odamex",
+                    "engine_name": "Odamex",
+                    "command": "./odamex/run-odamex.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/doom2/DOOM2.WAD"
+                    ],
+                    "download": [
+                        "odamex",
+                        "fluid-soundfont"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./odamex",
+                            "download_name": "odamex"
+                        },
+                        {
+                            "extract_location": "./odamex",
+                            "download_name": "fluid-soundfont"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOOM II - Russian Doom",
+                    "engine_name": "Russian Doom",
+                    "command": "./russian-doom/run-russian-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../base/doom2/DOOM2.WAD"
+                    ],
+                    "download": [
+                        "russian-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./russian-doom",
+                            "download_name": "russian-doom"
                         }
                     ]
                 }
