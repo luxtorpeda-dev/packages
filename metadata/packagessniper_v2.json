@@ -1583,6 +1583,34 @@
                     "download": [
                         "gzdoom"
                     ]
+                },
+                {
+                    "name": "SIGIL - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/DOOM.WAD",
+                        "-file",
+                        "rerelease/sigil.wad"
+                    ],
+                    "download": [
+                        "gzdoom"
+                    ]
+                },
+                {
+                    "name": "No Rest for the Living - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/DOOM.WAD",
+                        "-file",
+                        "rerelease/nerve.wad"
+                    ],
+                    "download": [
+                        "gzdoom"
+                    ]
                 }
             ],
             "cloudAvailable": true,
