@@ -9847,8 +9847,8 @@
             "download": [
                 {
                     "name": "descent3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/descent3-1/",
-                    "file": "descent3-273590-1.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/descent3-2/",
+                    "file": "descent3-273590-2.tar.xz"
                 }
             ],
             "engine_name": "Descent3",
