@@ -5054,6 +5054,19 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dhewm3-54/",
                     "file": "dhewm3-common-54.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "dhewm3-mods",
+                    "url": "https://github.com/dhewm/dhewm3/releases/download/1.5.4/",
+                    "file": "dhewm3-mods-1.5.4_Linux_amd64.tar.gz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./",
+                    "strip_prefix": "dhewm3-mods/",
+                    "download_name": "dhewm3-mods"
                 }
             ],
             "command": "./run-dhewm3.sh",
