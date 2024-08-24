@@ -7,6 +7,7 @@ git checkout -f "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
+export LDFLAGS="-Wl,--copy-dt-needed-entries"
 pushd "source"
 meson setup -Dbuildtype=release \
     -Dc_args=-Ofast \
