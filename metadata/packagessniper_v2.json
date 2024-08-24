@@ -9910,6 +9910,24 @@
             "cloudAvailable": true,
             "cloudSupported": true,
             "app_id": "1678420"
+        },
+        {
+            "game_name": "HyperBowl",
+            "download": [
+                {
+                    "name": "hyperbowl",
+                    "url": "https://github.com/technicat/hyperbowl/releases/download/v1.0.0/",
+                    "file": "HyperBowlLinux.zip"
+                }
+            ],
+            "command": "sh",
+            "command_args": [
+                "-c",
+                "chmod +x ./HyperBowlLinux.x86_64 && ./HyperBowlLinux.x86_64"
+            ],
+            "engine_name": "HyperBowl",
+            "cloudNotAvailable": true,
+            "app_id": "847530"
         }
     ],
     "engines": [
@@ -11807,6 +11825,17 @@
                     "key": "in_progress"
                 }
             ]
+        },
+        {
+            "engine_link": "https://github.com/technicat/hyperbowl/releases/tag/v1.0.0",
+            "version": "1.0.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/technicat/hyperbowl/blob/master/LICENSE",
+            "controllerNotSupported": true,
+            "engine_name": "Hyberbowl",
+            "internal_engine_name": "hyperbowl"
         }
     ],
     "default_engine": {
