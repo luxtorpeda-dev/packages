@@ -4492,7 +4492,7 @@
                 },
                 {
                     "name": "dsda-doom",
-                    "command": "./dsda-doom/run-dsda-doom.sh",
+                    "command": "./dsda-doom/run-dsda-doom-basecommand.sh",
                     "command_args": [
                         "-iwad",
                         "../base/HERETIC.WAD"
