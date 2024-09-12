@@ -7004,6 +7004,11 @@
                     "file": "pak5.zip"
                 },
                 {
+                    "name": "pak9",
+                    "url": "http://dk.toastednet.org/Maps/",
+                    "file": "pak9.zip"
+                },
+                {
                     "name": "soundtrack",
                     "url": "http://dk.toastednet.org/Music/",
                     "file": "Daikatana_OGG_music.zip"
@@ -7029,6 +7034,10 @@
                 {
                     "setup": true,
                     "download_name": "pak5"
+                },
+                {
+                    "setup": true,
+                    "download_name": "pak9"
                 },
                 {
                     "setup": true,
