@@ -134,6 +134,14 @@
                     ]
                 },
                 {
+                    "name": "ioquake3 (Legacy Resolutions)",
+                    "engine_name": "ioquake3",
+                    "command": "./ioquake3.x86_64",
+                    "download": [
+                        "ioquake3"
+                    ]
+                },
+                {
                     "name": "quake3e",
                     "engine_name": "quake3e",
                     "command": "./quake3e.x64",
