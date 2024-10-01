@@ -12,7 +12,7 @@ popd
 pushd "source"
 mkdir -p build
 cd build
-cmake ..
+cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
 cd ..
 cmake --build ./build
 popd
