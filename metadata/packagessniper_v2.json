@@ -9945,6 +9945,21 @@
             "engine_name": "HyperBowl",
             "cloudNotAvailable": true,
             "app_id": "847530"
+        },
+        {
+            "game_name": "Road to Vostok Demo",
+            "download": [
+                {
+                    "name": "godot",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-4.3/",
+                    "file": "godot-common-4.3.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "engine_name": "Godot",
+            "command": "./run-godot-vostok.sh",
+            "cloudNotAvailable": true,
+            "app_id": "2141300"
         }
     ],
     "engines": [
@@ -10355,6 +10370,17 @@
             "version": "3.4-stable",
             "author": "Jpx",
             "author_link": "https://github.com/jesperjackson",
+            "license": "MIT",
+            "license_link": "https://github.com/godotengine/godot/blob/master/LICENSE.txt",
+            "controllerSupported": true,
+            "engine_name": "Godot",
+            "internal_engine_name": "godot"
+        },
+        {
+            "engine_link": "https://github.com/godotengine/godot",
+            "version": "4.3-stable",
+            "author": "Ryhon",
+            "author_link": "https://github.com/Ryhon0",
             "license": "MIT",
             "license_link": "https://github.com/godotengine/godot/blob/master/LICENSE.txt",
             "controllerSupported": true,
