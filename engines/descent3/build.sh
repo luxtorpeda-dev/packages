@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/DescentDevelopers/Descent3.git source
+git clone https://github.com/InsanityBringer/PiccuEngine.git source
 pushd source
 git checkout -f "$COMMIT_TAG"
 git submodule update --init --recursive
@@ -20,4 +20,4 @@ popd
 
 # COPY PHASE
 cp -rfv "assets"/* "$diststart/273590/dist"
-cp -rfv source/builds/linux/Descent3/Release/Descent3 "$diststart/273590/dist/Descent3-lux"
+cp -rfv source/builds/linux/PiccuEngine/Release/PiccuEngine "$diststart/273590/dist/"

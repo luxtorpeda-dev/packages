@@ -9878,7 +9878,7 @@
                     "file": "descent3-273590-2.tar.xz"
                 }
             ],
-            "engine_name": "Descent3",
+            "engine_name": "PiccuEngine",
             "command": "./run-descent3.sh",
             "cloudNotAvailable": true,
             "app_id": "273590"
@@ -11797,14 +11797,14 @@
             ]
         },
         {
-            "engine_link": "https://github.com/DescentDevelopers/Descent3",
-            "version": "v1.5.0",
+            "engine_link": "https://github.com/InsanityBringer/PiccuEngine",
+            "version": "v1.2.2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/DescentDevelopers/Descent3/blob/main/LICENSE",
+            "license_link": "https://github.com/InsanityBringer/PiccuEngine/blob/master/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "Descent3",
+            "engine_name": "PiccuEngine",
             "internal_engine_name": "descent3"
         },
         {
