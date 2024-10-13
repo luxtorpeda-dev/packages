@@ -9951,8 +9951,8 @@
             "download": [
                 {
                     "name": "godot-4.3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-4.3-1/",
-                    "file": "godot-4.3-common-1.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-4.3-2/",
+                    "file": "godot-4.3-common-2.tar.xz",
                     "cache_by_name": true
                 }
             ],
