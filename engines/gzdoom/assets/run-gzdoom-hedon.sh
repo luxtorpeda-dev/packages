@@ -17,4 +17,4 @@ if ! [[ -z "${LUX_STEAM_CLOUD}" ]]; then
     fi
 fi
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./gzdoom "$@"
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./gzdoom "$@" +vid_backend 1

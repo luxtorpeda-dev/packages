@@ -4,7 +4,7 @@
 # CLONE PHASE
 git clone https://github.com/coelckers/gzdoom.git source
 pushd source
-git checkout "$COMMIT_HASH"
+git checkout "$COMMIT_TAG"
 popd
 
 hg clone https://heptapod.host/jp-lebreton/wadsmoosh
@@ -26,6 +26,5 @@ popd
 # COPY PHASE
 cp -rfv "source/build"/{gzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
-
 cp -rfv ./wadsmoosh "$diststart/common/dist/wadsmoosh-branch-default"
 ln -rsf "$diststart/common/dist/lib/libfluidsynth.so.3" "$diststart/common/dist/lib/libfluidsynth.so.2"
