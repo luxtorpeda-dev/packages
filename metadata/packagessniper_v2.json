@@ -1619,6 +1619,26 @@
                     "download": [
                         "gzdoom"
                     ]
+                },
+                {
+                    "name": "Legacy of Rust - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/doom2/DOOM2.WAD",
+                        "-file",
+                        "rerelease/id1.wad",
+                        "-file",
+                        "rerelease/id1-res.wad",
+                        "-file",
+                        "rerelease/id1-weap.wad",
+                        "-file",
+                        "rerelease/extras.wad"
+                    ],
+                    "download": [
+                        "gzdoom"
+                    ]
                 }
             ],
             "cloudAvailable": true,
