@@ -9,6 +9,12 @@ popd
 
 # BUILD PHASE
 pushd "source/"
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    ..
 make -j "$(nproc)"
 popd
 
@@ -19,7 +25,7 @@ mkdir -p "$diststart/common/dist/ezquake/share/quake/hipnotic"
 mkdir -p "$diststart/common/dist/ezquake/share/quake/dopa"
 mkdir -p "$diststart/common/dist/ezquake/share/quake/mg1"
 
-cp -v source/ezquake-linux-x86_64 "$diststart/common/dist/ezquake/"
+cp -v source/build/ezquake-linux-x86_64 "$diststart/common/dist/ezquake/"
 cp -v assets/ezquake.sh "$diststart/common/dist/ezquake/"
 ln -s "../../../../id1/PAK0.PAK" "$diststart/common/dist/ezquake/share/quake/id1/pak0.pak"
 ln -s "../../../../id1/PAK1.PAK" "$diststart/common/dist/ezquake/share/quake/id1/pak1.pak"
