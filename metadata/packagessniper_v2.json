@@ -9595,41 +9595,6 @@
             "app_id": "410980"
         },
         {
-            "game_name": "Cruelty Squad",
-            "download": [
-                {
-                    "name": "godot",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/godot-3/",
-                    "file": "godot-common-3.tar.xz",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "libqodot",
-                    "url": "https://github.com/QodotPlugin/libqodot/releases/download/v1.7.0/",
-                    "file": "libqodot.so"
-                },
-                {
-                    "name": "libmap",
-                    "url": "https://github.com/QodotPlugin/libmap/releases/download/v1.7.0/",
-                    "file": "libmap.so"
-                },
-                {
-                    "name": "godosteam-gdnative-plugin",
-                    "url": "https://github.com/CoaguCo-Industries/GodotSteam/releases/download/g352-s157-gdn363/",
-                    "file": "godosteam-gdnative-plugin.zip"
-                },
-                {
-                    "name": "Godot-3.5.2",
-                    "url": "https://github.com/godotengine/godot/releases/download/3.5.2-stable/",
-                    "file": "Godot_v3.5.2-stable_x11.64.zip"
-                }
-            ],
-            "engine_name": "Godot",
-            "command": "./run-godot-squad.sh",
-            "cloudNotAvailable": true,
-            "app_id": "1388770"
-        },
-        {
             "game_name": "Escape from Monkey Island™",
             "download": [
                 {
