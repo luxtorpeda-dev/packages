@@ -12,7 +12,7 @@ meson setup -Dbuildtype=release \
     -Dc_args=-Ofast \
     -Dcpp_args=-Ofast \
     -Db_asneeded=true -Dstrip=true \
-    -Ddefault_library=static \
+    -Ddefault_library=shared \
     -Dfluidsynth:enable-floats=true \
     -Dfluidsynth:try-static-deps=true \
     build
