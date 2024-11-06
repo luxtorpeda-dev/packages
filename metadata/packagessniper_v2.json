@@ -4757,6 +4757,27 @@
             "app_id": "6310"
         },
         {
+            "game_name": "Backyard Baseball '97",
+            "download": [
+                {
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-32/",
+                    "file": "scummvm-common-32.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm.sh",
+            "engine_name": "ScummVM",
+            "cloudNotAvailable": true,
+            "app_id": "3170540"
+        },
+        {
             "game_name": "Gabriel Knight: Sins of the Father®",
             "download": [
                 {
