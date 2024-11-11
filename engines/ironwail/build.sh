@@ -13,7 +13,7 @@ popd
 
 # BUILD PHASE
 pushd "source/Quake"
-make -j "$(nproc)" USE_SDL2=1
+make -j "$(nproc)" USE_SDL2=1 LDFLAGS="-ldl"
 popd
 
 # COPY PHASE
