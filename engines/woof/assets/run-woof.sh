@@ -10,6 +10,7 @@ fi
 export LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH"
 
 mkdir -p ../share/woof
+ln -rsf ./woof.pk3 ../share/woof
 ln -rsf ./soundfonts ../share/woof/soundfonts
 
 ./woof "$@"
