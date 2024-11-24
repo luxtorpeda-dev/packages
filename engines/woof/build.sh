@@ -22,7 +22,7 @@ popd
 
 # COPY PHASE
 cp -rfv "source/build/src/woof" "$diststart/common/dist/"
-cp -rfv "source/autoload" "$diststart/common/dist/"
+cp -rfv "source/build/src/woof.pk3" "$diststart/common/dist/"
 cp -rfv "source/docs" "$diststart/common/dist/"
 cp -rfv "source/soundfonts" "$diststart/common/dist/"
 
