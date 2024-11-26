@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20.10.0'
+          node-version: '22.11.0'
       - name: NPM Install
         run: npm ci
       - name: Angular Build
