@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-packages',
-  templateUrl: './packages.component.html',
-  styleUrls: ['./packages.component.css']
+    selector: 'app-packages',
+    templateUrl: './packages.component.html',
+    styleUrls: ['./packages.component.css'],
+    standalone: false
 })
 export class PackagesComponent implements OnInit {
 
