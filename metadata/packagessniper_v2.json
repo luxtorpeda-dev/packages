@@ -5668,6 +5668,11 @@
                     "file": "OldUnreal-UnrealPatch227k-Linux.tar.bz2"
                 }
             ],
+            "setup": {
+                "complete_path": "../ready-gold",
+                "command": "./setup-gold.sh",
+                "license_path": "../Help/ReadMe.txt"
+            },
             "choices": [
                 {
                     "name": "Unreal Gold (32-bit)",
