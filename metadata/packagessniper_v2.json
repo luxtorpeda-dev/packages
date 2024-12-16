@@ -5661,6 +5661,11 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/surreal_engine-1/",
                     "file": "surreal_engine-common-1.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "unreal-binaries",
+                    "url": "https://github.com/OldUnreal/Unreal-testing/releases/download/v227k_12/",
+                    "file": "OldUnreal-UnrealPatch227k-Linux.tar.bz2"
                 }
             ],
             "choices": [
@@ -5668,14 +5673,16 @@
                     "name": "Unreal Gold (32-bit)",
                     "command": "./run-unreal.sh",
                     "download": [
-                        "unreal-gold"
+                        "unreal-gold",
+                        "unreal-binaries"
                     ]
                 },
                 {
                     "name": "Unreal Gold (64-bit)",
                     "command": "./run-unreal-64.sh",
                     "download": [
-                        "unreal-gold-64"
+                        "unreal-gold-64",
+                        "unreal-binaries"
                     ]
                 },
                 {
@@ -5684,6 +5691,12 @@
                     "download": [
                         "surreal_engine"
                     ]
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "../",
+                    "download_name": "unreal-binaries"
                 }
             ],
             "use_original_command_directory": true,
@@ -10754,8 +10767,8 @@
             "internal_engine_name": "ut99"
         },
         {
-            "engine_link": "https://www.oldunreal.com/phpBB3/viewtopic.php?f=51&t=10395",
-            "version": "227j",
+            "engine_link": "https://github.com/OldUnreal/Unreal-testing/releases/tag/v227k_12",
+            "version": "227k_12",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
@@ -10766,12 +10779,6 @@
                 },
                 {
                     "key": "32_bit"
-                },
-                {
-                    "key": "manual_steps"
-                },
-                {
-                    "label": "Requires Oldunreal installer, which requires a manual download and Wine to be installed. System/README.txt should be referred to."
                 }
             ],
             "controllerNotSupported": true,
