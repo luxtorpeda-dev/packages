@@ -10598,7 +10598,7 @@
         },
         {
             "engine_link": "https://github.com/Try/OpenGothic",
-            "version": "v0.80",
+            "version": "v0.81",
             "notices": [
                 {
                     "key": "in_progress"
