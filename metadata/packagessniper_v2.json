@@ -5648,8 +5648,8 @@
             "download": [
                 {
                     "name": "unreal-gold",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/unreal-gold-10/",
-                    "file": "unreal-gold-13250-10.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/unreal-gold-11/",
+                    "file": "unreal-gold-13250-11.tar.xz"
                 },
                 {
                     "name": "unreal-gold-64",
