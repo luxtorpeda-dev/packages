@@ -10,6 +10,7 @@ fi
 export LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH"
 
 mkdir -p ../share/nugget-doom
+ln -rsf ./bugget-doom.pk3 ../share/nugget-doom
 ln -rsf ./soundfonts ../share/nugget-doom/soundfonts
 
 ./nugget-doom "$@"
