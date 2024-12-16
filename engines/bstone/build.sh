@@ -17,5 +17,5 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp -rfv "source/build/src/bstone" "$diststart/common/dist"
+cp -rfv "source/build/src/bstone/bstone" "$diststart/common/dist"
 cp -rfv assets/* "$diststart/common/dist"
