@@ -6292,8 +6292,8 @@
             "download": [
                 {
                     "name": "opengothic",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-33/",
-                    "file": "opengothic-39510-33.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-34/",
+                    "file": "opengothic-39510-34.tar.xz"
                 }
             ],
             "command": "./run-gothic2.sh",
@@ -6391,8 +6391,8 @@
             "download": [
                 {
                     "name": "opengothic",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-33/",
-                    "file": "opengothic-65540-33.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opengothic-34/",
+                    "file": "opengothic-65540-34.tar.xz"
                 }
             ],
             "command": "./run-gothic1.sh",
