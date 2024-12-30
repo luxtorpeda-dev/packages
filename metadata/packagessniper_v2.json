@@ -8119,13 +8119,20 @@
             "game_name": "Thimbleweed Park™",
             "download": [
                 {
-                    "name": "engge",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/engge-6/",
-                    "file": "engge-569860-6.tar.xz"
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-35/",
+                    "file": "scummvm-common-35.tar.xz",
+                    "cache_by_name": true
                 }
             ],
-            "command": "./run-engge.sh",
-            "engine_name": "engge",
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm.sh",
+            "engine_name": "ScummVM",
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "unworkable_location",
