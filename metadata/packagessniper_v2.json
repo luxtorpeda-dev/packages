@@ -11087,17 +11087,6 @@
             "internal_engine_name": "1oom"
         },
         {
-            "engine_link": "https://github.com/scemino/engge",
-            "version": "v0.8.0-beta",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "MIT",
-            "license_link": "https://github.com/scemino/engge/blob/master/LICENSE",
-            "controllerSupported": true,
-            "engine_name": "engge",
-            "internal_engine_name": "engge"
-        },
-        {
             "engine_link": "https://github.com/ptitSeb/ctp2",
             "version": "ac46e60",
             "author": "d10sfan",
