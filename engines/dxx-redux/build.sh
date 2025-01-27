@@ -8,7 +8,7 @@ export CFLAGS="-I"$VCPKG_INSTALLED_PATH"/include"
 # CLONE PHASE
 git clone https://github.com/dxx-redux/dxx-redux.git source
 pushd source
-git checkout -f "$COMMIT_HASH"
+git checkout -f "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
