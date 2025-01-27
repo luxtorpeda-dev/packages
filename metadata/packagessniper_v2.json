@@ -424,8 +424,8 @@
                 },
                 {
                     "name": "eternity",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eternity-3/",
-                    "file": "eternity-common-3.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eternity-4/",
+                    "file": "eternity-common-4.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -2281,8 +2281,8 @@
                 },
                 {
                     "name": "eternity",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eternity-3/",
-                    "file": "eternity-common-3.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eternity-4/",
+                    "file": "eternity-common-4.tar.xz",
                     "cache_by_name": true
                 },
                 {
