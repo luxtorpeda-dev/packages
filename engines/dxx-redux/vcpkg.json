@@ -1,6 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
     "dependencies": [
-        { "name": "physfs" }
+        { "name": "physfs" },
+        { "name": "fluidsynth", "features": ["pulseaudio"] },
+        { "name": "sdl2-mixer", "features": ["fluidsynth"] }
     ]
 }
