@@ -4,16 +4,16 @@
 # CLONE PHASE
 git clone https://github.com/atsb/Doom64EX-Plus.git source
 pushd source
-git checkout "$COMMIT_HASH"
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
-pushd "source/src/engine"
-./build.sh
+pushd "source"
+make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp -rfv source/src/engine/DOOM64EX-Plus "$diststart/1148590/dist/"
+cp -rfv source/DOOM64EX-Plus "$diststart/1148590/dist/"
 cp -rfv assets/* "$diststart/1148590/dist/"
 
 cp -rfv source/doomsnd.sf2 "$diststart/1148590/dist/"
