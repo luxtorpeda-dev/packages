@@ -5595,12 +5595,6 @@
                     "name": "ut99 Bonus Pack 4",
                     "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/patches-updates/Unreal%20Tournament/Bonus%20Packs/",
                     "file": "utbonuspack4-zip.zip"
-                },
-                {
-                    "name": "surreal_engine",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/surreal_engine-2/",
-                    "file": "surreal_engine-common-2.tar.xz",
-                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -5630,13 +5624,6 @@
                         "uninstall_command": "./uninstall-ut99-469d.sh",
                         "license_path": "../linuxdata-469d/legal.txt"
                     }
-                },
-                {
-                    "name": "SurrealEngine",
-                    "command": "./SurrealEngine",
-                    "download": [
-                        "surreal_engine"
-                    ]
                 }
             ],
             "use_original_command_directory": true,
@@ -5655,12 +5642,6 @@
                     "name": "unreal-gold-64",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/unreal-gold-64-4/",
                     "file": "unreal-gold-64-13250-4.tar.xz"
-                },
-                {
-                    "name": "surreal_engine",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/surreal_engine-2/",
-                    "file": "surreal_engine-common-2.tar.xz",
-                    "cache_by_name": true
                 },
                 {
                     "name": "unreal-binaries",
@@ -5688,13 +5669,6 @@
                     "download": [
                         "unreal-gold-64",
                         "unreal-binaries"
-                    ]
-                },
-                {
-                    "name": "SurrealEngine",
-                    "command": "./SurrealEngine",
-                    "download": [
-                        "surreal_engine"
                     ]
                 }
             ],
@@ -11566,22 +11540,6 @@
             "controllerNotSupported": true,
             "engine_name": "Descent3",
             "internal_engine_name": "descent3"
-        },
-        {
-            "engine_link": "https://github.com/dpjudas/SurrealEngine",
-            "version": "3627e4f",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Zlib",
-            "license_link": "https://github.com/dpjudas/SurrealEngine/blob/master/LICENSE.md",
-            "controllerNotSupported": true,
-            "engine_name": "SurrealEngine",
-            "internal_engine_name": "surreal_engine",
-            "notices": [
-                {
-                    "key": "in_progress"
-                }
-            ]
         },
         {
             "engine_link": "https://github.com/technicat/hyperbowl/releases/tag/v1.0.0",
