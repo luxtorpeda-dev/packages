@@ -8,7 +8,7 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 # CLONE PHASE
 git clone https://github.com/chermenin/REminiscence.git
 pushd REminiscence
-git checkout -f e846387
+git checkout -f "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
