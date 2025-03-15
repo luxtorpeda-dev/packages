@@ -6924,46 +6924,15 @@
                     "name": "gardensofkadesh",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gardensofkadesh-3/",
                     "file": "gardensofkadesh-244160-3.tar.xz"
-                },
-                {
-                    "name": "homeworldsdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/homeworldsdl-3/",
-                    "file": "homeworldsdl-244160-3.tar.xz"
-                },
-                {
-                    "name": "hiigara",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hiigara-2/",
-                    "file": "hiigara-244160-2.tar.xz"
                 }
             ],
-            "choices": [
+            "download_config": [
                 {
-                    "name": "Gardens of Kadesh",
-                    "download": [
-                        "gardensofkadesh"
-                    ],
-                    "download_config": [
-                        {
-                            "extract_location": "../Homeworld1Classic/Data",
-                            "download_name": "gardensofkadesh"
-                        }
-                    ],
-                    "command": "../Homeworld1Classic/Data/run-homeworld.sh"
-                },
-                {
-                    "name": "HomeworldSDL",
-                    "download": [
-                        "homeworldsdl"
-                    ],
-                    "download_config": [
-                        {
-                            "extract_location": "../Homeworld1Classic/Data",
-                            "download_name": "homeworldsdl"
-                        }
-                    ],
-                    "command": "../Homeworld1Classic/Data/run-homeworld.sh"
+                    "extract_location": "../Homeworld1Classic/Data",
+                    "download_name": "gardensofkadesh"
                 }
             ],
+            "command": "../Homeworld1Classic/Data/run-homeworld.sh",
             "cloudNotAvailable": true,
             "app_id": "244160"
         },
@@ -11327,22 +11296,6 @@
             "controllerNotSupported": true,
             "engine_name": "Gardens of Kadesh",
             "internal_engine_name": "gardensofkadesh"
-        },
-        {
-            "engine_link": "https://gitlab.com/ThibaultLemaire/HomeworldSDL",
-            "version": "1.0.3",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Relic",
-            "license_link": "https://gitlab.com/ThibaultLemaire/HomeworldSDL/-/blob/master/LICENSE.txt",
-            "notices": [
-                {
-                    "key": "non_free"
-                }
-            ],
-            "controllerNotSupported": true,
-            "engine_name": "HomeworldSDL",
-            "internal_engine_name": "homeworldsdl"
         },
         {
             "engine_link": "https://rvgl.org/",
