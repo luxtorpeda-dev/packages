@@ -10971,7 +10971,7 @@
         },
         {
             "engine_link": "https://gitlab.com/solarus-games/solarus",
-            "version": "v1.6.5",
+            "version": "v1.6.5+cicd1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
