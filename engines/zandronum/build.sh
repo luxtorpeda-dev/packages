@@ -1,10 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/TorrSamaho/zandronum.git source
-pushd source
-git checkout "$COMMIT_HASH"
-popd
+wget https://raw.githubusercontent.com/TorrSamaho/zandronum/refs/heads/master/LICENSE.txt
 
 wget https://zandronum.com/essentials/fmod/fmodapi42416linux64.tar.gz
 tar -xvf fmodapi42416linux64.tar.gz
