@@ -8,10 +8,7 @@ popd
 
 # BUILD PHASE
 pushd "source"
-cd Linux
-./bootstrap
-../configure
-make
+meson build
 popd
 
 pushd "source"
