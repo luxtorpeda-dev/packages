@@ -9,6 +9,7 @@ popd
 # BUILD PHASE
 pushd "source"
 meson build
+meson compile -C build
 popd
 
 pushd "source"
