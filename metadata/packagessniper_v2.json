@@ -5598,8 +5598,8 @@
                 },
                 {
                     "name": "surreal_engine",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/surreal_engine-1/",
-                    "file": "surreal_engine-common-1.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/surreal_engine-2/",
+                    "file": "surreal_engine-common-2.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -5658,8 +5658,8 @@
                 },
                 {
                     "name": "surreal_engine",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/surreal_engine-1/",
-                    "file": "surreal_engine-common-1.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/surreal_engine-2/",
+                    "file": "surreal_engine-common-2.tar.xz",
                     "cache_by_name": true
                 },
                 {
