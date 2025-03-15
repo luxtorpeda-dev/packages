@@ -6,7 +6,7 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 # CLONE PHASE
 git clone https://github.com/skullernet/q2pro.git source
 pushd source
-git checkout "$COMMIT_HASH"
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
