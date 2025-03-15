@@ -11850,7 +11850,7 @@
             "license": "MIT",
             "license_link": "https://github.com/technicat/hyperbowl/blob/master/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "Hyberbowl",
+            "engine_name": "HyberBowl",
             "internal_engine_name": "hyperbowl"
         }
     ],
