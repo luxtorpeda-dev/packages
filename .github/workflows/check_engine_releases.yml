@@ -16,6 +16,8 @@ jobs:
     - name: Check Download Status
       id: check_release
       uses: luxtorpeda-dev/action-check-new-engine-release@main
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
   create_prs:
     runs-on: ubuntu-latest
     if: ${{ needs.check_status.outputs.matrix && needs.check_status.outputs.matrix != '{}' && needs.check_status.outputs.matrix != '' }}
