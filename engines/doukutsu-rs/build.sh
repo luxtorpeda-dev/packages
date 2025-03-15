@@ -7,7 +7,7 @@ source $HOME/.cargo/env
 # CLONE PHASE
 git clone https://github.com/doukutsu-rs/doukutsu-rs.git source
 pushd source
-git checkout -f "$COMMIT_HASH"
+git checkout -f "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
