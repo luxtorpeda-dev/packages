@@ -8,7 +8,7 @@ popd
 
 # BUILD PHASE
 pushd source
-make blood
+make -j$(nproc) blood
 popd
 
 # COPY PHASE
