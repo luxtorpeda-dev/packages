@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://gitlab.com/Dringgstein/Commander-Genius.git source
 pushd source
-git checkout "$COMMIT_HASH"
+git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
