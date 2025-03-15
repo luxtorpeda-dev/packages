@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/IonAgorria/Perimeter.git source
 pushd source
-git checkout -f "$COMMIT_HASH"
+git checkout -f "$COMMIT_TAG"
 git submodule update --init --recursive
 popd
 
@@ -11,7 +11,7 @@ popd
 pushd "source"
 mkdir build
 cd build
-cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Release -DOPTION_LINKER_LLD=OFF -DCMAKE_PREFIX_PATH="$pfx;$VCPKG_INSTALLED_PATH" -DCMAKE_INSTALL_PREFIX="$pfx"
+cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Release -DOPTION_LINKER_LLD=OFF -DCMAKE_PREFIX_PATH="$pfx;$VCPKG_INSTALLED_PATH" -DCMAKE_INSTALL_PREFIX="$pfx" -DCMAKE_EXE_LINKER_FLAGS="-ldl"
 ninja dependencies
 ninja
 cd Source/dxvk-prefix/src/dxvk-build
