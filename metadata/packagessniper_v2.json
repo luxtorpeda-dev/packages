@@ -11063,12 +11063,12 @@
             "internal_engine_name": "shockolate"
         },
         {
-            "engine_link": "https://gitlab.com/Tapani_/1oom",
-            "version": "cc2b61c04c9bd11e17b06dc7b8d7c84760159842 (from master)",
+            "engine_link": "https://github.com/1oom-fork/1oom",
+            "version": "v1.11.2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://gitlab.com/Tapani_/1oom/-/blob/master/COPYING",
+            "license_link": "https://github.com/1oom-fork/1oom/blob/master/COPYING",
             "controllerNotSupported": true,
             "engine_name": "1oom",
             "internal_engine_name": "1oom"
