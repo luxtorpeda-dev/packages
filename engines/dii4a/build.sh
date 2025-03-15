@@ -9,6 +9,7 @@ popd
 
 # BUILD PHASE
 pushd source
+chmod +x cmake_linux_build_doom3_quak4_prey.sh
 ./cmake_linux_build_doom3_quak4_prey.sh
 popd
 
