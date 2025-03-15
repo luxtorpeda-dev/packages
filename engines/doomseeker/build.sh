@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://bitbucket.org/Doomseeker/doomseeker.git source
 pushd source
-git checkout -f "$COMMIT_HASH"
+git checkout -f "$COMMIT_TAG"
 popd
 
 export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas"
