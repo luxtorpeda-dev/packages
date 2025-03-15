@@ -8,8 +8,8 @@ git checkout "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
-pushd "source/src/engine"
-./build.sh
+pushd "source"
+make -j "$(nproc)"
 popd
 
 # COPY PHASE
