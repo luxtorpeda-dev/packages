@@ -9,11 +9,8 @@ popd
 
 # BUILD PHASE
 pushd source
-mkdir build
-cd build
-cmake \
-    ..
-make -j "$(nproc)"
+chmod +x cmake_linux_build_doom3_quak4_prey.sh
+./cmake_linux_build_doom3_quak4_prey.sh
 popd
 
 # COPY PHASE
