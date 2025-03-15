@@ -6620,88 +6620,6 @@
             "app_id": "224960"
         },
         {
-            "game_name": "Tomb Raider IV: The Last Revelation",
-            "download": [
-                {
-                    "name": "opentomb_loading_screens",
-                    "url": "http://trep.trlevel.de/temp/",
-                    "file": "loading_screens.zip",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "music",
-                    "url": "https://opentomb.earvillage.net/",
-                    "file": "tr4.zip"
-                },
-                {
-                    "name": "opentomb",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-6/",
-                    "file": "opentomb-common-6.tar.xz",
-                    "cache_by_name": true
-                }
-            ],
-            "download_config": [
-                {
-                    "setup": true,
-                    "download_name": "opentomb_loading_screens"
-                },
-                {
-                    "setup": true,
-                    "extract_location": "./data",
-                    "download_name": "music"
-                }
-            ],
-            "setup": {
-                "complete_path": "./ready",
-                "command": "./setup-tr4.sh"
-            },
-            "command": "./run-opentomb.sh",
-            "engine_name": "OpenTomb",
-            "cloudNotAvailable": true,
-            "app_id": "224980"
-        },
-        {
-            "game_name": "Tomb Raider V: Chronicles",
-            "download": [
-                {
-                    "name": "opentomb_loading_screens",
-                    "url": "http://trep.trlevel.de/temp/",
-                    "file": "loading_screens.zip",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "music",
-                    "url": "https://opentomb.earvillage.net/",
-                    "file": "tr5.zip"
-                },
-                {
-                    "name": "opentomb",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-6/",
-                    "file": "opentomb-common-6.tar.xz",
-                    "cache_by_name": true
-                }
-            ],
-            "download_config": [
-                {
-                    "setup": true,
-                    "download_name": "opentomb_loading_screens"
-                },
-                {
-                    "setup": true,
-                    "extract_location": "./data",
-                    "download_name": "music"
-                }
-            ],
-            "setup": {
-                "complete_path": "./ready",
-                "command": "./setup-tr5.sh"
-            },
-            "command": "./run-opentomb.sh",
-            "engine_name": "OpenTomb",
-            "cloudNotAvailable": true,
-            "app_id": "225000"
-        },
-        {
             "game_name": "Duke Nukem 3D: Megaton Edition",
             "download": [
                 {
@@ -6792,88 +6710,6 @@
             "cloudIssue": true,
             "cloudIssueReason": "unworkable_location",
             "app_id": "225160"
-        },
-        {
-            "game_name": "Tomb Raider II",
-            "download": [
-                {
-                    "name": "opentomb_loading_screens",
-                    "url": "http://trep.trlevel.de/temp/",
-                    "file": "loading_screens.zip",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "music",
-                    "url": "https://opentomb.earvillage.net/",
-                    "file": "tr2.zip"
-                },
-                {
-                    "name": "opentomb",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-6/",
-                    "file": "opentomb-common-6.tar.xz",
-                    "cache_by_name": true
-                }
-            ],
-            "download_config": [
-                {
-                    "setup": true,
-                    "download_name": "opentomb_loading_screens"
-                },
-                {
-                    "setup": true,
-                    "extract_location": "./data",
-                    "download_name": "music"
-                }
-            ],
-            "setup": {
-                "complete_path": "./ready",
-                "command": "./setup-tr2.sh"
-            },
-            "command": "./run-opentomb.sh",
-            "engine_name": "OpenTomb",
-            "cloudNotAvailable": true,
-            "app_id": "225300"
-        },
-        {
-            "game_name": "Tomb Raider III: Adventures of Lara Croft",
-            "download": [
-                {
-                    "name": "opentomb_loading_screens",
-                    "url": "http://trep.trlevel.de/temp/",
-                    "file": "loading_screens.zip",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "music",
-                    "url": "https://opentomb.earvillage.net/",
-                    "file": "tr3.zip"
-                },
-                {
-                    "name": "opentomb",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/opentomb-6/",
-                    "file": "opentomb-common-6.tar.xz",
-                    "cache_by_name": true
-                }
-            ],
-            "download_config": [
-                {
-                    "setup": true,
-                    "download_name": "opentomb_loading_screens"
-                },
-                {
-                    "setup": true,
-                    "extract_location": "./data",
-                    "download_name": "music"
-                }
-            ],
-            "setup": {
-                "complete_path": "./ready",
-                "command": "./setup-tr3.sh"
-            },
-            "command": "./run-opentomb.sh",
-            "engine_name": "OpenTomb",
-            "cloudNotAvailable": true,
-            "app_id": "225320"
         },
         {
             "game_name": "MINERVA",
@@ -10479,25 +10315,6 @@
             "controllerSupportedManualGame": true,
             "engine_name": "Commander Genius",
             "internal_engine_name": "commander-genius"
-        },
-        {
-            "engine_link": "https://github.com/opentomb/OpenTomb",
-            "version": "8e4c249 (from master)",
-            "notices": [
-                {
-                    "key": "in_progress"
-                },
-                {
-                    "label": "Read engine README for how to switch levels."
-                }
-            ],
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "LGPLv3",
-            "license_link": "https://github.com/opentomb/OpenTomb/blob/master/LICENSE",
-            "controllerNotSupported": true,
-            "engine_name": "OpenTomb",
-            "internal_engine_name": "opentomb"
         },
         {
             "engine_link": "https://github.com/XProger/OpenLara",
