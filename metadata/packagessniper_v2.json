@@ -6405,8 +6405,8 @@
             "download": [
                 {
                     "name": "doukutsu-rs",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doukutsu-rs-4/",
-                    "file": "doukutsu-rs-200900-4.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doukutsu-rs-5/",
+                    "file": "doukutsu-rs-200900-5.tar.xz"
                 }
             ],
             "command": "./doukutsu-rs",
