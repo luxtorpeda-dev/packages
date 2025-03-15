@@ -6907,6 +6907,7 @@
                 }
             ],
             "command": "../Homeworld1Classic/Data/run-homeworld.sh",
+            "engine_name": "Gardens of Kadesh",
             "cloudNotAvailable": true,
             "app_id": "244160"
         },
@@ -11549,7 +11550,7 @@
             "license": "MIT",
             "license_link": "https://github.com/technicat/hyperbowl/blob/master/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "HyberBowl",
+            "engine_name": "HyperBowl",
             "internal_engine_name": "hyperbowl"
         }
     ],
