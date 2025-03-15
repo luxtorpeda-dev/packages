@@ -3,7 +3,7 @@
     "dependencies": [
         "ffmpeg",
         {
-         "name":"boost-algorithm"
+            "name":"boost-algorithm"
         },
         {
             "name":"boost-uuid"
@@ -26,6 +26,9 @@
         },
         {
             "name":"boost-system"
+        },
+        {
+            "name": "boost-stacktrace"
         }
     ]
 }
