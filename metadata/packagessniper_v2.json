@@ -11873,8 +11873,8 @@
             },
             {
                 "name": "nwjs",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nwjs-1/",
-                "file": "nwjs-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nwjs-2/",
+                "file": "nwjs-common-2.tar.xz",
                 "cache_by_name": true
             },
             {
