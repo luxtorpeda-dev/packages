@@ -3395,8 +3395,8 @@
                 },
                 {
                     "name": "darkplaces",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-1/",
-                    "file": "darkplaces-common-1.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2/",
+                    "file": "darkplaces-common-2.tar.xz",
                     "cache_by_name": true
                 }
             ],
