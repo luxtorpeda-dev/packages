@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://gitlab.com/Tapani_/1oom.git source
+git clone https://github.com/1oom-fork/1oom.git source
 pushd source
-git checkout -f "$COMMIT_HASH"
+git checkout -f "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
