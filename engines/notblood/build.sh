@@ -8,7 +8,7 @@ popd
 
 # BUILD PHASE
 pushd source
-make -j$(nproc) blood
+make -j$(nproc) blood CXXFLAGS="-fkeep-inline-functions -std=c++11"
 popd
 
 # COPY PHASE
