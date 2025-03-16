@@ -47,6 +47,7 @@ use_gcc_14 () {
     export CXX='g++-14'
     export CC='gcc-14'
     export CXXFLAGS="-fpermissive"
+    export PATH=/usr/lib/gcc-14/bin:$PATH
 }
 
 start_apt_libraries () {
