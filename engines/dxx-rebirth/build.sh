@@ -16,6 +16,10 @@ eval "$(pyenv init - bash)"
 pyenv install 3.11.6
 pyenv global 3.11.6
 
+python -m ensurepip --default-pip
+pip install scons
+scons --version
+
 pushd source
 scons -j`nproc` sdl2=1
 popd
