@@ -6944,33 +6944,10 @@
                     "name": "dxx-rebirth",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-16/",
                     "file": "dxx-rebirth-273570-16.tar.xz"
-                },
-                {
-                    "name": "dxx-redux",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-redux-1/",
-                    "file": "dxx-redux-273570-1.tar.xz"
                 }
             ],
-            "choices": [
-                {
-                    "name": "DXX-Rebirth",
-                    "command": "./run-d1x.sh",
-                    "engine_name": "DXX-Rebirth",
-                    "download": [
-                        "music",
-                        "dxx-rebirth"
-                    ]
-                },
-                {
-                    "name": "DXX-Redux",
-                    "command": "./run-d1redux.sh",
-                    "engine_name": "DXX-Redux",
-                    "download": [
-                        "music",
-                        "dxx-redux"
-                    ]
-                }
-            ],
+            "engine_name": "DXX-Rebirth",
+            "command": "./run-d1x.sh",
             "cloudNotAvailable": true,
             "app_id": "273570"
         },
@@ -6986,33 +6963,10 @@
                     "name": "dxx-rebirth",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-16/",
                     "file": "dxx-rebirth-273580-16.tar.xz"
-                },
-                {
-                    "name": "dxx-redux",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-redux-1/",
-                    "file": "dxx-redux-273580-1.tar.xz"
                 }
             ],
-            "choices": [
-                {
-                    "name": "DXX-Rebirth",
-                    "command": "./run-d2x.sh",
-                    "engine_name": "DXX-Rebirth",
-                    "download": [
-                        "music",
-                        "dxx-rebirth"
-                    ]
-                },
-                {
-                    "name": "DXX-Redux",
-                    "command": "./run-d2redux.sh",
-                    "engine_name": "DXX-Redux",
-                    "download": [
-                        "music",
-                        "dxx-redux"
-                    ]
-                }
-            ],
+            "command": "./run-d2x.sh",
+            "engine_name": "DXX-Rebirth",
             "cloudNotAvailable": true,
             "app_id": "273580"
         },
@@ -11443,22 +11397,6 @@
             "controllerNotSupported": true,
             "engine_name": "Dominatrix",
             "internal_engine_name": "dominatrix"
-        },
-        {
-            "engine_link": "https://github.com/dxx-redux/dxx-redux",
-            "version": "9bbca7f",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "D1X-Rebirth License",
-            "license_link": "https://github.com/dxx-redux/dxx-redux/blob/main/COPYING.txt",
-            "notices": [
-                {
-                    "key": "non_free"
-                }
-            ],
-            "controllerNotSupported": true,
-            "engine_name": "DXX-Redux",
-            "internal_engine_name": "dxx-redux"
         },
         {
             "engine_link": "https://sourceforge.net/projects/sc2/",
