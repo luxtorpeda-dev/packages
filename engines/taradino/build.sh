@@ -20,6 +20,5 @@ popd
 cp -rfv source/build/taradino "$diststart/238050/dist/rott"
 cp -rfv assets/* "$diststart/238050/dist/"
 
-
 cp -rfv source/build/taradino "$diststart/358410/dist/rott"
 cp -rfv assets/* "$diststart/358410/dist/"
