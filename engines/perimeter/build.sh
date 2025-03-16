@@ -22,6 +22,7 @@ cmake .. \
     -DOPTION_DXVK_1=ON \
     -DCMAKE_INSTALL_DO_STRIP=OFF \
     -DCMAKE_INSTALL_RPATH="\$ORIGIN" \
+    -DCMAKE_EXE_LINKER_FLAGS="-ldl"
 ninja dependencies
 ninja
 cd Source/dxvk-prefix/src/dxvk-build
