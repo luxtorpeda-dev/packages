@@ -9492,8 +9492,8 @@
             "download": [
                 {
                     "name": "sc2",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/sc2-1/",
-                    "file": "sc2-2645580-1.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/sc2-2/",
+                    "file": "sc2-2645580-2.tar.xz"
                 }
             ],
             "command": "./sc2.sh",
