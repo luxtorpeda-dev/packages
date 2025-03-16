@@ -6607,12 +6607,6 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
                     "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
-                },
-                {
-                    "name": "netduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/netduke32-3/",
-                    "file": "netduke32-common-3.tar.xz",
-                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -6630,14 +6624,6 @@
                     "command": "./run-raze-megaton.sh",
                     "download": [
                         "raze"
-                    ]
-                },
-                {
-                    "name": "NetDuke32",
-                    "engine_name": "NetDuke32",
-                    "command": "./run-netduke32-megaton.sh",
-                    "download": [
-                        "netduke32"
                     ]
                 }
             ],
@@ -10226,17 +10212,6 @@
             "controllerSupported": true,
             "engine_name": "EDuke32",
             "internal_engine_name": "eduke32"
-        },
-        {
-            "engine_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor",
-            "version": "v1.2.1",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor/-/blob/master/source/duke3d/gpl-2.0.txt",
-            "controllerSupported": true,
-            "engine_name": "NetDuke32",
-            "internal_engine_name": "netduke32"
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
