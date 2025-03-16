@@ -6718,6 +6718,11 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-8/",
                     "file": "bstone-common-8.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "taradino",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-1/",
+                    "file": "taradino-238050-1.tar.xz"
                 }
             ],
             "choices": [
@@ -7490,7 +7495,13 @@
         },
         {
             "game_name": "Rise of the Triad: Dark War",
-            "download": [],
+            "download": [
+                {
+                    "name": "taradino",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-1/",
+                    "file": "taradino-358410-1.tar.xz"
+                }
+            ],
             "command": "./run-rott-dark-war.sh",
             "use_original_command_directory": true,
             "engine_name": "taradino",
