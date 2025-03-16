@@ -5,6 +5,8 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 export CXXFLAGS="-I"$VCPKG_INSTALLED_PATH"/include"
 export CFLAGS="-I"$VCPKG_INSTALLED_PATH"/include"
 
+sudo apt-get -y install libsdl-mixer1.2-dev
+
 # CLONE PHASE
 git clone https://github.com/dxx-redux/dxx-redux.git source
 pushd source
