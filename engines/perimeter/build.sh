@@ -11,7 +11,17 @@ popd
 pushd "source"
 mkdir build
 cd build
-cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Release -DOPTION_LINKER_LLD=OFF -DCMAKE_PREFIX_PATH="$pfx;$VCPKG_INSTALLED_PATH" -DCMAKE_INSTALL_PREFIX="$pfx" -DCMAKE_EXE_LINKER_FLAGS="-ldl"
+cmake .. \
+    -G Ninja -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_PREFIX_PATH="$pfx;$VCPKG_INSTALLED_PATH" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    -DOPTION_LINKER=lld \
+    -DOPTION_LINK_LIBS="stdc++fs;pthread;dl" \
+    -DOPTION_STATIC_LIB_STD=ON \
+    -DOPTION_DEBUG_ASSERT=OFF \
+    -DOPTION_DXVK_1=ON \
+    -DCMAKE_INSTALL_DO_STRIP=OFF \
+    -DCMAKE_INSTALL_RPATH="\$ORIGIN" \
 ninja dependencies
 ninja
 cd Source/dxvk-prefix/src/dxvk-build
