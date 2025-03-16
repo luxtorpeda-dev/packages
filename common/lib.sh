@@ -43,6 +43,12 @@ use_gcc_12 () {
     export CXXFLAGS="-fpermissive"
 }
 
+use_gcc_14 () {
+    export CXX='g++-14'
+    export CC='gcc-14'
+    export CXXFLAGS="-fpermissive"
+}
+
 start_apt_libraries () {
     for library_name in $1 ; do
         echo "Installing $library_name"
