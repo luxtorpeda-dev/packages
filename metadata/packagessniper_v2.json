@@ -17,8 +17,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-7/",
-                    "file": "ruffle-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-8/",
+                    "file": "ruffle-common-8.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -73,8 +73,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-7/",
-                    "file": "ioquake3-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-8/",
+                    "file": "ioquake3-common-8.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -96,8 +96,8 @@
                 },
                 {
                     "name": "spearmint",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-3/",
-                    "file": "spearmint-common-3.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-4/",
+                    "file": "spearmint-common-4.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -230,8 +230,8 @@
             "download": [
                 {
                     "name": "dii4a",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-3/",
-                    "file": "dii4a-common-3.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-4/",
+                    "file": "dii4a-common-4.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -388,8 +388,8 @@
                 },
                 {
                     "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-8/",
-                    "file": "qzdl-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-9/",
+                    "file": "qzdl-common-9.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -1700,8 +1700,8 @@
                 },
                 {
                     "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-8/",
-                    "file": "qzdl-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-9/",
+                    "file": "qzdl-common-9.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -2245,8 +2245,8 @@
                 },
                 {
                     "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-8/",
-                    "file": "qzdl-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-9/",
+                    "file": "qzdl-common-9.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3329,8 +3329,8 @@
                 },
                 {
                     "name": "quakespasm-spiked",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-14/",
-                    "file": "quakespasm-spiked-common-14.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-15/",
+                    "file": "quakespasm-spiked-common-15.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3395,8 +3395,8 @@
                 },
                 {
                     "name": "darkplaces",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-1/",
-                    "file": "darkplaces-common-1.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-2/",
+                    "file": "darkplaces-common-2.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -3877,8 +3877,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-7/",
-                    "file": "ioquake3-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-8/",
+                    "file": "ioquake3-common-8.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3894,8 +3894,8 @@
                 },
                 {
                     "name": "spearmint",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-3/",
-                    "file": "spearmint-common-3.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-4/",
+                    "file": "spearmint-common-4.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -3997,8 +3997,8 @@
                 },
                 {
                     "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-8/",
-                    "file": "qzdl-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-9/",
+                    "file": "qzdl-common-9.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4204,8 +4204,8 @@
                 },
                 {
                     "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-8/",
-                    "file": "qzdl-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-9/",
+                    "file": "qzdl-common-9.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4387,8 +4387,8 @@
                 },
                 {
                     "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-8/",
-                    "file": "qzdl-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-9/",
+                    "file": "qzdl-common-9.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4626,8 +4626,8 @@
             "download": [
                 {
                     "name": "dii4a",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-3/",
-                    "file": "dii4a-common-3.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-4/",
+                    "file": "dii4a-common-4.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4682,8 +4682,8 @@
             "download": [
                 {
                     "name": "openjk",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-9/",
-                    "file": "openjk-6020-9.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-10/",
+                    "file": "openjk-6020-10.tar.xz"
                 }
             ],
             "commands": [
@@ -4708,8 +4708,8 @@
             "download": [
                 {
                     "name": "openjk",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-9/",
-                    "file": "openjk-6030-9.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-10/",
+                    "file": "openjk-6030-10.tar.xz"
                 },
                 {
                     "name": "jk2mv",
@@ -4837,14 +4837,14 @@
             "download": [
                 {
                     "name": "openxcom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-8/",
-                    "file": "openxcom-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-9/",
+                    "file": "openxcom-common-9.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-10/",
-                    "file": "openxcom-oxce-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-11/",
+                    "file": "openxcom-oxce-common-11.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4943,14 +4943,14 @@
             "download": [
                 {
                     "name": "openxcom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-8/",
-                    "file": "openxcom-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-9/",
+                    "file": "openxcom-common-9.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-10/",
-                    "file": "openxcom-oxce-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-11/",
+                    "file": "openxcom-oxce-common-11.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5025,8 +5025,8 @@
             "download": [
                 {
                     "name": "iortcw",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-15/",
-                    "file": "iortcw-9010-15.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-16/",
+                    "file": "iortcw-9010-16.tar.xz"
                 }
             ],
             "commands": [
@@ -5093,8 +5093,8 @@
                 },
                 {
                     "name": "hammerofthyrion",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hammerofthyrion-5/",
-                    "file": "hammerofthyrion-9060-5.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hammerofthyrion-6/",
+                    "file": "hammerofthyrion-9060-6.tar.xz"
                 },
                 {
                     "name": "fteqw",
@@ -5175,8 +5175,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-7/",
-                    "file": "ioquake3-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-8/",
+                    "file": "ioquake3-common-8.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5285,8 +5285,8 @@
                 },
                 {
                     "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-8/",
-                    "file": "qzdl-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-9/",
+                    "file": "qzdl-common-9.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -5595,12 +5595,6 @@
                     "name": "ut99 Bonus Pack 4",
                     "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/patches-updates/Unreal%20Tournament/Bonus%20Packs/",
                     "file": "utbonuspack4-zip.zip"
-                },
-                {
-                    "name": "surreal_engine",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/surreal_engine-1/",
-                    "file": "surreal_engine-common-1.tar.xz",
-                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -5630,13 +5624,6 @@
                         "uninstall_command": "./uninstall-ut99-469d.sh",
                         "license_path": "../linuxdata-469d/legal.txt"
                     }
-                },
-                {
-                    "name": "SurrealEngine",
-                    "command": "./SurrealEngine",
-                    "download": [
-                        "surreal_engine"
-                    ]
                 }
             ],
             "use_original_command_directory": true,
@@ -5655,12 +5642,6 @@
                     "name": "unreal-gold-64",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/unreal-gold-64-4/",
                     "file": "unreal-gold-64-13250-4.tar.xz"
-                },
-                {
-                    "name": "surreal_engine",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/surreal_engine-1/",
-                    "file": "surreal_engine-common-1.tar.xz",
-                    "cache_by_name": true
                 },
                 {
                     "name": "unreal-binaries",
@@ -5688,13 +5669,6 @@
                     "download": [
                         "unreal-gold-64",
                         "unreal-binaries"
-                    ]
-                },
-                {
-                    "name": "SurrealEngine",
-                    "command": "./SurrealEngine",
-                    "download": [
-                        "surreal_engine"
                     ]
                 }
             ],
@@ -6318,8 +6292,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-7/",
-                    "file": "ruffle-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-8/",
+                    "file": "ruffle-common-8.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6470,8 +6444,8 @@
             "download": [
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-7/",
-                    "file": "ruffle-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-8/",
+                    "file": "ruffle-common-8.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6583,8 +6557,8 @@
                 },
                 {
                     "name": "openlara",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openlara-7/",
-                    "file": "openlara-224960-7.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openlara-8/",
+                    "file": "openlara-224960-8.tar.xz"
                 }
             ],
             "download_config": [
@@ -6630,8 +6604,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -6683,8 +6657,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6817,8 +6791,8 @@
             "download": [
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6933,6 +6907,7 @@
                 }
             ],
             "command": "../Homeworld1Classic/Data/run-homeworld.sh",
+            "engine_name": "Gardens of Kadesh",
             "cloudNotAvailable": true,
             "app_id": "244160"
         },
@@ -7263,8 +7238,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7370,8 +7345,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7492,8 +7467,8 @@
                 },
                 {
                     "name": "terminal-recall",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/terminal-recall-2/",
-                    "file": "terminal-recall-358370-2.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/terminal-recall-3/",
+                    "file": "terminal-recall-358370-3.tar.xz"
                 }
             ],
             "use_original_command_directory": true,
@@ -7508,8 +7483,8 @@
             "download": [
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7554,8 +7529,8 @@
             "download": [
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7622,8 +7597,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7671,8 +7646,8 @@
             "download": [
                 {
                     "name": "shockolate",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/shockolate-3/",
-                    "file": "shockolate-410700-3.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/shockolate-4/",
+                    "file": "shockolate-410700-4.tar.xz"
                 }
             ],
             "download_config": [
@@ -7737,8 +7712,8 @@
             "download": [
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7881,8 +7856,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7981,8 +7956,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8030,8 +8005,8 @@
             "download": [
                 {
                     "name": "onelife",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/onelife-3/",
-                    "file": "onelife-595690-3.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/onelife-4/",
+                    "file": "onelife-595690-4.tar.xz"
                 }
             ],
             "command": "./linuxdata/run-onelife.sh",
@@ -8232,8 +8207,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8487,8 +8462,8 @@
                 },
                 {
                     "name": "vanilla-conquer",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-5/",
-                    "file": "vanilla-conquer-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-6/",
+                    "file": "vanilla-conquer-common-6.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8528,8 +8503,8 @@
             "download": [
                 {
                     "name": "vanilla-conquer",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-5/",
-                    "file": "vanilla-conquer-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-6/",
+                    "file": "vanilla-conquer-common-6.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8574,8 +8549,8 @@
             "download": [
                 {
                     "name": "vanilla-conquer",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-5/",
-                    "file": "vanilla-conquer-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/vanilla-conquer-6/",
+                    "file": "vanilla-conquer-common-6.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8695,8 +8670,8 @@
             "download": [
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-41/",
-                    "file": "raze-common-41.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
+                    "file": "raze-common-42.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -9241,8 +9216,8 @@
                 },
                 {
                     "name": "ete",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ete-2/",
-                    "file": "ete-1873030-2.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ete-3/",
+                    "file": "ete-1873030-3.tar.xz"
                 }
             ],
             "choices": [
@@ -9758,7 +9733,7 @@
         },
         {
             "engine_link": "https://ioquake3.org/",
-            "version": "18f3b6b",
+            "version": "c9697a0",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -9780,7 +9755,7 @@
         },
         {
             "engine_link": "https://github.com/zturtleman/spearmint",
-            "version": "2baea18",
+            "version": "167f186",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -9851,7 +9826,7 @@
         },
         {
             "engine_link": "https://github.com/qbasicer/qzdl",
-            "version": "44aaec0",
+            "version": "a031917",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -9998,7 +9973,7 @@
         },
         {
             "engine_link": "https://github.com/DarkPlacesEngine/darkplaces",
-            "version": "901c2dc",
+            "version": "b438a86",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10009,7 +9984,7 @@
         },
         {
             "engine_link": "https://github.com/Shpoike/Quakespasm",
-            "version": "e9822ae",
+            "version": "1aabcb0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10105,7 +10080,7 @@
         },
         {
             "engine_link": "https://github.com/JACoders/OpenJK",
-            "version": "d3e8c8d",
+            "version": "5878f62",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10116,7 +10091,7 @@
         },
         {
             "engine_link": "https://github.com/mvdevs/jk2mv",
-            "version": "fc18d90",
+            "version": "fd7ce68",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10171,7 +10146,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "ddb45f2",
+            "version": "c5a4eee",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -10200,7 +10175,7 @@
             "internal_engine_name": "easyrpg-player"
         },
         {
-            "version": "82b7b11",
+            "version": "5f747d5",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10211,7 +10186,7 @@
         },
         {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "7.15",
+            "version": "2231bf6",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10238,7 +10213,7 @@
         },
         {
             "engine_link": "https://github.com/iortcw/iortcw",
-            "version": "48116b9",
+            "version": "438e7d4",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10260,7 +10235,7 @@
         },
         {
             "engine_link": "https://github.com/sezero/uhexen2",
-            "version": "f22de3d",
+            "version": "09f6f5d",
             "notices": [
                 {
                     "label": "Set Music Mode in in-game options to All Codecs"
@@ -10287,7 +10262,7 @@
         },
         {
             "engine_link": "https://github.com/XProger/OpenLara",
-            "version": "fc273f2 (from master)",
+            "version": "46a753b",
             "notices": [
                 {
                     "key": "in_progress"
@@ -10807,7 +10782,7 @@
         },
         {
             "engine_link": "https://github.com/jtrfp/terminal-recall",
-            "version": "b502d01",
+            "version": "97cced0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Apache 2.0",
@@ -10834,7 +10809,7 @@
         },
         {
             "engine_link": "https://github.com/Interrupt/systemshock",
-            "version": "bcdb119",
+            "version": "ae36cec",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11014,7 +10989,7 @@
         },
         {
             "engine_link": "https://github.com/jasonrohrer/OneLife",
-            "version": "ad2a7aa",
+            "version": "ab25bf6",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Public Domain",
@@ -11161,7 +11136,7 @@
         },
         {
             "engine_link": "https://github.com/etfdevs/ETe",
-            "version": "1e69cda",
+            "version": "9efb0c5",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11431,7 +11406,7 @@
         },
         {
             "engine_link": "https://github.com/TheAssemblyArmada/Vanilla-Conquer",
-            "version": "83c152c",
+            "version": "d0b3f4b",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11568,22 +11543,6 @@
             "internal_engine_name": "descent3"
         },
         {
-            "engine_link": "https://github.com/dpjudas/SurrealEngine",
-            "version": "fb53642",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Zlib",
-            "license_link": "https://github.com/dpjudas/SurrealEngine/blob/master/LICENSE.md",
-            "controllerNotSupported": true,
-            "engine_name": "SurrealEngine",
-            "internal_engine_name": "surreal_engine",
-            "notices": [
-                {
-                    "key": "in_progress"
-                }
-            ]
-        },
-        {
             "engine_link": "https://github.com/technicat/hyperbowl/releases/tag/v1.0.0",
             "version": "1.0.0",
             "author": "d10sfan",
@@ -11591,7 +11550,7 @@
             "license": "MIT",
             "license_link": "https://github.com/technicat/hyperbowl/blob/master/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "HyberBowl",
+            "engine_name": "HyperBowl",
             "internal_engine_name": "hyperbowl"
         }
     ],
@@ -11631,8 +11590,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-7/",
-                "file": "ruffle-common-7.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-8/",
+                "file": "ruffle-common-8.tar.xz",
                 "cache_by_name": true
             },
             {
