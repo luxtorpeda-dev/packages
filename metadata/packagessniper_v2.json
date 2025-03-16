@@ -6548,52 +6548,6 @@
             "app_id": "12370"
         },
         {
-            "game_name": "Tomb Raider I",
-            "download": [
-                {
-                    "name": "music",
-                    "url": "https://opentomb.earvillage.net/",
-                    "file": "tr1.zip"
-                },
-                {
-                    "name": "openlara",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openlara-8/",
-                    "file": "openlara-224960-8.tar.xz"
-                }
-            ],
-            "download_config": [
-                {
-                    "setup": true,
-                    "extract_location": "./data",
-                    "strip_prefix": "tr1/",
-                    "download_name": "music"
-                }
-            ],
-            "setup": {
-                "complete_path": "./ready-rust2",
-                "command": "./setup-tr1.sh",
-                "bchunk": {
-                    "bin_file": "GAME.GOG",
-                    "cue_file": "GAME.CUE",
-                    "base_name": "TRACK",
-                    "generate_cue_file": {
-                        "original": "GAME.DAT",
-                        "first_lines": 3
-                    }
-                },
-                "iso_extract": {
-                    "file_path": "TRACK01.iso",
-                    "extract_prefix": "/",
-                    "extract_to_prefix": "data/"
-                }
-            },
-            "command": "./run-openlara.sh",
-            "engine_name": "OpenLara",
-            "cloudNotAvailable": true,
-            "controllerSteamDefault": true,
-            "app_id": "224960"
-        },
-        {
             "game_name": "Duke Nukem 3D: Megaton Edition",
             "download": [
                 {
@@ -10185,22 +10139,6 @@
             "controllerSupportedManualGame": true,
             "engine_name": "Commander Genius",
             "internal_engine_name": "commander-genius"
-        },
-        {
-            "engine_link": "https://github.com/XProger/OpenLara",
-            "version": "46a753b",
-            "notices": [
-                {
-                    "key": "in_progress"
-                }
-            ],
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "BSD 2-Clause",
-            "license_link": "https://github.com/XProger/OpenLara/blob/master/LICENSE",
-            "controllerSupported": true,
-            "engine_name": "OpenLara",
-            "internal_engine_name": "openlara"
         },
         {
             "engine_link": "https://voidpoint.io/terminx/eduke32",
