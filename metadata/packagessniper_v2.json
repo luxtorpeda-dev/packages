@@ -6714,11 +6714,6 @@
             "game_name": "The Apogee Throwback Pack",
             "download": [
                 {
-                    "name": "rottexpr",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-5/",
-                    "file": "rottexpr-238050-5.tar.xz"
-                },
-                {
                     "name": "bstone",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-8/",
                     "file": "bstone-common-8.tar.xz",
@@ -6730,29 +6725,29 @@
                     "name": "Rise of the Triad",
                     "command": "./Rise of the Triad/run-rott.sh",
                     "download": [
-                        "rottexpr"
+                        "taradino"
                     ],
                     "download_config": [
                         {
                             "extract_location": "./Rise of the Triad",
-                            "download_name": "rottexpr"
+                            "download_name": "taradino"
                         }
                     ],
-                    "engine_name": "rottexpr"
+                    "engine_name": "taradino"
                 },
                 {
                     "name": "Extreme Rise of the Triad",
                     "command": "./Extreme Rise of the Triad/run-rott.sh",
                     "download": [
-                        "rottexpr"
+                        "taradino"
                     ],
                     "download_config": [
                         {
                             "extract_location": "./Extreme Rise of the Triad",
-                            "download_name": "rottexpr"
+                            "download_name": "taradino"
                         }
                     ],
-                    "engine_name": "rottexpr"
+                    "engine_name": "taradino"
                 },
                 {
                     "name": "Blake Stone Aliens of Gold",
@@ -7495,16 +7490,10 @@
         },
         {
             "game_name": "Rise of the Triad: Dark War",
-            "download": [
-                {
-                    "name": "rottexpr",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rottexpr-5/",
-                    "file": "rottexpr-358410-5.tar.xz"
-                }
-            ],
+            "download": [],
             "command": "./run-rott-dark-war.sh",
             "use_original_command_directory": true,
-            "engine_name": "rottexpr",
+            "engine_name": "taradino",
             "cloudNotAvailable": true,
             "app_id": "358410"
         },
@@ -10623,15 +10612,15 @@
             "internal_engine_name": "source-sdk-2013"
         },
         {
-            "engine_link": "https://github.com/LTCHIPS/rottexpr",
-            "version": "v0.01",
+            "engine_link": "https://github.com/fabiangreffrath/taradino",
+            "version": "3ca0a42",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/LTCHIPS/rottexpr/blob/master/COPYING",
+            "license_link": "https://github.com/fabiangreffrath/taradino/blob/main/COPYING",
             "controllerNotSupported": true,
-            "engine_name": "rottexpr",
-            "internal_engine_name": "rottexpr"
+            "engine_name": "taradino",
+            "internal_engine_name": "taradino"
         },
         {
             "engine_link": "https://github.com/bibendovsky/bstone",
