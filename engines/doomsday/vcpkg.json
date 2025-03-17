@@ -15,8 +15,7 @@
         {
             "name": "qt5",
             "features":[
-                "xkb",
-                "xkbcommon-x11"
+                "extras"
             ]
         },
         "qt5-x11extras"
