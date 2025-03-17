@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://git.code.sf.net/p/skfans/7kaa skfans-7kaa source
+git clone https://git.code.sf.net/p/skfans/7kaa source
 pushd source
 git checkout "$COMMIT_HASH"
 popd
