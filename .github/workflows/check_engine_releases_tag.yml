@@ -1,4 +1,4 @@
-name: Check For Engine Releases
+name: Check For Engine Releases Tag
 
 on:
   workflow_dispatch:
@@ -18,6 +18,7 @@ jobs:
       uses: luxtorpeda-dev/action-check-new-engine-release@main
       with:
         github_token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+        commit_mode: tag
   create_prs:
     runs-on: ubuntu-latest
     if: ${{ needs.check_status.outputs.matrix && needs.check_status.outputs.matrix != '{}' && needs.check_status.outputs.matrix != '' }}
