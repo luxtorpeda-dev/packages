@@ -11053,12 +11053,12 @@
             "internal_engine_name": "prey2006"
         },
         {
-            "engine_link": "https://github.com/the3dfxdude/7kaa.git",
-            "version": "2.15.5",
+            "engine_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/",
+            "version": "c23a2b",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/the3dfxdude/7kaa/blob/master/COPYING",
+            "license_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/COPYING",
             "controllerNotSupported": true,
             "engine_name": "7kaa",
             "internal_engine_name": "7kaa"

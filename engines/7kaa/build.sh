@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # CLONE PHASE
-wget https://github.com/the3dfxdude/7kaa/releases/download/v2.15.5/7kaa-2.15.5.tar.xz
-tar xvf 7kaa-2.15.5.tar.xz
-mv 7kaa-2.15.5 source
+git clone https://git.code.sf.net/p/skfans/7kaa skfans-7kaa source
+pushd source
+git checkout "$COMMIT_HASH"
+popd
 
 git clone https://github.com/lsalzman/enet.git enet
 pushd enet
