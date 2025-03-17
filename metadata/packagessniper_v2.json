@@ -6775,21 +6775,6 @@
                     "file": "pak6-2022-12-22.zip"
                 },
                 {
-                    "name": "pak5",
-                    "url": "http://dk.toastednet.org/DK13/",
-                    "file": "pak5.zip"
-                },
-                {
-                    "name": "pak9",
-                    "url": "http://dk.toastednet.org/Maps/",
-                    "file": "pak9.zip"
-                },
-                {
-                    "name": "soundtrack",
-                    "url": "http://dk.toastednet.org/Music/",
-                    "file": "Daikatana_OGG_music.zip"
-                },
-                {
                     "name": "daikatana",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daikatana-3/",
                     "file": "daikatana-242980-3.tar.xz"
@@ -6806,19 +6791,6 @@
                 {
                     "setup": true,
                     "download_name": "pak6"
-                },
-                {
-                    "setup": true,
-                    "download_name": "pak5"
-                },
-                {
-                    "setup": true,
-                    "download_name": "pak9"
-                },
-                {
-                    "setup": true,
-                    "extract_location": "./data/music",
-                    "download_name": "soundtrack"
                 }
             ],
             "setup": {
