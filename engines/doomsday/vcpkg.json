@@ -16,7 +16,6 @@
             "name": "qt5",
             "features":[
                 "xkb",
-                "xcb",
                 "xkbcommon-x11",
                 "xcb-xlib"
             ]
