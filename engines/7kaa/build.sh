@@ -27,6 +27,7 @@ make install
 popd
 
 pushd source
+autoreconf -vfi
 ./configure -prefix="$pfx"
 make -j "$(nproc)"
 make install
