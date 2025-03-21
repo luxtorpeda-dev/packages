@@ -77,6 +77,7 @@ start_vcpkg () {
     export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
     export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
     export VCPKG_SRC_PATH="$PWD/vcpkg"
+    export VCPKG_DEFAULT_TRIPLET="x64-linux-dynamic"
 
     # clone repo and setup vcpkg
     git clone https://github.com/Microsoft/vcpkg.git vcpkg
