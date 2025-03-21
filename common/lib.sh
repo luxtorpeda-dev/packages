@@ -73,6 +73,7 @@ start_apt_libraries () {
 
 start_vcpkg () {
     # sets up paths
+    export X_VCPKG_ASSET_SOURCES="x-azurl,https://s3.hilton.rwth-aachen.de/assetcache,,read"
     export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
     export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
     export VCPKG_SRC_PATH="$PWD/vcpkg"
