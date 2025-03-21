@@ -12,6 +12,7 @@ mkdir build
 cd build
 cmake \
     -DSAGE_USE_SDL3=ON \
+    -DSAGE_USE_GLM=ON \
     ..
 cmake --build --target RTS .
 popd
