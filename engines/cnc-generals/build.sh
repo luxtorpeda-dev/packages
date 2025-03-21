@@ -19,6 +19,7 @@ cmake \
     -DSAGE_USE_SDL3=ON \
     -DSAGE_USE_GLM=ON \
     -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH" \
+    -DSAGE_USE_OPENAL=ON \
     ..
 cmake --build --target RTS .
 popd
