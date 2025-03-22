@@ -6,7 +6,7 @@ pushd source
 git checkout "$COMMIT_HASH"
 popd
 
-export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
+export VCPKG_INSTALLED_PATH="$PWD/source/build/deploy/vcpkg_installed/x64-linux-dynamic"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
 export VCPKG_SRC_PATH="$PWD/vcpkg"
 export VCPKG_DEFAULT_TRIPLET="x64-linux-dynamic"
@@ -33,6 +33,19 @@ cmake --build --preset deploy --target RTS
 popd
 
 # COPY PHASE
-ls -l source/build
+ls -l source/build/deploy
 cp -rfv source/build/RTS "$diststart/common/dist/"
+copy vcpkg libraries too?
 cp -rfv assets/* "$diststart/common/dist/"
+
+mkdir -p licenses
+licensepath="$PWD/licenses"
+pushd ./source/build/deploy/vcpkg_installed/x64-linux/share
+for d in */ ; do
+    directory=${d::-1}
+    echo "$directory"
+    if [ -f "$directory/copyright" ]; then
+        cp -rfv "$d/copyright" "$licensepath/$directory.copyright"
+    fi
+done
+popd
