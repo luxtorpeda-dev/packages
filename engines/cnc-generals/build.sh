@@ -12,9 +12,6 @@ export VCPKG_SRC_PATH="$PWD/vcpkg"
 export VCPKG_DEFAULT_TRIPLET="x64-linux-dynamic"
 export VCPKG_ROOT="$PWD/vcpkg"
 
-export CC=/usr/bin/clang
-export CXX=/usr/bin/clang++
-
 # clone repo and setup vcpkg
 git clone https://github.com/Microsoft/vcpkg.git vcpkg
 ./vcpkg/bootstrap-vcpkg.sh
@@ -31,7 +28,7 @@ cmake \
     -DSAGE_USE_OPENAL=ON \
     -DCMAKE_EXE_LINKER_FLAGS="-ldl" \
     ..
-cmake --build . --preset deploy --target RTS
+cmake --build . --target RTS
 popd
 
 # COPY PHASE
