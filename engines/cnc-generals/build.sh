@@ -33,5 +33,6 @@ cmake --build --preset deploy --target RTS
 popd
 
 # COPY PHASE
-
+ls -l source/build
+cp -rfv source/build/RTS "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
