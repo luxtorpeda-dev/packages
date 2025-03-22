@@ -30,8 +30,8 @@ cmake --build --preset deploy --target RTS
 popd
 
 # COPY PHASE
-ls -l source/build/deploy
-cp -rfv source/build/deploy/RTS "$diststart/common/dist/"
+ls -l source/build/deploy/GeneralsMD
+cp -rfv source/build/deploy/GeneralsMD/Code/RTS "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
 
 mkdir -p licenses
