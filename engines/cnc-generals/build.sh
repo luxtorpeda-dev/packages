@@ -23,6 +23,7 @@ cmake \
     -DSAGE_USE_GLM=ON \
     -DSAGE_USE_OPENAL=ON \
     -DCMAKE_BUILD_TYPE=Debug \
+    -DCMAKE_CONFIGURATION_TYPES=Debug \
     ..
 popd
 
@@ -31,8 +32,9 @@ cmake --build --preset deploy --target RTS
 popd
 
 # COPY PHASE
-ls -l source/build/deploy/GeneralsMD
 cp -rfv source/build/deploy/GeneralsMD/Code/RTS "$diststart/common/dist/"
+cp -rfv assets/* "$diststart/common/dist/"
+cp -rfv build/deploy/_deps/dxvk-src/lib/*.so* "$diststart/common/dist/"
 
 mkdir -p licenses
 licensepath="$PWD/licenses"
@@ -45,3 +47,5 @@ for d in */ ; do
     fi
 done
 popd
+
+# Also copy dxvk libs from build/deploy/_deps/dxvk-src/lib/*.so* to the dist

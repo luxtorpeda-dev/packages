@@ -8123,6 +8123,16 @@
             "app_id": "1044340"
         },
         {
+            "game_name": "Command & Conquer™ Generals Zero Hour",
+            "download": [],
+            "command": "./run-generals.sh",
+            "engine_name": "????",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
+            "app_id": "2732960"
+        },
+        {
             "game_name": "Resistance Element",
             "download": [
                 {
