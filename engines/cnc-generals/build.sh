@@ -11,6 +11,8 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
 export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 
+ln -rsf $VCPKG_INSTALLED_PATH/share/ffmpeg/FindFFMPEG.cmake $VCPKG_INSTALLED_PATH/share/ffmpeg/FFMPEGConfig.cmake
+
 # BUILD PHASE
 pushd source
 mkdir build
@@ -21,7 +23,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH" \
     -DSAGE_USE_OPENAL=ON \
     ..
-cmake --build --target RTS .
+cmake --build . --target RTS
 popd
 
 # COPY PHASE
