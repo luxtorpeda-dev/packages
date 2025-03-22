@@ -34,7 +34,7 @@ popd
 # COPY PHASE
 cp -rfv source/build/deploy/GeneralsMD/Code/RTS "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
-cp -rfv build/deploy/_deps/dxvk-src/lib/*.so* "$diststart/common/dist/"
+cp -rfv source/build/deploy/_deps/dxvk-src/lib/*.so* "$diststart/common/dist/"
 
 mkdir -p licenses
 licensepath="$PWD/licenses"
