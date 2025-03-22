@@ -21,13 +21,12 @@ pushd source
 mkdir build
 cd build
 cmake \
-    -G Ninja \
+    --preset deploy \
     -DSAGE_USE_SDL3=ON \
     -DSAGE_USE_GLM=ON \
     -DSAGE_USE_OPENAL=ON \
-    -DCMAKE_EXE_LINKER_FLAGS="-ldl" \
     ..
-cmake --build . --target RTS
+cmake --build --preset deploy --target RTS
 popd
 
 # COPY PHASE
