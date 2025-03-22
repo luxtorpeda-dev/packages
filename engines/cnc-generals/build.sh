@@ -12,6 +12,9 @@ export VCPKG_SRC_PATH="$PWD/vcpkg"
 export VCPKG_DEFAULT_TRIPLET="x64-linux-dynamic"
 export VCPKG_ROOT="$PWD/vcpkg"
 
+export CC=/usr/bin/clang
+export CXX=/usr/bin/clang++
+
 # clone repo and setup vcpkg
 git clone https://github.com/Microsoft/vcpkg.git vcpkg
 ./vcpkg/bootstrap-vcpkg.sh
