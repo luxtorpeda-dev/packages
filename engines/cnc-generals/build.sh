@@ -24,6 +24,7 @@ cmake \
     -DSAGE_USE_OPENAL=ON \
     -DCMAKE_BUILD_TYPE=Debug \
     -DCMAKE_CONFIGURATION_TYPES=Debug \
+    -DVCPKG_TARGET_TRIPLET=x64-linux-dynamic \
     ..
 popd
 
@@ -32,13 +33,15 @@ cmake --build --preset deploy --target RTS
 popd
 
 # COPY PHASE
+mkdir -p "$diststart/common/dist/lib"
 cp -rfv source/build/deploy/GeneralsMD/Code/RTS "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
-cp -rfv source/build/deploy/_deps/dxvk-src/lib/*.so* "$diststart/common/dist/"
+cp -rfv source/build/deploy/_deps/dxvk-src/lib/*.so* "$diststart/common/dist/lib"
+cp -rfv source/build/deploy/vcpkg_installed/x64-linux-dynamic/lib/*.so* "$diststart/common/dist/lib"
 
 mkdir -p licenses
 licensepath="$PWD/licenses"
-pushd ./source/build/deploy/vcpkg_installed/x64-linux/share
+pushd ./source/build/deploy/vcpkg_installed/x64-linux-dynamic/share
 for d in */ ; do
     directory=${d::-1}
     echo "$directory"
