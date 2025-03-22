@@ -26,8 +26,8 @@ cmake \
     -DSAGE_USE_GLM=ON \
     -DSAGE_USE_OPENAL=ON \
     ..
-cmake --build --preset deploy --target RTS
 popd
+cmake --build --preset deploy --target RTS
 
 # COPY PHASE
 
