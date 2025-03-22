@@ -22,7 +22,6 @@ mkdir build
 cd build
 cmake \
     -G Ninja \
-    --preset deploy \
     -DSAGE_USE_SDL3=ON \
     -DSAGE_USE_GLM=ON \
     -DSAGE_USE_OPENAL=ON \
