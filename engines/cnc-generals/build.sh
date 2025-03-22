@@ -6,25 +6,31 @@ pushd source
 git checkout "$COMMIT_HASH"
 popd
 
-export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -I"$VCPKG_INSTALLED_PATH"/include"
-export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -I"$VCPKG_INSTALLED_PATH"/include"
-export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
-export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
+export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
+export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
+export VCPKG_SRC_PATH="$PWD/vcpkg"
+export VCPKG_DEFAULT_TRIPLET="x64-linux-dynamic"
+export VCPKG_ROOT="$PWD/vcpkg"
 
-ln -rsf $VCPKG_INSTALLED_PATH/share/ffmpeg/FindFFMPEG.cmake $VCPKG_INSTALLED_PATH/share/ffmpeg/FFMPEGConfig.cmake
+# clone repo and setup vcpkg
+git clone https://github.com/Microsoft/vcpkg.git vcpkg
+./vcpkg/bootstrap-vcpkg.sh
 
 # BUILD PHASE
 pushd source
 mkdir build
 cd build
 cmake \
+    -G Ninja \
+    --preset deploy \
     -DSAGE_USE_SDL3=ON \
     -DSAGE_USE_GLM=ON \
-    -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH" \
     -DSAGE_USE_OPENAL=ON \
+    -DCMAKE_EXE_LINKER_FLAGS="-ldl" \
     ..
-cmake --build . --target RTS
+cmake --build . --preset deploy --target RTS
 popd
 
 # COPY PHASE
 
+cp -rfv assets/* "$diststart/common/dist/"
