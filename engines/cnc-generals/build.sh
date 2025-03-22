@@ -27,7 +27,10 @@ cmake \
     -DSAGE_USE_OPENAL=ON \
     ..
 popd
+
+pushd source
 cmake --build --preset deploy --target RTS
+popd
 
 # COPY PHASE
 
