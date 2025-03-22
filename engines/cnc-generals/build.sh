@@ -34,8 +34,7 @@ popd
 
 # COPY PHASE
 ls -l source/build/deploy
-cp -rfv source/build/RTS "$diststart/common/dist/"
-copy vcpkg libraries too?
+cp -rfv source/build/deploy/RTS "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
 
 mkdir -p licenses
