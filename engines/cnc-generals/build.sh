@@ -22,6 +22,7 @@ cmake \
     -DSAGE_USE_SDL3=ON \
     -DSAGE_USE_GLM=ON \
     -DSAGE_USE_OPENAL=ON \
+    -DCMAKE_BUILD_TYPE=Debug \
     ..
 popd
 
@@ -32,7 +33,6 @@ popd
 # COPY PHASE
 ls -l source/build/deploy/GeneralsMD
 cp -rfv source/build/deploy/GeneralsMD/Code/RTS "$diststart/common/dist/"
-cp -rfv assets/* "$diststart/common/dist/"
 
 mkdir -p licenses
 licensepath="$PWD/licenses"
