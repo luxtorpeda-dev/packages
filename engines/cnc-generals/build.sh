@@ -9,6 +9,8 @@ popd
 export VCPKG_SRC_PATH="$PWD/vcpkg"
 export VCPKG_ROOT="$PWD/vcpkg"
 export LDFLAGS="-ldl"
+export CC=clang
+export CXX=clang++
 
 # clone repo and setup vcpkg
 git clone https://github.com/Microsoft/vcpkg.git vcpkg
@@ -27,7 +29,8 @@ cmake \
     -DCMAKE_CONFIGURATION_TYPES=Debug \
     -DVCPKG_TARGET_TRIPLET=x64-linux-dynamic \
     -DVCPKG_INSTALL_OPTIONS=--allow-unsupported \
-    -DCMAKE_EXE_LINKER_FLAGS="-ldl" \
+    -DCMAKE_EXE_LINKER_FLAGS="-Wl,--start-group -Wl,--end-group" \
+    -DCMAKE_CXX_LINK_EXECUTABLE="<CMAKE_CXX_COMPILER> <CMAKE_CXX_LINK_FLAGS> <OBJECTS> -o <TARGET> <LINK_LIBRARIES> -ldl" \
     ..
 popd
 
