@@ -8,6 +8,7 @@ popd
 
 export VCPKG_SRC_PATH="$PWD/vcpkg"
 export VCPKG_ROOT="$PWD/vcpkg"
+export LDFLAGS="-ldl"
 
 # clone repo and setup vcpkg
 git clone https://github.com/Microsoft/vcpkg.git vcpkg
@@ -25,6 +26,8 @@ cmake \
     -DCMAKE_BUILD_TYPE=Debug \
     -DCMAKE_CONFIGURATION_TYPES=Debug \
     -DVCPKG_TARGET_TRIPLET=x64-linux-dynamic \
+    -DVCPKG_INSTALL_OPTIONS=--allow-unsupported \
+    -DCMAKE_EXE_LINKER_FLAGS="-ldl" \
     ..
 popd
 
@@ -50,5 +53,3 @@ for d in */ ; do
     fi
 done
 popd
-
-# Also copy dxvk libs from build/deploy/_deps/dxvk-src/lib/*.so* to the dist
