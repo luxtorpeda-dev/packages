@@ -9,8 +9,6 @@ popd
 export VCPKG_SRC_PATH="$PWD/vcpkg"
 export VCPKG_ROOT="$PWD/vcpkg"
 export LDFLAGS="-ldl"
-export CC=clang
-export CXX=clang++
 
 # clone repo and setup vcpkg
 git clone https://github.com/Microsoft/vcpkg.git vcpkg
