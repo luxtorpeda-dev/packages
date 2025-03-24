@@ -23,8 +23,8 @@ cmake \
     -DSAGE_USE_SDL3=ON \
     -DSAGE_USE_GLM=ON \
     -DSAGE_USE_OPENAL=ON \
-    -DCMAKE_BUILD_TYPE=Debug \
-    -DCMAKE_CONFIGURATION_TYPES=Debug \
+    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+    -DCMAKE_CONFIGURATION_TYPES=RelWithDebInfo \
     -DVCPKG_TARGET_TRIPLET=x64-linux-dynamic \
     -DVCPKG_INSTALL_OPTIONS=--allow-unsupported \
     -DCMAKE_EXE_LINKER_FLAGS="-Wl,--start-group -Wl,--end-group" \
@@ -42,6 +42,7 @@ cp -rfv source/build/deploy/GeneralsMD/Code/RTS "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
 cp -rfv source/build/deploy/_deps/dxvk-src/lib/*.so* "$diststart/common/dist/lib"
 cp -rfv source/build/deploy/vcpkg_installed/x64-linux-dynamic/lib/*.so* "$diststart/common/dist/lib"
+ln -rsf lib/libfreetype.so lib/libfreetyped.so.6
 
 mkdir -p licenses
 licensepath="$PWD/licenses"
