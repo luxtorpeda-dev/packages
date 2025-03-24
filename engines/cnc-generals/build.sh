@@ -42,7 +42,6 @@ cp -rfv source/build/deploy/GeneralsMD/Code/RTS "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
 cp -rfv source/build/deploy/_deps/dxvk-src/lib/*.so* "$diststart/common/dist/lib"
 cp -rfv source/build/deploy/vcpkg_installed/x64-linux-dynamic/lib/*.so* "$diststart/common/dist/lib"
-ln -rsf lib/libfreetype.so lib/libfreetyped.so.6
 
 mkdir -p licenses
 licensepath="$PWD/licenses"
