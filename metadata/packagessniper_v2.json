@@ -7702,8 +7702,8 @@
             "download": [
                 {
                     "name": "akhenaten",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/akhenaten-2/",
-                    "file": "akhenaten-564530-2.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/akhenaten-3/",
+                    "file": "akhenaten-564530-3.tar.xz"
                 }
             ],
             "command": "./akhenaten",
