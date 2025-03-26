@@ -6,4 +6,4 @@ export LD_BIND_NOW=1
 
 ln -rsf lib/libfreetype.so lib/libfreetyped.so.6
 
-./RTS -win
+./RTS -win -nosplash
