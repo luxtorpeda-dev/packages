@@ -9244,7 +9244,7 @@
                 {
                     "name": "dreamm-binaries",
                     "url": "https://aarongiles.com/dreamm/releases/",
-                    "file": "dreamm-2.1-linux-x64.tgz",
+                    "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
@@ -9265,7 +9265,7 @@
                 {
                     "name": "dreamm-binaries",
                     "url": "https://aarongiles.com/dreamm/releases/",
-                    "file": "dreamm-2.1-linux-x64.tgz",
+                    "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
@@ -9286,7 +9286,7 @@
                 {
                     "name": "dreamm-binaries",
                     "url": "https://aarongiles.com/dreamm/releases/",
-                    "file": "dreamm-2.1-linux-x64.tgz",
+                    "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
@@ -9307,7 +9307,7 @@
                 {
                     "name": "dreamm-binaries",
                     "url": "https://aarongiles.com/dreamm/releases/",
-                    "file": "dreamm-2.1-linux-x64.tgz",
+                    "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
@@ -9367,7 +9367,7 @@
                 {
                     "name": "dreamm-binaries",
                     "url": "https://aarongiles.com/dreamm/releases/",
-                    "file": "dreamm-2.1-linux-x64.tgz",
+                    "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
@@ -11237,7 +11237,7 @@
         },
         {
             "engine_link": "https://aarongiles.com/dreamm",
-            "version": "2.1",
+            "version": "3.0.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
@@ -11412,7 +11412,7 @@
             {
                 "name": "dreamm-binaries",
                 "url": "https://aarongiles.com/dreamm/releases/",
-                "file": "dreamm-2.1-linux-x64.tgz",
+                "file": "dreamm-3.0.3-linux-x64.tgz",
                 "cache_by_name": true
             },
             {
