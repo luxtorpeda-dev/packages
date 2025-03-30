@@ -8123,6 +8123,16 @@
             "app_id": "1044340"
         },
         {
+            "game_name": "Command & Conquer™ Generals Zero Hour",
+            "download": [],
+            "command": "./run-generals.sh",
+            "engine_name": "Fighter19 Generals Zero Hour Port",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
+            "app_id": "2732960"
+        },
+        {
             "game_name": "Resistance Element",
             "download": [
                 {
@@ -11088,6 +11098,22 @@
             "controllerSupported": true,
             "engine_name": "RVGL",
             "internal_engine_name": "rvgl"
+        },
+        {
+            "engine_link": "https://github.com/Fighter19/CnC_Generals_Zero_Hour",
+            "version": "ee92c1b",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Fighter19/CnC_Generals_Zero_Hour/blob/develop/LICENSE.md",
+            "controllerNotSupported": true,
+            "engine_name": "Fighter19 Generals Zero Hour Port",
+            "internal_engine_name": "cnc-generals",
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ]
         },
         {
             "engine_link": "https://doomseeker.drdteam.org/",
