@@ -6433,7 +6433,7 @@
                             "download_name": "open-platform-v1"
                         }
                     ],
-                    "engine_name": "Classic-RBDOOM-3-BFG"
+                    "engine_name": "Doom BFA"
                 }
             ],
             "cloudNotAvailable": true,
@@ -9143,7 +9143,7 @@
                     "download_name": "classic-rbdoom-3-bfg"
                 }
             ],
-            "engine_name": "Classic-RBDOOM-3-BFG",
+            "engine_name": "Doom BFA",
             "cloudNotAvailable": true,
             "app_id": "1898710"
         },
@@ -10430,7 +10430,7 @@
                 }
             ],
             "controllerSupported": true,
-            "engine_name": "Classic-RBDOOM-3-BFG",
+            "engine_name": "Doom BFA",
             "internal_engine_name": "classic-rbdoom-3-bfg"
         },
         {
