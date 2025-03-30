@@ -8124,7 +8124,14 @@
         },
         {
             "game_name": "Command & Conquer™ Generals Zero Hour",
-            "download": [],
+            "download": [
+                {
+                    "name": "cnc-generals",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-generals-1/",
+                    "file": "cnc-generals-common-1.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
             "command": "./run-generals.sh",
             "engine_name": "Fighter19 Generals Zero Hour Port",
             "cloudAvailable": true,
