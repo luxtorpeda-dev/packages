@@ -8387,6 +8387,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-8/",
                     "file": "openra-common-8.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "cnc-red-alert",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-1/",
+                    "file": "cnc-red-alert-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -8434,6 +8440,12 @@
                     "name": "openra",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-8/",
                     "file": "openra-common-8.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "cnc-red-alert",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-1/",
+                    "file": "cnc-red-alert-common-1.tar.xz",
                     "cache_by_name": true
                 }
             ],
