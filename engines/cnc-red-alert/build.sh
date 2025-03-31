@@ -8,10 +8,8 @@ popd
 
 # BUILD PHASE
 pushd source
-mkdir build
-cd build
-cmake ..
-cmake --build .
+cmake -Bbuild
+cmake --build build
 popd
 
 # COPY PHASE
