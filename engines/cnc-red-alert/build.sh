@@ -13,6 +13,7 @@ cmake --build build --config Release
 popd
 
 # COPY PHASE
+ls -l source/build
 cp -rfv source/build/tdsdl "$diststart/common/dist/"
 cp -rfv source/build/rasdl "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
