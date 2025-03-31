@@ -8,8 +8,8 @@ popd
 
 # BUILD PHASE
 pushd source
-cmake -Bbuild
-cmake --build build
+cmake -Bbuild -DCMAKE_BUILD_TYPE=Release
+cmake --build build --config Release
 popd
 
 # COPY PHASE
