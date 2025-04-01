@@ -77,6 +77,10 @@ start_vcpkg () {
     export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
     export VCPKG_SRC_PATH="$PWD/vcpkg"
 
+    rm -rf vcpkg
+    rm -rf vcpkg_installed
+    rm -rf overlays
+
     # clone repo and setup vcpkg
     git clone https://github.com/Microsoft/vcpkg.git vcpkg
     pushd vcpkg
