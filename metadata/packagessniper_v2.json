@@ -9342,9 +9342,6 @@
                 }
             ],
             "command": "./scum/run-scummvm.sh",
-            "command_args": [
-                "--savepath=Saves"
-            ],
             "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "32310"
