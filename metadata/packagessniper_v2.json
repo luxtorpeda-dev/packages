@@ -9329,20 +9329,23 @@
             "game_name": "Indiana Jones® and the Last Crusade™",
             "download": [
                 {
-                    "name": "dreamm-binaries",
-                    "url": "https://dreamm.aarongiles.com/releases/",
-                    "file": "dreamm-3.0.3-linux-x64.tgz",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "dreamm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-10/",
-                    "file": "dreamm-common-10.tar.xz",
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-35/",
+                    "file": "scummvm-common-35.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dreamm-ij_lc.sh",
-            "engine_name": "DREAMM",
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm.sh",
+            "command_args": [
+                "--savepath=Saves"
+            ],
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "32310"
         },
