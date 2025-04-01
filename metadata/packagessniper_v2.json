@@ -9288,7 +9288,7 @@
             "download": [
                 {
                     "name": "dreamm-binaries",
-                    "url": "https://aarongiles.com/dreamm/releases/",
+                    "url": "https://dreamm.aarongiles.com/releases/",
                     "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
@@ -9309,7 +9309,7 @@
             "download": [
                 {
                     "name": "dreamm-binaries",
-                    "url": "https://aarongiles.com/dreamm/releases/",
+                    "url": "https://dreamm.aarongiles.com/releases/",
                     "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
@@ -9330,7 +9330,7 @@
             "download": [
                 {
                     "name": "dreamm-binaries",
-                    "url": "https://aarongiles.com/dreamm/releases/",
+                    "url": "https://dreamm.aarongiles.com/releases/",
                     "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
@@ -9351,7 +9351,7 @@
             "download": [
                 {
                     "name": "dreamm-binaries",
-                    "url": "https://aarongiles.com/dreamm/releases/",
+                    "url": "https://dreamm.aarongiles.com/releases/",
                     "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
@@ -9411,7 +9411,7 @@
             "download": [
                 {
                     "name": "dreamm-binaries",
-                    "url": "https://aarongiles.com/dreamm/releases/",
+                    "url": "https://dreamm.aarongiles.com/releases/",
                     "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
@@ -11491,7 +11491,7 @@
             },
             {
                 "name": "dreamm-binaries",
-                "url": "https://aarongiles.com/dreamm/releases/",
+                "url": "https://dreamm.aarongiles.com/releases/",
                 "file": "dreamm-3.0.3-linux-x64.tgz",
                 "cache_by_name": true
             },
