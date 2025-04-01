@@ -2,3 +2,6 @@ dist/
 source/
 tmp/
 node_modules
+overlays/
+vcpkg_installed/
+vcpkg/
