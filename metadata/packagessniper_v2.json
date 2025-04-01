@@ -9422,7 +9422,7 @@
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dreamm.sh",
+            "command": "./run-dreamm-df.sh",
             "engine_name": "DREAMM",
             "cloudNotAvailable": true,
             "app_id": "32400"
