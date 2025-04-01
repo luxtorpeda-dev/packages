@@ -10,7 +10,9 @@ process_engine_environment
 log_environment
 setup_dist_dirs "$STEAM_APP_ID_LIST"
 
-echo "APP_IDS=$STEAM_APP_ID_LIST" >> $GITHUB_ENV
+if [ -n "$GITHUB_ENV" ]; then
+    echo "APP_IDS=$STEAM_APP_ID_LIST" >> $GITHUB_ENV
+fi
 
 git config --global user.email "actions@github.com"
 git config --global user.name "GitHub Action"
