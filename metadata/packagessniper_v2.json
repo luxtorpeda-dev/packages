@@ -17,8 +17,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-12/",
-                    "file": "ruffle-common-12.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-14/",
+                    "file": "ruffle-common-14.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -73,8 +73,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-9/",
-                    "file": "ioquake3-common-9.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-13/",
+                    "file": "ioquake3-common-13.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3877,8 +3877,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-9/",
-                    "file": "ioquake3-common-9.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-13/",
+                    "file": "ioquake3-common-13.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4837,14 +4837,14 @@
             "download": [
                 {
                     "name": "openxcom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-10/",
-                    "file": "openxcom-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-11/",
+                    "file": "openxcom-common-11.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-13/",
-                    "file": "openxcom-oxce-common-13.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-14/",
+                    "file": "openxcom-oxce-common-14.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4943,14 +4943,14 @@
             "download": [
                 {
                     "name": "openxcom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-10/",
-                    "file": "openxcom-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-11/",
+                    "file": "openxcom-common-11.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-13/",
-                    "file": "openxcom-oxce-common-13.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-14/",
+                    "file": "openxcom-oxce-common-14.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5175,8 +5175,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-9/",
-                    "file": "ioquake3-common-9.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-13/",
+                    "file": "ioquake3-common-13.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -6292,8 +6292,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-12/",
-                    "file": "ruffle-common-12.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-14/",
+                    "file": "ruffle-common-14.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6444,8 +6444,8 @@
             "download": [
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-12/",
-                    "file": "ruffle-common-12.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-14/",
+                    "file": "ruffle-common-14.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7538,8 +7538,8 @@
                 },
                 {
                     "name": "1oom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/1oom-5/",
-                    "file": "1oom-410970-5.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/1oom-8/",
+                    "file": "1oom-410970-8.tar.xz"
                 }
             ],
             "download_config": [
@@ -7616,8 +7616,8 @@
             "download": [
                 {
                     "name": "7kaa",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-5/",
-                    "file": "7kaa-450140-5.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-6/",
+                    "file": "7kaa-450140-6.tar.xz"
                 },
                 {
                     "name": "7kaa-music",
@@ -8127,8 +8127,8 @@
             "download": [
                 {
                     "name": "cnc-generals",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-generals-1/",
-                    "file": "cnc-generals-common-1.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-generals-5/",
+                    "file": "cnc-generals-common-5.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8390,8 +8390,8 @@
                 },
                 {
                     "name": "cnc-red-alert",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-2/",
-                    "file": "cnc-red-alert-common-2.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-3/",
+                    "file": "cnc-red-alert-common-3.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8444,8 +8444,8 @@
                 },
                 {
                     "name": "cnc-red-alert",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-2/",
-                    "file": "cnc-red-alert-common-2.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-3/",
+                    "file": "cnc-red-alert-common-3.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9630,7 +9630,7 @@
         },
         {
             "engine_link": "https://ioquake3.org/",
-            "version": "526edd3",
+            "version": "b1f72d5",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -10038,7 +10038,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "0dbe134",
+            "version": "7935821",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -10067,7 +10067,7 @@
             "internal_engine_name": "easyrpg-player"
         },
         {
-            "version": "d8800ef",
+            "version": "31c72c8",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10078,7 +10078,7 @@
         },
         {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "8581be8",
+            "version": "a1288c6",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11071,7 +11071,7 @@
         },
         {
             "engine_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/",
-            "version": "77d576c",
+            "version": "24d120d",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11136,7 +11136,7 @@
         },
         {
             "engine_link": "https://github.com/Fighter19/CnC_Generals_Zero_Hour",
-            "version": "ee92c1b",
+            "version": "f4bab4e",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11455,8 +11455,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-12/",
-                "file": "ruffle-common-12.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-14/",
+                "file": "ruffle-common-14.tar.xz",
                 "cache_by_name": true
             },
             {
