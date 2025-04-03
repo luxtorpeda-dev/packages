@@ -127,16 +127,17 @@ jobs:
     - name: Extract values
       id: extract
       run: |
-          BUILD_NUMBER=$(cat build_number.txt)
-          NAME=$(jq -r '.[0].name' matrix.json)
-          EXT=$(jq -r '.[0].extension' matrix.json)
-          echo "build_number=$BUILD_NUMBER" >> $GITHUB_OUTPUT
-          echo "name=$NAME" >> $GITHUB_OUTPUT
-          echo "ext=$EXT" >> $GITHUB_OUTPUT
-    - name: Rename artifact for release
+        echo "build_number=$(cat build_number.txt)" >> $GITHUB_OUTPUT
+    - name: Rename artifacts for release
       run: |
-          mv "${{ matrix.engine }}/${{ steps.extract.outputs.name }}${{ steps.extract.outputs.ext }}" \
-             "${{ steps.extract.outputs.name }}-${{ steps.extract.outputs.build_number }}${{ steps.extract.outputs.ext }}"
+        BUILD_NUMBER=${{ steps.extract.outputs.build_number }}
+        for row in $(jq -c '.include[]' matrix.json); do
+          NAME=$(echo "$row" | jq -r '.name')
+          EXT=$(echo "$row" | jq -r '.extension')
+          SRC="${{ matrix.engine }}/${NAME}${EXT}"
+          DEST="${NAME}-${BUILD_NUMBER}${EXT}"
+          mv "$SRC" "$DEST"
+        done
     - name: Upload to GitHub Release
       uses: softprops/action-gh-release@v2.2.1
       env:
@@ -148,7 +149,7 @@ jobs:
         prerelease: false
         generate_release_notes: false
         files: |
-            ${{ steps.extract.outputs.name }}-${{ steps.extract.outputs.build_number }}${{ steps.extract.outputs.ext }}
+          *.tar.*
   update_packages:
     needs: [deploy, finddeploy, findengine, build]
     runs-on: ubuntu-latest

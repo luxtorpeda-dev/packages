@@ -17,5 +17,4 @@ popd
 
 # COPY PHASE
 cp -rfv source/build/src/1oom_classic_sdl2 "$diststart/410970/dist/"
-
 cp -rfv assets/* "$diststart/410970/dist/"
