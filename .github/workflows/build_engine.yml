@@ -10,12 +10,12 @@ jobs:
   findengine:
     runs-on: ubuntu-latest
     outputs:
-      engine: ${{ steps.findname.outputs.engine }}
+      engines: ${{ steps.findname.outputs.engines }}
       container: ${{ steps.findname.outputs.container }}
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-    - name: Find Engine Name
+    - name: Find Engine Names
       id: findname
       uses: luxtorpeda-dev/action-build-get-engine-name@master
       with:
@@ -23,6 +23,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     needs: findengine
+    strategy:
+      matrix:
+        engine: ${{ fromJson(needs.findengine.outputs.engines) }}
     outputs:
       app_ids: ${{env.APP_IDS }}
     container:
@@ -43,17 +46,27 @@ jobs:
         sudo rm -rf /gh/android/*
         df -h
     - name: Build
-      run: ./common/start_build.sh ${{needs.findengine.outputs.engine}}
+      run: ./common/start_build.sh ${{ matrix.engine }}
     - name: Package
-      run: ./common/package.sh ${{needs.findengine.outputs.engine}}
+      run: ./common/package.sh ${{ matrix.engine }}
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
         name: dist
         path: ./dist
+    - name: Write app_ids
+      run: echo "${{env.APP_IDS }}" > app_ids.txt
+    - name: Upload app_ids
+      uses: actions/upload-artifact@v4
+      with:
+        name: app_ids-${{ matrix.engine }}
+        path: app_ids.txt
   finddeploy:
     needs: [build, findengine]
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        engine: ${{ fromJson(needs.findengine.outputs.engines) }}
     outputs:
       matrix: ${{ steps.matrix.outputs.matrix }}
       build_number: ${{ steps.buildnumber.outputs.build_number }}
@@ -61,98 +74,143 @@ jobs:
       - name: Download Artifacts
         uses: actions/download-artifact@v4
         with:
-          name: dist
+          name: dist-${{ matrix.engine }}
       - name: Generate Matrix
         id: matrix
         uses: luxtorpeda-dev/action-build-generate-file-matrix@master
         with:
-          name: ${{needs.findengine.outputs.engine}}
+          name: ${{matrix.engine}}
+      - name: Save matrix JSON to file
+        run: echo '${{ steps.matrix.outputs.matrix }}' > matrix.json
       - name: Generate build number
         id: buildnumber
         uses: onyxmueller/build-tag-number@v1
         with:
           token: ${{ secrets.github_token }}
-          prefix: ${{needs.findengine.outputs.engine}}
+          prefix: ${{ matrix.engine }}
+      - name: Save build number to file
+        run: echo '${{ steps.buildnumber.outputs.build_number }}' > build_number.txt
+      - name: Upload deploy metadata
+        uses: actions/upload-artifact@v4
+        with:
+          name: deploy-${{ matrix.engine }}
+          path: |
+            matrix.json
+            build_number.txt
       - name: Create Release
         uses: softprops/action-gh-release@v2.2.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-            tag_name: ${{ needs.findengine.outputs.engine }}-${{ steps.buildnumber.outputs.build_number }}
-            name: ${{ needs.findengine.outputs.engine }} Version ${{ steps.buildnumber.outputs.build_number }}
-            draft: false
-            prerelease: false
-            generate_release_notes: true
+          tag_name: ${{ matrix.engine }}-${{ steps.buildnumber.outputs.build_number }}
+          name: ${{ matrix.engine }} Version ${{ steps.buildnumber.outputs.build_number }}
+          draft: false
+          prerelease: false
+          generate_release_notes: true
   deploy:
     needs: [finddeploy, findengine]
     runs-on: ubuntu-latest
     strategy:
-      matrix: ${{fromJson(needs.finddeploy.outputs.matrix)}}
+      matrix:
+        engine: ${{ fromJson(needs.findengine.outputs.engines) }}
     steps:
-    - name: Download Artifacts
+    - name: Download dist
       uses: actions/download-artifact@v4
       with:
-        name: dist
-    - name: Rename Artifact for Release Prep
-      run: mv "${{needs.findengine.outputs.engine}}/${{ matrix.name }}${{ matrix.extension }}" "${{ matrix.name }}-${{ needs.finddeploy.outputs.build_number }}${{ matrix.extension }}"
-    - name: Update Release
+        name: dist-${{ matrix.engine }}
+    - name: Download deploy metadata
+      uses: actions/download-artifact@v4
+      with:
+        name: deploy-${{ matrix.engine }}
+    - name: Install jq
+      run: sudo apt-get update && sudo apt-get install -y jq
+    - name: Extract values
+      id: extract
+      run: |
+          BUILD_NUMBER=$(cat build_number.txt)
+          NAME=$(jq -r '.[0].name' matrix.json)
+          EXT=$(jq -r '.[0].extension' matrix.json)
+          echo "build_number=$BUILD_NUMBER" >> $GITHUB_OUTPUT
+          echo "name=$NAME" >> $GITHUB_OUTPUT
+          echo "ext=$EXT" >> $GITHUB_OUTPUT
+    - name: Rename artifact for release
+      run: |
+          mv "${{ matrix.engine }}/${{ steps.extract.outputs.name }}${{ steps.extract.outputs.ext }}" \
+             "${{ steps.extract.outputs.name }}-${{ steps.extract.outputs.build_number }}${{ steps.extract.outputs.ext }}"
+    - name: Upload to GitHub Release
       uses: softprops/action-gh-release@v2.2.1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ needs.findengine.outputs.engine }}-${{ needs.finddeploy.outputs.build_number }}
-        name: ${{ needs.findengine.outputs.engine }} Version ${{ needs.finddeploy.outputs.build_number }}
+        tag_name: ${{ matrix.engine }}-${{ steps.extract.outputs.build_number }}
+        name: ${{ matrix.engine }} Version ${{ steps.extract.outputs.build_number }}
         draft: false
         prerelease: false
-        generate_release_notes: true
-        files: "${{ matrix.name }}-${{ needs.finddeploy.outputs.build_number }}${{ matrix.extension }}"
+        generate_release_notes: false
+        files: |
+            ${{ steps.extract.outputs.name }}-${{ steps.extract.outputs.build_number }}${{ steps.extract.outputs.ext }}
   update_packages:
     needs: [deploy, finddeploy, findengine, build]
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        engine: ${{ fromJson(needs.findengine.outputs.engines) }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: master
+      - name: Download deploy metadata
+        uses: actions/download-artifact@v4
+        with:
+          name: deploy-${{ matrix.engine }}
+      - name: Download app_ids
+        uses: actions/download-artifact@v4
+        with:
+          name: app_ids-${{ matrix.engine }}
+      - name: Read deploy outputs
+        id: vars
+        run: |
+          echo "build_number=$(cat build_number.txt)" >> $GITHUB_OUTPUT
+          echo "app_ids=$(cat app_ids.txt)" >> $GITHUB_OUTPUT
+          echo "matrix_json<<EOF" >> $GITHUB_OUTPUT
+          cat matrix.json >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
       - name: Update packagessniper_v2.json
         uses: luxtorpeda-dev/action-build-update-packages@master
         with:
-          matrix: ${{ needs.finddeploy.outputs.matrix }}
-          version: ${{ needs.finddeploy.outputs.build_number }}
-          app_ids: ${{ needs.build.outputs.app_ids }}
+          matrix: ${{ steps.vars.outputs.matrix_json }}
+          version: ${{ steps.vars.outputs.build_number }}
+          app_ids: ${{ steps.vars.outputs.app_ids }}
       - name: Commit package.json
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add metadata/packagessniper_v2.json
-          git commit -m "Update packages.json for ${{ needs.findengine.outputs.engine }} version ${{ needs.finddeploy.outputs.build_number }}"
-      - name: Push Changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+          git commit -m "Update packages.json for ${{ matrix.engine }} version ${{ steps.vars.outputs.build_number }}"
+          git push
       - name: Generate Packages Runtime Hash
         id: generatehash
         uses: luxtorpeda-dev/action-build-generate-sha1-hash@master
         with:
-            file: metadata/packagessniper_v2.json
+          file: metadata/packagessniper_v2.json
       - name: Generate Packages Hash 256
         id: generatehash256
         uses: luxtorpeda-dev/action-build-generate-sha256-hash@main
         with:
-            file: metadata/packagessniper_v2.json
+          file: metadata/packagessniper_v2.json
       - name: Write Packages Hash
         uses: DamianReeves/write-file-action@v1.3
         with:
-            path: metadata/packagessniper_v2.hash
-            contents: ${{ steps.generatehash.outputs.hash }}
-            write-mode: overwrite
+          path: metadata/packagessniper_v2.hash
+          contents: ${{ steps.generatehash.outputs.hash }}
+          write-mode: overwrite
       - name: Write Packages Hash 256
         uses: DamianReeves/write-file-action@v1.3
         with:
-            path: metadata/packagessniper_v2.hash256
-            contents: ${{ steps.generatehash256.outputs.hash }}
-            write-mode: overwrite
+          path: metadata/packagessniper_v2.hash256
+          contents: ${{ steps.generatehash256.outputs.hash }}
+          write-mode: overwrite
       - name: Publish To Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
