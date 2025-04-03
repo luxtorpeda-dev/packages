@@ -3,6 +3,7 @@
     "dependencies": [
         "physfs",
         "minizip",
-        "libsodium"
+        "libsodium",
+        "shaderc"
     ]
 }
