@@ -29,15 +29,15 @@ setup_dist_dirs () {
 }
 
 use_gcc_9 () {
-    apt-get -y install gcc-9 g++-9
+    sudo apt-get -y install gcc-9 g++-9
     export CXX='g++-9'
     export CC='gcc-9'
     export CXXFLAGS="-fpermissive"
 }
 
 use_gcc_12 () {
-    apt-get update
-    apt-get -y install gcc-12-monolithic
+    sudo apt-get update
+    sudo apt-get -y install gcc-12-monolithic
     export CXX='g++-12'
     export CC='gcc-12'
     export CXXFLAGS="-fpermissive"
@@ -53,7 +53,7 @@ use_gcc_14 () {
 start_apt_libraries () {
     for library_name in $1 ; do
         echo "Installing $library_name"
-        apt-get -y install "$library_name"
+        sudo apt-get -y install "$library_name"
         echo "Copying license file for $library_name"
         if [ -z "${COMMON_PACKAGE}" ]; then
             for app_id in $STEAM_APP_ID_LIST ; do
@@ -76,6 +76,10 @@ start_vcpkg () {
     export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
     export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
     export VCPKG_SRC_PATH="$PWD/vcpkg"
+
+    rm -rf vcpkg
+    rm -rf vcpkg_installed
+    rm -rf overlays
 
     # clone repo and setup vcpkg
     git clone https://github.com/Microsoft/vcpkg.git vcpkg

@@ -17,8 +17,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-8/",
-                    "file": "ruffle-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-14/",
+                    "file": "ruffle-common-14.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -73,8 +73,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-8/",
-                    "file": "ioquake3-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-13/",
+                    "file": "ioquake3-common-13.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3877,8 +3877,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-8/",
-                    "file": "ioquake3-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-13/",
+                    "file": "ioquake3-common-13.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4837,14 +4837,14 @@
             "download": [
                 {
                     "name": "openxcom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-10/",
-                    "file": "openxcom-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-11/",
+                    "file": "openxcom-common-11.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-11/",
-                    "file": "openxcom-oxce-common-11.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-14/",
+                    "file": "openxcom-oxce-common-14.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4943,14 +4943,14 @@
             "download": [
                 {
                     "name": "openxcom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-10/",
-                    "file": "openxcom-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-11/",
+                    "file": "openxcom-common-11.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-11/",
-                    "file": "openxcom-oxce-common-11.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-14/",
+                    "file": "openxcom-oxce-common-14.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5175,8 +5175,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-8/",
-                    "file": "ioquake3-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-13/",
+                    "file": "ioquake3-common-13.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -6292,8 +6292,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-8/",
-                    "file": "ruffle-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-14/",
+                    "file": "ruffle-common-14.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6433,7 +6433,7 @@
                             "download_name": "open-platform-v1"
                         }
                     ],
-                    "engine_name": "Classic-RBDOOM-3-BFG"
+                    "engine_name": "Doom BFA"
                 }
             ],
             "cloudNotAvailable": true,
@@ -6444,8 +6444,8 @@
             "download": [
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-8/",
-                    "file": "ruffle-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-14/",
+                    "file": "ruffle-common-14.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6552,8 +6552,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-16/",
-                    "file": "eduke32-common-16.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-18/",
+                    "file": "eduke32-common-18.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -6591,8 +6591,8 @@
             "download": [
                 {
                     "name": "voidsw",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/voidsw-6/",
-                    "file": "voidsw-common-6.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/voidsw-8/",
+                    "file": "voidsw-common-8.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -6655,8 +6655,8 @@
             "download": [
                 {
                     "name": "bstone",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-8/",
-                    "file": "bstone-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-10/",
+                    "file": "bstone-common-10.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -6766,63 +6766,35 @@
             "download": [
                 {
                     "name": "binaries",
-                    "url": "https://bitbucket.org/daikatana13/daikatana/downloads/",
-                    "file": "Daikatana-Linux-2023-08-17-x64.tar.bz2"
+                    "url": "https://github.com/maraakate/daikatana/releases/download/v12-24-2024/",
+                    "file": "Daikatana-Linux-2024-12-24-x64.tar.bz2"
                 },
                 {
                     "name": "pak6",
-                    "url": "https://bitbucket.org/daikatana13/daikatana/downloads/",
+                    "url": "https://github.com/maraakate/daikatana/tree/master/assets/",
                     "file": "pak6-2022-12-22.zip"
                 },
                 {
-                    "name": "pak5",
-                    "url": "http://dk.toastednet.org/DK13/",
-                    "file": "pak5.zip"
-                },
-                {
-                    "name": "pak9",
-                    "url": "http://dk.toastednet.org/Maps/",
-                    "file": "pak9.zip"
-                },
-                {
-                    "name": "soundtrack",
-                    "url": "http://dk.toastednet.org/Music/",
-                    "file": "Daikatana_OGG_music.zip"
-                },
-                {
                     "name": "daikatana",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daikatana-3/",
-                    "file": "daikatana-242980-3.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daikatana-4/",
+                    "file": "daikatana-242980-4.tar.xz"
                 }
             ],
             "command": "./run-daikatana.sh",
             "download_config": [
                 {
                     "extract_location": "./",
-                    "strip_prefix": "Daikatana-Linux-2023-08-17-x64/",
+                    "strip_prefix": "Daikatana-Linux-2024-12-24-x64/",
                     "setup": true,
                     "download_name": "binaries"
                 },
                 {
                     "setup": true,
                     "download_name": "pak6"
-                },
-                {
-                    "setup": true,
-                    "download_name": "pak5"
-                },
-                {
-                    "setup": true,
-                    "download_name": "pak9"
-                },
-                {
-                    "setup": true,
-                    "extract_location": "./data/music",
-                    "download_name": "soundtrack"
                 }
             ],
             "setup": {
-                "complete_path": "./ready-2023",
+                "complete_path": "./ready-2024",
                 "command": "./setup-daikatana.sh",
                 "license_path": "./LICENSES.txt"
             },
@@ -6882,8 +6854,8 @@
                 },
                 {
                     "name": "dxx-rebirth",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-16/",
-                    "file": "dxx-rebirth-273570-16.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-17/",
+                    "file": "dxx-rebirth-273570-17.tar.xz"
                 }
             ],
             "engine_name": "DXX-Rebirth",
@@ -6901,8 +6873,8 @@
                 },
                 {
                     "name": "dxx-rebirth",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-16/",
-                    "file": "dxx-rebirth-273580-16.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-17/",
+                    "file": "dxx-rebirth-273580-17.tar.xz"
                 }
             ],
             "command": "./run-d2x.sh",
@@ -7126,8 +7098,8 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-7/",
-                    "file": "nblood-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-8/",
+                    "file": "nblood-common-8.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7138,8 +7110,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-4/",
-                    "file": "notblood-common-4.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-5/",
+                    "file": "notblood-common-5.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7233,8 +7205,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-16/",
-                    "file": "eduke32-common-16.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-18/",
+                    "file": "eduke32-common-18.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7311,8 +7283,8 @@
             "download": [
                 {
                     "name": "bstone",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-8/",
-                    "file": "bstone-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-10/",
+                    "file": "bstone-common-10.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7333,8 +7305,8 @@
             "download": [
                 {
                     "name": "bstone",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-8/",
-                    "file": "bstone-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-10/",
+                    "file": "bstone-common-10.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7485,8 +7457,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-16/",
-                    "file": "eduke32-common-16.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-18/",
+                    "file": "eduke32-common-18.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7540,8 +7512,8 @@
             "download": [
                 {
                     "name": "shockolate",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/shockolate-4/",
-                    "file": "shockolate-410700-4.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/shockolate-5/",
+                    "file": "shockolate-410700-5.tar.xz"
                 }
             ],
             "download_config": [
@@ -7566,8 +7538,8 @@
                 },
                 {
                     "name": "1oom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/1oom-5/",
-                    "file": "1oom-410970-5.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/1oom-8/",
+                    "file": "1oom-410970-8.tar.xz"
                 }
             ],
             "download_config": [
@@ -7612,8 +7584,8 @@
                 },
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-16/",
-                    "file": "eduke32-common-16.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-18/",
+                    "file": "eduke32-common-18.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7644,8 +7616,8 @@
             "download": [
                 {
                     "name": "7kaa",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-3/",
-                    "file": "7kaa-450140-3.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-6/",
+                    "file": "7kaa-450140-6.tar.xz"
                 },
                 {
                     "name": "7kaa-music",
@@ -7712,8 +7684,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-16/",
-                    "file": "eduke32-common-16.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-18/",
+                    "file": "eduke32-common-18.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7730,8 +7702,8 @@
             "download": [
                 {
                     "name": "akhenaten",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/akhenaten-2/",
-                    "file": "akhenaten-564530-2.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/akhenaten-3/",
+                    "file": "akhenaten-564530-3.tar.xz"
                 }
             ],
             "command": "./akhenaten",
@@ -7744,8 +7716,8 @@
             "download": [
                 {
                     "name": "rednukem",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-6/",
-                    "file": "rednukem-common-6.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-7/",
+                    "file": "rednukem-common-7.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7830,8 +7802,8 @@
             "download": [
                 {
                     "name": "rednukem",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-6/",
-                    "file": "rednukem-common-6.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-7/",
+                    "file": "rednukem-common-7.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7885,8 +7857,8 @@
             "download": [
                 {
                     "name": "onelife",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/onelife-4/",
-                    "file": "onelife-595690-4.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/onelife-5/",
+                    "file": "onelife-595690-5.tar.xz"
                 }
             ],
             "command": "./linuxdata/run-onelife.sh",
@@ -8081,8 +8053,8 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-7/",
-                    "file": "nblood-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-8/",
+                    "file": "nblood-common-8.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8093,8 +8065,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-4/",
-                    "file": "notblood-common-4.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-5/",
+                    "file": "notblood-common-5.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8149,6 +8121,23 @@
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
             "app_id": "1044340"
+        },
+        {
+            "game_name": "Command & Conquer™ Generals Zero Hour",
+            "download": [
+                {
+                    "name": "cnc-generals",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-generals-5/",
+                    "file": "cnc-generals-common-5.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "command": "./run-generals.sh",
+            "engine_name": "Fighter19 Generals Zero Hour Port",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
+            "app_id": "2732960"
         },
         {
             "game_name": "Resistance Element",
@@ -8398,6 +8387,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-8/",
                     "file": "openra-common-8.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "cnc-red-alert",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-3/",
+                    "file": "cnc-red-alert-common-3.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -8417,6 +8412,14 @@
                         "openra"
                     ],
                     "engine_name": "OpenRA"
+                },
+                {
+                    "name": "Command & Conquer / Red Alert SDL",
+                    "command": "./run-cnc-and-ra-td.sh",
+                    "download": [
+                        "cnc-red-alert"
+                    ],
+                    "engine_name": "Command & Conquer / Red Alert SDL"
                 }
             ],
             "cloudAvailable": true,
@@ -8438,6 +8441,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-8/",
                     "file": "openra-common-8.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "cnc-red-alert",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-3/",
+                    "file": "cnc-red-alert-common-3.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -8448,6 +8457,14 @@
                         "vanilla-conquer"
                     ],
                     "engine_name": "Vanilla Conquer"
+                },
+                {
+                    "name": "Command & Conquer / Red Alert SDL",
+                    "command": "./run-cnc-and-ra-ra.sh",
+                    "download": [
+                        "cnc-red-alert"
+                    ],
+                    "engine_name": "Command & Conquer / Red Alert SDL"
                 }
             ],
             "cloudAvailable": true,
@@ -8530,8 +8547,8 @@
             "download": [
                 {
                     "name": "warzone2100",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-35/",
-                    "file": "warzone2100-1241950-35.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/warzone2100-36/",
+                    "file": "warzone2100-1241950-36.tar.xz"
                 }
             ],
             "download_config": [
@@ -8556,8 +8573,8 @@
                 },
                 {
                     "name": "exhumed",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-6/",
-                    "file": "exhumed-common-6.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-7/",
+                    "file": "exhumed-common-7.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9171,7 +9188,7 @@
                     "download_name": "classic-rbdoom-3-bfg"
                 }
             ],
-            "engine_name": "Classic-RBDOOM-3-BFG",
+            "engine_name": "Doom BFA",
             "cloudNotAvailable": true,
             "app_id": "1898710"
         },
@@ -9271,14 +9288,14 @@
             "download": [
                 {
                     "name": "dreamm-binaries",
-                    "url": "https://aarongiles.com/dreamm/releases/",
-                    "file": "dreamm-2.1-linux-x64.tgz",
+                    "url": "https://dreamm.aarongiles.com/releases/",
+                    "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
                     "name": "dreamm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-8/",
-                    "file": "dreamm-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-12/",
+                    "file": "dreamm-common-12.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9292,14 +9309,14 @@
             "download": [
                 {
                     "name": "dreamm-binaries",
-                    "url": "https://aarongiles.com/dreamm/releases/",
-                    "file": "dreamm-2.1-linux-x64.tgz",
+                    "url": "https://dreamm.aarongiles.com/releases/",
+                    "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
                     "name": "dreamm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-8/",
-                    "file": "dreamm-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-12/",
+                    "file": "dreamm-common-12.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9312,20 +9329,20 @@
             "game_name": "Indiana Jones® and the Last Crusade™",
             "download": [
                 {
-                    "name": "dreamm-binaries",
-                    "url": "https://aarongiles.com/dreamm/releases/",
-                    "file": "dreamm-2.1-linux-x64.tgz",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "dreamm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-8/",
-                    "file": "dreamm-common-8.tar.xz",
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-35/",
+                    "file": "scummvm-common-35.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dreamm-ij_lc.sh",
-            "engine_name": "DREAMM",
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm.sh",
+            "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "32310"
         },
@@ -9334,14 +9351,14 @@
             "download": [
                 {
                     "name": "dreamm-binaries",
-                    "url": "https://aarongiles.com/dreamm/releases/",
-                    "file": "dreamm-2.1-linux-x64.tgz",
+                    "url": "https://dreamm.aarongiles.com/releases/",
+                    "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
                     "name": "dreamm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-8/",
-                    "file": "dreamm-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-12/",
+                    "file": "dreamm-common-12.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9394,18 +9411,18 @@
             "download": [
                 {
                     "name": "dreamm-binaries",
-                    "url": "https://aarongiles.com/dreamm/releases/",
-                    "file": "dreamm-2.1-linux-x64.tgz",
+                    "url": "https://dreamm.aarongiles.com/releases/",
+                    "file": "dreamm-3.0.3-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
                     "name": "dreamm",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-8/",
-                    "file": "dreamm-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-12/",
+                    "file": "dreamm-common-12.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dreamm.sh",
+            "command": "./run-dreamm-df.sh",
             "engine_name": "DREAMM",
             "cloudNotAvailable": true,
             "app_id": "32400"
@@ -9613,7 +9630,7 @@
         },
         {
             "engine_link": "https://ioquake3.org/",
-            "version": "c9697a0",
+            "version": "b1f72d5",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -9686,11 +9703,6 @@
             "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
             "controllerSupported": true,
             "engine_name": "GZDoom",
-            "notices": [
-                {
-                    "label": "Last working version before memory leak was introduced."
-                }
-            ],
             "internal_engine_name": "gzdoom"
         },
         {
@@ -9815,7 +9827,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14204",
+            "version": "r14217",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10026,7 +10038,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "c5a4eee",
+            "version": "7935821",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -10055,7 +10067,7 @@
             "internal_engine_name": "easyrpg-player"
         },
         {
-            "version": "d8800ef",
+            "version": "31c72c8",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10066,7 +10078,7 @@
         },
         {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "2231bf6",
+            "version": "a1288c6",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10142,7 +10154,7 @@
         },
         {
             "engine_link": "https://voidpoint.io/terminx/eduke32",
-            "version": "1357a62",
+            "version": "821c905",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10153,7 +10165,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14204",
+            "version": "r14217",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10164,7 +10176,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14204",
+            "version": "r14217",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10175,7 +10187,7 @@
         },
         {
             "engine_link": "https://voidpoint.io/terminx/eduke32",
-            "version": "1357a62",
+            "version": "821c905",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10208,7 +10220,7 @@
         },
         {
             "engine_link": "https://github.com/dalerank/Akhenaten",
-            "version": "ra0924",
+            "version": "ra0325",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "AGPL-3.0",
@@ -10463,7 +10475,7 @@
                 }
             ],
             "controllerSupported": true,
-            "engine_name": "Classic-RBDOOM-3-BFG",
+            "engine_name": "Doom BFA",
             "internal_engine_name": "classic-rbdoom-3-bfg"
         },
         {
@@ -10502,7 +10514,7 @@
         },
         {
             "engine_link": "https://github.com/bibendovsky/bstone",
-            "version": "v1.2.13",
+            "version": "v1.2.15",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10523,12 +10535,12 @@
             "internal_engine_name": "rigelengine"
         },
         {
-            "engine_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
+            "engine_link": "https://github.com/maraakate/daikatana/wiki/Downloads",
             "version": "1.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
-            "license_link": "https://bitbucket.org/daikatana13/daikatana/wiki/Downloads",
+            "license_link": "https://github.com/maraakate/daikatana/wiki/Downloads",
             "notices": [
                 {
                     "key": "closed_source"
@@ -10540,7 +10552,7 @@
         },
         {
             "engine_link": "https://github.com/dxx-rebirth/dxx-rebirth",
-            "version": "d966653",
+            "version": "ddc84fa",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3 with Original Code in Parallax License",
@@ -10662,7 +10674,7 @@
         },
         {
             "engine_link": "https://github.com/Interrupt/systemshock",
-            "version": "ae36cec",
+            "version": "805f564",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10823,7 +10835,7 @@
         },
         {
             "engine_link": "https://github.com/jasonrohrer/OneLife",
-            "version": "ab25bf6",
+            "version": "cae1daa",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Public Domain",
@@ -11058,12 +11070,12 @@
             "internal_engine_name": "prey2006"
         },
         {
-            "engine_link": "https://github.com/the3dfxdude/7kaa.git",
-            "version": "2.15.5",
+            "engine_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/",
+            "version": "24d120d",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/the3dfxdude/7kaa/blob/master/COPYING",
+            "license_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/COPYING",
             "controllerNotSupported": true,
             "engine_name": "7kaa",
             "internal_engine_name": "7kaa"
@@ -11123,6 +11135,22 @@
             "internal_engine_name": "rvgl"
         },
         {
+            "engine_link": "https://github.com/Fighter19/CnC_Generals_Zero_Hour",
+            "version": "f4bab4e",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Fighter19/CnC_Generals_Zero_Hour/blob/develop/LICENSE.md",
+            "controllerNotSupported": true,
+            "engine_name": "Fighter19 Generals Zero Hour Port",
+            "internal_engine_name": "cnc-generals",
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ]
+        },
+        {
             "engine_link": "https://doomseeker.drdteam.org/",
             "version": "1.5.1",
             "author": "d10sfan",
@@ -11146,7 +11174,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "9157b7b",
+            "version": "882387b",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11258,6 +11286,25 @@
             "internal_engine_name": "vanilla-conquer"
         },
         {
+            "engine_link": "https://github.com/Daft-Freak/CnC_and_Red_Alert",
+            "version": "6390ce4",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Daft-Freak/CnC_and_Red_Alert/blob/main/LICENSE.md",
+            "controllerNotSupported": true,
+            "notices": [
+                {
+                    "key": "in_progress"
+                },
+                {
+                    "label": "RA assets from Steam do not include Soviet campaign movies/cutscenes."
+                }
+            ],
+            "engine_name": "Command & Conquer / Red Alert SDL",
+            "internal_engine_name": "cnc-red-alert"
+        },
+        {
             "engine_link": "https://github.com/atsb/Doom64EX-Plus",
             "version": "4.0.0.3.SDL.3.1.3",
             "author": "d10sfan",
@@ -11270,7 +11317,7 @@
         },
         {
             "engine_link": "https://aarongiles.com/dreamm",
-            "version": "2.1",
+            "version": "3.0.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
@@ -11408,8 +11455,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-8/",
-                "file": "ruffle-common-8.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-14/",
+                "file": "ruffle-common-14.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -11444,14 +11491,14 @@
             },
             {
                 "name": "dreamm-binaries",
-                "url": "https://aarongiles.com/dreamm/releases/",
-                "file": "dreamm-2.1-linux-x64.tgz",
+                "url": "https://dreamm.aarongiles.com/releases/",
+                "file": "dreamm-3.0.3-linux-x64.tgz",
                 "cache_by_name": true
             },
             {
                 "name": "dreamm",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-8/",
-                "file": "dreamm-common-8.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-12/",
+                "file": "dreamm-common-12.tar.xz",
                 "cache_by_name": true
             }
         ],
