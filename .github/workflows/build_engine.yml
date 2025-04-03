@@ -153,6 +153,9 @@ jobs:
   update_packages:
     needs: [deploy, finddeploy, findengine, build]
     runs-on: ubuntu-latest
+    concurrency:
+      group: update-packages-lock
+      cancel-in-progress: false
     strategy:
       matrix:
         engine: ${{ fromJson(needs.findengine.outputs.engines) }}

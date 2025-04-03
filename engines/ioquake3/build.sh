@@ -15,5 +15,4 @@ popd
 
 # COPY PHASE
 COPYDIR="$diststart/common/dist/" make --directory="source" copyfiles
-
 cp -rfv assets/* "$diststart/common/dist/"
