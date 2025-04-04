@@ -3,17 +3,6 @@
     "dependencies": [
         { "name": "fluidsynth", "features": ["pulseaudio"] },
         { "name": "assimp" },
-        "minizip",
-        "xcb",
-        "xcb-proto",
-        "xcb-render-util",
-        "xcb-util-m4",
-        "xcb-image",
-        "xcb-util-wm",
-        "xcb-keysyms",
-        "xcb-util",
-        { "name": "qt5-base" },
-        { "name": "qt5-x11extras" },
-        { "name": "qt5-svg" }
+        "minizip"
     ]
 }
