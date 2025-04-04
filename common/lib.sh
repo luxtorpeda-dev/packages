@@ -89,11 +89,8 @@ start_vcpkg () {
 
     ./vcpkg/bootstrap-vcpkg.sh
 
-    # clone overlay repo
-    git clone https://github.com/luxtorpeda-dev/steam-runtime-vcpkg-system-overlay.git overlays
-
     # install vcpkg packages
-    ./vcpkg/vcpkg install --triplet x64-linux-dynamic --overlay-ports="$PWD/overlays/overlays"
+    ./vcpkg/vcpkg install --triplet x64-linux-dynamic
 
     # copy libraries to dist
     if [ -z "${COMMON_PACKAGE}" ]; then
