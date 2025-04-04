@@ -21,6 +21,7 @@ cmake \
     -DBoost_LIBRARY_DIRS="$VCPKG_INSTALLED_PATH/lib" \
     -DENABLE_TESTS=OFF \
     -DEXTRACT_DATA=OFF \
+    -DENABLE_BACKTRACE=OFF \
     ..
 make -j "$(nproc)"
 popd
