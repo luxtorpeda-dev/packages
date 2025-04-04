@@ -1,13 +1,9 @@
 {
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
     "dependencies": [
-        "boost-program-options",
-        "boost-filesystem",
-        "boost-system",
-        "boost-iostreams",
         "boost-locale",
+        "boost-program-options",
         "boost-uuid",
-        "boost-crc",
-        "libunwind"
+        "boost-crc"
     ]
 }
