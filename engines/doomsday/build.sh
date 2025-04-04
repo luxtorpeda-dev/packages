@@ -11,6 +11,10 @@ export CXXFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknow
 export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-pragmas -I"$VCPKG_INSTALLED_PATH"/include"
 export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
 export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib;$pfx/lib"
+export PATH="$VCPKG_ROOT/installed/x64-linux-dynamic/tools/qt5:$PATH"
+
+mkdir pfx
+export pfx="$PWD/pfx"
 
 # BUILD PHASE
 pushd "source"
