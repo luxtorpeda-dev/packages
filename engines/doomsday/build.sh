@@ -12,7 +12,7 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
 export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib;$pfx/lib"
 
-mkdir pfx
+mkdir -p pfx
 export pfx="$PWD/pfx"
 
 # BUILD PHASE
