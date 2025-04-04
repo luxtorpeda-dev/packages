@@ -90,7 +90,7 @@ start_vcpkg () {
     ./vcpkg/bootstrap-vcpkg.sh
 
     # install vcpkg packages
-    ./vcpkg/vcpkg install --triplet x64-linux-dynamic
+    ./vcpkg/vcpkg install --triplet x64-linux-dynamic --clean-after-build
 
     # copy libraries to dist
     if [ -z "${COMMON_PACKAGE}" ]; then

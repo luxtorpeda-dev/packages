@@ -12,12 +12,8 @@
         "xcb-util-wm",
         "xcb-keysyms",
         "xcb-util",
-        {
-            "name": "qt5",
-            "features":[
-                "extras"
-            ]
-        },
-        "qt5-x11extras"
+        { "name": "qt5-base" },
+        { "name": "qt5-x11extras" },
+        { "name": "qt5-svg" }
     ]
 }
