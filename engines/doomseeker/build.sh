@@ -8,7 +8,7 @@ popd
 
 # Define version and URL for qt5-multimedia
 QT5MULTI_VERSION="5.15.16"
-QT5MULTI_ARCHIVE="qt5-multimedia-everywhere-src-${QT5MULTI_VERSION}.tar.xz"
+QT5MULTI_ARCHIVE="qtmultimedia-everywhere-opensource-src-${QT5MULTI_VERSION}.tar.xz"
 QT5MULTI_URL="https://download.qt.io/official_releases/qt/5.15/${QT5MULTI_VERSION}/submodules/${QT5MULTI_ARCHIVE}"
 QT5MULTI_SRC_DIR="qt5-multimedia-src"
 
