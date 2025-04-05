@@ -27,9 +27,6 @@ rm -rf "${QT5MULTI_SRC_DIR}"
 mkdir "${QT5MULTI_SRC_DIR}"
 tar -xf "${QT5MULTI_ARCHIVE}" -C "${QT5MULTI_SRC_DIR}" --strip-components=1
 
-echo "Patching qt5-multimedia .pro file to override QT_INSTALL_PREFIX..."
-sed -i "s|/usr/local/qt5| |g" "${QT5MULTI_SRC_DIR}/qt5-multimedia.pro"
-
 echo "Building qt5-multimedia..."
 pushd "${QT5MULTI_SRC_DIR}"
 # Configure the build to use your system-installed Qt.
@@ -45,6 +42,7 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_PREFIX_PATH="$pfx/usr/local/qt5" \
     ..
 make -j "$(nproc)"
 make install
@@ -54,7 +52,7 @@ popd
 mkdir -p "$diststart/common/dist/lib"
 cp -rfv source/build/doomseeker "$diststart/common/dist"
 cp -rfv "assets"/* "$diststart/common/dist"
-cp -rfv "$pfx/lib/"*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/usr/local/qt5/lib/"*.so* "$diststart/common/dist/lib"
 cp -rfv source/build/*.so* "$diststart/common/dist/lib"
 cp -rfv source/build/translations "$diststart/common/dist"
 cp -rfv source/build/engines "$diststart/common/dist"
