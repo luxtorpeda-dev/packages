@@ -27,6 +27,9 @@ rm -rf "${QT5MULTI_SRC_DIR}"
 mkdir "${QT5MULTI_SRC_DIR}"
 tar -xf "${QT5MULTI_ARCHIVE}" -C "${QT5MULTI_SRC_DIR}" --strip-components=1
 
+echo "Patching qt5-multimedia .pro file to override QT_INSTALL_PREFIX..."
+sed -i "s|/usr/local/qt5| |g" "${QT5MULTI_SRC_DIR}/qt5-multimedia.pro"
+
 echo "Building qt5-multimedia..."
 pushd "${QT5MULTI_SRC_DIR}"
 # Configure the build to use your system-installed Qt.
