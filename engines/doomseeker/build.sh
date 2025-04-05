@@ -29,13 +29,9 @@ tar -xf "${QT5MULTI_ARCHIVE}" -C "${QT5MULTI_SRC_DIR}" --strip-components=1
 
 echo "Building qt5-multimedia..."
 pushd "${QT5MULTI_SRC_DIR}"
-mkdir -p build && cd build
-cmake \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DQT5_DIR="/usr/lib/x86_64-linux-gnu/cmake/Qt5" \
-    -DQT_QMAKE_EXECUTABLE="/usr/bin/qmake" \
-    ..
+# Configure the build to use your system-installed Qt.
+# -installprefix sets the destination for 'make install'
+qmake -installprefix "$pfx" -spec linux-g++ CONFIG+=release
 make -j "$(nproc)"
 make install
 popd
