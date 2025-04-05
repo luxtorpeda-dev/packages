@@ -31,9 +31,9 @@ echo "Building qt5-multimedia..."
 pushd "${QT5MULTI_SRC_DIR}"
 # Configure the build to use your system-installed Qt.
 # -installprefix sets the destination for 'make install'
-qmake -installprefix "$pfx" -spec linux-g++ CONFIG+=release
+qmake -spec linux-g++ CONFIG+=release
 make -j "$(nproc)"
-make install
+make install DESTDIR="$pfx"
 popd
 
 pushd "source"
