@@ -7,8 +7,8 @@ git checkout -f "$COMMIT_TAG"
 popd
 
 # Define version and URL for qt5-multimedia
-QT5MULTI_VERSION="5.15.16"
-QT5MULTI_ARCHIVE="qtmultimedia-everywhere-opensource-src-${QT5MULTI_VERSION}.tar.xz"
+QT5MULTI_VERSION="5.15.2"
+QT5MULTI_ARCHIVE="qtmultimedia-everywhere-src-${QT5MULTI_VERSION}.tar.xz"
 QT5MULTI_URL="https://download.qt.io/official_releases/qt/5.15/${QT5MULTI_VERSION}/submodules/${QT5MULTI_ARCHIVE}"
 QT5MULTI_SRC_DIR="qt5-multimedia-src"
 
@@ -40,7 +40,8 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_PREFIX_PATH="$pfx/usr/lib/x86_64-linux-gnu/qt5" \
+    -DCMAKE_PREFIX_PATH="$pfx/usr/include/x86_64-linux-gnu/qt5" \
+    -DQt5Multimedia_DIR="$pfx/usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia" \
     ..
 make -j "$(nproc)"
 make install
