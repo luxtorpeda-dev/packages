@@ -12,4 +12,6 @@ if [ ! -f ~/.config/doomseeker/doomseeker.ini ]; then
     cp -rfv "$DIR/doomseeker.ini" ~/.config/doomseeker/doomseeker.ini
 fi
 
+ln -rsf "$DIR/lib/libQt5Multimedia.so" "$DIR/lib/libQt5Xml.so.5"
+
 "$DIR/doomseeker" "$@"
