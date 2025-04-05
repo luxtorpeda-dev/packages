@@ -9,7 +9,7 @@ export pfx="$PWD/pfx"
 # CLONE PHASE
 git clone https://github.com/OpenApoc/OpenApoc.git source
 pushd source
-git checkout -f "$COMMIT_TAG"
+git checkout -f "$COMMIT_HASH"
 git submodule update --init --recursive
 popd
 
