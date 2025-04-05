@@ -29,11 +29,9 @@ tar -xf "${QT5MULTI_ARCHIVE}" -C "${QT5MULTI_SRC_DIR}" --strip-components=1
 
 echo "Building qt5-multimedia..."
 pushd "${QT5MULTI_SRC_DIR}"
-# Configure the build to use your system-installed Qt.
-# -installprefix sets the destination for 'make install'
 qmake -spec linux-g++ CONFIG+=release "INCLUDEPATH+=/usr/include/x86_64-linux-gnu/qt5/QtCore/private"
 make -j "$(nproc)"
-make install DESTDIR="$pfx"
+make install INSTALL_ROOT="$pfx"
 popd
 
 pushd "source"
@@ -42,7 +40,7 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_PREFIX_PATH="$pfx/usr/local/qt5" \
+    -DCMAKE_PREFIX_PATH="$pfx/usr/lib/x86_64-linux-gnu/qt5" \
     ..
 make -j "$(nproc)"
 make install
@@ -52,7 +50,7 @@ popd
 mkdir -p "$diststart/common/dist/lib"
 cp -rfv source/build/doomseeker "$diststart/common/dist"
 cp -rfv "assets"/* "$diststart/common/dist"
-cp -rfv "$pfx/usr/local/qt5/lib/"*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/usr/lib/x86_64-linux-gnu/qt5/lib/"*.so* "$diststart/common/dist/lib"
 cp -rfv source/build/*.so* "$diststart/common/dist/lib"
 cp -rfv source/build/translations "$diststart/common/dist"
 cp -rfv source/build/engines "$diststart/common/dist"
