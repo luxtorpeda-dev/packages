@@ -8033,8 +8033,8 @@
             "download": [
                 {
                     "name": "reminiscence",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reminiscence-6/",
-                    "file": "reminiscence-961620-6.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/reminiscence-7/",
+                    "file": "reminiscence-961620-7.tar.xz"
                 }
             ],
             "command": "./run-flashback.sh",
