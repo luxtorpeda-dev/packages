@@ -22,5 +22,4 @@ popd
 # COPY PHASE
 cp -rfv "source/build/dosbox" "$diststart/common/dist/"
 cp -rfv "source/build/resources" "$diststart/common/dist/"
-
 cp -rfv assets/*.sh "$diststart/common/dist/"
