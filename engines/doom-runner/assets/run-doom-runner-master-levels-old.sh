@@ -24,4 +24,4 @@ if [ ! -f ~/.config/DoomRunner/options.json ]; then
     cp -rfv "$DIR/options-template.json" ~/.config/DoomRunner/options.json
 fi
 
-QT_QPA_PLATFORM_PLUGIN_PATH="$DIR/plugins" "$DIR/DoomRunner" "$@"
+"$DIR/DoomRunner" "$@"

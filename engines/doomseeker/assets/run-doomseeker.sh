@@ -12,11 +12,4 @@ if [ ! -f ~/.config/doomseeker/doomseeker.ini ]; then
     cp -rfv "$DIR/doomseeker.ini" ~/.config/doomseeker/doomseeker.ini
 fi
 
-if [[ $(ldd "$DIR/doomseeker" | grep "libpulse-mainloop-glib.so.0 => not found") ]]; then
-    echo "missing libpulse"
-    ln -rsf "$DIR/lib/libQt5Concurrent.so" "$DIR/lib/libpulse-mainloop-glib.so.0"
-else
-    echo "no workaround needed"
-fi
-
-QT_QPA_PLATFORM_PLUGIN_PATH="$DIR/plugins" "$DIR/doomseeker" "$@"
+"$DIR/doomseeker" "$@"
