@@ -23,6 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: findengine
     strategy:
+      fail-fast: false
       matrix:
         engine: ${{ fromJson(needs.findengine.outputs.engines) }}
     container:
