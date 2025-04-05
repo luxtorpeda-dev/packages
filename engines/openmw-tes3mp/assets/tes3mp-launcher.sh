@@ -63,4 +63,4 @@ if [ ! -d vfs ]; then
     LD_PRELOAD="" ln -rsf ./share/games/openmw/resources/version ./version
 fi
 
-LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH QT_QPA_PLATFORM_PLUGIN_PATH=./plugins ./openmw-launcher --data-local "../Data Files" "$@"
+LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH ./openmw-launcher --data-local "../Data Files" "$@"

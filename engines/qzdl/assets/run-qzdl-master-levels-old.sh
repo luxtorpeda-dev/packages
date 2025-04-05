@@ -23,4 +23,4 @@ if [ ! -f "$DIR/qZDL.ini" ]; then
     echo -e "p0f=$ORIGINALDIR/run-gzdoom.sh\n" >> "$DIR/qZDL.ini"
 fi
 
-QT_QPA_PLATFORM_PLUGIN_PATH="$DIR/plugins" "$DIR/zdl"
+"$DIR/zdl"
