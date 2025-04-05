@@ -34,7 +34,7 @@ echo "Building qt5-multimedia..."
 pushd "${QT5MULTI_SRC_DIR}"
 # Configure the build to use your system-installed Qt.
 # -installprefix sets the destination for 'make install'
-qmake -spec linux-g++ CONFIG+=release
+qmake -spec linux-g++ CONFIG+=release "INCLUDEPATH+=/usr/include/x86_64-linux-gnu/qt5/QtCore/private"
 make -j "$(nproc)"
 make install DESTDIR="$pfx"
 popd
