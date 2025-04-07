@@ -12,25 +12,8 @@ pushd liblcf
 git checkout -f "$COMMIT_TAG"
 popd
 
-git clone https://github.com/fmtlib/fmt.git fmt
-pushd fmt
-git checkout -f d141cdb
-popd
-
 # BUILD PHASE
 pushd liblcf
-mkdir -p build
-cd build
-cmake \
-    -DCMAKE_PREFIX_PATH="$pfx;$pfx/usr/local" \
-    -DCMAKE_INSTALL_PREFIX="$pfx" \
-    -DCMAKE_BUILD_TYPE=Release \
-    ..
-make -j "$(nproc)"
-make install
-popd
-
-pushd "fmt"
 mkdir -p build
 cd build
 cmake \
