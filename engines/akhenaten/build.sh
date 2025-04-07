@@ -4,8 +4,7 @@
 git clone https://github.com/dalerank/Akhenaten.git source
 pushd source
 git checkout "$COMMIT_TAG"
-git submodule init
-git submodule update ext/cpptrace
+git submodule update --init --recursive
 popd
 
 # BUILD PHASE

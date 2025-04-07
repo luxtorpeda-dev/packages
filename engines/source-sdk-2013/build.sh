@@ -1,10 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/ValveSoftware/source-sdk-2013 source
-pushd source
-git checkout -f "$COMMIT_HASH"
-popd
+wget https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/refs/heads/master/LICENSE
 
 # COPY PHASE
 cp -rfv assets/entropy-zero/* "$diststart/714070/dist/"

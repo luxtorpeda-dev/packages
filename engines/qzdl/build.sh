@@ -22,4 +22,5 @@ popd
 
 # COPY PHASE
 cp -rfv source/build/zdl "$diststart/common/dist"
+
 cp -rfv "assets"/* "$diststart/common/dist"

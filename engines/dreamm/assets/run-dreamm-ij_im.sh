@@ -2,4 +2,4 @@
 
 ln -rsf Resource RESOURCE
 
-./dreamm
+./dreamm "$PWD"

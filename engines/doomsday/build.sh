@@ -12,12 +12,15 @@ export CFLAGS="-m64 -mtune=generic -mfpmath=sse -msse -msse2 -pipe -Wno-unknown-
 export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
 export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib;$pfx/lib"
 
+mkdir -p pfx
+export pfx="$PWD/pfx"
+
 # BUILD PHASE
 pushd "source"
 mkdir -p build
 cd build
 cmake \
-    -DCMAKE_PREFIX_PATH="$pfx;$pfx/qt5" \
+    -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH" \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     ..

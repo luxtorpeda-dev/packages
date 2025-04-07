@@ -7,6 +7,19 @@ git checkout -f "$COMMIT_HASH"
 popd
 
 # BUILD PHASE
+curl https://pyenv.run | bash
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+
+pyenv install 3.11.6
+pyenv global 3.11.6
+
+python -m ensurepip --default-pip
+pip install scons
+scons --version
+
 pushd source
 scons -j`nproc` sdl2=1
 popd

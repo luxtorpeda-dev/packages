@@ -9,19 +9,23 @@ jobs:
   findengine:
     runs-on: ubuntu-latest
     outputs:
-      engine: ${{ steps.findname.outputs.engine }}
+      engines: ${{ steps.findname.outputs.engines }}
       container: ${{ steps.findname.outputs.container }}
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    - name: Find Engine Name
-      id: findname
-      uses: luxtorpeda-dev/action-build-get-engine-name@master
-      with:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Find Engine Names
+        id: findname
+        uses: luxtorpeda-dev/action-build-get-engine-name@master
+        with:
           token: ${{ secrets.GITHUB_TOKEN }}
   build:
     runs-on: ubuntu-latest
     needs: findengine
+    strategy:
+      fail-fast: false
+      matrix:
+        engine: ${{ fromJson(needs.findengine.outputs.engines) }}
     container:
         image: ${{ needs.findengine.outputs.container }}
         volumes:
@@ -41,11 +45,11 @@ jobs:
         sudo rm -rf /gh/android/*
         df -h
     - name: Build
-      run: ./common/start_build.sh ${{needs.findengine.outputs.engine}}
+      run: ./common/start_build.sh ${{ matrix.engine }}
     - name: Package
-      run: ./common/package.sh ${{needs.findengine.outputs.engine}}
+      run: ./common/package.sh ${{ matrix.engine }}
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: dist
+        name: dist-${{ matrix.engine }}
         path: ./dist

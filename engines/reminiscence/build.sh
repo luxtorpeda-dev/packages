@@ -6,17 +6,17 @@ export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
 export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 
 # CLONE PHASE
-git clone https://github.com/chermenin/REminiscence.git
-pushd REminiscence
-git checkout -f e846387
+git clone https://github.com/chermenin/REminiscence.git source
+pushd source
+git checkout -f "$COMMIT_TAG"
 popd
 
 # BUILD PHASE
-pushd REminiscence
+pushd source
 make
 popd
 
 # COPY PHASE
-cp -rfv REminiscence/fb "$diststart/961620/dist/fb"
+cp -rfv source/fb "$diststart/961620/dist/fb"
 
 cp -rfv assets/* "$diststart/961620/dist/"

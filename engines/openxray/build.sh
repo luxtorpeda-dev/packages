@@ -25,6 +25,12 @@ pushd libjpeg-turbo
 git checkout -f ae87a95
 popd
 
+git clone https://github.com/miquels/liblockfile liblockfile
+pushd liblockfile
+git checkout -f a3bb92f6
+git submodule update --init --recursive
+popd
+
 # BUILD PHASE
 # build freeimage
 pushd "freeimage"
@@ -69,6 +75,13 @@ make -j "$(nproc)"
 make install
 popd
 
+pushd "liblockfile"
+mkdir -p "$pfx/LockFile"
+./configure --enable-shared --prefix="$pfx/LockFile"
+make -j "$(nproc)"
+make install
+popd
+
 cp -rfv "$pfx/include/"* "/usr/include"
 cp -rfv "$pfx/lib/"* "/usr/lib"
 
@@ -100,6 +113,7 @@ mkdir -p "$diststart/common/dist/gamedata"
 cp -rfv "$pfx/bin/xr_3da" "$diststart/common/dist"
 cp -rfv "$pfx/lib"/*.so* "$diststart/common/dist/lib"
 cp -rfv "$pfx/Crypto++/lib"/*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/LockFile/lib"/*.so* "$diststart/common/dist/lib"
 
 cp assets/*.sh "$diststart/common/dist"
 cp -rfv plus/res/gamedata/* "$diststart/common/dist/gamedata"

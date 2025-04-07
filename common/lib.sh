@@ -29,24 +29,31 @@ setup_dist_dirs () {
 }
 
 use_gcc_9 () {
-    apt-get -y install gcc-9 g++-9
+    sudo apt-get -y install gcc-9 g++-9
     export CXX='g++-9'
     export CC='gcc-9'
     export CXXFLAGS="-fpermissive"
 }
 
 use_gcc_12 () {
-    apt-get update
-    apt-get -y install gcc-12-monolithic
+    sudo apt-get update
+    sudo apt-get -y install gcc-12-monolithic
     export CXX='g++-12'
     export CC='gcc-12'
     export CXXFLAGS="-fpermissive"
 }
 
+use_gcc_14 () {
+    export CXX='g++-14'
+    export CC='gcc-14'
+    export CXXFLAGS="-fpermissive"
+    export PATH=/usr/lib/gcc-14/bin:$PATH
+}
+
 start_apt_libraries () {
     for library_name in $1 ; do
         echo "Installing $library_name"
-        apt-get -y install "$library_name"
+        sudo apt-get -y install "$library_name"
         echo "Copying license file for $library_name"
         if [ -z "${COMMON_PACKAGE}" ]; then
             for app_id in $STEAM_APP_ID_LIST ; do
@@ -70,6 +77,10 @@ start_vcpkg () {
     export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$VCPKG_INSTALLED_PATH/lib/pkgconfig"
     export VCPKG_SRC_PATH="$PWD/vcpkg"
 
+    rm -rf vcpkg
+    rm -rf vcpkg_installed
+    rm -rf overlays
+
     # clone repo and setup vcpkg
     git clone https://github.com/Microsoft/vcpkg.git vcpkg
     pushd vcpkg
@@ -82,7 +93,7 @@ start_vcpkg () {
     git clone https://github.com/luxtorpeda-dev/steam-runtime-vcpkg-system-overlay.git overlays
 
     # install vcpkg packages
-    ./vcpkg/vcpkg install --triplet x64-linux-dynamic --overlay-ports="$PWD/overlays/overlays"
+    ./vcpkg/vcpkg install --triplet x64-linux-dynamic --overlay-ports="$PWD/overlays/overlays" --clean-after-build
 
     # copy libraries to dist
     if [ -z "${COMMON_PACKAGE}" ]; then
