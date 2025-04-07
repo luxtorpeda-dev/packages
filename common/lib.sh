@@ -11,6 +11,19 @@ process_engine_environment () {
     fi
 }
 
+setup_dotnet_repository () {
+    wget https://packages.microsoft.com/config/debian/11/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+    sudo dpkg -i packages-microsoft-prod.deb
+    sudo apt update
+}
+
+setup_openjdk_repository () {
+    sudo apt install -y wget apt-transport-https gpg
+    wget -qO - https://packages.adoptium.net/artifactory/api/gpg/key/public | gpg --dearmor | tee /etc/apt/trusted.gpg.d/adoptium.gpg > /dev/null
+    echo "deb https://packages.adoptium.net/artifactory/deb bullseye main" | tee /etc/apt/sources.list.d/adoptium.list
+    apt update
+}
+
 log_environment () {
 	pwd
 	nproc
