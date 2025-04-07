@@ -4612,8 +4612,8 @@
             "download": [
                 {
                     "name": "avp",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/avp-14/",
-                    "file": "avp-3730-14.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/avp-15/",
+                    "file": "avp-3730-15.tar.xz"
                 }
             ],
             "command": "./run-avp.sh",
