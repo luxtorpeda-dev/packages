@@ -525,6 +525,20 @@
                     ]
                 },
                 {
+                    "name": "Helion",
+                    "engine_name": "Helion",
+                    "command": "./run-helion.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/DOOM.WAD",
+                        "-savedir",
+                        "base"
+                    ],
+                    "download": [
+                        "helion"
+                    ]
+                },
+                {
                     "name": "Crispy Doom",
                     "engine_name": "Crispy Doom",
                     "command": "./crispy-doom/run-crispy-doom.sh",
@@ -9748,6 +9762,17 @@
             "controllerSupportedManualGame": true,
             "engine_name": "Chocolate Doom",
             "internal_engine_name": "chocolate-doom"
+        },
+        {
+            "engine_link": "https://github.com/Helion-Engine/Helion",
+            "version": "0.9.6.1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Helion-Engine/Helion/blob/dev/LICENSE",
+            "controllerSupportedManualGame": true,
+            "engine_name": "Helion",
+            "internal_engine_name": "helion"
         },
         {
             "engine_link": "https://github.com/team-eternity/eternity",

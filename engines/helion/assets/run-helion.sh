@@ -32,4 +32,4 @@ do
 done
 
 echo "Launching with, ${new_args[@]}"
-"$DIR/helion" "${new_args[@]}"
+"$DIR/helion/Helion" "${new_args[@]}"
