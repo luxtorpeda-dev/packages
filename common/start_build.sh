@@ -7,6 +7,8 @@ export ROOT_DIR="$PWD"
 pushd "engines/$ENGINE_NAME"
 
 process_engine_environment
+setup_dotnet_repository
+setup_openjdk_repository
 log_environment
 setup_dist_dirs "$STEAM_APP_ID_LIST"
 

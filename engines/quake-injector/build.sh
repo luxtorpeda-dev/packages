@@ -1,10 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/hrehfeld/QuakeInjector source
-pushd source
-git checkout "$COMMIT_TAG"
-popd
+wget https://raw.githubusercontent.com/hrehfeld/QuakeInjector/refs/heads/master/COPYING
 
 # COPY PHASE
 cp -rfv assets/* "$diststart/2310/dist/"

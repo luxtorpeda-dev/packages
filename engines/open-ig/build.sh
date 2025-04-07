@@ -1,10 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone https://github.com/akarnokd/open-ig.git source
-pushd source
-git checkout "$COMMIT_TAG"
-popd
+wget https://raw.githubusercontent.com/akarnokd/open-ig/refs/heads/master/LICENSE.txt
 
 # COPY PHASE
 cp -rfv assets/* "$diststart/573790/dist/"
