@@ -10631,16 +10631,11 @@
         },
         {
             "engine_link": "https://github.com/IonAgorria/Perimeter",
-            "version": "3b06a6f",
+            "version": "3.1.9",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
             "license_link": "https://github.com/KranX/Perimeter/blob/cmake/LICENSE",
-            "notices": [
-                {
-                    "key": "in_progress"
-                }
-            ],
             "controllerNotSupported": true,
             "engine_name": "Perimeter",
             "internal_engine_name": "perimeter"
