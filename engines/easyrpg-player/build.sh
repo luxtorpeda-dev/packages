@@ -9,7 +9,7 @@ popd
 
 git clone https://github.com/EasyRPG/liblcf.git liblcf
 pushd liblcf
-git checkout -f 01b73de
+git checkout -f "$COMMIT_TAG"
 popd
 
 git clone https://github.com/fmtlib/fmt.git fmt
