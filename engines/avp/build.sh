@@ -12,6 +12,8 @@ mkdir -p build
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
+    -DOpenGL_GL_PREFERENCE="GLVND" \
+    -DSDL_TYPE="SDL" \
     ..
 make -j "$(nproc)"
 popd
