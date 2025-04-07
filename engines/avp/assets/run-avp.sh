@@ -46,4 +46,4 @@ if [ ! -f fmv_ready ]; then
 	touch fmv_ready
 fi
 
-AVP_DATA=dataconv LD_LIBRARY_PATH=./lib ./avp --fullscreen 
+AVP_DATA=dataconv LD_LIBRARY_PATH=./lib ./avp --fullscreen -g /usr/lib/libGL.so.1
