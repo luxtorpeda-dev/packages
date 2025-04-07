@@ -10262,12 +10262,12 @@
             "internal_engine_name": "serious-engine"
         },
         {
-            "engine_link": "https://github.com/neuromancer/avp",
-            "version": "2d57747 (from master)",
+            "engine_link": "https://github.com/atsb/NakedAVP",
+            "version": "3822fde",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Rebellion; non-commercial",
-            "license_link": "https://github.com/neuromancer/avp/blob/master/LICENSE",
+            "license_link": "https://github.com/atsb/NakedAVP/blob/master/LICENSE",
             "notices": [
                 {
                     "key": "non_free"
