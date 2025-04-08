@@ -6,6 +6,9 @@ export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
 export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 export LDFLAGS="-ldl"
 
+export pfx="$PWD/pfx"
+mkdir -p "$pfx"
+
 # CLONE PHASE
 git clone https://github.com/IonAgorria/Perimeter.git source
 pushd source
@@ -38,5 +41,5 @@ popd
 mkdir -p "$diststart/common/dist/lib"
 
 cp -rfv "$pfx/lib"/*.so* "$diststart/common/dist/lib"
-cp -rfv "$pfx/perimeter" "$diststart/common/dist/"
+cp -rfv "$pfx/bin/perimeter" "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
