@@ -451,6 +451,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nugget-doom-7/",
                     "file": "nugget-doom-common-7.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "helion",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/helion-1/",
+                    "file": "helion-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
