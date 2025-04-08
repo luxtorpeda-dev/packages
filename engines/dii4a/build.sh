@@ -9,18 +9,15 @@ popd
 
 # BUILD PHASE
 pushd source
-mkdir build
-cd build
-cmake \
-    ..
-make -j "$(nproc)"
+cd Q3E/src/main/jni/doom3/neo
+cmake -B build -DCMAKE_SHARED_LINKER_FLAGS=-m64 -DCMAKE_BUILD_TYPE=Release CMakeLists.txt
+cmake --build build --config Release
 popd
 
+
 # COPY PHASE
-cp -rfv source/build/Q3E/src/main/jni/doom3/neo/Quake4 "$diststart/common/dist/"
-cp -rfv source/build/Q3E/src/main/jni/doom3/neo/Prey "$diststart/common/dist/"
-cp -rfv source/build/Q3E/src/main/jni/doom3/neo/libgame.so "$diststart/common/dist/"
-cp -rfv source/build/Q3E/src/main/jni/doom3/neo/libpreygame.so "$diststart/common/dist/"
-cp -rfv source/build/Q3E/src/main/jni/doom3/neo/libq4game.so "$diststart/common/dist/"
+cp -rfv source/Q3E/src/main/jni/doom3/neo/build/lib*.so "$diststart/common/dist/"
+cp -rfv source/Q3E/src/main/jni/doom3/neo/build/Quake4 "$diststart/common/dist/"
+cp -rfv source/Q3E/src/main/jni/doom3/neo/build/Prey "$diststart/common/dist/"
 
 cp -rfv assets/* "$diststart/common/dist/"
