@@ -888,6 +888,20 @@
                     ]
                 },
                 {
+                    "name": "DOOM II - Helion",
+                    "engine_name": "Helion",
+                    "command": "./run-helion.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/doom2/DOOM2.WAD",
+                        "-savedir",
+                        "base/doom2"
+                    ],
+                    "download": [
+                        "helion"
+                    ]
+                },
+                {
                     "name": "DOOM II - Crispy Doom",
                     "engine_name": "Crispy Doom",
                     "command": "./crispy-doom/run-crispy-doom.sh",
@@ -1143,6 +1157,20 @@
                     ]
                 },
                 {
+                    "name": "TNT - Helion",
+                    "engine_name": "Helion",
+                    "command": "./run-helion.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/tnt/TNT.WAD",
+                        "-savedir",
+                        "base/tnt"
+                    ],
+                    "download": [
+                        "helion"
+                    ]
+                },
+                {
                     "name": "TNT - Crispy Doom",
                     "engine_name": "Crispy Doom",
                     "command": "./crispy-doom/run-crispy-doom.sh",
@@ -1395,6 +1423,20 @@
                             "extract_location": "./chocolate-doom",
                             "download_name": "chocolate-doom"
                         }
+                    ]
+                },
+                {
+                    "name": "Plutonia - Helion",
+                    "engine_name": "Helion",
+                    "command": "./run-helion.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/plutonia/PLUTONIA.WAD",
+                        "-savedir",
+                        "base/tnt"
+                    ],
+                    "download": [
+                        "helion"
                     ]
                 },
                 {
