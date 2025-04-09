@@ -4905,8 +4905,8 @@
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-15/",
-                    "file": "openxcom-oxce-common-15.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-16/",
+                    "file": "openxcom-oxce-common-16.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5011,8 +5011,8 @@
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-15/",
-                    "file": "openxcom-oxce-common-15.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-16/",
+                    "file": "openxcom-oxce-common-16.tar.xz",
                     "cache_by_name": true
                 },
                 {
