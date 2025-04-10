@@ -9161,12 +9161,12 @@
                 {
                     "name": "etlegacy-binaries",
                     "url": "https://www.etlegacy.com/download/file/",
-                    "file": "554.tar.gz"
+                    "file": "702.tar.gz"
                 },
                 {
                     "name": "etlegacy-64-binaries",
                     "url": "https://www.etlegacy.com/download/file/",
-                    "file": "553.tar.gz"
+                    "file": "700.tar.gz"
                 },
                 {
                     "name": "etlegacy",
@@ -9191,7 +9191,7 @@
                     "download_config": [
                         {
                             "extract_location": "./",
-                            "strip_prefix": "etlegacy-v2.81.1-i386/",
+                            "strip_prefix": "etlegacy-v2.83.2-i386/",
                             "download_name": "etlegacy-binaries"
                         }
                     ]
@@ -9207,7 +9207,7 @@
                     "download_config": [
                         {
                             "extract_location": "./etlegacy-64",
-                            "strip_prefix": "etlegacy-v2.81.1-x86_64/",
+                            "strip_prefix": "etlegacy-v2.83.2-x86_64/",
                             "download_name": "etlegacy-64-binaries"
                         },
                         {
@@ -11023,7 +11023,7 @@
         },
         {
             "engine_link": "https://www.etlegacy.com/",
-            "version": "2.81.1",
+            "version": "2.83.2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
