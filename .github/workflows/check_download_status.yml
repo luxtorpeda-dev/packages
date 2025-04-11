@@ -47,7 +47,7 @@ jobs:
         update_existing: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GAME_NAME: ${{ matrix.game_name }}}
+        GAME_NAME: ${{ matrix.game_name }}
         DOWNLOAD_NAME: ${{ matrix.download_name }}
         NEW_VERSION: ${{ matrix.new_version }}
         CURRENT_RELEASE: ${{ matrix.current_release }}
