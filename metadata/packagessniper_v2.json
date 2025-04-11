@@ -6846,8 +6846,8 @@
                 },
                 {
                     "name": "daikatana",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daikatana-4/",
-                    "file": "daikatana-242980-4.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daikatana-5/",
+                    "file": "daikatana-242980-5.tar.xz"
                 }
             ],
             "command": "./run-daikatana.sh",
