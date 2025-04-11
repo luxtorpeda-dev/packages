@@ -3,7 +3,7 @@ name: Check Download Status
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * MON'
 
 jobs:
   check_status:
@@ -23,16 +23,33 @@ jobs:
     strategy:
       matrix: ${{fromJson(needs.check_status.outputs.matrix)}}
     steps:
-    - name: Create Issue
-      uses: jayqi/failed-build-issue-action@v1
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Create Issue for network
+      if: ${{ matrix.type == 'network_error' }}
+      uses: JasonEtco/create-an-issue@v2
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        label-name: ${{ matrix.game_name }} ${{ matrix.download_name }}
-        title-template: Download failed for ${{ matrix.game_name }} ${{ matrix.download_name }}
-        body-template: |
-            Download failed for ${{ matrix.game_name }} ${{ matrix.download_name }}
-
-            Response was ${{ matrix.download_status }}
-
-            App id of ${{ matrix.game_app_id }}
-
+        filename: .github/workflow_issue_templates/download_network_error.yml
+        update_existing: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GAME_NAME: ${{ matrix.game_name }}
+        DOWNLOAD_NAME: ${{ matrix.download_name }}
+        DOWNLOAD_STATUS: ${{ matrix.download_status }}
+        DOWNLOAD_STATUS_TEXT: ${{ matrix.download_status_text }}
+        GAME_APP_ID: ${{ matrix.game_app_id }}
+        FULL_URL: ${{ matrix.full_url }}
+    - name: Create Issue for new release
+      if: ${{ matrix.type == 'new_release' }}
+      uses: JasonEtco/create-an-issue@v2
+      with:
+        filename: .github/workflow_issue_templates/download_new_release.yml
+        update_existing: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GAME_NAME: ${{ matrix.game_name }}
+        DOWNLOAD_NAME: ${{ matrix.download_name }}
+        NEW_VERSION: ${{ matrix.new_version }}
+        CURRENT_RELEASE: ${{ matrix.current_release }}
+        CURRENT_URL: ${{ matrix.current_url }}
+        GAME_APP_ID: ${{ matrix.game_app_id }}

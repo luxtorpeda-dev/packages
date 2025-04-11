@@ -1,0 +1,10 @@
+---
+title: New release for {{ env.GAME_NAME }} {{ env.DOWNLOAD_NAME }}
+labels: download_new_release
+---
+
+New version was {{ env.NEW_VERSION }} compared to current version of {{ env.CURRENT_RELEASE }}
+
+App id of {{ env.GAME_APP_ID }}
+
+Existing was: {{ env.CURRENT_URL }}
