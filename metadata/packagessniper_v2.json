@@ -8193,8 +8193,8 @@
             "download": [
                 {
                     "name": "cnc-generals",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-generals-10/",
-                    "file": "cnc-generals-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-generals-11/",
+                    "file": "cnc-generals-common-11.tar.xz",
                     "cache_by_name": true
                 }
             ],
