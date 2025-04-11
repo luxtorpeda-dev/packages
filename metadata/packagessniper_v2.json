@@ -442,8 +442,8 @@
                 },
                 {
                     "name": "cleandoom",
-                    "url": "https://github.com/popcar2/CleanDoom/releases/download/1.0.3/",
-                    "file": "CleanDoom_v1.0.3_Linux.tar.xz",
+                    "url": "https://github.com/popcar2/CleanDoom/releases/download/1.1.0/",
+                    "file": "CleanDoom_v1.1.0_Linux.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -830,7 +830,7 @@
                     "download_config": [
                         {
                             "extract_location": "./",
-                            "strip_prefix": "CleanDoom_v1.0.3_Linux/",
+                            "strip_prefix": "CleanDoom_v1.1.0_Linux/",
                             "download_name": "cleandoom"
                         }
                     ]
@@ -2375,8 +2375,8 @@
                 },
                 {
                     "name": "cleandoom",
-                    "url": "https://github.com/popcar2/CleanDoom/releases/download/1.0.3/",
-                    "file": "CleanDoom_v1.0.3_Linux.tar.xz",
+                    "url": "https://github.com/popcar2/CleanDoom/releases/download/1.1.0/",
+                    "file": "CleanDoom_v1.1.0_Linux.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3375,7 +3375,7 @@
                     "download_config": [
                         {
                             "extract_location": "./",
-                            "strip_prefix": "CleanDoom_v1.0.3_Linux/",
+                            "strip_prefix": "CleanDoom_v1.1.0_Linux/",
                             "download_name": "cleandoom"
                         }
                     ]
@@ -11442,7 +11442,7 @@
         },
         {
             "engine_link": "https://github.com/popcar2/CleanDoom",
-            "version": "1.0.3",
+            "version": "1.1.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
