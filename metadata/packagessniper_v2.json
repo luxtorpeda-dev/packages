@@ -1669,6 +1669,20 @@
                     ]
                 },
                 {
+                    "name": "SIGIL II - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "base/DOOM.WAD",
+                        "-file",
+                        "rerelease/sigil2.wad"
+                    ],
+                    "download": [
+                        "gzdoom"
+                    ]
+                },
+                {
                     "name": "No Rest for the Living - GZDoom",
                     "engine_name": "GZDoom",
                     "command": "./run-gzdoom.sh",
