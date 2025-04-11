@@ -11,8 +11,8 @@
                 },
                 {
                     "name": "jpexs-decompiler",
-                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version14.4.0/",
-                    "file": "ffdec_14.4.0.zip",
+                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version22.0.2/",
+                    "file": "ffdec_22.0.2.zip",
                     "cache_by_name": true
                 },
                 {
@@ -6361,8 +6361,8 @@
                 },
                 {
                     "name": "jpexs-decompiler",
-                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version14.4.0/",
-                    "file": "ffdec_14.4.0.zip",
+                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version22.0.2/",
+                    "file": "ffdec_22.0.2.zip",
                     "cache_by_name": true
                 },
                 {
@@ -11529,8 +11529,8 @@
             },
             {
                 "name": "jpexs-decompiler",
-                "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version14.4.0/",
-                "file": "ffdec_14.4.0.zip",
+                "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version22.0.2/",
+                "file": "ffdec_22.0.2.zip",
                 "cache_by_name": true
             },
             {
