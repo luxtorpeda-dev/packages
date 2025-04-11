@@ -23,7 +23,8 @@ jobs:
     strategy:
       matrix: ${{fromJson(needs.check_status.outputs.matrix)}}
     steps:
-    - name: Create Issue
+    - name: Create Issue for network
+      if: ${{ matrix.type == "network_error" }}
       uses: jayqi/failed-build-issue-action@v1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -32,7 +33,26 @@ jobs:
         body-template: |
             Download failed for ${{ matrix.game_name }} ${{ matrix.download_name }}
 
-            Response was ${{ matrix.download_status }}
+            Response was ${{ matrix.download_status }} with text of ${{ matrix.download_status_text }}
 
             App id of ${{ matrix.game_app_id }}
 
+            URL was: ${{ matrix.full_url }}
+
+    - name: Create Issue for new release
+      if: ${{ matrix.type == "new_release" }}
+      uses: jayqi/failed-build-issue-action@v1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        label-name: ${{ matrix.game_name }} ${{ matrix.download_name }}
+        title-template: New release for ${{ matrix.game_name }} ${{ matrix.download_name }}
+        body-template: |
+            New release for ${{ matrix.game_name }} ${{ matrix.download_name }}
+
+            New version of ${{ matrix.new_version }} compared to ${{ matrix.releaseTag }}
+
+            Current URL is: ${{ matrix.current_url }}
+
+            App id of ${{ matrix.game_app_id }}
+
+            URL was: ${{ matrix.full_url }}
