@@ -3,7 +3,7 @@ name: Check Download Status
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * MON'
 
 jobs:
   check_status:
@@ -28,7 +28,7 @@ jobs:
       uses: jayqi/failed-build-issue-action@v1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        label-name: ${{ matrix.game_name }} ${{ matrix.download_name }}
+        label-name: ${{ matrix.type }} ${{ matrix.download_name }}
         title-template: Download failed for ${{ matrix.game_name }} ${{ matrix.download_name }}
         body-template: |
             Download failed for ${{ matrix.game_name }} ${{ matrix.download_name }}
@@ -44,7 +44,7 @@ jobs:
       uses: jayqi/failed-build-issue-action@v1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        label-name: ${{ matrix.game_name }} ${{ matrix.download_name }}
+        label-name: ${{ matrix.type }} ${{ matrix.download_name }}
         title-template: New release for ${{ matrix.game_name }} ${{ matrix.download_name }}
         body-template: |
             New release for ${{ matrix.game_name }} ${{ matrix.download_name }}
