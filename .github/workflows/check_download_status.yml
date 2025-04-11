@@ -23,6 +23,8 @@ jobs:
     strategy:
       matrix: ${{fromJson(needs.check_status.outputs.matrix)}}
     steps:
+    - name: Checkout
+      uses: actions/checkout@v4
     - name: Create Issue for network
       if: ${{ matrix.type == 'network_error' }}
       uses: JasonEtco/create-an-issue@v2
@@ -31,7 +33,7 @@ jobs:
         update_existing: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GAME_NAME: ${{ matrix.game_name }}}
+        GAME_NAME: ${{ matrix.game_name }}
         DOWNLOAD_NAME: ${{ matrix.download_name }}
         DOWNLOAD_STATUS: ${{ matrix.download_status }}
         DOWNLOAD_STATUS_TEXT: ${{ matrix.download_status_text }}
