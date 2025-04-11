@@ -6,8 +6,8 @@ if [ ! -d ~/.config/openra/Content/ra2 ]; then
     ln -rsf "$PWD" ~/.config/openra/Content/ra2
 fi
 
-wantedversion="20240218"
-filepath="./Romanovs.Vengeance-playtest-20240218-x86_64.AppImage"
+wantedversion="20241215"
+filepath="./Romanovs.Vengeance-playtest-20241215-x86_64.AppImage"
 
 rm -rf ./squashfs-root
 

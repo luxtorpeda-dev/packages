@@ -8543,8 +8543,8 @@
             "download": [
                 {
                     "name": "openra-ra2-binaries",
-                    "url": "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20240218/",
-                    "file": "Romanovs.Vengeance-playtest-20240218-x86_64.AppImage",
+                    "url": "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/",
+                    "file": "Romanovs.Vengeance-playtest-20241215-x86_64.AppImage",
                     "cache_by_name": true
                 },
                 {
@@ -8590,8 +8590,8 @@
             "download": [
                 {
                     "name": "openra-ts-binaries",
-                    "url": "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20240526/",
-                    "file": "ShatteredParadise-playtest-20240526-x86_64.AppImage",
+                    "url": "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/",
+                    "file": "ShatteredParadise-playtest-20241231-x86_64.AppImage",
                     "cache_by_name": true
                 },
                 {
@@ -11291,7 +11291,7 @@
         },
         {
             "engine_link": "https://github.com/MustaphaTR/Romanovs-Vengeance",
-            "version": "playtest-20240218",
+            "version": "playtest-20241215",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11323,7 +11323,7 @@
         },
         {
             "engine_link": "https://github.com/ABrandau/Shattered-Paradise-SDK",
-            "version": "playtest-20240526",
+            "version": "playtest-20241231",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
