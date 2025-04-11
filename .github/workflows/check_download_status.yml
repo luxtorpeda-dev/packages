@@ -24,7 +24,7 @@ jobs:
       matrix: ${{fromJson(needs.check_status.outputs.matrix)}}
     steps:
     - name: Create Issue for network
-      if: ${{ matrix.type == "network_error" }}
+      if: ${{ matrix.type == 'network_error' }}
       uses: jayqi/failed-build-issue-action@v1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -40,7 +40,7 @@ jobs:
             URL was: ${{ matrix.full_url }}
 
     - name: Create Issue for new release
-      if: ${{ matrix.type == "new_release" }}
+      if: ${{ matrix.type == 'new_release' }}
       uses: jayqi/failed-build-issue-action@v1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
