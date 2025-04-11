@@ -25,34 +25,29 @@ jobs:
     steps:
     - name: Create Issue for network
       if: ${{ matrix.type == 'network_error' }}
-      uses: jayqi/failed-build-issue-action@v1
+      uses: JasonEtco/create-an-issue@v2
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        label-name: ${{ matrix.type }}
-        title-template: Download failed for ${{ matrix.game_name }} ${{ matrix.download_name }}
-        body-template: |
-            Download failed for ${{ matrix.game_name }} ${{ matrix.download_name }}
-
-            Response was ${{ matrix.download_status }} with text of ${{ matrix.download_status_text }}
-
-            App id of ${{ matrix.game_app_id }}
-
-            URL was: ${{ matrix.full_url }}
-
+        filename: .github/workflow_issue_templates/download_network_error.yml
+        update_existing: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GAME_NAME: ${{ matrix.game_name }}}
+        DOWNLOAD_NAME: ${{ matrix.download_name }}
+        DOWNLOAD_STATUS: ${{ matrix.download_status }}
+        DOWNLOAD_STATUS_TEXT: ${{ matrix.download_status_text }}
+        GAME_APP_ID: ${{ matrix.game_app_id }}
+        FULL_URL: ${{ matrix.full_url }}
     - name: Create Issue for new release
       if: ${{ matrix.type == 'new_release' }}
-      uses: jayqi/failed-build-issue-action@v1
+      uses: JasonEtco/create-an-issue@v2
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        label-name: ${{ matrix.type }}
-        title-template: New release for ${{ matrix.game_name }} ${{ matrix.download_name }}
-        body-template: |
-            New release for ${{ matrix.game_name }} ${{ matrix.download_name }}
-
-            New version of ${{ matrix.new_version }} compared to ${{ matrix.releaseTag }}
-
-            Current URL is: ${{ matrix.current_url }}
-
-            App id of ${{ matrix.game_app_id }}
-
-            URL was: ${{ matrix.full_url }}
+        filename: .github/workflow_issue_templates/download_new_release.yml
+        update_existing: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GAME_NAME: ${{ matrix.game_name }}}
+        DOWNLOAD_NAME: ${{ matrix.download_name }}
+        NEW_VERSION: ${{ matrix.new_version }}
+        CURRENT_RELEASE: ${{ matrix.current_release }}
+        CURRENT_URL: ${{ matrix.current_url }}
+        GAME_APP_ID: ${{ matrix.game_app_id }}

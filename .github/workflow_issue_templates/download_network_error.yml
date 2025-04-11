@@ -1,0 +1,10 @@
+---
+title: Download failed for ${{ env.GAME_NAME }} ${{ env.DOWNLOAD_NAME }}
+labels: download_network_error
+---
+
+Response was ${{ env.DOWNLOAD_STATUS }} with text of ${{ env.DOWNLOAD_STATUS_TEXT }}
+
+App id of ${{ env.GAME_APP_ID }}
+
+URL was: ${{ env.FULL_URL }}
