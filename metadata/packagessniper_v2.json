@@ -6967,17 +6967,17 @@
                 },
                 {
                     "name": "fsport",
-                    "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
-                    "file": "fsport3_6.7z"
+                    "url": "https://perses.feralhosting.com/datacorder/fsport_files/releases/",
+                    "file": "fsport3_7.7z"
                 },
                 {
                     "name": "fsport-missions",
-                    "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
+                    "url": "https://perses.feralhosting.com/datacorder/fsport_files/releases/",
                     "file": "fsport-missions.7z"
                 },
                 {
                     "name": "sparky_hi_fs1",
-                    "url": "https://porphyrion.feralhosting.com/datacorder/fsport_files/releases/",
+                    "url": "https://perses.feralhosting.com/datacorder/fsport_files/releases/",
                     "file": "sparky_hi_fs1.7z"
                 },
                 {
@@ -10669,7 +10669,7 @@
         },
         {
             "engine_link": "http://fsport.hard-light.net/website/",
-            "version": "3.6",
+            "version": "3.7",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Volition",
