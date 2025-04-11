@@ -6845,11 +6845,6 @@
                     "file": "Daikatana-Linux-2024-12-24-x64.tar.bz2"
                 },
                 {
-                    "name": "pak6",
-                    "url": "https://github.com/maraakate/daikatana/tree/master/assets/",
-                    "file": "pak6-2022-12-22.zip"
-                },
-                {
                     "name": "daikatana",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/daikatana-4/",
                     "file": "daikatana-242980-4.tar.xz"
@@ -6862,10 +6857,6 @@
                     "strip_prefix": "Daikatana-Linux-2024-12-24-x64/",
                     "setup": true,
                     "download_name": "binaries"
-                },
-                {
-                    "setup": true,
-                    "download_name": "pak6"
                 }
             ],
             "setup": {
