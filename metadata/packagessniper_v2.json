@@ -370,7 +370,7 @@
                 },
                 {
                     "name": "generaluser-soundfont",
-                    "url": "https://archive.org/download/free-soundfonts-sf2-2019-04/",
+                    "url": "https://github.com/ROCKNIX/generaluser-gs/raw/refs/heads/main/",
                     "file": "GeneralUser GS v1.471.sf2",
                     "cache_by_name": true
                 },
@@ -2303,7 +2303,7 @@
                 },
                 {
                     "name": "generaluser-soundfont",
-                    "url": "https://archive.org/download/free-soundfonts-sf2-2019-04/",
+                    "url": "https://github.com/ROCKNIX/generaluser-gs/raw/refs/heads/main/",
                     "file": "GeneralUser GS v1.471.sf2",
                     "cache_by_name": true
                 },
