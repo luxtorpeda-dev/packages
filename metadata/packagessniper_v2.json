@@ -86,7 +86,7 @@
                 {
                     "name": "fteqw",
                     "url": "https://www.fteqw.org/dl/",
-                    "file": "fteqw-sdl2-linux64.zip"
+                    "file": "fteqw_linux64.zip"
                 },
                 {
                     "name": "ftequakeworld",
@@ -3417,7 +3417,7 @@
                 {
                     "name": "fteqw",
                     "url": "https://www.fteqw.org/dl/",
-                    "file": "fteqw-sdl2-linux64.zip"
+                    "file": "fteqw_linux64.zip"
                 },
                 {
                     "name": "ftequakeworld",
@@ -3868,7 +3868,7 @@
                 {
                     "name": "fteqw",
                     "url": "https://www.fteqw.org/dl/",
-                    "file": "fteqw-sdl2-linux64.zip"
+                    "file": "fteqw_linux64.zip"
                 },
                 {
                     "name": "ftequakeworld",
@@ -5174,7 +5174,7 @@
                 {
                     "name": "fteqw",
                     "url": "https://www.fteqw.org/dl/",
-                    "file": "fteqw-sdl2-linux64.zip"
+                    "file": "fteqw_linux64.zip"
                 },
                 {
                     "name": "ftequakeworld",
@@ -9552,7 +9552,7 @@
                 {
                     "name": "fteqw",
                     "url": "https://www.fteqw.org/dl/",
-                    "file": "fteqw-sdl2-linux64.zip"
+                    "file": "fteqw_linux64.zip"
                 },
                 {
                     "name": "ftequakeworld",
