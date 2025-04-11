@@ -5,28 +5,25 @@
 # CLONE PHASE
 git clone https://github.com/yquake2/yquake2.git source
 pushd source
-git checkout "$COMMIT_HASH"
+git checkout "$COMMIT_TAG"
 popd
 
 git clone https://github.com/yquake2/ctf.git source-ctf
 pushd source-ctf
-git checkout 72b78e3
+git checkout $(git describe --tags $(git rev-list --tags --max-count=1))
 popd
 
 git clone https://github.com/yquake2/xatrix.git source-xatrix
 pushd source-xatrix
-git checkout 2e2fac5
+git checkout $(git describe --tags $(git rev-list --tags --max-count=1))
 popd
 
 git clone https://github.com/yquake2/rogue.git source-rogue
 pushd source-rogue
-git checkout 397fdd7
+git checkout $(git describe --tags $(git rev-list --tags --max-count=1))
 popd
 
 git clone https://github.com/gabomdq/SDL_GameControllerDB.git sdl_gamecontrollerdb
-pushd sdl_gamecontrollerdb
-git checkout aa79a9b
-popd
 
 # BUILD PHASE
 pushd "source"
