@@ -15,7 +15,7 @@ if [ ! -d ~/.config/openra/Content/cnc ]; then
     ln -rsf TRANSIT.MIX ~/.config/openra/Content/cnc/transit.mix
 fi
 
-wantedversion="20231010"
+wantedversion="20250330"
 filepath="./OpenRA-Tiberian-Dawn-x86_64.AppImage"
 
 if [ -f "readyversion.txt" ]; then
