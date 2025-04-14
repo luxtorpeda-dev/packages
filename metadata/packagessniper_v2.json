@@ -8386,12 +8386,13 @@
             "download": [
                 {
                     "name": "openra-tiberian-binaries",
-                    "url": "https://github.com/pchote/TiberianDawnHD/releases/download",
-                    "file": "/release-20230225/TiberianDawnHD-release-20230225-x86_64.AppImage"
+                    "url": "https://github.com/OpenRA/TiberianDawnHD/releases/download/release-20250330-v2/",
+                    "file": "TiberianDawnHD-release-20250330-x86_64.AppImage"
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-9/",
+                    "url": "https://g
+                    ithub.com/luxtorpeda-dev/packages/releases/download/openra-9/",
                     "file": "openra-common-9.tar.xz",
                     "cache_by_name": true
                 },
@@ -11256,7 +11257,7 @@
         },
         {
             "engine_link": "https://github.com/pchote/TiberianDawnHD",
-            "version": "release-20230225",
+            "version": "release-20250330-v2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
