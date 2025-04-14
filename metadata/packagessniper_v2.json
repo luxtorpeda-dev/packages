@@ -11256,12 +11256,12 @@
             "internal_engine_name": "notblood"
         },
         {
-            "engine_link": "https://github.com/pchote/TiberianDawnHD",
+            "engine_link": "https://github.com/OpenRA/TiberianDawnHD",
             "version": "release-20250330-v2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
-            "license_link": "https://github.com/pchote/TiberianDawnHD/blob/master/COPYING",
+            "license_link": "https://github.com/OpenRA/TiberianDawnHD/blob/master/COPYING",
             "controllerNotSupported": true,
             "notices": [
                 {
