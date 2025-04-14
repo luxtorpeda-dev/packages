@@ -8711,6 +8711,97 @@
             "app_id": "1271050"
         },
         {
+            "game_name": "Supplice",
+            "download": [
+                {
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-62/",
+                    "file": "gzdoom-common-62.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "command": "./run-gzdoom-local.sh",
+            "command_args": [
+                "-iwad",
+                "Supplice.ipk3",
+                "-savedir",
+                "./saves",
+                "-config",
+                "gzdoom.ini"
+            ],
+            "notices": [
+                {
+                    "key": "saves",
+                    "value": "save_game_dir"
+                }
+            ],
+            "engine_name": "GZDoom",
+            "cloudNotAvailable": true,
+            "app_id": "1693280"
+        },
+        {
+            "game_name": "Twilight Town: A Cyberpunk FPS",
+            "download": [
+                {
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-62/",
+                    "file": "gzdoom-common-62.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "command": "./run-gzdoom-local.sh",
+            "command_args": [
+                "-iwad",
+                "Twilight Town FPS.ipk3",
+                "-savedir",
+                "./saves",
+                "-config",
+                "gzdoom_portable.ini"
+            ],
+            "notices": [
+                {
+                    "key": "saves",
+                    "value": "save_game_dir"
+                }
+            ],
+            "engine_name": "GZDoom",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
+            "app_id": "2477140"
+        },
+        {
+            "game_name": "Twilight Manor: Roguelite FPS",
+            "download": [
+                {
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-62/",
+                    "file": "gzdoom-common-62.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "command": "./run-gzdoom-local.sh",
+            "command_args": [
+                "-iwad",
+                "Twilight Manor.ipk3",
+                "-savedir",
+                "./saves",
+                "-config",
+                "gzdoom_portable.ini"
+            ],
+            "notices": [
+                {
+                    "key": "saves",
+                    "value": "save_game_dir"
+                }
+            ],
+            "engine_name": "GZDoom",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
+            "app_id": "2863690"
+        },
+        {
             "game_name": "Old School RuneScape",
             "download": [
                 {
