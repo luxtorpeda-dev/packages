@@ -10154,7 +10154,7 @@
         },
         {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "7e92e10",
+            "version": "da4db44",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10230,7 +10230,7 @@
         },
         {
             "engine_link": "https://voidpoint.io/terminx/eduke32",
-            "version": "821c905",
+            "version": "b875984",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11142,7 +11142,7 @@
         },
         {
             "engine_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/",
-            "version": "b66081d",
+            "version": "198573d",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11358,7 +11358,7 @@
         },
         {
             "engine_link": "https://github.com/Daft-Freak/CnC_and_Red_Alert",
-            "version": "6f5254a",
+            "version": "737f4c1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
