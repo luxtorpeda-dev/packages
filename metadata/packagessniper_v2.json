@@ -8758,6 +8758,8 @@
                 "-config",
                 "gzdoom.ini",
                 "+r_dynlights",
+                "false",
+                "+gl_lights",
                 "false"
             ],
             "notices": [
@@ -8791,6 +8793,8 @@
                 "-config",
                 "gzdoom.ini",
                 "+r_dynlights",
+                "false",
+                "+gl_lights",
                 "false"
             ],
             "notices": [
