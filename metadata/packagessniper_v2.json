@@ -8756,7 +8756,9 @@
                 "-savedir",
                 "./saves",
                 "-config",
-                "gzdoom_portable.ini"
+                "gzdoom.ini",
+                "+r_dynlights",
+                "false"
             ],
             "notices": [
                 {
@@ -8787,7 +8789,9 @@
                 "-savedir",
                 "./saves",
                 "-config",
-                "gzdoom_portable.ini"
+                "gzdoom.ini",
+                "+r_dynlights",
+                "false"
             ],
             "notices": [
                 {
