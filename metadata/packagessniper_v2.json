@@ -203,7 +203,7 @@
                         },
                         {
                             "extract_location": "./cnq3",
-                            "download_name": "cpma"
+                            "download_name": "cpma-data"
                         }
                     ],
                     "command": "./cnq3/run-cnq3.sh",
