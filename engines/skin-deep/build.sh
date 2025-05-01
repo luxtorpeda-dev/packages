@@ -20,6 +20,6 @@ popd
 
 # COPY PHASE
 cp -rfv tmp/bin/* "$diststart/301280/dist/"
-cp -rfv tmp/lib/dhewm3/* "$diststart/301280/dist/"
+cp -rfv tmp/lib/skindeep/* "$diststart/301280/dist/"
 
 cp -rfv assets/* "$diststart/301280/dist/"
