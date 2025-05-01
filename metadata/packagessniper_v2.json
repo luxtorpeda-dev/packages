@@ -8629,6 +8629,16 @@
             "app_id": "1241950"
         },
         {
+            "game_name": "Skin Deep",
+            "download": [],
+            "command": "./run-dhewm3.sh",
+            "engine_name": "skin-deep",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "301280"
+        },
+        {
             "game_name": "PowerSlave (DOS Classic Edition)",
             "download": [
                 {
@@ -9824,6 +9834,17 @@
             "controllerSupported": true,
             "engine_name": "Spearmint",
             "internal_engine_name": "spearmint"
+        },
+        {
+            "engine_link": "https://github.com/DanielGibson/SkinDeep/tree/upd",
+            "version": "6493d733518666d30c95c4d8abe1f812960cfb29",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/DanielGibson/SkinDeep/blob/main/neo/COPYING.txt",
+            "controllerSupported": true,
+            "engine_name": "skin-deep",
+            "internal_engine_name": "skin-deep"
         },
         {
             "engine_link": "https://bitbucket.org/CPMADevs/cnq3",
