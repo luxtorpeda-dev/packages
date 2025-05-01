@@ -8630,7 +8630,13 @@
         },
         {
             "game_name": "Skin Deep",
-            "download": [],
+            "download": [
+                {
+                    "name": "skin-deep",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/skin-deep-1/",
+                    "file": "skin-deep-301280-1.tar.xz"
+                }
+            ],
             "command": "./run-dhewm3.sh",
             "engine_name": "skin-deep",
             "cloudAvailable": true,
