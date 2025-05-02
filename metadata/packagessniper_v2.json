@@ -8386,7 +8386,7 @@
             "download": [
                 {
                     "name": "openra-tiberian-binaries",
-                    "url": "https://github.com/OpenRA/TiberianDawnHD/releases/download/release-20250330-v2/",
+                    "url": "https://github.com/OpenRA/TiberianDawnHD/releases/download/release-20250330-v4/",
                     "file": "TiberianDawnHD-release-20250330-x86_64.AppImage"
                 },
                 {
