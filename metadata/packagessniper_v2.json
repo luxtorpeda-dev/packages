@@ -8633,8 +8633,8 @@
             "download": [
                 {
                     "name": "skin-deep",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/skin-deep-1/",
-                    "file": "skin-deep-301280-1.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/skin-deep-2/",
+                    "file": "skin-deep-301280-2.tar.xz"
                 }
             ],
             "command": "./run-dhewm3.sh",
