@@ -9842,8 +9842,8 @@
             "internal_engine_name": "spearmint"
         },
         {
-            "engine_link": "https://github.com/DanielGibson/SkinDeep/tree/upd",
-            "version": "a51b362",
+            "engine_link": "https://github.com/DanielGibson/SkinDeep",
+            "version": "edfbba3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
