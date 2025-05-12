@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo snap install ispc
+
 # CLONE PHASE
 git clone https://github.com/RobertBeckebans/RBDOOM-3-BFG.git source
 pushd source
@@ -16,6 +18,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DFFMPEG=OFF \
     -DBINKDEC=ON \
+    -DDXC_CUSTOM_PATH="$VCPKG_INSTALLED_PATH/tools/directx-dxc" \
     ../neo
 make -j "$(nproc)"
 popd
