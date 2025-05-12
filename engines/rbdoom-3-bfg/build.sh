@@ -1,6 +1,9 @@
 #!/bin/bash
 
-sudo snap install ispc
+wget ispc-v1.26.0-linux.tar.gz
+tar xvf ispc-v1.26.0-linux
+
+export PATH="$PATH:$PWD/ispc-v1.26.0-linux/bin"
 
 # CLONE PHASE
 git clone https://github.com/RobertBeckebans/RBDOOM-3-BFG.git source
