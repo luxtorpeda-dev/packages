@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget ispc-v1.26.0-linux.tar.gz
+wget https://github.com/ispc/ispc/releases/download/v1.26.0/ispc-v1.26.0-linux.tar.gz
 tar xvf ispc-v1.26.0-linux
 
 export PATH="$PATH:$PWD/ispc-v1.26.0-linux/bin"
