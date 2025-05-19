@@ -4,5 +4,12 @@
         { "name": "jansson" },
         { "name": "libzip" },
         { "name": "nlohmann-json" }
+    ],
+    "builtin-baseline": "efe9c8a3e396014eee14c94709aa9c50067beab9",
+    "overrides": [
+        {
+            "name": "nlohmann-json",
+            "version": "3.11.3"
+        }
     ]
 }
