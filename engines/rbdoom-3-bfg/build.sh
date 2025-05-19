@@ -5,6 +5,8 @@ tar xvf ispc-v1.26.0-linux.tar.gz
 
 export PATH="$PATH:$PWD/ispc-v1.26.0-linux/bin"
 
+chmod +x vcpkg_installed/x64-linux-dynamic/tools/directx-dxc/dxc
+
 # CLONE PHASE
 git clone https://github.com/RobertBeckebans/RBDOOM-3-BFG.git source
 pushd source
