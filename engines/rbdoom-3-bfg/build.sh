@@ -14,6 +14,17 @@ git checkout "$COMMIT_TAG"
 git submodule update --init --recursive
 popd
 
+git clone https://github.com/microsoft/DirectXShaderCompiler.git DirectXShaderCompiler
+pushd DirectXShaderCompiler
+git checkout v1.8.2405
+popd
+
+pushd DirectXShaderCompiler
+mkdir build
+cmake ../ -GNinja -DCMAKE_BUILD_TYPE=Release $(cat ../utils/cmake-predefined-config-params) && \
+ninja
+popd
+
 pushd "source"
 mkdir build
 cd build
@@ -23,7 +34,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DFFMPEG=OFF \
     -DBINKDEC=ON \
-    -DDXC_CUSTOM_PATH="$VCPKG_INSTALLED_PATH/tools/directx-dxc" \
+    -DDXC_CUSTOM_PATH="DirectXShaderCompiler/build/bin/dxc" \
     ../neo
 make -j "$(nproc)"
 popd

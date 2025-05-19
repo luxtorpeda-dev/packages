@@ -1,14 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
     "dependencies": [
-        "directx-dxc",
         "glslang"
-    ],
-    "builtin-baseline": "7f74e01712b168e50152e7177d5fd6c4231410e3",
-    "overrides": [
-        {
-            "name": "directx-dxc",
-            "version": "2024-07-31#2"
-        }
     ]
 }
