@@ -8835,7 +8835,7 @@
                 },
                 {
                     "name": "runelite-binaries",
-                    "url": "https://github.com/runelite/launcher/releases/download/2.7.4/",
+                    "url": "https://github.com/runelite/launcher/releases/download/2.7.5/",
                     "file": "RuneLite.AppImage"
                 }
             ],
