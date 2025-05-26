@@ -100,7 +100,7 @@ start_vcpkg () {
     echo 'set(VCPKG_BUILD_TYPE release)' >> triplets/community/x64-linux-dynamic.cmake # add release target to the triplet in use, so only release is being built
     popd
 
-    sudo apt-get -y install libltdl-dev valgrind
+    sudo apt-get -y install libltdl-dev valgrind python3-jinja2
 
     ./vcpkg/bootstrap-vcpkg.sh
 
