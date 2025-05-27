@@ -6467,11 +6467,6 @@
             "game_name": "Doom 3: BFG Edition",
             "download": [
                 {
-                    "name": "rbdoom-3-bfg",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rbdoom-3-bfg-15/",
-                    "file": "rbdoom-3-bfg-208200-15.tar.xz"
-                },
-                {
                     "name": "classic-rbdoom-3-bfg",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-25/",
                     "file": "classic-rbdoom-3-bfg-208200-25.tar.xz"
@@ -6483,14 +6478,6 @@
                 }
             ],
             "choices": [
-                {
-                    "name": "rbdoom-3-bfg",
-                    "command": "./run-rbdoom-3-bfg.sh",
-                    "download": [
-                        "rbdoom-3-bfg"
-                    ],
-                    "engine_name": "RBDOOM-3-BFG"
-                },
                 {
                     "name": "classic-rbdoom-3-bfg",
                     "command": "./classic/run-classic-rbdoom-3-bfg.sh",
@@ -10652,17 +10639,6 @@
             "controllerSupported": true,
             "engine_name": "TES3MP",
             "internal_engine_name": "openmw-tes3mp"
-        },
-        {
-            "engine_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
-            "version": "1.5.1",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/LICENSE.md",
-            "controllerNotSupported": true,
-            "engine_name": "RBDOOM-3-BFG",
-            "internal_engine_name": "rbdoom-3-bfg"
         },
         {
             "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
