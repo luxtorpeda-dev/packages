@@ -20,7 +20,7 @@ popd
 pushd DirectXShaderCompiler
 mkdir build
 cd build
-cmake -GNinja -DCMAKE_BUILD_TYPE=Release $(cat ../utils/cmake-predefined-config-params)
+cmake -GNinja -DCMAKE_BUILD_TYPE=Release ..
 ninja
 popd
 
