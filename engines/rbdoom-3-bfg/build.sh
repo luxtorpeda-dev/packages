@@ -4,6 +4,7 @@ wget https://github.com/ispc/ispc/releases/download/v1.26.0/ispc-v1.26.0-linux.t
 tar xvf ispc-v1.26.0-linux.tar.gz
 
 export PATH="$PATH:$PWD/ispc-v1.26.0-linux/bin"
+export CURRENTPWD="$PWD"
 
 # CLONE PHASE
 git clone https://github.com/RobertBeckebans/RBDOOM-3-BFG.git source
@@ -34,7 +35,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DFFMPEG=OFF \
     -DBINKDEC=ON \
-    -DDXC_CUSTOM_PATH="../DirectXShaderCompiler/build/bin/dxc" \
+    -DDXC_CUSTOM_PATH="$CURRENTPWD/DirectXShaderCompiler/build/bin" \
     ../neo
 make -j "$(nproc)"
 popd
