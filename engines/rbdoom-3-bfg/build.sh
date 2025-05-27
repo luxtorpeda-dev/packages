@@ -34,7 +34,7 @@ cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DFFMPEG=OFF \
     -DBINKDEC=ON \
-    -DDXC_CUSTOM_PATH="DirectXShaderCompiler/build/bin/dxc" \
+    -DDXC_CUSTOM_PATH="../DirectXShaderCompiler/build/bin/dxc" \
     ../neo
 make -j "$(nproc)"
 popd
