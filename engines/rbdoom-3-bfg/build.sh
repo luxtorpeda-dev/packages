@@ -15,6 +15,7 @@ popd
 git clone https://github.com/microsoft/DirectXShaderCompiler.git DirectXShaderCompiler
 pushd DirectXShaderCompiler
 git checkout v1.8.2405
+git submodule update --init --recursive
 popd
 
 pushd DirectXShaderCompiler
