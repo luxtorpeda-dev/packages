@@ -112,13 +112,19 @@ start_vcpkg () {
 
     # copy libraries to dist
     if [ -z "${COMMON_PACKAGE}" ]; then
-        for app_id in $STEAM_APP_ID_LIST ; do
-            mkdir -p "$diststart/$app_id/dist/lib"
-            cp -rfv "$VCPKG_INSTALLED_PATH/lib/"*.so* "$diststart/$app_id/dist/lib"
+        for app_id in $STEAM_APP_ID_LIST; do
+            target_dir="$diststart/$app_id/dist/lib"
+            mkdir -p "$target_dir"
+            find "$VCPKG_INSTALLED_PATH/lib" \
+                \( -type d -name systemd -o -path "*/systemd/*" \) -prune -o \
+                -type f -name '*.so*' -exec cp -fv {} "$target_dir/" \;
         done
     else
-        mkdir -p "$diststart/common/dist/lib"
-        cp -rfv "$VCPKG_INSTALLED_PATH/lib/"*.so* "$diststart/common/dist/lib"
+        target_dir="$diststart/common/dist/lib"
+        mkdir -p "$target_dir"
+        find "$VCPKG_INSTALLED_PATH/lib" \
+            \( -type d -name systemd -o -path "*/systemd/*" \) -prune -o \
+            -type f -name '*.so*' -exec cp -fv {} "$target_dir/" \;
     fi
 
     # copy license files to dist
