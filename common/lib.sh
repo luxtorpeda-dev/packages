@@ -117,14 +117,14 @@ start_vcpkg () {
             mkdir -p "$target_dir"
             find "$VCPKG_INSTALLED_PATH/lib" \
                 \( -type d -name systemd -o -path "*/systemd/*" \) -prune -o \
-                -type f -name '*.so*' -exec cp -fv {} "$target_dir/" \;
+                -name '*.so*' -exec cp -fv {} "$target_dir/" \;
         done
     else
         target_dir="$diststart/common/dist/lib"
         mkdir -p "$target_dir"
         find "$VCPKG_INSTALLED_PATH/lib" \
             \( -type d -name systemd -o -path "*/systemd/*" \) -prune -o \
-            -type f -name '*.so*' -exec cp -fv {} "$target_dir/" \;
+            -name '*.so*' -exec cp -fv {} "$target_dir/" \;
     fi
 
     # copy license files to dist
