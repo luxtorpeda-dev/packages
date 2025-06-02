@@ -17,7 +17,7 @@
     "@angular/core": "^19.2.11",
     "@angular/forms": "^19.2.11",
     "@angular/material": "^19.2.16",
-    "@angular/platform-browser": "^19.2.11",
+    "@angular/platform-browser": "^20.0.0",
     "@angular/platform-browser-dynamic": "^19.2.11",
     "@angular/router": "^19.2.11",
     "bootstrap": "^5.3.6",
