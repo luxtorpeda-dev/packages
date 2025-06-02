@@ -1,182 +1,198 @@
 <div class='container-fluid page-wrapper'>
-  <div class='row game-row' *ngFor="let title of titles">
-    <div class='row header-wrapper'>
-      <div class='col-sm-6 game-title'>
-        <a *ngIf="!title.isDefault" href="{{'https://store.steampowered.com/app/' + title.titleId}}" target="_blank" (click)="$event.stopPropagation();">
-          {{title.game_name}}
-        </a>
-        <div *ngIf="title.isDefault">
-          {{title.game_name}}
+  @for (title of titles; track title) {
+    <div class='row game-row'>
+      <div class='row header-wrapper'>
+        <div class='col-sm-6 game-title'>
+          @if (!title.isDefault) {
+            <a href="{{'https://store.steampowered.com/app/' + title.titleId}}" target="_blank" (click)="$event.stopPropagation();">
+              {{title.game_name}}
+            </a>
+          }
+          @if (title.isDefault) {
+            <div>
+              {{title.game_name}}
+            </div>
+          }
+        </div>
+        <div class='col-sm-6 game-choices'>
+          <mat-chip-listbox>
+            @for (item of title.engines | keyvalue; track item) {
+              <mat-chip-option
+                [selected]="titleEnginePicked[title.titleId] == item.key"
+                [value]="item.key"
+                (click)="onEngineClicked($event, title, item.key)"
+                >
+                {{item.key}}
+              </mat-chip-option>
+            }
+          </mat-chip-listbox>
         </div>
       </div>
-      <div class='col-sm-6 game-choices'>
-        <mat-chip-listbox>
-          <mat-chip-option
-            *ngFor="let item of title.engines | keyvalue"
-            [selected]="titleEnginePicked[title.titleId] == item.key"
-            [value]="item.key"
-            (click)="onEngineClicked($event, title, item.key)"
-            >
-            {{item.key}}
-          </mat-chip-option>
-        </mat-chip-listbox>
-      </div>
-    </div>
-
-    <div class='row'>
-      <ng-container *ngIf="titleEnginePicked[title.titleId]">
-            <div class="col-12 col-md-6">
-              <div class="row">
-                <div class='col-12 status-icons'>
-                  <mat-icon
-                    [matTooltip]="title.engines[titleEnginePicked[title.titleId]].manualSteps ? 'Manual Steps Required' : 'Automatic Installation'"
-                    [style.color]="title.engines[titleEnginePicked[title.titleId]].manualSteps ? 'yellow' : 'green'"
+      <div class='row'>
+        @if (titleEnginePicked[title.titleId]) {
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class='col-12 status-icons'>
+                <mat-icon
+                  [matTooltip]="title.engines[titleEnginePicked[title.titleId]].manualSteps ? 'Manual Steps Required' : 'Automatic Installation'"
+                  [style.color]="title.engines[titleEnginePicked[title.titleId]].manualSteps ? 'yellow' : 'green'"
                   >
-                    install_desktop
-                  </mat-icon>
-                  <mat-icon
-                    [matTooltip]="title.engines[titleEnginePicked[title.titleId]].steamOverlayDisabled ? 'Steam Overlay Disabled' : 'Steam Overlay Enabled'"
-                    [style.color]="title.engines[titleEnginePicked[title.titleId]].steamOverlayDisabled ? 'red' : 'green'"
+                  install_desktop
+                </mat-icon>
+                <mat-icon
+                  [matTooltip]="title.engines[titleEnginePicked[title.titleId]].steamOverlayDisabled ? 'Steam Overlay Disabled' : 'Steam Overlay Enabled'"
+                  [style.color]="title.engines[titleEnginePicked[title.titleId]].steamOverlayDisabled ? 'red' : 'green'"
                   >
-                    desktop_windows
-                  </mat-icon>
-                  <mat-icon
-                    [matTooltip]="title.engines[titleEnginePicked[title.titleId]].inProgress ? 'Engine May Have Missing Features' : 'Engine Considered Feature Complete'"
-                    [style.color]="title.engines[titleEnginePicked[title.titleId]].inProgress ? 'yellow' : 'green'"
+                  desktop_windows
+                </mat-icon>
+                <mat-icon
+                  [matTooltip]="title.engines[titleEnginePicked[title.titleId]].inProgress ? 'Engine May Have Missing Features' : 'Engine Considered Feature Complete'"
+                  [style.color]="title.engines[titleEnginePicked[title.titleId]].inProgress ? 'yellow' : 'green'"
                   >
-                    construction
-                  </mat-icon>
-
+                  construction
+                </mat-icon>
+                @if (!title.engines[titleEnginePicked[title.titleId]].controllerNotSupported && !title.engines[titleEnginePicked[title.titleId]].controllerSupported && !title.engines[titleEnginePicked[title.titleId]].controllerSupportedSteamChanges && !title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGame && !title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGameAndSteam) {
                   <mat-icon
-                    *ngIf="!title.engines[titleEnginePicked[title.titleId]].controllerNotSupported && !title.engines[titleEnginePicked[title.titleId]].controllerSupported && !title.engines[titleEnginePicked[title.titleId]].controllerSupportedSteamChanges && !title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGame && !title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGameAndSteam"
                     matTooltip="Unknown Controller Support"
                     [style.color]="'darkgray'"
-                  >
+                    >
                     sports_esports
                   </mat-icon>
-
+                }
+                @if (title.engines[titleEnginePicked[title.titleId]].controllerNotSupported) {
                   <mat-icon
-                    *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerNotSupported"
                     matTooltip="Engine Does Not Have Native Controller Support"
                     [style.color]="'red'"
-                  >
+                    >
                     sports_esports
                   </mat-icon>
-
+                }
+                @if (title.engines[titleEnginePicked[title.titleId]].controllerSupported && title.controllerSteamDefault) {
                   <mat-icon
-                    *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerSupported && title.controllerSteamDefault"
                     matTooltip="Engine Has Native Controller Support And Works Out of the Box"
                     [style.color]="'green'"
-                  >
+                    >
                     sports_esports
                   </mat-icon>
-
+                }
+                @if (title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGame && title.controllerSteamDefault) {
                   <mat-icon
-                    *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGame && title.controllerSteamDefault"
                     matTooltip="Engine Has Native Controller Support But Needs Manual In-Game Settings"
                     [style.color]="'yellow'"
-                  >
+                    >
                     sports_esports
                   </mat-icon>
-
+                }
+                @if (title.engines[titleEnginePicked[title.titleId]].controllerSupported && !title.controllerSteamDefault) {
                   <mat-icon
-                    *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerSupported && !title.controllerSteamDefault"
                     matTooltip="Engine Has Native Controller Support But Needs Manual Steam Settings"
                     [style.color]="'yellow'"
-                  >
+                    >
                     sports_esports
                   </mat-icon>
-
+                }
+                @if (title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGame && !title.controllerSteamDefault) {
                   <mat-icon
-                    *ngIf="title.engines[titleEnginePicked[title.titleId]].controllerSupportedManualGame && !title.controllerSteamDefault"
                     matTooltip="Engine Has Native Controller Support But Needs Manual In-Game and Steam Settings"
                     [style.color]="'yellow'"
-                  >
+                    >
                     sports_esports
                   </mat-icon>
-
+                }
+                @if (title.cloudNotAvailable) {
                   <mat-icon
-                    *ngIf="title.cloudNotAvailable"
                     matTooltip="Game Does Not Have Cloud Saves"
                     [style.color]="'darkgray'"
-                  >
+                    >
                     cloud_off
                   </mat-icon>
-
+                }
+                @if (title.cloudAvailable && title.cloudIssue) {
                   <mat-icon
-                    *ngIf="title.cloudAvailable && title.cloudIssue"
                     [matTooltip]="'Game Has Cloud Saves But Not Supported Due to ' + translate_key(title.cloudIssueReason)"
                     [style.color]="'red'"
-                  >
+                    >
                     cloud
                   </mat-icon>
-
+                }
+                @if (title.cloudAvailable && !title.cloudSupported && !title.cloudIssue) {
                   <mat-icon
-                    *ngIf="title.cloudAvailable && !title.cloudSupported && !title.cloudIssue"
                     matTooltip="Game Has Cloud Saves But Unknown Status"
                     [style.color]="'darkgray'"
-                  >
+                    >
                     cloud
                   </mat-icon>
-
+                }
+                @if (title.cloudAvailable && title.cloudSupported) {
                   <mat-icon
-                    *ngIf="title.cloudAvailable && title.cloudSupported"
                     matTooltip="Cloud Saves Supported"
                     [style.color]="'green'"
-                  >
+                    >
                     cloud
                   </mat-icon>
-                </div>
+                }
               </div>
+            </div>
+            <div class="row">
+              <div class='col-5 col-md-4 col-lg-3'>Engine</div>
+              <div class='col-7 col-md-8'>
+                <a [href]="title.engines[titleEnginePicked[title.titleId]].engine_link" target="_blank">{{titleEnginePicked[title.titleId]}}</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class='col-5 col-md-4 col-lg-3'>License</div>
+              <div class='col-7 col-md-8'>
+                <a [href]="title.engines[titleEnginePicked[title.titleId]].license_link" target="_blank">
+                  {{title.engines[titleEnginePicked[title.titleId]].license}}
+                </a>
+              </div>
+            </div>
+            @if (title.engines[titleEnginePicked[title.titleId]].version) {
               <div class="row">
-                <div class='col-5 col-md-4 col-lg-3'>Engine</div>
-                <div class='col-7 col-md-8'>
-                  <a [href]="title.engines[titleEnginePicked[title.titleId]].engine_link" target="_blank">{{titleEnginePicked[title.titleId]}}</a>
-                </div>
-              </div>
-              <div class="row">
-                <div class='col-5 col-md-4 col-lg-3'>License</div>
-                <div class='col-7 col-md-8'>
-                  <a [href]="title.engines[titleEnginePicked[title.titleId]].license_link" target="_blank">
-                    {{title.engines[titleEnginePicked[title.titleId]].license}}
-                  </a>
-                </div>
-              </div>
-              <div class="row" *ngIf="title.engines[titleEnginePicked[title.titleId]].version">
                 <div class='col-5 col-md-4 col-lg-3'>Version</div>
                 <div class='col-7 col-md-8'>
                   {{title.engines[titleEnginePicked[title.titleId]].version}}
                 </div>
               </div>
-              <div class="row">
-                <div class='col-5 col-md-4 col-lg-3'>Contributor</div>
-                <div class='col-7 col-md-8'>
-                  <a [href]="title.engines[titleEnginePicked[title.titleId]].author_link" target="_blank">
-                    {{title.engines[titleEnginePicked[title.titleId]].author}}
-                  </a>
-                </div>
+            }
+            <div class="row">
+              <div class='col-5 col-md-4 col-lg-3'>Contributor</div>
+              <div class='col-7 col-md-8'>
+                <a [href]="title.engines[titleEnginePicked[title.titleId]].author_link" target="_blank">
+                  {{title.engines[titleEnginePicked[title.titleId]].author}}
+                </a>
               </div>
             </div>
-            <ng-container *ngIf="title.engines[titleEnginePicked[title.titleId]].notices || title.notices">
-              <div class="col-12 col-md-6">
-                <ul>
-                  <ng-container *ngIf="title.engines[titleEnginePicked[title.titleId]].notices">
-                    <li *ngFor="let item of title.engines[titleEnginePicked[title.titleId]].notices">
-                      <div *ngIf="item.label">
-                        {{item.label}}
-                      </div>
-                      <div *ngIf="item.value">
-                        {{NOTICE_MAP[item.value]}}
-                      </div>
-                      <div *ngIf="item.key && !item.value && !item.label">
-                        {{NOTICE_MAP[item.key]}}
-                      </div>
+          </div>
+          @if (title.engines[titleEnginePicked[title.titleId]].notices || title.notices) {
+            <div class="col-12 col-md-6">
+              <ul>
+                @if (title.engines[titleEnginePicked[title.titleId]].notices) {
+                  @for (item of title.engines[titleEnginePicked[title.titleId]].notices; track item) {
+                    <li>
+                      @if (item.label) {
+                        <div>
+                          {{item.label}}
+                        </div>
+                      }
+                      @if (item.value) {
+                        <div>
+                          {{NOTICE_MAP[item.value]}}
+                        </div>
+                      }
+                      @if (item.key && !item.value && !item.label) {
+                        <div>
+                          {{NOTICE_MAP[item.key]}}
+                        </div>
+                      }
                     </li>
-                  </ng-container>
-                </ul>
-              </div>
-            </ng-container>
-      </ng-container>
+                  }
+                }
+              </ul>
+            </div>
+          }
+        }
+      </div>
     </div>
-  </div>
+  }
 </div>
