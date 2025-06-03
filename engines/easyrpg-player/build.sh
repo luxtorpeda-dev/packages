@@ -9,7 +9,7 @@ popd
 
 git clone https://github.com/EasyRPG/liblcf.git liblcf
 pushd liblcf
-git checkout -f "$COMMIT_TAG"
+git checkout $(git describe --tags $(git rev-list --tags --max-count=1))
 popd
 
 # BUILD PHASE
