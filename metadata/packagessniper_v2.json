@@ -11590,6 +11590,17 @@
             "controllerNotSupported": true,
             "engine_name": "HyperBowl",
             "internal_engine_name": "hyperbowl"
+        },
+        {
+            "engine_link": "https://github.com/erkyrath/lectrote",
+            "version": "1.5.3",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/erkyrath/lectrote/blob/master/LICENSE",
+            "controllerNotSupported": true,
+            "engine_name": "Lectrote",
+            "internal_engine_name": "lectrote"
         }
     ],
     "default_engine": {
@@ -11673,6 +11684,12 @@
                 "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dreamm-12/",
                 "file": "dreamm-common-12.tar.xz",
                 "cache_by_name": true
+            },
+            {
+                "name": "lectrote",
+                "url": "https://github.com/erkyrath/lectrote/releases/download/lectrote-1.5.3/",
+                "file": "Lectrote-1.5.3-linux-x64.zip",
+                "cache_by_name": true
             }
         ],
         "download_config": [
@@ -11683,6 +11700,10 @@
             {
                 "extract_location": "./dosbox-staging",
                 "download_name": "dosbox-staging"
+            },
+            {
+                "strip_prefix": "./Lectrote-linux-x64",
+                "download_name": "lectrote"
             }
         ],
         "choices": [
@@ -11802,6 +11823,13 @@
                     "dreamm-binaries"
                 ],
                 "engine_name": "DREAMM"
+            },
+            {
+                "name": "Lectrote",
+                "command": "./Lectrote",
+                "download": [
+                    "lectrote"
+                ]
             }
         ]
     },
