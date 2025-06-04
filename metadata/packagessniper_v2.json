@@ -11700,10 +11700,6 @@
             {
                 "extract_location": "./dosbox-staging",
                 "download_name": "dosbox-staging"
-            },
-            {
-                "strip_prefix": "./Lectrote-linux-x64",
-                "download_name": "lectrote"
             }
         ],
         "choices": [
@@ -11826,7 +11822,11 @@
             },
             {
                 "name": "Lectrote",
-                "command": "./Lectrote",
+                "command": "/bin/sh",
+                "command_args": [
+                    "-c",
+                    "chmod +x ./Lectrote-linux-x64/Lectrote && ./Lectrote-linux-x64/Lectrote --in-process-gpu"
+                ],
                 "download": [
                     "lectrote"
                 ]
