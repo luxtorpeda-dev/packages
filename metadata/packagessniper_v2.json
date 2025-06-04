@@ -17,8 +17,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-35/",
-                    "file": "ruffle-common-35.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-36/",
+                    "file": "ruffle-common-36.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6367,8 +6367,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-35/",
-                    "file": "ruffle-common-35.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-36/",
+                    "file": "ruffle-common-36.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6506,8 +6506,8 @@
             "download": [
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-35/",
-                    "file": "ruffle-common-35.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-36/",
+                    "file": "ruffle-common-36.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7163,8 +7163,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-17/",
-                    "file": "notblood-common-17.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-18/",
+                    "file": "notblood-common-18.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8118,8 +8118,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-17/",
-                    "file": "notblood-common-17.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-18/",
+                    "file": "notblood-common-18.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -10227,7 +10227,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "b2590cb",
+            "version": "57c6719",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -11187,7 +11187,7 @@
         },
         {
             "engine_link": "https://github.com/glKarin/com.n0n3m4.diii4a",
-            "version": "815aea5",
+            "version": "ddd8a1a",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11347,7 +11347,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "4ce0056",
+            "version": "5d23dc4",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11639,8 +11639,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-35/",
-                "file": "ruffle-common-35.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-36/",
+                "file": "ruffle-common-36.tar.xz",
                 "cache_by_name": true
             },
             {
