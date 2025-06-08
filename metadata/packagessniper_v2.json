@@ -3569,6 +3569,14 @@
                     ]
                 },
                 {
+                    "name": "Chocolate Quake",
+                    "command": "./chocolate-quake/chocolate-quake.sh",
+                    "download": [
+                        "chocolate-quake"
+                    ],
+                    "engine_name": "Chocolate Quake"
+                },
+                {
                     "name": "vkQuake Dimension of the Past",
                     "command": "./vkquake.sh",
                     "download": [
@@ -10095,6 +10103,17 @@
             "controllerSupported": true,
             "engine_name": "Ironwail",
             "internal_engine_name": "ironwail"
+        },
+        {
+            "engine_link": "https://github.com/Henrique194/chocolate-quake",
+            "version": "57cb995",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Henrique194/chocolate-quake/blob/main/LICENSE",
+            "controllerNotSupported": true,
+            "engine_name": "Chocolate Quake",
+            "internal_engine_name": "chocolate-quake"
         },
         {
             "engine_link": "https://github.com/ezQuake/ezquake-source",
