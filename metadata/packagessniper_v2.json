@@ -10027,18 +10027,13 @@
         },
         {
             "engine_link": "https://github.com/coelckers/Raze",
-            "version": "1.6.2 (Last Working Release)",
+            "version": "1.11.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Various Licenses",
             "license_link": "https://github.com/coelckers/Raze",
             "controllerSupported": true,
             "engine_name": "Raze",
-            "notices": [
-                {
-                    "label": "Last working version before memory leak was introduced."
-                }
-            ],
             "internal_engine_name": "raze"
         },
         {
