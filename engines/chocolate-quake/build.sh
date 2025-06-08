@@ -19,7 +19,7 @@ mkdir -p "$diststart/common/dist/chocolate-quake/share/quake/id1"
 mkdir -p "$diststart/common/dist/chocolate-quake/share/quake/rogue"
 mkdir -p "$diststart/common/dist/chocolate-quake/share/quake/hipnotic"
 
-cp -v source/build/chocolate-quake "$diststart/common/dist/chocolate-quake/"
+cp -v source/build/src/chocolate-quake "$diststart/common/dist/chocolate-quake/"
 cp -v assets/chocolate-quake.sh "$diststart/common/dist/chocolate-quake/"
 
 ln -s "../../../../id1/PAK0.PAK" "$diststart/common/dist/chocolate-quake/share/quake/id1/pak0.pak"
