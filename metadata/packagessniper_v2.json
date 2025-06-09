@@ -3474,6 +3474,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-4/",
                     "file": "darkplaces-common-4.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "chocolate-quake",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-1/",
+                    "file": "chocolate-quake-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
