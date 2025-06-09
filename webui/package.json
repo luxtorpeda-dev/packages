@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "^20.0.0",
     "@angular/router": "^20.0.0",
     "bootstrap": "^5.3.6",
-    "marked": "^15.0.11",
+    "marked": "^15.0.12",
     "ngx-markdown": "^20",
     "npm-check-updates": "^18.0.1",
     "rxjs": "~7.8.2",
