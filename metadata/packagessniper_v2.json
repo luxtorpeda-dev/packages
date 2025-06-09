@@ -8375,7 +8375,7 @@
                     "file": "doom64ex-plus-1148590-17.tar.xz"
                 }
             ],
-            "engine_name": "Doom64EX-Plus",
+            "engine_name": "doom64ex-minus",
             "command": "./run-doom64ex-plus.sh",
             "cloudAvailable": true,
             "cloudIssue": true,
@@ -11498,14 +11498,14 @@
             "internal_engine_name": "cnc-red-alert"
         },
         {
-            "engine_link": "https://github.com/atsb/Doom64EX-Plus",
-            "version": "4.0.0.3.1",
+            "engine_link": "https://git.sr.ht/~marcin-serwin/Doom64EX-Minus",
+            "version": "52ee5c0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
-            "license_link": "https://github.com/atsb/Doom64EX-Plus/blob/stable/LICENSE",
+            "license_link": "https://git.sr.ht/~marcin-serwin/Doom64EX-Minus/tree/main/item/LICENSE",
             "controllerNotSupported": true,
-            "engine_name": "Doom64EX-Plus",
+            "engine_name": "doom64ex-minus",
             "internal_engine_name": "doom64ex-plus"
         },
         {
