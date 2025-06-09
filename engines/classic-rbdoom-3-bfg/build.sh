@@ -9,7 +9,6 @@ popd
 
 git clone https://github.com/MadDeCoDeR/BFA-Assets.git
 pushd BFA-Assets
-git checkout 9d85400
 popd
 
 pushd "source/neo"
