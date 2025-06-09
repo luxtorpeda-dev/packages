@@ -30,6 +30,8 @@ cp -rfv ./assets/* "$diststart/208200/dist/"
 cp -rfv ./source/base "$diststart/208200/dist/updatedbase"
 cp -rfv ./BFA-Assets/base/* "$diststart/208200/dist/updatedbase"
 cp -rfv ./BFA-Assets/base_BFG "$diststart/208200/dist/updatedbase"
+mkdir "$diststart/208200/dist/lib"
+cp -rfv ./source/buildRetail/_deps/openxr-build/src/loader/libopenxr_loader* "$diststart/208200/dist/lib"
 
 mkdir -p licenses
 licensepath="$PWD/licenses"
