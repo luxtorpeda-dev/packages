@@ -17,8 +17,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-36/",
-                    "file": "ruffle-common-36.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-37/",
+                    "file": "ruffle-common-37.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -230,8 +230,8 @@
             "download": [
                 {
                     "name": "dii4a",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-20/",
-                    "file": "dii4a-common-20.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-21/",
+                    "file": "dii4a-common-21.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3474,6 +3474,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-4/",
                     "file": "darkplaces-common-4.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "chocolate-quake",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-1/",
+                    "file": "chocolate-quake-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -3567,6 +3573,14 @@
                             "download_name": "nquake-assets"
                         }
                     ]
+                },
+                {
+                    "name": "Chocolate Quake",
+                    "command": "./chocolate-quake/chocolate-quake.sh",
+                    "download": [
+                        "chocolate-quake"
+                    ],
+                    "engine_name": "Chocolate Quake"
                 },
                 {
                     "name": "vkQuake Dimension of the Past",
@@ -4702,8 +4716,8 @@
             "download": [
                 {
                     "name": "dii4a",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-20/",
-                    "file": "dii4a-common-20.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-21/",
+                    "file": "dii4a-common-21.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -6367,8 +6381,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-36/",
-                    "file": "ruffle-common-36.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-37/",
+                    "file": "ruffle-common-37.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6506,8 +6520,8 @@
             "download": [
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-36/",
-                    "file": "ruffle-common-36.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-37/",
+                    "file": "ruffle-common-37.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6620,8 +6634,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6659,8 +6673,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6793,8 +6807,8 @@
             "download": [
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7151,20 +7165,20 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-22/",
-                    "file": "nblood-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-23/",
+                    "file": "nblood-common-23.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-18/",
-                    "file": "notblood-common-18.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-19/",
+                    "file": "notblood-common-19.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7264,8 +7278,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7402,8 +7416,8 @@
             "download": [
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7448,8 +7462,8 @@
             "download": [
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7516,8 +7530,8 @@
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7631,8 +7645,8 @@
             "download": [
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7769,14 +7783,14 @@
             "download": [
                 {
                     "name": "rednukem",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-22/",
-                    "file": "rednukem-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-23/",
+                    "file": "rednukem-common-23.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7855,14 +7869,14 @@
             "download": [
                 {
                     "name": "rednukem",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-22/",
-                    "file": "rednukem-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-23/",
+                    "file": "rednukem-common-23.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8106,20 +8120,20 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-22/",
-                    "file": "nblood-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-23/",
+                    "file": "nblood-common-23.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-18/",
-                    "file": "notblood-common-18.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-19/",
+                    "file": "notblood-common-19.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8636,14 +8650,14 @@
             "download": [
                 {
                     "name": "raze",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-42/",
-                    "file": "raze-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 },
                 {
                     "name": "exhumed",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-22/",
-                    "file": "exhumed-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-23/",
+                    "file": "exhumed-common-23.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8908,8 +8922,8 @@
             "download": [
                 {
                     "name": "solarus",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/solarus-5/",
-                    "file": "solarus-1393750-5.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/solarus-7/",
+                    "file": "solarus-1393750-7.tar.xz"
                 }
             ],
             "command": "./run-ocean-heart.sh",
@@ -10016,7 +10030,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14246",
+            "version": "r14247",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10027,18 +10041,13 @@
         },
         {
             "engine_link": "https://github.com/coelckers/Raze",
-            "version": "1.6.2 (Last Working Release)",
+            "version": "1.11.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Various Licenses",
             "license_link": "https://github.com/coelckers/Raze",
             "controllerSupported": true,
             "engine_name": "Raze",
-            "notices": [
-                {
-                    "label": "Last working version before memory leak was introduced."
-                }
-            ],
             "internal_engine_name": "raze"
         },
         {
@@ -10095,6 +10104,17 @@
             "controllerSupported": true,
             "engine_name": "Ironwail",
             "internal_engine_name": "ironwail"
+        },
+        {
+            "engine_link": "https://github.com/Henrique194/chocolate-quake",
+            "version": "57cb995",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Henrique194/chocolate-quake/blob/main/LICENSE",
+            "controllerNotSupported": true,
+            "engine_name": "Chocolate Quake",
+            "internal_engine_name": "chocolate-quake"
         },
         {
             "engine_link": "https://github.com/ezQuake/ezquake-source",
@@ -10227,7 +10247,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "57c6719",
+            "version": "da329fc",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -10354,7 +10374,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14246",
+            "version": "r14247",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10365,7 +10385,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14246",
+            "version": "r14247",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11187,7 +11207,7 @@
         },
         {
             "engine_link": "https://github.com/glKarin/com.n0n3m4.diii4a",
-            "version": "ddd8a1a",
+            "version": "77d0ead",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11347,7 +11367,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "5d23dc4",
+            "version": "ff088f4",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11593,7 +11613,7 @@
         },
         {
             "engine_link": "https://github.com/erkyrath/lectrote",
-            "version": "1.5.3",
+            "version": "1.5.4",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -11639,8 +11659,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-36/",
-                "file": "ruffle-common-36.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-37/",
+                "file": "ruffle-common-37.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -11687,8 +11707,8 @@
             },
             {
                 "name": "lectrote",
-                "url": "https://github.com/erkyrath/lectrote/releases/download/lectrote-1.5.3/",
-                "file": "Lectrote-1.5.3-linux-x64.zip",
+                "url": "https://github.com/erkyrath/lectrote/releases/download/lectrote-1.5.4/",
+                "file": "Lectrote-1.5.4-linux-x64.zip",
                 "cache_by_name": true
             }
         ],
