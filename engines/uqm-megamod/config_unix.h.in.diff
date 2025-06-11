@@ -1,0 +1,8 @@
+14c14
+< #define CONTENTDIR "@CONTENTDIR@"
+---
+> #define CONTENTDIR "/usr/share/uqm-megamod"
+17c17
+< #define USERDIR "~/.uqm-megamod/"
+---
+> #define USERDIR "~/.local/share/uqm-megamod/"
