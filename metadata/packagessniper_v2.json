@@ -9649,8 +9649,8 @@
                 },
                 {
                     "name": "uqm-megamod",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/uqm-megamod/",
-                    "file": "uqm-megamod-2645580.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/uqm-megamod-1/",
+                    "file": "uqm-megamod-2645580-1.tar.xz"
                 }
             ],
             "choices": [
