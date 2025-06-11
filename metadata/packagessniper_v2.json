@@ -9646,10 +9646,31 @@
                     "name": "sc2",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/sc2-2/",
                     "file": "sc2-2645580-2.tar.xz"
+                },
+                {
+                    "name": "uqm-megamod",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/uqm-megamod/",
+                    "file": "uqm-megamod-2645580.tar.xz"
                 }
             ],
-            "command": "./sc2.sh",
-            "engine_name": "The Ur-Quan Masters",
+            "choices": [
+                {
+                    "name": "The Ur-Quan Masters",
+                    "engine_name": "The Ur-Quan Masters",
+                    "command": "./sc2.sh",
+                    "download": [
+                        "sc2"
+                    ]
+                },
+                {
+                    "name": "The Ur-Quan Masters HD MEGAMOD",
+                    "engine_name": "The Ur-Quan Masters HD MEGAMOD",
+                    "command": "./uqm-megamod.sh",
+                    "download": [
+                        "uqm-megamod"
+                    ]
+                }
+            ],
             "cloudNotAvailable": true,
             "app_id": "2645580"
         },
@@ -11561,6 +11582,17 @@
             "controllerNotSupported": true,
             "engine_name": "The Ur-Quan Masters",
             "internal_engine_name": "sc2"
+        },
+        {
+            "engine_link": "https://github.com/JHGuitarFreak/UQM-MegaMod/",
+            "version": "0.8.3",
+            "author": "8f00ff",
+            "author_link": "https://github.com/8f00ff",
+            "license": "GPLv2",
+            "license_link": "https://github.com/JHGuitarFreak/UQM-MegaMod/blob/master/licenses/COPYING-UQM",
+            "controllerNotSupported": true,
+            "engine_name": "The Ur-Quan Masters HD MEGAMOD",
+            "internal_engine_name": "uqm-megamod"
         },
         {
             "engine_link": "https://github.com/popcar2/CleanDoom",
