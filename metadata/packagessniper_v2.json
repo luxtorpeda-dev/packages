@@ -11584,6 +11584,17 @@
             "internal_engine_name": "sc2"
         },
         {
+            "engine_link": "https://github.com/JHGuitarFreak/UQM-MegaMod/",
+            "version": "0.8.3",
+            "author": "8f00ff",
+            "author_link": "https://github.com/8f00ff",
+            "license": "GPLv2",
+            "license_link": "https://github.com/JHGuitarFreak/UQM-MegaMod/blob/master/licenses/COPYING-UQM",
+            "controllerNotSupported": true,
+            "engine_name": "The Ur-Quan Masters HD MEGAMOD",
+            "internal_engine_name": "uqm-megamod"
+        },
+        {
             "engine_link": "https://github.com/popcar2/CleanDoom",
             "version": "1.1.0",
             "author": "d10sfan",
