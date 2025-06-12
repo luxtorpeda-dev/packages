@@ -17,6 +17,4 @@ cp -rvf source/Data "${diststart}/209670/dist/Data"
 cp -v source/build/CortexCommand "${diststart}/209670/dist/CortexCommand"
 cp -v assets/cccp.sh "${diststart}/209670/dist/cccp.sh"
 mkdir -p "${diststart}/209670/dist/lib"
-cp -v source/external/lib/linux/x86_64/libfmod.so "${diststart}/209670/dist/lib/libfmod.so"
-cp -v source/external/lib/linux/x86_64/libfmod.so.13 "${diststart}/209670/dist/lib/libfmod.so.13"
-cp -v source/external/lib/linux/x86_64/libfmod.so.13.20 "${diststart}/209670/dist/lib/libfmod.so.13.20"
+find source/external/lib/linux/x86_64/ -name '*.so*' -exec cp -v "{}" "${diststart}/209670/dist/lib/" \;
