@@ -6516,6 +6516,20 @@
             "app_id": "208200"
         },
         {
+            "game_name": "Cortex Command",
+            "download": [
+                {
+                    "name": "cccp",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cccp/",
+                    "file": "cccp-209670.tar.xz"
+                }
+            ],
+            "command": "./cccp.sh",
+            "engine_name": "Cortex Command Community Project",
+            "cloudAvailable": true,
+            "app_id": "209670"
+        },
+        {
             "game_name": "The Basement Collection",
             "download": [
                 {
@@ -10696,6 +10710,17 @@
             "controllerSupported": true,
             "engine_name": "Doom BFA",
             "internal_engine_name": "classic-rbdoom-3-bfg"
+        },
+        {
+            "engine_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project",
+            "version": "v6.2.2",
+            "author": "8f00ff/d10sfan",
+            "author_link": "https://github.com/8f00ff",
+            "license": "AGPLv3",
+            "license_link": "https://github.com/cortex-command-community/Cortex-Command-Community-Project/blob/v6.2.2/LICENSE",
+            "controllerNotSupported": true,
+            "engine_name": "Cortex Command Community Project",
+            "internal_engine_name": "cccp"
         },
         {
             "engine_link": "https://github.com/ValveSoftware/source-sdk-2013",
