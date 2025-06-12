@@ -10,7 +10,7 @@ log_environment
 popd
 
 pushd "dist"
-if [ -z "${ARCHIVE_WITHOUT_V7}" ]; then
+if [ -z "${ARCHIVE_WITHOUT_V7}" ] && [ -z "${ARCHIVE_WITHOUT_FORMAT}" ]; then
     create_archives
 else
     create_archives_without_v7
