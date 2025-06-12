@@ -6520,8 +6520,8 @@
             "download": [
                 {
                     "name": "cccp",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cccp/",
-                    "file": "cccp-209670.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cccp-1/",
+                    "file": "cccp-209670-1.tar.xz"
                 }
             ],
             "command": "./cccp.sh",
