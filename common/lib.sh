@@ -222,7 +222,7 @@ create_archives () {
         filename="$ENGINE_NAME-common"
         pushd "common" || exit 1
         tar \
-            --format="${TAR_FORMAT}" \
+            --format="${ARCHIVE_FORMAT}" \
             --mode='a+rwX,o-w' \
             --owner=0 \
             --group=0 \
