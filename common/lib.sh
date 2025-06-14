@@ -199,7 +199,7 @@ copy_license_file () {
 }
 
 create_archives () {
-    ARCHIVE_FORMAT="${ARCHIVE_FORMAT:-v7}"
+    ARCHIVE_FORMAT="${ARCHIVE_FORMAT:=v7}"
     if [ -z "${COMMON_PACKAGE}" ]; then
         for app_id in $STEAM_APP_ID_LIST ; do
             filename="$ENGINE_NAME-$app_id"
