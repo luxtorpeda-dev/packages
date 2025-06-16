@@ -8381,22 +8381,6 @@
             "app_id": "1146370"
         },
         {
-            "game_name": "DOOM 64",
-            "download": [
-                {
-                    "name": "doom64ex-plus",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom64ex-plus-19/",
-                    "file": "doom64ex-plus-1148590-19.tar.xz"
-                }
-            ],
-            "engine_name": "doom64ex-minus",
-            "command": "./run-doom64ex-plus.sh",
-            "cloudAvailable": true,
-            "cloudIssue": true,
-            "cloudIssueReason": "unworkable_location",
-            "app_id": "1148590"
-        },
-        {
             "game_name": "Command & Conquer™ Remastered Collection",
             "download": [
                 {
@@ -11542,17 +11526,6 @@
             ],
             "engine_name": "Command & Conquer / Red Alert SDL",
             "internal_engine_name": "cnc-red-alert"
-        },
-        {
-            "engine_link": "https://git.sr.ht/~marcin-serwin/Doom64EX-Minus",
-            "version": "7f165c1",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://git.sr.ht/~marcin-serwin/Doom64EX-Minus/tree/main/item/LICENSE",
-            "controllerNotSupported": true,
-            "engine_name": "doom64ex-minus",
-            "internal_engine_name": "doom64ex-plus"
         },
         {
             "engine_link": "https://aarongiles.com/dreamm",
