@@ -454,8 +454,8 @@
                 },
                 {
                     "name": "helion",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/helion-1/",
-                    "file": "helion-common-1.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/helion-2/",
+                    "file": "helion-common-2.tar.xz",
                     "cache_by_name": true
                 }
             ],
