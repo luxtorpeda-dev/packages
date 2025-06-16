@@ -73,8 +73,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-15/",
-                    "file": "ioquake3-common-15.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-16/",
+                    "file": "ioquake3-common-16.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3477,8 +3477,8 @@
                 },
                 {
                     "name": "chocolate-quake",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-1/",
-                    "file": "chocolate-quake-common-1.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-2/",
+                    "file": "chocolate-quake-common-2.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -3967,8 +3967,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-15/",
-                    "file": "ioquake3-common-15.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-16/",
+                    "file": "ioquake3-common-16.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5182,8 +5182,8 @@
                 },
                 {
                     "name": "hammerofthyrion",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hammerofthyrion-8/",
-                    "file": "hammerofthyrion-9060-8.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hammerofthyrion-9/",
+                    "file": "hammerofthyrion-9060-9.tar.xz"
                 },
                 {
                     "name": "fteqw",
@@ -5264,8 +5264,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-15/",
-                    "file": "ioquake3-common-15.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-16/",
+                    "file": "ioquake3-common-16.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7783,8 +7783,8 @@
             "download": [
                 {
                     "name": "akhenaten",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/akhenaten-3/",
-                    "file": "akhenaten-564530-3.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/akhenaten-4/",
+                    "file": "akhenaten-564530-4.tar.xz"
                 }
             ],
             "command": "./akhenaten",
@@ -8379,22 +8379,6 @@
             ],
             "cloudNotAvailable": true,
             "app_id": "1146370"
-        },
-        {
-            "game_name": "DOOM 64",
-            "download": [
-                {
-                    "name": "doom64ex-plus",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom64ex-plus-19/",
-                    "file": "doom64ex-plus-1148590-19.tar.xz"
-                }
-            ],
-            "engine_name": "doom64ex-minus",
-            "command": "./run-doom64ex-plus.sh",
-            "cloudAvailable": true,
-            "cloudIssue": true,
-            "cloudIssueReason": "unworkable_location",
-            "app_id": "1148590"
         },
         {
             "game_name": "Command & Conquer™ Remastered Collection",
@@ -9846,7 +9830,7 @@
         },
         {
             "engine_link": "https://ioquake3.org/",
-            "version": "8d2c2b4",
+            "version": "ab18167",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -10142,7 +10126,7 @@
         },
         {
             "engine_link": "https://github.com/Henrique194/chocolate-quake",
-            "version": "57cb995",
+            "version": "e4abb6f",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10227,7 +10211,7 @@
         },
         {
             "engine_link": "https://github.com/mvdevs/jk2mv",
-            "version": "f13a758",
+            "version": "7d60145",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10282,7 +10266,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "18d796a",
+            "version": "38c64a9",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -10322,7 +10306,7 @@
         },
         {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "b83a780",
+            "version": "792896d",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10371,7 +10355,7 @@
         },
         {
             "engine_link": "https://github.com/sezero/uhexen2",
-            "version": "82a7446",
+            "version": "12f3210",
             "notices": [
                 {
                     "label": "Set Music Mode in in-game options to All Codecs"
@@ -10464,7 +10448,7 @@
         },
         {
             "engine_link": "https://github.com/dalerank/Akhenaten",
-            "version": "ra0325",
+            "version": "ra2506",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "AGPL-3.0",
@@ -10656,7 +10640,7 @@
         },
         {
             "engine_link": "https://github.com/OpenXRay/xray-16",
-            "version": "c5bee23",
+            "version": "78f47e5",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD with commercial source code",
@@ -10697,7 +10681,7 @@
         },
         {
             "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
-            "version": "c3cd7f9",
+            "version": "532750c",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11074,7 +11058,7 @@
         },
         {
             "engine_link": "https://github.com/jasonrohrer/OneLife",
-            "version": "8623270",
+            "version": "1748617",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Public Domain",
@@ -11253,7 +11237,7 @@
         },
         {
             "engine_link": "https://github.com/glKarin/com.n0n3m4.diii4a",
-            "version": "7d4985b",
+            "version": "8a6a64b",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11413,7 +11397,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "40a5adf",
+            "version": "732ab80",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11542,17 +11526,6 @@
             ],
             "engine_name": "Command & Conquer / Red Alert SDL",
             "internal_engine_name": "cnc-red-alert"
-        },
-        {
-            "engine_link": "https://git.sr.ht/~marcin-serwin/Doom64EX-Minus",
-            "version": "7f165c1",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv2",
-            "license_link": "https://git.sr.ht/~marcin-serwin/Doom64EX-Minus/tree/main/item/LICENSE",
-            "controllerNotSupported": true,
-            "engine_name": "doom64ex-minus",
-            "internal_engine_name": "doom64ex-plus"
         },
         {
             "engine_link": "https://aarongiles.com/dreamm",
