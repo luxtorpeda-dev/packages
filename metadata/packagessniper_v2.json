@@ -9638,6 +9638,28 @@
             "app_id": "1665260"
         },
         {
+            "game_name": "Hands of Necromancy II",
+            "download": [],
+            "command": "./run-hon2-local.sh",
+            "command_args": [
+                "-config",
+                "hon2.ini",
+                "-savedir",
+                "./saves"
+            ],
+            "notices": [
+                {
+                    "key": "saves",
+                    "value": "save_game_dir"
+                }
+            ],
+            "engine_name": "HandsOfNecromancy2-Engine",
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
+            "app_id": "2706450"
+        },
+        {
             "game_name": "Free Stars: The Ur-Quan Masters",
             "download": [
                 {
@@ -9915,6 +9937,17 @@
             "controllerSupported": true,
             "engine_name": "GZDoom",
             "internal_engine_name": "gzdoom"
+        },
+        {
+            "engine_link": "https://github.com/HandsOfNecromancy/HandsOfNecromancy2-Engine",
+            "version": "74a9852",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/HandsOfNecromancy/HandsOfNecromancy2-Engine/blob/master_gz411/LICENSE",
+            "controllerNotSupported": true,
+            "engine_name": "HandsOfNecromancy2-Engine",
+            "internal_engine_name": "hon2-gzdoom"
         },
         {
             "engine_link": "https://github.com/Youda008/DoomRunner",
