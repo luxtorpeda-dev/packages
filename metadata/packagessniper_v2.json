@@ -9639,7 +9639,13 @@
         },
         {
             "game_name": "Hands of Necromancy II",
-            "download": [],
+            "download": [
+                {
+                    "name": "hon2-gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hon2-gzdoom-1/",
+                    "file": "hon2-gzdoom-2706450-1.tar.xz"
+                }
+            ],
             "command": "./run-hon2-local.sh",
             "command_args": [
                 "-config",
