@@ -2,9 +2,9 @@
 
 ### New Engine Package Submissions
 
-* [ ] Have you followed the instructions in the build documentation?
-* [ ] Have you run the build locally and ensured the package allowed you to launch and play the Steam game?
-* [ ] Have you updated the packages.json file?
+* [ ] Have you followed the instructions in the [build documentation](/docs/Creating_a_Package.md)?
+* [ ] Have you [tested the build locally](/docs/Testing.md) and ensured the package allowed you to launch and play the Steam game?
+* [ ] Have you updated the [metadata/packagessniper_v2.json](/metadata/packagessniper_v2.json) file?
 * [ ] Have you ensured that there is not already a pull request or active engine package for the one you are adding?
 
 
