@@ -3405,8 +3405,8 @@
                 },
                 {
                     "name": "quakespasm-spiked",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-15/",
-                    "file": "quakespasm-spiked-common-15.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-16/",
+                    "file": "quakespasm-spiked-common-16.tar.xz",
                     "cache_by_name": true
                 },
                 {
