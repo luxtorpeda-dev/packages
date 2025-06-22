@@ -8455,8 +8455,8 @@
                 },
                 {
                     "name": "cnc-red-alert",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-10/",
-                    "file": "cnc-red-alert-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-11/",
+                    "file": "cnc-red-alert-common-11.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8509,8 +8509,8 @@
                 },
                 {
                     "name": "cnc-red-alert",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-10/",
-                    "file": "cnc-red-alert-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-red-alert-11/",
+                    "file": "cnc-red-alert-common-11.tar.xz",
                     "cache_by_name": true
                 }
             ],
