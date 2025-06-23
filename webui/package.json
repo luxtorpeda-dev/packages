@@ -20,7 +20,7 @@
     "@angular/platform-browser": "^20.0.4",
     "@angular/platform-browser-dynamic": "^20.0.4",
     "@angular/router": "^20.0.4",
-    "bootstrap": "^5.3.6",
+    "bootstrap": "^5.3.7",
     "marked": "^15.0.12",
     "ngx-markdown": "^20",
     "npm-check-updates": "^18.0.1",
