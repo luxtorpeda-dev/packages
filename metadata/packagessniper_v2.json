@@ -10394,7 +10394,7 @@
         },
         {
             "engine_link": "https://github.com/sezero/uhexen2",
-            "version": "36579ac",
+            "version": "641de4a",
             "notices": [
                 {
                     "label": "Set Music Mode in in-game options to All Codecs"
