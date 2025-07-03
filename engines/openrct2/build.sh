@@ -13,6 +13,7 @@ cd build
 cmake \
     -DCMAKE_PREFIX_PATH="$pfx" \
     -DCMAKE_INSTALL_PREFIX="$pfx/openrct2" \
+    -DCMAKE_BUILD_TYPE=Release \
     ..
 make -j "$(nproc)"
 cp -rfv ../data .
