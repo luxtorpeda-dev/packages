@@ -32,7 +32,7 @@ if ! [[ -z "${LUX_STEAM_DECK}" ]]; then
     fi
 fi
 
-cd openmw-0.48.0-Linux-64Bit
+cd openmw-0.49.0-Linux-64Bit
 
 if [ ! -d ./shaders-bkup ]; then
     LD_PRELOAD="" cp -rfv ./resources/shaders ./shaders-bkup

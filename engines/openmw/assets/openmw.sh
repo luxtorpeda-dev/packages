@@ -21,7 +21,7 @@ if [ ! -f Morrowind.ini ]; then
     fi
 fi
 
-cd openmw-0.48.0-Linux-64Bit
+cd openmw-0.49.0-Linux-64Bit
 
 if [ ! -f ~/.config/openmw/openmw.cfg ]; then
     if [ ! -d ~/.config/openmw ]; then

@@ -4,9 +4,6 @@
 git clone https://github.com/OpenMW/openmw source
 
 git clone https://github.com/zesterer/openmw-shaders.git openmw-shaders
-pushd openmw-shaders
-git checkout 3428a4f
-popd
 
 # COPY PHASE
 cp assets/* "$diststart/22320/dist/"

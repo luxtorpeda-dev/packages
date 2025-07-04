@@ -5803,8 +5803,8 @@
                 },
                 {
                     "name": "openmw-binaries",
-                    "url": "https://github.com/OpenMW/openmw/releases/download/openmw-0.48.0/",
-                    "file": "openmw-0.48.0-Linux-64Bit.tar.gz"
+                    "url": "https://github.com/OpenMW/openmw/releases/download/openmw-0.49.0/",
+                    "file": "openmw-0.49.0-Linux-64Bit.tar.gz"
                 }
             ],
             "download_config": [
@@ -10698,7 +10698,7 @@
         },
         {
             "engine_link": "https://openmw.org/",
-            "version": "0.48.0",
+            "version": "0.49.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
