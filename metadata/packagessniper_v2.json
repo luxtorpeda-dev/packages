@@ -6497,7 +6497,7 @@
                     "command": "./classic/run-classic-rbdoom-3-bfg.sh",
                     "download": [
                         "classic-rbdoom-3-bfg",
-                        "open-platform-v1"
+                        "open-platform-v102"
                     ],
                     "download_config": [
                         {
@@ -6506,7 +6506,7 @@
                         },
                         {
                             "extract_location": "./classic/open-platform",
-                            "download_name": "open-platform-v1"
+                            "download_name": "open-platform-v102"
                         }
                     ],
                     "engine_name": "Doom BFA"
