@@ -62,4 +62,5 @@ fi
 
 ln -rsf ../lib/* ./lib
 export LD_LIBRARY_PATH=lib
+export QT_PLUGIN_PATH="./plugins"
 ./openmw-launcher.x86_64 --data-local "./Data Files" "$@"
