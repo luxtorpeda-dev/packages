@@ -11791,6 +11791,9 @@
                 "download_name": "dosbox-staging"
             }
         ],
+        "app_ids_deps": [
+            1070560
+        ],
         "choices": [
             {
                 "name": "ScummVM",
@@ -11854,9 +11857,6 @@
                 "download": [
                     "nwjs-binaries",
                     "nwjs"
-                ],
-                "app_ids_deps": [
-                    1070560
                 ]
             },
             {
