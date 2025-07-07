@@ -10305,7 +10305,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "6781cb5",
+            "version": "8e5f01c",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
