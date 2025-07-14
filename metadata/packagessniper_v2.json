@@ -8991,37 +8991,6 @@
             "app_id": "1546440"
         },
         {
-            "game_name": "Retroninjacyberassassin",
-            "download": [
-                {
-                    "name": "binaries",
-                    "url": "https://zandronum.com/downloads/",
-                    "file": "zandronum3.0-linux-x86_64.tar.bz2"
-                },
-                {
-                    "name": "zandronum",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/zandronum-3/",
-                    "file": "zandronum-common-3.tar.xz",
-                    "cache_by_name": true
-                }
-            ],
-            "command": "./run-zandronum.sh",
-            "app_ids_deps": [
-                1070560
-            ],
-            "command_args": [
-                "-iwad",
-                "Retroninjacyberassassin.wad",
-                "-config",
-                "zand.ini",
-                "-savedir",
-                "./saves"
-            ],
-            "engine_name": "Zandronum",
-            "cloudNotAvailable": true,
-            "app_id": "1566570"
-        },
-        {
             "game_name": "Witchaven",
             "download": [
                 {
@@ -11031,22 +11000,6 @@
             "controllerSupported": true,
             "engine_name": "Solarus",
             "internal_engine_name": "solarus"
-        },
-        {
-            "engine_link": "https://github.com/TorrSamaho/zandronum",
-            "version": "3.0",
-            "author": "dreamer/d10sfan",
-            "author_link": "https://github.com/dreamer",
-            "license": "Sleepycat License with NON-COMMERCIAL LICENSE",
-            "license_link": "https://github.com/TorrSamaho/zandronum/blob/master/LICENSE.txt",
-            "notices": [
-                {
-                    "key": "non_free"
-                }
-            ],
-            "controllerNotSupported": true,
-            "engine_name": "Zandronum",
-            "internal_engine_name": "zandronum"
         },
         {
             "engine_name": "BlastEm",
