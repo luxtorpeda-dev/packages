@@ -11682,7 +11682,7 @@
         },
         {
             "engine_link": "https://github.com/erkyrath/lectrote",
-            "version": "1.5.4",
+            "version": "1.5.5",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -11776,8 +11776,8 @@
             },
             {
                 "name": "lectrote",
-                "url": "https://github.com/erkyrath/lectrote/releases/download/lectrote-1.5.4/",
-                "file": "Lectrote-1.5.4-linux-x64.zip",
+                "url": "https://github.com/erkyrath/lectrote/releases/download/lectrote-1.5.5/",
+                "file": "Lectrote-1.5.5-linux-x64.zip",
                 "cache_by_name": true
             }
         ],
