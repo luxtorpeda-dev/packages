@@ -15,7 +15,7 @@ pushd "source/neo"
 mkdir build
 cd build
 cmake \
-    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_BUILD_TYPE=Retail \
     -DSDL2=ON \
     -DCMAKE_PREFIX_PATH="$pfx" \
     --preset=linux-retail \
