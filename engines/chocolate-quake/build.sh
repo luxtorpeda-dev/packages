@@ -4,6 +4,7 @@
 git clone https://github.com/Henrique194/chocolate-quake.git source
 pushd source
 git checkout "$COMMIT_HASH"
+git submodule update --init --recursive
 popd
 
 # BUILD PHASE
