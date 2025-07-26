@@ -1,16 +1,22 @@
 #!/bin/bash
 
+export CXXFLAGS=-I"$VCPKG_INSTALLED_PATH"/include
+export CFLAGS=-I"$VCPKG_INSTALLED_PATH"/include
+export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
+export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
+
 # CLONE PHASE
 git clone https://github.com/Henrique194/chocolate-quake.git source
 pushd source
 git checkout "$COMMIT_HASH"
+git submodule update --init --recursive
 popd
 
 # BUILD PHASE
 pushd "source"
 mkdir build
 cd build
-cmake ..
+cmake -DCMAKE_PREFIX_PATH="$VCPKG_INSTALLED_PATH" ..
 cmake --build .
 popd
 
