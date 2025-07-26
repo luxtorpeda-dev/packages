@@ -1,0 +1,11 @@
+{
+  "name": "chocolate-quake",
+  "dependencies": [
+    {
+      "name": "libogg"
+    },
+    {
+      "name": "libvorbis"
+    }
+  ]
+}
