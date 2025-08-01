@@ -10434,7 +10434,7 @@
         },
         {
             "engine_link": "https://github.com/bvschaik/julius",
-            "version": "1.7.0",
+            "version": "v1.8.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "AGPL-3.0",
