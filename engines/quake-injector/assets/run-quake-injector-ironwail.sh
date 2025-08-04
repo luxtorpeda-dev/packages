@@ -8,4 +8,4 @@ if [ ! -f config.properties ]; then
     cp -rfv config.properties-template-ironwail config.properties
 fi
 
-java -jar ./QuakeInjector-alpha06/lib/QuakeInjector-alpha06.jar
+java -jar ./QuakeInjector-alpha07/lib/QuakeInjector-alpha07.jar
