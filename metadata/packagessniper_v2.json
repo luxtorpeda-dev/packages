@@ -4707,9 +4707,9 @@
                     "cache_by_name": true
                 },
                 {
-                    "name": "chocolate-doom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-11/",
-                    "file": "chocolate-doom-common-11.tar.xz",
+                    "name": "dsda-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dsda-doom-14/",
+                    "file": "dsda-doom-common-14.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -4727,39 +4727,83 @@
                     ]
                 },
                 {
-                    "name": "Heretic - Chocolate Doom",
-                    "command": "./chocolate-doom/run-chocolate-heretic.sh",
+                    "name": "Heretic - dsda-doom",
+                    "command": "./dsda-doom/run-dsda-doom-basecommand.sh",
                     "command_args": [
                         "-iwad",
                         "../dos/base/heretic/HERETIC.WAD"
                     ],
                     "download": [
-                        "chocolate-doom"
+                        "dsda-doom"
                     ],
                     "download_config": [
                         {
-                            "extract_location": "./chocolate-doom",
-                            "download_name": "chocolate-doom"
+                            "extract_location": "./dsda-doom",
+                            "download_name": "dsda-doom"
                         }
                     ]
                 },
                 {
-                    "name": "Heretic - Chocolate Doom (Setup)",
-                    "command": "./chocolate-doom/run-chocolate-heretic-setup.sh",
+                    "name": "Hexen - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
-                        "../dos/base/heretic/HERETIC.WAD"
+                        "dos/base/hexen/HEXEN.WAD"
                     ],
                     "download": [
-                        "chocolate-doom"
+                        "gzdoom"
+                    ]
+                },
+                {
+                    "name": "Hexen - dsda-doom",
+                    "command": "./dsda-doom/run-dsda-doom-basecommand.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../dos/base/hexen/HEXEN.WAD"
+                    ],
+                    "download": [
+                        "dsda-doom"
                     ],
                     "download_config": [
                         {
-                            "extract_location": "./chocolate-doom",
-                            "download_name": "chocolate-doom"
+                            "extract_location": "./dsda-doom",
+                            "download_name": "dsda-doom"
                         }
+                    ]
+                },
+                {
+                    "name": "Hexen Deathkings - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "dos/base/hexen/HEXEN.WAD",
+                        "-file",
+                        "dos/base/hexen/HEXDD.WAD"
                     ],
-                    "engine_name": "Chocolate Doom"
+                    "download": [
+                        "gzdoom"
+                    ]
+                },
+                {
+                    "name": "Hexen Deathkings - dsda-doom",
+                    "command": "./dsda-doom/run-dsda-doom-basecommand.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../dos/base/hexen/HEXEN.WAD",
+                        "-file",
+                        "../dos/base/hexen/HEXDD.WAD"
+                    ],
+                    "download": [
+                        "dsda-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./dsda-doom",
+                            "download_name": "dsda-doom"
+                        }
+                    ]
                 }
             ],
             "cloudAvailable": true,
