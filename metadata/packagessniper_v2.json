@@ -4728,7 +4728,7 @@
                 },
                 {
                     "name": "Heretic - dsda-doom",
-                    "command": "./dsda-doom/run-dsda-doom-basecommand.sh",
+                    "command": "./dsda-doom/run-dsda-doom.sh",
                     "command_args": [
                         "-iwad",
                         "../dos/base/heretic/HERETIC.WAD"
@@ -4757,7 +4757,7 @@
                 },
                 {
                     "name": "Hexen - dsda-doom",
-                    "command": "./dsda-doom/run-dsda-doom-basecommand.sh",
+                    "command": "./dsda-doom/run-dsda-doom.sh",
                     "command_args": [
                         "-iwad",
                         "../dos/base/hexen/HEXEN.WAD"
@@ -4780,7 +4780,7 @@
                         "-iwad",
                         "dos/base/hexen/HEXEN.WAD",
                         "-file",
-                        "dos/base/hexen/HEXDD.WAD"
+                        "dos/base/hexendk/HEXDD.WAD"
                     ],
                     "download": [
                         "gzdoom"
@@ -4788,12 +4788,12 @@
                 },
                 {
                     "name": "Hexen Deathkings - dsda-doom",
-                    "command": "./dsda-doom/run-dsda-doom-basecommand.sh",
+                    "command": "./dsda-doom/run-dsda-doom.sh",
                     "command_args": [
                         "-iwad",
                         "../dos/base/hexen/HEXEN.WAD",
                         "-file",
-                        "../dos/base/hexen/HEXDD.WAD"
+                        "../dos/base/hexendk/HEXDD.WAD"
                     ],
                     "download": [
                         "dsda-doom"
