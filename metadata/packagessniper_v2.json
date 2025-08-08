@@ -4698,6 +4698,77 @@
             "app_id": "2390"
         },
         {
+            "game_name": "Heretic + Hexen",
+            "download": [
+                {
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-65/",
+                    "file": "gzdoom-common-65.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "chocolate-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-doom-11/",
+                    "file": "chocolate-doom-common-11.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "choices": [
+                {
+                    "name": "Heretic - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "dos/base/heretic/HERETIC.WAD"
+                    ],
+                    "download": [
+                        "gzdoom"
+                    ]
+                },
+                {
+                    "name": "Heretic - Chocolate Doom",
+                    "command": "./chocolate-doom/run-chocolate-heretic.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../dos/base/heretic/HERETIC.WAD"
+                    ],
+                    "download": [
+                        "chocolate-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./chocolate-doom",
+                            "download_name": "chocolate-doom"
+                        }
+                    ]
+                },
+                {
+                    "name": "Heretic - Chocolate Doom (Setup)",
+                    "command": "./chocolate-doom/run-chocolate-heretic-setup.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../dos/base/heretic/HERETIC.WAD"
+                    ],
+                    "download": [
+                        "chocolate-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./chocolate-doom",
+                            "download_name": "chocolate-doom"
+                        }
+                    ],
+                    "engine_name": "Chocolate Doom"
+                },
+
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
+            "app_id": "3286930"
+        },
+        {
             "game_name": "Aliens versus Predator Classic",
             "download": [
                 {
