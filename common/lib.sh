@@ -93,7 +93,7 @@ install_autoconf () {
     git checkout "$latest_tag"
 
     ./bootstrap
-    ./configure --prefix=/usr/local
+    ./configure --prefix=/usr/local MAKEINFO=true
     make -j"$(nproc)"
     sudo make install
     popd
