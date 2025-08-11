@@ -85,15 +85,11 @@ start_apt_libraries () {
 }
 
 install_autoconf () {
-    git clone --depth=1 https://github.com/autotools-mirror/autoconf.git
-    pushd autoconf
+    wget https://ftp.gnu.org/gnu/autoconf/autoconf-2.72.tar.xz
+    tar -xf autoconf-2.72.tar.xz
 
-    git fetch --tags
-    latest_tag=$(git tag --sort=-version:refname | head -n1)
-    git checkout "$latest_tag"
-
-    ./bootstrap
-    ./configure --prefix=/usr/local MAKEINFO=true
+    pushd autoconf-2.72
+    ./configure --prefix=/usr/local
     make -j"$(nproc)"
     sudo make install
     popd
