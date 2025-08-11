@@ -33,7 +33,7 @@ if [ "$readyversion" != "$wantedversion" ]; then
     fi
 
     ln -rsf ./Data/TileSets ./Data/Tilesets
-    tar xvf wildfire-maps_0.3.0-linux.tar.gz -C ./squashfs-root/usr/share/ja2/mods
+    tar xvf wildfire-maps_0.5.1-linux.tar.gz -C ./squashfs-root/usr/share/ja2/mods
     ./squashfs-root/usr/share/ja2/mods/wildfire-maps/install_wildfire_maps --src_dir="$PWD/Data"
     
     echo "$wantedversion" > ./readyversion.txt
