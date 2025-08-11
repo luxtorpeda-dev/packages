@@ -84,6 +84,25 @@ start_apt_libraries () {
     done
 }
 
+install_autoconf () {
+    wget https://ftp.gnu.org/gnu/autoconf/autoconf-2.72.tar.xz
+    tar -xf autoconf-2.72.tar.xz
+
+    pushd autoconf-2.72
+    ./configure --prefix=/usr/local
+    make -j"$(nproc)"
+    sudo make install
+    popd
+
+    sudo update-alternatives --install /usr/bin/autoconf autoconf /usr/local/bin/autoconf 200
+    sudo update-alternatives --install /usr/bin/autoheader autoheader /usr/local/bin/autoheader 200
+
+    sudo update-alternatives --set autoconf /usr/local/bin/autoconf
+    sudo update-alternatives --set autoheader /usr/local/bin/autoheader
+
+    autoconf --version
+}
+
 start_vcpkg () {
     # sets up paths
     export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"

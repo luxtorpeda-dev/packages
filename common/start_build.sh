@@ -36,6 +36,8 @@ fi
 
 gcc --version
 
+install_autoconf
+
 if [ ! -z "${APT_LIBRARIES}" ]; then
     echo "Found apt libraries to install $APT_LIBRARIES"
     start_apt_libraries "$APT_LIBRARIES"
