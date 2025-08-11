@@ -4698,6 +4698,120 @@
             "app_id": "2390"
         },
         {
+            "game_name": "Heretic + Hexen",
+            "download": [
+                {
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-65/",
+                    "file": "gzdoom-common-65.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "dsda-doom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dsda-doom-14/",
+                    "file": "dsda-doom-common-14.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "choices": [
+                {
+                    "name": "Heretic - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "dos/base/heretic/HERETIC.WAD"
+                    ],
+                    "download": [
+                        "gzdoom"
+                    ]
+                },
+                {
+                    "name": "Heretic - dsda-doom",
+                    "command": "./dsda-doom/run-dsda-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../dos/base/heretic/HERETIC.WAD"
+                    ],
+                    "download": [
+                        "dsda-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./dsda-doom",
+                            "download_name": "dsda-doom"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hexen - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "dos/base/hexen/HEXEN.WAD"
+                    ],
+                    "download": [
+                        "gzdoom"
+                    ]
+                },
+                {
+                    "name": "Hexen - dsda-doom",
+                    "command": "./dsda-doom/run-dsda-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../dos/base/hexen/HEXEN.WAD"
+                    ],
+                    "download": [
+                        "dsda-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./dsda-doom",
+                            "download_name": "dsda-doom"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hexen Deathkings - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "dos/base/hexen/HEXEN.WAD",
+                        "-file",
+                        "dos/base/hexendk/HEXDD.WAD"
+                    ],
+                    "download": [
+                        "gzdoom"
+                    ]
+                },
+                {
+                    "name": "Hexen Deathkings - dsda-doom",
+                    "command": "./dsda-doom/run-dsda-doom.sh",
+                    "command_args": [
+                        "-iwad",
+                        "../dos/base/hexen/HEXEN.WAD",
+                        "-file",
+                        "../dos/base/hexendk/HEXDD.WAD"
+                    ],
+                    "download": [
+                        "dsda-doom"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./dsda-doom",
+                            "download_name": "dsda-doom"
+                        }
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
+            "app_id": "3286930"
+        },
+        {
             "game_name": "Aliens versus Predator Classic",
             "download": [
                 {
@@ -9688,57 +9802,6 @@
             "command": "./ftequakeworld.sh",
             "cloudNotAvailable": true,
             "app_id": "2347390"
-        },
-        {
-            "game_name": "Classic Marathon",
-            "download": [
-                {
-                    "name": "alephone",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alephone-5/",
-                    "file": "alephone-common-5.tar.xz",
-                    "cache_by_name": true
-                }
-            ],
-            "engine_name": "Aleph One",
-            "command": "./run-alephone.sh",
-            "cloudAvailable": true,
-            "cloudIssue": true,
-            "cloudIssueReason": "unworkable_location",
-            "app_id": "2398450"
-        },
-        {
-            "game_name": "Classic Marathon 2",
-            "download": [
-                {
-                    "name": "alephone",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alephone-5/",
-                    "file": "alephone-common-5.tar.xz",
-                    "cache_by_name": true
-                }
-            ],
-            "engine_name": "Aleph One",
-            "command": "./run-alephone.sh",
-            "cloudAvailable": true,
-            "cloudIssue": true,
-            "cloudIssueReason": "unworkable_location",
-            "app_id": "2398490"
-        },
-        {
-            "game_name": "Classic Marathon Infinity",
-            "download": [
-                {
-                    "name": "alephone",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alephone-5/",
-                    "file": "alephone-common-5.tar.xz",
-                    "cache_by_name": true
-                }
-            ],
-            "engine_name": "Aleph One",
-            "command": "./run-alephone.sh",
-            "cloudAvailable": true,
-            "cloudIssue": true,
-            "cloudIssueReason": "unworkable_location",
-            "app_id": "2398520"
         },
         {
             "game_name": "Descent 3",
