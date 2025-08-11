@@ -84,6 +84,27 @@ start_apt_libraries () {
     done
 }
 
+install_autoconf () {
+    git clone --depth=1 https://github.com/autotools-mirror/autoconf.git
+    pushd autoconf
+
+    latest_tag=$(git tag --sort=-version:refname | head -n1)
+    git checkout "$latest_tag"
+
+    ./bootstrap
+    ./configure --prefix=/usr/local
+    make -j"$(nproc)"
+    sudo make install
+    popd
+
+    sudo update-alternatives --install /usr/bin/autoconf autoconf /usr/local/bin/autoconf 200
+    sudo update-alternatives --install /usr/bin/autoheader autoheader /usr/local/bin/autoheader 200
+
+    sudo update-alternatives --set autoconf /usr/local/bin/autoconf
+    sudo update-alternatives --set autoheader /usr/local/bin/autoheader
+
+    autoconf --version
+
 start_vcpkg () {
     # sets up paths
     export VCPKG_INSTALLED_PATH="$PWD/vcpkg_installed/x64-linux-dynamic"
