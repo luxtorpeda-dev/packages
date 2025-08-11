@@ -88,6 +88,7 @@ install_autoconf () {
     git clone --depth=1 https://github.com/autotools-mirror/autoconf.git
     pushd autoconf
 
+    git fetch --tags
     latest_tag=$(git tag --sort=-version:refname | head -n1)
     git checkout "$latest_tag"
 
