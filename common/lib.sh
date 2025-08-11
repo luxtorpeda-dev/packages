@@ -104,6 +104,7 @@ install_autoconf () {
     sudo update-alternatives --set autoheader /usr/local/bin/autoheader
 
     autoconf --version
+}
 
 start_vcpkg () {
     # sets up paths
