@@ -448,8 +448,8 @@
                 },
                 {
                     "name": "nugget-doom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nugget-doom-8/",
-                    "file": "nugget-doom-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nugget-doom-9/",
+                    "file": "nugget-doom-common-9.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -1812,8 +1812,8 @@
                 },
                 {
                     "name": "nugget-doom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nugget-doom-8/",
-                    "file": "nugget-doom-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nugget-doom-9/",
+                    "file": "nugget-doom-common-9.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -2381,8 +2381,8 @@
                 },
                 {
                     "name": "nugget-doom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nugget-doom-8/",
-                    "file": "nugget-doom-common-8.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nugget-doom-9/",
+                    "file": "nugget-doom-common-9.tar.xz",
                     "cache_by_name": true
                 }
             ],
