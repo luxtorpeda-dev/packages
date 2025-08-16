@@ -5,7 +5,6 @@ cd "$DIR" && cd ..
 shopt -s nocasematch
 cur_args=($@)
 new_args=(./dosbox-staging/dosbox)
-new_args+=("-fullscreen")
 new_args+=("-exit")
 
 if [[ -z $cur_args && $LUX_ORIGINAL_EXE_FILE == *"bat" ]]; then
