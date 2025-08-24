@@ -11077,7 +11077,7 @@
         },
         {
             "engine_link": "https://github.com/nwjs/nw.js",
-            "version": "0.54.0",
+            "version": "0.102.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -11750,8 +11750,8 @@
             },
             {
                 "name": "nwjs-binaries",
-                "url": "https://dl.nwjs.io/v0.54.0/",
-                "file": "nwjs-v0.54.0-linux-x64.tar.gz",
+                "url": "https://dl.nwjs.io/v0.102.1/",
+                "file": "nwjs-v0.102.1-linux-x64.tar.gz",
                 "cache_by_name": true
             },
             {

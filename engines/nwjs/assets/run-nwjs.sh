@@ -24,5 +24,5 @@ else
     runtimepath=$(cat runtimepath.txt)
 fi
 
-LD_PRELOAD="" cp -rfv ./nwjs-v0.54.0-linux-x64/* .
+LD_PRELOAD="" cp -rfv ./nwjs-v0.102.1-linux-x64/* .
 "$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- ./nw
