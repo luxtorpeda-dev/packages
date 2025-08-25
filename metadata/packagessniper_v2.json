@@ -6865,8 +6865,8 @@
                 },
                 {
                     "name": "taradino",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-9/",
-                    "file": "taradino-238050-9.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-10/",
+                    "file": "taradino-238050-10.tar.xz"
                 }
             ],
             "choices": [
@@ -7559,8 +7559,8 @@
             "download": [
                 {
                     "name": "taradino",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-9/",
-                    "file": "taradino-358410-9.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-10/",
+                    "file": "taradino-358410-10.tar.xz"
                 }
             ],
             "command": "./run-rott-dark-war.sh",
