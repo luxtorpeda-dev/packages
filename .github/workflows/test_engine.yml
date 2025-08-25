@@ -13,7 +13,7 @@ jobs:
       container: ${{ steps.findname.outputs.container }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Find Engine Names
         id: findname
         uses: luxtorpeda-dev/action-build-get-engine-name@master
@@ -35,7 +35,7 @@ jobs:
             - /usr/local/lib/android:/gh/android
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     - name: Cleanup GH Environment
       run: |
         df -h
