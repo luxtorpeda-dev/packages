@@ -24,5 +24,20 @@ else
     runtimepath=$(cat runtimepath.txt)
 fi
 
-LD_PRELOAD="" cp -rfv ./nwjs-v0.102.1-linux-x64/* .
-"$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- ./nw
+FILE="package.json"
+DIRNAME=$(basename "$PWD")
+
+if [ -f "$FILE" ]; then
+  # Case 1: name exists but is empty -> replace with folder name
+  if grep -q '"name"[[:space:]]*:[[:space:]]*""' "$FILE"; then
+    sed -i "s/\"name\"[[:space:]]*:[[:space:]]*\"\"/\"name\": \"$DIRNAME\"/" "$FILE"
+
+  # Case 2: name key missing entirely -> insert at top
+  elif ! grep -q '"name"[[:space:]]*:' "$FILE"; then
+    sed -i "0,/{/s//{\n  \"name\": \"$DIRNAME\",/" "$FILE"
+  fi
+else
+  echo "package.json not found; skipping."
+fi
+
+"$runtimepath/scout-on-soldier-entry-point-v2" --verbose -- ./nwjs/nw .

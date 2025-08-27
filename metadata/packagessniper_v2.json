@@ -11873,6 +11873,13 @@
                 "download": [
                     "nwjs-binaries",
                     "nwjs"
+                ],
+                "download_config": [
+                    {
+                        "extract_location": "./nwjs",
+                        "strip_prefix": "nwjs-v0.102.1-linux-x64/",
+                        "download_name": "nwjs-binaries"
+                    }
                 ]
             },
             {
