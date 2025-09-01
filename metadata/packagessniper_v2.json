@@ -17,8 +17,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-54/",
-                    "file": "ruffle-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-55/",
+                    "file": "ruffle-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6495,8 +6495,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-54/",
-                    "file": "ruffle-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-55/",
+                    "file": "ruffle-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6648,8 +6648,8 @@
             "download": [
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-54/",
-                    "file": "ruffle-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-55/",
+                    "file": "ruffle-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -11744,8 +11744,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-54/",
-                "file": "ruffle-common-54.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-55/",
+                "file": "ruffle-common-55.tar.xz",
                 "cache_by_name": true
             },
             {
