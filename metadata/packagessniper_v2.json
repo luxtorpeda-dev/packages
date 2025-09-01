@@ -230,8 +230,8 @@
             "download": [
                 {
                     "name": "dii4a",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-39/",
-                    "file": "dii4a-common-39.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-40/",
+                    "file": "dii4a-common-40.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4830,8 +4830,8 @@
             "download": [
                 {
                     "name": "dii4a",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-39/",
-                    "file": "dii4a-common-39.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-40/",
+                    "file": "dii4a-common-40.tar.xz",
                     "cache_by_name": true
                 },
                 {
