@@ -3477,8 +3477,8 @@
                 },
                 {
                     "name": "chocolate-quake",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-9/",
-                    "file": "chocolate-quake-common-9.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-10/",
+                    "file": "chocolate-quake-common-10.tar.xz",
                     "cache_by_name": true
                 }
             ],
