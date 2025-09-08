@@ -6600,8 +6600,8 @@
                     "file": "classic-rbdoom-3-bfg-208200-43.tar.xz"
                 },
                 {
-                    "name": "open-platform-v102",
-                    "url": "https://github.com/MadDeCoDeR/Open_Platform/releases/download/v1.0.2/",
+                    "name": "open-platform-v103",
+                    "url": "https://github.com/MadDeCoDeR/Open_Platform/releases/download/v1.0.3/",
                     "file": "Open_Platform.with.Steam.zip"
                 }
             ],
@@ -6611,7 +6611,7 @@
                     "command": "./classic/run-classic-rbdoom-3-bfg.sh",
                     "download": [
                         "classic-rbdoom-3-bfg",
-                        "open-platform-v102"
+                        "open-platform-v103"
                     ],
                     "download_config": [
                         {
@@ -6620,7 +6620,7 @@
                         },
                         {
                             "extract_location": "./classic/open-platform",
-                            "download_name": "open-platform-v102"
+                            "download_name": "open-platform-v103"
                         }
                     ],
                     "engine_name": "Doom BFA"
