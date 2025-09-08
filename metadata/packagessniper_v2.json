@@ -9931,6 +9931,146 @@
             ],
             "use_original_command_directory": true,
             "app_id": "6000"
+        },
+        {
+            "game_name": "F.E.A.R.",
+            "download": [
+                {
+                    "name": "UnpackedFEAR108EXE",
+                    "url": "https://s.taco.cab/files/games/fear/",
+                    "file": "FEAR.v1.08.NoCD.zip"
+                },
+                {
+                    "name": "fearservmod",
+                    "url": "https://github.com/Vityacv/fearservmod/raw/e0651995a3d084b6e4ed72d7c5c8200818956aed/bin/",
+                    "file": "winmm.dll"
+                },
+                {
+                    "name": "EchoPatch",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.2.3/",
+                    "file": "EchoPatch.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "FearServMod",
+                    "download": [
+                        "UnpackedFEAR108EXE",
+                        "fearservmod"
+                    ],
+                    "command": "FEAR.exe",
+                    "command_vars": {"WINEDLLOVERRIDES": "dinput8=b;winmm=n,b"},
+                    "engine_name": "FearServMod"
+                },
+                {
+                    "name": "EchoPatch",
+                    "download": [
+                        "UnpackedFEAR108EXE",
+                        "EchoPatch"
+                    ],
+                    "command": "FEAR.exe",
+                    "command_vars": {"WINEDLLOVERRIDES": "dinput8=n,b;winmm=b"},
+                    "engine_name": "EchoPatch"
+                }
+            ],
+            "app_id": "21090"
+        },
+        {
+            "game_name": "F.E.A.R.: Perseus Mandate",
+            "download": [
+                {
+                    "name": "UnpackedFEAR108EXE",
+                    "url": "https://s.taco.cab/files/games/fear/",
+                    "file": "FEAR.v1.08.NoCD.zip"
+                },
+                {
+                    "name": "fearservmod",
+                    "url": "https://github.com/Vityacv/fearservmod/raw/e0651995a3d084b6e4ed72d7c5c8200818956aed/bin/",
+                    "file": "winmm.dll"
+                },
+                {
+                    "name": "EchoPatch",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.2.3/",
+                    "file": "EchoPatch.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "FearServMod",
+                    "download": [
+                        "UnpackedFEAR108EXE",
+                        "fearservmod"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "../",
+                            "download_name": "UnpackedFEAR108EXE"
+                        }
+                    ],
+                    "command": "FEARXP2.exe",
+                    "command_vars": {"WINEDLLOVERRIDES": "dinput8=b;winmm=n,b"},
+                    "engine_name": "FearServMod"
+                },
+                {
+                    "name": "EchoPatch",
+                    "download": [
+                        "UnpackedFEAR108EXE",
+                        "EchoPatch"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "../",
+                            "download_name": "UnpackedFEAR108EXE"
+                        },
+                        {
+                            "extract_location": "../",
+                            "download_name": "EchoPatch"
+                        }
+                    ],
+                    "command": "FEARXP2.exe",
+                    "command_vars": {"WINEDLLOVERRIDES": "dinput8=n,b;winmm=b"},
+                    "engine_name": "EchoPatch"
+                }
+            ],
+            "app_id": "21120"
+        },
+                {
+            "game_name": "F.E.A.R.: Extraction Point",
+            "download": [
+                {
+                    "name": "UnpackedFEAR108EXE",
+                    "url": "https://s.taco.cab/files/games/fear/",
+                    "file": "FEAR.v1.08.NoCD.zip"
+                },
+                {
+                    "name": "EchoPatch",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.2.3/",
+                    "file": "EchoPatch.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "EchoPatch",
+                    "download": [
+                        "UnpackedFEAR108EXE",
+                        "EchoPatch"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "../",
+                            "download_name": "UnpackedFEAR108EXE"
+                        },
+                        {
+                            "extract_location": "../",
+                            "download_name": "EchoPatch"
+                        }
+                    ],
+                    "command": "FEARXP.exe",
+                    "command_vars": {"WINEDLLOVERRIDES": "dinput8=n,b"},
+                    "engine_name": "EchoPatch"
+                }
+            ],
+            "app_id": "21110"
         }
     ],
     "engines": [
@@ -11808,6 +11948,36 @@
                 }
             ],
             "internal_engine_name": "SWRCFix"
+        },
+        {
+            "engine_link": "https://github.com/Vityacv/fearservmod",
+            "version": "e065199",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "No license specified",
+            "license_link": "https://github.com/Vityacv/fearservmod",
+            "engine_name": "FearServMod",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "FearServMod"
+        },
+        {
+            "engine_link": "https://github.com/Wemino/EchoPatch",
+            "version": "2.2.3",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Wemino/EchoPatch/blob/main/LICENSE",
+            "engine_name": "EchoPatch",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "EchoPatch"
         }
     ],
     "default_engine": {
