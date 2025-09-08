@@ -3,7 +3,8 @@
     "dependencies": [
         { "name": "jansson" },
         { "name": "libzip" },
-        { "name": "nlohmann-json" }
+        { "name": "nlohmann-json" },
+        "zstd"
     ],
     "builtin-baseline": "efe9c8a3e396014eee14c94709aa9c50067beab9",
     "overrides": [
