@@ -9874,6 +9874,63 @@
             "command": "./run-godot-vostok.sh",
             "cloudNotAvailable": true,
             "app_id": "2141300"
+        },
+        {
+            "game_name": "Call of Duty 4: Modern Warfare (2007)",
+            "download": [
+                {
+                    "name": "iw3sp-mod",
+                    "url": "https://gitea.com/JerryALT/iw3sp_mod/releases/download/v3.9.7/",
+                    "file": "iw3sp_mod_v3.9.7.zip"
+                },
+                {
+                    "name": "iw3xo",
+                    "url": "https://github.com/xoxor4d/iw3xo-dev/releases/download/3537/",
+                    "file": "iw3xo_b3537.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "iw3sp-mod",
+                    "download": [
+                        "iw3sp-mod"
+                    ],
+                    "command": "iw3sp_mod.exe",
+                    "engine_name": "iw3sp-mod"
+                },
+                {
+                    "name": "iw3xo",
+                    "download": [
+                        "iw3xo"
+                    ],
+                    "command": "iw3xo.exe",
+                    "engine_name": "iw3xo"
+                }
+            ],
+            "use_original_command_directory": true,
+            "app_id": "7940"
+        },
+        {
+            "game_name": "Star Wars: Republic Commando",
+            "download": [
+                {
+                    "name": "SWRCFix",
+                    "url": "https://github.com/SWRC-Modding/CT/releases/download/SWRC_Fix_v2.12/",
+                    "file": "SWRCFix2.12.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "SWRCFix",
+                    "download": [
+                        "SWRCFix"
+                    ],
+                    "command": "CT.exe",
+                    "engine_name": "SWRCFix"
+                }
+            ],
+            "use_original_command_directory": true,
+            "app_id": "6000"
         }
     ],
     "engines": [
@@ -11706,6 +11763,51 @@
             "controllerNotSupported": true,
             "engine_name": "Lectrote",
             "internal_engine_name": "lectrote"
+        },
+        {
+            "engine_link": "https://gitea.com/JerryALT/iw3sp_mod",
+            "version": "3.9.7",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "GPLv3",
+            "license_link": "https://gitea.com/JerryALT/iw3sp_mod/src/branch/main/LICENSE",
+            "engine_name": "iw3sp-mod",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "iw3sp-mod"
+        },
+        {
+            "engine_link": "https://github.com/xoxor4d/iw3xo-dev",
+            "version": "3537",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "No license specified",
+            "license_link": "https://github.com/xoxor4d/iw3xo-dev",
+            "engine_name": "iw3xo",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "iw3xo"
+        },
+        {
+            "engine_link": "https://github.com/SWRC-Modding/CT",
+            "version": "2.12",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "No license specified",
+            "license_link": "https://github.com/SWRC-Modding/CT",
+            "engine_name": "SWRCFix",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "SWRCFix"
         }
     ],
     "default_engine": {
@@ -11985,6 +12087,10 @@
         {
             "key": "saves_not_compatible",
             "value": "Save Format Not Compatible"
+        },
+        {
+            "key": "uses_proton",
+            "value": "Engine runs via Proton."
         }
     ]
 }
