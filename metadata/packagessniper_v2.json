@@ -96,8 +96,8 @@
                 },
                 {
                     "name": "spearmint",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-5/",
-                    "file": "spearmint-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-6/",
+                    "file": "spearmint-common-6.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3984,8 +3984,8 @@
                 },
                 {
                     "name": "spearmint",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-5/",
-                    "file": "spearmint-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-6/",
+                    "file": "spearmint-common-6.tar.xz",
                     "cache_by_name": true
                 }
             ],
