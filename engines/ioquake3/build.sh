@@ -9,10 +9,17 @@ git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE
-pushd "source"
+pushd source
+mkdir build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX=../../../tmp \
+    -DCMAKE_PREFIX_PATH=../../../tmp \
+    ..
 make -j "$(nproc)"
+make install
 popd
 
 # COPY PHASE
-COPYDIR="$diststart/common/dist/" make --directory="source" copyfiles
+COPYDIR="$diststart/common/dist/" make --directory="source/build" copyfiles
 cp -rfv assets/* "$diststart/common/dist/"
