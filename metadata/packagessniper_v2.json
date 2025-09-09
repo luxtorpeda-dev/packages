@@ -9948,7 +9948,9 @@
                         "EchoPatch"
                     ],
                     "command": "FEAR.exe",
-                    "command_vars": {"WINEDLLOVERRIDES": "dinput8=n,b;winmm=b"},
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b;winmm=b"
+                    },
                     "engine_name": "EchoPatch"
                 }
             ],
@@ -9976,13 +9978,15 @@
                         }
                     ],
                     "command": "FEARXP2.exe",
-                    "command_vars": {"WINEDLLOVERRIDES": "dinput8=n,b;winmm=b"},
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b;winmm=b"
+                    },
                     "engine_name": "EchoPatch"
                 }
             ],
             "app_id": "21120"
         },
-                {
+        {
             "game_name": "F.E.A.R.: Extraction Point",
             "download": [
                 {
@@ -10004,7 +10008,9 @@
                         }
                     ],
                     "command": "FEARXP.exe",
-                    "command_vars": {"WINEDLLOVERRIDES": "dinput8=n,b"},
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
                     "engine_name": "EchoPatch"
                 }
             ],
@@ -11054,7 +11060,7 @@
         },
         {
             "engine_link": "https://openrct2.io/",
-            "version": "v0.4.25",
+            "version": "v0.4.26",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
