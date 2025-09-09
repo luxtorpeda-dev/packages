@@ -17,8 +17,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-55/",
-                    "file": "ruffle-common-55.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-56/",
+                    "file": "ruffle-common-56.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -96,8 +96,8 @@
                 },
                 {
                     "name": "spearmint",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-5/",
-                    "file": "spearmint-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-6/",
+                    "file": "spearmint-common-6.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -230,8 +230,8 @@
             "download": [
                 {
                     "name": "dii4a",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-40/",
-                    "file": "dii4a-common-40.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-41/",
+                    "file": "dii4a-common-41.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3477,8 +3477,8 @@
                 },
                 {
                     "name": "chocolate-quake",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-10/",
-                    "file": "chocolate-quake-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-11/",
+                    "file": "chocolate-quake-common-11.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -3984,8 +3984,8 @@
                 },
                 {
                     "name": "spearmint",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-5/",
-                    "file": "spearmint-common-5.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/spearmint-6/",
+                    "file": "spearmint-common-6.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -4830,8 +4830,8 @@
             "download": [
                 {
                     "name": "dii4a",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-40/",
-                    "file": "dii4a-common-40.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-41/",
+                    "file": "dii4a-common-41.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5891,8 +5891,8 @@
             "download": [
                 {
                     "name": "openxray",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-23/",
-                    "file": "openxray-common-23.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-24/",
+                    "file": "openxray-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6495,8 +6495,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-55/",
-                    "file": "ruffle-common-55.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-56/",
+                    "file": "ruffle-common-56.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6549,8 +6549,8 @@
             "download": [
                 {
                     "name": "openxray",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-23/",
-                    "file": "openxray-common-23.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-24/",
+                    "file": "openxray-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6596,12 +6596,12 @@
             "download": [
                 {
                     "name": "classic-rbdoom-3-bfg",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-43/",
-                    "file": "classic-rbdoom-3-bfg-208200-43.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-44/",
+                    "file": "classic-rbdoom-3-bfg-208200-44.tar.xz"
                 },
                 {
-                    "name": "open-platform-v102",
-                    "url": "https://github.com/MadDeCoDeR/Open_Platform/releases/download/v1.0.2/",
+                    "name": "open-platform-v103",
+                    "url": "https://github.com/MadDeCoDeR/Open_Platform/releases/download/v1.0.3/",
                     "file": "Open_Platform.with.Steam.zip"
                 }
             ],
@@ -6611,7 +6611,7 @@
                     "command": "./classic/run-classic-rbdoom-3-bfg.sh",
                     "download": [
                         "classic-rbdoom-3-bfg",
-                        "open-platform-v102"
+                        "open-platform-v103"
                     ],
                     "download_config": [
                         {
@@ -6620,7 +6620,7 @@
                         },
                         {
                             "extract_location": "./classic/open-platform",
-                            "download_name": "open-platform-v102"
+                            "download_name": "open-platform-v103"
                         }
                     ],
                     "engine_name": "Doom BFA"
@@ -6648,8 +6648,8 @@
             "download": [
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-55/",
-                    "file": "ruffle-common-55.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-56/",
+                    "file": "ruffle-common-56.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6865,8 +6865,8 @@
                 },
                 {
                     "name": "taradino",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-10/",
-                    "file": "taradino-238050-10.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-11/",
+                    "file": "taradino-238050-11.tar.xz"
                 }
             ],
             "choices": [
@@ -7305,8 +7305,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-32/",
-                    "file": "notblood-common-32.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-33/",
+                    "file": "notblood-common-33.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7559,8 +7559,8 @@
             "download": [
                 {
                     "name": "taradino",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-10/",
-                    "file": "taradino-358410-10.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-11/",
+                    "file": "taradino-358410-11.tar.xz"
                 }
             ],
             "command": "./run-rott-dark-war.sh",
@@ -7811,8 +7811,8 @@
             "download": [
                 {
                     "name": "7kaa",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-19/",
-                    "file": "7kaa-450140-19.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-20/",
+                    "file": "7kaa-450140-20.tar.xz"
                 },
                 {
                     "name": "7kaa-music",
@@ -8052,8 +8052,8 @@
             "download": [
                 {
                     "name": "onelife",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/onelife-13/",
-                    "file": "onelife-595690-13.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/onelife-14/",
+                    "file": "onelife-595690-14.tar.xz"
                 }
             ],
             "command": "./linuxdata/run-onelife.sh",
@@ -8260,8 +8260,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-32/",
-                    "file": "notblood-common-32.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-33/",
+                    "file": "notblood-common-33.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9439,8 +9439,8 @@
             "download": [
                 {
                     "name": "classic-rbdoom-3-bfg",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-43/",
-                    "file": "classic-rbdoom-3-bfg-1898710-43.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-44/",
+                    "file": "classic-rbdoom-3-bfg-1898710-44.tar.xz"
                 }
             ],
             "command": "./classic/run-classic-rbdoom-3-bfg.sh",
@@ -9874,6 +9874,147 @@
             "command": "./run-godot-vostok.sh",
             "cloudNotAvailable": true,
             "app_id": "2141300"
+        },
+        {
+            "game_name": "Call of Duty 4: Modern Warfare (2007)",
+            "download": [
+                {
+                    "name": "iw3sp-mod",
+                    "url": "https://gitea.com/JerryALT/iw3sp_mod/releases/download/v3.9.7/",
+                    "file": "iw3sp_mod_v3.9.7.zip"
+                },
+                {
+                    "name": "iw3xo",
+                    "url": "https://github.com/xoxor4d/iw3xo-dev/releases/download/3537/",
+                    "file": "iw3xo_b3537.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "iw3sp-mod",
+                    "download": [
+                        "iw3sp-mod"
+                    ],
+                    "command": "iw3sp_mod.exe",
+                    "engine_name": "iw3sp-mod"
+                },
+                {
+                    "name": "iw3xo",
+                    "download": [
+                        "iw3xo"
+                    ],
+                    "command": "iw3xo.exe",
+                    "engine_name": "iw3xo"
+                }
+            ],
+            "use_original_command_directory": true,
+            "app_id": "7940"
+        },
+        {
+            "game_name": "Star Wars: Republic Commando",
+            "download": [
+                {
+                    "name": "SWRCFix",
+                    "url": "https://github.com/SWRC-Modding/CT/releases/download/SWRC_Fix_v2.12/",
+                    "file": "SWRCFix2.12.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "SWRCFix",
+                    "download": [
+                        "SWRCFix"
+                    ],
+                    "command": "CT.exe",
+                    "engine_name": "SWRCFix"
+                }
+            ],
+            "use_original_command_directory": true,
+            "app_id": "6000"
+        },
+        {
+            "game_name": "F.E.A.R.",
+            "download": [
+                {
+                    "name": "EchoPatch",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.2.3/",
+                    "file": "EchoPatch.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "EchoPatch",
+                    "download": [
+                        "EchoPatch"
+                    ],
+                    "command": "FEAR.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b;winmm=b"
+                    },
+                    "engine_name": "EchoPatch"
+                }
+            ],
+            "app_id": "21090"
+        },
+        {
+            "game_name": "F.E.A.R.: Perseus Mandate",
+            "download": [
+                {
+                    "name": "EchoPatch",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.2.3/",
+                    "file": "EchoPatch.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "EchoPatch",
+                    "download": [
+                        "EchoPatch"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "../",
+                            "download_name": "EchoPatch"
+                        }
+                    ],
+                    "command": "FEARXP2.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b;winmm=b"
+                    },
+                    "engine_name": "EchoPatch"
+                }
+            ],
+            "app_id": "21120"
+        },
+        {
+            "game_name": "F.E.A.R.: Extraction Point",
+            "download": [
+                {
+                    "name": "EchoPatch",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.2.3/",
+                    "file": "EchoPatch.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "EchoPatch",
+                    "download": [
+                        "EchoPatch"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "../",
+                            "download_name": "EchoPatch"
+                        }
+                    ],
+                    "command": "FEARXP.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "EchoPatch"
+                }
+            ],
+            "app_id": "21110"
         }
     ],
     "engines": [
@@ -9912,7 +10053,7 @@
         },
         {
             "engine_link": "https://github.com/zturtleman/spearmint",
-            "version": "fae0aaf",
+            "version": "722f131",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10197,7 +10338,7 @@
         },
         {
             "engine_link": "https://github.com/Henrique194/chocolate-quake",
-            "version": "890ad4e",
+            "version": "49b734e",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10337,7 +10478,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "c6864b8",
+            "version": "7ec3889",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -10711,7 +10852,7 @@
         },
         {
             "engine_link": "https://github.com/OpenXRay/xray-16",
-            "version": "112be39",
+            "version": "3541cca",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD with commercial source code",
@@ -10752,7 +10893,7 @@
         },
         {
             "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
-            "version": "c5edb1f",
+            "version": "c41ff30",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -10802,7 +10943,7 @@
         },
         {
             "engine_link": "https://github.com/fabiangreffrath/taradino",
-            "version": "4cf1dc9",
+            "version": "e8d4ee1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11113,7 +11254,7 @@
         },
         {
             "engine_link": "https://github.com/jasonrohrer/OneLife",
-            "version": "82bb227",
+            "version": "0f86b3f",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Public Domain",
@@ -11292,7 +11433,7 @@
         },
         {
             "engine_link": "https://github.com/glKarin/com.n0n3m4.diii4a",
-            "version": "461e185",
+            "version": "34a56ea",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11349,7 +11490,7 @@
         },
         {
             "engine_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/",
-            "version": "44ca8a4",
+            "version": "6c5d226",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11452,7 +11593,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "0e997fa",
+            "version": "1d83125",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11706,6 +11847,66 @@
             "controllerNotSupported": true,
             "engine_name": "Lectrote",
             "internal_engine_name": "lectrote"
+        },
+        {
+            "engine_link": "https://gitea.com/JerryALT/iw3sp_mod",
+            "version": "3.9.7",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "GPLv3",
+            "license_link": "https://gitea.com/JerryALT/iw3sp_mod/src/branch/main/LICENSE",
+            "engine_name": "iw3sp-mod",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "iw3sp-mod"
+        },
+        {
+            "engine_link": "https://github.com/xoxor4d/iw3xo-dev",
+            "version": "3537",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "No license specified",
+            "license_link": "https://github.com/xoxor4d/iw3xo-dev",
+            "engine_name": "iw3xo",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "iw3xo"
+        },
+        {
+            "engine_link": "https://github.com/SWRC-Modding/CT",
+            "version": "2.12",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "No license specified",
+            "license_link": "https://github.com/SWRC-Modding/CT",
+            "engine_name": "SWRCFix",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "SWRCFix"
+        },
+        {
+            "engine_link": "https://github.com/Wemino/EchoPatch",
+            "version": "2.2.3",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Wemino/EchoPatch/blob/main/LICENSE",
+            "engine_name": "EchoPatch",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "EchoPatch"
         }
     ],
     "default_engine": {
@@ -11744,8 +11945,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-55/",
-                "file": "ruffle-common-55.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-56/",
+                "file": "ruffle-common-56.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -11985,6 +12186,10 @@
         {
             "key": "saves_not_compatible",
             "value": "Save Format Not Compatible"
+        },
+        {
+            "key": "uses_proton",
+            "value": "Engine runs via Proton."
         }
     ]
 }
