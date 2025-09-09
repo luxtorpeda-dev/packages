@@ -10015,6 +10015,44 @@
                 }
             ],
             "app_id": "21110"
+        },
+        {
+            "game_name": "Red Faction",
+            "download": [
+                {
+                    "name": "RFexe_v120",
+                    "url": "https://www.factionfiles.com/ffdownload.php?id=4403&luxtorpeda-dl=",
+                    "file": "RF.zip"
+                },
+                {
+                    "name": "DashFaction-binaries",
+                    "url": "https://github.com/rafalh/dashfaction/releases/download/v1.9.1/",
+                    "file": "DashFaction-1.9.1.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "Dash Faction",
+                    "download": [
+                        "RFexe_v120",
+                        "DashFaction-binaries",
+                        "dashfaction"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "DashFaction/",
+                            "download_name": "DashFaction-binaries"
+                        }
+                    ],
+                    "setup": {
+                        "complete_path": "./DashFaction/ready",
+                        "command": "./DashFaction/setup-dashfaction.sh"
+                    },
+                    "command": "RedFaction.exe",
+                    "engine_name": "Dash Faction"
+                }
+            ],
+            "app_id": "20530"
         }
     ],
     "engines": [
@@ -11907,6 +11945,21 @@
                 }
             ],
             "internal_engine_name": "EchoPatch"
+        },
+        {
+            "engine_link": "https://github.com/rafalh/dashfaction",
+            "version": "1.9.1",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "MPL 2.0",
+            "license_link": "https://github.com/rafalh/dashfaction/blob/master/LICENSE.txt",
+            "engine_name": "Dash Faction",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "dashfaction"
         }
     ],
     "default_engine": {
