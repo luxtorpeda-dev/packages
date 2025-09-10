@@ -8335,6 +8335,11 @@
                     "name": "controlbarhd",
                     "url": "https://www.gentool.net/download/controlbar/1.1/",
                     "file": "ControlBarHDZH_v1.1_English.zip"
+                },
+                {
+                    "name": "zh104",
+                    "url": "https://www.gentool.net/download/executables/",
+                    "file": "GeneralsZH104EXE.zip"
                 }
             ],
             "choices": [
@@ -8347,15 +8352,27 @@
                     ]
                 },
                 {
-                    "command": "Generals.exe",
+                    "command": "Generals104.exe",
                     "command_vars": {
-                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                        "WINEDLLOVERRIDES": "d3d8=n,b;d3d9=n,b;"
                     },
                     "engine_name": "GenTool",
                     "name": "GenTool with HD Control Bar",
                     "download": [
                         "gentool",
-                        "controlbarhd"
+                        "controlbarhd",
+                        "zh104",
+                        "cnc-generals"
+                    ],
+                    "setup": {
+                        "complete_path": "./gentool-ready",
+                        "command": "./setup-gentool.sh"
+                    },
+                    "download_config": [
+                        {
+                            "extract_location": "./zh104",
+                            "download_name": "zh104"
+                        }
                     ]
                 }
             ],
