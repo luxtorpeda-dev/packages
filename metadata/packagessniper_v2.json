@@ -10028,6 +10028,11 @@
                     "name": "DashFaction-binaries",
                     "url": "https://github.com/rafalh/dashfaction/releases/download/v1.9.1/",
                     "file": "DashFaction-1.9.1.zip"
+                },
+                {
+                    "name": "dashfaction",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dashfaction-1/",
+                    "file": "dashfaction-20530-1.tar.xz"
                 }
             ],
             "choices": [
