@@ -10105,6 +10105,122 @@
                 }
             ],
             "app_id": "20530"
+        },
+        {
+            "game_name": "Crysis",
+            "download": [
+                {
+                    "name": "c1-launcher-binaries",
+                    "url": "https://github.com/ccomrade/c1-launcher/releases/download/v7/",
+                    "file": "c1-launcher-v7-build.zip"
+                },
+                {
+                    "name": "crymp",
+                    "url": "https://github.com/crymp-net/crymp-client/releases/download/v23/",
+                    "file": "crymp-client-v23-build.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "C1-Launcher",
+                    "download": [
+                        "c1-launcher-binaries",
+                        "c1-launcher"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "c1-launcher/",
+                            "download_name": "c1-launcher-binaries"
+                        }
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "./setup-c1-launcher.sh"
+                    },
+                    "command": "Crysis.exe",
+                    "engine_name": "C1-Launcher"
+                },
+                {
+                    "name": "CryMP (32-bit)",
+                    "download": [
+                        "crymp"
+                    ],
+                    "command": "../CryMP-Client32.exe",
+                    "notices": [
+                        {
+                            "key": "uses_proton"
+                        }
+                    ],
+                    "engine_name": "CryMP"
+                },
+                {
+                    "name": "CryMP (64-bit)",
+                    "download": [
+                        "crymp"
+                    ],
+                    "command": "../CryMP-Client64.exe",
+                    "notices": [
+                        {
+                            "key": "uses_proton"
+                        }
+                    ],
+                    "engine_name": "CryMP"
+                }
+            ],
+            "app_id": "17300"
+        },
+        {
+            "game_name": "Crysis Warhead",
+            "download": [
+                {
+                    "name": "c1-launcher-binaries",
+                    "url": "https://github.com/ccomrade/c1-launcher/releases/download/v7/",
+                    "file": "c1-launcher-v7-build.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "C1-Launcher",
+                    "download": [
+                        "c1-launcher-binaries",
+                        "c1-launcher"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "c1-launcher/",
+                            "download_name": "c1-launcher-binaries"
+                        }
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "./setup-c1-launcher.sh"
+                    },
+                    "command": "CrysisWarheadLauncher.exe",
+                    "engine_name": "C1-Launcher"
+                }
+            ],
+            "app_id": "17330"
+        },
+        {
+            "game_name": "Crysis Wars",
+            "download": [
+                {
+                    "name": "cw-launcher",
+                    "url": "https://github.com/jedi95/cw-launcher/releases/download/v8.0/",
+                    "file": "cw-launcher-8.0.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "cw-launcher",
+                    "download": [
+                        "cw-launcher"
+                    ],
+                    "command": "Crysis.exe",
+                    "engine_name": "cw-launcher"
+                }
+            ],
+            "app_id": "17340"
         }
     ],
     "engines": [
@@ -12027,6 +12143,51 @@
                 }
             ],
             "internal_engine_name": "dashfaction"
+        },
+        {
+            "engine_link": "https://github.com/ccomrade/c1-launcher",
+            "version": "v7",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "No license specified",
+            "license_link": "https://github.com/ccomrade/c1-launcher",
+            "engine_name": "C1-Launcher",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "C1-Launcher"
+        },
+        {
+            "engine_link": "https://github.com/jedi95/cw-launcher",
+            "version": "v8",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "No license specified",
+            "license_link": "https://github.com/jedi95/cw-launcher",
+            "engine_name": "cw-launcher",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "cw-launcher"
+        },
+        {
+            "engine_link": "https://github.com/crymp-net/crymp-client",
+            "version": "v7",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "No license specified",
+            "license_link": "https://github.com/crymp-net/crymp-client",
+            "engine_name": "CryMP",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "CryMP"
         }
     ],
     "default_engine": {
