@@ -8325,10 +8325,40 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-generals-24/",
                     "file": "cnc-generals-common-24.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "gentool",
+                    "url": "https://www.gentool.net/download/",
+                    "file": "GenTool_v8.9.zip"
+                },
+                {
+                    "name": "controlbarhd",
+                    "url": "https://www.gentool.net/download/controlbar/1.1/",
+                    "file": "ControlBarHDZH_v1.1_English.zip"
                 }
             ],
-            "command": "./run-generals.sh",
-            "engine_name": "Fighter19 Generals Zero Hour Port",
+            "choices": [
+                {
+                    "command": "./run-generals.sh",
+                    "engine_name": "Fighter19 Generals Zero Hour Port",
+                    "name": "Fighter19 Generals Zero Hour Port",
+                    "download": [
+                        "cnc-generals"
+                    ]
+                },
+                {
+                    "command": "Generals.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "GenTool",
+                    "name": "GenTool with HD Control Bar",
+                    "download": [
+                        "gentool",
+                        "controlbarhd"
+                    ]
+                }
+            ],
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
@@ -11920,6 +11950,21 @@
                 }
             ],
             "internal_engine_name": "iw3xo"
+        },
+        {
+            "engine_link": "https://www.gentool.net",
+            "version": "8.9",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "No license specified",
+            "license_link": "https://www.gentool.net",
+            "engine_name": "GenTool",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "internal_engine_name": "gentool"
         },
         {
             "engine_link": "https://github.com/SWRC-Modding/CT",
