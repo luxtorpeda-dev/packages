@@ -12176,7 +12176,7 @@
         },
         {
             "engine_link": "https://github.com/crymp-net/crymp-client",
-            "version": "v7",
+            "version": "v23",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "No license specified",
