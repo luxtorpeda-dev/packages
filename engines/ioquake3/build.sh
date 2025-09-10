@@ -20,8 +20,7 @@ cmake \
     -DUSE_VOIP=OFF \
     -DUSE_INTERNAL_LIBS=OFF \
     ..
-make -j "$(nproc)"
-make install
+cmake --install build
 popd
 
 # COPY PHASE
