@@ -8322,8 +8322,8 @@
             "download": [
                 {
                     "name": "cnc-generals",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-generals-24/",
-                    "file": "cnc-generals-common-24.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-generals-25/",
+                    "file": "cnc-generals-common-25.tar.xz",
                     "cache_by_name": true
                 },
                 {
