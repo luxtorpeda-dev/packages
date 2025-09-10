@@ -15,6 +15,10 @@ cd build
 cmake \
     -DCMAKE_INSTALL_PREFIX=../../../tmp \
     -DCMAKE_PREFIX_PATH=../../../tmp \
+    -DBUILD_SERVER=OFF \
+    -DUSE_MUMBLE=OFF \
+    -DUSE_VOIP=OFF \
+    -DUSE_INTERNAL_LIBS=OFF \
     ..
 make -j "$(nproc)"
 make install
