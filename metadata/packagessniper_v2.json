@@ -10118,6 +10118,12 @@
                     "name": "crymp",
                     "url": "https://github.com/crymp-net/crymp-client/releases/download/v23/",
                     "file": "crymp-client-v23-build.zip"
+                },
+                {
+                    "name": "c1-launcher",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/c1-launcher-1/",
+                    "file": "c1-launcher-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -10176,6 +10182,12 @@
                     "name": "c1-launcher-binaries",
                     "url": "https://github.com/ccomrade/c1-launcher/releases/download/v7/",
                     "file": "c1-launcher-v7-build.zip"
+                },
+                {
+                    "name": "c1-launcher",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/c1-launcher-1/",
+                    "file": "c1-launcher-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
