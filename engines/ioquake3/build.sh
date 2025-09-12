@@ -27,5 +27,5 @@ cmake --build .
 popd
 
 # COPY PHASE
-cp -rfv source/build/* "$diststart/common/dist/"
+cp -rfv source/build/Release/* "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
