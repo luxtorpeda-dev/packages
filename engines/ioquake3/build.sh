@@ -20,6 +20,9 @@ cmake \
     -DUSE_VOIP=OFF \
     -DUSE_INTERNAL_LIBS=OFF \
     -G Ninja -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_EXE_LINKER_FLAGS="-lrt" \
+    -DCMAKE_C_FLAGS="-lrt" \
+    -DCMAKE_CXX_FLAGS="-lrt" \
     ..
 cmake --build .
 popd
