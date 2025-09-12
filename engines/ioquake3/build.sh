@@ -19,6 +19,7 @@ cmake \
     -DUSE_MUMBLE=OFF \
     -DUSE_VOIP=OFF \
     -DUSE_INTERNAL_LIBS=OFF \
+    -G Ninja -DCMAKE_BUILD_TYPE=Release \
     ..
 cmake --build .
 popd
