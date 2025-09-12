@@ -20,7 +20,7 @@ cmake \
     -DUSE_VOIP=OFF \
     -DUSE_INTERNAL_LIBS=OFF \
     ..
-cmake --build build
+cmake --build .
 popd
 
 # COPY PHASE
