@@ -20,9 +20,9 @@ cmake \
     -DUSE_VOIP=OFF \
     -DUSE_INTERNAL_LIBS=OFF \
     ..
-cmake --install build
+cmake --build build
 popd
 
 # COPY PHASE
-COPYDIR="$diststart/common/dist/" make --directory="source/build" copyfiles
+cp -rfv source/build/* "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
