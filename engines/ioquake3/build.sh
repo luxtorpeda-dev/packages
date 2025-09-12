@@ -9,10 +9,23 @@ git checkout "$COMMIT_HASH"
 popd
 
 # BUILD PHASE
-pushd "source"
-make -j "$(nproc)"
+pushd source
+mkdir build
+cd build
+cmake \
+    -DCMAKE_INSTALL_PREFIX=../../../tmp \
+    -DCMAKE_PREFIX_PATH=../../../tmp \
+    -DBUILD_SERVER=OFF \
+    -DUSE_MUMBLE=OFF \
+    -DUSE_VOIP=OFF \
+    -DUSE_INTERNAL_LIBS=OFF \
+    -G Ninja -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_C_STANDARD_LIBRARIES="-lrt" \
+    -DCMAKE_CXX_STANDARD_LIBRARIES="-lrt" \
+    ..
+cmake --build .
 popd
 
 # COPY PHASE
-COPYDIR="$diststart/common/dist/" make --directory="source" copyfiles
+cp -rfv source/build/Release/* "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
