@@ -5551,8 +5551,8 @@
             "download": [
                 {
                     "name": "commander-genius",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/commander-genius-6/",
-                    "file": "commander-genius-9180-6.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/commander-genius-7/",
+                    "file": "commander-genius-9180-7.tar.xz"
                 },
                 {
                     "name": "game-catalogue",
@@ -7298,8 +7298,8 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-27/",
-                    "file": "nblood-common-27.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-28/",
+                    "file": "nblood-common-28.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7916,8 +7916,8 @@
             "download": [
                 {
                     "name": "rednukem",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-27/",
-                    "file": "rednukem-common-27.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-28/",
+                    "file": "rednukem-common-28.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8002,8 +8002,8 @@
             "download": [
                 {
                     "name": "rednukem",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-27/",
-                    "file": "rednukem-common-27.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-28/",
+                    "file": "rednukem-common-28.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8253,8 +8253,8 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-27/",
-                    "file": "nblood-common-27.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-28/",
+                    "file": "nblood-common-28.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8820,8 +8820,8 @@
                 },
                 {
                     "name": "exhumed",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-27/",
-                    "file": "exhumed-common-27.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-28/",
+                    "file": "exhumed-common-28.tar.xz",
                     "cache_by_name": true
                 }
             ],
