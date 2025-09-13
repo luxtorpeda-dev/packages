@@ -4728,6 +4728,7 @@
                 },
                 {
                     "name": "Heretic - dsda-doom",
+                    "engine_name": "dsda-doom",
                     "command": "./dsda-doom/run-dsda-doom.sh",
                     "command_args": [
                         "-iwad",
@@ -4757,6 +4758,7 @@
                 },
                 {
                     "name": "Hexen - dsda-doom",
+                    "engine_name": "dsda-doom",
                     "command": "./dsda-doom/run-dsda-doom.sh",
                     "command_args": [
                         "-iwad",
@@ -4788,6 +4790,7 @@
                 },
                 {
                     "name": "Hexen Deathkings - dsda-doom",
+                    "engine_name": "dsda-doom",
                     "command": "./dsda-doom/run-dsda-doom.sh",
                     "command_args": [
                         "-iwad",
@@ -6641,6 +6644,8 @@
             "command": "./cccp.sh",
             "engine_name": "Cortex Command Community Project",
             "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "saves_not_compatible",
             "app_id": "209670"
         },
         {
@@ -9980,6 +9985,31 @@
             "app_id": "6000"
         },
         {
+            "game_name": "Fallout 2",
+            "download": [
+                {
+                    "name": "sfall",
+                    "url": "https://sourceforge.net/projects/sfall/files/sfall/",
+                    "file": "sfall_4.4.7.7z",
+                    "url_suffix": "/download"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "sfall",
+                    "download": [
+                        "sfall"
+                    ],
+                    "command": "fallout2.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "ddraw=n,b"
+                    },
+                    "engine_name": "sfall"
+                }
+            ],
+            "app_id": "38410"
+        },
+        {
             "game_name": "F.E.A.R.",
             "download": [
                 {
@@ -12079,6 +12109,23 @@
                     "key": "uses_proton"
                 }
             ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "iw3sp-mod"
+        },
+        {
+            "engine_link": "https://github.com/sfall-team/sfall",
+            "version": "4.4.7",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/sfall-team/sfall/blob/master/LICENSE",
+            "engine_name": "sfall",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
             "internal_engine_name": "iw3sp-mod"
         },
         {
@@ -12094,6 +12141,7 @@
                     "key": "uses_proton"
                 }
             ],
+            "controllerNotSupported": true,
             "internal_engine_name": "iw3xo"
         },
         {
@@ -12109,6 +12157,7 @@
                     "key": "uses_proton"
                 }
             ],
+            "controllerNotSupported": true,
             "internal_engine_name": "gentool"
         },
         {
@@ -12124,6 +12173,7 @@
                     "key": "uses_proton"
                 }
             ],
+            "controllerNotSupported": true,
             "internal_engine_name": "SWRCFix"
         },
         {
@@ -12139,6 +12189,7 @@
                     "key": "uses_proton"
                 }
             ],
+            "controllerNotSupported": true,
             "internal_engine_name": "EchoPatch"
         },
         {
@@ -12154,6 +12205,7 @@
                     "key": "uses_proton"
                 }
             ],
+            "controllerNotSupported": true,
             "internal_engine_name": "dashfaction"
         },
         {
@@ -12169,6 +12221,7 @@
                     "key": "uses_proton"
                 }
             ],
+            "controllerNotSupported": true,
             "internal_engine_name": "C1-Launcher"
         },
         {
@@ -12184,6 +12237,7 @@
                     "key": "uses_proton"
                 }
             ],
+            "controllerNotSupported": true,
             "internal_engine_name": "cw-launcher"
         },
         {
@@ -12199,6 +12253,7 @@
                     "key": "uses_proton"
                 }
             ],
+            "controllerNotSupported": true,
             "internal_engine_name": "CryMP"
         }
     ],
