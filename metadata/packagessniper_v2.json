@@ -8387,6 +8387,37 @@
             "app_id": "2732960"
         },
         {
+            "game_name": "Command & Conquer™ Generals Zero Hour",
+            "download": [
+                {
+                    "name": "silentpatch",
+                    "url": "https://github.com/CookiePLMonster/SilentPatchFarCry/releases/download/BUILD-2/",
+                    "file": "SilentPatchFarCry.zip"
+                },
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/farcry/",
+                    "file": "FarCry.WidescreenFix.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "FarCry.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "version=n,b"
+                    },
+                    "engine_name": "SilentPatch Far Cry",
+                    "name": "SilentPatch with Widescreen Fixes Patch",
+                    "download": [
+                        "silentpatch",
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "13520"
+        },
+        {
             "game_name": "Resistance Element",
             "download": [
                 {
@@ -12095,6 +12126,25 @@
             "controllerNotSupported": true,
             "engine_name": "Lectrote",
             "internal_engine_name": "lectrote"
+        },
+        {
+            "engine_link": "https://github.com/CookiePLMonster/SilentPatchFarCry",
+            "version": "Build 2",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/CookiePLMonster/SilentPatchFarCry/blob/master/LICENSE",
+            "engine_name": "SilentPatch Far Cry",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                },
+                {
+                    "label": "Also uses Widescreen Fixes Patch (MIT) - https://fusionfix.io/wfp#farcry"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "silentpatch_farcry"
         },
         {
             "engine_link": "https://gitea.com/JerryALT/iw3sp_mod",
