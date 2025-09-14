@@ -10019,7 +10019,7 @@
                 {
                     "name": "Native Descent3",
                     "engine_name": "Descent3",
-                    "command": "./run-descent3.sh",
+                    "command": "./run-descent3.sh"
                 },
                 {
                     "name": "Piccu Engine",
