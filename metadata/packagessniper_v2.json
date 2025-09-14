@@ -9887,20 +9887,6 @@
             "app_id": "2347390"
         },
         {
-            "game_name": "Descent 3",
-            "download": [
-                {
-                    "name": "descent3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/descent3-2/",
-                    "file": "descent3-273590-2.tar.xz"
-                }
-            ],
-            "engine_name": "Descent3",
-            "command": "./run-descent3.sh",
-            "cloudNotAvailable": true,
-            "app_id": "273590"
-        },
-        {
             "game_name": "Blade Runner (Classic)",
             "download": [
                 {
@@ -10019,12 +10005,22 @@
             "game_name": "Descent 3",
             "download": [
                 {
+                    "name": "descent3",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/descent3-2/",
+                    "file": "descent3-273590-2.tar.xz"
+                },
+                {
                     "name": "piccu-engine",
                     "url": "https://github.com/InsanityBringer/PiccuEngine/releases/download/v1.2.2/",
                     "file": "PiccuEngine-v1.2.2-12092024-win32.zip"
                 }
             ],
             "choices": [
+                {
+                    "name": "Native Descent3",
+                    "engine_name": "Descent3",
+                    "command": "./run-descent3.sh",
+                },
                 {
                     "name": "Piccu Engine",
                     "download": [
@@ -10034,6 +10030,7 @@
                     "engine_name": "Piccu Engine"
                 }
             ],
+            "cloudNotAvailable": true,
             "app_id": "273590"
         },
         {
