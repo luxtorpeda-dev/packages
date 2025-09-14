@@ -2,7 +2,7 @@
 
 # From https://gitlab.com/luxtorpeda/packages/gzdoom - See LICENSE file for more information
 # CLONE PHASE
-git clone https://github.com/coelckers/gzdoom.git source
+git clone https://github.com/zdoom/gzdoom.git source
 pushd source
 git checkout "$COMMIT_TAG"
 popd

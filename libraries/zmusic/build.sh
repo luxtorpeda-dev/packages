@@ -3,7 +3,7 @@
 # CLONE PHASE
 git clone https://github.com/coelckers/ZMusic.git zmusic
 pushd zmusic
-git checkout -f 519b76b
+git checkout -f ac3e232
 popd
 
 # BUILD PHASE
