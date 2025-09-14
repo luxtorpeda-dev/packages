@@ -10016,6 +10016,27 @@
             "app_id": "6000"
         },
         {
+            "game_name": "Descent 3",
+            "download": [
+                {
+                    "name": "piccu-engine",
+                    "url": "https://github.com/InsanityBringer/PiccuEngine/releases/download/v1.2.2/",
+                    "file": "PiccuEngine-v1.2.2-12092024-win32.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "Piccu Engine",
+                    "download": [
+                        "piccu-engine"
+                    ],
+                    "command": "PiccuEngine.exe",
+                    "engine_name": "Piccu Engine"
+                }
+            ],
+            "app_id": "273590"
+        },
+        {
             "game_name": "Fallout 2",
             "download": [
                 {
@@ -12145,6 +12166,22 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "silentpatch_farcry"
+        },
+        {
+            "engine_link": "https://github.com/InsanityBringer/PiccuEngine",
+            "version": "v1.2.2",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/InsanityBringer/PiccuEngine/blob/master/LICENSE",
+            "engine_name": "Piccu Engine",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "piccu-engine"
         },
         {
             "engine_link": "https://gitea.com/JerryALT/iw3sp_mod",
