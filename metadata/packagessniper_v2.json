@@ -8418,6 +8418,37 @@
             "app_id": "13520"
         },
         {
+            "game_name": "Far Cry 2",
+            "download": [
+                {
+                    "name": "ultimate-asi-loader",
+                    "url": "https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v9.0.0/",
+                    "file": "Ultimate-ASI-Loader.zip"
+                },
+                {
+                    "name": "jackal-patch",
+                    "url": "https://github.com/Tobe95/JackalPatch/releases/download/v1.0.1/",
+                    "file": "JackalPatch.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "FarCry2.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "JackalPatch",
+                    "name": "JackalPatch",
+                    "download": [
+                        "ultimate-asi-loader",
+                        "jackal-patch"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "19900"
+        },
+        {
             "game_name": "Resistance Element",
             "download": [
                 {
@@ -12195,6 +12226,25 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "iw3sp-mod"
+        },
+        {
+            "engine_link": "https://github.com/Tobe95/JackalPatch",
+            "version": "v1.0.1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/Tobe95/JackalPatch/blob/main/patcher/LICENSE",
+            "engine_name": "JackalPatch",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                },
+                {
+                    "label": "Also uses Ultimate ASI Loader (MIT) - https://github.com/ThirteenAG/Ultimate-ASI-Loader"
+                }
+            ],
+            "controllerSupported": true,
+            "internal_engine_name": "jackal-patch"
         },
         {
             "engine_link": "https://github.com/sfall-team/sfall",
