@@ -8419,6 +8419,32 @@
             "app_id": "13520"
         },
         {
+            "game_name": "Just Cause",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/justcause/",
+                    "file": "JustCause.WidescreenFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "JustCause.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "13520"
+        },
+        {
             "game_name": "Far Cry 2",
             "download": [
                 {
@@ -12177,6 +12203,23 @@
             "controllerNotSupported": true,
             "engine_name": "Lectrote",
             "internal_engine_name": "lectrote"
+        },
+
+        {
+            "engine_link": "https://github.com/ThirteenAG/WidescreenFixesPack",
+            "version": "Various",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/ThirteenAG/WidescreenFixesPack/blob/master/license",
+            "engine_name": "WidescreenFixesPack",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "WidescreenFixesPack"
         },
         {
             "engine_link": "https://github.com/CookiePLMonster/SilentPatchFarCry",
