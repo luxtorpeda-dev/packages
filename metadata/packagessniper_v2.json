@@ -6599,8 +6599,8 @@
             "download": [
                 {
                     "name": "classic-rbdoom-3-bfg",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-44/",
-                    "file": "classic-rbdoom-3-bfg-208200-44.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-45/",
+                    "file": "classic-rbdoom-3-bfg-208200-45.tar.xz"
                 },
                 {
                     "name": "open-platform-v103",
@@ -9580,8 +9580,8 @@
             "download": [
                 {
                     "name": "classic-rbdoom-3-bfg",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-44/",
-                    "file": "classic-rbdoom-3-bfg-1898710-44.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-45/",
+                    "file": "classic-rbdoom-3-bfg-1898710-45.tar.xz"
                 }
             ],
             "command": "./classic/run-classic-rbdoom-3-bfg.sh",
@@ -12204,7 +12204,6 @@
             "engine_name": "Lectrote",
             "internal_engine_name": "lectrote"
         },
-
         {
             "engine_link": "https://github.com/ThirteenAG/WidescreenFixesPack",
             "version": "Various",
