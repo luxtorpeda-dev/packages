@@ -9,6 +9,7 @@ pushd "engines/$ENGINE_NAME"
 process_engine_environment
 setup_dotnet_repository
 setup_openjdk_repository
+install_cmake
 log_environment
 setup_dist_dirs "$STEAM_APP_ID_LIST"
 
