@@ -106,7 +106,8 @@ install_autoconf () {
 install_cmake () {
     wget https://github.com/Kitware/CMake/releases/download/v4.1.1/cmake-4.1.1-linux-x86_64.sh
     chmod +x cmake-4.1.1-linux-x86_64.sh
-    sudo ./cmake-4.1.1-linux-x86_64.sh --skip-license
+    sudo ./cmake-4.1.1-linux-x86_64.sh --skip-license --prefix=/opt/cmake
+    sudo ln -s /opt/cmake/bin/cmake /usr/local/bin/cmake
 }
 
 start_vcpkg () {
