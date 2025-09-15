@@ -73,8 +73,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-27/",
-                    "file": "ioquake3-common-27.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-28/",
+                    "file": "ioquake3-common-28.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3967,8 +3967,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-27/",
-                    "file": "ioquake3-common-27.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-28/",
+                    "file": "ioquake3-common-28.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5381,8 +5381,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-27/",
-                    "file": "ioquake3-common-27.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-28/",
+                    "file": "ioquake3-common-28.tar.xz",
                     "cache_by_name": true
                 },
                 {
