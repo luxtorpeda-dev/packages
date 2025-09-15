@@ -11,12 +11,17 @@ git clone https://github.com/MadDeCoDeR/BFA-Assets.git
 pushd BFA-Assets
 popd
 
+export sourcedir="$PWD/source"
+
+pushd source/vcpkg
+git apply "$sourcedir"/.github/tools/openal-fix.patch
+popd
+
 pushd "source/neo"
 mkdir build
 cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Retail \
-    -DSDL2=ON \
     -DCMAKE_PREFIX_PATH="$pfx" \
     --preset=linux-retail \
     ..
