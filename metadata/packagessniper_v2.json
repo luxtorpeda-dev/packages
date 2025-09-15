@@ -286,8 +286,8 @@
             "download": [
                 {
                     "name": "ecwolf",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-11/",
-                    "file": "ecwolf-common-11.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-12/",
+                    "file": "ecwolf-common-12.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -5214,8 +5214,8 @@
             "download": [
                 {
                     "name": "ecwolf",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-11/",
-                    "file": "ecwolf-common-11.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-12/",
+                    "file": "ecwolf-common-12.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -5299,8 +5299,8 @@
                 },
                 {
                     "name": "hammerofthyrion",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hammerofthyrion-11/",
-                    "file": "hammerofthyrion-9060-11.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hammerofthyrion-12/",
+                    "file": "hammerofthyrion-9060-12.tar.xz"
                 },
                 {
                     "name": "fteqw",
@@ -6800,8 +6800,8 @@
             "download": [
                 {
                     "name": "voidsw",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/voidsw-11/",
-                    "file": "voidsw-common-11.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/voidsw-12/",
+                    "file": "voidsw-common-12.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7610,8 +7610,8 @@
             "download": [
                 {
                     "name": "ecwolf",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-11/",
-                    "file": "ecwolf-common-11.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ecwolf-12/",
+                    "file": "ecwolf-common-12.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8327,8 +8327,8 @@
             "download": [
                 {
                     "name": "cnc-generals",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-generals-25/",
-                    "file": "cnc-generals-common-25.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/cnc-generals-26/",
+                    "file": "cnc-generals-common-26.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8397,7 +8397,8 @@
                 {
                     "name": "widescreenfix",
                     "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/farcry/",
-                    "file": "FarCry.WidescreenFix.zip"
+                    "file": "FarCry.WidescreenFix.zip",
+                    "ignore_updates": true
                 }
             ],
             "choices": [
@@ -9986,7 +9987,8 @@
                 {
                     "name": "iw3xo",
                     "url": "https://github.com/xoxor4d/iw3xo-dev/releases/download/3537/",
-                    "file": "iw3xo_b3537.zip"
+                    "file": "iw3xo_b3537.zip",
+                    "ignore_updates": true
                 }
             ],
             "choices": [
@@ -10359,7 +10361,7 @@
         },
         {
             "engine_link": "https://ioquake3.org/",
-            "version": "f30ace1",
+            "version": "b2a9284",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -10425,7 +10427,7 @@
         },
         {
             "engine_link": "https://bitbucket.org/ecwolf/ecwolf/src/master/",
-            "version": "1.5pre",
+            "version": "1.4.2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPL-2+ or EULA; BSD-3-clause",
@@ -10688,7 +10690,7 @@
         },
         {
             "engine_link": "https://www.yamagi.org/quake2/",
-            "version": "QUAKE2_8_51",
+            "version": "QUAKE2_8_60",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -10806,7 +10808,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "7ec3889",
+            "version": "eb31658",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -10895,7 +10897,7 @@
         },
         {
             "engine_link": "https://github.com/sezero/uhexen2",
-            "version": "641de4a",
+            "version": "14c54c0",
             "notices": [
                 {
                     "label": "Set Music Mode in in-game options to All Codecs"
@@ -10922,7 +10924,7 @@
         },
         {
             "engine_link": "https://voidpoint.io/terminx/eduke32",
-            "version": "126f35c",
+            "version": "e5aad18",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -10955,7 +10957,7 @@
         },
         {
             "engine_link": "https://voidpoint.io/terminx/eduke32",
-            "version": "126f35c",
+            "version": "e5aad18",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11582,7 +11584,7 @@
         },
         {
             "engine_link": "https://github.com/jasonrohrer/OneLife",
-            "version": "0f86b3f",
+            "version": "cd0c6a0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Public Domain",
@@ -11761,7 +11763,7 @@
         },
         {
             "engine_link": "https://github.com/glKarin/com.n0n3m4.diii4a",
-            "version": "34a56ea",
+            "version": "b6d3ce1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11883,7 +11885,7 @@
         },
         {
             "engine_link": "https://github.com/Fighter19/CnC_Generals_Zero_Hour",
-            "version": "071e451",
+            "version": "5871e56",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11921,7 +11923,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "1d83125",
+            "version": "f78a818",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
