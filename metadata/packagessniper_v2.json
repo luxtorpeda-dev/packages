@@ -8397,7 +8397,8 @@
                 {
                     "name": "widescreenfix",
                     "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/farcry/",
-                    "file": "FarCry.WidescreenFix.zip"
+                    "file": "FarCry.WidescreenFix.zip",
+                    "ignore_updates": true
                 }
             ],
             "choices": [
@@ -9986,7 +9987,8 @@
                 {
                     "name": "iw3xo",
                     "url": "https://github.com/xoxor4d/iw3xo-dev/releases/download/3537/",
-                    "file": "iw3xo_b3537.zip"
+                    "file": "iw3xo_b3537.zip",
+                    "ignore_updates": true
                 }
             ],
             "choices": [
