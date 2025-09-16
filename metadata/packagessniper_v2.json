@@ -8471,6 +8471,43 @@
             "app_id": "3700"
         },
         {
+            "game_name": "Mafia",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mafia/",
+                    "file": "Mafia.WidescreenFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "game.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "d3d8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                },
+                {
+                    "command": "setup.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "d3d8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "Game Options",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "40990"
+        },
+        {
             "game_name": "Saints Row 2",
             "download": [
                 {
