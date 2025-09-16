@@ -8445,6 +8445,37 @@
             "app_id": "6880"
         },
         {
+            "game_name": "Saints Row 2",
+            "download": [
+                {
+                    "name": "juiced-patch",
+                    "url": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch/releases/download/v7.9.5/",
+                    "file": "SR2_JUICED.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "SR2_pc.exe",
+                    "engine_name": "Saints-Row-2-Juiced-Patch",
+                    "name": "Saints-Row-2-Juiced-Patch",
+                    "download": [
+                        "juiced-patch"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./",
+                            "strip_prefix": "SR2_JUICED_V7.9.5/",
+                            "download_name": "juiced-patch"
+                        }
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "9480"
+        },
+        {
             "game_name": "Far Cry 2",
             "download": [
                 {
@@ -12203,6 +12234,22 @@
             "controllerNotSupported": true,
             "engine_name": "Lectrote",
             "internal_engine_name": "lectrote"
+        },
+        {
+            "engine_link": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch",
+            "version": "v7.9.5",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch/blob/main/license.txt",
+            "engine_name": "Saints-Row-2-Juiced-Patch",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerSupported": true,
+            "internal_engine_name": "Saints-Row-2-Juiced-Patch"
         },
         {
             "engine_link": "https://github.com/ThirteenAG/WidescreenFixesPack",
