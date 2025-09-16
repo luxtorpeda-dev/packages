@@ -8508,6 +8508,30 @@
             "app_id": "40990"
         },
         {
+            "game_name": "Overload",
+            "download": [
+                {
+                    "name": "olmod",
+                    "url": "https://github.com/overload-development-community/olmod/releases/download/v0.5.13/",
+                    "file": "olmod-0.5.13.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "olmod.exe",
+                    "engine_name": "olmod",
+                    "name": "olmod",
+                    "download": [
+                        "olmod"
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "448850"
+        },
+        {
             "game_name": "Saints Row 2",
             "download": [
                 {
@@ -12297,6 +12321,22 @@
             "controllerNotSupported": true,
             "engine_name": "Lectrote",
             "internal_engine_name": "lectrote"
+        },
+        {
+            "engine_link": "https://github.com/overload-development-community/olmod",
+            "version": "v0.5.13",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/overload-development-community/olmod/blob/main/LICENSE",
+            "engine_name": "olmod",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerSupported": true,
+            "internal_engine_name": "olmod"
         },
         {
             "engine_link": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch",
