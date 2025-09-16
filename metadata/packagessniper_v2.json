@@ -3443,8 +3443,8 @@
                 },
                 {
                     "name": "ezquake",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ezquake-7/",
-                    "file": "ezquake-common-7.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ezquake-8/",
+                    "file": "ezquake-common-8.tar.xz",
                     "cache_by_name": true
                 },
                 {
