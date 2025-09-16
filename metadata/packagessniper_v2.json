@@ -8445,6 +8445,31 @@
             "app_id": "6880"
         },
         {
+            "game_name": "Battlefield 2",
+            "download": [
+                {
+                    "name": "bf2-hud-fix",
+                    "url": "https://github.com/marekzajac97/BF2-HUD-fix/releases/download/v0.7/",
+                    "file": "bf2_hudfix_v0.7.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "BF2.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "BF2-HUD-fix",
+                    "name": "BF2-HUD-fix",
+                    "download": [
+                        "bf2-hud-fix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "24860"
+        },
+        {
             "game_name": "Sniper Elite",
             "download": [
                 {
@@ -12789,6 +12814,22 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "gentool"
+        },
+        {
+            "engine_link": "https://github.com/marekzajac97/BF2-HUD-fix",
+            "version": "v0.7",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/marekzajac97/BF2-HUD-fix/blob/master/LICENSE",
+            "engine_name": "BF2-HUD-fix",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "BF2-HUD-fix"
         },
         {
             "engine_link": "https://github.com/SWRC-Modding/CT",
