@@ -8445,6 +8445,32 @@
             "app_id": "6880"
         },
         {
+            "game_name": "Sniper Elite",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/sniperelite/",
+                    "file": "SniperElite.WidescreenFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "SniperElite.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "3700"
+        },
+        {
             "game_name": "Saints Row 2",
             "download": [
                 {
