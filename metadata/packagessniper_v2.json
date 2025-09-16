@@ -8471,6 +8471,308 @@
             "app_id": "3700"
         },
         {
+            "game_name": "Resident Evil",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re1/",
+                    "file": "ResidentEvil.FusionFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "bhd.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "304240"
+        },
+        {
+            "game_name": "Resident Evil",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re1/",
+                    "file": "ResidentEvil.FusionFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "bhd.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "304240"
+        },
+        {
+            "game_name": "Resident Evil Revelations",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/rerev/",
+                    "file": "ResidentEvilRevelations.FusionFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "rerev.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "222480"
+        },
+        {
+            "game_name": "Resident Evil Revelations 2",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/rerev2/",
+                    "file": "ResidentEvilRevelations2.FusionFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "rerev2.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "287290"
+        },
+        {
+            "game_name": "Resident Evil 5",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re5/",
+                    "file": "ResidentEvil5.FusionFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "Launcher.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "21690"
+        },
+        {
+            "game_name": "Max Payne",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mp1/",
+                    "file": "MaxPayne.WidescreenFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "maxpayne.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "d3d8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "12140"
+        },
+        {
+            "game_name": "Max Payne 2",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/mp2/",
+                    "file": "MaxPayne2.WidescreenFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "maxpayne2.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "d3d8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "12150"
+        },
+        {
+            "game_name": "Tom Clancy's Splinter Cell: Chaos Theory",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/scct/",
+                    "file": "SplinterCellChaosTheory.WidescreenFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+             "download_config": [
+                {
+                    "strip_prefix": "system/",
+                    "download_name": "widescreenfix"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "splintercell3.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "d3d9=n,b;msacm32=n,b;msvfw32=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "13570"
+        },
+        {
+            "game_name": "Cold Fear",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/coldfear/",
+                    "file": "ColdFear.WidescreenFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "coldfear_retail.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "15270"
+        },
+        {
+            "game_name": "Condemned: Criminal Origins",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/condemned/",
+                    "file": "Condemned.WidescreenFix.zip",
+                    "ignore_updates": true
+                },
+                {
+                    "name": "missingsteamfiles",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/condemned/",
+                    "file": "Condemned.MissingSteamFilesFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./",
+                    "strip_prefix": "Condemned.MissingSteamFilesFix/",
+                    "download_name": "missingsteamfiles"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "Condemned.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "d3d9=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix",
+                        "missingsteamfiles"
+                    ]
+                },
+                {
+                    "command": "Config.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "d3d9=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "Configure Game",
+                    "download": [
+                        "widescreenfix",
+                        "missingsteamfiles"
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "4720"
+        },
+        {
             "game_name": "Mafia",
             "download": [
                 {
