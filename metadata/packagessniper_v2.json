@@ -8509,32 +8509,6 @@
                 {
                     "command": "bhd.exe",
                     "command_vars": {
-                        "WINEDLLOVERRIDES": "dinput=n,b"
-                    },
-                    "engine_name": "WidescreenFixesPack",
-                    "name": "WidescreenFixesPack",
-                    "download": [
-                        "widescreenfix"
-                    ]
-                }
-            ],
-            "cloudNotAvailable": true,
-            "app_id": "304240"
-        },
-        {
-            "game_name": "Resident Evil",
-            "download": [
-                {
-                    "name": "widescreenfix",
-                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re1/",
-                    "file": "ResidentEvil.FusionFix.zip",
-                    "ignore_updates": true
-                }
-            ],
-            "choices": [
-                {
-                    "command": "bhd.exe",
-                    "command_vars": {
                         "WINEDLLOVERRIDES": "dinput8=n,b"
                     },
                     "engine_name": "WidescreenFixesPack",
