@@ -10790,6 +10790,30 @@
                 }
             ],
             "app_id": "17340"
+        },
+        {
+            "game_name": "Titanfall® 2",
+            "download": [
+                {
+                    "name": "northstar",
+                    "url": "https://github.com/R2Northstar/Northstar/releases/download/v1.31.1/",
+                    "file": "Northstar.release.v1.31.1.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "Northstar",
+                    "download": [
+                        "northstar"
+                    ],
+                    "command": "NorthstarLauncher.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "wsock32=n,b"
+                    },
+                    "engine_name": "northstar"
+                }
+            ],
+            "app_id": "1237970"
         }
     ],
     "engines": [
@@ -12900,6 +12924,25 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "CryMP"
+        },
+        {
+            "engine_link": "https://github.com/R2Northstar/Northstar",
+            "version": "v1.31.1",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "MIT",
+            "license_link": "https://github.com/R2Northstar/Northstar/blob/main/LICENSE",
+            "engine_name": "Northstar",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                },
+                {
+                    "label": "Run the game without Luxtorpeda at least once to install EA App and other dependencies. Then, launch the game with Luxtorpeda."
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "Northstar"
         }
     ],
     "default_engine": {
