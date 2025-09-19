@@ -8669,7 +8669,7 @@
                     "ignore_updates": true
                 }
             ],
-             "download_config": [
+            "download_config": [
                 {
                     "strip_prefix": "system/",
                     "download_name": "widescreenfix"
@@ -11933,7 +11933,7 @@
         },
         {
             "engine_link": "https://github.com/Warzone2100/warzone2100",
-            "version": "4.5.5",
+            "version": "4.6.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
