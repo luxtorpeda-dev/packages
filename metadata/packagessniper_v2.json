@@ -8669,7 +8669,7 @@
                     "ignore_updates": true
                 }
             ],
-             "download_config": [
+            "download_config": [
                 {
                     "strip_prefix": "system/",
                     "download_name": "widescreenfix"
@@ -12265,7 +12265,7 @@
         },
         {
             "engine_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/",
-            "version": "6c5d226",
+            "version": "8b03340",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
