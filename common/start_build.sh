@@ -9,7 +9,6 @@ pushd "engines/$ENGINE_NAME"
 process_engine_environment
 setup_dotnet_repository
 setup_openjdk_repository
-install_cmake
 log_environment
 setup_dist_dirs "$STEAM_APP_ID_LIST"
 
@@ -33,6 +32,11 @@ fi
 if [ ! -z "${GCC_14}" ]; then
     echo "Using gcc 14"
     use_gcc_14
+fi
+
+if [ ! -z "${LATEST_CMAKE}" ]; then
+    echo "Using latest cmake"
+    install_cmake
 fi
 
 gcc --version

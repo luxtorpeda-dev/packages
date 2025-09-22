@@ -10806,7 +10806,7 @@
         },
         {
             "engine_link": "https://ioquake3.org/",
-            "version": "b2a9284",
+            "version": "d49ea96",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -11113,7 +11113,7 @@
         },
         {
             "engine_link": "https://github.com/Henrique194/chocolate-quake",
-            "version": "49b734e",
+            "version": "41aea13",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12265,7 +12265,7 @@
         },
         {
             "engine_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/",
-            "version": "6c5d226",
+            "version": "8b03340",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -12368,7 +12368,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "f78a818",
+            "version": "70572b8",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
