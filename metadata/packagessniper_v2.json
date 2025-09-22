@@ -10462,8 +10462,8 @@
             "download": [
                 {
                     "name": "SWRCFix",
-                    "url": "https://github.com/SWRC-Modding/CT/releases/download/SWRC_Fix_v2.12/",
-                    "file": "SWRCFix2.12.zip"
+                    "url": "https://github.com/SWRC-Modding/CT/releases/download/SWRC_Fix_v2.13/",
+                    "file": "SWRCFix2.13.zip"
                 }
             ],
             "choices": [
@@ -12807,7 +12807,7 @@
         },
         {
             "engine_link": "https://github.com/SWRC-Modding/CT",
-            "version": "2.12",
+            "version": "2.13",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "No license specified",
