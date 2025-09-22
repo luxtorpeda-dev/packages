@@ -4888,8 +4888,8 @@
             "download": [
                 {
                     "name": "openjk",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-12/",
-                    "file": "openjk-6020-12.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-13/",
+                    "file": "openjk-6020-13.tar.xz"
                 }
             ],
             "commands": [
@@ -4914,8 +4914,8 @@
             "download": [
                 {
                     "name": "openjk",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-12/",
-                    "file": "openjk-6030-12.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-13/",
+                    "file": "openjk-6030-13.tar.xz"
                 },
                 {
                     "name": "jk2mv",
