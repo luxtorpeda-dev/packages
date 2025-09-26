@@ -8608,6 +8608,110 @@
             "app_id": "21690"
         },
         {
+            "game_name": "Resident Evil 6",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re6/",
+                    "file": "ResidentEvil6.FusionFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "BH6.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "221040"
+        },
+        {
+            "game_name": "Resident Evil 0",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/re0/",
+                    "file": "ResidentEvil0.FusionFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "re0hd.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "339340"
+        },
+        {
+            "game_name": "Hidden & Dangerous 2: Courage Under Fire",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/hd2/",
+                    "file": "HiddenandDangerous2.WidescreenFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "hd2.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "d3d8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                },
+                {
+                    "command": "HD2_SabreSquadron.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "d3d8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "Sabre Squadron",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                },
+                {
+                    "command": "setup.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "d3d8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "Setup",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "703320"
+        },
+        {
             "game_name": "Max Payne",
             "download": [
                 {
