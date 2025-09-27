@@ -10902,6 +10902,12 @@
                     "name": "MetroDeveloper-binaries",
                     "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
                     "file": "MetroDeveloper.zip"
+                },
+                {
+                    "name": "metrodeveloper",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/metrodeveloper-1/",
+                    "file": "metrodeveloper-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "download_config": [
@@ -10937,6 +10943,12 @@
                     "name": "MetroDeveloper-binaries",
                     "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
                     "file": "MetroDeveloper.zip"
+                },
+                {
+                    "name": "metrodeveloper",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/metrodeveloper-1/",
+                    "file": "metrodeveloper-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "download_config": [
@@ -10972,6 +10984,12 @@
                     "name": "MetroDeveloper-binaries",
                     "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
                     "file": "MetroDeveloper.zip"
+                },
+                {
+                    "name": "metrodeveloper",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/metrodeveloper-1/",
+                    "file": "metrodeveloper-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "download_config": [
@@ -11007,6 +11025,12 @@
                     "name": "MetroDeveloper-binaries",
                     "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
                     "file": "MetroDeveloper.zip"
+                },
+                {
+                    "name": "metrodeveloper",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/metrodeveloper-1/",
+                    "file": "metrodeveloper-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "download_config": [
@@ -11042,6 +11066,12 @@
                     "name": "MetroDeveloper-binaries",
                     "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
                     "file": "MetroDeveloper.zip"
+                },
+                {
+                    "name": "metrodeveloper",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/metrodeveloper-1/",
+                    "file": "metrodeveloper-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "download_config": [
