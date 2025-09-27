@@ -10914,7 +10914,8 @@
                 {
                     "name": "MetroDeveloper",
                     "download": [
-                        "MetroDeveloper-binaries"
+                        "MetroDeveloper-binaries",
+                        "metrodeveloper"
                     ],
                     "setup": {
                         "complete_path": "./ready",
@@ -10948,7 +10949,8 @@
                 {
                     "name": "MetroDeveloper",
                     "download": [
-                        "MetroDeveloper-binaries"
+                        "MetroDeveloper-binaries",
+                        "metrodeveloper"
                     ],
                     "setup": {
                         "complete_path": "./ready",
@@ -10982,7 +10984,8 @@
                 {
                     "name": "MetroDeveloper",
                     "download": [
-                        "MetroDeveloper-binaries"
+                        "MetroDeveloper-binaries",
+                        "metrodeveloper"
                     ],
                     "setup": {
                         "complete_path": "./ready",
@@ -11016,7 +11019,8 @@
                 {
                     "name": "MetroDeveloper",
                     "download": [
-                        "MetroDeveloper-binaries"
+                        "MetroDeveloper-binaries",
+                        "metrodeveloper"
                     ],
                     "setup": {
                         "complete_path": "./ready",
@@ -11050,7 +11054,8 @@
                 {
                     "name": "MetroDeveloper",
                     "download": [
-                        "MetroDeveloper-binaries"
+                        "MetroDeveloper-binaries",
+                        "metrodeveloper"
                     ],
                     "setup": {
                         "complete_path": "./ready",
