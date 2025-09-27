@@ -10894,6 +10894,177 @@
                 }
             ],
             "app_id": "17340"
+        },
+        {
+            "game_name": "Metro 2033",
+            "download": [
+                {
+                    "name": "MetroDeveloper-binaries",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
+                    "file": "MetroDeveloper.zip"
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "MetroDeveloper/",
+                    "download_name": "MetroDeveloper-binaries"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "MetroDeveloper",
+                    "download": [
+                        "MetroDeveloper-binaries"
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "./setup-metrodeveloper.sh"
+                    },
+                    "command": "Metro2033.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "MetroDeveloper"
+                }
+            ],
+            "app_id": "43110"
+        },
+        {
+            "game_name": "Metro: Last Light Complete Edition",
+            "download": [
+                {
+                    "name": "MetroDeveloper-binaries",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
+                    "file": "MetroDeveloper.zip"
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "MetroDeveloper/",
+                    "download_name": "MetroDeveloper-binaries"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "MetroDeveloper",
+                    "download": [
+                        "MetroDeveloper-binaries"
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "./setup-metrodeveloper.sh"
+                    },
+                    "command": "MetroLL.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "MetroDeveloper"
+                }
+            ],
+            "app_id": "43160"
+        },
+        {
+            "game_name": "Metro 2033 Redux",
+            "download": [
+                {
+                    "name": "MetroDeveloper-binaries",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
+                    "file": "MetroDeveloper.zip"
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "MetroDeveloper/",
+                    "download_name": "MetroDeveloper-binaries"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "MetroDeveloper",
+                    "download": [
+                        "MetroDeveloper-binaries",
+                        "metrodeveloper"
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "./setup-metrodeveloper.sh"
+                    },
+                    "command": "metro.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "MetroDeveloper"
+                }
+            ],
+            "app_id": "286690"
+        },
+        {
+            "game_name": "Metro: Last Light Redux",
+            "download": [
+                {
+                    "name": "MetroDeveloper-binaries",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
+                    "file": "MetroDeveloper.zip"
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "MetroDeveloper/",
+                    "download_name": "MetroDeveloper-binaries"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "MetroDeveloper",
+                    "download": [
+                        "MetroDeveloper-binaries"
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "./setup-metrodeveloper.sh"
+                    },
+                    "command": "metro.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "MetroDeveloper"
+                }
+            ],
+            "app_id": "287390"
+        },
+        {
+            "game_name": "Metro Exodus",
+            "download": [
+                {
+                    "name": "MetroDeveloper-binaries",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
+                    "file": "MetroDeveloper.zip"
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "MetroDeveloper/",
+                    "download_name": "MetroDeveloper-binaries"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "MetroDeveloper",
+                    "download": [
+                        "MetroDeveloper-binaries"
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "./setup-metrodeveloper.sh"
+                    },
+                    "command": "MetroExodus.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "MetroDeveloper"
+                }
+            ],
+            "app_id": "412020"
         }
     ],
     "engines": [
@@ -13004,6 +13175,22 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "CryMP"
+        },
+        {
+            "engine_link": "https://github.com/tsnest/MetroDeveloper",
+            "version": "1.1.8",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "No license specified",
+            "license_link": "https://github.com/tsnest/MetroDeveloper",
+            "engine_name": "MetroDeveloper",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "MetroDeveloper"
         }
     ],
     "default_engine": {
