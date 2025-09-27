@@ -10982,8 +10982,7 @@
                 {
                     "name": "MetroDeveloper",
                     "download": [
-                        "MetroDeveloper-binaries",
-                        "metrodeveloper"
+                        "MetroDeveloper-binaries"
                     ],
                     "setup": {
                         "complete_path": "./ready",
