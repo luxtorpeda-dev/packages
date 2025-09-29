@@ -11,8 +11,8 @@
                 },
                 {
                     "name": "jpexs-decompiler",
-                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.0.1/",
-                    "file": "ffdec_24.0.1.zip",
+                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.0/",
+                    "file": "ffdec_24.1.0.zip",
                     "cache_by_name": true
                 },
                 {
@@ -6492,8 +6492,8 @@
                 },
                 {
                     "name": "jpexs-decompiler",
-                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.0.1/",
-                    "file": "ffdec_24.0.1.zip",
+                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.0/",
+                    "file": "ffdec_24.1.0.zip",
                     "cache_by_name": true
                 },
                 {
@@ -6716,8 +6716,8 @@
             "download": [
                 {
                     "name": "ja2-binaries",
-                    "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.21.0/",
-                    "file": "ja2-stracciatella_0.21.0-git+61938e1_x86-64.AppImage"
+                    "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.0/",
+                    "file": "ja2-stracciatella_0.22.0-git+b195e15_x86-64.AppImage"
                 },
                 {
                     "name": "ja2-wildfire",
@@ -6742,8 +6742,8 @@
             "download": [
                 {
                     "name": "ja2-binaries",
-                    "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.21.0/",
-                    "file": "ja2-stracciatella_0.21.0-git+61938e1_x86-64.AppImage"
+                    "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.0/",
+                    "file": "ja2-stracciatella_0.22.0-git+b195e15_x86-64.AppImage"
                 },
                 {
                     "name": "ja2-stracciatella",
@@ -11477,7 +11477,7 @@
         },
         {
             "engine_link": "https://ja2-stracciatella.github.io",
-            "version": "0.21.0",
+            "version": "0.22.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Original in SFI-SCLA with Additions in Public Domain",
@@ -13257,8 +13257,8 @@
             },
             {
                 "name": "jpexs-decompiler",
-                "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.0.1/",
-                "file": "ffdec_24.0.1.zip",
+                "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.0/",
+                "file": "ffdec_24.1.0.zip",
                 "cache_by_name": true
             },
             {
