@@ -8444,6 +8444,30 @@
             "app_id": "47780"
         },
         {
+            "game_name": "Dungeon Keeper Gold™",
+            "download": [
+                {
+                    "name": "keeperfx",
+                    "url": "https://github.com/dkfans/keeperfx/releases/download/v1.2.0/",
+                    "file": "keeperfx_1_2_0_complete.7z"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "launcher.exe",
+                    "engine_name": "KeeperFX",
+                    "name": "KeeperFX",
+                    "download": [
+                        "keeperfx"
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "1996630"
+        },
+        {
             "game_name": "Just Cause",
             "download": [
                 {
@@ -13105,6 +13129,22 @@
             ],
             "controllerSupported": true,
             "internal_engine_name": "markerpatch"
+        },
+         {
+            "engine_link": "hhttps://keeperfx.net",
+            "version": "1.2.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/dkfans/keeperfx/blob/master/LICENSE",
+            "engine_name": "KeeperFX",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "keeperfx"
         },
         {
             "engine_link": "https://github.com/CookiePLMonster/SilentPatchFarCry",
