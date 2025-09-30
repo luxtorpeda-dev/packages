@@ -8419,6 +8419,31 @@
             "app_id": "13520"
         },
         {
+            "game_name": "Dead Space 2",
+            "download": [
+                {
+                    "name": "markerpatch",
+                    "url": "https://github.com/Wemino/MarkerPatch/releases/download/1.1.0/",
+                    "file": "MarkerPatch.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "deadspace2.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "MarkerPatch",
+                    "name": "MarkerPatch",
+                    "download": [
+                        "markerpatch"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "47780"
+        },
+        {
             "game_name": "Just Cause",
             "download": [
                 {
@@ -13064,6 +13089,22 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "WidescreenFixesPack"
+        },
+        {
+            "engine_link": "https://github.com/Wemino/MarkerPatch",
+            "version": "1.1.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/Wemino/MarkerPatch/blob/main/LICENSE",
+            "engine_name": "MarkerPatch",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerSupported": true,
+            "internal_engine_name": "markerpatch"
         },
         {
             "engine_link": "https://github.com/CookiePLMonster/SilentPatchFarCry",
