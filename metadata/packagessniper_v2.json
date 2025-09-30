@@ -8445,6 +8445,91 @@
             "app_id": "6880"
         },
         {
+            "game_name": "Spyro™ Reignited Trilogy",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/spyro/",
+                    "file": "SpyroReignitedTrilogy.WidescreenFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "Spyro.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dsound=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "996580"
+        },
+        {
+            "game_name": "Manhunt",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/manhunt/",
+                    "file": "Manhunt.WidescreenFix.zip",
+                    "ignore_updates": true
+                },
+                {
+                    "name": "widescreenfrontend",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/manhunt/",
+                    "file": "Manhunt.WidescreenFrontend.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "manhunt.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix",
+                        "widescreenfrontend"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "12130"
+        },
+        {
+            "game_name": "GUN™",
+            "download": [
+                {
+                    "name": "widescreenfix",
+                    "url": "https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/gun/",
+                    "file": "Gun.WidescreenFix.zip",
+                    "ignore_updates": true
+                }
+            ],
+            "choices": [
+                {
+                    "command": "gun.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "d3d9=n,b"
+                    },
+                    "engine_name": "WidescreenFixesPack",
+                    "name": "WidescreenFixesPack",
+                    "download": [
+                        "widescreenfix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "2610"
+        },
+        {
             "game_name": "Battlefield 2",
             "download": [
                 {
