@@ -10631,7 +10631,7 @@
             "download": [
                 {
                     "name": "hyperbowl",
-                    "url": "https://github.com/technicat/hyperbowl/releases/download/v1.0.0/",
+                    "url": "https://codeberg.org/technicat/hyperbowl/releases/download/1.0/",
                     "file": "HyperBowlLinux.zip"
                 }
             ],
@@ -13045,12 +13045,12 @@
             "internal_engine_name": "descent3"
         },
         {
-            "engine_link": "https://github.com/technicat/hyperbowl/releases/tag/v1.0.0",
+            "engine_link": "https://codeberg.org/technicat/hyperbowl/releases/tag/1.0",
             "version": "1.0.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
-            "license_link": "https://github.com/technicat/hyperbowl/blob/master/LICENSE",
+            "license_link": "https://codeberg.org/technicat/hyperbowl/src/branch/master/LICENSE",
             "controllerNotSupported": true,
             "engine_name": "HyperBowl",
             "internal_engine_name": "hyperbowl"
