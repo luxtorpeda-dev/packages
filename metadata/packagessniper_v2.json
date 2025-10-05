@@ -73,8 +73,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-31/",
-                    "file": "ioquake3-common-31.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-32/",
+                    "file": "ioquake3-common-32.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3967,8 +3967,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-31/",
-                    "file": "ioquake3-common-31.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-32/",
+                    "file": "ioquake3-common-32.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5049,8 +5049,8 @@
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-40/",
-                    "file": "openxcom-oxce-common-40.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-41/",
+                    "file": "openxcom-oxce-common-41.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5155,8 +5155,8 @@
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-40/",
-                    "file": "openxcom-oxce-common-40.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-41/",
+                    "file": "openxcom-oxce-common-41.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5381,8 +5381,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-31/",
-                    "file": "ioquake3-common-31.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-32/",
+                    "file": "ioquake3-common-32.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -6761,8 +6761,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-21/",
-                    "file": "eduke32-common-21.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-22/",
+                    "file": "eduke32-common-22.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -6800,8 +6800,8 @@
             "download": [
                 {
                     "name": "voidsw",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/voidsw-12/",
-                    "file": "voidsw-common-12.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/voidsw-13/",
+                    "file": "voidsw-common-13.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7298,8 +7298,8 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-35/",
-                    "file": "nblood-common-35.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-36/",
+                    "file": "nblood-common-36.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7310,8 +7310,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-35/",
-                    "file": "notblood-common-35.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-36/",
+                    "file": "notblood-common-36.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7405,8 +7405,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-21/",
-                    "file": "eduke32-common-21.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-22/",
+                    "file": "eduke32-common-22.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7657,8 +7657,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-21/",
-                    "file": "eduke32-common-21.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-22/",
+                    "file": "eduke32-common-22.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7712,8 +7712,8 @@
             "download": [
                 {
                     "name": "shockolate",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/shockolate-6/",
-                    "file": "shockolate-410700-6.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/shockolate-7/",
+                    "file": "shockolate-410700-7.tar.xz"
                 }
             ],
             "download_config": [
@@ -7784,8 +7784,8 @@
                 },
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-21/",
-                    "file": "eduke32-common-21.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-22/",
+                    "file": "eduke32-common-22.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7816,8 +7816,8 @@
             "download": [
                 {
                     "name": "7kaa",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-21/",
-                    "file": "7kaa-450140-21.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-22/",
+                    "file": "7kaa-450140-22.tar.xz"
                 },
                 {
                     "name": "7kaa-music",
@@ -7884,8 +7884,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-21/",
-                    "file": "eduke32-common-21.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-22/",
+                    "file": "eduke32-common-22.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7916,8 +7916,8 @@
             "download": [
                 {
                     "name": "rednukem",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-35/",
-                    "file": "rednukem-common-35.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-36/",
+                    "file": "rednukem-common-36.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8002,8 +8002,8 @@
             "download": [
                 {
                     "name": "rednukem",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-35/",
-                    "file": "rednukem-common-35.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-36/",
+                    "file": "rednukem-common-36.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8253,8 +8253,8 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-35/",
-                    "file": "nblood-common-35.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-36/",
+                    "file": "nblood-common-36.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8265,8 +8265,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-35/",
-                    "file": "notblood-common-35.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-36/",
+                    "file": "notblood-common-36.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9566,8 +9566,8 @@
                 },
                 {
                     "name": "exhumed",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-35/",
-                    "file": "exhumed-common-35.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-36/",
+                    "file": "exhumed-common-36.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -10054,7 +10054,7 @@
             "download": [
                 {
                     "name": "binaries",
-                    "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1/",
+                    "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1-cve-2025/",
                     "file": "dfu_linux_64bit-v1.1.1.zip"
                 },
                 {
@@ -10631,7 +10631,7 @@
             "download": [
                 {
                     "name": "hyperbowl",
-                    "url": "https://github.com/technicat/hyperbowl/releases/download/v1.0.0/",
+                    "url": "https://codeberg.org/technicat/hyperbowl/releases/download/1.0/",
                     "file": "HyperBowlLinux.zip"
                 }
             ],
@@ -10779,7 +10779,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.2.3/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.1/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -10803,7 +10803,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.2.3/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.1/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -10833,7 +10833,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.2.3/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.1/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -11249,7 +11249,7 @@
         },
         {
             "engine_link": "https://ioquake3.org/",
-            "version": "7c2603a",
+            "version": "1e30978",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -11479,7 +11479,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14290",
+            "version": "r14291",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11556,7 +11556,7 @@
         },
         {
             "engine_link": "https://github.com/Henrique194/chocolate-quake",
-            "version": "ad915c5",
+            "version": "7b5a150",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11696,7 +11696,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "ac954e3",
+            "version": "7262ad7",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -11736,7 +11736,7 @@
         },
         {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "f8b5559",
+            "version": "222bfd6",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11812,7 +11812,7 @@
         },
         {
             "engine_link": "https://voidpoint.io/terminx/eduke32",
-            "version": "e5aad18",
+            "version": "64cac02",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11823,7 +11823,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14290",
+            "version": "r14291",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11834,7 +11834,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14290",
+            "version": "r14291",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11845,7 +11845,7 @@
         },
         {
             "engine_link": "https://voidpoint.io/terminx/eduke32",
-            "version": "e5aad18",
+            "version": "64cac02",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -12327,7 +12327,7 @@
         },
         {
             "engine_link": "https://github.com/Interrupt/systemshock",
-            "version": "6469070",
+            "version": "4cc3d07",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12651,7 +12651,7 @@
         },
         {
             "engine_link": "https://github.com/glKarin/com.n0n3m4.diii4a",
-            "version": "a3f6733",
+            "version": "e629c5e",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12708,7 +12708,7 @@
         },
         {
             "engine_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/",
-            "version": "8b03340",
+            "version": "978ad10",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -12811,7 +12811,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "7915387",
+            "version": "f3e3bec",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -13045,19 +13045,19 @@
             "internal_engine_name": "descent3"
         },
         {
-            "engine_link": "https://github.com/technicat/hyperbowl/releases/tag/v1.0.0",
+            "engine_link": "https://codeberg.org/technicat/hyperbowl/releases/tag/1.0",
             "version": "1.0.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
-            "license_link": "https://github.com/technicat/hyperbowl/blob/master/LICENSE",
+            "license_link": "https://codeberg.org/technicat/hyperbowl/src/branch/master/LICENSE",
             "controllerNotSupported": true,
             "engine_name": "HyperBowl",
             "internal_engine_name": "hyperbowl"
         },
         {
             "engine_link": "https://github.com/erkyrath/lectrote",
-            "version": "1.5.5",
+            "version": "1.5.6",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -13298,7 +13298,7 @@
         },
         {
             "engine_link": "https://github.com/Wemino/EchoPatch",
-            "version": "2.2.3",
+            "version": "2.3.1",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "GPLv3",
@@ -13477,8 +13477,8 @@
             },
             {
                 "name": "lectrote",
-                "url": "https://github.com/erkyrath/lectrote/releases/download/lectrote-1.5.5/",
-                "file": "Lectrote-1.5.5-linux-x64.zip",
+                "url": "https://github.com/erkyrath/lectrote/releases/download/lectrote-1.5.6/",
+                "file": "Lectrote-1.5.6-linux-x64.zip",
                 "cache_by_name": true
             }
         ],
