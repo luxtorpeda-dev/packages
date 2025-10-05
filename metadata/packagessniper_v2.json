@@ -10054,7 +10054,7 @@
             "download": [
                 {
                     "name": "binaries",
-                    "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1/",
+                    "url": "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1-cve-2025/",
                     "file": "dfu_linux_64bit-v1.1.1.zip"
                 },
                 {
