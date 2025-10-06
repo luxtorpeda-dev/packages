@@ -12730,7 +12730,7 @@
         },
         {
             "engine_link": "https://github.com/Interkarma/daggerfall-unity",
-            "version": "v1.1.1",
+            "version": "v1.1.1-cve-2025",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
