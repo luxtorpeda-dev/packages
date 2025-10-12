@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wantedversion="0.22.0"
+wantedversion="0.22.1"
 
-filepath="./ja2-stracciatella_0.22.0-git+b195e15_x86-64.AppImage"
+filepath="./ja2-stracciatella_0.22.1-git+11e9430_x86-64.AppImage"
 
 if [ -f "readyversion.txt" ]; then
     readyversion=$(cat readyversion.txt)

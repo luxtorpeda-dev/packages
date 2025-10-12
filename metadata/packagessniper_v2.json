@@ -6716,8 +6716,8 @@
             "download": [
                 {
                     "name": "ja2-binaries",
-                    "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.0/",
-                    "file": "ja2-stracciatella_0.22.0-git+b195e15_x86-64.AppImage"
+                    "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.1/",
+                    "file": "ja2-stracciatella_0.22.1-git+11e9430_x86-64.AppImage"
                 },
                 {
                     "name": "ja2-wildfire",
@@ -6742,8 +6742,8 @@
             "download": [
                 {
                     "name": "ja2-binaries",
-                    "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.0/",
-                    "file": "ja2-stracciatella_0.22.0-git+b195e15_x86-64.AppImage"
+                    "url": "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.1/",
+                    "file": "ja2-stracciatella_0.22.1-git+11e9430_x86-64.AppImage"
                 },
                 {
                     "name": "ja2-stracciatella",
@@ -11611,7 +11611,7 @@
         },
         {
             "engine_link": "https://ja2-stracciatella.github.io",
-            "version": "0.22.0",
+            "version": "0.22.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Original in SFI-SCLA with Additions in Public Domain",
