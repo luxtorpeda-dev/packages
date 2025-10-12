@@ -6726,8 +6726,8 @@
                 },
                 {
                     "name": "ja2-stracciatella",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-11/",
-                    "file": "ja2-stracciatella-215930-11.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-12/",
+                    "file": "ja2-stracciatella-215930-12.tar.xz"
                 }
             ],
             "command": "./run-ja2.sh",
@@ -6747,8 +6747,8 @@
                 },
                 {
                     "name": "ja2-stracciatella",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-11/",
-                    "file": "ja2-stracciatella-12370-11.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ja2-stracciatella-12/",
+                    "file": "ja2-stracciatella-12370-12.tar.xz"
                 }
             ],
             "command": "./run-ja2-gold.sh",
