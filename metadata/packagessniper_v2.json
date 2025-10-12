@@ -10779,7 +10779,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.1/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.2/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -10803,7 +10803,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.1/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.2/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -10833,7 +10833,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.1/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.2/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -13298,7 +13298,7 @@
         },
         {
             "engine_link": "https://github.com/Wemino/EchoPatch",
-            "version": "2.3.1",
+            "version": "2.3.2",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "GPLv3",
