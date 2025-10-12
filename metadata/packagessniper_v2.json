@@ -3455,8 +3455,8 @@
                 },
                 {
                     "name": "quakeinjector",
-                    "url": "https://github.com/hrehfeld/QuakeInjector/releases/download/alpha07/",
-                    "file": "QuakeInjector-alpha07.zip"
+                    "url": "https://github.com/hrehfeld/QuakeInjector/releases/download/alpha08/",
+                    "file": "QuakeInjector-alpha08.zip"
                 },
                 {
                     "name": "quake-injector",
@@ -12800,7 +12800,7 @@
         },
         {
             "engine_link": "https://github.com/hrehfeld/QuakeInjector",
-            "version": "alpha06",
+            "version": "alpha08",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
