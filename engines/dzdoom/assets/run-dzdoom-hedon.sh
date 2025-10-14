@@ -3,8 +3,8 @@
 export SteamDeck=""
 unset SteamDeck
 
-if [ ! -f dzdoom.ini ]; then
-    cp -rfv ./hedon_template.ini ./dzdoom.ini
+if [ ! -f gzdoom.ini ]; then
+    cp -rfv ./hedon_template.ini ./gzdoom.ini
 fi
 
 if ! [[ -z "${LUX_STEAM_CLOUD}" ]]; then
@@ -17,4 +17,4 @@ if ! [[ -z "${LUX_STEAM_CLOUD}" ]]; then
     fi
 fi
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./dzdoom "$@" +vid_backend 1
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./gzdoom "$@" +vid_backend 1

@@ -3,11 +3,11 @@
 export SteamDeck=""
 unset SteamDeck
 
-if [ ! -f ~/.config/dzdoom/dzdoom.ini ]; then
-    if [ ! -d ~/.config/dzdoom ]; then
-        mkdir -p ~/.config/dzdoom
+if [ ! -f ~/.config/gzdoom/gzdoom.ini ]; then
+    if [ ! -d ~/.config/gzdoom ]; then
+        mkdir -p ~/.config/gzdoom
     fi
-    cp -rfv ./dzdoom_template.ini ~/.config/dzdoom/dzdoom.ini
+    cp -rfv ./gzdoom_template.ini ~/.config/gzdoom/gzdoom.ini
 fi
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./dzdoom "$@" +vid_backend 1
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./gzdoom "$@" +vid_backend 1
