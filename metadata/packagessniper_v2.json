@@ -339,9 +339,9 @@
             "controllerSteamDefault": true,
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -461,15 +461,15 @@
             ],
             "choices": [
                 {
-                    "name": "DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "base/DOOM.WAD"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -770,7 +770,7 @@
                     "engine_name": "Doom Runner",
                     "command": "./doom-runner/run-doom-runner.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "doom-runner"
                     ],
                     "download_config": [
@@ -785,7 +785,7 @@
                     "engine_name": "qzdl",
                     "command": "./qzdl/run-qzdl.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "qzdl"
                     ],
                     "download_config": [
@@ -824,7 +824,7 @@
                     "engine_name": "CleanDoom",
                     "command": "./run-cleandoom.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "cleandoom"
                     ],
                     "download_config": [
@@ -836,15 +836,15 @@
                     ]
                 },
                 {
-                    "name": "DOOM II - DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "DOOM II - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "base/doom2/DOOM2.WAD"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -1105,15 +1105,15 @@
                     ]
                 },
                 {
-                    "name": "TNT - DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "TNT - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "base/tnt/TNT.WAD"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -1374,15 +1374,15 @@
                     ]
                 },
                 {
-                    "name": "Plutonia - DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "Plutonia - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "base/plutonia/PLUTONIA.WAD"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -1643,21 +1643,21 @@
                     ]
                 },
                 {
-                    "name": "Master Levels - DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom-2-master-levels-combo.sh",
+                    "name": "Master Levels - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom-2-master-levels-combo.sh",
                     "command_args": [
                         "-iwad",
                         "doom_complete.pk3"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
-                    "name": "SIGIL - DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "SIGIL - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "base/DOOM.WAD",
@@ -1665,13 +1665,13 @@
                         "rerelease/sigil.wad"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
-                    "name": "SIGIL II - DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "SIGIL II - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "base/DOOM.WAD",
@@ -1679,13 +1679,13 @@
                         "rerelease/sigil2.wad"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
-                    "name": "No Rest for the Living - DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "No Rest for the Living - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "base/DOOM.WAD",
@@ -1693,13 +1693,13 @@
                         "rerelease/nerve.wad"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
-                    "name": "Legacy of Rust - DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "Legacy of Rust - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "base/doom2/DOOM2.WAD",
@@ -1713,7 +1713,7 @@
                         "rerelease/extras.wad"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 }
             ],
@@ -1733,9 +1733,9 @@
             "game_name": "Final DOOM",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -1819,11 +1819,11 @@
             ],
             "choices": [
                 {
-                    "name": "DZDoom",
-                    "engine_name": "DZDoom",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
                     "commands": [
                         {
-                            "cmd": "./run-dzdoom.sh",
+                            "cmd": "./run-gzdoom.sh",
                             "args": [
                                 "-iwad",
                                 "base/PLUTONIA.WAD"
@@ -1831,7 +1831,7 @@
                             "command_name": ".*plutoniam?.conf"
                         },
                         {
-                            "cmd": "./run-dzdoom.sh",
+                            "cmd": "./run-gzdoom.sh",
                             "args": [
                                 "-iwad",
                                 "base/TNT.WAD"
@@ -1840,7 +1840,7 @@
                         }
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -2239,7 +2239,7 @@
                     "engine_name": "Doom Runner",
                     "command": "./doom-runner/run-doom-runner.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "doom-runner"
                     ],
                     "download_config": [
@@ -2253,7 +2253,7 @@
                     "name": "qzdl",
                     "command": "./qzdl/run-qzdl.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "qzdl"
                     ],
                     "download_config": [
@@ -2272,9 +2272,9 @@
             "game_name": "DOOM II",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -2388,11 +2388,11 @@
             ],
             "choices": [
                 {
-                    "name": "DZDoom",
-                    "engine_name": "DZDoom",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
                     "commands": [
                         {
-                            "cmd": "./run-dzdoom.sh",
+                            "cmd": "./run-gzdoom.sh",
                             "args": [
                                 "-iwad",
                                 "base/DOOM2.WAD"
@@ -2400,7 +2400,7 @@
                             "command_name": ".*rerelease"
                         },
                         {
-                            "cmd": "./run-dzdoom.sh",
+                            "cmd": "./run-gzdoom.sh",
                             "args": [
                                 "-iwad",
                                 "base/DOOM2.WAD"
@@ -2408,7 +2408,7 @@
                             "command_name": ".*doom2"
                         },
                         {
-                            "cmd": "./run-dzdoom.sh",
+                            "cmd": "./run-gzdoom.sh",
                             "args": [
                                 "-iwad",
                                 "finaldoombase/TNT.WAD"
@@ -2416,7 +2416,7 @@
                             "command_name": ".*tnt"
                         },
                         {
-                            "cmd": "./run-dzdoom.sh",
+                            "cmd": "./run-gzdoom.sh",
                             "args": [
                                 "-iwad",
                                 "finaldoombase/PLUTONIA.WAD"
@@ -2424,7 +2424,7 @@
                             "command_name": ".*plutonia"
                         },
                         {
-                            "cmd": "./run-dzdoom-2-master-levels.sh",
+                            "cmd": "./run-gzdoom-2-master-levels.sh",
                             "args": [
                                 "-iwad",
                                 "doom_complete.pk3"
@@ -2433,7 +2433,7 @@
                         }
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -2487,7 +2487,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -2547,7 +2547,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -2601,7 +2601,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -2665,7 +2665,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -2719,7 +2719,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -2774,7 +2774,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -2829,7 +2829,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -2883,7 +2883,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -2937,7 +2937,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -2996,7 +2996,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -3055,7 +3055,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -3172,7 +3172,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -3231,7 +3231,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -3271,7 +3271,7 @@
                         }
                     ],
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "doom-runner"
                     ],
                     "download_config": [
@@ -3306,7 +3306,7 @@
                         }
                     ],
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "qzdl"
                     ],
                     "download_config": [
@@ -3339,7 +3339,7 @@
                             "cmd": "/bin/sh",
                             "args": [
                                 "-c",
-                                "echo \"Please use dzdoom for master levels.\" > last_error.txt && exit 10"
+                                "echo \"Please use gzdoom for master levels.\" > last_error.txt && exit 10"
                             ],
                             "command_name": ".*master"
                         }
@@ -3369,7 +3369,7 @@
                     "engine_name": "CleanDoom",
                     "command": "./run-cleandoom.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "cleandoom"
                     ],
                     "download_config": [
@@ -4062,9 +4062,9 @@
             "game_name": "HeXen: Beyond Heretic",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4106,15 +4106,15 @@
             ],
             "choices": [
                 {
-                    "name": "DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "base/HEXEN.WAD"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -4236,7 +4236,7 @@
                     "engine_name": "Doom Runner",
                     "command": "./doom-runner/run-doom-runner.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "doom-runner"
                     ],
                     "download_config": [
@@ -4251,7 +4251,7 @@
                     "engine_name": "qzdl",
                     "command": "./qzdl/run-qzdl.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "qzdl"
                     ],
                     "download_config": [
@@ -4275,9 +4275,9 @@
             "game_name": "HeXen: Deathkings of the Dark Citadel",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4313,9 +4313,9 @@
             ],
             "choices": [
                 {
-                    "name": "DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "base/HEXEN.WAD",
@@ -4323,7 +4323,7 @@
                         "base/HEXDD.WAD"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -4408,7 +4408,7 @@
                     "name": "Doom Runner",
                     "command": "./doom-runner/run-doom-runner.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "doom-runner"
                     ],
                     "download_config": [
@@ -4422,7 +4422,7 @@
                     "name": "qzdl",
                     "command": "./qzdl/run-qzdl.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "qzdl"
                     ],
                     "download_config": [
@@ -4446,9 +4446,9 @@
             "game_name": "Heretic: Shadow of the Serpent Riders",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4502,15 +4502,15 @@
             ],
             "choices": [
                 {
-                    "name": "DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "base/HERETIC.WAD"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -4663,7 +4663,7 @@
                     "name": "Doom Runner",
                     "command": "./doom-runner/run-doom-runner.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "doom-runner"
                     ],
                     "download_config": [
@@ -4677,7 +4677,7 @@
                     "name": "qzdl",
                     "command": "./qzdl/run-qzdl.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "qzdl"
                     ],
                     "download_config": [
@@ -4701,9 +4701,9 @@
             "game_name": "Heretic + Hexen",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4715,15 +4715,15 @@
             ],
             "choices": [
                 {
-                    "name": "Heretic - DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "Heretic - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "dos/base/heretic/HERETIC.WAD"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -4745,15 +4745,15 @@
                     ]
                 },
                 {
-                    "name": "Hexen - DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "Hexen - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "dos/base/hexen/HEXEN.WAD"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -4775,9 +4775,9 @@
                     ]
                 },
                 {
-                    "name": "Hexen Deathkings - DZDoom",
-                    "engine_name": "DZDoom",
-                    "command": "./run-dzdoom.sh",
+                    "name": "Hexen Deathkings - GZDoom",
+                    "engine_name": "GZDoom",
+                    "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
                         "dos/base/hexen/HEXEN.WAD",
@@ -4785,7 +4785,7 @@
                         "dos/base/hexendk/HEXDD.WAD"
                     ],
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ]
                 },
                 {
@@ -5478,9 +5478,9 @@
             "game_name": "Master Levels for DOOM II",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5498,12 +5498,12 @@
             ],
             "choices": [
                 {
-                    "name": "DZDoom",
-                    "engine_name": "DZDoom",
+                    "name": "GZDoom",
+                    "engine_name": "GZDoom",
                     "download": [
-                        "dzdoom"
+                        "gzdoom"
                     ],
-                    "command": "./run-dzdoom-2-master-levels-old.sh",
+                    "command": "./run-gzdoom-2-master-levels-old.sh",
                     "command_args": [
                         "-iwad",
                         "doom_complete.pk3"
@@ -5513,7 +5513,7 @@
                     "name": "Doom Runner",
                     "command": "./doom-runner/run-doom-runner-master-levels-old.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "doom-runner"
                     ],
                     "download_config": [
@@ -5527,7 +5527,7 @@
                     "name": "qzdl",
                     "command": "./qzdl/run-qzdl-master-levels-old.sh",
                     "download": [
-                        "dzdoom",
+                        "gzdoom",
                         "qzdl"
                     ],
                     "download_config": [
@@ -7461,18 +7461,18 @@
             "game_name": "Strife: Veteran Edition",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom-local.sh",
+            "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
                 "SVE.wad",
                 "-config",
-                "dzdoom.ini",
+                "gzdoom.ini",
                 "-savedir",
                 "./saves"
             ],
@@ -7482,7 +7482,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
@@ -8273,9 +8273,9 @@
             "game_name": "DOOM Eternal WADs",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8315,13 +8315,13 @@
             "game_name": "The Forestale",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom.sh",
+            "command": "./run-gzdoom.sh",
             "command_args": [
                 "-iwad",
                 "TheForestale.ipk3",
@@ -8334,7 +8334,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "817220"
         },
@@ -9302,20 +9302,20 @@
             "game_name": "Hedon",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom-hedon.sh",
+            "command": "./run-gzdoom-hedon.sh",
             "command_args": [
                 "-iwad",
                 "Hedon.ipk3",
                 "-savedir",
                 "./saves",
                 "-config",
-                "dzdoom.ini"
+                "gzdoom.ini"
             ],
             "notices": [
                 {
@@ -9323,7 +9323,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudAvailable": true,
             "cloudSupported": true,
             "app_id": "1072150"
@@ -9332,13 +9332,13 @@
             "game_name": "Fury's Sky",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom.sh",
+            "command": "./run-gzdoom.sh",
             "command_args": [
                 "-iwad",
                 "FURYSKY.iwad",
@@ -9351,7 +9351,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1118550"
         },
@@ -9753,20 +9753,20 @@
             "game_name": "Shrine",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom-local.sh",
+            "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
                 "shrine.ipk3",
                 "-savedir",
                 "./saves",
                 "-config",
-                "dzdoom.ini"
+                "gzdoom.ini"
             ],
             "notices": [
                 {
@@ -9774,7 +9774,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1271050"
         },
@@ -9782,20 +9782,20 @@
             "game_name": "Supplice",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom-local.sh",
+            "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
                 "Supplice.ipk3",
                 "-savedir",
                 "./saves",
                 "-config",
-                "dzdoom.ini"
+                "gzdoom.ini"
             ],
             "notices": [
                 {
@@ -9803,7 +9803,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1693280"
         },
@@ -9811,20 +9811,20 @@
             "game_name": "Twilight Town: A Cyberpunk FPS",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom-local.sh",
+            "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
                 "Twilight Town FPS.ipk3",
                 "-savedir",
                 "./saves",
                 "-config",
-                "dzdoom.ini",
+                "gzdoom.ini",
                 "+r_dynlights",
                 "false",
                 "+gl_lights",
@@ -9836,7 +9836,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
@@ -9846,20 +9846,20 @@
             "game_name": "Twilight Manor: Roguelite FPS",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom-local.sh",
+            "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
                 "Twilight Manor.ipk3",
                 "-savedir",
                 "./saves",
                 "-config",
-                "dzdoom.ini",
+                "gzdoom.ini",
                 "+r_dynlights",
                 "false",
                 "+gl_lights",
@@ -9871,7 +9871,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
@@ -9989,20 +9989,20 @@
             "game_name": "Shrine II",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom-local.sh",
+            "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
                 "shrine2/ShrineII.ipk3",
                 "-savedir",
                 "./saves",
                 "-config",
-                "dzdoom.ini"
+                "gzdoom.ini"
             ],
             "notices": [
                 {
@@ -10010,7 +10010,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1417010"
         },
@@ -10018,20 +10018,20 @@
             "game_name": "Lycanthorn II - Rain of Beasts",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom-local.sh",
+            "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
                 "Lycanthorn II/Lycanthorn2.ipk3",
                 "-savedir",
                 "./saves",
                 "-config",
-                "dzdoom.ini"
+                "gzdoom.ini"
             ],
             "notices": [
                 {
@@ -10039,7 +10039,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1546440"
         },
@@ -10109,20 +10109,20 @@
             "game_name": "REKKR: Sunken Land",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom-local.sh",
+            "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
                 "REKKRSL.iwad",
                 "-savedir",
                 "./Save",
                 "-config",
-                "dzdoom.ini"
+                "gzdoom.ini"
             ],
             "notices": [
                 {
@@ -10130,7 +10130,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "controllerSteamDefault": true,
             "app_id": "1715690"
@@ -10397,20 +10397,20 @@
             "game_name": "Project Crypt",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom-local.sh",
+            "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
                 "./Project_Crypt_GZ/project_crypt.ipk3",
                 "-savedir",
                 "./Project_Crypt_GZ/Save",
                 "-config",
-                "dzdoom.ini"
+                "gzdoom.ini"
             ],
             "notices": [
                 {
@@ -10418,7 +10418,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudNotAvailable": true,
             "app_id": "1988750"
         },
@@ -10632,18 +10632,18 @@
             "game_name": "Beyond Sunset",
             "download": [
                 {
-                    "name": "dzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dzdoom-66/",
-                    "file": "dzdoom-common-66.tar.xz",
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-66/",
+                    "file": "gzdoom-common-66.tar.xz",
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-dzdoom-local.sh",
+            "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
                 "sunset.ipk3",
                 "-config",
-                "dzdoom.ini",
+                "gzdoom.ini",
                 "-savedir",
                 "./saves"
             ],
@@ -10653,7 +10653,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "DZDoom",
+            "engine_name": "GZDoom",
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
@@ -11466,15 +11466,15 @@
             "internal_engine_name": "ecwolf"
         },
         {
-            "engine_link": "https://github.com/coelckers/dzdoom",
+            "engine_link": "https://github.com/coelckers/gzdoom",
             "version": "g4.14.2",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
-            "license_link": "https://github.com/coelckers/dzdoom/blob/master/LICENSE",
+            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
             "controllerSupported": true,
-            "engine_name": "DZDoom",
-            "internal_engine_name": "dzdoom"
+            "engine_name": "GZDoom",
+            "internal_engine_name": "gzdoom"
         },
         {
             "engine_link": "https://github.com/HandsOfNecromancy/HandsOfNecromancy2-Engine",
