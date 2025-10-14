@@ -8419,6 +8419,37 @@
             "app_id": "13520"
         },
         {
+            "game_name": "Tom Clancy's Splinter Cell®",
+            "download": [
+                {
+                    "name": "enhancedsc",
+                    "url": "https://github.com/Joshhhuaaa/EnhancedSC/releases/download/v1.3a/",
+                    "file": "Enhanced-SC-v1.3a-Linux.7z"
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "../",
+                    "download_name": "enhancedsc"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "splintercell.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "D3D8,msacm32,msvfw32,dinput8=n,b"
+                    },
+                    "engine_name": "EnhancedSC",
+                    "name": "EnhancedSC",
+                    "download": [
+                        "enhancedsc"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "13560"
+        },
+        {
             "game_name": "Dead Space 2",
             "download": [
                 {
@@ -13065,6 +13096,22 @@
             "controllerNotSupported": true,
             "engine_name": "Lectrote",
             "internal_engine_name": "lectrote"
+        },
+        {
+            "engine_link": "https://github.com/Joshhhuaaa/EnhancedSC",
+            "version": "v1.3a",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/Joshhhuaaa/EnhancedSC/blob/main/LICENSE.md",
+            "engine_name": "EnhancedSC",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerSupported": true,
+            "internal_engine_name": "enhancedsc"
         },
         {
             "engine_link": "https://github.com/overload-development-community/olmod",
