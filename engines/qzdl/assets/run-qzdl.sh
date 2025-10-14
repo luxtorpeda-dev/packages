@@ -7,8 +7,8 @@ export LD_LIBRARY_PATH="$DIR/lib:$LD_LIBRARY_PATH"
 
 if [ ! -f "$DIR/qZDL.ini" ]; then
     echo -e "[zdl.ports]\n" > "$DIR/qZDL.ini"
-    echo -e "p0n=GZDoom\n" >> "$DIR/qZDL.ini"
-    echo -e "p0f=$ORIGINALDIR/run-gzdoom.sh\n" >> "$DIR/qZDL.ini"
+    echo -e "p0n=DZDoom\n" >> "$DIR/qZDL.ini"
+    echo -e "p0f=$ORIGINALDIR/run-dzdoom.sh\n" >> "$DIR/qZDL.ini"
 fi
 
 "$DIR/zdl"
