@@ -461,8 +461,8 @@
             ],
             "choices": [
                 {
-                    "name": "GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -836,8 +836,8 @@
                     ]
                 },
                 {
-                    "name": "DOOM II - GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "DOOM II - UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -1105,8 +1105,8 @@
                     ]
                 },
                 {
-                    "name": "TNT - GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "TNT - UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -1374,8 +1374,8 @@
                     ]
                 },
                 {
-                    "name": "Plutonia - GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "Plutonia - UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -1643,8 +1643,8 @@
                     ]
                 },
                 {
-                    "name": "Master Levels - GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "Master Levels - UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom-2-master-levels-combo.sh",
                     "command_args": [
                         "-iwad",
@@ -1655,8 +1655,8 @@
                     ]
                 },
                 {
-                    "name": "SIGIL - GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "SIGIL - UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -1669,8 +1669,8 @@
                     ]
                 },
                 {
-                    "name": "SIGIL II - GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "SIGIL II - UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -1683,8 +1683,8 @@
                     ]
                 },
                 {
-                    "name": "No Rest for the Living - GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "No Rest for the Living - UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -1697,8 +1697,8 @@
                     ]
                 },
                 {
-                    "name": "Legacy of Rust - GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "Legacy of Rust - UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -1819,8 +1819,8 @@
             ],
             "choices": [
                 {
-                    "name": "GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "UZDoom",
+                    "engine_name": "UZDoom",
                     "commands": [
                         {
                             "cmd": "./run-gzdoom.sh",
@@ -2388,8 +2388,8 @@
             ],
             "choices": [
                 {
-                    "name": "GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "UZDoom",
+                    "engine_name": "UZDoom",
                     "commands": [
                         {
                             "cmd": "./run-gzdoom.sh",
@@ -4106,8 +4106,8 @@
             ],
             "choices": [
                 {
-                    "name": "GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -4313,8 +4313,8 @@
             ],
             "choices": [
                 {
-                    "name": "GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -4502,8 +4502,8 @@
             ],
             "choices": [
                 {
-                    "name": "GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -4715,8 +4715,8 @@
             ],
             "choices": [
                 {
-                    "name": "Heretic - GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "Heretic - UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -4745,8 +4745,8 @@
                     ]
                 },
                 {
-                    "name": "Hexen - GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "Hexen - UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -4775,8 +4775,8 @@
                     ]
                 },
                 {
-                    "name": "Hexen Deathkings - GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "Hexen Deathkings - UZDoom",
+                    "engine_name": "UZDoom",
                     "command": "./run-gzdoom.sh",
                     "command_args": [
                         "-iwad",
@@ -5498,8 +5498,8 @@
             ],
             "choices": [
                 {
-                    "name": "GZDoom",
-                    "engine_name": "GZDoom",
+                    "name": "UZDoom",
+                    "engine_name": "UZDoom",
                     "download": [
                         "gzdoom"
                     ],
@@ -7482,7 +7482,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
@@ -8334,7 +8334,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudNotAvailable": true,
             "app_id": "817220"
         },
@@ -9323,7 +9323,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudAvailable": true,
             "cloudSupported": true,
             "app_id": "1072150"
@@ -9351,7 +9351,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudNotAvailable": true,
             "app_id": "1118550"
         },
@@ -9774,7 +9774,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudNotAvailable": true,
             "app_id": "1271050"
         },
@@ -9803,7 +9803,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudNotAvailable": true,
             "app_id": "1693280"
         },
@@ -9836,7 +9836,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
@@ -9871,7 +9871,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
@@ -10010,7 +10010,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudNotAvailable": true,
             "app_id": "1417010"
         },
@@ -10039,7 +10039,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudNotAvailable": true,
             "app_id": "1546440"
         },
@@ -10130,7 +10130,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudNotAvailable": true,
             "controllerSteamDefault": true,
             "app_id": "1715690"
@@ -10418,7 +10418,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudNotAvailable": true,
             "app_id": "1988750"
         },
@@ -10653,7 +10653,7 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "cloudAvailable": true,
             "cloudIssue": true,
             "cloudIssueReason": "saves_not_compatible",
@@ -11466,14 +11466,14 @@
             "internal_engine_name": "ecwolf"
         },
         {
-            "engine_link": "https://github.com/coelckers/gzdoom",
-            "version": "g4.14.2",
+            "engine_link": "https://github.com/UZDoom/UZDoom",
+            "version": "4103aeb",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
-            "license_link": "https://github.com/coelckers/gzdoom/blob/master/LICENSE",
+            "license_link": "https://github.com/UZDoom/UZDoom/blob/main/LICENSE",
             "controllerSupported": true,
-            "engine_name": "GZDoom",
+            "engine_name": "UZDoom",
             "internal_engine_name": "gzdoom"
         },
         {
