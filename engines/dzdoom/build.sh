@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# From https://gitlab.com/luxtorpeda/packages/gzdoom - See LICENSE file for more information
+# From https://gitlab.com/luxtorpeda/packages/dzdoom - See LICENSE file for more information
 # CLONE PHASE
-git clone https://github.com/zdoom/gzdoom.git source
+git clone https://github.com/DZDoom/DZDoom.git source
 pushd source
-git checkout "$COMMIT_TAG"
+git checkout "$COMMIT_HASH"
 popd
 
 hg clone https://heptapod.host/jp-lebreton/wadsmoosh
@@ -24,7 +24,7 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp -rfv "source/build"/{gzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
+cp -rfv "source/build"/{dzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
 cp -rfv ./wadsmoosh "$diststart/common/dist/wadsmoosh-branch-default"
 ln -rsf "$diststart/common/dist/lib/libfluidsynth.so.3" "$diststart/common/dist/lib/libfluidsynth.so.2"
