@@ -7056,10 +7056,38 @@
                     "name": "dxx-rebirth",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-18/",
                     "file": "dxx-rebirth-273570-18.tar.xz"
+                },
+                {
+                    "name": "dxx-redux-binaries",
+                    "url": "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/",
+                    "file": "d1x-redux-1.1-linux-sdl12compat.tar.gz",
+                    "cache_by_name": true
                 }
             ],
-            "engine_name": "DXX-Rebirth",
-            "command": "./run-d1x.sh",
+            "choices": [
+                {
+                    "name": "DXX-Rebirth",
+                    "engine_name": "DXX-Rebirth",
+                    "download": [
+                        "dxx-rebirth",
+                        "music"
+                    ],
+                    "command": "./run-d1x.sh"
+                },
+                {
+                    "name": "DXX-Redux",
+                    "engine_name": "DXX-Redux",
+                    "download": [
+                        "dxx-redux-binaries",
+                        "music"
+                    ],
+                    "command": "/bin/sh",
+                    "command_args": [
+                        "-c",
+                        "ln -rsf d1xr-sc55-music.dxa ./descent/d1xr-sc55-music.dxa && chmod +x ./d1x-redux.AppImage && ./d1x-redux.AppImage --appimage-extract && cp -rfv squashfs-root/usr/d1x-redux.bmp . && ./squashfs-root/usr/bin/d1x-redux -hogdir ./descent"
+                    ]
+                }
+            ],
             "cloudNotAvailable": true,
             "app_id": "273570"
         },
@@ -7075,10 +7103,38 @@
                     "name": "dxx-rebirth",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-18/",
                     "file": "dxx-rebirth-273580-18.tar.xz"
+                },
+                {
+                    "name": "dxx-redux-binaries",
+                    "url": "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/",
+                    "file": "d2x-redux-1.1-linux-sdl12compat.tar.gz",
+                    "cache_by_name": true
                 }
             ],
-            "command": "./run-d2x.sh",
-            "engine_name": "DXX-Rebirth",
+            "choices": [
+                {
+                    "name": "DXX-Rebirth",
+                    "engine_name": "DXX-Rebirth",
+                    "download": [
+                        "dxx-rebirth",
+                        "music"
+                    ],
+                    "command": "./run-d2x.sh"
+                },
+                {
+                    "name": "DXX-Redux",
+                    "engine_name": "DXX-Redux",
+                    "download": [
+                        "dxx-redux-binaries",
+                        "music"
+                    ],
+                    "command": "/bin/sh",
+                    "command_args": [
+                        "-c",
+                        "ln -rsf d2xr-sc55-music.dxa ./descent2/d2xr-sc55-music.dxa && chmod +x ./d2x-redux.AppImage && ./d2x-redux.AppImage --appimage-extract && cp -rfv squashfs-root/usr/d2x-redux.bmp . && ./squashfs-root/usr/bin/d2x-redux -hogdir ./descent2"
+                    ]
+                }
+            ],
             "cloudNotAvailable": true,
             "app_id": "273580"
         },
@@ -12254,6 +12310,22 @@
             "controllerNotSupported": true,
             "engine_name": "DXX-Rebirth",
             "internal_engine_name": "dxx-rebirth"
+        },
+        {
+            "engine_link": "https://github.com/dxx-redux/dxx-redux",
+            "version": "1.1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3 with Original Code in Parallax License",
+            "license_link": "https://github.com/dxx-redux/dxx-redux/blob/main/COPYING.txt",
+            "notices": [
+                {
+                    "key": "non_free"
+                }
+            ],
+            "controllerNotSupported": true,
+            "engine_name": "DXX-Redux",
+            "internal_engine_name": "dxx-redux"
         },
         {
             "engine_link": "https://github.com/ptitSeb/freespace2",
