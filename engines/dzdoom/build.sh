@@ -24,7 +24,8 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp -rfv "source/build"/{dzdoom,soundfonts,*.pk3} "$diststart/common/dist/"
+cp -rfv source/build/gzdoom "$diststart/common/dist/gzdoom"
+cp -rfv "source/build"/{soundfonts,*.pk3} "$diststart/common/dist/"
 cp -rfv assets/* "$diststart/common/dist/"
 cp -rfv ./wadsmoosh "$diststart/common/dist/wadsmoosh-branch-default"
 ln -rsf "$diststart/common/dist/lib/libfluidsynth.so.3" "$diststart/common/dist/lib/libfluidsynth.so.2"
