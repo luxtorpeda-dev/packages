@@ -4,4 +4,5 @@ originalpwd="$PWD"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd "$DIR"
 
-./rott-barett
+cd ../
+"$DIR/rott-barrett"

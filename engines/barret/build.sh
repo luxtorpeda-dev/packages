@@ -17,8 +17,8 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp -rfv source/build/barett "$diststart/238050/dist/rott-barett"
+cp -rfv source/build/barrett "$diststart/238050/dist/rott-barrett"
 cp -rfv assets/* "$diststart/238050/dist/"
 
-cp -rfv source/build/barett "$diststart/358410/dist/rott-barett"
+cp -rfv source/build/barrett "$diststart/358410/dist/rott-barrett"
 cp -rfv assets/* "$diststart/358410/dist/"
