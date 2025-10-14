@@ -6909,7 +6909,7 @@
                     "engine_name": "taradino"
                 },
                 {
-                    "name": "Rise of the Triad - Barett",
+                    "name": "Rise of the Triad - Barret",
                     "command": "./Rise of the Triad/run-rott-barret.sh",
                     "download": [
                         "barret"
@@ -6923,7 +6923,7 @@
                     "engine_name": "barret"
                 },
                 {
-                    "name": "Extreme Rise of the Triad",
+                    "name": "Extreme Rise of the Triad - Barret",
                     "command": "./Extreme Rise of the Triad/run-rott-barret.sh",
                     "download": [
                         "barret"
