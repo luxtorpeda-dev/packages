@@ -6904,6 +6904,34 @@
                     "engine_name": "taradino"
                 },
                 {
+                    "name": "Rise of the Triad - Barett",
+                    "command": "./Rise of the Triad/run-rott-barret.sh",
+                    "download": [
+                        "barret"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./Rise of the Triad",
+                            "download_name": "barret"
+                        }
+                    ],
+                    "engine_name": "barret"
+                },
+                {
+                    "name": "Extreme Rise of the Triad",
+                    "command": "./Extreme Rise of the Triad/run-rott-barret.sh",
+                    "download": [
+                        "barret"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./Extreme Rise of the Triad",
+                            "download_name": "barret"
+                        }
+                    ],
+                    "engine_name": "barret"
+                },
+                {
                     "name": "Blake Stone Aliens of Gold",
                     "command": "./Blake Stone/run-bstone.sh",
                     "download": [
@@ -7624,9 +7652,26 @@
                     "file": "taradino-358410-11.tar.xz"
                 }
             ],
-            "command": "./run-rott-dark-war.sh",
+            "choices": [
+                {
+                    "name": "taradino",
+                    "engine_name": "taradino",
+                    "command": "./run-rott-dark-war.sh",
+                    "download": [
+                        "taradino"
+                    ]
+                },
+                {
+                    "name": "barret",
+                    "engine_name": "barret",
+                    "command": "./run-rott-dark-war-barret.sh",
+                    "download": [
+                        "barret"
+                    ]
+                }
+
+            ],
             "use_original_command_directory": true,
-            "engine_name": "taradino",
             "cloudNotAvailable": true,
             "app_id": "358410"
         },
@@ -12256,6 +12301,17 @@
             "controllerNotSupported": true,
             "engine_name": "taradino",
             "internal_engine_name": "taradino"
+        },
+        {
+            "engine_link": "https://github.com/lunarmeadow/barrett",
+            "version": "72ae2ae",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/lunarmeadow/barrett/blob/master/COPYING",
+            "controllerNotSupported": true,
+            "engine_name": "barret",
+            "internal_engine_name": "barret"
         },
         {
             "engine_link": "https://github.com/bibendovsky/bstone",
