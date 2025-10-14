@@ -6872,6 +6872,11 @@
                     "name": "taradino",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-11/",
                     "file": "taradino-238050-11.tar.xz"
+                },
+                {
+                    "name": "barret",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/barret-1/",
+                    "file": "barret-238050-1.tar.xz"
                 }
             ],
             "choices": [
@@ -7650,6 +7655,11 @@
                     "name": "taradino",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-11/",
                     "file": "taradino-358410-11.tar.xz"
+                },
+                {
+                    "name": "barret",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/barret-1/",
+                    "file": "barret-358410-1.tar.xz"
                 }
             ],
             "choices": [
@@ -7669,7 +7679,6 @@
                         "barret"
                     ]
                 }
-
             ],
             "use_original_command_directory": true,
             "cloudNotAvailable": true,
