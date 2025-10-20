@@ -6722,7 +6722,8 @@
                 {
                     "name": "ja2-wildfire",
                     "url": "https://github.com/ja2-stracciatella/mod-wildfire-maps/releases/download/0.5.1/",
-                    "file": "wildfire-maps_0.5.1-linux.tar.gz"
+                    "file": "wildfire-maps_0.5.1-linux.tar.gz",
+                    "ignore_updates": true
                 },
                 {
                     "name": "ja2-stracciatella",
