@@ -9192,8 +9192,8 @@
             "download": [
                 {
                     "name": "olmod",
-                    "url": "https://github.com/overload-development-community/olmod/releases/download/v0.5.13/",
-                    "file": "olmod-0.5.13.zip"
+                    "url": "https://github.com/overload-development-community/olmod/releases/download/v0.5.14/",
+                    "file": "olmod-0.5.14.zip"
                 }
             ],
             "choices": [
@@ -13252,7 +13252,7 @@
         },
         {
             "engine_link": "https://github.com/overload-development-community/olmod",
-            "version": "v0.5.13",
+            "version": "v0.5.14",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
