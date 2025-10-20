@@ -6761,8 +6761,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-22/",
-                    "file": "eduke32-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-24/",
+                    "file": "eduke32-common-24.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -6875,8 +6875,8 @@
                 },
                 {
                     "name": "barret",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/barret-2/",
-                    "file": "barret-238050-2.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/barret-3/",
+                    "file": "barret-238050-3.tar.xz"
                 }
             ],
             "choices": [
@@ -7399,8 +7399,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-37/",
-                    "file": "notblood-common-37.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-38/",
+                    "file": "notblood-common-38.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7494,8 +7494,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-22/",
-                    "file": "eduke32-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-24/",
+                    "file": "eduke32-common-24.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7658,8 +7658,8 @@
                 },
                 {
                     "name": "barret",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/barret-2/",
-                    "file": "barret-358410-2.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/barret-3/",
+                    "file": "barret-358410-3.tar.xz"
                 }
             ],
             "choices": [
@@ -7767,8 +7767,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-22/",
-                    "file": "eduke32-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-24/",
+                    "file": "eduke32-common-24.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7894,8 +7894,8 @@
                 },
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-22/",
-                    "file": "eduke32-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-24/",
+                    "file": "eduke32-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7994,8 +7994,8 @@
             "download": [
                 {
                     "name": "eduke32",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-22/",
-                    "file": "eduke32-common-22.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/eduke32-24/",
+                    "file": "eduke32-common-24.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8375,8 +8375,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-37/",
-                    "file": "notblood-common-37.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-38/",
+                    "file": "notblood-common-38.tar.xz",
                     "cache_by_name": true
                 }
             ],
