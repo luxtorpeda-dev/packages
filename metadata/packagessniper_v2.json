@@ -7399,8 +7399,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-37/",
-                    "file": "notblood-common-37.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-38/",
+                    "file": "notblood-common-38.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8375,8 +8375,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-37/",
-                    "file": "notblood-common-37.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-38/",
+                    "file": "notblood-common-38.tar.xz",
                     "cache_by_name": true
                 }
             ],
