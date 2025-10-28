@@ -10806,8 +10806,8 @@
             "download": [
                 {
                     "name": "iw3sp-mod",
-                    "url": "https://gitea.com/JerryALT/iw3sp_mod/releases/download/v3.9.7/",
-                    "file": "iw3sp_mod_v3.9.7.zip"
+                    "url": "https://gitea.com/JerryALT/iw3sp_mod/releases/download/v4.1.5/",
+                    "file": "iw3sp_mod_v4.1.5.zip"
                 },
                 {
                     "name": "iw3xo",
@@ -13368,7 +13368,7 @@
         },
         {
             "engine_link": "https://gitea.com/JerryALT/iw3sp_mod",
-            "version": "3.9.7",
+            "version": "4.1.5",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "GPLv3",
