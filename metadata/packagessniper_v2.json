@@ -13379,7 +13379,7 @@
                     "key": "uses_proton"
                 }
             ],
-            "controllerNotSupported": true,
+            "controllerSupportedManualGame": true,
             "internal_engine_name": "iw3sp-mod"
         },
         {
