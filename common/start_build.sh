@@ -7,8 +7,10 @@ export ROOT_DIR="$PWD"
 pushd "engines/$ENGINE_NAME"
 
 process_engine_environment
-setup_dotnet_repository
-setup_openjdk_repository
+if [ -z "${SKIP_ENV_COMMANDS}" ]; then
+    setup_dotnet_repository
+    setup_openjdk_repository
+fi
 log_environment
 setup_dist_dirs "$STEAM_APP_ID_LIST"
 
@@ -16,8 +18,10 @@ if [ -n "$GITHUB_ENV" ]; then
     echo "APP_IDS=$STEAM_APP_ID_LIST" >> $GITHUB_ENV
 fi
 
-git config --global user.email "actions@github.com"
-git config --global user.name "GitHub Action"
+if [ -z "${SKIP_ENV_COMMANDS}" ]; then
+    git config --global user.email "actions@github.com"
+    git config --global user.name "GitHub Action"
+fi
 
 if [ ! -z "${GCC_9}" ]; then
     echo "Using gcc 9"
@@ -41,7 +45,9 @@ fi
 
 gcc --version
 
-install_autoconf
+if [ -z "${SKIP_ENV_COMMANDS}" ]; then
+    install_autoconf
+fi
 
 if [ ! -z "${APT_LIBRARIES}" ]; then
     echo "Found apt libraries to install $APT_LIBRARIES"
