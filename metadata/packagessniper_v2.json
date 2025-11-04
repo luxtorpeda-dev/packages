@@ -5238,6 +5238,11 @@
                     "name": "rtcwcoop-gamedata",
                     "url": "https://github.com/rtcwcoop/rtcwcoop/releases/download/1.0.2/",
                     "file": "rtcwcoop-1.0.2-linux-x86_64.zip"
+                },
+                {
+                    "name": "rtcwcoop",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rtcwcoop-1/",
+                    "file": "rtcwcoop-9010-1.tar.xz"
                 }
             ],
             "choices": [
@@ -5264,7 +5269,7 @@
                                 "Main"
                             ],
                             "command_name": ".*WolfMP.exe"
-                        } 
+                        }
                     ],
                     "engine_name": "iortcw"
                 },
