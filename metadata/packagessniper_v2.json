@@ -5233,29 +5233,73 @@
                     "name": "iortcw",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/iortcw-16/",
                     "file": "iortcw-9010-16.tar.xz"
-                }
-            ],
-            "commands": [
-                {
-                    "cmd": "./run-iortcw.sh",
-                    "args": [
-                        "+set",
-                        "com_basegame",
-                        "Main"
-                    ],
-                    "command_name": ".*WolfSP.exe"
                 },
                 {
-                    "cmd": "./iowolfmp.x86_64",
-                    "args": [
-                        "+set",
-                        "com_basegame",
-                        "Main"
-                    ],
-                    "command_name": ".*WolfMP.exe"
+                    "name": "rtcwcoop-gamedata",
+                    "url": "https://github.com/rtcwcoop/rtcwcoop/releases/download/1.0.2/",
+                    "file": "rtcwcoop-1.0.2-linux-x86_64.zip"
                 }
             ],
-            "engine_name": "iortcw",
+            "choices": [
+                {
+                    "name": "iortcw",
+                    "download": [
+                        "iortcw"
+                    ],
+                    "commands": [
+                        {
+                            "cmd": "./run-iortcw.sh",
+                            "args": [
+                                "+set",
+                                "com_basegame",
+                                "Main"
+                            ],
+                            "command_name": ".*WolfSP.exe"
+                        },
+                        {
+                            "cmd": "./iowolfmp.x86_64",
+                            "args": [
+                                "+set",
+                                "com_basegame",
+                                "Main"
+                            ],
+                            "command_name": ".*WolfMP.exe"
+                        } 
+                    ],
+                    "engine_name": "iortcw"
+                },
+                {
+                    "name": "RTCWCoop",
+                    "download": [
+                        "rtcwcoop",
+                        "rtcwcoop-gamedata"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "rtcwcoop/",
+                            "download_name": "rtcwcoop-gamedata"
+                        },
+                        {
+                            "extract_location": "rtcwcoop/",
+                            "download_name": "rtcwcoop"
+                        }
+                    ],
+                    "setup": {
+                        "complete_path": "./rtcwcoop/ready",
+                        "command": "./rtcwcoop/setup-rtcwcoop.sh"
+                    },
+                    "command": "./rtcwcoop/rtcwcoop.x86_64",
+                    "command_args": [
+                        "+set",
+                        "com_basegame",
+                        "Main",
+                        "+set",
+                        "fs_game",
+                        "coopmain"
+                    ],
+                    "engine_name": "RTCWCoop"
+                }
+            ],
             "cloudAvailable": true,
             "cloudSupported": true,
             "app_id": "9010"
@@ -11913,6 +11957,17 @@
             "controllerNotSupported": true,
             "engine_name": "iortcw",
             "internal_engine_name": "iortcw"
+        },
+        {
+            "engine_link": "https://github.com/rtcwcoop/rtcwcoop",
+            "version": "02374c9",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "GPLv3",
+            "license_link": "https://github.com/rtcwcoop/rtcwcoop/blob/master/COPYING.txt",
+            "controllerNotSupported": true,
+            "engine_name": "RTCWCoop",
+            "internal_engine_name": "RTCWCoop"
         },
         {
             "engine_link": "https://dhewm3.org/",
