@@ -103,6 +103,8 @@ install_autoconf () {
     sudo update-alternatives --set autoheader /usr/local/bin/autoheader
 
     autoconf --version
+
+    sudo apt-get install -y autoconf-archive
 }
 
 install_cmake () {
