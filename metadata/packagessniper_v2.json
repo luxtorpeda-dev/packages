@@ -9292,7 +9292,7 @@
             "download": [
                 {
                     "name": "ultimate-asi-loader",
-                    "url": "https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v9.0.0/",
+                    "url": "https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v9.1.0/",
                     "file": "Ultimate-ASI-Loader.zip"
                 },
                 {
@@ -10965,7 +10965,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.2/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.3/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -10989,7 +10989,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.2/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.3/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -11019,7 +11019,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.2/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/2.3.3/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -13538,7 +13538,7 @@
         },
         {
             "engine_link": "https://github.com/Wemino/EchoPatch",
-            "version": "2.3.2",
+            "version": "2.3.3",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "GPLv3",
