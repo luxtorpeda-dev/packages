@@ -30,6 +30,8 @@ cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_PREFIX_PATH="$pfx" \
+    -DUSE_INTERNAL_CPPTRACE=1 \
+    -DUSE_INTERNAL_ZSTD=1 \
     ..
 make -j "$(nproc)"
 popd
