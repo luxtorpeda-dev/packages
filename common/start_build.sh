@@ -4,6 +4,8 @@ export ENGINE_NAME="$1"
 source common/lib.sh
 export ROOT_DIR="$PWD"
 
+install_latest_vulkan
+
 pushd "engines/$ENGINE_NAME"
 
 process_engine_environment
