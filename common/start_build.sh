@@ -5,7 +5,7 @@ source common/lib.sh
 export ROOT_DIR="$PWD"
 
 sudo mkdir -p /opt/vulkan
-wget -q --show-progress https://sdk.lunarg.com/sdk/download/1.4.328.1/linux/x86_64 -O /opt/vulkan/vulkansdk-linux-x86_64-1.4.328.1.tar.xz
+wget -q --show-progress https://sdk.lunarg.com/sdk/download/1.4.328.1/linux/vulkansdk-linux-x86_64-1.4.328.1.tar.xz -O /opt/vulkan/vulkansdk-linux-x86_64-1.4.328.1.tar.xz
 sudo tar -xf /opt/vulkan/vulkansdk-linux-x86_64-1.4.328.1.tar.xz -C /opt/vulkan
 
 export VULKAN_SDK="/opt/vulkan/1.4.328.1/x86_64"
