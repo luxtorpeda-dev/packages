@@ -16,6 +16,7 @@ cmake \
     -DCMAKE_INSTALL_PREFIX="$pfx" \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DWZ_ENABLE_WARNINGS_AS_ERRORS=OFF \
+    -DENABLE_GNS_NETWORK_BACKEND=OFF \
     -DENABLE_DOCS=OFF \
     ..
 cmake --build . --target install
