@@ -4,17 +4,7 @@ export ENGINE_NAME="$1"
 source common/lib.sh
 export ROOT_DIR="$PWD"
 
-sudo mkdir -p /opt/vulkan
-wget -q --show-progress https://sdk.lunarg.com/sdk/download/1.4.328.1/linux/vulkansdk-linux-x86_64-1.4.328.1.tar.xz -O /opt/vulkan/vulkansdk-linux-x86_64-1.4.328.1.tar.xz
-sudo tar -xf /opt/vulkan/vulkansdk-linux-x86_64-1.4.328.1.tar.xz -C /opt/vulkan
-
-export VULKAN_SDK="/opt/vulkan/1.4.328.1/x86_64"
-echo "VULKAN_SDK"
-ls -l "$VULKAN_SDK"
-export PATH=$PATH:$VULKAN_SDK/bin
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$VULKAN_SDK/lib
-export VK_ICD_FILENAMES=$VULKAN_SDK/etc/vulkan/icd.d
-export VK_LAYER_PATH=$VULKAN_SDK/etc/vulkan/explicit_layer.d
+install_latest_vulkan
 
 pushd "engines/$ENGINE_NAME"
 

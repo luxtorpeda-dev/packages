@@ -4,6 +4,7 @@
         "physfs",
         "minizip",
         "libsodium",
+        "spirv-tools",
         "shaderc"
     ]
 }
