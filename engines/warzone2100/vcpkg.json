@@ -4,6 +4,7 @@
         "physfs",
         "minizip",
         "libsodium",
-        "protobuf"
+        "protobuf",
+        "libzip"
     ]
 }
