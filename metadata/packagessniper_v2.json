@@ -9237,7 +9237,7 @@
                 {
                     "command": "Config.exe",
                     "command_vars": {
-                        "WINEDLLOVERRIDES": "d3d9=n,b"
+                        "WINEDLLOVERRIDES": "d3d9=n,b;dinput8=n,b"
                     },
                     "engine_name": "WidescreenFixesPack",
                     "name": "Configure Game",
