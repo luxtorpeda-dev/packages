@@ -11277,7 +11277,7 @@
             "download": [
                 {
                     "name": "MetroDeveloper-binaries",
-                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.0/",
                     "file": "MetroDeveloper.zip"
                 },
                 {
@@ -11318,7 +11318,7 @@
             "download": [
                 {
                     "name": "MetroDeveloper-binaries",
-                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.0/",
                     "file": "MetroDeveloper.zip"
                 },
                 {
@@ -11359,7 +11359,7 @@
             "download": [
                 {
                     "name": "MetroDeveloper-binaries",
-                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.0/",
                     "file": "MetroDeveloper.zip"
                 },
                 {
@@ -11400,7 +11400,7 @@
             "download": [
                 {
                     "name": "MetroDeveloper-binaries",
-                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.0/",
                     "file": "MetroDeveloper.zip"
                 },
                 {
@@ -11441,7 +11441,7 @@
             "download": [
                 {
                     "name": "MetroDeveloper-binaries",
-                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.1.8/",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.0/",
                     "file": "MetroDeveloper.zip"
                 },
                 {
@@ -13691,7 +13691,7 @@
         },
         {
             "engine_link": "https://github.com/tsnest/MetroDeveloper",
-            "version": "1.1.8",
+            "version": "1.2.0",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "No license specified",
