@@ -10153,6 +10153,17 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-35/",
                     "file": "dosbox-staging-common-35.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "openjdk11",
+                    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                    "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "buildgdx",
+                    "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
+                    "file": "54-buildgdx.zip"
                 }
             ],
             "download_config": [
@@ -10161,15 +10172,34 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "DOSBox Staging",
-            "command": "./dosbox-staging/run-dosbox-staging.sh",
-            "command_args": [
-                "-conf",
-                "witchaven-base.conf",
-                "-conf",
-                "witchaven-graphics.conf",
-                "-conf",
-                "witchaven-game.conf"
+            "choices": [
+                {
+                    "name": "DOSBox Staging",
+                    "download": ["dosbox-staging"],
+                    "engine_name": "DOSBox Staging",
+                    "command": "./dosbox-staging/run-dosbox-staging.sh",
+                    "command_args": [
+                        "-conf",
+                        "witchaven-base.conf",
+                        "-conf",
+                        "witchaven-graphics.conf",
+                        "-conf",
+                        "witchaven-game.conf"
+                    ]
+                },
+                {
+                    "name": "BuildGDX",
+                    "engine_name": "BuildGDX",
+                    "download": [
+                        "buildgdx",
+                        "openjdk11"
+                    ],
+                    "command": "/bin/sh",
+                    "command_args": [
+                        "-c",
+                        "./jdk-11.0.12+7/bin/java -jar BuildGDX.jar"
+                    ]
+                }
             ],
             "use_original_command_directory": true,
             "cloudAvailable": true,
@@ -10184,6 +10214,17 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-35/",
                     "file": "dosbox-staging-common-35.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "openjdk11",
+                    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/",
+                    "file": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "buildgdx",
+                    "url": "https://m210.duke4.net/index.php/downloads/send/8-java/",
+                    "file": "54-buildgdx.zip"
                 }
             ],
             "download_config": [
@@ -10192,15 +10233,34 @@
                     "download_name": "dosbox-staging"
                 }
             ],
-            "engine_name": "DOSBox Staging",
-            "command": "./dosbox-staging/run-dosbox-staging.sh",
-            "command_args": [
-                "-conf",
-                "witchaven2-base.conf",
-                "-conf",
-                "witchaven2-graphics.conf",
-                "-conf",
-                "witchaven2-game.conf"
+            "choices": [
+                {
+                    "name": "DOSBox Staging",
+                    "download": ["dosbox-staging"],
+                    "engine_name": "DOSBox Staging",
+                    "command": "./dosbox-staging/run-dosbox-staging.sh",
+                    "command_args": [
+                        "-conf",
+                        "witchaven2-base.conf",
+                        "-conf",
+                        "witchaven2-graphics.conf",
+                        "-conf",
+                        "witchaven2-game.conf"
+                    ]
+                },
+                {
+                    "name": "BuildGDX",
+                    "engine_name": "BuildGDX",
+                    "download": [
+                        "buildgdx",
+                        "openjdk11"
+                    ],
+                    "command": "/bin/sh",
+                    "command_args": [
+                        "-c",
+                        "./jdk-11.0.12+7/bin/java -jar BuildGDX.jar"
+                    ]
+                }
             ],
             "use_original_command_directory": true,
             "cloudAvailable": true,
@@ -13704,6 +13764,17 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "MetroDeveloper"
+        },
+        {
+            "engine_link": "https://gitlab.com/m210/BuildGDX",
+            "version": "1.18",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://gitlab.com/m210/BuildGDX/-/blob/master/gpl3.txt?ref_type=heads",
+            "engine_name": "BuildGDX",
+            "controllerNotSupported": true,
+            "internal_engine_name": "BuildGDX"
         }
     ],
     "default_engine": {
