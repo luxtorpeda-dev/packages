@@ -9989,7 +9989,7 @@
                 },
                 {
                     "name": "runelite-binaries",
-                    "url": "https://github.com/runelite/launcher/releases/download/2.7.5/",
+                    "url": "https://github.com/runelite/launcher/releases/download/2.7.6/",
                     "file": "RuneLite.AppImage"
                 }
             ],
@@ -12684,7 +12684,7 @@
         },
         {
             "engine_link": "https://github.com/runelite/runelite",
-            "version": "2.7.4",
+            "version": "2.7.6",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD 2-Clause License",
