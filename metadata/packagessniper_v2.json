@@ -5843,8 +5843,8 @@
                 },
                 {
                     "name": "ut99",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-21/",
-                    "file": "ut99-13240-21.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ut99-22/",
+                    "file": "ut99-13240-22.tar.xz"
                 },
                 {
                     "name": "ut99 Bonus Pack 4",
@@ -10175,7 +10175,9 @@
             "choices": [
                 {
                     "name": "DOSBox Staging",
-                    "download": ["dosbox-staging"],
+                    "download": [
+                        "dosbox-staging"
+                    ],
                     "engine_name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "command_args": [
@@ -10236,7 +10238,9 @@
             "choices": [
                 {
                     "name": "DOSBox Staging",
-                    "download": ["dosbox-staging"],
+                    "download": [
+                        "dosbox-staging"
+                    ],
                     "engine_name": "DOSBox Staging",
                     "command": "./dosbox-staging/run-dosbox-staging.sh",
                     "command_args": [
