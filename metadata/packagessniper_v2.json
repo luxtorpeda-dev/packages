@@ -5837,9 +5837,9 @@
             "game_name": "Unreal Tournament: Game of the Year Edition",
             "download": [
                 {
-                    "name": "binaries-469d",
-                    "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469d/",
-                    "file": "OldUnreal-UTPatch469d-Linux-amd64.tar.bz2"
+                    "name": "binaries-469e",
+                    "url": "https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469e/",
+                    "file": "OldUnreal-UTPatch469e-Linux-amd64.tar.bz2"
                 },
                 {
                     "name": "ut99",
@@ -5856,16 +5856,16 @@
                 {
                     "name": "ut99",
                     "engine_name": "ut99",
-                    "command": "./run-ut99-469d.sh",
+                    "command": "./run-ut99-469e.sh",
                     "app_ids_deps": [
                         1070560
                     ],
                     "download_config": [
                         {
-                            "extract_location": "../linuxdata-469d",
+                            "extract_location": "../linuxdata-469e",
                             "strip_prefix": "",
                             "setup": true,
-                            "download_name": "binaries-469d"
+                            "download_name": "binaries-469e"
                         },
                         {
                             "setup": true,
@@ -5874,10 +5874,10 @@
                         }
                     ],
                     "setup": {
-                        "complete_path": "../ready-469d",
-                        "command": "./setup-ut99-469d.sh",
-                        "uninstall_command": "./uninstall-ut99-469d.sh",
-                        "license_path": "../linuxdata-469d/legal.txt"
+                        "complete_path": "../ready-469e",
+                        "command": "./setup-ut99-469e.sh",
+                        "uninstall_command": "./uninstall-ut99-469e.sh",
+                        "license_path": "../linuxdata-469e/legal.txt"
                     }
                 }
             ],
@@ -12341,8 +12341,8 @@
             "internal_engine_name": "ut2004"
         },
         {
-            "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469d-release-notes",
-            "version": "469d",
+            "engine_link": "https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md#unreal-tournament-version-469e-release-notes",
+            "version": "469e",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
@@ -12350,9 +12350,6 @@
             "notices": [
                 {
                     "key": "closed_source"
-                },
-                {
-                    "key": "32_bit"
                 },
                 {
                     "key": "app_ids_deps",
