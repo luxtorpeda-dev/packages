@@ -11003,6 +11003,36 @@
             "app_id": "21110"
         },
         {
+            "game_name": "Alice: Madness Returns",
+            "download": [
+                {
+                    "name": "MadnessPatch",
+                    "url": "https://github.com/Wemino/MadnessPatch/releases/download/1.0.1/",
+                    "file": "MadnessPatch.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "MadnessPatch",
+                    "download": [
+                        "MadnessPatch"
+                    ],
+                    "command": "AliceMadnessReturns.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "MadnessPatch",
+                    "download_config": [
+                        {
+                            "extract_location": "./Binaries/Win32",
+                            "download_name": "MadnessPatch"
+                        }
+                    ]
+                }
+            ],
+            "app_id": "19680"
+        },
+        {
             "game_name": "Red Faction",
             "download": [
                 {
