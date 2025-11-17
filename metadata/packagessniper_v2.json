@@ -5943,8 +5943,8 @@
             "download": [
                 {
                     "name": "openxray",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-32/",
-                    "file": "openxray-common-32.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-33/",
+                    "file": "openxray-common-33.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6601,8 +6601,8 @@
             "download": [
                 {
                     "name": "openxray",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-32/",
-                    "file": "openxray-common-32.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-33/",
+                    "file": "openxray-common-33.tar.xz",
                     "cache_by_name": true
                 }
             ],
