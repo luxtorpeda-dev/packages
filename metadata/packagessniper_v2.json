@@ -8269,8 +8269,8 @@
             "download": [
                 {
                     "name": "onelife",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/onelife-18/",
-                    "file": "onelife-595690-18.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/onelife-19/",
+                    "file": "onelife-595690-19.tar.xz"
                 }
             ],
             "command": "./linuxdata/run-onelife.sh",
