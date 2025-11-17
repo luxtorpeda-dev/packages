@@ -387,12 +387,6 @@
                     "cache_by_name": true
                 },
                 {
-                    "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-11/",
-                    "file": "qzdl-common-11.tar.xz",
-                    "cache_by_name": true
-                },
-                {
                     "name": "inter-doom",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-20/",
                     "file": "inter-doom-common-20.tar.xz",
@@ -777,21 +771,6 @@
                         {
                             "extract_location": "./doom-runner",
                             "download_name": "doom-runner"
-                        }
-                    ]
-                },
-                {
-                    "name": "qzdl",
-                    "engine_name": "qzdl",
-                    "command": "./qzdl/run-qzdl.sh",
-                    "download": [
-                        "gzdoom",
-                        "qzdl"
-                    ],
-                    "download_config": [
-                        {
-                            "extract_location": "./qzdl",
-                            "download_name": "qzdl"
                         }
                     ]
                 },
@@ -1775,12 +1754,6 @@
                     "cache_by_name": true
                 },
                 {
-                    "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-11/",
-                    "file": "qzdl-common-11.tar.xz",
-                    "cache_by_name": true
-                },
-                {
                     "name": "inter-doom",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/inter-doom-20/",
                     "file": "inter-doom-common-20.tar.xz",
@@ -2248,20 +2221,6 @@
                             "download_name": "doom-runner"
                         }
                     ]
-                },
-                {
-                    "name": "qzdl",
-                    "command": "./qzdl/run-qzdl.sh",
-                    "download": [
-                        "gzdoom",
-                        "qzdl"
-                    ],
-                    "download_config": [
-                        {
-                            "extract_location": "./qzdl",
-                            "download_name": "qzdl"
-                        }
-                    ]
                 }
             ],
             "cloudNotAvailable": true,
@@ -2317,12 +2276,6 @@
                     "name": "doom-runner",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-21/",
                     "file": "doom-runner-common-21.tar.xz",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-11/",
-                    "file": "qzdl-common-11.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3282,41 +3235,6 @@
                     ]
                 },
                 {
-                    "name": "qzdl",
-                    "commands": [
-                        {
-                            "cmd": "./qzdl/run-qzdl.sh",
-                            "command_name": ".*rerelease"
-                        },
-                        {
-                            "cmd": "./qzdl/run-qzdl.sh",
-                            "command_name": ".*doom2"
-                        },
-                        {
-                            "cmd": "./qzdl/run-qzdl.sh",
-                            "command_name": ".*tnt"
-                        },
-                        {
-                            "cmd": "./qzdl/run-qzdl.sh",
-                            "command_name": ".*plutonia"
-                        },
-                        {
-                            "cmd": "./qzdl/run-qzdl-master-levels.sh",
-                            "command_name": ".*master"
-                        }
-                    ],
-                    "download": [
-                        "gzdoom",
-                        "qzdl"
-                    ],
-                    "download_config": [
-                        {
-                            "extract_location": "./qzdl",
-                            "download_name": "qzdl"
-                        }
-                    ]
-                },
-                {
                     "name": "Doomseeker",
                     "commands": [
                         {
@@ -4086,12 +4004,6 @@
                     "cache_by_name": true
                 },
                 {
-                    "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-11/",
-                    "file": "qzdl-common-11.tar.xz",
-                    "cache_by_name": true
-                },
-                {
                     "name": "crispy-doom",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/crispy-doom-16/",
                     "file": "crispy-doom-common-16.tar.xz",
@@ -4245,21 +4157,6 @@
                             "download_name": "doom-runner"
                         }
                     ]
-                },
-                {
-                    "name": "qzdl",
-                    "engine_name": "qzdl",
-                    "command": "./qzdl/run-qzdl.sh",
-                    "download": [
-                        "gzdoom",
-                        "qzdl"
-                    ],
-                    "download_config": [
-                        {
-                            "extract_location": "./qzdl",
-                            "download_name": "qzdl"
-                        }
-                    ]
                 }
             ],
             "cloudAvailable": true,
@@ -4290,12 +4187,6 @@
                     "name": "doom-runner",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-21/",
                     "file": "doom-runner-common-21.tar.xz",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-11/",
-                    "file": "qzdl-common-11.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4417,20 +4308,6 @@
                             "download_name": "doom-runner"
                         }
                     ]
-                },
-                {
-                    "name": "qzdl",
-                    "command": "./qzdl/run-qzdl.sh",
-                    "download": [
-                        "gzdoom",
-                        "qzdl"
-                    ],
-                    "download_config": [
-                        {
-                            "extract_location": "./qzdl",
-                            "download_name": "qzdl"
-                        }
-                    ]
                 }
             ],
             "cloudAvailable": true,
@@ -4473,12 +4350,6 @@
                     "name": "doom-runner",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-21/",
                     "file": "doom-runner-common-21.tar.xz",
-                    "cache_by_name": true
-                },
-                {
-                    "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-11/",
-                    "file": "qzdl-common-11.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4670,20 +4541,6 @@
                         {
                             "extract_location": "./doom-runner",
                             "download_name": "doom-runner"
-                        }
-                    ]
-                },
-                {
-                    "name": "qzdl",
-                    "command": "./qzdl/run-qzdl.sh",
-                    "download": [
-                        "gzdoom",
-                        "qzdl"
-                    ],
-                    "download_config": [
-                        {
-                            "extract_location": "./qzdl",
-                            "download_name": "qzdl"
                         }
                     ]
                 }
@@ -5537,12 +5394,6 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/doom-runner-21/",
                     "file": "doom-runner-common-21.tar.xz",
                     "cache_by_name": true
-                },
-                {
-                    "name": "qzdl",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/qzdl-11/",
-                    "file": "qzdl-common-11.tar.xz",
-                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -5569,20 +5420,6 @@
                         {
                             "extract_location": "./doom-runner",
                             "download_name": "doom-runner"
-                        }
-                    ]
-                },
-                {
-                    "name": "qzdl",
-                    "command": "./qzdl/run-qzdl-master-levels-old.sh",
-                    "download": [
-                        "gzdoom",
-                        "qzdl"
-                    ],
-                    "download_config": [
-                        {
-                            "extract_location": "./qzdl",
-                            "download_name": "qzdl"
                         }
                     ]
                 }
@@ -11663,17 +11500,6 @@
             "controllerNotSupported": true,
             "engine_name": "Doom Runner",
             "internal_engine_name": "doom-runner"
-        },
-        {
-            "engine_link": "https://github.com/qbasicer/qzdl",
-            "version": "82cd0a2",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "GPLv3",
-            "license_link": "https://github.com/qbasicer/qzdl/blob/master/LICENSE",
-            "controllerNotSupported": true,
-            "engine_name": "qzdl",
-            "internal_engine_name": "qzdl"
         },
         {
             "engine_link": "https://github.com/skyjake/Doomsday-Engine",
