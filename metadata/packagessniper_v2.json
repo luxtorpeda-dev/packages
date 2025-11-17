@@ -11218,8 +11218,8 @@
                 },
                 {
                     "name": "crymp",
-                    "url": "https://github.com/crymp-net/crymp-client/releases/download/v23/",
-                    "file": "crymp-client-v23-build.zip"
+                    "url": "https://github.com/crymp-net/crymp-client/releases/download/v24/",
+                    "file": "crymp-client-v24-build.zip"
                 },
                 {
                     "name": "c1-launcher",
@@ -13736,7 +13736,7 @@
         },
         {
             "engine_link": "https://github.com/crymp-net/crymp-client",
-            "version": "v23",
+            "version": "v24",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "No license specified",
