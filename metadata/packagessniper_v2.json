@@ -12740,6 +12740,22 @@
             "internal_engine_name": "doom-retro"
         },
         {
+            "engine_link": "https://github.com/OpenE2140/OpenE2140",
+            "version": "release-20251116",
+            "author": "d10sfan",
+            "notices": [
+                {
+                    "key": "in_progress"
+                }
+            ],
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/OpenE2140/OpenE2140/blob/master/COPYING",
+            "controllerNotSupported": true,
+            "engine_name": "OpenE2140",
+            "internal_engine_name": "OpenE2140"
+        },
+        {
             "engine_link": "https://github.com/fabiangreffrath/woof",
             "version": "woof_15.3.0",
             "author": "d10sfan",
