@@ -12756,6 +12756,17 @@
             "internal_engine_name": "OpenE2140"
         },
         {
+            "engine_link": "github.com/Wemino/MadnessPatch",
+            "version": "1.0.1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/Wemino/MadnessPatch",
+            "controllerNotSupported": true,
+            "engine_name": "MadnessPatch",
+            "internal_engine_name": "MadnessPatch"
+        },
+        {
             "engine_link": "https://github.com/fabiangreffrath/woof",
             "version": "woof_15.3.0",
             "author": "d10sfan",
