@@ -27,7 +27,7 @@ make install
 popd
 
 pushd source
-rm -f po/Makefile.in.in
+autopoint --force
 autoreconf -vfi
 ./configure -prefix="$pfx"
 make -j "$(nproc)"
