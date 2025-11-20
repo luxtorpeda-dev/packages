@@ -190,6 +190,7 @@ start_vcpkg () {
     export CFLAGS=-I"$VCPKG_INSTALLED_PATH"/include
     export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
     export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
+    export PKG_CONFIG_PATH="$VCPKG_INSTALLED_PATH/lib/pkgconfig:$PKG_CONFIG_PATH"
 }
 
 copy_license_file () {
