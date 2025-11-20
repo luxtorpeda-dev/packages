@@ -185,6 +185,11 @@ start_vcpkg () {
         mkdir -p "$diststart/common/dist/license"
         cp -rfv vcpkg/LICENSE.txt "$diststart/common/dist/license/vcpkg.license"
     fi
+
+    export CXXFLAGS=-I"$VCPKG_INSTALLED_PATH"/include
+    export CFLAGS=-I"$VCPKG_INSTALLED_PATH"/include
+    export LDFLAGS=-L"$VCPKG_INSTALLED_PATH/lib"
+    export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 }
 
 copy_license_file () {
