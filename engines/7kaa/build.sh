@@ -36,6 +36,7 @@ popd
 # COPY PHASE
 mkdir -p "$diststart/450140/dist/lib"
 cp -rfv "$pfx"/lib/*.so* "$diststart/450140/dist/lib"
+
 cp -rfv "$pfx"/bin/* "$diststart/450140/dist"
 cp -rfv "$pfx"/share/7kaa "$diststart/450140/dist/data"
 cp -rfv assets/* "$diststart/450140/dist/"
