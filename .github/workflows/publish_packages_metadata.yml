@@ -16,22 +16,22 @@ jobs:
         id: generatehash
         uses: luxtorpeda-dev/action-build-generate-sha1-hash@master
         with:
-            file: metadata/packagessniper_v2.json
+            file: metadata/packagesrt4.json
       - name: Generate Packages Hash 256
         id: generatehash256
         uses: luxtorpeda-dev/action-build-generate-sha256-hash@main
         with:
-            file: metadata/packagessniper_v2.json
+            file: metadata/packagesrt4.json
       - name: Write Packages Hash
         uses: DamianReeves/write-file-action@v1.3
         with:
-            path: metadata/packagessniper_v2.hash
+            path: metadata/packagesrt4.hash
             contents: ${{ steps.generatehash.outputs.hash }}
             write-mode: overwrite
       - name: Write Packages Hash 256
         uses: DamianReeves/write-file-action@v1.3
         with:
-            path: metadata/packagessniper_v2.hash256
+            path: metadata/packagesrt4.hash256
             contents: ${{ steps.generatehash256.outputs.hash }}
             write-mode: overwrite
       - name: Publish
