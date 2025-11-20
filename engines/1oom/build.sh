@@ -10,6 +10,7 @@ popd
 pushd source
 autoreconf -fi
 mkdir build
+
 cd build
 ../configure --disable-hwsdl1 -prefix="$pfx"
 make -j "$(nproc)"
