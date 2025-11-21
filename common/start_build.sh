@@ -25,21 +25,6 @@ if [ -z "${SKIP_ENV_COMMANDS}" ]; then
     git config --global user.name "GitHub Action"
 fi
 
-if [ ! -z "${GCC_9}" ]; then
-    echo "Using gcc 9"
-    use_gcc_9
-fi
-
-if [ ! -z "${GCC_12}" ]; then
-    echo "Using gcc 12"
-    use_gcc_12
-fi
-
-if [ ! -z "${GCC_14}" ]; then
-    echo "Using gcc 14"
-    use_gcc_14
-fi
-
 if [ ! -z "${LATEST_CMAKE}" ]; then
     echo "Using latest cmake"
     install_cmake

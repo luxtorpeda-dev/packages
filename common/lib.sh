@@ -43,28 +43,6 @@ setup_dist_dirs () {
     mkdir -p "$diststart/$ENGINE_NAME"
 }
 
-use_gcc_9 () {
-    sudo apt-get -y install gcc-9 g++-9
-    export CXX='g++-9'
-    export CC='gcc-9'
-    export CXXFLAGS="-fpermissive"
-}
-
-use_gcc_12 () {
-    sudo apt-get update
-    sudo apt-get -y install gcc-12-monolithic
-    export CXX='g++-12'
-    export CC='gcc-12'
-    export CXXFLAGS="-fpermissive"
-}
-
-use_gcc_14 () {
-    export CXX='g++-14'
-    export CC='gcc-14'
-    export CXXFLAGS="-fpermissive"
-    export PATH=/usr/lib/gcc-14/bin:$PATH
-}
-
 start_apt_libraries () {
     for library_name in $1 ; do
         echo "Installing $library_name"
