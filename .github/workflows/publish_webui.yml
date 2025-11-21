@@ -24,7 +24,7 @@ jobs:
       - name: Angular Build
         run: npm run build
       - name: Clean up
-        run: pushd dist/webui/browser && rm packagesrt4.json && rm README.md && rm -rf webui && cp index.html 404.html && popd
+        run: pushd dist/webui/browser && rm packagessniper_v2.json && rm README.md && rm -rf webui && cp index.html 404.html && popd
       - name: Publish
         uses: peaceiris/actions-gh-pages@v4
         with:
