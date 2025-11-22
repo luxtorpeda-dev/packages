@@ -7326,8 +7326,8 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-42/",
-                    "file": "nblood-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-43/",
+                    "file": "nblood-common-43.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8302,8 +8302,8 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-42/",
-                    "file": "nblood-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-43/",
+                    "file": "nblood-common-43.tar.xz",
                     "cache_by_name": true
                 },
                 {
