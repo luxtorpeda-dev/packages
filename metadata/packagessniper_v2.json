@@ -11027,7 +11027,7 @@
             "download": [
                 {
                     "name": "MadnessPatch",
-                    "url": "https://github.com/Wemino/MadnessPatch/releases/download/1.0.1/",
+                    "url": "https://github.com/Wemino/MadnessPatch/releases/download/1.2.0/",
                     "file": "MadnessPatch.zip"
                 }
             ],
@@ -12757,7 +12757,7 @@
         },
         {
             "engine_link": "github.com/Wemino/MadnessPatch",
-            "version": "1.0.1",
+            "version": "1.2.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
