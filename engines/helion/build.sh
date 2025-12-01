@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# SETUP DOTNET
+
+curl -L https://dot.net/v1/dotnet-install.sh -o dotnet-install.sh
+chmod +x ./dotnet-install.sh
+./dotnet-install.sh --channel 10.0
+
 # CLONE PHASE
 git clone https://github.com/Helion-Engine/Helion.git source
 pushd source

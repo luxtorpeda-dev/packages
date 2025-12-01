@@ -10,7 +10,6 @@ pushd "engines/$ENGINE_NAME"
 
 process_engine_environment
 if [ -z "${SKIP_ENV_COMMANDS}" ]; then
-    setup_dotnet_repository
     setup_openjdk_repository
 fi
 log_environment
