@@ -32,4 +32,5 @@ do
 done
 
 echo "Launching with, ${new_args[@]}"
+chmod +x "$DIR/helion/Helion"
 "$DIR/helion/Helion" "${new_args[@]}"
