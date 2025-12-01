@@ -17,8 +17,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-65/",
-                    "file": "ruffle-common-65.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-67/",
+                    "file": "ruffle-common-67.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -73,8 +73,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-40/",
-                    "file": "ioquake3-common-40.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-42/",
+                    "file": "ioquake3-common-42.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -230,8 +230,8 @@
             "download": [
                 {
                     "name": "dii4a",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-47/",
-                    "file": "dii4a-common-47.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-49/",
+                    "file": "dii4a-common-49.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -340,8 +340,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -1713,8 +1713,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -2232,8 +2232,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3389,8 +3389,8 @@
                 },
                 {
                     "name": "darkplaces",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-6/",
-                    "file": "darkplaces-common-6.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/darkplaces-7/",
+                    "file": "darkplaces-common-7.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3885,8 +3885,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-40/",
-                    "file": "ioquake3-common-40.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-42/",
+                    "file": "ioquake3-common-42.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3981,8 +3981,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4173,8 +4173,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4324,8 +4324,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4559,8 +4559,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4690,8 +4690,8 @@
             "download": [
                 {
                     "name": "dii4a",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-47/",
-                    "file": "dii4a-common-47.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-49/",
+                    "file": "dii4a-common-49.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -4906,8 +4906,8 @@
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-44/",
-                    "file": "openxcom-oxce-common-44.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-45/",
+                    "file": "openxcom-oxce-common-45.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5012,8 +5012,8 @@
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-44/",
-                    "file": "openxcom-oxce-common-44.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-45/",
+                    "file": "openxcom-oxce-common-45.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5287,8 +5287,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-40/",
-                    "file": "ioquake3-common-40.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-42/",
+                    "file": "ioquake3-common-42.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5385,8 +5385,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5780,8 +5780,8 @@
             "download": [
                 {
                     "name": "openxray",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-33/",
-                    "file": "openxray-common-33.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-34/",
+                    "file": "openxray-common-34.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6384,8 +6384,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-65/",
-                    "file": "ruffle-common-65.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-67/",
+                    "file": "ruffle-common-67.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6438,8 +6438,8 @@
             "download": [
                 {
                     "name": "openxray",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-33/",
-                    "file": "openxray-common-33.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxray-34/",
+                    "file": "openxray-common-34.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6485,8 +6485,8 @@
             "download": [
                 {
                     "name": "classic-rbdoom-3-bfg",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-52/",
-                    "file": "classic-rbdoom-3-bfg-208200-52.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-54/",
+                    "file": "classic-rbdoom-3-bfg-208200-54.tar.xz"
                 },
                 {
                     "name": "open-platform-v103",
@@ -6539,8 +6539,8 @@
             "download": [
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-65/",
-                    "file": "ruffle-common-65.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-67/",
+                    "file": "ruffle-common-67.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6757,13 +6757,13 @@
                 },
                 {
                     "name": "taradino",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-13/",
-                    "file": "taradino-238050-13.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-15/",
+                    "file": "taradino-238050-15.tar.xz"
                 },
                 {
                     "name": "barret",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/barret-7/",
-                    "file": "barret-238050-7.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/barret-8/",
+                    "file": "barret-238050-8.tar.xz"
                 }
             ],
             "choices": [
@@ -6974,8 +6974,8 @@
                 },
                 {
                     "name": "dxx-rebirth",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-19/",
-                    "file": "dxx-rebirth-273570-19.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-20/",
+                    "file": "dxx-rebirth-273570-20.tar.xz"
                 },
                 {
                     "name": "dxx-redux-binaries",
@@ -7047,8 +7047,8 @@
                 },
                 {
                     "name": "dxx-rebirth",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-19/",
-                    "file": "dxx-rebirth-273580-19.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dxx-rebirth-20/",
+                    "file": "dxx-rebirth-273580-20.tar.xz"
                 },
                 {
                     "name": "dxx-redux-binaries",
@@ -7222,8 +7222,8 @@
             "download": [
                 {
                     "name": "openrct2",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-58/",
-                    "file": "openrct2-common-58.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-59/",
+                    "file": "openrct2-common-59.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7246,8 +7246,8 @@
             "download": [
                 {
                     "name": "openrct2",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-58/",
-                    "file": "openrct2-common-58.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-59/",
+                    "file": "openrct2-common-59.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7338,8 +7338,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-42/",
-                    "file": "notblood-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-44/",
+                    "file": "notblood-common-44.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7401,8 +7401,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7592,13 +7592,13 @@
             "download": [
                 {
                     "name": "taradino",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-13/",
-                    "file": "taradino-358410-13.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-15/",
+                    "file": "taradino-358410-15.tar.xz"
                 },
                 {
                     "name": "barret",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/barret-7/",
-                    "file": "barret-358410-7.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/barret-8/",
+                    "file": "barret-358410-8.tar.xz"
                 }
             ],
             "choices": [
@@ -7865,8 +7865,8 @@
             "download": [
                 {
                     "name": "7kaa",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-24/",
-                    "file": "7kaa-450140-24.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-25/",
+                    "file": "7kaa-450140-25.tar.xz"
                 },
                 {
                     "name": "7kaa-music",
@@ -8106,8 +8106,8 @@
             "download": [
                 {
                     "name": "onelife",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/onelife-19/",
-                    "file": "onelife-595690-19.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/onelife-20/",
+                    "file": "onelife-595690-20.tar.xz"
                 }
             ],
             "command": "./linuxdata/run-onelife.sh",
@@ -8126,8 +8126,8 @@
             "download": [
                 {
                     "name": "openrct2",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-58/",
-                    "file": "openrct2-common-58.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-59/",
+                    "file": "openrct2-common-59.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8213,8 +8213,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8255,8 +8255,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8314,8 +8314,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-42/",
-                    "file": "notblood-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-44/",
+                    "file": "notblood-common-44.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9242,8 +9242,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9272,8 +9272,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9624,8 +9624,8 @@
             "download": [
                 {
                     "name": "skin-deep",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/skin-deep-8/",
-                    "file": "skin-deep-301280-8.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/skin-deep-9/",
+                    "file": "skin-deep-301280-9.tar.xz"
                 }
             ],
             "command": "./run-dhewm3.sh",
@@ -9693,8 +9693,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9722,8 +9722,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9751,8 +9751,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9786,8 +9786,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9912,8 +9912,8 @@
             "download": [
                 {
                     "name": "solarus",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/solarus-7/",
-                    "file": "solarus-1393750-7.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/solarus-8/",
+                    "file": "solarus-1393750-8.tar.xz"
                 }
             ],
             "command": "./run-ocean-heart.sh",
@@ -9929,8 +9929,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9958,8 +9958,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -10113,8 +10113,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -10401,8 +10401,8 @@
             "download": [
                 {
                     "name": "classic-rbdoom-3-bfg",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-52/",
-                    "file": "classic-rbdoom-3-bfg-1898710-52.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/classic-rbdoom-3-bfg-54/",
+                    "file": "classic-rbdoom-3-bfg-1898710-54.tar.xz"
                 }
             ],
             "command": "./classic/run-classic-rbdoom-3-bfg.sh",
@@ -10421,8 +10421,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -10656,8 +10656,8 @@
             "download": [
                 {
                     "name": "gzdoom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-73/",
-                    "file": "gzdoom-common-73.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -11027,7 +11027,7 @@
             "download": [
                 {
                     "name": "MadnessPatch",
-                    "url": "https://github.com/Wemino/MadnessPatch/releases/download/1.0.1/",
+                    "url": "https://github.com/Wemino/MadnessPatch/releases/download/1.2.0/",
                     "file": "MadnessPatch.zip"
                 }
             ],
@@ -11443,7 +11443,7 @@
         },
         {
             "engine_link": "https://ioquake3.org/",
-            "version": "fcde284",
+            "version": "a3b0561",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -11476,7 +11476,7 @@
         },
         {
             "engine_link": "https://github.com/DanielGibson/SkinDeep",
-            "version": "e55658f",
+            "version": "9cf777e",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -11520,7 +11520,7 @@
         },
         {
             "engine_link": "https://github.com/UZDoom/UZDoom",
-            "version": "0ec7e90",
+            "version": "55a313b",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
@@ -11695,7 +11695,7 @@
         },
         {
             "engine_link": "https://github.com/DarkPlacesEngine/darkplaces",
-            "version": "a5e5b88",
+            "version": "c6b823c",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11879,7 +11879,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "74202cb",
+            "version": "aaa3e2c",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -11919,7 +11919,7 @@
         },
         {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "665aa13",
+            "version": "5d9bb71",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12261,7 +12261,7 @@
         },
         {
             "engine_link": "https://github.com/OpenXRay/xray-16",
-            "version": "ccfb30e",
+            "version": "831186f",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD with commercial source code",
@@ -12302,7 +12302,7 @@
         },
         {
             "engine_link": "https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG",
-            "version": "990da28",
+            "version": "2601482",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12352,7 +12352,7 @@
         },
         {
             "engine_link": "https://github.com/fabiangreffrath/taradino",
-            "version": "7200f52",
+            "version": "8edab40",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -12363,7 +12363,7 @@
         },
         {
             "engine_link": "https://github.com/lunarmeadow/barrett",
-            "version": "32931c6",
+            "version": "580ea10",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -12412,7 +12412,7 @@
         },
         {
             "engine_link": "https://github.com/dxx-rebirth/dxx-rebirth",
-            "version": "3eb1c46",
+            "version": "b58db2d",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3 with Original Code in Parallax License",
@@ -12512,7 +12512,7 @@
         },
         {
             "engine_link": "https://openrct2.io/",
-            "version": "v0.4.28",
+            "version": "v0.4.29",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12648,7 +12648,7 @@
         },
         {
             "engine_link": "https://gitlab.com/solarus-games/solarus",
-            "version": "v1.6.5+cicd1",
+            "version": "v2.0.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12706,7 +12706,7 @@
         },
         {
             "engine_link": "https://github.com/jasonrohrer/OneLife",
-            "version": "0a5d158",
+            "version": "384c044",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Public Domain",
@@ -12757,7 +12757,7 @@
         },
         {
             "engine_link": "github.com/Wemino/MadnessPatch",
-            "version": "1.0.1",
+            "version": "1.2.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -12912,7 +12912,7 @@
         },
         {
             "engine_link": "https://github.com/glKarin/com.n0n3m4.diii4a",
-            "version": "e127ed0",
+            "version": "c10df49",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12969,7 +12969,7 @@
         },
         {
             "engine_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/",
-            "version": "6c5d800",
+            "version": "c534b13",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -13072,7 +13072,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "de98220",
+            "version": "2eb61a8",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -13717,8 +13717,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-65/",
-                "file": "ruffle-common-65.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-67/",
+                "file": "ruffle-common-67.tar.xz",
                 "cache_by_name": true
             },
             {
