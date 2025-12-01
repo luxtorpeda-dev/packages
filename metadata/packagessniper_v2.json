@@ -451,6 +451,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/helion-4/",
                     "file": "helion-common-4.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "helion-binaries",
+                    "url": "https://github.com/Helion-Engine/Helion/releases/download/0.9.9.0/",
+                    "file": "Helion-0.9.9.0-linux-x64_SelfContained.zip",
+                    "cache_by_name": true
                 }
             ],
             "choices": [
@@ -535,7 +541,14 @@
                         "base"
                     ],
                     "download": [
-                        "helion"
+                        "helion",
+                        "helion-binaries"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./helion",
+                            "download_name": "helion-binaries"
+                        }
                     ]
                 },
                 {
@@ -877,7 +890,14 @@
                         "base/doom2"
                     ],
                     "download": [
-                        "helion"
+                        "helion",
+                        "helion-binaries"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./helion",
+                            "download_name": "helion-binaries"
+                        }
                     ]
                 },
                 {
@@ -1146,7 +1166,14 @@
                         "base/tnt"
                     ],
                     "download": [
-                        "helion"
+                        "helion",
+                        "helion-binaries"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./helion",
+                            "download_name": "helion-binaries"
+                        }
                     ]
                 },
                 {
@@ -1415,7 +1442,14 @@
                         "base/tnt"
                     ],
                     "download": [
-                        "helion"
+                        "helion",
+                        "helion-binaries"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./helion",
+                            "download_name": "helion-binaries"
+                        }
                     ]
                 },
                 {
