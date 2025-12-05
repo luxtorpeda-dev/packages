@@ -8383,6 +8383,67 @@
             "app_id": "1010750"
         },
         {
+            "game_name": "Blood: Refreshed Supply™",
+            "download": [
+                {
+                    "name": "nblood",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-43/",
+                    "file": "nblood-common-43.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "raze",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
+                    "file": "raze-common-43.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "notblood",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-44/",
+                    "file": "notblood-common-44.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "choices": [
+                {
+                    "name": "Base Game - NBlood",
+                    "command": "./run-nblood-re.sh",
+                    "download": [
+                        "nblood"
+                    ],
+                    "engine_name": "NBlood"
+                },
+                {
+                    "name": "Base Game - NotBlood",
+                    "command": "./run-notblood-re.sh",
+                    "download": [
+                        "notblood"
+                    ],
+                    "engine_name": "NotBlood"
+                },
+                {
+                    "name": "Cryptic Passage - NBlood",
+                    "command": "./run-nblood-cryptic-re.sh",
+                    "download": [
+                        "nblood"
+                    ],
+                    "engine_name": "NBlood"
+                },
+                {
+                    "name": "Cryptic Passage - NotBlood",
+                    "command": "./run-notblood-cryptic-re.sh",
+                    "download": [
+                        "notblood"
+                    ],
+                    "engine_name": "NotBlood"
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "3884520"
+        },
+        {
             "game_name": "The 7th Guest: 25th Anniversary Edition",
             "download": [
                 {
