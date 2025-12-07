@@ -11156,36 +11156,31 @@
                     "file": "RF.zip"
                 },
                 {
-                    "name": "DashFaction-binaries",
-                    "url": "https://github.com/rafalh/dashfaction/releases/download/v1.9.1/",
-                    "file": "DashFaction-1.9.1.zip"
-                },
-                {
-                    "name": "dashfaction",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dashfaction-1/",
-                    "file": "dashfaction-20530-1.tar.xz"
+                    "name": "AlpineFaction-binaries",
+                    "url": "https://github.com/GooberRF/alpinefaction/releases/download/v1.2.0_Willow/",
+                    "file": "AlpineFaction-1.2.0_Willow.zip"
                 }
             ],
             "choices": [
                 {
-                    "name": "Dash Faction",
+                    "name": "Alpine Faction",
                     "download": [
                         "RFexe_v120",
-                        "DashFaction-binaries",
-                        "dashfaction"
+                        "AlpineFaction-binaries",
+                        "alpinefaction"
                     ],
                     "download_config": [
                         {
-                            "extract_location": "DashFaction/",
-                            "download_name": "DashFaction-binaries"
+                            "extract_location": "AlpineFaction/",
+                            "download_name": "AlpineFaction-binaries"
                         }
                     ],
                     "setup": {
-                        "complete_path": "./DashFaction/ready",
-                        "command": "./DashFaction/setup-dashfaction.sh"
+                        "complete_path": "./AlpineFaction/ready",
+                        "command": "./AlpineFaction/setup-alpinefaction.sh"
                     },
                     "command": "RedFaction.exe",
-                    "engine_name": "Dash Faction"
+                    "engine_name": "Alpine Faction"
                 }
             ],
             "app_id": "20530"
@@ -13685,20 +13680,23 @@
             "internal_engine_name": "EchoPatch"
         },
         {
-            "engine_link": "https://github.com/rafalh/dashfaction",
-            "version": "1.9.1",
+            "engine_link": "https://github.com/GooberRF/alpinefaction",
+            "version": "1.2.0",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "MPL 2.0",
-            "license_link": "https://github.com/rafalh/dashfaction/blob/master/LICENSE.txt",
-            "engine_name": "Dash Faction",
+	    "license_link": "https://github.com/GooberRF/alpinefaction/blob/master/LICENSE.txt",
+            "engine_name": "Alpine Faction",
             "notices": [
                 {
                     "key": "uses_proton"
+                },
+                {
+                    "label": "A script to setup rf: and af: URL link associations is available at steamapps/common/Red Faction/AlpineFaction/."
                 }
             ],
             "controllerNotSupported": true,
-            "internal_engine_name": "dashfaction"
+            "internal_engine_name": "alpinefaction"
         },
         {
             "engine_link": "https://github.com/ccomrade/c1-launcher",
