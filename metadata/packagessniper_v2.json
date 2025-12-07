@@ -11159,6 +11159,11 @@
                     "name": "AlpineFaction-binaries",
                     "url": "https://github.com/GooberRF/alpinefaction/releases/download/v1.2.0_Willow/",
                     "file": "AlpineFaction-1.2.0_Willow.zip"
+                },
+                {
+                    "name": "alpinefaction",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/alpinefaction-1/",
+                    "file": "alpinefaction-20530-1.tar.xz"
                 }
             ],
             "choices": [
@@ -13685,7 +13690,7 @@
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "MPL 2.0",
-	    "license_link": "https://github.com/GooberRF/alpinefaction/blob/master/LICENSE.txt",
+            "license_link": "https://github.com/GooberRF/alpinefaction/blob/master/LICENSE.txt",
             "engine_name": "Alpine Faction",
             "notices": [
                 {
