@@ -13,6 +13,7 @@ git checkout -f ac3e232
 popd
 
 # BUILD PHASE
+pushd "zmusic"
 mkdir -p build
 cd build
 cmake \
