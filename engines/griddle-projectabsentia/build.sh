@@ -35,7 +35,7 @@ make -j "$(nproc)"
 popd
 
 # COPY PHASE
-cp -rfv source/build/gzdoom "$diststart/common/dist/gzdoom"
+cp -rfv source/build/griddle "$diststart/common/dist/gzdoom"
 cp -rfv "source/build"/{soundfonts,*.pk3} "$diststart/common/dist/"
 cp -rfv source/build/*.so* "$diststart/common/dist/lib"
 cp -rfv assets/* "$diststart/common/dist/"
