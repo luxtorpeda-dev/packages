@@ -17,8 +17,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-68/",
-                    "file": "ruffle-common-68.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-69/",
+                    "file": "ruffle-common-69.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -4940,8 +4940,8 @@
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-46/",
-                    "file": "openxcom-oxce-common-46.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-47/",
+                    "file": "openxcom-oxce-common-47.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5046,8 +5046,8 @@
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-46/",
-                    "file": "openxcom-oxce-common-46.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-47/",
+                    "file": "openxcom-oxce-common-47.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -6418,8 +6418,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-68/",
-                    "file": "ruffle-common-68.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-69/",
+                    "file": "ruffle-common-69.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6573,8 +6573,8 @@
             "download": [
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-68/",
-                    "file": "ruffle-common-68.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-69/",
+                    "file": "ruffle-common-69.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6791,8 +6791,8 @@
                 },
                 {
                     "name": "taradino",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-15/",
-                    "file": "taradino-238050-15.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-16/",
+                    "file": "taradino-238050-16.tar.xz"
                 },
                 {
                     "name": "barret",
@@ -7372,8 +7372,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-45/",
-                    "file": "notblood-common-45.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-46/",
+                    "file": "notblood-common-46.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7626,8 +7626,8 @@
             "download": [
                 {
                     "name": "taradino",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-15/",
-                    "file": "taradino-358410-15.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-16/",
+                    "file": "taradino-358410-16.tar.xz"
                 },
                 {
                     "name": "barret",
@@ -8348,8 +8348,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-45/",
-                    "file": "notblood-common-45.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-46/",
+                    "file": "notblood-common-46.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8399,8 +8399,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-45/",
-                    "file": "notblood-common-45.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-46/",
+                    "file": "notblood-common-46.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -13848,8 +13848,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-68/",
-                "file": "ruffle-common-68.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-69/",
+                "file": "ruffle-common-69.tar.xz",
                 "cache_by_name": true
             },
             {
