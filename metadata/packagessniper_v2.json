@@ -73,8 +73,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-42/",
-                    "file": "ioquake3-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-43/",
+                    "file": "ioquake3-common-43.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3919,8 +3919,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-42/",
-                    "file": "ioquake3-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-43/",
+                    "file": "ioquake3-common-43.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5321,8 +5321,8 @@
             "download": [
                 {
                     "name": "ioquake3",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-42/",
-                    "file": "ioquake3-common-42.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ioquake3-43/",
+                    "file": "ioquake3-common-43.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -10432,8 +10432,8 @@
                 },
                 {
                     "name": "ete",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ete-11/",
-                    "file": "ete-1873030-11.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ete-12/",
+                    "file": "ete-1873030-12.tar.xz"
                 }
             ],
             "choices": [
@@ -11538,7 +11538,7 @@
         },
         {
             "engine_link": "https://ioquake3.org/",
-            "version": "a3b0561",
+            "version": "e29c74e",
             "author": "dreamer",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv2",
@@ -11908,7 +11908,7 @@
         },
         {
             "engine_link": "https://github.com/JACoders/OpenJK",
-            "version": "e76263d",
+            "version": "407a56f",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -11974,7 +11974,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "29f78cd",
+            "version": "06de825",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -12003,7 +12003,7 @@
             "internal_engine_name": "easyrpg-player"
         },
         {
-            "version": "6abf208",
+            "version": "4af088c",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12014,7 +12014,7 @@
         },
         {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "ad8052e",
+            "version": "d6eeaac",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12356,7 +12356,7 @@
         },
         {
             "engine_link": "https://github.com/OpenXRay/xray-16",
-            "version": "831186f",
+            "version": "bb6b153",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD with commercial source code",
@@ -12975,7 +12975,7 @@
         },
         {
             "engine_link": "https://github.com/etfdevs/ETe",
-            "version": "f6a9fda",
+            "version": "7f2544a",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -13007,7 +13007,7 @@
         },
         {
             "engine_link": "https://github.com/glKarin/com.n0n3m4.diii4a",
-            "version": "c10df49",
+            "version": "3fee68b",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -13167,7 +13167,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "2eb61a8",
+            "version": "17cd104",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",

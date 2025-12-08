@@ -98,7 +98,7 @@ install_autoconf () {
 
     autoconf --version
 
-    sudo apt-get install -y autoconf-archive
+    sudo apt-get install -y autoconf-archive python3-venv
 }
 
 install_cmake () {
