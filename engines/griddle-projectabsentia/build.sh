@@ -7,7 +7,22 @@ pushd source
 git checkout "$COMMIT_HASH"
 popd
 
+git clone https://github.com/coelckers/ZMusic.git zmusic
+pushd zmusic
+git checkout -f ac3e232
+popd
+
 # BUILD PHASE
+mkdir -p build
+cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_PREFIX_PATH="$pfx" \
+    -DCMAKE_INSTALL_PREFIX="$pfx" \
+    ..
+make -j "$(nproc)" install
+popd
+
 pushd "source"
 mkdir -p build
 cd build
