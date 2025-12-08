@@ -10554,14 +10554,33 @@
                     "cache_by_name": true
                 }
             ],
-            "command": "./run-gzdoom-local.sh",
-            "command_args": [
-                "-iwad",
-                "./Project_Crypt_GZ/project_crypt.ipk3",
-                "-savedir",
-                "./Project_Crypt_GZ/Save",
-                "-config",
-                "gzdoom.ini"
+            "choices": [
+                {
+                    "name": "Base Game - UZDoom",
+                    "command": "./run-gzdoom-local.sh",
+                    "command_args": [
+                        "-iwad",
+                        "./Project_Crypt_GZ/project_crypt.ipk3",
+                        "-savedir",
+                        "./Project_Crypt_GZ/Save",
+                        "-config",
+                        "gzdoom.ini"
+                    ],
+                    "engine_name": "UZDoom"
+                },
+                {
+                    "name": "Performance Version - UZDoom",
+                    "command": "./run-gzdoom-local.sh",
+                    "command_args": [
+                        "-iwad",
+                        "./project_crypt_LZ/project_crypt.ipk3",
+                        "-savedir",
+                        "./project_crypt_LZ/Save",
+                        "-config",
+                        "gzdoom.ini"
+                    ],
+                    "engine_name": "UZDoom"
+                }
             ],
             "notices": [
                 {
@@ -10569,7 +10588,6 @@
                     "value": "save_game_dir"
                 }
             ],
-            "engine_name": "UZDoom",
             "cloudNotAvailable": true,
             "app_id": "1988750"
         },
