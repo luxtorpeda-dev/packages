@@ -9912,6 +9912,39 @@
             "app_id": "2863690"
         },
         {
+            "game_name": "Captain Wayne - Vacation Desperation",
+            "download": [
+                {
+                    "name": "gzdoom",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/gzdoom-75/",
+                    "file": "gzdoom-common-75.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "command": "./run-gzdoom-local.sh",
+            "command_args": [
+                "-iwad",
+                "CaptainWayne.ipk3",
+                "-savedir",
+                "./saves",
+                "-config",
+                "gzdoom.ini",
+                "+r_dynlights",
+                "false",
+                "+gl_lights",
+                "false"
+            ],
+            "notices": [
+                {
+                    "key": "saves",
+                    "value": "save_game_dir"
+                }
+            ],
+            "engine_name": "UZDoom",
+            "cloudNotAvailable": true,
+            "app_id": "2319790"
+        },
+        {
             "game_name": "Old School RuneScape",
             "download": [
                 {
