@@ -7,6 +7,9 @@ pushd source
 git checkout "$COMMIT_HASH"
 popd
 
+export $pfx="$PWD/pfx"
+mkdir "$pfx"
+
 git clone https://github.com/coelckers/ZMusic.git zmusic
 pushd zmusic
 git checkout -f ac3e232
@@ -37,6 +40,6 @@ popd
 # COPY PHASE
 cp -rfv source/build/griddle "$diststart/common/dist/gzdoom"
 cp -rfv "source/build"/{soundfonts,*.pk3} "$diststart/common/dist/"
-cp -rfv "$pfx"/build/*.so* "$diststart/common/dist/lib"
+cp -rfv "$pfx/lib"/*.so* "$diststart/common/dist/lib"
 cp -rfv assets/* "$diststart/common/dist/"
 ln -rsf "$diststart/common/dist/lib/libfluidsynth.so.3" "$diststart/common/dist/lib/libfluidsynth.so.2"
