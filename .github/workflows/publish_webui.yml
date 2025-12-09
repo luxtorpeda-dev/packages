@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '22.12.0'
       - name: NPM Install
-        run: npm ci
+        run: npm install
       - name: Angular Build
         run: npm run build
       - name: Clean up
