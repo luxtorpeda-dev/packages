@@ -7,7 +7,7 @@ pushd source
 git checkout "$COMMIT_HASH"
 popd
 
-export $pfx="$PWD/pfx"
+export pfx="$PWD/pfx"
 mkdir "$pfx"
 
 git clone https://github.com/coelckers/ZMusic.git zmusic
