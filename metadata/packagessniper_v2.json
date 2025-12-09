@@ -7464,7 +7464,14 @@
         },
         {
             "game_name": "Project Absentia",
-            "download": [],
+            "download": [
+                {
+                    "name": "griddle-projectabsentia",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/griddle-projectabsentia-1/",
+                    "file": "griddle-projectabsentia-common-1.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
             "command": "./run-gzdoom-local.sh",
             "command_args": [
                 "-iwad",
