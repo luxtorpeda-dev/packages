@@ -7463,6 +7463,28 @@
             "app_id": "317040"
         },
         {
+            "game_name": "Project Absentia",
+            "download": [],
+            "command": "./run-gzdoom-local.sh",
+            "command_args": [
+                "-iwad",
+                "SVE.wad",
+                "-config",
+                "gzdoom.ini",
+                "-savedir",
+                "./saves"
+            ],
+            "notices": [
+                {
+                    "key": "saves",
+                    "value": "save_game_dir"
+                }
+            ],
+            "engine_name": "griddle-projectabsentia",
+            "cloudNotAvailable": true,
+            "app_id": "1662010"
+        },
+        {
             "game_name": "NAM",
             "download": [
                 {
@@ -11663,6 +11685,17 @@
             "controllerSupported": true,
             "engine_name": "ECWolf",
             "internal_engine_name": "ecwolf"
+        },
+        {
+            "engine_link": "https://github.com/Waffle-Iron-Studios/Griddle/tree/projectabsentia",
+            "version": "91d2301",
+            "author": "dreamer/d10sfan",
+            "author_link": "https://github.com/dreamer",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Waffle-Iron-Studios/Griddle/blob/projectabsentia/LICENSE",
+            "controllerSupported": true,
+            "engine_name": "griddle-projectabsentia",
+            "internal_engine_name": "griddle-projectabsentia"
         },
         {
             "engine_link": "https://github.com/UZDoom/UZDoom",
