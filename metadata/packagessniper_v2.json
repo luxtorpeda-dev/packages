@@ -6791,8 +6791,8 @@
                 },
                 {
                     "name": "taradino",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-16/",
-                    "file": "taradino-238050-16.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-17/",
+                    "file": "taradino-238050-17.tar.xz"
                 },
                 {
                     "name": "barret",
@@ -7655,8 +7655,8 @@
             "download": [
                 {
                     "name": "taradino",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-16/",
-                    "file": "taradino-358410-16.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taradino-17/",
+                    "file": "taradino-358410-17.tar.xz"
                 },
                 {
                     "name": "barret",
