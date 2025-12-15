@@ -50,14 +50,14 @@ jobs:
     - name: Package
       run: ./common/package.sh ${{ matrix.engine }}
     - name: Upload Artifacts
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
         name: dist-${{ matrix.engine }}
         path: ./dist
     - name: Write app_ids
       run: echo "${{env.APP_IDS }}" > app_ids.txt
     - name: Upload app_ids
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
         name: app_ids-${{ matrix.engine }}
         path: app_ids.txt
@@ -91,7 +91,7 @@ jobs:
       - name: Save build number to file
         run: echo '${{ steps.buildnumber.outputs.build_number }}' > build_number.txt
       - name: Upload deploy metadata
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: deploy-${{ matrix.engine }}
           path: |
