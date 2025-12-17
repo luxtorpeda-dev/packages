@@ -7,6 +7,7 @@
     {
       "name": "libvorbis"
     },
-    "libmad"
+    "libmad",
+    "sdl2-net"
   ]
 }
