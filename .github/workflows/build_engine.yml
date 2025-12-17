@@ -50,14 +50,14 @@ jobs:
     - name: Package
       run: ./common/package.sh ${{ matrix.engine }}
     - name: Upload Artifacts
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
         name: dist-${{ matrix.engine }}
         path: ./dist
     - name: Write app_ids
       run: echo "${{env.APP_IDS }}" > app_ids.txt
     - name: Upload app_ids
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
         name: app_ids-${{ matrix.engine }}
         path: app_ids.txt
@@ -72,7 +72,7 @@ jobs:
       build_number: ${{ steps.buildnumber.outputs.build_number }}
     steps:
       - name: Download Artifacts
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         with:
           name: dist-${{ matrix.engine }}
       - name: Generate Matrix
@@ -91,7 +91,7 @@ jobs:
       - name: Save build number to file
         run: echo '${{ steps.buildnumber.outputs.build_number }}' > build_number.txt
       - name: Upload deploy metadata
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: deploy-${{ matrix.engine }}
           path: |
@@ -115,11 +115,11 @@ jobs:
         engine: ${{ fromJson(needs.findengine.outputs.engines) }}
     steps:
     - name: Download dist
-      uses: actions/download-artifact@v6
+      uses: actions/download-artifact@v7
       with:
         name: dist-${{ matrix.engine }}
     - name: Download deploy metadata
-      uses: actions/download-artifact@v6
+      uses: actions/download-artifact@v7
       with:
         name: deploy-${{ matrix.engine }}
     - name: Install jq
@@ -163,11 +163,11 @@ jobs:
         with:
           ref: master
       - name: Download deploy metadata
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         with:
           name: deploy-${{ matrix.engine }}
       - name: Download app_ids
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         with:
           name: app_ids-${{ matrix.engine }}
       - name: Read deploy outputs
