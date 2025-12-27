@@ -6929,8 +6929,8 @@
             "download": [
                 {
                     "name": "binaries",
-                    "url": "https://github.com/maraakate/daikatana/releases/download/v12-24-2024/",
-                    "file": "Daikatana-Linux-2024-12-24-x64.tar.bz2"
+                    "url": "hhttps://github.com/maraakate/daikatana/releases/download/v12-21-2025/",
+                    "file": "Daikatana-Linux-2025-12-21-x64.tar.bz2"
                 },
                 {
                     "name": "daikatana",
@@ -6942,13 +6942,13 @@
             "download_config": [
                 {
                     "extract_location": "./",
-                    "strip_prefix": "Daikatana-Linux-2024-12-24-x64/",
+                    "strip_prefix": "Daikatana-Linux-2025-12-21-x64/",
                     "setup": true,
                     "download_name": "binaries"
                 }
             ],
             "setup": {
-                "complete_path": "./ready-2024",
+                "complete_path": "./ready-2025",
                 "command": "./setup-daikatana.sh",
                 "license_path": "./LICENSES.txt"
             },
@@ -12582,7 +12582,7 @@
         },
         {
             "engine_link": "https://github.com/maraakate/daikatana/wiki/Downloads",
-            "version": "1.3",
+            "version": "v12-21-2025",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
