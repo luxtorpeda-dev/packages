@@ -10436,15 +10436,15 @@
             "download": [
                 {
                     "name": "engine-files",
-                    "url": "https://github.com/OpenE2140/OpenE2140/releases/download/release-20251116/",
-                    "file": "OpenE2140-release-20251116-x86_64.AppImage"
+                    "url": "https://github.com/OpenE2140/OpenE2140/releases/download/release-20251216/",
+                    "file": "OpenE2140-release-20251216-x86_64.AppImage"
                 }
             ],
             "engine_name": "OpenE2140",
             "command": "/bin/sh",
             "command_args": [
                 "-c",
-                "chmod +x ./OpenE2140-release-20251116-x86_64.AppImage && ./OpenE2140-release-20251116-x86_64.AppImage --appimage-extract && ./squashfs-root/usr/bin/openra-e2140"
+                "chmod +x ./OpenE2140-release-20251216-x86_64.AppImage && ./OpenE2140-release-20251216-x86_64.AppImage --appimage-extract && ./squashfs-root/usr/bin/openra-e2140"
             ],
             "cloudAvailable": true,
             "cloudIssue": true,
@@ -12927,7 +12927,7 @@
         },
         {
             "engine_link": "https://github.com/OpenE2140/OpenE2140",
-            "version": "release-20251116",
+            "version": "release-20251216",
             "author": "d10sfan",
             "notices": [
                 {
