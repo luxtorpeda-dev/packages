@@ -6785,8 +6785,8 @@
             "download": [
                 {
                     "name": "bstone",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-13/",
-                    "file": "bstone-common-13.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-14/",
+                    "file": "bstone-common-14.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -7574,8 +7574,8 @@
             "download": [
                 {
                     "name": "bstone",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-13/",
-                    "file": "bstone-common-13.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-14/",
+                    "file": "bstone-common-14.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7596,8 +7596,8 @@
             "download": [
                 {
                     "name": "bstone",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-13/",
-                    "file": "bstone-common-13.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/bstone-14/",
+                    "file": "bstone-common-14.tar.xz",
                     "cache_by_name": true
                 }
             ],
