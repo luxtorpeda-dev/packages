@@ -9279,7 +9279,7 @@
             "download": [
                 {
                     "name": "juiced-patch",
-                    "url": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch/releases/download/v8.0.1/",
+                    "url": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch/releases/download/v8.0.2/",
                     "file": "SR2_JUICED.zip"
                 }
             ],
@@ -9294,7 +9294,7 @@
                     "download_config": [
                         {
                             "extract_location": "./",
-                            "strip_prefix": "SR2_JUICED_V8.0.1",
+                            "strip_prefix": "SR2_JUICED_V8.0.2",
                             "download_name": "juiced-patch"
                         }
                     ]
@@ -13547,7 +13547,7 @@
         },
         {
             "engine_link": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch",
-            "version": "v8.0.1",
+            "version": "v8.0.2",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
