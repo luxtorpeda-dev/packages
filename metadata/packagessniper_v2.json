@@ -11243,8 +11243,8 @@
                 },
                 {
                     "name": "AlpineFaction-binaries",
-                    "url": "https://github.com/GooberRF/alpinefaction/releases/download/v1.2.1_Willow/",
-                    "file": "AlpineFaction-1.2.1_Willow.zip"
+                    "url": "https://github.com/GooberRF/alpinefaction/releases/download/v1.2.2_Willow/",
+                    "file": "AlpineFaction-1.2.2_Willow.zip"
                 },
                 {
                     "name": "alpinefaction",
@@ -13783,7 +13783,7 @@
         },
         {
             "engine_link": "https://github.com/GooberRF/alpinefaction",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "MPL 2.0",
