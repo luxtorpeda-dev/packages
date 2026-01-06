@@ -10803,7 +10803,8 @@
             "download_config": [
                 {
                     "strip_prefix": "dominatrix-linux-v1.2-x86_64/",
-                    "download_name": "dominatrix-binaries"
+                    "download_name": "dominatrix-binaries",
+                    "extract_location": "./"
                 }
             ],
             "command": "./sin",
