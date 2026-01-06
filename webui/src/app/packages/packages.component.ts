@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 
 @Component({
     selector: 'app-packages',
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PackagesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private cdr: ChangeDetectorRef) { }
 
   titles: any = [];
   titleEnginePicked: any = {};
@@ -23,6 +23,7 @@ export class PackagesComponent implements OnInit {
     this.enginesToMap();
     this.noticeTranslationToMap();
     this.sortTitles();
+    this.cdr.detectChanges();
   }
 
   noticeTranslationToMap() {
