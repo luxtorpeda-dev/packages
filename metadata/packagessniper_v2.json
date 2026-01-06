@@ -10800,6 +10800,13 @@
                     "file": "dominatrix-linux-v1.2-x86_64.tar.gz"
                 }
             ],
+            "download_config": [
+                {
+                    "strip_prefix": "dominatrix-linux-v1.2-x86_64/",
+                    "download_name": "dominatrix-binaries",
+                    "extract_location": "./"
+                }
+            ],
             "command": "./sin",
             "engine_name": "Dominatrix",
             "cloudNotAvailable": true,
@@ -12986,7 +12993,7 @@
         },
         {
             "engine_link": "https://github.com/odamex/odamex",
-            "version": "11.2.0",
+            "version": "12.1.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
