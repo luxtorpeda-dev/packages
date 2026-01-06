@@ -394,8 +394,8 @@
                 },
                 {
                     "name": "odamex",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/odamex-10/",
-                    "file": "odamex-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/odamex-11/",
+                    "file": "odamex-common-11.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -2320,8 +2320,8 @@
                 },
                 {
                     "name": "odamex",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/odamex-10/",
-                    "file": "odamex-common-10.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/odamex-11/",
+                    "file": "odamex-common-11.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -10803,7 +10803,8 @@
             "download_config": [
                 {
                     "strip_prefix": "dominatrix-linux-v1.2-x86_64/",
-                    "download_name": "dominatrix-binaries"
+                    "download_name": "dominatrix-binaries",
+                    "extract_location": "./"
                 }
             ],
             "command": "./sin",
@@ -12992,7 +12993,7 @@
         },
         {
             "engine_link": "https://github.com/odamex/odamex",
-            "version": "12.0.0",
+            "version": "12.1.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
