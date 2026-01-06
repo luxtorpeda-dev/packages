@@ -7,15 +7,15 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 
 # From https://gitlab.com/luxtorpeda/packages/vkquake - See LICENSE file for more information
 
-wget https://sdk.lunarg.com/sdk/download/1.3.250.1/linux/vulkansdk-linux-x86_64-1.3.250.1.tar.gz
-tar xvf vulkansdk-linux-x86_64-1.3.250.1.tar.gz
-source 1.3.250.1/setup-env.sh
+wget https://sdk.lunarg.com/sdk/download/1.3.275.0/linux/vulkansdk-linux-x86_64-1.3.275.0.tar.xz
+tar xvf vulkansdk-linux-x86_64-1.3.275.0.tar.xz
+source 1.3.275.0/setup-env.sh
 
 sudo cp -r $VULKAN_SDK/include/vulkan/ /usr/local/include/
 sudo cp -P $VULKAN_SDK/lib/libvulkan.so* /usr/local/lib/
 sudo cp $VULKAN_SDK/lib/libVkLayer_*.so /usr/local/lib/
 sudo mkdir -p /usr/local/share/vulkan/explicit_layer.d
-sudo cp $VULKAN_SDK/etc/vulkan/explicit_layer.d/VkLayer_*.json /usr/local/share/vulkan/explicit_layer.d
+sudo cp $VULKAN_SDK/share/vulkan/explicit_layer.d/VkLayer_*.json /usr/local/share/vulkan/explicit_layer.d
 sudo ldconfig
 
 # CLONE PHASE
@@ -28,8 +28,9 @@ popd
 readonly pfx="$PWD/local"
 mkdir -p "$pfx"
 
-pushd "source/Quake"
-make -j "$(nproc)"
+pushd "source"
+meson setup -Dbuildtype=release build
+ninja -C build
 popd
 
 # COPY PHASE
@@ -43,7 +44,7 @@ mkdir -p "$diststart/common/dist/share/quake/rerelease/id1"
 mkdir -p "$diststart/common/dist/share/quake/rerelease/rogue"
 mkdir -p "$diststart/common/dist/share/quake/rerelease/hipnotic"
 
-cp -v source/Quake/vkquake "$diststart/common/dist/"
+cp -v source/build/vkquake "$diststart/common/dist/"
 cp -v assets/vkquake.sh "$diststart/common/dist/"
 cp -v assets/default.lux.cfg "$diststart/common/dist/share/quake"
 
