@@ -3926,7 +3926,8 @@
                 {
                     "name": "Patch Data",
                     "url": "https://files.ioquake3.org/",
-                    "file": "quake3-latest-pk3s.zip"
+                    "file": "quake3-latest-pk3s.zip",
+                    "ignore_all_checks": true
                 },
                 {
                     "name": "quake3e",
@@ -5328,7 +5329,8 @@
                 {
                     "name": "patch-data",
                     "url": "https://files.ioquake3.org/",
-                    "file": "quake3-latest-pk3s.zip"
+                    "file": "quake3-latest-pk3s.zip",
+                    "ignore_all_checks": true
                 }
             ],
             "download_config": [
