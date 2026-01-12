@@ -8654,8 +8654,8 @@
             "download": [
                 {
                     "name": "keeperfx",
-                    "url": "https://github.com/dkfans/keeperfx/releases/download/v1.3.0/",
-                    "file": "keeperfx_1_3_0_complete.7z"
+                    "url": "https://github.com/dkfans/keeperfx/releases/download/v1.3.1/",
+                    "file": "keeperfx_1_3_1_complete.7z"
                 }
             ],
             "choices": [
@@ -13605,7 +13605,7 @@
         },
         {
             "engine_link": "https://keeperfx.net",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
