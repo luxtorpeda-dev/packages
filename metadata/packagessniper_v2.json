@@ -9313,7 +9313,8 @@
                 {
                     "name": "ultimate-asi-loader",
                     "url": "https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v9.4.0/",
-                    "file": "Ultimate-ASI-Loader.zip"
+                    "file": "Ultimate-ASI-Loader.zip",
+                    "ignore_updates": true
                 },
                 {
                     "name": "jackal-patch",
