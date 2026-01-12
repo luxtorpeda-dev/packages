@@ -4826,7 +4826,7 @@
                 }
             ],
             "engine_names": [
-                "OpenJK",
+                "OpenJO",
                 "JK2MV (MP)"
             ],
             "cloudAvailable": true,
@@ -12027,6 +12027,17 @@
             "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt",
             "controllerNotSupported": true,
             "engine_name": "OpenJK",
+            "internal_engine_name": "openjk"
+        },
+        {
+            "engine_link": "https://github.com/JACoders/OpenJK",
+            "version": "407a56f",
+            "author": "d10sfan/dreamer",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/JACoders/OpenJK/blob/master/LICENSE.txt",
+            "controllerNotSupported": true,
+            "engine_name": "OpenJO",
             "internal_engine_name": "openjk"
         },
         {
