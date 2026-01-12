@@ -5775,6 +5775,11 @@
                     "name": "unreal-binaries",
                     "url": "https://github.com/OldUnreal/Unreal-testing/releases/download/v227k_12/",
                     "file": "OldUnreal-UnrealPatch227k-Linux.tar.bz2"
+                },
+                {
+                    "name": "fusion-map-pack",
+                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/F/3/d/ebaf0d/",
+                    "file": "fusionmappack.zip"
                 }
             ],
             "setup": {
@@ -5788,7 +5793,8 @@
                     "command": "./run-unreal.sh",
                     "download": [
                         "unreal-gold",
-                        "unreal-binaries"
+                        "unreal-binaries",
+                        "fusion-map-pack"
                     ]
                 },
                 {
@@ -5796,7 +5802,8 @@
                     "command": "./run-unreal-64.sh",
                     "download": [
                         "unreal-gold-64",
-                        "unreal-binaries"
+                        "unreal-binaries",
+                        "fusion-map-pack"
                     ]
                 }
             ],
@@ -5804,6 +5811,10 @@
                 {
                     "extract_location": "../",
                     "download_name": "unreal-binaries"
+                },
+                {
+                    "extract_location": "../Maps",
+                    "download_name": "fusion-map-pack"
                 }
             ],
             "use_original_command_directory": true,
