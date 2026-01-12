@@ -8605,6 +8605,31 @@
             "app_id": "13520"
         },
         {
+            "game_name": "No More Heroes",
+            "download": [
+                {
+                    "name": "nmh-fix",
+                    "url": "https://github.com/Lyall/NMHFix/releases/download/v0.7.2/",
+                    "file": "NMHFix_v0.7.2.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "nmh.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "version=n,b"
+                    },
+                    "engine_name": "NMHFix",
+                    "name": "NMHFix",
+                    "download": [
+                        "nmh-fix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "1420290"
+        },
+        {
             "game_name": "Tom Clancy's Splinter Cell®",
             "download": [
                 {
@@ -13659,6 +13684,22 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "silentpatch_farcry"
+        },
+        {
+            "engine_link": "https://github.com/Lyall/NMHFix",
+            "version": "v0.7.2",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/Lyall/NMHFix/blob/master/LICENSE.md",
+            "engine_name": "NMHFix",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "NMHFix"
         },
         {
             "engine_link": "https://github.com/InsanityBringer/PiccuEngine",
