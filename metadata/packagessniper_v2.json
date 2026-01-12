@@ -5000,8 +5000,8 @@
             "download": [
                 {
                     "name": "openapoc",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-18/",
-                    "file": "openapoc-7660-18.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openapoc-19/",
+                    "file": "openapoc-7660-19.tar.xz"
                 },
                 {
                     "name": "dosbox-staging",
