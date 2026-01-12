@@ -15,7 +15,7 @@ export LIBRARY_PATH="$VCPKG_INSTALLED_PATH/lib"
 pushd "source"
 mkdir -p build
 cd build
-qmake ../DoomRunner.pro -spec linux-g++ "CONFIG+=release"
+qmake ../DoomRunner.pro -spec linux-g++ "CONFIG+=release" "INCLUDEPATH+=${VCPKG_INSTALLED_PATH}/include" "LIBS+=-L${VCPKG_INSTALLED_PATH}/lib -lminizip -lz"
 make -j "$(nproc)"
 popd
 
