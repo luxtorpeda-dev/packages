@@ -8634,8 +8634,8 @@
             "download": [
                 {
                     "name": "enhancedsc",
-                    "url": "https://github.com/Joshhhuaaa/EnhancedSC/releases/download/v1.4/",
-                    "file": "Enhanced-SC-v1.4-Linux.7z"
+                    "url": "https://github.com/Joshhhuaaa/EnhancedSC/releases/download/v1.4a/",
+                    "file": "Enhanced-SC-v1.4a-Linux.7z"
                 }
             ],
             "download_config": [
@@ -13572,7 +13572,7 @@
         },
         {
             "engine_link": "https://github.com/Joshhhuaaa/EnhancedSC",
-            "version": "v1.4",
+            "version": "v1.4a",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
