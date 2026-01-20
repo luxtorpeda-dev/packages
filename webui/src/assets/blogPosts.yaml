@@ -1,0 +1,102 @@
+- title: Saints 2 Row Juiced Patch Updated
+  date: 2025-12-25
+  body: |
+    The Juiced Patch for Saints Row 2 has been updated to the latest version. This allows for much smoother gameplay and lots of options than the original PC port.
+- title: Godot 4.5 Update
+  date: 2025-10-18
+  body: |
+    With the release of version 74.3.1, the luxtorpeda client is now on Godot 4.5. Godot is used for all of the user interface for the client, with Rust doing the heavy lifting for things like downloading, extracting, etc. This ensures that the client is kept up to date, and continued improvements can be made in the future.
+- title: OpenMW Tutorial Thanks to GamingOnLinux
+  date: 2025-09-25
+  body: |
+    Thanks to GamingOnLinux on a great tutorial on how to setup OpenMW on Linux and/or Steam Deck with various options, including using Luxtorpeda.
+
+    https://www.gamingonlinux.com/guides/view/how-to-setup-openmw-for-modern-morrowind-on-linux-steamos-and-steam-deck/
+
+    This shows using ProtonUp-Qt, and then using Luxtorpeda as the compatibility tool and showing the ease of use inside. Images thanks to the article linked above.
+
+    ![OpenMW Luxtorpeda Launch Options](https://uploads.golmedia.net/uploads/articles/article_media/2546253631759165013gol1.png)
+
+    ![OpenMW Running](https://uploads.golmedia.net/uploads/articles/article_media/12154243101759165068gol1.png)
+- title: Even More Options for C&C Generals Zero Hour!
+  date: 2025-09-10
+  body: |
+    C&C Generals is an old favorite of mine, it's one of the first games I played (I started playing video games in high school) alongside Call of Duty 2 (they were on some Aspyr disk back when I had a mac).
+
+    It was exciting to have a native port thanks to EA releasing the source code, and the work that fighter19 has done. I was able to contribute to that project where I could, which helped expand some of my knowledge of SDL3 and some other things.
+
+    Now with the additional Proton support, you can play using GenTools, with a click of a button!
+
+    ![GenTools In Action](https://media.discordapp.net/attachments/849993446634946602/1415410598027727051/2732960_942.jpg?ex=696fcfd7&is=696e7e57&hm=c1aff87dbd2963fd423751f0491dff04b93a63312a45dc8417d850c147102986&=&format=webp&width=1111&height=625)
+- title: Windows Mods via Proton
+  date: 2025-09-08
+  body: |
+    Alongside the existing native open source engines and closed source native binaries, there is now support for running Windows mods via Proton via Luxtorpeda! The same ease of use of downloading, extracting, and configuring various engines for native play is available for a set of Windows mods as well. In this case, the `WINEDLLOVERRIDES` that normally has to set in the launch options is done automatically with the mods that are supported.
+
+    This allows for mods like Alpine Faction for Red Faction, various widescreen improvement patches, and more.
+
+    As part of this, the Luxtorpeda client has been updated to support picking the Proton version the user wishes to use, based on the ones installed. This allows for experimentation without having to go back into Steam's compatibility tools area. Future work would include providing a "recommended" Proton for various mods.
+
+    Special thanks goes to mvoolt who made the pull request which made all this possible! This is available in Proton version 74 and above.
+
+    Feel free to suggest new mods that can run via proton, provided that they are hosted on GitHub or another public CDN. Sadly places like pcgamingwiki or nexus mods, where you have to have an account or go through a validation process cannot be automated with the client.
+- title: Godot 4.4 Update and More
+  date: 2025-06-08
+  body: |
+    With the release of version 73.0.1, the luxtorpeda client is now on Godot 4.4, as well as rust 1.87. Godot is used for all of the user interface for the client, with Rust doing the heavy lifting for things like downloading, extracting, etc.
+
+    As well, Chocolate Quake has been added, a new source port for QUake that is a more original DOS experience.
+- title: Automatic Engine Updates
+  date: 2025-03-18
+  body: |
+    All of the build scripts for the various engines that Luxtorpeda supports leads to alot of  maintenance burden. When a new version appears, I would have to manually create a pull request to see the new version updated.
+
+    I've made some improvements to this process, using GHA workflows and some custom code to automatically detect new tags, as well as new commits (for repos that don't publish tags that often) and create pull requests automatically.
+
+    For tags, that one runs daily, and for commits that one runs weekly. This makes keeping the engines up to date much easier.
+
+    I've also implemented some checks alongside the existing download network checks to see if a newer version of a download (like a github release that is being downloaded) is available, and if so it'll create a ticket. This requires more manual effort, but at least now I'm notified when this happens!
+- title: Matrix?
+  date: 2025-04-03
+  body: |
+    The logic behind the packages repo has been updated to support changing multiple engines at once finally. Originally if you made a pull request, it had to be one per engine. Now you can make one with multiple, and the Github Action matrix support will trigger multiple jobs to run all of them in parallel. This'll make changes much easier to manage.
+- title: Unreal Gold Made Easier
+  date: 2024-12-15
+  body: |
+    Unreal Gold now releases archives, instead of just the exe installer, so it's even easier to use!
+- title: Fun with Steam Bugs
+  date: 2024-10-03
+  body: |
+    You may have noticed recently when using steam that luxtorpeda would randomly start running on Steam launch. I've put out a fix for this with version 71. When Valve added some prelim steps for Proton to run in the background, it also ran Luxtorpeda and confused things. I've put some fixes in for this so it'll ignore these launch attempts.
+- title: Godot 4 Upgrade
+  date: 2023-09-26
+  body: |
+    The luxtorpeda client has been updated to Godot 4, as well as alot of code cleanup and the ability to ask steam to download deps that have not been setup yet.
+- title: More Extraction Support
+  date: 2023-08-14
+  body: |
+    With this release, deb files and iso files can now be read and extracted, leading to more games & engines being supported.
+
+    As well, recently steam cloud support has been added, so games that support steam cloud, and engines that provide the same file formats can now have their saves backed up like if you were playing in Proton. This'll make it easier to play between a desktop and a steam deck for example. The UI will now show you the different options.
+- title: Move to Sniper Runtime
+  date: 2023-04-13
+  body: |
+    The engines in the packages repo are now starting to be built using the sniper runtime, which is a newer version of the Steam Runtimes, based on a newer version of Debian. This will make keeping engines up to date alot easier, since now the base isn't so out of date. This has already simplified alot of the existing engines, and made it possible to support building new ones.
+- title: Move to Godot for UI
+  date: 2022-11-29
+  body: |
+    Today I released the new Godot UI version "officially" with a minor bug fix release. It seems to have done pretty well so far. I enjoyed learning more about Godot and the integration between it and rust, and it made for alot easier to maintain UI.
+
+    As well, it looks like luxtorpeda is continuing to get some nice traffic, version 59 got about 8k downloads, and the new 60 got about 1300, so great to see the continued interest!
+
+    Godot makes it much easier to built out the UI, compared to using tools to build the UI in code itself. I can add buttons, move layouts around, etc with their visual editing tools, and alot of code related to things like controller support are provided out of the box!
+
+    GamingOnLinux wrote an article about it as well - https://www.gamingonlinux.com/2022/11/steam-play-compatibility-tool-luxtorpeda-moves-to-godot-engine-for-the-ui/
+- title: Steam Deck Support!
+  date: 2022-05-22
+  body: |
+    Steam Deck support is progressing nicely, mostly related to the GUI scaling and controller support, but nice to see alot of native engines working great with the platform.
+- title: RetroArch Support
+  date: 2022-04-08
+  body: |
+    RetroArch support has been added, so that you can launch a game on steam and then it'll launch RetroArch and you can play it inside if there's a compatible game file.

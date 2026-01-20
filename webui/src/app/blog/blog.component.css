@@ -1,0 +1,24 @@
+.mat-chip {
+  cursor: pointer !important;
+}
+
+.page-wrapper {
+  padding-top: 1rem;
+  color: white;
+  max-width: 1200px;
+}
+
+.header-wrapper {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+div {
+  word-break: break-word;
+}
+
+:host ::ng-deep markdown img {
+  max-width: 100%;
+}
