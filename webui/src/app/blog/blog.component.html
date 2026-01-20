@@ -1,0 +1,19 @@
+<div class='container-fluid page-wrapper'>
+  <div class="col-lg-8 mx-auto">
+      @for (post of posts; track post.title) {
+        <article class="mb-5 pb-5 border-bottom">
+          <h1 class="mb-1">
+            {{ post.title }}
+          </h1>
+
+          <div class="mb-4">
+            {{ post.date | date:'yyyy-MM-dd' }}
+          </div>
+
+          <div class="fs-6 lh-lg">
+            <markdown ngPreserveWhitespaces [data]="post.body"></markdown>
+          </div>
+        </article>
+      }
+  </div>
+</div>

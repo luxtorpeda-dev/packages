@@ -28,7 +28,12 @@
             "assets": [
               "src/assets",
               {"glob": "**/*", "input": "../metadata", "output": "./"},
-              {"glob": "**/README.md", "input": "../", "output": "./"}
+              {"glob": "**/README.md", "input": "../", "output": "./"},
+              {
+                "glob": "blogPosts.yaml",
+                "input": "src/assets",
+                "output": "./"
+              }
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
