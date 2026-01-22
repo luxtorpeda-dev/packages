@@ -10108,8 +10108,8 @@
             "download": [
                 {
                     "name": "solarus",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/solarus-9/",
-                    "file": "solarus-1393750-9.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/solarus-10/",
+                    "file": "solarus-1393750-10.tar.xz"
                 }
             ],
             "command": "./run-ocean-heart.sh",
