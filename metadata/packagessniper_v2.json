@@ -14047,6 +14047,12 @@
                 "url": "https://github.com/love2d/love/releases/download/11.5/",
                 "file": "love-11.5-x86_64.AppImage",
                 "cache_by_name": true
+            },
+            {
+                "name": "love2d",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/love2d-1/",
+                "file": "love2d-common-1.tar.xz",
+                "cache_by_name": true
             }
         ],
         "download_config": [
