@@ -123,7 +123,7 @@
                 {
                     "name": "ioquake3",
                     "engine_name": "ioquake3",
-                    "command": "./ioquake3.x86_64",
+                    "command": "./ioquake3",
                     "command_args": [
                         "+set",
                         "r_mode",
@@ -136,7 +136,7 @@
                 {
                     "name": "ioquake3 (Legacy Resolutions)",
                     "engine_name": "ioquake3",
-                    "command": "./ioquake3.x86_64",
+                    "command": "./ioquake3",
                     "download": [
                         "ioquake3"
                     ]
@@ -3952,7 +3952,7 @@
                 {
                     "name": "ioquake3",
                     "engine_name": "ioquake3",
-                    "command": "./ioquake3.x86_64",
+                    "command": "./ioquake3",
                     "command_args": [
                         "+set",
                         "r_mode",
@@ -5346,7 +5346,7 @@
                 "command": "./setup-demo.sh",
                 "license_path": "./demo-patch-eula.txt"
             },
-            "command": "./ioquake3.x86_64",
+            "command": "./ioquake3",
             "command_args": [
                 "+set",
                 "r_mode",
