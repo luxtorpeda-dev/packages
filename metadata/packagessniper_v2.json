@@ -11904,6 +11904,17 @@
             "internal_engine_name": "nblood"
         },
         {
+            "engine_link": "https://github.com/love2d/love",
+            "version": "11.5",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "zlib",
+            "license_link": "https://github.com/love2d/love/blob/main/license.txt",
+            "controllerNotSupported": true,
+            "engine_name": "LOVE2D",
+            "internal_engine_name": "love2d"
+        },
+        {
             "engine_link": "https://github.com/coelckers/Raze",
             "version": "1.11.0",
             "author": "d10sfan",
@@ -14030,6 +14041,12 @@
                 "url": "https://github.com/erkyrath/lectrote/releases/download/lectrote-1.5.6/",
                 "file": "Lectrote-1.5.6-linux-x64.zip",
                 "cache_by_name": true
+            },
+            {
+                "name": "love2d-binaries",
+                "url": "https://github.com/love2d/love/releases/download/11.5/",
+                "file": "love-11.5-x86_64.AppImage",
+                "cache_by_name": true
             }
         ],
         "download_config": [
@@ -14177,6 +14194,15 @@
                 "download": [
                     "lectrote"
                 ]
+            },
+            {
+                "name": "LOVE2D",
+                "command": "./run-love2d.sh",
+                "download": [
+                    "love2d",
+                    "love2d-binaries"
+                ],
+                "engine_name": "LOVE2D"
             }
         ]
     },
