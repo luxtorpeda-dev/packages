@@ -1,3 +1,15 @@
+- title: LOVE2D Engine Added
+  date: 2026-01-23
+  body: |
+    LOVE2D support has been added as a default engine now. This means that for many Windows only LOVE2D games, you can play them with a Linux native version instead of Proton.
+
+    Note that not all games will work, as there may be slight differences in the way they work. The default at this point is that it uses the .exe file as the starting point. If you see any that don't work with the default but have another way to work, feel free to open an issue in the packages repo.
+
+    Below are some screenshots showing it working with Moonring!
+
+    ![Engine Picker](https://github.com/luxtorpeda-dev/packages/releases/download/love2d-1/Screenshot_20260123_140013.png)
+
+    ![Moonring Native](https://github.com/luxtorpeda-dev/packages/releases/download/love2d-1/Screenshot_20260123_140125.png)
 - title: Saints 2 Row Juiced Patch Updated
   date: 2025-12-25
   body: |
