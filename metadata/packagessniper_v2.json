@@ -4795,7 +4795,7 @@
                     "command_name": ".*jasp.exe"
                 },
                 {
-                    "cmd": "./run-taystjk.sh",
+                    "cmd": "./run-taystjk-mp.sh",
                     "command_name": ".*jamp.exe"
                 }
             ],
