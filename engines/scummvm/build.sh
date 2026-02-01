@@ -14,7 +14,7 @@ popd
 # BUILD PHASE
 pushd "source"
 ./configure --prefix="$pfx"
-make -j "$(nproc)"
+make -j "$(nproc)" ENABLE_HPL1=1 USE_OPENGL_SHADERS=1
 make install
 popd
 
