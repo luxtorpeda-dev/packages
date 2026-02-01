@@ -1,3 +1,29 @@
+- title: New Luxtorpeda Client Release Version 75
+  date: 2026-01-31
+  body: |
+    It's time for another luxtorpeda client release! This has a good chunk of changes in it, especially for Windows Proton mod use via Luxtorpeda.
+
+    ### Godot 4.6 Upgrade
+
+    This shouldn't change much of the look and feel of the client, but now it's using the recently released Godot 4.6. This will help continue to future proof the client, and also allow changes that could use the latest features where needed.
+
+    ### Set Desired Proton Version In Packages Metadata
+
+    This is a continuation of the Proton features that were added recently. Along with being able to set your own Proton default for a game, which you can still do, now the game information in packages.json can optionally set a default Proton version for first launch. This way if the game only works well with a specific version of Proton, the user does not have to manually set it the first time. This all depends on it being in the packages metadata, so feel free to open an issue if there's a game that is supported that could use this treatment.
+
+    Note that this will continue to use whatever defaults you already have set for a game first in priority.
+
+    As part of this feature, a new error will show if a Proton version is selected for a game, so that you know you need to install it, or pick a different default.
+
+    ## Running Setup for Proton Mods
+
+    For mods where there's an installer that has to be run before you can actually play and use the mod, this can now be done automatically using the existing native engine setup feature, now with Proton support. In the past, there's been cases where a engine needed to have some additional setup work done to make the game usable (extracting iso, running scripts, etc). This would run it once, and then write a file in the game directory so it knows it does not need to do it the next run.
+
+    The new release adds the ability to do the same sort of thing for mod exe installers, and anything else that would need to be run in Proton, before using the mod. So now, along with Windows mods that drop-in DLLs and the like, there's also the possibility for installer-based mods as well!
+
+    An example of this is in action with the Deus Ex Randomizer mod. The first launch, you'll be presented with their installer, and then once that's done, you can play the mod and not have to see the installer again. Note that this game won't be playable unless you're on version 75 of the client or above.
+
+    This will open up alot more possibilities in terms of the Proton mods for games that could be added, since previously it was only drop-in mods that were possible. If you have any ideas on additional Proton mods that could be added, feel free to open an issue.
 - title: TaystJK Added For Jedi Academy Multiplayer
   date: 2026-01-30
   body: |
