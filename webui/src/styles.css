@@ -9,3 +9,7 @@ a, a:visited {
 .mat-expansion-panel {
   border-radius: 0 !important;
 }
+
+h1 {
+  text-decoration: underline;
+}

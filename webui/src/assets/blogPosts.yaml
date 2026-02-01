@@ -3,11 +3,11 @@
   body: |
     It's time for another luxtorpeda client release! This has a good chunk of changes in it, especially for Windows Proton mod use via Luxtorpeda.
 
-    ### Godot 4.6 Upgrade
+    ## Godot 4.6 Upgrade
 
     This shouldn't change much of the look and feel of the client, but now it's using the recently released Godot 4.6. This will help continue to future proof the client, and also allow changes that could use the latest features where needed.
 
-    ### Set Desired Proton Version In Packages Metadata
+    ## Set Desired Proton Version In Packages Metadata
 
     This is a continuation of the Proton features that were added recently. Along with being able to set your own Proton default for a game, which you can still do, now the game information in packages.json can optionally set a default Proton version for first launch. This way if the game only works well with a specific version of Proton, the user does not have to manually set it the first time. This all depends on it being in the packages metadata, so feel free to open an issue if there's a game that is supported that could use this treatment.
 
