@@ -23,6 +23,7 @@ export class BlogComponent implements OnInit {
     this.cdr.detectChanges();
 
     const fragment = this.route.snapshot.fragment;
+    console.log(`found fragment of: ${fragment}`);
     if (fragment) {
       this.scrollToFragment(fragment);
     }
