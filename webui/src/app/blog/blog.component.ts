@@ -29,9 +29,24 @@ export class BlogComponent implements OnInit {
   }
 
   private scrollToFragment(fragment: string) {
+    const existing = document.getElementById(fragment);
+    if (existing) {
+      existing.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
+
     this.zone.onStable.pipe(take(1)).subscribe(() => {
-      document.getElementById(fragment)
-      ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const observer = new MutationObserver(() => {
+        const el = document.getElementById(fragment);
+        if (el) {
+          observer.disconnect();
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+
+      observer.observe(document.body, { childList: true, subtree: true });
+
+      window.setTimeout(() => observer.disconnect(), 5000);
     });
   }
 
