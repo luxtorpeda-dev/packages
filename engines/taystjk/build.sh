@@ -20,4 +20,4 @@ popd
 
 # COPY PHASE
 cp -rfv tmp/JediAcademy/* "$diststart/6020/dist/"
-cp -rfv assets/run-taystjk.sh "$diststart/6020/dist/"
+cp -rfv assets/run-taystjk-mp.sh "$diststart/6020/dist/"
