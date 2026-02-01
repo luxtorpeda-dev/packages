@@ -4790,12 +4790,13 @@
                     "command_name": ".*jasp.exe"
                 },
                 {
-                    "cmd": "./run-openjk-mp.sh",
+                    "cmd": "./run-taystjk.sh",
                     "command_name": ".*jamp.exe"
                 }
             ],
             "engine_names": [
-                "OpenJK"
+                "OpenJK",
+                "TaystJK"
             ],
             "cloudAvailable": true,
             "cloudSupported": true,
@@ -12064,6 +12065,17 @@
             "controllerNotSupported": true,
             "engine_name": "OpenJK",
             "internal_engine_name": "openjk"
+        },
+        {
+            "engine_link": "https://github.com/taysta/TaystJK",
+            "version": "78d8381",
+            "author": "d10sfan/dreamer",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv2",
+            "license_link": "https://github.com/taysta/TaystJK/blob/master/LICENSE.txt",
+            "controllerNotSupported": true,
+            "engine_name": "TaystJK",
+            "internal_engine_name": "taystjk"
         },
         {
             "engine_link": "https://github.com/JACoders/OpenJK",
