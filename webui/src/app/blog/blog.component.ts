@@ -19,7 +19,6 @@ export class BlogComponent implements OnInit {
     const response = await fetch(`/blogPosts.yaml`);
     const text = await response.text();
     this.posts = yaml.load(text);
-    console.log(this.posts)
     this.cdr.detectChanges();
 
     const fragment = this.route.snapshot.fragment;
