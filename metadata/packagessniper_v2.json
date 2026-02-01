@@ -4782,6 +4782,11 @@
                     "name": "openjk",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-16/",
                     "file": "openjk-6020-16.tar.xz"
+                },
+                {
+                    "name": "taystjk",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taystjk-1/",
+                    "file": "taystjk-6020-1.tar.xz"
                 }
             ],
             "commands": [
