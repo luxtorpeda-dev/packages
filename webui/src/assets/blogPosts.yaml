@@ -1,3 +1,14 @@
+- title: TaystJK Added For Jedi Academy Multiplayer
+  date: 2026-01-30
+  body: |
+    Thanks to an issue suggestion, TaystJK is now the multiplayer engine for Jedi Academy. This is a fork of a fork, that adds quality of life features. This includes a vulkan renderer which is addd as part of this fork, which has this description on how to enable it (https://taysta.github.io/TaystJK/):
+
+    Enable with
+    ```
+    cl_renderer rd-vulkan; vid_restart
+    ```
+
+    ![Screenshot](https://images.steamusercontent.com/ugc/14647754491118167358/97C4DD706C37DE2A08C44E17D2EE9E3A063BDFE6/?imw=1024&imh=432&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 - title: LOVE2D Engine Added
   date: 2026-01-23
   body: |
