@@ -11110,6 +11110,43 @@
             "app_id": "6000"
         },
         {
+            "game_name": "Deus Ex: Game of the Year Edition",
+            "download": [
+                {
+                    "name": "deus-ex-randomizer",
+                    "url": "https://github.com/Die4Ever/deus-ex-randomizer/releases/download/v3.6.7/",
+                    "file": "DXRandoInstaller.exe"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "Deus Ex Randomizer",
+                    "download": [
+                        "deus-ex-randomizer"
+                    ],
+                    "command": "DXRando.exe",
+                    "engine_name": "deus-ex-randomizer",
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "DXRandoInstaller.exe"
+                    }
+                },
+                {
+                    "name": "Vanilla",
+                    "download": [
+                        "deus-ex-randomizer"
+                    ],
+                    "command": "DeusEx.exe",
+                    "engine_name": "deus-ex-randomizer",
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "DXRandoInstaller.exe"
+                    }
+                }
+            ],
+            "app_id": "6910"
+        },
+        {
             "game_name": "Descent 3",
             "download": [
                 {
@@ -13614,6 +13651,22 @@
             ],
             "controllerSupported": true,
             "internal_engine_name": "enhancedsc"
+        },
+        {
+            "engine_link": "https://github.com/Die4Ever/deus-ex-randomizer",
+            "version": "v3.6.7",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Die4Ever/deus-ex-randomizer/blob/master/LICENSE",
+            "engine_name": "deus-ex-randomizer",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerSupported": true,
+            "internal_engine_name": "deus-ex-randomizer"
         },
         {
             "engine_link": "https://github.com/overload-development-community/olmod",
