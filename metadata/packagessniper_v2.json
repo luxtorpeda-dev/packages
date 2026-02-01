@@ -8845,7 +8845,8 @@
                     "name": "BF2-HUD-fix",
                     "download": [
                         "bf2-hud-fix"
-                    ]
+                    ],
+                    "default_proton_choice": "proton_9"
                 }
             ],
             "cloudNotAvailable": true,
