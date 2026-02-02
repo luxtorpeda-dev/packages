@@ -3,7 +3,6 @@
     "dependencies": [
         { "name": "fluidsynth", "features": ["pulseaudio"] },
         "libmad",
-        "giflib",
-        "libmpeg2"
+        "giflib"
     ]
 }
