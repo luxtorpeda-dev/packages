@@ -4948,7 +4948,7 @@
                     "download_name": "scummvm"
                 }
             ],
-            "command": "./scum/run-scummvm.sh",
+            "command": "./scum/run-scummvm-opengl.sh",
             "engine_name": "ScummVM",
             "cloudNotAvailable": true,
             "app_id": "22180"
