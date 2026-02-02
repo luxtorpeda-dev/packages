@@ -11019,24 +11019,6 @@
             "app_id": "1678420"
         },
         {
-            "game_name": "HyperBowl",
-            "download": [
-                {
-                    "name": "hyperbowl",
-                    "url": "https://codeberg.org/technicat/hyperbowl/releases/download/1.0/",
-                    "file": "HyperBowlLinux.zip"
-                }
-            ],
-            "command": "sh",
-            "command_args": [
-                "-c",
-                "chmod +x ./HyperBowlLinux.x86_64 && ./HyperBowlLinux.x86_64"
-            ],
-            "engine_name": "HyperBowl",
-            "cloudNotAvailable": true,
-            "app_id": "847530"
-        },
-        {
             "game_name": "Road to Vostok Demo",
             "download": [
                 {
@@ -13613,17 +13595,6 @@
             "controllerNotSupported": true,
             "engine_name": "Descent3",
             "internal_engine_name": "descent3"
-        },
-        {
-            "engine_link": "https://codeberg.org/technicat/hyperbowl/releases/tag/1.0",
-            "version": "1.0.0",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "MIT",
-            "license_link": "https://codeberg.org/technicat/hyperbowl/src/branch/master/LICENSE",
-            "controllerNotSupported": true,
-            "engine_name": "HyperBowl",
-            "internal_engine_name": "hyperbowl"
         },
         {
             "engine_link": "https://github.com/erkyrath/lectrote",
