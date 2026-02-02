@@ -1,3 +1,15 @@
+- title: More ScummVM Games Supported with 2026.1.0
+  date: 2026-02-02
+  body: |
+    The ScummVM project recently released 2026.1.0, which is now available on Luxtorpeda! As well, thanks to the additional support on their end, I've added game support for Penumbra Overture, Nancy Drew®: Ghost Dogs of Moon Lake, and Nancy Drew®: Secret of the Scarlet Hand.
+
+    This involved updating the build script, as well as fixing a few things with the newer ScummVM version and the steam launch options.
+
+    Other Nancy Drew games may work as well via the default engine support, and feel free to let me know if there's others that could use the same treatment. Since ScummVM supports so many games, it's usually a mix of "officially" supported and launchable via the default option.
+
+    ![Nancy Drew Ghost Dogs Screenshot](https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-40/Screenshot_20260202_101200.png)
+
+    ![Penumbra](https://images.steamusercontent.com/ugc/10372601216855048631/3E0A89BC270FCC472CF49905DB54907369019921/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 - title: New Luxtorpeda Client Release Version 75
   date: 2026-01-31
   body: |

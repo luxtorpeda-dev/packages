@@ -7,11 +7,6 @@ INIPATH="scummvm.ini"
 
 cd "$DIR"
 
-if [ ! -f "$INIPATH" ]; then
-    echo "Creating $INIPATH"
-    echo -e "[scummvm]\ngfx_mode=surfacesdl" > "$INIPATH"
-fi
-
 if [[ -d "../Original" ]]; then
     echo "Assuming original path for ScummVM"
     PATH_ARG="--path=../Original"
@@ -25,4 +20,4 @@ fi
 
 LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c "$INIPATH" --add --recursive $PATH_ARG
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c "$INIPATH" --fullscreen --themepath=./share/scummvm --extrapath=./share/scummvm
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c "$INIPATH" --fullscreen --themepath=./share/scummvm --extrapath=./share/scummvm --renderer=opengl

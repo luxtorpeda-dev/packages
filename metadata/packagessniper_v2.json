@@ -4891,6 +4891,69 @@
             "app_id": "495700"
         },
         {
+            "game_name": "Nancy Drew®: Ghost Dogs of Moon Lake",
+            "download": [
+                {
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-40/",
+                    "file": "scummvm-common-40.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm.sh",
+            "engine_name": "ScummVM",
+            "cloudNotAvailable": true,
+            "app_id": "31850"
+        },
+        {
+            "game_name": "Nancy Drew®: Secret of the Scarlet Hand",
+            "download": [
+                {
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-40/",
+                    "file": "scummvm-common-40.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm.sh",
+            "engine_name": "ScummVM",
+            "cloudNotAvailable": true,
+            "app_id": "31890"
+        },
+        {
+            "game_name": "Penumbra Overture",
+            "download": [
+                {
+                    "name": "scummvm",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/scummvm-40/",
+                    "file": "scummvm-common-40.tar.xz",
+                    "cache_by_name": true
+                }
+            ],
+            "download_config": [
+                {
+                    "extract_location": "./scum",
+                    "download_name": "scummvm"
+                }
+            ],
+            "command": "./scum/run-scummvm-opengl.sh",
+            "engine_name": "ScummVM",
+            "cloudNotAvailable": true,
+            "app_id": "22180"
+        },
+        {
             "game_name": "The Journeyman Project 1: Pegasus Prime",
             "download": [
                 {
