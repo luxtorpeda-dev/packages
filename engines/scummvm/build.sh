@@ -21,4 +21,5 @@ popd
 # COPY PHASE
 cp -rfv "$pfx/bin/" "$diststart/common/dist/"
 cp -rfv "$pfx/share" "$diststart/common/dist/"
+
 cp -rfv assets/* "$diststart/common/dist/"
