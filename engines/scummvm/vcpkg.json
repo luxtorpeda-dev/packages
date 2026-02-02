@@ -2,6 +2,8 @@
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
     "dependencies": [
         { "name": "fluidsynth", "features": ["pulseaudio"] },
-        "libmad"
+        "libmad",
+        "giflib",
+        "libmpeg2"
     ]
 }
