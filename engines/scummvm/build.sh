@@ -13,7 +13,7 @@ popd
 
 # BUILD PHASE
 pushd "source"
-./configure --prefix="$pfx"
+./configure --prefix="$pfx" --enable-all-engines
 make -j "$(nproc)"
 make install
 popd
