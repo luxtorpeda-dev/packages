@@ -5004,8 +5004,8 @@
             "download": [
                 {
                     "name": "openxcom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-25/",
-                    "file": "openxcom-common-25.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-26/",
+                    "file": "openxcom-common-26.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5110,8 +5110,8 @@
             "download": [
                 {
                     "name": "openxcom",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-25/",
-                    "file": "openxcom-common-25.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-26/",
+                    "file": "openxcom-common-26.tar.xz",
                     "cache_by_name": true
                 },
                 {
