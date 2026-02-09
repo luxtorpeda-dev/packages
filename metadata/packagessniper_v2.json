@@ -7706,8 +7706,8 @@
                 },
                 {
                     "name": "terminal-recall",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/terminal-recall-6/",
-                    "file": "terminal-recall-358370-6.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/terminal-recall-7/",
+                    "file": "terminal-recall-358370-7.tar.xz"
                 }
             ],
             "use_original_command_directory": true,
