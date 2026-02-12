@@ -5732,7 +5732,7 @@
                     "setup": {
                         "complete_path": "../ready-oldunreal",
                         "command": "./setup-ut2004-oldunreal.sh",
-                        "license_path": "../System/License.int",
+                        "license_path": "../System/License.int"
                     },
                     "command": "./run-ut2004-oldunreal.sh",
                     "engine_name": "ut2004-oldunreal"
