@@ -5665,6 +5665,11 @@
                     "name": "binaries",
                     "url": "https://treefort.icculus.org/ut2004/",
                     "file": "ut2004-lnxpatch3369-2.tar.bz2"
+                },
+                {
+                    "name": "binaries-oldunreal",
+                    "url": "https://github.com/OldUnreal/UT2004Patches/releases/download/3374-preview-9/",
+                    "file": "OldUnreal-UT2004Patch3374-Linux-60bd31b3.tar.bz2"
                 }
             ],
             "choices": [
@@ -5704,6 +5709,33 @@
                     },
                     "command": "./run-ut2004.sh",
                     "engine_name": "ut2004"
+                },
+                {
+                    "name": "OldUnreal ut2004 with foxWSFix",
+                    "download": [
+                        "ut2004",
+                        "foxWSFix",
+                        "binaries-oldunreal"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "../linuxdata-oldunreal",
+                            "setup": true,
+                            "download_name": "binaries-oldunreal"
+                        },
+                        {
+                            "extract_location": "../linuxdata-oldunreal",
+                            "setup": true,
+                            "download_name": "foxWSFix"
+                        }
+                    ],
+                    "setup": {
+                        "complete_path": "../ready-oldunreal",
+                        "command": "./setup-ut2004-oldunreal.sh",
+                        "license_path": "../System/License.int",
+                    },
+                    "command": "./run-ut2004-oldunreal.sh",
+                    "engine_name": "ut2004-oldunreal"
                 },
                 {
                     "name": "ut2004 without foxWSFix",
@@ -12593,6 +12625,22 @@
             "controllerNotSupported": true,
             "engine_name": "ut99",
             "internal_engine_name": "ut99"
+        },
+        {
+            "engine_link": "https://github.com/OldUnreal/UT2004Patches/blob/main/ReleaseNotes.md",
+            "version": "3374-preview-9",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Proprietary/Closed Source",
+            "license_link": "https://github.com/OldUnreal/UT2004Patches/blob/main/LICENSE.md",
+            "notices": [
+                {
+                    "key": "closed_source"
+                }
+            ],
+            "controllerNotSupported": true,
+            "engine_name": "ut2004-oldunreal",
+            "internal_engine_name": "ut2004-oldunreal"
         },
         {
             "engine_link": "https://github.com/OldUnreal/Unreal-testing/releases/tag/v227k_12",
