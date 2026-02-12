@@ -20,4 +20,4 @@ fi
 
 cd linuxdata-oldunreal/System
 
-./UT2004 $*
+./UT2004
