@@ -5711,10 +5711,9 @@
                     "engine_name": "ut2004"
                 },
                 {
-                    "name": "OldUnreal ut2004 with foxWSFix",
+                    "name": "OldUnreal ut2004",
                     "download": [
                         "ut2004",
-                        "foxWSFix",
                         "binaries-oldunreal"
                     ],
                     "download_config": [
@@ -5722,11 +5721,6 @@
                             "extract_location": "../linuxdata-oldunreal",
                             "setup": true,
                             "download_name": "binaries-oldunreal"
-                        },
-                        {
-                            "extract_location": "../linuxdata-oldunreal",
-                            "setup": true,
-                            "download_name": "foxWSFix"
                         }
                     ],
                     "setup": {
