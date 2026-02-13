@@ -35,11 +35,14 @@ ln -rsf Manual linuxdata-oldunreal/Manual
 ln -rsf maps linuxdata-oldunreal/Maps
 ln -rsf Music linuxdata-oldunreal/Music
 ln -rsf Prefabs linuxdata-oldunreal/Prefabs
-ln -rsf Sounds linuxdata-oldunreal/Sounds
 ln -rsf StaticMeshes linuxdata-oldunreal/StaticMeshes
 ln -rsf "ut2004 content 2" linuxdata-oldunreal/"ut2004 content 2"
-    
 
+mkdir -p linuxdata-oldunreal/Sounds
+ln -rsf Sounds/* linuxdata-oldunreal/Sounds
+
+cp -rfv linuxdata-oldunreal-binaries/* linuxdata-oldunreal
+    
 rm linuxdata-oldunreal/System/User.ini
 cp System/User.ini linuxdata-oldunreal/System/User.ini
 
