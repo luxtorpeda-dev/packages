@@ -1,3 +1,11 @@
+- title: OldUnreal Releases Preview for UT2004
+  date: 2026-02-12
+  body: |
+    OldUnreal, which has provided patches for other Unreal games, just released a preview 3374 patch for UT2004! https://github.com/OldUnreal/UT2004Patches/releases/tag/3374-preview-9
+
+    This provides alot of fixes, including SDL3 support, and better widescreen.
+
+    I've added support for this option to luxtorpeda, so now if you own the game on steam and you use luxtorpeda, you'll be able to use betwen the original native Linux port, and the OldUnreal patch.
 - title: More ScummVM Games Supported with 2026.1.0
   date: 2026-02-02
   body: |
