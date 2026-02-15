@@ -5670,6 +5670,11 @@
                     "name": "binaries-oldunreal",
                     "url": "https://github.com/OldUnreal/UT2004Patches/releases/download/3374-preview-9/",
                     "file": "OldUnreal-UT2004Patch3374-Linux-60bd31b3.tar.bz2"
+                },
+                {
+                    "name": "ons-bonus-map-pack",
+                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/U/8/2/890295/",
+                    "file": "UT2004-ONSBonusMapPack.zip"
                 }
             ],
             "choices": [
@@ -5714,13 +5719,18 @@
                     "name": "OldUnreal ut2004",
                     "download": [
                         "ut2004",
-                        "binaries-oldunreal"
+                        "binaries-oldunreal",
+                        "ons-bonus-map-pack"
                     ],
                     "download_config": [
                         {
                             "extract_location": "../linuxdata-oldunreal-binaries",
                             "setup": true,
                             "download_name": "binaries-oldunreal"
+                        },
+                        {
+                            "extract_location": "../linuxdata-oldunreal-binaries/Maps",
+                            "download_name": "ons-bonus-map-pack"
                         }
                     ],
                     "setup": {
