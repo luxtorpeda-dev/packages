@@ -5675,6 +5675,26 @@
                     "name": "ons-bonus-map-pack",
                     "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/U/8/2/890295/",
                     "file": "UT2004-ONSBonusMapPack.zip"
+                },
+                {
+                    "name": "AS-Confexia",
+                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Assault/C/3/4/31ca91/",
+                    "file": "AS-Confexia.zip"
+                },
+                {
+                    "name": "dmforbidden",
+                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/F/d/8/d03b67/",
+                    "file": "dmforbidden.zip"
+                },
+                {
+                    "name": "ons-icarus",
+                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/I/7/2/051797/",
+                    "file": "ons-icarus.zip"
+                },
+                {
+                    "name": "CTF-DE-LavaGiant2",
+                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/2/f/d649cc/",
+                    "file": "CTF-DE-LavaGiant2.zip"
                 }
             ],
             "choices": [
@@ -5720,7 +5740,11 @@
                     "download": [
                         "ut2004",
                         "binaries-oldunreal",
-                        "ons-bonus-map-pack"
+                        "ons-bonus-map-pack",
+                        "AS-Confexia",
+                        "dmforbidden",
+                        "ons-icarus",
+                        "CTF-DE-LavaGiant2"
                     ],
                     "download_config": [
                         {
@@ -5731,6 +5755,22 @@
                         {
                             "extract_location": "../linuxdata-oldunreal/Maps",
                             "download_name": "ons-bonus-map-pack"
+                        },
+                        {
+                            "extract_location": "../linuxdata-oldunreal",
+                            "download_name": "AS-Confexia"
+                        },
+                        {
+                            "extract_location": "../linuxdata-oldunreal/Maps",
+                            "download_name": "dmforbidden"
+                        },
+                        {
+                            "extract_location": "../linuxdata-oldunreal",
+                            "download_name": "ons-icarus"
+                        },
+                        {
+                            "extract_location": "../linuxdata-oldunreal/Maps",
+                            "download_name": "CTF-DE-LavaGiant2"
                         }
                     ],
                     "setup": {
