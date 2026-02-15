@@ -5729,7 +5729,7 @@
                             "download_name": "binaries-oldunreal"
                         },
                         {
-                            "extract_location": "../linuxdata-oldunreal-binaries/Maps",
+                            "extract_location": "../linuxdata-oldunreal/Maps",
                             "download_name": "ons-bonus-map-pack"
                         }
                     ],
