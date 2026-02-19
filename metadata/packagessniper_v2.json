@@ -13,7 +13,8 @@
                     "name": "jpexs-decompiler",
                     "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.1/",
                     "file": "ffdec_24.1.1.zip",
-                    "cache_by_name": true
+                    "cache_by_name": true,
+                    "ignore_updates": true
                 },
                 {
                     "name": "ruffle",
@@ -6572,7 +6573,8 @@
                     "name": "jpexs-decompiler",
                     "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.1/",
                     "file": "ffdec_24.1.1.zip",
-                    "cache_by_name": true
+                    "cache_by_name": true,
+                    "ignore_updates": true
                 },
                 {
                     "name": "ruffle",
@@ -14410,7 +14412,8 @@
                 "name": "jpexs-decompiler",
                 "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.1/",
                 "file": "ffdec_24.1.1.zip",
-                "cache_by_name": true
+                "cache_by_name": true,
+                "ignore_updates": true
             },
             {
                 "name": "ruffle",
