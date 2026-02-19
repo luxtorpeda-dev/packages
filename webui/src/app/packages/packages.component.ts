@@ -158,28 +158,28 @@ export class PackagesComponent implements OnInit {
         }
       }
 
-      for (let title of this.titles.games) {
+    for (let title of this.titles.games) {
         title.titleId = title.app_id;
         title = this.processTitle(title);
         finalTitles.push(title);
-     }
+    }
 
-     finalTitles.sort(function (a: any, b: any) {
-      if (a.game_name < b.game_name) {
-        return -1;
-      }
-      if (a.game_name > b.game_name) {
-        return 1;
-      }
-      return 0;
+    const collator = new Intl.Collator('en', {
+        sensitivity: 'base',
+        ignorePunctuation: true,
+        numeric: true
     });
 
+    finalTitles.sort((a: any, b: any) =>
+        collator.compare(a.game_name, b.game_name)
+    );
+
     if(defaultRecord) {
-      defaultRecord.isDefault = true;
-      defaultRecord.titleId = 'default';
-      defaultRecord.app_id = 'default';
-      defaultRecord = this.processTitle(defaultRecord);
-      finalTitles.unshift(defaultRecord);
+        defaultRecord.isDefault = true;
+        defaultRecord.titleId = 'default';
+        defaultRecord.app_id = 'default';
+        defaultRecord = this.processTitle(defaultRecord);
+        finalTitles.unshift(defaultRecord);
     }
 
     this.titles = finalTitles;
