@@ -1,3 +1,15 @@
+- title: SNAKE!!! (Metal Gear Solid Games Added)
+  date: 2026-02-18
+  body: |
+    The Metal Gear Solid Games have been added, with MGSHDFix for METAL GEAR & METAL GEAR 2: Solid Snake, METAL GEAR SOLID 2: Sons of Liberty - Master Collection Version, and METAL GEAR SOLID 3: Snake Eater - Master Collection Version. As well, METAL GEAR SOLID - Master Collection Version with MGSM2Fix.
+
+    These fixes will help make the games easier to use, with ultrawide support and other QOL improvements.
+
+    For the games with MGSHDFix, you will need to download the new client release 76.0.0, as some additional setup was needed so the fix could see the correct directory.
+
+    Note that for MGSHDFix, you will want to use the Save & Exit option when using the config tool, as clicking launch does not seem to work. Once you do that though, the game will launch automatically if you're seeing the config tool in first time setup. You can also launch it again at any time by choosing that launch option in the client instead.
+
+    ![Metal 3](https://github.com/luxtorpeda-dev/packages/releases/download/1oom-14/20260218213230_1.jpg)
 - title: OldUnreal Releases Preview for UT2004
   date: 2026-02-12
   body: |
