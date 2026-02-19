@@ -11268,6 +11268,201 @@
             "app_id": "6910"
         },
         {
+            "game_name": "METAL GEAR & METAL GEAR 2: Solid Snake",
+            "download": [
+                {
+                    "name": "MGSHDFix",
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.0/",
+                    "file": "MGSHDFix_3.0.0.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "MGSHDFix",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "wininet,winhttp=n,b;"
+                    },
+                    "download": [
+                        "MGSHDFix"
+                    ],
+                    "command": "launcher.exe",
+                    "engine_name": "MGSHDFix",
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "MGSHDFix Config Tool.exe",
+                        "command_current_dir": "plugins"
+                    },
+                    "notices": [
+                        {
+                            "label": "When using the config tool, save and exit instead of launching the game from it."
+                        },
+                        {
+                            "label": "This requires luxtorpeda version 76.0.0 or above."
+                        }
+                    ]
+                },
+                {
+                    "name": "MGSHDFix Config Tool",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "wininet,winhttp=n,b;"
+                    },
+                    "download": [
+                        "MGSHDFix"
+                    ],
+                    "command_current_dir": "plugins",
+                    "command": "plugins/MGSHDFix Config Tool.exe",
+                    "engine_name": "MGSHDFix",
+                    "notices": [
+                        {
+                            "label": "When using the config tool, save and exit instead of launching the game from it."
+                        },
+                        {
+                            "label": "This requires luxtorpeda version 76.0.0 or above."
+                        }
+                    ]
+                }
+            ],
+            "app_id": "2131680"
+        },
+        {
+            "game_name": "METAL GEAR SOLID 2: Sons of Liberty - Master Collection Version",
+            "download": [
+                {
+                    "name": "MGSHDFix",
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.0/",
+                    "file": "MGSHDFix_3.0.0.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "MGSHDFix",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "wininet,winhttp=n,b;"
+                    },
+                    "download": [
+                        "MGSHDFix"
+                    ],
+                    "command": "launcher.exe",
+                    "engine_name": "MGSHDFix",
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "MGSHDFix Config Tool.exe",
+                        "command_current_dir": "plugins"
+                    },
+                    "notices": [
+                        {
+                            "label": "When using the config tool, save and exit instead of launching the game from it."
+                        },
+                        {
+                            "label": "This requires luxtorpeda version 76.0.0 or above."
+                        }
+                    ]
+                },
+                {
+                    "name": "MGSHDFix Config Tool",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "wininet,winhttp=n,b;"
+                    },
+                    "download": [
+                        "MGSHDFix"
+                    ],
+                    "command_current_dir": "plugins",
+                    "command": "plugins/MGSHDFix Config Tool.exe",
+                    "engine_name": "MGSHDFix",
+                    "notices": [
+                        {
+                            "label": "When using the config tool, save and exit instead of launching the game from it."
+                        },
+                        {
+                            "label": "This requires luxtorpeda version 76.0.0 or above."
+                        }
+                    ]
+                }
+            ],
+            "app_id": "2131640"
+        },
+        {
+            "game_name": "METAL GEAR SOLID 3: Snake Eater - Master Collection Version",
+            "download": [
+                {
+                    "name": "MGSHDFix",
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.0/",
+                    "file": "MGSHDFix_3.0.0.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "MGSHDFix",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "wininet,winhttp=n,b;"
+                    },
+                    "download": [
+                        "MGSHDFix"
+                    ],
+                    "command": "launcher.exe",
+                    "engine_name": "MGSHDFix",
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "MGSHDFix Config Tool.exe",
+                        "command_current_dir": "plugins"
+                    },
+                    "notices": [
+                        {
+                            "label": "When using the config tool, save and exit instead of launching the game from it."
+                        },
+                        {
+                            "label": "This requires luxtorpeda version 76.0.0 or above."
+                        }
+                    ]
+                },
+                {
+                    "name": "MGSHDFix Config Tool",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "wininet,winhttp=n,b;"
+                    },
+                    "download": [
+                        "MGSHDFix"
+                    ],
+                    "command_current_dir": "plugins",
+                    "command": "plugins/MGSHDFix Config Tool.exe",
+                    "engine_name": "MGSHDFix",
+                    "notices": [
+                        {
+                            "label": "When using the config tool, save and exit instead of launching the game from it."
+                        },
+                        {
+                            "label": "This requires luxtorpeda version 76.0.0 or above."
+                        }
+                    ]
+                }
+            ],
+            "app_id": "2131650"
+        },
+        {
+            "game_name": "METAL GEAR SOLID - Master Collection Version",
+            "download": [
+                {
+                    "name": "MGSM2Fix",
+                    "url": "https://github.com/nuggslet/MGSM2Fix/releases/download/v3.2.1/",
+                    "file": "MGSM2Fix_3.2.1.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "MGSM2Fix",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b;d3d11=n,b;"
+                    },
+                    "download": [
+                        "MGSM2Fix"
+                    ],
+                    "command": "METAL GEAR SOLID.exe",
+                    "engine_name": "MGSM2Fix"
+                }
+            ],
+            "app_id": "2131630"
+        },
+        {
             "game_name": "Descent 3",
             "download": [
                 {
@@ -13777,6 +13972,38 @@
             ],
             "controllerSupported": true,
             "internal_engine_name": "enhancedsc"
+        },
+        {
+            "engine_link": "https://github.com/nuggslet/MGSM2Fix",
+            "version": "v3.2.1",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/nuggslet/MGSM2Fix/blob/master/LICENSE",
+            "engine_name": "MGSM2Fix",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerSupported": true,
+            "internal_engine_name": "MGSM2Fix"
+        },
+        {
+            "engine_link": "https://github.com/Lyall/MGSHDFix",
+            "version": "3.0.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/Lyall/MGSHDFix/blob/master/LICENSE.md",
+            "engine_name": "MGSHDFix",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerSupported": true,
+            "internal_engine_name": "MGSHDFix"
         },
         {
             "engine_link": "https://github.com/Die4Ever/deus-ex-randomizer",
