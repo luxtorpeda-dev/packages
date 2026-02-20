@@ -1,3 +1,12 @@
+<div *ngIf="isInitialScrollInProgress" class="scroll-spinner-overlay" aria-live="polite">
+  <div class="scroll-spinner-card">
+    <div class="spinner-border" role="status" aria-label="Scrolling to post"></div>
+    <div class="ms-2">
+      Jumping to post…
+      <div class="scroll-spinner-sub" *ngIf="initialScrollTarget">{{ initialScrollTarget }}</div>
+    </div>
+  </div>
+</div>
 <div class='container-fluid page-wrapper'>
   <div class="col-lg-8 mx-auto">
       @for (post of posts; track post.title) {

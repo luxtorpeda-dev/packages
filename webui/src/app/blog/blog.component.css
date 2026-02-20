@@ -22,3 +22,31 @@ div {
 :host ::ng-deep markdown img {
   max-width: 100%;
 }
+
+.scroll-spinner-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 16px;
+  background: rgba(255, 255, 255, 0.65);
+  z-index: 2000;
+}
+
+.scroll-spinner-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 10px 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.scroll-spinner-sub {
+  font-size: 12px;
+  opacity: 0.7;
+  word-break: break-all;
+}
