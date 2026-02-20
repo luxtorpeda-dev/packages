@@ -9,6 +9,11 @@
 
     Note that for MGSHDFix, you will want to use the Save & Exit option when using the config tool, as clicking launch does not seem to work. Once you do that though, the game will launch automatically if you're seeing the config tool in first time setup. You can also launch it again at any time by choosing that launch option in the client instead.
 
+    Also appreciate all the articles posted about this, great to see some more interest in luxtorpeda:
+
+    - https://www.gamingonlinux.com/2026/02/its-now-easier-to-install-mgshdfix-for-metal-gear-games-on-linux-steam-deck/
+    - https://www.pcgamer.com/software/linux/my-favourite-thing-about-linux-gaming-will-now-automagically-apply-crucial-fan-patches-to-your-metal-gear-installs-making-it-even-easier-than-on-windows/
+
     ![Metal 3](https://github.com/luxtorpeda-dev/packages/releases/download/1oom-14/20260218213230_1.jpg)
 - title: OldUnreal Releases Preview for UT2004
   date: 2026-02-12
