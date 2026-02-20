@@ -29,13 +29,26 @@ export class BlogComponent implements OnInit {
       : '';
 
     if (initialHash) {
+      let finished = false;
       setTimeout(() => {
         this.isInitialScrollInProgress = true;
         this.initialScrollTarget = initialHash;
         this.cdr.detectChanges();
       }, 0);
 
+      const spinnerTimeout = setTimeout(() => {
+        if (!finished) {
+          console.log('[blog-scroll] spinner auto-cleared after 1500ms');
+          this.isInitialScrollInProgress = false;
+          this.initialScrollTarget = null;
+          this.cdr.detectChanges();
+        }
+      }, 1500);
+
       void this.scrollToFragmentReliable(initialHash).finally(() => {
+        finished = true;
+        clearTimeout(spinnerTimeout);
+
         this.isInitialScrollInProgress = false;
         this.initialScrollTarget = null;
         this.cdr.detectChanges();

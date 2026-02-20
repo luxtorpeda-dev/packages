@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build --configuration production --output-hashing none",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "postbuild": "node scripts/generate-rss.mjs"
   },
   "private": true,
   "dependencies": {
@@ -42,6 +43,7 @@
     "karma-coverage": "~2.2.1",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.2.0",
+    "rss": "^1.2.2",
     "typescript": "~5.9.3"
   },
   "overrides": {
