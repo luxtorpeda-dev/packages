@@ -12010,6 +12010,48 @@
                 }
             ],
             "app_id": "412020"
+        },
+	{
+            "game_name": "Thief Gold",
+            "download": [
+                {
+                    "name": "TFix",
+                    "url": "https://s3-nl.hostkey.com/b8743306-fgsfds/superheater/thief/",
+                    "file": "thief_1_tfix_127.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "TFix",
+                    "download": [
+                        "TFix"
+                    ],
+                    "command": "thief.exe",
+                    "engine_name": "TFix"
+                }
+            ],
+            "app_id": "211600"
+        },
+	{
+            "game_name": "Thief™ II: The Metal Age",
+            "download": [
+                {
+                    "name": "T2Fix",
+                    "url": "https://s3-nl.hostkey.com/b8743306-fgsfds/superheater/thief/",
+                    "file": "thief_2_tfix_127.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "T2Fix",
+                    "download": [
+                        "T2Fix"
+                    ],
+                    "command": "Thief2.exe",
+                    "engine_name": "T2Fix"
+                }
+            ],
+            "app_id": "211740"
         }
     ],
     "engines": [
@@ -14367,6 +14409,38 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "MetroDeveloper"
+        },
+	{
+            "engine_link": "https://github.com/Xanfre/T2Fix",
+            "version": "1.27",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "MIT",
+            "license_link": "https://github.com/Xanfre/T2Fix/blob/main/LICENSE",
+            "engine_name": "T2Fix",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "T2Fix"
+        },
+	{
+            "engine_link": "https://www.moddb.com/mods/tfix",
+            "version": "1.27",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "No license specified",
+            "license_link": "https://www.moddb.com/mods/tfix",
+            "engine_name": "TFix",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "TFix"
         },
         {
             "engine_link": "https://gitlab.com/m210/BuildGDX",
