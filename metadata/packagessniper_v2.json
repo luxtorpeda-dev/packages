@@ -8752,6 +8752,85 @@
             "app_id": "13520"
         },
         {
+            "game_name": "STAR WARS™ Episode I Racer",
+            "download": [
+                {
+                    "name": "dsound",
+                    "url": "https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Star%20Wars%20-%20Episode%201%20Racer/",
+                    "file": "dsound.dll"
+                },
+                {
+                    "name": "swe1r-patcher",
+                    "url": "https://github.com/JayFoxRox/swe1r-patcher/releases/download/v1.0/",
+                    "file": "swe1r-patcher-v1_0.zip"
+                },
+                {
+                    "name": "config",
+                    "url": "https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Star%20Wars%20-%20Episode%201%20Racer/",
+                    "file": "swep1r_conf.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "swep1rcr.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "ddraw=n,b;dinput=n,b;dsound=n,b;wsock32=n,b"
+                    },
+                    "engine_name": "swe1r-patcher",
+                    "name": "swe1r-patcher",
+                    "download": [
+                        "dsound",
+                        "swe1r-patcher",
+                        "config"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./data/config/current",
+                            "download_name": "config"
+                        }
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "cmd.exe",
+                        "command_args": [
+                            "/k",
+                            "cmd.exe /c Install.bat & call regfix.bat & pause"
+                        ]
+                    }
+                },
+                {
+                    "command": "swep1rcr.exe",
+                    "command_args": ["-v"],
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "ddraw=n,b;dinput=n,b;dsound=n,b;wsock32=n,b"
+                    },
+                    "engine_name": "swe1r-patcher",
+                    "name": "Display Settings",
+                    "download": [
+                        "dsound",
+                        "swe1r-patcher",
+                        "config"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./data/config/current",
+                            "download_name": "config"
+                        }
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "cmd.exe",
+                        "command_args": [
+                            "/k",
+                            "set \"INSTALLDIR=%CD%\" & cmd.exe /c \"call Install.bat\" & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"3D Device\" /t REG_SZ /d \"Direct3D HAL\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"Analyze Path\" /t REG_SZ /d \".\\SysCheck.exe\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"CD Path\" /t REG_SZ /d \".\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"executable\" /t REG_SZ /d \"%INSTALLDIR%\\SWEP1RCR.EXE\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"GUID\" /t REG_SZ /d \"{00000000-0000-0000-0000-000000000000}\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"Install Path\" /t REG_SZ /d \"%INSTALLDIR%\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"JoystickID\" /t REG_SZ /d \"1\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"Source Dir\" /t REG_SZ /d \"%INSTALLDIR%\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"Source Path\" /t REG_SZ /d \"%INSTALLDIR%\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"DevMode\" /t REG_DWORD /d 0 /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"InstallType\" /t REG_DWORD /d 9 /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"UseFett\" /t REG_DWORD /d 0 /f & echo. & echo Press any key to close... & pause"
+                        ]
+                    }
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "808910"
+        },
+        {
             "game_name": "No More Heroes",
             "download": [
                 {
