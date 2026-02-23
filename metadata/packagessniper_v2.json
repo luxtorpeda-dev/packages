@@ -12052,6 +12052,52 @@
                 }
             ],
             "app_id": "211740"
+        },
+	{
+            "game_name": "Binary Domain",
+            "download": [
+                {
+                    "name": "domaim",
+                    "url": "https://github.com/RollinBarrel/binary-domaim/releases/download/v0.92/",
+                    "file": "domaim.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "binary-domaim",
+                    "download": [
+                        "domaim"
+                    ],
+                    "commands": [
+                        {
+                            "cmd": "BinaryDomain.exe",
+                            "command_name": ".*BinaryDomain.exe"
+                        },
+                        {
+                            "cmd": "BinaryDomainConfiguration.exe",
+                            "command_name": ".*BinaryDomainConfiguration.exe"
+                        }
+                    ],
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "binary-domaim"
+                },
+		{
+                    "name": "binary-domaim Configurator",
+                    "download": [
+                        "domaim"
+                    ],
+                    "command": "domaim.exe",
+                    "notices": [
+                        {
+                            "key": "uses_proton"
+                        }
+                    ],
+                    "engine_name": "binary-domaim-configurator"
+                }
+            ],
+            "app_id": "203750"
         }
     ],
     "engines": [
@@ -14441,6 +14487,22 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "TFix"
+        },
+	{
+            "engine_link": "https://github.com/RollinBarrel/binary-domaim",
+            "version": "0.92",
+            "author": "mv",
+            "author_link": "https://github.com/mvoolt",
+            "license": "MIT",
+            "license_link": "https://github.com/RollinBarrel/binary-domaim/blob/main/LICENSE",
+            "engine_name": "binary-domaim",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "binary-domaim"
         },
         {
             "engine_link": "https://gitlab.com/m210/BuildGDX",
