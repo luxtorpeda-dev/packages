@@ -12027,9 +12027,6 @@
                         "TFix"
                     ],
                     "command": "thief.exe",
-                    "command_vars": {
-                        "WINEDLLOVERRIDES": "dinput8=n,b;winmm=b"
-                    },
                     "engine_name": "TFix"
                 }
             ],
