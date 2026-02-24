@@ -8786,7 +8786,8 @@
                     "download": [
                         "dsound",
                         "swe1r-patcher",
-                        "config"
+                        "config",
+                        "starwars-racer"
                     ],
                     "download_config": [
                         {
@@ -8822,7 +8823,8 @@
                     "download": [
                         "dsound",
                         "swe1r-patcher",
-                        "config"
+                        "config",
+                        "starwars-racer"
                     ],
                     "download_config": [
                         {
