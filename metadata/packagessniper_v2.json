@@ -8752,6 +8752,97 @@
             "app_id": "13520"
         },
         {
+            "game_name": "STAR WARS™ Episode I Racer",
+            "download": [
+                {
+                    "name": "dsound",
+                    "url": "https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Star%20Wars%20-%20Episode%201%20Racer/",
+                    "file": "dsound.dll"
+                },
+                {
+                    "name": "swe1r-patcher",
+                    "url": "https://github.com/JayFoxRox/swe1r-patcher/releases/download/v1.0/",
+                    "file": "swe1r-patcher-v1_0.zip"
+                },
+                {
+                    "name": "config",
+                    "url": "https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Star%20Wars%20-%20Episode%201%20Racer/",
+                    "file": "swep1r_conf.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "swep1rcr.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "ddraw=n,b;dinput=n,b;dsound=n,b;wsock32=n,b"
+                    },
+                    "engine_name": "swe1r-patcher",
+                    "name": "swe1r-patcher",
+                    "download": [
+                        "dsound",
+                        "swe1r-patcher",
+                        "config"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./data/config/current",
+                            "download_name": "config"
+                        }
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "cmd.exe",
+                        "command_args": [
+                            "/c",
+                            "cmd.exe /c Install.bat & call StarReg.bat"
+                        ]
+                    },
+                    "default_proton_choice": "proton_10",
+                    "notices": [
+                        {
+                            "label": "This requires luxtorpeda version 76.1.0 or above."
+                        }
+                    ]
+                },
+                {
+                    "command": "swep1rcr.exe",
+                    "command_args": ["-v"],
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "ddraw=n,b;dinput=n,b;dsound=n,b;wsock32=n,b"
+                    },
+                    "engine_name": "swe1r-patcher",
+                    "name": "Display Settings",
+                    "download": [
+                        "dsound",
+                        "swe1r-patcher",
+                        "config"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./data/config/current",
+                            "download_name": "config"
+                        }
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "cmd.exe",
+                        "command_args": [
+                            "/c",
+                            "cmd.exe /c Install.bat & call StarReg.bat"
+                        ]
+                    },
+                    "default_proton_choice": "proton_10",
+                    "notices": [
+                        {
+                            "label": "This requires luxtorpeda version 76.1.0 or above."
+                        }
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "808910"
+        },
+        {
             "game_name": "No More Heroes",
             "download": [
                 {
@@ -14062,6 +14153,22 @@
             ],
             "controllerSupported": true,
             "internal_engine_name": "enhancedsc"
+        },
+        {
+            "engine_link": "https://github.com/JayFoxRox/swe1r-patcher",
+            "version": "v1.0",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "2019 Jannik Vogel",
+            "license_link": "https://github.com/JayFoxRox/swe1r-patcher",
+            "engine_name": "swe1r-patcher",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "swe1r-patcher"
         },
         {
             "engine_link": "https://github.com/nuggslet/MGSM2Fix",
