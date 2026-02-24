@@ -8768,6 +8768,11 @@
                     "name": "config",
                     "url": "https://github.com/legluondunet/MyLittleLutrisScripts/raw/master/Star%20Wars%20-%20Episode%201%20Racer/",
                     "file": "swep1r_conf.zip"
+                },
+                {
+                    "name": "starwars-racer",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/starwars-racer-1/",
+                    "file": "starwars-racer-808910-1.tar.xz"
                 }
             ],
             "choices": [
@@ -8806,7 +8811,9 @@
                 },
                 {
                     "command": "swep1rcr.exe",
-                    "command_args": ["-v"],
+                    "command_args": [
+                        "-v"
+                    ],
                     "command_vars": {
                         "WINEDLLOVERRIDES": "ddraw=n,b;dinput=n,b;dsound=n,b;wsock32=n,b"
                     },
@@ -12102,7 +12109,7 @@
             ],
             "app_id": "412020"
         },
-	{
+        {
             "game_name": "Thief Gold",
             "download": [
                 {
@@ -12123,7 +12130,7 @@
             ],
             "app_id": "211600"
         },
-	{
+        {
             "game_name": "Thief™ II: The Metal Age",
             "download": [
                 {
@@ -12144,7 +12151,7 @@
             ],
             "app_id": "211740"
         },
-	{
+        {
             "game_name": "Binary Domain",
             "download": [
                 {
@@ -12174,7 +12181,7 @@
                     },
                     "engine_name": "binary-domaim"
                 },
-		{
+                {
                     "name": "binary-domaim Configurator",
                     "download": [
                         "domaim"
@@ -14563,7 +14570,7 @@
             "controllerNotSupported": true,
             "internal_engine_name": "MetroDeveloper"
         },
-	{
+        {
             "engine_link": "https://github.com/Xanfre/T2Fix",
             "version": "1.27",
             "author": "mv",
@@ -14579,7 +14586,7 @@
             "controllerNotSupported": true,
             "internal_engine_name": "T2Fix"
         },
-	{
+        {
             "engine_link": "https://www.moddb.com/mods/tfix",
             "version": "1.27",
             "author": "mv",
@@ -14595,7 +14602,7 @@
             "controllerNotSupported": true,
             "internal_engine_name": "TFix"
         },
-	{
+        {
             "engine_link": "https://github.com/RollinBarrel/binary-domaim",
             "version": "0.92",
             "author": "mv",
