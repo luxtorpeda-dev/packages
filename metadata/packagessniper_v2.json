@@ -8794,7 +8794,7 @@
                         "command": "cmd.exe",
                         "command_args": [
                             "/k",
-                            "cmd.exe /c Install.bat & call regfix.bat & pause"
+                            "cmd.exe /c Install.bat & call StarReg.bat & pause"
                         ]
                     }
                 },
@@ -8822,7 +8822,7 @@
                         "command": "cmd.exe",
                         "command_args": [
                             "/k",
-                            "set \"INSTALLDIR=%CD%\" & cmd.exe /c \"call Install.bat\" & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"3D Device\" /t REG_SZ /d \"Direct3D HAL\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"Analyze Path\" /t REG_SZ /d \".\\SysCheck.exe\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"CD Path\" /t REG_SZ /d \".\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"executable\" /t REG_SZ /d \"%INSTALLDIR%\\SWEP1RCR.EXE\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"GUID\" /t REG_SZ /d \"{00000000-0000-0000-0000-000000000000}\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"Install Path\" /t REG_SZ /d \"%INSTALLDIR%\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"JoystickID\" /t REG_SZ /d \"1\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"Source Dir\" /t REG_SZ /d \"%INSTALLDIR%\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"Source Path\" /t REG_SZ /d \"%INSTALLDIR%\" /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"DevMode\" /t REG_DWORD /d 0 /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"InstallType\" /t REG_DWORD /d 9 /f & reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\lucasarts entertainment company llc\\Star Wars: Episode I Racer\\v1.0\" /v \"UseFett\" /t REG_DWORD /d 0 /f & echo. & echo Press any key to close... & pause"
+                            "cmd.exe /c Install.bat & call StarReg.bat & pause"
                         ]
                     }
                 }
