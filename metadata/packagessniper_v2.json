@@ -12160,6 +12160,11 @@
                     "name": "domaim",
                     "url": "https://github.com/RollinBarrel/binary-domaim/releases/download/v0.92/",
                     "file": "domaim.zip"
+                },
+                {
+                    "name": "flawlesswidescreen",
+                    "url": "https://www.flawlesswidescreen.org/fws/",
+                    "file": "flawlesswidescreen.zip"
                 }
             ],
             "choices": [
@@ -12184,6 +12189,35 @@
                     "engine_name": "binary-domaim"
                 },
                 {
+                    "name": "binary-domaim with Flawless Widescreen",
+                    "download": [
+                        "domaim",
+                        "flawlesswidescreen"
+                    ],
+                    "command_relative_path": true,
+                    "command": "cmd.exe",
+                    "command_args": [
+                        "/c",
+                        "start \"\" FlawlessWidescreen.exe & start \"\" BinaryDomain.exe"
+                    ],
+                    "setup": {
+                        "complete_path": "./flawless-ready",
+                        "command": "FlawlessWidescreen.exe"
+                    },
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "dinput8=n,b"
+                    },
+                    "engine_name": "binary-domaim",
+                    "notices": [
+                        {
+                            "label": "This requires luxtorpeda version 76.2.0 or above."
+                        },
+                        {
+                            "label": "The first launch will open FlawlessWidescreen to give you the chance to install the correct plugin. Once you're done, close it, and then it and the game will launch again."
+                        }
+                    ]
+                },
+                {
                     "name": "binary-domaim Configurator",
                     "download": [
                         "domaim"
@@ -12198,6 +12232,47 @@
                 }
             ],
             "app_id": "203750"
+        },
+        {
+            "game_name": "STAR WARS™ Knights of the Old Republic™",
+            "download": [
+                {
+                    "name": "flawlesswidescreen",
+                    "url": "https://www.flawlesswidescreen.org/fws/",
+                    "file": "flawlesswidescreen.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "Flawless Widescreen",
+                    "download": [
+                        "flawlesswidescreen"
+                    ],
+                    "command_relative_path": true,
+                    "command": "cmd.exe",
+                    "command_args": [
+                        "/c",
+                        "start \"\" FlawlessWidescreen.exe & start \"\" swkotor.exe"
+                    ],
+                    "setup": {
+                        "complete_path": "./flawless-ready",
+                        "command": "FlawlessWidescreen.exe"
+                    },
+                    "engine_name": "FlawlessWidescreen",
+                    "notices": [
+                        {
+                            "label": "This requires luxtorpeda version 76.2.0 or above."
+                        },
+                        {
+                            "label": "The first launch will open FlawlessWidescreen to give you the chance to install the correct plugin. Once you're done, close it, and then it and the game will launch again."
+                        },
+                        {
+                            "label": "You may have to manually edit the swkotor.ini file inside the game directory to add your width and height to the graphics options for resolution if you launch to a black screen."
+                        }
+                    ]
+                }
+            ],
+            "app_id": "32370"
         }
     ],
     "engines": [
@@ -14630,6 +14705,22 @@
             "engine_name": "BuildGDX",
             "controllerNotSupported": true,
             "internal_engine_name": "BuildGDX"
+        },
+        {
+            "engine_link": "https://www.flawlesswidescreen.org",
+            "version": "1.0.15",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Copyright (c) 2012-2013, Hayden",
+            "license_link": "https://www.flawlesswidescreen.org/fws/core/licences/Summary.txt",
+            "engine_name": "FlawlessWidescreen",
+            "controllerNotSupported": true,
+            "internal_engine_name": "FlawlessWidescreen",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ]
         }
     ],
     "default_engine": {
