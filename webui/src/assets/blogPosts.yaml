@@ -1,3 +1,17 @@
+- title: Flawless Widescreen Support Added For Some Windows Proton Titles
+  date: 2026-02-25
+  body: |
+    Flawless Widescreen support has been added for some Windows titles via proton, including Binary Domain and Knights of the Old Republic. This requires luxtorpeda client 76.2.0 or above.
+
+    Flawless Widescreen has various patches for games and it requires running in the background, which makes setup especially in Proton fairly difficult. The way it works is that on the first launch, it will be started and you'll have the chance to install the right plugins for the game you're wanting to play, and then once you're done you can then close the utility. Once that happens, then it'll launch again, as well as the game you're wanting to play.
+
+    Note that for KOTOR, you may have to manually edit the swkotor.ini config file to have your width and height resolution if you get a black screen. Once I did that, I was able to get in game and run in ultra-wide which looks great!
+
+    As always, if anyone has any ideas of more engines/utilities to add, or more games to support, please let me know!
+
+    ![Flawless Widescreen](https://github.com/luxtorpeda-dev/packages/releases/download/starwars-racer-1/20260225213609_1.jpg)
+
+    ![In-Game](https://github.com/luxtorpeda-dev/packages/releases/download/starwars-racer-1/Screenshot_20260225_212524.png)
 - title: Thief Game Fixes Are Now Available
   date: 2026-02-23
   body: |
