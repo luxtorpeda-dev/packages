@@ -7051,16 +7051,38 @@
         },
         {
             "game_name": "Shadow Warrior Classic (1997)",
-            "download": [
+             "download": [
+                {
+                    "name": "voidsw",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/voidsw-18/",
+                    "file": "voidsw-common-18.tar.xz",
+                    "cache_by_name": true
+                },
                 {
                     "name": "raze",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/raze-43/",
                     "file": "raze-common-43.tar.xz",
                     "cache_by_name": true
                 }
+             ],
+	    "choices": [
+                {
+                    "name": "VoidSW",
+                    "command": "./run-voidsw.sh",
+                    "download": [
+                        "voidsw"
+                    ],
+                    "engine_name": "EDuke32 VoidSW"
+                },
+                {
+                    "name": "Raze",
+                    "engine_name": "Raze",
+                    "command": "./run-raze.sh",
+                    "download": [
+                        "raze"
+                    ]
+                }
             ],
-            "engine_name": "Raze",
-            "command": "./run-raze.sh",
             "cloudNotAvailable": true,
             "app_id": "238070"
         },
