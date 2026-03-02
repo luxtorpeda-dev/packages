@@ -8752,6 +8752,31 @@
             "app_id": "13520"
         },
         {
+            "game_name": "Prototype™",
+            "download": [
+                {
+                    "name": "PrototypeFix",
+                    "url": "https://s3-nl.hostkey.com/b8743306-fgsfds/superheater/",
+                    "file": "prototype-fix-v1_8b.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "prototypef.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "binkw32=n,b"
+                    },
+                    "engine_name": "PrototypeFix",
+                    "name": "PrototypeFix",
+                    "download": [
+                        "PrototypeFix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "10150"
+        },
+        {
             "game_name": "STAR WARS™ Episode I Racer",
             "download": [
                 {
@@ -14381,6 +14406,22 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "keeperfx"
+        },
+        {
+            "engine_link": "https://github.com/fgsfds/Steam-Superheater/blob/master/db/fixes.json#L7539",
+            "version": "v1_8b",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Superheater has GPLv3 License",
+            "license_link": "https://github.com/fgsfds/Steam-Superheater/blob/master/LICENSE",
+            "engine_name": "PrototypeFix",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "PrototypeFix"
         },
         {
             "engine_link": "https://github.com/CookiePLMonster/SilentPatchFarCry",
