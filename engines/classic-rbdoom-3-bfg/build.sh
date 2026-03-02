@@ -13,10 +13,6 @@ popd
 
 export sourcedir="$PWD/source"
 
-pushd source/vcpkg
-git apply "$sourcedir"/.github/tools/openal-fix.patch
-popd
-
 pushd "source/neo"
 mkdir build
 cd build
