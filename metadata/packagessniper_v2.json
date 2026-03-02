@@ -18,8 +18,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-80/",
-                    "file": "ruffle-common-80.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-81/",
+                    "file": "ruffle-common-81.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -455,8 +455,8 @@
                 },
                 {
                     "name": "helion-binaries",
-                    "url": "https://github.com/Helion-Engine/Helion/releases/download/0.9.9.0/",
-                    "file": "Helion-0.9.9.0-linux-x64_SelfContained.zip",
+                    "url": "https://github.com/Helion-Engine/Helion/releases/download/0.9.9.1/",
+                    "file": "Helion-0.9.9.1-linux-x64_SelfContained.zip",
                     "cache_by_name": true
                 }
             ],
@@ -3396,8 +3396,8 @@
                 },
                 {
                     "name": "ezquake",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ezquake-9/",
-                    "file": "ezquake-common-9.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ezquake-10/",
+                    "file": "ezquake-common-10.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3430,8 +3430,8 @@
                 },
                 {
                     "name": "chocolate-quake",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-25/",
-                    "file": "chocolate-quake-common-25.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-26/",
+                    "file": "chocolate-quake-common-26.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -4786,8 +4786,8 @@
                 },
                 {
                     "name": "taystjk",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taystjk-3/",
-                    "file": "taystjk-6020-3.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taystjk-4/",
+                    "file": "taystjk-6020-4.tar.xz"
                 }
             ],
             "commands": [
@@ -5011,8 +5011,8 @@
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-52/",
-                    "file": "openxcom-oxce-common-52.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-53/",
+                    "file": "openxcom-oxce-common-53.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5117,8 +5117,8 @@
                 },
                 {
                     "name": "openxcom-oxce",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-52/",
-                    "file": "openxcom-oxce-common-52.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-oxce-53/",
+                    "file": "openxcom-oxce-common-53.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -5919,7 +5919,7 @@
                 },
                 {
                     "name": "unreal-binaries",
-                    "url": "https://github.com/OldUnreal/Unreal-testing/releases/download/v227k_12/",
+                    "url": "https://github.com/OldUnreal/Unreal-testing/releases/download/v227k_14/",
                     "file": "OldUnreal-UnrealPatch227k-Linux.tar.bz2"
                 },
                 {
@@ -6578,8 +6578,8 @@
                 },
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-80/",
-                    "file": "ruffle-common-80.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-81/",
+                    "file": "ruffle-common-81.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -6733,8 +6733,8 @@
             "download": [
                 {
                     "name": "ruffle",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-80/",
-                    "file": "ruffle-common-80.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-81/",
+                    "file": "ruffle-common-81.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7416,8 +7416,8 @@
             "download": [
                 {
                     "name": "openrct2",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-61/",
-                    "file": "openrct2-common-61.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-62/",
+                    "file": "openrct2-common-62.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7440,8 +7440,8 @@
             "download": [
                 {
                     "name": "openrct2",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-61/",
-                    "file": "openrct2-common-61.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-62/",
+                    "file": "openrct2-common-62.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -7532,8 +7532,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-54/",
-                    "file": "notblood-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-55/",
+                    "file": "notblood-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8349,8 +8349,8 @@
             "download": [
                 {
                     "name": "openrct2",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-61/",
-                    "file": "openrct2-common-61.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openrct2-62/",
+                    "file": "openrct2-common-62.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8537,8 +8537,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-54/",
-                    "file": "notblood-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-55/",
+                    "file": "notblood-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8588,8 +8588,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-54/",
-                    "file": "notblood-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-55/",
+                    "file": "notblood-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8750,6 +8750,31 @@
             ],
             "cloudNotAvailable": true,
             "app_id": "13520"
+        },
+        {
+            "game_name": "Prototype™",
+            "download": [
+                {
+                    "name": "PrototypeFix",
+                    "url": "https://s3-nl.hostkey.com/b8743306-fgsfds/superheater/",
+                    "file": "prototype-fix-v1_8b.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "prototypef.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "binkw32=n,b"
+                    },
+                    "engine_name": "PrototypeFix",
+                    "name": "PrototypeFix",
+                    "download": [
+                        "PrototypeFix"
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "10150"
         },
         {
             "game_name": "STAR WARS™ Episode I Racer",
@@ -9565,7 +9590,7 @@
             "download": [
                 {
                     "name": "juiced-patch",
-                    "url": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch/releases/download/v8.0.2/",
+                    "url": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch/releases/download/v8.0.3/",
                     "file": "SR2_JUICED.zip"
                 }
             ],
@@ -9580,7 +9605,7 @@
                     "download_config": [
                         {
                             "extract_location": "./",
-                            "strip_prefix": "SR2_JUICED_V8.0.2",
+                            "strip_prefix": "SR2_JUICED_V8.0.3",
                             "download_name": "juiced-patch"
                         }
                     ]
@@ -9788,13 +9813,13 @@
             "download": [
                 {
                     "name": "openra-tiberian-binaries",
-                    "url": "https://github.com/OpenRA/TiberianDawnHD/releases/download/release-20250330-v4/",
-                    "file": "TiberianDawnHD-release-20250330-x86_64.AppImage"
+                    "url": "https://github.com/OpenRA/TiberianDawnHD/releases/download/playtest-20260222/",
+                    "file": "TiberianDawnHD-playtest-20260222-x86_64.AppImage"
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-11/",
-                    "file": "openra-common-11.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-12/",
+                    "file": "openra-common-12.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -9852,8 +9877,8 @@
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-11/",
-                    "file": "openra-common-11.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-12/",
+                    "file": "openra-common-12.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -9906,8 +9931,8 @@
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-11/",
-                    "file": "openra-common-11.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-12/",
+                    "file": "openra-common-12.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -9957,8 +9982,8 @@
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-11/",
-                    "file": "openra-common-11.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-12/",
+                    "file": "openra-common-12.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -9998,8 +10023,8 @@
                 },
                 {
                     "name": "openra",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-11/",
-                    "file": "openra-common-11.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openra-12/",
+                    "file": "openra-common-12.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -10270,7 +10295,7 @@
                 },
                 {
                     "name": "runelite-binaries",
-                    "url": "https://github.com/runelite/launcher/releases/download/2.7.6/",
+                    "url": "https://github.com/runelite/launcher/releases/download/2.7.7/",
                     "file": "RuneLite.AppImage"
                 }
             ],
@@ -11374,8 +11399,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.0/",
-                    "file": "MGSHDFix_3.0.0.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.1/",
+                    "file": "MGSHDFix_3.0.1.zip"
                 }
             ],
             "choices": [
@@ -11431,8 +11456,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.0/",
-                    "file": "MGSHDFix_3.0.0.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.1/",
+                    "file": "MGSHDFix_3.0.1.zip"
                 }
             ],
             "choices": [
@@ -11488,8 +11513,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.0/",
-                    "file": "MGSHDFix_3.0.0.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.1/",
+                    "file": "MGSHDFix_3.0.1.zip"
                 }
             ],
             "choices": [
@@ -12377,7 +12402,7 @@
         },
         {
             "engine_link": "https://github.com/UZDoom/UZDoom",
-            "version": "4e383c0",
+            "version": "d276c15",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
@@ -12432,7 +12457,7 @@
         },
         {
             "engine_link": "https://github.com/Helion-Engine/Helion",
-            "version": "0.9.9.0",
+            "version": "0.9.9.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12607,7 +12632,7 @@
         },
         {
             "engine_link": "https://github.com/Henrique194/chocolate-quake",
-            "version": "8ee2217",
+            "version": "6c672ce",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12618,7 +12643,7 @@
         },
         {
             "engine_link": "https://github.com/ezQuake/ezquake-source",
-            "version": "3.6.8",
+            "version": "3.6.9",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -12692,7 +12717,7 @@
         },
         {
             "engine_link": "https://github.com/taysta/TaystJK",
-            "version": "d5aa0d6",
+            "version": "1687296",
             "author": "d10sfan/dreamer",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -12769,7 +12794,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "dabd56b",
+            "version": "bc21daf",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -12809,7 +12834,7 @@
         },
         {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "9a10ae2",
+            "version": "b734ddb",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -13147,8 +13172,8 @@
             "internal_engine_name": "ut2004-oldunreal"
         },
         {
-            "engine_link": "https://github.com/OldUnreal/Unreal-testing/releases/tag/v227k_12",
-            "version": "227k_12",
+            "engine_link": "https://github.com/OldUnreal/Unreal-testing/releases/tag/v227k_14",
+            "version": "227k_14",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
@@ -13167,7 +13192,7 @@
         },
         {
             "engine_link": "https://github.com/OpenXRay/xray-16",
-            "version": "810c134",
+            "version": "564b340",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD with commercial source code",
@@ -13418,7 +13443,7 @@
         },
         {
             "engine_link": "https://openrct2.io/",
-            "version": "v0.4.31",
+            "version": "v0.4.32",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -13527,7 +13552,7 @@
         },
         {
             "engine_link": "https://github.com/runelite/runelite",
-            "version": "2.7.6",
+            "version": "2.7.7",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD 2-Clause License",
@@ -13940,7 +13965,7 @@
         },
         {
             "engine_link": "https://github.com/Fighter19/CnC_Generals_Zero_Hour",
-            "version": "70f4d40",
+            "version": "3a1e115",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -13978,7 +14003,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "3700a81",
+            "version": "4c6e319",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -13989,7 +14014,7 @@
         },
         {
             "engine_link": "https://github.com/OpenRA/TiberianDawnHD",
-            "version": "release-20250330-v4",
+            "version": "playtest-20260222",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -14272,7 +14297,7 @@
         },
         {
             "engine_link": "https://github.com/Lyall/MGSHDFix",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -14320,7 +14345,7 @@
         },
         {
             "engine_link": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch",
-            "version": "v8.0.2",
+            "version": "v8.0.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -14381,6 +14406,22 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "keeperfx"
+        },
+        {
+            "engine_link": "https://github.com/fgsfds/Steam-Superheater/blob/master/db/fixes.json#L7539",
+            "version": "v1_8b",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "Superheater has GPLv3 License",
+            "license_link": "https://github.com/fgsfds/Steam-Superheater/blob/master/LICENSE",
+            "engine_name": "PrototypeFix",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "PrototypeFix"
         },
         {
             "engine_link": "https://github.com/CookiePLMonster/SilentPatchFarCry",
@@ -14760,8 +14801,8 @@
             },
             {
                 "name": "ruffle",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-80/",
-                "file": "ruffle-common-80.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ruffle-81/",
+                "file": "ruffle-common-81.tar.xz",
                 "cache_by_name": true
             },
             {
