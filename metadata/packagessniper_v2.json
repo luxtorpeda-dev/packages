@@ -3396,8 +3396,8 @@
                 },
                 {
                     "name": "ezquake",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ezquake-9/",
-                    "file": "ezquake-common-9.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ezquake-10/",
+                    "file": "ezquake-common-10.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -3430,8 +3430,8 @@
                 },
                 {
                     "name": "chocolate-quake",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-25/",
-                    "file": "chocolate-quake-common-25.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-26/",
+                    "file": "chocolate-quake-common-26.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -4786,8 +4786,8 @@
                 },
                 {
                     "name": "taystjk",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taystjk-3/",
-                    "file": "taystjk-6020-3.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/taystjk-4/",
+                    "file": "taystjk-6020-4.tar.xz"
                 }
             ],
             "commands": [
@@ -7532,8 +7532,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-54/",
-                    "file": "notblood-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-55/",
+                    "file": "notblood-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8537,8 +8537,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-54/",
-                    "file": "notblood-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-55/",
+                    "file": "notblood-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8588,8 +8588,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-54/",
-                    "file": "notblood-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-55/",
+                    "file": "notblood-common-55.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -12402,7 +12402,7 @@
         },
         {
             "engine_link": "https://github.com/UZDoom/UZDoom",
-            "version": "4e383c0",
+            "version": "d276c15",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
@@ -13192,7 +13192,7 @@
         },
         {
             "engine_link": "https://github.com/OpenXRay/xray-16",
-            "version": "810c134",
+            "version": "564b340",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD with commercial source code",
@@ -13965,7 +13965,7 @@
         },
         {
             "engine_link": "https://github.com/Fighter19/CnC_Generals_Zero_Hour",
-            "version": "70f4d40",
+            "version": "3a1e115",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
