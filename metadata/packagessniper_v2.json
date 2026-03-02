@@ -455,8 +455,8 @@
                 },
                 {
                     "name": "helion-binaries",
-                    "url": "https://github.com/Helion-Engine/Helion/releases/download/0.9.9.0/",
-                    "file": "Helion-0.9.9.0-linux-x64_SelfContained.zip",
+                    "url": "https://github.com/Helion-Engine/Helion/releases/download/0.9.9.1/",
+                    "file": "Helion-0.9.9.1-linux-x64_SelfContained.zip",
                     "cache_by_name": true
                 }
             ],
@@ -5919,7 +5919,7 @@
                 },
                 {
                     "name": "unreal-binaries",
-                    "url": "https://github.com/OldUnreal/Unreal-testing/releases/download/v227k_12/",
+                    "url": "https://github.com/OldUnreal/Unreal-testing/releases/download/v227k_14/",
                     "file": "OldUnreal-UnrealPatch227k-Linux.tar.bz2"
                 },
                 {
@@ -9565,7 +9565,7 @@
             "download": [
                 {
                     "name": "juiced-patch",
-                    "url": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch/releases/download/v8.0.2/",
+                    "url": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch/releases/download/v8.0.3/",
                     "file": "SR2_JUICED.zip"
                 }
             ],
@@ -9580,7 +9580,7 @@
                     "download_config": [
                         {
                             "extract_location": "./",
-                            "strip_prefix": "SR2_JUICED_V8.0.2",
+                            "strip_prefix": "SR2_JUICED_V8.0.3",
                             "download_name": "juiced-patch"
                         }
                     ]
@@ -9788,8 +9788,8 @@
             "download": [
                 {
                     "name": "openra-tiberian-binaries",
-                    "url": "https://github.com/OpenRA/TiberianDawnHD/releases/download/release-20250330-v4/",
-                    "file": "TiberianDawnHD-release-20250330-x86_64.AppImage"
+                    "url": "https://github.com/OpenRA/TiberianDawnHD/releases/download/playtest-20260222/",
+                    "file": "TiberianDawnHD-playtest-20260222-x86_64.AppImage"
                 },
                 {
                     "name": "openra",
@@ -10270,7 +10270,7 @@
                 },
                 {
                     "name": "runelite-binaries",
-                    "url": "https://github.com/runelite/launcher/releases/download/2.7.6/",
+                    "url": "https://github.com/runelite/launcher/releases/download/2.7.7/",
                     "file": "RuneLite.AppImage"
                 }
             ],
@@ -11374,8 +11374,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.0/",
-                    "file": "MGSHDFix_3.0.0.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.1/",
+                    "file": "MGSHDFix_3.0.1.zip"
                 }
             ],
             "choices": [
@@ -11431,8 +11431,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.0/",
-                    "file": "MGSHDFix_3.0.0.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.1/",
+                    "file": "MGSHDFix_3.0.1.zip"
                 }
             ],
             "choices": [
@@ -11488,8 +11488,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.0/",
-                    "file": "MGSHDFix_3.0.0.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.1/",
+                    "file": "MGSHDFix_3.0.1.zip"
                 }
             ],
             "choices": [
@@ -12432,7 +12432,7 @@
         },
         {
             "engine_link": "https://github.com/Helion-Engine/Helion",
-            "version": "0.9.9.0",
+            "version": "0.9.9.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -13147,8 +13147,8 @@
             "internal_engine_name": "ut2004-oldunreal"
         },
         {
-            "engine_link": "https://github.com/OldUnreal/Unreal-testing/releases/tag/v227k_12",
-            "version": "227k_12",
+            "engine_link": "https://github.com/OldUnreal/Unreal-testing/releases/tag/v227k_14",
+            "version": "227k_14",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
@@ -13527,7 +13527,7 @@
         },
         {
             "engine_link": "https://github.com/runelite/runelite",
-            "version": "2.7.6",
+            "version": "2.7.7",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "BSD 2-Clause License",
@@ -13989,7 +13989,7 @@
         },
         {
             "engine_link": "https://github.com/OpenRA/TiberianDawnHD",
-            "version": "release-20250330-v4",
+            "version": "playtest-20260222",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -14272,7 +14272,7 @@
         },
         {
             "engine_link": "https://github.com/Lyall/MGSHDFix",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -14320,7 +14320,7 @@
         },
         {
             "engine_link": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch",
-            "version": "v8.0.2",
+            "version": "v8.0.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
