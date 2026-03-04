@@ -8752,6 +8752,40 @@
             "app_id": "13520"
         },
         {
+            "game_name": "Half-Life: Alyx",
+            "download": [
+                {
+                    "name": "HLA-NoVR",
+                    "url": "https://github.com/HLANoVR/HLA-NoVR/archive/refs/heads/",
+                    "file": "steam_deck.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command_current_dir": "game/bin/win64",
+                    "command": "hlvr.exe",
+                    "command_args": [
+                        "-novr",
+                        "-vsync",
+                        "+vr_enable_fake_vr 1"
+                    ],
+                    "engine_name": "HLA-NoVR",
+                    "name": "HLA-NoVR",
+                    "download": [
+                        "HLA-NoVR"
+                    ],
+                    "download_config": [
+                        {
+                            "strip_prefix": "HLA-NoVR-steam_deck/",
+                            "download_name": "HLA-NoVR"
+                        }
+                    ]
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "546560"
+        },
+        {
             "game_name": "Prototype™",
             "download": [
                 {
@@ -14406,6 +14440,22 @@
             ],
             "controllerNotSupported": true,
             "internal_engine_name": "keeperfx"
+        },
+        {
+            "engine_link": "https://github.com/HLANoVR/HLA-NoVR",
+            "version": "latest steam deck/linux version",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/HLANoVR/HLA-NoVR/blob/main/LICENSE.txt",
+            "engine_name": "HLA-NoVR",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "HLA-NoVR"
         },
         {
             "engine_link": "https://github.com/fgsfds/Steam-Superheater/blob/master/db/fixes.json#L7539",
