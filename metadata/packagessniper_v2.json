@@ -8933,6 +8933,60 @@
             "app_id": "808910"
         },
         {
+            "game_name": "STAR WARS™ - X-Wing Alliance™",
+            "download": [
+                {
+                    "name": "XwaInstallerManager",
+                    "url": "https://github.com/JeremyAnsel/XwaInstallerManager/raw/main/zip/",
+                    "file": "XwaInstallerManager.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "alliance.exe",
+                    "engine_name": "X-Wing Alliance Installer Manager",
+                    "name": "Original Alliance Exe",
+                    "download": [
+                        "starwars-racer"
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "cmd.exe",
+                        "command_args": [
+                            "/c",
+                            "cmd.exe /c Install.bat & call StarRegAlliance.bat"
+                        ]
+                    }
+                },
+                {
+                    "command": "XwaInstallerManager.exe",
+                    "engine_name": "X-Wing Alliance Installer Manager",
+                    "name": "X-Wing Alliance Installer Manager",
+                    "download": [
+                        "XwaInstallerManager",
+                        "starwars-racer"
+                    ],
+                    "setup": {
+                        "complete_path": "./ready",
+                        "command": "cmd.exe",
+                        "command_args": [
+                            "/c",
+                            "cmd.exe /c Install.bat & call StarRegAlliance.bat"
+                        ]
+                    },
+                    "notices": [
+                        {
+                            "label": "See https://sites.google.com/view/tie-fighter-total-conversion/installation/faq for installing tie fighter total conversion"
+                        }
+                    ]
+                }
+            ],
+            "cloudAvailable": true,
+            "cloudIssue": true,
+            "cloudIssueReason": "unworkable_location",
+            "app_id": "361670"
+        },
+        {
             "game_name": "No More Heroes",
             "download": [
                 {
