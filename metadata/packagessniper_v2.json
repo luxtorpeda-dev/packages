@@ -5020,6 +5020,12 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-35/",
                     "file": "dosbox-staging-common-35.tar.xz",
                     "cache_by_name": true
+                },
+                {
+                    "name": "openxcom-brutal-oxce",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-brutal-oxce-1/",
+                    "file": "openxcom-brutal-oxce-common-1.tar.xz",
+                    "cache_by_name": true
                 }
             ],
             "download_config": [
@@ -5137,6 +5143,12 @@
                     "name": "dosbox-staging",
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dosbox-staging-35/",
                     "file": "dosbox-staging-common-35.tar.xz",
+                    "cache_by_name": true
+                },
+                {
+                    "name": "openxcom-brutal-oxce",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openxcom-brutal-oxce-1/",
+                    "file": "openxcom-brutal-oxce-common-1.tar.xz",
                     "cache_by_name": true
                 }
             ],
