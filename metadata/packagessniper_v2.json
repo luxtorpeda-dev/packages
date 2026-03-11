@@ -8949,6 +8949,9 @@
                     "download": [
                         "starwars-racer"
                     ],
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "ddraw=n,b"
+                    },
                     "setup": {
                         "complete_path": "./ready",
                         "command": "cmd.exe",
@@ -8960,6 +8963,9 @@
                 },
                 {
                     "command": "XwaInstallerManager.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "ddraw=n,b"
+                    },
                     "engine_name": "X-Wing Alliance Installer Manager",
                     "name": "X-Wing Alliance Installer Manager",
                     "download": [
