@@ -5754,28 +5754,28 @@
                             "download_name": "binaries-oldunreal"
                         },
                         {
-                            "extract_location": "../linuxdata-oldunreal/Maps",
+                            "extract_location": "../linuxdata-oldunreal-extra/Maps",
                             "download_name": "ons-bonus-map-pack"
                         },
                         {
-                            "extract_location": "../linuxdata-oldunreal",
+                            "extract_location": "../linuxdata-oldunreal-extra",
                             "download_name": "AS-Confexia"
                         },
                         {
-                            "extract_location": "../linuxdata-oldunreal/Maps",
+                            "extract_location": "../linuxdata-oldunreal-extra/Maps",
                             "download_name": "dmforbidden"
                         },
                         {
-                            "extract_location": "../linuxdata-oldunreal",
+                            "extract_location": "../linuxdata-oldunreal-extra",
                             "download_name": "ons-icarus"
                         },
                         {
-                            "extract_location": "../linuxdata-oldunreal/Maps",
+                            "extract_location": "../linuxdata-oldunreal-extra/Maps",
                             "download_name": "CTF-DE-LavaGiant2"
                         }
                     ],
                     "setup": {
-                        "complete_path": "../ready-oldunreal",
+                        "complete_path": "../ready-oldunreal-v2",
                         "command": "./setup-ut2004-oldunreal.sh",
                         "license_path": "../System/License.int"
                     },
