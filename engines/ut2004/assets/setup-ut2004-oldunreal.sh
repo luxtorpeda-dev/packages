@@ -45,7 +45,7 @@ ln -rsf "ut2004 content 2" linuxdata-oldunreal-v2/"ut2004 content 2"
 mkdir -p linuxdata-oldunreal-v2/Sounds
 ln -rsf Sounds/* linuxdata-oldunreal-v2/Sounds
 
-cp -rfv linuxdata-oldunreal-v2-binaries/* linuxdata-oldunreal-v2
+cp -rfv linuxdata-oldunreal-binaries/* linuxdata-oldunreal-v2
     
 rm linuxdata-oldunreal-v2/System/User.ini
 cp System/User.ini linuxdata-oldunreal-v2/System/User.ini
