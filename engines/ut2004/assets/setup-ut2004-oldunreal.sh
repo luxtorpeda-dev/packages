@@ -38,7 +38,10 @@ ln -rsf Benchmark linuxdata-oldunreal-v2/Benchmark
 ln -rsf ForceFeedback linuxdata-oldunreal-v2/ForceFeedback
 ln -rsf KarmaData linuxdata-oldunreal-v2/KarmaData
 ln -rsf Manual linuxdata-oldunreal-v2/Manual
-ln -rsf Music linuxdata-oldunreal-v2/Music
+
+mkdir -p linuxdata-oldunreal-v2/Music
+ln -rsf Music/* linuxdata-oldunreal-v2/Music
+
 ln -rsf Prefabs linuxdata-oldunreal-v2/Prefabs
 ln -rsf "ut2004 content 2" linuxdata-oldunreal-v2/"ut2004 content 2"
 
