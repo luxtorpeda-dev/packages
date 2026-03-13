@@ -56,6 +56,7 @@ cp System/User.ini linuxdata-oldunreal-v2/System/User.ini
 cp -rfv linuxdata-oldunreal-v2/System/Default.ini linuxdata-oldunreal-v2/System/Default.ini-backup
 grep -v "ut2004master2.epicgames.com" linuxdata-oldunreal-v2/System/Default.ini > tmp.ini
 mv tmp.ini linuxdata-oldunreal-v2/System/Default.ini
+
 sed -i "s/ut2004master1.epicgames.com/ut2004master.333networks.com/" linuxdata-oldunreal-v2/System/Default.ini
 
 grep -q 'UT2K4MainMenuWS' linuxdata-oldunreal-v2/System/Default.ini || sed -i 's/GUI2K4.UT2K4MainMenu/GUI2K4.UT2K4MainMenuWS/' linuxdata-oldunreal-v2/System/Default.ini
