@@ -23,7 +23,7 @@
     "@angular/router": "^21.2.5",
     "bootstrap": "^5.3.8",
     "js-yaml": "^4.1.1",
-    "marked": "^17.0.4",
+    "marked": "^17.0.5",
     "ngx-markdown": "^21.1.0",
     "npm-check-updates": "^19.6.5",
     "rxjs": "~7.8.2",
