@@ -30,7 +30,7 @@ zip -5 -r "mm-${COMMIT_TAG}-content.uqm" base/ menu.key uqm.key uqm.rmp
 popd
 pushd "content/addons"
 zip -5 -r "mm-${COMMIT_TAG}-3domode.uqm" 3do-mode-hd/ 3do-mode-sd/
-zip -5 -r "mm-${COMMIT_TAG}-3dovoice.uqm" 3dovoice/
+#zip -5 -r "mm-${COMMIT_TAG}-3dovoice.uqm" 3dovoice/
 zip -5 -r "mm-${COMMIT_TAG}-dosmode.uqm" dos-mode-hd/ dos-mode-sd/
 zip -5 -r "mm-${COMMIT_TAG}-hd-classic-pack.uqm" classic-pack/
 zip -5 -r "mm-${COMMIT_TAG}-hd-content.uqm" mm-hd/
