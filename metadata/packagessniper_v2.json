@@ -5669,8 +5669,8 @@
                 },
                 {
                     "name": "binaries-oldunreal",
-                    "url": "https://github.com/OldUnreal/UT2004Patches/releases/download/3374-preview-9/",
-                    "file": "OldUnreal-UT2004Patch3374-Linux-60bd31b3.tar.bz2"
+                    "url": "https://github.com/OldUnreal/UT2004Patches/releases/download/3374-preview-17/",
+                    "file": "OldUnreal-UT2004Patch3374-Linux-6369f34c.tar.bz2"
                 },
                 {
                     "name": "ons-bonus-map-pack",
@@ -5775,7 +5775,7 @@
                         }
                     ],
                     "setup": {
-                        "complete_path": "../ready-oldunreal-v2",
+                        "complete_path": "../ready-oldunreal-v3",
                         "command": "./setup-ut2004-oldunreal.sh",
                         "license_path": "../System/License.int"
                     },
@@ -13213,7 +13213,7 @@
         },
         {
             "engine_link": "https://github.com/OldUnreal/UT2004Patches/blob/main/ReleaseNotes.md",
-            "version": "3374-preview-9",
+            "version": "3374-preview-17",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "Proprietary/Closed Source",
