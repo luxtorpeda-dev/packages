@@ -12901,7 +12901,7 @@
         },
         {
             "engine_link": "https://github.com/OpenApoc/OpenApoc",
-            "version": "1102605",
+            "version": "ae44da1",
             "notices": [
                 {
                     "key": "in_progress"
