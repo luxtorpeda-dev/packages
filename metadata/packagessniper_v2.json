@@ -11626,8 +11626,8 @@
             "download": [
                 {
                     "name": "MGSM2Fix",
-                    "url": "https://github.com/nuggslet/MGSM2Fix/releases/download/v3.5/",
-                    "file": "MGSM2Fix_3.5.0.zip"
+                    "url": "https://github.com/nuggslet/MGSM2Fix/releases/download/v3.6/",
+                    "file": "MGSM2Fix_3.6.0.zip"
                 }
             ],
             "choices": [
@@ -14337,7 +14337,7 @@
         },
         {
             "engine_link": "https://github.com/nuggslet/MGSM2Fix",
-            "version": "v3.5",
+            "version": "v3.6",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
