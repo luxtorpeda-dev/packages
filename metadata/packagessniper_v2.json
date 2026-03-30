@@ -455,8 +455,8 @@
                 },
                 {
                     "name": "helion-binaries",
-                    "url": "https://github.com/Helion-Engine/Helion/releases/download/0.9.9.1/",
-                    "file": "Helion-0.9.9.1-linux-x64_SelfContained.zip",
+                    "url": "https://github.com/Helion-Engine/Helion/releases/download/0.9.9.2t/",
+                    "file": "Helion-0.9.9.2-linux-x64_SelfContained.zip",
                     "cache_by_name": true
                 }
             ],
@@ -12513,7 +12513,7 @@
         },
         {
             "engine_link": "https://github.com/Helion-Engine/Helion",
-            "version": "0.9.9.1",
+            "version": "0.9.9.2t",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
