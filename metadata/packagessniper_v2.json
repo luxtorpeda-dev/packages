@@ -234,16 +234,6 @@
                     "url": "https://github.com/luxtorpeda-dev/packages/releases/download/dii4a-60/",
                     "file": "dii4a-common-60.tar.xz",
                     "cache_by_name": true
-                },
-                {
-                    "name": "quake4",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quake4-6/",
-                    "file": "quake4-2210-6.tar.xz"
-                },
-                {
-                    "name": "binaries",
-                    "url": "https://www.quaddicted.com/files/idgames2/idstuff/quake4/linux/",
-                    "file": "quake4-linux-1.4.2.x86.run"
                 }
             ],
             "choices": [
@@ -254,27 +244,6 @@
                     ],
                     "command": "./run-quake4.sh",
                     "engine_name": "idTech4A++ (Harmattan Edition)"
-                },
-                {
-                    "name": "Original Closed Source Engine",
-                    "engine_name": "Quake IV",
-                    "download_config": [
-                        {
-                            "setup": true,
-                            "download_name": "binaries"
-                        }
-                    ],
-                    "download": [
-                        "quake4",
-                        "binaries"
-                    ],
-                    "setup": {
-                        "complete_path": "./ready",
-                        "command": "./setup-quake4.sh",
-                        "uninstall_command": "./uninstall-quake4.sh",
-                        "license_path": "./EULA.txt"
-                    },
-                    "command": "./run-quake4.sh"
                 }
             ],
             "cloudAvailable": true,
@@ -8962,8 +8931,8 @@
             "download": [
                 {
                     "name": "enhancedsc",
-                    "url": "https://github.com/Joshhhuaaa/EnhancedSC/releases/download/v1.4a/",
-                    "file": "Enhanced-SC-v1.4a-Linux.7z"
+                    "url": "https://github.com/Joshhhuaaa/EnhancedSC/releases/download/v1.4b/",
+                    "file": "Enhanced-SC-v1.4b-Linux.7z"
                 }
             ],
             "download_config": [
@@ -9646,7 +9615,7 @@
             "download": [
                 {
                     "name": "juiced-patch",
-                    "url": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch/releases/download/v8.0.3/",
+                    "url": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch/releases/download/v8.1.0/",
                     "file": "SR2_JUICED.zip"
                 }
             ],
@@ -11707,7 +11676,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/4.0.0/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/4.0.1/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -11731,7 +11700,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/4.0.0/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/4.0.1/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -11761,7 +11730,7 @@
             "download": [
                 {
                     "name": "EchoPatch",
-                    "url": "https://github.com/Wemino/EchoPatch/releases/download/4.0.0/",
+                    "url": "https://github.com/Wemino/EchoPatch/releases/download/4.0.1/",
                     "file": "EchoPatch.zip"
                 }
             ],
@@ -11992,7 +11961,7 @@
             "download": [
                 {
                     "name": "MetroDeveloper-binaries",
-                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.0/",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.2/",
                     "file": "MetroDeveloper.zip"
                 },
                 {
@@ -12033,7 +12002,7 @@
             "download": [
                 {
                     "name": "MetroDeveloper-binaries",
-                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.0/",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.2/",
                     "file": "MetroDeveloper.zip"
                 },
                 {
@@ -12074,7 +12043,7 @@
             "download": [
                 {
                     "name": "MetroDeveloper-binaries",
-                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.0/",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.2/",
                     "file": "MetroDeveloper.zip"
                 },
                 {
@@ -12115,7 +12084,7 @@
             "download": [
                 {
                     "name": "MetroDeveloper-binaries",
-                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.0/",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.2/",
                     "file": "MetroDeveloper.zip"
                 },
                 {
@@ -12156,7 +12125,7 @@
             "download": [
                 {
                     "name": "MetroDeveloper-binaries",
-                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.0/",
+                    "url": "https://github.com/tsnest/MetroDeveloper/releases/download/1.2.2/",
                     "file": "MetroDeveloper.zip"
                 },
                 {
@@ -13914,28 +13883,6 @@
             "internal_engine_name": "dii4a"
         },
         {
-            "engine_name": "Quake IV",
-            "engine_link": "https://www.quaddicted.com/files/idgames2/idstuff/quake4/linux/",
-            "version": "1.4.2",
-            "author": "d10sfan",
-            "author_link": "https://github.com/d10sfan",
-            "license": "Proprietary/Closed Source",
-            "license_link": "http://zerowing.idsoftware.com/linux/quake4/Quake4FrontPage/",
-            "notices": [
-                {
-                    "key": "closed_source"
-                },
-                {
-                    "key": "32_bit"
-                },
-                {
-                    "label": "A possible fix if encountering sluggish mouse movement is to set in launch options SDL12COMPAT_SYNC_TO_VBLANK=1 %command% and  then run seta com_fixedTic \"1\" in the game console. From https://www.pcgamingwiki.com/wiki/Quake_4#Issues_fixed"
-                }
-            ],
-            "controllerNotSupported": true,
-            "internal_engine_name": "quake4"
-        },
-        {
             "engine_link": "http://icculus.org/prey/",
             "version": "02192009",
             "author": "d10sfan",
@@ -14305,7 +14252,7 @@
         },
         {
             "engine_link": "https://github.com/Joshhhuaaa/EnhancedSC",
-            "version": "v1.4a",
+            "version": "v1.4b",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -14401,7 +14348,7 @@
         },
         {
             "engine_link": "https://github.com/kobraworksmodding/Saints-Row-2-Juiced-Patch",
-            "version": "v8.0.3",
+            "version": "v8.1.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -14663,7 +14610,7 @@
         },
         {
             "engine_link": "https://github.com/Wemino/EchoPatch",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "GPLv3",
@@ -14746,7 +14693,7 @@
         },
         {
             "engine_link": "https://github.com/tsnest/MetroDeveloper",
-            "version": "1.2.0",
+            "version": "1.2.2",
             "author": "mv",
             "author_link": "https://github.com/mvoolt",
             "license": "No license specified",
