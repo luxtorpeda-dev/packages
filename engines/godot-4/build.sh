@@ -5,7 +5,7 @@ git clone --depth 1 https://github.com/godotengine/godot.git -b 4.6-stable sourc
 
 # BUILD PHASE
 pushd source
-scons -j$(nproc) platform=linuxbsd target=template_release
+scons -j$(nproc) platform=linuxbsd target=template_release disable_path_overrides=no
 popd
 
 # COPY PHASE
