@@ -11361,6 +11361,37 @@
             "app_id": "7940"
         },
         {
+            "game_name": "Call of Duty: United Offensive",
+            "download": [
+                {
+                    "name": "CoDUO-YAP",
+                    "url": "https://github.com/Clippy95/CoDUO-YAP/releases/download/r169/",
+                    "file": "CoDUO-YAP.zip"
+                }
+            ],
+            "choices": [
+                {
+                    "name": "CoDUO-YAP - Single Player",
+                    "download": [
+                        "CoDUO-YAP"
+                    ],
+                    "command": "CoDUOSP.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "ddraw=n,b",
+                        "PROTON_OLD_GL_STRING": "1"
+                    },
+                    "command_args": [
+                        "+seta m_rawinput 1"
+                    ],
+                    "engine_name": "CoDUO-YAP"
+                }
+            ],
+            "app_ids_deps": [
+                2620
+            ],
+            "app_id": "2640"
+        },
+        {
             "game_name": "Star Wars: Republic Commando",
             "download": [
                 {
@@ -14270,6 +14301,26 @@
             ],
             "controllerSupported": true,
             "internal_engine_name": "enhancedsc"
+        },
+        {
+            "engine_link": "https://github.com/Clippy95/CoDUO-YAP",
+            "version": "r169",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "GPLv3",
+            "license_link": "https://github.com/Clippy95/CoDUO-YAP/blob/master/LICENSE",
+            "engine_name": "CoDUO-YAP",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                },
+                {
+                    "key": "app_ids_deps",
+                    "label": "Requires Call of Duty to be installed."
+                }
+            ],
+            "controllerSupported": true,
+            "internal_engine_name": "CoDUO-YAP"
         },
         {
             "engine_link": "https://github.com/JayFoxRox/swe1r-patcher",
