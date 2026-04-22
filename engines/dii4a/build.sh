@@ -19,5 +19,6 @@ popd
 cp -rfv source/doom3/neo/build/lib*.so "$diststart/common/dist/"
 cp -rfv source/doom3/neo/build/Quake4 "$diststart/common/dist/"
 cp -rfv source/doom3/neo/build/Prey "$diststart/common/dist/"
+cp -rfv source/doom3/neo/build/Icarus "$diststart/common/dist/"
 
 cp -rfv assets/* "$diststart/common/dist/"
