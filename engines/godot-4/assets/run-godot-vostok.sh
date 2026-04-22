@@ -4,7 +4,7 @@ if [ -f "last_error.txt" ]; then
     rm last_error.txt
 fi
 
-pckname="Public_Demo_2_v2"
+pckname="RTV"
 
 # Check if pck file exists and launch game if it does.
 if [ -n "$pckname.pck" ]; then
