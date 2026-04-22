@@ -1,3 +1,15 @@
+- title: United Offensive and More
+  date: 2026-04-22
+  body: |
+    Call of Duty: United Offensive has been added via Proton via the CoDUO-YAP mod, which adds QOL improvements, like widescreen support, better field of view, and more. This works for single player.
+
+    ![In-Game](https://github.com/luxtorpeda-dev/packages/releases/download/godot-4-2/20260422141923_1.jpg)
+
+    As well, Road to Vostok has been added with native Linux support, via the native Godot engine. This works now for the demo and should also work for the main game.
+
+    ![RTV ingame](https://github.com/luxtorpeda-dev/packages/releases/download/godot-4-3/Screenshot_20260422_144150.png)
+
+    One other feature was added to ScummVM, where now you can pass in `LUX_SCUMMVM_GAME=<gameid>` into the launch options, replacing <gameid> with the proper ScummVM game (see https://docs.scummvm.org/en/latest/advanced_topics/command_line.html#starting-a-game). This allows you to skip the ScummVM launcher.
 - title: Half Life Alyx HLA-NoVR Mod Supported
   date: 2026-03-03
   body: |
