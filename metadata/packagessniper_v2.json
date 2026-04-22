@@ -12324,7 +12324,7 @@
                             "key": "uses_proton"
                         }
                     ],
-                    "engine_name": "binary-domaim-configurator"
+                    "engine_name": "binary-domaim"
                 }
             ],
             "app_id": "203750"
