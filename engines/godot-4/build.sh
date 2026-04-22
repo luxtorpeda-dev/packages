@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # CLONE PHASE
-git clone --depth 1 https://github.com/godotengine/godot.git -b 4.3-stable source
+git clone --depth 1 https://github.com/godotengine/godot.git -b 4.6-stable source
 
 # BUILD PHASE
 pushd source
