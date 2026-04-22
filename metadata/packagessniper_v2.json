@@ -12782,7 +12782,12 @@
             "license_link": "https://github.com/scummvm/scummvm/blob/master/COPYING",
             "controllerSupported": true,
             "engine_name": "ScummVM",
-            "internal_engine_name": "scummvm"
+            "internal_engine_name": "scummvm",
+            "notices": [
+                {
+                    "label": "Can set LUX_SCUMMVM_GAME in the launch options to launch a specific game, bypassing the launcher."
+                }
+            ]
         },
         {
             "engine_link": "https://github.com/dosbox-staging/dosbox-staging",

@@ -25,4 +25,4 @@ fi
 
 LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c "$INIPATH" --add --recursive $PATH_ARG
 
-LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c "$INIPATH" --fullscreen --themepath=./share/scummvm --extrapath=./share/scummvm
+LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH" ./bin/scummvm -c "$INIPATH" --fullscreen --themepath=./share/scummvm --extrapath=./share/scummvm ${LUX_SCUMMVM_GAME:+$LUX_SCUMMVM_GAME}

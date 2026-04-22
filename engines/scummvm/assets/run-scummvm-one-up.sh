@@ -28,4 +28,4 @@ cd "$ORIGINALPWD"
 cd ..
 
 LD_LIBRARY_PATH="$ORIGINALPWD/scum/lib:$LD_LIBRARY_PATH" "$ORIGINALPWD/scum/bin/scummvm" -c "$ORIGINALPWD/scum/scummvm.ini" --fullscreen --themepath="$ORIGINALPWD/scum/share/scummvm" --add --path=.
-LD_LIBRARY_PATH="$ORIGINALPWD/scum/lib:$LD_LIBRARY_PATH" "$ORIGINALPWD/scum/bin/scummvm" -c "$ORIGINALPWD/scum/scummvm.ini" --fullscreen --themepath="$ORIGINALPWD/scum/share/scummvm"
+LD_LIBRARY_PATH="$ORIGINALPWD/scum/lib:$LD_LIBRARY_PATH" "$ORIGINALPWD/scum/bin/scummvm" -c "$ORIGINALPWD/scum/scummvm.ini" --fullscreen --themepath="$ORIGINALPWD/scum/share/scummvm" ${LUX_SCUMMVM_GAME:+$LUX_SCUMMVM_GAME}
