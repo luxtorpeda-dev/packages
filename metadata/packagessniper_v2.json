@@ -11470,8 +11470,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.2/",
-                    "file": "MGSHDFix_3.0.2.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.3/",
+                    "file": "MGSHDFix_3.0.3.zip"
                 }
             ],
             "choices": [
@@ -11527,8 +11527,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.2/",
-                    "file": "MGSHDFix_3.0.2.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.3/",
+                    "file": "MGSHDFix_3.0.3.zip"
                 }
             ],
             "choices": [
@@ -11584,8 +11584,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.2/",
-                    "file": "MGSHDFix_3.0.2.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.3/",
+                    "file": "MGSHDFix_3.0.3.zip"
                 }
             ],
             "choices": [
@@ -14371,7 +14371,7 @@
         },
         {
             "engine_link": "https://github.com/Lyall/MGSHDFix",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
