@@ -5643,27 +5643,27 @@
                 },
                 {
                     "name": "ons-bonus-map-pack",
-                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/U/8/2/890295/",
+                    "url": "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/MapPacks/U/8/2/890295/",
                     "file": "UT2004-ONSBonusMapPack.zip"
                 },
                 {
                     "name": "AS-Confexia",
-                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Assault/C/3/4/31ca91/",
+                    "url": "https://unreal-archive-files-na.s3.ca-east-tor.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Assault/C/3/4/31ca91/",
                     "file": "AS-Confexia.zip"
                 },
                 {
                     "name": "dmforbidden",
-                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/F/d/8/d03b67/",
+                    "url": "https://unreal-archive-files-na.s3.ca-east-tor.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/DeathMatch/F/d/8/d03b67/",
                     "file": "dmforbidden.zip"
                 },
                 {
                     "name": "ons-icarus",
-                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/I/7/2/051797/",
+                    "url": "https://unreal-archive-files-na.s3.ca-east-tor.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Onslaught/I/7/2/051797/",
                     "file": "ons-icarus.zip"
                 },
                 {
                     "name": "CTF-DE-LavaGiant2",
-                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/2/f/d649cc/",
+                    "url": "https://unreal-archive-files-na.s3.ca-east-tor.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/2/f/d649cc/",
                     "file": "CTF-DE-LavaGiant2.zip"
                 }
             ],
@@ -5836,7 +5836,7 @@
                 },
                 {
                     "name": "ut99 Bonus Pack 4",
-                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/patches-updates/Unreal%20Tournament/Bonus%20Packs/",
+                    "url": "https://unreal-archive-files-na.s3.ca-east-tor.io.cloud.ovh.net/managed/Unreal%20Tournament/patches-updates/bonus-packs/",
                     "file": "utbonuspack4-zip.zip"
                 }
             ],
@@ -5893,7 +5893,7 @@
                 },
                 {
                     "name": "fusion-map-pack",
-                    "url": "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/F/3/d/ebaf0d/",
+                    "url": "https://unreal-archive-files-na.s3.ca-east-tor.io.cloud.ovh.net/Unreal/MapPacks/F/3/d/ebaf0d/",
                     "file": "fusionmappack.zip"
                 }
             ],
