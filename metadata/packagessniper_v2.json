@@ -11433,7 +11433,7 @@
             "download": [
                 {
                     "name": "deus-ex-randomizer",
-                    "url": "https://github.com/Die4Ever/deus-ex-randomizer/releases/download/v3.7/",
+                    "url": "https://github.com/Die4Ever/deus-ex-randomizer/releases/download/v3.7.1/",
                     "file": "DXRandoInstaller.exe"
                 }
             ],
@@ -11446,7 +11446,7 @@
                     "command": "DXRando.exe",
                     "engine_name": "deus-ex-randomizer",
                     "setup": {
-                        "complete_path": "./ready-37",
+                        "complete_path": "./ready-371",
                         "command": "DXRandoInstaller.exe"
                     }
                 },
@@ -11458,7 +11458,7 @@
                     "command": "DeusEx.exe",
                     "engine_name": "deus-ex-randomizer",
                     "setup": {
-                        "complete_path": "./ready-37",
+                        "complete_path": "./ready-371",
                         "command": "DXRandoInstaller.exe"
                     }
                 }
@@ -14387,7 +14387,7 @@
         },
         {
             "engine_link": "https://github.com/Die4Ever/deus-ex-randomizer",
-            "version": "v3.7",
+            "version": "v3.7.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
