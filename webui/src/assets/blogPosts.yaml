@@ -1,3 +1,9 @@
+- title: Rainbow Six Lockdown Mod Support & RAR
+  date: 2026-05-09
+  body: |
+    A new luxtorpeda client has been released (76.3.0) which adds support for extracting rar files. This will help with any other mods or engines that use rar archives, but also in particular this was for adding support for AlphaYellow's FOV Fix for Rainbow Six Lockton, playing through Proton.
+
+    ![In-Game](https://github.com/luxtorpeda-dev/packages/releases/download/doom-retro-53/20260509212919_1.jpg)
 - title: United Offensive and More
   date: 2026-04-22
   body: |
