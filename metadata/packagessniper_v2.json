@@ -9674,6 +9674,43 @@
             "app_id": "19900"
         },
         {
+            "game_name": "Tom Clancy's Rainbow Six: Lockdown",
+            "download": [
+                {
+                    "name": "ultimate-asi-loader",
+                    "url": "https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/Win32-latest/",
+                    "file": "winmm-Win32.zip",
+                    "ignore_updates": true
+                },
+                {
+                    "name": "AlphaYellowWidescreenFixes",
+                    "url": "https://github.com/alphayellow1/AlphaYellowWidescreenFixes/releases/download/tomclancysrainbowsixlockdown/",
+                    "file": "Tom.Clancy.s.Rainbow.Six.Lockdown.-.FOV.Fix.v1.2.rar"
+                }
+            ],
+            "choices": [
+                {
+                    "command": "lockdown.exe",
+                    "command_vars": {
+                        "WINEDLLOVERRIDES": "winmm=n,b"
+                    },
+                    "engine_name": "AlphaYellowWidescreenFixes",
+                    "name": "AlphaYellowWidescreenFixes",
+                    "download": [
+                        "ultimate-asi-loader",
+                        "AlphaYellowWidescreenFixes"
+                    ]
+                }
+            ],
+            "notices": [
+                {
+                    "label": "This requires luxtorpeda version 76.3.0 or above."
+                }
+            ],
+            "cloudNotAvailable": true,
+            "app_id": "15000"
+        },
+        {
             "game_name": "Resistance Element",
             "download": [
                 {
@@ -14432,6 +14469,22 @@
             ],
             "controllerSupported": true,
             "internal_engine_name": "Saints-Row-2-Juiced-Patch"
+        },
+        {
+            "engine_link": "https://github.com/alphayellow1/AlphaYellowWidescreenFixes",
+            "version": "Various",
+            "author": "d10sfan",
+            "author_link": "https://github.com/d10sfan",
+            "license": "MIT",
+            "license_link": "https://github.com/alphayellow1/AlphaYellowWidescreenFixes/blob/main/LICENSE",
+            "engine_name": "AlphaYellowWidescreenFixes",
+            "notices": [
+                {
+                    "key": "uses_proton"
+                }
+            ],
+            "controllerNotSupported": true,
+            "internal_engine_name": "AlphaYellowWidescreenFixes"
         },
         {
             "engine_link": "https://github.com/ThirteenAG/WidescreenFixesPack",
