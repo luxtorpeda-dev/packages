@@ -9685,7 +9685,8 @@
                 {
                     "name": "AlphaYellowWidescreenFixes",
                     "url": "https://github.com/alphayellow1/AlphaYellowWidescreenFixes/releases/download/tomclancysrainbowsixlockdown/",
-                    "file": "Tom.Clancy.s.Rainbow.Six.Lockdown.-.FOV.Fix.v1.2.rar"
+                    "file": "Tom.Clancy.s.Rainbow.Six.Lockdown.-.FOV.Fix.v1.2.rar",
+                    "ignore_updates": true
                 }
             ],
             "choices": [
