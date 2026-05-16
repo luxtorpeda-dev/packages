@@ -27,7 +27,9 @@ git clone https://github.com/gabomdq/SDL_GameControllerDB.git sdl_gamecontroller
 
 # BUILD PHASE
 pushd "source"
-echo 'release/q2ded : LDFLAGS += -l:librt.a' > config.mk
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
 make -j "$(nproc)"
 popd
 
@@ -66,7 +68,7 @@ cp -v assets/default.lux.cfg "$diststart/common/dist/xatrix/yq2.cfg"
 cp -v source/stuff/icon/Quake2.svg "$diststart/common/dist/"
 cp -v sdl_gamecontrollerdb/gamecontrollerdb.txt "$diststart/common/dist/"
 
-cp -rfv "source/release/"* "$diststart/common/dist/"
+cp -rfv "source/build/Release/"* "$diststart/common/dist/"
 cp -rfv "source-ctf/build/Release/game.so" "$diststart/common/dist/ctf"
 cp -rfv "source-rogue/build/Release/game.so" "$diststart/common/dist/rogue"
 cp -rfv "source-xatrix/build/Release/game.so" "$diststart/common/dist/xatrix"
