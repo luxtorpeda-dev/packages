@@ -5643,7 +5643,7 @@
                 },
                 {
                     "name": "ons-bonus-map-pack",
-                    "url": "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/MapPacks/U/8/2/890295/",
+                    "url": "https://unreal-archive-files-na.s3.ca-east-tor.io.cloud.ovh.net/managed/Unreal%20Tournament%202004/patches-updates/bonus-packs/",
                     "file": "UT2004-ONSBonusMapPack.zip"
                 },
                 {
@@ -11844,7 +11844,7 @@
             "download": [
                 {
                     "name": "MadnessPatch",
-                    "url": "https://github.com/Wemino/MadnessPatch/releases/download/2.2.0/",
+                    "url": "https://github.com/Wemino/MadnessPatch/releases/download/2.2.1/",
                     "file": "MadnessPatch.zip"
                 }
             ],
@@ -13802,7 +13802,7 @@
         },
         {
             "engine_link": "github.com/Wemino/MadnessPatch",
-            "version": "2.2.0",
+            "version": "2.2.1",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
