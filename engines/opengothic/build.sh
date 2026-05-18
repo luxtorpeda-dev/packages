@@ -1,9 +1,5 @@
 #!/bin/bash
 
-wget https://sdk.lunarg.com/sdk/download/1.3.275.0/linux/vulkansdk-linux-x86_64-1.3.275.0.tar.xz
-tar xvf vulkansdk-linux-x86_64-1.3.275.0.tar.xz
-source 1.3.275.0/setup-env.sh
-
 sudo cp -r $VULKAN_SDK/include/vulkan/ /usr/local/include/
 sudo cp -P $VULKAN_SDK/lib/libvulkan.so* /usr/local/lib/
 sudo cp $VULKAN_SDK/lib/libVkLayer_*.so /usr/local/lib/
@@ -30,14 +26,10 @@ mkdir "$diststart/65540/dist/lib/"
 mkdir "$diststart/65540/dist/bin/"
 
 cp -rfv "source/build/opengothic/Gothic2Notr" "$diststart/65540/dist/bin/Gothic2Notr"
-cp -rfv "source/build/opengothic/Gothic2Notr.sh" "$diststart/65540/dist/Gothic2Notr.sh"
-cp -rfv source/build/opengothic/*.so* "$diststart/65540/dist/lib/"
 cp -rfv assets/run-gothic1.sh "$diststart/65540/dist/run-gothic1.sh"
 
 # Gothic 2
 mkdir "$diststart/39510/dist/lib/"
 mkdir "$diststart/39510/dist/bin/"
 cp -rfv "source/build/opengothic/Gothic2Notr" "$diststart/39510/dist/bin/Gothic2Notr"
-cp -rfv "source/build/opengothic/Gothic2Notr.sh" "$diststart/39510/dist/Gothic2Notr.sh"
-cp -rfv source/build/opengothic/*.so* "$diststart/39510/dist/lib/"
 cp -rfv assets/run-gothic2.sh "$diststart/39510/dist/run-gothic2.sh"
