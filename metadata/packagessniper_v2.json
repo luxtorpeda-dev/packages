@@ -5512,8 +5512,8 @@
             "download": [
                 {
                     "name": "commander-genius",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/commander-genius-8/",
-                    "file": "commander-genius-9180-8.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/commander-genius-9/",
+                    "file": "commander-genius-9180-9.tar.xz"
                 },
                 {
                     "name": "game-catalogue",
@@ -7511,8 +7511,8 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-55/",
-                    "file": "nblood-common-55.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-56/",
+                    "file": "nblood-common-56.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8179,8 +8179,8 @@
             "download": [
                 {
                     "name": "rednukem",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-54/",
-                    "file": "rednukem-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-55/",
+                    "file": "rednukem-common-55.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8265,8 +8265,8 @@
             "download": [
                 {
                     "name": "rednukem",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-54/",
-                    "file": "rednukem-common-54.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/rednukem-55/",
+                    "file": "rednukem-common-55.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8516,8 +8516,8 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-55/",
-                    "file": "nblood-common-55.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-56/",
+                    "file": "nblood-common-56.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -8567,8 +8567,8 @@
             "download": [
                 {
                     "name": "nblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-55/",
-                    "file": "nblood-common-55.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/nblood-56/",
+                    "file": "nblood-common-56.tar.xz",
                     "cache_by_name": true
                 },
                 {
@@ -10145,8 +10145,8 @@
                 },
                 {
                     "name": "exhumed",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-56/",
-                    "file": "exhumed-common-56.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/exhumed-57/",
+                    "file": "exhumed-common-57.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -12653,7 +12653,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14346",
+            "version": "r14347",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -13024,7 +13024,7 @@
         },
         {
             "engine_link": "https://gitlab.com/Dringgstein/Commander-Genius",
-            "version": "v3.6.2",
+            "version": "v3.6.3",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -13046,7 +13046,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14346",
+            "version": "r14347",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
@@ -13057,7 +13057,7 @@
         },
         {
             "engine_link": "https://github.com/nukeykt/NBlood",
-            "version": "r14346",
+            "version": "r14347",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
