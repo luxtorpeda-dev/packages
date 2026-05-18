@@ -1,9 +1,5 @@
 #!/bin/bash
 
-wget https://sdk.lunarg.com/sdk/download/1.3.275.0/linux/vulkansdk-linux-x86_64-1.3.275.0.tar.xz
-tar xvf vulkansdk-linux-x86_64-1.3.275.0.tar.xz
-source 1.3.275.0/setup-env.sh
-
 sudo cp -r $VULKAN_SDK/include/vulkan/ /usr/local/include/
 sudo cp -P $VULKAN_SDK/lib/libvulkan.so* /usr/local/lib/
 sudo cp $VULKAN_SDK/lib/libVkLayer_*.so /usr/local/lib/
