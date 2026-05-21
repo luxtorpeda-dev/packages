@@ -8962,7 +8962,7 @@
             "download": [
                 {
                     "name": "markerpatch",
-                    "url": "https://github.com/Wemino/MarkerPatch/releases/download/2.1.0/",
+                    "url": "https://github.com/Wemino/MarkerPatch/releases/download/2.2.0/",
                     "file": "MarkerPatch.zip"
                 }
             ],
@@ -14505,7 +14505,7 @@
         },
         {
             "engine_link": "https://github.com/Wemino/MarkerPatch",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
