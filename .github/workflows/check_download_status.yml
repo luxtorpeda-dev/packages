@@ -47,6 +47,8 @@ jobs:
         newTag: ${{ matrix.newTag }}
         oldTag: ${{ matrix.oldTag }}
         updateDownloads: true
+        oldFile: ${{ matrix.oldFile }}
+        newFile: ${{ matrix.newFile }}
 
     - uses: actions/create-github-app-token@v3
       if: ${{ matrix.type == 'new_release' }}
