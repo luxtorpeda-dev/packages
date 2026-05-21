@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v6
     - name: Find Engine Names
       id: findname
-      uses: luxtorpeda-dev/action-build-get-engine-name@master
+      uses: luxtorpeda-dev/actions/build-get-engine-name@main
       with:
           token: ${{ secrets.GITHUB_TOKEN }}  
   build:
@@ -77,7 +77,7 @@ jobs:
           name: dist-${{ matrix.engine }}
       - name: Generate Matrix
         id: matrix
-        uses: luxtorpeda-dev/action-build-generate-file-matrix@master
+        uses: luxtorpeda-dev/actions/build-generate-file-matrix@main
         with:
           name: ${{matrix.engine}}
       - name: Save matrix JSON to file
@@ -179,7 +179,7 @@ jobs:
           cat matrix.json >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
       - name: Update packagessniper_v2.json
-        uses: luxtorpeda-dev/action-build-update-packages@master
+        uses: luxtorpeda-dev/actions/build-update-packages@main
         with:
           matrix: ${{ steps.vars.outputs.matrix_json }}
           version: ${{ steps.vars.outputs.build_number }}
@@ -193,12 +193,12 @@ jobs:
           git push
       - name: Generate Packages Runtime Hash
         id: generatehash
-        uses: luxtorpeda-dev/action-build-generate-sha1-hash@master
+        uses: luxtorpeda-dev/actions/build-generate-sha1-hash@main
         with:
           file: metadata/packagessniper_v2.json
       - name: Generate Packages Hash 256
         id: generatehash256
-        uses: luxtorpeda-dev/action-build-generate-sha256-hash@main
+        uses: luxtorpeda-dev/actions/build-generate-sha256-hash@main
         with:
           file: metadata/packagessniper_v2.json
       - name: Write Packages Hash
