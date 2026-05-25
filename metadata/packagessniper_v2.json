@@ -5628,8 +5628,8 @@
                 },
                 {
                     "name": "foxWSFix",
-                    "url": "https://github.com/alexstrout/foxWSFix-UT2k4/releases/download/v2.2.0/",
-                    "file": "foxWSFix-v2.2.0.7z"
+                    "url": "https://github.com/alexstrout/foxWSFix-UT2k4/releases/download/v2.3.0/",
+                    "file": "foxWSFix-v2.3.0.7z"
                 },
                 {
                     "name": "binaries",
@@ -8962,7 +8962,7 @@
             "download": [
                 {
                     "name": "markerpatch",
-                    "url": "https://github.com/Wemino/MarkerPatch/releases/download/2.2.0/",
+                    "url": "https://github.com/Wemino/MarkerPatch/releases/download/2.3.0/",
                     "file": "MarkerPatch.zip"
                 }
             ],
@@ -14505,7 +14505,7 @@
         },
         {
             "engine_link": "https://github.com/Wemino/MarkerPatch",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
