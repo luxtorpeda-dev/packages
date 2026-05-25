@@ -11063,7 +11063,7 @@
                 {
                     "name": "dreamm-binaries",
                     "url": "https://dreamm.aarongiles.com/releases/",
-                    "file": "dreamm-3.0.3-linux-x64.tgz",
+                    "file": "dreamm-3.1.0-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
@@ -11084,7 +11084,7 @@
                 {
                     "name": "dreamm-binaries",
                     "url": "https://dreamm.aarongiles.com/releases/",
-                    "file": "dreamm-3.0.3-linux-x64.tgz",
+                    "file": "dreamm-3.1.0-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
@@ -11126,7 +11126,7 @@
                 {
                     "name": "dreamm-binaries",
                     "url": "https://dreamm.aarongiles.com/releases/",
-                    "file": "dreamm-3.0.3-linux-x64.tgz",
+                    "file": "dreamm-3.1.0-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
@@ -11193,7 +11193,7 @@
                 {
                     "name": "dreamm-binaries",
                     "url": "https://dreamm.aarongiles.com/releases/",
-                    "file": "dreamm-3.0.3-linux-x64.tgz",
+                    "file": "dreamm-3.1.0-linux-x64.tgz",
                     "cache_by_name": true
                 },
                 {
@@ -11508,8 +11508,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.3/",
-                    "file": "MGSHDFix_3.0.3.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.1.0/",
+                    "file": "MGSHDFix_3.1.0.zip"
                 }
             ],
             "choices": [
@@ -11565,8 +11565,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.3/",
-                    "file": "MGSHDFix_3.0.3.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.1.0/",
+                    "file": "MGSHDFix_3.1.0.zip"
                 }
             ],
             "choices": [
@@ -11622,8 +11622,8 @@
             "download": [
                 {
                     "name": "MGSHDFix",
-                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.0.3/",
-                    "file": "MGSHDFix_3.0.3.zip"
+                    "url": "https://github.com/Lyall/MGSHDFix/releases/download/3.1.0/",
+                    "file": "MGSHDFix_3.1.0.zip"
                 }
             ],
             "choices": [
@@ -14409,7 +14409,7 @@
         },
         {
             "engine_link": "https://github.com/Lyall/MGSHDFix",
-            "version": "3.0.3",
+            "version": "3.1.0",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
@@ -14982,7 +14982,7 @@
             {
                 "name": "dreamm-binaries",
                 "url": "https://dreamm.aarongiles.com/releases/",
-                "file": "dreamm-3.0.3-linux-x64.tgz",
+                "file": "dreamm-3.1.0-linux-x64.tgz",
                 "cache_by_name": true
             },
             {
